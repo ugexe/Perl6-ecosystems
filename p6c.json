@@ -23,5 +23,17 @@
       "Ethan House",
       "Tobias Leich"
     ]
+  },
+  {
+    "name" : "JSON::Tiny",
+    "source-url" : "git://github.com/moritz/json.git",
+    "provides" : {
+      "JSON::Tiny::Actions" : "lib/JSON/Tiny/Actions.pm",
+      "JSON::Tiny" : "lib/JSON/Tiny.pm",
+      "JSON::Tiny::Grammar" : "lib/JSON/Tiny/Grammar.pm"
+    },
+    "depends" : [ ],
+    "description" : "A minimal JSON (de)serializer",
+    "version" : "*"
   }
 ]
