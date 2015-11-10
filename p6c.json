@@ -1417,7 +1417,7 @@
     },
     "depends" : [ ],
     "description" : "MaxMind GeoIP City library interface",
-    "version" : "0.4"
+    "version" : "0.5"
   },
   {
     "name" : "Benchmark",
@@ -2170,6 +2170,21 @@
     "version" : "1.0.0"
   },
   {
+    "name" : "Web::RF",
+    "source-url" : "git://github.com/retupmoca/P6-Web-RF.git",
+    "author" : "github:retupmoca",
+    "provides" : {
+      "Web::RF" : "lib/Web/RF.pm6"
+    },
+    "depends" : [
+      "Crust",
+      "URI::Escape",
+      "Path::Router"
+    ],
+    "description" : "Web Application Routing Framework",
+    "version" : "1.0.0"
+  },
+  {
     "name" : "Test::Junkie",
     "source-url" : "git://github.com/colomon/Test-Junkie.git",
     "depends" : [ ],
@@ -2259,7 +2274,7 @@
       "Test"
     ],
     "description" : "Create temporary files",
-    "version" : "0.01"
+    "version" : "0.0.2"
   },
   {
     "name" : "Typed::Subroutines",
@@ -2888,7 +2903,7 @@
       "JSON::Tiny"
     ],
     "description" : "Perl 6 grammars for parsing PDF Content Streams and File Structure",
-    "version" : "0.02"
+    "version" : "0.03"
   },
   {
     "name" : "File::Compare",
@@ -3546,7 +3561,7 @@
       "JSON::Tiny"
     ],
     "description" : "Turn JSON into objects",
-    "version" : "0.01"
+    "version" : "0.02"
   },
   {
     "name" : "sake",
@@ -4139,15 +4154,42 @@
     "source-url" : "git://github.com/leont/tap-harness6.git",
     "author" : "Leon Timmermans",
     "provides" : {
-      "TAP::Generator" : "lib/TAP/Generator.pm6",
+      "TAP::Collector" : "lib/TAP.pm6",
       "Test::Stream" : "lib/Test/Stream.pm6",
-      "TAP::Formatter" : "lib/TAP/Formatter.pm6",
-      "TAP::Result" : "lib/TAP/Result.pm6",
-      "TAP::Parser" : "lib/TAP/Parser.pm6",
-      "TAP::Entry" : "lib/TAP/Entry.pm6",
+      "TAP::Formatter" : "lib/TAP.pm6",
+      "TAP::Action" : "lib/TAP.pm6",
+      "TAP::Session" : "lib/TAP.pm6",
+      "TAP::Harness::SourceHandler::Exec" : "lib/TAP.pm6",
+      "TAP::Runner::Source::String" : "lib/TAP.pm6",
+      "TAP::Reporter" : "lib/TAP.pm6",
+      "TAP::Output" : "lib/TAP.pm6",
+      "TAP::Entry::Version" : "lib/TAP.pm6",
+      "TAP::Grammar" : "lib/TAP.pm6",
+      "TAP::Entry::Unknown" : "lib/TAP.pm6",
+      "TAP::Runner::Async" : "lib/TAP.pm6",
+      "TAP::Runner::Source::Through" : "lib/TAP.pm6",
+      "TAP::Runner::Source::File" : "lib/TAP.pm6",
+      "TAP::Reporter::Text" : "lib/TAP.pm6",
+      "TAP::Aggregator" : "lib/TAP.pm6",
+      "TAP::Result" : "lib/TAP.pm6",
+      "TAP::EntryHandler::Multi" : "lib/TAP.pm6",
+      "TAP::Entry::Sub-Test" : "lib/TAP.pm6",
+      "TAP::Entry::Test" : "lib/TAP.pm6",
+      "TAP::Parser" : "lib/TAP.pm6",
+      "TAP::Entry::Handler" : "lib/TAP.pm6",
+      "TAP::Entry::Plan" : "lib/TAP.pm6",
+      "TAP::Entry" : "lib/TAP.pm6",
       "Test::Event" : "lib/Test/Event.pm6",
+      "TAP::Harness::SourceHandler::Perl6" : "lib/TAP.pm6",
+      "TAP::Runner::Sync" : "lib/TAP.pm6",
+      "TAP::Reporter::Console" : "lib/TAP.pm6",
+      "TAP::Entry::YAML" : "lib/TAP.pm6",
+      "TAP::Entry::Comment" : "lib/TAP.pm6",
+      "TAP::Entry::Bailout" : "lib/TAP.pm6",
       "Test::More" : "lib/Test/More.pm6",
-      "TAP::Harness" : "lib/TAP/Harness.pm6"
+      "TAP::Harness" : "lib/TAP.pm6",
+      "TAP::Runner::Source::Proc" : "lib/TAP.pm6",
+      "TAP" : "lib/TAP.pm6"
     },
     "depends" : [ ],
     "description" : "TAP harness for perl6",
@@ -6850,10 +6892,13 @@
     "source-url" : "git://github.com/Skarsnik/perl6-gumbo.git",
     "author" : "Sylvain Colinet",
     "provides" : {
+      "Gumbo::Parser" : "lib/Gumbo/Parser.pm6",
+      "Gumbo::Binding" : "lib/Gumbo/Binding.pm6",
       "Gumbo" : "lib/Gumbo.pm6"
     },
     "depends" : [
-      "XML"
+      "XML",
+      "HTML::Parser"
     ],
     "description" : "Binding of the gumbo C library, a html parser lib",
     "version" : "*"
@@ -6867,6 +6912,7 @@
     "owner" : "ugexe",
     "perl" : "v6.0.0",
     "provides" : {
+      "Net::HTTP::POST" : "lib/Net/HTTP/POST.pm6",
       "Net::HTTP::URL" : "lib/Net/HTTP/URL.pm6",
       "Net::HTTP::Response" : "lib/Net/HTTP/Response.pm6",
       "Net::HTTP::Utils" : "lib/Net/HTTP/Utils.pm6",
@@ -7028,7 +7074,8 @@
     },
     "auth" : "github:jonathanstowe",
     "depends" : [
-      "JSON::Tiny"
+      "JSON::Tiny",
+      "JSON::Name"
     ],
     "description" : "Simple serialisation of objects to JSON",
     "test-depends" : [
@@ -7039,7 +7086,7 @@
       "serialisation",
       "JSON"
     ],
-    "version" : "v0.0.1",
+    "version" : "v0.0.3",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
@@ -7101,7 +7148,7 @@
       "serialisation",
       "JSON"
     ],
-    "version" : "v0.0.1",
+    "version" : "v0.0.2",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
@@ -7119,5 +7166,188 @@
     ],
     "description" : "POSIX - Perl interface to IEEE Std 1003.1",
     "version" : "0.1.1"
+  },
+  {
+    "name" : "Business::CreditCard",
+    "source-url" : "git://github.com/fayland/perl6-Business-CreditCard.git",
+    "author" : "github:fayland",
+    "provides" : {
+      "Business::CreditCard" : "lib/Business/CreditCard.pm"
+    },
+    "depends" : [ ],
+    "description" : "Validate/generate credit card checksums/names",
+    "version" : "0.1.0"
+  },
+  {
+    "name" : "RPi",
+    "source-url" : "https://github.com/cspencer/perl6-raspberry-pi.git",
+    "author" : "Cory Spencer",
+    "provides" : {
+      "RPi::GPIO" : "lib/RPi/GPIO.pm6",
+      "RPi::Wiring" : "lib/RPi/Wiring.pm6",
+      "RPi" : "lib/RPi.pm6",
+      "RPi::GPIO::Pin" : "lib/RPi/GPIO/Pin.pm6"
+    },
+    "depends" : [
+      "POSIX"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "RPi - An interface to the Raspberry Pi's GPIO and other peripherals",
+    "version" : "0.1.0"
+  },
+  {
+    "resource" : { },
+    "name" : "META6",
+    "source-url" : "git://github.com/jonathanstowe/META6.git",
+    "perl" : "6",
+    "support" : {
+      "email" : null,
+      "phone" : null,
+      "irc" : null,
+      "source" : "git://github.com/jonathanstowe/META6.git",
+      "bugtracker" : null,
+      "mailinglist" : null
+    },
+    "excludes" : { },
+    "build-depends" : [ ],
+    "superseded-by" : { },
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "META6" : "lib/META6.pm"
+    },
+    "depends" : [
+      "JSON::Class"
+    ],
+    "description" : "Work with Perl 6 META files",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "devel",
+      "meta",
+      "utils"
+    ],
+    "version" : "0.0.1",
+    "production" : false,
+    "emulates" : { },
+    "supersedes" : { },
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "Test::META",
+    "source-url" : "git://github.com/jonathanstowe/Test-META.git",
+    "perl" : "6",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Test-META.git"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "Test::META" : "lib/Test/META.pm"
+    },
+    "depends" : [
+      "Test",
+      "META6"
+    ],
+    "description" : "Test a distributions META file",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "devel",
+      "meta",
+      "utils",
+      "testing"
+    ],
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "Net::FTP",
+    "source-url" : "https://github.com/araraloren/Net-FTP/",
+    "author" : "loren",
+    "provides" : {
+      "Net::FTP::Format" : "lib/Net/FTP/Format.pm6",
+      "Net::FTP::Conn" : "lib/Net/FTP/Conn.pm6",
+      "Net::FTP::Buffer" : "lib/Net/FTP/Buffer.pm6",
+      "Net::FTP::System" : "lib/Net/FTP/System.pm6",
+      "Net::FTP::Control" : "lib/Net/FTP/Control.pm6",
+      "Net::FTP::Config" : "lib/Net/FTP/Config.pm6",
+      "Net::FTP::Transfer" : "lib/Net/FTP/Transfer.pm6",
+      "Net::FTP" : "lib/Net/FTP.pm6"
+    },
+    "depends" : [ ],
+    "description" : "A ftp client written in perl6",
+    "version" : "0.6.0"
+  },
+  {
+    "name" : "Algorithm::Trie::libdatrie",
+    "perl" : "v6",
+    "source-url" : "git://github.com/zengargoyle/p6-Algorithm-Trie-libdatrie.git",
+    "build-depends" : [ ],
+    "provides" : {
+      "Algorithm::Trie::libdatrie" : "lib/Algorithm/Trie/libdatrie.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "description" : "a character keyed trie using the datrie library.",
+    "version" : "0.1",
+    "authors" : [
+      "zengargoyle"
+    ]
+  },
+  {
+    "name" : "JSON::Name",
+    "perl" : "v6",
+    "source-url" : "git://github.com/jonathanstowe/JSON-Name.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/JSON-Name.git"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "JSON::Name" : "lib/JSON/Name.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "description" : "Provides a trait to store an alternative JSON Name",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "object",
+      "serialisation",
+      "JSON"
+    ],
+    "version" : "v0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "Search::Dict",
+    "perl" : "v6",
+    "source-url" : "git://github.com/zengargoyle/p6-Search-Dict.git",
+    "build-depends" : [ ],
+    "provides" : {
+      "Search::Dict" : "lib/Search/Dict.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "a fast binary search of dictionary like files",
+    "version" : "0.1",
+    "authors" : [
+      "zengargoyle"
+    ]
   }
 ]
