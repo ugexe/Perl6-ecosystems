@@ -7349,5 +7349,27 @@
     "authors" : [
       "zengargoyle"
     ]
+  },
+  {
+    "name" : "Pod::Coverage",
+    "source-url" : "git://github.com/teodozjan/pod6-coverage.git",
+    "author" : "github:teodozjan",
+    "provides" : {
+      "Pod::Coverage" : "lib/Pod/Coverage.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Pod coverage library",
+    "version" : "*"
+  },
+  {
+    "name" : "Text::Markdown::Discount",
+    "source-url" : "git://github.com/hartenfels/Text-Markdown-Discount.git",
+    "author" : "Carsten Hartenfels",
+    "provides" : {
+      "Text::Markdown::Discount" : "lib/Text/Markdown/Discount.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Markdown to HTML using the Discount C library.",
+    "version" : "0.2.4"
   }
 ]
