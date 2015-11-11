@@ -5116,6 +5116,21 @@
     "version" : "*"
   },
   {
+    "name" : "Image::PNG::Inflated",
+    "support" : {
+      "source" : "https://github.com/cygx/p6-image-png-inflated",
+      "bugtracker" : "https://github.com/cygx/p6-image-png-inflated/issues"
+    },
+    "source-url" : "git://github.com/cygx/p6-image-png-inflated.git",
+    "author" : "cygx <cygx@cpan.org>",
+    "provides" : {
+      "Image::PNG::Inflated" : "lib/Image/PNG/Inflated.pm"
+    },
+    "depends" : [ ],
+    "description" : "Creates uncompressed PNG images",
+    "version" : "*"
+  },
+  {
     "name" : "Native::LibC",
     "source-url" : "git://github.com/cygx/p6-native-libc.git",
     "support" : {
@@ -7371,5 +7386,15 @@
     "depends" : [ ],
     "description" : "Markdown to HTML using the Discount C library.",
     "version" : "0.2.4"
+  },
+  {
+    "name" : "Crypt::RC4",
+    "source-url" : "git://github.com/p6-pdf/perl6-Crypt-RC4.git",
+    "provides" : {
+      "Crypt::RC4" : "lib/Crypt/RC4.pm"
+    },
+    "depends" : [ ],
+    "description" : "Perl 6 implementation of the RC4 encryption algorithm",
+    "version" : "0.01"
   }
 ]
