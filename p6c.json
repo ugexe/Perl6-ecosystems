@@ -6462,16 +6462,18 @@
     "owner" : "ugexe",
     "perl" : "v6.0.0",
     "provides" : {
-      "Grammar::URI::RFC4234" : "lib/Grammar/URI/RFC4234.pm6",
       "Grammar::HTTP::RFC7235" : "lib/Grammar/HTTP/RFC7235.pm6",
       "Grammar::HTTP::RFC7232" : "lib/Grammar/HTTP/RFC7232.pm6",
       "Grammar::HTTP::RFC3066" : "lib/Grammar/HTTP/RFC3066.pm6",
       "Grammar::HTTP::RFC6265" : "lib/Grammar/HTTP/RFC6265.pm6",
       "Grammar::HTTP::Actions" : "lib/Grammar/HTTP/Actions.pm6",
+      "Grammar::IETF::ABNF::RFC5234" : "lib/Grammar/IETF/ABNF/RFC5234.pm6",
+      "Grammar::IETF::ABNF::RFC4234" : "lib/Grammar/IETF/ABNF/RFC4234.pm6",
       "Grammar::URI::RFC3986" : "lib/Grammar/URI/RFC3986.pm6",
       "Grammar::HTTP::RFC7234" : "lib/Grammar/HTTP/RFC7234.pm6",
       "Grammar::HTTP::RFC7233" : "lib/Grammar/HTTP/RFC7233.pm6",
       "Grammar::HTTP" : "lib/Grammar/HTTP.pm6",
+      "Grammar::IETF::ABNF::RFC7405" : "lib/Grammar/IETF/ABNF/RFC7405.pm6",
       "Grammar::HTTP::RFC7230" : "lib/Grammar/HTTP/RFC7230.pm6",
       "Grammar::HTTP::RFC6854" : "lib/Grammar/HTTP/RFC6854.pm6",
       "Grammar::HTTP::RFC4647" : "lib/Grammar/HTTP/RFC4647.pm6",
@@ -6486,7 +6488,8 @@
     "description" : "HTTP request, response, and message body parsing grammar",
     "version" : "*",
     "authors" : [
-      "ugexe"
+      "Nick Logan",
+      "Mike Francis"
     ]
   },
   {
