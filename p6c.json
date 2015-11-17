@@ -1838,7 +1838,9 @@
       "Auth::PAM::Simple" : "lib/Auth/PAM/Simple.pm6"
     },
     "depends" : [
-      "LibraryMake"
+      "LibraryMake",
+      "Find::Bundled",
+      "Pod::Coverage"
     ],
     "description" : "Simple PAM authentication",
     "version" : "1.0.0"
@@ -1850,7 +1852,9 @@
     "provides" : {
       "LibraryMake" : "lib/LibraryMake.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "Pod::Coverage"
+    ],
     "test-depends" : [
       "Shell::Command"
     ],
@@ -2903,7 +2907,7 @@
       "JSON::Tiny"
     ],
     "description" : "Perl 6 grammars for parsing PDF Content Streams and File Structure",
-    "version" : "0.03"
+    "version" : "0.04"
   },
   {
     "name" : "File::Compare",
@@ -3315,8 +3319,12 @@
     "test-depends" : [
       "Test"
     ],
-    "description" : "A naive, but hopefully fast json parser; drop-in replacement for JSON::Tiny",
-    "version" : "v0.2"
+    "description" : "A naive, fast json parser and serializer; drop-in replacement for JSON::Tiny",
+    "version" : "v0.3",
+    "authors" : [
+      "Timo Paulssen",
+      "Tony O'Dell"
+    ]
   },
   {
     "source-type" : "git",
@@ -3466,7 +3474,7 @@
     "auth" : "auth:tony-o",
     "depends" : [ ],
     "description" : "Parses CSV files, duh",
-    "version" : "0.1.1"
+    "version" : "0.1.2"
   },
   {
     "name" : "Questhub",
@@ -3558,10 +3566,11 @@
       "JSON::Unmarshal" : "lib/JSON/Unmarshal.pm"
     },
     "depends" : [
-      "JSON::Tiny"
+      "JSON::Tiny",
+      "JSON::Name"
     ],
     "description" : "Turn JSON into objects",
-    "version" : "0.02"
+    "version" : "0.03"
   },
   {
     "name" : "sake",
@@ -4147,7 +4156,7 @@
     },
     "depends" : [ ],
     "description" : "Basic Geometric Algebra.",
-    "version" : "1.2.0"
+    "version" : "2.0.0"
   },
   {
     "name" : "TAP::Harness",
@@ -5131,6 +5140,21 @@
     "version" : "*"
   },
   {
+    "name" : "Image::RGBA::Text",
+    "support" : {
+      "source" : "https://github.com/cygx/p6-image-rgba-text",
+      "bugtracker" : "https://github.com/cygx/p6-image-rgba-text/issues"
+    },
+    "source-url" : "git://github.com/cygx/p6-image-rgba-text.git",
+    "author" : "cygx <cygx@cpan.org>",
+    "provides" : {
+      "Image::RGBA::Text" : "lib/Image/RGBA/Text.pm"
+    },
+    "depends" : [ ],
+    "description" : "Reads RGBA image data from text files",
+    "version" : "*"
+  },
+  {
     "name" : "Native::LibC",
     "source-url" : "git://github.com/cygx/p6-native-libc.git",
     "support" : {
@@ -5372,7 +5396,7 @@
     },
     "depends" : [ ],
     "description" : "Interface to Adobe Font Metrics files",
-    "version" : "1.23.1"
+    "version" : "1.23.2"
   },
   {
     "name" : "HTTP::Headers",
@@ -6001,23 +6025,6 @@
     "version" : "0.0.1"
   },
   {
-    "name" : "JSON::Faster",
-    "source-url" : "git://github.com/tony-o/perl6-json-faster.git",
-    "support" : {
-      "bugtracker" : "https://github.com/tony-o/perl6-json-faster/issues"
-    },
-    "perl" : "v6.0.0",
-    "auth" : "github:tony-o",
-    "provides" : {
-      "JSON::Faster" : "lib/JSON/Faster.pm6"
-    },
-    "description" : "[Much] faster to-json function.",
-    "version" : "*",
-    "authors" : [
-      "Tony O'Dell"
-    ]
-  },
-  {
     "name" : "Acme::Flutterby",
     "source-url" : "https://github.com/byterock/Acme-Flutterby.git",
     "author" : "John Scoles",
@@ -6128,6 +6135,9 @@
       "Green" : "lib/Green.pm6"
     },
     "auth" : "github:tony-o",
+    "depends" : [
+      "Terminal::ANSIColor"
+    ],
     "description" : "Parallel testing utility, it's really great",
     "version" : "0.1.0",
     "authors" : [
@@ -7314,7 +7324,11 @@
     "provides" : {
       "Algorithm::Trie::libdatrie" : "lib/Algorithm/Trie/libdatrie.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "LibraryCheck",
+      "LibraryMake",
+      "Find::Bundled"
+    ],
     "test-depends" : [
       "File::Temp"
     ],
@@ -7373,9 +7387,13 @@
     "source-url" : "git://github.com/teodozjan/pod6-coverage.git",
     "author" : "github:teodozjan",
     "provides" : {
-      "Pod::Coverage" : "lib/Pod/Coverage.pm6"
+      "Test::Coverage" : "lib/Test/Coverage.pm6",
+      "Pod::Coverage" : "lib/Pod/Coverage.pm6",
+      "Pod::To::Keywords" : "lib/Pod/To/Keywords.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "JSON::Tiny"
+    ],
     "description" : "Pod coverage library",
     "version" : "*"
   },
@@ -7399,5 +7417,175 @@
     "depends" : [ ],
     "description" : "Perl 6 implementation of the RC4 encryption algorithm",
     "version" : "0.01"
+  },
+  {
+    "name" : "WebService::HazIP",
+    "source-url" : "git://github.com/cbk/WebService-HazIP",
+    "author" : "Michael",
+    "provides" : {
+      "WebService::HazIP" : "lib/WebService/HazIP.pm6"
+    },
+    "depends" : [
+      "LWP::Simple"
+    ],
+    "description" : "Simple web service client that queries the canihazip.com web site, to obtain the host's public facing IP address.",
+    "version" : "1.0.0"
+  },
+  {
+    "name" : "JSON::Infer",
+    "perl" : "v6",
+    "source-url" : "git://github.com/jonathanstowe/JSON-Infer.git",
+    "support" : {
+      "irc" : "irc:// irc.freenode.net/#perl6",
+      "source" : "git://github.com/jonathanstowe/JSON-Infer.git",
+      "bugtracker" : "https://github.com/jonathanstowe/JSON-Infer/issues"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "JSON::Infer::Role::Types" : "lib/JSON/Infer/Role/Types.pm",
+      "JSON::Infer::Role::Entity" : "lib/JSON/Infer/Role/Entity.pm",
+      "JSON::Infer::Attribute" : "lib/JSON/Infer/Attribute.pm",
+      "JSON::Infer::Exception" : "lib/JSON/Infer/Exception.pm",
+      "JSON::Infer::Class" : "lib/JSON/Infer/Class.pm",
+      "JSON::Infer::Role::Classes" : "lib/JSON/Infer/Role/Classes.pm",
+      "JSON::Infer" : "lib/JSON/Infer.pm",
+      "JSON::Infer::Type" : "lib/JSON/Infer/Type.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "JSON::Tiny",
+      "HTTP::UserAgent",
+      "JSON::Class",
+      "JSON::Name"
+    ],
+    "description" : "Infer Perl 6 Classes from JSON input",
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "object",
+      "serialisation",
+      "JSON"
+    ],
+    "version" : "v0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "Lingua::EN::Conjugate",
+    "source-url" : "https://github.com/kolikov/perl6-Lingua-EN-Conjugate.git",
+    "author" : "Romuald Nuguet",
+    "provides" : {
+      "Lingua::EN::Conjugate" : "lib/Lingua/EN/Conjugate/Conjugate.pm6"
+    },
+    "depends" : [ ],
+    "description" : "A module that conjugates English verbs",
+    "version" : "0.1"
+  },
+  {
+    "name" : "Config::Simple",
+    "source-url" : "git://github.com/Skarsnik/perl6-config-simple.git",
+    "perl" : "v6",
+    "author" : "Sylvain Colinet",
+    "provides" : {
+      "Config::Simple::ini" : "lib/Config/Simple/ini.pm6",
+      "Config::Simple::Role" : "lib/Config/Simple/Role.pm6",
+      "Config::Simple" : "lib/Config/Simple.pm6",
+      "Config::Simple::JSON" : "lib/Config/Simple/JSON.pm6"
+    },
+    "depends" : [
+      "JSON::Pretty",
+      "Config::INI",
+      "Data::Dump"
+    ],
+    "description" : "A simple module for your configuration file need",
+    "version" : "*"
+  },
+  {
+    "name" : "Hydrate",
+    "source-url" : "git://github.com/vendethiel/hydrate6.git",
+    "perl" : "v6",
+    "author" : "vendethiel",
+    "provides" : {
+      "Hydrate" : "lib/Hydrate.pm"
+    },
+    "depends" : [ ],
+    "description" : "A simple hydration module",
+    "version" : "*"
+  },
+  {
+    "name" : "Terminal::WCWidth",
+    "source-url" : "git://github.com/bluebear94/Terminal-WCWidth.git",
+    "author" : "Tae Lim Kook",
+    "provides" : {
+      "Terminal::WCWidth" : "lib/Terminal/WCWidth.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Returns what the character width should be on the terminal.",
+    "version" : "0.1.0"
+  },
+  {
+    "name" : "Compress::Brotli",
+    "source-url" : "git://github.com/sylvarant/Compress-Brotli.git",
+    "author" : "sylvarant",
+    "provides" : {
+      "Compress::Brotli" : "lib/Compress/Brotli.pm"
+    },
+    "depends" : [
+      "NativeCall",
+      "LibraryMake"
+    ],
+    "description" : "Brotli compression using NativeCall",
+    "version" : "0.1.0"
+  },
+  {
+    "name" : "URI::Template",
+    "perl" : "v6",
+    "source-url" : "git://github.com/jonathanstowe/URI-Template.git",
+    "support" : {
+      "irc" : "irc:// irc.freenode.net/#perl6",
+      "source" : "git://github.com/jonathanstowe/URI-Template.git",
+      "bugtracker" : "https://github.com/jonathanstowe/URI-Template/issues"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "URI::Template" : "lib/URI/Template.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "URI::Encode"
+    ],
+    "description" : "URI Templates as per https://tools.ietf.org/html/rfc6570",
+    "test-depends" : [
+      "JSON::Tiny",
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "URI",
+      "URL",
+      "Template",
+      "RFC"
+    ],
+    "version" : "v0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "NativeCall::TypeDiag",
+    "source-url" : "git://github.com/Skarsnik/nativecall-typediag.git",
+    "perl" : "v6",
+    "author" : "Sylvain Colinet",
+    "provides" : {
+      "Gumbo" : "lib/NativeCall/TypeDiag.pm6"
+    },
+    "depends" : [ ],
+    "description" : "A module to look at your nativecall types, like class A is repr('CStruct')",
+    "version" : "*"
   }
 ]
