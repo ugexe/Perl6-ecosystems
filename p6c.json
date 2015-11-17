@@ -7587,5 +7587,21 @@
     "depends" : [ ],
     "description" : "A module to look at your nativecall types, like class A is repr('CStruct')",
     "version" : "*"
+  },
+  {
+    "name" : "Color",
+    "source-url" : "git://github.com/zoffixznet/perl6-Color.git",
+    "authority" : "zoffixznet",
+    "author" : "Zoffix Znet",
+    "provides" : {
+      "Color::Operators" : "lib/Color/Operators.pm6",
+      "Color" : "lib/Color.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Format conversion, manipulation, and math operations on colours",
+    "version" : "1.001001"
   }
 ]
