@@ -2904,10 +2904,10 @@
       "PDF::Grammar::Doc::Actions" : "lib/PDF/Grammar/Doc/Actions.pm"
     },
     "depends" : [
-      "JSON::Tiny"
+      "JSON::Fast"
     ],
     "description" : "Perl 6 grammars for parsing PDF Content Streams and File Structure",
-    "version" : "0.04"
+    "version" : "0.05"
   },
   {
     "name" : "File::Compare",
@@ -7616,5 +7616,20 @@
     "authors" : [
       "github:teodozjan"
     ]
+  },
+  {
+    "name" : "Operators::Math::Superscripts",
+    "source-url" : "git://github.com/zoffixznet/perl6-Operators-Math-Superscripts.git",
+    "authority" : "zoffixznet",
+    "author" : "Zoffix Znet",
+    "provides" : {
+      "Operators::Math::Superscripts" : "lib/Operators/Math/Superscripts.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Superscript numerical operators for raising to powers",
+    "version" : "1.001002"
   }
 ]
