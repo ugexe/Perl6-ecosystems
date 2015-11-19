@@ -2802,7 +2802,7 @@
     },
     "depends" : [ ],
     "description" : "Pure perl6 implementation of digest algorigthms.",
-    "version" : "0.3.2"
+    "version" : "0.3.4"
   },
   {
     "name" : "Coroutines",
@@ -7603,5 +7603,18 @@
     ],
     "description" : "Format conversion, manipulation, and math operations on colours",
     "version" : "1.001001"
+  },
+  {
+    "name" : "path-coverage",
+    "source-url" : "git://github.com/teodozjan/path6-coverage.git",
+    "provides" : { },
+    "depends" : [
+      "File::Find"
+    ],
+    "description" : "Checks whether package name equals with module path",
+    "version" : "*",
+    "authors" : [
+      "github:teodozjan"
+    ]
   }
 ]
