@@ -7469,7 +7469,7 @@
       "serialisation",
       "JSON"
     ],
-    "version" : "v0.0.1",
+    "version" : "v0.0.2",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
@@ -7687,5 +7687,24 @@
     ],
     "description" : "Low level tools for reading, writing and manipulation of PDF files",
     "version" : "0.1"
+  },
+  {
+    "name" : "HTTP::Signature",
+    "source-url" : "git@github.com:pierre-vigier/Perl6-HTTP-Signature.git",
+    "author" : "github:pierre-vigier",
+    "provides" : {
+      "HTTP::Signature" : "lib/HTTP/Signature.pm6"
+    },
+    "depends" : [
+      "DateTime::Format",
+      "Digest::HMAC",
+      "Digest::SHA",
+      "Digest",
+      "MIME::Base64",
+      "OpenSSL::RSATools",
+      "HTTP::UserAgent"
+    ],
+    "description" : "HTTP Signature utility",
+    "version" : "0.1.1"
   }
 ]
