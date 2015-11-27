@@ -1395,9 +1395,13 @@
       "BSON::Bson" : "lib/BSON.pm6",
       "BSON::Regex" : "lib/BSON/Regex.pm6",
       "BSON::Javascript" : "lib/BSON/Javascript.pm6",
+      "BSON::Document" : "lib/BSON/Document.pm6",
       "BSON::EDCTools" : "lib/BSON/EDCTools.pm6",
       "BSON::ObjectId" : "lib/BSON/ObjectId.pm6",
-      "BSON::Double" : "lib/BSON/Double.pm6"
+      "BSON::Binary-old" : "lib/BSON/Binary-old.pm6",
+      "BSON::Double" : "lib/BSON/Double.pm6",
+      "BSON::ObjectId-old" : "lib/BSON/ObjectId-old.pm6",
+      "BSON::Javascript-old" : "lib/BSON/Javascript-old.pm6"
     },
     "depends" : [
       "Digest::MD5",
@@ -1408,7 +1412,7 @@
       "Marcel Timmerman took over in Januari 2015 and is working on it until the present day"
     ],
     "description" : "BSON encoding/decoding, used in MongoDB drivers",
-    "version" : "0.9.11"
+    "version" : "0.9.13"
   },
   {
     "name" : "GeoIP::City",
