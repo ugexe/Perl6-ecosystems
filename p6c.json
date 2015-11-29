@@ -7562,9 +7562,7 @@
       "URI::Template" : "lib/URI/Template.pm"
     },
     "auth" : "github:jonathanstowe",
-    "depends" : [
-      "URI::Encode"
-    ],
+    "depends" : [ ],
     "description" : "URI Templates as per https://tools.ietf.org/html/rfc6570",
     "test-depends" : [
       "JSON::Tiny",
@@ -7577,7 +7575,7 @@
       "Template",
       "RFC"
     ],
-    "version" : "v0.0.2",
+    "version" : "v0.0.3",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
