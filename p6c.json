@@ -7695,5 +7695,45 @@
     ],
     "description" : "HTTP Signature utility",
     "version" : "0.1.1"
+  },
+  {
+    "name" : "WebService::Soundcloud",
+    "perl" : "v6",
+    "source-url" : "git://github.com/jonathanstowe/WebService-Soundcloud.git",
+    "support" : {
+      "irc" : "irc:// irc.freenode.net/#perl6",
+      "source" : "git://github.com/jonathanstowe/WebService-Soundcloud.git",
+      "bugtracker" : "https://github.com/jonathanstowe/WebService-Soundcloud/issues"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "WebService::Soundcloud" : "lib/WebService/Soundcloud.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "JSON::Tiny",
+      "URI",
+      "URI::Template",
+      "HTTP::UserAgent",
+      "IO::Socket::SSL",
+      "JSON::Class",
+      "JSON::Name"
+    ],
+    "description" : "Provide a Perl 6 interface to the Soundcloud REST API",
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "API",
+      "Webservice",
+      "REST",
+      "Soundcloud"
+    ],
+    "version" : "v0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
   }
 ]
