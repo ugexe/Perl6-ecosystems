@@ -4009,14 +4009,15 @@
     "author" : "L. Grondin",
     "provides" : {
       "Chess::PGN" : "lib/Chess/PGN.pm6",
-      "Chess::FEN" : "lib/Chess/FEN.pm6"
+      "Chess::FEN" : "lib/Chess/FEN.pm6",
+      "Chess" : "lib/Chess.pm6"
     },
     "depends" : [ ],
     "test-depends" : [
       "Test"
     ],
     "description" : "Chess-related stuff in Perl 6.",
-    "version" : "0.1.1"
+    "version" : "0.2.0"
   },
   {
     "name" : "Text::Fortune",
