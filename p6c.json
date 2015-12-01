@@ -219,7 +219,7 @@
     "tags" : [
       "CSV"
     ],
-    "description" : "Parse CSV data, API like Text::CSV_XS",
+    "description" : "Handle CSV data. API based on Text::CSV_XS",
     "version" : "0.002",
     "authors" : [
       "H.Merijn Brand (Tux)"
@@ -7121,7 +7121,7 @@
       "serialisation",
       "JSON"
     ],
-    "version" : "v0.0.3",
+    "version" : "v0.0.4",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
@@ -7736,5 +7736,52 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "Email::Valid",
+    "source-url" : "git://github.com/Demayl/perl6-Email-Valid.git",
+    "support" : {
+      "source" : "git://github.com/Demayl/perl6-Email-Valid.git",
+      "bugtracker" : "https://github.com/Demayl/perl6-Email-Valid/issues"
+    },
+    "provides" : {
+      "Email::Valid" : "lib/Email/Valid.pm6"
+    },
+    "depends" : [
+      "Net::DNS"
+    ],
+    "description" : "Email validator for Perl6",
+    "version" : "0.1",
+    "authors" : [
+      "Denis Kanchev - demayl"
+    ]
+  },
+  {
+    "name" : "JavaScript::SpiderMonkey",
+    "source-url" : "git://github.com/hartenfels/JavaScript-SpiderMonkey.git",
+    "author" : "Carsten Hartenfels",
+    "provides" : {
+      "JavaScript::SpiderMonkey::Value" : "lib/JavaScript/SpiderMonkey/Value.pm6",
+      "JavaScript::SpiderMonkey::Error" : "lib/JavaScript/SpiderMonkey/Error.pm6",
+      "JavaScript::SpiderMonkey" : "lib/JavaScript/SpiderMonkey.pm6",
+      "JavaScript::SpiderMonkey::Context" : "lib/JavaScript/SpiderMonkey/Context.pm6",
+      "JavaScript::SpiderMonkey::Runtime" : "lib/JavaScript/SpiderMonkey/Runtime.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Glue for Mozilla's JavaScript interpreter.",
+    "version" : "0.0.1"
+  },
+  {
+    "name" : "Math::Random",
+    "source-url" : "git://github.com/bluebear94/Math-Random.git",
+    "author" : "Tae Lim Kook",
+    "provides" : {
+      "Math::Random::MT" : "lib/Math/Random/MT.pm6",
+      "Math::Random::JavaStyle" : "lib/Math/Random/JavaStyle.pm6",
+      "Math::Random" : "lib/Math/Random.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Random numbers \u00e0 la java.util.Random.",
+    "version" : "0.1.0"
   }
 ]
