@@ -7824,5 +7824,37 @@
     ],
     "description" : "Simple web service used to update an IP address on domains.google.com if the current one has changed. ",
     "version" : "1.0.0"
+  },
+  {
+    "name" : "Chronic",
+    "perl" : "v6",
+    "source-url" : "git://github.com/jonathanstowe/Chronic.git",
+    "support" : {
+      "irc" : "irc:// irc.freenode.net/#perl6",
+      "source" : "git://github.com/jonathanstowe/Chronic.git",
+      "bugtracker" : "https://github.com/jonathanstowe/Chronic/issues"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "Chronic" : "lib/Chronic.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "description" : "Low-level Scheduling thingy for Perl6",
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "util",
+      "schedule",
+      "cron",
+      "event"
+    ],
+    "version" : "v0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
   }
 ]
