@@ -3196,10 +3196,10 @@
       "CSS::Grammar::CSS21" : "lib/CSS/Grammar/CSS21.pm"
     },
     "depends" : [
-      "JSON::Tiny"
+      "JSON::Fast"
     ],
     "description" : "Perl 6 core CSS grammars",
-    "version" : "0.02"
+    "version" : "0.02.1"
   },
   {
     "name" : "CSS::Module",
@@ -3987,11 +3987,10 @@
       "CSS::Specification::Build" : "lib/CSS/Specification/Build.pm"
     },
     "depends" : [
-      "CSS::Grammar",
-      "JSON::Tiny"
+      "CSS::Grammar"
     ],
     "description" : "CSS Property definition grammar and tools",
-    "version" : "0.01"
+    "version" : "0.01.1"
   },
   {
     "name" : "Chess",
@@ -4616,10 +4615,10 @@
     },
     "depends" : [
       "CSS::Grammar",
-      "JSON::Tiny"
+      "JSON::Fast"
     ],
     "description" : "AST Serializer; compatible with CSS::Grammar and CSS::Module",
-    "version" : "0.01"
+    "version" : "0.01.1"
   },
   {
     "name" : "HTTP::Server::Async::Plugins::Router::Simple",
