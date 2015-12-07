@@ -7948,5 +7948,22 @@
     ],
     "description" : "Extendable Internet Relay Chat client",
     "version" : "1.001001"
+  },
+  {
+    "name" : "WWW::Google::Time",
+    "source-url" : "git://github.com/zoffixznet/perl6-WWW-Google-Time.git",
+    "author" : "Zoffix Znet",
+    "provides" : {
+      "WWW::Google::Time" : "lib/WWW/Google/Time.pm6"
+    },
+    "depends" : [
+      "HTTP::Tinyish",
+      "URI::Escape"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Get time for various locations using Google",
+    "version" : "1.001001"
   }
 ]
