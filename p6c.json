@@ -968,17 +968,6 @@
   },
   {
     "source-type" : "git",
-    "name" : "Sort::Naturally",
-    "source-url" : "git://github.com/thundergnat/Sort-Naturally.git",
-    "provides" : {
-      "Sort::Naturally" : "lib/Sort/Naturally.pm6"
-    },
-    "depends" : [ ],
-    "description" : "Provides several routines to ease natural sorting.",
-    "version" : "0.2.0"
-  },
-  {
-    "source-type" : "git",
     "name" : "Text-Levenshtein",
     "source-url" : "git://github.com/thundergnat/Text-Levenshtein.git",
     "provides" : {
@@ -2240,7 +2229,7 @@
       "DBDish::mysql::Native" : "lib/DBDish/mysql/Native.pm6",
       "DBDish" : "lib/DBDish.pm6",
       "DBDish::TestMock" : "lib/DBDish/TestMock.pm6",
-      "DBDish::mysql::StatementHandle" : "lib/mysql/SQLite/StatementHandle.pm6",
+      "DBDish::mysql::StatementHandle" : "lib/DBDish/mysql/StatementHandle.pm6",
       "DBDish::SQLite::StatementHandle" : "lib/DBDish/SQLite/StatementHandle.pm6",
       "DBDish::TestMock::StatementHandle" : "lib/DBDish/TestMock/StatementHandle.pm6",
       "DBDish::SQLite::Native" : "lib/DBDish/SQLite/Native.pm6",
@@ -3859,17 +3848,6 @@
     "version" : "0.1"
   },
   {
-    "name" : "Math::Tau",
-    "source-url" : "git://github.com/xfix/Math-Tau.git",
-    "author" : "Konrad Borowski",
-    "provides" : {
-      "Math::Tau" : "lib/Math/Tau.pm"
-    },
-    "depends" : [ ],
-    "description" : "\u03c4 = 2\u03c0",
-    "version" : "0.1.0"
-  },
-  {
     "name" : "String::Koremutake",
     "source-url" : "git://github.com/stmuk/p6-String-Koremutake.git",
     "author" : "Steve Mynott <steve.mynott@gmail.com>",
@@ -4233,6 +4211,9 @@
     },
     "source-url" : "git://github.com/niner/Inline-Perl5.git",
     "perl" : "v6.0.0",
+    "resources" : [
+      "p5helper.so"
+    ],
     "build-depends" : [
       "panda"
     ],
@@ -4256,11 +4237,43 @@
   },
   {
     "name" : "Term::termios",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
     "source-url" : "git://github.com/krunen/term-termios.git",
+    "perl" : "v6.0.0",
+    "author" : "github:krunen",
+    "provides" : {
+      "Term::termios" : "lib/Term/termios.pm6"
+    },
     "repo-type" : "git",
     "depends" : [ ],
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
     "description" : "termios routines for Rakudo Perl 6",
-    "version" : "*"
+    "version" : "*",
+    "authors" : [
+      "Karl Rune Nilsen"
+    ]
+  },
+  {
+    "name" : "Unicode::UTF8-Parser",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
+    "source-url" : "git://github.com/krunen/uncode-utf8-parser.git",
+    "perl" : "v6.0.0",
+    "author" : "github:krunen",
+    "provides" : {
+      "Unicode::UTF8-Parser" : "lib/Unicode/UTF8-Parser.pm"
+    },
+    "repo-type" : "git",
+    "depends" : [ ],
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "description" : "Supply which converts a supply of UTF8 bytes to unicode characters",
+    "version" : "*",
+    "authors" : [
+      "Karl Rune Nilsen"
+    ]
   },
   {
     "name" : "Pluggable",
@@ -5108,9 +5121,14 @@
     "perl" : "v6",
     "source-url" : "git://github.com/jonathanstowe/p6-Sys-Utmp.git",
     "support" : {
-      "source" : "git://github.com/jonathanstowe/p6-Sys-Utmp.git"
+      "irc" : "irc:// irc.freenode.net/#perl6",
+      "source" : "git://github.com/jonathanstowe/p6-Sys-Utmp.git",
+      "bugtracker" : "https://github.com/jonathanstowe/p6-Sys-Utmp/issues"
     },
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "resources" : [
+      "lib/utmphelper.so"
+    ],
     "build-depends" : [
       "panda",
       "LibraryMake"
@@ -5122,11 +5140,16 @@
     "depends" : [
       "LibraryMake"
     ],
+    "tags" : [
+      "unix",
+      "users",
+      "utility"
+    ],
     "description" : "Perl 6 access to Utmp entries on Unix-like systems",
     "test-depends" : [
       "Test"
     ],
-    "version" : "v0.0.5",
+    "version" : "v0.0.6",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
@@ -5193,6 +5216,21 @@
     "version" : "*"
   },
   {
+    "name" : "NQP::Eval",
+    "source-url" : "git://github.com/cygx/p6-nqp-eval.git",
+    "support" : {
+      "source" : "https://github.com/cygx/p6-nqp-eval",
+      "bugtracker" : "https://github.com/cygx/p6-nqp-eval/issues"
+    },
+    "author" : "cygx <cygx@cpan.org>",
+    "provides" : {
+      "NQP::Eval" : "lib/NQP/Eval.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Enables EVAL :lang<nqp>",
+    "version" : "*"
+  },
+  {
     "name" : "TinyCC",
     "support" : {
       "source" : "https://github.com/cygx/p6-tinycc",
@@ -5232,11 +5270,17 @@
     "perl" : "v6",
     "source-url" : "git://github.com/jonathanstowe/p6-Sys-Lastlog.git",
     "support" : {
-      "source" : "git://github.com/jonathanstowe/p6-Sys-Lastlog.git"
+      "irc" : "irc://irc.freenode.net/#perl6",
+      "source" : "git://github.com/jonathanstowe/p6-Sys-Lastlog.git",
+      "bugtracker" : "https://github.com/jonathanstowe/p6-Sys-Lastlog/issues"
     },
+    "resources" : [
+      "lib/lastloghelper.so"
+    ],
     "build-depends" : [
       "panda",
-      "LibraryMake"
+      "LibraryMake",
+      "Shell::Command"
     ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.com>",
     "auth" : "github:jonathanstowe",
@@ -5247,11 +5291,16 @@
       "LibraryMake",
       "System::Passwd"
     ],
+    "tags" : [
+      "unix",
+      "audit",
+      "lastlog"
+    ],
     "description" : "Perl 6 access to Lastlog information on Unix-like systems",
     "test-depends" : [
       "Test"
     ],
-    "version" : "v0.0.4",
+    "version" : "v0.0.5",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.com>"
     ]
@@ -7409,15 +7458,20 @@
     "source-url" : "git://github.com/teodozjan/pod6-coverage.git",
     "author" : "github:teodozjan",
     "provides" : {
+      "Pod::Coverage::Result" : "lib/Pod/Coverage/Result.pm6",
+      "Pod::Coverage::Anypod" : "lib/Pod/Coverage/Anypod.pm6",
+      "Pod::Coverage::Full" : "lib/Pod/Coverage/Full.pm6",
       "Test::Coverage" : "lib/Test/Coverage.pm6",
       "Pod::Coverage" : "lib/Pod/Coverage.pm6",
+      "Pod::Tester" : "lib/Pod/Tester.pm6",
+      "Pod::Coverage::PodEgg" : "lib/Pod/Coverage/PodEgg.pm6",
       "Pod::To::Keywords" : "lib/Pod/To/Keywords.pm6"
     },
     "depends" : [
       "JSON::Tiny"
     ],
     "description" : "Pod coverage library",
-    "version" : "*"
+    "version" : "v0.1.0"
   },
   {
     "name" : "Text::Markdown::Discount",
@@ -7766,7 +7820,7 @@
       "Net::DNS"
     ],
     "description" : "Email validator for Perl6",
-    "version" : "0.2.0",
+    "version" : "0.3.1",
     "authors" : [
       "Denis Kanchev - demayl"
     ]
@@ -7813,13 +7867,14 @@
   },
   {
     "name" : "WebService::GoogleDyDNS",
-    "source-url" : "git://github.com/cbk/WebService-GoogleDyDNS",
+    "source-url" : "git://github.com/cbk/WebService-GoogleDyDNS.git",
+    "perl" : "6.*",
     "author" : "Michael",
     "provides" : {
       "WebService::GoogleDyDNS" : "lib/WebService/GoogleDyDNS.pm6"
     },
     "depends" : [
-      "LWP::Simple",
+      "WebService::HazIP",
       "HTTP::UserAgent"
     ],
     "description" : "Simple web service used to update an IP address on domains.google.com if the current one has changed. ",
@@ -7856,5 +7911,42 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "Acme::GiveUp",
+    "source-url" : "git://github.com/zoffixznet/perl6-Acme-GiveUp.git",
+    "authority" : "zoffixznet",
+    "author" : "Zoffix Znet",
+    "provides" : {
+      "Acme::GiveUp" : "lib/Acme/GiveUp.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "(\u256f\u00b0\u25a1\u00b0\uff09\u256f\ufe35\u253b\u2501\u253b  when you just want to give up for the day",
+    "version" : "1.001001"
+  },
+  {
+    "name" : "IRC::Client",
+    "source-url" : "git://github.com/zoffixznet/perl6-IRC-Client.git",
+    "perl" : "6.*",
+    "author" : "Zoffix Znet",
+    "provides" : {
+      "IRC::Client::Plugin::Debugger" : "lib/IRC/Client/Plugin/Debugger.pm6",
+      "IRC::Grammar::Actions" : "lib/IRC/Grammar/Actions.pm6",
+      "IRC::Parser" : "lib/IRC/Parser.pm6",
+      "IRC::Client" : "lib/IRC/Client.pm6",
+      "IRC::Client::Plugin::PingPong" : "lib/IRC/Client/Plugin/PingPong.pm6",
+      "IRC::Grammar" : "lib/IRC/Grammar.pm6"
+    },
+    "depends" : [
+      "Data::Dump"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Extendable Internet Relay Chat client",
+    "version" : "1.001001"
   }
 ]
