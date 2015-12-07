@@ -4264,7 +4264,7 @@
     "perl" : "v6.0.0",
     "author" : "github:krunen",
     "provides" : {
-      "Unicode::UTF8-Parser" : "lib/Unicode/UTF8-Parser.pm"
+      "Unicode::UTF8-Parser" : "lib/Unicode/UTF8-Parser.pm6"
     },
     "repo-type" : "git",
     "depends" : [ ],
@@ -7964,6 +7964,22 @@
       "Test"
     ],
     "description" : "Get time for various locations using Google",
+    "version" : "1.001001"
+  },
+  {
+    "name" : "WWW::You'reDoingItWrong",
+    "source-url" : "git://github.com/zoffixznet/perl6-WWW-You-reDoingItWrong.git",
+    "author" : "Zoffix Znet",
+    "provides" : {
+      "WWW::You'reDoingItWrong" : "lib/WWW/You'reDoingItWrong.pm6"
+    },
+    "depends" : [
+      "HTTP::Tinyish"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Why say someone is doing it wrong when you can SHOW it?",
     "version" : "1.001001"
   }
 ]
