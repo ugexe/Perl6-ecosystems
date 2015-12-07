@@ -3249,10 +3249,10 @@
       "CSS::Module::CSS3::Selectors",
       "CSS::Specification",
       "CSS::Writer",
-      "JSON::Tiny"
+      "JSON::Fast"
     ],
     "description" : "Perl 6 CSS extended and property-specific grammars",
-    "version" : "0.02"
+    "version" : "0.02.1"
   },
   {
     "source-type" : "git",
@@ -4719,10 +4719,10 @@
     },
     "depends" : [
       "CSS::Grammar",
-      "JSON::Tiny"
+      "JSON::Fast"
     ],
     "description" : "CSS3 Module Level 3 Selectors",
-    "version" : "*"
+    "version" : "0.00.1"
   },
   {
     "name" : "Tag",
