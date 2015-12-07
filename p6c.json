@@ -7928,6 +7928,20 @@
     "version" : "1.001001"
   },
   {
+    "name" : "Acme::WTF",
+    "source-url" : "git://github.com/Skarsnik/acme-wtf.git",
+    "perl" : "6",
+    "author" : "Sylvain Colinet <scolinet@gmail.com>",
+    "provides" : {
+      "Acme::WTF" : "lib/Acme/WTF.pm6"
+    },
+    "depends" : [
+      "Test::META"
+    ],
+    "description" : "Seriously, WTF?",
+    "version" : "*"
+  },
+  {
     "name" : "IRC::Client",
     "source-url" : "git://github.com/zoffixznet/perl6-IRC-Client.git",
     "perl" : "6.*",
