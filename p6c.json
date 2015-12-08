@@ -968,6 +968,18 @@
   },
   {
     "source-type" : "git",
+    "name" : "Sort::Naturally",
+    "source-url" : "git://github.com/thundergnat/Sort-Naturally.git",
+    "perl" : "v6.*",
+    "provides" : {
+      "Sort::Naturally" : "lib/Sort/Naturally.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Provides several routines to ease natural sorting.",
+    "version" : "0.2.0"
+  },
+  {
+    "source-type" : "git",
     "name" : "Text-Levenshtein",
     "source-url" : "git://github.com/thundergnat/Text-Levenshtein.git",
     "provides" : {
