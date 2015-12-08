@@ -7699,9 +7699,9 @@
       "PDF::DAO::DateString" : "lib/PDF/DAO/DateString.pm",
       "PDF::DAO::Tie" : "lib/PDF/DAO/Tie.pm",
       "PDF::Storage::Filter::LZW" : "lib/PDF/Storage/Filter/LZW.pm",
+      "PDF::Storage::Filter::Predictors" : "lib/PDF/Storage/Filter/Predictors.pm",
       "PDF::DAO::Tie::Hash" : "lib/PDF/DAO/Tie/Hash.pm",
       "PDF::Storage::Crypt::RC4" : "lib/PDF/Storage/Crypt/RC4.pm",
-      "PDF::Storage::Filter::Role::Predictors" : "lib/PDF/Storage/Filter/Role/Predictors.pm",
       "PDF::DAO::Type::Info" : "lib/PDF/DAO/Type/Info.pm",
       "PDF::Storage::Input" : "lib/PDF/Storage/Input.pm",
       "PDF::Writer" : "lib/PDF/Writer.pm",
@@ -7744,7 +7744,7 @@
       "Digest::MD5"
     ],
     "description" : "Low level tools for reading, writing and manipulation of PDF files",
-    "version" : "0.1"
+    "version" : "0.01.1"
   },
   {
     "name" : "HTTP::Signature",
