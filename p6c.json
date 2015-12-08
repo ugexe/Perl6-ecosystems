@@ -4438,14 +4438,14 @@
     "build-depends" : [ ],
     "author" : "David Farrell",
     "provides" : {
-      "URI::Encode" : "lib/Pod/Perl5.pm6"
+      "URI::Encode" : "lib/URI/Encode.pm6"
     },
     "depends" : [ ],
     "test-depends" : [
       "Test"
     ],
     "description" : "Encode and decode URIs according to RFC 3986",
-    "version" : "0.03"
+    "version" : "0.05"
   },
   {
     "name" : "System::Passwd",
