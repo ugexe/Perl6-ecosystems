@@ -4847,6 +4847,11 @@
   {
     "name" : "Linenoise",
     "source-url" : "git://github.com/hoelzro/p6-linenoise.git",
+    "resources" : [
+      "lib/liblinenoise.so",
+      "lib/liblinenoise.dll",
+      "lib/liblinenoise.dylib"
+    ],
     "author" : "Rob Hoelz",
     "provides" : {
       "Linenoise" : "lib/Linenoise.pm"
@@ -8021,5 +8026,29 @@
     ],
     "description" : "Convert lists into linguistic conjunctions and fill them into a template",
     "version" : "1.001001"
+  },
+  {
+    "name" : "Minecraft-Tools",
+    "support" : { },
+    "perl" : "v6",
+    "provides" : {
+      "Net::Minecraft::Rcon" : "lib/Net/Minecraft/Rcon.pm",
+      "Net::Minecraft::Query" : "lib/Net/Minecraft/Query.pm",
+      "Net::Minecraft::Version:ver<1.*>" : "lib/Net/Minecraft/oldVersion.pm",
+      "Net::Minecraft::Version" : "lib/Net/Minecraft/Version.pm"
+    },
+    "depends" : [
+      "JSON::Fast",
+      "Net::HTTP"
+    ],
+    "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Perl 6 modules for interacting with Minecraft servers/APIs",
+    "version" : "0.0.1",
+    "authors" : [
+      "flussence"
+    ]
   }
 ]
