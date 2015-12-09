@@ -8029,7 +8029,10 @@
   },
   {
     "name" : "Minecraft-Tools",
-    "support" : { },
+    "support" : {
+      "source" : "https://github.com/flussence/Minecraft-Tools.git",
+      "bugtracker" : "https://github.com/flussence/Minecraft-Tools/issues"
+    },
     "perl" : "v6",
     "provides" : {
       "Net::Minecraft::Rcon" : "lib/Net/Minecraft/Rcon.pm",
