@@ -4315,6 +4315,7 @@
   {
     "name" : "OO::Monitors",
     "source-url" : "git://github.com/jnthn/oo-monitors.git",
+    "perl" : "v6",
     "provides" : {
       "OO::Monitors" : "lib/OO/Monitors.pm"
     },
@@ -5875,6 +5876,7 @@
     ],
     "description" : "Encode PCM Audio data to MP3 in Perl 6 using a binding to liblame",
     "test-depends" : [
+      "Test::META",
       "Audio::Taglib::Simple",
       "Audio::Sndfile"
     ],
@@ -5885,7 +5887,7 @@
       "mpeg",
       "mp3"
     ],
-    "version" : "v0.0.4",
+    "version" : "v0.0.5",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
