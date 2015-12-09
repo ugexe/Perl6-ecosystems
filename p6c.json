@@ -5800,12 +5800,12 @@
     },
     "auth" : "github:jonathanstowe",
     "depends" : [
-      "AccessorFacade",
-      "OO::Monitors"
+      "AccessorFacade"
     ],
     "description" : "Binding for libshout - source streaming client library for icecast",
     "test-depends" : [
       "Test",
+      "Test::META",
       "File::Find",
       "Shell::Command",
       "CheckSocket"
@@ -5815,7 +5815,7 @@
       "streaming",
       "utils"
     ],
-    "version" : "v0.0.4",
+    "version" : "v0.0.5",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
