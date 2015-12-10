@@ -7552,7 +7552,7 @@
       "serialisation",
       "JSON"
     ],
-    "version" : "v0.0.2",
+    "version" : "v0.0.3",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
@@ -8043,5 +8043,22 @@
     "authors" : [
       "flussence"
     ]
+  },
+  {
+    "name" : "Number::Denominate",
+    "source-url" : "git://github.com/zoffixznet/perl6-Number-Denominate.git",
+    "perl" : "6.*",
+    "author" : "Zoffix Znet",
+    "provides" : {
+      "Number::Denominate" : "lib/Number/Denominate.pm6"
+    },
+    "depends" : [
+      "Lingua::Conjunction"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Break up numbers into preset or arbitrary denominations",
+    "version" : "1.001001"
   }
 ]
