@@ -8061,19 +8061,20 @@
     "provides" : {
       "Net::Minecraft::Rcon" : "lib/Net/Minecraft/Rcon.pm",
       "Net::Minecraft::Query" : "lib/Net/Minecraft/Query.pm",
-      "Net::Minecraft::Version:ver<1.*>" : "lib/Net/Minecraft/oldVersion.pm",
+      "Net::Minecraft::Packet" : "lib/Net/Minecraft/Packet.pm",
       "Net::Minecraft::Version" : "lib/Net/Minecraft/Version.pm"
     },
     "depends" : [
       "JSON::Fast",
-      "Net::HTTP"
+      "Net::HTTP",
+      "Terminal::ANSIColor"
     ],
     "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
     "test-depends" : [
       "Test"
     ],
     "description" : "Perl 6 modules for interacting with Minecraft servers/APIs",
-    "version" : "0.0.1",
+    "version" : "0.1.0",
     "authors" : [
       "flussence"
     ]
