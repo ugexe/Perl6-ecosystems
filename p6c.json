@@ -1060,6 +1060,18 @@
   {
     "name" : "Druid",
     "source-url" : "git://github.com/masak/druid.git",
+    "provides" : {
+      "Druid::Player::Computer" : "lib/Druid/Player/Computer.pm",
+      "Druid::Game::Subject" : "lib/Druid/Game/Subject.pm",
+      "Druid::View::Text" : "lib/Druid/View/Text.pm",
+      "Druid::Player" : "lib/Druid/Player.pm",
+      "Druid::View" : "lib/Druid/View.pm",
+      "Druid::Player::Human" : "lib/Druid/Player/Human.pm",
+      "Druid::Game" : "lib/Druid/Game.pm",
+      "Druid::Game::Observer" : "lib/Druid/Game/Observer.pm",
+      "Druid::Base" : "lib/Druid/Base.pm",
+      "Test::Ix" : "lib/Test/Ix.pm"
+    },
     "depends" : [ ],
     "description" : "A connection-oriented board game written in Perl 6",
     "version" : "*"
@@ -1067,6 +1079,14 @@
   {
     "name" : "GGE",
     "source-url" : "git://github.com/masak/gge.git",
+    "provides" : {
+      "GGE::Grammar" : "lib/GGE/Grammar.pm",
+      "GGE::Perl6Regex" : "lib/GGE/Perl6Regex.pm",
+      "GGE::OPTable" : "lib/GGE/OPTable.pm",
+      "GGE::Match" : "lib/GGE/Match.pm",
+      "GGE" : "lib/GGE.pm",
+      "GGE::Exp" : "lib/GGE/Exp.pm"
+    },
     "depends" : [ ],
     "description" : "Glacial Grammar Engine -- a Perl 6 grammar engine written in Perl 6",
     "version" : "*"
