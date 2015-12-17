@@ -560,6 +560,19 @@
     "version" : "0.0.1"
   },
   {
+    "name" : "Bamboo",
+    "source-url" : "git://github.com/sergot/bamboo.git",
+    "author" : "github:sergot",
+    "provides" : {
+      "Bamboo" : "lib/Bamboo.pm6"
+    },
+    "depends" : [
+      "Panda"
+    ],
+    "description" : "Perl 6 dependency manager",
+    "version" : "0.0.1"
+  },
+  {
     "name" : "DB::Model::Easy",
     "source-url" : "git://github.com/supernovus/perl6-db-model-easy.git",
     "provides" : {
@@ -5598,12 +5611,14 @@
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
     "description" : "Quick hack to determine whether a shared libray is present",
-    "test-depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
     "tags" : [
       "build",
       "utils"
     ],
-    "version" : "v0.0.2",
+    "version" : "v0.0.3",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
@@ -8138,5 +8153,32 @@
     "depends" : [ ],
     "description" : "Math::Matrix",
     "version" : "0.1.0"
+  },
+  {
+    "name" : "Discord",
+    "perl" : "v6",
+    "source-url" : "git://github.com/Skarsnik/perl6-discord.git",
+    "support" : {
+      "source" : "git://github.com/Skarsnik/perl6-discord.git"
+    },
+    "author" : "Sylvain Colinet <scolinet@gmail.com>",
+    "provides" : {
+      "Discord::Channel" : "lib/Discord/Channel.pm6",
+      "Discord::User" : "lib/Discord/User.pm6",
+      "Discord::Guild" : "lib/Discord/Guild.pm6",
+      "Discord" : "lib/Discord.pm6",
+      "Discord::Message" : "lib/Discord/Message.pm6"
+    },
+    "depends" : [
+      "JSON::Tiny",
+      "JSON::Name",
+      "JSON::Unmarshal",
+      "HTTP::UserAgent"
+    ],
+    "description" : "Client for the Discord application",
+    "tags" : [
+      "Webservice"
+    ],
+    "version" : "0.0.1"
   }
 ]
