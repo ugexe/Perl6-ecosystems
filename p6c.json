@@ -8180,5 +8180,18 @@
       "Webservice"
     ],
     "version" : "0.0.1"
+  },
+  {
+    "name" : "MQTT::Client",
+    "source-url" : "git://github.com/Juerd/p6-mqtt.git",
+    "perl" : "6.*",
+    "author" : "Juerd Waalboer",
+    "provides" : {
+      "MQTT::Client::MyPack" : "lib/MQTT/Client/MyPack.pm",
+      "MQTT::Client" : "lib/MQTT/Client.pm"
+    },
+    "depends" : [ ],
+    "description" : "Minimal MQTT v3 client interface",
+    "version" : "*"
   }
 ]
