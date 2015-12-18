@@ -274,18 +274,6 @@
   },
   {
     "source-type" : "git",
-    "name" : "Tree::Simple",
-    "source-url" : "git://github.com/Takadonet/Tree--Simple.git",
-    "provides" : {
-      "Tree::Simple::Visitor" : "lib/Tree/Simple/Visitor.pm",
-      "Tree::Simple" : "lib/Tree/Simple.pm"
-    },
-    "depends" : [ ],
-    "description" : "A simple tree object",
-    "version" : "*"
-  },
-  {
-    "source-type" : "git",
     "name" : "Text::Diff",
     "source-url" : "git://github.com/Takadonet/Text--Diff.git",
     "provides" : {
