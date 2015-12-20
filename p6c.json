@@ -991,6 +991,18 @@
   },
   {
     "source-type" : "git",
+    "name" : "Lingua::EN::Numbers::Cardinal",
+    "source-url" : "git://github.com/thundergnat/Lingua-EN-Numbers-Cardinal.git",
+    "perl" : "v6.*",
+    "provides" : {
+      "Lingua::EN::Numbers::Cardinal" : "lib/Lingua/EN/Numbers/Cardinal.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Convert integer numbers to thier cardinal representation",
+    "version" : "0.0.1"
+  },
+  {
+    "source-type" : "git",
     "name" : "App::jsonv",
     "source-url" : "git://github.com/Miniconf/App-jsonv.git",
     "author" : [
