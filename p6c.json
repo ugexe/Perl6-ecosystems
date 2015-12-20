@@ -5474,6 +5474,37 @@
     "version" : "v0.0.1"
   },
   {
+    "name" : "Proc::Screen",
+    "support" : {
+      "source" : "git://github.com/skids/perl6-Proc-Screen.git",
+      "bugtracker" : "https://github.com/skids/perl6-Proc-Screen/issues"
+    },
+    "source-url" : "git://github.com/skids/perl6-Proc-Screen.git",
+    "perl" : "v6.0.0",
+    "build-depends" : [
+      "File::Temp",
+      "Test"
+    ],
+    "provides" : {
+      "Proc::Screen" : "lib/Proc/Screen.pm6",
+      "Test::Screen" : "lib/Test/Screen.pm6"
+    },
+    "depends" : [
+      "File::Temp",
+      "Test"
+    ],
+    "test-depends" : [
+      "File::Temp",
+      "Test"
+    ],
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "description" : "Perl6 -- manage GNU screen sessions and use them for tests",
+    "version" : "v0.0.1",
+    "authors" : [
+      "Brian S. Julin"
+    ]
+  },
+  {
     "name" : "HTTP::Server",
     "source-url" : "git://github.com/tony-o/perl6-http-server.git",
     "provides" : {
