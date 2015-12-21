@@ -982,6 +982,7 @@
     "source-type" : "git",
     "name" : "Text-Levenshtein",
     "source-url" : "git://github.com/thundergnat/Text-Levenshtein.git",
+    "perl" : "v6.*",
     "provides" : {
       "Text::Levenshtein" : "lib/Text/Levenshtein.pm"
     },
@@ -998,8 +999,8 @@
       "Lingua::EN::Numbers::Cardinal" : "lib/Lingua/EN/Numbers/Cardinal.pm6"
     },
     "depends" : [ ],
-    "description" : "Convert integer numbers to thier cardinal representation",
-    "version" : "0.0.1"
+    "description" : "Convert integer numbers to their cardinal representation",
+    "version" : "0.2.0"
   },
   {
     "source-type" : "git",
