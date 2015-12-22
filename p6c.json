@@ -3949,19 +3949,21 @@
   {
     "name" : "LacunaCookbuk::Client",
     "source-url" : "git://github.com/teodozjan/lacuna-cookbuk.git",
-    "author" : "github:teodozjan",
     "provides" : {
       "LacunaCookbuk::Client" : "lib/LacunaCookbuk/Client.pm6"
     },
     "depends" : [
-      "JSON::RPC",
       "Form",
+      "JSON::RPC",
       "Terminal::ANSIColor",
       "PerlStore",
       "IO::Capture::Simple"
     ],
     "description" : "Lacuna expanse lazy player helper",
-    "version" : "*"
+    "version" : "*",
+    "authors" : [
+      "github:teodozjan"
+    ]
   },
   {
     "source-type" : "git",
