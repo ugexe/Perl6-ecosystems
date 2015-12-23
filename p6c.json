@@ -7747,9 +7747,11 @@
     "perl" : "v6",
     "author" : "Sylvain Colinet",
     "provides" : {
-      "Gumbo" : "lib/NativeCall/TypeDiag.pm6"
+      "NativeCall::TypeDiag" : "lib/NativeCall/TypeDiag.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "File::Temp"
+    ],
     "description" : "A module to look at your nativecall types, like class A is repr('CStruct')",
     "version" : "*"
   },
