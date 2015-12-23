@@ -4038,6 +4038,7 @@
   {
     "name" : "CSS::Specification",
     "source-url" : "git://github.com/p6-css/perl6-CSS-Specification.git",
+    "perl" : "v6",
     "provides" : {
       "CSS::Specification::Terms" : "lib/CSS/Specification/Terms.pm",
       "CSS::Specification::Actions" : "lib/CSS/Specification/Actions.pm",
@@ -4270,7 +4271,7 @@
     "source-url" : "git://github.com/niner/Inline-Perl5.git",
     "perl" : "v6.0.0",
     "resources" : [
-      "p5helper.so"
+      "libraries/p5helper"
     ],
     "build-depends" : [
       "panda"
