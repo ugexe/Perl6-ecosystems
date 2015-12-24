@@ -8239,5 +8239,17 @@
     "depends" : [ ],
     "description" : "Minimal MQTT v3 client interface",
     "version" : "*"
+  },
+  {
+    "name" : "Pod::TreeWalker",
+    "source-url" : "git://github.com/autarch/perl6-Pod-TreeWalker.git",
+    "perl" : "6.*",
+    "author" : "Dave Rolsky <autarch@urth.org>",
+    "provides" : {
+      "Pod::TreeWalker::Listener" : "lib/Pod/TreeWalker/Listener.pm6",
+      "Pod::TreeWalker" : "lib/Pod/TreeWalker.pm6"
+    },
+    "description" : "Walk a Pod tree and generate an event for each node",
+    "version" : "0.0.1"
   }
 ]
