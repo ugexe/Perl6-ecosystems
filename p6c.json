@@ -6810,10 +6810,11 @@
       "LREP" : "lib/LREP.pm6"
     },
     "depends" : [
-      "Linenoise"
+      "Linenoise",
+      "IO::String"
     ],
     "description" : "A fun little REPL inspired by Pry, nREPL, and others.",
-    "version" : "0.1.4"
+    "version" : "0.2.1"
   },
   {
     "name" : "Apache::LogFormat",
