@@ -5970,7 +5970,7 @@
       "mpeg",
       "mp3"
     ],
-    "version" : "v0.0.6",
+    "version" : "v0.0.7",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
@@ -8173,7 +8173,10 @@
       "Audio::Silan" : "lib/Audio/Silan.pm"
     },
     "auth" : "github:jonathanstowe",
-    "depends" : [ ],
+    "depends" : [
+      "File::Which",
+      "JSON::Fast"
+    ],
     "description" : "Detect audio cue-in, cue-out using silan https://github.com/x42/silan",
     "test-depends" : [
       "Test",
@@ -8184,7 +8187,7 @@
       "util",
       "silence"
     ],
-    "version" : "v0.0.1",
+    "version" : "v0.0.2",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
