@@ -5340,7 +5340,7 @@
       "bugtracker" : "https://github.com/jonathanstowe/p6-Sys-Lastlog/issues"
     },
     "resources" : [
-      "lib/lastloghelper.so"
+      "libraries/lastloghelper"
     ],
     "build-depends" : [
       "panda",
@@ -5365,7 +5365,7 @@
     "test-depends" : [
       "Test"
     ],
-    "version" : "v0.0.5",
+    "version" : "v0.0.6",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.com>"
     ]
@@ -8254,6 +8254,6 @@
       "Pod::TreeWalker" : "lib/Pod/TreeWalker.pm6"
     },
     "description" : "Walk a Pod tree and generate an event for each node",
-    "version" : "0.0.1"
+    "version" : "0.0.2"
   }
 ]
