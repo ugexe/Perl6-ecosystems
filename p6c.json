@@ -7556,7 +7556,6 @@
   {
     "name" : "Pod::Coverage",
     "source-url" : "git://github.com/teodozjan/pod6-coverage.git",
-    "author" : "github:teodozjan",
     "provides" : {
       "Pod::Coverage::Result" : "lib/Pod/Coverage/Result.pm6",
       "Pod::Coverage::Anypod" : "lib/Pod/Coverage/Anypod.pm6",
@@ -7571,7 +7570,10 @@
       "JSON::Tiny"
     ],
     "description" : "Pod coverage library",
-    "version" : "v0.1.0"
+    "version" : "v0.1.0",
+    "authors" : [
+      "github:teodozjan"
+    ]
   },
   {
     "name" : "Text::Markdown::Discount",
