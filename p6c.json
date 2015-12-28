@@ -8289,5 +8289,23 @@
     ],
     "description" : "Double-entry bookkeeping transaction journal parser and serializer",
     "version" : "*"
+  },
+  {
+    "name" : "Haikunator",
+    "source-url" : "git://github.com/Atrox/haikunatorperl.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "Haikunator" : "lib/Haikunator.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "description" : "Generate Heroku-like random names to use in your perl 6 applications.",
+    "version" : "0.1.0",
+    "authors" : [
+      "Atrox <mail@atrox.me>"
+    ]
   }
 ]
