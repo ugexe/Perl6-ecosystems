@@ -8243,5 +8243,29 @@
     },
     "description" : "Walk a Pod tree and generate an event for each node",
     "version" : "0.0.3"
+  },
+  {
+    "source-type" : "git",
+    "name" : "TXN",
+    "support" : {
+      "source" : "https://github.com/atweiden/mktxn",
+      "bugtracker" : "https://github.com/atweiden/mktxn/issues"
+    },
+    "source-url" : "git://github.com/atweiden/mktxn.git",
+    "author" : "Andy Weidenbaum",
+    "provides" : {
+      "TXN::Parser::Grammar" : "lib/TXN/Parser/Grammar.pm",
+      "TXN::Parser::Exceptions" : "lib/TXN/Parser/Exceptions.pm",
+      "TXN::Parser" : "lib/TXN/Parser.pm",
+      "TXN" : "lib/TXN.pm",
+      "TXN::Parser::Actions" : "lib/TXN/Parser/Actions.pm"
+    },
+    "depends" : [
+      "Config::TOML",
+      "Digest::xxHash",
+      "JSON::Tiny"
+    ],
+    "description" : "Double-entry bookkeeping transaction journal parser and serializer",
+    "version" : "*"
   }
 ]
