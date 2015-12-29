@@ -8317,5 +8317,20 @@
     "authors" : [
       "Atrox <mail@atrox.me>"
     ]
+  },
+  {
+    "name" : "StrictNamedArguments",
+    "source-url" : "git://github.com/nxadm/StrictNamedArguments.git",
+    "perl" : "6.*",
+    "provides" : {
+      "StrictNamedArguments" : "lib/StrictNamedArguments.pm"
+    },
+    "depends" : [ ],
+    "description" : "Watch your fingers when typing named arguments",
+    "version" : "0.1.0",
+    "authors" : [
+      "Claudio Ramirez",
+      "Wenzel P. P. Peppmeyer"
+    ]
   }
 ]
