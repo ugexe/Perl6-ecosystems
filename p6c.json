@@ -8254,6 +8254,17 @@
     "version" : "*"
   },
   {
+    "name" : "Test::Class",
+    "source-url" : "git://github.com/perlpilot/p6-Test-Class.git",
+    "provides" : {
+      "Test::Class" : "lib/Test/Class.pm6"
+    },
+    "repo-type" : "git",
+    "depends" : [ ],
+    "description" : "Simple Test::Class similar to Perl 5's",
+    "version" : "*"
+  },
+  {
     "name" : "Pod::TreeWalker",
     "source-url" : "git://github.com/autarch/perl6-Pod-TreeWalker.git",
     "perl" : "6.*",
