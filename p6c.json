@@ -4851,6 +4851,34 @@
     "version" : "*"
   },
   {
+    "name" : "Grammar::Highlighter",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
+    "source-url" : "git://github.com/niner/Grammar-Highlighter.git",
+    "perl" : "v6.c",
+    "build-depends" : [
+      "panda"
+    ],
+    "author" : "github:niner",
+    "provides" : {
+      "Grammar::Highlighter::Terminal" : "lib/Grammar/Highlighter/Terminal.pm",
+      "Grammar::Highlighter" : "lib/Grammar/Highlighter.pm",
+      "Grammar::Highlighter::HTML" : "lib/Grammar/Highlighter/HTML.pm"
+    },
+    "repo-type" : "git",
+    "depends" : [
+      "Terminal::ANSIColor"
+    ],
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "test-depends" : [ ],
+    "description" : "Automatic syntax highlighting for any grammar you provide.",
+    "version" : "0.1",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
     "name" : "DateTime::Format::LikeGo",
     "source-url" : "git://github.com/avuserow/perl6-datetime-format-likego.git",
     "author" : "Adrian Kreher",
