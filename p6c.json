@@ -6812,6 +6812,19 @@
     "version" : "0.2.1"
   },
   {
+    "name" : "Inline::Ruby",
+    "source-url" : "git://github.com/awwaiid/p6-Inline-Ruby.git",
+    "author" : "github:awwaiid",
+    "provides" : {
+      "Inline::Ruby" : "lib/Inline/Ruby.pm6"
+    },
+    "depends" : [
+      "LibraryMake"
+    ],
+    "description" : "Use Ruby code and libraries in a Perl 6 program",
+    "version" : "0.0.1"
+  },
+  {
     "name" : "Apache::LogFormat",
     "perl" : "v6",
     "source-url" : "git://github.com/lestrrat/p6-Apache-LogFormat.git",
