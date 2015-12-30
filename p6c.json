@@ -1461,18 +1461,6 @@
     "version" : "0.9.17"
   },
   {
-    "name" : "GeoIP::City",
-    "source-url" : "git://github.com/bbkr/GeoIPerl6.git",
-    "authority" : "bbkr",
-    "author" : "Pawel Pabian",
-    "provides" : {
-      "GeoIP::City" : "lib/GeoIP/City.pm"
-    },
-    "depends" : [ ],
-    "description" : "MaxMind GeoIP City library interface",
-    "version" : "0.5"
-  },
-  {
     "name" : "Benchmark",
     "source-url" : "git://github.com/perlpilot/benchmark.git",
     "build-depends" : [ ],
