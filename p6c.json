@@ -8378,5 +8378,25 @@
       "Claudio Ramirez",
       "Wenzel P. P. Peppmeyer"
     ]
+  },
+  {
+    "name" : "IRC::Client::Plugin::HNY",
+    "source-url" : "git://github.com/zoffixznet/perl6-IRC-Client-Plugin-HNY.git",
+    "perl" : "6.c",
+    "author" : "Zoffix Znet",
+    "provides" : {
+      "IRC::Client::Plugin::HNY" : "lib/IRC/Client/Plugin/HNY.pm6"
+    },
+    "depends" : [
+      "IRC::Client:ver<2.001001>:auth<Zoffix Znet>",
+      "Number::Denominate:ver<1.001001>:auth<Zoffix Znet>",
+      "WWW::Google::Time:ver<1.001001>:auth<Zoffix Znet>",
+      "Lingua::Conjunction:ver<1.001001>:auth<Zoffix Znet>"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Plugin for New Year's IRC parties",
+    "version" : "1.001001"
   }
 ]
