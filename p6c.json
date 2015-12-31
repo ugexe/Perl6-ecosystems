@@ -4840,6 +4840,9 @@
   {
     "name" : "Inline::Python",
     "source-url" : "git://github.com/niner/Inline-Python.git",
+    "resources" : [
+      "libraries/pyhelper"
+    ],
     "author" : "github:niner",
     "provides" : {
       "Inline::Python" : "lib/Inline/Python.pm6"
@@ -4848,7 +4851,7 @@
       "LibraryMake"
     ],
     "description" : "Use Python code and libraries in a Perl 6 program",
-    "version" : "*"
+    "version" : "0.1"
   },
   {
     "name" : "Grammar::Highlighter",
