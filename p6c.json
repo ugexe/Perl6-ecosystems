@@ -4882,6 +4882,32 @@
     ]
   },
   {
+    "name" : "CompUnit::Repository::Panda",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
+    "source-url" : "git://github.com/niner/CompUnit-Repository-Panda.git",
+    "perl" : "v6.c",
+    "build-depends" : [
+      "panda"
+    ],
+    "author" : "github:niner",
+    "provides" : {
+      "CompUnit::Repository::Panda" : "lib/CompUnit/Repository/Panda.pm6"
+    },
+    "repo-type" : "git",
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "test-depends" : [
+      "File::Temp",
+      "panda"
+    ],
+    "description" : "Auto-install modules you use",
+    "version" : "0.1",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
     "name" : "DateTime::Format::LikeGo",
     "source-url" : "git://github.com/avuserow/perl6-datetime-format-likego.git",
     "author" : "Adrian Kreher",
