@@ -2512,7 +2512,7 @@
   },
   {
     "name" : "Sum",
-    "source-url" : "git://github.com/skids/perl6sum.git",
+    "source-url" : "https://github.com/skids/perl6sum.git",
     "author" : "Brian S. Julin",
     "provides" : {
       "Sum::SipHash" : "lib/Sum/SipHash.pm6",
@@ -5113,9 +5113,9 @@
   {
     "name" : "Grammar::BNF",
     "support" : {
-      "source" : "git://github.com/tadzik/Grammar-BNF.git"
+      "source" : "https://github.com/tadzik/Grammar-BNF.git"
     },
-    "source-url" : "git://github.com/tadzik/Grammar-BNF.git",
+    "source-url" : "https://github.com/tadzik/Grammar-BNF.git",
     "perl" : "v6",
     "build-depends" : [ ],
     "provides" : {
@@ -5491,7 +5491,7 @@
   },
   {
     "name" : "X::Protocol",
-    "source-url" : "git://github.com/skids/perl6xproto.git",
+    "source-url" : "https://github.com/skids/perl6xproto.git",
     "perl" : "v6.0.0",
     "build-depends" : [ ],
     "author" : "Brian S. Julin",
@@ -5510,10 +5510,10 @@
   {
     "name" : "Proc::Screen",
     "support" : {
-      "source" : "git://github.com/skids/perl6-Proc-Screen.git",
+      "source" : "https://github.com/skids/perl6-Proc-Screen.git",
       "bugtracker" : "https://github.com/skids/perl6-Proc-Screen/issues"
     },
-    "source-url" : "git://github.com/skids/perl6-Proc-Screen.git",
+    "source-url" : "https://github.com/skids/perl6-Proc-Screen.git",
     "perl" : "v6.0.0",
     "build-depends" : [
       "File::Temp",
