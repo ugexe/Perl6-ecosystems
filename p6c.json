@@ -8414,5 +8414,31 @@
     ],
     "description" : "Plugin for New Year's IRC parties",
     "version" : "1.001001"
+  },
+  {
+    "name" : "File::LibMagic",
+    "source-url" : "git://github.com/autarch/perl6-File-LibMagic.git",
+    "perl" : "6.*",
+    "author" : "Dave Rolsky <autarch@urth.org>",
+    "provides" : {
+      "File::LibMagic" : "lib/File/LibMagic.pm6"
+    },
+    "depends" : [
+      "File::Temp"
+    ],
+    "description" : "Use libmagic to determine MIME type and encodings of content",
+    "version" : "0.0.1"
+  },
+  {
+    "name" : "Hash::Consistent",
+    "source-url" : "git://github.com/bradclawsie/Hash-Consistent.git",
+    "perl" : "6.*",
+    "author" : "Brad Clawsie",
+    "provides" : {
+      "Hash::Consistent" : "lib/Hash/Consistent.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Basic Consistent Hash implementation.",
+    "version" : "0.0.1"
   }
 ]
