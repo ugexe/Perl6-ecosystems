@@ -8451,7 +8451,10 @@
     "provides" : {
       "Hash::Consistent" : "lib/Hash/Consistent.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "String::CRC32",
+      "Subsets::Common"
+    ],
     "description" : "Basic Consistent Hash implementation.",
     "version" : "0.0.1"
   },
