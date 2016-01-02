@@ -1461,6 +1461,19 @@
     "version" : "0.9.18"
   },
   {
+    "name" : "GeoIP::City",
+    "source-url" : "git://github.com/bbkr/GeoIPerl6.git",
+    "authority" : "bbkr",
+    "author" : "Pawel Pabian",
+    "provides" : {
+      "GeoIP" : "lib/GeoIP.pm",
+      "GeoIP::City" : "lib/GeoIP/City.pm"
+    },
+    "depends" : [ ],
+    "description" : "MaxMind GeoIP City library interface",
+    "version" : "1.0"
+  },
+  {
     "name" : "Benchmark",
     "source-url" : "git://github.com/perlpilot/benchmark.git",
     "build-depends" : [ ],
@@ -8440,5 +8453,22 @@
     "depends" : [ ],
     "description" : "Basic Consistent Hash implementation.",
     "version" : "0.0.1"
+  },
+  {
+    "name" : "RPi::Device::DS18B20",
+    "source-url" : "https://github.com/cspencer/perl6-raspberry-pi-device-ds18b20.git",
+    "author" : "Cory Spencer",
+    "provides" : {
+      "RPi::Device::DS18B20::Sensor" : "lib/RPi/Device/DS18B20/Sensor.pm6",
+      "RPi::Device::DS18B20" : "lib/RPi/Device/DS18B20.pm6"
+    },
+    "depends" : [
+      "RPi"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "RPi::Device::DS18B20 provides support for the DS18B20 family of temperature sensors.",
+    "version" : "0.1.0"
   }
 ]
