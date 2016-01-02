@@ -4578,7 +4578,7 @@
     "source-url" : "git://github.com/dnmfarrell/Module-Minter.git",
     "author" : "David Farrell",
     "provides" : {
-      "Module::Minter" : "lib/Module/Minter.pm"
+      "Module::Minter" : "lib/Module/Minter.pm6"
     },
     "depends" : [
       "File::Temp",
@@ -4586,7 +4586,7 @@
       "File::Directory::Tree"
     ],
     "description" : "a Perl 6 module for creating new modules",
-    "version" : "0.02"
+    "version" : "0.04"
   },
   {
     "name" : "Net::Packet",
@@ -7476,7 +7476,7 @@
       "Test"
     ],
     "description" : "RPi - An interface to the Raspberry Pi's GPIO and other peripherals",
-    "version" : "0.1.0"
+    "version" : "0.1.1"
   },
   {
     "resource" : { },
@@ -7547,7 +7547,7 @@
       "utils",
       "testing"
     ],
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
