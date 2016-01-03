@@ -8513,5 +8513,20 @@
     "authors" : [
       "Maxim Noah Khailo"
     ]
+  },
+  {
+    "name" : "App::GPTrixie",
+    "source-url" : "git://github.com/Skarsnik/gptrixie.git",
+    "author" : "Sylvain 'Skarsnik' Colinet <scolinet@gmail.com>",
+    "provides" : {
+      "gptrixie" : "bin/gptrixie",
+      "GPT::DumbGenerator" : "lib/GPT/DumbGenerator.pm6",
+      "GPT::Class" : "lib/GPT/Class.pm6"
+    },
+    "depends" : [
+      "XML"
+    ],
+    "description" : "Generate NativeCall code from C headers file",
+    "version" : "*"
   }
 ]
