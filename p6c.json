@@ -8474,5 +8474,25 @@
     ],
     "description" : "RPi::Device::DS18B20 provides support for the DS18B20 family of temperature sensors.",
     "version" : "0.1.0"
+  },
+  {
+    "name" : "String::CamelCase",
+    "perl" : "v6",
+    "source-url" : "git@github.com:yowcow/p6-String-CamelCase.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "String::CamelCase" : "lib/String/CamelCase.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Camelizes/decamelizes a given string",
+    "version" : "0.0.3",
+    "authors" : [
+      "yowcow"
+    ]
   }
 ]
