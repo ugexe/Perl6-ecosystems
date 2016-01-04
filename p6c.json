@@ -3830,7 +3830,7 @@
     "name" : "HTML::Parser::XML",
     "source-url" : "git://github.com/tony-o/perl6-html-parser-xml.git",
     "provides" : {
-      "HTTP::Parser::XML" : "lib/HTML/Parser/XML.pm6"
+      "HTML::Parser::XML" : "lib/HTML/Parser/XML.pm6"
     },
     "auth" : "github:tony-o",
     "depends" : [
@@ -8527,6 +8527,17 @@
       "XML"
     ],
     "description" : "Generate NativeCall code from C headers file",
+    "version" : "*"
+  },
+  {
+    "name" : "IRC::Art",
+    "source-url" : "git://github.com/Skarsnik/perl6-irc-art.git",
+    "perl" : "6",
+    "author" : "Sylvain 'Skarsnik' Colinet <scolinet@gmail.com>",
+    "provides" : {
+      "IRC::Art" : "lib/IRC/Art.pm6"
+    },
+    "description" : "A module to create IRC Art string (color/bg/bold/italic)",
     "version" : "*"
   }
 ]
