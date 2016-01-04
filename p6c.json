@@ -8595,5 +8595,37 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "RPi::Device::PiGlow",
+    "source-url" : "git://github.com/jonathanstowe/RPi-Device-PiGlow.git",
+    "perl" : "6",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/RPi-Device-PiGlow.git"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "RPi::Device::PiGlow" : "lib/RPi/Device/PiGlow.pm"
+    },
+    "depends" : [
+      "RPi::Device::SMBus"
+    ],
+    "description" : "Interface for the Pimoroni PiGlow on the Raspberry Pi",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "RPi",
+      "Rapberry Pi",
+      "i2c",
+      "PiGlow"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
   }
 ]
