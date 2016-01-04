@@ -8554,5 +8554,42 @@
     "authors" : [
       "Dan Kogai"
     ]
+  },
+  {
+    "name" : "RPi::Device::SMBus",
+    "source-url" : "git://github.com/jonathanstowe/RPi-Device-SMBus.git",
+    "perl" : "6",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/RPi-Device-SMBus.git"
+    },
+    "resources" : [
+      "libraries/i2chelper"
+    ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "RPi::Device::SMBus" : "lib/RPi/Device/SMBus.pm"
+    },
+    "depends" : [
+      "NativeHelpers::Array"
+    ],
+    "description" : "SMBus/i2c interface on the Raspberry Pi",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "RPi",
+      "Rapberry Pi",
+      "i2c",
+      "SMBus"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
   }
 ]
