@@ -8629,5 +8629,20 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "CompUnit::Util",
+    "source-url" : "git://github.com/LLFourn/p6-CompUnit-Util",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "CompUnit::Util" : "lib/CompUnit/Util.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Utilities for introspecting compunits and re-exporting",
+    "version" : "0.1",
+    "authors" : [
+      "Lloyd Fournier"
+    ]
   }
 ]
