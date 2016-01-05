@@ -226,21 +226,6 @@
     ]
   },
   {
-    "name" : "HTTP::Server::Simple",
-    "source-url" : "git://github.com/gfldex/http-server-simple.git",
-    "provides" : {
-      "HTTP::Server::Simple::PSGI" : "lib/HTTP/Server/Simple/PSGI.pm6",
-      "HTTP::Server::Simple" : "lib/HTTP/Server/Simple.pm6"
-    },
-    "depends" : [ ],
-    "description" : "Simple webserver module, with PSGI support",
-    "version" : "*",
-    "authors" : [
-      "Martin Berends",
-      "Wenzel P. P. Peppmeyer"
-    ]
-  },
-  {
     "name" : "MPD",
     "source-url" : "git://github.com/tadzik/perl6-MPD.git",
     "provides" : {
