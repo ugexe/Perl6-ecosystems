@@ -8664,5 +8664,19 @@
     ],
     "description" : "IRC factoid bot",
     "version" : "1.001001"
+  },
+  {
+    "name" : "Test::IO::Socket::Async",
+    "source-url" : "git://github.com/jnthn/p6-test-io-socket-async.git",
+    "author" : "Jonathan Worthington",
+    "provides" : {
+      "Test::IO::Socket::Async" : "lib/Test/IO/Socket/Async.pm6"
+    },
+    "repo-type" : "git",
+    "depends" : [
+      "OO::Monitors"
+    ],
+    "description" : "A test double for IO::Socket::Async",
+    "version" : "0.1"
   }
 ]
