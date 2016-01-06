@@ -1442,18 +1442,11 @@
     "source-url" : "git://github.com/MARTIMM/BSON.git",
     "author" : "Marcel Timmerman",
     "provides" : {
-      "BSON::Exception" : "lib/BSON/Exception.pm6",
       "BSON::Binary" : "lib/BSON/Binary.pm6",
-      "BSON::Bson" : "lib/BSON.pm6",
       "BSON::Regex" : "lib/BSON/Regex.pm6",
       "BSON::Javascript" : "lib/BSON/Javascript.pm6",
       "BSON::Document" : "lib/BSON/Document.pm6",
-      "BSON::EDCTools" : "lib/BSON/EDCTools.pm6",
-      "BSON::ObjectId" : "lib/BSON/ObjectId.pm6",
-      "BSON::Binary-old" : "lib/BSON/Binary-old.pm6",
-      "BSON::Double" : "lib/BSON/Double.pm6",
-      "BSON::ObjectId-old" : "lib/BSON/ObjectId-old.pm6",
-      "BSON::Javascript-old" : "lib/BSON/Javascript-old.pm6"
+      "BSON::ObjectId" : "lib/BSON/ObjectId.pm6"
     },
     "depends" : [
       "Digest::MD5",
@@ -1463,8 +1456,9 @@
       "Pawe\u0142 Pabian worked on it from 2011 until January 2015",
       "Marcel Timmerman took over in Januari 2015 and is working on it until the present day"
     ],
+    "license" : "The Artistic License 2.0",
     "description" : "BSON encoding/decoding, used in MongoDB drivers",
-    "version" : "0.9.20"
+    "version" : "0.9.21"
   },
   {
     "name" : "GeoIP::City",
