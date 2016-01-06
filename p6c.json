@@ -8649,5 +8649,26 @@
     "authors" : [
       "Lloyd Fournier"
     ]
+  },
+  {
+    "name" : "IRC::Client::Plugin::Factoid",
+    "source-url" : "git://github.com/zoffixznet/perl6-IRC-Client-Plugin-Factoid.git",
+    "perl" : "6.c",
+    "author" : "Zoffix Znet",
+    "provides" : {
+      "IRC::Client::Plugin::Factoid" : "lib/IRC/Client/Plugin/Factoid.pm6"
+    },
+    "depends" : [
+      "IRC::Client:ver<2.003001>",
+      "Number::Denominate:ver<1.001001>",
+      "WWW::Google::Time:ver<1.001001>",
+      "Lingua::Conjunction:ver<1.001001>",
+      "DBIish:ver<0.1.0>"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "IRC factoid bot",
+    "version" : "1.001001"
   }
 ]
