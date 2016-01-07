@@ -8688,7 +8688,8 @@
       "AWS::Pricing" : "lib/AWS/Pricing.p6"
     },
     "depends" : [
-      "HTTP::Tinyish"
+      "HTTP::Tinyish",
+      "JSON::Pretty"
     ],
     "description" : "AWS Price List API library",
     "version" : "0.1.0",
