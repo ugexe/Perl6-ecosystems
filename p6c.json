@@ -8696,5 +8696,24 @@
     "authors" : [
       "Sam Morrison"
     ]
+  },
+  {
+    "name" : "Test::Output",
+    "source-url" : "git://github.com/zoffixznet/perl6-Test-Output.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Test::Output" : "lib/Test/Output.pm6"
+    },
+    "depends" : [
+      "Test"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Test the output to STDOUT and STDERR your program generates",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
