@@ -8678,5 +8678,22 @@
     ],
     "description" : "A test double for IO::Socket::Async",
     "version" : "0.1"
+  },
+  {
+    "name" : "AWS::Pricing",
+    "source-url" : "git://github.com/cnstechnicalgroup/perl6-aws-pricing.git",
+    "perl" : "6.*",
+    "author" : "github:scmorrison",
+    "provides" : {
+      "AWS::Pricing" : "lib/AWS/Pricing.p6"
+    },
+    "depends" : [
+      "HTTP::Tinyish"
+    ],
+    "description" : "AWS Price List API library",
+    "version" : "0.1.0",
+    "authors" : [
+      "Sam Morrison"
+    ]
   }
 ]
