@@ -4974,7 +4974,7 @@
       "Linenoise" : "lib/Linenoise.pm"
     },
     "depends" : [
-      "LibraryMake"
+      "Native::Resources"
     ],
     "description" : "Bindings to linenoise",
     "version" : "0.1.0"
@@ -5817,17 +5817,6 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
-  },
-  {
-    "name" : "Math::Trig",
-    "source-url" : "git://github.com/perlpilot/p6-Math-Trig.git",
-    "author" : "Jonathan Scott Duff",
-    "provides" : {
-      "Math::Trig" : "lib/Math/Trig.pm"
-    },
-    "depends" : [ ],
-    "description" : "Useful trigonometric routines",
-    "version" : "0.01"
   },
   {
     "name" : "Data::Dump",
@@ -8684,13 +8673,16 @@
     "name" : "AWS::Pricing",
     "source-url" : "git://github.com/scmorrison/perl6-aws-pricing.git",
     "perl" : "v6",
+    "build-depends" : [ ],
     "author" : "github:scmorrison",
     "provides" : {
       "AWS::Pricing" : "lib/AWS/Pricing.p6"
     },
     "depends" : [
-      "HTTP::Tinyish",
-      "JSON::Pretty"
+      "HTTP::Tinyish"
+    ],
+    "test-depends" : [
+      "Test"
     ],
     "description" : "AWS Price List API library",
     "version" : "0.1.0",
@@ -8746,5 +8738,19 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "Native::Resources",
+    "source-url" : "https://github.com/hoelzro/p6-native-resources.git",
+    "author" : "Rob Hoelz",
+    "provides" : {
+      "Native::Resources::Build" : "lib/Native/Resources/Build.pm",
+      "Native::Resources" : "lib/Native/Resources.pm"
+    },
+    "depends" : [
+      "LibraryMake"
+    ],
+    "description" : "Helper library for using resources made of native code",
+    "version" : "0.1.0"
   }
 ]
