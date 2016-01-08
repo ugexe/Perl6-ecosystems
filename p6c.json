@@ -8789,5 +8789,17 @@
     "authors" : [
       "Gon\u00e9ri Le Bouder"
     ]
+  },
+  {
+    "name" : "Concurrent::Iterator",
+    "source-url" : "git://github.com/jnthn/p6-concurrent-iterator.git",
+    "author" : "Jonathan Worthington",
+    "provides" : {
+      "Concurrent::Iterator" : "lib/Concurrent/Iterator.pm6"
+    },
+    "repo-type" : "git",
+    "depends" : [ ],
+    "description" : "Enables safe concurrent consumption of Iterable values",
+    "version" : "1.0"
   }
 ]
