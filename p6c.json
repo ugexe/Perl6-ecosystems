@@ -8715,5 +8715,35 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "IO::Path::Mode",
+    "source-url" : "git://github.com/jonathanstowe/IO-Path-Mode.git",
+    "perl" : "6",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/IO-Path-Mode.git"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "IO::Path::Mode" : "lib/IO/Path/Mode.pm"
+    },
+    "depends" : [ ],
+    "description" : "Augment IO::Path with a .mode() method to get the file mode",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "IO",
+      "permissions",
+      "mode",
+      "utility"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
   }
 ]
