@@ -2333,7 +2333,7 @@
   {
     "name" : "File::Temp",
     "source-url" : "git://github.com/perlpilot/p6-File-Temp.git",
-    "author" : "Jonathan Scott Duff",
+    "author" : "Jonathan Scott Duff <duff@pobox.com>",
     "build-depends" : [ ],
     "provides" : {
       "File::Temp" : "lib/File/Temp.pm"
@@ -5819,6 +5819,22 @@
     ]
   },
   {
+    "name" : "Math::Trig",
+    "source-url" : "git://github.com/perlpilot/p6-Math-Trig.git",
+    "build-depends" : [ ],
+    "author" : "Jonathan Scott Duff <duff@pobox.com>",
+    "provides" : {
+      "Math::Trig" : "lib/Math/Trig.pm"
+    },
+    "depends" : [ ],
+    "repo-type" : "git",
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Useful trigonometric routines",
+    "version" : "0.0.2"
+  },
+  {
     "name" : "Data::Dump",
     "source-url" : "git://github.com/tony-o/perl6-data-dump.git",
     "perl" : "v6",
@@ -7144,12 +7160,15 @@
     "provides" : {
       "Astro::Sunrise" : "lib/Astro/Sunrise.pm"
     },
+    "repo-type" : "git",
     "depends" : [ ],
-    "test-depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
     "description" : "Find the time of sunrise/sunset on a particular day",
-    "version" : "0.01",
+    "version" : "0.0.1",
     "authors" : [
-      "Jonathan Scott Duff"
+      "Jonathan Scott Duff <duff@pobox.com>"
     ]
   },
   {
@@ -8545,7 +8564,7 @@
     },
     "depends" : [ ],
     "description" : "Rudimentary C99 Hexadecimal Floating Point Support in Perl6",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "authors" : [
       "Dan Kogai"
     ]
@@ -8676,7 +8695,7 @@
     "build-depends" : [ ],
     "author" : "github:scmorrison",
     "provides" : {
-      "AWS::Pricing" : "lib/AWS/Pricing.p6"
+      "AWS::Pricing" : "lib/AWS/Pricing.pm6"
     },
     "depends" : [
       "HTTP::Tinyish"
