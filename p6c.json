@@ -8775,12 +8775,19 @@
   {
     "name" : "Email::Notmuch",
     "source-url" : "git://github.com/goneri/p6-Email-Notmuch.git",
-    "author" : "Gon\u00e9ri Le Bouder",
+    "perl" : "6.c",
     "provides" : {
       "Email::Notmuch" : "lib/Email/Notmuch.pm6"
     },
     "depends" : [ ],
+    "test-depends" : [
+      "File::Temp",
+      "Test"
+    ],
     "description" : "lib NotmuchMail binding",
-    "version" : "0.1"
+    "version" : "0.1",
+    "authors" : [
+      "Gon\u00e9ri Le Bouder"
+    ]
   }
 ]
