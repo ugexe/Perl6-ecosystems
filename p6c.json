@@ -8873,12 +8873,17 @@
   {
     "name" : "Text::Spintax",
     "source-url" : "https://github.com/daleevans/perl6-Text-Spintax",
-    "author" : "Dale Evans",
+    "perl" : "6.c",
     "provides" : {
-      "Text::Spintax" : "Text-Spintax/lib/Text/Spintax.pm6"
+      "Text::Spintax" : "lib/Text/Spintax.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "Test::META"
+    ],
     "description" : "A parser and renderer for spintax formatted text",
-    "version" : "0.01"
+    "version" : "0.01",
+    "authors" : [
+      "Dale Evans"
+    ]
   }
 ]
