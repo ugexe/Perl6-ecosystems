@@ -8869,5 +8869,16 @@
     "authors" : [
       "Rob Hoelz"
     ]
+  },
+  {
+    "name" : "Text::Spintax",
+    "source-url" : "https://github.com/daleevans/perl6-Text-Spintax",
+    "author" : "Dale Evans",
+    "provides" : {
+      "Text::Spintax" : "Text-Spintax/lib/Text/Spintax.pm6"
+    },
+    "depends" : [ ],
+    "description" : "A parser and renderer for spintax formatted text",
+    "version" : "0.01"
   }
 ]
