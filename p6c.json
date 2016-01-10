@@ -5492,6 +5492,16 @@
     "version" : "0.1"
   },
   {
+    "name" : "Slang::Roman",
+    "source-url" : "git://github.com/drforr/perl6-slang-roman.git",
+    "provides" : {
+      "Slang::Roman" : "lib/Slang/Roman.pm6"
+    },
+    "depends" : [ ],
+    "description" : "A slang to allow Roman numerals",
+    "version" : "0.1"
+  },
+  {
     "name" : "Path::Router",
     "source-url" : "git://github.com/zostay/p6-Path-Router.git",
     "author" : "Andrew Sterling Hanenkamp",
