@@ -5543,10 +5543,10 @@
   },
   {
     "name" : "X::Protocol",
-    "source-url" : "https://github.com/skids/perl6xproto.git",
-    "perl" : "v6.0.0",
-    "build-depends" : [ ],
-    "author" : "Brian S. Julin",
+    "support" : {
+      "source" : "https://github.com/skids/perl6xproto.git"
+    },
+    "perl" : "6",
     "provides" : {
       "X::Protocol::HTTP" : "lib/X/Protocol/HTTP.pm6",
       "X::Protocol" : "lib/X/Protocol.pm6"
@@ -5554,10 +5554,10 @@
     "depends" : [ ],
     "license" : "http://www.perlfoundation.org/artistic_license_2_0",
     "description" : "Perl6 modules for handling protocol status as Exceptions",
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "v0.0.1"
+    "version" : "v0.0.1",
+    "authors" : [
+      "Brian S. Julin"
+    ]
   },
   {
     "name" : "Proc::Screen",
@@ -5566,7 +5566,7 @@
       "bugtracker" : "https://github.com/skids/perl6-Proc-Screen/issues"
     },
     "source-url" : "https://github.com/skids/perl6-Proc-Screen.git",
-    "perl" : "v6.0.0",
+    "perl" : "6",
     "build-depends" : [
       "File::Temp",
       "Test"
