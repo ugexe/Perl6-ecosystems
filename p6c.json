@@ -6895,13 +6895,16 @@
     ],
     "author" : "github:awwaiid",
     "provides" : {
+      "Inline::Ruby::RbValue" : "lib/Inline/Ruby/RbValue.pm6",
+      "Inline::Ruby::Sweet" : "lib/Inline/Ruby/Sweet.pm6",
+      "Inline::Ruby::RbObject" : "lib/Inline/Ruby/RbObject.pm6",
       "Inline::Ruby" : "lib/Inline/Ruby.pm6"
     },
     "depends" : [
       "LibraryMake"
     ],
     "description" : "Use Ruby code and libraries in a Perl 6 program",
-    "version" : "0.1.0"
+    "version" : "0.1.1"
   },
   {
     "name" : "Apache::LogFormat",
