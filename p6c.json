@@ -1541,7 +1541,7 @@
     "source-url" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
     "author" : "Marcel Timmerman",
     "provides" : {
-      "MongoDB::DBRef" : "lib/MongoDB/DBRef.pm6",
+      "MongoDB::Header" : "lib/MongoDB/Header.pm6",
       "MongoDB::Database" : "lib/MongoDB/Database.pm6",
       "MongoDB::Cursor" : "lib/MongoDB/Cursor.pm6",
       "MongoDB::Wire" : "lib/MongoDB/Wire.pm6",
@@ -1559,8 +1559,9 @@
       "Pawe\u0142 Pabian worked on it from 2011 until January 2015",
       "Marcel Timmerman took over in Januari 2015 and is working on it until the present day"
     ],
+    "license" : "The Artistic License 2.0",
     "description" : "MongoDB driver",
-    "version" : "0.25.11"
+    "version" : "0.26.1"
   },
   {
     "name" : "SDL",
