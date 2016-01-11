@@ -8909,6 +8909,21 @@
     ]
   },
   {
+    "name" : "AttrX::InitArg",
+    "source-url" : "git@github.com:LLFourn/p6-AttrX-InitArg.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "AttrX::InitArg" : "lib/AttrX/InitArg.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Moose-like init-arg attribute trait for Perl 6",
+    "version" : "0.1",
+    "authors" : [
+      "Lloyd Fournier"
+    ]
+  },
+  {
     "name" : "XHTML::Writer",
     "source-url" : "git://github.com/gfldex/perl6-xhtml-writer.git",
     "perl" : "6.*",
