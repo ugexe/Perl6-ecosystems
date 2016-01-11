@@ -8916,5 +8916,27 @@
     "authors" : [
       "Wenzel P. P. Peppmeyer"
     ]
+  },
+  {
+    "name" : "LCS::All",
+    "source-url" : "git://github.com/wollmers/P6-LCS-All.git",
+    "author" : "Helmut Wollmersdorfer",
+    "provides" : {
+      "LCS::BV" : "lib/LCS/All.pm"
+    },
+    "depends" : [ ],
+    "description" : "Calculate all Longest Common Subsequences",
+    "version" : "0.1.0"
+  },
+  {
+    "name" : "LCS::BV",
+    "source-url" : "git://github.com/wollmers/P6-LCS-BV.git",
+    "author" : "Helmut Wollmersdorfer",
+    "provides" : {
+      "LCS::BV" : "lib/LCS/BV.pm"
+    },
+    "depends" : [ ],
+    "description" : "Bit Vector implementation of the Longest Common Subsequence Algorithm",
+    "version" : "0.1.0"
   }
 ]
