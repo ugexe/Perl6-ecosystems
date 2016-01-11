@@ -8940,5 +8940,20 @@
     "depends" : [ ],
     "description" : "Bit Vector implementation of the Longest Common Subsequence Algorithm",
     "version" : "0.1.0"
+  },
+  {
+    "name" : "Serialize-Naive",
+    "source-url" : "git://github.com/ppentchev/Serialize-Naive.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "Serialize::Naive" : "lib/Serialize/Naive.pm6"
+    },
+    "depends" : [ ],
+    "description" : "A somewhat naive (de-)serialization implementation",
+    "version" : "0.1.0",
+    "authors" : [
+      "Peter Pentchev"
+    ]
   }
 ]
