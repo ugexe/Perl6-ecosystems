@@ -2862,7 +2862,9 @@
     "name" : "File::Zip",
     "source-url" : "git://github.com/azawawi/perl6-file-zip.git",
     "provides" : {
+      "File::Zip::EndOfCentralDirectoryHeader" : "lib/File/Zip/EndOfCentralDirectoryHeader.pm6",
       "File::Zip::LocalFileHeader" : "lib/File/Zip/LocalFileHeader.pm6",
+      "File::Zip::CentralDirectoryHeader" : "lib/File/Zip/CentralDirectoryHeader.pm6",
       "File::Zip" : "lib/File/Zip.pm6"
     },
     "depends" : [
