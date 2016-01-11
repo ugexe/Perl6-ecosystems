@@ -8899,5 +8899,22 @@
     "authors" : [
       "Dale Evans"
     ]
+  },
+  {
+    "name" : "XHTML::Writer",
+    "source-url" : "git://github.com/gfldex/perl6-xhtml-writer.git",
+    "perl" : "6.*",
+    "provides" : {
+      "XHTML::Skeleton" : "lib/XHTML/Skeleton.pm6",
+      "XHTML::Writer" : "lib/XHTML/Writer.pm6"
+    },
+    "depends" : [
+      "XML"
+    ],
+    "description" : "Generate XHTML1.1 with subs (many, many subs)",
+    "version" : "0.1.0",
+    "authors" : [
+      "Wenzel P. P. Peppmeyer"
+    ]
   }
 ]
