@@ -1559,12 +1559,18 @@
       "MongoDB::Header" : "lib/MongoDB/Header.pm6",
       "MongoDB::Database" : "lib/MongoDB/Database.pm6",
       "MongoDB::Cursor" : "lib/MongoDB/Cursor.pm6",
+      "Users.pod" : "doc/Pod/Users.pod",
+      "MongoDB.pod" : "doc/Pod/MongoDB.pod",
+      "Connection.pod" : "doc/Pod/Connection.pod",
+      "Cursor.pod" : "doc/Pod/Cursor.pod",
       "MongoDB::Wire" : "lib/MongoDB/Wire.pm6",
       "MongoDB::Collection" : "lib/MongoDB/Collection.pm6",
       "MongoDB::Users" : "lib/MongoDB/Users.pm6",
       "MongoDB::Connection" : "lib/MongoDB/Connection.pm6",
       "MongoDB::Authenticate" : "lib/MongoDB/Authenticate.pm6",
-      "MongoDB" : "lib/MongoDB.pm6"
+      "MongoDB" : "lib/MongoDB.pm6",
+      "Database.pod" : "doc/Pod/Database.pod",
+      "Collection.pod" : "doc/Pod/Collection.pod"
     },
     "depends" : [
       "BSON",
@@ -1576,7 +1582,7 @@
     ],
     "license" : "The Artistic License 2.0",
     "description" : "MongoDB driver",
-    "version" : "0.26.1"
+    "version" : "0.26.4"
   },
   {
     "name" : "SDL",
