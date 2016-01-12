@@ -2581,6 +2581,17 @@
     "version" : "v0.1.0"
   },
   {
+    "name" : "if",
+    "source-url" : "git://github.com/FROGGS/p6-if.git",
+    "author" : "github:FROGGS",
+    "provides" : {
+      "if" : "lib/if.pm"
+    },
+    "depends" : [ ],
+    "description" : "conditionally use packages",
+    "version" : "0.1.0"
+  },
+  {
     "name" : "Inline",
     "source-url" : "git://github.com/FROGGS/p6-Inline-C.git",
     "author" : "github:FROGGS",
