@@ -9007,12 +9007,12 @@
   },
   {
     "name" : "Compress::Bzip2::Raw",
-    "source-url" : "git://github.com/Altai-man/P6-Compress-Bzip2-Raw.git",
+    "source-url" : "git://github.com/Altai-man/perl6-Compress-Bzip2-Raw.git",
     "perl" : "6.*",
     "resources" : [ ],
     "author" : "github:Altai-man",
     "provides" : {
-      "Compress::Bzip2::Raw" : "lib/Compress/Bzip2-Raw.pm6"
+      "Compress::Bzip2::Raw" : "lib/Compress/Bzip2/Raw.pm6"
     },
     "depends" : [ ],
     "description" : "Low-level bindings to libbzip2",
