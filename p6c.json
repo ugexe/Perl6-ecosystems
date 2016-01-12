@@ -8893,6 +8893,23 @@
     ]
   },
   {
+    "name" : "IO::MiddleMan",
+    "source-url" : "git://github.com/zoffixznet/perl6-IO-MiddleMan.git",
+    "perl" : "6.c",
+    "provides" : {
+      "IO::MiddleMan" : "lib/IO/MiddleMan.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "hijack, capture, or mute writes to an IO::Handle",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
+  },
+  {
     "name" : "Text::Spintax",
     "source-url" : "https://github.com/daleevans/perl6-Text-Spintax",
     "perl" : "6.c",
@@ -8978,5 +8995,18 @@
     "authors" : [
       "Peter Pentchev"
     ]
+  },
+  {
+    "name" : "Compress::Bzip2::Raw",
+    "source-url" : "git://github.com/Altai-man/P6-Compress-Bzip2-Raw.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "author" : "github:Altai-man",
+    "provides" : {
+      "Compress::Bzip2::Raw" : "lib/Compress/Bzip2-Raw.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Low-level bindings to libbzip2",
+    "version" : "0.1.0"
   }
 ]
