@@ -8974,7 +8974,7 @@
     },
     "depends" : [ ],
     "description" : "Calculate all Longest Common Subsequences",
-    "version" : "0.1.1"
+    "version" : "0.2.0"
   },
   {
     "name" : "LCS::BV",
@@ -8984,9 +8984,11 @@
     "provides" : {
       "LCS::BV" : "lib/LCS/BV.pm"
     },
-    "depends" : [ ],
+    "depends" : [
+      "LCS::All"
+    ],
     "description" : "Bit Vector implementation of the Longest Common Subsequence Algorithm",
-    "version" : "0.1.0"
+    "version" : "0.2.0"
   },
   {
     "name" : "Serialize-Naive",
