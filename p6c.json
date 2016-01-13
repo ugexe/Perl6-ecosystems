@@ -4507,7 +4507,7 @@
     "name" : "Text::Table::Simple",
     "owner" : "ugexe",
     "source-url" : "git://github.com/ugexe/Perl6-Text--Table--Simple.git",
-    "perl" : "v6.0.0",
+    "perl" : "6",
     "provides" : {
       "Text::Table::Simple" : "lib/Text/Table/Simple.pm6"
     },
@@ -6764,7 +6764,7 @@
       "bugtracker" : "https://github.com/ugexe/Perl6-PathTools/issues"
     },
     "owner" : "ugexe",
-    "perl" : "v6.0.0",
+    "perl" : "6",
     "provides" : {
       "PathTools" : "lib/PathTools.pm6"
     },
@@ -6783,7 +6783,7 @@
       "bugtracker" : "https://github.com/ugexe/Perl6-Grammar--HTTP/issues"
     },
     "owner" : "ugexe",
-    "perl" : "v6.0.0",
+    "perl" : "6",
     "provides" : {
       "Grammar::HTTP::RFC7235" : "lib/Grammar/HTTP/RFC7235.pm6",
       "Grammar::HTTP::RFC7232" : "lib/Grammar/HTTP/RFC7232.pm6",
@@ -7273,7 +7273,7 @@
       "bugtracker" : "https://github.com/ugexe/Perl6-Net--HTTP/issues"
     },
     "owner" : "ugexe",
-    "perl" : "v6.0.0",
+    "perl" : "6",
     "provides" : {
       "Net::HTTP::POST" : "lib/Net/HTTP/POST.pm6",
       "Net::HTTP::URL" : "lib/Net/HTTP/URL.pm6",
@@ -8885,7 +8885,7 @@
     "support" : {
       "bugtracker" : "https://github.com/ugexe/zef/issues"
     },
-    "perl" : "v6.0.0",
+    "perl" : "6",
     "resources" : [
       "config.json"
     ],
@@ -9091,6 +9091,20 @@
     "version" : "0.1.0",
     "authors" : [
       "Wenzel P. P. Peppmeyer"
+    ]
+  },
+  {
+    "name" : "Linux::Proc::Statm",
+    "perl" : "6",
+    "source-url" : "https://github.com/Skarsnik/p6-linux-proc-statm.git",
+    "provides" : {
+      "Linux::Proc::Statm" : "lib/Linux/Proc/Statm.pm"
+    },
+    "depends" : [ ],
+    "description" : "Provide info about a process memory usage",
+    "version" : "*",
+    "authors" : [
+      "Sylvain Colinet <scolinet@gmail.com>"
     ]
   }
 ]
