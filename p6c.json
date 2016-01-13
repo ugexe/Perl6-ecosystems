@@ -5521,6 +5521,36 @@
     "version" : "0.1"
   },
   {
+    "name" : "Readline",
+    "perl" : "v6",
+    "source-url" : "git://github.com/drforr/perl6-readline.git",
+    "support" : {
+      "source" : "git://github.com/drforr/perl6-readline.git"
+    },
+    "build-depends" : [
+      "LibraryCheck",
+      "panda"
+    ],
+    "author" : "Jeffrey Goff <drforr@pobox.com>",
+    "provides" : {
+      "Readline" : "lib/Readline.pm"
+    },
+    "auth" : "github:drforr",
+    "depends" : [ ],
+    "description" : "Perl 6 interface to GNU Readline, the CLI-based line reading library",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "terminal",
+      "CLI"
+    ],
+    "version" : "v0.0.2",
+    "authors" : [
+      "Jeffrey Goff <drforr@pobox.com>"
+    ]
+  },
+  {
     "name" : "Slang::Roman",
     "source-url" : "git://github.com/drforr/perl6-slang-roman.git",
     "provides" : {
@@ -6657,7 +6687,7 @@
       "bugtracker" : "https://github.com/ugexe/Perl6-Base64/issues"
     },
     "owner" : "ugexe",
-    "perl" : "v6.0.0",
+    "perl" : "6.0.0",
     "provides" : {
       "Base64" : "lib/Base64.pm6"
     },
