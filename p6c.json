@@ -9106,5 +9106,22 @@
     "authors" : [
       "Sylvain Colinet <scolinet@gmail.com>"
     ]
+  },
+  {
+    "name" : "Finance::CompoundInterest",
+    "source-url" : "git://github.com/peelle/Finance-CompoundInterest.git",
+    "perl" : "6.*",
+    "provides" : {
+      "Finance::CompoundInterest" : "lib/Finance/CompoundInterest.pm"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Compound Interest calculations for fun and profit.",
+    "version" : "0.1.0",
+    "authors" : [
+      "James (Jeremy) Carman <developer@peelle.org>"
+    ]
   }
 ]
