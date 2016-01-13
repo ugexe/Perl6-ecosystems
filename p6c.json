@@ -9044,5 +9044,23 @@
     "authors" : [
       "Wenzel P. P. Peppmeyer"
     ]
+  },
+  {
+    "name" : "Typesafe::XHTML::Writer",
+    "source-url" : "git://github.com/gfldex/perl6-typesafe-xhtml-writer.git",
+    "perl" : "6.*",
+    "provides" : {
+      "Typesafe::XHTML::Skeleton" : "lib/typesafe/XHTML/Skeleton.pm6",
+      "Typesafe::XHTML::Writer" : "lib/typeasafe/XHTML/Writer.pm6"
+    },
+    "depends" : [
+      "XML",
+      "Typesafe::HTML"
+    ],
+    "description" : "Generate XHTML1.1 with subs using Typesafe::HTML",
+    "version" : "0.1.0",
+    "authors" : [
+      "Wenzel P. P. Peppmeyer"
+    ]
   }
 ]
