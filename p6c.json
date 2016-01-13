@@ -9028,5 +9028,21 @@
     "depends" : [ ],
     "description" : "Low-level bindings to libbzip2",
     "version" : "0.1.0"
+  },
+  {
+    "name" : "Typesafe::HTML",
+    "source-url" : "git://github.com/gfldex/perl6-typesafe-html.git",
+    "perl" : "6.*",
+    "provides" : {
+      "Typesafe::HTML" : "lib/Typesafe/HTML.pm6"
+    },
+    "depends" : [
+      "XML"
+    ],
+    "description" : "Typesafe HTML Class",
+    "version" : "0.1.0",
+    "authors" : [
+      "Wenzel P. P. Peppmeyer"
+    ]
   }
 ]
