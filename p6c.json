@@ -8376,7 +8376,9 @@
     "provides" : {
       "Math::Matrix" : "lib/Math/Matrix.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "AttrX::PrivateAccessor"
+    ],
     "description" : "Math::Matrix",
     "version" : "0.1.0"
   },
