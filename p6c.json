@@ -9143,5 +9143,31 @@
     "authors" : [
       "Lloyd Fournier"
     ]
+  },
+  {
+    "name" : "Build::Graph",
+    "source-url" : "git://github.com/leont/build-Graph.git",
+    "author" : "Leon Timmermans",
+    "provides" : {
+      "Build::Graph" : "lib/Build/Graph.pm"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Shell::Command",
+      "File::Temp"
+    ],
+    "description" : "A flexible and serializable dependency graph",
+    "version" : "0.0.1"
+  },
+  {
+    "name" : "Build::Simple",
+    "source-url" : "git://github.com/leont/build-simple.git",
+    "author" : "Leon Timmermans",
+    "provides" : {
+      "Build::Simple" : "lib/Build/Simple.pm"
+    },
+    "depends" : [ ],
+    "description" : "A minimalistic dependency system",
+    "version" : "0.0.1"
   }
 ]
