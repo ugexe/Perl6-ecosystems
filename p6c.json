@@ -9137,5 +9137,22 @@
     "authors" : [
       "github:pierre-vigier"
     ]
+  },
+  {
+    "name" : "OO::Schema",
+    "source-url" : "git://github.com/LLFourn/p6-OO-Schema.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "OO::Schema" : "lib/OO/Schema.pm6"
+    },
+    "depends" : [
+      "CompUnit::Util"
+    ],
+    "description" : "Declare class relationships in a single module",
+    "version" : "0.1",
+    "authors" : [
+      "Lloyd Fournier"
+    ]
   }
 ]
