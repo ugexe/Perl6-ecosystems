@@ -6687,7 +6687,7 @@
       "bugtracker" : "https://github.com/ugexe/Perl6-Base64/issues"
     },
     "owner" : "ugexe",
-    "perl" : "6.0.0",
+    "perl" : "6",
     "provides" : {
       "Base64" : "lib/Base64.pm6"
     },
@@ -9123,5 +9123,16 @@
     "authors" : [
       "James (Jeremy) Carman <developer@peelle.org>"
     ]
+  },
+  {
+    "name" : "AttrX::PrivateAccessor",
+    "source-url" : "https://github.com/pierre-vigier/Perl6-AttrX-PrivateAccessor",
+    "author" : "github:pierre-vigier",
+    "provides" : {
+      "AttrX::PrivateAccessor" : "lib/AttrX/PrivateAccessor.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Providing private accessors for private attributes",
+    "version" : "0.0.1"
   }
 ]
