@@ -7959,7 +7959,7 @@
   {
     "name" : "PDF",
     "source-url" : "git://github.com/p6-pdf/perl6-PDF-Tools.git",
-    "perl" : "v6",
+    "perl" : "6",
     "provides" : {
       "PDF::DAO::Null" : "lib/PDF/DAO/Null.pm",
       "PDF::Storage::Filter::ASCIIHex" : "lib/PDF/Storage/Filter/ASCIIHex.pm",
@@ -8011,7 +8011,7 @@
       "Digest::MD5"
     ],
     "description" : "Low level tools for reading, writing and manipulation of PDF files",
-    "version" : "0.0.3"
+    "version" : "0.0.4"
   },
   {
     "name" : "HTTP::Signature",
