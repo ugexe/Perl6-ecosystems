@@ -2904,11 +2904,15 @@
       "OpenCV::Mat" : "lib/OpenCV/Mat.pm6",
       "OpenCV::Highgui" : "lib/OpenCV/Highgui.pm6"
     },
+    "auth" : "github:azawawi",
     "depends" : [
       "LibraryMake"
     ],
     "description" : "OpenCV Bindings using NativeCall",
-    "version" : "0.0.1"
+    "version" : "0.0.1",
+    "authors" : [
+      "Ahmad M. Zawawi"
+    ]
   },
   {
     "name" : "Test::Harness",
