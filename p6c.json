@@ -5814,7 +5814,7 @@
       "ANTLR4::Actions::AST" : "lib/ANTLR4/Actions/AST.pm",
       "ANTLR4::Grammar" : "lib/ANTLR4/Grammar.pm"
     },
-    "depends" : [
+    "test-depends" : [
       "JSON::Tiny"
     ],
     "description" : "ANTLR4 to Perl6 conversion tool",
