@@ -2898,7 +2898,10 @@
     ],
     "provides" : {
       "OpenCV::NativeCall" : "lib/OpenCV/NativeCall.pm6",
-      "OpenCV" : "lib/OpenCV.pm6"
+      "OpenCV" : "lib/OpenCV.pm6",
+      "OpenCV::Photo" : "lib/OpenCV/Photo.pm6",
+      "OpenCV::Mat" : "lib/OpenCV/Mat.pm6",
+      "OpenCV::Highgui" : "lib/OpenCV/Highgui.pm6"
     },
     "depends" : [
       "LibraryMake"
