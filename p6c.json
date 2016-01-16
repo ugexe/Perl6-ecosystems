@@ -2891,6 +2891,19 @@
     "version" : "*"
   },
   {
+    "name" : "OpenCV",
+    "source-url" : "git://github.com/azawawi/perl6-opencv.git",
+    "provides" : {
+      "OpenCV::NativeCall" : "lib/OpenCV/NativeCall.pm6",
+      "OpenCV" : "lib/OpenCV.pm6"
+    },
+    "depends" : [
+      "LibraryMake"
+    ],
+    "description" : "OpenCV Bindings using NativeCall",
+    "version" : "*"
+  },
+  {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
     "provides" : {
