@@ -9195,5 +9195,31 @@
     "depends" : [ ],
     "description" : "A minimalistic dependency system",
     "version" : "0.0.1"
+  },
+  {
+    "name" : "Archive::SimpleZip",
+    "support" : {
+      "source" : "git://github.com/pmqs/Archive-Zip.git"
+    },
+    "source-url" : "git://github.com/pmqs/Archive-Zip.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "Archive::SimpleZip" : "lib/Archive/SimpleZip.pm6"
+    },
+    "depends" : [
+      "Compress::Zlib::Raw",
+      "Compress::Zlib",
+      "IO::Blob"
+    ],
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Write Zip Files.",
+    "version" : "0.1.0",
+    "authors" : [
+      "Paul Marquess <pmqs@cpan.org"
+    ]
   }
 ]
