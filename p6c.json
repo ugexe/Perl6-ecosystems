@@ -2076,6 +2076,7 @@
   {
     "name" : "Net::AMQP",
     "source-url" : "git://github.com/retupmoca/P6-Net-AMQP.git",
+    "perl" : "6.c",
     "author" : "github:retupmoca",
     "provides" : {
       "Net::AMQP::Payload::Header" : "lib/Net/AMQP/Payload/Header.pm6",
@@ -2091,7 +2092,7 @@
     },
     "depends" : [ ],
     "description" : "AMQP (RabbitMQ) 0.9.1 client",
-    "version" : "0.1.0"
+    "version" : "0.1.1"
   },
   {
     "name" : "SOAP::Client",
