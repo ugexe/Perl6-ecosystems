@@ -4028,7 +4028,36 @@
     "name" : "LacunaCookbuk::Client",
     "source-url" : "git://github.com/teodozjan/lacuna-cookbuk.git",
     "provides" : {
-      "LacunaCookbuk::Client" : "lib/LacunaCookbuk/Client.pm6"
+      "LacunaCookbuk::Model::Structure::Intelligence" : "lib/LacunaCookbuk/Model/Structure/Intelligence.pm6",
+      "LacunaCookbuk::Model::Structure::Shipyard" : "lib/LacunaCookbuk/Model/Structure/Shipyard.pm6",
+      "LacunaCookbuk::Model::Body::Planet" : "lib/LacunaCookbuk/Model/Body/Planet.pm6",
+      "LacunaCookbuk::Model::Ship" : "lib/LacunaCookbuk/Model/Ship.pm6",
+      "LacunaCookbuk::Model::Inbox" : "lib/LacunaCookbuk/Model/Inbox.pm6",
+      "LacunaCookbuk::Logic::ShipCritic" : "lib/LacunaCookbuk/Logic/ShipCritic.pm6",
+      "LacunaCookbuk::Logic::PlanMaker" : "lib/LacunaCookbuk/Logic/PlanMaker.pm6",
+      "LacunaCookbuk::Model::Structure::BuildingView" : "lib/LacunaCookbuk/Model/Structure/BuildingView.pm6",
+      "LacunaCookbuk::Model::Structure::SpacePort" : "lib/LacunaCookbuk/Model/Structure/SpacePort.pm6",
+      "LacunaCookbuk::Model::Structure::Parliament" : "lib/LacunaCookbuk/Model/Structure/Parliament.pm6",
+      "LacunaCookbuk::Model::Spy" : "lib/LacunaCookbuk/Model/Spy.pm6",
+      "LacunaCookbuk::Id" : "lib/LacunaCookbuk/Id.pm6",
+      "LacunaCookbuk::Model::Body::SpaceStation" : "lib/LacunaCookbuk/Model/Body/SpaceStation.pm6",
+      "LacunaCookbuk::Logic::Chairman" : "lib/LacunaCookbuk/Logic/Chairman.pm6",
+      "LacunaCookbuk::Logic::IntelCritic" : "lib/LacunaCookbuk/Logic/IntelCritic.pm6",
+      "LacunaCookbuk::Model::Structure::Archaeology" : "lib/LacunaCookbuk/Model/Structure/Archaeology.pm6",
+      "LacunaCookbuk::Logic::Secretary" : "lib/LacunaCookbuk/Logic/Secretary.pm6",
+      "LacunaCookbuk::Logic::BodyBuilder" : "lib/LacunaCookbuk/Logic/BodyBuilder.pm6",
+      "LacunaCookbuk::Model::Structure::Development" : "lib/LacunaCookbuk/Model/Structure/Development.pm6",
+      "LacunaCookbuk::Model::LacunaBuilding" : "lib/LacunaCookbuk/Model/LacunaBuilding.pm6",
+      "LacunaCookbuk::Model::MsgTag" : "lib/LacunaCookbuk/Model/MsgTag.pm6",
+      "LacunaCookbuk::Model::Body" : "lib/LacunaCookbuk/Model/Body.pm6",
+      "LacunaCookbuk::Logic::Transporter" : "lib/LacunaCookbuk/Logic/Transporter.pm6",
+      "LacunaCookbuk::Model::Structure::Trade" : "lib/LacunaCookbuk/Model/Structure/Trade.pm6",
+      "LacunaCookbuk::Logic::Ambassador" : "lib/LacunaCookbuk/Logic/Ambassador.pm6",
+      "LacunaCookbuk::Logic::OreCritic" : "lib/LacunaCookbuk/Logic/OreCritic.pm6",
+      "LacunaCookbuk::Logic::Commander" : "lib/LacunaCookbuk/Logic/Commander.pm6",
+      "LacunaCookbuk::Client" : "lib/LacunaCookbuk/Client.pm6",
+      "LacunaCookbuk::Model::Empire" : "lib/LacunaCookbuk/Model/Empire.pm6",
+      "BuildGoal" : "lib/LacunaCookbuk/Logic/Chairman.pm6"
     },
     "depends" : [
       "Form",
@@ -4037,7 +4066,7 @@
       "PerlStore"
     ],
     "description" : "Lacuna expanse lazy player helper",
-    "version" : "*",
+    "version" : "v3.1.3",
     "authors" : [
       "github:teodozjan"
     ]
@@ -7978,7 +8007,7 @@
       "File::Find"
     ],
     "description" : "Checks whether package name equals with module path",
-    "version" : "*",
+    "version" : "0.1",
     "authors" : [
       "github:teodozjan"
     ]
