@@ -2899,9 +2899,7 @@
       "libopencv-perl6.so",
       "libopencv-perl6.dll"
     ],
-    "build-depends" : [
-      "LibraryMake"
-    ],
+    "build-depends" : [ ],
     "provides" : {
       "OpenCV::NativeCall" : "lib/OpenCV/NativeCall.pm6",
       "OpenCV" : "lib/OpenCV.pm6",
