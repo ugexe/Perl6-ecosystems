@@ -9255,5 +9255,34 @@
     "authors" : [
       "Paul Marquess <pmqs@cpan.org"
     ]
+  },
+  {
+    "name" : "Tinky",
+    "source-url" : "git://github.com/jonathanstowe/Tinky.git",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Tinky.git"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "Tinky" : "lib/Tinky.pm"
+    },
+    "depends" : [ ],
+    "description" : "An Experimental Workflow / State Management toolit",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "Workflow",
+      "toolkit",
+      "state machine"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
   }
 ]
