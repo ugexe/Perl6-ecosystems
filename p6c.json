@@ -8426,6 +8426,21 @@
     ]
   },
   {
+    "name" : "Math::Matrix",
+    "source-url" : "git@github.com:pierre-vigier/Perl6-Math-Matrix.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Math::Matrix" : "lib/Math/Matrix.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Math::Matrix",
+    "version" : "0.1.0",
+    "authors" : [
+      "github:pierre-vigier",
+      "github:lichtkind"
+    ]
+  },
+  {
     "name" : "Discord",
     "perl" : "v6",
     "source-url" : "git://github.com/Skarsnik/perl6-discord.git",
