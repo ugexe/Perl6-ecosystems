@@ -6701,11 +6701,12 @@
   {
     "name" : "App::ecoreadme",
     "source-url" : "git://github.com/stmuk/p6-eco-readme.git",
-    "perl" : "v6.0.0",
+    "perl" : "6.c",
     "author" : "Steve Mynott <steve.mynott@gmail.com>",
     "provides" : { },
     "depends" : [
-      "Net::Curl",
+      "LWP::Simple",
+      "IO::Socket::SSL",
       "Panda",
       "IO::Capture::Simple"
     ],
