@@ -9282,5 +9282,22 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "WebService::AWS::V4",
+    "source-url" : "git://github.com/bradclawsie/WebService-AWS-V4.git",
+    "perl" : "6.*",
+    "author" : "Brad Clawsie",
+    "provides" : {
+      "WebService::AWS::V4" : "lib/WebService/AWS/V4.pm6"
+    },
+    "depends" : [
+      "URI",
+      "URI::Escape",
+      "Digest::SHA",
+      "Digest::HMAC"
+    ],
+    "description" : "A library of routines to create AWS V4 authentication strings",
+    "version" : "0.0.1"
   }
 ]
