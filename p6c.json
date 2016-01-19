@@ -9284,12 +9284,12 @@
     ]
   },
   {
-    "name" : "WebService::AWS::V4",
+    "name" : "WebService::AWS::Auth::V4",
     "source-url" : "git://github.com/bradclawsie/WebService-AWS-V4.git",
     "perl" : "6.*",
     "author" : "Brad Clawsie",
     "provides" : {
-      "WebService::AWS::V4" : "lib/WebService/AWS/V4.pm6"
+      "WebService::AWS::Auth::V4" : "lib/WebService/AWS/Auth/V4.pm6"
     },
     "depends" : [
       "URI",
