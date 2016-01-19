@@ -8,7 +8,7 @@
       "NativeCall::Errno" : "lib/NativeCall/Errno.pm6"
     },
     "description" : "Read errno from Perl 6 code.",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "authors" : [
       "rightfold"
     ]
@@ -2092,7 +2092,6 @@
     "name" : "Net::AMQP",
     "source-url" : "git://github.com/retupmoca/P6-Net-AMQP.git",
     "perl" : "6.c",
-    "author" : "github:retupmoca",
     "provides" : {
       "Net::AMQP::Payload::Header" : "lib/Net/AMQP/Payload/Header.pm6",
       "Net::AMQP::Queue" : "lib/Net/AMQP/Queue.pm6",
@@ -2105,9 +2104,19 @@
       "Net::AMQP" : "lib/Net/AMQP.pm6",
       "Net::AMQP::Payload::Heartbeat" : "lib/Net/AMQP/Payload/Heartbeat.pm6"
     },
+    "auth" : "github:retupmoca",
     "depends" : [ ],
+    "tags" : [
+      "messaging",
+      "amqp",
+      "mq",
+      "amqp"
+    ],
     "description" : "AMQP (RabbitMQ) 0.9.1 client",
-    "version" : "0.1.1"
+    "version" : "0.1.2",
+    "authors" : [
+      "Andrew Egeler"
+    ]
   },
   {
     "name" : "SOAP::Client",
