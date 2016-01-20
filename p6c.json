@@ -5527,19 +5527,6 @@
     ]
   },
   {
-    "name" : "Text::VimColour",
-    "source-url" : "git://github.com/stmuk/p6-Text-VimColour.git",
-    "author" : "Steve Mynott <steve.mynott@gmail.com>",
-    "provides" : {
-      "Text::VimColour" : "lib/Text/VimColour.pm"
-    },
-    "depends" : [
-      "File::Temp"
-    ],
-    "description" : "Converts scripts into colour syntax HTML using vim. ",
-    "version" : "0.4"
-  },
-  {
     "name" : "HTTP::Server::Threaded",
     "source-url" : "git://github.com/tony-o/perl6-http-server-threaded.git",
     "provides" : {
@@ -6264,19 +6251,6 @@
     "version" : "0.1"
   },
   {
-    "name" : "HTML::Restrict",
-    "source-url" : "git://github.com/stmuk/p6-html-restrict.git",
-    "author" : "Steve Mynott <steve.mynott@gmail.com>",
-    "provides" : {
-      "HTML::Restrict" : "lib/HTML/Restrict.pm"
-    },
-    "depends" : [
-      "HTML::Parser::XML"
-    ],
-    "description" : "Delete specified HTML tags and attributes",
-    "version" : "0.1"
-  },
-  {
     "name" : "Audio::Convert::Samplerate",
     "perl" : "6.c",
     "source-url" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git",
@@ -6686,21 +6660,6 @@
     "authors" : [
       "moznion"
     ]
-  },
-  {
-    "name" : "App::ecoreadme",
-    "source-url" : "git://github.com/stmuk/p6-eco-readme.git",
-    "perl" : "6.c",
-    "author" : "Steve Mynott <steve.mynott@gmail.com>",
-    "provides" : { },
-    "depends" : [
-      "LWP::Simple",
-      "IO::Socket::SSL",
-      "Panda",
-      "IO::Capture::Simple"
-    ],
-    "description" : "Display and cache ecosystem README files for perl6",
-    "version" : "0.1"
   },
   {
     "api" : "0",
