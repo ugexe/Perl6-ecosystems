@@ -3996,17 +3996,6 @@
     "version" : "0.1"
   },
   {
-    "name" : "String::Koremutake",
-    "source-url" : "git://github.com/stmuk/p6-String-Koremutake.git",
-    "author" : "Steve Mynott <steve.mynott@gmail.com>",
-    "provides" : {
-      "String::Koremutake" : "lib/String/Koremutake.pm"
-    },
-    "depends" : [ ],
-    "description" : "Converts to and from Koremutake Memorable Random Strings. ",
-    "version" : "0.2"
-  },
-  {
     "name" : "Crypt::Bcrypt",
     "source-url" : "git://github.com/carbin/p6-Crypt-Bcrypt.git",
     "build-depends" : [
@@ -6002,7 +5991,7 @@
   {
     "name" : "App::p6tags",
     "source-url" : "git://github.com/stmuk/p6-app-p6tags.git",
-    "perl" : "v6.0.0",
+    "perl" : "6.c",
     "author" : "Steve Mynott <steve.mynott@gmail.com>",
     "provides" : {
       "App::p6tags" : "bin/p6tags"
@@ -6011,7 +6000,7 @@
       "File::Find"
     ],
     "description" : "Generate editor tags for perl6. ",
-    "version" : "0.5"
+    "version" : "0.6"
   },
   {
     "name" : "Hiker",
