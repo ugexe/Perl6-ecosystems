@@ -6,6 +6,9 @@
     "provides" : {
       "Module::Skeleton" : "lib/Module/Skeleton.pm6"
     },
+    "test-depends" : [
+      "File::Temp"
+    ],
     "description" : "Module::Skeleton is a program for creating Perl 6 module skeletons.",
     "version" : "0.0.1",
     "authors" : [
