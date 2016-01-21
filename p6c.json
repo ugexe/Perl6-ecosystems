@@ -1,5 +1,18 @@
 [
   {
+    "name" : "Module::Skeleton",
+    "source-url" : "git://github.com/rightfold/Module-Skeleton.git",
+    "perl" : "6.*",
+    "provides" : {
+      "Module::Skeleton" : "lib/Module/Skeleton.pm6"
+    },
+    "description" : "Module::Skeleton is a program for creating Perl 6 module skeletons.",
+    "version" : "0.0.1",
+    "authors" : [
+      "rightfold"
+    ]
+  },
+  {
     "name" : "NativeCall::Errno",
     "source-url" : "git://github.com/rightfold/NativeCall-Errno.git",
     "perl" : "6.*",
