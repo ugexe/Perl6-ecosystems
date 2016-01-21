@@ -9324,5 +9324,31 @@
     "description" : "Native bindings for OpenLDAP's LMDB library",
     "version" : "0.0.1",
     "authors" : "Salvador Ortiz <sortiz@cpan.com>"
+  },
+  {
+    "name" : "TweetNacl",
+    "perl" : "v6.c",
+    "source-url" : "git://github.com/soundart/perl6-tweetnacl.git",
+    "build-depends" : [ ],
+    "resources" : [
+      "libraries/tweetnacl"
+    ],
+    "provides" : {
+      "Crypt::TweetNacl::Sign" : "lib/Crypt/TweetNacl/Sign.pm6",
+      "Crypt::TweetNacl::Constants" : "lib/Crypt/TweetNacl/Constants.pm6",
+      "Crypt::TweetNacl::SecretKey" : "lib/Crypt/TweetNacl/SecretKey.pm6",
+      "Crypt::TweetNacl::Basics" : "lib/Crypt/TweetNacl/Basics.pm6",
+      "Crypt::TweetNacl::PublicKey" : "lib/Crypt/TweetNacl/PublicKey.pm6"
+    },
+    "depends" : [
+      "LibraryMake"
+    ],
+    "license" : "Public Domain",
+    "test-depends" : [ ],
+    "description" : "tweetnacl p6 bindings",
+    "version" : "0.0.2",
+    "authors" : [
+      "Frank Hartmann"
+    ]
   }
 ]
