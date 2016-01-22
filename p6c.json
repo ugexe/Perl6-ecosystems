@@ -2956,24 +2956,6 @@
     ]
   },
   {
-    "name" : "MagickWand",
-    "source-url" : "git://github.com/azawawi/perl6-magickwand.git",
-    "perl" : "v6",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "provides" : {
-      "MagickWand::NativeCall" : "lib/MagickWand/NativeCall.pm6",
-      "MagickWand" : "lib/MagickWand.pm6"
-    },
-    "auth" : "github:azawawi",
-    "depends" : [ ],
-    "description" : "ImageMagick's MagickWand API Bindings for Perl6",
-    "version" : "0.0.1",
-    "authors" : [
-      "Ahmad M. Zawawi"
-    ]
-  },
-  {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
     "provides" : {
