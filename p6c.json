@@ -4033,6 +4033,20 @@
     "version" : "0.1"
   },
   {
+    "name" : "String::Koremutake",
+    "source-url" : "git://github.com/stmuk/p6-String-Koremutake.git",
+    "perl" : "6.c",
+    "provides" : {
+      "String::Koremutake" : "lib/String/Koremutake.pm"
+    },
+    "depends" : [ ],
+    "description" : "Converts to and from Koremutake Memorable Random Strings. ",
+    "version" : "0.2",
+    "authors" : [
+      "Steve Mynott <steve.mynott@gmail.com>"
+    ]
+  },
+  {
     "name" : "Crypt::Bcrypt",
     "source-url" : "git://github.com/carbin/p6-Crypt-Bcrypt.git",
     "build-depends" : [
@@ -5564,6 +5578,22 @@
     ]
   },
   {
+    "name" : "Text::VimColour",
+    "source-url" : "git://github.com/stmuk/p6-Text-VimColour.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Text::VimColour" : "lib/Text/VimColour.pm"
+    },
+    "depends" : [
+      "File::Temp"
+    ],
+    "description" : "Converts scripts into colour syntax HTML using vim. ",
+    "version" : "0.4",
+    "authors" : [
+      "Steve Mynott <steve.mynott@gmail.com>"
+    ]
+  },
+  {
     "name" : "HTTP::Server::Threaded",
     "source-url" : "git://github.com/tony-o/perl6-http-server-threaded.git",
     "provides" : {
@@ -6290,6 +6320,22 @@
     "version" : "0.1"
   },
   {
+    "name" : "HTML::Restrict",
+    "source-url" : "git://github.com/stmuk/p6-html-restrict.git",
+    "perl" : "6.c",
+    "provides" : {
+      "HTML::Restrict" : "lib/HTML/Restrict.pm"
+    },
+    "depends" : [
+      "HTML::Parser::XML"
+    ],
+    "description" : "Delete specified HTML tags and attributes",
+    "version" : "0.1",
+    "authors" : [
+      "Steve Mynott <steve.mynott@gmail.com>"
+    ]
+  },
+  {
     "name" : "Audio::Convert::Samplerate",
     "perl" : "6.c",
     "source-url" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git",
@@ -6699,6 +6745,23 @@
     "authors" : [
       "moznion"
     ]
+  },
+  {
+    "name" : "App::ecoreadme",
+    "source-url" : "git://github.com/stmuk/p6-eco-readme.git",
+    "perl" : "6.c",
+    "author" : "Steve Mynott <steve.mynott@gmail.com>",
+    "provides" : {
+      "App::ecoreadme" : "bin/ecoreadme"
+    },
+    "depends" : [
+      "LWP::Simple",
+      "IO::Socket::SSL",
+      "Panda",
+      "IO::Capture::Simple"
+    ],
+    "description" : "Display and cache ecosystem README files for perl6",
+    "version" : "0.2"
   },
   {
     "api" : "0",
@@ -7525,6 +7588,19 @@
     "version" : "*",
     "authors" : [
       "Daisuke Maki"
+    ]
+  },
+  {
+    "name" : "Cache::LRU",
+    "source-url" : "git://github.com/fayland/perl6-Cache-LRU.git",
+    "provides" : {
+      "Cache::LRU" : "lib/Cache/LRU.pm"
+    },
+    "depends" : [ ],
+    "description" : "Simple, fast implementation of LRU cache in pure perl",
+    "version" : "0.1.0",
+    "authors" : [
+      "github:fayland"
     ]
   },
   {
