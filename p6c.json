@@ -9391,5 +9391,33 @@
     "authors" : [
       "okaoka"
     ]
+  },
+  {
+    "name" : "Attribute::Lazy",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/Attribute-Lazy.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Attribute-Lazy.git"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "Attribute::Lazy" : "lib/Attribute/Lazy.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "description" : "Trait to provide lazy initialisation of attributes",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "object",
+      "attribute",
+      "builder"
+    ],
+    "version" : "0.0.2",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
   }
 ]
