@@ -9371,5 +9371,23 @@
     "authors" : [
       "Frank Hartmann"
     ]
+  },
+  {
+    "name" : "Algorithm::AhoCorasick",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/okaoka/p6-Algorithm-AhoCorasick.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Algorithm::AhoCorasick" : "lib/Algorithm/AhoCorasick.pm6",
+      "Algorithm::AhoCorasick::Node" : "lib/Algorithm/AhoCorasick/Node.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "efficient search for multiple strings",
+    "version" : "*",
+    "authors" : [
+      "okaoka"
+    ]
   }
 ]
