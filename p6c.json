@@ -9495,5 +9495,19 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "AttrX::Lazy",
+    "source-url" : "git@github.com:pierre-vigier/Perl6-AttrX-Lazy.git",
+    "perl" : "6.c",
+    "provides" : {
+      "AttrX::Lazy" : "lib/AttrX/Lazy.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Moo similar Lazy attribute funtionality",
+    "version" : "0.0.1",
+    "authors" : [
+      "github:pierre-vigier"
+    ]
   }
 ]
