@@ -1,5 +1,22 @@
 [
   {
+    "name" : "Inline::FALSE",
+    "source-url" : "git://github.com/rightfold/Inline-False.git",
+    "perl" : "6.*",
+    "provides" : {
+      "Inline::FALSE" : "lib/Inline/FALSE.pm6"
+    },
+    "test-depends" : [
+      "IO::String",
+      "Test::META"
+    ],
+    "description" : "Embed FALSE code in Perl 6 code!",
+    "version" : "1.0.0",
+    "authors" : [
+      "rightfold"
+    ]
+  },
+  {
     "name" : "Module::Skeleton",
     "source-url" : "git://github.com/rightfold/Module-Skeleton.git",
     "perl" : "6.*",
