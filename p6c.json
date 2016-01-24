@@ -9552,5 +9552,20 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Concurrent::BoundedChannel",
+    "source-url" : "git://github.com/gotoexit/p6-concurrent-iterator.git",
+    "perl" : "6.*",
+    "provides" : {
+      "Concurrent::BoundedChannel" : "lib/Concurrent/BoundedChannel.pm6"
+    },
+    "repo-type" : "git",
+    "depends" : [ ],
+    "description" : "Subclass of Channel with limited number of elements",
+    "version" : "0.1.0",
+    "authors" : [
+      "github:gotoexit"
+    ]
   }
 ]
