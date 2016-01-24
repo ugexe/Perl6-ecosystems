@@ -8494,7 +8494,9 @@
     "provides" : {
       "Math::Matrix" : "lib/Math/Matrix.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "AttrX::Lazy"
+    ],
     "description" : "Math::Matrix",
     "version" : "0.1.0",
     "authors" : [
