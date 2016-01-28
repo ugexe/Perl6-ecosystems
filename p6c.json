@@ -9602,5 +9602,20 @@
     "authors" : [
       "Jake Russo <madcap.russo@gmail.com>"
     ]
+  },
+  {
+    "name" : "Acme::Mangle",
+    "source-url" : "git://github.com/madcapjake/Acme-Mangle",
+    "perl" : "6",
+    "provides" : {
+      "mangle" : "bin/mangle",
+      "Acme::Mangle" : "lib/Acme/Mangle.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Mangle text via libtranslate.",
+    "version" : "v0.1.0",
+    "authors" : [
+      "Jake Russo <madcap.russo@gmail.com>"
+    ]
   }
 ]
