@@ -8348,21 +8348,6 @@
     ]
   },
   {
-    "name" : "Acme::GiveUp",
-    "source-url" : "git://github.com/zoffixznet/perl6-Acme-GiveUp.git",
-    "authority" : "zoffixznet",
-    "author" : "Zoffix Znet",
-    "provides" : {
-      "Acme::GiveUp" : "lib/Acme/GiveUp.pm6"
-    },
-    "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
-    "description" : "(\u256f\u00b0\u25a1\u00b0\uff09\u256f\ufe35\u253b\u2501\u253b  when you just want to give up for the day",
-    "version" : "1.001001"
-  },
-  {
     "name" : "Acme::WTF",
     "source-url" : "git://github.com/Skarsnik/acme-wtf.git",
     "perl" : "6",
@@ -8414,22 +8399,6 @@
       "Test"
     ],
     "description" : "Get time for various locations using Google",
-    "version" : "1.001001"
-  },
-  {
-    "name" : "WWW::You'reDoingItWrong",
-    "source-url" : "git://github.com/zoffixznet/perl6-WWW-You-reDoingItWrong.git",
-    "author" : "Zoffix Znet",
-    "provides" : {
-      "WWW::You'reDoingItWrong" : "lib/WWW/You'reDoingItWrong.pm6"
-    },
-    "depends" : [
-      "HTTP::Tinyish"
-    ],
-    "test-depends" : [
-      "Test"
-    ],
-    "description" : "Why say someone is doing it wrong when you can SHOW it?",
     "version" : "1.001001"
   },
   {
