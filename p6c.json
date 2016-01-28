@@ -1075,15 +1075,15 @@
   },
   {
     "source-type" : "git",
-    "name" : "ACME::Vanish",
-    "source-url" : "git://github.com/thundergnat/ACME-Vanish.git",
+    "name" : "Acme::Vanish",
+    "source-url" : "git://github.com/thundergnat/Acme-Vanish.git",
     "perl" : "6.*",
     "provides" : {
-      "ACME::Vanish" : "lib/ACME/Vanish.pm6"
+      "Acme::Vanish" : "lib/Acme/Vanish.pm6"
     },
     "depends" : [ ],
     "description" : "Make all your ugly code just... disappear.",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "authors" : [
       "Steve Schulze (thundergnat)"
     ]
