@@ -9617,5 +9617,35 @@
     "authors" : [
       "Jake Russo <madcap.russo@gmail.com>"
     ]
+  },
+  {
+    "name" : "Linux::Process::SignalInfo",
+    "source-url" : "https://github.com/Gnouc/p6-linux-process-signalinfo.git",
+    "support" : {
+      "source" : "https://github.com/Gnouc/p6-linux-process-signalinfo.git"
+    },
+    "perl" : "6.c",
+    "build-depends" : [
+      "panda"
+    ],
+    "author" : "Cuong Manh Le <cuong.manhle@gmail.com>",
+    "provides" : {
+      "Linux::Process::SignalInfo" : "lib/Linux/Process/SignalInfo.pm"
+    },
+    "auth" : "github:Gnouc",
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "linux",
+      "utils",
+      "signal"
+    ],
+    "description" : "Show process signal information on Linux",
+    "version" : "v0.0.1",
+    "authors" : [
+      "Cuong Manh Le <cuong.manhle@gmail.com>"
+    ]
   }
 ]
