@@ -6046,21 +6046,6 @@
     "version" : "0.0.2"
   },
   {
-    "name" : "Data::Dump",
-    "source-url" : "git://github.com/tony-o/perl6-data-dump.git",
-    "perl" : "v6",
-    "support" : { },
-    "provides" : {
-      "Data::Dump" : "lib/Data/Dump.pm6"
-    },
-    "depends" : [ ],
-    "description" : "a colorful? data dumper for perl6",
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "v0.0.1"
-  },
-  {
     "name" : "BufUtils",
     "support" : {
       "source" : "https://github.com/flussence/BufUtils.git",
