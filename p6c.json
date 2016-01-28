@@ -9583,5 +9583,22 @@
     "authors" : [
       "github:gotoexit"
     ]
+  },
+  {
+    "name" : "App::P6Dx",
+    "source-url" : "git://github.com/madcapjake/p6dx",
+    "perl" : "6",
+    "provides" : {
+      "p6dx" : "bin/p6dx"
+    },
+    "depends" : [
+      "File::Find",
+      "JSON::Marshal"
+    ],
+    "description" : "A syntax checker & completions generator.",
+    "version" : "v0.3.0",
+    "authors" : [
+      "Jake Russo <madcap.russo@gmail.com>"
+    ]
   }
 ]
