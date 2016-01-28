@@ -3686,12 +3686,14 @@
   {
     "name" : "Text::Levenshtein::Damerau",
     "source-url" : "git://github.com/ugexe/Perl6-Text--Levenshtein--Damerau.git",
+    "owner" : "ugexe",
+    "perl" : "6",
     "provides" : {
       "Text::Levenshtein::Damerau" : "lib/Text/Levenshtein/Damerau.pm6"
     },
     "auth" : "github:ugexe",
     "depends" : [ ],
-    "description" : "Calculate Levenshtein or Damerau Levenshtein edit distances for strings.",
+    "description" : "Calculate Levenshtein or Damerau Levenshtein edit distances for strings",
     "version" : "0.1.7"
   },
   {
