@@ -2993,30 +2993,6 @@
     ]
   },
   {
-    "name" : "MagickWand",
-    "source-url" : "git://github.com/azawawi/perl6-magickwand.git",
-    "perl" : "v6",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "provides" : {
-      "MagickWand::NativeCall::Image" : "lib/MagickWand/NativeCall/Image.pm6",
-      "MagickWand::NativeCall" : "lib/MagickWand/NativeCall.pm6",
-      "MagickWand::NativeCall::Common" : "lib/MagickWand/NativeCall/Common.pm6",
-      "MagickWand::NativeCall::Wand" : "lib/MagickWand/NativeCall/Wand.pm6",
-      "MagickWand" : "lib/MagickWand.pm6",
-      "MagickWand::NativeCall::DrawingWand" : "lib/MagickWand/NativeCall/DrawingWand.pm6"
-    },
-    "auth" : "github:azawawi",
-    "depends" : [
-      "LibraryCheck"
-    ],
-    "description" : "ImageMagick's MagickWand API Bindings for Perl6",
-    "version" : "0.0.1",
-    "authors" : [
-      "Ahmad M. Zawawi"
-    ]
-  },
-  {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
     "provides" : {
