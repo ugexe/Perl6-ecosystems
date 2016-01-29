@@ -3096,6 +3096,31 @@
     "version" : "*"
   },
   {
+    "name" : "PDF::Grammar",
+    "source-url" : "git://github.com/p6-pdf/perl6-PDF-Grammar.git",
+    "perl" : "6",
+    "provides" : {
+      "PDF::Grammar::Function::Actions" : "lib/PDF/Grammar/Function/Actions.pm",
+      "PDF::Grammar::Actions" : "lib/PDF/Grammar/Actions.pm",
+      "PDF::Grammar::Test" : "lib/PDF/Grammar/Test.pm",
+      "PDF::Grammar::FDF::Actions" : "lib/PDF/Grammar/FDF/Actions.pm",
+      "PDF::Grammar::Content" : "lib/PDF/Grammar/Content.pm",
+      "PDF::Grammar::Function" : "lib/PDF/Grammar/Function.pm",
+      "PDF::Grammar::Content::Actions" : "lib/PDF/Grammar/Content/Actions.pm",
+      "PDF::Grammar::PDF" : "lib/PDF/Grammar/PDF.pm",
+      "PDF::Grammar::Doc" : "lib/PDF/Grammar/Doc.pm",
+      "PDF::Grammar::FDF" : "lib/PDF/Grammar/FDF.pm",
+      "PDF::Grammar" : "lib/PDF/Grammar.pm",
+      "PDF::Grammar::PDF::Actions" : "lib/PDF/Grammar/PDF/Actions.pm",
+      "PDF::Grammar::Doc::Actions" : "lib/PDF/Grammar/Doc/Actions.pm"
+    },
+    "depends" : [
+      "JSON::Fast"
+    ],
+    "description" : "Perl 6 grammars for parsing PDF Content Streams and File Structure",
+    "version" : "0.0.6"
+  },
+  {
     "name" : "File::Compare",
     "source-url" : "git://github.com/labster/perl6-File-Compare.git",
     "author" : "labster",
@@ -5775,6 +5800,31 @@
     "version" : "0.1"
   },
   {
+    "name" : "Font::AFM",
+    "source-url" : "git://github.com/p6-pdf/perl6-Font-AFM.git",
+    "perl" : "6",
+    "provides" : {
+      "Font::Metrics::times-italic" : "lib/Font/Metrics/times-italic.pm",
+      "Font::Metrics::helvetica-boldoblique" : "lib/Font/Metrics/helvetica-boldoblique.pm",
+      "Font::Metrics::helvetica" : "lib/Font/Metrics/helvetica.pm",
+      "Font::Metrics::zapfdingbats" : "lib/Font/Metrics/zapfdingbats.pm",
+      "Font::AFM" : "lib/Font/AFM.pm",
+      "Font::Metrics::times-bolditalic" : "lib/Font/Metrics/times-bolditalic.pm",
+      "Font::Metrics::courier-oblique" : "lib/Font/Metrics/courier-oblique.pm",
+      "Font::Metrics::times-roman" : "lib/Font/Metrics/times-roman.pm",
+      "Font::Metrics::courier-boldoblique" : "lib/Font/Metrics/courier-boldoblique.pm",
+      "Font::Metrics::courier-bold" : "lib/Font/Metrics/courier-bold.pm",
+      "Font::Metrics::times-bold" : "lib/Font/Metrics/times-bold.pm",
+      "Font::Metrics::helvetica-oblique" : "lib/Font/Metrics/helvetica-oblique.pm",
+      "Font::Metrics::helvetica-bold" : "lib/Font/Metrics/helvetica-bold.pm",
+      "Font::Metrics::symbol" : "lib/Font/Metrics/symbol.pm",
+      "Font::Metrics::courier" : "lib/Font/Metrics/courier.pm"
+    },
+    "depends" : [ ],
+    "description" : "Interface to Adobe Font Metrics files",
+    "version" : "1.23.3"
+  },
+  {
     "name" : "HTTP::Headers",
     "source-url" : "git://github.com/zostay/p6-HTTP-Headers.git",
     "author" : "Andrew Sterling Hanenkamp",
@@ -7849,6 +7899,7 @@
   {
     "name" : "Crypt::RC4",
     "source-url" : "git://github.com/p6-pdf/perl6-Crypt-RC4.git",
+    "perl" : "6",
     "provides" : {
       "Crypt::RC4" : "lib/Crypt/RC4.pm"
     },
@@ -8056,6 +8107,63 @@
     "authors" : [
       "github:teodozjan"
     ]
+  },
+  {
+    "name" : "PDF",
+    "source-url" : "git://github.com/p6-pdf/perl6-PDF-Tools.git",
+    "perl" : "6",
+    "provides" : {
+      "PDF::DAO::Null" : "lib/PDF/DAO/Null.pm",
+      "PDF::Storage::Filter::ASCIIHex" : "lib/PDF/Storage/Filter/ASCIIHex.pm",
+      "PDF::DAO::DateString" : "lib/PDF/DAO/DateString.pm",
+      "PDF::DAO::Tie" : "lib/PDF/DAO/Tie.pm",
+      "PDF::Storage::Filter::LZW" : "lib/PDF/Storage/Filter/LZW.pm",
+      "PDF::Storage::Filter::Predictors" : "lib/PDF/Storage/Filter/Predictors.pm",
+      "PDF::DAO::Tie::Hash" : "lib/PDF/DAO/Tie/Hash.pm",
+      "PDF::Storage::Crypt::RC4" : "lib/PDF/Storage/Crypt/RC4.pm",
+      "PDF::DAO::Type::Info" : "lib/PDF/DAO/Type/Info.pm",
+      "PDF::Storage::Input" : "lib/PDF/Storage/Input.pm",
+      "PDF::Writer" : "lib/PDF/Writer.pm",
+      "PDF::DAO::Array" : "lib/PDF/DAO/Array.pm",
+      "PDF::DAO::Type::XRef" : "lib/PDF/DAO/Type/XRef.pm",
+      "PDF::DAO::Dict" : "lib/PDF/DAO/Dict.pm",
+      "PDF::Storage::Filter::RunLength" : "lib/PDF/Storage/Filter/RunLength.pm",
+      "PDF::DAO" : "lib/PDF/DAO.pm",
+      "PDF::DAO::Type::Encrypt" : "lib/PDF/DAO/Type/Encrypt.pm",
+      "PDF::Reader" : "lib/PDF/Reader.pm",
+      "PDF::Storage::Filter" : "lib/PDF/Storage/Filter.pm",
+      "PDF::Storage::Filter::Flate" : "lib/PDF/Storage/Filter/Flate.pm",
+      "PDF::DAO::Name" : "lib/PDF/DAO/Name.pm",
+      "PDF::DAO::Util" : "lib/PDF/DAO/Util.pm",
+      "PDF::Storage::Input::Str" : "lib/PDF/Storage/Input/Str.pm",
+      "PDF::DAO::Tie::Array" : "lib/PDF/DAO/Tie/Array.pm",
+      "PDF::Storage::Crypt" : "lib/PDF/Storage/Crypt.pm",
+      "PDF::DAO::Stream" : "lib/PDF/DAO/Stream.pm",
+      "PDF::DAO::Type" : "lib/PDF/DAO/Type.pm",
+      "PDF::DAO::Doc" : "lib/PDF/DAO/Doc.pm",
+      "PDF::DAO::ByteString" : "lib/PDF/DAO/ByteString.pm",
+      "PDF::DAO::Delegator" : "lib/PDF/DAO/Delegator.pm",
+      "PDF::Storage::Blob" : "lib/PDF/Storage/Blob.pm",
+      "PDF::Storage::Filter::ASCII85" : "lib/PDF/Storage/Filter/ASCII85.pm",
+      "PDF::Storage::Serializer" : "lib/PDF/Storage/Serializer.pm",
+      "PDF::DAO::Bool" : "lib/PDF/DAO/Bool.pm",
+      "PDF::Storage::Input::IOH" : "lib/PDF/Storage/Input/IOH.pm",
+      "PDF::DAO::Real" : "lib/PDF/DAO/Real.pm",
+      "PDF::DAO::TextString" : "lib/PDF/DAO/TextString.pm",
+      "PDF::DAO::Int" : "lib/PDF/DAO/Int.pm",
+      "PDF::DAO::Type::ObjStm" : "lib/PDF/DAO/Type/ObjStm.pm",
+      "PDF::Storage::IndObj" : "lib/PDF/Storage/IndObj.pm",
+      "PDF::Storage::Util" : "lib/PDF/Storage/Util.pm"
+    },
+    "depends" : [
+      "Compress::Zlib",
+      "PDF::Grammar",
+      "JSON::Fast",
+      "Crypt::RC4",
+      "Digest::MD5"
+    ],
+    "description" : "Low level tools for reading, writing and manipulation of PDF files",
+    "version" : "0.0.5"
   },
   {
     "name" : "HTTP::Signature",
