@@ -248,35 +248,6 @@
     ]
   },
   {
-    "name" : "Text::CSV",
-    "support" : {
-      "irc" : "irc://irc.perl.org/#csv"
-    },
-    "source-url" : "git://github.com/Tux/CSV.git",
-    "perl" : "6.c",
-    "provides" : {
-      "Text::CSV" : "lib/Text/CSV.pm"
-    },
-    "auth" : "github:Tux",
-    "repo-type" : "git",
-    "depends" : [
-      "Slang::Tuxic",
-      "File::Temp"
-    ],
-    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
-    "test-depends" : [
-      "Test"
-    ],
-    "tags" : [
-      "CSV"
-    ],
-    "description" : "Handle CSV data. API based on Text::CSV_XS",
-    "version" : "0.002",
-    "authors" : [
-      "H.Merijn Brand (Tux)"
-    ]
-  },
-  {
     "name" : "HTTP::Server::Simple",
     "source-url" : "git://github.com/gfldex/http-server-simple.git",
     "perl" : "6.*",
