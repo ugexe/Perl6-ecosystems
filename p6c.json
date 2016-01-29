@@ -3706,6 +3706,17 @@
     "version" : "0.1.7"
   },
   {
+    "name" : "CSV::Parser",
+    "source-url" : "git://github.com/tony-o/perl6-csv-parser.git",
+    "provides" : {
+      "CSV::Parser" : "lib/CSV/Parser.pm"
+    },
+    "auth" : "github:tony-o",
+    "depends" : [ ],
+    "description" : "Parses CSV files, duh",
+    "version" : "0.1.2"
+  },
+  {
     "name" : "Questhub",
     "source-url" : "git://github.com/perlpilot/p6-Questhub.git",
     "author" : "Jonathan Scott Duff <duff@pobox.com>",
@@ -6042,6 +6053,21 @@
     ],
     "description" : "Useful trigonometric routines",
     "version" : "0.0.2"
+  },
+  {
+    "name" : "Data::Dump",
+    "source-url" : "git://github.com/tony-o/perl6-data-dump.git",
+    "perl" : "v6",
+    "support" : { },
+    "provides" : {
+      "Data::Dump" : "lib/Data/Dump.pm6"
+    },
+    "depends" : [ ],
+    "description" : "a colorful? data dumper for perl6",
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "v0.0.1"
   },
   {
     "name" : "BufUtils",
@@ -9598,6 +9624,26 @@
     "version" : "v0.0.2",
     "authors" : [
       "Cuong Manh Le <cuong.manhle@gmail.com>"
+    ]
+  },
+  {
+    "name" : "LendingClub",
+    "source-url" : "git://github.com/peelle/LendingClub.git",
+    "perl" : "6.*",
+    "provides" : {
+      "LendingClub" : "lib/LendingClub.pm"
+    },
+    "depends" : [
+      "Net::HTTP",
+      "JSON::Tiny"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "A wrapper for the Lending Club API.",
+    "version" : "0.1.0",
+    "authors" : [
+      "James (Jeremy) Carman <developer@peelle.org>"
     ]
   }
 ]
