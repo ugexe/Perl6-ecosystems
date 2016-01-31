@@ -9677,5 +9677,21 @@
     "authors" : [
       "James (Jeremy) Carman <developer@peelle.org>"
     ]
+  },
+  {
+    "name" : "String::Quotemeta",
+    "source-url" : "git://github.com/zoffixznet/perl6-String-Quotemeta.git",
+    "perl" : "6.c",
+    "provides" : {
+      "String::Quotemeta" : "lib/String/Quotemeta.pm6"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Perl-ish templates!",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
