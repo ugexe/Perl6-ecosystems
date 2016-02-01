@@ -9369,6 +9369,9 @@
       "Build::Simple" : "lib/Build/Simple.pm"
     },
     "depends" : [ ],
+    "test-depends" : [
+      "Shell::Command"
+    ],
     "description" : "A minimalistic dependency system",
     "version" : "0.0.1"
   },
