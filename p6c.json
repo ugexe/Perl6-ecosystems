@@ -3706,6 +3706,17 @@
     "version" : "0.1.7"
   },
   {
+    "name" : "CSV::Parser",
+    "source-url" : "git://github.com/tony-o/perl6-csv-parser.git",
+    "provides" : {
+      "CSV::Parser" : "lib/CSV/Parser.pm"
+    },
+    "auth" : "github:tony-o",
+    "depends" : [ ],
+    "description" : "Parses CSV files, duh",
+    "version" : "0.1.2"
+  },
+  {
     "name" : "Questhub",
     "source-url" : "git://github.com/perlpilot/p6-Questhub.git",
     "author" : "Jonathan Scott Duff <duff@pobox.com>",
