@@ -9035,7 +9035,10 @@
     },
     "perl" : "6",
     "resources" : [
-      "config.json"
+      "config.json",
+      "scripts/perl5tar.pl",
+      "scripts/win32http.ps1",
+      "scripts/win32unzip.ps1"
     ],
     "auth" : "github:ugexe",
     "provides" : {
