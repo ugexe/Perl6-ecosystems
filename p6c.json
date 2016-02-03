@@ -2971,7 +2971,7 @@
   {
     "name" : "OpenCV",
     "source-url" : "git://github.com/azawawi/perl6-opencv.git",
-    "perl" : "v6",
+    "perl" : "6.c",
     "resources" : [
       "libopencv-perl6.so",
       "opencv-perl6.dll"
@@ -2995,7 +2995,7 @@
   {
     "name" : "MagickWand",
     "source-url" : "git://github.com/azawawi/perl6-magickwand.git",
-    "perl" : "v6",
+    "perl" : "6.c",
     "resources" : [ ],
     "build-depends" : [ ],
     "provides" : {
@@ -3008,6 +3008,7 @@
       "MagickWand::NativeCall::Wand" : "lib/MagickWand/NativeCall/Wand.pm6",
       "MagickWand::NativeCall::Property" : "lib/MagickWand/NativeCall/Property.pm6",
       "MagickWand" : "lib/MagickWand.pm6",
+      "MagickWand::NativeCall::Deprecated" : "lib/MagickWand/NativeCall/Deprecated.pm6",
       "MagickWand::NativeCall::PixelWand" : "lib/MagickWand/NativeCall/PixelWand.pm6",
       "MagickWand::NativeCall::DrawingWand" : "lib/MagickWand/NativeCall/DrawingWand.pm6"
     },
