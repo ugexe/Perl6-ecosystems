@@ -6607,7 +6607,7 @@
   {
     "name" : "App::Mi6",
     "perl" : "6.c",
-    "source-url" : "git://github.com/shoichikaji/mi6.git",
+    "source-url" : "git://github.com/skaji/mi6.git",
     "build-depends" : [ ],
     "resources" : [ ],
     "provides" : {
@@ -6690,7 +6690,7 @@
   {
     "name" : "HTTP::Tinyish",
     "perl" : "6.c",
-    "source-url" : "git://github.com/shoichikaji/perl6-HTTP-Tinyish.git",
+    "source-url" : "git://github.com/skaji/perl6-HTTP-Tinyish.git",
     "build-depends" : [ ],
     "resources" : [ ],
     "provides" : {
@@ -7256,9 +7256,10 @@
   },
   {
     "name" : "Frinfon",
-    "perl" : "v6",
-    "source-url" : "git://github.com/shoichikaji/Frinfon.git",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/skaji/Frinfon.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "provides" : {
       "Frinfon" : "lib/Frinfon.pm6"
     },
@@ -7311,9 +7312,10 @@
   },
   {
     "name" : "Data::Section::Simple",
-    "perl" : "v6",
-    "source-url" : "git://github.com/shoichikaji/Data-Section-Simple.git",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/skaji/Data-Section-Simple.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "provides" : {
       "Data::Section::Simple" : "lib/Data/Section/Simple.pm6"
     },
