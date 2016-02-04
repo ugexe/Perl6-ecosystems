@@ -6970,9 +6970,10 @@
   },
   {
     "name" : "Router::Boost",
-    "perl" : "v6",
+    "perl" : "6.c",
     "source-url" : "git://github.com/moznion/p6-Router-Boost.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "provides" : {
       "Router::Boost" : "lib/Router/Boost.pm6",
       "Router::Boost::Node" : "lib/Router/Boost/Node.pm6",
