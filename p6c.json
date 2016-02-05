@@ -5275,9 +5275,10 @@
   },
   {
     "name" : "Pastebin::Shadowcat",
-    "source-url" : "git://github.com/zoffixznet/perl6-Pastebin-Shadowcat.git",
-    "authority" : "zoffixznet",
-    "author" : "Zoffix Znet",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Pastebin-Shadowcat.git"
+    },
+    "perl" : "6.c",
     "provides" : {
       "Pastebin::Shadowcat" : "lib/Pastebin/Shadowcat.pm6"
     },
@@ -5290,7 +5291,10 @@
       "Test"
     ],
     "description" : "Use http://fpaste.scsys.co.uk/ pastebin from Perl 6",
-    "version" : "2.001001"
+    "version" : "2.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   },
   {
     "name" : "Linux::Cpuinfo",
@@ -7052,6 +7056,49 @@
     "version" : "*"
   },
   {
+    "name" : "Pastebin::Gist",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Pastebin-Gist.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "Pastebin::Gist" : "lib/Pastebin/Gist.pm6"
+    },
+    "depends" : [
+      "HTTP::Tinyish"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Use https://gist.github.com/ as a pastebin",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
+  },
+  {
+    "name" : "App::Nopaste",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-App-Nopaste.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "App::Nopaste" : "lib/App/Nopaste.pm6"
+    },
+    "depends" : [
+      "Pastebin::Gist",
+      "Pastebin::Shadowcat"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Access pastebins from command line",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
+  },
+  {
     "name" : "Rototo",
     "source-url" : "git://github.com/eiro/p6-rototo.git",
     "author" : "Marc Chantreux",
@@ -8081,6 +8128,26 @@
     "version" : "*"
   },
   {
+    "name" : "Color",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Color.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "Color::Operators" : "lib/Color/Operators.pm6",
+      "Color" : "lib/Color.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Format conversion, manipulation, and math operations on colours",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
+  },
+  {
     "name" : "path-coverage",
     "source-url" : "git://github.com/teodozjan/path6-coverage.git",
     "provides" : { },
@@ -8329,6 +8396,74 @@
     "version" : "*"
   },
   {
+    "name" : "IRC::Client",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-IRC-Client.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "IRC::Client::Plugin::Debugger" : "lib/IRC/Client/Plugin/Debugger.pm6",
+      "IRC::Grammar::Actions" : "lib/IRC/Grammar/Actions.pm6",
+      "IRC::Client::Plugin" : "lib/IRC/Client/Plugin.pm6",
+      "IRC::Parser" : "lib/IRC/Parser.pm6",
+      "IRC::Client" : "lib/IRC/Client.pm6",
+      "IRC::Client::Plugin::PingPong" : "lib/IRC/Client/Plugin/PingPong.pm6",
+      "IRC::Grammar" : "lib/IRC/Grammar.pm6"
+    },
+    "depends" : [
+      "Data::Dump"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Extendable Internet Relay Chat client",
+    "version" : "2.003001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
+  },
+  {
+    "name" : "WWW::Google::Time",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-WWW-Google-Time.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "WWW::Google::Time" : "lib/WWW/Google/Time.pm6"
+    },
+    "depends" : [
+      "HTTP::Tinyish",
+      "URI::Escape"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Get time for various locations using Google",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
+  },
+  {
+    "name" : "Lingua::Conjunction",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Lingua-Conjunction.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "Lingua::Conjunction" : "lib/Lingua/Conjunction.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Convert lists into linguistic conjunctions and fill them into a template",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
+  },
+  {
     "name" : "Minecraft-Tools",
     "support" : {
       "source" : "https://github.com/flussence/Minecraft-Tools.git",
@@ -8354,6 +8489,27 @@
     "version" : "0.1.0",
     "authors" : [
       "flussence"
+    ]
+  },
+  {
+    "name" : "Number::Denominate",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Number-Denominate.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "Number::Denominate" : "lib/Number/Denominate.pm6"
+    },
+    "depends" : [
+      "Lingua::Conjunction"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Break up numbers into preset or arbitrary denominations",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
     ]
   },
   {
@@ -8525,6 +8681,30 @@
     "authors" : [
       "Claudio Ramirez",
       "Wenzel P. P. Peppmeyer"
+    ]
+  },
+  {
+    "name" : "IRC::Client::Plugin::HNY",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-IRC-Client-Plugin-HNY.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "IRC::Client::Plugin::HNY" : "lib/IRC/Client/Plugin/HNY.pm6"
+    },
+    "depends" : [
+      "IRC::Client:ver<2.001001>:auth<Zoffix Znet>",
+      "Number::Denominate:ver<1.001001>:auth<Zoffix Znet>",
+      "WWW::Google::Time:ver<1.001001>:auth<Zoffix Znet>",
+      "Lingua::Conjunction:ver<1.001001>:auth<Zoffix Znet>"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Plugin for New Year's IRC parties",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
     ]
   },
   {
@@ -8768,6 +8948,31 @@
     ]
   },
   {
+    "name" : "IRC::Client::Plugin::Factoid",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-IRC-Client-Plugin-Factoid.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "IRC::Client::Plugin::Factoid" : "lib/IRC/Client/Plugin/Factoid.pm6"
+    },
+    "depends" : [
+      "IRC::Client:ver<2.003001>",
+      "Number::Denominate:ver<1.001001>",
+      "WWW::Google::Time:ver<1.001001>",
+      "Lingua::Conjunction:ver<1.001001>",
+      "DBIish:ver<0.1.0>"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "IRC factoid bot",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
+  },
+  {
     "name" : "Test::IO::Socket::Async",
     "source-url" : "git://github.com/jnthn/p6-test-io-socket-async.git",
     "author" : "Jonathan Worthington",
@@ -8804,7 +9009,9 @@
   },
   {
     "name" : "Test::Output",
-    "source-url" : "git://github.com/zoffixznet/perl6-Test-Output.git",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Test-Output.git"
+    },
     "perl" : "6.c",
     "provides" : {
       "Test::Output" : "lib/Test/Output.pm6"
@@ -8960,6 +9167,25 @@
     "version" : "0.1.0",
     "authors" : [
       "Rob Hoelz"
+    ]
+  },
+  {
+    "name" : "IO::MiddleMan",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-IO-MiddleMan.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "IO::MiddleMan" : "lib/IO/MiddleMan.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "hijack, capture, or mute writes to an IO::Handle",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
     ]
   },
   {
