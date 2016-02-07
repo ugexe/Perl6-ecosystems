@@ -1,56 +1,5 @@
 [
   {
-    "name" : "Inline::FALSE",
-    "source-url" : "git://github.com/rightfold/Inline-False.git",
-    "perl" : "6.*",
-    "provides" : {
-      "Inline::FALSE" : "lib/Inline/FALSE.pm6"
-    },
-    "test-depends" : [
-      "IO::String",
-      "Test::META"
-    ],
-    "description" : "Embed FALSE code in Perl 6 code!",
-    "version" : "1.0.0",
-    "authors" : [
-      "rightfold"
-    ]
-  },
-  {
-    "name" : "Module::Skeleton",
-    "source-url" : "git://github.com/rightfold/Module-Skeleton.git",
-    "perl" : "6.*",
-    "provides" : {
-      "Module::Skeleton" : "lib/Module/Skeleton.pm6"
-    },
-    "depends" : [
-      "JSON::Pretty"
-    ],
-    "test-depends" : [
-      "File::Temp",
-      "Test::META"
-    ],
-    "description" : "Module::Skeleton is a program for creating Perl 6 module skeletons.",
-    "version" : "0.0.1",
-    "authors" : [
-      "rightfold"
-    ]
-  },
-  {
-    "name" : "NativeCall::Errno",
-    "source-url" : "git://github.com/rightfold/NativeCall-Errno.git",
-    "perl" : "6.*",
-    "provides" : {
-      "X::NativeCall::Errno" : "lib/NativeCall/Errno.pm6",
-      "NativeCall::Errno" : "lib/NativeCall/Errno.pm6"
-    },
-    "description" : "Read errno from Perl 6 code.",
-    "version" : "0.0.4",
-    "authors" : [
-      "rightfold"
-    ]
-  },
-  {
     "name" : "Acme::Meow",
     "source-url" : "git://github.com/tadzik/perl6-Acme-Meow.git",
     "support" : {
