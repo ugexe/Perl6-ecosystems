@@ -5686,7 +5686,7 @@
   },
   {
     "name" : "Readline",
-    "perl" : "v6",
+    "perl" : "6",
     "source-url" : "git://github.com/drforr/perl6-readline.git",
     "support" : {
       "source" : "git://github.com/drforr/perl6-readline.git"
@@ -9441,22 +9441,26 @@
     "perl" : "6.*",
     "resources" : [ ],
     "provides" : {
+      "Archive::SimpleZip::Utils" : "lib/Archive/SimpleZip/Utils.pm6",
+      "Archive::SimpleZip::Headers" : "lib/Archive/SimpleZip/Headers.pm6",
       "Archive::SimpleZip" : "lib/Archive/SimpleZip.pm6"
     },
     "depends" : [
       "Compress::Zlib::Raw",
       "Compress::Zlib",
       "Compress::Bzip2",
+      "CompUnit::Util",
       "IO::Blob"
     ],
     "license" : "Artistic",
     "test-depends" : [
       "Test",
       "Test::META",
-      "File::Temp"
+      "File::Temp",
+      "File::Which"
     ],
     "description" : "Write Zip Files.",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "authors" : [
       "Paul Marquess <pmqs@cpan.org"
     ]
