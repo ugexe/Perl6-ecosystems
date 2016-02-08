@@ -3646,19 +3646,6 @@
     "version" : "*"
   },
   {
-    "name" : "Text::Levenshtein::Damerau",
-    "source-url" : "git://github.com/ugexe/Perl6-Text--Levenshtein--Damerau.git",
-    "owner" : "ugexe",
-    "perl" : "6",
-    "provides" : {
-      "Text::Levenshtein::Damerau" : "lib/Text/Levenshtein/Damerau.pm6"
-    },
-    "auth" : "github:ugexe",
-    "depends" : [ ],
-    "description" : "Calculate Levenshtein or Damerau Levenshtein edit distances for strings",
-    "version" : "0.1.7"
-  },
-  {
     "name" : "CSV::Parser",
     "source-url" : "git://github.com/tony-o/perl6-csv-parser.git",
     "provides" : {
@@ -4557,17 +4544,6 @@
     "version" : "0.8.6"
   },
   {
-    "name" : "P6TCI",
-    "source-url" : "git://github.com/ugexe/P6TCI.git",
-    "provides" : {
-      "P6TCI" : "lib/P6TCI.pm6"
-    },
-    "auth" : "github:ugexe",
-    "depends" : [ ],
-    "description" : "Example of testing a Perl6 module on Travis-CI",
-    "version" : "0.0.4"
-  },
-  {
     "name" : "Totem",
     "source-url" : "git://github.com/azawawi/totem.git",
     "provides" : {
@@ -4621,22 +4597,6 @@
     "depends" : [ ],
     "description" : "Symbolic math for Perl 6",
     "version" : "*"
-  },
-  {
-    "name" : "Text::Table::Simple",
-    "owner" : "ugexe",
-    "source-url" : "git://github.com/ugexe/Perl6-Text--Table--Simple.git",
-    "perl" : "6",
-    "provides" : {
-      "Text::Table::Simple" : "lib/Text/Table/Simple.pm6"
-    },
-    "auth" : "github:ugexe",
-    "depends" : [ ],
-    "description" : "Create basic tables from a two dimensional array",
-    "version" : "0.0.3",
-    "authors" : [
-      "Nick Logan"
-    ]
   },
   {
     "name" : "Bench",
@@ -6803,25 +6763,6 @@
     ]
   },
   {
-    "name" : "Base64",
-    "source-url" : "git://github.com/ugexe/Perl6-Base64.git",
-    "support" : {
-      "bugtracker" : "https://github.com/ugexe/Perl6-Base64/issues"
-    },
-    "owner" : "ugexe",
-    "perl" : "6",
-    "provides" : {
-      "Base64" : "lib/Base64.pm6"
-    },
-    "auth" : "github:ugexe",
-    "depends" : [ ],
-    "description" : "Lazy base64 encoding and decoding routines",
-    "version" : "*",
-    "authors" : [
-      "ugexe"
-    ]
-  },
-  {
     "name" : "Crust",
     "perl" : "6",
     "source-url" : "git://github.com/tokuhirom/p6-Crust.git",
@@ -6877,64 +6818,6 @@
     "version" : "*",
     "authors" : [
       "Tokuhiro Matsuno"
-    ]
-  },
-  {
-    "name" : "PathTools",
-    "source-url" : "git://github.com/ugexe/Perl6-PathTools.git",
-    "support" : {
-      "bugtracker" : "https://github.com/ugexe/Perl6-PathTools/issues"
-    },
-    "owner" : "ugexe",
-    "perl" : "6",
-    "provides" : {
-      "PathTools" : "lib/PathTools.pm6"
-    },
-    "auth" : "github:ugexe",
-    "depends" : [ ],
-    "description" : "General purpose file system utility routines",
-    "version" : "*",
-    "authors" : [
-      "ugexe"
-    ]
-  },
-  {
-    "name" : "Grammar::HTTP",
-    "source-url" : "git://github.com/ugexe/Perl6-Grammar--HTTP.git",
-    "support" : {
-      "bugtracker" : "https://github.com/ugexe/Perl6-Grammar--HTTP/issues"
-    },
-    "owner" : "ugexe",
-    "perl" : "6",
-    "provides" : {
-      "Grammar::HTTP::RFC7235" : "lib/Grammar/HTTP/RFC7235.pm6",
-      "Grammar::HTTP::RFC7232" : "lib/Grammar/HTTP/RFC7232.pm6",
-      "Grammar::HTTP::RFC3066" : "lib/Grammar/HTTP/RFC3066.pm6",
-      "Grammar::HTTP::RFC6265" : "lib/Grammar/HTTP/RFC6265.pm6",
-      "Grammar::HTTP::Actions" : "lib/Grammar/HTTP/Actions.pm6",
-      "Grammar::IETF::ABNF::RFC5234" : "lib/Grammar/IETF/ABNF/RFC5234.pm6",
-      "Grammar::IETF::ABNF::RFC4234" : "lib/Grammar/IETF/ABNF/RFC4234.pm6",
-      "Grammar::URI::RFC3986" : "lib/Grammar/URI/RFC3986.pm6",
-      "Grammar::HTTP::RFC7234" : "lib/Grammar/HTTP/RFC7234.pm6",
-      "Grammar::HTTP::RFC7233" : "lib/Grammar/HTTP/RFC7233.pm6",
-      "Grammar::HTTP" : "lib/Grammar/HTTP.pm6",
-      "Grammar::IETF::ABNF::RFC7405" : "lib/Grammar/IETF/ABNF/RFC7405.pm6",
-      "Grammar::HTTP::RFC7230" : "lib/Grammar/HTTP/RFC7230.pm6",
-      "Grammar::HTTP::RFC6854" : "lib/Grammar/HTTP/RFC6854.pm6",
-      "Grammar::HTTP::RFC4647" : "lib/Grammar/HTTP/RFC4647.pm6",
-      "Grammar::HTTP::RFC1035" : "lib/Grammar/HTTP/RFC1035.pm6",
-      "Grammar::HTTP::RFC7231" : "lib/Grammar/HTTP/RFC7231.pm6",
-      "Grammar::HTTP::Extensions" : "lib/Grammar/HTTP/Extensions.pm6",
-      "Grammar::HTTP::RFC5646" : "lib/Grammar/HTTP/RFC5646.pm6",
-      "Grammar::HTTP::RFC5322" : "lib/Grammar/HTTP/RFC5322.pm6"
-    },
-    "auth" : "github:ugexe",
-    "depends" : [ ],
-    "description" : "HTTP request, response, and message body parsing grammar",
-    "version" : "*",
-    "authors" : [
-      "Nick Logan",
-      "Mike Francis"
     ]
   },
   {
@@ -7399,34 +7282,6 @@
     ],
     "description" : "Binding of the gumbo C library, a html parser lib",
     "version" : "*"
-  },
-  {
-    "name" : "Net::HTTP",
-    "source-url" : "git://github.com/ugexe/Perl6-Net--HTTP.git",
-    "support" : {
-      "bugtracker" : "https://github.com/ugexe/Perl6-Net--HTTP/issues"
-    },
-    "owner" : "ugexe",
-    "perl" : "6",
-    "provides" : {
-      "Net::HTTP::POST" : "lib/Net/HTTP/POST.pm6",
-      "Net::HTTP::URL" : "lib/Net/HTTP/URL.pm6",
-      "Net::HTTP::Response" : "lib/Net/HTTP/Response.pm6",
-      "Net::HTTP::Utils" : "lib/Net/HTTP/Utils.pm6",
-      "Net::HTTP::Interfaces" : "lib/Net/HTTP/Interfaces.pm6",
-      "Net::HTTP::Transport" : "lib/Net/HTTP/Transport.pm6",
-      "Net::HTTP::GET" : "lib/Net/HTTP/GET.pm6",
-      "Net::HTTP::Request" : "lib/Net/HTTP/Request.pm6",
-      "Net::HTTP::Dialer" : "lib/Net/HTTP/Dialer.pm6",
-      "Net::HTTP::Client" : "lib/Net/HTTP/Client.pm6"
-    },
-    "auth" : "github:ugexe",
-    "depends" : [ ],
-    "description" : "Roll your own http client",
-    "version" : "*",
-    "authors" : [
-      "ugexe"
-    ]
   },
   {
     "name" : "Object::Permission",
@@ -9051,6 +8906,151 @@
     "depends" : [ ],
     "description" : "Enables safe concurrent consumption of Iterable values",
     "version" : "1.0"
+  },
+  {
+    "name" : "P6TCI",
+    "source-url" : "git://github.com/ugexe/P6TCI.git",
+    "provides" : {
+      "P6TCI" : "lib/P6TCI.pm6"
+    },
+    "auth" : "github:ugexe",
+    "depends" : [ ],
+    "description" : "Example of testing a Perl6 module on Travis-CI",
+    "version" : "0.0.4"
+  },
+  {
+    "name" : "Base64",
+    "source-url" : "git://github.com/ugexe/Perl6-Base64.git",
+    "support" : {
+      "bugtracker" : "https://github.com/ugexe/Perl6-Base64/issues"
+    },
+    "owner" : "ugexe",
+    "perl" : "6",
+    "provides" : {
+      "Base64" : "lib/Base64.pm6"
+    },
+    "auth" : "github:ugexe",
+    "depends" : [ ],
+    "description" : "Lazy base64 encoding and decoding routines",
+    "version" : "*",
+    "authors" : [
+      "ugexe"
+    ]
+  },
+  {
+    "name" : "Grammar::HTTP",
+    "source-url" : "git://github.com/ugexe/Perl6-Grammar--HTTP.git",
+    "support" : {
+      "bugtracker" : "https://github.com/ugexe/Perl6-Grammar--HTTP/issues"
+    },
+    "owner" : "ugexe",
+    "perl" : "6",
+    "provides" : {
+      "Grammar::HTTP::RFC7235" : "lib/Grammar/HTTP/RFC7235.pm6",
+      "Grammar::HTTP::RFC7232" : "lib/Grammar/HTTP/RFC7232.pm6",
+      "Grammar::HTTP::RFC3066" : "lib/Grammar/HTTP/RFC3066.pm6",
+      "Grammar::HTTP::RFC6265" : "lib/Grammar/HTTP/RFC6265.pm6",
+      "Grammar::HTTP::Actions" : "lib/Grammar/HTTP/Actions.pm6",
+      "Grammar::IETF::ABNF::RFC5234" : "lib/Grammar/IETF/ABNF/RFC5234.pm6",
+      "Grammar::IETF::ABNF::RFC4234" : "lib/Grammar/IETF/ABNF/RFC4234.pm6",
+      "Grammar::URI::RFC3986" : "lib/Grammar/URI/RFC3986.pm6",
+      "Grammar::HTTP::RFC7234" : "lib/Grammar/HTTP/RFC7234.pm6",
+      "Grammar::HTTP::RFC7233" : "lib/Grammar/HTTP/RFC7233.pm6",
+      "Grammar::HTTP" : "lib/Grammar/HTTP.pm6",
+      "Grammar::IETF::ABNF::RFC7405" : "lib/Grammar/IETF/ABNF/RFC7405.pm6",
+      "Grammar::HTTP::RFC7230" : "lib/Grammar/HTTP/RFC7230.pm6",
+      "Grammar::HTTP::RFC6854" : "lib/Grammar/HTTP/RFC6854.pm6",
+      "Grammar::HTTP::RFC4647" : "lib/Grammar/HTTP/RFC4647.pm6",
+      "Grammar::HTTP::RFC1035" : "lib/Grammar/HTTP/RFC1035.pm6",
+      "Grammar::HTTP::RFC7231" : "lib/Grammar/HTTP/RFC7231.pm6",
+      "Grammar::HTTP::Extensions" : "lib/Grammar/HTTP/Extensions.pm6",
+      "Grammar::HTTP::RFC5646" : "lib/Grammar/HTTP/RFC5646.pm6",
+      "Grammar::HTTP::RFC5322" : "lib/Grammar/HTTP/RFC5322.pm6"
+    },
+    "auth" : "github:ugexe",
+    "depends" : [ ],
+    "description" : "HTTP request, response, and message body parsing grammar",
+    "version" : "*",
+    "authors" : [
+      "Nick Logan",
+      "Mike Francis"
+    ]
+  },
+  {
+    "name" : "Net::HTTP",
+    "source-url" : "git://github.com/ugexe/Perl6-Net--HTTP.git",
+    "support" : {
+      "bugtracker" : "https://github.com/ugexe/Perl6-Net--HTTP/issues"
+    },
+    "owner" : "ugexe",
+    "perl" : "6",
+    "provides" : {
+      "Net::HTTP::POST" : "lib/Net/HTTP/POST.pm6",
+      "Net::HTTP::URL" : "lib/Net/HTTP/URL.pm6",
+      "Net::HTTP::Response" : "lib/Net/HTTP/Response.pm6",
+      "Net::HTTP::Utils" : "lib/Net/HTTP/Utils.pm6",
+      "Net::HTTP::Interfaces" : "lib/Net/HTTP/Interfaces.pm6",
+      "Net::HTTP::Transport" : "lib/Net/HTTP/Transport.pm6",
+      "Net::HTTP::GET" : "lib/Net/HTTP/GET.pm6",
+      "Net::HTTP::Request" : "lib/Net/HTTP/Request.pm6",
+      "Net::HTTP::Dialer" : "lib/Net/HTTP/Dialer.pm6",
+      "Net::HTTP::Client" : "lib/Net/HTTP/Client.pm6"
+    },
+    "auth" : "github:ugexe",
+    "depends" : [ ],
+    "description" : "Roll your own http client",
+    "version" : "*",
+    "authors" : [
+      "ugexe"
+    ]
+  },
+  {
+    "name" : "PathTools",
+    "source-url" : "git://github.com/ugexe/Perl6-PathTools.git",
+    "support" : {
+      "bugtracker" : "https://github.com/ugexe/Perl6-PathTools/issues"
+    },
+    "owner" : "ugexe",
+    "perl" : "6",
+    "provides" : {
+      "PathTools" : "lib/PathTools.pm6"
+    },
+    "auth" : "github:ugexe",
+    "depends" : [ ],
+    "description" : "General purpose file system utility routines",
+    "version" : "*",
+    "authors" : [
+      "ugexe"
+    ]
+  },
+  {
+    "name" : "Text::Levenshtein::Damerau",
+    "source-url" : "git://github.com/ugexe/Perl6-Text--Levenshtein--Damerau.git",
+    "owner" : "ugexe",
+    "perl" : "6",
+    "provides" : {
+      "Text::Levenshtein::Damerau" : "lib/Text/Levenshtein/Damerau.pm6"
+    },
+    "auth" : "github:ugexe",
+    "depends" : [ ],
+    "description" : "Calculate Levenshtein or Damerau Levenshtein edit distances for strings",
+    "version" : "0.1.7"
+  },
+  {
+    "name" : "Text::Table::Simple",
+    "owner" : "ugexe",
+    "source-url" : "git://github.com/ugexe/Perl6-Text--Table--Simple.git",
+    "perl" : "6",
+    "provides" : {
+      "Text::Table::Simple" : "lib/Text/Table/Simple.pm6"
+    },
+    "auth" : "github:ugexe",
+    "depends" : [ ],
+    "description" : "Create basic tables from a two dimensional array",
+    "version" : "0.0.3",
+    "authors" : [
+      "Nick Logan"
+    ]
   },
   {
     "name" : "Zef",
