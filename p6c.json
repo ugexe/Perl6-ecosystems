@@ -9747,5 +9747,30 @@
     ],
     "description" : "Embedded Gambit-C for Perl 6",
     "version" : "0.01"
+  },
+  {
+    "name" : "Term::Choose",
+    "perl" : "6.c",
+    "source-url" : "https://github.com/kuerbis/p6-Term-Choose",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Term::Choose" : "lib/Term/Choose.pm6",
+      "Term::Choose::Constants" : "lib/Term/Choose/Constants.pm6",
+      "Term::Choose::Linux" : "lib/Term/Choose/Linux.pm6",
+      "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
+    },
+    "depends" : [
+      "Term::termios",
+      "Terminal::WCWidth"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Choose items from a list interactively.",
+    "version" : "*",
+    "authors" : [
+      "kuerbis"
+    ]
   }
 ]
