@@ -5634,6 +5634,22 @@
     "version" : "0.1"
   },
   {
+    "name" : "Inline::Scheme::Guile",
+    "source-url" : "git://github.com/niner/Inline-Scheme-Guile.git",
+    "resources" : [
+      "libraries/guile-helper"
+    ],
+    "author" : "github:drforr",
+    "provides" : {
+      "Inline::Scheme::Guile" : "lib/Inline/Scheme/Guile.pm6"
+    },
+    "depends" : [
+      "LibraryMake"
+    ],
+    "description" : "Use Guile Scheme code and libraries in your Perl 6 code",
+    "version" : "0.1"
+  },
+  {
     "name" : "Path::Router",
     "source-url" : "git://github.com/zostay/p6-Path-Router.git",
     "author" : "Andrew Sterling Hanenkamp",
