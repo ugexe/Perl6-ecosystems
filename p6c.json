@@ -9806,5 +9806,21 @@
     "authors" : [
       "kuerbis"
     ]
+  },
+  {
+    "source-type" : "git",
+    "name" : "Acme::Cow",
+    "source-url" : "git://github.com/hankache/Acme-Cow.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Acme::Cow" : "lib/Acme/Cow.pm6",
+      "cow-say" : "bin/cow-say"
+    },
+    "depends" : [ ],
+    "description" : "Perl 6 implementation of cowsay.",
+    "version" : "0.1",
+    "authors" : [
+      "Naoum Hankache"
+    ]
   }
 ]
