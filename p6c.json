@@ -9822,5 +9822,36 @@
     "authors" : [
       "Naoum Hankache"
     ]
+  },
+  {
+    "name" : "Oyatul",
+    "source-url" : "git://github.com/jonathanstowe/Oyatul.git",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Oyatul.git"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "Oyatul" : "lib/Oyatul.pm"
+    },
+    "depends" : [
+      "JSON::Tiny"
+    ],
+    "description" : "Abstract representation of a filesystem layout",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "filesystem",
+      "layout",
+      "util"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
   }
 ]
