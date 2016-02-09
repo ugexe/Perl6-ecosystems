@@ -9853,5 +9853,24 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "IO::Prompt",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "IO::Prompt" : "lib/IO/Prompt.pm"
+    },
+    "source" : "git://github.com/wbiker/io-prompt.git",
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "This is a generic module for interactive prompting from the console.",
+    "version" : "0.0.2",
+    "authors" : [
+      "pnu",
+      "wbiker"
+    ]
   }
 ]
