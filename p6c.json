@@ -9859,12 +9859,12 @@
   },
   {
     "name" : "IO::Prompt",
+    "source-url" : "git://github.com/wbiker/io-prompt.git",
     "perl" : "6.*",
     "resources" : [ ],
     "provides" : {
       "IO::Prompt" : "lib/IO/Prompt.pm"
     },
-    "source" : "git://github.com/wbiker/io-prompt.git",
     "depends" : [ ],
     "test-depends" : [
       "Test"
