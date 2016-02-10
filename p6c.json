@@ -9875,5 +9875,35 @@
       "pnu",
       "wbiker"
     ]
+  },
+  {
+    "name" : "Test::Util::ServerPort",
+    "source-url" : "git://github.com/jonathanstowe/Test-Util-ServerPort.git",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Test-Util-ServerPort.git"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "Test::Util::ServerPort" : "lib/Test/Util/ServerPort.pm"
+    },
+    "depends" : [ ],
+    "description" : "Get a free server port for testing with",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "network",
+      "server",
+      "test",
+      "util"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
   }
 ]
