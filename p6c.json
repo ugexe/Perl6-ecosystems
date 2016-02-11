@@ -9913,5 +9913,22 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "Algorithm::BinaryIndexedTree",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/okaoka/p6-Algorithm-BinaryIndexedTree.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Algorithm::BinaryIndexedTree" : "lib/Algorithm/BinaryIndexedTree.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "data structure for cumulative frequency tables",
+    "version" : "0.01",
+    "authors" : [
+      "okaoka"
+    ]
   }
 ]
