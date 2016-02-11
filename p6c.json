@@ -5739,18 +5739,17 @@
     ]
   },
   {
-    "name" : "X::Protocol",
+    "name" : "Control::Bail",
     "support" : {
-      "source" : "https://github.com/skids/perl6xproto.git"
+      "source" : "https://github.com/skids/perl6-Control-Bail.git"
     },
-    "perl" : "6",
+    "perl" : 6,
     "provides" : {
-      "X::Protocol::HTTP" : "lib/X/Protocol/HTTP.pm6",
-      "X::Protocol" : "lib/X/Protocol.pm6"
+      "Control::Bail" : "lib/Control/Bail.pm6"
     },
     "depends" : [ ],
     "license" : "http://www.perlfoundation.org/artistic_license_2_0",
-    "description" : "Perl6 modules for handling protocol status as Exceptions",
+    "description" : "Perl6 module for deferred error handling",
     "version" : "v0.0.1",
     "authors" : [
       "Brian S. Julin"
