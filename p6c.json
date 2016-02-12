@@ -1600,7 +1600,7 @@
     ],
     "license" : "The Artistic License 2.0",
     "description" : "MongoDB driver",
-    "version" : "0.27.2"
+    "version" : "0.27.3"
   },
   {
     "name" : "SDL",
@@ -9129,6 +9129,7 @@
     "provides" : {
       "Zef::Shell::wget" : "lib/Zef/Shell/wget.pm6",
       "Zef::Distribution::Local" : "lib/Zef/Distribution/Local.pm6",
+      "Zef::CLI" : "lib/Zef/CLI.pm6",
       "Zef::Shell::PowerShell::download" : "lib/Zef/Shell/PowerShell/download.pm6",
       "Zef::Shell::git" : "lib/Zef/Shell/git.pm6",
       "Zef::Shell::p5tar" : "lib/Zef/Shell/p5tar.pm6",
@@ -9145,7 +9146,7 @@
       "Zef::Shell::PowerShell::unzip" : "lib/Zef/Shell/PowerShell/unzip.pm6",
       "Zef::Shell::tar" : "lib/Zef/Shell/tar.pm6",
       "Zef::Shell" : "lib/Zef/Shell.pm6",
-      "Zef::App" : "lib/Zef/App.pm6",
+      "Zef::Client" : "lib/Zef/Client.pm6",
       "Zef::ContentStorage::P6C" : "lib/Zef/ContentStorage/P6C.pm6",
       "Zef::Shell::curl" : "lib/Zef/Shell/curl.pm6",
       "Zef::Fetch::Path" : "lib/Zef/Fetch/Path.pm6",
