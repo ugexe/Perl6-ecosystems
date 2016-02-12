@@ -2841,7 +2841,18 @@
     "source-url" : "git://github.com/azawawi/perl6-electron.git",
     "perl" : "6.c",
     "resources" : [
-      "main_app"
+      "resources/main_app/package.json",
+      "resources/main_app/main.js",
+      "resources/main_app/node_modules/node-json-rpc/LICENSE",
+      "resources/main_app/node_modules/node-json-rpc/README.md",
+      "resources/main_app/node_modules/node-json-rpc/package.json",
+      "resources/main_app/node_modules/node-json-rpc/test/rpc.js",
+      "resources/main_app/node_modules/node-json-rpc/test/etc/optsserver.js",
+      "resources/main_app/node_modules/node-json-rpc/test/etc/optsclient.js",
+      "resources/main_app/node_modules/node-json-rpc/lib/index.js",
+      "resources/main_app/node_modules/node-json-rpc/lib/rpcclient.js",
+      "resources/main_app/node_modules/node-json-rpc/lib/rpcserver.js",
+      "resources/main_app/node_modules/node-json-rpc/lib/rpcauth.js"
     ],
     "provides" : {
       "Electron::Tray" : "lib/Electron/Tray.pm6",
