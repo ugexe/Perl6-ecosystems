@@ -9945,5 +9945,22 @@
     "authors" : [
       "okaoka"
     ]
+  },
+  {
+    "name" : "Net::OSC",
+    "source-url" : "git://github.com/samgwise/Net-OSC.git",
+    "perl" : "6.c",
+    "author" : "Sam Gillespie",
+    "provides" : {
+      "Net::OSC::Message" : "lib/Net/OSC/Message.pm",
+      "Net::OSC::Bundle" : "lib/Net/OSC/Bundle.pm",
+      "Net::OSC" : "lib/Net/OSC.pm"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "A perl6 implementation of the Open Sound Control Protocol.",
+    "version" : "0.001"
   }
 ]
