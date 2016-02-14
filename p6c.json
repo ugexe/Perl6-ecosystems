@@ -9963,5 +9963,25 @@
     ],
     "description" : "A perl6 implementation of the Open Sound Control Protocol.",
     "version" : "0.001"
+  },
+  {
+    "name" : "Dice::Roller",
+    "source-url" : "https://bitbucket.org/jamesneko/dice-roller",
+    "support" : {
+      "email" : "perl@lazycat.com.au"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "Dice::Roller" : "lib/Dice/Roller.pm6",
+      "Dice::Roller::Selector" : "lib/Dice/Roller/Selector.pm6",
+      "Dice::Roller::Rollable" : "lib/Dice/Roller/Rollable.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Roll RPG-style polyhedral dice",
+    "version" : "0.1.0",
+    "meta6" : "0",
+    "authors" : [
+      "James Clark"
+    ]
   }
 ]
