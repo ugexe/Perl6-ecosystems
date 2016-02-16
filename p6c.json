@@ -10013,40 +10013,5 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
-  },
-  {
-    "name" : "NativeHelpers::Blob",
-    "support" : {
-      "email" : "sog@msg.com.mx",
-      "source" : [
-        "git://github.com/salortiz/NativeHelpers-Blob.git",
-        "https://github.com/salortiz/NativeHelpers-Blob.git"
-      ]
-    },
-    "source-url" : "git://github.com/salortiz/NativeHelpers-Blob.git",
-    "perl" : "6.c",
-    "licence" : "artistic_2",
-    "build-depends" : [ ],
-    "provides" : {
-      "MoarVM::Guts::REPRs" : "lib/MoarVM/Guts/REPRs.pm6",
-      "NativeHelpers::Blob" : "lib/NativeHelpers/Blob.pm6"
-    },
-    "auth" : "github:salortiz",
-    "repo-type" : "git",
-    "depends" : [ ],
-    "tags" : [
-      "NativeCall",
-      "MoarVM",
-      "Utilities",
-      "Blob",
-      "CArray"
-    ],
-    "test-depends" : [
-      "Test",
-      "File::Temp"
-    ],
-    "description" : "NativeCall utilities for work with Blob and CArray",
-    "version" : "0.1.0",
-    "authors" : "Salvador Ortiz <sortiz@cpan.com>"
   }
 ]
