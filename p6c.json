@@ -9995,14 +9995,15 @@
     "description" : "Interact with the Liquidsoap command server",
     "license" : "Artistic",
     "test-depends" : [
-      "Test"
+      "Test",
+      "Test::Util::ServerPort"
     ],
     "tags" : [
       "audio",
       "integration",
       "streaming"
     ],
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "meta6" : "0",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
