@@ -7846,14 +7846,7 @@
     "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "provides" : {
-      "JSON::Infer::Role::Types" : "lib/JSON/Infer/Role/Types.pm",
-      "JSON::Infer::Role::Entity" : "lib/JSON/Infer/Role/Entity.pm",
-      "JSON::Infer::Attribute" : "lib/JSON/Infer/Attribute.pm",
-      "JSON::Infer::Exception" : "lib/JSON/Infer/Exception.pm",
-      "JSON::Infer::Class" : "lib/JSON/Infer/Class.pm",
-      "JSON::Infer::Role::Classes" : "lib/JSON/Infer/Role/Classes.pm",
-      "JSON::Infer" : "lib/JSON/Infer.pm",
-      "JSON::Infer::Type" : "lib/JSON/Infer/Type.pm"
+      "JSON::Infer" : "lib/JSON/Infer.pm"
     },
     "auth" : "github:jonathanstowe",
     "depends" : [
@@ -7872,7 +7865,7 @@
       "serialisation",
       "JSON"
     ],
-    "version" : "0.0.7",
+    "version" : "0.0.8",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
