@@ -10055,5 +10055,30 @@
     "depends" : [ ],
     "description" : "Test run refactored code against legacy code",
     "version" : "1.0.0"
+  },
+  {
+    "name" : "Lingua::EN::Stem::Porter",
+    "support" : {
+      "source" : "https://github.com/johnspurr/Lingua-EN-Stem-Porter.git"
+    },
+    "perl" : "6.*",
+    "provides" : {
+      "Lingua::EN::Stem::Porter" : "lib/Lingua/EN/Stem/Porter.pm6"
+    },
+    "tags" : [
+      "NLP",
+      "perl6",
+      "stem",
+      "porter"
+    ],
+    "license" : "The MIT License (MIT)",
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Implementation of the Porter stemming algorithm",
+    "version" : "v1.0",
+    "authors" : [
+      "John Spurr"
+    ]
   }
 ]
