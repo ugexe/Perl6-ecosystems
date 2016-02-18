@@ -10080,5 +10080,38 @@
     "authors" : [
       "John Spurr"
     ]
+  },
+  {
+    "resource" : { },
+    "name" : "Audio::Playlist::JSPF",
+    "source-url" : "git://github.com/jonathanstowe/Audio-Playlist-JSPF.git",
+    "support" : {
+      "source" : "git://github.com/jonathan/stowe/Audio-Playlist-JSPF.git"
+    },
+    "perl" : "6.c",
+    "build-depends" : [ ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "Audio::Playlist::JSPF" : "lib/Audio/Playlist/JSPF.pm"
+    },
+    "depends" : [
+      "JSON::Class"
+    ],
+    "license" : "perl",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "playlist",
+      "music",
+      "JSON",
+      "xiph"
+    ],
+    "description" : "JSON representation of a 'playlist'",
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.com.uk>"
+    ]
   }
 ]
