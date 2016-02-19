@@ -10115,5 +10115,22 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.com.uk>"
     ]
+  },
+  {
+    "name" : "RPi::Device::PiFace",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/garyaj/perl6-raspberry-pi-device-piface.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "RPi::Device::PiFace" : "lib/RPi/Device/PiFace.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "Perl6 module to drive the PiFace 2 GPIO expansion board for",
+    "version" : "*",
+    "authors" : [
+      "Gary Ashton-Jones"
+    ]
   }
 ]
