@@ -10137,8 +10137,14 @@
     "name" : "Automata::Cellular",
     "source-url" : "git://github.com/dbrunton/Automata-Cellular.git",
     "perl" : "6.*",
+    "provides" : {
+      "Automata::Cellular" : "lib/Automata/Cellular.pm6"
+    },
     "description" : "Cellular Automata in Perl6",
     "version" : "0.2.2",
-    "authors" : "David Brunton, Tommy Brunton"
+    "authors" : [
+      "David Brunton",
+      "Tommy Brunton"
+    ]
   }
 ]
