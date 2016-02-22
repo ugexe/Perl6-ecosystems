@@ -10146,5 +10146,21 @@
       "David Brunton",
       "Tommy Brunton"
     ]
+  },
+  {
+    "name" : "RPi::Wiring::Pi",
+    "source-url" : "git://github.com/sufrostico/perl6-wiringpi.git",
+    "provides" : {
+      "RPi::Wiring::Pi" : "lib/RPi/Wiring/Pi.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Perl 6 wrapper to the WiringPI, a wiring based Raspberry Pi library",
+    "version" : "2.25.0",
+    "authors" : [
+      "Aurelio Sanabria (Sufrostico) <sufrostico at gmail dot com>"
+    ]
   }
 ]
