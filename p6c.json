@@ -10162,5 +10162,22 @@
     "authors" : [
       "Aurelio Sanabria (Sufrostico) <sufrostico at gmail dot com>"
     ]
+  },
+  {
+    "name" : "Algorithm::ZobristHashing",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/okaoka/p6-Algorithm-ZobristHashing.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Algorithm::ZobristHashing" : "lib/Algorithm/ZobristHashing.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "a hash function for board games",
+    "version" : "*",
+    "authors" : [
+      "okaoka"
+    ]
   }
 ]
