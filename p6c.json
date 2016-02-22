@@ -10178,5 +10178,32 @@
     "authors" : [
       "okaoka"
     ]
+  },
+  {
+    "name" : "PackUnpack",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
+    "source-url" : "https://github.com/lizmat/PackUnpack.git",
+    "perl" : "6.c",
+    "provides" : {
+      "PackUnpack" : "lib/PackUnpack.pm"
+    },
+    "auth" : "github:lizmat",
+    "repo-type" : "git",
+    "depends" : [ ],
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "pack",
+      "unpack"
+    ],
+    "description" : "Implementation of pack/unpack a la Perl 5",
+    "version" : "0.01",
+    "authors" : [
+      "Elizabeth Mattijsen"
+    ]
   }
 ]
