@@ -10202,5 +10202,17 @@
     "authors" : [
       "Elizabeth Mattijsen"
     ]
+  },
+  {
+    "name" : "Getopt::Long",
+    "source-url" : "https://github.com/Leont/getopt-long6.git",
+    "author" : "Leon Timmermans",
+    "provides" : {
+      "Getopt::Long" : "lib/Getopt/Long.pm"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "A powerful getopt implementation",
+    "version" : "0.0.1"
   }
 ]
