@@ -9812,12 +9812,10 @@
     "resources" : [ ],
     "provides" : {
       "Term::Choose" : "lib/Term/Choose.pm6",
-      "Term::Choose::Constants" : "lib/Term/Choose/Constants.pm6",
-      "Term::Choose::Linux" : "lib/Term/Choose/Linux.pm6",
       "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
     },
     "depends" : [
-      "Term::termios",
+      "NCurses",
       "Terminal::WCWidth"
     ],
     "test-depends" : [
