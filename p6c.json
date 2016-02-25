@@ -2333,15 +2333,18 @@
     "source-url" : "git://github.com/perl6/DBIish.git",
     "perl" : "6",
     "provides" : {
+      "DBDish::SQLite" : "lib/DBDish/SQLite.pm6",
       "DBDish::Role::Connection" : "lib/DBDish/Role/Connection.pm6",
       "DBDish::Pg::Native" : "lib/DBDish/Pg/Native.pm6",
       "DBDish::Pg::Connection" : "lib/DBDish/Pg/Connection.pm6",
-      "DBDish::SQLite" : "lib/DBDish/SQLite.pm6",
       "DBDish::mysql::Native" : "lib/DBDish/mysql/Native.pm6",
       "DBDish" : "lib/DBDish.pm6",
+      "DBDish::Oracle::Native" : "lib/DBDish/Oracle/Native.pm6",
       "DBDish::TestMock" : "lib/DBDish/TestMock.pm6",
-      "DBDish::mysql::StatementHandle" : "lib/DBDish/mysql/StatementHandle.pm6",
       "DBDish::SQLite::StatementHandle" : "lib/DBDish/SQLite/StatementHandle.pm6",
+      "DBDish::Oracle::StatementHandle" : "lib/DBDish/Oracle/StatementHandle.pm6",
+      "DBDish::Oracle" : "lib/DBDish/Oracle.pm6",
+      "DBDish::mysql::StatementHandle" : "lib/DBDish/mysql/StatementHandle.pm6",
       "DBDish::TestMock::StatementHandle" : "lib/DBDish/TestMock/StatementHandle.pm6",
       "DBDish::SQLite::Native" : "lib/DBDish/SQLite/Native.pm6",
       "DBDish::Pg" : "lib/DBDish/Pg.pm6",
@@ -2352,9 +2355,12 @@
       "DBIish" : "lib/DBIish.pm6",
       "DBDish::Role::ErrorHandling" : "lib/DBDish/Role/ErrorHandling.pm6",
       "DBDish::Pg::StatementHandle" : "lib/DBDish/Pg/StatementHandle.pm6",
+      "DBDish::Oracle::Connection" : "lib/DBDish/Oracle/Connection.pm6",
       "DBDish::mysql" : "lib/DBDish/mysql.pm6"
     },
-    "depends" : [ ],
+    "test-depends" : [
+      "Data::Dump"
+    ],
     "description" : "Database connectivity for Perl 6",
     "version" : "*"
   },
