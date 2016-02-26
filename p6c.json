@@ -1155,16 +1155,6 @@
     "version" : "*"
   },
   {
-    "name" : "Lingua::EN::Numbers::Ordinal",
-    "source-url" : "git://github.com/lue/Lingua--EN--Numbers--Ordinal.git",
-    "provides" : {
-      "Lingua::EN::Numbers::Ordinal" : "lib/Lingua/EN/Numbers/Ordinal.pm6"
-    },
-    "depends" : [ ],
-    "description" : "A module that generates ordinal numbers from cardinal numbers",
-    "version" : "*"
-  },
-  {
     "name" : "Perl6::Literate",
     "source-url" : "git://github.com/masak/perl6-literate.git",
     "provides" : {
@@ -3865,20 +3855,6 @@
     "version" : "0.1.1"
   },
   {
-    "source-type" : "git",
-    "name" : "Term::ColorText",
-    "source-url" : "git://github.com/lue/term-colortext.git",
-    "author" : "lue",
-    "provides" : {
-      "Term::ColorText" : "lib/Term/ColorText.pm6"
-    },
-    "depends" : [
-      "Term::ANSIColor"
-    ],
-    "description" : "Prints colorful text to your screen",
-    "version" : "0.1.0"
-  },
-  {
     "name" : "Math::ThreeD",
     "source-url" : "git://github.com/raydiak/Math--ThreeD.git",
     "author" : "raydiak",
@@ -4257,18 +4233,6 @@
     "authors" : [
       "zengargoyle"
     ]
-  },
-  {
-    "source-type" : "git",
-    "name" : "Pod::Walker",
-    "source-url" : "git://github.com/lue/pod-walker.git",
-    "author" : "lue",
-    "provides" : {
-      "Pod::Walker" : "lib/Pod/Walker.pm6"
-    },
-    "depends" : [ ],
-    "description" : "Makes constructing converted Pod docs easier.",
-    "version" : "0.1.0"
   },
   {
     "name" : "Data::Pretty",
@@ -6794,23 +6758,6 @@
     ],
     "description" : "Display and cache ecosystem README files for perl6",
     "version" : "0.2"
-  },
-  {
-    "api" : "0",
-    "name" : "Grammar::Parsefail",
-    "perl" : "6.c",
-    "source-url" : "git://github.com/ShimmerFairy/grammar-parsefail.git",
-    "provides" : {
-      "Grammar::Parsefail" : "lib/Grammar/Parsefail.pm6",
-      "Grammar::Parsefail::Exceptions" : "lib/Grammar/Parsefail/Exceptions.pm6"
-    },
-    "apparently JSON doesn't allow comments which is pretty dumb. Remind me why we're using *javascript* for *Perl* stuff, again?" : "only use 'production' for formal releases",
-    "description" : "Syntax error reporting for grammars",
-    "production" : 0,
-    "version" : "v0.1",
-    "authors" : [
-      "Faye"
-    ]
   },
   {
     "name" : "Growl::GNTP",
