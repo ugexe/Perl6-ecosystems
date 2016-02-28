@@ -10185,5 +10185,42 @@
     "authors" : [
       "okaoka"
     ]
+  },
+  {
+    "name" : "XML::Class",
+    "resource" : { },
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/JSON-Class.git"
+    },
+    "source-url" : "git://github.com/jonathanstowe/JSON-Class.git",
+    "perl" : "6.c",
+    "build-depends" : [ ],
+    "excludes" : { },
+    "superseded-by" : { },
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "XML::Class" : "lib/XML/Class.pm"
+    },
+    "depends" : [
+      "XML"
+    ],
+    "license" : "perl",
+    "tags" : [
+      "XML",
+      "object",
+      "role",
+      "framework"
+    ],
+    "description" : "Role to Serialize/De-Serialize a Perl 6 class to/from XML",
+    "test-depends" : [
+      "Test"
+    ],
+    "meta6" : "0",
+    "emulates" : { },
+    "version" : "0.0.1",
+    "supersedes" : { },
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.com.uk>"
+    ]
   }
 ]
