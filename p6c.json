@@ -10167,5 +10167,23 @@
     "test-depends" : [ ],
     "description" : "A powerful getopt implementation",
     "version" : "0.0.1"
+  },
+  {
+    "name" : "Algorithm::TernarySearchTree",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/okaoka/p6-Algorithm-TernarySearchTree.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Algorithm::TernarySearchTree" : "lib/Algorithm/TernarySearchTree.pm6",
+      "Algorithm::TernarySearchTree::Node" : "lib/Algorithm/TernarySearchTree/Node.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "the algorithm which blends trie and binary search tree",
+    "version" : "0.01",
+    "authors" : [
+      "okaoka"
+    ]
   }
 ]
