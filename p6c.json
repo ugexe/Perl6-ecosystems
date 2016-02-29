@@ -345,27 +345,6 @@
     "version" : "*"
   },
   {
-    "name" : "Text-Tabs-Wrap",
-    "support" : {
-      "source" : "https://github.com/flussence/Text-Tabs-Wrap.git",
-      "bugtracker" : "https://github.com/flussence/Text-Tabs-Wrap/issues"
-    },
-    "perl" : "6.c",
-    "provides" : {
-      "Text::Wrap" : "lib/Text/Wrap.pm",
-      "Text::Tabs" : "lib/Text/Tabs.pm"
-    },
-    "test-depends" : [
-      "Test::Corpus"
-    ],
-    "description" : "Simple line-wrapping and tab [un]expansion tools",
-    "version" : "0.2.5",
-    "authors" : [
-      "Takadonet",
-      "flussence"
-    ]
-  },
-  {
     "source-type" : "git",
     "name" : "BioPerl6",
     "source-url" : "git://github.com/cjfields/bioperl6.git",
@@ -3028,49 +3007,6 @@
     ],
     "description" : "Command-line debugger frontend for Rakudo",
     "version" : "*"
-  },
-  {
-    "name" : "Test::Corpus",
-    "support" : {
-      "source" : "https://github.com/flussence/Test-Corpus.git",
-      "bugtracker" : "https://github.com/flussence/Test-Corpus/issues"
-    },
-    "perl" : "v6",
-    "provides" : {
-      "Test::Corpus" : "lib/Test/Corpus.pm"
-    },
-    "depends" : [
-      "Test"
-    ],
-    "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-    "test-depends" : [
-      "Test"
-    ],
-    "description" : "Run a test function against a directory of input and expected output files",
-    "version" : "2.1.1",
-    "authors" : [
-      "flussence"
-    ]
-  },
-  {
-    "name" : "Test::ClientServer",
-    "support" : {
-      "source" : "https://github.com/flussence/Test-ClientServer.git",
-      "bugtracker" : "https://github.com/flussence/Test-ClientServer/issues"
-    },
-    "perl" : "v6",
-    "provides" : {
-      "Test::ClientServer" : "lib/Test/ClientServer.pm"
-    },
-    "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-    "test-depends" : [
-      "Test"
-    ],
-    "description" : "Multithreading wrapper for testing network server/client code",
-    "version" : "2.0.0",
-    "authors" : [
-      "flussence"
-    ]
   },
   {
     "name" : "File::Find::Duplicates",
@@ -6007,26 +5943,6 @@
     "version" : "v0.0.1"
   },
   {
-    "name" : "BufUtils",
-    "support" : {
-      "source" : "https://github.com/flussence/BufUtils.git",
-      "bugtracker" : "https://github.com/flussence/BufUtils/issues"
-    },
-    "perl" : "v6",
-    "provides" : {
-      "BufUtils" : "lib/BufUtils.pm"
-    },
-    "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-    "test-depends" : [
-      "Test"
-    ],
-    "description" : "Makes Blobs/Bufs a little more Stringy",
-    "version" : "0.0.3",
-    "authors" : [
-      "flussence"
-    ]
-  },
-  {
     "name" : "App::p6tags",
     "source-url" : "git://github.com/stmuk/p6-app-p6tags.git",
     "perl" : "6.c",
@@ -8234,34 +8150,6 @@
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
-    ]
-  },
-  {
-    "name" : "Minecraft-Tools",
-    "support" : {
-      "source" : "https://github.com/flussence/Minecraft-Tools.git",
-      "bugtracker" : "https://github.com/flussence/Minecraft-Tools/issues"
-    },
-    "perl" : "6.c",
-    "provides" : {
-      "Net::Minecraft::Rcon" : "lib/Net/Minecraft/Rcon.pm",
-      "Net::Minecraft::Query" : "lib/Net/Minecraft/Query.pm",
-      "Net::Minecraft::Packet" : "lib/Net/Minecraft/Packet.pm",
-      "Net::Minecraft::Version" : "lib/Net/Minecraft/Version.pm"
-    },
-    "depends" : [
-      "JSON::Fast",
-      "Net::HTTP",
-      "Terminal::ANSIColor"
-    ],
-    "license" : "https://creativecommons.org/publicdomain/zero/1.0/",
-    "test-depends" : [
-      "Test"
-    ],
-    "description" : "Perl 6 modules for interacting with Minecraft servers/APIs",
-    "version" : "0.1.0",
-    "authors" : [
-      "flussence"
     ]
   },
   {
