@@ -2321,6 +2321,7 @@
       "DBDish" : "lib/DBDish.pm6",
       "DBDish::Oracle::Native" : "lib/DBDish/Oracle/Native.pm6",
       "DBDish::TestMock" : "lib/DBDish/TestMock.pm6",
+      "DBIish::CommonTesting" : "lib/DBIish/CommonTesting.pm6",
       "DBDish::SQLite::StatementHandle" : "lib/DBDish/SQLite/StatementHandle.pm6",
       "DBDish::Oracle::StatementHandle" : "lib/DBDish/Oracle/StatementHandle.pm6",
       "DBDish::Oracle" : "lib/DBDish/Oracle.pm6",
@@ -2342,7 +2343,7 @@
       "Data::Dump"
     ],
     "description" : "Database connectivity for Perl 6",
-    "version" : "0.1.0"
+    "version" : "0.1.1"
   },
   {
     "name" : "Date::WorkdayCalendar",
