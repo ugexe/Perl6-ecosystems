@@ -2976,6 +2976,17 @@
     ]
   },
   {
+    "name" : "Memoize",
+    "source-url" : "git://github.com/azawawi/perl6-memoize.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Memoize" : "lib/Memoize.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Make routines faster by trading space for time",
+    "version" : "*"
+  },
+  {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
     "provides" : {
