@@ -10112,5 +10112,33 @@
     "authors" : [
       "Lance Wicks"
     ]
+  },
+  {
+    "resource" : { },
+    "name" : "Util::Bitfield",
+    "source-url" : "git://github.com/jonathanstowe/Util-Bitfield.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Util-Bitfield.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "Util::Bitfield" : "lib/Util/Bitfield.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Utility subroutines for working with bitfields",
+    "license" : "perl",
+    "tags" : [
+      "util",
+      "bit",
+      "bitfield"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
