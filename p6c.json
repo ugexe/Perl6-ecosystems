@@ -10167,13 +10167,16 @@
     "perl" : "6.c",
     "source-url" : "git://github.com/okaoka/p6-Algorithm-KdTree.git",
     "build-depends" : [ ],
-    "resources" : [ ],
+    "resources" : [
+      "libkdtree.so",
+      "libkdtree.dll",
+      "libkdtree.dylib"
+    ],
     "provides" : {
       "Algorithm::KdTree::Response" : "lib/Algorithm/KdTree/Response.pm6",
       "Algorithm::KdTree" : "lib/Algorithm/KdTree.pm6"
     },
     "depends" : [
-      "NativeCall",
       "LibraryMake",
       "NativeHelpers::Array"
     ],
