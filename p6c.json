@@ -10140,5 +10140,22 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "source-type" : "git",
+    "name" : "Crane",
+    "support" : {
+      "source" : "https://github.com/atweiden/crane",
+      "bugtracker" : "https://github.com/atweiden/crane/issues"
+    },
+    "source-url" : "git://github.com/atweiden/crane.git",
+    "author" : "Andy Weidenbaum",
+    "provides" : {
+      "X::Crane" : "lib/X/Crane.pm",
+      "Crane" : "lib/Crane.pm"
+    },
+    "license" : "http://unlicense.org/UNLICENSE",
+    "description" : "Navigate Perl6 containers and perform tasks",
+    "version" : "*"
   }
 ]
