@@ -8252,7 +8252,7 @@
   },
   {
     "name" : "Discord",
-    "perl" : "v6",
+    "perl" : "6",
     "source-url" : "git://github.com/Skarsnik/perl6-discord.git",
     "support" : {
       "source" : "git://github.com/Skarsnik/perl6-discord.git"
@@ -8261,6 +8261,7 @@
     "provides" : {
       "Discord::Channel" : "lib/Discord/Channel.pm6",
       "Discord::User" : "lib/Discord/User.pm6",
+      "Discord::Api_ref" : "lib/Discord/Api_ref.pm6",
       "Discord::Guild" : "lib/Discord/Guild.pm6",
       "Discord" : "lib/Discord.pm6",
       "Discord::Message" : "lib/Discord/Message.pm6"
