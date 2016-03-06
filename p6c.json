@@ -10160,5 +10160,27 @@
     "license" : "http://unlicense.org/UNLICENSE",
     "description" : "Navigate Perl6 containers and perform tasks",
     "version" : "*"
+  },
+  {
+    "name" : "Algorithm::KdTree",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/okaoka/p6-Algorithm-KdTree.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Algorithm::KdTree::Response" : "lib/Algorithm/KdTree/Response.pm6",
+      "Algorithm::KdTree" : "lib/Algorithm/KdTree.pm6"
+    },
+    "depends" : [
+      "NativeCall",
+      "LibraryMake",
+      "NativeHelpers::Array"
+    ],
+    "test-depends" : [ ],
+    "description" : "a perl6 binding for C implementation of the Kd-Tree Algorithm (https://github.com/jtsiomb/kdtree)",
+    "version" : "*",
+    "authors" : [
+      "okaoka"
+    ]
   }
 ]
