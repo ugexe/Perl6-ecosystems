@@ -2987,6 +2987,17 @@
     "version" : "*"
   },
   {
+    "name" : "LibZip",
+    "source-url" : "git://github.com/azawawi/perl6-libzip.git",
+    "perl" : "6.c",
+    "provides" : {
+      "LibZip" : "lib/LibZip.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Perl 6 bindings for libzip",
+    "version" : "*"
+  },
+  {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
     "provides" : {
