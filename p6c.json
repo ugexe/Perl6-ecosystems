@@ -10211,5 +10211,41 @@
     "description" : "RPi::GpioDirect - Access the Raspberry Pi GPIO",
     "version" : "0.1.0",
     "authors" : "Donald Hunter"
+  },
+  {
+    "resource" : { },
+    "name" : "Audio::Hydrogen",
+    "perl" : "6.c",
+    "source-url" : "https://github.com/jonathanstowe/Audio-Hydrogen.git",
+    "support" : {
+      "source" : "https://github.com/jonathanstowe/Audio-Hydrogen.git"
+    },
+    "build-depends" : [ ],
+    "provides" : {
+      "Audio::Hydrogen::Pattern" : "lib/Audio/Hydrogen/Pattern.pm",
+      "Audio::Hydrogen::Drumkit" : "lib/Audio/Hydrogen/Drumkit.pm",
+      "Audio::Hydrogen" : "lib/Audio/Hydrogen.pm",
+      "Audio::Hydrogen::Song" : "lib/Audio/Hydrogen/Song.pm",
+      "Audio::Hydrogen::Instrument" : "lib/Audio/Hydrogen/Instrument.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "XML::Class"
+    ],
+    "license" : "perl",
+    "tags" : [
+      "audio",
+      "drumkit",
+      "xml"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Work with Hydrogen songs and drumkits",
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
