@@ -10197,5 +10197,20 @@
     "authors" : [
       "okaoka"
     ]
+  },
+  {
+    "name" : "RPi::GpioDirect",
+    "perl" : 6,
+    "source-url" : "https://github.com/donaldh/Perl6-RPi-GpioDirect",
+    "provides" : {
+      "RPi::GpioDirect" : "lib/RPi/GpioDirect.pm"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "RPi::GpioDirect - Access the Raspberry Pi GPIO",
+    "version" : "0.1.0",
+    "authors" : "Donald Hunter"
   }
 ]
