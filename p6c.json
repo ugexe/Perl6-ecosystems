@@ -10201,13 +10201,12 @@
   {
     "name" : "RPi::GpioDirect",
     "perl" : 6,
-    "source-url" : "https://github.com/donaldh/Perl6-RPi-GpioDirect",
+    "source-url" : "git://github.com/donaldh/Perl6-RPi-GpioDirect.git",
     "provides" : {
       "RPi::GpioDirect" : "lib/RPi/GpioDirect.pm"
     },
     "test-depends" : [
-      "Test",
-      "Test::META"
+      "Test"
     ],
     "description" : "RPi::GpioDirect - Access the Raspberry Pi GPIO",
     "version" : "0.1.0",
