@@ -3696,7 +3696,8 @@
       "Shell::Command" : "lib/Shell/Command.pm"
     },
     "depends" : [
-      "File::Find"
+      "File::Find",
+      "File::Which"
     ],
     "test-depends" : [
       "Test"
