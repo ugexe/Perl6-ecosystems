@@ -2993,7 +2993,9 @@
     "provides" : {
       "LibZip" : "lib/LibZip.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "NativeHelpers::Blob"
+    ],
     "description" : "Perl 6 bindings for libzip",
     "version" : "*"
   },
@@ -9883,7 +9885,7 @@
       "Test"
     ],
     "description" : "NativeCall utilities for work with Blob and CArray",
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "authors" : "Salvador Ortiz <sortiz@cpan.com>"
   },
   {
