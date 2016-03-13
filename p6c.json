@@ -6123,6 +6123,45 @@
     "version" : "0.8"
   },
   {
+    "name" : "Audio::Encode::LameMP3",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/Audio-Encode-LameMP3.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Audio-Encode-LameMP3.git"
+    },
+    "build-depends" : [
+      "panda",
+      "LibraryCheck",
+      "AccessorFacade"
+    ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "Audio::Encode::LameMP3" : "lib/Audio/Encode/LameMP3.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "AccessorFacade",
+      "NativeHelpers::Array"
+    ],
+    "description" : "Encode PCM Audio data to MP3 in Perl 6 using a binding to liblame",
+    "test-depends" : [
+      "Test::META",
+      "Audio::Taglib::Simple",
+      "Audio::Sndfile"
+    ],
+    "tags" : [
+      "audio",
+      "codec",
+      "encode",
+      "mpeg",
+      "mp3"
+    ],
+    "version" : "0.0.9",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
     "name" : "Avro",
     "source-url" : "git://github.com/sylvarant/Avro.git",
     "perl" : "6.*",
@@ -10253,6 +10292,23 @@
     "version" : "0.0.1",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "Algorithm::MinMaxHeap",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/okaoka/p6-Algorithm-MinMaxHeap.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Algorithm::MinMaxHeap" : "lib/Algorithm/MinMaxHeap.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "double ended priority queue",
+    "version" : "*",
+    "authors" : [
+      "okaoka"
     ]
   }
 ]
