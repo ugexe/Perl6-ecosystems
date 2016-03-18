@@ -2890,6 +2890,10 @@
   {
     "name" : "Selenium::WebDriver",
     "source-url" : "git://github.com/azawawi/perl6-selenium-webdriver.git",
+    "resources" : [
+      "firefox_extension/prefs.json",
+      "firefox_extension/webdriver.xpi"
+    ],
     "provides" : {
       "Selenium::WebDriver" : "lib/Selenium/WebDriver.pm6"
     },
@@ -2897,13 +2901,12 @@
       "File::Temp",
       "File::Which",
       "File::Zip",
-      "Find::Bundled",
       "HTTP::UserAgent",
       "JSON::Tiny",
       "MIME::Base64",
       "URI::Encode"
     ],
-    "description" : "Perl 6 bindings for Selenium WebDriver",
+    "description" : "Perl 6 Bindings for Selenium WebDriver",
     "version" : "*"
   },
   {
