@@ -2343,7 +2343,7 @@
       "Data::Dump"
     ],
     "description" : "Database connectivity for Perl 6",
-    "version" : "0.1.4"
+    "version" : "0.1.5"
   },
   {
     "name" : "Date::WorkdayCalendar",
@@ -2815,6 +2815,7 @@
     "name" : "Net::Curl",
     "source-url" : "git://github.com/azawawi/perl6-net-curl.git",
     "provides" : {
+      "Net::Curl::NativeCall" : "lib/Net/Curl/NativeCall.pm6",
       "Net::Curl" : "lib/Net/Curl.pm6",
       "Net::Curl::Easy" : "lib/Net/Curl/Easy.pm6"
     },
@@ -3364,7 +3365,7 @@
       "JSON::Fast"
     ],
     "description" : "Perl 6 core CSS grammars",
-    "version" : "0.02.2"
+    "version" : "0.02.3"
   },
   {
     "name" : "CSS::Module",
@@ -3730,7 +3731,7 @@
       "JSON::Unmarshal" : "lib/JSON/Unmarshal.pm"
     },
     "depends" : [
-      "JSON::Tiny",
+      "JSON::Fast",
       "JSON::Name"
     ],
     "description" : "Turn JSON into objects",
@@ -4160,7 +4161,7 @@
   {
     "name" : "CSS::Specification",
     "source-url" : "git://github.com/p6-css/perl6-CSS-Specification.git",
-    "perl" : "v6",
+    "perl" : "6.c",
     "provides" : {
       "CSS::Specification::Terms" : "lib/CSS/Specification/Terms.pm",
       "CSS::Specification::Actions" : "lib/CSS/Specification/Actions.pm",
@@ -7233,17 +7234,6 @@
     ]
   },
   {
-    "name" : "Encoding::Huffman::PP6",
-    "source-url" : "git://github.com/tony-o/perl6-encoding-huffman-pp6.git",
-    "provides" : {
-      "Encoding::Huffman::PP6" : "lib/Encoding/Huffman/PP6.pm6"
-    },
-    "auth" : "github:tony-o",
-    "depends" : [ ],
-    "description" : "Huffman Encoding with pure perl6",
-    "version" : "0.0.1"
-  },
-  {
     "name" : "Gumbo",
     "source-url" : "git://github.com/Skarsnik/perl6-gumbo.git",
     "author" : "Sylvain Colinet",
@@ -8577,6 +8567,7 @@
     "author" : "Sylvain 'Skarsnik' Colinet <scolinet@gmail.com>",
     "provides" : {
       "gptrixie" : "bin/gptrixie",
+      "GPT::FileGenerator" : "lib/GPT/FileGenerator.pm6",
       "GPT::DumbGenerator" : "lib/GPT/DumbGenerator.pm6",
       "GPT::Class" : "lib/GPT/Class.pm6"
     },
@@ -9696,12 +9687,13 @@
   {
     "name" : "Term::Choose",
     "perl" : "6.c",
-    "source-url" : "https://github.com/kuerbis/Term-Choose-p6",
+    "source-url" : "git://github.com/kuerbis/Term-Choose-p6.git",
     "build-depends" : [ ],
     "resources" : [ ],
     "provides" : {
       "Term::Choose" : "lib/Term/Choose.pm6",
-      "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
+      "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6",
+      "Term::Choose::NCurses" : "lib/Term/Choose/NCurses.pm6"
     },
     "depends" : [
       "NCurses",
@@ -9926,7 +9918,7 @@
       "Test"
     ],
     "description" : "NativeCall utilities for work with Blob and CArray",
-    "version" : "0.1.3",
+    "version" : "0.1.4",
     "authors" : "Salvador Ortiz <sortiz@cpan.com>"
   },
   {
@@ -10311,6 +10303,83 @@
     "version" : "0.01",
     "authors" : [
       "okaoka"
+    ]
+  },
+  {
+    "name" : "Audio::PortAudio",
+    "resource" : { },
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/Audio-PortAudio.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Audio-PortAudio.git"
+    },
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "Audio::PortAudio" : "lib/Audio/PortAudio.pm"
+    },
+    "depends" : [ ],
+    "description" : "Access to audio input and output devices",
+    "license" : "perl",
+    "tags" : [
+      "audio",
+      "portaudio",
+      "input",
+      "output"
+    ],
+    "test-depends" : [
+      "LibraryCheck"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "Term::Choose::Util",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/kuerbis/Term-Choose-Util-p6.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Term::Choose::Util" : "lib/Term/Choose/Util.pm6"
+    },
+    "depends" : [
+      "Term::Choose",
+      "Term::Choose::NCurses",
+      "Term::Choose::LineFold"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "CLI related functions.",
+    "version" : "*",
+    "authors" : [
+      "kuerbis"
+    ]
+  },
+  {
+    "name" : "Term::TablePrint",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/kuerbis/Term-TablePrint-p6.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Term::TablePrint" : "lib/Term/TablePrint.pm6"
+    },
+    "depends" : [
+      "Term::Choose",
+      "Term::Choose::NCurses",
+      "Term::Choose::LineFold",
+      "Term::Choose::Util"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Print a table to the terminal and browse it interactively.",
+    "version" : "*",
+    "authors" : [
+      "kuerbis"
     ]
   }
 ]
