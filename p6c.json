@@ -10048,7 +10048,7 @@
   {
     "name" : "Algorithm::ZobristHashing",
     "perl" : "6.c",
-    "source-url" : "git://github.com/okaoka/p6-Algorithm-ZobristHashing.git",
+    "source-url" : "git://github.com/titsuki/p6-Algorithm-ZobristHashing.git",
     "build-depends" : [ ],
     "resources" : [ ],
     "provides" : {
@@ -10057,9 +10057,9 @@
     "depends" : [ ],
     "test-depends" : [ ],
     "description" : "a hash function for board games",
-    "version" : "0.01",
+    "version" : "0.02",
     "authors" : [
-      "okaoka"
+      "titsuki"
     ]
   },
   {
@@ -10104,7 +10104,7 @@
   {
     "name" : "Algorithm::TernarySearchTree",
     "perl" : "6.c",
-    "source-url" : "git://github.com/okaoka/p6-Algorithm-TernarySearchTree.git",
+    "source-url" : "git://github.com/titsuki/p6-Algorithm-TernarySearchTree.git",
     "build-depends" : [ ],
     "resources" : [ ],
     "provides" : {
@@ -10114,9 +10114,9 @@
     "depends" : [ ],
     "test-depends" : [ ],
     "description" : "the algorithm which blends trie and binary search tree",
-    "version" : "0.02",
+    "version" : "0.03",
     "authors" : [
-      "okaoka"
+      "titsuki"
     ]
   },
   {
@@ -10219,7 +10219,7 @@
   {
     "name" : "Algorithm::KdTree",
     "perl" : "6.c",
-    "source-url" : "git://github.com/okaoka/p6-Algorithm-KdTree.git",
+    "source-url" : "git://github.com/titsuki/p6-Algorithm-KdTree.git",
     "build-depends" : [ ],
     "resources" : [
       "libkdtree.so",
@@ -10236,9 +10236,9 @@
     ],
     "test-depends" : [ ],
     "description" : "a perl6 binding for C implementation of the Kd-Tree Algorithm (https://github.com/jtsiomb/kdtree)",
-    "version" : "*",
+    "version" : "0.01",
     "authors" : [
-      "okaoka"
+      "titsuki"
     ]
   },
   {
