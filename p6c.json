@@ -453,6 +453,25 @@
     "version" : "*"
   },
   {
+    "name" : "Math::PascalTriangle",
+    "source-url" : "git://github.com/FCO/Math-PascalTriangle.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "Math::PascalTriangle" : "lib/Math/PascalTriangle.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Simple Pascal's Triangle",
+    "version" : "0.1.0",
+    "authors" : [
+      "Fernando Corr\u00eaa de Oliveira"
+    ]
+  },
+  {
     "name" : "BreakDancer",
     "source-url" : "git://github.com/sergot/BreakDancer.git",
     "build-depends" : [
