@@ -2884,7 +2884,11 @@
   {
     "name" : "File::Which",
     "source-url" : "git://github.com/azawawi/perl6-file-which.git",
+    "perl" : "6.c",
     "provides" : {
+      "File::Which::UNIX" : "lib/File/Which/Unix.pm6",
+      "File::Which::MacOSX" : "lib/File/Which/MacOSX.pm6",
+      "File::Which::Win32" : "lib/File/Which/Win32.pm6",
       "File::Which" : "lib/File/Which.pm6"
     },
     "depends" : [ ],
@@ -7257,6 +7261,17 @@
     ]
   },
   {
+    "name" : "Encoding::Huffman::PP6",
+    "source-url" : "git://github.com/tony-o/perl6-encoding-huffman-pp6.git",
+    "provides" : {
+      "Encoding::Huffman::PP6" : "lib/Encoding/Huffman/PP6.pm6"
+    },
+    "auth" : "github:tony-o",
+    "depends" : [ ],
+    "description" : "Huffman Encoding with pure perl6",
+    "version" : "0.0.2"
+  },
+  {
     "name" : "Gumbo",
     "source-url" : "git://github.com/Skarsnik/perl6-gumbo.git",
     "author" : "Sylvain Colinet",
@@ -9925,6 +9940,7 @@
     "build-depends" : [ ],
     "provides" : {
       "MoarVM::Guts::REPRs" : "lib/MoarVM/Guts/REPRs.pm6",
+      "NativeHelpers::CStruct" : "lib/NativeHelpers/CStruct.pm6",
       "NativeHelpers::Blob" : "lib/NativeHelpers/Blob.pm6"
     },
     "auth" : "github:salortiz",
@@ -9941,7 +9957,7 @@
       "Test"
     ],
     "description" : "NativeCall utilities for work with Blob and CArray",
-    "version" : "0.1.4",
+    "version" : "0.1.5",
     "authors" : "Salvador Ortiz <sortiz@cpan.com>"
   },
   {
@@ -10318,12 +10334,14 @@
     "build-depends" : [ ],
     "resources" : [ ],
     "provides" : {
-      "Algorithm::MinMaxHeap" : "lib/Algorithm/MinMaxHeap.pm6"
+      "Algorithm::MinMaxHeap::Comparable" : "lib/Algorithm/MinMaxHeap/Comparable.pm6",
+      "Algorithm::MinMaxHeap" : "lib/Algorithm/MinMaxHeap.pm6",
+      "Algorithm::MinMaxHeap::CmpOperator" : "lib/Algorithm/MinMaxHeap/CmpOperator.pm6"
     },
     "depends" : [ ],
     "test-depends" : [ ],
     "description" : "double ended priority queue",
-    "version" : "0.02",
+    "version" : "0.09",
     "authors" : [
       "titsuki"
     ]
@@ -10453,6 +10471,76 @@
     "version" : "0.0.3",
     "authors" : [
       "KM Wallio"
+    ]
+  },
+  {
+    "name" : "Algorithm::SetUnion",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/titsuki/p6-Algorithm-SetUnion.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Algorithm::SetUnion::Node" : "lib/Algorithm/SetUnion/Node.pm6",
+      "Algorithm::SetUnion" : "lib/Algorithm/SetUnion.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "a perl6 implementation for solving the disjoint set union problem (a.k.a. Union-Find Tree)",
+    "version" : "*",
+    "authors" : [
+      "titsuki"
+    ]
+  },
+  {
+    "name" : "Audio::PortMIDI",
+    "resource" : { },
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Audio-PortMIDI.git"
+    },
+    "source-url" : "git://github.com/jonathanstowe/Audio-PortMIDI.git",
+    "perl" : "6.c",
+    "build-depends" : [ ],
+    "provides" : {
+      "Audio::PortMIDI" : "lib/Audio/PortMIDI.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "description" : "Perl6 MIDI access using the portmidi library",
+    "test-depends" : [
+      "LibraryCheck"
+    ],
+    "tags" : [
+      "MIDI",
+      "audio",
+      "music",
+      "sequencer"
+    ],
+    "license" : "perl",
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "Algorithm::Kruskal",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/titsuki/p6-Algorithm-Kruskal.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Algorithm::Kruskal" : "lib/Algorithm/Kruskal.pm6"
+    },
+    "depends" : [
+      "Algorithm::SetUnion",
+      "Algorithm::MinMaxHeap",
+      "Algorithm::MinMaxHeap::Comparable"
+    ],
+    "test-depends" : [ ],
+    "description" : "a perl6 implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length",
+    "version" : "*",
+    "authors" : [
+      "titsuki"
     ]
   }
 ]
