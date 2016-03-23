@@ -10556,5 +10556,33 @@
     "depends" : [ ],
     "description" : "Perl 6 binding to the 'Snowball compiler and stemming algorithms' http://snowballstem.org/",
     "version" : "0.3"
+  },
+  {
+    "name" : "flow",
+    "source-url" : "git://github.com/tony-o/perl6-flow.git",
+    "perl" : "6.c",
+    "support" : {
+      "bugtracker" : "https://github.com/tony-o/perl6-flow/issues"
+    },
+    "auth" : "github:tony-o",
+    "provides" : {
+      "Flow::Utils::Cursor" : "lib/Flow/Utils/Cursor.pm6",
+      "Flow::App" : "lib/Flow/App.pm6",
+      "Flow::Plugins::Interface" : "lib/Flow/Plugins/Interface.pm6",
+      "Flow::Roles" : "lib/Flow/Roles.pm6",
+      "Flow::Test" : "lib/Flow/Test.pm6",
+      "Flow::Plugins::TAP" : "lib/Flow/Plugins/TAP.pm6",
+      "Flow::Config" : "lib/Flow/Config.pm6",
+      "Flow" : "lib/Flow.pm6"
+    },
+    "depends" : [ ],
+    "description" : "a 'prove' replacement written entirely in the perl6 you know and love.",
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "v0.0.1",
+    "authors" : [
+      "Tony O'Dell"
+    ]
   }
 ]
