@@ -2886,7 +2886,7 @@
     "source-url" : "git://github.com/azawawi/perl6-file-which.git",
     "perl" : "6.c",
     "provides" : {
-      "File::Which::UNIX" : "lib/File/Which/Unix.pm6",
+      "File::Which::Unix" : "lib/File/Which/Unix.pm6",
       "File::Which::MacOSX" : "lib/File/Which/MacOSX.pm6",
       "File::Which::Win32" : "lib/File/Which/Win32.pm6",
       "File::Which" : "lib/File/Which.pm6"
@@ -6063,10 +6063,11 @@
       "Test"
     ],
     "tags" : [
-      "audio",
-      "utils"
+      "network",
+      "utils",
+      "test"
     ],
-    "version" : "0.0.3",
+    "version" : "0.0.4",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
@@ -10186,7 +10187,7 @@
     ],
     "meta6" : "0",
     "emulates" : { },
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "supersedes" : { },
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.com.uk>"
@@ -10542,5 +10543,18 @@
     "authors" : [
       "titsuki"
     ]
+  },
+  {
+    "name" : "Perl6 Snowball Binding",
+    "source-url" : "git://github.com/sufrostico/perl6-snowball.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "author" : "Aurelio Sanabria (Sufrostico) <sufrostico at gmail dot com>",
+    "provides" : {
+      "Lingua::Stem::Snowball" : "lib/Lingua/Stem/Snowball.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Perl 6 binding to the 'Snowball compiler and stemming algorithms' http://snowballstem.org/",
+    "version" : "0.3"
   }
 ]
