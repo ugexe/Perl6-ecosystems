@@ -10584,5 +10584,41 @@
     "authors" : [
       "Tony O'Dell"
     ]
+  },
+  {
+    "resource" : { },
+    "name" : "Audio::Icecast",
+    "perl" : "6.c",
+    "source-url" : "git@github.com:jonathanstowe/Audio-Icecast.git",
+    "support" : {
+      "source" : "git@github.com:jonathanstowe/Audio-Icecast.git"
+    },
+    "build-depends" : [ ],
+    "provides" : {
+      "Audio::Icecast" : "lib/Audio/Icecast.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "XML::Class",
+      "URI::Template",
+      "HTTP::UserAgent"
+    ],
+    "description" : "Administrative helpers for an icecast server",
+    "license" : "perl",
+    "test-depends" : [
+      "CheckSocket",
+      "Test"
+    ],
+    "tags" : [
+      "audio",
+      "util",
+      "icecast",
+      "admin"
+    ],
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
