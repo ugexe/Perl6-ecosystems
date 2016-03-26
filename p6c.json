@@ -10623,5 +10623,22 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "Lingua::EN::Stopwords",
+    "source-url" : "git://github.com/kmwallio/p6-Lingua-EN-Stopwords.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "Lingua::EN::Stopwords::Short" : "lib/Lingua/EN/Stopwords/Short.pm6",
+      "Lingua::EN::Stopwords::SQL" : "lib/Lingua/EN/Stopwords/SQL.pm6",
+      "Lingua::EN::Stopwords::Long" : "lib/Lingua/EN/Stopwords/Long.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Provides lists and functions for common English stop words.",
+    "version" : "0.0.1",
+    "authors" : [
+      "KM Wallio"
+    ]
   }
 ]
