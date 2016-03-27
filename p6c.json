@@ -10657,5 +10657,27 @@
     "authors" : [
       "KM Wallio"
     ]
+  },
+  {
+    "name" : "Docker::File",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jnthn/p6-docker-file.git",
+    "support" : {
+      "source" : "git://github.com/jnthn/p6-docker-file.git"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+    "provides" : {
+      "Docker::File" : "lib/Docker/File.pm6"
+    },
+    "auth" : "github:jnthn",
+    "depends" : [ ],
+    "description" : "Parsing and generation of Dockerfiles.",
+    "test-depends" : [ ],
+    "tags" : [
+      "docker",
+      "dockerfile"
+    ],
+    "version" : "1.0"
   }
 ]
