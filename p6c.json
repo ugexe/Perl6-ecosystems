@@ -10692,5 +10692,39 @@
       "dockerfile"
     ],
     "version" : "1.0"
+  },
+  {
+    "resource" : { },
+    "name" : "Lumberjack",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git@github.com:jonathanstowe/Lumberjack.git"
+    },
+    "source-url" : "git@github.com:jonathanstowe/Lumberjack.git",
+    "build-depends" : [ ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "Lumberjack" : "lib/Lumberjack.pm"
+    },
+    "depends" : [
+      "DateTime::Format"
+    ],
+    "tags" : [
+      "logger",
+      "log",
+      "logging",
+      "framework"
+    ],
+    "license" : "perl",
+    "test-depends" : [
+      "Test",
+      "IO::MiddleMan"
+    ],
+    "description" : "A simple logging framework.",
+    "version" : "v.0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
