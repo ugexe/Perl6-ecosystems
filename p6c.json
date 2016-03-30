@@ -10715,6 +10715,7 @@
       "Lumberjack" : "lib/Lumberjack.pm"
     },
     "depends" : [
+      "Staticish",
       "DateTime::Format"
     ],
     "tags" : [
@@ -10729,7 +10730,7 @@
       "IO::MiddleMan"
     ],
     "description" : "A simple logging framework.",
-    "version" : "v.0.0.1",
+    "version" : "0.0.2",
     "meta6" : "0",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
@@ -10760,7 +10761,7 @@
     ],
     "description" : "A Syslog dispatcher for the Lumberjack logger",
     "meta6" : "0",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
