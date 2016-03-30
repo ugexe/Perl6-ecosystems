@@ -10782,5 +10782,24 @@
     "authors" : [
       "titsuki"
     ]
+  },
+  {
+    "name" : "Text::Template",
+    "source-url" : "https://github.com/nkh/P6-Text-Template.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Text::Template" : "lib/Text/Template.pm"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META",
+      "IO::Capture::Simple"
+    ],
+    "description" : "Render text template with embedded variables and Perl6 code",
+    "version" : "1.0.8",
+    "authors" : [
+      "Nadim Khemir"
+    ]
   }
 ]
