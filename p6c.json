@@ -10765,5 +10765,22 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "Algorithm::Manacher",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/titsuki/p6-Algorithm-Manacher.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Algorithm::Manacher" : "lib/Algorithm/Manacher.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "a perl6 implementation of the extended Manacher's Algorithm for solving longest palindromic substring(i.e. palindrome) problem",
+    "version" : "*",
+    "authors" : [
+      "titsuki"
+    ]
   }
 ]
