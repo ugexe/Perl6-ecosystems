@@ -4819,8 +4819,10 @@
   },
   {
     "name" : "007",
-    "source-url" : "git://github.com/masak/007.git",
-    "author" : "github:masak",
+    "support" : {
+      "source" : "git://github.com/masak/007.git"
+    },
+    "perl" : "6.c",
     "provides" : {
       "_007::Runtime" : "lib/_007/Runtime.pm",
       "_007::Linter" : "lib/_007/Linter.pm",
@@ -4837,7 +4839,10 @@
     },
     "depends" : [ ],
     "description" : "Small experimental language with a license to macro",
-    "version" : "*"
+    "version" : "*",
+    "authors" : [
+      "github:masak"
+    ]
   },
   {
     "name" : "C::Parser",
@@ -10820,7 +10825,7 @@
   {
     "name" : "Time::Crontab",
     "source-url" : "https://github.com/ufobat/p6-time-crontab.git",
-    "perl" : "6",
+    "perl" : "6.c",
     "provides" : {
       "Time::Crontab::Set" : "lib/Time/Crontab/Set.pm6",
       "Time::Crontab::Actions" : "lib/Time/Crontab/Actions.pm6",
