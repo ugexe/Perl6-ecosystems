@@ -10816,5 +10816,24 @@
     "authors" : [
       "Joshua Yeshouroun"
     ]
+  },
+  {
+    "name" : "Time::Crontab",
+    "source-url" : "https://github.com/ufobat/p6-time-crontab.git",
+    "perl" : "6",
+    "provides" : {
+      "Time::Crontab::Set" : "lib/Time/Crontab/Set.pm6",
+      "Time::Crontab::Actions" : "lib/Time/Crontab/Actions.pm6",
+      "Time::Crontab" : "lib/Time/Crontab.pm6",
+      "Time::Crontab::Grammar" : "lib/Time/Crontab/Grammar.pm6"
+    },
+    "depends" : [
+      "Test::META"
+    ],
+    "description" : "Time::Crontab for Perl6 - Parses Crontab Specifications",
+    "version" : "0.0.1",
+    "authors" : [
+      "Martin Barth <martin@senfdax.de>"
+    ]
   }
 ]
