@@ -10839,5 +10839,25 @@
     "authors" : [
       "Martin Barth <martin@senfdax.de>"
     ]
+  },
+  {
+    "name" : "JSON::WebToken",
+    "source-url" : "git://github.com/jamesalbert/JSON-WebToken.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "JSON::WebToken" : "lib/JSON/WebToken.pm6"
+    },
+    "depends" : [
+      "JSON::Fast",
+      "MIME::Base64",
+      "Digest::SHA",
+      "Digest::HMAC"
+    ],
+    "description" : "JSON::WebToken is a JSON Web Token (JWT) implementation for Perl6",
+    "version" : "0.0.1",
+    "authors" : [
+      "James Albert"
+    ]
   }
 ]
