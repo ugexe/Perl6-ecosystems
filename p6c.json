@@ -10885,5 +10885,30 @@
     "authors" : [
       "kuerbis"
     ]
+  },
+  {
+    "name" : "Geo::Coder::OpenCage",
+    "source-url" : "git://github.com/tadzik/Geo-Coder-OpenCage.git",
+    "support" : {
+      "source" : "git://github.com/tadzik/Geo-Coder-OpenCage.git",
+      "bugtracker" : "https://github.com/tadzik/Geo-Coder-OpenCage/issues"
+    },
+    "provides" : {
+      "Geo::Coder::OpenCage::Response" : "lib/Geo/Coder/OpenCage/Response.pm",
+      "Geo::Coder::OpenCage" : "lib/Geo/Coder/OpenCage.pm"
+    },
+    "depends" : [
+      "HTTP::UserAgent",
+      "JSON::Unmarshal",
+      "URI"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Client library for the OpenCage Geocoder",
+    "version" : "1.0",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz"
+    ]
   }
 ]
