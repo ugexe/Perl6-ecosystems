@@ -10846,7 +10846,12 @@
     "perl" : "6.*",
     "resources" : [ ],
     "provides" : {
-      "JSON::WebToken" : "lib/JSON/WebToken.pm6"
+      "JSON::WebToken::Crypt::RSA" : "lib/JSON/WebToken/Crypt/RSA.pm6",
+      "JSON::WebToken::Exception" : "lib/JSON/WebToken/Exception.pm6",
+      "JSON::WebToken::Crypt::HMAC" : "lib/JSON/WebToken/Crypt/HMAC.pm6",
+      "JSON::WebToken" : "lib/JSON/WebToken.pm6",
+      "JSON::WebToken::Constants" : "lib/JSON/WebToken/Constants.pm6",
+      "JSON::WebToken::Crypt" : "lib/JSON/WebToken/Crypt.pm6"
     },
     "depends" : [
       "JSON::Fast",
