@@ -7445,6 +7445,37 @@
     "version" : "0.1"
   },
   {
+    "name" : "JSON::Marshal",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/JSON-Marshal.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/JSON-Marshal.git"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "JSON::Marshal" : "lib/JSON/Marshal.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "JSON::Tiny",
+      "JSON::Name"
+    ],
+    "description" : "Simple serialisation of objects to JSON",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "object",
+      "serialisation",
+      "JSON"
+    ],
+    "version" : "0.0.7",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
     "name" : "Crust::Middleware::Session",
     "perl" : "v6",
     "source-url" : "git://github.com/lestrrat/p6-Crust-Middleware-Session.git",
@@ -7503,7 +7534,7 @@
     "test-depends" : [
       "Test"
     ],
-    "version" : "0.0.5",
+    "version" : "0.0.6",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
