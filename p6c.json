@@ -10859,5 +10859,27 @@
     "authors" : [
       "James Albert"
     ]
+  },
+  {
+    "name" : "Term::Form",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/kuerbis/Term-Form-p6.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Term::Form" : "lib/Term/Form.pm6"
+    },
+    "depends" : [
+      "Term::Choose::NCurses",
+      "Term::Choose::LineFold"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Read lines from STDIN.",
+    "version" : "*",
+    "authors" : [
+      "kuerbis"
+    ]
   }
 ]
