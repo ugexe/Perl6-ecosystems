@@ -1,1 +1,56 @@
-[ ]
+[
+  {
+    "name" : "Task::Galaxy",
+    "source-url" : "git://gitlabs.com/stmuk/p6-task-galaxy.git",
+    "perl" : "6.c",
+    "provides" : { },
+    "depends" : [
+      "007",
+      "Bailador",
+      "BioInfo",
+      "BioPerl6",
+      "CSV::Parser",
+      "CompUnit::Util",
+      "Crust",
+      "DBIish",
+      "Debugger::UI::CommandLine",
+      "Digest::MD5",
+      "Email::Simple",
+      "File::Find",
+      "Grammar::BNF",
+      "Grammar::Debugger",
+      "Grammar::Profiler::Simple",
+      "HTTP::Easy",
+      "HTTP::Status",
+      "HTTP::UserAgent",
+      "JSON::RPC",
+      "JSON::Tiny",
+      "LWP::Simple",
+      "LibraryMake",
+      "Linenoise",
+      "MIME::Base64",
+      "P6TCI",
+      "PSGI",
+      "Pod::To::HTML",
+      "SVG",
+      "SVG::Plot",
+      "Shell::Command",
+      "Template6",
+      "Template::Mojo",
+      "Terminal::ANSIColor",
+      "Test::Mock",
+      "URI",
+      "XML",
+      "XML::Writer",
+      "p6doc",
+      "panda",
+      "ufo",
+      "Zef"
+    ],
+    "description" : "Another meta-package for modules (with tests), fatter than Task::Star and more test orientated.",
+    "version" : "0.1",
+    "authors" : [
+      "Steve Mynott <steve.mynott@gmail.com>"
+    ]
+  }
+]
