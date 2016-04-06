@@ -10971,5 +10971,35 @@
     "depends" : [ ],
     "description" : "*",
     "version" : "*"
+  },
+  {
+    "name" : "Twitter",
+    "source-url" : "git://github.com/zoffixznet/perl6-Twitter.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Twitter::OAuth" : "lib/Twitter/OAuth.pm6",
+      "Twitter::UA" : "lib/Twitter/UA.pm6",
+      "Twitter::API::Statuses" : "lib/Twitter/API/Statuses.pm6",
+      "Twitter" : "lib/Twitter.pm6",
+      "Twitter::API" : "lib/Twitter/API.pm6"
+    },
+    "depends" : [
+      "HTTP::Tinyish",
+      "JSON::Fast",
+      "URI::Escape",
+      "Base64",
+      "Digest::SHA",
+      "Digest::HMAC",
+      "URI",
+      "URI::Escape"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Twitter API",
+    "version" : "0.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
