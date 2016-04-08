@@ -11002,5 +11002,28 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "NASA",
+    "source-url" : "git://github.com/zoffixznet/perl6-NASA.git",
+    "perl" : "6.c",
+    "provides" : {
+      "NASA::APOD" : "lib/NASA/APOD.pm6",
+      "NASA::UA" : "lib/NASA/UA.pm6",
+      "NASA" : "lib/NASA.pm6"
+    },
+    "depends" : [
+      "HTTP::Tinyish",
+      "JSON::Fast",
+      "URI::Escape"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "use NASA's APIs via Perl 6",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
