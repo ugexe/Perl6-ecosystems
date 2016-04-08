@@ -4364,13 +4364,11 @@
     "source-url" : "git://github.com/grondilu/clifford.git",
     "author" : "Lucien Grondin",
     "provides" : {
-      "Clifford" : "lib/Clifford.pm6",
-      "MultiVector" : "lib/MultiVector.pm6",
-      "Vector" : "lib/Vector.pm6"
+      "Clifford" : "lib/Clifford.pm6"
     },
     "depends" : [ ],
     "description" : "Basic Geometric Algebra.",
-    "version" : "2.0.4"
+    "version" : "3.0.0"
   },
   {
     "name" : "TAP::Harness",
