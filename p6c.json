@@ -11049,5 +11049,19 @@
     "authors" : [
       "Jake Russo <madcap.russo+rabble@gmail.com>"
     ]
+  },
+  {
+    "name" : "Crypt::Random",
+    "source-url" : "git://github.com/skinkade/crypt-random.git",
+    "author" : "Shawn Kinkade",
+    "provides" : {
+      "Crypt::Random" : "lib/Crypt/Random.pm6",
+      "Crypt::Random::Extra" : "lib/Crypt/Random/Extra.pm6"
+    },
+    "depends" : [
+      "if"
+    ],
+    "description" : "Random numbers and bytes emulating arc4random",
+    "version" : "0.1.0"
   }
 ]
