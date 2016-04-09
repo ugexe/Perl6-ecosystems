@@ -11025,5 +11025,27 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Rabble",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/madcapjake/rabble.git",
+    "provides" : {
+      "Rabble::Verbs::StackOps" : "lib/Rabble/Verbs/StackOps.pm6",
+      "Rabble::Math::Arithmetic" : "lib/Rabble/Math/Arithmetic",
+      "Rabble::Verbs::IO" : "lib/Rabble/Verbs/IO.pm6",
+      "Rabble::Verbs::Comparators" : "lib/Rabble/Verbs/Comparators.pm6",
+      "Rabble::Reader" : "lib/Rabble/Reader.pm6",
+      "Rabble::Lexicon" : "lib/Rabble/Lexicon.pm6",
+      "Rabble::Verbs::Shufflers" : "lib/Rabble/Verbs/Shufflers.pm6",
+      "Rabble::Compiler" : "lib/Rabble/Compiler.pm6",
+      "rabble" : "bin/rabble",
+      "Rabble" : "lib/Rabble.pm6"
+    },
+    "description" : "A Forth written in Perl 6",
+    "version" : "0.3.1",
+    "authors" : [
+      "Jake Russo <madcap.russo+rabble@gmail.com>"
+    ]
   }
 ]
