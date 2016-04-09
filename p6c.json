@@ -10530,7 +10530,9 @@
       "Audio::PortMIDI" : "lib/Audio/PortMIDI.pm"
     },
     "auth" : "github:jonathanstowe",
-    "depends" : [ ],
+    "depends" : [
+      "Util::Bitfield"
+    ],
     "description" : "Perl6 MIDI access using the portmidi library",
     "test-depends" : [
       "LibraryCheck"
@@ -10542,7 +10544,7 @@
       "sequencer"
     ],
     "license" : "perl",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "meta6" : "0",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
