@@ -11122,5 +11122,21 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "deredere",
+    "source-url" : "git://github.com/Altai-man/deredere.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "author" : "github:Altai-man",
+    "provides" : {
+      "deredere" : "lib/deredere.pm6"
+    },
+    "depends" : [
+      "HTTP::UserAgent",
+      "Gumbo"
+    ],
+    "description" : "Simple scraping framework",
+    "version" : "0.1.0"
   }
 ]
