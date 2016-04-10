@@ -4052,6 +4052,9 @@
   {
     "name" : "Crypt::Bcrypt",
     "source-url" : "git://github.com/skinkade/p6-Crypt-Bcrypt.git",
+    "resources" : [
+      "crypt_blowfish.so"
+    ],
     "build-depends" : [
       "LibraryMake"
     ],
