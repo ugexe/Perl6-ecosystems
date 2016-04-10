@@ -11087,5 +11087,31 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "EuclideanRhythm",
+    "support" : {
+      "source" : "git@github.com:jonathanstowe/EuclideanRhythm.git"
+    },
+    "perl" : "6.c",
+    "source-url" : "git@github.com:jonathanstowe/EuclideanRhythm.git",
+    "build-depends" : [ ],
+    "provides" : {
+      "EuclideanRhythm" : "lib/EuclideanRhythm.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "license" : "perl",
+    "tags" : [
+      "rhythm",
+      "algorithm",
+      "euclid"
+    ],
+    "description" : "create rhythmic patterns based on the Euclidean algorithm",
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
