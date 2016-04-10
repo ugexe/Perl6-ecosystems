@@ -11057,7 +11057,9 @@
     "author" : "Shawn Kinkade",
     "provides" : {
       "Crypt::Random" : "lib/Crypt/Random.pm6",
-      "Crypt::Random::Extra" : "lib/Crypt/Random/Extra.pm6"
+      "Crypt::Random::Nix" : "lib/Crypt/Random/Nix.pm6",
+      "Crypt::Random::Extra" : "lib/Crypt/Random/Extra.pm6",
+      "Crypt::Random::Win" : "lib/Crypt/Random/Win.pm6"
     },
     "depends" : [
       "if"
