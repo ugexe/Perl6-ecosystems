@@ -11064,5 +11064,26 @@
     ],
     "description" : "Random numbers and bytes emulating arc4random",
     "version" : "0.1.0"
+  },
+  {
+    "name" : "GlotIO",
+    "source-url" : "git://github.com/zoffixznet/perl6-GlotIO.git",
+    "perl" : "6.c",
+    "provides" : {
+      "GlotIO" : "lib/GlotIO.pm6"
+    },
+    "depends" : [
+      "HTTP::Tinyish",
+      "JSON::Fast",
+      "URI::Escape"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "use glot.io API: pastebin allowing execution of code",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
