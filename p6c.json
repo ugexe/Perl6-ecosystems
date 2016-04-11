@@ -1721,8 +1721,12 @@
       "bugtracker" : "https://github.com/tadzik/Bailador/issues"
     },
     "provides" : {
+      "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
       "Bailador::Context" : "lib/Bailador/Context.pm",
+      "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
       "Bailador" : "lib/Bailador.pm",
+      "Bailador::Sessions::Config" : "lib/Bailador/Sessions/Config.pm",
+      "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
       "Bailador::Template" : "lib/Bailador/Template.pm",
       "Bailador::Request" : "lib/Bailador/Request.pm",
       "Bailador::App" : "lib/Bailador/App.pm",
@@ -1735,7 +1739,9 @@
       "HTTP::Easy",
       "Template::Mojo",
       "Template::Mustache",
-      "URI"
+      "URI",
+      "Digest::HMAC",
+      "Digest"
     ],
     "description" : "A bare-bones Dancer port",
     "version" : "*",
@@ -1752,7 +1758,8 @@
       "Sterling Hanenkamp",
       "Tobias Leich",
       "ugexe",
-      "vendethiel"
+      "vendethiel",
+      "Martin Barth (ufobat) "
     ]
   },
   {
