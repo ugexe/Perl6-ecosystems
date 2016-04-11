@@ -2805,10 +2805,13 @@
   {
     "name" : "Browser::Open",
     "source-url" : "git://github.com/azawawi/perl6-browser-open.git",
+    "perl" : "6.c",
     "provides" : {
       "Browser::Open" : "lib/Browser/Open.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "File::Which"
+    ],
     "description" : "Open a given URL in a browser",
     "version" : "*"
   },
