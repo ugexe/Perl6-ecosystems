@@ -11148,5 +11148,53 @@
     ],
     "description" : "Simple scraping framework",
     "version" : "0.1.0"
+  },
+  {
+    "name" : "Lumberjack::Application",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git@github.com:jonathanstowe/Lumberjack-Application.git"
+    },
+    "source-url" : "git@github.com:jonathanstowe/Lumberjack-Application.git",
+    "resources" : [
+      "templates/index.tt"
+    ],
+    "build-depends" : [ ],
+    "provides" : {
+      "Lumberjack::Dispatcher::Supply" : "lib/Lumberjack/Dispatcher/Supply.pm",
+      "Lumberjack::Application::PSGI" : "lib/Lumberjack/Application/PSGI.pm",
+      "Lumberjack::Dispatcher::Proxy" : "lib/Lumberjack/Dispatcher/Proxy.pm",
+      "Lumberjack::Template::Provider" : "lib/Lumberjack/Template/Provider.pm",
+      "Lumberjack::Application" : "lib/Lumberjack/Application.pm",
+      "Lumberjack::Message::JSON" : "lib/Lumberjack/Message/JSON.pm",
+      "Lumberjack::Application::Index" : "lib/Lumberjack/Application/Index.pm",
+      "Lumberjack::Application::WebSocket" : "lib/Lumberjack/Application/WebSocket.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "Lumberjack",
+      "HTTP::UserAgent",
+      "HTTP::Server::Tiny",
+      "Crust",
+      "WebSocket",
+      "JSON::Class",
+      "Template6"
+    ],
+    "description" : "A web facility for the Lumberjack logging framework",
+    "test-depends" : [
+      "Test::Util::ServerPort"
+    ],
+    "tags" : [
+      "logging",
+      "lumberjack",
+      "websocket",
+      "p6sgi"
+    ],
+    "license" : "perl",
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
