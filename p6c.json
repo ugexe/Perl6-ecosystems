@@ -11210,5 +11210,27 @@
     "depends" : [ ],
     "description" : "Random numbers and bytes emulating arc4random",
     "version" : "1.0.0"
+  },
+  {
+    "name" : "IRC::Async",
+    "support" : {
+      "source" : "git://github.com/scovit/perl6-IRC-Async.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "IRC::Async" : "lib/IRC/Async.pm6"
+    },
+    "depends" : [
+      "IRC::Client",
+      "Readline"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "IRC client in the reactive paradigm",
+    "version" : "0.9",
+    "authors" : [
+      "Vittore F. Scolari"
+    ]
   }
 ]
