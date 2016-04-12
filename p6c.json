@@ -11196,5 +11196,16 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "List::Combinations",
+    "source-url" : "git://github.com/masterduke17/list-combinations.git",
+    "author" : "Daniel Green",
+    "provides" : {
+      "List::Combinations" : "lib/List/Combinations.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Random numbers and bytes emulating arc4random",
+    "version" : "1.0.0"
   }
 ]
