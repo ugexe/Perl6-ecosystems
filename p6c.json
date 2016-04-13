@@ -11232,5 +11232,41 @@
     "authors" : [
       "Vittore F. Scolari"
     ]
+  },
+  {
+    "name" : "Music::Helpers",
+    "resource" : { },
+    "perl" : "6",
+    "support" : {
+      "source" : "git://github.com/peschwa/p6-Music-Helpers.git"
+    },
+    "source-url" : "git://github.com/peschwa/p6-Music-Helpers.git",
+    "excludes" : { },
+    "build-depends" : [ ],
+    "provides" : {
+      "Music::Helpers" : "lib/Music/Helpers.pm"
+    },
+    "superseded-by" : { },
+    "auth" : null,
+    "depends" : [
+      "Audio::PortMIDI"
+    ],
+    "description" : "Abstractions for handling musical content",
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic",
+    "tags" : [
+      "Music",
+      "Midi"
+    ],
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "emulates" : { },
+    "production" : false,
+    "authors" : [
+      "Pepe Schwarz <peschwa@gmail.com>"
+    ],
+    "supersedes" : { }
   }
 ]
