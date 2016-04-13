@@ -3603,8 +3603,12 @@
   },
   {
     "name" : "File::HomeDir",
-    "source-url" : "git://github.com/azawawi/File-HomeDir.git",
+    "source-url" : "git://github.com/azawawi/perl6-file-homedir.git",
+    "perl" : "6.c",
     "provides" : {
+      "File::HomeDir::Unix" : "lib/File/HomeDir/Unix.pm6",
+      "File::HomeDir::MacOSX" : "lib/File/HomeDir/MacOSX.pm6",
+      "File::HomeDir::Win32" : "lib/File/HomeDir/Win32.pm6",
       "File::HomeDir" : "lib/File/HomeDir.pm6"
     },
     "depends" : [ ],
