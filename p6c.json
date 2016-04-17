@@ -11272,5 +11272,22 @@
       "Pepe Schwarz <peschwa@gmail.com>"
     ],
     "supersedes" : { }
+  },
+  {
+    "name" : "Subset::Helper",
+    "source-url" : "git://github.com/zoffixznet/perl6-Subset-Helper.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Subset::Helper" : "lib/Subset/Helper.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "create awesome subsets",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
