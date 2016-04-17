@@ -11290,5 +11290,23 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Crypt::Argon2",
+    "source-url" : "git://github.com/skinkade/p6-crypt-argon2.git",
+    "resources" : [
+      "libargon2"
+    ],
+    "build-depends" : [
+      "Crypt::Random",
+      "LibraryMake"
+    ],
+    "author" : "Shawn Kinkade",
+    "provides" : {
+      "Crypt::Argon2::Base" : "lib/Crypt/Argon2/Base.pm6",
+      "Crypt::Argon2" : "lib/Crypt/Argon2.pm6"
+    },
+    "description" : "Easy Argon2i password hashing",
+    "version" : "0.1.0"
   }
 ]
