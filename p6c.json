@@ -1726,6 +1726,7 @@
       "Bailador::Context" : "lib/Bailador/Context.pm",
       "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
       "Bailador" : "lib/Bailador.pm",
+      "Bailador::Routing" : "lib/Bailador/Route.pm",
       "Bailador::Sessions::Config" : "lib/Bailador/Sessions/Config.pm",
       "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
       "Bailador::Template" : "lib/Bailador/Template.pm",
@@ -1734,7 +1735,8 @@
       "Bailador::Template::Mustache" : "lib/Bailador/Template/Mustache.pm",
       "Bailador::Template::Mojo" : "lib/Bailador/Template/Mojo.pm",
       "Bailador::Test" : "lib/Bailador/Test.pm",
-      "Bailador::Response" : "lib/Bailador/Response.pm"
+      "Bailador::Response" : "lib/Bailador/Response.pm",
+      "Bailador::Route" : "lib/Bailador/Route.pm"
     },
     "depends" : [
       "HTTP::Easy",
