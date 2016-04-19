@@ -7503,7 +7503,7 @@
     },
     "auth" : "github:jonathanstowe",
     "depends" : [
-      "JSON::Tiny",
+      "JSON::Fast",
       "JSON::Name"
     ],
     "description" : "Simple serialisation of objects to JSON",
@@ -7515,7 +7515,7 @@
       "serialisation",
       "JSON"
     ],
-    "version" : "0.0.7",
+    "version" : "0.0.8",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
@@ -11325,6 +11325,21 @@
       "Crypt::Argon2" : "lib/Crypt/Argon2.pm6"
     },
     "description" : "Easy Argon2i password hashing",
+    "version" : "0.1.0"
+  },
+  {
+    "name" : "App::Whiff",
+    "source-url" : "git://github.com/Altai-man/perl6-app-whiff.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "author" : "github:Altai-man",
+    "provides" : {
+      "App::Whiff" : "lib/App/Whiff.pm6"
+    },
+    "depends" : [
+      "File::Which"
+    ],
+    "description" : "Port of perl whiff",
     "version" : "0.1.0"
   }
 ]
