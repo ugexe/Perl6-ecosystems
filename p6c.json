@@ -472,6 +472,22 @@
     ]
   },
   {
+    "name" : "TelegramBot",
+    "source-url" : "git@github.com:GildedHonour/TelegramBot.git",
+    "provides" : {
+      "TelegramBot" : "lib/Telegram.pm6"
+    },
+    "depends" : [
+      "HTTP::UserAgent",
+      "JSON::Tiny"
+    ],
+    "description" : "A genuine Perl 6 client for the Telegram's Bot API",
+    "version" : "0.1.0",
+    "authors" : [
+      "Alex Maslakov"
+    ]
+  },
+  {
     "name" : "BreakDancer",
     "source-url" : "git://github.com/sergot/BreakDancer.git",
     "build-depends" : [
