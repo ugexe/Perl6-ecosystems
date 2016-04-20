@@ -11343,5 +11343,25 @@
     ],
     "description" : "Port of perl whiff",
     "version" : "0.1.0"
+  },
+  {
+    "name" : "HTML::MyHTML",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/madcapjake/p6-myhtml.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "HTML::MyHTML::Raw" : "lib/HTML/MyHTML/Raw.pm6",
+      "HTML::MyHTML::Tag" : "lib/HTML/MyHTML/Tag.pm6",
+      "HTML::MyHTML::Encoding" : "lib/HTML/MyHTML/Encoding.pm6",
+      "HTML::MyHTML" : "lib/HTML/MyHTML.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "wrapper for MyHTML, a fast HTML parsing C library",
+    "version" : "0.2.0",
+    "authors" : [
+      "Jake Russo"
+    ]
   }
 ]
