@@ -11059,14 +11059,17 @@
     "source-url" : "git://github.com/zoffixznet/perl6-NASA.git",
     "perl" : "6.c",
     "provides" : {
+      "NASA::MarsRovers::Rover" : "lib/NASA/MarsRovers/Rover.pm6",
       "NASA::APOD" : "lib/NASA/APOD.pm6",
+      "NASA::MarsRovers" : "lib/NASA/MarsRovers.pm6",
       "NASA::UA" : "lib/NASA/UA.pm6",
       "NASA" : "lib/NASA.pm6"
     },
     "depends" : [
       "HTTP::Tinyish",
       "JSON::Fast",
-      "URI::Escape"
+      "URI::Escape",
+      "Subset::Helper"
     ],
     "test-depends" : [
       "Test"
