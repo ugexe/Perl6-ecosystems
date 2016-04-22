@@ -11366,5 +11366,33 @@
     "authors" : [
       "Jake Russo"
     ]
+  },
+  {
+    "name" : "Module::Toolkit",
+    "support" : {
+      "source" : "git://github.com/tadzik/Module-Toolkit.git",
+      "bugtracker" : "https://github.com/tadzik/Module-Toolkit/issues"
+    },
+    "source-url" : "git://github.com/tadzik/Module-Toolkit.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Module::Toolkit" : "lib/Module/Toolkit.pm",
+      "Module::Toolkit::Distribution" : "lib/Module/Toolkit/Distribution.pm",
+      "Module::Toolkit::Fetcher" : "lib/Module/Toolkit/Fetcher.pm",
+      "Module::Toolkit::Installer" : "lib/Module/Toolkit/Installer.pm",
+      "Module::Toolkit::Ecosystem" : "lib/Module/Toolkit/Ecosystem.pm"
+    },
+    "depends" : [
+      "File::Find",
+      "Shell::Command",
+      "JSON::Fast",
+      "File::Temp",
+      "TAP::Harness"
+    ],
+    "description" : "Module management tools. Comes with a tiny installer",
+    "version" : "0.0",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz"
+    ]
   }
 ]
