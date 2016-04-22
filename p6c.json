@@ -708,12 +708,10 @@
       "Web::Template::HTML" : "lib/Web/Template/HTML.pm6",
       "Web::Template" : "lib/Web/Template.pm6",
       "Web::Template::Template6" : "lib/Web/Template/Template6.pm6",
-      "Web::Template::TAL" : "lib/Web/Template/TAL.pm6",
       "Web::Template::Mojo" : "lib/Web/Template/Mojo.pm6"
     },
     "depends" : [
       "Template6",
-      "Flower",
       "Template::Mojo",
       "HTML::Template"
     ],
