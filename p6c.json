@@ -11384,11 +11384,10 @@
       "File::Find",
       "Shell::Command",
       "JSON::Fast",
-      "File::Temp",
       "TAP::Harness"
     ],
-    "description" : "Module management tools. Comes with a tiny installer",
-    "version" : "0.5",
+    "description" : "Module management tools",
+    "version" : "0.6",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz"
     ]
@@ -11406,6 +11405,28 @@
     },
     "depends" : [ ],
     "description" : "MAIN? Getopt semantics? Why not both?",
+    "version" : "0.1",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz"
+    ]
+  },
+  {
+    "name" : "App::redpanda",
+    "support" : {
+      "source" : "git://github.com/tadzik/App-redpanda.git",
+      "bugtracker" : "https://github.com/tadzik/App-redpanda/issues"
+    },
+    "source-url" : "git://github.com/tadzik/App-redpanda.git",
+    "perl" : "6.c",
+    "provides" : { },
+    "depends" : [
+      "Module::Toolkit",
+      "Shell::Command",
+      "File::Temp",
+      "JSON::Fast",
+      "Getopt::Type"
+    ],
+    "description" : "A tiny module installer",
     "version" : "0.1",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz"
