@@ -11392,5 +11392,23 @@
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz"
     ]
+  },
+  {
+    "name" : "Getopt::Type",
+    "support" : {
+      "source" : "git://github.com/tadzik/Getopt-Type.git",
+      "bugtracker" : "https://github.com/tadzik/Getopt-Type/issues"
+    },
+    "source-url" : "git://github.com/tadzik/Getopt-Type.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Getopt::Type" : "lib/Getopt/Type.pm"
+    },
+    "depends" : [ ],
+    "description" : "MAIN? Getopt semantics? Why not both?",
+    "version" : "0.1",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz"
+    ]
   }
 ]
