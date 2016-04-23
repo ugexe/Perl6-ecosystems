@@ -2803,7 +2803,7 @@
     "test-depends" : [
       "Test"
     ],
-    "description" : "Perl6 interface to OpenSSL",
+    "description" : "Perl6 interface to a OpenSSL (so far only digests though)",
     "version" : "0.2.0"
   },
   {
@@ -11430,6 +11430,27 @@
     "version" : "0.1",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz"
+    ]
+  },
+  {
+    "name" : "Audio::MIDI::Note",
+    "source-url" : "git://github.com/zoffixznet/perl6-Audio-MIDI-Note.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Audio::MIDI::Note" : "lib/Audio/MIDI/Note.pm6"
+    },
+    "depends" : [
+      "Audio::PortMIDI",
+      "Subset::Helper"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Playable MIDI note",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
     ]
   }
 ]
