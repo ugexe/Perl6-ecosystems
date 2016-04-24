@@ -4087,8 +4087,7 @@
     "name" : "Crypt::Bcrypt",
     "source-url" : "git://github.com/skinkade/p6-Crypt-Bcrypt.git",
     "resources" : [
-      "crypt_blowfish.so",
-      "crypt_blowfish.dll"
+      "crypt_blowfish.so"
     ],
     "build-depends" : [
       "LibraryMake",
@@ -4098,11 +4097,11 @@
       "Crypt::Bcrypt" : "lib/Crypt/Bcrypt.pm6"
     },
     "depends" : [ ],
-    "description" : "Bcrypt password hashing in Perl6",
-    "version" : "1.3",
+    "description" : "Easy bcrypt password hashing",
+    "version" : "1.3.1",
     "authors" : [
       "github:carbin",
-      "Shawn Kinkade"
+      "github:skinkade"
     ]
   },
   {
