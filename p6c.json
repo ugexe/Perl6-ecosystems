@@ -11101,7 +11101,7 @@
   {
     "name" : "Crypt::Random",
     "source-url" : "git://github.com/skinkade/crypt-random.git",
-    "author" : "Shawn Kinkade",
+    "author" : "github:skinkade",
     "provides" : {
       "Crypt::Random" : "lib/Crypt/Random.pm6",
       "Crypt::Random::Nix" : "lib/Crypt/Random/Nix.pm6",
@@ -11111,8 +11111,8 @@
     "depends" : [
       "if"
     ],
-    "description" : "Random numbers and bytes emulating arc4random",
-    "version" : "0.1.0"
+    "description" : "Random numbers and bytes mimicking arc4random",
+    "version" : "0.2.0"
   },
   {
     "name" : "GlotIO",
