@@ -860,44 +860,6 @@
     "version" : "*"
   },
   {
-    "name" : "SCGI",
-    "source-url" : "git://github.com/supernovus/SCGI.git",
-    "provides" : {
-      "SCGI" : "lib/SCGI.pm6",
-      "SCGI::Request" : "lib/SCGI/Request.pm6",
-      "SCGI::Connection" : "lib/SCGI/Connection.pm6",
-      "SCGI::Errors" : "lib/SCGI/Errors.pm6",
-      "SCGI::Response" : "lib/SCGI/Response.pm6",
-      "SCGI::Constants" : "lib/SCGI/Constants.pm6"
-    },
-    "depends" : [
-      "HTTP::Status",
-      "Netstring",
-      "PSGI"
-    ],
-    "description" : "A SCGI library for Perl 6",
-    "version" : "*"
-  },
-  {
-    "name" : "FastCGI",
-    "source-url" : "git://github.com/supernovus/perl6-fastcgi.git",
-    "provides" : {
-      "FastCGI::Errors" : "lib/FastCGI/Errors.pm6",
-      "FastCGI::Connection" : "lib/FastCGI/Connection.pm6",
-      "FastCGI::Logger" : "lib/FastCGI/Logger.pm6",
-      "FastCGI::Protocol" : "lib/FastCGI/Protocol.pm6",
-      "FastCGI::Protocol::Constants" : "lib/FastCGI/Protocol/Constants.pm6",
-      "FastCGI::Request" : "lib/FastCGI/Request.pm6",
-      "FastCGI::Constants" : "lib/FastCGI/Constants.pm6",
-      "FastCGI" : "lib/FastCGI.pm6"
-    },
-    "depends" : [
-      "PSGI"
-    ],
-    "description" : "A FastCGI library for Perl 6",
-    "version" : "*"
-  },
-  {
     "name" : "MIME::Types",
     "source-url" : "git://github.com/supernovus/perl6-mime-types.git",
     "provides" : {
@@ -986,7 +948,7 @@
       "HTTP::Status"
     ],
     "description" : "A PSGI helper library.",
-    "version" : "*"
+    "version" : "1.2.0"
   },
   {
     "name" : "Perl6-Math-Quaternion",
