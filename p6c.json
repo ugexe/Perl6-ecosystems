@@ -4358,7 +4358,7 @@
     },
     "depends" : [ ],
     "description" : "Basic Geometric Algebra.",
-    "version" : "3.9.1"
+    "version" : "4.0.0"
   },
   {
     "name" : "TAP::Harness",
@@ -6332,11 +6332,7 @@
     "support" : {
       "source" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git"
     },
-    "build-depends" : [
-      "LibraryCheck",
-      "NativeHelpers::Array",
-      "panda"
-    ],
+    "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "provides" : {
       "Audio::Convert::Samplerate" : "lib/Audio/Convert/Samplerate.pm"
@@ -6347,6 +6343,7 @@
     ],
     "description" : "Convert the samplerate of PCM audio data using libsamplerate",
     "test-depends" : [
+      "LibraryCheck",
       "Audio::Sndfile",
       "Test"
     ],
@@ -6355,7 +6352,7 @@
       "utils",
       "comvert"
     ],
-    "version" : "0.0.6",
+    "version" : "0.0.7",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
@@ -9791,7 +9788,7 @@
       "Oyatul" : "lib/Oyatul.pm"
     },
     "depends" : [
-      "JSON::Tiny"
+      "JSON::Fast"
     ],
     "description" : "Abstract representation of a filesystem layout",
     "license" : "Artistic",
@@ -9803,7 +9800,7 @@
       "layout",
       "util"
     ],
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "meta6" : "0",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
