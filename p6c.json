@@ -3002,6 +3002,10 @@
       "Memoize" : "lib/Memoize.pm6"
     },
     "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
     "description" : "Make routines faster by trading space for time",
     "version" : "*"
   },
