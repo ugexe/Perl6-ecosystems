@@ -11383,5 +11383,18 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "App::MoarVM::HeapAnalyzer",
+    "source-url" : "git://github.com/jnthn/p6-app-moarvm-heapanalyzer.git",
+    "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+    "provides" : {
+      "App::MoarVM::HeapAnalyzer::Shell" : "lib/App/MoarVM/HeapAnalyzer/Shell.pm6",
+      "moar-ha" : "bin/moar-ha",
+      "App::MoarVM::HeapAnalyzer::Model" : "lib/App/MoarVM/HeapAnalyzer/Model.pm6"
+    },
+    "depends" : [ ],
+    "description" : "MoarVM heap snapshot analysis tool",
+    "version" : "0.1"
   }
 ]
