@@ -9943,6 +9943,7 @@
     "provides" : {
       "MoarVM::Guts::REPRs" : "lib/MoarVM/Guts/REPRs.pm6",
       "NativeHelpers::CStruct" : "lib/NativeHelpers/CStruct.pm6",
+      "NativeHelpers::Pointer" : "lib/NativeHelpers/Pointer.pm6",
       "NativeHelpers::Blob" : "lib/NativeHelpers/Blob.pm6"
     },
     "auth" : "github:salortiz",
@@ -9957,7 +9958,7 @@
       "Pointer"
     ],
     "description" : "NativeCall utilities for work with Blob and CArray",
-    "version" : "0.1.8",
+    "version" : "0.1.9",
     "authors" : "Salvador Ortiz <sortiz@cpan.com>"
   },
   {
