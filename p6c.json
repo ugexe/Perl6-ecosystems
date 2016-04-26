@@ -5937,10 +5937,7 @@
     "support" : {
       "source" : "git://github.com/jonathanstowe/Audio-Sndfile.git"
     },
-    "build-depends" : [
-      "panda",
-      "LibraryCheck"
-    ],
+    "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "provides" : {
       "Audio::Sndfile" : "lib/Audio/Sndfile.pm",
@@ -5952,6 +5949,7 @@
     "test-depends" : [
       "Test",
       "Test::META",
+      "LibraryCheck",
       "File::Find",
       "Shell::Command"
     ],
@@ -5959,7 +5957,7 @@
       "audio",
       "utils"
     ],
-    "version" : "0.0.9",
+    "version" : "0.0.10",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
