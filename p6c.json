@@ -5202,9 +5202,7 @@
       "source" : "git://github.com/jonathanstowe/p6-Linux-Cpuinfo.git"
     },
     "perl" : "6.c",
-    "build-depends" : [
-      "panda"
-    ],
+    "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "provides" : {
       "Linux::Cpuinfo::Cpu" : "lib/Linux/Cpuinfo/Cpu.pm",
@@ -5222,7 +5220,7 @@
       "cpu"
     ],
     "description" : "Get the kernel CPU information on Linux",
-    "version" : "0.0.6",
+    "version" : "0.0.7",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
