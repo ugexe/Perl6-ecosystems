@@ -11417,5 +11417,16 @@
     "depends" : [ ],
     "description" : "MoarVM heap snapshot analysis tool",
     "version" : "0.1"
+  },
+  {
+    "name" : "Devel::Trace",
+    "source-url" : "git://github.com/Altai-man/perl6-Devel-Trace.git",
+    "author" : "github:Altai-man",
+    "provides" : {
+      "Devel::Trace" : "lib/Devel/Trace.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Perl6 code tracer.",
+    "version" : "0.1"
   }
 ]
