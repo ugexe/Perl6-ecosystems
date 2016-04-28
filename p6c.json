@@ -8528,6 +8528,28 @@
     "version" : "0.2.0"
   },
   {
+    "name" : "Algorithm::BloomFilter",
+    "perl" : "6.c",
+    "source-url" : "git@github.com:yowcow/p6-Algorithm-BloomFilter.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Algorithm::BloomFilter" : "lib/Algorithm/BloomFilter.pm6"
+    },
+    "depends" : [
+      "Digest::SHA"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "A bloom filter implementation in Perl 6",
+    "version" : "0.0.1",
+    "authors" : [
+      "yowcow"
+    ]
+  },
+  {
     "name" : "String::CamelCase",
     "perl" : "6",
     "source-url" : "git@github.com:yowcow/p6-String-CamelCase.git",
