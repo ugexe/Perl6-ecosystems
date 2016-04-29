@@ -11428,5 +11428,27 @@
     "depends" : [ ],
     "description" : "Perl6 code tracer.",
     "version" : "0.1"
+  },
+  {
+    "source-type" : "git",
+    "name" : "TXN::Parser",
+    "support" : {
+      "source" : "https://github.com/atweiden/txn-parser",
+      "bugtracker" : "https://github.com/atweiden/txn-parser/issues"
+    },
+    "source-url" : "git://github.com/atweiden/txn-parser.git",
+    "author" : "Andy Weidenbaum",
+    "provides" : {
+      "TXN::Parser::Grammar" : "lib/TXN/Parser/Grammar.pm",
+      "TXN::Parser::Exceptions" : "lib/TXN/Parser/Exceptions.pm",
+      "TXN::Parser" : "lib/TXN/Parser.pm",
+      "TXN::Parser::Actions" : "lib/TXN/Parser/Actions.pm"
+    },
+    "depends" : [
+      "Digest::xxHash"
+    ],
+    "license" : "http://unlicense.org/UNLICENSE",
+    "description" : "Double-entry bookkeeping transaction journal parser",
+    "version" : "*"
   }
 ]
