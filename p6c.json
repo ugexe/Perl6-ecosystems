@@ -11450,5 +11450,35 @@
     "license" : "http://unlicense.org/UNLICENSE",
     "description" : "Double-entry bookkeeping transaction journal parser",
     "version" : "*"
+  },
+  {
+    "name" : "App::ModuleSnap",
+    "resource" : { },
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git@github.com:jonathanstowe/App-ModuleSnap.git"
+    },
+    "source-url" : "git@github.com:jonathanstowe/App-ModuleSnap.git",
+    "build-depends" : [ ],
+    "provides" : {
+      "App::ModuleSnap" : "lib/App/ModuleSnap.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "META6"
+    ],
+    "description" : "Take a snapshot of the installed modules for later reinstallation",
+    "test-depends" : [ ],
+    "license" : "perl",
+    "tags" : [
+      "package",
+      "snapshot",
+      "utility"
+    ],
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
