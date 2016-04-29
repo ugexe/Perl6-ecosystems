@@ -11486,5 +11486,20 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "Bailador::Dev::AutoRestarter",
+    "source-url" : "git://github.com/zoffixznet/perl6-Bailador-Dev-AutoRestarter.git",
+    "perl" : "6.c",
+    "provides" : { },
+    "depends" : [
+      "File::Find"
+    ],
+    "test-depends" : [ ],
+    "description" : "script to detect source code changes and auto-restart Bailador app",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
