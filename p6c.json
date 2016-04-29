@@ -11305,9 +11305,15 @@
     "resources" : [ ],
     "provides" : {
       "HTML::MyHTML::Raw" : "lib/HTML/MyHTML/Raw.pm6",
+      "HTML::MyHTML::Namespace" : "lib/HTML/MyHTML/Namespace.pm6",
+      "HTML::MyHTML::Tree" : "lib/HTML/MyHTML/Tree.pm6",
       "HTML::MyHTML::Tag" : "lib/HTML/MyHTML/Tag.pm6",
+      "HTML::MyHTML::Node" : "lib/HTML/MyHTML/Node.pm6",
+      "HTML::MyHTML::Collection" : "lib/HTML/MyHTML/Collection.pm6",
+      "HTML::MyHTML::State" : "lib/HTML/MyHTML/State.pm6",
       "HTML::MyHTML::Encoding" : "lib/HTML/MyHTML/Encoding.pm6",
-      "HTML::MyHTML" : "lib/HTML/MyHTML.pm6"
+      "HTML::MyHTML" : "lib/HTML/MyHTML.pm6",
+      "HTML::MyHTML::Status" : "lib/HTML/MyHTML/Status.pm6"
     },
     "depends" : [ ],
     "test-depends" : [ ],
