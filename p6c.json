@@ -8409,16 +8409,12 @@
     "source-url" : "git://github.com/atweiden/mktxn.git",
     "author" : "Andy Weidenbaum",
     "provides" : {
-      "TXN::Parser::Grammar" : "lib/TXN/Parser/Grammar.pm",
-      "TXN::Parser::Exceptions" : "lib/TXN/Parser/Exceptions.pm",
-      "TXN::Parser" : "lib/TXN/Parser.pm",
-      "TXN" : "lib/TXN.pm",
-      "TXN::Parser::Actions" : "lib/TXN/Parser/Actions.pm"
+      "TXN" : "lib/TXN.pm"
     },
     "depends" : [
       "Config::TOML",
-      "Digest::xxHash",
-      "JSON::Tiny"
+      "JSON::Tiny",
+      "TXN::Parser"
     ],
     "license" : "http://unlicense.org/UNLICENSE",
     "description" : "Double-entry bookkeeping transaction journal parser and serializer",
