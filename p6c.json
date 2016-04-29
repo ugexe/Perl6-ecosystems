@@ -11440,9 +11440,9 @@
     "author" : "Andy Weidenbaum",
     "provides" : {
       "TXN::Parser::Grammar" : "lib/TXN/Parser/Grammar.pm",
-      "TXN::Parser::Exceptions" : "lib/TXN/Parser/Exceptions.pm",
       "TXN::Parser" : "lib/TXN/Parser.pm",
-      "TXN::Parser::Actions" : "lib/TXN/Parser/Actions.pm"
+      "TXN::Parser::Actions" : "lib/TXN/Parser/Actions.pm",
+      "X::TXN::Parser" : "lib/X/TXN/Parser.pm"
     },
     "depends" : [
       "Digest::xxHash"
