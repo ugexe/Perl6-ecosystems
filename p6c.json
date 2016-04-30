@@ -11520,5 +11520,24 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Bailador::Plugin::AssetPack::SASS",
+    "source-url" : "git://github.com/zoffixznet/perl6-Bailador-Plugin-AssetPack-SASS.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Bailador::Plugin::AssetPack::SASS" : "lib/Bailador/Plugin/AssetPack/SASS.pm6"
+    },
+    "depends" : [
+      "Bailador"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Automatically preprocess and serve SASS files in Bailador apps",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
