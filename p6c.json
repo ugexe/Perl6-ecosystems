@@ -4353,14 +4353,23 @@
   {
     "name" : "Clifford",
     "source-url" : "git://github.com/grondilu/clifford.git",
-    "author" : "Lucien Grondin",
+    "perl" : "6.c",
     "provides" : {
+      "MultiVector::BitEncoded::Optimized" : "lib/MultiVector/BitEncoded/Optimized.pm6",
+      "MultiVector::BitEncoded" : "lib/MultiVector/BitEncoded.pm6",
       "Clifford" : "lib/Clifford.pm6",
-      "MultiVector" : "lib/MultiVector/BitEncoded.pm6"
+      "MultiVector::BitEncoded::BasisBlade" : "lib/MultiVector/BitEncoded/BasisBlade.pm6",
+      "MultiVector" : "lib/MultiVector.pm6",
+      "MultiVector::BitEncoded::Default" : "lib/MultiVector/BitEncoded/Default.pm6"
     },
+    "auth" : "github:grondilu",
     "depends" : [ ],
+    "license" : "Artistic",
     "description" : "Basic Geometric Algebra.",
-    "version" : "5.2.4"
+    "version" : "5.2.4",
+    "authors" : [
+      "Lucien Grondin"
+    ]
   },
   {
     "name" : "TAP::Harness",
