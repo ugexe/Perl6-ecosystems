@@ -11497,5 +11497,28 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Bailador::Plugin::Static",
+    "source-url" : "git://github.com/zoffixznet/perl6-Bailador-Plugin-Static.git",
+    "perl" : "6.c",
+    "resources" : [
+      "mime.types"
+    ],
+    "provides" : {
+      "Bailador::Plugin::Static" : "lib/Bailador/Plugin/Static.pm6"
+    },
+    "depends" : [
+      "Bailador",
+      "MIME::Types"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Automatically serve static files",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
