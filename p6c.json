@@ -11514,7 +11514,7 @@
     ],
     "test-depends" : [ ],
     "description" : "script to detect source code changes and auto-restart Bailador app",
-    "version" : "1.001003",
+    "version" : "1.002001",
     "authors" : [
       "Zoffix Znet"
     ]
@@ -11556,6 +11556,27 @@
       "Test"
     ],
     "description" : "Automatically preprocess and serve SASS files in Bailador apps",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
+  },
+  {
+    "name" : "Bailador::Template::Mojo::Extended",
+    "source-url" : "git://github.com/zoffixznet/perl6-Bailador-Template-Mojo-Extended.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Bailador::Template::Mojo::Extended" : "lib/Bailador/Template/Mojo/Extended.pm6"
+    },
+    "depends" : [
+      "Bailador",
+      "Bailador::Template",
+      "Template::Mojo"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Extra features on top of the default ::Mojo renderer for Bailador",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
