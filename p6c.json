@@ -5872,17 +5872,20 @@
   {
     "name" : "HTTP::Headers",
     "source-url" : "git://github.com/zostay/p6-HTTP-Headers.git",
-    "author" : "Andrew Sterling Hanenkamp",
+    "perl" : "6.c",
     "provides" : {
-      "HTTP::Header::Custom" : "lib/HTTP/Headers.pm",
-      "HTTP::Header::Standard" : "lib/HTTP/Headers.pm",
-      "HTTP::Header" : "lib/HTTP/Headers.pm",
-      "HTTP::Headers" : "lib/HTTP/Headers.pm",
-      "HTTP::Header::Standard::Content-Type" : "lib/HTTP/Headers.pm"
+      "HTTP::Header::Custom" : "lib/HTTP/Headers.pm6",
+      "HTTP::Header::Standard" : "lib/HTTP/Headers.pm6",
+      "HTTP::Header" : "lib/HTTP/Headers.pm6",
+      "HTTP::Headers" : "lib/HTTP/Headers.pm6",
+      "HTTP::Header::Standard::Content-Type" : "lib/HTTP/Headers.pm6"
     },
     "depends" : [ ],
     "description" : "Tools for working with HTTP message headers",
-    "version" : "0.1"
+    "version" : "0.1",
+    "authors" : [
+      "Andrew Sterling Hanenkamp"
+    ]
   },
   {
     "name" : "Hash::MultiValue",
@@ -11656,6 +11659,48 @@
     "version" : "2.001001",
     "authors" : [
       "Zoffix Znet"
+    ]
+  },
+  {
+    "name" : "Task::Noise",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git@github.com:Perl6-Noise-Gang/Task-Noise.git"
+    },
+    "source-url" : "git@github.com:Perl6-Noise-Gang/Task-Noise.git",
+    "provides" : { },
+    "auth" : "github:perl6-noise-gang",
+    "depends" : [
+      "ABC",
+      "Music::Helpers",
+      "Audio::Taglib::Simple",
+      "Audio::Sndfile",
+      "Audio::Libshout",
+      "Audio::Encode::LameMP3",
+      "Audio::Convert::Samplerate",
+      "Audio::Silan",
+      "Audio::Liquidsoap",
+      "Audio::Playlist::JSPF",
+      "Audio::Hydrogen",
+      "Audio::PortAudio",
+      "Audio::PortMIDI",
+      "Audio::Icecast",
+      "EuclideanRhythm",
+      "Audio::OggVorbis",
+      "Audio::MIDI::Note"
+    ],
+    "description" : "META distribution to install all the noise related modules known to the Perl 6 Noise Gang",
+    "test-depends" : [ ],
+    "license" : "Artistic",
+    "tags" : [
+      "audio",
+      "noise",
+      "sound"
+    ],
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Perl6 Noise Gang"
     ]
   }
 ]
