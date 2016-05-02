@@ -11563,6 +11563,24 @@
     ]
   },
   {
+    "name" : "Audio::OggVorbis",
+    "source-url" : "git://github.com/Xliff/p6-audio-oggvorbis.git",
+    "perl" : "6.c",
+    "build-depends" : [ ],
+    "provides" : {
+      "Audio::OggVorbis::Ogg" : "lib/Audio/OggVorbis/Ogg.pm",
+      "Audio::OggVorbis::Vorbis" : "lib/Audio/OggVorbis/Vorbis.pm",
+      "Audio::OggVorbis::VorbisEnc" : "lib/Audio/OggVorbis/VorbisEnc.pm"
+    },
+    "depends" : [ ],
+    "description" : "Perl6 bindings for libogg, libvorbis and libvorbisenc",
+    "version" : "0.0.1",
+    "authors" : [
+      "github:Xliff",
+      "Clifton Wood"
+    ]
+  },
+  {
     "name" : "Bailador::Dev::AutoRestarter",
     "source-url" : "git://github.com/zoffixznet/perl6-Bailador-Dev-AutoRestarter.git",
     "perl" : "6.c",
