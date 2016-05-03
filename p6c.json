@@ -10573,15 +10573,16 @@
     "name" : "Audio::PortMIDI",
     "resource" : { },
     "support" : {
-      "source" : "git://github.com/jonathanstowe/Audio-PortMIDI.git"
+      "irc" : "irc://irc.freenode.net/perl6-noise-gang",
+      "source" : "git://github.com/Perl6-Noise-Gang/Audio-PortMIDI.git"
     },
-    "source-url" : "git://github.com/jonathanstowe/Audio-PortMIDI.git",
+    "source-url" : "git://github.com/Perl6-Noise-Gang/Audio-PortMIDI.git",
     "perl" : "6.c",
     "build-depends" : [ ],
     "provides" : {
       "Audio::PortMIDI" : "lib/Audio/PortMIDI.pm"
     },
-    "auth" : "github:jonathanstowe",
+    "auth" : "github:Perl6-Noise-Gang",
     "depends" : [
       "Util::Bitfield"
     ],
@@ -10593,10 +10594,11 @@
       "MIDI",
       "audio",
       "music",
-      "sequencer"
+      "sequencer",
+      "noise-gang"
     ],
     "license" : "perl",
-    "version" : "0.0.4",
+    "version" : "0.0.6",
     "meta6" : "0",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
@@ -11272,9 +11274,9 @@
     "resource" : { },
     "perl" : "6",
     "support" : {
-      "source" : "git://github.com/peschwa/p6-Music-Helpers.git"
+      "source" : "git://github.com/Perl6-Noise-Gang/p6-Music-Helpers.git"
     },
-    "source-url" : "git://github.com/peschwa/p6-Music-Helpers.git",
+    "source-url" : "git://github.com/Perl6-Noise-Gang/p6-Music-Helpers.git",
     "excludes" : { },
     "build-depends" : [ ],
     "provides" : {
