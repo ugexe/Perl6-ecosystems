@@ -10428,11 +10428,11 @@
     "name" : "Audio::PortAudio",
     "resource" : { },
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Audio-PortAudio.git",
+    "source-url" : "git://github.com/Perl6-Noise-Gang/Audio-PortAudio.git",
     "support" : {
-      "source" : "git://github.com/jonathanstowe/Audio-PortAudio.git"
+      "source" : "git://github.com/Perl6-Noise-Gang/Audio-PortAudio.git"
     },
-    "auth" : "github:jonathanstowe",
+    "auth" : "github:Perl6-Noise-Gang",
     "provides" : {
       "Audio::PortAudio" : "lib/Audio/PortAudio.pm"
     },
@@ -10448,7 +10448,7 @@
     "test-depends" : [
       "LibraryCheck"
     ],
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "meta6" : "0",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
