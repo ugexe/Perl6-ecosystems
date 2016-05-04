@@ -11687,5 +11687,35 @@
     "authors" : [
       "Perl6 Noise Gang"
     ]
+  },
+  {
+    "name" : "Json-C",
+    "support" : {
+      "email" : "sog@msg.com.mx",
+      "source" : [
+        "git://github.com/salortiz/p6-LMDB.git",
+        "https://github.com/salortiz/p6-LMDB.git"
+      ]
+    },
+    "source-url" : "git://github.com/salortiz/p6-Json-C.git",
+    "perl" : "6.c",
+    "licence" : "artistic_2",
+    "build-depends" : [ ],
+    "provides" : {
+      "JsonC" : "lib/JsonC.pm6"
+    },
+    "auth" : "github:salortiz",
+    "repo-type" : "git",
+    "depends" : [
+      "NativeLibs"
+    ],
+    "tags" : [
+      "kv",
+      "json-c"
+    ],
+    "test-depends" : [ ],
+    "description" : "Native bindings for JSON-C library",
+    "version" : "0.0.1",
+    "authors" : "Salvador Ortiz <sortiz@cpan.com>"
   }
 ]
