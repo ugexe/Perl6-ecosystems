@@ -3499,7 +3499,7 @@
       "JSON::Fast"
     ],
     "description" : "Perl 6 CSS extended and property-specific grammars",
-    "version" : "0.02.1"
+    "version" : "0.02.2"
   },
   {
     "source-type" : "git",
@@ -11717,5 +11717,39 @@
     "description" : "Native bindings for JSON-C library",
     "version" : "0.0.1",
     "authors" : "Salvador Ortiz <sortiz@cpan.com>"
+  },
+  {
+    "name" : "Audio::Fingerprint::Chromaprint",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git"
+    },
+    "source-url" : "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Audio::Fingerprint::Chromaprint" : "lib/Audio/Fingerprint/Chromaprint.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "NativeHelpers::Array"
+    ],
+    "description" : "Get audio fingerprint using the chromaprint / AcoustID library",
+    "test-depends" : [
+      "Test::META",
+      "Audio::Sndfile"
+    ],
+    "license" : "perl",
+    "tags" : [
+      "audio",
+      "fingerprint",
+      "acoustid",
+      "noise-gang"
+    ],
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
