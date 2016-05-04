@@ -11522,9 +11522,9 @@
     "resource" : { },
     "perl" : "6.c",
     "support" : {
-      "source" : "git@github.com:jonathanstowe/App-ModuleSnap.git"
+      "source" : "git://github.com/jonathanstowe/App-ModuleSnap.git"
     },
-    "source-url" : "git@github.com:jonathanstowe/App-ModuleSnap.git",
+    "source-url" : "git://github.com/jonathanstowe/App-ModuleSnap.git",
     "build-depends" : [ ],
     "provides" : {
       "App::ModuleSnap" : "lib/App/ModuleSnap.pm"
@@ -11542,7 +11542,7 @@
       "utility"
     ],
     "meta6" : "0",
-    "version" : "0.0.3",
+    "version" : "0.0.4",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
