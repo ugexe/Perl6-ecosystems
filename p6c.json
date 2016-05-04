@@ -4839,7 +4839,7 @@
       "JSON::Fast"
     ],
     "description" : "AST Serializer; compatible with CSS::Grammar and CSS::Module",
-    "version" : "0.01.1"
+    "version" : "0.01.2"
   },
   {
     "name" : "HTTP::Server::Async::Plugins::Router::Simple",
@@ -6940,6 +6940,7 @@
     "author" : "Andy Weidenbaum",
     "provides" : {
       "Config::TOML::Parser::Actions" : "lib/Config/TOML/Parser/Actions.pm",
+      "Config::TOML::Dumper" : "lib/Config/TOML/Dumper.pm",
       "Config::TOML" : "lib/Config/TOML.pm",
       "Config::TOML::Parser::Grammar" : "lib/Config/TOML/Parser/Grammar.pm",
       "X::Config::TOML" : "lib/X/Config/TOML.pm",
@@ -6949,7 +6950,7 @@
       "Crane"
     ],
     "license" : "http://unlicense.org/UNLICENSE",
-    "description" : "TOML parser for Perl6",
+    "description" : "TOML file parser and writer",
     "version" : "*"
   },
   {
