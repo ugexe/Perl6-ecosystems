@@ -11320,7 +11320,7 @@
       "Midi"
     ],
     "meta6" : "0",
-    "version" : "0.0.3",
+    "version" : "0.0.4",
     "emulates" : { },
     "production" : false,
     "authors" : [
@@ -11772,6 +11772,30 @@
     "version" : "0.0.1",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "App::AizuOnlineJudge",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/titsuki/p6-App-AizuOnlineJudge.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "App::AizuOnlineJudge::IntroductionCourse" : "lib/App/AizuOnlineJudge/IntroductionCourse.pm6",
+      "App::AizuOnlineJudge::Submittable" : "lib/App/AizuOnlineJudge/Submittable.pm6",
+      "App::AizuOnlineJudge::BasicCourse" : "lib/App/AizuOnlineJudge/BasicCourse.pm6",
+      "App::AizuOnlineJudge" : "lib/App/AizuOnlineJudge.pm6"
+    },
+    "depends" : [
+      "URI",
+      "XML",
+      "HTTP::UserAgent"
+    ],
+    "test-depends" : [ ],
+    "description" : "a perl6 implementation of the unofficial code submitter for Aizu Online Judge( http://judge.u-aizu.ac.jp/onlinejudge/index.jsp ).",
+    "version" : "*",
+    "authors" : [
+      "titsuki"
     ]
   }
 ]
