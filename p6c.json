@@ -11797,5 +11797,24 @@
     "authors" : [
       "titsuki"
     ]
+  },
+  {
+    "name" : "Term::Readsecret",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/titsuki/p6-Term-Readsecret.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Term::Readsecret" : "lib/Term/Readsecret.pm6"
+    },
+    "depends" : [
+      "LibraryMake"
+    ],
+    "test-depends" : [ ],
+    "description" : "A perl6 binding of readsecret ( https://github.com/dmeranda/readsecret ) for reading secrets or passwords from a command line secretly (not being displayed)",
+    "version" : "*",
+    "authors" : [
+      "titsuki"
+    ]
   }
 ]
