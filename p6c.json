@@ -3100,6 +3100,21 @@
     "version" : "*"
   },
   {
+    "name" : "Clean",
+    "source-url" : "git://github.com/azawawi/perl6-clean.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Clean" : "lib/Clean.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Cleans your objects",
+    "version" : "*"
+  },
+  {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
     "provides" : {
