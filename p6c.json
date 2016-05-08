@@ -573,9 +573,9 @@
   {
     "name" : "OpenSSL",
     "source-url" : "git://github.com/sergot/openssl.git",
-    "build-depends" : [
-      "Shell::Command",
-      "panda"
+    "resources" : [
+      "ssleay32.dll",
+      "libeay32.dll"
     ],
     "author" : "github:sergot",
     "provides" : {
@@ -596,11 +596,10 @@
       "OpenSSL::CryptTools" : "lib/OpenSSL/CryptTools.pm6"
     },
     "depends" : [
-      "Digest",
-      "Find::Bundled"
+      "Digest"
     ],
     "description" : "OpenSSL bindings",
-    "version" : "0.0.2"
+    "version" : "0.0.3"
   },
   {
     "name" : "bamboo",
