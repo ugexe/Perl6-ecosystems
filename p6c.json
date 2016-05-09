@@ -11847,5 +11847,33 @@
     "authors" : [
       "titsuki"
     ]
+  },
+  {
+    "name" : "Acme::Insult::Lala",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Acme-Insult-Lala.git"
+    },
+    "source-url" : "git://github.com/jonathanstowe/Acme-Insult-Lala.git",
+    "resources" : [
+      "lala.txt"
+    ],
+    "provides" : {
+      "Acme::Insult::Lala" : "lib/Acme/Insult/Lala.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "description" : "Construct an insulting epithet in the manner of an old IRC bot",
+    "license" : "perl",
+    "tags" : [
+      "insult",
+      "acme",
+      "fun"
+    ],
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
