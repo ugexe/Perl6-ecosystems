@@ -11875,5 +11875,32 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "WebService::FootballData",
+    "source-url" : "https://gitlab.com/CIAvash/WebService-FootballData.git",
+    "perl" : "6.c",
+    "provides" : {
+      "WebService::FootballData::Facade::UserAgent" : "lib/WebService/FootballData/Facade/UserAgent.pm6",
+      "WebService::FootballData::Role::Request" : "lib/WebService/FootballData/Role/Request.pm6",
+      "WebService::FootballData" : "lib/WebService/FootballData.pm6",
+      "WebService::FootballData::Role::UserAgent" : "lib/WebService/FootballData/Role/UserAgent.pm6",
+      "WebService::FootballData::Request" : "lib/WebService/FootballData/Request.pm6"
+    },
+    "depends" : [
+      "HTTP::UserAgent",
+      "JSON::Fast",
+      "URI::Escape"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::Mock",
+      "JSON::Fast"
+    ],
+    "description" : "An interface to football-data.org API",
+    "version" : "0.1.0",
+    "authors" : [
+      "Siavash Askari Nasr"
+    ]
   }
 ]
