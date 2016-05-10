@@ -8527,7 +8527,8 @@
     "source-url" : "git://github.com/atweiden/mktxn.git",
     "author" : "Andy Weidenbaum",
     "provides" : {
-      "TXN" : "lib/TXN.pm"
+      "TXN" : "lib/TXN.pm",
+      "TXN::Make" : "lib/TXN/Make.pm"
     },
     "depends" : [
       "Config::TOML",
