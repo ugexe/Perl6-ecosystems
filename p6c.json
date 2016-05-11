@@ -11831,9 +11831,9 @@
     ]
   },
   {
-    "name" : "Term::Readsecret",
+    "name" : "Terminal::Readsecret",
     "perl" : "6.c",
-    "source-url" : "git://github.com/titsuki/p6-Term-Readsecret.git",
+    "source-url" : "git://github.com/titsuki/p6-Terminal-Readsecret.git",
     "build-depends" : [
       "LibraryMake"
     ],
@@ -11841,7 +11841,7 @@
       "libraries/readsecret"
     ],
     "provides" : {
-      "Term::Readsecret" : "lib/Term/Readsecret.pm6"
+      "Terminal::Readsecret" : "lib/Terminal/Readsecret.pm6"
     },
     "depends" : [ ],
     "test-depends" : [ ],
