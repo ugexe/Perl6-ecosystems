@@ -1757,7 +1757,6 @@
     "perl" : "6.c",
     "provides" : {
       "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
-      "Bailador::Request::Mulitpart" : "lib/Bailador/Request/Multipart.pm",
       "Bailador::Context" : "lib/Bailador/Context.pm",
       "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
       "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
@@ -1773,7 +1772,8 @@
       "Bailador::Template::Mojo" : "lib/Bailador/Template/Mojo.pm",
       "Bailador::Route::StaticFile" : "lib/Bailador/Route/StaticFile.pm",
       "Bailador::Response" : "lib/Bailador/Response.pm",
-      "Bailador::Route" : "lib/Bailador/Route.pm"
+      "Bailador::Route" : "lib/Bailador/Route.pm",
+      "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm"
     },
     "depends" : [
       "HTTP::Easy",
