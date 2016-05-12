@@ -586,6 +586,7 @@
       "OpenSSL::RSATools" : "lib/OpenSSL/RSATools.pm6",
       "OpenSSL::NativeLib" : "lib/OpenSSL/NativeLib.pm6",
       "OpenSSL" : "lib/OpenSSL.pm6",
+      "OpenSSL::Stack" : "lib/OpenSSL/Stack.pm6",
       "OpenSSL::RSA" : "lib/OpenSSL/RSA.pm6",
       "OpenSSL::PEM" : "lib/OpenSSL/PEM.pm6",
       "OpenSSL::X509" : "lib/OpenSSL/X509.pm6",
@@ -599,7 +600,7 @@
       "Digest"
     ],
     "description" : "OpenSSL bindings",
-    "version" : "0.1.0"
+    "version" : "0.1.2"
   },
   {
     "name" : "bamboo",
