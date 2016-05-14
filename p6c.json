@@ -2513,6 +2513,9 @@
   {
     "name" : "p6doc",
     "source-url" : "git://github.com/perl6/doc.git",
+    "build-depends" : [
+      "File::Find"
+    ],
     "provides" : {
       "Perl6::Documentable::Registry" : "lib/Perl6/Documentable/Registry.pm",
       "Pod::To::SectionFilter" : "lib/Pod/To/SectionFilter.pm",
@@ -2526,8 +2529,7 @@
     "depends" : [
       "URI",
       "File::Temp",
-      "Panda",
-      "Shell::Command"
+      "JSON::Fast"
     ],
     "description" : "Perl 6 documentation (tools and docs)",
     "version" : "*"
