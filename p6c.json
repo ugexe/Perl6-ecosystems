@@ -6753,10 +6753,10 @@
   },
   {
     "name" : "HTTP::Tinyish",
-    "perl" : "6.c",
     "source-url" : "git://github.com/skaji/perl6-HTTP-Tinyish.git",
-    "build-depends" : [ ],
+    "perl" : "6.c",
     "resources" : [ ],
+    "build-depends" : [ ],
     "provides" : {
       "HTTP::Tinyish::Curl" : "lib/HTTP/Tinyish/Curl.pm6",
       "HTTP::Tinyish::FileTempFactory" : "lib/HTTP/Tinyish/FileTempFactory.pm6",
