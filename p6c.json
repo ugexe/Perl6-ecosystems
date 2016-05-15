@@ -9864,14 +9864,14 @@
   },
   {
     "name" : "Term::Choose",
-    "perl" : "6.c",
     "source-url" : "git://github.com/kuerbis/Term-Choose-p6.git",
-    "build-depends" : [ ],
+    "perl" : "6.c",
     "resources" : [ ],
+    "build-depends" : [ ],
     "provides" : {
       "Term::Choose" : "lib/Term/Choose.pm6",
-      "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6",
-      "Term::Choose::NCurses" : "lib/Term/Choose/NCurses.pm6"
+      "Term::Choose::NCurses" : "lib/Term/Choose/NCurses.pm6",
+      "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
     },
     "depends" : [
       "NCurses",
@@ -10517,10 +10517,10 @@
   },
   {
     "name" : "Term::Choose::Util",
-    "perl" : "6.c",
     "source-url" : "git://github.com/kuerbis/Term-Choose-Util-p6.git",
-    "build-depends" : [ ],
+    "perl" : "6.c",
     "resources" : [ ],
+    "build-depends" : [ ],
     "provides" : {
       "Term::Choose::Util" : "lib/Term/Choose/Util.pm6"
     },
@@ -10540,10 +10540,10 @@
   },
   {
     "name" : "Term::TablePrint",
-    "perl" : "6.c",
     "source-url" : "git://github.com/kuerbis/Term-TablePrint-p6.git",
-    "build-depends" : [ ],
+    "perl" : "6.c",
     "resources" : [ ],
+    "build-depends" : [ ],
     "provides" : {
       "Term::TablePrint" : "lib/Term/TablePrint.pm6"
     },
@@ -10982,10 +10982,10 @@
   },
   {
     "name" : "Term::Form",
-    "perl" : "6.c",
     "source-url" : "git://github.com/kuerbis/Term-Form-p6.git",
-    "build-depends" : [ ],
+    "perl" : "6.c",
     "resources" : [ ],
+    "build-depends" : [ ],
     "provides" : {
       "Term::Form" : "lib/Term/Form.pm6"
     },
