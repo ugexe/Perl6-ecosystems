@@ -11964,5 +11964,27 @@
     "depends" : [ ],
     "description" : "A quick string distance algorithm",
     "version" : "1.0.0"
+  },
+  {
+    "name" : "Acme::Anguish",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Acme-Anguish.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "Acme::Anguish" : "lib/Acme/Anguish.pm6"
+    },
+    "depends" : [
+      "Term::termios"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::Output"
+    ],
+    "description" : "Use Anguish programming language in your Perl 6 programs",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
