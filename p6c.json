@@ -11954,5 +11954,16 @@
     "authors" : [
       "Siavash Askari Nasr"
     ]
+  },
+  {
+    "name" : "Text::Diff::Sift4",
+    "source-url" : "git://github.com/masterduke17/text-diff-sift4.git",
+    "author" : "Daniel Green",
+    "provides" : {
+      "Text::Diff::Sift4" : "lib/Text/Diff/Sift4.pm6"
+    },
+    "depends" : [ ],
+    "description" : "A quick string distance algorithm",
+    "version" : "1.0.0"
   }
 ]
