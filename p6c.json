@@ -11989,5 +11989,39 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Device::Velleman::K8055",
+    "source-url" : "git://github.com/jonathanstowe/Device-Velleman-K8055.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Device-Velleman-K8055.git"
+    },
+    "perl" : "6.c",
+    "build-depends" : [
+      "LibraryMake",
+      "panda",
+      "Shell::Command"
+    ],
+    "resources" : [
+      "libraries/k8055"
+    ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "Device::Velleman::K8055" : "lib/Device/Velleman/K8055.pm"
+    },
+    "depends" : [ ],
+    "tags" : [
+      "USB",
+      "device",
+      "experimental"
+    ],
+    "license" : "perl",
+    "description" : "A Perl 6 interface to the Velleman USB Experiment Kit",
+    "test-depends" : [ ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
