@@ -12023,5 +12023,23 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "Getopt::Kinoko",
+    "source-url" : "git://github.com/araraloren/Getopt-Kinoko.git",
+    "perl" : "6",
+    "auth" : "github:araraloren",
+    "provides" : {
+      "Getopt::Kinoko" : "lib/Getopt/Kinoko.pm6",
+      "Getopt::Kinoko::OptionSet" : "lib/Getopt/Kinoko/OptionSet.pm6",
+      "Getopt::Kinoko::DeepClone" : "lib/Getopt/Kinoko/DeepClone.pm6",
+      "Getopt::Kinoko::Option" : "lib/Getopt/Kinoko/Option.pm6",
+      "Getopt::Kinoko::Parser" : "lib/Getopt/Kinoko/Parser.pm6",
+      "Getopt::Kinoko::Exception" : "lib/Getopt/Kinoko/Exception.pm6"
+    },
+    "depends" : [ ],
+    "description" : "A command line parsing tool which written in Perl6",
+    "version" : "0.0.1",
+    "authors" : "Loren"
   }
 ]
