@@ -8654,10 +8654,10 @@
   },
   {
     "name" : "Algorithm::BloomFilter",
-    "perl" : "6.c",
     "source-url" : "git@github.com:yowcow/p6-Algorithm-BloomFilter.git",
-    "build-depends" : [ ],
+    "perl" : "6.c",
     "resources" : [ ],
+    "build-depends" : [ ],
     "provides" : {
       "Algorithm::BloomFilter" : "lib/Algorithm/BloomFilter.pm6"
     },
@@ -8669,7 +8669,7 @@
       "Test::META"
     ],
     "description" : "A bloom filter implementation in Perl 6",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "authors" : [
       "yowcow"
     ]
