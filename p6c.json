@@ -3471,6 +3471,7 @@
   {
     "name" : "CSS::Grammar",
     "source-url" : "git://github.com/p6-css/perl6-CSS-Grammar.git",
+    "perl" : "6c",
     "provides" : {
       "CSS::Grammar::Actions" : "lib/CSS/Grammar/Actions.pm",
       "CSS::Grammar::CSS3" : "lib/CSS/Grammar/CSS3.pm",
@@ -12041,5 +12042,22 @@
     "description" : "A command line parsing tool which written in Perl6",
     "version" : "0.0.1",
     "authors" : "Loren"
+  },
+  {
+    "name" : "Test::When",
+    "source-url" : "git://github.com/zoffixznet/perl6-Test-When.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Test::When" : "lib/Test/When.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Selectively run tests based on the environment and installed modules and libs",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
