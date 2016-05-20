@@ -4080,6 +4080,7 @@
   {
     "name" : "GTK::Simple",
     "source-url" : "git://github.com/perl6/gtk-simple.git",
+    "perl" : "6.c",
     "provides" : {
       "GTK::Simple" : "lib/GTK/Simple.pm6",
       "GTK::NativeLib" : "lib/GTK/NativeLib.pm6",
@@ -4090,7 +4091,7 @@
       "LWP::Simple"
     ],
     "description" : "Simple GTK 3 binding using NativeCall",
-    "version" : "*"
+    "version" : "0.1.0"
   },
   {
     "name" : "Cairo",
