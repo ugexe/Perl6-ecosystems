@@ -12060,5 +12060,18 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Path::Map",
+    "source-url" : "git://github.com/fjwhittle/p6-Path-Map.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Path::Map" : "lib/Path/Map.pm6"
+    },
+    "auth" : "github:fjwhittle",
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "Hash tree based path router",
+    "version" : "0.1"
   }
 ]
