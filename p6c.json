@@ -8543,12 +8543,11 @@
     },
     "depends" : [
       "Config::TOML",
-      "JSON::Tiny",
       "TXN::Parser"
     ],
     "license" : "http://unlicense.org/UNLICENSE",
     "description" : "Double-entry bookkeeping transaction journal parser and serializer",
-    "version" : "*"
+    "version" : "0.0.3"
   },
   {
     "name" : "Haikunator",
