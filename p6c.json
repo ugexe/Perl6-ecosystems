@@ -5685,13 +5685,13 @@
     "source-url" : "git://github.com/zostay/Template-Anti.git",
     "author" : "Andrew Sterling Hanenkamp",
     "provides" : {
-      "Template::Anti::Selector::Actions" : "lib/Template/Anti/Selector/NodeSet.pm6",
-      "Template::Anti::Selector::Grammar" : "lib/Template/Anti/Selector/NodeSet.pm6",
-      "Template::Anti::Selector::NodeSet" : "lib/Template/Anti/Selector/NodeSet.pm6",
-      "Template::Anti::Selector::NodeWalker" : "lib/Template/Anti/Selector/NodeSet.pm6",
+      "Template::Anti::Selector::Actions" : "lib/Template/Anti/Selector.pm6",
+      "Template::Anti::Selector::Grammar" : "lib/Template/Anti/Selector.pm6",
+      "Template::Anti::Selector::NodeSet" : "lib/Template/Anti/Selector.pm6",
+      "Template::Anti::Selector::NodeWalker" : "lib/Template/Anti/Selector.pm6",
       "Template::Anti::Template" : "lib/Template/Anti/Template.pm6",
       "Template::Anti::NodeSet" : "lib/Template/Anti/NodeSet.pm6",
-      "Template::Anti::Selector" : "lib/Template/Anti/Selector/NodeSet.pm6",
+      "Template::Anti::Selector" : "lib/Template/Anti/Selector.pm6",
       "Template::Anti" : "lib/Template/Anti.pm6"
     },
     "depends" : [
