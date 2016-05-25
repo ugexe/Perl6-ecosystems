@@ -12076,5 +12076,21 @@
     "test-depends" : [ ],
     "description" : "Hash tree based path router",
     "version" : "0.1"
+  },
+  {
+    "name" : "Weather",
+    "source-url" : "git://github.com/palapitta/Weather",
+    "provides" : {
+      "Weather" : "lib/Weather.pm6"
+    },
+    "depends" : [
+      "JSON::Fast",
+      "Net::HTTP::GET"
+    ],
+    "description" : "Get Weather info",
+    "version" : "0.1.0",
+    "authors" : [
+      "Rajkumar Reddy"
+    ]
   }
 ]
