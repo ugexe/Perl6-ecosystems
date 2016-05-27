@@ -12122,5 +12122,23 @@
     "authors" : [
       "Rajkumar Reddy"
     ]
+  },
+  {
+    "name" : "Terminal::Width",
+    "source-url" : "git://github.com/zoffixznet/perl6-Terminal-Width.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Terminal::Width" : "lib/Terminal/Width.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Get the current width of the terminal",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
