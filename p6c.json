@@ -5953,7 +5953,7 @@
     },
     "depends" : [ ],
     "description" : "Interface to Adobe Font Metrics files",
-    "version" : "1.23.3"
+    "version" : "1.23.4"
   },
   {
     "name" : "HTTP::Headers",
@@ -6635,15 +6635,15 @@
     "version" : "0.0.1"
   },
   {
-    "name" : "P6SGI",
-    "source-url" : "git://github.com/zostay/P6SGI.git",
+    "name" : "P6W",
+    "source-url" : "git://github.com/zostay/P6W.git",
     "author" : "Andrew Sterling Hanenkamp",
     "provides" : {
-      "P6SGI" : "P6SGI.pod"
+      "P6W" : "P6W.pod"
     },
     "depends" : [ ],
-    "description" : "Perl 6 Standard Gateway Interface Specification",
-    "version" : "0.6.Draft"
+    "description" : "Web API for Perl 6",
+    "version" : "0.7.Draft"
   },
   {
     "source-type" : "git",
