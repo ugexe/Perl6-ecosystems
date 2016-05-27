@@ -7959,6 +7959,7 @@
     ],
     "description" : "Infer Perl 6 Classes from JSON input",
     "test-depends" : [
+      "JSON::Fast",
       "Test",
       "Test::META"
     ],
@@ -7967,7 +7968,7 @@
       "serialisation",
       "JSON"
     ],
-    "version" : "0.0.10",
+    "version" : "0.0.11",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
@@ -11627,10 +11628,13 @@
     },
     "auth" : "github:jonathanstowe",
     "depends" : [
+      "JSON::Fast",
       "META6"
     ],
     "description" : "Take a snapshot of the installed modules for later reinstallation",
-    "test-depends" : [ ],
+    "test-depends" : [
+      "JSON::Fast"
+    ],
     "license" : "perl",
     "tags" : [
       "package",
@@ -11638,7 +11642,7 @@
       "utility"
     ],
     "meta6" : "0",
-    "version" : "0.0.4",
+    "version" : "0.0.5",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
