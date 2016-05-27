@@ -3122,6 +3122,20 @@
     "version" : "*"
   },
   {
+    "name" : "GTK::Simpler",
+    "source-url" : "git://github.com/azawawi/perl6-gtk-simpler.git",
+    "perl" : "6.c",
+    "provides" : {
+      "GTK::Simpler" : "lib/GTK/Simpler.pm6"
+    },
+    "repo-type" : "git",
+    "depends" : [
+      "GTK::Simple"
+    ],
+    "description" : "A simpler API for GTK::Simple",
+    "version" : "0.0.1"
+  },
+  {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
     "provides" : {
