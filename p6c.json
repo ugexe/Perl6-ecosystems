@@ -7739,6 +7739,7 @@
     "description" : "Work with Perl 6 META files",
     "license" : "Artistic",
     "test-depends" : [
+      "JSON::Fast",
       "Test"
     ],
     "tags" : [
@@ -7746,7 +7747,7 @@
       "meta",
       "utils"
     ],
-    "version" : "0.0.9",
+    "version" : "0.0.10",
     "production" : false,
     "emulates" : { },
     "meta6" : "0",
