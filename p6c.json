@@ -7592,14 +7592,15 @@
     ],
     "description" : "Simple serialisation of objects to JSON",
     "test-depends" : [
-      "Test"
+      "Test",
+      "JSON::Fast"
     ],
     "tags" : [
       "object",
       "serialisation",
       "JSON"
     ],
-    "version" : "0.0.9",
+    "version" : "0.0.10",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
