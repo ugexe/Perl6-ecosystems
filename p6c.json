@@ -12218,6 +12218,10 @@
     "provides" : {
       "Movieinfo" : "lib/Movieinfo.pm6"
     },
+    "depends" : [
+      "JSON::Fast",
+      "Net::HTTP::GET"
+    ],
     "description" : "Get Movie Info",
     "version" : "0.1.1",
     "authors" : [
