@@ -12191,5 +12191,25 @@
     "authors" : [
       "Rajkumar Reddy"
     ]
+  },
+  {
+    "name" : "Algorithm::Tarjan",
+    "source-url" : "git://github.com/finanalyst/p6-Algorithm-Tarjan.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "provides" : {
+      "Algorithm::Tarjan" : "lib/Algorithm/Tarjan.pm6"
+    },
+    "depends" : [ ],
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Find cycles in a directed graph using Tarjan's strongly connected component algorithm",
+    "version" : "0.01",
+    "authors" : [
+      "Richard Hainsworth aka finanalyst"
+    ]
   }
 ]
