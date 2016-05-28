@@ -8722,6 +8722,31 @@
     ]
   },
   {
+    "name" : "Digest::MurmurHash3",
+    "source-url" : "git://github.com/yowcow/p6-Digest-MurmurHash3.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
+    "provides" : {
+      "Digest::MurmurHash3" : "lib/Digest/MurmurHash3.pm6"
+    },
+    "depends" : [
+      "LibraryMake",
+      "NativeCall"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "MurmurHash3 implementation for Perl 6",
+    "version" : "0.0.1",
+    "authors" : [
+      "yowcow"
+    ]
+  },
+  {
     "name" : "String::CamelCase",
     "source-url" : "git@github.com:yowcow/p6-String-CamelCase.git",
     "perl" : "6.c",
