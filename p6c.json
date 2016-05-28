@@ -7676,9 +7676,10 @@
     ],
     "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON",
     "test-depends" : [
+      "JSON::Fast",
       "Test"
     ],
-    "version" : "0.0.6",
+    "version" : "0.0.7",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
