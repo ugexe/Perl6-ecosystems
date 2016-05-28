@@ -12252,5 +12252,22 @@
     "authors" : [
       "Rajkumar Reddy"
     ]
+  },
+  {
+    "name" : "IO::TailFile",
+    "source-url" : "git://github.com/skaji/perl6-tail.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "provides" : {
+      "IO::TailFile" : "lib/IO/TailFile.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "emulation of tail -f",
+    "version" : "*",
+    "authors" : [
+      "Shoichi Kaji"
+    ]
   }
 ]
