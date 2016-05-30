@@ -8075,7 +8075,7 @@
     "depends" : [ ],
     "description" : "URI Templates as per https://tools.ietf.org/html/rfc6570",
     "test-depends" : [
-      "JSON::Tiny",
+      "JSON::Fast",
       "Test",
       "Test::META"
     ],
@@ -8085,7 +8085,7 @@
       "Template",
       "RFC"
     ],
-    "version" : "0.0.4",
+    "version" : "0.0.5",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
