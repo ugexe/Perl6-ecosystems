@@ -3139,6 +3139,9 @@
     "name" : "GTK::Scintilla",
     "source-url" : "git://github.com/azawawi/perl6-gtk-scintilla.git",
     "perl" : "6.c",
+    "build-depends" : [
+      "panda"
+    ],
     "provides" : {
       "GTK::Scintilla" : "lib/GTK/Scintilla.pm6"
     },
