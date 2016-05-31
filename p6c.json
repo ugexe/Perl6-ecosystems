@@ -3139,10 +3139,14 @@
     "name" : "GTK::Scintilla",
     "source-url" : "git://github.com/azawawi/perl6-gtk-scintilla.git",
     "perl" : "6.c",
+    "resources" : [
+      "libwidget.so"
+    ],
     "build-depends" : [
       "panda"
     ],
     "provides" : {
+      "GTK::Scintilla::Raw" : "lib/GTK/Scintilla/Raw.pm6",
       "GTK::Scintilla" : "lib/GTK/Scintilla.pm6"
     },
     "repo-type" : "git",
