@@ -12292,5 +12292,36 @@
     "authors" : [
       "Shoichi Kaji"
     ]
+  },
+  {
+    "name" : "Hashids",
+    "support" : {
+      "source" : "https://github.com/kalkin/perl6-hashids.git",
+      "license" : "http://www.opensource.org/licenses/mit-license.php",
+      "bugtracker" : "https://github.com/kalkin/perl6-hashids/issues"
+    },
+    "source-url" : "https://github.com/kalkin/perl6-hashids.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Hashids" : "lib/Hashids.pm6"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "hashids",
+      "hashid",
+      "hash",
+      "id",
+      "short hash",
+      "youtube hash",
+      "bitly hash"
+    ],
+    "description" : "Hashids \u2014 generate short and reversable hashes from numbers.",
+    "version" : "0.1",
+    "authors" : [
+      "Bahtiar `kalkin-` Gadimov"
+    ]
   }
 ]
