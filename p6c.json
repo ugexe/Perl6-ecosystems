@@ -12323,5 +12323,25 @@
     "authors" : [
       "Bahtiar `kalkin-` Gadimov"
     ]
+  },
+  {
+    "name" : "WWW::DuckDuckGo",
+    "source-url" : "git://github.com/Altai-man/p6-WWW-DuckDuckGo.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "author" : "github:Altai-man",
+    "provides" : {
+      "WWW::DuckDuckGo::Icon" : "lib/WWW/DuckDuckGo/Icon.pm6",
+      "WWW::DuckDuckGo" : "lib/WWW/DuckDuckGo.pm6",
+      "WWW::DuckDuckGo::Link" : "lib/WWW/DuckDuckGo/Link.pm6",
+      "WWW::DuckDuckGo::ZeroClickInfo" : "lib/WWW/DuckDuckGo/ZeroClickInfo.pm6"
+    },
+    "depends" : [
+      "URI",
+      "HTTP::UserAgent",
+      "JSON::Fast"
+    ],
+    "description" : "Bindings to DuckDuckGo search API",
+    "version" : "0.1.0"
   }
 ]
