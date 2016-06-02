@@ -8748,7 +8748,11 @@
     "name" : "Digest::MurmurHash3",
     "source-url" : "git://github.com/yowcow/p6-Digest-MurmurHash3.git",
     "perl" : "6.c",
-    "resources" : [ ],
+    "resources" : [
+      "libmurmurhash3.dylib",
+      "libmurmurhash3.dll",
+      "libmurmurhash3.so"
+    ],
     "build-depends" : [
       "LibraryMake"
     ],
@@ -8764,7 +8768,7 @@
       "Test::META"
     ],
     "description" : "MurmurHash3 implementation for Perl 6",
-    "version" : "0.1.1",
+    "version" : "0.1.3",
     "authors" : [
       "yowcow"
     ]
