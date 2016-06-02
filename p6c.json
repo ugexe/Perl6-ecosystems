@@ -4117,6 +4117,11 @@
     "name" : "GTK::Simple",
     "source-url" : "git://github.com/perl6/gtk-simple.git",
     "perl" : "6.c",
+    "build-depends" : [
+      "LWP::Simple",
+      "panda",
+      "Shell::Command"
+    ],
     "provides" : {
       "GTK::Simple::Switch" : "lib/GTK/Simple/Switch.pm6",
       "GTK::Simple::Raw" : "lib/GTK/Simple/Raw.pm6",
@@ -4153,11 +4158,8 @@
       "GTK::Simple::GDK" : "lib/GTK/Simple/GDK.pm6"
     },
     "repo-type" : "git",
-    "depends" : [
-      "LWP::Simple"
-    ],
     "description" : "Simple GTK 3 binding using NativeCall",
-    "version" : "0.1.2"
+    "version" : "0.1.3"
   },
   {
     "name" : "Cairo",
