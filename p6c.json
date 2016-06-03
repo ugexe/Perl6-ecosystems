@@ -632,8 +632,15 @@
     "name" : "XML",
     "source-url" : "git://github.com/supernovus/exemel.git",
     "provides" : {
+      "XML::Comment" : "lib/XML/Comment.pm6",
+      "XML::Document" : "lib/XML/Document.pm6",
       "XML::Grammar" : "lib/XML/Grammar.pm6",
-      "XML" : "lib/XML.pm6"
+      "XML::Node" : "lib/XML/Node.pm6",
+      "XML::Element" : "lib/XML/Element.pm6",
+      "XML::CDATA" : "lib/XML/CDATA.pm6",
+      "XML" : "lib/XML.pm6",
+      "XML::PI" : "lib/XML/PI.pm6",
+      "XML::Text" : "lib/XML/Text.pm6"
     },
     "depends" : [ ],
     "description" : "A full-featured, pure-perl XML library (parsing, manipulation, emitting, queries, etc.)",
