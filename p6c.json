@@ -12361,5 +12361,17 @@
     ],
     "description" : "Bindings to DuckDuckGo search API",
     "version" : "0.1.0"
+  },
+  {
+    "name" : "Bencode",
+    "source-url" : "git://github.com/palapitta/Bencode",
+    "provides" : {
+      "Bencode" : "lib/Bencode.pm6"
+    },
+    "description" : "Encode and Decode Bencoding strings",
+    "version" : "0.1.1",
+    "authors" : [
+      "Rajkumar Reddy"
+    ]
   }
 ]
