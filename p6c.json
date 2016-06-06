@@ -8744,14 +8744,14 @@
       "Algorithm::BloomFilter" : "lib/Algorithm/BloomFilter.pm6"
     },
     "depends" : [
-      "Digest::SHA"
+      "Digest::MurmurHash3"
     ],
     "test-depends" : [
       "Test",
       "Test::META"
     ],
     "description" : "A bloom filter implementation in Perl 6",
-    "version" : "0.0.2",
+    "version" : "0.1.0",
     "authors" : [
       "yowcow"
     ]
