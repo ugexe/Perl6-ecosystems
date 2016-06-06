@@ -442,6 +442,26 @@
     "version" : "*"
   },
   {
+    "name" : "Refine",
+    "source-url" : "git://github.com/MARTIMM/config-datalang-refine.git",
+    "perl" : "6.c",
+    "author" : "Marcel Timmerman",
+    "provides" : {
+      "Config::DataLang::Refine" : "lib/Config/DataLang/Refine.pm6",
+      "Refine.pod" : "doc/Refine.pod",
+      "Refine.pdf" : "doc/Refine.pdf"
+    },
+    "depends" : [
+      "Config::TOML",
+      "JSON::Fast",
+      "File::HomeDir"
+    ],
+    "license" : "The Artistic License 2.0",
+    "description" : "Refinements to the use of Config::TOML",
+    "version" : "0.3.3",
+    "authors" : "Marcel Timmerman"
+  },
+  {
     "name" : "IO::Capture::Simple",
     "source-url" : "git://github.com/sergot/IO-Capture-Simple.git",
     "provides" : {
