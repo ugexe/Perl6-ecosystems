@@ -4077,6 +4077,7 @@
     "provides" : {
       "Web::Scraper" : "lib/Web/Scraper.pm6"
     },
+    "auth" : "github:tony-o",
     "depends" : [
       "LWP::Simple",
       "HTML::Parser::XML",
@@ -4684,6 +4685,7 @@
     "name" : "Pluggable",
     "source-url" : "git://github.com/tony-o/perl6-pluggable.git",
     "author" : "Tony ODell",
+    "auth" : "github:tony-o",
     "provides" : {
       "Pluggable" : "lib/Pluggable.pm6"
     },
@@ -4764,6 +4766,7 @@
       "Operator::feq" : "lib/Operator/feq.pm6",
       "Operator::feq::Levenshtein" : "lib/Operator/feq/Levenshtein.pm6"
     },
+    "auth" : "github:tony-o",
     "depends" : [
       "Text::Levenshtein::Damerau"
     ],
@@ -4956,6 +4959,7 @@
   {
     "name" : "Slang::SQL",
     "source-url" : "git://github.com/tony-o/perl6-slang-sql.git",
+    "auth" : "github:tony-o",
     "provides" : {
       "Slang::SQL" : "lib/Slang/SQL.pm6"
     },
@@ -5450,6 +5454,7 @@
       "bugtracker" : "https://github.com/tony-o/perl6-event-emitter/issues"
     },
     "perl" : "v6.0.0",
+    "auth" : "github:tony-o",
     "provides" : {
       "Event::Emitter::Role::Node" : "lib/Event/Emitter/Role/Node.pm6",
       "Event::Emitter" : "lib/Event/Emitter.pm6",
@@ -5962,6 +5967,7 @@
   {
     "name" : "HTTP::Server",
     "source-url" : "git://github.com/tony-o/perl6-http-server.git",
+    "author" : "github:tony-o",
     "provides" : {
       "HTTP::Server" : "lib/HTTP/Server.pm6",
       "HTTP::Request" : "lib/HTTP/Request.pm6",
@@ -5977,6 +5983,7 @@
     "provides" : {
       "HTTP::Server::Logger" : "lib/HTTP/Server/Logger.pm6"
     },
+    "auth" : "github:tony-o",
     "depends" : [
       "DateTime::Format"
     ],
@@ -6220,6 +6227,7 @@
     "provides" : {
       "Data::Dump" : "lib/Data/Dump.pm6"
     },
+    "auth" : "github:tony-o",
     "depends" : [ ],
     "description" : "a colorful? data dumper for perl6",
     "test-depends" : [
@@ -6246,6 +6254,7 @@
   {
     "name" : "Hiker",
     "source-url" : "git://github.com/tony-o/perl6-hiker.git",
+    "auth" : "github:tony-o",
     "provides" : {
       "Hiker::Render" : "lib/Hiker/Render.pm6",
       "Hiker" : "lib/Hiker.pm6",
@@ -7621,6 +7630,7 @@
   {
     "name" : "Module::Does",
     "source-url" : "git://github.com/tony-o/perl6-module-does.git",
+    "auth" : "github:tony-o",
     "provides" : {
       "Module::Does" : "lib/Module/Does.pm6"
     },
@@ -7631,6 +7641,7 @@
   {
     "name" : "HTML::Parser",
     "source-url" : "git://github.com/tony-o/perl6-html-parser.git",
+    "auth" : "github:tony-o",
     "provides" : {
       "HTML::Parser" : "lib/HTML/Parser.pm6"
     },
