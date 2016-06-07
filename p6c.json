@@ -448,8 +448,7 @@
     "author" : "Marcel Timmerman",
     "provides" : {
       "Config::DataLang::Refine" : "lib/Config/DataLang/Refine.pm6",
-      "Refine.pod" : "doc/Refine.pod",
-      "Refine.pdf" : "doc/Refine.pdf"
+      "Refine.pod" : "doc/Refine.pod"
     },
     "depends" : [
       "Config::TOML",
@@ -457,7 +456,7 @@
       "File::HomeDir"
     ],
     "license" : "The Artistic License 2.0",
-    "description" : "Refinements to the use of some configuration language such as Config::TOML",
+    "description" : "Refinements on use of configurations loaded with parsers such as found in Config::TOML",
     "version" : "0.3.3",
     "authors" : "Marcel Timmerman"
   },
