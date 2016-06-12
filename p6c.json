@@ -12431,5 +12431,19 @@
     "authors" : [
       "titsuki"
     ]
+  },
+  {
+    "name" : "Config::Netrc",
+    "source-url" : "git://github.com/Altai-man/perl6-Config-Netrc.git",
+    "support" : {
+      "bugtracker" : "https://github.com/Altai-man/perl6-Config-Netrc/issues"
+    },
+    "author" : "github:Altai-man",
+    "provides" : {
+      "Config::Netrc" : "lib/Config/Netrc.pm6"
+    },
+    "depends" : [ ],
+    "description" : ".netrc file parser module for Perl 6",
+    "version" : "*"
   }
 ]
