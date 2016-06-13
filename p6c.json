@@ -4624,9 +4624,6 @@
     "resources" : [
       "libraries/p5helper"
     ],
-    "build-depends" : [
-      "panda"
-    ],
     "author" : "github:niner",
     "provides" : {
       "Inline::Perl5" : "lib/Inline/Perl5.pm6"
@@ -4640,7 +4637,7 @@
       "File::Temp"
     ],
     "description" : "Use Perl 5 code in a Perl 6 program",
-    "version" : "0.6",
+    "version" : "0.7",
     "authors" : [
       "Stefan Seifert"
     ]
