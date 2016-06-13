@@ -12445,5 +12445,26 @@
     "depends" : [ ],
     "description" : ".netrc file parser module for Perl 6",
     "version" : "*"
+  },
+  {
+    "name" : "Config::From",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Config-From.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "Config::From" : "lib/Config/From.pm6"
+    },
+    "depends" : [
+      "JSON::Fast"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Load configuration from file to variables via traits",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
