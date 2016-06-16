@@ -12486,5 +12486,25 @@
     "authors" : [
       "Alexey Melezhik"
     ]
+  },
+  {
+    "name" : "Quantum::Collapse",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Quantum-Collapse.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "Quantum::Collapse" : "lib/Quantum/Collapse.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Collapse allomophic types into their components",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
