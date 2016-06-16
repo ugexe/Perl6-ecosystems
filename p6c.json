@@ -12465,5 +12465,26 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "source-type" : "git",
+    "name" : "Sparrowdo",
+    "source-url" : "https://github.com/melezhik/sparrowdo.git",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowdo.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowdo/issues"
+    },
+    "provides" : {
+      "Sparrowdo" : "lib/Sparrowdo.pm6"
+    },
+    "depends" : [
+      "Terminal::ANSIColor",
+      "JSON::Tiny"
+    ],
+    "description" : "Simple configuration engine based on sparrow plugin system",
+    "version" : "*",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
   }
 ]
