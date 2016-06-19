@@ -12438,7 +12438,8 @@
     },
     "author" : "github:Altai-man",
     "provides" : {
-      "Config::Netrc" : "lib/Config/Netrc.pm6"
+      "Config::Netrc" : "lib/Config/Netrc.pm6",
+      "Config::Netrc::Writer" : "lib/Config/Netrc/Writer.pm6"
     },
     "depends" : [ ],
     "description" : ".netrc file parser module for Perl 6",
