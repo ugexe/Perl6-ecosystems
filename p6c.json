@@ -3281,6 +3281,7 @@
     "source-url" : "git://github.com/dagurval/HTML-Strip.git",
     "author" : "Dagur Valberg Johannsson",
     "provides" : {
+      "HTML::Strip::Decode" : "lib/HTML/Strip/Decode.pm6",
       "HTML::Strip" : "lib/HTML/Strip.pm6"
     },
     "depends" : [ ],
