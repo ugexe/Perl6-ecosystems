@@ -12507,5 +12507,25 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Pretty::Topic",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Pretty-Topic.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "Pretty::Topic" : "lib/Pretty/Topic.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Alias $_ topical variable to something prettier",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
