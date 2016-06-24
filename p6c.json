@@ -12527,5 +12527,16 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Slang::Mosdef",
+    "source-url" : "git://github.com/bduggan/mosdef.git",
+    "author" : "github:bduggan",
+    "provides" : {
+      "Slang::Mosdef" : "lib/Slang/Mosdef.pm"
+    },
+    "depends" : [ ],
+    "description" : "Use def and \u03bb as declarators.",
+    "version" : "0.0.1"
   }
 ]
