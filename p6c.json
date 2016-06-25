@@ -7137,7 +7137,8 @@
       "Pastebin::Gist" : "lib/Pastebin/Gist.pm6"
     },
     "depends" : [
-      "HTTP::Tinyish"
+      "HTTP::Tinyish",
+      "JSON::Fast"
     ],
     "test-depends" : [
       "Test"
