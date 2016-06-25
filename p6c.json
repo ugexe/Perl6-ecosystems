@@ -12538,5 +12538,22 @@
     "depends" : [ ],
     "description" : "Use def and \u03bb as declarators.",
     "version" : "0.0.1"
+  },
+  {
+    "name" : "\u05d5\u05d5\u05d5",
+    "source-url" : "git://github.com/zoffixznet/perl6-666.git",
+    "perl" : "6.c",
+    "provides" : {
+      "\u05d5\u05d5\u05d5" : "lib/\u05d5\u05d5\u05d5.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "666th module in the Perl 6 Ecosystem is properly Evil!",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
