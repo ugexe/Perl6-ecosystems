@@ -9493,6 +9493,21 @@
     ]
   },
   {
+    "name" : "Shell::Capture",
+    "source-url" : "https://github.com/ppentchev/Shell-Capture.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "provides" : {
+      "Shell::Capture" : "lib/Shell/Capture.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Capture a command's output and exit code",
+    "version" : "0.1.0",
+    "authors" : [
+      "Peter Pentchev"
+    ]
+  },
+  {
     "name" : "Compress::Bzip2::Raw",
     "source-url" : "git://github.com/Altai-man/perl6-Compress-Bzip2-Raw.git",
     "perl" : "6.*",
