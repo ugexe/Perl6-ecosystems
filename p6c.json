@@ -6826,7 +6826,9 @@
     "provides" : {
       "HTTP::MultiPartParser" : "lib/HTTP/MultiPartParser.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "JSON::Fast"
+    ],
     "description" : "",
     "version" : "*",
     "authors" : [
