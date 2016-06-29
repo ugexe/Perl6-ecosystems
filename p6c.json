@@ -12602,5 +12602,18 @@
     "depends" : [ ],
     "description" : "Perl 6 port of Perl's Text::Tabs",
     "version" : "0.1"
+  },
+  {
+    "name" : "TinyID",
+    "source-url" : "git://github.com/bbkr/TinyID.git",
+    "authority" : "bbkr",
+    "author" : "Pawel Pabian",
+    "provides" : {
+      "TinyID" : "lib/TinyID.pm"
+    },
+    "repo-type" : "git",
+    "depends" : [ ],
+    "description" : "Shorten and obfuscate IDs.",
+    "version" : "1.0.0"
   }
 ]
