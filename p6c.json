@@ -12574,5 +12574,19 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Text::Wrap",
+    "source-url" : "git://github.com/jkramer/p6-Text-Wrap.git",
+    "build-depends" : [ ],
+    "author" : "Jonas Kramer <jkramer@mark17.net>",
+    "provides" : {
+      "Text::Wrap" : "lib/Text/Wrap.pm6"
+    },
+    "depends" : [ ],
+    "repo-type" : "git",
+    "test-depends" : [ ],
+    "description" : "Wrap text.",
+    "version" : "0.0.1"
   }
 ]
