@@ -12617,5 +12617,16 @@
     "depends" : [ ],
     "description" : "Shorten and obfuscate IDs.",
     "version" : "1.0.0"
+  },
+  {
+    "name" : "DateTime::DST",
+    "source-url" : "git://github.com/zostay/DateTime-DST.git",
+    "author" : "Andrew Sterling Hanenkamp",
+    "provides" : {
+      "ArrayHash" : "lib/DateTime/DST.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Make localtime[8] available as is-dst to Perl 6",
+    "version" : "0.1"
   }
 ]
