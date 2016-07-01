@@ -12628,5 +12628,21 @@
     "depends" : [ ],
     "description" : "Make localtime[8] available as is-dst to Perl 6",
     "version" : "0.1"
+  },
+  {
+    "source-type" : "git",
+    "name" : "File::Presence",
+    "support" : {
+      "source" : "https://github.com/atweiden/file-presence",
+      "bugtracker" : "https://github.com/atweiden/file-presence/issues"
+    },
+    "source-url" : "git://github.com/atweiden/file-presence.git",
+    "author" : "Andy Weidenbaum",
+    "provides" : {
+      "File::Presence" : "lib/File/Presence.pm"
+    },
+    "license" : "http://unlicense.org/UNLICENSE",
+    "description" : "Check that a file / directory exists and is readable",
+    "version" : "0.0.1"
   }
 ]
