@@ -9067,13 +9067,14 @@
       "AWS::Pricing" : "lib/AWS/Pricing.pm6"
     },
     "depends" : [
-      "HTTP::Tinyish"
+      "HTTP::Tinyish",
+      "Test"
     ],
     "test-depends" : [
       "Test"
     ],
     "description" : "AWS Price List API library",
-    "version" : "0.1.0",
+    "version" : "0.2.0",
     "authors" : [
       "Sam Morrison"
     ]
