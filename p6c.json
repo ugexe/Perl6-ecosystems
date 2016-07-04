@@ -12645,5 +12645,21 @@
     "license" : "http://unlicense.org/UNLICENSE",
     "description" : "Check that a file / directory exists and is readable",
     "version" : "0.0.1"
+  },
+  {
+    "source-type" : "git",
+    "name" : "Operator::defined-alternation",
+    "source-url" : "git://github.com/gfldex/perl6-operator-defined-alternation.git",
+    "support" : {
+      "source" : "https://github.com/gfldex/perl6-operator-defined-alternation"
+    },
+    "author" : "Wenzel P. P. Peppmeyer",
+    "provides" : {
+      "Operator::defined-alternation" : "lib/Operator/defined-alternation.pm6"
+    },
+    "depends" : [ ],
+    "license" : "https://opensource.org/licenses/Artistic-2.0",
+    "description" : "Provides a ?? !! equivalent that tests for definedness instread of trueness.",
+    "version" : "0.0.1"
   }
 ]
