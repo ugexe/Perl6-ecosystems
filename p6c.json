@@ -12688,5 +12688,19 @@
     "license" : "https://opensource.org/licenses/Artistic-2.0",
     "description" : "Provides a ?? !! equivalent that tests for definedness instread of trueness.",
     "version" : "0.0.1"
+  },
+  {
+    "name" : "Test::NoTabs",
+    "source-url" : "git://github.com/Altai-man/perl6-Test-NoTabs.git",
+    "support" : {
+      "bugtracker" : "https://github.com/Altai-man/perl6-Test-NoTabs/issues"
+    },
+    "author" : "github:Altai-man",
+    "provides" : {
+      "Test::NoTabs" : "lib/Test/NoTabs.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Test module for tabs checking",
+    "version" : "0.1"
   }
 ]
