@@ -9205,6 +9205,27 @@
     ]
   },
   {
+    "name" : "CompUnit::Repository::Tar",
+    "source-url" : "git://github.com/ugexe/Perl6-CompUnit--Repository--Tar.git",
+    "support" : {
+      "bugtracker" : "https://github.com/ugexe/Perl6-CompUnit--Repository--Tar/issues"
+    },
+    "owner" : "ugexe",
+    "perl" : "6",
+    "provides" : {
+      "CompUnit::Repository::Tar" : "lib/CompUnit/Repository/Tar.pm6"
+    },
+    "auth" : "github:ugexe",
+    "depends" : [
+      "Distribution::Common"
+    ],
+    "description" : "Load modules directory from a .tar.gz archive",
+    "version" : "*",
+    "authors" : [
+      "ugexe"
+    ]
+  },
+  {
     "name" : "Distribution::Common",
     "source-url" : "git://github.com/ugexe/Perl6-Distribution--Common.git",
     "support" : {
