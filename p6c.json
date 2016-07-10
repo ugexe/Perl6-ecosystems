@@ -9234,15 +9234,14 @@
     "owner" : "ugexe",
     "perl" : "6",
     "provides" : {
-      "Distribution::IO::Proc::Tar" : "lib/Distribution/IO/Proc.pm6",
+      "Distribution::IO::Proc::Tar" : "lib/Distribution/IO/Proc/Tar.pm6",
       "Distribution::IO" : "lib/Distribution/IO.pm6",
-      "Distribution::Common::Git" : "lib/Distribution/Common.pm6",
-      "Distribution::Common::Tar" : "lib/Distribution/Common.pm6",
-      "Distribution::IO::Proc::Git" : "lib/Distribution/IO/Proc.pm6",
-      "Distribution::IO::Proc" : "lib/Distribution/IO/Proc.pm6",
+      "Distribution::Common::Git" : "lib/Distribution/Common/Git.pm6",
+      "Distribution::Common::Tar" : "lib/Distribution/Common/Tar.pm6",
+      "Distribution::IO::Proc::Git" : "lib/Distribution/IO/Proc/Git.pm6",
       "Distribution::Common" : "lib/Distribution/Common.pm6",
-      "Distribution::Common::Directory" : "lib/Distribution/Common.pm6",
-      "Distribution::IO::Directory" : "lib/Distribution/IO.pm6"
+      "Distribution::Common::Directory" : "lib/Distribution/Common/Directory.pm6",
+      "Distribution::IO::Directory" : "lib/Distribution/IO/Directory.pm6"
     },
     "auth" : "github:ugexe",
     "depends" : [ ],
