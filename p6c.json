@@ -12722,5 +12722,30 @@
     "depends" : [ ],
     "description" : "Test module for tabs checking",
     "version" : "0.1"
+  },
+  {
+    "name" : "RT::REST::Client",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-RT-REST-Client.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "RT::REST::Client" : "lib/RT/REST/Client.pm6"
+    },
+    "depends" : [
+      "IO::Socket::SSL",
+      "HTTP::UserAgent",
+      "URI",
+      "URI::Escape"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Use Request Tracker's (RT) REST client interface",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
