@@ -12747,5 +12747,28 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Uzu",
+    "source-url" : "git@gitlab.com:samcns/uzu.git",
+    "author" : "Sam Morrison <sam@linux.com>",
+    "provides" : {
+      "Uzu" : "lib/Uzu.pm6"
+    },
+    "depends" : [
+      "Config::INI",
+      "File::Find",
+      "JSON::Tiny",
+      "Terminal::ANSIColor",
+      "Template::Mustache",
+      "IO::Notification::Recursive",
+      "Bailador",
+      "YAMLish"
+    ],
+    "test-depends" : [
+      "HTTP::Client"
+    ],
+    "description" : "Uzu is a static site generator with built-in web server, file modification watcher, i18n, themes, and multi-page support",
+    "version" : "0.0.2"
   }
 ]
