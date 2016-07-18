@@ -442,6 +442,22 @@
     "version" : "*"
   },
   {
+    "name" : "Semaphore::ReadersWriters",
+    "source-url" : "git://github.com/MARTIMM/semaphore-readerswriters.git",
+    "perl" : "6.c",
+    "author" : "Marcel Timmerman",
+    "provides" : {
+      "Semaphore::ReadersWriters" : "lib/Semaphore/ReadersWriters.pm6"
+    },
+    "depends" : [ ],
+    "license" : "The Artistic License 2.0",
+    "description" : "Semaphore Readers Writers Pattern",
+    "version" : "v0.2.1",
+    "authors" : [
+      "Marcel Timmerman"
+    ]
+  },
+  {
     "name" : "Config::DataLang::Refine",
     "source-url" : "git://github.com/MARTIMM/config-datalang-refine.git",
     "perl" : "6.c",
