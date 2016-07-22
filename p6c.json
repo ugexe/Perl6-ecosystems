@@ -12788,5 +12788,23 @@
     ],
     "description" : "Uzu is a static site generator with built-in web server, file modification watcher, i18n, themes, and multi-page support",
     "version" : "0.0.5"
+  },
+  {
+    "source-type" : "git",
+    "name" : "Pod::To::BigPage",
+    "source-url" : "git://github.com/gfldex/perl6-pod-to-bigpage.git",
+    "support" : {
+      "source" : "https://github.com/gfldex/perl6-pod-to-bigpage"
+    },
+    "author" : "Wenzel P. P. Peppmeyer",
+    "provides" : {
+      "Pod::To::BigPage" : "lib/Pod/To/BigPage.pm6"
+    },
+    "depends" : [
+      "LWP::Simple"
+    ],
+    "license" : "https://opensource.org/licenses/Artistic-2.0",
+    "description" : "Render many pod6-files into one (big) html-file.",
+    "version" : "0.0.1"
   }
 ]
