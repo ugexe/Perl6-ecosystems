@@ -9269,6 +9269,30 @@
     ]
   },
   {
+    "name" : "Distribution::Common::Remote",
+    "source-url" : "git://github.com/ugexe/Perl6-Distribution--Common--Remote.git",
+    "support" : {
+      "bugtracker" : "https://github.com/ugexe/Perl6-Distribution--Common--Remote/issues"
+    },
+    "owner" : "ugexe",
+    "perl" : "6",
+    "provides" : {
+      "Distribution::Common::Remote::Github" : "lib/Distribution/Common/Remote/Github.pm6",
+      "Distribution::IO::Remote::Github" : "lib/Distribution/IO/Remote/Github.pm6"
+    },
+    "auth" : "github:ugexe",
+    "depends" : [
+      "IO::Socket::SSL",
+      "Net::HTTP",
+      "Distribution::Common"
+    ],
+    "description" : "Create an installable Distribution from common remote sources",
+    "version" : "*",
+    "authors" : [
+      "ugexe"
+    ]
+  },
+  {
     "name" : "Grammar::HTTP",
     "source-url" : "git://github.com/ugexe/Perl6-Grammar--HTTP.git",
     "support" : {
