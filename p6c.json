@@ -12844,5 +12844,21 @@
     "authors" : [
       "Fernando Santagata"
     ]
+  },
+  {
+    "name" : "Ecosystem::Test",
+    "perl" : "6.c",
+    "provides" : {
+      "Ecosystem::Test" : "lib/Ecosystem/Test.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Dummy module for testing ecosystem pipeline",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
