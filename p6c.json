@@ -12832,5 +12832,22 @@
     "license" : "https://opensource.org/licenses/Artistic-2.0",
     "description" : "Render many pod6-files into one (big) html-file.",
     "version" : "0.0.1"
+  },
+  {
+    "name" : "Desktop::Notify",
+    "source-url" : "",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "provides" : {
+      "Desktop::Notify" : "lib/Desktop/Notify.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "A simple interface to libnotify",
+    "version" : "0.1",
+    "authors" : [
+      "Fernando Santagata"
+    ]
   }
 ]
