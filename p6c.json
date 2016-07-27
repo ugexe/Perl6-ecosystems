@@ -11553,17 +11553,6 @@
     ]
   },
   {
-    "name" : "List::Combinations",
-    "source-url" : "git://github.com/masterduke17/list-combinations.git",
-    "author" : "Daniel Green",
-    "provides" : {
-      "List::Combinations" : "lib/List/Combinations.pm6"
-    },
-    "depends" : [ ],
-    "description" : "A quick and dirty way to generate an array of all n-combinations of a list or all permutations",
-    "version" : "1.4.0"
-  },
-  {
     "name" : "IRC::Async",
     "support" : {
       "source" : "git://github.com/scovit/perl6-IRC-Async.git"
@@ -12211,17 +12200,6 @@
     "authors" : [
       "Siavash Askari Nasr"
     ]
-  },
-  {
-    "name" : "Text::Diff::Sift4",
-    "source-url" : "git://github.com/masterduke17/text-diff-sift4.git",
-    "author" : "Daniel Green",
-    "provides" : {
-      "Text::Diff::Sift4" : "lib/Text/Diff/Sift4.pm6"
-    },
-    "depends" : [ ],
-    "description" : "A quick string distance algorithm",
-    "version" : "1.0.0"
   },
   {
     "name" : "Acme::Anguish",
