@@ -12838,5 +12838,20 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Test::Deeply::Relaxed",
+    "source-url" : "https://github.com/ppentchev/perl6-Test-Deeply-Relaxed.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "provides" : {
+      "Test::Deeply::Relaxed" : "lib/Test/Deeply/Relaxed.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Compare two complex data structures loosely",
+    "version" : "0.1.0",
+    "authors" : [
+      "Peter Pentchev"
+    ]
   }
 ]
