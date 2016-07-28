@@ -12862,6 +12862,7 @@
       "OAuth2::Client::Google" : "lib/OAuth2/Client/Google.pm"
     },
     "depends" : [
+      "HTTP::UserAgent",
       "IO::Socket::SSL",
       "JSON::Fast"
     ],
