@@ -12870,5 +12870,24 @@
     "authors" : [
       "Brian Duggan"
     ]
+  },
+  {
+    "name" : "Getopt::Std",
+    "source-url" : "https://github.com/ppentchev/perl6-Getopt-Std.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "provides" : {
+      "Getopt::Std" : "lib/Getopt/Std.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::Deeply::Relaxed",
+      "Test::META"
+    ],
+    "description" : "Process single-character options with option clustering",
+    "version" : "0.1.0",
+    "authors" : [
+      "Peter Pentchev"
+    ]
   }
 ]
