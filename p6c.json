@@ -12891,5 +12891,17 @@
     "authors" : [
       "Peter Pentchev"
     ]
+  },
+  {
+    "source-type" : "git",
+    "name" : "Math::Arrow",
+    "source-url" : "git://github.com/ajs/perl6-Math-Arrow",
+    "perl" : "6.c",
+    "provides" : {
+      "Math::Arrow" : "lib/Math/Arrow.pm"
+    },
+    "depends" : [ ],
+    "description" : "Knuth arrow notation in Perl 6",
+    "version" : "0.1.0"
   }
 ]
