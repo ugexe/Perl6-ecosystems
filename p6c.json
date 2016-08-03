@@ -10749,10 +10749,10 @@
   },
   {
     "name" : "Algorithm::MinMaxHeap",
-    "perl" : "6.c",
     "source-url" : "git://github.com/titsuki/p6-Algorithm-MinMaxHeap.git",
-    "build-depends" : [ ],
+    "perl" : "6.c",
     "resources" : [ ],
+    "build-depends" : [ ],
     "provides" : {
       "Algorithm::MinMaxHeap::Comparable" : "lib/Algorithm/MinMaxHeap/Comparable.pm6",
       "Algorithm::MinMaxHeap" : "lib/Algorithm/MinMaxHeap.pm6",
@@ -10761,7 +10761,7 @@
     "depends" : [ ],
     "test-depends" : [ ],
     "description" : "double ended priority queue",
-    "version" : "0.11",
+    "version" : "0.12",
     "authors" : [
       "titsuki"
     ]
