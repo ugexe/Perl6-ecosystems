@@ -12928,5 +12928,28 @@
     "depends" : [ ],
     "description" : "Knuth arrow notation in Perl 6",
     "version" : "0.1.0"
+  },
+  {
+    "name" : "CoreHackers::Sourcery",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-CoreHackers-Sourcery.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "CoreHackers::Sourcery" : "lib/CoreHackers/Sourcery.pm6"
+    },
+    "depends" : [
+      "HTTP::UserAgent"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::When",
+      "Test::META"
+    ],
+    "description" : "Helper for showing actual source code locations of core subs and methods",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
