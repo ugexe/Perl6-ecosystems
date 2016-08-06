@@ -12952,5 +12952,45 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Doublephone",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Doublephone.git"
+    },
+    "source-url" : "git://github.com/jonathanstowe/Doublephone.git",
+    "excludes" : { },
+    "build-depends" : [
+      "panda",
+      "LibraryMake"
+    ],
+    "resources" : [
+      "libraries/double_metaphone"
+    ],
+    "provides" : {
+      "Doublephone" : "lib/Doublephone.pm"
+    },
+    "superseded-by" : { },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "LibraryMake"
+    ],
+    "description" : "Implementation of the Double Metaphone phonetic encoding algorithm",
+    "test-depends" : [ ],
+    "license" : "perl",
+    "tags" : [
+      "search",
+      "phonetic",
+      "soundex",
+      "metaphone"
+    ],
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "emulates" : { },
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ],
+    "supersedes" : { }
   }
 ]
