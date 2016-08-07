@@ -1655,7 +1655,7 @@
       "MongoDB::Wire" : "lib/MongoDB/Wire.pm6",
       "MongoDB::Collection" : "lib/MongoDB/Collection.pm6",
       "MongoDB::Uri" : "lib/MongoDB/Uri.pm6",
-      "MongoDB::Config" : "lib/MongoDB/Config.pm6",
+      "MongoDB::MDBConfig" : "lib/MongoDB/MDBConfig.pm6",
       "MongoDB::Users" : "lib/MongoDB/Users.pm6",
       "MongoDB::Log" : "lib/MongoDB/Log.pm6",
       "MongoDB::Authenticate" : "lib/MongoDB/Authenticate.pm6",
@@ -1670,7 +1670,8 @@
       "BSON",
       "Digest::MD5",
       "Config::TOML",
-      "Semaphore::ReadersWriters"
+      "Semaphore::ReadersWriters",
+      "Config::DataLang::Refine"
     ],
     "license" : "The Artistic License 2.0",
     "description" : "MongoDB driver",
