@@ -1661,6 +1661,7 @@
       "MongoDB::Authenticate" : "lib/MongoDB/Authenticate.pm6",
       "MongoDB" : "lib/MongoDB.pm6",
       "MongoDB::Server::Control" : "lib/MongoDB/Server/Control.pm6",
+      "MongoDB::HL::Collection" : "lib/MongoDB/HL/Collection.pm6",
       "MongoDB::Client" : "lib/MongoDB/Client.pm6",
       "MongoDB::Server" : "lib/MongoDB/Server.pm6",
       "MongoDB::Server::Socket" : "lib/MongoDB/Server/Socket.pm6"
@@ -1668,11 +1669,12 @@
     "depends" : [
       "BSON",
       "Digest::MD5",
-      "Config::TOML"
+      "Config::TOML",
+      "Semaphore::ReadersWriters"
     ],
     "license" : "The Artistic License 2.0",
     "description" : "MongoDB driver",
-    "version" : "v0.30.5",
+    "version" : "v0.33.2",
     "authors" : [
       "Marcel Timmerman took over in Januari 2015 and is working on it until the present day",
       "Pawe\u0142 Pabian worked on it from 2011 until January 2015"
