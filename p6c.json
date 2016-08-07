@@ -12992,5 +12992,25 @@
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ],
     "supersedes" : { }
+  },
+  {
+    "name" : "MetaCPAN::Favorite",
+    "source-url" : "git://github.com/skaji/perl6-MetaCPAN-Favorite.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "provides" : {
+      "MetaCPAN::Favorite" : "lib/MetaCPAN/Favorite.pm6"
+    },
+    "depends" : [
+      "HTTP::Tinyish",
+      "JSON::Tiny"
+    ],
+    "test-depends" : [ ],
+    "description" : "consume MetaCPAN recent favorite",
+    "version" : "*",
+    "authors" : [
+      "Shoichi Kaji"
+    ]
   }
 ]
