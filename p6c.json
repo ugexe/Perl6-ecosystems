@@ -12939,17 +12939,14 @@
     "provides" : {
       "CoreHackers::Sourcery" : "lib/CoreHackers/Sourcery.pm6"
     },
-    "depends" : [
-      "HTTP::UserAgent",
-      "IO::Socket::SSL"
-    ],
+    "depends" : [ ],
     "test-depends" : [
       "Test",
       "Test::When",
       "Test::META"
     ],
     "description" : "Helper for showing actual source code locations of core subs and methods",
-    "version" : "1.001002",
+    "version" : "2.001002",
     "authors" : [
       "Zoffix Znet"
     ]
