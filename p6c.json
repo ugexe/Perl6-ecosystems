@@ -13010,5 +13010,24 @@
     "authors" : [
       "Shoichi Kaji"
     ]
+  },
+  {
+    "name" : "HTTP::HPACK",
+    "support" : {
+      "source" : "git://github.com/jnthn/p6-http-hpack.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "HTTP::HPACK" : "lib/HTTP/HPACK.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Implementation of RFC 7541 HPACK: Header Compression for HTTP/2",
+    "version" : "0.9",
+    "authors" : [
+      "Jonathan Worthington"
+    ]
   }
 ]
