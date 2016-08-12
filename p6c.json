@@ -4758,15 +4758,22 @@
   },
   {
     "name" : "OO::Monitors",
-    "source-url" : "git://github.com/jnthn/oo-monitors.git",
-    "perl" : "6",
-    "provides" : {
-      "OO::Monitors" : "lib/OO/Monitors.pm"
+    "support" : {
+      "source" : "git://github.com/jnthn/oo-monitors.git"
     },
-    "repo-type" : "git",
+    "perl" : "6.c",
+    "provides" : {
+      "OO::Monitors" : "lib/OO/Monitors.pm6"
+    },
     "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
     "description" : "Objects with mutual exclusion and condition variables",
-    "version" : "*"
+    "version" : "1.0",
+    "authors" : [
+      "Jonathan Worthington"
+    ]
   },
   {
     "name" : "OO::Actors",
