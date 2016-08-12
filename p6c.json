@@ -13036,5 +13036,21 @@
     "authors" : [
       "Jonathan Worthington"
     ]
+  },
+  {
+    "source-type" : "git",
+    "name" : "Rakudo::Slippy::Semilist",
+    "source-url" : "git://github.com/gfldex/perl6-operator-defined-alternation.git",
+    "support" : {
+      "source" : "https://github.com/gfldex/gfldex/perl6-rakudo-slippy-semilists"
+    },
+    "author" : "Wenzel P. P. Peppmeyer",
+    "provides" : {
+      "Rakudo::Slippy::Semilist" : "lib/Rakudo/Slippy/Semilist.pm6"
+    },
+    "depends" : [ ],
+    "license" : "https://opensource.org/licenses/Artistic-2.0",
+    "description" : "Implement postcircumfix:<{|| }> to allow coercion of Array to semilist.",
+    "version" : "0.0.1"
   }
 ]
