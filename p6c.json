@@ -13080,5 +13080,18 @@
     "license" : "https://opensource.org/licenses/Artistic-2.0",
     "description" : "Implement postcircumfix:<{|| }> to allow coercion of Array to semilist.",
     "version" : "0.0.1"
+  },
+  {
+    "name" : "Texas::To::Uni",
+    "source-url" : "git://github.com/Altai-man/perl6-Texas-To-Uni.git",
+    "perl" : "6.c",
+    "author" : "github:Altai-man",
+    "provides" : {
+      "Texas::To::Uni" : "lib/Texas/To/Uni.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "Library and tool to convert operators in Perl 6 source files from Texas to Unicode",
+    "version" : "0.1.0"
   }
 ]
