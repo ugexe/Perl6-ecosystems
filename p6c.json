@@ -13113,5 +13113,25 @@
     "authors" : [
       "Alexey Melezhik"
     ]
+  },
+  {
+    "source-type" : "git",
+    "name" : "Sparrowdo::Sparrow::Update",
+    "source-url" : "https://github.com/melezhik/sparrowdo-sparrow-update.git",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowdo-sparrow-update.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowdo-sparrow-update/issues"
+    },
+    "provides" : {
+      "Sparrowdo::Sparrow::Update" : "lib/Sparrowdo/Sparrow/Update.pm6"
+    },
+    "depends" : [
+      "Sparrowdo"
+    ],
+    "description" : "Sparrowdo module to install/update Sparrow toolchain on target host",
+    "version" : "*",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
   }
 ]
