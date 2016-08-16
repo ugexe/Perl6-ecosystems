@@ -5294,13 +5294,13 @@
     "source-url" : "git://github.com/avuserow/perl6-datetime-format-likego.git",
     "author" : "Adrian Kreher",
     "provides" : {
-      "DateTime::Format::LikeGo" : "lib/DateTime/Format/LikeGo.pm"
+      "DateTime::Format::LikeGo" : "lib/DateTime/Format/LikeGo.pm6"
     },
     "depends" : [
       "DateTime::Format"
     ],
     "description" : "Format dates using Go's reference format",
-    "version" : "0.0.1"
+    "version" : "0.0.2"
   },
   {
     "name" : "Inline::Lua",
