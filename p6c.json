@@ -13093,5 +13093,25 @@
     "test-depends" : [ ],
     "description" : "Library and tool to convert operators in Perl 6 source files from Texas to Unicode",
     "version" : "0.1.0"
+  },
+  {
+    "source-type" : "git",
+    "name" : "Sparrowdo::Nginx",
+    "source-url" : "https://github.com/melezhik/sparrowdo-nginx.git",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowdo-nginx.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowdo-nginx/issues"
+    },
+    "provides" : {
+      "Sparrowdo::Nginx" : "lib/Sparrowdo/Nginx.pm6"
+    },
+    "depends" : [
+      "Sparrowdo"
+    ],
+    "description" : "Sparrowdo module to install Nginx web server",
+    "version" : "*",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
   }
 ]
