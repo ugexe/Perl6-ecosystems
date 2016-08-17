@@ -13134,5 +13134,41 @@
     "authors" : [
       "Alexey Melezhik"
     ]
+  },
+  {
+    "name" : "Printer::ESCPOS",
+    "perl" : "6",
+    "source-url" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS.git",
+    "support" : {
+      "source" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS.git",
+      "bugtracker" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS/issues"
+    },
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "author" : "Shantanu Bhadoria <shantanu@cpan.org>",
+    "provides" : {
+      "Printer::ESCPOS::Network" : "lib/Printer/ESCPOS/Network.pm6",
+      "Printer::ESCPOS::Network::Async" : "lib/Printer/ESCPOS/Network/Async.pm6",
+      "Printer::ESCPOS" : "lib/Printer/ESCPOS.pm6"
+    },
+    "auth" : "github:shantanubhadoria",
+    "depends" : [ ],
+    "license" : "Artistic",
+    "tags" : [
+      "Printer",
+      "ESCPOS",
+      "Receipt",
+      "Thermal",
+      "ESC/P",
+      "EPSON"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Interface to ESCPOS printers",
+    "version" : "1.0.0",
+    "authors" : [
+      "Shantanu Bhadoria <shantanu@cpan.org>"
+    ]
   }
 ]
