@@ -13170,5 +13170,38 @@
     "authors" : [
       "Shantanu Bhadoria <shantanu@cpan.org>"
     ]
+  },
+  {
+    "name" : "CompUnit::Search",
+    "perl" : "6",
+    "source-url" : "git://github.com/shantanubhadoria/p6-CompUnit-Search.git",
+    "support" : {
+      "source" : "git://github.com/shantanubhadoria/p6-CompUnit-Search.git",
+      "bugtracker" : "git://github.com/shantanubhadoria/p6-CompUnit-Search/issues"
+    },
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "author" : "Shantanu Bhadoria <shantanu@cpan.org>",
+    "provides" : {
+      "CompUnit::Search" : "lib/CompUnit/Search.pm6"
+    },
+    "auth" : "github:shantanubhadoria",
+    "depends" : [ ],
+    "license" : "Artistic",
+    "tags" : [
+      "CompUnit",
+      "Search",
+      "Puggable",
+      "Module",
+      "Class"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "description" : "Interface to ESCPOS printers",
+    "version" : "1.0.0",
+    "authors" : [
+      "Shantanu Bhadoria <shantanu@cpan.org>"
+    ]
   }
 ]
