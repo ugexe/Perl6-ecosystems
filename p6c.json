@@ -12913,8 +12913,11 @@
       "Test::Deeply::Relaxed" : "lib/Test/Deeply/Relaxed.pm6"
     },
     "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
     "description" : "Compare two complex data structures loosely",
-    "version" : "0.1.0",
+    "version" : "0.1.1.dev1",
     "authors" : [
       "Peter Pentchev"
     ]
