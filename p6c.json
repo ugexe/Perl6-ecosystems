@@ -13212,9 +13212,6 @@
     "name" : "PKCS5",
     "source-url" : "git://github.com/MARTIMM/PKCS5",
     "perl" : "6.c",
-    "resources" : [
-      "lib/PKCS5/PBKDF2.pod"
-    ],
     "author" : "Marcel Timmerman",
     "provides" : {
       "PKCS5::PBKDF2" : "lib/PKCS5/PBKDF2.pm6"
@@ -13225,7 +13222,7 @@
     ],
     "license" : "The Artistic License 2.0",
     "description" : "PKCS #5 with PBKDF2",
-    "version" : "v0.1.1",
+    "version" : "v0.1.2",
     "authors" : [
       "Marcel Timmerman"
     ]
