@@ -13242,5 +13242,25 @@
     "authors" : [
       "github:pierre-vigier"
     ]
+  },
+  {
+    "source-type" : "git",
+    "name" : "Sparrowdo::Cpm",
+    "source-url" : "https://github.com/melezhik/sparrowdo-cpm.git",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowdo-cpm.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowdo-cpm/issues"
+    },
+    "provides" : {
+      "Sparrowdo::Cpm" : "lib/Sparrowdo/Cpm.pm6"
+    },
+    "depends" : [
+      "Sparrowdo"
+    ],
+    "description" : "Sparrowdo module to install CPAN modules using App::cpm - a fast CPAN module installer",
+    "version" : "*",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
   }
 ]
