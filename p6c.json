@@ -13226,5 +13226,21 @@
     "authors" : [
       "Marcel Timmerman"
     ]
+  },
+  {
+    "name" : "Acme::Sudoku",
+    "source-url" : "git@github.com:pierre-vigier/Perl6-Acme-Sudoku.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Acme::Sudoku" : "lib/Acme/Sudoku.pm6"
+    },
+    "depends" : [
+      "Terminal::ANSIColor"
+    ],
+    "description" : "Simple Sudoku solver",
+    "version" : "0.0.1",
+    "authors" : [
+      "github:pierre-vigier"
+    ]
   }
 ]
