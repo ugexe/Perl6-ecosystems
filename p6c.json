@@ -13302,5 +13302,26 @@
     "authors" : [
       "Armand Halbert"
     ]
+  },
+  {
+    "name" : "Auth-SCRAM",
+    "source-url" : "git://github.com/MARTIMM/Auth-SCRAM",
+    "perl" : "6.c",
+    "author" : "Marcel Timmerman",
+    "provides" : {
+      "Auth::SCRAM" : "lib/Auth/SCRAM.pm6"
+    },
+    "depends" : [
+      "Digest::HMAC",
+      "OpenSSL::Digest",
+      "Base64",
+      "PKCS5::PBKDF2"
+    ],
+    "license" : "The Artistic License 2.0",
+    "description" : "Salted Challenge Response Authentication Mechanism (SCRAM)",
+    "version" : "v0.0.2",
+    "authors" : [
+      "Marcel Timmerman"
+    ]
   }
 ]
