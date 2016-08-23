@@ -13262,5 +13262,31 @@
     "authors" : [
       "Alexey Melezhik"
     ]
+  },
+  {
+    "name" : "DOM-Tiny",
+    "source-url" : "git://github.com/zostay/p6-DOM-Tiny.git",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/zostay/p6-DOM-Tiny.git"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:zostay",
+    "provides" : {
+      "DOM::Tiny::CSS" : "lib/DOM/Tiny/CSS.pm",
+      "DOM::Tiny" : "lib/DOM/Tiny.pm",
+      "DOM::Tiny::HTML" : "lib/DOM/Tiny/HTML.pm"
+    },
+    "depends" : [ ],
+    "description" : "Very small, self-sufficient DOM parser manipulator",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Sterling Hanenkamp <hanenkamp@cpan.org>"
+    ]
   }
 ]
