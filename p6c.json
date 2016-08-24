@@ -13294,20 +13294,6 @@
     ]
   },
   {
-    "source-type" : "git",
-    "name" : "python::itertools",
-    "source-url" : "https://github.com/ahalbert/perl6-itertools",
-    "perl" : "6.*",
-    "provides" : {
-      "itertools" : "lib/python/itertools.pm"
-    },
-    "description" : "Port of python's itertools to perl6.",
-    "version" : "0.9.0",
-    "authors" : [
-      "Armand Halbert"
-    ]
-  },
-  {
     "name" : "Auth-SCRAM",
     "source-url" : "git://github.com/MARTIMM/Auth-SCRAM",
     "perl" : "6.c",
