@@ -1441,7 +1441,7 @@
     "name" : "Cache::Memcached",
     "source-url" : "git://github.com/cosimo/perl6-cache-memcached.git",
     "authority" : "cosimo",
-    "perl" : "6",
+    "perl" : "6.c",
     "author" : "Cosimo Streppone",
     "provides" : {
       "Cache::Memcached" : "lib/Cache/Memcached.pm"
@@ -1453,7 +1453,7 @@
       "CheckSocket"
     ],
     "description" : "Interface to memcached service",
-    "version" : "0.0.6"
+    "version" : "0.0.7"
   },
   {
     "source-type" : "git",
