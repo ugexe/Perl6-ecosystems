@@ -13108,7 +13108,8 @@
       "bugtracker" : "https://github.com/melezhik/sparrowdo-nginx/issues"
     },
     "resources" : [
-      "default.conf"
+      "default.conf",
+      "nginx.conf"
     ],
     "provides" : {
       "Sparrowdo::Nginx" : "lib/Sparrowdo/Nginx.pm6"
