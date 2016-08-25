@@ -13313,5 +13313,25 @@
     "authors" : [
       "Marcel Timmerman"
     ]
+  },
+  {
+    "source-type" : "git",
+    "name" : "Sparrowdo::RemoteFile",
+    "source-url" : "https://github.com/melezhik/remote-file.git",
+    "support" : {
+      "source" : "https://github.com/melezhik/remote-file.git",
+      "bugtracker" : "https://github.com/melezhik/remote-file/issues"
+    },
+    "provides" : {
+      "Sparrowdo::RemoteFile" : "lib/Sparrowdo/RemoteFile.pm6"
+    },
+    "depends" : [
+      "Sparrowdo"
+    ],
+    "description" : "Fetch remote file using http",
+    "version" : "*",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
   }
 ]
