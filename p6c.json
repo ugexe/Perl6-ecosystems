@@ -533,7 +533,8 @@
     },
     "depends" : [
       "HTTP::UserAgent",
-      "JSON::Tiny"
+      "JSON::Tiny",
+      "IO::Socket::SSL"
     ],
     "description" : "A genuine Perl 6 client for the Telegram's Bot API",
     "version" : "0.1.0",
