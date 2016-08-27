@@ -6070,7 +6070,7 @@
     },
     "depends" : [ ],
     "description" : "Interface to Adobe Font Metrics files",
-    "version" : "1.23.4"
+    "version" : "1.23.5"
   },
   {
     "name" : "HTTP::Headers",
@@ -13379,7 +13379,6 @@
       "Math::Sequences::Integer" : "lib/Math/Sequences/Integer.pm"
     },
     "depends" : [
-      "CompUnit::Util",
       "Test::META"
     ],
     "description" : "Various mathematical sequences of moderate use",
