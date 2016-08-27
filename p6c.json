@@ -13368,5 +13368,24 @@
     "authors" : [
       "Alexey Melezhik"
     ]
+  },
+  {
+    "name" : "Math::Sequences",
+    "source-url" : "git@github.com:ajs/perl6-Math-Sequences.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "provides" : {
+      "Math::Sequences::Real" : "lib/Math/Sequences/Real.pm",
+      "Math::Sequences::Integer" : "lib/Math/Sequences/Integer.pm"
+    },
+    "depends" : [
+      "CompUnit::Util",
+      "Test::META"
+    ],
+    "description" : "Various mathematical sequences of moderate use",
+    "version" : "0.0.1",
+    "authors" : [
+      "Aaron Sherman"
+    ]
   }
 ]
