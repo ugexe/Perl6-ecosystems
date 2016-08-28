@@ -11859,16 +11859,18 @@
     "source-url" : "git://github.com/atweiden/txn-parser.git",
     "author" : "Andy Weidenbaum",
     "provides" : {
+      "TXN::Parser::AST" : "lib/TXN/Parser/AST.pm",
       "TXN::Parser::Grammar" : "lib/TXN/Parser/Grammar.pm",
       "TXN::Parser" : "lib/TXN/Parser.pm",
       "TXN::Parser::Actions" : "lib/TXN/Parser/Actions.pm",
-      "X::TXN::Parser" : "lib/X/TXN/Parser.pm"
+      "X::TXN::Parser" : "lib/X/TXN/Parser.pm",
+      "TXN::Parser::Types" : "lib/TXN/Parser/Types.pm"
     },
     "depends" : [
       "Digest::xxHash"
     ],
     "license" : "http://unlicense.org/UNLICENSE",
-    "description" : "Double-entry bookkeeping transaction journal parser",
+    "description" : "Double-entry accounting ledger parser",
     "version" : "*"
   },
   {
