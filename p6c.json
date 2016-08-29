@@ -1677,7 +1677,7 @@
     ],
     "license" : "The Artistic License 2.0",
     "description" : "MongoDB driver",
-    "version" : "v0.34.5",
+    "version" : "v0.34.5.1",
     "authors" : [
       "Marcel Timmerman took over in Januari 2015 and is working on it until the present day",
       "Pawe\u0142 Pabian worked on it from 2011 until January 2015"
@@ -13390,6 +13390,35 @@
     "version" : "0.0.2",
     "authors" : [
       "Aaron Sherman"
+    ]
+  },
+  {
+    "name" : "Numeric::Pack",
+    "source-url" : "https://github.com/samgwise/p6-Numeric-Pack",
+    "perl" : "6.c",
+    "resources" : [
+      "lib/libnumpack.so",
+      "lib/libnumpack.dll",
+      "libnumpack.dylib"
+    ],
+    "build-depends" : [
+      "Panda::Common",
+      "Panda::Builder",
+      "LibraryMake",
+      "Shell::Command"
+    ],
+    "provides" : {
+      "Numeric::Pack" : "lib/Numeric/Pack.pm6"
+    },
+    "depends" : [
+      "LibraryMake",
+      "NativeCall"
+    ],
+    "test-depends" : [ ],
+    "description" : "Convert perl6 Numerics to Bufs and back again!",
+    "version" : "*",
+    "authors" : [
+      "Sam Gillespie"
     ]
   }
 ]
