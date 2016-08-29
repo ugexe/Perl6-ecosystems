@@ -13420,5 +13420,25 @@
     "authors" : [
       "Sam Gillespie"
     ]
+  },
+  {
+    "name" : "SPEC::Func",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-SPEC-Func.git"
+    },
+    "perl" : "6.c",
+    "provides" : {
+      "SPEC::Func" : "lib/SPEC/Func.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Import $*SPEC methods as functions",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
