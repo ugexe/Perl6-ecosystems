@@ -10302,16 +10302,14 @@
     "resources" : [ ],
     "build-depends" : [ ],
     "provides" : {
-      "Net::OSC::Message" : "lib/Net/OSC/Message.pm",
-      "Net::OSC::Bundle" : "lib/Net/OSC/Bundle.pm",
-      "Net::OSC" : "lib/Net/OSC.pm"
+      "Net::OSC::Message" : "lib/Net/OSC/Message.pm6",
+      "Net::OSC::Bundle" : "lib/Net/OSC/Bundle.pm6",
+      "Net::OSC" : "lib/Net/OSC.pm6"
     },
     "depends" : [
       "Numeric::Pack"
     ],
-    "test-depends" : [
-      "Test"
-    ],
+    "test-depends" : [ ],
     "description" : "Open Sound Control for Perl6",
     "version" : "0.1.0",
     "authors" : [
@@ -13404,7 +13402,9 @@
     "source-url" : "git://github.com/samgwise/p6-Numeric-Pack.git",
     "perl" : "6.c",
     "resources" : [
-      "libnumpack.so"
+      "libnumpack.so",
+      "libnumpack.dll",
+      "libnumpack.dylib"
     ],
     "build-depends" : [
       "Panda::Common",
