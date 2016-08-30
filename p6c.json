@@ -13407,7 +13407,6 @@
       "lib/libnumpack.dylib"
     ],
     "build-depends" : [
-      "Panda::Builder",
       "Native::Resources"
     ],
     "provides" : {
@@ -13419,7 +13418,7 @@
     ],
     "test-depends" : [ ],
     "description" : "Convert perl6 Numerics to Bufs and back again!",
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "authors" : [
       "Sam Gillespie"
     ]
