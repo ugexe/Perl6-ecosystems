@@ -10299,18 +10299,24 @@
     "name" : "Net::OSC",
     "source-url" : "git://github.com/samgwise/Net-OSC.git",
     "perl" : "6.c",
-    "author" : "Sam Gillespie",
+    "resources" : [ ],
+    "build-depends" : [ ],
     "provides" : {
       "Net::OSC::Message" : "lib/Net/OSC/Message.pm",
       "Net::OSC::Bundle" : "lib/Net/OSC/Bundle.pm",
       "Net::OSC" : "lib/Net/OSC.pm"
     },
-    "depends" : [ ],
+    "depends" : [
+      "Numeric::Pack"
+    ],
     "test-depends" : [
       "Test"
     ],
-    "description" : "A perl6 implementation of the Open Sound Control Protocol.",
-    "version" : "0.001"
+    "description" : "Open Sound Control for Perl6",
+    "version" : "0.1.0",
+    "authors" : [
+      "Sam Gillespie"
+    ]
   },
   {
     "name" : "Dice::Roller",
