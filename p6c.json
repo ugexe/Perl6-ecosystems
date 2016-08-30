@@ -13402,15 +13402,13 @@
     "source-url" : "git://github.com/samgwise/p6-Numeric-Pack.git",
     "perl" : "6.c",
     "resources" : [
-      "libnumpack.so",
-      "libnumpack.dll",
-      "libnumpack.dylib"
+      "lib/libnumpack.so",
+      "lib/libnumpack.dll",
+      "lib/libnumpack.dylib"
     ],
     "build-depends" : [
-      "Panda::Common",
       "Panda::Builder",
-      "LibraryMake",
-      "Shell::Command"
+      "Native::Resources"
     ],
     "provides" : {
       "Numeric::Pack" : "lib/Numeric/Pack.pm6"
@@ -13421,7 +13419,7 @@
     ],
     "test-depends" : [ ],
     "description" : "Convert perl6 Numerics to Bufs and back again!",
-    "version" : "0.0.2",
+    "version" : "0.1.1",
     "authors" : [
       "Sam Gillespie"
     ]
