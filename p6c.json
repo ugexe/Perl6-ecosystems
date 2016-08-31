@@ -452,7 +452,7 @@
     "depends" : [ ],
     "license" : "The Artistic License 2.0",
     "description" : "Semaphore Readers Writers Pattern",
-    "version" : "v0.2.2",
+    "version" : "v0.2.3",
     "authors" : [
       "Marcel Timmerman"
     ]
@@ -6722,27 +6722,6 @@
     "depends" : [ ],
     "description" : "Acme::Flutterby - An object-oriented interface to a butterfly.  In what else but Perl 6...",
     "version" : "0.01"
-  },
-  {
-    "name" : "Terminal::Print",
-    "perl" : "6.c",
-    "source-url" : "git://github.com/ab5tract/Terminal-Print.git",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "provides" : {
-      "Terminal::Print::Commands" : "lib/Terminal/Print/Commands.pm6",
-      "Terminal::Print" : "lib/Terminal/Print.pm6",
-      "Terminal::Print::Grid" : "lib/Terminal/Print/Grid.pm6"
-    },
-    "depends" : [
-      "Terminal::ANSIColor"
-    ],
-    "test-depends" : [ ],
-    "description" : "Access terminfo-based console escape sequences in a handy grid interface",
-    "version" : "0.05",
-    "authors" : [
-      "John Haltiwanger"
-    ]
   },
   {
     "name" : "IO::Notification::Recursive",
