@@ -83,6 +83,18 @@
   },
   {
     "source-type" : "git",
+    "name" : "Math::FourierTransform",
+    "source-url" : "git://github.com/MattOates/Math--FourierTransform.git",
+    "author" : "Matt Oates",
+    "provides" : {
+      "Math::FourierTransform" : "lib/Math/FourierTransform.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Discrete Fourier Transform implementation.",
+    "version" : "0.0.1"
+  },
+  {
+    "source-type" : "git",
     "name" : "Math::Polynomial",
     "source-url" : "git://github.com/colomon/Math-Polynomial.git",
     "provides" : {
@@ -13288,9 +13300,10 @@
     "build-depends" : [ ],
     "auth" : "github:zostay",
     "provides" : {
-      "DOM::Tiny::CSS" : "lib/DOM/Tiny/CSS.pm",
-      "DOM::Tiny" : "lib/DOM/Tiny.pm",
-      "DOM::Tiny::HTML" : "lib/DOM/Tiny/HTML.pm"
+      "DOM::Tiny::CSS" : "lib/DOM/Tiny/CSS.pm6",
+      "DOM::Tiny" : "lib/DOM/Tiny.pm6",
+      "DOM::Tiny::HTML" : "lib/DOM/Tiny/HTML.pm6",
+      "DOM::Tiny::Entities" : "lib/DOM/Tiny/Entities.pm6"
     },
     "depends" : [ ],
     "description" : "Very small, self-sufficient DOM parser manipulator",
