@@ -6724,6 +6724,26 @@
     "version" : "0.01"
   },
   {
+    "name" : "Terminal::Print",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/ab5tract/Terminal-Print.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Terminal::Print::Commands" : "lib/Terminal/Print/Commands.pm6",
+      "Terminal::Print" : "lib/Terminal/Print.pm6"
+    },
+    "depends" : [
+      "Terminal::ANSIColor"
+    ],
+    "test-depends" : [ ],
+    "description" : "Asynchronous printing to your terminal -- as a simple grid",
+    "version" : "0.50",
+    "authors" : [
+      "John Haltiwanger"
+    ]
+  },
+  {
     "name" : "IO::Notification::Recursive",
     "source-url" : "git://github.com/perlpilot/p6-IO-Notification-Recursive.git",
     "author" : "Jonathan Scott Duff <duff@pobox.com>",
