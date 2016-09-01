@@ -5336,16 +5336,15 @@
     "name" : "Linenoise",
     "source-url" : "https://github.com/hoelzro/p6-linenoise.git",
     "resources" : [
-      "lib/liblinenoise.so",
-      "lib/liblinenoise.dll",
-      "lib/liblinenoise.dylib"
+      "libraries/linenoise"
     ],
     "author" : "Rob Hoelz",
     "provides" : {
       "Linenoise" : "lib/Linenoise.pm"
     },
     "depends" : [
-      "Native::Resources"
+      "LibraryMake",
+      "Shell::Command"
     ],
     "description" : "Bindings to linenoise",
     "version" : "0.1.0"
