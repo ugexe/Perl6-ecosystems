@@ -8729,11 +8729,12 @@
     "depends" : [
       "Config::TOML",
       "File::Presence",
-      "TXN::Parser"
+      "TXN::Parser",
+      "TXN::Remarshal"
     ],
     "license" : "http://unlicense.org/UNLICENSE",
-    "description" : "Double-entry accounting ledger parser and serializer",
-    "version" : "0.0.4"
+    "description" : "Double-entry accounting ledger packager",
+    "version" : "0.0.5"
   },
   {
     "name" : "Haikunator",
@@ -13469,5 +13470,26 @@
     "authors" : [
       "Adrian Kreher"
     ]
+  },
+  {
+    "source-type" : "git",
+    "name" : "TXN::Remarshal",
+    "support" : {
+      "source" : "https://github.com/atweiden/txn-remarshal",
+      "bugtracker" : "https://github.com/atweiden/txn-remarshal/issues"
+    },
+    "source-url" : "git://github.com/atweiden/txn-remarshal.git",
+    "author" : "Andy Weidenbaum",
+    "provides" : {
+      "TXN::Remarshal" : "lib/TXN/Remarshal.pm",
+      "X::TXN::Remarshal" : "lib/X/TXN/Remarshal.pm"
+    },
+    "depends" : [
+      "File::Presence",
+      "TXN::Parser"
+    ],
+    "license" : "http://unlicense.org/UNLICENSE",
+    "description" : "Double-entry accounting ledger file format converter",
+    "version" : "*"
   }
 ]
