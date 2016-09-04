@@ -13455,5 +13455,19 @@
     "authors" : [
       "Zoffix Znet"
     ]
+  },
+  {
+    "name" : "Binary::Structured",
+    "source-url" : "git://github.com/avuserow/perl6-binary-structured.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Binary::Structured" : "lib/Binary/Structured.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Read and write binary formats defined by classes",
+    "version" : "0.0.1",
+    "authors" : [
+      "Adrian Kreher"
+    ]
   }
 ]
