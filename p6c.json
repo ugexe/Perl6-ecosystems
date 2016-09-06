@@ -9343,6 +9343,17 @@
     ]
   },
   {
+    "name" : "Foo",
+    "source-url" : "git://github.com/ugexe/Perl6-Foo.git",
+    "author" : "github:ugexe",
+    "provides" : {
+      "Foo" : "lib/Foo.pm"
+    },
+    "depends" : [ ],
+    "description" : "Test for installation of same named dists",
+    "version" : "1.2.0"
+  },
+  {
     "name" : "Grammar::HTTP",
     "source-url" : "git://github.com/ugexe/Perl6-Grammar--HTTP.git",
     "support" : {
