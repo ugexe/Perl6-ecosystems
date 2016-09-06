@@ -1401,7 +1401,8 @@
     "depends" : [
       "File::Find",
       "Shell::Command",
-      "JSON::Fast"
+      "JSON::Fast",
+      "File::Which"
     ],
     "description" : "A module manager",
     "version" : "2016.02",
