@@ -13503,5 +13503,29 @@
     "license" : "http://unlicense.org/UNLICENSE",
     "description" : "Double-entry accounting ledger file format converter",
     "version" : "*"
+  },
+  {
+    "name" : "HTTP-Request-Supply",
+    "source-url" : "git://github.com/zostay/HTTP-Request-Supply.git",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/zostay/HTTP-Request-Supply.git"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:zostay",
+    "provides" : {
+      "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6"
+    },
+    "depends" : [ ],
+    "description" : "A modern HTTP request parser",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Sterling Hanenkamp <hanenkamp@cpan.org>"
+    ]
   }
 ]
