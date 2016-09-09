@@ -13529,5 +13529,20 @@
     "authors" : [
       "Sterling Hanenkamp <hanenkamp@cpan.org>"
     ]
+  },
+  {
+    "name" : "DispatchMap",
+    "source-url" : "git://github.com/LLFourn/p6-DispatchMap.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "DispatchMap" : "lib/DispatchMap.pm6"
+    },
+    "depends" : [ ],
+    "description" : "A map that uses Perl 6 multi dispatch to link keys to values",
+    "version" : "0.0.1",
+    "authors" : [
+      "Lloyd Fournier"
+    ]
   }
 ]
