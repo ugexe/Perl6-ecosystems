@@ -13547,5 +13547,18 @@
     "authors" : [
       "Lloyd Fournier"
     ]
+  },
+  {
+    "name" : "X11::Xlib::Raw",
+    "source-url" : "git://github.com/slobo/Perl6-X11-Xlib-Raw.git",
+    "provides" : {
+      "X11::Xlib::Raw" : "lib/X11/Xlib/Raw.pm6"
+    },
+    "repo-type" : "git",
+    "depends" : [
+      "NativeHelpers::Blob"
+    ],
+    "description" : "Xlib binding using NativeCall",
+    "version" : "*"
   }
 ]
