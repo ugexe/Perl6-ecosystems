@@ -13510,7 +13510,7 @@
     "version" : "*"
   },
   {
-    "name" : "HTTP-Request-Supply",
+    "name" : "HTTP::Request::Supply",
     "source-url" : "git://github.com/zostay/HTTP-Request-Supply.git",
     "perl" : "6.c",
     "support" : {
@@ -13525,7 +13525,8 @@
     "description" : "A modern HTTP request parser",
     "license" : "Artistic",
     "test-depends" : [
-      "Test"
+      "Test",
+      "Test::META"
     ],
     "version" : "0.1",
     "meta6" : "0",
