@@ -13561,5 +13561,22 @@
     ],
     "description" : "Xlib binding using NativeCall",
     "version" : "*"
+  },
+  {
+    "name" : "IRC::Client::Plugin::UserPoints",
+    "source-url" : "git@github.com:jsimonet/IRC-Client-Plugin-UserPoints.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "provides" : {
+      "IRC::Client::Plugin::UserPoints" : "lib/IRC/Client/Plugin/UserPoints.pm6"
+    },
+    "depends" : [
+      "PerlStore::FileStore"
+    ],
+    "description" : "Plugin for counting user points.",
+    "version" : "0.1.0",
+    "authors" : [
+      "Julien Simonet"
+    ]
   }
 ]
