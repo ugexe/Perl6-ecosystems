@@ -13571,7 +13571,8 @@
       "IRC::Client::Plugin::UserPoints" : "lib/IRC/Client/Plugin/UserPoints.pm6"
     },
     "depends" : [
-      "PerlStore::FileStore"
+      "PerlStore::FileStore",
+      "IRC::Client"
     ],
     "description" : "Plugin for counting user points.",
     "version" : "0.1.0",
