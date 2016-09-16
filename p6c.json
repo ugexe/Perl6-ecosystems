@@ -13579,5 +13579,24 @@
     "authors" : [
       "Julien Simonet"
     ]
+  },
+  {
+    "name" : "Heap",
+    "source-url" : "git://github.com/FCO/Heap.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "Heap" : "lib/Heap.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Simple Heap implementation",
+    "version" : "0.0.1",
+    "authors" : [
+      "Fernando Corr\u00eaa de Oliveira"
+    ]
   }
 ]
