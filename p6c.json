@@ -13613,5 +13613,21 @@
     "authors" : [
       "Ramiro Encinas Alarza"
     ]
+  },
+  {
+    "name" : "Data::MessagePack",
+    "source-url" : "git@github.com:pierre-vigier/Perl6-Data-MessagePack.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Data::MessagePack" : "lib/Data/MessagePack.pm6",
+      "Data::MessagePack::Unpacker" : "lib/Data/MessagePack/Unpacker.pm6",
+      "Data::MessagePack::Packer" : "lib/Data/MessagePack/Packer.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Data::MessagePack",
+    "version" : "0.1.0",
+    "authors" : [
+      "github:pierre-vigier"
+    ]
   }
 ]
