@@ -13629,5 +13629,30 @@
     "authors" : [
       "github:pierre-vigier"
     ]
+  },
+  {
+    "name" : "Algorithm::LBFGS",
+    "source-url" : "git://github.com/titsuki/p6-Algorithm-LBFGS.git",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/liblbfgs"
+    ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
+    "provides" : {
+      "Algorithm::LBFGS" : "lib/Algorithm/LBFGS.pm6",
+      "Algorithm::LBFGS::Status" : "lib/Algorithm/LBFGS/Status.pm6",
+      "Algorithm::LBFGS::Parameter" : "lib/Algorithm/LBFGS/Parameter.pm6"
+    },
+    "depends" : [
+      "NativeHelpers::Array"
+    ],
+    "test-depends" : [ ],
+    "description" : "A Perl6 bindings for libLBFGS",
+    "version" : "0.01",
+    "authors" : [
+      "titsuki"
+    ]
   }
 ]
