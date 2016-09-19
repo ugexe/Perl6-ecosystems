@@ -4703,7 +4703,7 @@
       "File::Temp"
     ],
     "description" : "Use Perl 5 code in a Perl 6 program",
-    "version" : "0.11",
+    "version" : "0.13",
     "authors" : [
       "Stefan Seifert"
     ]
@@ -13545,7 +13545,7 @@
     },
     "depends" : [ ],
     "description" : "A map that uses Perl 6 multi dispatch to link keys to values",
-    "version" : "0.1.1",
+    "version" : "0.2.0",
     "authors" : [
       "Lloyd Fournier"
     ]
@@ -13653,6 +13653,23 @@
     "version" : "0.01",
     "authors" : [
       "titsuki"
+    ]
+  },
+  {
+    "name" : "Geo::IP2Location::Lite",
+    "source-url" : "git://github.com/leejo/geo-ip2location-lite-p6",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "provides" : {
+      "Geo::IP2Location::Lite" : "lib/Geo/IP2Location/Lite.pm"
+    },
+    "depends" : [
+      "NativeCall"
+    ],
+    "description" : "Lightweight lookup of IPv4 address details using BIN files from http://www.ip2location.com",
+    "version" : "0.9.0",
+    "authors" : [
+      "github:leejo"
     ]
   }
 ]
