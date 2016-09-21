@@ -13671,5 +13671,30 @@
     "authors" : [
       "github:leejo"
     ]
+  },
+  {
+    "name" : "Getopt::ForClass",
+    "source-url" : "git://github.com/zostay/p6-Getopt-ForClass.git",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/zostay/p6-Getopt-ForClass.git"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:zostay",
+    "provides" : {
+      "Getopt::ForClass" : "lib/Getopt/ForClass.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Use MAIN to dispatch to a class.",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "version" : "0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Sterling Hanenkamp <hanenkamp@cpan.org>"
+    ]
   }
 ]
