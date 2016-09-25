@@ -13696,5 +13696,26 @@
     "authors" : [
       "Sterling Hanenkamp <hanenkamp@cpan.org>"
     ]
+  },
+  {
+    "name" : "ProblemSolver",
+    "source-url" : "git://github.com/FCO/ProblemSolver.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "provides" : {
+      "Domain" : "lib/ProblemSolver/Domain.pm6",
+      "ProblemSolver" : "lib/ProblemSolver.pm6",
+      "State" : "lib/ProblemSolver/State.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Simple Constraint Programming Problem Solver",
+    "version" : "0.0.1",
+    "authors" : [
+      "Fernando Corr\u00eaa de Oliveira"
+    ]
   }
 ]
