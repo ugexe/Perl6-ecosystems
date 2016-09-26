@@ -7030,7 +7030,8 @@
       "Log::Minimal" : "lib/Log/Minimal.pm6"
     },
     "depends" : [
-      "Terminal::ANSIColor"
+      "Terminal::ANSIColor",
+      "Grammar::Tracer"
     ],
     "test-depends" : [
       "IO::Capture::Simple"
