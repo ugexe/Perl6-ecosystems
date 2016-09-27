@@ -13719,5 +13719,27 @@
     "authors" : [
       "Fernando Corr\u00eaa de Oliveira"
     ]
+  },
+  {
+    "name" : "Unicode::PRECIS",
+    "source-url" : "git://github.com/MARTIMM/unicode-stringprep.git",
+    "perl" : "6.c",
+    "author" : "Marcel Timmerman",
+    "provides" : {
+      "Unicode::PRECIS" : "lib/Unicode/PRECIS.pm6",
+      "Unicode::PRECIS::Tables" : "lib/Unicode/PRECIS/Tables.pm6",
+      "Unicode::PRECIS::Identifier::UsernameCasePreserved" : "lib/Unicode/PRECIS/Identifier/UsernameCasePreserved.pm6",
+      "Unicode::PRECIS::Identifier" : "lib/Unicode/PRECIS/Identifier.pm6",
+      "Unicode::PRECIS::FreeForm::OpaqueString" : "lib/Unicode/PRECIS/FreeForm/OpaqueString.pm6",
+      "Unicode::PRECIS::Identifier::UsernameCaseMapped" : "lib/Unicode/PRECIS/Identifier/UsernameCaseMapped.pm6",
+      "Unicode::PRECIS::FreeForm" : "lib/Unicode/PRECIS/FreeForm.pm6"
+    },
+    "depends" : [ ],
+    "license" : "The Artistic License 2.0",
+    "description" : "Implements PRECIS framework, rfc7564 and others. Obsoletes stringprep and saslprep",
+    "version" : "v0.3.0",
+    "authors" : [
+      "Marcel Timmerman"
+    ]
   }
 ]
