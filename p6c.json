@@ -678,6 +678,7 @@
   {
     "name" : "XML",
     "source-url" : "git://github.com/supernovus/exemel.git",
+    "author" : "Timothy Totten",
     "provides" : {
       "XML::Comment" : "lib/XML/Comment.pm6",
       "XML::Document" : "lib/XML/Document.pm6",
@@ -691,7 +692,7 @@
     },
     "depends" : [ ],
     "description" : "A full-featured, pure-perl XML library (parsing, manipulation, emitting, queries, etc.)",
-    "version" : "*"
+    "version" : "0.0.2"
   },
   {
     "name" : "XML::Query",
