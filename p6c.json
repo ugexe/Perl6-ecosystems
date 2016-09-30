@@ -13695,5 +13695,20 @@
     "authors" : [
       "Marcel Timmerman"
     ]
+  },
+  {
+    "name" : "JS::Minify",
+    "source-url" : "https://github.com/scmorrison/JS-Minify.git",
+    "perl" : "6.*",
+    "author" : "Sam Morrison <sam@samcm.com>",
+    "provides" : {
+      "JS::Minify" : "lib/JS/Minify.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::Output"
+    ],
+    "description" : "Perl 6 JavaScript minifier",
+    "version" : "0.0.1"
   }
 ]
