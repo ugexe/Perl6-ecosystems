@@ -13724,5 +13724,21 @@
     "authors" : [
       "Brian Duggan"
     ]
+  },
+  {
+    "name" : "Concurrent::File::Find",
+    "perl" : "v6",
+    "source-url" : "git://github.com/gfldex/perl6-concurrent-file-find.git",
+    "build-depends" : [ ],
+    "provides" : {
+      "Concurrent::File::Find" : "lib/Concurrent/File/Find.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "Concurrently recurse into directories to find files, directories or symlinks",
+    "version" : "0.0.1",
+    "authors" : [
+      "Wenzel P. P. Peppmeyer"
+    ]
   }
 ]
