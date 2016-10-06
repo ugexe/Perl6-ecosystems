@@ -13741,5 +13741,27 @@
     "authors" : [
       "Wenzel P. P. Peppmeyer"
     ]
+  },
+  {
+    "name" : "Digest::SHA1::Native",
+    "perl" : "v6.c",
+    "source-url" : "git://github.com/bduggan/p6-digest-sha1-native.git",
+    "build-depends" : [ ],
+    "resources" : [
+      "libraries/sha1"
+    ],
+    "provides" : {
+      "Digest::SHA1::Native" : "lib/Digest/SHA1/Native.pm6"
+    },
+    "depends" : [
+      "LibraryMake"
+    ],
+    "license" : "Perl",
+    "test-depends" : [ ],
+    "description" : "p6 bindings to C implementation of SHA1",
+    "version" : "0.01",
+    "authors" : [
+      "Brian Duggan"
+    ]
   }
 ]
