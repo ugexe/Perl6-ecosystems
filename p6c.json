@@ -13793,5 +13793,25 @@
     "authors" : [
       "Tom Browder <tom.browder@gmail.com>"
     ]
+  },
+  {
+    "source-type" : "git",
+    "name" : "Sparrowdo::Chef::Manager",
+    "source-url" : "https://github.com/melezhik/sparrowdo-chef-manager.git",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowdo-chef-manager.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowdo-chef-manager/issues"
+    },
+    "provides" : {
+      "Sparrowdo::Chef::Manager" : "lib/Sparrowdo/Chef/Manager.pm6"
+    },
+    "depends" : [
+      "Sparrowdo"
+    ],
+    "description" : "Sparrowdo module to manage chef users",
+    "version" : "*",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
   }
 ]
