@@ -13766,36 +13766,6 @@
   },
   {
     "source-type" : "git",
-    "name" : "Net::IP::Lite",
-    "support" : {
-      "source" : "https://github.com/tbrowder/Net-IP-Lite-Perl6",
-      "bugtracker" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/issues"
-    },
-    "source-url" : "git://github.com/tbrowder/Net-IP-Lite-Perl6.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "provides" : {
-      "Net::IP::Lite" : "lib/Net/IP/Lite.pm6"
-    },
-    "tags" : [
-      "Net",
-      "IP",
-      "IP address",
-      "IPv4",
-      "IPv6"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "license" : "Artistic 2.0",
-    "description" : "Provides utility functions for dealing with IPv4 and IPv6 addresses.",
-    "version" : "0.1.0",
-    "authors" : [
-      "Tom Browder <tom.browder@gmail.com>"
-    ]
-  },
-  {
-    "source-type" : "git",
     "name" : "Sparrowdo::Chef::Manager",
     "source-url" : "https://github.com/melezhik/sparrowdo-chef-manager.git",
     "support" : {
