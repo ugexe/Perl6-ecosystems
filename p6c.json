@@ -5742,6 +5742,24 @@
     "version" : "0.2.0"
   },
   {
+    "name" : "Unicode::GCB",
+    "support" : {
+      "source" : "https://github.com/cygx/p6-unicode-gcb/tree/v0.2.1",
+      "bugtracker" : "https://github.com/cygx/p6-unicode-gcb/issues"
+    },
+    "source-url" : "git://github.com/cygx/p6-unicode-gcb.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Unicode::GCB" : "lib/Unicode/GCB.pm6"
+    },
+    "license" : "http://boost.org/LICENSE_1_0.txt",
+    "description" : "Unicode grapheme cluster boundary detection",
+    "version" : "0.2.1",
+    "authors" : [
+      "github:cygx"
+    ]
+  },
+  {
     "name" : "Sys::Lastlog",
     "perl" : "6",
     "source-url" : "git://github.com/jonathanstowe/p6-Sys-Lastlog.git",
