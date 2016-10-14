@@ -13799,5 +13799,22 @@
     "authors" : [
       "Alexey Melezhik"
     ]
+  },
+  {
+    "name" : "Log::Async",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/bduggan/p6-log-async.git",
+    "build-depends" : [ ],
+    "provides" : {
+      "Log::Async" : "lib/Log/Async.pm6"
+    },
+    "depends" : [ ],
+    "license" : "Perl",
+    "test-depends" : [ ],
+    "description" : "Asynchronous logging with supplies and taps",
+    "version" : "0.0.1",
+    "authors" : [
+      "Brian Duggan"
+    ]
   }
 ]
