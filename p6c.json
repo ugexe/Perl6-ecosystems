@@ -13816,5 +13816,30 @@
     "authors" : [
       "Brian Duggan"
     ]
+  },
+  {
+    "name" : "CompUnit::DynamicLib",
+    "source-url" : "git://github.com/zostay/p6-CompUnit-DynamicLib.git",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/zostay/p6-CompUnit-DynamicLib.git"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:zostay",
+    "provides" : {
+      "CompUnit::DynamicLib" : "lib/CompUnit/DynamicLib.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Load modules from temporarily included locations",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "version" : "0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Sterling Hanenkamp <hanenkamp@cpan.org>"
+    ]
   }
 ]
