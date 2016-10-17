@@ -13840,5 +13840,21 @@
     "authors" : [
       "Sterling Hanenkamp <hanenkamp@cpan.org>"
     ]
+  },
+  {
+    "name" : "Concurrent::Channelify",
+    "perl" : "v6",
+    "source-url" : "git://github.com/gfldex/perl6-concurrent-channelify.git",
+    "build-depends" : [ ],
+    "provides" : {
+      "Concurrent::Channelify" : "lib/Concurrent/Channelify.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "turn a lazy list into an auto-threading lazy list",
+    "version" : "0.0.1",
+    "authors" : [
+      "Wenzel P. P. Peppmeyer"
+    ]
   }
 ]
