@@ -6140,33 +6140,6 @@
     "version" : "0.1.0"
   },
   {
-    "name" : "LibraryCheck",
-    "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/LibraryCheck.git",
-    "support" : {
-      "source" : "git://github.com/jonathanstowe/LibraryCheck.git"
-    },
-    "build-depends" : [ ],
-    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-    "provides" : {
-      "LibraryCheck" : "lib/LibraryCheck.pm"
-    },
-    "auth" : "github:jonathanstowe",
-    "depends" : [ ],
-    "description" : "Quick hack to determine whether a shared libray is present",
-    "test-depends" : [
-      "Test"
-    ],
-    "tags" : [
-      "build",
-      "utils"
-    ],
-    "version" : "v0.0.6",
-    "authors" : [
-      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ]
-  },
-  {
     "name" : "ANTLR4",
     "source-url" : "git://github.com/drforr/perl6-ANTLR4.git",
     "provides" : {
