@@ -13890,5 +13890,35 @@
     "authors" : [
       "Julien Simonet"
     ]
+  },
+  {
+    "name" : "URI::FetchFile",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/URI-FetchFile.git"
+    },
+    "source-url" : "git://github.com/jonathanstowe/URI-FetchFile.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "URI::FetchFile" : "lib/URI/FetchFile.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "description" : "retrieve a file from the internet by the best available method",
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "perl",
+    "tags" : [
+      "download",
+      "utility",
+      "http"
+    ],
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
