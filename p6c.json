@@ -8578,6 +8578,40 @@
     ]
   },
   {
+    "name" : "Audio::Silan",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/Audio-Silan.git",
+    "support" : {
+      "irc" : "irc:// irc.freenode.net/#perl6",
+      "source" : "git://github.com/jonathanstowe/Audio-Silan.git",
+      "bugtracker" : "https://github.com/jonathanstowe/Audio-Silan/issues"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "Audio::Silan" : "lib/Audio/Silan.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "File::Which",
+      "JSON::Fast"
+    ],
+    "description" : "Detect audio cue-in, cue-out using silan https://github.com/x42/silan",
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "audio",
+      "util",
+      "silence"
+    ],
+    "version" : "0.0.3",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
     "name" : "Math::Matrix",
     "source-url" : "git@github.com:pierre-vigier/Perl6-Math-Matrix.git",
     "perl" : "6.c",
