@@ -13934,5 +13934,40 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "Monitor::Monit",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Monitor-Monit.git"
+    },
+    "source-url" : "git://github.com/jonathanstowe/Monitor-Monit.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Monitor::Monit" : "lib/Monitor/Monit.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "HTTP::UserAgent",
+      "URI::Template",
+      "XML::Class"
+    ],
+    "description" : "Provide an interface to the monit monitoring daemon",
+    "test-depends" : [
+      "Test",
+      "CheckSocket"
+    ],
+    "license" : "perl",
+    "tags" : [
+      "monitor",
+      "api",
+      "system"
+    ],
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
