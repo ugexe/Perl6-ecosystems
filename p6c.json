@@ -1204,6 +1204,7 @@
   {
     "name" : "XML::Writer",
     "source-url" : "git://github.com/masak/xml-writer.git",
+    "perl" : "6.*",
     "provides" : {
       "XML::Writer" : "lib/XML/Writer.pm"
     },
@@ -12710,6 +12711,7 @@
       "source" : "https://github.com/melezhik/sparrowdo.git",
       "bugtracker" : "https://github.com/melezhik/sparrowdo/issues"
     },
+    "perl" : "6.*",
     "provides" : {
       "Sparrowdo" : "lib/Sparrowdo.pm6"
     },
@@ -13195,6 +13197,7 @@
       "source" : "https://github.com/melezhik/sparrowdo-nginx.git",
       "bugtracker" : "https://github.com/melezhik/sparrowdo-nginx/issues"
     },
+    "perl" : "6.*",
     "resources" : [
       "default.conf",
       "nginx.conf"
@@ -13219,6 +13222,7 @@
       "source" : "https://github.com/melezhik/sparrowdo-sparrow-update.git",
       "bugtracker" : "https://github.com/melezhik/sparrowdo-sparrow-update/issues"
     },
+    "perl" : "6.*",
     "provides" : {
       "Sparrowdo::Sparrow::Update" : "lib/Sparrowdo/Sparrow/Update.pm6"
     },
@@ -13343,6 +13347,7 @@
       "source" : "https://github.com/melezhik/sparrowdo-cpm.git",
       "bugtracker" : "https://github.com/melezhik/sparrowdo-cpm/issues"
     },
+    "perl" : "6.*",
     "provides" : {
       "Sparrowdo::Cpm" : "lib/Sparrowdo/Cpm.pm6"
     },
@@ -13428,6 +13433,7 @@
       "source" : "https://github.com/melezhik/remote-file.git",
       "bugtracker" : "https://github.com/melezhik/remote-file/issues"
     },
+    "perl" : "6.*",
     "provides" : {
       "Sparrowdo::RemoteFile" : "lib/Sparrowdo/RemoteFile.pm6"
     },
@@ -13448,6 +13454,7 @@
       "source" : "https://github.com/melezhik/sparrowdo-archive.git",
       "bugtracker" : "https://github.com/melezhik/sparrowdo-archive/issues"
     },
+    "perl" : "6.*",
     "provides" : {
       "Sparrowdo::Archive" : "lib/Sparrowdo/Archive.pm6"
     },
@@ -13864,6 +13871,7 @@
       "source" : "https://github.com/melezhik/sparrowdo-chef-manager.git",
       "bugtracker" : "https://github.com/melezhik/sparrowdo-chef-manager/issues"
     },
+    "perl" : "6.*",
     "provides" : {
       "Sparrowdo::Chef::Manager" : "lib/Sparrowdo/Chef/Manager.pm6"
     },
