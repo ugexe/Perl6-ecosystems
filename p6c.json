@@ -3024,6 +3024,7 @@
   {
     "name" : "Parse::Selenese",
     "source-url" : "git://github.com/azawawi/perl6-parse-selenese.git",
+    "perl" : "6.*",
     "provides" : {
       "Parse::Selenese::TestSuite" : "lib/Parse/Selenese/TestSuite.pm6",
       "Parse::Selenese::TestCase" : "lib/Parse/Selenese/TestCase.pm6",
@@ -3039,6 +3040,7 @@
   {
     "name" : "Selenium::WebDriver",
     "source-url" : "git://github.com/azawawi/perl6-selenium-webdriver.git",
+    "perl" : "6.*",
     "resources" : [
       "firefox_extension/prefs.json",
       "firefox_extension/webdriver.xpi"
@@ -3743,6 +3745,7 @@
   {
     "name" : "Net::ZMQ",
     "source-url" : "git://github.com/arnsholt/Net-ZMQ.git",
+    "perl" : "6.*",
     "author" : "Arne Skj\u00e6rholt",
     "provides" : {
       "Net::ZMQ::Util" : "lib/Net/ZMQ/Util.pm",
