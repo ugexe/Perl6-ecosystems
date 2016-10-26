@@ -5676,6 +5676,7 @@
   {
     "name" : "DEBUG",
     "source-url" : "git://github.com/cygx/p6-debug.git",
+    "perl" : "6.*",
     "author" : "cygx <cygx@cpan.org>",
     "provides" : {
       "logger" : "logger.pm6",
@@ -5695,6 +5696,7 @@
       "bugtracker" : "https://github.com/cygx/p6-image-png-inflated/issues"
     },
     "source-url" : "git://github.com/cygx/p6-image-png-inflated.git",
+    "perl" : "6.*",
     "author" : "cygx <cygx@cpan.org>",
     "provides" : {
       "Image::PNG::Inflated" : "lib/Image/PNG/Inflated.pm"
@@ -5710,6 +5712,7 @@
       "bugtracker" : "https://github.com/cygx/p6-image-rgba-text/issues"
     },
     "source-url" : "git://github.com/cygx/p6-image-rgba-text.git",
+    "perl" : "6.*",
     "author" : "cygx <cygx@cpan.org>",
     "provides" : {
       "Image::RGBA::Text" : "lib/Image/RGBA/Text.pm"
@@ -5725,6 +5728,7 @@
       "source" : "https://github.com/cygx/p6-native-libc",
       "bugtracker" : "https://github.com/cygx/p6-native-libc/issues"
     },
+    "perl" : "6.*",
     "author" : "cygx <cygx@cpan.org>",
     "provides" : {
       "Native::Types" : "lib/Native/Types.pm6",
@@ -5741,6 +5745,7 @@
       "source" : "https://github.com/cygx/p6-nqp-eval",
       "bugtracker" : "https://github.com/cygx/p6-nqp-eval/issues"
     },
+    "perl" : "6.*",
     "author" : "cygx <cygx@cpan.org>",
     "provides" : {
       "NQP::Eval" : "lib/NQP/Eval.pm6"
@@ -5756,6 +5761,7 @@
       "bugtracker" : "https://github.com/cygx/p6-tinycc/issues"
     },
     "source-url" : "git://github.com/cygx/p6-tinycc.git",
+    "perl" : "6.*",
     "author" : "cygx <cygx@cpan.org>",
     "provides" : {
       "TinyCC::Types" : "lib/TinyCC/Types.pm6",
@@ -5776,6 +5782,7 @@
       "source" : "https://github.com/cygx/p6-uni63",
       "bugtracker" : "https://github.com/cygx/p6-uni63/issues"
     },
+    "perl" : "6.*",
     "author" : "cygx <cygx@cpan.org>",
     "provides" : {
       "Uni63" : "lib/Uni63.pm6"
@@ -12758,6 +12765,7 @@
   {
     "name" : "Slang::Mosdef",
     "source-url" : "git://github.com/bduggan/mosdef.git",
+    "perl" : "6.*",
     "author" : "github:bduggan",
     "provides" : {
       "Slang::Mosdef" : "lib/Slang/Mosdef.pm"
@@ -13003,6 +13011,7 @@
   {
     "name" : "OAuth2::Client::Google",
     "source-url" : "git://github.com/bduggan/p6-oauth2-client-google.git",
+    "perl" : "6.*",
     "provides" : {
       "OAuth2::Client::Google" : "lib/OAuth2/Client/Google.pm6"
     },
