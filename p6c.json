@@ -352,6 +352,7 @@
     "source-type" : "git",
     "name" : "MIME::Base64",
     "source-url" : "git://github.com/perl6/Perl6-MIME-Base64.git",
+    "perl" : "6.*",
     "author" : "github:retupmoca",
     "provides" : {
       "MIME::Base64::Perl" : "lib/MIME/Base64/Perl.pm6",
@@ -1274,6 +1275,7 @@
     "name" : "LWP::Simple",
     "source-url" : "git://github.com/perl6/perl6-lwp-simple.git",
     "authority" : "perl6",
+    "perl" : "6.*",
     "author" : "Cosimo Streppone",
     "provides" : {
       "LWP::Simple" : "lib/LWP/Simple.pm"
@@ -1645,6 +1647,7 @@
   {
     "name" : "URI",
     "source-url" : "git://github.com/perl6-community-modules/uri.git",
+    "perl" : "6.*",
     "provides" : {
       "URI::DefaultPort" : "lib/URI/DefaultPort.pm",
       "IETF::RFC_Grammar" : "lib/IETF/RFC_Grammar.pm",
@@ -1746,6 +1749,7 @@
     "name" : "IRC::Utils",
     "source-url" : "git://github.com/perl6-community-modules/p6-irc-utils.git",
     "authority" : "soh-cah-toa",
+    "perl" : "6.*",
     "author" : "Kevin Polulak",
     "provides" : {
       "IRC::Utils" : "lib/IRC/Utils.pm"
@@ -1759,6 +1763,7 @@
     "name" : "Test::Builder",
     "source-url" : "git://github.com/perl6-community-modules/p6-test-builder.git",
     "authority" : "soh-cah-toa",
+    "perl" : "6.*",
     "author" : "Kevin Polulak",
     "provides" : {
       "Test::Builder::Test" : "lib/Test/Builder/Test.pm",
@@ -1787,6 +1792,7 @@
   {
     "name" : "TestML",
     "source-url" : "git://github.com/perl6-community-modules/testml-pm6.git",
+    "perl" : "6.*",
     "author" : "Ingy d\u00f6t Net <ingy@cpan.org>",
     "provides" : {
       "TestML::Runner::TAP" : "lib/TestML/Runner/TAP.pm",
@@ -1817,6 +1823,7 @@
   {
     "name" : "Pod::To::HTML",
     "source-url" : "git://github.com/perl6/Pod-To-HTML.git",
+    "perl" : "6.*",
     "provides" : {
       "Pod::To::HTML" : "lib/Pod/To/HTML.pm"
     },
@@ -1885,6 +1892,7 @@
   {
     "name" : "Form",
     "source-url" : "git://github.com/perl6/form.git",
+    "perl" : "6.*",
     "author" : "Matthew Walton",
     "provides" : {
       "Form::Field" : "lib/Form/Field.pm",
@@ -2497,6 +2505,7 @@
   {
     "name" : "Date::WorkdayCalendar",
     "source-url" : "git://github.com/perl6-community-modules/Date-WorkdayCalendar.git",
+    "perl" : "6.*",
     "author" : "github:shinobi",
     "provides" : {
       "WorkdayCalendar" : "lib/Date/WorkdayCalendar.pm",
@@ -2590,6 +2599,7 @@
   {
     "name" : "p6doc",
     "source-url" : "git://github.com/perl6/doc.git",
+    "perl" : "6.*",
     "build-depends" : [
       "File::Find"
     ],
@@ -3763,6 +3773,7 @@
     "source-type" : "git",
     "name" : "GD",
     "source-url" : "git://github.com/perl6-community-modules/perl6-GD.git",
+    "perl" : "6.*",
     "author" : "Henrique Dias",
     "provides" : {
       "GD" : "lib/GD.pm"
@@ -4039,6 +4050,7 @@
   {
     "name" : "CLDR::List",
     "source-url" : "git://github.com/patch/cldr-list-pm6.git",
+    "perl" : "6.*",
     "author" : "Nova Patch",
     "provides" : {
       "CLDR::List" : "lib/CLDR/List.pm"
@@ -4050,6 +4062,7 @@
   {
     "name" : "Geo::Region",
     "source-url" : "git://github.com/patch/geo-region-pm6.git",
+    "perl" : "6.*",
     "author" : "Nick Patch",
     "provides" : {
       "Geo::Region::Enum" : "lib/Geo/Region/Enum.pm",
