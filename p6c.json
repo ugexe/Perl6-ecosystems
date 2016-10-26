@@ -1174,6 +1174,7 @@
   {
     "name" : "ufo",
     "source-url" : "git://github.com/masak/ufo.git",
+    "perl" : "6.*",
     "provides" : { },
     "depends" : [ ],
     "description" : "Swoops down and creates your Perl 6 project Makefile for you",
@@ -1192,6 +1193,7 @@
   {
     "name" : "Yapsi",
     "source-url" : "git://github.com/masak/yapsi.git",
+    "perl" : "6.*",
     "provides" : {
       "Yapsi" : "lib/Yapsi.pm"
     },
@@ -1212,6 +1214,7 @@
   {
     "name" : "HTML::Template",
     "source-url" : "git://github.com/masak/html-template.git",
+    "perl" : "6.*",
     "provides" : {
       "HTML::Template::Grammar" : "lib/HTML/Template/Grammar.pm",
       "HTML::Template" : "lib/HTML/Template.pm",
@@ -8161,6 +8164,7 @@
   {
     "name" : "Lingua::EN::Conjugate",
     "source-url" : "https://github.com/kolikov/perl6-Lingua-EN-Conjugate.git",
+    "perl" : "6.*",
     "author" : "Romuald Nuguet",
     "provides" : {
       "Lingua::EN::Conjugate" : "lib/Lingua/EN/Conjugate/Conjugate.pm6"
