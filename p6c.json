@@ -38,6 +38,7 @@
   {
     "name" : "JSON::Tiny",
     "source-url" : "git://github.com/moritz/json.git",
+    "perl" : "6.*",
     "provides" : {
       "JSON::Tiny::Actions" : "lib/JSON/Tiny/Actions.pm",
       "JSON::Tiny" : "lib/JSON/Tiny.pm",
@@ -363,6 +364,7 @@
   {
     "name" : "Test::Mock",
     "source-url" : "git://github.com/jnthn/test-mock.git",
+    "perl" : "6.*",
     "provides" : {
       "Test::Mock" : "lib/Test/Mock.pm"
     },
@@ -1282,6 +1284,7 @@
   {
     "name" : "SVG",
     "source-url" : "git://github.com/moritz/svg.git",
+    "perl" : "6.*",
     "provides" : {
       "SVG" : "lib/SVG.pm"
     },
@@ -1294,6 +1297,7 @@
   {
     "name" : "SVG::Plot",
     "source-url" : "git://github.com/moritz/svg-plot.git",
+    "perl" : "6.*",
     "provides" : {
       "SVG::Plot::Pie" : "lib/SVG/Plot/Pie.pm",
       "SVG::Plot::AxisPosition" : "lib/SVG/Plot.pm",
@@ -1309,6 +1313,7 @@
   {
     "name" : "Math::RungeKutta",
     "source-url" : "git://github.com/moritz/Math-RungeKutta.git",
+    "perl" : "6.*",
     "provides" : {
       "Math::RungeKutta" : "lib/Math/RungeKutta.pm"
     },
@@ -1525,6 +1530,7 @@
   {
     "name" : "Nonongram",
     "source-url" : "git://github.com/moritz/Nonogram.git",
+    "perl" : "6.*",
     "provides" : {
       "Nonongram" : "lib/Nonogram.pm"
     },
@@ -1535,6 +1541,7 @@
   {
     "name" : "CGI::Application",
     "source-url" : "git://github.com/moritz/CGI-Application.git",
+    "perl" : "6.*",
     "build-depends" : [ ],
     "provides" : {
       "CGI::Application" : "lib/CGI/Application.pm"
@@ -1900,6 +1907,7 @@
   {
     "name" : "Grammar::Debugger",
     "source-url" : "git://github.com/jnthn/grammar-debugger.git",
+    "perl" : "6.*",
     "build-depends" : [
       "Terminal::ANSIColor"
     ],
@@ -2936,6 +2944,7 @@
   {
     "name" : "JSON::Path",
     "source-url" : "git://github.com/jnthn/json-path.git",
+    "perl" : "6.*",
     "provides" : {
       "JSON::Path" : "lib/JSON/Path.pm"
     },
@@ -3258,6 +3267,7 @@
   {
     "name" : "Debugger::UI::CommandLine",
     "source-url" : "git://github.com/jnthn/rakudo-debugger.git",
+    "perl" : "6.*",
     "provides" : {
       "Debugger::UI::CommandLine" : "lib/Debugger/UI/CommandLine.pm"
     },
@@ -4762,6 +4772,7 @@
   {
     "name" : "OO::Actors",
     "source-url" : "git://github.com/jnthn/oo-actors.git",
+    "perl" : "6.*",
     "provides" : {
       "OO::Actors" : "lib/OO/Actors.pm"
     },
@@ -9116,6 +9127,7 @@
   {
     "name" : "Test::IO::Socket::Async",
     "source-url" : "git://github.com/jnthn/p6-test-io-socket-async.git",
+    "perl" : "6.*",
     "author" : "Jonathan Worthington",
     "provides" : {
       "Test::IO::Socket::Async" : "lib/Test/IO/Socket/Async.pm6"
@@ -9235,6 +9247,7 @@
   {
     "name" : "Concurrent::Iterator",
     "source-url" : "git://github.com/jnthn/p6-concurrent-iterator.git",
+    "perl" : "6.*",
     "author" : "Jonathan Worthington",
     "provides" : {
       "Concurrent::Iterator" : "lib/Concurrent/Iterator.pm6"
@@ -11863,6 +11876,7 @@
   {
     "name" : "App::MoarVM::HeapAnalyzer",
     "source-url" : "git://github.com/jnthn/p6-app-moarvm-heapanalyzer.git",
+    "perl" : "6.*",
     "author" : "Jonathan Worthington <jnthn@jnthn.net>",
     "provides" : {
       "App::MoarVM::HeapAnalyzer::Shell" : "lib/App/MoarVM/HeapAnalyzer/Shell.pm6",
