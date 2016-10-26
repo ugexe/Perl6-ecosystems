@@ -294,6 +294,7 @@
     "source-type" : "git",
     "name" : "Algorithm::Diff",
     "source-url" : "git://github.com/Takadonet/Algorithm--Diff.git",
+    "perl" : "6.*",
     "build-depends" : [ ],
     "provides" : {
       "Algorithm::Diff" : "lib/Algorithm/Diff.pm"
@@ -309,6 +310,7 @@
     "source-type" : "git",
     "name" : "Text::Diff",
     "source-url" : "git://github.com/Takadonet/Text--Diff.git",
+    "perl" : "6.*",
     "provides" : {
       "Text::Diff::Table" : "lib/Text/Diff/Table.pm",
       "Text::Diff" : "lib/Text/Diff.pm",
@@ -626,6 +628,7 @@
   {
     "name" : "OpenSSL",
     "source-url" : "git://github.com/sergot/openssl.git",
+    "perl" : "6.*",
     "resources" : [
       "ssleay32.dll",
       "libeay32.dll"
@@ -4360,6 +4363,7 @@
   {
     "name" : "Crypt::Bcrypt",
     "source-url" : "git://github.com/skinkade/p6-Crypt-Bcrypt.git",
+    "perl" : "6.*",
     "resources" : [
       "crypt_blowfish.so"
     ],
@@ -4538,6 +4542,7 @@
   {
     "name" : "IO::Socket::SSL",
     "source-url" : "git://github.com/sergot/io-socket-ssl.git",
+    "perl" : "6.*",
     "author" : "github:sergot",
     "provides" : {
       "IO::Socket::SSL" : "lib/IO/Socket/SSL.pm6"
@@ -4849,6 +4854,7 @@
   {
     "name" : "Operator::feq",
     "source-url" : "git://github.com/tony-o/perl6-operator-feq.git",
+    "perl" : "6.*",
     "provides" : {
       "Operator::feq" : "lib/Operator/feq.pm6",
       "Operator::feq::Levenshtein" : "lib/Operator/feq/Levenshtein.pm6"
@@ -9312,6 +9318,7 @@
   {
     "name" : "P6TCI",
     "source-url" : "git://github.com/ugexe/P6TCI.git",
+    "perl" : "6.*",
     "provides" : {
       "P6TCI" : "lib/P6TCI.pm6"
     },
@@ -9413,6 +9420,7 @@
   {
     "name" : "Foo",
     "source-url" : "git://github.com/ugexe/Perl6-Foo.git",
+    "perl" : "6.*",
     "author" : "github:ugexe",
     "provides" : {
       "Foo" : "lib/Foo.pm"
@@ -11564,6 +11572,7 @@
   {
     "name" : "Crypt::Random",
     "source-url" : "git://github.com/skinkade/crypt-random.git",
+    "perl" : "6.*",
     "author" : "github:skinkade",
     "provides" : {
       "Crypt::Random" : "lib/Crypt/Random.pm6",
@@ -11781,6 +11790,7 @@
   {
     "name" : "Crypt::Argon2",
     "source-url" : "git://github.com/skinkade/p6-crypt-argon2.git",
+    "perl" : "6.*",
     "resources" : [
       "libraries/argon2"
     ],
