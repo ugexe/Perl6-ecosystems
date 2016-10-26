@@ -372,6 +372,7 @@
     "source-type" : "git",
     "name" : "BioPerl6",
     "source-url" : "git://github.com/cjfields/bioperl6.git",
+    "perl" : "6.*",
     "provides" : {
       "Bio::Role::Pluggable" : "lib/Bio/Role/Pluggable.pm6",
       "Bio::Role::PrimarySeq" : "lib/Bio/Role/PrimarySeq.pm6",
@@ -1350,6 +1351,7 @@
     "name" : "Digest::MD5",
     "source-url" : "git://github.com/cosimo/perl6-digest-md5.git",
     "authority" : "cosimo",
+    "perl" : "6.*",
     "author" : "Cosimo Streppone",
     "build-depends" : [ ],
     "provides" : {
@@ -3756,6 +3758,7 @@
   {
     "name" : "Lingua::EN::Syllable",
     "source-url" : "git://github.com/coke/p6-lingua-en-syllable.git",
+    "perl" : "6.*",
     "author" : "Will \u201cCoke\u201d Coleda",
     "provides" : {
       "Lingua::EN::Syllable" : "lib/Lingua/EN/Syllable.pm"
@@ -4508,6 +4511,7 @@
   {
     "name" : "Printing::Jdf",
     "source-url" : "git://github.com/carbin/p6-jdf.git",
+    "perl" : "6.*",
     "author" : "github:carbin",
     "provides" : {
       "Printing::Jdf" : "lib/Printing/Jdf.pm6"
