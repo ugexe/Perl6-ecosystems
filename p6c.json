@@ -3361,6 +3361,7 @@
   {
     "name" : "File::Compare",
     "source-url" : "git://github.com/labster/perl6-File-Compare.git",
+    "perl" : "6.*",
     "author" : "labster",
     "provides" : {
       "File::Compare" : "lib/File/Compare.pm6"
@@ -3957,6 +3958,7 @@
       "source" : "git://github.com/tadzik/File-Find.git",
       "bugtracker" : "https://github.com/tadzik/File-Find/issues"
     },
+    "perl" : "6.*",
     "provides" : {
       "File::Find" : "lib/File/Find.pm"
     },
@@ -3985,6 +3987,7 @@
       "source" : "git://github.com/tadzik/Shell-Command.git",
       "bugtracker" : "https://github.com/tadzik/Shell-Command/issues"
     },
+    "perl" : "6.*",
     "build-depends" : [
       "File::Find"
     ],
@@ -5985,6 +5988,7 @@
   {
     "name" : "Slang::Roman",
     "source-url" : "git://github.com/drforr/perl6-slang-roman.git",
+    "perl" : "6.*",
     "provides" : {
       "Slang::Roman" : "lib/Slang/Roman.pm6"
     },
@@ -5995,6 +5999,7 @@
   {
     "name" : "Inline::Scheme::Guile",
     "source-url" : "git://github.com/niner/Inline-Scheme-Guile.git",
+    "perl" : "6.*",
     "resources" : [
       "libraries/guile-helper"
     ],
@@ -6278,6 +6283,7 @@
   {
     "name" : "ANTLR4",
     "source-url" : "git://github.com/drforr/perl6-ANTLR4.git",
+    "perl" : "6.*",
     "provides" : {
       "ANTLR4::Actions::Perl6" : "lib/ANTLR4/Actions/Perl6.pm",
       "ANTLR4::Actions::AST" : "lib/ANTLR4/Actions/AST.pm",
@@ -6292,6 +6298,7 @@
   {
     "name" : "Marpa",
     "source-url" : "git://github.com/drforr/perl6-Marpa.git",
+    "perl" : "6.*",
     "provides" : {
       "Marpa" : "lib/Marpa.pm"
     },
