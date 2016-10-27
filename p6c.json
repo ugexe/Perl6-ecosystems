@@ -4848,7 +4848,7 @@
   {
     "name" : "PerlMongers::Hannover",
     "source-url" : "git://github.com/paultcochrane/Perl6Mongers-Hannover.git",
-    "author" : "Paul Cochrane",
+    "perl" : "6.*",
     "provides" : {
       "PerlMongers::Hannover" : "lib/PerlMongers/Hannover.pm"
     },
@@ -4857,7 +4857,8 @@
     ],
     "license" : "http://www.perlfoundation.org/artistic_license_2_0",
     "description" : "Hannover Perl Mongers.",
-    "version" : "0.8.6"
+    "version" : "0.8.6",
+    "authors" : "Paul Cochrane"
   },
   {
     "name" : "Totem",
