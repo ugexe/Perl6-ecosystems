@@ -111,6 +111,7 @@
     "source-type" : "git",
     "name" : "Math::Vector",
     "source-url" : "git://github.com/colomon/Math-Vector.git",
+    "perl" : "6.*",
     "provides" : {
       "Math::Vector" : "lib/Math/Vector.pm"
     },
@@ -283,6 +284,7 @@
     "source-type" : "git",
     "name" : "List::Utils",
     "source-url" : "git://github.com/colomon/List-Utils.git",
+    "perl" : "6.*",
     "provides" : {
       "List::Utils" : "lib/List/Utils.pm"
     },
@@ -7415,6 +7417,7 @@
   {
     "name" : "WebService::GitHub",
     "source-url" : "git://github.com/fayland/perl6-WebService-GitHub.git",
+    "perl" : "6.*",
     "author" : "github:fayland",
     "provides" : {
       "WebService::GitHub" : "lib/WebService/GitHub.pm"
@@ -7447,6 +7450,7 @@
   {
     "name" : "Locale::Codes",
     "source-url" : "git://github.com/fayland/perl6-Locale-Codes.git",
+    "perl" : "6.*",
     "author" : "github:fayland",
     "provides" : {
       "Locale::Script" : "lib/Locale/Script.pm",
@@ -7849,6 +7853,7 @@
   {
     "name" : "Cache::LRU",
     "source-url" : "git://github.com/fayland/perl6-Cache-LRU.git",
+    "perl" : "6.*",
     "provides" : {
       "Cache::LRU" : "lib/Cache/LRU.pm"
     },
@@ -7908,6 +7913,7 @@
   {
     "name" : "Business::CreditCard",
     "source-url" : "git://github.com/fayland/perl6-Business-CreditCard.git",
+    "perl" : "6.*",
     "author" : "github:fayland",
     "provides" : {
       "Business::CreditCard" : "lib/Business/CreditCard.pm"
