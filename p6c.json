@@ -6000,7 +6000,7 @@
   {
     "name" : "Path::Router",
     "source-url" : "git://github.com/zostay/p6-Path-Router.git",
-    "author" : "Andrew Sterling Hanenkamp",
+    "perl" : "6.c",
     "provides" : {
       "X::Path::Router::AmbiguousMatch::PathMatch" : "lib/X/Path/Router.pm6",
       "X::Path::Router::AmbiguousMatch::ReverseMatch" : "lib/X/Path/Router.pm6",
@@ -6019,7 +6019,10 @@
       "Linenoise"
     ],
     "description" : "A tool for routing paths",
-    "version" : "0.1"
+    "version" : "0.1",
+    "authors" : [
+      "Sterling Hanenkamp (hanenkamp@cpan.org)"
+    ]
   },
   {
     "name" : "HTTP::Server::Router",
@@ -6440,13 +6443,16 @@
   {
     "name" : "ArrayHash",
     "source-url" : "git://github.com/zostay/perl6-ArrayHash.git",
-    "author" : "Andrew Sterling Hanenkamp",
+    "perl" : "6.c",
     "provides" : {
       "ArrayHash" : "lib/ArrayHash.pm6"
     },
     "depends" : [ ],
     "description" : "An array in a hash in an array... like a turducken",
-    "version" : "0.1"
+    "version" : "0.2",
+    "authors" : [
+      "Sterling Hanenkamp <hanenkamp@cpan.org>"
+    ]
   },
   {
     "name" : "Audio::Libshout",
@@ -6840,13 +6846,16 @@
   {
     "name" : "P6W",
     "source-url" : "git://github.com/zostay/P6W.git",
-    "author" : "Andrew Sterling Hanenkamp",
+    "perl" : "6.c",
     "provides" : {
       "P6W" : "P6W.pod"
     },
     "depends" : [ ],
     "description" : "Web API for Perl 6",
-    "version" : "0.7.Draft"
+    "version" : "0.7.Draft",
+    "authors" : [
+      "Sterling Hanenkamp <hanenkamp@cpan.org>"
+    ]
   },
   {
     "source-type" : "git",
