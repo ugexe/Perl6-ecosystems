@@ -2684,6 +2684,7 @@
     "source-type" : "git",
     "name" : "Redis",
     "source-url" : "git://github.com/Cofyc/perl6-redis.git",
+    "perl" : "6.*",
     "author" : "Yecheng Fu",
     "provides" : {
       "Redis" : "lib/Redis.pm"
@@ -8526,7 +8527,7 @@
     },
     "depends" : [ ],
     "description" : "Some common subsets to built-in types.",
-    "version" : "0.0.1"
+    "version" : "0.0.2"
   },
   {
     "name" : "WebService::GoogleDyDNS",
