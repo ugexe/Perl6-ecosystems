@@ -619,6 +619,7 @@
   {
     "name" : "DateTime::Parse",
     "source-url" : "git://github.com/sergot/datetime-parse.git",
+    "perl" : "6.*",
     "build-depends" : [ ],
     "provides" : {
       "DateTime::Parse" : "lib/DateTime/Parse.pm6"
@@ -691,6 +692,7 @@
   {
     "name" : "XML",
     "source-url" : "git://github.com/supernovus/exemel.git",
+    "perl" : "6.*",
     "author" : "Timothy Totten",
     "provides" : {
       "XML::Comment" : "lib/XML/Comment.pm6",
@@ -1786,6 +1788,7 @@
   {
     "name" : "YAML",
     "source-url" : "git://github.com/perl6-community-modules/yaml-pm6.git",
+    "perl" : "6.*",
     "author" : "Ingy d\u00f6t Net <ingy@cpan.org>",
     "provides" : {
       "YAML::Dumper" : "lib/YAML/Dumper.pm",
@@ -3853,6 +3856,7 @@
   {
     "name" : "v5",
     "source-url" : "git://github.com/rakudo-p5/v5.git",
+    "perl" : "6.*",
     "depends" : [ ],
     "description" : "Reimplementation of Perl 5 Slang",
     "version" : "v0.0.1"
@@ -4564,6 +4568,7 @@
   {
     "name" : "Encode",
     "source-url" : "git://github.com/sergot/perl6-encode.git",
+    "perl" : "6.*",
     "author" : "github:sergot",
     "provides" : {
       "Encode::Latin2" : "lib/Encode/Latin2.pm6",
