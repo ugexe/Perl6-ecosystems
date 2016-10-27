@@ -684,6 +684,7 @@
   {
     "name" : "DB::Model::Easy",
     "source-url" : "git://github.com/supernovus/perl6-db-model-easy.git",
+    "perl" : "6.*",
     "provides" : {
       "DB::Model::Easy::Row" : "lib/DB/Model/Easy/Row.pm6",
       "DB::Model::Easy" : "lib/DB/Model/Easy.pm6"
@@ -717,6 +718,7 @@
   {
     "name" : "XML::Query",
     "source-url" : "git://github.com/supernovus/perl6-xml-query.git",
+    "perl" : "6.*",
     "provides" : {
       "XML::Query::Statement" : "lib/XML/Query/Statement.pm6",
       "XML::Query::Results" : "lib/XML/Query/Results.pm6",
@@ -731,6 +733,7 @@
   {
     "name" : "DateTime::Utils",
     "source-url" : "git://github.com/supernovus/temporal-utils.git",
+    "perl" : "6.*",
     "provides" : { },
     "depends" : [
       "DateTime::Format",
@@ -743,6 +746,7 @@
   {
     "name" : "DateTime::Format",
     "source-url" : "git://github.com/supernovus/perl6-datetime-format.git",
+    "perl" : "6.*",
     "provides" : {
       "DateTime::Format::Lang::DE" : "lib/DateTime/Format/Lang/DE.pm6",
       "DateTime::Format::Lang::BG" : "lib/DateTime/Format/Lang/BG.pm6",
@@ -759,6 +763,7 @@
   {
     "name" : "DateTime::Math",
     "source-url" : "git://github.com/supernovus/perl6-datetime-math.git",
+    "perl" : "6.*",
     "provides" : {
       "DateTime::Math" : "lib/DateTime/Math.pm6"
     },
@@ -769,6 +774,7 @@
   {
     "name" : "DateTime::TimeZone",
     "source-url" : "git://github.com/supernovus/perl6-timezone.git",
+    "perl" : "6.*",
     "provides" : {
       "DateTime::TimeZone" : "lib/DateTime/TimeZone.pm6"
     },
@@ -779,6 +785,7 @@
   {
     "name" : "Web",
     "source-url" : "git://github.com/supernovus/perl6-web.git",
+    "perl" : "6.*",
     "provides" : {
       "Web::Request::Multipart" : "lib/Web/Request/Multipart.pm6",
       "Web::Request" : "lib/Web/Request.pm6",
@@ -799,6 +806,7 @@
   {
     "name" : "Web::Template",
     "source-url" : "git://github.com/supernovus/perl6-web-template.git",
+    "perl" : "6.*",
     "provides" : {
       "Web::Template::HTML" : "lib/Web/Template/HTML.pm6",
       "Web::Template" : "lib/Web/Template.pm6",
@@ -816,6 +824,7 @@
   {
     "name" : "Web::App::MVC",
     "source-url" : "git://github.com/supernovus/perl6-web-app-mvc.git",
+    "perl" : "6.*",
     "provides" : {
       "Web::App::MVC::Controller" : "lib/Web/App/MVC/Controller.pm6",
       "Web::App::MVC" : "lib/Web/App/MVC.pm6",
@@ -835,6 +844,7 @@
   {
     "name" : "Web::App::Ballet",
     "source-url" : "git://github.com/supernovus/perl6-web-app-ballet.git",
+    "perl" : "6.*",
     "provides" : {
       "Web::App::Ballet" : "lib/Web/App/Ballet.pm6"
     },
@@ -850,6 +860,7 @@
   {
     "name" : "HTTP::Easy",
     "source-url" : "git://github.com/supernovus/perl6-http-easy.git",
+    "perl" : "6.*",
     "provides" : {
       "HTTP::Easy::PSGI" : "lib/HTTP/Easy/PSGI.pm6",
       "HTTP::Easy" : "lib/HTTP/Easy.pm6"
@@ -864,6 +875,7 @@
   {
     "name" : "HTTP::Status",
     "source-url" : "git://github.com/supernovus/perl6-http-status.git",
+    "perl" : "6.*",
     "provides" : {
       "HTTP::Status" : "lib/HTTP/Status.pm6"
     },
@@ -925,6 +937,7 @@
   {
     "name" : "Flower",
     "source-url" : "git://github.com/supernovus/flower.git",
+    "perl" : "6.*",
     "provides" : {
       "Flower::TAL::TALES::Debug" : "lib/Flower/TAL/TALES/Debug.pm6",
       "Flower::TAL::TALES::Text" : "lib/Flower/TAL/TALES/Text.pm6",
@@ -948,6 +961,7 @@
   {
     "name" : "Netstring",
     "source-url" : "git://github.com/supernovus/perl6-netstring.git",
+    "perl" : "6.*",
     "provides" : {
       "Netstring" : "lib/Netstring.pm6"
     },
@@ -958,6 +972,7 @@
   {
     "name" : "SCGI",
     "source-url" : "git://github.com/supernovus/SCGI.git",
+    "perl" : "6.*",
     "provides" : {
       "SCGI" : "lib/SCGI.pm6",
       "SCGI::Request" : "lib/SCGI/Request.pm6",
@@ -977,6 +992,7 @@
   {
     "name" : "FastCGI",
     "source-url" : "git://github.com/supernovus/perl6-fastcgi.git",
+    "perl" : "6.*",
     "provides" : {
       "FastCGI::Errors" : "lib/FastCGI/Errors.pm6",
       "FastCGI::Connection" : "lib/FastCGI/Connection.pm6",
@@ -996,6 +1012,7 @@
   {
     "name" : "MIME::Types",
     "source-url" : "git://github.com/supernovus/perl6-mime-types.git",
+    "perl" : "6.*",
     "provides" : {
       "MIME::Types" : "lib/MIME/Types.pm6"
     },
@@ -1006,6 +1023,7 @@
   {
     "name" : "Template6",
     "source-url" : "git://github.com/supernovus/template6.git",
+    "perl" : "6.*",
     "provides" : {
       "Template6" : "lib/Template6.pm6",
       "Template6::Provider::File" : "lib/Template6/Provider/File.pm6",
@@ -1022,6 +1040,7 @@
   {
     "name" : "PSpec",
     "source-url" : "git://github.com/supernovus/PSpec.git",
+    "perl" : "6.*",
     "provides" : {
       "PSpec" : "lib/PSpec.pm6"
     },
@@ -1032,6 +1051,7 @@
   {
     "name" : "Method::Modifiers",
     "source-url" : "git://github.com/supernovus/perl6-method-modifiers.git",
+    "perl" : "6.*",
     "provides" : {
       "Method::Modifiers::Role" : "lib/Method/Modifiers/Role.pm6",
       "Method::Modifiers::Augment" : "lib/Method/Modifiers/Augment.pm6",
@@ -1044,6 +1064,7 @@
   {
     "name" : "Text::Table::List",
     "source-url" : "git://github.com/supernovus/perl6-text-table-list.git",
+    "perl" : "6.*",
     "provides" : {
       "Text::Table::List::ASCII" : "lib/Text/Table/List/ASCII.pm6",
       "Text::Table::List" : "lib/Text/Table/List.pm6"
@@ -1055,6 +1076,7 @@
   {
     "name" : "Hinges",
     "source-url" : "git://github.com/supernovus/hinges.git",
+    "perl" : "6.*",
     "provides" : {
       "Hinges::Interpolation" : "lib/Hinges/Interpolation.pm",
       "Hinges::Output" : "lib/Hinges/Output.pm",
@@ -1075,6 +1097,7 @@
   {
     "name" : "PSGI",
     "source-url" : "git://github.com/supernovus/perl6-psgi.git",
+    "perl" : "6.*",
     "provides" : {
       "PSGI" : "lib/PSGI.pm6"
     },
