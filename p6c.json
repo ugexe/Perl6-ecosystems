@@ -179,6 +179,7 @@
       "source" : "git://github.com/tadzik/perl6-Term-ANSIColor.git",
       "bugtracker" : "https://github.com/tadzik/perl6-Term-ANSIColor/issues"
     },
+    "perl" : "6.*",
     "build-depends" : [ ],
     "provides" : {
       "Term::ANSIColor" : "lib/Term/ANSIColor.pm"
@@ -205,6 +206,7 @@
       "source" : "git://github.com/tadzik/Terminal-ANSIColor.git",
       "bugtracker" : "https://github.com/tadzik/Terminal-ANSIColor/issues"
     },
+    "perl" : "6.*",
     "build-depends" : [ ],
     "provides" : {
       "Terminal::ANSIColor" : "lib/Terminal/ANSIColor.pm"
@@ -884,6 +886,7 @@
   {
     "name" : "Task::Star",
     "source-url" : "git://github.com/tadzik/Task-Star.git",
+    "perl" : "6.*",
     "provides" : { },
     "depends" : [
       "Debugger::UI::CommandLine",
@@ -1921,6 +1924,7 @@
   {
     "name" : "Text::T9",
     "source-url" : "git://github.com/tadzik/Text-T9.git",
+    "perl" : "6.*",
     "provides" : {
       "Text::T9" : "lib/Text/T9.pm"
     },
@@ -3275,6 +3279,7 @@
   {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
+    "perl" : "6.*",
     "provides" : {
       "Test::Harness" : "lib/Test/Harness.pm"
     },
@@ -3299,6 +3304,7 @@
   {
     "name" : "Coroutines",
     "source-url" : "git://github.com/tadzik/Coroutines.git",
+    "perl" : "6.*",
     "provides" : {
       "Coroutines" : "lib/Coroutines.pm"
     },
@@ -4358,6 +4364,7 @@
   {
     "name" : "ClassX::StrictConstructor",
     "source-url" : "git://github.com/tadzik/ClassX-StrictConstructor.git",
+    "perl" : "6.*",
     "provides" : {
       "ClassX::StrictConstructor" : "lib/ClassX/StrictConstructor.pm"
     },
@@ -11453,6 +11460,7 @@
       "source" : "git://github.com/tadzik/Geo-Coder-OpenCage.git",
       "bugtracker" : "https://github.com/tadzik/Geo-Coder-OpenCage/issues"
     },
+    "perl" : "6.*",
     "provides" : {
       "Geo::Coder::OpenCage::Response" : "lib/Geo/Coder/OpenCage/Response.pm",
       "Geo::Coder::OpenCage" : "lib/Geo/Coder/OpenCage.pm"
