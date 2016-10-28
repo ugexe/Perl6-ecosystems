@@ -2356,6 +2356,7 @@
   {
     "name" : "Auth::SAML2",
     "source-url" : "git://github.com/retupmoca/P6-SAML.git",
+    "perl" : "6.*",
     "author" : "github:retupmoca",
     "provides" : {
       "Auth::SAML2::Response" : "lib/Auth/SAML2/Response.pm6",
@@ -6260,6 +6261,7 @@
   {
     "name" : "Graffiks",
     "source-url" : "https://github.com/wentam/P6-Graffiks.git",
+    "perl" : "6.*",
     "author" : "github:wentam",
     "provides" : {
       "Graffiks::Objloader" : "lib/Graffiks/Objloader.pm6",
