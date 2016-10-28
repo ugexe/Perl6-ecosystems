@@ -462,6 +462,7 @@
   {
     "name" : "Term::ProgressBar",
     "source-url" : "git://github.com/sergot/Term--ProgressBar.git",
+    "perl" : "6.*",
     "provides" : {
       "Term::ProgressBar" : "lib/Term/ProgressBar.pm"
     },
@@ -507,6 +508,7 @@
   {
     "name" : "IO::Capture::Simple",
     "source-url" : "git://github.com/sergot/IO-Capture-Simple.git",
+    "perl" : "6.*",
     "provides" : {
       "Test::IO::Capture" : "lib/Test/IO/Capture.pm",
       "IO::Capture::Simple" : "lib/IO/Capture/Simple.pm"
@@ -574,6 +576,7 @@
   {
     "name" : "BreakDancer",
     "source-url" : "git://github.com/sergot/BreakDancer.git",
+    "perl" : "6.*",
     "build-depends" : [
       "Shell::Command"
     ],
@@ -671,6 +674,7 @@
   {
     "name" : "bamboo",
     "source-url" : "git://github.com/sergot/bamboo.git",
+    "perl" : "6.*",
     "author" : "github:sergot",
     "provides" : {
       "Bamboo" : "lib/Bamboo.pm6"
@@ -4213,6 +4217,7 @@
   {
     "name" : "WebService::Justcoin",
     "source-url" : "git://github.com/dagurval/p6-webservice-justcoin.git",
+    "perl" : "6.*",
     "author" : "Dagur Valberg Johannsson",
     "provides" : {
       "WebService::Justcoin" : "lib/WebService/Justcoin.pm6"
