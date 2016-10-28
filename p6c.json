@@ -4525,6 +4525,7 @@
   {
     "name" : "PerlStore",
     "source-url" : "git://github.com/teodozjan/perl-store.git",
+    "perl" : "6.*",
     "author" : "github:teodozjan",
     "provides" : {
       "PerlStore::FileStore" : "lib/PerlStore/FileStore.pm6"
@@ -5426,6 +5427,7 @@
   {
     "name" : "Mortgage",
     "source-url" : "git://github.com/teodozjan/mortage6.git",
+    "perl" : "6.*",
     "author" : "github:teodozjan",
     "provides" : {
       "Mortgage" : "lib/Mortgage.pm6"
@@ -8189,6 +8191,7 @@
   {
     "name" : "Pod::Coverage",
     "source-url" : "git://github.com/teodozjan/pod6-coverage.git",
+    "perl" : "6.*",
     "provides" : {
       "Pod::Coverage::Result" : "lib/Pod/Coverage/Result.pm6",
       "Pod::Coverage::Anypod" : "lib/Pod/Coverage/Anypod.pm6",
@@ -8420,6 +8423,7 @@
   {
     "name" : "path-coverage",
     "source-url" : "git://github.com/teodozjan/path6-coverage.git",
+    "perl" : "6.*",
     "provides" : { },
     "depends" : [
       "File::Find"
