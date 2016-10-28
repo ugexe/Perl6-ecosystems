@@ -3965,6 +3965,7 @@
   {
     "name" : "CSV::Parser",
     "source-url" : "git://github.com/tony-o/perl6-csv-parser.git",
+    "perl" : "6.*",
     "provides" : {
       "CSV::Parser" : "lib/CSV/Parser.pm"
     },
@@ -4225,6 +4226,7 @@
   {
     "name" : "Web::Scraper",
     "source-url" : "git://github.com/tony-o/perl6-web-scraper.git",
+    "perl" : "6.*",
     "author" : "Tony ODell",
     "provides" : {
       "Web::Scraper" : "lib/Web/Scraper.pm6"
@@ -4253,6 +4255,7 @@
   {
     "name" : "HTML::Parser::XML",
     "source-url" : "git://github.com/tony-o/perl6-html-parser-xml.git",
+    "perl" : "6.*",
     "provides" : {
       "HTML::Parser::XML" : "lib/HTML/Parser/XML.pm6"
     },
@@ -4482,6 +4485,7 @@
   {
     "name" : "HTTP::Server::Async",
     "source-url" : "git://github.com/tony-o/perl6-http-server-async.git",
+    "perl" : "6.*",
     "provides" : {
       "HTTP::Server::Async::Response" : "lib/HTTP/Server/Async/Response.pm6",
       "HTTP::Server::Async" : "lib/HTTP/Server/Async.pm6",
@@ -4829,6 +4833,7 @@
   {
     "name" : "Pluggable",
     "source-url" : "git://github.com/tony-o/perl6-pluggable.git",
+    "perl" : "6.*",
     "author" : "Tony ODell",
     "auth" : "github:tony-o",
     "provides" : {
@@ -4841,6 +4846,7 @@
   {
     "name" : "DB::ORM::Quicky",
     "source-url" : "git://github.com/tony-o/perl6-db-orm-quicky.git",
+    "perl" : "6.*",
     "provides" : {
       "DB::ORM::Quicky::Search" : "lib/DB/ORM/Quicky/Search.pm6",
       "DB::ORM::Quicky" : "lib/DB/ORM/Quicky.pm6",
@@ -4963,6 +4969,7 @@
   {
     "name" : "Bench",
     "source-url" : "git://github.com/tony-o/perl6-bench.git",
+    "perl" : "6.*",
     "provides" : {
       "Bench" : "lib/Bench.pm6"
     },
@@ -5117,6 +5124,7 @@
   {
     "name" : "Slang::SQL",
     "source-url" : "git://github.com/tony-o/perl6-slang-sql.git",
+    "perl" : "6.*",
     "auth" : "github:tony-o",
     "provides" : {
       "Slang::SQL" : "lib/Slang/SQL.pm6"
@@ -5167,6 +5175,7 @@
   {
     "name" : "HTTP::Server::Async::Plugins::Router::Simple",
     "source-url" : "git://github.com/tony-o/perl6-http-server-async-plugins-router-simple.git",
+    "perl" : "6.*",
     "provides" : {
       "HTTP::Server::Async::Plugins::Router::Simple" : "lib/HTTP/Server/Async/Plugins/Router/Simple.pm6"
     },
@@ -5959,6 +5968,7 @@
   {
     "name" : "HTTP::Server::Threaded",
     "source-url" : "git://github.com/tony-o/perl6-http-server-threaded.git",
+    "perl" : "6.*",
     "provides" : {
       "HTTP::Server::Threaded::Response" : "lib/HTTP/Server/Threaded/Response.pm6",
       "HTTP::Server::Threaded::Request" : "lib/HTTP/Server/Threaded/Request.pm6",
@@ -6091,6 +6101,7 @@
   {
     "name" : "HTTP::Server::Router",
     "source-url" : "git://github.com/tony-o/perl6-http-server-router.git",
+    "perl" : "6.*",
     "provides" : {
       "HTTP::Server::Router" : "lib/HTTP/Server/Router.pm6"
     },
@@ -6174,6 +6185,7 @@
   {
     "name" : "HTTP::Server",
     "source-url" : "git://github.com/tony-o/perl6-http-server.git",
+    "perl" : "6.*",
     "author" : "github:tony-o",
     "provides" : {
       "HTTP::Server" : "lib/HTTP/Server.pm6",
@@ -6187,6 +6199,7 @@
   {
     "name" : "HTTP::Server::Logger",
     "source-url" : "git://github.com/tony-o/perl6-http-server-logger.git",
+    "perl" : "6.*",
     "provides" : {
       "HTTP::Server::Logger" : "lib/HTTP/Server/Logger.pm6"
     },
@@ -6464,6 +6477,7 @@
   {
     "name" : "Hiker",
     "source-url" : "git://github.com/tony-o/perl6-hiker.git",
+    "perl" : "6.*",
     "auth" : "github:tony-o",
     "provides" : {
       "Hiker::Render" : "lib/Hiker/Render.pm6",
@@ -6985,6 +6999,7 @@
   {
     "name" : "Green",
     "source-url" : "git://github.com/tony-o/perl6-green.git",
+    "perl" : "6.*",
     "provides" : {
       "Green" : "lib/Green.pm6"
     },
@@ -7725,6 +7740,7 @@
   {
     "name" : "Encoding::Huffman::PP6",
     "source-url" : "git://github.com/tony-o/perl6-encoding-huffman-pp6.git",
+    "perl" : "6.*",
     "provides" : {
       "Encoding::Huffman::PP6" : "lib/Encoding/Huffman/PP6.pm6"
     },
@@ -7858,6 +7874,7 @@
   {
     "name" : "Module::Does",
     "source-url" : "git://github.com/tony-o/perl6-module-does.git",
+    "perl" : "6.*",
     "auth" : "github:tony-o",
     "provides" : {
       "Module::Does" : "lib/Module/Does.pm6"
@@ -7869,6 +7886,7 @@
   {
     "name" : "HTML::Parser",
     "source-url" : "git://github.com/tony-o/perl6-html-parser.git",
+    "perl" : "6.*",
     "auth" : "github:tony-o",
     "provides" : {
       "HTML::Parser" : "lib/HTML/Parser.pm6"
