@@ -2561,6 +2561,7 @@
   {
     "name" : "Acme::Addslashes",
     "source-url" : "git://github.com/xfix/perl6-Acme-Addslashes.git",
+    "perl" : "6.*",
     "build-depends" : [ ],
     "provides" : {
       "Acme::Addslashes" : "lib/Acme/Addslashes.pm"
@@ -2616,6 +2617,7 @@
   {
     "name" : "Text::Abbrev",
     "source-url" : "git://github.com/xfix/perl6-Text-Abbrev.git",
+    "perl" : "6.*",
     "provides" : {
       "Text::Abbrev" : "lib/Text/Abbrev.pm"
     },
@@ -4438,6 +4440,7 @@
   {
     "name" : "Acme::DSON",
     "source-url" : "git://github.com/xfix/Acme-DSON.git",
+    "perl" : "6.*",
     "author" : "Konrad Borowski <x.fix@o2.pl>",
     "provides" : {
       "Acme::DSON" : "lib/Acme/DSON.pm",
