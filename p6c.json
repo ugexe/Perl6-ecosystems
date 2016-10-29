@@ -4095,16 +4095,16 @@
   {
     "name" : "Text::Markov",
     "source-url" : "git://github.com/bbkr/text_markov.git",
-    "authority" : "bbkr",
     "perl" : "6.*",
-    "author" : "Pawel Pabian",
     "provides" : {
       "Text::Markov" : "lib/Text/Markov.pm"
     },
-    "repo-type" : "git",
-    "depends" : [ ],
-    "description" : "Generate superficially real-looking text in Perl 6.",
-    "version" : "1.0.1"
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "description" : "Generate superficially real-looking text.",
+    "version" : "1.0.1",
+    "authors" : [
+      "Pawe\u0142 bbkr Pabian"
+    ]
   },
   {
     "name" : "Path::Util",
