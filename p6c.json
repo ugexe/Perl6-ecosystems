@@ -1649,16 +1649,17 @@
   {
     "name" : "GeoIP::City",
     "source-url" : "git://github.com/bbkr/GeoIPerl6.git",
-    "authority" : "bbkr",
-    "perl" : "6.*",
-    "author" : "Pawel Pabian",
+    "perl" : "6.c",
     "provides" : {
       "GeoIP" : "lib/GeoIP.pm",
       "GeoIP::City" : "lib/GeoIP/City.pm"
     },
-    "depends" : [ ],
-    "description" : "MaxMind GeoIP City library interface",
-    "version" : "1.0"
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "description" : "MaxMind GeoIP City library interface.",
+    "version" : "1.0.0",
+    "authors" : [
+      "Pawe\u0142 bbkr Pabian"
+    ]
   },
   {
     "name" : "Benchmark",
@@ -6891,6 +6892,7 @@
   {
     "name" : "Acme::Flutterby",
     "source-url" : "https://github.com/byterock/Acme-Flutterby.git",
+    "perl" : "6.*",
     "author" : "John Scoles",
     "provides" : {
       "Acme::Flutterby" : "lib/Acme/Flutterby.pm"
