@@ -6000,10 +6000,12 @@
       "Template::Anti" : "lib/Template/Anti.pm6"
     },
     "depends" : [
-      "DOM::Tiny"
+      "DOM::Tiny",
+      "Test",
+      "Test::META"
     ],
     "description" : "The anti-template templating tool.",
-    "version" : "0.3",
+    "version" : "0.3.1",
     "authors" : [
       "Sterling Hanenkamp <hanenkamp@cpan.org>"
     ]
