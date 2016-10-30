@@ -12978,16 +12978,16 @@
   {
     "name" : "TinyID",
     "source-url" : "git://github.com/bbkr/TinyID.git",
-    "authority" : "bbkr",
-    "perl" : "6.*",
-    "author" : "Pawel Pabian",
+    "perl" : "6.c",
     "provides" : {
       "TinyID" : "lib/TinyID.pm"
     },
-    "repo-type" : "git",
-    "depends" : [ ],
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
     "description" : "Shorten and obfuscate IDs.",
-    "version" : "1.0.0"
+    "version" : "1.0.0",
+    "authors" : [
+      "Pawe\u0142 bbkr Pabian"
+    ]
   },
   {
     "name" : "DateTime::DST",
