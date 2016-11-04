@@ -1625,9 +1625,8 @@
   },
   {
     "name" : "BSON",
+    "perl" : "6.c",
     "source-url" : "git://github.com/MARTIMM/BSON.git",
-    "perl" : "6.*",
-    "author" : "Marcel Timmerman",
     "provides" : {
       "BSON::Binary" : "lib/BSON/Binary.pm6",
       "BSON::Regex" : "lib/BSON/Regex.pm6",
@@ -1645,7 +1644,10 @@
     ],
     "license" : "The Artistic License 2.0",
     "description" : "BSON encoding/decoding, used in MongoDB drivers",
-    "version" : "0.9.28"
+    "version" : "0.9.29",
+    "authors" : [
+      "Marcel Timmerman"
+    ]
   },
   {
     "name" : "GeoIP::City",
