@@ -13584,14 +13584,14 @@
     },
     "depends" : [
       "Digest::HMAC",
-      "OpenSSL::Digest",
+      "OpenSSL",
       "Base64",
-      "PKCS5::PBKDF2",
+      "PKCS5",
       "Unicode::PRECIS"
     ],
     "license" : "The Artistic License 2.0",
     "description" : "Salted Challenge Response Authentication Mechanism (SCRAM)",
-    "version" : "v0.4.5",
+    "version" : "v0.4.6",
     "authors" : [
       "Marcel Timmerman"
     ]
