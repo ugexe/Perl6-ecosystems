@@ -622,7 +622,7 @@
       "IO::Capture::Simple"
     ],
     "description" : "Web user agent",
-    "version" : "1.1.23"
+    "version" : "1.1.24"
   },
   {
     "name" : "DateTime::Parse",
@@ -14212,6 +14212,31 @@
     "version" : "0.0.1",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "MeCab",
+    "source-url" : "git://github.com/titsuki/p6-MeCab.git",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/mecab"
+    ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
+    "provides" : {
+      "MeCab::DictionaryInfo" : "lib/MeCab/DictionaryInfo.pm6",
+      "MeCab::Tagger" : "lib/MeCab/Tagger.pm6",
+      "MeCab::Lattice" : "lib/MeCab/Lattice.pm6",
+      "MeCab::Model" : "lib/MeCab/Model.pm6",
+      "MeCab" : "lib/MeCab.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
+    "version" : "0.0.1",
+    "authors" : [
+      "titsuki"
     ]
   }
 ]
