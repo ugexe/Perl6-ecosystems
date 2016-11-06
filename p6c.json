@@ -14238,5 +14238,26 @@
     "authors" : [
       "titsuki"
     ]
+  },
+  {
+    "name" : "Pod::Render",
+    "source-url" : "git://github.com/MARTIMM/pod-render.git",
+    "perl" : "6.c",
+    "resources" : [
+      "pod6.css"
+    ],
+    "provides" : {
+      "Pod::Render" : "lib/Pod/Render.pm6"
+    },
+    "depends" : [
+      "Pod::To::HTML",
+      "Pod::To::Markdown"
+    ],
+    "license" : "The Artistic License 2.0",
+    "description" : "Render pod docs to html, pdf or md",
+    "version" : "v0.5.5",
+    "authors" : [
+      "Marcel Timmerman"
+    ]
   }
 ]
