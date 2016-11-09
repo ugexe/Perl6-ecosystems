@@ -1629,6 +1629,7 @@
     "source-url" : "git://github.com/MARTIMM/BSON.git",
     "provides" : {
       "BSON::Binary" : "lib/BSON/Binary.pm6",
+      "BSON" : "lib/BSON.pm6",
       "BSON::Regex" : "lib/BSON/Regex.pm6",
       "BSON::Javascript" : "lib/BSON/Javascript.pm6",
       "BSON::Document" : "lib/BSON/Document.pm6",
@@ -1644,7 +1645,7 @@
     ],
     "license" : "The Artistic License 2.0",
     "description" : "BSON encoding/decoding, used in MongoDB drivers",
-    "version" : "0.9.30",
+    "version" : "0.9.30.1",
     "authors" : [
       "Marcel Timmerman"
     ]
