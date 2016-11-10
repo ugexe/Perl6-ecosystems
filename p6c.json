@@ -5176,7 +5176,6 @@
     "source-url" : "git://github.com/p6-css/perl6-CSS-Writer.git",
     "perl" : "6.*",
     "provides" : {
-      "CSS::Writer::BaseTypes" : "lib/CSS/Writer/BaseTypes.pm",
       "CSS::Writer" : "lib/CSS/Writer.pm"
     },
     "depends" : [
@@ -5184,7 +5183,7 @@
       "JSON::Fast"
     ],
     "description" : "AST Serializer; compatible with CSS::Grammar and CSS::Module",
-    "version" : "0.02.3"
+    "version" : "0.02.4"
   },
   {
     "name" : "HTTP::Server::Async::Plugins::Router::Simple",
