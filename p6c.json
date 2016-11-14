@@ -618,10 +618,11 @@
       "URI"
     ],
     "test-depends" : [
-      "IO::Capture::Simple"
+      "IO::Capture::Simple",
+      "Test::Util::ServerPort"
     ],
     "description" : "Web user agent",
-    "version" : "1.1.24"
+    "version" : "1.1.25"
   },
   {
     "name" : "DateTime::Parse",
