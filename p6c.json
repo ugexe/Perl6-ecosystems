@@ -14269,5 +14269,17 @@
     "authors" : [
       "Marcel Timmerman"
     ]
+  },
+  {
+    "name" : "File::Ignore",
+    "source-url" : "https://github.com/jnthn/p6-file-ignore.git",
+    "perl" : "6.*",
+    "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+    "provides" : {
+      "File::Ignore" : "lib/File/Ignore.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Parsing and application of .gitignore-style ignore files.",
+    "version" : "0.1"
   }
 ]
