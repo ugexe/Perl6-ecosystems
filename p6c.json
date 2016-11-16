@@ -14281,5 +14281,22 @@
     "depends" : [ ],
     "description" : "Parsing and application of .gitignore-style ignore files.",
     "version" : "0.1"
+  },
+  {
+    "name" : "Crust::Middleware::Session::Store::DBIish",
+    "source-url" : "git://github.com/adaptiveoptics/Crust-Middleware-Session-Store-DBIish.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Crust::Middleware::Session::Store::DBIish" : "lib/Crust/Middleware/Session/Store/DBIish.pm6"
+    },
+    "depends" : [
+      "Crust::Middleware::Session",
+      "JSON::Fast"
+    ],
+    "description" : "Implements database storage role for Crust::Middleware::Session",
+    "version" : "0.0.1",
+    "authors" : [
+      "Mark Rushing"
+    ]
   }
 ]
