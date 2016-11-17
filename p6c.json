@@ -14299,5 +14299,25 @@
     "authors" : [
       "Mark Rushing"
     ]
+  },
+  {
+    "name" : "Statistics::LinearRegression",
+    "source-url" : "git://github.com/hipek8/p6-Statistics-LinearRegression.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "provides" : {
+      "Statistics::LinearRegression" : "lib/Statistics/LinearRegression.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "simple linear regression",
+    "version" : "1.0.0",
+    "authors" : [
+      "Pawe\u0142 Szulc"
+    ]
   }
 ]
