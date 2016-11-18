@@ -14319,5 +14319,22 @@
     "authors" : [
       "Pawe\u0142 Szulc"
     ]
+  },
+  {
+    "name" : "URL::Find",
+    "support" : {
+      "source" : "git://github.com/samcv/URL-Find.git",
+      "bugtracker" : "https://github.com/samcv/URL-Find/issues"
+    },
+    "source-url" : "git://github.com/samcv/URL-Find.git",
+    "perl" : "6",
+    "provides" : {
+      "URL::Find" : "lib/URL/Find.pm6"
+    },
+    "description" : "Find all the URL's in text",
+    "version" : "v0.1",
+    "authors" : [
+      "Samantha McVey"
+    ]
   }
 ]
