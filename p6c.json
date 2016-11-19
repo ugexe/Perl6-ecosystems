@@ -13138,6 +13138,7 @@
       "Pod::To::BigPage" : "lib/Pod/To/BigPage.pm6"
     },
     "depends" : [
+      "IO::Socket::SSL",
       "LWP::Simple"
     ],
     "license" : "https://opensource.org/licenses/Artistic-2.0",
