@@ -12608,9 +12608,11 @@
       "Getopt::Kinoko::Parser" : "lib/Getopt/Kinoko/Parser.pm6",
       "Getopt::Kinoko::Exception" : "lib/Getopt/Kinoko/Exception.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "Terminal::WCWidth"
+    ],
     "description" : "A command line parsing tool which written in Perl6",
-    "version" : "0.2.0",
+    "version" : "0.2.1",
     "authors" : "Loren"
   },
   {
