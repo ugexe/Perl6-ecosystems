@@ -12404,13 +12404,13 @@
   },
   {
     "name" : "Terminal::Readsecret",
-    "perl" : "6.c",
     "source-url" : "git://github.com/titsuki/p6-Terminal-Readsecret.git",
-    "build-depends" : [
-      "LibraryMake"
-    ],
+    "perl" : "6.c",
     "resources" : [
       "libraries/readsecret"
+    ],
+    "build-depends" : [
+      "LibraryMake"
     ],
     "provides" : {
       "Terminal::Readsecret" : "lib/Terminal/Readsecret.pm6"
@@ -12418,7 +12418,7 @@
     "depends" : [ ],
     "test-depends" : [ ],
     "description" : "A perl6 binding of readsecret ( https://github.com/dmeranda/readsecret ) for reading secrets or passwords from a command line secretly (not being displayed)",
-    "version" : "*",
+    "version" : "0.0.1",
     "authors" : [
       "titsuki"
     ]
