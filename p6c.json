@@ -14342,5 +14342,20 @@
     "authors" : [
       "Samantha McVey"
     ]
+  },
+  {
+    "name" : "Net::Netmask",
+    "source-url" : "git://github.com/0racle/p6-Net-Netmask.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Net::Netmask" : "lib/Net/Netmask.pm"
+    },
+    "depends" : [ ],
+    "license" : "Artistic",
+    "description" : "Parse, manipulate and lookup IP network blocks",
+    "version" : "0.1.0",
+    "authors" : [
+      "Joshua Yeshouroun"
+    ]
   }
 ]
