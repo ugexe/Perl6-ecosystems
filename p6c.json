@@ -14373,5 +14373,24 @@
     "authors" : [
       "Joshua Yeshouroun"
     ]
+  },
+  {
+    "name" : "Parser::FreeXL::Native",
+    "source-url" : "git://github.com/spebern/Parser-FreeXL-Native.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
+    "provides" : {
+      "Parser::FreeXL::Native" : "lib/Parser/FreeXL/Native.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "wrapper for freexl parsing .xls files",
+    "version" : "*",
+    "authors" : [
+      "spebern"
+    ]
   }
 ]
