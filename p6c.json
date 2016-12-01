@@ -14297,6 +14297,7 @@
     },
     "depends" : [
       "Crust::Middleware::Session",
+      "Crust",
       "JSON::Fast"
     ],
     "description" : "Implements database storage role for Crust::Middleware::Session",
