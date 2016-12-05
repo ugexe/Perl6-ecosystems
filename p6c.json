@@ -8535,13 +8535,14 @@
       "PDF::IO::Crypt" : "lib/PDF/IO/Crypt.pm",
       "PDF::IO::Filter::ASCII85" : "lib/PDF/IO/Filter/ASCII85.pm"
     },
+    "auth" : "github:p6-pdf",
     "depends" : [
       "Compress::Zlib",
       "PDF::Grammar",
       "JSON::Fast",
       "OpenSSL"
     ],
-    "description" : "Low level tools for reading, writing and authoring of PDF files",
+    "description" : "Low level tools for reading, manipulation and writing of PDF data",
     "version" : "0.1.0"
   },
   {
