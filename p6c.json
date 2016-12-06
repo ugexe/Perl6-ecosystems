@@ -13851,14 +13851,14 @@
     ]
   },
   {
-    "name" : "FileSystem::Capacity::VolumesInfo",
+    "name" : "FileSystem::Capacity",
     "source-url" : "git@github.com:ramiroencinas/perl6-FileSystem-Capacity.git",
     "perl" : "6.c",
     "provides" : {
       "FileSystem::Capacity::VolumesInfo" : "lib/FileSystem/Capacity/VolumesInfo.pm6"
     },
     "depends" : [ ],
-    "description" : "Provides filesystem capacity info from the operating system utils and tools.",
+    "description" : "Provides filesystem capacity information.",
     "version" : "*",
     "authors" : [
       "Ramiro Encinas Alarza"
