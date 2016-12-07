@@ -14436,5 +14436,22 @@
     ],
     "description" : "Basic manipulation of CSS properties",
     "version" : "0.0.1"
+  },
+  {
+    "name" : "WaitGroup",
+    "source-url" : "git://github.com/skaji/perl6-WaitGroup.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "provides" : {
+      "WaitGroup" : "lib/WaitGroup.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "sys.WaitGroup in perl6",
+    "version" : "*",
+    "authors" : [
+      "Shoichi Kaji"
+    ]
   }
 ]
