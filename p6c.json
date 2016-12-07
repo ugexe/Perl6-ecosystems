@@ -14453,5 +14453,35 @@
     "authors" : [
       "Shoichi Kaji"
     ]
+  },
+  {
+    "name" : "Manifesto",
+    "support" : {
+      "source" : "https://github.com/jonathanstowe/Manifesto.git"
+    },
+    "perl" : "6.c",
+    "source-url" : "https://github.com/jonathanstowe/Manifesto.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "provides" : {
+      "Manifesto" : "lib/Manifesto.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "license" : "perl",
+    "tags" : [
+      "async",
+      "util",
+      "promise"
+    ],
+    "description" : "Make a supply of the results of Promises",
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
