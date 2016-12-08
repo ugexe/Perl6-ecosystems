@@ -10553,7 +10553,10 @@
     "resources" : [ ],
     "build-depends" : [ ],
     "provides" : {
+      "Net::OSC::Types" : "lib/Net/OSC/Types.pm6",
       "Net::OSC::Message" : "lib/Net/OSC/Message.pm6",
+      "Net::OSC::Server" : "lib/Net/OSC/Server.pm6",
+      "Net::OSC::Server::UDP" : "lib/Net/OSC/Server/UDP.pm6",
       "Net::OSC::Bundle" : "lib/Net/OSC/Bundle.pm6",
       "Net::OSC" : "lib/Net/OSC.pm6"
     },
