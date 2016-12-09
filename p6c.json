@@ -14507,5 +14507,26 @@
     "authors" : [
       "astj"
     ]
+  },
+  {
+    "name" : "Algorithm::Genetic",
+    "source-url" : "git://github.com/samgwise/p6-algorithm-genetic.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "provides" : {
+      "Algorithm::Genetic" : "lib/Algorithm/Genetic.pm6",
+      "Algorithm::Genetic::Crossoverable" : "lib/Algorithm/Genetic/Crossoverable.pm6",
+      "Algorithm::Genetic::Selection" : "lib/Algorithm/Genetic/Selection.pm6",
+      "Algorithm::Genetic::Selection::Roulette" : "lib/Algorithm/Genetic/Selection/Roulette.pm6",
+      "Algorithm::Genetic::Genotype" : "lib/Algorithm/Genetic/Genotype.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "A simple evolutionanry algorithm in Perl6",
+    "version" : "0.0.1",
+    "authors" : [
+      "Sam Gillespie"
+    ]
   }
 ]
