@@ -14268,7 +14268,12 @@
     "source-url" : "git://github.com/MARTIMM/pod-render.git",
     "perl" : "6.c",
     "resources" : [
-      "pod6.css"
+      "pod6.css",
+      "google-code-prettify/prettify.css",
+      "google-code-prettify/desert.css",
+      "google-code-prettify/docy.css",
+      "google-code-prettify/prettify.js",
+      "google-code-prettify/run_prettify.js"
     ],
     "provides" : {
       "Pod::Render" : "lib/Pod/Render.pm6"
@@ -14279,7 +14284,7 @@
     ],
     "license" : "The Artistic License 2.0",
     "description" : "Render pod docs to html, pdf or md",
-    "version" : "v0.5.7",
+    "version" : "v0.6.0",
     "authors" : [
       "Marcel Timmerman"
     ]
