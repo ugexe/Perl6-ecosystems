@@ -14541,5 +14541,29 @@
     "authors" : [
       "Sam Gillespie"
     ]
+  },
+  {
+    "name" : "UNIX::Daemonize",
+    "source-url" : "git://github.com/hipek8/p6-UNIX-Daemonize.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "provides" : {
+      "UNIX::Daemonize" : "lib/UNIX/Daemonize.pm6",
+      "UNIX::Daemonize::NativeSymbols" : "lib/UNIX/Daemonize/NativeSymbols.pm6"
+    },
+    "depends" : [
+      "NativeCall"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::When",
+      "Test::META"
+    ],
+    "description" : "configurable daemonizing tool written in Perl 6",
+    "version" : "0.0.1",
+    "authors" : [
+      "Pawe\u0142 Szulc"
+    ]
   }
 ]
