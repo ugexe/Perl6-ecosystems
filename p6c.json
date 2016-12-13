@@ -14564,5 +14564,27 @@
     "authors" : [
       "Pawe\u0142 Szulc"
     ]
+  },
+  {
+    "name" : "JSON::Hjson",
+    "source-url" : "git://github.com/akiym/JSON-Hjson.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "provides" : {
+      "JSON::Hjson::Actions" : "lib/JSON/Hjson/Actions.pm6",
+      "JSON::Hjson" : "lib/JSON/Hjson.pm6",
+      "JSON::Hjson::Grammar" : "lib/JSON/Hjson/Grammar.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "JSON::Tiny",
+      "Test::META"
+    ],
+    "description" : "Human JSON (Hjson) deserializer",
+    "version" : "*",
+    "authors" : [
+      "Takumi Akiyama"
+    ]
   }
 ]
