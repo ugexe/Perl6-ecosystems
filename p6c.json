@@ -14503,20 +14503,18 @@
   },
   {
     "name" : "SQL::NamedPlaceholder",
+    "source-url" : "git://github.com/astj/p6-SQL-NamedPlaceholder.git",
     "perl" : "6",
-    "support" : {
-      "source" : "ssh://git@github.com/astj/p6-SQL-NamedPlaceholder.git"
-    },
-    "source-url" : "ssh://git@github.com/astj/p6-SQL-NamedPlaceholder.git",
+    "resources" : [ ],
     "build-depends" : [ ],
     "provides" : {
       "SQL::NamedPlaceholder" : "lib/SQL/NamedPlaceholder.pm6"
     },
     "depends" : [ ],
-    "description" : "Perl6 port of p5 SQL::NamedPlaceholder",
     "test-depends" : [
       "Test::META"
     ],
+    "description" : "extension of placeholder",
     "version" : "0.1.0",
     "authors" : [
       "astj"
