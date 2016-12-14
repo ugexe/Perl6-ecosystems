@@ -3386,6 +3386,7 @@
     "version" : "*"
   },
   {
+    "api" : "PDF-1.7",
     "name" : "PDF::Grammar",
     "source-url" : "git://github.com/p6-pdf/perl6-PDF-Grammar.git",
     "perl" : "6",
@@ -3405,6 +3406,7 @@
       "PDF::Grammar::PDF::Actions" : "lib/PDF/Grammar/PDF/Actions.pm",
       "PDF::Grammar::Doc::Actions" : "lib/PDF/Grammar/Doc/Actions.pm"
     },
+    "auth" : "github:p6-pdf",
     "depends" : [
       "JSON::Fast"
     ],
