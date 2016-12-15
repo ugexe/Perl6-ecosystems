@@ -1541,6 +1541,7 @@
   {
     "name" : "Net::IRC::Bot",
     "source-url" : "git://github.com/TiMBuS/Net--IRC.git",
+    "perl" : "6.*",
     "provides" : {
       "Net::IRC::Modules::Tell" : "lib/Net/IRC/Modules/Tell.pm",
       "Net::IRC::Modules::Twitter" : "lib/Net/IRC/Modules/Twitter.pm",
