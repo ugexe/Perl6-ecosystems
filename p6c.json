@@ -14610,5 +14610,41 @@
     "authors" : [
       "Samantha McVey"
     ]
+  },
+  {
+    "name" : "Tinky::JSON",
+    "source-url" : "git://github.com/jonathanstowe/Tinky-JSON.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Tinky-JSON.git",
+      "bugtracker" : "https://github.com/jonathanstowe/Tinky-JSON/issues"
+    },
+    "perl" : "6.c",
+    "build-depends" : [ ],
+    "provides" : {
+      "Tinky::JSON" : "lib/Tinky/JSON.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "Tinky",
+      "JSON::Name",
+      "JSON::Unmarshal",
+      "JSON::Class"
+    ],
+    "tags" : [
+      "Workflow",
+      "toolkit",
+      "state machine",
+      "JSON"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic",
+    "description" : "Describe Tinky Workflows in JSON",
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
   }
 ]
