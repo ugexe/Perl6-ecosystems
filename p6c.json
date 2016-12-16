@@ -14593,5 +14593,22 @@
     "authors" : [
       "Takumi Akiyama"
     ]
+  },
+  {
+    "name" : "IRC::TextColor",
+    "support" : {
+      "source" : "git://github.com/samcv/IRC-TextColor.git",
+      "bugtracker" : "https://github.com/samcv/IRC-TextColor/issues"
+    },
+    "source-url" : "git://github.com/samcv/IRC-TextColor.git",
+    "perl" : "6.*",
+    "provides" : {
+      "IRC::TextColor" : "IRC/TextColor.pm6"
+    },
+    "description" : "Color/Style text for IRC, and convert ANSI color from terminals into IRC coloring",
+    "version" : "0.1.2",
+    "authors" : [
+      "Samantha McVey"
+    ]
   }
 ]
