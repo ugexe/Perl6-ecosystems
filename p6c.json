@@ -14646,5 +14646,27 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "source-type" : "git",
+    "name" : "Sparrowdo::Chef::Client",
+    "source-url" : "https://github.com/melezhik/sparrowdo-chef-client.git",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowdo-chef-client.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowdo-chef-client/issues"
+    },
+    "perl" : "6.*",
+    "provides" : {
+      "Sparrowdo::Chef::Client" : "lib/Sparrowdo/Chef/Client.pm6"
+    },
+    "depends" : [
+      "Sparrowdo",
+      "JSON::Tiny"
+    ],
+    "description" : "Sparrowdo module to manage chef users",
+    "version" : "*",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
   }
 ]
