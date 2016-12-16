@@ -14668,5 +14668,16 @@
     "authors" : [
       "Alexey Melezhik"
     ]
+  },
+  {
+    "name" : "Test::Scheduler",
+    "source-url" : "git://github.com/jnthn/p6-test-scheduler.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Test::Scheduler" : "lib/Test/Scheduler.pm6"
+    },
+    "depends" : [ ],
+    "description" : "An implementation of the Perl 6 Scheduler role with virtualized time.",
+    "version" : "1.0"
   }
 ]
