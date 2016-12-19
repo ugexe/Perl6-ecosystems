@@ -4196,6 +4196,7 @@
   {
     "name" : "Math::ThreeD",
     "source-url" : "git://github.com/raydiak/Math--ThreeD.git",
+    "perl" : "6.*",
     "author" : "raydiak",
     "provides" : {
       "Math::ThreeD::Mat44" : "lib/Math/ThreeD/Mat44.pm",
@@ -4980,6 +4981,7 @@
   {
     "name" : "Math::Symbolic",
     "source-url" : "git://github.com/raydiak/Math-Symbolic.git",
+    "perl" : "6.*",
     "author" : "raydiak",
     "provides" : {
       "Math::Symbolic::Operation" : "lib/Math/Symbolic/Operation.pm6",
@@ -5267,6 +5269,7 @@
   {
     "name" : "App::Pray",
     "source-url" : "git://github.com/raydiak/pray.git",
+    "perl" : "6.*",
     "build-depends" : [
       "JSON::Tiny"
     ],
@@ -5321,6 +5324,7 @@
   {
     "name" : "Image::PNG::Portable",
     "source-url" : "git://github.com/raydiak/Image-PNG-Portable.git",
+    "perl" : "6.*",
     "author" : "raydiak",
     "provides" : {
       "Image::PNG::Portable" : "lib/Image/PNG/Portable.pm6"
@@ -5451,6 +5455,7 @@
   {
     "name" : "Inline::Lua",
     "source-url" : "git://github.com/raydiak/Inline-Lua.git",
+    "perl" : "6.*",
     "author" : "raydiak",
     "provides" : {
       "Inline::Lua::Object" : "lib/Inline/Lua/Object.pm6",
@@ -5524,6 +5529,7 @@
   {
     "name" : "Git::PurePerl",
     "source-url" : "git://github.com/raydiak/Git-PurePerl.git",
+    "perl" : "6.*",
     "author" : "raydiak",
     "provides" : {
       "Git::PurePerl::Pack::WithIndex" : "lib/Git/PurePerl/Pack/WithIndex.pm",
