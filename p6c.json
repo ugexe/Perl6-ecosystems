@@ -5661,7 +5661,7 @@
       "source" : "git://github.com/tony-o/perl6-event-emitter.git",
       "bugtracker" : "https://github.com/tony-o/perl6-event-emitter/issues"
     },
-    "perl" : "v6.0.0",
+    "perl" : "6.*",
     "auth" : "github:tony-o",
     "provides" : {
       "Event::Emitter::Role::Node" : "lib/Event/Emitter/Role/Node.pm6",
@@ -5673,7 +5673,7 @@
     },
     "depends" : [ ],
     "description" : "Awesome event emitter.  Threaded, or not.",
-    "version" : "1.0.0",
+    "version" : "1.0.1",
     "authors" : [
       "Tony O'Dell"
     ]
