@@ -8510,7 +8510,7 @@
   },
   {
     "api" : "PDF-1.7",
-    "name" : "PDF::IO",
+    "name" : "PDF",
     "source-url" : "git://github.com/p6-pdf/perl6-PDF-Tools.git",
     "perl" : "6.*",
     "provides" : {
@@ -8527,13 +8527,12 @@
       "PDF::DAO::Dict" : "lib/PDF/DAO/Dict.pm",
       "PDF::IO::Crypt::PDF" : "lib/PDF/IO/Crypt/PDF.pm",
       "PDF::IO::Serializer" : "lib/PDF/IO/Serializer.pm",
+      "PDF::Reader" : "lib/PDF/Reader.pm",
       "PDF::DAO" : "lib/PDF/DAO.pm",
       "PDF::DAO::Type::Encrypt" : "lib/PDF/DAO/Type/Encrypt.pm",
-      "PDF::Reader" : "lib/PDF/Reader.pm",
       "PDF::IO::Crypt::RC4" : "lib/PDF/IO/Crypt/RC4.pm",
       "PDF::IO::Filter::Flate" : "lib/PDF/IO/Filter/Flate.pm",
       "PDF::IO::IndObj" : "lib/PDF/IO/IndObj.pm",
-      "PDF::DAO::Type::PDF" : "lib/PDF/DAO/Type/PDF.pm",
       "PDF::DAO::Name" : "lib/PDF/DAO/Name.pm",
       "PDF::DAO::Util" : "lib/PDF/DAO/Util.pm",
       "PDF::DAO::Tie::Array" : "lib/PDF/DAO/Tie/Array.pm",
@@ -8543,6 +8542,7 @@
       "PDF::DAO::ByteString" : "lib/PDF/DAO/ByteString.pm",
       "PDF::IO::Blob" : "lib/PDF/IO/Blob.pm",
       "PDF::IO::Filter::RunLength" : "lib/PDF/IO/Filter/RunLength.pm",
+      "PDF" : "lib/PDF.pm",
       "PDF::DAO::Delegator" : "lib/PDF/DAO/Delegator.pm",
       "PDF::IO" : "lib/PDF/IO.pm",
       "PDF::IO::Filter" : "lib/PDF/IO/Filter.pm",
@@ -8564,8 +8564,8 @@
       "JSON::Fast",
       "OpenSSL"
     ],
-    "description" : "Low level tools for reading, manipulation and writing of PDF data",
-    "version" : "0.1.1"
+    "description" : "Base classes for reading, manipulation and writing of PDF data",
+    "version" : "0.2.0"
   },
   {
     "name" : "HTTP::Signature",
@@ -9014,21 +9014,21 @@
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-IRC-Client-Plugin-HNY.git"
     },
-    "perl" : "6.c",
+    "perl" : "6.*",
     "provides" : {
       "IRC::Client::Plugin::HNY" : "lib/IRC/Client/Plugin/HNY.pm6"
     },
     "depends" : [
-      "IRC::Client:ver<2.001001>:auth<Zoffix Znet>",
-      "Number::Denominate:ver<1.001001>:auth<Zoffix Znet>",
-      "WWW::Google::Time:ver<1.001001>:auth<Zoffix Znet>",
-      "Lingua::Conjunction:ver<1.001001>:auth<Zoffix Znet>"
+      "IRC::Client:ver",
+      "Number::Denominate",
+      "WWW::Google::Time",
+      "Lingua::Conjunction"
     ],
     "test-depends" : [
       "Test"
     ],
     "description" : "Plugin for New Year's IRC parties",
-    "version" : "1.001001",
+    "version" : "2.001001",
     "authors" : [
       "Zoffix Znet"
     ]
