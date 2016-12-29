@@ -500,7 +500,7 @@
     ],
     "license" : "The Artistic License 2.0",
     "description" : "Refinements on use of configurations loaded with parsers such as found in Config::TOML",
-    "version" : "0.4.5",
+    "version" : "0.5.0",
     "authors" : "Marcel Timmerman"
   },
   {
@@ -1883,7 +1883,7 @@
       "URI"
     ],
     "description" : "Convert Perl 6 Pod to HTML",
-    "version" : "0.3.6"
+    "version" : "0.3.7"
   },
   {
     "name" : "Bailador",
@@ -14309,7 +14309,7 @@
     ],
     "license" : "The Artistic License 2.0",
     "description" : "Render pod docs to html, pdf or md",
-    "version" : "v0.6.1",
+    "version" : "v0.7.0",
     "authors" : [
       "Marcel Timmerman"
     ]
@@ -14690,5 +14690,20 @@
     "depends" : [ ],
     "description" : "An implementation of the Perl 6 Scheduler role with virtualized time.",
     "version" : "1.0"
+  },
+  {
+    "name" : "Number::Bytes::Human",
+    "source-url" : "git://github.com/dugword/Number-Bytes-Human.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "provides" : {
+      "Number::Bytes::Human" : "lib/Number/Bytes/Human.pm"
+    },
+    "depends" : [ ],
+    "description" : "Converts byte count into an easy to read format.",
+    "version" : "0.0.3",
+    "authors" : [
+      "Douglas L. Jenkins"
+    ]
   }
 ]
