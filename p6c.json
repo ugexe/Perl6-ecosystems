@@ -14705,5 +14705,22 @@
     "authors" : [
       "Douglas L. Jenkins"
     ]
+  },
+  {
+    "name" : "Math::Constants",
+    "source-url" : "https://github.com/JJ/p6-math-constants",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "provides" : {
+      "Math::Constants" : "lib/Math/Constants.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "description" : "A few math and Physics constants",
+    "version" : "0.0.1",
+    "authors" : [
+      "JJ Merelo"
+    ]
   }
 ]
