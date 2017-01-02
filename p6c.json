@@ -14722,5 +14722,26 @@
     "authors" : [
       "JJ Merelo"
     ]
+  },
+  {
+    "name" : "Tinky::Hash",
+    "perl" : "6.c",
+    "support" : {
+      "email" : "mt1957@gmail.com"
+    },
+    "source-url" : "git://github.com/MARTIMM/tinky-hash.git",
+    "provides" : {
+      "Tinky::Hash" : "lib/Tinky/Hash.pm6"
+    },
+    "depends" : [
+      "Tinky"
+    ],
+    "license" : "The Artistic License 2.0",
+    "test-depends" : [
+      "Data::Dump::Tree"
+    ],
+    "description" : "A Hash thingy using Tinky",
+    "version" : "0.4.2",
+    "authors" : "Marcel Timmerman"
   }
 ]
