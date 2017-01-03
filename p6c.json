@@ -14724,6 +14724,27 @@
     ]
   },
   {
+    "source-type" : "git",
+    "name" : "Sparrowdo::Ruby::Bundler",
+    "source-url" : "https://github.com/melezhik/sparrowdo-ruby-bundler.git",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowdo-ruby-bundler.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowdo-ruby-bundler/issues"
+    },
+    "perl" : "6.*",
+    "provides" : {
+      "Sparrowdo::Ruby::Bundler" : "lib/Sparrowdo/Ruby/Bundler.pm6"
+    },
+    "depends" : [
+      "Sparrowdo"
+    ],
+    "description" : "Sparrowdo module to manage Ruby gems via Ruby bundler.",
+    "version" : "*",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
+  },
+  {
     "name" : "Tinky::Hash",
     "perl" : "6.c",
     "support" : {
