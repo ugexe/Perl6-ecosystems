@@ -12927,7 +12927,8 @@
     },
     "perl" : "6.*",
     "provides" : {
-      "Sparrowdo" : "lib/Sparrowdo.pm6"
+      "Sparrowdo" : "lib/Sparrowdo.pm6",
+      "Sparrowdo::Core::DSL" : "lib/Sparrowdo/Core/DSL.pm6"
     },
     "depends" : [
       "Terminal::ANSIColor",
