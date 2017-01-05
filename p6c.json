@@ -1372,6 +1372,7 @@
     "name" : "Facter",
     "source-url" : "git://github.com/cosimo/perl6-facter.git",
     "authority" : "cosimo",
+    "perl" : "6.*",
     "author" : "Cosimo Streppone",
     "provides" : {
       "Facter::kernel" : "lib/Facter/kernel.pm",
@@ -1394,6 +1395,7 @@
     "name" : "String::CRC32",
     "source-url" : "git://github.com/cosimo/perl6-string-crc32.git",
     "authority" : "cosimo",
+    "perl" : "6.*",
     "author" : "Cosimo Streppone",
     "provides" : {
       "String::CRC32" : "lib/String/CRC32.pm"
