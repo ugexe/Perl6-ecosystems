@@ -5485,16 +5485,16 @@
     "resources" : [
       "libraries/linenoise"
     ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
     "author" : "Rob Hoelz",
     "provides" : {
-      "Linenoise" : "lib/Linenoise.pm"
+      "Linenoise" : "lib/Linenoise.pm6"
     },
-    "depends" : [
-      "LibraryMake",
-      "Shell::Command"
-    ],
+    "depends" : [ ],
     "description" : "Bindings to linenoise",
-    "version" : "0.1.0"
+    "version" : "0.1.1"
   },
   {
     "name" : "Linux::Fuser",
