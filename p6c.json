@@ -14765,5 +14765,25 @@
     "description" : "A Hash thingy using Tinky",
     "version" : "0.4.2.6",
     "authors" : "Marcel Timmerman"
+  },
+  {
+    "name" : "Net::IP::Parse",
+    "source-url" : "git://github.com/bradclawsie/Net-IP-Parse.git",
+    "perl" : "6.*",
+    "build-depends" : [
+      "Subsets::Common"
+    ],
+    "author" : "Brad Clawsie",
+    "provides" : {
+      "Net::IP::Parse" : "lib/Net/IP/Parse.pm6"
+    },
+    "depends" : [
+      "Subsets::Common"
+    ],
+    "test-depends" : [
+      "Subsets::Common"
+    ],
+    "description" : "Types for IP addresses and manipulation methods.",
+    "version" : "0.0.1"
   }
 ]
