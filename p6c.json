@@ -8517,10 +8517,10 @@
     "perl" : "6.*",
     "provides" : {
       "PDF::DAO::Null" : "lib/PDF/DAO/Null.pm",
+      "PDF::IO::Handle" : "lib/PDF/IO/Handle.pm",
       "PDF::DAO::DateString" : "lib/PDF/DAO/DateString.pm",
       "PDF::DAO::Tie" : "lib/PDF/DAO/Tie.pm",
       "PDF::DAO::Tie::Hash" : "lib/PDF/DAO/Tie/Hash.pm",
-      "PDF::IO::Input::IOH" : "lib/PDF/IO/Input/IOH.pm",
       "PDF::DAO::Type::Info" : "lib/PDF/DAO/Type/Info.pm",
       "PDF::IO::Crypt::AES" : "lib/PDF/IO/Crypt/AES.pm",
       "PDF::Writer" : "lib/PDF/Writer.pm",
@@ -8537,6 +8537,7 @@
       "PDF::IO::IndObj" : "lib/PDF/IO/IndObj.pm",
       "PDF::DAO::Name" : "lib/PDF/DAO/Name.pm",
       "PDF::DAO::Util" : "lib/PDF/DAO/Util.pm",
+      "PDF::IO::Util" : "lib/PDF/IO/Util.pm",
       "PDF::DAO::Tie::Array" : "lib/PDF/DAO/Tie/Array.pm",
       "PDF::IO::Filter::Predictors" : "lib/PDF/IO/Filter/Predictors.pm",
       "PDF::DAO::Stream" : "lib/PDF/DAO/Stream.pm",
@@ -8547,9 +8548,8 @@
       "PDF" : "lib/PDF.pm",
       "PDF::DAO::Delegator" : "lib/PDF/DAO/Delegator.pm",
       "PDF::IO" : "lib/PDF/IO.pm",
+      "PDF::IO::Str" : "lib/PDF/IO/Str.pm",
       "PDF::IO::Filter" : "lib/PDF/IO/Filter.pm",
-      "PDF::IO::Input::Str" : "lib/PDF/IO/Input/Str.pm",
-      "PDF::IO::Input" : "lib/PDF/IO/Input.pm",
       "PDF::DAO::Bool" : "lib/PDF/DAO/Bool.pm",
       "PDF::IO::Filter::ASCIIHex" : "lib/PDF/IO/Filter/ASCIIHex.pm",
       "PDF::DAO::Real" : "lib/PDF/DAO/Real.pm",
@@ -8567,7 +8567,7 @@
       "OpenSSL"
     ],
     "description" : "Base classes for reading, manipulation and writing of PDF data",
-    "version" : "0.2.0"
+    "version" : "0.2.1"
   },
   {
     "name" : "HTTP::Signature",
