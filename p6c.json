@@ -14786,5 +14786,44 @@
     ],
     "description" : "Types for IP addresses and manipulation methods.",
     "version" : "0.0.1"
+  },
+  {
+    "name" : "Archive::Libarchive::Raw",
+    "source-url" : "https://github.com/frithnanth/perl6-Archive-Libarchive-Raw",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "provides" : {
+      "Archive::Libarchive::Constants" : "lib/Archive/Libarchive/Constants.pm6",
+      "Archive::Libarchive::Raw" : "lib/Archive/Libarchive/Raw.pm6"
+    },
+    "depends" : [
+      "NativeCall"
+    ],
+    "test-depends" : [ ],
+    "description" : "Raw interface to libarchive",
+    "version" : "*",
+    "authors" : [
+      "Fernando Santagata"
+    ]
+  },
+  {
+    "name" : "Archive::Libarchive",
+    "source-url" : "https://github.com/frithnanth/perl6-Archive-Libarchive",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "provides" : {
+      "Archive::Libarchive" : "lib/Archive/Libarchive.pm6"
+    },
+    "depends" : [
+      "Archive::Libarchive::Raw"
+    ],
+    "test-depends" : [ ],
+    "description" : "High-level bindings to libarchive",
+    "version" : "*",
+    "authors" : [
+      "Fernando Santagata"
+    ]
   }
 ]
