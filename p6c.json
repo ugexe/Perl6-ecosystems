@@ -1,5 +1,17 @@
 [
   {
+    "name" : "Mofixes",
+    "source-url" : "git://github.com/faraco/Mofixes.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Mofixes" : "lib/Mofixes.pm6"
+    },
+    "depends" : [ ],
+    "description" : "A collection of ready to use (whatever)fix for Perl 6",
+    "version" : "0.0.1",
+    "authors" : "faraco"
+  },
+  {
     "name" : "Locale-Codes-Country",
     "source-url" : "https://github.com/PowellDean/Locale-Codes-Country.git",
     "perl" : "6.*",
