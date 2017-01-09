@@ -14827,18 +14827,18 @@
   {
     "name" : "Archive::Libarchive",
     "source-url" : "git://github.com/frithnanth/perl6-Archive-Libarchive",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "build-depends" : [ ],
+    "perl" : "6.c",
     "provides" : {
       "Archive::Libarchive" : "lib/Archive/Libarchive.pm6"
     },
     "depends" : [
       "Archive::Libarchive::Raw"
     ],
-    "test-depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
     "description" : "High-level bindings to libarchive",
-    "version" : "*",
+    "version" : "0.0.1",
     "authors" : [
       "Fernando Santagata"
     ]
