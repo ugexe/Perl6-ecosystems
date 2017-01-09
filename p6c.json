@@ -7478,18 +7478,6 @@
     ]
   },
   {
-    "name" : "Rototo",
-    "source-url" : "git://github.com/eiro/p6-rototo.git",
-    "author" : "Marc Chantreux",
-    "provides" : {
-      "Rototo::html" : "lib/Rototo/html.pm",
-      "Rototo" : "lib/Rototo.pm"
-    },
-    "depends" : [ ],
-    "description" : "the xml/html templating system that came after hipccup",
-    "version" : "*"
-  },
-  {
     "name" : "Path::Canonical",
     "perl" : "v6",
     "source-url" : "git://github.com/mattn/p6-Path-Canonical.git",
@@ -12948,6 +12936,7 @@
       "Sparrowdo::Core::DSL::User" : "lib/Sparrowdo/Core/DSL/User.pm6",
       "Sparrowdo" : "lib/Sparrowdo.pm6",
       "Sparrowdo::Core::DSL::CPAN::Package" : "lib/Sparrowdo/Core/DSL/CPAN/Package.pm6",
+      "Sparrowdo::Core::DSL::Directory" : "lib/Sparrowdo/Core/DSL/Directory.pm6",
       "Sparrowdo::Core::DSL::Group" : "lib/Sparrowdo/Core/DSL/Group.pm6",
       "Sparrowdo::Core::DSL::Service" : "lib/Sparrowdo/Core/DSL/Service.pm6"
     },
@@ -14807,9 +14796,7 @@
   {
     "name" : "Archive::Libarchive::Raw",
     "source-url" : "git://github.com/frithnanth/perl6-Archive-Libarchive-Raw",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "build-depends" : [ ],
+    "perl" : "6.c",
     "provides" : {
       "Archive::Libarchive::Constants" : "lib/Archive/Libarchive/Constants.pm6",
       "Archive::Libarchive::Raw" : "lib/Archive/Libarchive/Raw.pm6"
@@ -14817,9 +14804,11 @@
     "depends" : [
       "NativeCall"
     ],
-    "test-depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
     "description" : "Raw interface to libarchive",
-    "version" : "*",
+    "version" : "0.0.1",
     "authors" : [
       "Fernando Santagata"
     ]
