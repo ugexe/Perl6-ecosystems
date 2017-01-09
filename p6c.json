@@ -14842,5 +14842,30 @@
     "authors" : [
       "Fernando Santagata"
     ]
+  },
+  {
+    "name" : "Test::Fuzz",
+    "source-url" : "git://github.com/FCO/Test-Fuzz.git",
+    "perl" : "6.*",
+    "resources" : [
+      "classes"
+    ],
+    "provides" : {
+      "Test::Fuzz::Generator" : "lib/Test/Fuzz/Generator.pm6",
+      "Test::Fuzz" : "lib/Test/Fuzz.pm6",
+      "Test::Fuzz::Fuzzed" : "lib/Test/Fuzz/Fuzzed.pm6",
+      "Test::Fuzz::AggGenerators" : "lib/Test/Fuzz/AggGenerators.pm6",
+      "Test::Fuzz::Generators" : "lib/Test/Fuzz/Generators.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Generative Testing",
+    "version" : "0.2.0",
+    "authors" : [
+      "Fernando Corr\u00eaa de Oliveira"
+    ]
   }
 ]
