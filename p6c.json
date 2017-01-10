@@ -3278,17 +3278,16 @@
     "resources" : [
       "libwidget.so"
     ],
-    "build-depends" : [
-      "panda"
-    ],
     "provides" : {
       "GTK::Scintilla::Raw" : "lib/GTK/Scintilla/Raw.pm6",
       "GTK::Scintilla::Editor" : "lib/GTK/Scintilla/Editor.pm6",
       "GTK::Scintilla" : "lib/GTK/Scintilla.pm6"
     },
     "repo-type" : "git",
-    "depends" : [
-      "GTK::Simple"
+    "test-depends" : [
+      "panda",
+      "GTK::Simple",
+      "Test"
     ],
     "description" : "GTK Scintilla widget for source code editing",
     "version" : "0.0.1"
