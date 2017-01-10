@@ -3231,21 +3231,6 @@
     ]
   },
   {
-    "name" : "Memoize",
-    "source-url" : "git://github.com/azawawi/perl6-memoize.git",
-    "perl" : "6.c",
-    "provides" : {
-      "Memoize" : "lib/Memoize.pm6"
-    },
-    "depends" : [ ],
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "description" : "Make routines faster by trading space for time",
-    "version" : "*"
-  },
-  {
     "name" : "LibZip",
     "source-url" : "git://github.com/azawawi/perl6-libzip.git",
     "perl" : "6.c",
