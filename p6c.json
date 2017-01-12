@@ -4285,8 +4285,10 @@
     "perl" : "v6",
     "build-depends" : [ ],
     "provides" : {
+      "Git::Log::Actions" : "lib/Git/Log/Parser.pm",
       "Git::Wrapper" : "lib/Git/Wrapper.pm",
-      "Git::Wrapper::Log" : "lib/Git/Log/Parser.pm"
+      "Git::Wrapper::Log" : "lib/Git/Log/Parser.pm",
+      "Git::Log::Parser" : "lib/Git/Log/Parser.pm"
     },
     "depends" : [ ],
     "test-depends" : [ ],
