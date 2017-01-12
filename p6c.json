@@ -12885,6 +12885,7 @@
     },
     "perl" : "6.*",
     "provides" : {
+      "Sparrowdo::Core::DSL::Bash" : "lib/Sparrowdo/Core/DSL/Bash.pm6",
       "Sparrowdo::Core::DSL::Package" : "lib/Sparrowdo/Core/DSL/Package.pm6",
       "Sparrowdo::Core::DSL::User" : "lib/Sparrowdo/Core/DSL/User.pm6",
       "Sparrowdo::Core::DSL::Template" : "lib/Sparrowdo/Core/DSL/Template.pm6",
@@ -14752,6 +14753,14 @@
     "name" : "Archive::Libarchive::Raw",
     "source-url" : "git://github.com/frithnanth/perl6-Archive-Libarchive-Raw",
     "perl" : "6.c",
+    "resources" : [
+      "libarchive.dll"
+    ],
+    "build-depends" : [
+      "LWP::Simple",
+      "panda",
+      "Shell::Command"
+    ],
     "provides" : {
       "Archive::Libarchive::Constants" : "lib/Archive/Libarchive/Constants.pm6",
       "Archive::Libarchive::Raw" : "lib/Archive/Libarchive/Raw.pm6"
@@ -14763,7 +14772,7 @@
       "Test"
     ],
     "description" : "Raw interface to libarchive",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "authors" : [
       "Fernando Santagata"
     ]
