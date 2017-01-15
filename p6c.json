@@ -14916,11 +14916,13 @@
     },
     "source-url" : "https://github.com/kalkin/License-Software.git",
     "provides" : {
-      "License::Software" : "lib/License/Software.pm6",
-      "License::Software::Artistic2" : "lib/License/Software/Artistic2.pm6",
       "License::Software::LGPLv3" : "lib/License/Software/LGPLv3.pm6",
+      "License::Software::Holder" : "lib/License/Software/Holder.pm6",
+      "License::Software::Artistic2" : "lib/License/Software/Artistic2.pm6",
+      "License::Software" : "lib/License/Software.pm6",
       "License::Software::AGPLv3" : "lib/License/Software/AGPLv3.pm6",
       "License::Software::Abstract" : "lib/License/Software/Abstract.pm6",
+      "License::Software::Year" : "lib/License/Software/Year.pm6",
       "License::Software::GPLv3" : "lib/License/Software/GPLv3.pm6",
       "License::Software::Apache2" : "lib/License/Software/Apache2.pm6"
     },
