@@ -14906,5 +14906,39 @@
     "authors" : [
       "Fernando Corr\u00eaa de Oliveira"
     ]
+  },
+  {
+    "name" : "License::Software",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "https://github.com/kalkin/License-Software",
+      "bugtracker" : "https://github.com/kalkin/License-Software/issues"
+    },
+    "source-url" : "https://github.com/kalkin/License-Software",
+    "provides" : {
+      "License::Software" : "lib/License/Software.pm6",
+      "License::Software::Artistic2" : "lib/License/Software/Artistic2.pm6",
+      "License::Software::LGPLv3" : "lib/License/Software/LGPLv3.pm6",
+      "License::Software::AGPLv3" : "lib/License/Software/AGPLv3.pm6",
+      "License::Software::Abstract" : "lib/License/Software/Abstract.pm6",
+      "License::Software::GPLv3" : "lib/License/Software/GPLv3.pm6",
+      "License::Software::Apache2" : "lib/License/Software/Apache2.pm6"
+    },
+    "auth" : "kalkin",
+    "description" : "package for generating licenses from templates",
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "license",
+      "template",
+      "automation"
+    ],
+    "meta6" : "0",
+    "version" : "0.1.0",
+    "production" : true,
+    "authors" : [
+      "Bahtiar `kalkin-` Gadimov"
+    ]
   }
 ]
