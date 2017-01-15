@@ -14865,5 +14865,23 @@
     "description" : "Easy to use GUI Dialog box using GTK3 label, button, entry widgets",
     "version" : "0.1",
     "authors" : "Richard Hainsworth, aka finanalyst"
+  },
+  {
+    "name" : "DateTime::Extended",
+    "source-url" : "git@github.com:FCO/DateTime-Extended.git",
+    "perl" : "6.*",
+    "provides" : {
+      "DateTime::Extended" : "lib/DateTime/Extended.pm6"
+    },
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "description" : "Extends Date/DateTime features",
+    "version" : "0.1.0",
+    "authors" : [
+      "Fernando Corr\u00eaa de Oliveira"
+    ]
   }
 ]
