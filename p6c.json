@@ -14990,5 +14990,17 @@
       "Shoichi Kaji",
       "Bahtiar `kalkin-` Gadimov"
     ]
+  },
+  {
+    "name" : "Data::TextOrBinary",
+    "source-url" : "https://github.com/jnthn/p6-data-textorbinary.git",
+    "perl" : "6.*",
+    "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+    "provides" : {
+      "Data::TextOrBinary" : "lib/Data/TextOrBinary.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Heuristic detection of text vs. binary data.",
+    "version" : "1.0"
   }
 ]
