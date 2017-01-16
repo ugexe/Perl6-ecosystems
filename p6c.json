@@ -3319,6 +3319,7 @@
     "source-url" : "git://github.com/azawawi/perl6-odoo-client.git",
     "perl" : "6.c",
     "provides" : {
+      "Odoo::Client::Model" : "lib/Odoo/Client/Model.pm6",
       "Odoo::Client" : "lib/Odoo/Client.pm6"
     },
     "repo-type" : "git",
