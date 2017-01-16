@@ -3315,6 +3315,21 @@
     "version" : "0.0.5"
   },
   {
+    "name" : "Odoo::Client",
+    "source-url" : "git://github.com/azawawi/perl6-odoo-client.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Odoo::Client" : "lib/Odoo/Client.pm6"
+    },
+    "repo-type" : "git",
+    "test-depends" : [
+      "JSON::RPC",
+      "Test"
+    ],
+    "description" : "A simple Odoo ERP client that uses JSON RPC",
+    "version" : "0.0.1"
+  },
+  {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
     "perl" : "6.*",
