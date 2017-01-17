@@ -4320,7 +4320,7 @@
     "support" : {
       "source" : "git://github.com/nicqrocks/p6-Git-Wrapper.git"
     },
-    "perl" : "v6",
+    "perl" : "6.c",
     "build-depends" : [ ],
     "provides" : {
       "Git::Log::Actions" : "lib/Git/Log/Parser.pm",
@@ -4331,7 +4331,7 @@
     "depends" : [ ],
     "test-depends" : [ ],
     "description" : "simple, hacky way to use git from Perl 6",
-    "version" : "v0.0.1"
+    "version" : "v0.0.2"
   },
   {
     "name" : "GTK::Simple",
