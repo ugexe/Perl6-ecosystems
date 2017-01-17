@@ -15006,5 +15006,22 @@
     "depends" : [ ],
     "description" : "Heuristic detection of text vs. binary data.",
     "version" : "1.0"
+  },
+  {
+    "name" : "US-ASCII",
+    "source-url" : "git@github.com:ronaldxs/Perl6-US-ASCII.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "provides" : {
+      "US-ASCII::ABNF::Common" : "lib/US-ASCII/ABNF/Common.pm6",
+      "US-ASCII" : "lib/US-ASCII.pm6",
+      "US-ASCII-UC" : "lib/US-ASCII.pm6"
+    },
+    "depends" : [ ],
+    "description" : "US-ASCII restricted character classes and related.",
+    "version" : "0.1.3",
+    "authors" : [
+      "Ron Schmidt"
+    ]
   }
 ]
