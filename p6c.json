@@ -4802,6 +4802,34 @@
     "version" : "0.0.1"
   },
   {
+    "name" : "Inline::Perl5",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
+    "source-url" : "git://github.com/niner/Inline-Perl5.git",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/p5helper"
+    ],
+    "author" : "github:niner",
+    "provides" : {
+      "Inline::Perl5" : "lib/Inline/Perl5.pm6"
+    },
+    "repo-type" : "git",
+    "depends" : [
+      "LibraryMake"
+    ],
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "description" : "Use Perl 5 code in a Perl 6 program",
+    "version" : "0.22",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
     "name" : "Term::termios",
     "support" : {
       "irc" : "irc://irc.freenode.org/#perl6"
