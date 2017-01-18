@@ -170,29 +170,6 @@
     "authors" : "faraco"
   },
   {
-    "name" : "WebService::Gitter",
-    "source-url" : "git://github.com/faraco/perl6-webservice-gitter.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "provides" : {
-      "WebService::Gitter" : "lib/WebService/Gitter.pm6"
-    },
-    "depends" : [
-      "HTTP::UserAgent",
-      "JSON::Fast"
-    ],
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "description" : "An interface to Gitter REST API via Perl 6",
-    "version" : "0.0.3",
-    "authors" : [
-      "faraco"
-    ]
-  },
-  {
     "name" : "Config::INI",
     "source-url" : "git://github.com/tadzik/perl6-Config-INI.git",
     "support" : {
@@ -11861,20 +11838,6 @@
     "version" : "0.0.4",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ]
-  },
-  {
-    "name" : "List::Combinations",
-    "perl" : "6.c",
-    "source-url" : "git://github.com/masterduke17/list-combinations.git",
-    "provides" : {
-      "List::Combinations" : "lib/List/Combinations.pm6"
-    },
-    "depends" : [ ],
-    "description" : "DEPRECATED: A quick and dirty way to generate an array of all n-combinations of a list or all permutations",
-    "version" : "1.5.0",
-    "authors" : [
-      "Daniel Green"
     ]
   },
   {
