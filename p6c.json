@@ -3063,17 +3063,6 @@
     "version" : "*"
   },
   {
-    "name" : "NCurses",
-    "source-url" : "git://github.com/azawawi/perl6-ncurses.git",
-    "perl" : "6.c",
-    "provides" : {
-      "NCurses" : "lib/NCurses.pm6"
-    },
-    "depends" : [ ],
-    "description" : "Perl 6 interface to NCurses, the text-based interface libary",
-    "version" : "*"
-  },
-  {
     "name" : "Net::Curl",
     "source-url" : "git://github.com/azawawi/perl6-net-curl.git",
     "provides" : {
@@ -3125,20 +3114,6 @@
     "version" : "*"
   },
   {
-    "name" : "File::Which",
-    "source-url" : "git://github.com/azawawi/perl6-file-which.git",
-    "perl" : "6.c",
-    "provides" : {
-      "File::Which::Unix" : "lib/File/Which/Unix.pm6",
-      "File::Which::MacOSX" : "lib/File/Which/MacOSX.pm6",
-      "File::Which::Win32" : "lib/File/Which/Win32.pm6",
-      "File::Which" : "lib/File/Which.pm6"
-    },
-    "depends" : [ ],
-    "description" : "Cross platform Perl 6 executable path finder (aka which on UNIX)",
-    "version" : "*"
-  },
-  {
     "name" : "Parse::Selenese",
     "source-url" : "git://github.com/azawawi/perl6-parse-selenese.git",
     "perl" : "6.*",
@@ -3152,42 +3127,6 @@
     },
     "depends" : [ ],
     "description" : "A Parser for Selenium Test Cases and Suites",
-    "version" : "*"
-  },
-  {
-    "name" : "Selenium::WebDriver",
-    "source-url" : "git://github.com/azawawi/perl6-selenium-webdriver.git",
-    "perl" : "6.*",
-    "resources" : [
-      "firefox_extension/prefs.json",
-      "firefox_extension/webdriver.xpi"
-    ],
-    "provides" : {
-      "Selenium::WebDriver::X::Error" : "lib/Selenium/WebDriver/X/Error.pm6",
-      "Selenium::WebDriver::Safari" : "lib/Selenium/WebDriver/Safari.pm6",
-      "Selenium::WebDriver::PhantomJS" : "lib/Selenium/WebDriver/PhantomJS.pm6",
-      "Selenium::WebDriver::Wire" : "lib/Selenium/WebDriver/Wire.pm6",
-      "Selenium::WebDriver::Edge" : "lib/Selenium/WebDriver/Edge.pm6",
-      "Selenium::WebDriver" : "lib/Selenium/WebDriver.pm6",
-      "Selenium::WebDriver::WebElement" : "lib/Selenium/WebDriver/WebElement.pm6",
-      "Selenium::WebDriver::Keys" : "lib/Selenium/WebDriver/Keys.pm6",
-      "Selenium::WebDriver::InternetExplorer" : "lib/Selenium/WebDriver/InternetExplorer.pm6",
-      "Selenium::WebDriver::Chrome" : "lib/Selenium/WebDriver/Chrome.pm6",
-      "Selenium::WebDriver::WebWindow" : "lib/Selenium/WebDriver/WebWindow.pm6",
-      "Selenium::WebDriver::Opera" : "lib/Selenium/WebDriver/Opera.pm6",
-      "Selenium::WebDriver::BlackBerry" : "lib/Selenium/WebDriver/BlackBerry.pm6",
-      "Selenium::WebDriver::Firefox" : "lib/Selenium/WebDriver/Firefox.pm6"
-    },
-    "depends" : [
-      "File::Temp",
-      "File::Which",
-      "File::Zip",
-      "HTTP::UserAgent",
-      "JSON::Tiny",
-      "MIME::Base64",
-      "URI::Encode"
-    ],
-    "description" : "Perl 6 Bindings for Selenium WebDriver",
     "version" : "*"
   },
   {
@@ -3241,20 +3180,6 @@
       "NativeHelpers::Blob"
     ],
     "description" : "Perl 6 bindings for libzip",
-    "version" : "*"
-  },
-  {
-    "name" : "Clean",
-    "source-url" : "git://github.com/azawawi/perl6-clean.git",
-    "perl" : "6.c",
-    "provides" : {
-      "Clean" : "lib/Clean.pm6"
-    },
-    "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
-    "description" : "Scoped object oriented automatic cleanup",
     "version" : "*"
   },
   {
