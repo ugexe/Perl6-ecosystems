@@ -5356,6 +5356,22 @@
     "version" : "0.3.1alpha"
   },
   {
+    "name" : "Inline::Python",
+    "source-url" : "git://github.com/niner/Inline-Python.git",
+    "resources" : [
+      "libraries/pyhelper"
+    ],
+    "author" : "github:niner",
+    "provides" : {
+      "Inline::Python" : "lib/Inline/Python.pm6"
+    },
+    "depends" : [
+      "LibraryMake"
+    ],
+    "description" : "Use Python code and libraries in a Perl 6 program",
+    "version" : "0.2"
+  },
+  {
     "name" : "Grammar::Highlighter",
     "support" : {
       "irc" : "irc://irc.freenode.org/#perl6"
