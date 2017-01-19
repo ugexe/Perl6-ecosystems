@@ -4398,7 +4398,6 @@
     ],
     "build-depends" : [
       "LWP::Simple",
-      "panda",
       "Shell::Command"
     ],
     "provides" : {
@@ -4448,8 +4447,11 @@
       "GTK::Simple::GDK" : "lib/GTK/Simple/GDK.pm6"
     },
     "repo-type" : "git",
+    "test-depends" : [
+      "Test"
+    ],
     "description" : "Simple GTK 3 binding using NativeCall",
-    "version" : "0.1.4"
+    "version" : "0.1.5"
   },
   {
     "name" : "Cairo",
