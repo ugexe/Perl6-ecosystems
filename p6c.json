@@ -8715,6 +8715,18 @@
     "version" : "0.1.0"
   },
   {
+    "name" : "Subsets::Common",
+    "source-url" : "git://github.com/bradclawsie/Subsets-Common.git",
+    "perl" : "6.*",
+    "author" : "Brad Clawsie",
+    "provides" : {
+      "Subsets::Common" : "lib/Subsets/Common.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Some common subsets to built-in types.",
+    "version" : "0.0.3"
+  },
+  {
     "name" : "WebService::GoogleDyDNS",
     "source-url" : "git://github.com/cbk/WebService-GoogleDyDNS.git",
     "author" : "Michael",
@@ -9072,6 +9084,21 @@
     ],
     "description" : "Use libmagic to determine MIME type and encodings of content",
     "version" : "0.0.1"
+  },
+  {
+    "name" : "Hash::Consistent",
+    "source-url" : "git://github.com/bradclawsie/Hash-Consistent.git",
+    "perl" : "6.*",
+    "author" : "Brad Clawsie",
+    "provides" : {
+      "Hash::Consistent" : "lib/Hash/Consistent.pm6"
+    },
+    "depends" : [
+      "String::CRC32",
+      "Subsets::Common"
+    ],
+    "description" : "Basic Consistent Hash implementation.",
+    "version" : "0.0.3"
   },
   {
     "name" : "RPi::Device::DS18B20",
@@ -10135,6 +10162,23 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "WebService::AWS::Auth::V4",
+    "source-url" : "git://github.com/bradclawsie/WebService-AWS-V4.git",
+    "perl" : "6.*",
+    "author" : "Brad Clawsie",
+    "provides" : {
+      "WebService::AWS::Auth::V4" : "lib/WebService/AWS/Auth/V4.pm6"
+    },
+    "depends" : [
+      "URI",
+      "URI::Escape",
+      "Digest::SHA",
+      "Digest::HMAC"
+    ],
+    "description" : "A library of routines to create AWS V4 authentication strings",
+    "version" : "0.0.2"
   },
   {
     "name" : "LMDB",
@@ -14749,6 +14793,26 @@
     "description" : "A Hash thingy using Tinky",
     "version" : "0.4.2.6",
     "authors" : "Marcel Timmerman"
+  },
+  {
+    "name" : "Net::IP::Parse",
+    "source-url" : "git://github.com/bradclawsie/Net-IP-Parse.git",
+    "perl" : "6.*",
+    "build-depends" : [
+      "Subsets::Common"
+    ],
+    "author" : "Brad Clawsie",
+    "provides" : {
+      "Net::IP::Parse" : "lib/Net/IP/Parse.pm6"
+    },
+    "depends" : [
+      "Subsets::Common"
+    ],
+    "test-depends" : [
+      "Subsets::Common"
+    ],
+    "description" : "Types for IP addresses and manipulation methods.",
+    "version" : "0.0.2"
   },
   {
     "name" : "Archive::Libarchive::Raw",
