@@ -3319,11 +3319,12 @@
       "GTK::Simpler" : "lib/GTK/Simpler.pm6"
     },
     "repo-type" : "git",
-    "depends" : [
-      "GTK::Simple"
+    "test-depends" : [
+      "GTK::Simple",
+      "Test"
     ],
     "description" : "A simpler and more efficient API for GTK::Simple",
-    "version" : "0.0.4"
+    "version" : "0.0.5"
   },
   {
     "name" : "GTK::Scintilla",
