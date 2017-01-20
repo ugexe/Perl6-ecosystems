@@ -9074,21 +9074,6 @@
     "version" : "0.0.1"
   },
   {
-    "name" : "Hash::Consistent",
-    "source-url" : "git://github.com/bradclawsie/Hash-Consistent.git",
-    "perl" : "6.*",
-    "author" : "Brad Clawsie",
-    "provides" : {
-      "Hash::Consistent" : "lib/Hash/Consistent.pm6"
-    },
-    "depends" : [
-      "String::CRC32",
-      "Subsets::Common"
-    ],
-    "description" : "Basic Consistent Hash implementation.",
-    "version" : "0.0.1"
-  },
-  {
     "name" : "RPi::Device::DS18B20",
     "source-url" : "https://github.com/cspencer/perl6-raspberry-pi-device-ds18b20.git",
     "author" : "Cory Spencer",
