@@ -3323,7 +3323,7 @@
       "GTK::Simple"
     ],
     "description" : "A simpler and more efficient API for GTK::Simple",
-    "version" : "0.0.3"
+    "version" : "0.0.4"
   },
   {
     "name" : "GTK::Scintilla",
@@ -10164,23 +10164,6 @@
     ]
   },
   {
-    "name" : "WebService::AWS::Auth::V4",
-    "source-url" : "git://github.com/bradclawsie/WebService-AWS-V4.git",
-    "perl" : "6.*",
-    "author" : "Brad Clawsie",
-    "provides" : {
-      "WebService::AWS::Auth::V4" : "lib/WebService/AWS/Auth/V4.pm6"
-    },
-    "depends" : [
-      "URI",
-      "URI::Escape",
-      "Digest::SHA",
-      "Digest::HMAC"
-    ],
-    "description" : "A library of routines to create AWS V4 authentication strings",
-    "version" : "0.0.1"
-  },
-  {
     "name" : "LMDB",
     "support" : {
       "email" : "sog@msg.com.mx",
@@ -14793,26 +14776,6 @@
     "description" : "A Hash thingy using Tinky",
     "version" : "0.4.2.6",
     "authors" : "Marcel Timmerman"
-  },
-  {
-    "name" : "Net::IP::Parse",
-    "source-url" : "git://github.com/bradclawsie/Net-IP-Parse.git",
-    "perl" : "6.*",
-    "build-depends" : [
-      "Subsets::Common"
-    ],
-    "author" : "Brad Clawsie",
-    "provides" : {
-      "Net::IP::Parse" : "lib/Net/IP/Parse.pm6"
-    },
-    "depends" : [
-      "Subsets::Common"
-    ],
-    "test-depends" : [
-      "Subsets::Common"
-    ],
-    "description" : "Types for IP addresses and manipulation methods.",
-    "version" : "0.0.1"
   },
   {
     "name" : "Archive::Libarchive::Raw",
