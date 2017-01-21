@@ -1594,32 +1594,6 @@
     "version" : "*"
   },
   {
-    "name" : "Nonongram",
-    "source-url" : "git://github.com/moritz/Nonogram.git",
-    "perl" : "6.*",
-    "provides" : {
-      "Nonongram" : "lib/Nonogram.pm"
-    },
-    "depends" : [ ],
-    "description" : "incomplete Perl 6 solver of the nonogram puzzle",
-    "version" : "*"
-  },
-  {
-    "name" : "CGI::Application",
-    "source-url" : "git://github.com/moritz/CGI-Application.git",
-    "perl" : "6.*",
-    "build-depends" : [ ],
-    "provides" : {
-      "CGI::Application" : "lib/CGI/Application.pm"
-    },
-    "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
-    "description" : "incomplete Perl 6 port of the Perl 5 CGI::Application module",
-    "version" : "*"
-  },
-  {
     "name" : "JSON::RPC",
     "source-url" : "git://github.com/bbkr/jsonrpc.git",
     "authority" : "bbkr",
@@ -5790,6 +5764,73 @@
     ]
   },
   {
+    "name" : "Crypt::Libcrypt",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/Crypt-Libcrypt.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Crypt-Libcrypt.git"
+    },
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [
+      "panda"
+    ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "Crypt::Libcrypt" : "lib/Crypt/Libcrypt.pm"
+    },
+    "depends" : [ ],
+    "description" : "Simple binding to crypt(3) from unix-like systems",
+    "tags" : [
+      "crypt",
+      "password"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.0.6",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "Sys::Utmp",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/p6-Sys-Utmp.git",
+    "support" : {
+      "irc" : "irc:// irc.freenode.net/#perl6",
+      "source" : "git://github.com/jonathanstowe/p6-Sys-Utmp.git",
+      "bugtracker" : "https://github.com/jonathanstowe/p6-Sys-Utmp/issues"
+    },
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "resources" : [
+      "libraries/utmphelper"
+    ],
+    "build-depends" : [
+      "panda",
+      "LibraryMake"
+    ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "Sys::Utmp" : "lib/Sys/Utmp.pm"
+    },
+    "depends" : [
+      "LibraryMake"
+    ],
+    "tags" : [
+      "unix",
+      "users",
+      "utility"
+    ],
+    "description" : "Perl 6 access to Utmp entries on Unix-like systems",
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.0.8",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
     "name" : "DEBUG",
     "source-url" : "git://github.com/cygx/p6-debug.git",
     "perl" : "6.*",
@@ -6709,6 +6750,32 @@
     "depends" : [ ],
     "description" : "Stream into a string and from a string",
     "version" : "0.8"
+  },
+  {
+    "name" : "NativeHelpers::Array",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/NativeHelpers-Array.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/NativeHelpers-Array.git"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "NativeHelpers::Array" : "lib/NativeHelpers/Array.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "description" : "Helper subroutines for working with Perl6 Native Arrays (CArray)",
+    "test-depends" : [ ],
+    "tags" : [
+      "utils",
+      "native",
+      "array"
+    ],
+    "version" : "v0.0.2",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
   },
   {
     "name" : "Data::Selector",
@@ -7767,6 +7834,97 @@
     "version" : "*"
   },
   {
+    "name" : "Object::Permission",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/Object-Permission.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Object-Permission.git"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "Object::Permission" : "lib/Object/Permission.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "description" : "Experimental method (and public attribute accessor,) level authorisation",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "devel",
+      "authorisation",
+      "object",
+      "user"
+    ],
+    "version" : "0.0.2",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "Unix::Groups",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/Unix-Groups.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Unix-Groups.git"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "Unix::Groups" : "lib/Unix/Groups.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "description" : "Access to the Unix group file in Perl 6",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "devel",
+      "authorisation",
+      "system",
+      "user"
+    ],
+    "version" : "0.0.3",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "Object::Permission::Group",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/Object-Permission-Group.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Object-Permission-Group.git"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "Object::Permission::Group" : "lib/Object/Permission/Group.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "Object::Permission",
+      "Unix::Groups"
+    ],
+    "description" : "Object helper for Object::Permission using unix groups.",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "devel",
+      "authorisation",
+      "object",
+      "user",
+      "unix"
+    ],
+    "version" : "0.0.2",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
     "name" : "HexDump::Tiny",
     "source-url" : "git://github.com/perlpilot/p6-HexDump-Tiny.git",
     "author" : "Jonathan Scott Duff",
@@ -8071,6 +8229,34 @@
     "version" : "0.2",
     "authors" : [
       "zengargoyle"
+    ]
+  },
+  {
+    "name" : "JSON::Name",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/JSON-Name.git",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/JSON-Name.git"
+    },
+    "build-depends" : [ ],
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "provides" : {
+      "JSON::Name" : "lib/JSON/Name.pm"
+    },
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "description" : "Provides a trait to store an alternative JSON Name",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "object",
+      "serialisation",
+      "JSON"
+    ],
+    "version" : "0.0.2",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
   },
   {
@@ -9070,6 +9256,75 @@
     "version" : "0.1.2",
     "authors" : [
       "Dan Kogai"
+    ]
+  },
+  {
+    "name" : "RPi::Device::SMBus",
+    "source-url" : "git://github.com/jonathanstowe/RPi-Device-SMBus.git",
+    "perl" : "6",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/RPi-Device-SMBus.git"
+    },
+    "resources" : [
+      "libraries/i2chelper"
+    ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "RPi::Device::SMBus" : "lib/RPi/Device/SMBus.pm"
+    },
+    "depends" : [
+      "NativeHelpers::Array"
+    ],
+    "description" : "SMBus/i2c interface on the Raspberry Pi",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "RPi",
+      "Rapberry Pi",
+      "i2c",
+      "SMBus"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
+    "name" : "RPi::Device::PiGlow",
+    "source-url" : "git://github.com/jonathanstowe/RPi-Device-PiGlow.git",
+    "perl" : "6",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/RPi-Device-PiGlow.git"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:jonathanstowe",
+    "provides" : {
+      "RPi::Device::PiGlow" : "lib/RPi/Device/PiGlow.pm"
+    },
+    "depends" : [
+      "RPi::Device::SMBus"
+    ],
+    "description" : "Interface for the Pimoroni PiGlow on the Raspberry Pi",
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "RPi",
+      "Rapberry Pi",
+      "i2c",
+      "PiGlow"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
   },
   {
