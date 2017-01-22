@@ -15029,5 +15029,19 @@
     "depends" : [ ],
     "description" : "Read and provide interface to git config.",
     "version" : "0.0.1"
+  },
+  {
+    "name" : "Package::Updates",
+    "source-url" : "git@github.com:ramiroencinas/perl6-Package-Updates.git",
+    "perl" : "6.c",
+    "provides" : {
+      "Package::Updates" : "lib/Package/Updates.pm6"
+    },
+    "depends" : [ ],
+    "description" : "Provides package updates information.",
+    "version" : "*",
+    "authors" : [
+      "Ramiro Encinas Alarza"
+    ]
   }
 ]
