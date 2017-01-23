@@ -3695,6 +3695,26 @@
     "version" : "2.00"
   },
   {
+    "name" : "CSS::Grammar",
+    "source-url" : "git://github.com/p6-css/perl6-CSS-Grammar.git",
+    "perl" : "6c",
+    "provides" : {
+      "CSS::Grammar::Actions" : "lib/CSS/Grammar/Actions.pm",
+      "CSS::Grammar::CSS3" : "lib/CSS/Grammar/CSS3.pm",
+      "CSS::Grammar::Test" : "lib/CSS/Grammar/Test.pm",
+      "CSS::Grammar::CSS1" : "lib/CSS/Grammar/CSS1.pm",
+      "CSS::Grammar::AST" : "lib/CSS/Grammar/AST.pm",
+      "CSS::Grammar" : "lib/CSS/Grammar.pm",
+      "CSS::Grammar::Core" : "lib/CSS/Grammar.pm",
+      "CSS::Grammar::CSS21" : "lib/CSS/Grammar/CSS21.pm"
+    },
+    "depends" : [
+      "JSON::Fast"
+    ],
+    "description" : "Perl 6 core CSS grammars",
+    "version" : "0.03.0"
+  },
+  {
     "api" : "css-snapshot-2010",
     "name" : "CSS::Module",
     "source-url" : "git://github.com/p6-css/perl6-CSS-Module.git",
@@ -5309,21 +5329,6 @@
     "version" : "*"
   },
   {
-    "name" : "CSS::Module::CSS3::Selectors",
-    "source-url" : "git://github.com/p6-css/perl6-CSS-Module-CSS3-Selectors.git",
-    "perl" : "6.*",
-    "provides" : {
-      "CSS::Module::CSS3::Selectors::Actions" : "lib/CSS/Module/CSS3/Selectors/Actions.pm",
-      "CSS::Module::CSS3::Selectors" : "lib/CSS/Module/CSS3/Selectors.pm"
-    },
-    "depends" : [
-      "CSS::Grammar",
-      "JSON::Fast"
-    ],
-    "description" : "CSS3 Module Level 3 Selectors",
-    "version" : "0.00.1"
-  },
-  {
     "name" : "Image::PNG::Portable",
     "source-url" : "git://github.com/raydiak/Image-PNG-Portable.git",
     "perl" : "6.*",
@@ -6060,8 +6065,7 @@
       "source" : "git://github.com/drforr/perl6-readline.git"
     },
     "build-depends" : [
-      "LibraryCheck",
-      "panda"
+      "LibraryCheck"
     ],
     "author" : "Jeffrey Goff <drforr@pobox.com>",
     "provides" : {
