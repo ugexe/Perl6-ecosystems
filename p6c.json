@@ -4682,11 +4682,13 @@
   },
   {
     "name" : "Printing::Jdf",
-    "source-url" : "git://github.com/carbin/p6-jdf.git",
+    "source-url" : "git://github.com/jonathanstowe/p6-jdf.git",
+    "perl" : "6.c",
     "author" : "github:carbin",
     "provides" : {
       "Printing::Jdf" : "lib/Printing/Jdf.pm6"
     },
+    "auth" : "github:carbin",
     "depends" : [
       "XML"
     ],
@@ -5327,6 +5329,23 @@
     ],
     "description" : "Perl 6 Ray Tracing Engine",
     "version" : "*"
+  },
+  {
+    "api" : "css3-selectors-20110929",
+    "name" : "CSS::Module::CSS3::Selectors",
+    "source-url" : "git://github.com/p6-css/perl6-CSS-Module-CSS3-Selectors.git",
+    "perl" : "6.*",
+    "provides" : {
+      "CSS::Module::CSS3::Selectors::Actions" : "lib/CSS/Module/CSS3/Selectors/Actions.pm",
+      "CSS::Module::CSS3::Selectors" : "lib/CSS/Module/CSS3/Selectors.pm"
+    },
+    "auth" : "github:p6-css",
+    "depends" : [
+      "CSS::Grammar",
+      "JSON::Fast"
+    ],
+    "description" : "CSS3 Module Level 3 Selectors",
+    "version" : "0.0.1"
   },
   {
     "name" : "Image::PNG::Portable",
@@ -6910,7 +6929,14 @@
   },
   {
     "name" : "FastCGI::NativeCall",
-    "source-url" : "git://github.com/carbin/p6-fcgi.git",
+    "source-url" : "git://github.com/jonathanstowe/p6-fcgi.git",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/fcgi"
+    ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
     "author" : "github:carbin",
     "provides" : {
       "FastCGI::NativeCall" : "lib/FastCGI/NativeCall.pm6"
@@ -6921,11 +6947,13 @@
   },
   {
     "name" : "FastCGI::NativeCall::PSGI",
-    "source-url" : "git://github.com/carbin/p6-fcgi-psgi.git",
+    "source-url" : "git://github.com/jonathanstowe/p6-fcgi-psgi.git",
+    "perl" : "6.c",
     "author" : "github:carbin",
     "provides" : {
       "FastCGI::NativeCall::PSGI" : "lib/FastCGI/NativeCall/PSGI.pm6"
     },
+    "auth" : "github:carbin",
     "depends" : [
       "PSGI",
       "FastCGI::NativeCall"
@@ -7103,14 +7131,22 @@
   },
   {
     "name" : "UNIX::Privileges",
-    "source-url" : "git://github.com/carbin/p6-unix-privileges.git",
+    "source-url" : "git://github.com/jonathanstowe/p6-unix-privileges.git",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/unix_privileges"
+    ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
     "author" : "github:carbin",
     "provides" : {
       "UNIX::Privileges" : "lib/UNIX/Privileges.pm6"
     },
+    "auth" : "github:carbin",
     "depends" : [ ],
     "description" : "A module for handling UNIX Privileges",
-    "version" : "0.1.0"
+    "version" : "0.1.1"
   },
   {
     "name" : "HTTP::MultiPartParser",
