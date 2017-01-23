@@ -3136,7 +3136,7 @@
   {
     "name" : "Selenium::WebDriver",
     "source-url" : "git://github.com/azawawi/perl6-selenium-webdriver.git",
-    "perl" : "6.*",
+    "perl" : "6.c",
     "resources" : [
       "firefox_extension/prefs.json",
       "firefox_extension/webdriver.xpi"
@@ -3170,7 +3170,7 @@
       "Test"
     ],
     "description" : "Perl 6 Bindings for Selenium WebDriver",
-    "version" : "*"
+    "version" : "0.0.1"
   },
   {
     "name" : "File::Zip",
@@ -6115,7 +6115,7 @@
   },
   {
     "name" : "Inline::Scheme::Guile",
-    "source-url" : "git://github.com/niner/Inline-Scheme-Guile.git",
+    "source-url" : "git://github.com/drforr/Inline-Scheme-Guile.git",
     "perl" : "6.*",
     "resources" : [
       "libraries/guile-helper"
