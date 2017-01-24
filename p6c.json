@@ -4963,20 +4963,6 @@
     "authors" : "Paul Cochrane"
   },
   {
-    "name" : "Totem",
-    "source-url" : "git://github.com/azawawi/totem.git",
-    "provides" : {
-      "Totem" : "lib/Totem.pm"
-    },
-    "depends" : [
-      "HTTP::Easy",
-      "JSON::Tiny",
-      "URI"
-    ],
-    "description" : "Perl 6 Smart Search Development Bar",
-    "version" : "*"
-  },
-  {
     "name" : "Operator::feq",
     "source-url" : "git://github.com/tony-o/perl6-operator-feq.git",
     "perl" : "6.*",
