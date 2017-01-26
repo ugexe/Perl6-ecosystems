@@ -15047,5 +15047,18 @@
     "authors" : [
       "Ramiro Encinas Alarza"
     ]
+  },
+  {
+    "name" : "META6::bin",
+    "source-url" : "git://github.com/gfldex/perl6-meta6-bin.git",
+    "perl" : "6.c",
+    "author" : "Wenzel P. P. Peppmeyer",
+    "depends" : [
+      "META6",
+      "HTTP::Client",
+      "Git::Config"
+    ],
+    "description" : "Provide a binary to work with META6.json-files.",
+    "version" : "0.0.1"
   }
 ]
