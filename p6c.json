@@ -15060,5 +15060,34 @@
     ],
     "description" : "Provide a binary to work with META6.json-files.",
     "version" : "0.0.1"
+  },
+  {
+    "name" : "Algorithm::LibSVM",
+    "source-url" : "git://github.com/titsuki/p6-Algorithm-LibSVM.git",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/svm"
+    ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
+    "provides" : {
+      "Algorithm::LibSVM::Problem" : "lib/Algorithm/LibSVM/Problem.pm6",
+      "Algorithm::LibSVM::Parameter" : "lib/Algorithm/LibSVM/Parameter.pm6",
+      "Algorithm::LibSVM::Actions" : "lib/Algorithm/LibSVM/Actions.pm6",
+      "Algorithm::LibSVM::Node" : "lib/Algorithm/LibSVM/Node.pm6",
+      "Algorithm::LibSVM::Grammar" : "lib/Algorithm/LibSVM/Grammar.pm6",
+      "Algorithm::LibSVM::Model" : "lib/Algorithm/LibSVM/Model.pm6",
+      "Algorithm::LibSVM" : "lib/Algorithm/LibSVM.pm6"
+    },
+    "depends" : [
+      "NativeHelpers::Array"
+    ],
+    "test-depends" : [ ],
+    "description" : "A Perl 6 bindings for libsvm",
+    "version" : "*",
+    "authors" : [
+      "titsuki"
+    ]
   }
 ]
