@@ -2256,21 +2256,38 @@
   },
   {
     "name" : "Net::XMPP",
-    "source-url" : "git://github.com/retupmoca/P6-Net-XMPP.git",
-    "author" : "github:retupmoca",
+    "perl" : "6.c",
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "git://github.com/kalkin/Net-XMPP.git",
     "provides" : {
       "Net::XMPP::Presence" : "lib/Net/XMPP/Presence.pm6",
       "Net::XMPP::IQ" : "lib/Net/XMPP/IQ.pm6",
       "Net::XMPP" : "lib/Net/XMPP.pm6",
       "Net::XMPP::Message" : "lib/Net/XMPP/Message.pm6"
     },
+    "auth" : "kalkin",
     "depends" : [
-      "XML",
+      "MIME::Base64",
       "Net::DNS",
-      "MIME::Base64"
+      "XML"
     ],
-    "description" : "XMPP Client",
-    "version" : "1.0.0"
+    "description" : "an XMPP client module",
+    "test-depends" : [
+      "Test::META"
+    ],
+    "meta6" : "0",
+    "version" : "0.0.1",
+    "production" : false,
+    "authors" : [
+      "Andrew Egeler",
+      "Bahtiar `kalkin-` Gadimov",
+      "Paul Cochrane",
+      "Rob Hoelz",
+      "Zoffix Znet",
+      "nbrown"
+    ]
   },
   {
     "name" : "Net::AMQP",
