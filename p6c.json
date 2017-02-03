@@ -902,21 +902,6 @@
     "version" : "*"
   },
   {
-    "name" : "HTTP::Client",
-    "source-url" : "git://github.com/supernovus/perl6-http-client.git",
-    "provides" : {
-      "HTTP::Client" : "lib/HTTP/Client.pm6",
-      "HTTP::Client::Request" : "lib/HTTP/Client/Request.pm6",
-      "HTTP::Client::Response" : "lib/HTTP/Client/Response.pm6"
-    },
-    "depends" : [
-      "MIME::Base64",
-      "HTTP::Status"
-    ],
-    "description" : "A flexible HTTP Client library",
-    "version" : "*"
-  },
-  {
     "name" : "Task::Star",
     "source-url" : "git://github.com/tadzik/Task-Star.git",
     "perl" : "6.*",
@@ -15117,7 +15102,9 @@
     "provides" : {
       "Fortran::Grammar" : "lib/Fortran/Grammar.pm6"
     },
-    "depends" : [ ],
+    "depends" : [
+      "Test::META"
+    ],
     "description" : "",
     "version" : "0.0.1",
     "authors" : [
