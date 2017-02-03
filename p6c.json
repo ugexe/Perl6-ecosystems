@@ -9203,25 +9203,6 @@
     ]
   },
   {
-    "name" : "PKafka",
-    "source-url" : "git://github.com/mempko/PKafka.git",
-    "perl" : "6",
-    "provides" : {
-      "PKafka::Producer" : "lib/PKafka/Producer.pm6",
-      "PKafka::Native" : "lib/PKafka/Native.pm6",
-      "PKafka::Consumer" : "lib/PKafka/Consumer.pm6",
-      "PKafka::Config" : "lib/PKafka/Config.pm6",
-      "PKafka::Message" : "lib/PKafka/Message.pm6",
-      "PKafka::Kafka" : "lib/PKafka/Kafka.pm6"
-    },
-    "depends" : [ ],
-    "description" : "Apache Kafka client",
-    "version" : "0.2",
-    "authors" : [
-      "Maxim Noah Khailo"
-    ]
-  },
-  {
     "name" : "App::GPTrixie",
     "source-url" : "git://github.com/Skarsnik/gptrixie.git",
     "perl" : "6.*",
