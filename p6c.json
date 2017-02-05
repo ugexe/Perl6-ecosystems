@@ -15098,13 +15098,15 @@
     "perl" : "6",
     "resources" : [ ],
     "provides" : {
-      "Fortran::Grammar" : "lib/Fortran/Grammar.pm6"
+      "Fortran::Grammar" : "lib/Fortran/Grammar.pm6",
+      "Fortran::Grammar::Test" : "lib/Fortran/Grammar/Test.pm6"
     },
     "depends" : [
-      "Test::META"
+      "Test::META",
+      "IO::Glob"
     ],
     "description" : "",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "authors" : [
       "Yann B\u00fcchau"
     ]
