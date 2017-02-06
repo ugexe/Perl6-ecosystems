@@ -3208,30 +3208,6 @@
     "version" : "*"
   },
   {
-    "name" : "OpenCV",
-    "source-url" : "git://github.com/azawawi/perl6-opencv.git",
-    "perl" : "6.c",
-    "resources" : [
-      "libopencv-perl6.so",
-      "opencv-perl6.dll"
-    ],
-    "build-depends" : [ ],
-    "provides" : {
-      "OpenCV::NativeCall" : "lib/OpenCV/NativeCall.pm6",
-      "OpenCV" : "lib/OpenCV.pm6",
-      "OpenCV::Photo" : "lib/OpenCV/Photo.pm6",
-      "OpenCV::Mat" : "lib/OpenCV/Mat.pm6",
-      "OpenCV::Highgui" : "lib/OpenCV/Highgui.pm6"
-    },
-    "auth" : "github:azawawi",
-    "depends" : [ ],
-    "description" : "OpenCV Bindings using NativeCall",
-    "version" : "0.0.2",
-    "authors" : [
-      "Ahmad M. Zawawi"
-    ]
-  },
-  {
     "name" : "MagickWand",
     "source-url" : "git://github.com/azawawi/perl6-magickwand.git",
     "perl" : "6.c",
