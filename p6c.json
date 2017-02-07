@@ -9235,7 +9235,7 @@
     },
     "depends" : [ ],
     "description" : "Apache Kafka client",
-    "version" : "0.3",
+    "version" : "0.4",
     "authors" : [
       "Maxim Noah Khailo"
     ]
@@ -15122,11 +15122,14 @@
       "Fortran::Grammar" : "lib/Fortran/Grammar.pm6",
       "Fortran::Grammar::Test" : "lib/Fortran/Grammar/Test.pm6"
     },
-    "depends" : [
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
       "Test::META",
+      "JSON::Fast",
       "IO::Glob"
     ],
-    "description" : "",
+    "description" : "grammar to parse FORTRAN source code",
     "version" : "0.0.3",
     "authors" : [
       "Yann B\u00fcchau"
