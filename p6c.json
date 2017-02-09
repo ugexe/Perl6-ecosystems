@@ -4557,7 +4557,7 @@
   },
   {
     "name" : "HTTP::Server::Async",
-    "source-url" : "git://github.com/tony-o/perl6-http-server-async.git",
+    "source-url" : "git://github.com/perl6/perl6-http-server-async.git",
     "perl" : "6.*",
     "provides" : {
       "HTTP::Server::Async::Response" : "lib/HTTP/Server/Async/Response.pm6",
@@ -4569,7 +4569,7 @@
       "HTTP::Server"
     ],
     "description" : "Asynchronous Base HTTP Server",
-    "version" : "0.1.3",
+    "version" : "0.1.4",
     "authors" : [
       "tony-o"
     ]
@@ -6252,7 +6252,7 @@
   },
   {
     "name" : "HTTP::Server",
-    "source-url" : "git://github.com/tony-o/perl6-http-server.git",
+    "source-url" : "git://github.com/perl6/perl6-http-server.git",
     "perl" : "6.*",
     "author" : "tony-o",
     "provides" : {
@@ -6263,7 +6263,7 @@
     "auth" : "github:tony-o",
     "depends" : [ ],
     "description" : "role for HTTP::Server so we can have start building out some servers with interchangeable backends",
-    "version" : "0.1.0"
+    "version" : "0.1.1"
   },
   {
     "name" : "HTTP::Server::Logger",
