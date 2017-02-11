@@ -15160,5 +15160,27 @@
     "authors" : [
       "Yann B\u00fcchau"
     ]
+  },
+  {
+    "name" : "Slang::Kazu",
+    "perl" : "6.c",
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "git://github.com/Altai-man/perl6-Slang-Kazu.git",
+    "provides" : {
+      "Slang::Kazu" : "lib/Slang/Kazu.pm6"
+    },
+    "description" : "Japanese numerals in your Perl 6",
+    "test-depends" : [
+      "Test::META"
+    ],
+    "license" : "https://www.gnu.org/licenses/gpl-3.0.txt",
+    "meta6" : "0",
+    "version" : "1.0",
+    "authors" : [
+      "github:Altai-man",
+      ""
+    ]
   }
 ]
