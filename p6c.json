@@ -4145,7 +4145,7 @@
   {
     "name" : "JSON::Unmarshal",
     "source-url" : "git://github.com/tadzik/JSON-Unmarshal.git",
-    "perl" : "6",
+    "perl" : "6.c",
     "provides" : {
       "JSON::Unmarshal" : "lib/JSON/Unmarshal.pm"
     },
@@ -4154,7 +4154,7 @@
       "JSON::Name"
     ],
     "description" : "Turn JSON into objects",
-    "version" : "0.07"
+    "version" : "0.08"
   },
   {
     "name" : "sake",
