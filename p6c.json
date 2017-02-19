@@ -515,7 +515,7 @@
     ],
     "license" : "The Artistic License 2.0",
     "description" : "Refinements on use of configurations loaded with parsers such as found in Config::TOML",
-    "version" : "0.6.0.1",
+    "version" : "0.6.0.2",
     "authors" : "Marcel Timmerman"
   },
   {
@@ -632,6 +632,7 @@
       "URI"
     ],
     "test-depends" : [
+      "URI",
       "IO::Capture::Simple",
       "Test::Util::ServerPort"
     ],
