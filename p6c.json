@@ -14170,6 +14170,7 @@
     "source-url" : "git://github.com/bduggan/p6-log-async.git",
     "build-depends" : [ ],
     "provides" : {
+      "Log::Async::Context" : "lib/Log/Async/Context.pm6",
       "Log::Async::CommandLine" : "lib/Log/Async/CommandLine.pm6",
       "Log::Async" : "lib/Log/Async.pm6"
     },
@@ -14177,7 +14178,7 @@
     "license" : "Perl",
     "test-depends" : [ ],
     "description" : "Asynchronous logging with supplies and taps",
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "authors" : [
       "Brian Duggan"
     ]
