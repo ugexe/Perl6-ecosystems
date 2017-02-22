@@ -535,7 +535,6 @@
     "source-url" : "git://github.com/FCO/Math-PascalTriangle.git",
     "perl" : "6.*",
     "resources" : [ ],
-    "author" : "github:FCO",
     "provides" : {
       "Math::PascalTriangle" : "lib/Math/PascalTriangle.pm6"
     },
@@ -545,7 +544,10 @@
       "Test::META"
     ],
     "description" : "Simple Pascal's Triangle",
-    "version" : "0.1.0"
+    "version" : "0.1.0",
+    "authors" : [
+      "Fernando Correa de Oliveira"
+    ]
   },
   {
     "name" : "TelegramBot",
@@ -13938,7 +13940,6 @@
     "source-url" : "git://github.com/FCO/Heap.git",
     "perl" : "6.*",
     "resources" : [ ],
-    "author" : "github:FCO",
     "provides" : {
       "Heap" : "lib/Heap.pm6"
     },
@@ -13948,7 +13949,10 @@
       "Test::META"
     ],
     "description" : "Simple Heap implementation",
-    "version" : "0.0.1"
+    "version" : "0.0.1",
+    "authors" : [
+      "Fernando Correa de Oliveira"
+    ]
   },
   {
     "name" : "FileSystem::Capacity",
@@ -14053,7 +14057,6 @@
     "source-url" : "git://github.com/FCO/ProblemSolver.git",
     "perl" : "6.*",
     "resources" : [ ],
-    "author" : "github:FCO",
     "provides" : {
       "Domain" : "lib/ProblemSolver/Domain.pm6",
       "ProblemSolver" : "lib/ProblemSolver.pm6",
@@ -14065,7 +14068,10 @@
       "Test::META"
     ],
     "description" : "Simple Constraint Programming Problem Solver",
-    "version" : "0.0.1"
+    "version" : "0.0.1",
+    "authors" : [
+      "Fernando Correa de Oliveira"
+    ]
   },
   {
     "name" : "Unicode::PRECIS",
@@ -14909,7 +14915,6 @@
     "resources" : [
       "classes"
     ],
-    "author" : "github:FCO",
     "provides" : {
       "Test::Fuzz::Generator" : "lib/Test/Fuzz/Generator.pm6",
       "Test::Fuzz" : "lib/Test/Fuzz.pm6",
@@ -14923,7 +14928,10 @@
       "Test::META"
     ],
     "description" : "Generative Testing",
-    "version" : "0.2.0"
+    "version" : "0.2.0",
+    "authors" : [
+      "Fernando Correa de Oliveira"
+    ]
   },
   {
     "name" : "Inform",
@@ -14972,7 +14980,6 @@
     "name" : "DateTime::Extended",
     "source-url" : "git@github.com:FCO/DateTime-Extended.git",
     "perl" : "6.*",
-    "author" : "github:FCO",
     "provides" : {
       "DateTime::Extended" : "lib/DateTime/Extended.pm6"
     },
@@ -14982,7 +14989,10 @@
       "Test::META"
     ],
     "description" : "Extends Date/DateTime features",
-    "version" : "0.1.0"
+    "version" : "0.1.0",
+    "authors" : [
+      "Fernando Correa de Oliveira"
+    ]
   },
   {
     "name" : "License::Software",
