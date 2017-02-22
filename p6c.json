@@ -13921,6 +13921,7 @@
     "source-url" : "git://github.com/FCO/Heap.git",
     "perl" : "6.*",
     "resources" : [ ],
+    "author" : "github:FCO",
     "provides" : {
       "Heap" : "lib/Heap.pm6"
     },
@@ -13930,10 +13931,7 @@
       "Test::META"
     ],
     "description" : "Simple Heap implementation",
-    "version" : "0.0.1",
-    "authors" : [
-      "Fernando Corr\u00eaa de Oliveira"
-    ]
+    "version" : "0.0.1"
   },
   {
     "name" : "FileSystem::Capacity",
@@ -14038,6 +14036,7 @@
     "source-url" : "git://github.com/FCO/ProblemSolver.git",
     "perl" : "6.*",
     "resources" : [ ],
+    "author" : "github:FCO",
     "provides" : {
       "Domain" : "lib/ProblemSolver/Domain.pm6",
       "ProblemSolver" : "lib/ProblemSolver.pm6",
@@ -14049,10 +14048,7 @@
       "Test::META"
     ],
     "description" : "Simple Constraint Programming Problem Solver",
-    "version" : "0.0.1",
-    "authors" : [
-      "Fernando Corr\u00eaa de Oliveira"
-    ]
+    "version" : "0.0.1"
   },
   {
     "name" : "Unicode::PRECIS",
@@ -14896,6 +14892,7 @@
     "resources" : [
       "classes"
     ],
+    "author" : "github:FCO",
     "provides" : {
       "Test::Fuzz::Generator" : "lib/Test/Fuzz/Generator.pm6",
       "Test::Fuzz" : "lib/Test/Fuzz.pm6",
@@ -14909,10 +14906,7 @@
       "Test::META"
     ],
     "description" : "Generative Testing",
-    "version" : "0.2.0",
-    "authors" : [
-      "Fernando Corr\u00eaa de Oliveira"
-    ]
+    "version" : "0.2.0"
   },
   {
     "name" : "Inform",
@@ -14961,6 +14955,7 @@
     "name" : "DateTime::Extended",
     "source-url" : "git@github.com:FCO/DateTime-Extended.git",
     "perl" : "6.*",
+    "author" : "github:FCO",
     "provides" : {
       "DateTime::Extended" : "lib/DateTime/Extended.pm6"
     },
@@ -14970,10 +14965,7 @@
       "Test::META"
     ],
     "description" : "Extends Date/DateTime features",
-    "version" : "0.1.0",
-    "authors" : [
-      "Fernando Corr\u00eaa de Oliveira"
-    ]
+    "version" : "0.1.0"
   },
   {
     "name" : "License::Software",
