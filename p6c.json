@@ -2521,6 +2521,24 @@
     "version" : "1.0.0"
   },
   {
+    "source-type" : "git",
+    "name" : "JSON::JWT",
+    "source-url" : "git://github.com/retupmoca/P6-JSON-JWT.git",
+    "perl" : "6.*",
+    "author" : "github:retupmoca",
+    "provides" : {
+      "JSON::JWT" : "lib/JSON/JWT.pm6"
+    },
+    "depends" : [
+      "JSON::Fast",
+      "MIME::Base64",
+      "OpenSSL",
+      "Digest::HMAC"
+    ],
+    "description" : "JWT Signing and Verifying using openssl",
+    "version" : "1.0"
+  },
+  {
     "name" : "Test::Junkie",
     "source-url" : "git://github.com/colomon/Test-Junkie.git",
     "depends" : [ ],
@@ -15252,6 +15270,6 @@
       "JSON::Tiny"
     ],
     "description" : "A client library for the Ridiculously Simple Configuration System",
-    "version" : "0.0.1"
+    "version" : "0.0.2"
   }
 ]
