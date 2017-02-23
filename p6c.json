@@ -1218,6 +1218,7 @@
     "source-type" : "git",
     "name" : "App::jsonv",
     "source-url" : "git://github.com/Miniconf/App-jsonv.git",
+    "perl" : "6.*",
     "author" : [
       "David Farrell",
       "Dmitry Yaskolko"
@@ -5092,6 +5093,7 @@
     "source-type" : "git",
     "name" : "URI::Encode",
     "source-url" : "git://github.com/dnmfarrell/URI-Encode.git",
+    "perl" : "6.*",
     "build-depends" : [ ],
     "author" : "David Farrell",
     "provides" : {
@@ -5107,6 +5109,7 @@
   {
     "name" : "System::Passwd",
     "source-url" : "git://github.com/dnmfarrell/System-Passwd.git",
+    "perl" : "6.*",
     "author" : "David Farrell",
     "provides" : {
       "System::Passwd::User" : "lib/System/Passwd/User.pm6",
@@ -5119,6 +5122,7 @@
   {
     "name" : "Software::License",
     "source-url" : "git://github.com/sillymoose/Software-License.git",
+    "perl" : "6.*",
     "author" : "David Farrell",
     "provides" : {
       "Software::License::Apache_2_0" : "lib/Software/License/Apache_2_0.pm6",
@@ -5141,6 +5145,7 @@
     "source-type" : "git",
     "name" : "Pod::Perl5",
     "source-url" : "git://github.com/dnmfarrell/Pod-Perl5.git",
+    "perl" : "6.*",
     "author" : "David Farrell",
     "provides" : {
       "Pod::Perl5" : "lib/Pod/Perl5.pm6",
@@ -5156,6 +5161,7 @@
     "source-type" : "git",
     "name" : "Pod::PerlTricks",
     "source-url" : "git://github.com/dnmfarrell/Pod-PerlTricks.git",
+    "perl" : "6.*",
     "author" : "David Farrell",
     "provides" : {
       "Pod::ToHTML" : "lib/Pod/PerlTricks/ToJSON.pm6",
@@ -5171,6 +5177,7 @@
   {
     "name" : "Module::Minter",
     "source-url" : "git://github.com/dnmfarrell/Module-Minter.git",
+    "perl" : "6.*",
     "author" : "David Farrell",
     "provides" : {
       "Module::Minter" : "lib/Module/Minter.pm6"
