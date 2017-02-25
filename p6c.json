@@ -15289,5 +15289,24 @@
     },
     "version" : "0.0.2",
     "description" : "A client library for the Ridiculously Simple Configuration System"
+  },
+  {
+    "name" : "M",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-M.git"
+    },
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "M" : "lib/M.pm6"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "M, the 1-character Map: non-nodal, non-autothreading .map(*.some-method)"
   }
 ]
