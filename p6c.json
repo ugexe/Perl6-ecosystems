@@ -15048,14 +15048,13 @@
     "depends" : [
       "File::Find",
       "JSON::Pretty",
-      "Pod::To::Markdown",
-      "Shell::Command",
       "License::Software",
-      "Zef::CLI"
+      "META6",
+      "Shell::Command",
+      "Test::META"
     ],
     "test-depends" : [
-      "File::Temp",
-      "META6",
+      "Ddt:auth",
       "Test::META"
     ],
     "provides" : {
@@ -15069,7 +15068,7 @@
       "Bahtiar `kalkin-` Gadimov"
     ],
     "meta6" : "0",
-    "description" : "Distribution Development Tool a replacement for mi6"
+    "description" : "Distribution Development Tool similar to mi6"
   },
   {
     "name" : "Data::TextOrBinary",
