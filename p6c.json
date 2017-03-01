@@ -7153,7 +7153,7 @@
     "provides" : {
       "Green" : "lib/Green.pm6"
     },
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "authors" : [
       "Tony O"
     ],
@@ -15338,5 +15338,19 @@
     },
     "version" : "0.1",
     "description" : "Asynchronous binding for libssh; client-only and limited functionality so far."
+  },
+  {
+    "name" : "Context",
+    "source-url" : "git://github.com/bradclawsie/Context.git",
+    "perl" : "6.*",
+    "build-depends" : [ ],
+    "author" : "Brad Clawsie",
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "provides" : {
+      "DB::RSCS" : "lib/Context.pm6"
+    },
+    "version" : "0.0.1",
+    "description" : "A building block for concurrent programming inspired by Go's context package"
   }
 ]
