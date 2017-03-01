@@ -15325,5 +15325,18 @@
       "Fernando Corr\u00eaa de Oliveira"
     ],
     "description" : "Make roles with stub-methods punnable"
+  },
+  {
+    "name" : "SSH::LibSSH",
+    "source-url" : "https://github.com/jnthn/p6-ssh-libssh.git",
+    "perl" : "6.*",
+    "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+    "depends" : [ ],
+    "provides" : {
+      "SSH::LibSSH" : "lib/SSH/LibSSH.pm6",
+      "SSH::LibSSH::Raw" : "lib/SSH/LibSSH/Raw.pm6"
+    },
+    "version" : "0.1",
+    "description" : "Asynchronous binding for libssh; client-only and limited functionality so far."
   }
 ]
