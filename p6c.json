@@ -15360,5 +15360,35 @@
     },
     "version" : "0.0.1",
     "description" : "A building block for concurrent programming inspired by Go's context package"
+  },
+  {
+    "name" : "EventSource::Server",
+    "support" : {
+      "source" : "https://github.com/jonathanstowe/EventSource-Server.git"
+    },
+    "perl" : "6.c",
+    "source-url" : "https://github.com/jonathanstowe/EventSource-Server.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "license" : "perl",
+    "tags" : [
+      "async",
+      "event",
+      "web"
+    ],
+    "provides" : {
+      "EventSource::Server" : "lib/EventSource/Server.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.0.2",
+    "description" : "A simple handler to provide Server Sent Events from a PSGI app",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ],
+    "meta6" : "0"
   }
 ]
