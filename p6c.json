@@ -15330,6 +15330,14 @@
     "name" : "SSH::LibSSH",
     "source-url" : "https://github.com/jnthn/p6-ssh-libssh.git",
     "perl" : "6.*",
+    "resources" : [
+      "ssh.dll"
+    ],
+    "build-depends" : [
+      "LWP::Simple",
+      "panda",
+      "Shell::Command"
+    ],
     "author" : "Jonathan Worthington <jnthn@jnthn.net>",
     "depends" : [ ],
     "provides" : {
