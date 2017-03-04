@@ -15413,5 +15413,21 @@
     "authors" : [
       "Martin Barth"
     ]
+  },
+  {
+    "name" : "Git::Simple",
+    "source-url" : "https://github.com/7ojo/perl6-git-simple.git",
+    "perl" : "6",
+    "auth" : "github:7ojo",
+    "depends" : [ ],
+    "provides" : {
+      "Git::Simple" : "lib/Git/Simple.pm",
+      "Git::Simple::Parse" : "lib/Git/Simple/Parse.pm"
+    },
+    "version" : "0.0.1",
+    "authors" : [
+      "Jarkko Haapalainen <jarkko@viidakko.fi>"
+    ],
+    "description" : "Simple interface to Git command"
   }
 ]
