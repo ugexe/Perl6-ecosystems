@@ -15429,5 +15429,40 @@
       "Jarkko Haapalainen <jarkko@viidakko.fi>"
     ],
     "description" : "Simple interface to Git command"
+  },
+  {
+    "name" : "Pg::Notify",
+    "perl" : "6.c",
+    "support" : {
+      "email" : "jns+gh@gellyfish.co.uk",
+      "source" : "https://github.com/jonathanstowe/Pg-Notify.git",
+      "bugtracker" : "https://github.com/jonathanstowe/Pg-Notify/issues"
+    },
+    "source-url" : "https://github.com/jonathanstowe/Pg-Notify.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "DBIish",
+      "NativeHelpers::CStruct"
+    ],
+    "provides" : {
+      "Pg::Notify" : "lib/Pg/Notify.pm"
+    },
+    "test-depends" : [
+      "DBIish"
+    ],
+    "license" : "perl",
+    "tags" : [
+      "database",
+      "postgres",
+      "notification"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "description" : "Reactive interface to PostgreSQL notifies",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
