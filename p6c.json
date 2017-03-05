@@ -15464,5 +15464,24 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "Powerline::Prompt",
+    "source-url" : "https://github.com/7ojo/perl6-powerline-prompt.git",
+    "perl" : "6",
+    "auth" : "github:7ojo",
+    "depends" : [
+      "Git::Simple"
+    ],
+    "provides" : {
+      "Powerline::Prompt" : "lib/Powerline/Prompt.pm",
+      "Powerline::Prompt::Shell::Bash" : "lib/Powerline/Prompt/Shell/Bash.pm",
+      "Powerline::Prompt::Segment" : "lib/Powerline/Prompt/Segment.pm"
+    },
+    "version" : "0.0.1",
+    "authors" : [
+      "Jarkko Haapalainen <jarkko@viidakko.fi>"
+    ],
+    "description" : "Make a useful prompt for your shell"
   }
 ]
