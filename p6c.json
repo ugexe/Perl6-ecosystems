@@ -15360,7 +15360,7 @@
     "provides" : {
       "DB::RSCS" : "lib/Context.pm6"
     },
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description" : "A building block for concurrent programming inspired by Go's context package"
   },
   {
@@ -15476,6 +15476,7 @@
     "provides" : {
       "Powerline::Prompt" : "lib/Powerline/Prompt.pm",
       "Powerline::Prompt::Shell::Bash" : "lib/Powerline/Prompt/Shell/Bash.pm",
+      "Powerline::Prompt::Segment::Git" : "lib/Powerline/Prompt/Segment/Git.pm",
       "Powerline::Prompt::Segment" : "lib/Powerline/Prompt/Segment.pm"
     },
     "version" : "0.0.1",
