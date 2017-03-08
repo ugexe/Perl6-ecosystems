@@ -15459,13 +15459,14 @@
       "Git::Simple"
     ],
     "provides" : {
+      "Powerline::Prompt::Segment::Path" : "lib/Powerline/Prompt/Segment/Path.pm",
       "Powerline::Prompt" : "lib/Powerline/Prompt.pm",
       "Powerline::Prompt::Shell::Bash" : "lib/Powerline/Prompt/Shell/Bash.pm",
       "Powerline::Prompt::Segment::Git" : "lib/Powerline/Prompt/Segment/Git.pm",
       "Powerline::Prompt::Segment::Root" : "lib/Powerline/Prompt/Segment/Root.pm",
       "Powerline::Prompt::Segment" : "lib/Powerline/Prompt/Segment.pm"
     },
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "authors" : [
       "Jarkko Haapalainen <jarkko@viidakko.fi>"
     ],
