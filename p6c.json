@@ -3822,6 +3822,7 @@
       "CSS::Module::CSS3::PagedMedia" : "lib/CSS/Module/CSS3/PagedMedia.pm",
       "CSS::Module::CSS3::Fonts::Spec::Interface" : "lib/CSS/Module/CSS3/Fonts/Spec/Interface.pm",
       "CSS::Module::CSS3::Colors::Actions" : "lib/CSS/Module/CSS3/Colors.pm",
+      "CSS::Module::CSS3::Actions" : "lib/CSS/Module/CSS3/Actions.pm",
       "CSS::Module::CSS21::Metadata" : "lib/CSS/Module/CSS21/Metadata.pm",
       "CSS::Module::CSS1::Spec::Interface" : "lib/CSS/Module/CSS1/Spec/Interface.pm",
       "CSS::Module::CSS1::Metadata" : "lib/CSS/Module/CSS1/Metadata.pm",
@@ -3835,11 +3836,11 @@
       "CSS::Module::CSS3::Metadata" : "lib/CSS/Module/CSS3/Metadata.pm",
       "CSS::Module::CSS3::Namespaces" : "lib/CSS/Module/CSS3/Namespaces.pm",
       "CSS::Module::CSS3::Fonts::AtFontFace::Spec::Actions" : "lib/CSS/Module/CSS3/Fonts/AtFontFace/Spec/Actions.pm",
-      "CSS::Module::CSS3::Fonts::Actions" : "lib/CSS/Module/CSS3/Fonts.pm",
+      "CSS::Module::CSS3::Fonts::Actions" : "lib/CSS/Module/CSS3/Fonts/Actionas.pm",
       "CSS::Module::CSS3::_Base" : "lib/CSS/Module/CSS3/_Base.pm",
       "CSS::Module::CSS1::Spec::Grammar" : "lib/CSS/Module/CSS1/Spec/Grammar.pm"
     },
-    "version" : "0.4.7",
+    "version" : "0.4.8",
     "description" : "Perl 6 CSS extended and property-specific grammars"
   },
   {
@@ -15459,6 +15460,7 @@
       "Git::Simple"
     ],
     "provides" : {
+      "Powerline::Prompt::Segment::Readonly" : "lib/Powerline/Prompt/Segment/Readonly.pm",
       "Powerline::Prompt::Segment::Path" : "lib/Powerline/Prompt/Segment/Path.pm",
       "Powerline::Prompt" : "lib/Powerline/Prompt.pm",
       "Powerline::Prompt::Shell::Bash" : "lib/Powerline/Prompt/Shell/Bash.pm",
@@ -15466,7 +15468,7 @@
       "Powerline::Prompt::Segment::Root" : "lib/Powerline/Prompt/Segment/Root.pm",
       "Powerline::Prompt::Segment" : "lib/Powerline/Prompt/Segment.pm"
     },
-    "version" : "0.0.3",
+    "version" : "0.0.4",
     "authors" : [
       "Jarkko Haapalainen <jarkko@viidakko.fi>"
     ],
