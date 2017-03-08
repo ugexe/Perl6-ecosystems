@@ -12710,33 +12710,6 @@
     "meta6" : "0"
   },
   {
-    "name" : "Getopt::Kinoko",
-    "support" : {
-      "source" : "https://github.com/araraloren/Getopt-Kinoko/tree/v0.2.9",
-      "bugtracker" : "https://github.com.araraloren/Getopt-Kinoko/issues"
-    },
-    "source-url" : "https://github.com/araraloren/Getopt-Kinoko/archive/v0.2.9.zip",
-    "perl" : "6.c",
-    "auth" : "github:araraloren",
-    "depends" : [
-      "Terminal::WCWidth"
-    ],
-    "provides" : {
-      "Getopt::Kinoko::NonOption" : "lib/Getopt/Kinoko/NonOption.pm6",
-      "Getopt::Kinoko::OptionSet" : "lib/Getopt/Kinoko/OptionSet.pm6",
-      "Getopt::Kinoko" : "lib/Getopt/Kinoko.pm6",
-      "Getopt::Kinoko::Group" : "lib/Getopt/Kinoko/Group.pm6",
-      "Getopt::Kinoko::DeepClone" : "lib/Getopt/Kinoko/DeepClone.pm6",
-      "Getopt::Kinoko::Option" : "lib/Getopt/Kinoko/Option.pm6",
-      "Getopt::Kinoko::Argument" : "lib/Getopt/Kinoko/Argument.pm6",
-      "Getopt::Kinoko::Parser" : "lib/Getopt/Kinoko/Parser.pm6",
-      "Getopt::Kinoko::Exception" : "lib/Getopt/Kinoko/Exception.pm6"
-    },
-    "version" : "0.2.9",
-    "authors" : "Loren",
-    "description" : "A command line parsing tool which written in Perl6"
-  },
-  {
     "name" : "Test::When",
     "source-url" : "git://github.com/zoffixznet/perl6-Test-When.git",
     "perl" : "6.c",
@@ -15489,9 +15462,10 @@
       "Powerline::Prompt" : "lib/Powerline/Prompt.pm",
       "Powerline::Prompt::Shell::Bash" : "lib/Powerline/Prompt/Shell/Bash.pm",
       "Powerline::Prompt::Segment::Git" : "lib/Powerline/Prompt/Segment/Git.pm",
+      "Powerline::Prompt::Segment::Root" : "lib/Powerline/Prompt/Segment/Root.pm",
       "Powerline::Prompt::Segment" : "lib/Powerline/Prompt/Segment.pm"
     },
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "authors" : [
       "Jarkko Haapalainen <jarkko@viidakko.fi>"
     ],
