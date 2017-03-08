@@ -10969,7 +10969,9 @@
   {
     "name" : "XML::Class",
     "support" : {
-      "source" : "git://github.com/jonathanstowe/XML-Class.git"
+      "email" : "jns+gh@gellyfish.co.uk",
+      "source" : "git://github.com/jonathanstowe/XML-Class.git",
+      "bugtracker" : "https://github.com/jonathanstowe/XML-Class/issues"
     },
     "source-url" : "git://github.com/jonathanstowe/XML-Class.git",
     "perl" : "6.c",
@@ -10995,7 +10997,7 @@
     "provides" : {
       "XML::Class" : "lib/XML/Class.pm"
     },
-    "version" : "0.0.3",
+    "version" : "0.0.4",
     "supersedes" : { },
     "meta6" : "0",
     "description" : "Role to Serialize/De-Serialize a Perl 6 class to/from XML",
@@ -14704,6 +14706,7 @@
     "name" : "Tinky::JSON",
     "source-url" : "git://github.com/jonathanstowe/Tinky-JSON.git",
     "support" : {
+      "email" : "jns+gh@gellyfish.co.uk",
       "source" : "git://github.com/jonathanstowe/Tinky-JSON.git",
       "bugtracker" : "https://github.com/jonathanstowe/Tinky-JSON/issues"
     },
@@ -14729,7 +14732,7 @@
       "Test"
     ],
     "license" : "Artistic",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ],
