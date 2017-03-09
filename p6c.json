@@ -7527,7 +7527,7 @@
     "perl" : "6.c",
     "depends" : [
       "HTTP::Tinyish",
-      "JSON::Tiny"
+      "JSON::Fast"
     ],
     "provides" : {
       "Pastebin::Gist" : "lib/Pastebin/Gist.pm6"
@@ -7535,7 +7535,7 @@
     "test-depends" : [
       "Test"
     ],
-    "version" : "1.001002",
+    "version" : "1.001003",
     "authors" : [
       "Zoffix Znet"
     ],
