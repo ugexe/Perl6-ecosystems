@@ -15542,5 +15542,25 @@
       "Lloyd Fournier lloyd.fourn@gmail.com"
     ],
     "description" : "The Spook in the Shell Script (Spit-sh) compiler"
+  },
+  {
+    "name" : "Web::Cache",
+    "source-url" : "git://github.com/smorrison/per6-Web-Cache.git",
+    "perl" : "6.c",
+    "depends" : [
+      "Cache::LRU"
+    ],
+    "provides" : {
+      "Web::Cache::Memory" : "lib/Web/Cache/Memory.pm6",
+      "Web::Cache" : "lib/Web/Cache.pm6"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.000001",
+    "authors" : [
+      "Sam Morrison"
+    ],
+    "description" : "Perl 6 web-framework-neutral LRU caching module"
   }
 ]
