@@ -15565,5 +15565,26 @@
       "Sam Morrison"
     ],
     "description" : "Perl 6 web-framework-neutral LRU caching module"
+  },
+  {
+    "name" : "Sparrowdo::Goss",
+    "source-url" : "https://github.com/melezhik/sparrowdo-goss.git",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowdo-goss.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowdo-goss/issues"
+    },
+    "perl" : "6.*",
+    "source-type" : "git",
+    "depends" : [
+      "Sparrowdo"
+    ],
+    "provides" : {
+      "Sparrowdo::Goss" : "lib/Sparrowdo/Goss.pm6"
+    },
+    "version" : "*",
+    "authors" : [
+      "Alexey Melezhik"
+    ],
+    "description" : "Sparrowdo module to run goss scenarios"
   }
 ]
