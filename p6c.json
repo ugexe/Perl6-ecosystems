@@ -5795,7 +5795,9 @@
     "name" : "Log::Syslog::Native",
     "source-url" : "git://github.com/jonathanstowe/Log-Syslog-Native.git",
     "support" : {
-      "source" : "git://github.com/jonathanstowe/Log-Syslog-Native.git"
+      "email" : "jns+gh@gellyfish.co.uk",
+      "source" : "git://github.com/jonathanstowe/Log-Syslog-Native.git",
+      "bugtracker" : "https://github.com/jonathanstowe/Log-Syslog-Native/issues"
     },
     "perl" : "6.c",
     "build-depends" : [ ],
@@ -5808,7 +5810,12 @@
     "test-depends" : [
       "Test"
     ],
-    "version" : "0.0.6",
+    "tags" : [
+      "syslog",
+      "log",
+      "unix"
+    ],
+    "version" : "0.0.7",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ],
