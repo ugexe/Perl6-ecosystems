@@ -543,6 +543,10 @@
     "provides" : {
       "Math::PascalTriangle" : "lib/Math/PascalTriangle.pm6"
     },
+    "tags" : [
+      "math",
+      "pascal"
+    ],
     "version" : "0.1.0",
     "authors" : [
       "Fernando Correa de Oliveira"
@@ -13964,6 +13968,11 @@
     "provides" : {
       "Heap" : "lib/Heap.pm6"
     },
+    "tags" : [
+      "heap",
+      "struct",
+      "data"
+    ],
     "version" : "0.0.1",
     "authors" : [
       "Fernando Correa de Oliveira"
@@ -14083,6 +14092,11 @@
       "ProblemSolver" : "lib/ProblemSolver.pm6",
       "State" : "lib/ProblemSolver/State.pm6"
     },
+    "tags" : [
+      "solver",
+      "constraint",
+      "problem"
+    ],
     "version" : "0.0.1",
     "authors" : [
       "Fernando Correa de Oliveira"
@@ -14944,6 +14958,11 @@
       "Test::Fuzz::AggGenerators" : "lib/Test/Fuzz/AggGenerators.pm6",
       "Test::Fuzz::Generators" : "lib/Test/Fuzz/Generators.pm6"
     },
+    "tags" : [
+      "test",
+      "fuzz",
+      "generative"
+    ],
     "version" : "0.2.0",
     "authors" : [
       "Fernando Correa de Oliveira"
@@ -15330,6 +15349,11 @@
       "Test::META"
     ],
     "provides" : { },
+    "tags" : [
+      "pun",
+      "role",
+      "stub"
+    ],
     "version" : "0.1.0",
     "authors" : [
       "Fernando Corr\u00eaa de Oliveira"
