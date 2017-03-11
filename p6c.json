@@ -13278,6 +13278,11 @@
     "provides" : {
       "Desktop::Notify" : "lib/Desktop/Notify.pm6"
     },
+    "tags" : [
+      "desktop",
+      "notification",
+      "libnotify"
+    ],
     "version" : "0.2.0",
     "description" : "A simple interface to libnotify",
     "authors" : [
@@ -14904,6 +14909,11 @@
     "test-depends" : [
       "Test"
     ],
+    "tags" : [
+      "archive",
+      "libarchive",
+      "compression"
+    ],
     "version" : "0.0.2",
     "authors" : [
       "Fernando Santagata"
@@ -14922,6 +14932,11 @@
     },
     "test-depends" : [
       "Test"
+    ],
+    "tags" : [
+      "archive",
+      "libarchive",
+      "compression"
     ],
     "version" : "0.0.7",
     "authors" : [
