@@ -8736,26 +8736,6 @@
     ]
   },
   {
-    "name" : "Email::Valid",
-    "source-url" : "git://github.com/Demayl/perl6-Email-Valid.git",
-    "support" : {
-      "source" : "git://github.com/Demayl/perl6-Email-Valid.git",
-      "bugtracker" : "https://github.com/Demayl/perl6-Email-Valid/issues"
-    },
-    "perl" : "6.*",
-    "depends" : [
-      "Net::DNS"
-    ],
-    "provides" : {
-      "Email::Valid" : "lib/Email/Valid.pm6"
-    },
-    "version" : "1.0.0",
-    "authors" : [
-      "Denis Kanchev - demayl"
-    ],
-    "description" : "Email validator for Perl6"
-  },
-  {
     "name" : "JavaScript::SpiderMonkey",
     "source-url" : "git://github.com/hartenfels/JavaScript-SpiderMonkey.git",
     "author" : "Carsten Hartenfels",
