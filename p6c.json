@@ -8682,6 +8682,9 @@
       "PDF::DAO::Type::Info" : "lib/PDF/DAO/Type/Info.pm",
       "PDF::DAO::Int" : "lib/PDF/DAO/Int.pm"
     },
+    "tags" : [
+      "pdf"
+    ],
     "version" : "0.2.1",
     "description" : "Base classes for reading, manipulation and writing of PDF data"
   },
@@ -14560,7 +14563,7 @@
   {
     "name" : "CSS::Declarations",
     "source-url" : "git://github.com/p6-css/perl6-CSS-Declarations.git",
-    "perl" : "6c",
+    "perl" : "6.*",
     "auth" : "github:p6-css",
     "depends" : [
       "CSS::Module",
@@ -14573,6 +14576,9 @@
       "CSS::Declarations::Edges" : "lib/CSS/Declarations/Edges.pm",
       "CSS::Declarations" : "lib/CSS/Declarations.pm"
     },
+    "tags" : [
+      "css"
+    ],
     "version" : "0.1.2",
     "description" : "CSS property-list manipulation library"
   },
