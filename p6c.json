@@ -15047,60 +15047,6 @@
     "description" : "package for generating licenses from templates"
   },
   {
-    "name" : "Ddt",
-    "perl" : "6.c",
-    "support" : {
-      "source" : null
-    },
-    "source-url" : "https://github.com/kalkin/Ddt.git",
-    "auth" : "kalkin",
-    "depends" : [
-      "File::Find",
-      "File::Ignore",
-      "File::Temp",
-      "JSON::Pretty",
-      "License::Software",
-      "META6",
-      "Pod::To::Markdown",
-      "Test::META",
-      "Zef",
-      "Zef::Client",
-      "Zef::Config",
-      "Zef::Distribution",
-      "Zef::Identity"
-    ],
-    "test-depends" : [
-      "File::Temp",
-      "Test::META"
-    ],
-    "tags" : [
-      "authoring",
-      "command line",
-      "devel",
-      "development",
-      "generator",
-      "module",
-      "testing",
-      "utility"
-    ],
-    "provides" : {
-      "Ddt::Template" : "lib/Ddt/Template.pm6",
-      "Ddt::Distribution" : "lib/Ddt/Distribution.pm6",
-      "Ddt::Plugins::Deps" : "lib/Ddt/Plugins/Deps.pm6",
-      "Ddt::Plugins::Watch" : "lib/Ddt/Plugins/Watch.pm6",
-      "Ddt::Plugins::Unit-Generator" : "lib/Ddt/Plugins/Unit-Generator.pm6",
-      "Ddt::CLI" : "lib/Ddt/CLI.pm6",
-      "Ddt" : "lib/Ddt.pm6"
-    },
-    "version" : "0.4.0",
-    "authors" : [
-      "Shoichi Kaji",
-      "Bahtiar `kalkin-` Gadimov"
-    ],
-    "meta6" : "0",
-    "description" : "Distribution Development Tool"
-  },
-  {
     "name" : "Data::TextOrBinary",
     "source-url" : "https://github.com/jnthn/p6-data-textorbinary.git",
     "perl" : "6.*",
