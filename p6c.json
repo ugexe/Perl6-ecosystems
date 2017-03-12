@@ -1932,6 +1932,11 @@
       "Bailador::Route" : "lib/Bailador/Route.pm",
       "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm"
     },
+    "tags" : [
+      "Web",
+      "HTTP",
+      "Net"
+    ],
     "version" : "*",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz",
@@ -11660,6 +11665,15 @@
       "Time::Crontab" : "lib/Time/Crontab.pm6",
       "Time::Crontab::Grammar" : "lib/Time/Crontab/Grammar.pm6"
     },
+    "tags" : [
+      "Cron",
+      "Crontab",
+      "Time",
+      "Parsing",
+      "Linux",
+      "Unix",
+      "Date"
+    ],
     "version" : "0.1.0",
     "authors" : [
       "Martin Barth <martin@senfdax.de>"
@@ -15289,6 +15303,13 @@
       "XML::XPath::ExprOperator::Mod" : "lib/XML/XPath/ExprOperator/Mod.pm6",
       "XML::XPath::ExprOperator::Minus" : "lib/XML/XPath/ExprOperator/Minus.pm6"
     },
+    "tags" : [
+      "XML",
+      "XPath",
+      "Parsing",
+      "W3C",
+      "Query Language"
+    ],
     "version" : "0.9.0",
     "description" : "XPath perl6 library",
     "authors" : [
@@ -15448,6 +15469,13 @@
     "provides" : {
       "XML::Rabbit" : "lib/XML/Rabbit.pm6"
     },
+    "tags" : [
+      "XML",
+      "XPath",
+      "Attribute",
+      "Builder",
+      "Lazy Builder"
+    ],
     "version" : "0.1.0",
     "description" : "XML::Rabbit builds your Attributes from xml files with xpath expressions",
     "authors" : [
