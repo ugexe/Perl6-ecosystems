@@ -15662,5 +15662,22 @@
       "Alexey Melezhik"
     ],
     "description" : "Sparrowdo module to run goss scenarios"
+  },
+  {
+    "name" : "App::InstallerMaker::WiX",
+    "source-url" : "git@github.com:jnthn/p6-app-installermaker-wix.git",
+    "perl" : "6.*",
+    "author" : "Jonathan Worthington <jonathan@edument.se>",
+    "depends" : [
+      "YAMLish"
+    ],
+    "provides" : {
+      "make-perl6-wix-installer" : "bin/make-perl6-wix-installer",
+      "App::InstallerMaker::WiX::PreCheck" : "lib/App/InstallerMaker/WiX/PreCheck.pm6",
+      "App::InstallerMaker::WiX::Configuration" : "lib/App/InstallerMaker/WiX/Configuration.pm6",
+      "App::InstallerMaker::WiX::InstallerBuilder" : "lib/App/InstallerMaker/WiX/InstallerBuilder.pm6"
+    },
+    "version" : "0.1",
+    "description" : "Tool to make basic WiX installers for Perl 6 apps, bundling MoarVM/Rakudo."
   }
 ]
