@@ -14613,15 +14613,17 @@
     ],
     "provides" : {
       "CSS::Declarations::Units" : "lib/CSS/Declarations/Units.pm",
+      "CSS::Declarations::Box" : "lib/CSS/Declarations/Box.pm",
       "CSS::Declarations::Property" : "lib/CSS/Declarations/Property.pm",
       "CSS::Declarations::Edges" : "lib/CSS/Declarations/Edges.pm",
+      "CSS::Declarations::Font" : "lib/CSS/Declarations/Font.pm",
       "CSS::Declarations" : "lib/CSS/Declarations.pm"
     },
     "tags" : [
       "css"
     ],
-    "version" : "0.1.2",
-    "description" : "CSS property-list manipulation library"
+    "version" : "0.2.0",
+    "description" : "CSS property manipulation library"
   },
   {
     "name" : "WaitGroup",
