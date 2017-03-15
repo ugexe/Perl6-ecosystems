@@ -15707,5 +15707,30 @@
     },
     "version" : "0.1",
     "description" : "Tool to make basic WiX installers for Perl 6 apps, bundling MoarVM/Rakudo."
+  },
+  {
+    "name" : "WWW",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-WWW.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "HTTP::UserAgent",
+      "JSON::Fast",
+      "IO::Socket::SSL"
+    ],
+    "provides" : {
+      "WWW" : "lib/WWW.pm6"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::When",
+      "Test::META"
+    ],
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "No-nonsense, simple HTTPS client with JSON decoder"
   }
 ]
