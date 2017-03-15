@@ -10056,6 +10056,10 @@
     "provides" : {
       "Compress::Bzip2::Raw" : "lib/Compress/Bzip2/Raw.pm6"
     },
+    "tags" : [
+      "Compression",
+      "NativeCall"
+    ],
     "version" : "0.2.0",
     "description" : "Low-level bindings to libbzip2"
   },
@@ -10071,6 +10075,9 @@
     "provides" : {
       "Compress::Bzip2" : "lib/Compress/Bzip2.pm6"
     },
+    "tags" : [
+      "Compression"
+    ],
     "version" : "0.3.0",
     "description" : "High-level bindings to libbzip2"
   },
@@ -11977,6 +11984,9 @@
     "provides" : {
       "deredere" : "lib/deredere.pm6"
     },
+    "tags" : [
+      "Web"
+    ],
     "version" : "0.1.0",
     "description" : "Simple scraping framework"
   },
@@ -12135,6 +12145,10 @@
     "provides" : {
       "App::Whiff" : "lib/App/Whiff.pm6"
     },
+    "tags" : [
+      "Utils",
+      "Admin"
+    ],
     "version" : "0.1.0",
     "description" : "Port of perl whiff"
   },
@@ -12275,6 +12289,7 @@
     "provides" : {
       "Devel::Trace" : "lib/Devel/Trace.pm6"
     },
+    "tags" : "Devel",
     "version" : "0.1",
     "description" : "Perl6 code tracer."
   },
@@ -12948,26 +12963,6 @@
     ]
   },
   {
-    "name" : "WWW::DuckDuckGo",
-    "source-url" : "git://github.com/Altai-man/p6-WWW-DuckDuckGo.git",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "author" : "github:Altai-man",
-    "depends" : [
-      "URI",
-      "HTTP::UserAgent",
-      "JSON::Fast"
-    ],
-    "provides" : {
-      "WWW::DuckDuckGo::Icon" : "lib/WWW/DuckDuckGo/Icon.pm6",
-      "WWW::DuckDuckGo" : "lib/WWW/DuckDuckGo.pm6",
-      "WWW::DuckDuckGo::Link" : "lib/WWW/DuckDuckGo/Link.pm6",
-      "WWW::DuckDuckGo::ZeroClickInfo" : "lib/WWW/DuckDuckGo/ZeroClickInfo.pm6"
-    },
-    "version" : "0.1.0",
-    "description" : "Bindings to DuckDuckGo search API"
-  },
-  {
     "name" : "Bencode",
     "source-url" : "git://github.com/palapitta/Bencode",
     "provides" : {
@@ -13015,6 +13010,10 @@
       "Config::Netrc" : "lib/Config/Netrc.pm6",
       "Config::Netrc::Writer" : "lib/Config/Netrc/Writer.pm6"
     },
+    "tags" : [
+      "Grammar",
+      "Config"
+    ],
     "version" : "*",
     "description" : ".netrc file parser module for Perl 6"
   },
@@ -15243,28 +15242,6 @@
       "Yann B\u00fcchau"
     ],
     "description" : "grammar to parse FORTRAN source code"
-  },
-  {
-    "name" : "Slang::Kazu",
-    "perl" : "6.c",
-    "support" : {
-      "source" : null
-    },
-    "source-url" : "git://github.com/Altai-man/perl6-Slang-Kazu.git",
-    "test-depends" : [
-      "Test::META"
-    ],
-    "license" : "https://www.gnu.org/licenses/gpl-3.0.txt",
-    "provides" : {
-      "Slang::Kazu" : "lib/Slang/Kazu.pm6"
-    },
-    "version" : "1.1",
-    "authors" : [
-      "github:Altai-man",
-      ""
-    ],
-    "meta6" : "0",
-    "description" : "Japanese numerals in your Perl 6"
   },
   {
     "name" : "XML::XPath",
