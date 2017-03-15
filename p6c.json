@@ -12963,6 +12963,30 @@
     ]
   },
   {
+    "name" : "WWW::DuckDuckGo",
+    "source-url" : "git://github.com/Altai-man/p6-WWW-DuckDuckGo.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "author" : "github:Altai-man",
+    "depends" : [
+      "URI",
+      "HTTP::UserAgent",
+      "JSON::Fast"
+    ],
+    "provides" : {
+      "WWW::DuckDuckGo::Icon" : "lib/WWW/DuckDuckGo/Icon.pm6",
+      "WWW::DuckDuckGo" : "lib/WWW/DuckDuckGo.pm6",
+      "WWW::DuckDuckGo::Link" : "lib/WWW/DuckDuckGo/Link.pm6",
+      "WWW::DuckDuckGo::ZeroClickInfo" : "lib/WWW/DuckDuckGo/ZeroClickInfo.pm6"
+    },
+    "tags" : [
+      "Web",
+      "API"
+    ],
+    "version" : "0.1.0",
+    "description" : "Bindings to DuckDuckGo search API"
+  },
+  {
     "name" : "Bencode",
     "source-url" : "git://github.com/palapitta/Bencode",
     "provides" : {
@@ -15242,6 +15266,32 @@
       "Yann B\u00fcchau"
     ],
     "description" : "grammar to parse FORTRAN source code"
+  },
+  {
+    "name" : "Slang::Kazu",
+    "perl" : "6.c",
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "git://github.com/Altai-man/perl6-Slang-Kazu.git",
+    "test-depends" : [
+      "Test::META"
+    ],
+    "license" : "https://www.gnu.org/licenses/gpl-3.0.txt",
+    "provides" : {
+      "Slang::Kazu" : "lib/Slang/Kazu.pm6"
+    },
+    "tags" : [
+      "ACME",
+      "Slang"
+    ],
+    "version" : "1.1",
+    "authors" : [
+      "github:Altai-man",
+      ""
+    ],
+    "meta6" : "0",
+    "description" : "Japanese numerals in your Perl 6"
   },
   {
     "name" : "XML::XPath",
