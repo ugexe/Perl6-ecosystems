@@ -6151,21 +6151,6 @@
     "description" : "The anti-template templating tool."
   },
   {
-    "name" : "Perl6::Parser",
-    "source-url" : "git://github.com/drforr/perl6-Perl6-Parser.git",
-    "perl" : "6.*",
-    "provides" : {
-      "Perl6::Parser::Validator" : "lib/Perl6/Parser/Validator.pm6",
-      "Perl6::Parser::Factory" : "lib/Perl6/Parser/Factory.pm6",
-      "Perl6::Parser" : "lib/Perl6/Parser.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "*",
-    "description" : "Perl 6 parsing"
-  },
-  {
     "name" : "Readline",
     "perl" : "6",
     "source-url" : "git://github.com/drforr/perl6-readline.git",
