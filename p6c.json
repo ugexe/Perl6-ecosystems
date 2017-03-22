@@ -14863,6 +14863,28 @@
     "description" : "Describe Tinky Workflows in JSON"
   },
   {
+    "name" : "Sparrowdo::Chef::Client",
+    "source-url" : "https://github.com/melezhik/sparrowdo-chef-client.git",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowdo-chef-client.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowdo-chef-client/issues"
+    },
+    "perl" : "6.*",
+    "source-type" : "git",
+    "depends" : [
+      "Sparrowdo",
+      "JSON::Tiny"
+    ],
+    "provides" : {
+      "Sparrowdo::Chef::Client" : "lib/Sparrowdo/Chef/Client.pm6"
+    },
+    "version" : "0.0.1",
+    "authors" : [
+      "Alexey Melezhik"
+    ],
+    "description" : "Sparrowdo module to manage chef users"
+  },
+  {
     "name" : "Test::Scheduler",
     "source-url" : "git://github.com/jnthn/p6-test-scheduler.git",
     "perl" : "6.c",
