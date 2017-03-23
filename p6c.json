@@ -15188,13 +15188,17 @@
     "name" : "META6::bin",
     "source-url" : "https://github.com/gfldex/perl6-meta6-bin.git",
     "perl" : "6.c",
-    "author" : "Wenzel P. P. Peppmeyer",
     "depends" : [
       "META6",
       "HTTP::Client",
-      "Git::Config"
+      "Git::Config",
+      "JSON::Tiny",
+      "Test::META"
     ],
     "version" : "0.0.1",
+    "authors" : [
+      "Wenzel P. P. Peppmeyer"
+    ],
     "description" : "Provide a binary to work with META6.json-files."
   },
   {
