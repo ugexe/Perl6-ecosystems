@@ -15164,7 +15164,10 @@
     "perl" : "6",
     "auth" : "github:gfldex",
     "depends" : [ ],
-    "version" : "0.0.1",
+    "provides" : {
+      "Git::Config" : "lib/Git/Config.pm6"
+    },
+    "version" : "0.0.2",
     "authors" : [
       "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
     ],
@@ -15196,7 +15199,7 @@
       "Test::META",
       "Git::Config"
     ],
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "authors" : [
       "Wenzel P. P. Peppmeyer"
     ],
