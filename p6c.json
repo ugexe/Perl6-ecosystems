@@ -4637,7 +4637,7 @@
       "HTTP::Server::Async" : "lib/HTTP/Server/Async.pm6",
       "HTTP::Server::Async::Request" : "lib/HTTP/Server/Async/Request.pm6"
     },
-    "version" : "0.1.4",
+    "version" : "0.1.5",
     "authors" : [
       "tony-o"
     ],
@@ -6280,7 +6280,7 @@
     "test-depends" : [
       "HTTP::Server::Async"
     ],
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "description" : "Router for HTTP::Server based servers"
   },
   {
@@ -15232,7 +15232,7 @@
   },
   {
     "name" : "META6::bin",
-    "source-url" : "git://github.com/gfldex/perl6-meta6-bin.git",
+    "source-url" : "https://github.com/gfldex/perl6-meta6-bin.git",
     "perl" : "6.c",
     "author" : "Wenzel P. P. Peppmeyer",
     "depends" : [
