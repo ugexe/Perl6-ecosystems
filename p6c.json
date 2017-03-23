@@ -6183,35 +6183,6 @@
     "meta6" : "0"
   },
   {
-    "name" : "Readline",
-    "perl" : "6",
-    "source-url" : "git://github.com/drforr/perl6-readline.git",
-    "support" : {
-      "source" : "git://github.com/drforr/perl6-readline.git"
-    },
-    "build-depends" : [
-      "LibraryCheck"
-    ],
-    "author" : "Jeffrey Goff <drforr@pobox.com>",
-    "auth" : "github:drforr",
-    "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
-    "provides" : {
-      "Readline" : "lib/Readline.pm"
-    },
-    "tags" : [
-      "terminal",
-      "CLI"
-    ],
-    "version" : "v0.0.2",
-    "description" : "Perl 6 interface to GNU Readline, the CLI-based line reading library",
-    "authors" : [
-      "Jeffrey Goff <drforr@pobox.com>"
-    ]
-  },
-  {
     "name" : "Slang::Roman",
     "source-url" : "git://github.com/drforr/perl6-slang-roman.git",
     "perl" : "6.*",
@@ -6221,23 +6192,6 @@
     },
     "version" : "0.1",
     "description" : "A slang to allow Roman numerals"
-  },
-  {
-    "name" : "Inline::Scheme::Guile",
-    "source-url" : "git://github.com/drforr/Inline-Scheme-Guile.git",
-    "perl" : "6.*",
-    "resources" : [
-      "libraries/guile-helper"
-    ],
-    "author" : "github:drforr",
-    "depends" : [
-      "LibraryMake"
-    ],
-    "provides" : {
-      "Inline::Scheme::Guile" : "lib/Inline/Scheme/Guile.pm6"
-    },
-    "version" : "0.1",
-    "description" : "Use Guile Scheme code and libraries in your Perl 6 code"
   },
   {
     "name" : "Path::Router",
