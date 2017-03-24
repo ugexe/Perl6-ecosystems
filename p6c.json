@@ -15199,7 +15199,7 @@
       "Test::META",
       "Git::Config"
     ],
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "authors" : [
       "Wenzel P. P. Peppmeyer"
     ],
@@ -15725,5 +15725,34 @@
       "Zoffix Znet"
     ],
     "description" : "No-nonsense, simple HTTPS client with JSON decoder"
+  },
+  {
+    "name" : "Proc::Async::Timeout",
+    "perl" : "6.c",
+    "emulates" : { },
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "https://github.com/gfldex/perl6-proc-async-timeout",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "superseded-by" : { },
+    "excludes" : { },
+    "auth" : "github:gfldex",
+    "depends" : [
+      "Test::META"
+    ],
+    "provides" : { },
+    "test-depends" : [ ],
+    "license" : "Artistic 2.0",
+    "tags" : [ ],
+    "version" : "0.0.1",
+    "production" : false,
+    "meta6" : "0",
+    "description" : "",
+    "authors" : [
+      "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
+    ],
+    "supersedes" : { }
   }
 ]
