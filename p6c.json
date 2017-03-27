@@ -13641,27 +13641,6 @@
     "description" : "Sparrowdo module to install Nginx web server"
   },
   {
-    "name" : "Sparrowdo::Sparrow::Update",
-    "source-url" : "https://github.com/melezhik/sparrowdo-sparrow-update.git",
-    "support" : {
-      "source" : "https://github.com/melezhik/sparrowdo-sparrow-update.git",
-      "bugtracker" : "https://github.com/melezhik/sparrowdo-sparrow-update/issues"
-    },
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [
-      "Sparrowdo"
-    ],
-    "provides" : {
-      "Sparrowdo::Sparrow::Update" : "lib/Sparrowdo/Sparrow/Update.pm6"
-    },
-    "version" : "*",
-    "authors" : [
-      "Alexey Melezhik"
-    ],
-    "description" : "Sparrowdo module to install/update Sparrow toolchain on target host"
-  },
-  {
     "name" : "Printer::ESCPOS",
     "perl" : "6",
     "source-url" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS.git",
