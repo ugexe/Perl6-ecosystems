@@ -14042,6 +14042,9 @@
       "NativeHelpers::Blob"
     ],
     "provides" : {
+      "X11::Xlib::Raw::keysym" : "lib/X11/Xlib/Raw/keysym.pm6",
+      "X11::Xlib::Raw::Xproto" : "lib/X11/Xlib/Raw/Xproto.pm6",
+      "X11::Xlib::Raw::X" : "lib/X11/Xlib/Raw/X.pm6",
       "X11::Xlib::Raw" : "lib/X11/Xlib/Raw.pm6"
     },
     "version" : "*",
