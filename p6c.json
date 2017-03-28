@@ -15823,5 +15823,39 @@
       "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
     ],
     "supersedes" : { }
+  },
+  {
+    "name" : "Sparrowdo::Cpanm::GitHub",
+    "emulates" : { },
+    "perl" : "6.c",
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "https://github.com/melezhik/sparrowdo-cpanm-github.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "superseded-by" : { },
+    "auth" : "github:",
+    "excludes" : { },
+    "depends" : [
+      "Test::META",
+      "Sparrowdo",
+      "Sparrowdo::RemoteFile",
+      "Sparrowdo::Archive"
+    ],
+    "test-depends" : [ ],
+    "license" : "Artistic 2.0",
+    "tags" : [ ],
+    "provides" : {
+      "Sparrowdo::Cpanm::GitHub" : "lib/Sparrowdo/Cpanm/GitHub.pm6"
+    },
+    "version" : "0.0.1",
+    "production" : false,
+    "authors" : [
+      "'Alexey Melezhik' <melezhik@gmail.com>"
+    ],
+    "supersedes" : { },
+    "meta6" : "0",
+    "description" : ""
   }
 ]
