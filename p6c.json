@@ -14937,11 +14937,19 @@
   {
     "name" : "Math::Constants",
     "source-url" : "https://github.com/JJ/p6-math-constants",
-    "perl" : "6.c",
+    "perl" : "6.*",
     "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [ ],
-    "test-depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "math",
+      "constants",
+      "physics"
+    ],
     "provides" : {
       "Math::Constants" : "lib/Math/Constants.pm6"
     },
