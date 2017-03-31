@@ -15504,7 +15504,7 @@
       "SSH::LibSSH" : "lib/SSH/LibSSH.pm6",
       "SSH::LibSSH::Raw" : "lib/SSH/LibSSH/Raw.pm6"
     },
-    "version" : "0.3",
+    "version" : "0.4",
     "description" : "Asynchronous binding for libssh; client-only and limited functionality so far."
   },
   {
@@ -15865,5 +15865,35 @@
     "supersedes" : { },
     "meta6" : "0",
     "description" : "Installs CPAN modules fetched from remote GitHub repositories"
+  },
+  {
+    "name" : "Platform",
+    "source-url" : "https://github.com/7ojo/perl6-platform.git",
+    "perl" : "6",
+    "auth" : "github:7ojo",
+    "depends" : [
+      "Text::Wrap",
+      "YAMLish",
+      "JSON::Tiny"
+    ],
+    "provides" : {
+      "Platform::Docker::Proxy" : "lib/Platform/Docker/Proxy.pm6",
+      "Platform::Container" : "lib/Platform/Container.pm6",
+      "Platform::Docker::Container" : "lib/Platform/Docker/Container.pm6",
+      "Platform" : "lib/Platform.pm6",
+      "Platform::Docker::DNS" : "lib/Platform/Docker/DNS.pm6",
+      "Platform::Project" : "lib/Platform/Project.pm6"
+    },
+    "tags" : [
+      "Platform",
+      "Docker",
+      "Tool",
+      "Development"
+    ],
+    "version" : "0.0.1",
+    "authors" : [
+      "Jarkko Haapalainen <jarkko@viidakko.fi>"
+    ],
+    "description" : "Tool for managing and running single projects or tightly coupled projects via Docker environment"
   }
 ]
