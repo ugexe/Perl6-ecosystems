@@ -15809,7 +15809,8 @@
     "perl" : "6.c",
     "emulates" : { },
     "support" : {
-      "source" : "https://github.com/gfldex/perl6-proc-async-timeout.git"
+      "source" : "https://github.com/gfldex/perl6-proc-async-timeout.git",
+      "bugtracker" : "https://github.com/gfldex/perl6-proc-async-timeout/issues"
     },
     "build-depends" : [ ],
     "resources" : [ ],
@@ -15819,14 +15820,19 @@
     "depends" : [
       "Test::META"
     ],
-    "provides" : { },
+    "provides" : {
+      "Proc::Async::Timeout" : "lib/Proc/Async/Timeout.pm6"
+    },
     "test-depends" : [ ],
     "license" : "Artistic 2.0",
-    "tags" : [ ],
-    "version" : "0.0.1",
+    "tags" : [
+      "ASYNC",
+      "PROMISE"
+    ],
+    "version" : "0.0.2",
     "production" : false,
     "meta6" : "0",
-    "description" : "",
+    "description" : "Run a command asynchronos with a timeout.",
     "authors" : [
       "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
     ],
