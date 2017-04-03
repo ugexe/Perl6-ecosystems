@@ -6532,21 +6532,6 @@
     ]
   },
   {
-    "name" : "ANTLR4",
-    "source-url" : "git://github.com/drforr/perl6-ANTLR4.git",
-    "perl" : "6.*",
-    "provides" : {
-      "ANTLR4::Actions::AST" : "lib/ANTLR4/Actions/AST.pm",
-      "ANTLR4::Actions::Perl6" : "lib/ANTLR4/Actions/Perl6.pm",
-      "ANTLR4::Grammar" : "lib/ANTLR4/Grammar.pm"
-    },
-    "test-depends" : [
-      "JSON::Tiny"
-    ],
-    "version" : "*",
-    "description" : "ANTLR4 to Perl6 conversion tool"
-  },
-  {
     "name" : "Marpa",
     "source-url" : "git://github.com/drforr/perl6-Marpa.git",
     "perl" : "6.*",
