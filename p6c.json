@@ -15886,5 +15886,28 @@
       "Jarkko Haapalainen <jarkko@viidakko.fi>"
     ],
     "description" : "Tool for managing and running single projects or tightly coupled projects via Docker environment"
+  },
+  {
+    "name" : "Failer",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Failer.git"
+    },
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "Failer" : "lib/Failer.pm6"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "Failure"
+    ],
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Handle Failures like a Pro"
   }
 ]
