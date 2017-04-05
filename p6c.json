@@ -8954,7 +8954,7 @@
     "test-depends" : [
       "Test"
     ],
-    "version" : "1.002002",
+    "version" : "1.002003",
     "authors" : [
       "Zoffix Znet"
     ],
@@ -15873,6 +15873,7 @@
     "provides" : {
       "Platform::Docker::Proxy" : "lib/Platform/Docker/Proxy.pm6",
       "Platform::Container" : "lib/Platform/Container.pm6",
+      "Platform::Environment" : "lib/Platform/Environment.pm6",
       "Platform::Docker::Container" : "lib/Platform/Docker/Container.pm6",
       "Platform" : "lib/Platform.pm6",
       "Platform::Docker::DNS" : "lib/Platform/Docker/DNS.pm6",
@@ -15884,7 +15885,7 @@
       "Tool",
       "Development"
     ],
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "authors" : [
       "Jarkko Haapalainen <jarkko@viidakko.fi>"
     ],
