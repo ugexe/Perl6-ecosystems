@@ -15292,6 +15292,9 @@
       "Test::META",
       "Git::Config"
     ],
+    "provides" : {
+      "META6::bin" : "lib/META6/bin.pm6"
+    },
     "version" : "0.3.0",
     "authors" : [
       "Wenzel P. P. Peppmeyer"
