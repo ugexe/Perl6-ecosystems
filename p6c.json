@@ -15942,5 +15942,37 @@
       "Zoffix Znet"
     ],
     "description" : "Handle Failures like a Pro"
+  },
+  {
+    "name" : "Sparrowdo::Rvm",
+    "emulates" : { },
+    "perl" : "6.c",
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "https://github.com/melezhik/perl6-sparrowdo-rvm.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "superseded-by" : { },
+    "auth" : "github:melezhik",
+    "excludes" : { },
+    "depends" : [
+      "Test::META",
+      "Sparrowdo"
+    ],
+    "test-depends" : [ ],
+    "license" : "Artistic 2.0",
+    "tags" : [ ],
+    "provides" : {
+      "Sparrowdo::Rvm" : "lib/Sparrowdo/Rvm.pm6"
+    },
+    "version" : "0.0.1",
+    "production" : false,
+    "authors" : [
+      "'Alexey Melezhik' <melezhik@gmail.com>"
+    ],
+    "supersedes" : { },
+    "meta6" : "0",
+    "description" : "Install RVM and Ruby"
   }
 ]
