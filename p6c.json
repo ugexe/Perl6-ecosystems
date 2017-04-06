@@ -449,6 +449,7 @@
   {
     "name" : "BioInfo",
     "source-url" : "git://github.com/MattOates/BioInfo.git",
+    "perl" : "6.c",
     "source-type" : "git",
     "author" : "Matt Oates",
     "depends" : [
@@ -470,6 +471,14 @@
       "BioInfo::Seq" : "lib/BioInfo/Seq.pm6",
       "BioInfo::IO::FileParser" : "lib/BioInfo/IO/FileParser.pm6"
     },
+    "tags" : [
+      "Bio",
+      "Biology",
+      "Science",
+      "Bioinformatics",
+      "Slang",
+      "Parser"
+    ],
     "version" : "0.4.3",
     "description" : "Bioinformatics modules written specifically for a Perl6 generation."
   },
@@ -3028,24 +3037,37 @@
   {
     "name" : "Text::Emotion",
     "source-url" : "git://github.com/MattOates/Text--Emotion.git",
+    "perl" : "6.c",
     "source-type" : "git",
     "author" : "Matt Oates",
     "depends" : [ ],
     "provides" : {
       "Text::Emotion::Scorer" : "lib/Text/Emotion/Scorer.pm"
     },
+    "tags" : [
+      "Text",
+      "Sentiment",
+      "NLP"
+    ],
     "version" : "0.0.5",
     "description" : "Get an emotional score for a passage of text based on its word use."
   },
   {
     "name" : "Text::Homoglyph",
     "source-url" : "git://github.com/MattOates/Text--Homoglyph.git",
+    "perl" : "6.c",
     "source-type" : "git",
     "author" : "Matt Oates",
     "depends" : [ ],
     "provides" : {
       "Text::Homoglyph" : "lib/Text/Homoglyph.pm"
     },
+    "tags" : [
+      "Text",
+      "Hacker",
+      "Joke",
+      "Unicode"
+    ],
     "version" : "0.0.1",
     "description" : "Map ASCII to unicode homoglyphs."
   },
@@ -4602,12 +4624,19 @@
   {
     "name" : "Stats",
     "source-url" : "git://github.com/MattOates/Stats.git",
+    "perl" : "6.c",
     "source-type" : "git",
     "author" : "Matt Oates",
     "depends" : [ ],
     "provides" : {
       "Stats" : "lib/Stats.pm6"
     },
+    "tags" : [
+      "Stats",
+      "Statistics",
+      "Maths",
+      "Math"
+    ],
     "version" : "0.0.4",
     "description" : "Basic statistics modules for Perl6."
   },
