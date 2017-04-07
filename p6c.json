@@ -4015,6 +4015,19 @@
     "description" : "Guess the number of syllables in an English word"
   },
   {
+    "name" : "App::Uni",
+    "source-url" : "git://github.com/coke/p6-uni.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [ ],
+    "provides" : { },
+    "version" : "0.9.0",
+    "authors" : [
+      "Will 'Coke' Coleda"
+    ],
+    "description" : "command-line utility to find or display Unicode characters"
+  },
+  {
     "name" : "File::HomeDir",
     "source-url" : "git://github.com/azawawi/perl6-file-homedir.git",
     "perl" : "6.c",
