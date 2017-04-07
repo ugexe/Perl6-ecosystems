@@ -13622,7 +13622,9 @@
     },
     "perl" : "6.c",
     "source-type" : "git",
-    "depends" : [ ],
+    "depends" : [
+      "Test::META"
+    ],
     "provides" : {
       "Rakudo::Slippy::Semilist" : "lib/Rakudo/Slippy/Semilist.pm6"
     },
