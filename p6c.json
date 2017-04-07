@@ -13620,15 +13620,18 @@
     "support" : {
       "source" : "https://github.com/gfldex/gfldex/perl6-rakudo-slippy-semilists"
     },
+    "perl" : "6.c",
     "source-type" : "git",
-    "author" : "Wenzel P. P. Peppmeyer",
     "depends" : [ ],
     "provides" : {
       "Rakudo::Slippy::Semilist" : "lib/Rakudo/Slippy/Semilist.pm6"
     },
     "license" : "https://opensource.org/licenses/Artistic-2.0",
     "version" : "0.0.1",
-    "description" : "Implement postcircumfix:<{|| }> to allow coercion of Array to semilist."
+    "description" : "Implement postcircumfix:<{|| }> to allow coercion of Array to semilist.",
+    "authors" : [
+      "Wenzel P. P. Peppmeyer"
+    ]
   },
   {
     "name" : "Texas::To::Uni",
