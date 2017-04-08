@@ -4020,8 +4020,10 @@
     "perl" : "6.c",
     "resources" : [ ],
     "depends" : [ ],
-    "provides" : { },
-    "version" : "0.9.0",
+    "provides" : {
+      "App::Uni" : "lib/App/Uni.pm"
+    },
+    "version" : "0.9.2",
     "authors" : [
       "Will 'Coke' Coleda"
     ],
