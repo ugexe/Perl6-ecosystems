@@ -13373,8 +13373,10 @@
     "source-url" : "https://gitlab.com/samcns/uzu.git",
     "perl" : "6.*",
     "author" : "Sam Morrison <sam@linux.com>",
+    "auth" : "gitlab:samcns",
     "depends" : [
       "File::Find",
+      "File::Temp",
       "JSON::Tiny",
       "Terminal::ANSIColor",
       "Template6",
@@ -13390,7 +13392,7 @@
     "provides" : {
       "Uzu" : "lib/Uzu.pm6"
     },
-    "version" : "0.1.3",
+    "version" : "0.1.4",
     "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, and multi-page support."
   },
   {
