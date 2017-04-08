@@ -401,7 +401,7 @@
   {
     "name" : "BioPerl6",
     "source-url" : "git://github.com/cjfields/bioperl6.git",
-    "perl" : "6.*",
+    "perl" : "6.c",
     "source-type" : "git",
     "depends" : [
       "File::Temp"
@@ -442,6 +442,13 @@
       "Bio::Tools::FTLocationParser" : "lib/Bio/Tools/FTLocationParser.pm6",
       "Bio::Role::Aliased" : "lib/Bio/Role/Aliased.pm6"
     },
+    "tags" : [
+      "Bio",
+      "Biology",
+      "Science",
+      "Bioinformatics",
+      "Grammar"
+    ],
     "version" : "0.0.1",
     "authors" : "git:cjfields",
     "description" : "Collection of Bioinformatics classes, roles, and modules"
