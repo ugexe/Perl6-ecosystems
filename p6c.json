@@ -15997,5 +15997,36 @@
     "supersedes" : { },
     "meta6" : "0",
     "description" : "Install RVM and Ruby"
+  },
+  {
+    "name" : "Slippy::Semilist",
+    "perl" : "6.c",
+    "emulates" : { },
+    "support" : {
+      "source" : "https://github.com/gfldex/perl6-slippy-semilist"
+    },
+    "source-url" : "https://github.com/gfldex/perl6-slippy-semilist.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "superseded-by" : { },
+    "excludes" : { },
+    "auth" : "github:gfldex",
+    "depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Slippy::Semilist" : "lib/Slippy/Semilist.pm6"
+    },
+    "test-depends" : [ ],
+    "license" : "Artistic 2.0",
+    "tags" : [ ],
+    "version" : "0.0.1",
+    "production" : true,
+    "meta6" : "0",
+    "description" : "Implement postcircumfix:<{|| }> to allow slipping Array as a multidim Hash key.",
+    "authors" : [
+      "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
+    ],
+    "supersedes" : { }
   }
 ]
