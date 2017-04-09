@@ -15320,8 +15320,17 @@
   },
   {
     "name" : "META6::bin",
-    "source-url" : "https://github.com/gfldex/perl6-meta6-bin.git",
     "perl" : "6.c",
+    "emulates" : { },
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "https://github.com/gfldex/perl6-meta6-bin.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "superseded-by" : { },
+    "excludes" : { },
+    "auth" : "github:gfldex",
     "depends" : [
       "META6",
       "HTTP::Client",
@@ -15329,16 +15338,22 @@
       "JSON::Tiny",
       "Test::META",
       "Git::Config",
-      "Slippy::Semilist"
+      "Slippy::Semilist",
+      "MIME::Base64"
     ],
     "provides" : {
       "META6::bin" : "lib/META6/bin.pm6"
     },
+    "test-depends" : [ ],
+    "license" : "Artistic 2.0",
+    "tags" : [ ],
     "version" : "0.6.1",
+    "meta6" : "0",
+    "description" : "Provide a binary to work with META6.json-files.",
     "authors" : [
       "Wenzel P. P. Peppmeyer"
     ],
-    "description" : "Provide a binary to work with META6.json-files."
+    "supersedes" : { }
   },
   {
     "name" : "Algorithm::LibSVM",
