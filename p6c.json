@@ -16062,5 +16062,41 @@
       "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
     ],
     "supersedes" : { }
+  },
+  {
+    "name" : "GraphQL",
+    "support" : {
+      "source" : "git://github.com/CurtTilmes/Perl6-GraphQL.git",
+      "bugtracker" : "https://github.com/CurtTilmes/Perl6-GraphQL/issues"
+    },
+    "perl" : "6.c",
+    "source-url" : "git://github.com/CurtTilmes/Perl6-GraphQL.git",
+    "depends" : [
+      "JSON::Fast",
+      "Text::Wrap",
+      "Bailador"
+    ],
+    "license" : "NASA",
+    "test-depends" : [
+      "Test"
+    ],
+    "provides" : {
+      "GraphQL::Actions" : "lib/GraphQL/Actions.pm",
+      "GraphQL::Introspection" : "lib/GraphQL/Introspection.pm",
+      "GraphQL" : "lib/GraphQL.pm",
+      "GraphQL::Compare" : "lib/GraphQL/Compare.pm",
+      "GraphQL::Execution" : "lib/GraphQL/Execution.pm",
+      "GraphQL::Response" : "lib/GraphQL/Response.pm",
+      "GraphQL::Grammar" : "lib/GraphQL/Grammar.pm",
+      "GraphQL::Types" : "lib/GraphQL/Types.pm",
+      "GraphQL::Validation" : "lib/GraphQL/Validation.pm",
+      "GraphQL::Server" : "lib/GraphQL/Server.pm",
+      "GraphQL::GraphiQL" : "lib/GraphQL/GraphiQL.pm"
+    },
+    "version" : "0.5",
+    "authors" : [
+      "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+    ],
+    "description" : "Perl6 implementation of GraphQL"
   }
 ]
