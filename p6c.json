@@ -13390,8 +13390,7 @@
       "IO::Notification::Recursive",
       "Bailador",
       "HTTP::Tinyish",
-      "YAMLish",
-      "Term::termios"
+      "YAMLish"
     ],
     "test-depends" : [
       "Test::Output"
@@ -13399,7 +13398,7 @@
     "provides" : {
       "Uzu" : "lib/Uzu.pm6"
     },
-    "version" : "0.1.5",
+    "version" : "0.1.6",
     "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, and multi-page support."
   },
   {
