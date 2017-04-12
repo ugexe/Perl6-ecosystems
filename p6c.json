@@ -13174,7 +13174,7 @@
       "Sparrowdo::Core::DSL::Group" : "lib/Sparrowdo/Core/DSL/Group.pm6",
       "Sparrowdo::Core::DSL::Bash" : "lib/Sparrowdo/Core/DSL/Bash.pm6"
     },
-    "version" : "0.0.13",
+    "version" : "0.0.14",
     "authors" : [
       "Alexey Melezhik"
     ],
@@ -16102,5 +16102,37 @@
       "Curt Tilmes <Curt.Tilmes@nasa.gov>"
     ],
     "description" : "Perl6 implementation of GraphQL"
+  },
+  {
+    "name" : "Sparrowdo::Rakudo",
+    "emulates" : { },
+    "perl" : "6.c",
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "https://github.com/melezhik/perl6-sparrowdo-rakudo.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "superseded-by" : { },
+    "auth" : "github:melezhik",
+    "excludes" : { },
+    "depends" : [
+      "Test::META",
+      "Sparrowdo"
+    ],
+    "test-depends" : [ ],
+    "license" : "Artistic 2.0",
+    "tags" : [ ],
+    "provides" : {
+      "Sparrowdo::Rakudo" : "lib/Sparrowdo/Rakudo.pm6"
+    },
+    "version" : "0.0.1",
+    "production" : false,
+    "authors" : [
+      "'Alexey Melezhik' <melezhik@gmail.com>"
+    ],
+    "supersedes" : { },
+    "meta6" : "0",
+    "description" : "Install Rakudo as system package"
   }
 ]
