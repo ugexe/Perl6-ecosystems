@@ -751,7 +751,7 @@
       "XML::PI" : "lib/XML/PI.pm6",
       "XML::Text" : "lib/XML/Text.pm6"
     },
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "description" : "A full-featured, pure-perl XML library (parsing, manipulation, emitting, queries, etc.)"
   },
   {
@@ -14554,6 +14554,34 @@
     "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
     "authors" : [
       "titsuki"
+    ]
+  },
+  {
+    "name" : "Pod::Render",
+    "source-url" : "git://github.com/MARTIMM/pod-render.git",
+    "perl" : "6.c",
+    "resources" : [
+      "pod6.css",
+      "google-code-prettify/desert.css",
+      "google-code-prettify/doxy.css",
+      "google-code-prettify/prettify.css",
+      "google-code-prettify/sons-of-obsidian.css",
+      "google-code-prettify/sunburst.css",
+      "google-code-prettify/prettify.js",
+      "google-code-prettify/run_prettify.js"
+    ],
+    "depends" : [
+      "Pod::To::HTML",
+      "Pod::To::Markdown"
+    ],
+    "provides" : {
+      "Pod::Render" : "lib/Pod/Render.pm6"
+    },
+    "license" : "The Artistic License 2.0",
+    "version" : "v0.7.1",
+    "description" : "Render pod docs to html, pdf or md",
+    "authors" : [
+      "Marcel Timmerman"
     ]
   },
   {
