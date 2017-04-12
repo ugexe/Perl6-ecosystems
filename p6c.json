@@ -15955,7 +15955,8 @@
     "depends" : [
       "Text::Wrap",
       "YAMLish",
-      "JSON::Tiny"
+      "JSON::Tiny",
+      "Terminal::ANSIColor"
     ],
     "provides" : {
       "Platform::Docker::Proxy" : "lib/Platform/Docker/Proxy.pm6",
@@ -15972,11 +15973,11 @@
       "Tool",
       "Development"
     ],
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "authors" : [
       "Jarkko Haapalainen <jarkko@viidakko.fi>"
     ],
-    "description" : "Tool for managing and running single projects or tightly coupled projects via Docker environment"
+    "description" : "Tool for making development environments with docker"
   },
   {
     "name" : "Failer",
