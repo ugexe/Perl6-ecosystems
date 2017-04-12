@@ -16146,5 +16146,22 @@
     },
     "version" : "0.0.1",
     "description" : "Perl 6 interface to NCurses6, the text-based interface libary"
+  },
+  {
+    "name" : "IO::Socket::Async::SSL",
+    "source-url" : "https://github.com/jnthn/p6-io-socket-async-ssl.git",
+    "perl" : "6.*",
+    "depends" : [
+      "OpenSSL",
+      "Test::META"
+    ],
+    "provides" : {
+      "IO::Socket::Async::SSL" : "lib/IO/Socket/Async/SSL.pm6"
+    },
+    "version" : "0.1",
+    "authors" : [
+      "Jonathan Worthington <jnthn@jnthn.net>"
+    ],
+    "description" : "Provides an API like IO::Socket::Async, but with SSL support."
   }
 ]
