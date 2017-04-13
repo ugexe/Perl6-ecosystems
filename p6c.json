@@ -8370,24 +8370,6 @@
     ]
   },
   {
-    "name" : "Net::FTP",
-    "source-url" : "git://github.com/araraloren/Net-FTP.git",
-    "author" : "loren",
-    "depends" : [ ],
-    "provides" : {
-      "Net::FTP::Format" : "lib/Net/FTP/Format.pm6",
-      "Net::FTP::Conn" : "lib/Net/FTP/Conn.pm6",
-      "Net::FTP::Buffer" : "lib/Net/FTP/Buffer.pm6",
-      "Net::FTP::Control" : "lib/Net/FTP/Control.pm6",
-      "Net::FTP::System" : "lib/Net/FTP/System.pm6",
-      "Net::FTP" : "lib/Net/FTP.pm6",
-      "Net::FTP::Config" : "lib/Net/FTP/Config.pm6",
-      "Net::FTP::Transfer" : "lib/Net/FTP/Transfer.pm6"
-    },
-    "version" : "0.6.0",
-    "description" : "A ftp client written in perl6"
-  },
-  {
     "name" : "Algorithm::Trie::libdatrie",
     "source-url" : "git://github.com/zengargoyle/p6-Algorithm-Trie-libdatrie.git",
     "perl" : "v6",
