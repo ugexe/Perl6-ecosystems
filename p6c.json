@@ -6681,7 +6681,7 @@
     "provides" : {
       "Data::Dump" : "lib/Data/Dump.pm6"
     },
-    "version" : "v0.0.2",
+    "version" : "v0.0.3",
     "description" : "a colorful? data dumper for perl6"
   },
   {
@@ -7260,7 +7260,7 @@
     "provides" : {
       "Green" : "lib/Green.pm6"
     },
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "authors" : [
       "Tony O"
     ],
@@ -11514,7 +11514,7 @@
       "Flow::Config" : "lib/Flow/Config.pm6",
       "Flow" : "lib/Flow.pm6"
     },
-    "version" : "v0.0.1",
+    "version" : "v0.0.2",
     "authors" : [
       "Tony O'Dell"
     ],
@@ -16163,5 +16163,37 @@
     ],
     "version" : "0.0.1",
     "description" : "Endian safe Binary Struct packing and unpacking"
+  },
+  {
+    "name" : "Matrix::Client",
+    "source-url" : "https://github.com/matiaslina/perl6-matrix-client.git",
+    "support" : {
+      "source" : "git://github.com/matiaslina/perl6-matrix-client.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "JSON::Tiny",
+      "HTTP::UserAgent",
+      "URI::Encode",
+      "IO::Socket::SSL"
+    ],
+    "provides" : {
+      "Matrix::Client::Common" : "lib/Matrix/Client/Common.pm6",
+      "Matrix::Client" : "lib/Matrix/Client.pm6",
+      "Matrix::Client::Requester" : "lib/Matrix/Client/Requester.pm6",
+      "Matrix::Client::Room" : "lib/Matrix/Client/Room.pm6"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "Net",
+      "Matrix"
+    ],
+    "version" : "0.1.0",
+    "authors" : [
+      "Matias Linares"
+    ],
+    "description" : "Matrix client for Perl 6"
   }
 ]
