@@ -391,11 +391,13 @@
     "name" : "Test::Mock",
     "source-url" : "git://github.com/jnthn/test-mock.git",
     "perl" : "6.*",
-    "depends" : [ ],
+    "depends" : [
+      "OO::Monitors"
+    ],
     "provides" : {
       "Test::Mock" : "lib/Test/Mock.pm"
     },
-    "version" : "1.3",
+    "version" : "1.4",
     "description" : "Creation of stub objects using the Arrange, Act, Assert pattern."
   },
   {
