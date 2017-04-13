@@ -16145,5 +16145,23 @@
       "Jonathan Worthington <jnthn@jnthn.net>"
     ],
     "description" : "Provides an API like IO::Socket::Async, but with SSL support."
+  },
+  {
+    "name" : "Native::Packing",
+    "source-url" : "git://github.com/p6-pdf/perl6-Native-Packing.git",
+    "perl" : "6.c",
+    "auth" : "github:p6-pdf",
+    "depends" : [ ],
+    "provides" : {
+      "Native::Packing" : "lib/Native/Packing.pm"
+    },
+    "tags" : [
+      "binary",
+      "endian",
+      "native",
+      "struct"
+    ],
+    "version" : "0.0.1",
+    "description" : "Endian safe Binary Struct packing and unpacking"
   }
 ]
