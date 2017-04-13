@@ -6500,15 +6500,34 @@
   },
   {
     "name" : "Hash::MultiValue",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/zostay/p6-Hash-MultiValue.git"
+    },
     "source-url" : "git://github.com/zostay/p6-Hash-MultiValue.git",
-    "perl" : "6.*",
     "author" : "Andrew Sterling Hanenkamp",
+    "build-depends" : [ ],
+    "auth" : "github:zostay",
     "depends" : [ ],
     "provides" : {
       "Hash::MultiValue" : "lib/Hash/MultiValue.pm6"
     },
-    "version" : "0.1",
-    "description" : "Store multiple values per key, but act like a regular hash"
+    "license" : "Artistic",
+    "tags" : [
+      "hash",
+      "data structure",
+      "array"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "version" : "0.2",
+    "meta6" : "0",
+    "description" : "Store multiple values per key, but act like a regular hash",
+    "authors" : [
+      "Sterling Hanenkamp <hanenkap@cpan.org>"
+    ]
   },
   {
     "name" : "Editsrc::Uggedit",
