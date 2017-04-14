@@ -16157,17 +16157,6 @@
     "description" : "Install Rakudo as system package"
   },
   {
-    "name" : "NCurses6",
-    "source-url" : "git://github.com/blippy/perl6-ncurses6.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "NCurses6" : "lib/NCurses6.pm6"
-    },
-    "version" : "0.0.1",
-    "description" : "Perl 6 interface to NCurses6, the text-based interface libary"
-  },
-  {
     "name" : "IO::Socket::Async::SSL",
     "source-url" : "https://github.com/jnthn/p6-io-socket-async-ssl.git",
     "perl" : "6.*",
