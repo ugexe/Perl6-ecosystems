@@ -3161,11 +3161,17 @@
     "name" : "NCurses",
     "source-url" : "git://github.com/azawawi/perl6-ncurses.git",
     "perl" : "6.c",
-    "depends" : [ ],
+    "auth" : "github:azawawi",
     "provides" : {
       "NCurses" : "lib/NCurses.pm6"
     },
-    "version" : "*",
+    "test-depends" : [
+      "LibraryCheck"
+    ],
+    "version" : "0.0.1",
+    "authors" : [
+      "Ahmad M. Zawawi"
+    ],
     "description" : "Perl 6 interface to NCurses, the text-based interface libary"
   },
   {
@@ -6522,7 +6528,7 @@
       "Test",
       "Test::META"
     ],
-    "version" : "0.2",
+    "version" : "0.3",
     "meta6" : "0",
     "description" : "Store multiple values per key, but act like a regular hash",
     "authors" : [
