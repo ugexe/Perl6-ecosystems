@@ -3162,17 +3162,19 @@
     "source-url" : "git://github.com/azawawi/perl6-ncurses.git",
     "perl" : "6.c",
     "auth" : "github:azawawi",
+    "repo-type" : "git",
+    "test-depends" : [
+      "LibraryCheck",
+      "Test"
+    ],
     "provides" : {
       "NCurses" : "lib/NCurses.pm6"
     },
-    "test-depends" : [
-      "LibraryCheck"
-    ],
     "version" : "0.0.1",
+    "description" : "Perl 6 interface to NCurses, the text-based interface library",
     "authors" : [
       "Ahmad M. Zawawi"
-    ],
-    "description" : "Perl 6 interface to NCurses, the text-based interface libary"
+    ]
   },
   {
     "name" : "Net::Curl",
