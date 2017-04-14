@@ -16202,6 +16202,44 @@
     "description" : "Endian safe Binary Struct packing and unpacking"
   },
   {
+    "name" : "Log::Any",
+    "source-url" : "git://github.com/jsimonet/log-any.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [ ],
+    "license" : "Artistic-2.0",
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "provides" : {
+      "Log::Any::Adapter::File" : "lib/Log/Any/Adapter/File.pm6",
+      "Log::Any::Pipeline" : "lib/Log/Any/Pipeline.pm6",
+      "Log::Any" : "lib/Log/Any.pm6",
+      "Log::Any::Filter" : "lib/Log/Any/Filter.pm6",
+      "Log::Any::Definitions" : "lib/Log/Any/Definitions.pm6",
+      "Log::Any::Adapter" : "lib/Log/Any/Adapter.pm6",
+      "Log::Any::Adapter::Stderr" : "lib/Log/Any/Adapter/Stderr.pm6",
+      "Log::Any::Formatter" : "lib/Log/Any/Filter.pm6",
+      "Log::Any::Adapter::BlackHole" : "lib/Log/Any/Adapter.pm6",
+      "Log::Any::FormatterBuiltIN" : "lib/Log/Any/Filter.pm6",
+      "Log::Any::FilterBuiltIN" : "lib/Log/Any/Filter.pm6",
+      "Log::Any::Adapter::Stdout" : "lib/Log/Any/Adapter/Stdout.pm6"
+    },
+    "tags" : [
+      "log",
+      "logging",
+      "logger",
+      "async",
+      "asynchronous"
+    ],
+    "version" : "0.9.0",
+    "authors" : [
+      "Julien Simonet"
+    ],
+    "description" : "Generate and handle logs with pipelines, filters and formatters."
+  },
+  {
     "name" : "Matrix::Client",
     "source-url" : "https://github.com/matiaslina/perl6-matrix-client.git",
     "support" : {
