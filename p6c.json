@@ -16271,5 +16271,37 @@
       "Matias Linares"
     ],
     "description" : "Matrix client for Perl 6"
+  },
+  {
+    "name" : "MessagePack::Class",
+    "perl" : "6.c",
+    "support" : {
+      "email" : "jns+gh@gellyfish.co.uk",
+      "source" : "https://github.com/jonathanstowe/MessagePack-Class.git",
+      "bugtracker" : "https://github.com/jonathanstowe/MessagePack-Class/issues"
+    },
+    "source-url" : "https://github.com/jonathanstowe/MessagePack-Class.git",
+    "build-depends" : [ ],
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "Data::MessagePack"
+    ],
+    "provides" : {
+      "MessagePack::Class" : "lib/MessagePack/Class.pm"
+    },
+    "test-depends" : [ ],
+    "license" : "perl",
+    "tags" : [
+      "messagepack",
+      "message",
+      "serialization",
+      "data"
+    ],
+    "version" : "0.0.1",
+    "meta6" : "0",
+    "description" : "Serialize/Deserialize Perl 6 classes to/from MessagePack blobs",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
