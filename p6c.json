@@ -15771,6 +15771,7 @@
       "src/core-subs.spt",
       "src/os.spt",
       "src/Regex.spt",
+      "src/PID.spt",
       "core-lib/Test.spt"
     ],
     "depends" : [
@@ -15788,6 +15789,7 @@
       "Spit::Util" : "lib/Spit/Util.pm6",
       "Spit::Constants" : "lib/Spit/Constants.pm6",
       "Spit::Parser::Grammar" : "lib/Spit/Parser/Grammar.pm6",
+      "Spit::Parser::Regex" : "lib/Spit/Parser/Regex.pm6",
       "Spit::SpitDoc" : "lib/Spit/SpitDoc.pm6",
       "Spit::Sh::ShellElement" : "lib/Spit/Sh/ShellElement.pm6",
       "Spit::Parser::Quote" : "lib/Spit/Parser/Quote.pm6",
@@ -15795,12 +15797,11 @@
       "Spit::Repo" : "lib/Spit/Repo.pm6",
       "Spit::OptsParser" : "lib/Spit/OptsParser.pm6",
       "Spit::Compile" : "lib/Spit/Compile.pm6",
-      "Spit::Parser::P5Regex" : "lib/Spit/Parser/P5Regex.pm6",
       "Spit::Sh::Compiler" : "lib/Spit/Sh/Compiler.pm6",
       "Spit::Doc::Markdown" : "lib/Spit/Doc/Markdown.pm6",
       "Spit::PRECOMP" : "lib/Spit/PRECOMP.pm6"
     },
-    "version" : "0.0.17",
+    "version" : "0.0.18",
     "authors" : [
       "Lloyd Fournier lloyd.fourn@gmail.com"
     ],
