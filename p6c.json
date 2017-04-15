@@ -9908,6 +9908,10 @@
     "perl" : "6",
     "auth" : "github:ugexe",
     "depends" : [ ],
+    "tags" : [
+      "paths",
+      "tempfile"
+    ],
     "provides" : {
       "PathTools" : "lib/PathTools.pm6"
     },
@@ -10007,7 +10011,7 @@
       "Zef::Service::Shell::git" : "lib/Zef/Service/Shell/git.pm6",
       "Zef::Fetch" : "lib/Zef/Fetch.pm6"
     },
-    "version" : "0.1.8",
+    "version" : "0.1.9",
     "authors" : [
       "Nick Logan",
       "Tony O'Dell"
