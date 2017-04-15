@@ -9648,7 +9648,9 @@
     "source-url" : "git://github.com/jonathanstowe/IO-Path-Mode.git",
     "perl" : "6.c",
     "support" : {
-      "source" : "git://github.com/jonathanstowe/IO-Path-Mode.git"
+      "email" : "jns+git@gellyfish.co.uk",
+      "source" : "git://github.com/jonathanstowe/IO-Path-Mode.git",
+      "bugtracker" : "https://github.com/jonathanstowe/IO-Path-Mode/issues"
     },
     "build-depends" : [ ],
     "auth" : "github:jonathanstowe",
@@ -9666,7 +9668,7 @@
       "mode",
       "utility"
     ],
-    "version" : "0.0.5",
+    "version" : "0.0.6",
     "description" : "Augment IO::Path with a .mode() method to get the file mode",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
