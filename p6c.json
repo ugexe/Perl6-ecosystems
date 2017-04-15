@@ -5681,11 +5681,12 @@
     "name" : "Linux::Fuser",
     "source-url" : "https://github.com/jonathanstowe/p6-Linux-Fuser.git",
     "support" : {
-      "source" : "https://github.com/jonathanstowe/p6-Linux-Fuser.git"
+      "email" : "jns+git@gellyfish.co.uk",
+      "source" : "https://github.com/jonathanstowe/p6-Linux-Fuser.git",
+      "bugtracker" : "https://github.com/jonathanstowe/p6-Linux-Fuser/issues"
     },
     "perl" : "6.c",
     "build-depends" : [ ],
-    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk",
     "auth" : "github:jonathanstowe",
     "depends" : [
       "System::Passwd"
@@ -5701,7 +5702,7 @@
       "utils",
       "file"
     ],
-    "version" : "0.0.8",
+    "version" : "0.0.9",
     "description" : "Discover which process has a file open, in pure Perl 6",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk"
