@@ -10320,39 +10320,6 @@
     "description" : "A minimalistic dependency system"
   },
   {
-    "name" : "Archive::SimpleZip",
-    "support" : {
-      "source" : "git://github.com/pmqs/Archive-SimpleZip.git"
-    },
-    "source-url" : "git://github.com/pmqs/Archive-SimpleZip.git",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "depends" : [
-      "Compress::Zlib::Raw",
-      "Compress::Zlib",
-      "Compress::Bzip2",
-      "CompUnit::Util",
-      "IO::Blob"
-    ],
-    "license" : "Artistic",
-    "test-depends" : [
-      "Test",
-      "Test::META",
-      "File::Temp",
-      "File::Which"
-    ],
-    "provides" : {
-      "Archive::SimpleZip::Utils" : "lib/Archive/SimpleZip/Utils.pm6",
-      "Archive::SimpleZip::Headers" : "lib/Archive/SimpleZip/Headers.pm6",
-      "Archive::SimpleZip" : "lib/Archive/SimpleZip.pm6"
-    },
-    "version" : "0.1.1",
-    "authors" : [
-      "Paul Marquess <pmqs@cpan.org"
-    ],
-    "description" : "Write Zip Files."
-  },
-  {
     "name" : "Tinky",
     "source-url" : "git://github.com/jonathanstowe/Tinky.git",
     "perl" : "6.c",
