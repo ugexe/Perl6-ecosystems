@@ -14666,12 +14666,15 @@
   },
   {
     "name" : "URL::Find",
-    "support" : {
-      "source" : "git://github.com/samcv/URL-Find.git",
-      "bugtracker" : "https://github.com/samcv/URL-Find/issues"
-    },
     "source-url" : "git://github.com/samcv/URL-Find.git",
     "perl" : "6",
+    "resources" : {
+      "license" : "http://www.perlfoundation.org/artistic_license_2_0"
+    },
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
     "provides" : {
       "URL::Find" : "lib/URL/Find.pm6"
     },
