@@ -524,22 +524,6 @@
     ]
   },
   {
-    "name" : "Config::DataLang::Refine",
-    "source-url" : "git://github.com/MARTIMM/config-datalang-refine.git",
-    "perl" : "6.c",
-    "depends" : [
-      "Config::TOML",
-      "JSON::Fast"
-    ],
-    "provides" : {
-      "Config::DataLang::Refine" : "lib/Config/DataLang/Refine.pm6"
-    },
-    "license" : "The Artistic License 2.0",
-    "version" : "0.6.2.3",
-    "description" : "Refinements on use of configurations loaded with parsers such as found in Config::TOML",
-    "authors" : "Marcel Timmerman"
-  },
-  {
     "name" : "IO::Capture::Simple",
     "source-url" : "git://github.com/sergot/IO-Capture-Simple.git",
     "perl" : "6.*",
