@@ -947,6 +947,43 @@
     "description" : "A flexible HTTP Client library"
   },
   {
+    "name" : "Task::Star",
+    "source-url" : "git://github.com/tadzik/Task-Star.git",
+    "perl" : "6.*",
+    "depends" : [
+      "Debugger::UI::CommandLine",
+      "ufo",
+      "XML::Writer",
+      "SVG",
+      "SVG::Plot",
+      "Terminal::ANSIColor",
+      "Test::Mock",
+      "Grammar::Profiler::Simple",
+      "Grammar::Debugger",
+      "JSON::Tiny",
+      "Digest::MD5",
+      "panda",
+      "HTTP::Status",
+      "HTTP::Easy",
+      "Template::Mojo",
+      "DBIish",
+      "URI",
+      "Linenoise",
+      "LWP::Simple",
+      "JSON::RPC",
+      "Pod::To::HTML",
+      "p6doc",
+      "MIME::Base64",
+      "PSGI",
+      "Shell::Command",
+      "File::Find",
+      "Test::META"
+    ],
+    "provides" : { },
+    "version" : "*",
+    "description" : "Meta-package for modules included in Rakudo Star"
+  },
+  {
     "name" : "Flower",
     "source-url" : "git://github.com/supernovus/flower.git",
     "perl" : "6.*",
@@ -13352,13 +13389,18 @@
       "URI::Escape"
     ],
     "provides" : {
+      "RT::REST::Client::Grammar" : "lib/RT/REST/Client/Grammar.pm6",
+      "RT::REST::Client::Grammar::Actions::Tickets" : "lib/RT/REST/Client/Grammar/Actions.pm6",
+      "RT::REST::Client::Grammar::Actions" : "lib/RT/REST/Client/Grammar/Actions.pm6",
+      "RT::REST::Client::Grammar::Tickets" : "lib/RT/REST/Client/Grammar.pm6",
+      "RT::REST::Client::Ticket" : "lib/RT/REST/Client/Grammar/Actions.pm6",
       "RT::REST::Client" : "lib/RT/REST/Client.pm6"
     },
     "test-depends" : [
       "Test",
       "Test::META"
     ],
-    "version" : "1.001002",
+    "version" : "1.001003",
     "authors" : [
       "Zoffix Znet"
     ],
