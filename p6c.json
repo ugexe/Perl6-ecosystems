@@ -16260,5 +16260,25 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "MinG",
+    "source-url" : "https://github.com/IanTayler/MinG.git",
+    "perl" : "6.c",
+    "resources" : [
+      "template.tex",
+      "espa0.mg",
+      "eng0.mg"
+    ],
+    "depends" : [ ],
+    "provides" : {
+      "MinG" : "lib/MinG.pm6",
+      "MinG::S13::Logic" : "lib/MinG/S13/Logic.pm6",
+      "MinG::From::Text" : "lib/MinG/From/Text.pm6",
+      "MinG::S13" : "lib/MinG/S13.pm6"
+    },
+    "version" : "1.0.0",
+    "authors" : "Ian G. Tayler",
+    "description" : "A small module for working with Stabler's Minimalist Grammars in Perl6."
   }
 ]
