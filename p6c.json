@@ -8440,6 +8440,24 @@
     ]
   },
   {
+    "name" : "Net::FTP",
+    "source-url" : "git://github.com/araraloren/Net-FTP.git",
+    "author" : "loren",
+    "depends" : [ ],
+    "provides" : {
+      "Net::FTP::Format" : "lib/Net/FTP/Format.pm6",
+      "Net::FTP::Conn" : "lib/Net/FTP/Conn.pm6",
+      "Net::FTP::Buffer" : "lib/Net/FTP/Buffer.pm6",
+      "Net::FTP::Control" : "lib/Net/FTP/Control.pm6",
+      "Net::FTP::System" : "lib/Net/FTP/System.pm6",
+      "Net::FTP" : "lib/Net/FTP.pm6",
+      "Net::FTP::Config" : "lib/Net/FTP/Config.pm6",
+      "Net::FTP::Transfer" : "lib/Net/FTP/Transfer.pm6"
+    },
+    "version" : "0.6.1",
+    "description" : "A ftp client written in perl6"
+  },
+  {
     "name" : "Algorithm::Trie::libdatrie",
     "source-url" : "git://github.com/zengargoyle/p6-Algorithm-Trie-libdatrie.git",
     "perl" : "v6",
@@ -10046,6 +10064,7 @@
       "Zef::Service::Shell::git" : "lib/Zef/Service/Shell/git.pm6",
       "Zef::Fetch" : "lib/Zef/Fetch.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.9",
     "authors" : [
       "Nick Logan",
@@ -10350,6 +10369,39 @@
     },
     "version" : "0.0.1",
     "description" : "A minimalistic dependency system"
+  },
+  {
+    "name" : "Archive::SimpleZip",
+    "support" : {
+      "source" : "git://github.com/pmqs/Archive-SimpleZip.git"
+    },
+    "source-url" : "git://github.com/pmqs/Archive-SimpleZip.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "depends" : [
+      "Compress::Zlib::Raw",
+      "Compress::Zlib",
+      "Compress::Bzip2",
+      "CompUnit::Util",
+      "IO::Blob"
+    ],
+    "license" : "Artistic",
+    "test-depends" : [
+      "Test",
+      "Test::META",
+      "File::Temp",
+      "File::Which"
+    ],
+    "provides" : {
+      "Archive::SimpleZip::Utils" : "lib/Archive/SimpleZip/Utils.pm6",
+      "Archive::SimpleZip::Headers" : "lib/Archive/SimpleZip/Headers.pm6",
+      "Archive::SimpleZip" : "lib/Archive/SimpleZip.pm6"
+    },
+    "version" : "0.1.2",
+    "authors" : [
+      "Paul Marquess <pmqs@cpan.org"
+    ],
+    "description" : "Write Zip Files."
   },
   {
     "name" : "Tinky",
@@ -14662,6 +14714,27 @@
     "description" : "simple linear regression",
     "authors" : [
       "Pawe\u0142 Szulc"
+    ]
+  },
+  {
+    "name" : "URL::Find",
+    "source-url" : "git://github.com/samcv/URL-Find.git",
+    "support" : {
+      "bugtracker" : "https://github.com/samcv/URL-Find/issues",
+      "license" : "http://www.perlfoundation.org/artistic_license_2_0"
+    },
+    "perl" : "6",
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "URL::Find" : "lib/URL/Find.pm6"
+    },
+    "version" : "v0.2",
+    "description" : "Find all the URL's in text",
+    "authors" : [
+      "Samantha McVey"
     ]
   },
   {
