@@ -16354,15 +16354,19 @@
       "espa0.mg",
       "eng0.mg"
     ],
+    "auth" : "Ian G. Tayler",
     "depends" : [ ],
     "provides" : {
       "MinG" : "lib/MinG.pm6",
+      "ming-analyser.p6" : "bin/ming-analyser.p6",
       "MinG::S13::Logic" : "lib/MinG/S13/Logic.pm6",
       "MinG::From::Text" : "lib/MinG/From/Text.pm6",
       "MinG::S13" : "lib/MinG/S13.pm6"
     },
-    "version" : "1.0.1",
-    "authors" : "Ian G. Tayler",
+    "version" : "1.1.3",
+    "authors" : [
+      "Ian G. Tayler"
+    ],
     "description" : "A small module for working with Stabler's Minimalist Grammars in Perl6."
   }
 ]
