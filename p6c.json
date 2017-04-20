@@ -3061,12 +3061,12 @@
   {
     "name" : "Text::Homoglyph",
     "source-url" : "git://github.com/MattOates/Text--Homoglyph.git",
-    "perl" : "6.c",
+    "perl" : "6.*",
     "source-type" : "git",
     "author" : "Matt Oates",
     "depends" : [ ],
     "provides" : {
-      "Text::Homoglyph" : "lib/Text/Homoglyph.pm"
+      "Text::Homoglyph" : "lib/Text/Homoglyph.pm6"
     },
     "tags" : [
       "Text",
@@ -3074,7 +3074,7 @@
       "Joke",
       "Unicode"
     ],
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description" : "Map ASCII to unicode homoglyphs."
   },
   {
@@ -4654,25 +4654,6 @@
     },
     "version" : "0.2.1",
     "description" : "such \"foo\" is \"bar\" wow"
-  },
-  {
-    "name" : "Stats",
-    "source-url" : "git://github.com/MattOates/Stats.git",
-    "perl" : "6.c",
-    "source-type" : "git",
-    "author" : "Matt Oates",
-    "depends" : [ ],
-    "provides" : {
-      "Stats" : "lib/Stats.pm6"
-    },
-    "tags" : [
-      "Stats",
-      "Statistics",
-      "Maths",
-      "Math"
-    ],
-    "version" : "0.0.4",
-    "description" : "Basic statistics modules for Perl6."
   },
   {
     "name" : "SP6",
