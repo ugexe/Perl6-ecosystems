@@ -13223,6 +13223,7 @@
       "Terminal::ANSIColor",
       "JSON::Tiny"
     ],
+    "license" : "Artistic-2.0",
     "provides" : {
       "Sparrowdo::Core::DSL::Service" : "lib/Sparrowdo/Core/DSL/Service.pm6",
       "Sparrowdo::Core::DSL::CPAN::Package" : "lib/Sparrowdo/Core/DSL/CPAN/Package.pm6",
@@ -13237,7 +13238,7 @@
       "Sparrowdo::Core::DSL::Group" : "lib/Sparrowdo/Core/DSL/Group.pm6",
       "Sparrowdo::Core::DSL::Bash" : "lib/Sparrowdo/Core/DSL/Bash.pm6"
     },
-    "version" : "0.0.15",
+    "version" : "0.0.17",
     "authors" : [
       "Alexey Melezhik"
     ],
@@ -16010,13 +16011,13 @@
       "Sparrowdo::Archive"
     ],
     "test-depends" : [ ],
-    "license" : "Artistic 2.0",
+    "license" : "Artistic-2.0",
     "tags" : [ ],
     "provides" : {
       "Sparrowdo::Cpanm::GitHub" : "lib/Sparrowdo/Cpanm/GitHub.pm6"
     },
-    "version" : "0.0.2",
     "production" : false,
+    "version" : "0.0.2",
     "authors" : [
       "'Alexey Melezhik' <melezhik@gmail.com>"
     ],
