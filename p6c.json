@@ -14695,13 +14695,14 @@
     },
     "perl" : "6",
     "build-depends" : [ ],
+    "auth" : "github:samcv",
     "depends" : [ ],
     "test-depends" : [ ],
     "license" : "Artistic-2.0",
     "provides" : {
       "URL::Find" : "lib/URL/Find.pm6"
     },
-    "version" : "v0.2",
+    "version" : "0.2.1",
     "description" : "Find all the URL's in text",
     "authors" : [
       "Samantha McVey"
@@ -14945,11 +14946,12 @@
     },
     "source-url" : "git://github.com/samcv/IRC-TextColor.git",
     "perl" : "6.*",
+    "auth" : "github:samcv",
     "provides" : {
       "IRC::TextColor" : "IRC/TextColor.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.2.0",
+    "version" : "0.2.1",
     "description" : "Color/Style text for IRC, and convert ANSI color from terminals into IRC coloring",
     "authors" : [
       "Samantha McVey"
