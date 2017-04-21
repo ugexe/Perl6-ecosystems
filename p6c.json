@@ -809,17 +809,6 @@
     "description" : "strftime and other DateTime formatting libraries"
   },
   {
-    "name" : "DateTime::Math",
-    "source-url" : "git://github.com/supernovus/perl6-datetime-math.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "DateTime::Math" : "lib/DateTime/Math.pm6"
-    },
-    "version" : "*",
-    "description" : "Add common math operations to DateTime objects."
-  },
-  {
     "name" : "DateTime::TimeZone",
     "source-url" : "git://github.com/supernovus/perl6-timezone.git",
     "perl" : "6.*",
@@ -944,7 +933,11 @@
       "HTTP::Client::Request" : "lib/HTTP/Client/Request.pm6",
       "HTTP::Client::Response" : "lib/HTTP/Client/Response.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.0.2",
+    "authors" : [
+      "Timothy Totten"
+    ],
     "description" : "A flexible HTTP Client library"
   },
   {
