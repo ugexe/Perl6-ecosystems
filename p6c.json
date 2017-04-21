@@ -2008,6 +2008,7 @@
     "build-depends" : [
       "Terminal::ANSIColor"
     ],
+    "auth" : "github:jnthn",
     "depends" : [
       "Terminal::ANSIColor"
     ],
@@ -2019,7 +2020,9 @@
     "test-depends" : [
       "Test"
     ],
-    "version" : "1.0",
+    "license" : "Artistic-2.0",
+    "creator" : "Jonathan Worthington",
+    "version" : "1.0.1",
     "description" : "Simple tracing and debugging support for Perl 6 grammars"
   },
   {
