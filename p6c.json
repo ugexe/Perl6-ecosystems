@@ -15464,18 +15464,33 @@
   },
   {
     "name" : "Git::Config",
-    "source-url" : "https://github.com/gfldex/perl6-git-config.git",
     "perl" : "6",
+    "emulates" : { },
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "https://github.com/gfldex/perl6-git-config.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "superseded-by" : { },
+    "excludes" : { },
     "auth" : "github:gfldex",
-    "depends" : [ ],
+    "depends" : [
+      "Test::META"
+    ],
     "provides" : {
       "Git::Config" : "lib/Git/Config.pm6"
     },
-    "version" : "0.1.0",
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
+    "tags" : [ ],
+    "version" : "0.1.1",
+    "meta6" : "0",
+    "description" : "Read and provide interface to git config.",
     "authors" : [
       "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
     ],
-    "description" : "Read and provide interface to git config."
+    "supersedes" : { }
   },
   {
     "name" : "Package::Updates",
