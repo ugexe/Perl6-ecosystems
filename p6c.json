@@ -1168,6 +1168,12 @@
     "perl" : "6.*",
     "source-type" : "git",
     "depends" : [ ],
+    "tags" : [
+      "Sort",
+      "Comparitor",
+      "Number String"
+    ],
+    "license" : "Artistic-2.0",
     "provides" : {
       "Sort::Naturally" : "lib/Sort/Naturally.pm6"
     },
@@ -1183,6 +1189,11 @@
     "perl" : "6.*",
     "source-type" : "git",
     "depends" : [ ],
+    "tags" : [
+      "Number",
+      "Prime"
+    ],
+    "license" : "Artistic-2.0",
     "provides" : {
       "Prime::Factor" : "lib/Prime/Factor.pm6"
     },
@@ -1228,10 +1239,15 @@
     "perl" : "6.*",
     "source-type" : "git",
     "depends" : [ ],
+    "tags" : [
+      "Number",
+      "Convert"
+    ],
+    "license" : "Artistic-2.0",
     "provides" : {
       "Lingua::EN::Numbers::Cardinal" : "lib/Lingua/EN/Numbers/Cardinal.pm6"
     },
-    "version" : "1.0.1",
+    "version" : "2.0.0",
     "authors" : [
       "Steve Schulze (thundergnat)"
     ],
@@ -5089,7 +5105,7 @@
     "test-depends" : [
       "Test::META"
     ],
-    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "license" : "Artistic-2.0",
     "provides" : {
       "PerlMongers::Hannover" : "lib/PerlMongers/Hannover.pm"
     },
