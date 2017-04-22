@@ -1209,6 +1209,12 @@
     "perl" : "6.*",
     "source-type" : "git",
     "depends" : [ ],
+    "tags" : [
+      "Text",
+      "Difference",
+      "Diff"
+    ],
+    "license" : "Artistic-2.0",
     "provides" : {
       "Text::Levenshtein" : "lib/Text/Levenshtein.pm"
     },
@@ -1224,6 +1230,13 @@
     "perl" : "6.*",
     "source-type" : "git",
     "depends" : [ ],
+    "tags" : [
+      "Bleach",
+      "Whitespace",
+      "Obfuscate",
+      "Silly"
+    ],
+    "license" : "Artistic-2.0",
     "provides" : {
       "Acme::Scrub" : "lib/Acme/Scrub.pm6"
     },
