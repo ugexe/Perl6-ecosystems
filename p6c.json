@@ -16478,5 +16478,32 @@
       "Ian G. Tayler"
     ],
     "description" : "A small module for working with Stabler's Minimalist Grammars in Perl6."
+  },
+  {
+    "name" : "TagLibC",
+    "source-url" : "https://github.com/the-eater/P6-TagLibC.git",
+    "perl" : "6",
+    "auth" : "github:the-eater",
+    "depends" : [
+      "LibraryCheck"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "taglib",
+      "music",
+      "tagging"
+    ],
+    "provides" : {
+      "TagLibC::Wrapper" : "lib/TagLibC/Wrapper.pm6",
+      "TagLibC" : "lib/TagLibC.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.0",
+    "authors" : [
+      "eater <perl6@eaterofco.de>"
+    ],
+    "description" : "TagLib C bindings in Perl6"
   }
 ]
