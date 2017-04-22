@@ -15511,7 +15511,7 @@
     "depends" : [
       "META6",
       "HTTP::Client",
-      "Git::Config",
+      "Git::Config:ver<0.1.1>",
       "JSON::Tiny",
       "Test::META",
       "Git::Config",
@@ -15524,7 +15524,7 @@
     "test-depends" : [ ],
     "license" : "Artistic-2.0",
     "tags" : [ ],
-    "version" : "0.9.5",
+    "version" : "0.9.7",
     "meta6" : "0",
     "description" : "Provide a binary to work with META6.json-files.",
     "authors" : [
