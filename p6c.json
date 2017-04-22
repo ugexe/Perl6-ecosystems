@@ -516,7 +516,7 @@
     "provides" : {
       "Semaphore::ReadersWriters" : "lib/Semaphore/ReadersWriters.pm6"
     },
-    "license" : "The Artistic License 2.0",
+    "license" : "Artistic-2.0",
     "version" : "v0.2.5",
     "description" : "Semaphore Readers Writers Pattern",
     "authors" : [
@@ -1643,7 +1643,7 @@
   },
   {
     "name" : "BSON",
-    "perl" : "6.c",
+    "perl" : "6",
     "source-url" : "git://github.com/MARTIMM/BSON.git",
     "depends" : [
       "Digest::MD5",
@@ -1661,8 +1661,8 @@
       "BSON::Document" : "lib/BSON/Document.pm6",
       "BSON::ObjectId" : "lib/BSON/ObjectId.pm6"
     },
-    "license" : "The Artistic License 2.0",
-    "version" : "0.9.32.1",
+    "license" : "Artistic-2.0",
+    "version" : "0.9.32.2",
     "description" : "BSON encoding/decoding, used in MongoDB drivers",
     "authors" : [
       "Marcel Timmerman"
@@ -1779,7 +1779,7 @@
       "MongoDB::Server::Socket" : "lib/MongoDB/Server/Socket.pm6",
       "MongoDB::Authenticate::Scram" : "lib/MongoDB/Authenticate/Scram.pm6"
     },
-    "license" : "The Artistic License 2.0",
+    "license" : "Artistic-2.0",
     "version" : "0.37.0",
     "description" : "MongoDB driver",
     "authors" : [
@@ -5653,14 +5653,15 @@
   },
   {
     "name" : "Linux::Fuser",
-    "source-url" : "https://github.com/jonathanstowe/p6-Linux-Fuser.git",
+    "perl" : "6.c",
     "support" : {
       "email" : "jns+git@gellyfish.co.uk",
       "source" : "https://github.com/jonathanstowe/p6-Linux-Fuser.git",
       "bugtracker" : "https://github.com/jonathanstowe/p6-Linux-Fuser/issues"
     },
-    "perl" : "6.c",
+    "source-url" : "https://github.com/jonathanstowe/p6-Linux-Fuser.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "System::Passwd"
@@ -5670,6 +5671,8 @@
       "Linux::Fuser::FileDescriptor" : "lib/Linux/Fuser/FileDescriptor.pm",
       "Linux::Fuser::Procinfo" : "lib/Linux/Fuser/Procinfo.pm"
     },
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "linux",
       "system",
@@ -5677,6 +5680,7 @@
       "file"
     ],
     "version" : "0.0.9",
+    "meta6" : "0",
     "description" : "Discover which process has a file open, in pure Perl 6",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk"
@@ -5785,13 +5789,14 @@
   },
   {
     "name" : "Linux::Cpuinfo",
-    "source-url" : "https://github.com/jonathanstowe/p6-Linux-Cpuinfo.git",
+    "perl" : "6.c",
     "support" : {
       "source" : "git://github.com/jonathanstowe/p6-Linux-Cpuinfo.git"
     },
-    "perl" : "6.c",
-    "build-depends" : [ ],
+    "source-url" : "https://github.com/jonathanstowe/p6-Linux-Cpuinfo.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
     "provides" : {
@@ -5801,6 +5806,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "linux",
       "system",
@@ -5808,10 +5814,11 @@
       "cpu"
     ],
     "version" : "0.0.7",
+    "meta6" : "0",
+    "description" : "Get the kernel CPU information on Linux",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "description" : "Get the kernel CPU information on Linux"
+    ]
   },
   {
     "name" : "Event::Emitter",
@@ -5860,15 +5867,16 @@
   },
   {
     "name" : "Log::Syslog::Native",
-    "source-url" : "git://github.com/jonathanstowe/Log-Syslog-Native.git",
+    "perl" : "6.c",
     "support" : {
       "email" : "jns+gh@gellyfish.co.uk",
       "source" : "git://github.com/jonathanstowe/Log-Syslog-Native.git",
       "bugtracker" : "https://github.com/jonathanstowe/Log-Syslog-Native/issues"
     },
-    "perl" : "6.c",
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/Log-Syslog-Native.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
     "provides" : {
@@ -5877,16 +5885,18 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "syslog",
       "log",
       "unix"
     ],
     "version" : "0.0.7",
+    "meta6" : "0",
+    "description" : "Provide logging to POSIX native syslog facility",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "description" : "Provide logging to POSIX native syslog facility"
+    ]
   },
   {
     "name" : "Template::Protone",
@@ -5909,63 +5919,68 @@
   {
     "name" : "Crypt::Libcrypt",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Crypt-Libcrypt.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Crypt-Libcrypt.git"
     },
+    "source-url" : "git://github.com/jonathanstowe/Crypt-Libcrypt.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
+    "provides" : {
+      "Crypt::Libcrypt" : "lib/Crypt/Libcrypt.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "crypt",
       "password"
     ],
-    "test-depends" : [
-      "Test"
-    ],
-    "provides" : {
-      "Crypt::Libcrypt" : "lib/Crypt/Libcrypt.pm"
-    },
     "version" : "0.0.7",
+    "meta6" : "0",
+    "description" : "Simple binding to crypt(3) from unix-like systems",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "description" : "Simple binding to crypt(3) from unix-like systems"
+    ]
   },
   {
     "name" : "Sys::Utmp",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/p6-Sys-Utmp.git",
     "support" : {
       "irc" : "irc:// irc.freenode.net/#perl6",
       "source" : "git://github.com/jonathanstowe/p6-Sys-Utmp.git",
       "bugtracker" : "https://github.com/jonathanstowe/p6-Sys-Utmp/issues"
     },
+    "source-url" : "git://github.com/jonathanstowe/p6-Sys-Utmp.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-    "resources" : [
-      "libraries/utmphelper"
-    ],
     "build-depends" : [
       "Shell::Command",
       "LibraryMake"
+    ],
+    "resources" : [
+      "libraries/utmphelper"
     ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "LibraryMake"
     ],
+    "provides" : {
+      "Sys::Utmp" : "lib/Sys/Utmp.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "unix",
       "users",
       "utility"
     ],
-    "test-depends" : [
-      "Test"
-    ],
-    "provides" : {
-      "Sys::Utmp" : "lib/Sys/Utmp.pm"
-    },
     "version" : "0.0.9",
+    "meta6" : "0",
     "description" : "Perl 6 access to Utmp entries on Unix-like systems",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -6110,37 +6125,39 @@
   {
     "name" : "Sys::Lastlog",
     "perl" : "6",
-    "source-url" : "git://github.com/jonathanstowe/p6-Sys-Lastlog.git",
     "support" : {
       "irc" : "irc://irc.freenode.net/#perl6",
       "source" : "git://github.com/jonathanstowe/p6-Sys-Lastlog.git",
       "bugtracker" : "https://github.com/jonathanstowe/p6-Sys-Lastlog/issues"
     },
-    "resources" : [
-      "libraries/lastloghelper"
-    ],
+    "source-url" : "git://github.com/jonathanstowe/p6-Sys-Lastlog.git",
+    "author" : "Jonathan Stowe <jns+git@gellyfish.com>",
     "build-depends" : [
       "LibraryMake",
       "Shell::Command"
     ],
-    "author" : "Jonathan Stowe <jns+git@gellyfish.com>",
+    "resources" : [
+      "libraries/lastloghelper"
+    ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "LibraryMake",
       "System::Passwd"
     ],
+    "provides" : {
+      "Sys::Lastlog" : "lib/Sys/Lastlog.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "unix",
       "audit",
       "lastlog"
     ],
-    "test-depends" : [
-      "Test"
-    ],
-    "provides" : {
-      "Sys::Lastlog" : "lib/Sys/Lastlog.pm"
-    },
     "version" : "0.0.8",
+    "meta6" : "0",
     "description" : "Perl 6 access to Lastlog information on Unix-like systems",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.com>"
@@ -6570,25 +6587,28 @@
   {
     "name" : "LibraryCheck",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/LibraryCheck.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/LibraryCheck.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/LibraryCheck.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "LibraryCheck" : "lib/LibraryCheck.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "build",
       "utils"
     ],
     "version" : "0.0.6",
+    "meta6" : "0",
     "description" : "Quick hack to determine whether a shared libray is present",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -6646,14 +6666,19 @@
   {
     "name" : "Audio::Sndfile",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Audio-Sndfile.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Audio-Sndfile.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/Audio-Sndfile.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
+    "provides" : {
+      "Audio::Sndfile" : "lib/Audio/Sndfile.pm",
+      "Audio::Sndfile::Info" : "lib/Audio/Sndfile/Info.pm"
+    },
     "test-depends" : [
       "Test",
       "Test::META",
@@ -6661,15 +6686,13 @@
       "File::Find",
       "Shell::Command"
     ],
-    "provides" : {
-      "Audio::Sndfile" : "lib/Audio/Sndfile.pm",
-      "Audio::Sndfile::Info" : "lib/Audio/Sndfile/Info.pm"
-    },
+    "license" : "Artistic-2.0",
     "tags" : [
       "audio",
       "utils"
     ],
     "version" : "0.0.10",
+    "meta6" : "0",
     "description" : "Binding for libsndfile - read/write multiple audio formats",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -6678,24 +6701,27 @@
   {
     "name" : "AccessorFacade",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/AccessorFacade.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/AccessorFacade.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/AccessorFacade.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "test-depends" : [ ],
     "provides" : {
       "AccessorFacade" : "lib/AccessorFacade.pm"
     },
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "devel",
       "utils",
       "facade"
     ],
     "version" : "0.0.7",
+    "meta6" : "0",
     "description" : "Provides a method trait to turn indivdual get/set subroutines into a single attribute",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -6774,26 +6800,29 @@
   {
     "name" : "CheckSocket",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/CheckSocket.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/CheckSocket.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/CheckSocket.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "CheckSocket" : "lib/CheckSocket.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "network",
       "utils",
       "test"
     ],
     "version" : "0.0.4",
+    "meta6" : "0",
     "description" : "very simple Perl 6 function to test if a TCP socket is listening on a given address",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -6816,18 +6845,22 @@
   {
     "name" : "Audio::Libshout",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Audio-Libshout.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Audio-Libshout.git"
     },
+    "source-url" : "git://github.com/jonathanstowe/Audio-Libshout.git",
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "build-depends" : [
       "LibraryCheck"
     ],
-    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "AccessorFacade"
     ],
+    "provides" : {
+      "Audio::Libshout" : "lib/Audio/Libshout.pm"
+    },
     "test-depends" : [
       "Test",
       "Test::META",
@@ -6835,15 +6868,14 @@
       "Shell::Command",
       "CheckSocket"
     ],
-    "provides" : {
-      "Audio::Libshout" : "lib/Audio/Libshout.pm"
-    },
+    "license" : "Artistic-2.0",
     "tags" : [
       "audio",
       "streaming",
       "utils"
     ],
     "version" : "0.0.10",
+    "meta6" : "0",
     "description" : "Binding for libshout - source streaming client library for icecast",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -6888,28 +6920,30 @@
   {
     "name" : "Audio::Encode::LameMP3",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Audio-Encode-LameMP3.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Audio-Encode-LameMP3.git"
     },
+    "source-url" : "git://github.com/jonathanstowe/Audio-Encode-LameMP3.git",
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "build-depends" : [
       "LibraryCheck",
       "AccessorFacade"
     ],
-    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "AccessorFacade",
       "NativeHelpers::Array"
     ],
+    "provides" : {
+      "Audio::Encode::LameMP3" : "lib/Audio/Encode/LameMP3.pm"
+    },
     "test-depends" : [
       "Test::META",
       "Audio::Taglib::Simple",
       "Audio::Sndfile"
     ],
-    "provides" : {
-      "Audio::Encode::LameMP3" : "lib/Audio/Encode/LameMP3.pm"
-    },
+    "license" : "Artistic-2.0",
     "tags" : [
       "audio",
       "codec",
@@ -6918,6 +6952,7 @@
       "mp3"
     ],
     "version" : "0.0.10",
+    "meta6" : "0",
     "description" : "Encode PCM Audio data to MP3 in Perl 6 using a binding to liblame",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -6969,24 +7004,27 @@
   {
     "name" : "NativeHelpers::Array",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/NativeHelpers-Array.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/NativeHelpers-Array.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/NativeHelpers-Array.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "test-depends" : [ ],
     "provides" : {
       "NativeHelpers::Array" : "lib/NativeHelpers/Array.pm"
     },
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "utils",
       "native",
       "array"
     ],
     "version" : "0.0.2",
+    "meta6" : "0",
     "description" : "Helper subroutines for working with Perl6 Native Arrays (CArray)",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -7056,30 +7094,33 @@
   {
     "name" : "Audio::Convert::Samplerate",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "NativeHelpers::Array"
     ],
+    "provides" : {
+      "Audio::Convert::Samplerate" : "lib/Audio/Convert/Samplerate.pm"
+    },
     "test-depends" : [
       "LibraryCheck",
       "Audio::Sndfile",
       "Test"
     ],
-    "provides" : {
-      "Audio::Convert::Samplerate" : "lib/Audio/Convert/Samplerate.pm"
-    },
+    "license" : "Artistic-2.0",
     "tags" : [
       "audio",
       "utils",
       "comvert"
     ],
     "version" : "0.0.7",
+    "meta6" : "0",
     "description" : "Convert the samplerate of PCM audio data using libsamplerate",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -7088,26 +7129,29 @@
   {
     "name" : "Staticish",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Staticish.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Staticish.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/Staticish.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "Staticish" : "lib/Staticish.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "devel",
       "utils",
       "object"
     ],
     "version" : "0.0.6",
+    "meta6" : "0",
     "description" : "Make a singleton class that wraps the methods so they appear like class methods",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -7255,27 +7299,30 @@
   {
     "name" : "XDG::BaseDirectory",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
+    "provides" : {
+      "XDG::BaseDirectory" : "lib/XDG/BaseDirectory.pm"
+    },
+    "test-depends" : [
+      "File::Find",
+      "Shell::Command"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "xdg",
       "desktop",
       "utils"
     ],
-    "test-depends" : [
-      "File::Find",
-      "Shell::Command"
-    ],
-    "provides" : {
-      "XDG::BaseDirectory" : "lib/XDG/BaseDirectory.pm"
-    },
     "version" : "0.0.6",
+    "meta6" : "0",
     "description" : "Implementation of the freedesktop.org XDG BaseDirectory specifications",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk"
@@ -7672,7 +7719,7 @@
       "X::Config::TOML" : "lib/X/Config/TOML.pm",
       "Config::TOML::Parser" : "lib/Config/TOML/Parser.pm"
     },
-    "license" : "http://unlicense.org/UNLICENSE",
+    "license" : "Unlicense",
     "version" : "*",
     "description" : "TOML file parser and writer"
   },
@@ -7981,7 +8028,7 @@
     "provides" : {
       "Digest::xxHash" : "lib/Digest/xxHash.pm"
     },
-    "license" : "http://unlicense.org/UNLICENSE",
+    "license" : "Unlicense",
     "version" : "*",
     "description" : "xxHash bindings for Perl6",
     "authors" : [
@@ -8071,20 +8118,22 @@
   {
     "name" : "Object::Permission",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Object-Permission.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Object-Permission.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/Object-Permission.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "Object::Permission" : "lib/Object/Permission.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "devel",
       "authorisation",
@@ -8092,6 +8141,7 @@
       "user"
     ],
     "version" : "0.0.2",
+    "meta6" : "0",
     "description" : "Experimental method (and public attribute accessor,) level authorisation",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -8100,20 +8150,22 @@
   {
     "name" : "Unix::Groups",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Unix-Groups.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Unix-Groups.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/Unix-Groups.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "Unix::Groups" : "lib/Unix/Groups.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "devel",
       "authorisation",
@@ -8121,6 +8173,7 @@
       "user"
     ],
     "version" : "0.0.3",
+    "meta6" : "0",
     "description" : "Access to the Unix group file in Perl 6",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -8129,23 +8182,25 @@
   {
     "name" : "Object::Permission::Group",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Object-Permission-Group.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Object-Permission-Group.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/Object-Permission-Group.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "Object::Permission",
       "Unix::Groups"
     ],
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "Object::Permission::Group" : "lib/Object/Permission/Group.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "devel",
       "authorisation",
@@ -8154,6 +8209,7 @@
       "unix"
     ],
     "version" : "0.0.2",
+    "meta6" : "0",
     "description" : "Object helper for Object::Permission using unix groups.",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -8204,32 +8260,35 @@
   {
     "name" : "JSON::Marshal",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/JSON-Marshal.git",
     "support" : {
       "email" : "jns+git@gellyfish.co.uk",
       "source" : "git://github.com/jonathanstowe/JSON-Marshal.git",
       "bugtracker" : "https://github.com/jonathanstowe/JSON-Marshal/issues"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/JSON-Marshal.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "JSON::Fast",
       "JSON::Name"
     ],
+    "provides" : {
+      "JSON::Marshal" : "lib/JSON/Marshal.pm"
+    },
     "test-depends" : [
       "Test",
       "JSON::Fast"
     ],
-    "provides" : {
-      "JSON::Marshal" : "lib/JSON/Marshal.pm"
-    },
+    "license" : "Artistic-2.0",
     "tags" : [
       "object",
       "serialisation",
       "JSON"
     ],
     "version" : "0.0.12",
+    "meta6" : "0",
     "description" : "Simple serialisation of objects to JSON",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -8272,34 +8331,37 @@
   {
     "name" : "JSON::Class",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/JSON-Class.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/JSON-Class.git"
     },
+    "source-url" : "git://github.com/jonathanstowe/JSON-Class.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "JSON::Marshal",
       "JSON::Unmarshal"
     ],
+    "provides" : {
+      "JSON::Class" : "lib/JSON/Class.pm"
+    },
+    "test-depends" : [
+      "JSON::Fast",
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "object",
       "serialisation",
       "JSON"
     ],
-    "test-depends" : [
-      "JSON::Fast",
-      "Test"
-    ],
-    "provides" : {
-      "JSON::Class" : "lib/JSON/Class.pm"
-    },
     "version" : "0.0.8",
+    "meta6" : "0",
+    "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON"
+    ]
   },
   {
     "name" : "POSIX",
@@ -8471,26 +8533,29 @@
   {
     "name" : "JSON::Name",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/JSON-Name.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/JSON-Name.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/JSON-Name.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "JSON::Name" : "lib/JSON/Name.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "object",
       "serialisation",
       "JSON"
     ],
     "version" : "0.0.2",
+    "meta6" : "0",
     "description" : "Provides a trait to store an alternative JSON Name",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -8573,15 +8638,16 @@
   {
     "name" : "JSON::Infer",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/JSON-Infer.git",
     "support" : {
       "email" : "jns+git@gellyfish.co.uk",
       "irc" : "irc:// irc.freenode.net/#perl6",
       "source" : "git://github.com/jonathanstowe/JSON-Infer.git",
       "bugtracker" : "https://github.com/jonathanstowe/JSON-Infer/issues"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/JSON-Infer.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "JSON::Fast",
@@ -8589,20 +8655,22 @@
       "JSON::Class",
       "JSON::Name"
     ],
+    "provides" : {
+      "JSON::Infer" : "lib/JSON/Infer.pm"
+    },
     "test-depends" : [
       "JSON::Fast",
       "Test",
       "Test::META"
     ],
-    "provides" : {
-      "JSON::Infer" : "lib/JSON/Infer.pm"
-    },
+    "license" : "Artistic-2.0",
     "tags" : [
       "object",
       "serialisation",
       "JSON"
     ],
     "version" : "0.0.15",
+    "meta6" : "0",
     "description" : "Infer Perl 6 Classes from JSON input",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -8682,24 +8750,26 @@
   {
     "name" : "URI::Template",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/URI-Template.git",
     "support" : {
       "irc" : "irc:// irc.freenode.net/#perl6",
       "source" : "git://github.com/jonathanstowe/URI-Template.git",
       "bugtracker" : "https://github.com/jonathanstowe/URI-Template/issues"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/URI-Template.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
+    "provides" : {
+      "URI::Template" : "lib/URI/Template.pm"
+    },
     "test-depends" : [
       "JSON::Fast",
       "Test",
       "Test::META"
     ],
-    "provides" : {
-      "URI::Template" : "lib/URI/Template.pm"
-    },
+    "license" : "Artistic-2.0",
     "tags" : [
       "URI",
       "URL",
@@ -8707,6 +8777,7 @@
       "RFC"
     ],
     "version" : "0.0.5",
+    "meta6" : "0",
     "description" : "URI Templates as per https://tools.ietf.org/html/rfc6570",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -8845,14 +8916,15 @@
   {
     "name" : "WebService::Soundcloud",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/WebService-Soundcloud.git",
     "support" : {
       "irc" : "irc:// irc.freenode.net/#perl6",
       "source" : "git://github.com/jonathanstowe/WebService-Soundcloud.git",
       "bugtracker" : "https://github.com/jonathanstowe/WebService-Soundcloud/issues"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/WebService-Soundcloud.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "JSON::Fast",
@@ -8863,13 +8935,14 @@
       "JSON::Class",
       "JSON::Name"
     ],
+    "provides" : {
+      "WebService::Soundcloud" : "lib/WebService/Soundcloud.pm"
+    },
     "test-depends" : [
       "Test",
       "Test::META"
     ],
-    "provides" : {
-      "WebService::Soundcloud" : "lib/WebService/Soundcloud.pm"
-    },
+    "license" : "Artistic-2.0",
     "tags" : [
       "API",
       "Webservice",
@@ -8877,6 +8950,7 @@
       "Soundcloud"
     ],
     "version" : "0.0.5",
+    "meta6" : "0",
     "description" : "Provide a Perl 6 interface to the Soundcloud REST API",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -8966,23 +9040,25 @@
   {
     "name" : "Chronic",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Chronic.git",
     "support" : {
       "irc" : "irc:// irc.freenode.net/#perl6",
       "source" : "git://github.com/jonathanstowe/Chronic.git",
       "bugtracker" : "https://github.com/jonathanstowe/Chronic/issues"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/Chronic.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
+    "provides" : {
+      "Chronic" : "lib/Chronic.pm"
+    },
     "test-depends" : [
       "Test",
       "Test::META"
     ],
-    "provides" : {
-      "Chronic" : "lib/Chronic.pm"
-    },
+    "license" : "Artistic-2.0",
     "tags" : [
       "util",
       "schedule",
@@ -8990,6 +9066,7 @@
       "event"
     ],
     "version" : "0.0.5",
+    "meta6" : "0",
     "description" : "Low-level Scheduling thingy for Perl6",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -9106,32 +9183,35 @@
   {
     "name" : "Audio::Silan",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Audio-Silan.git",
     "support" : {
       "irc" : "irc:// irc.freenode.net/#perl6",
       "source" : "git://github.com/jonathanstowe/Audio-Silan.git",
       "bugtracker" : "https://github.com/jonathanstowe/Audio-Silan/issues"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/Audio-Silan.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "File::Which",
       "JSON::Fast"
     ],
+    "provides" : {
+      "Audio::Silan" : "lib/Audio/Silan.pm"
+    },
     "test-depends" : [
       "Test",
       "Test::META"
     ],
-    "provides" : {
-      "Audio::Silan" : "lib/Audio/Silan.pm"
-    },
+    "license" : "Artistic-2.0",
     "tags" : [
       "audio",
       "util",
       "silence"
     ],
     "version" : "0.0.3",
+    "meta6" : "0",
     "description" : "Detect audio cue-in, cue-out using silan https://github.com/x42/silan",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -9237,7 +9317,7 @@
     "provides" : {
       "TXN" : "lib/TXN.pm"
     },
-    "license" : "http://unlicense.org/UNLICENSE",
+    "license" : "Unlicense",
     "version" : "0.0.7",
     "description" : "Double-entry accounting ledger packager"
   },
@@ -10509,26 +10589,29 @@
   {
     "name" : "Attribute::Lazy",
     "perl" : "6.c",
-    "source-url" : "git://github.com/jonathanstowe/Attribute-Lazy.git",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Attribute-Lazy.git"
     },
-    "build-depends" : [ ],
+    "source-url" : "git://github.com/jonathanstowe/Attribute-Lazy.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "Attribute::Lazy" : "lib/Attribute/Lazy.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "object",
       "attribute",
       "builder"
     ],
     "version" : "0.0.3",
+    "meta6" : "0",
     "description" : "Trait to provide lazy initialisation of attributes",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -11247,6 +11330,7 @@
     "name" : "Crane",
     "support" : {
       "source" : "https://github.com/atweiden/crane",
+      "license" : "http://unlicense.org/UNLICENSE",
       "bugtracker" : "https://github.com/atweiden/crane/issues"
     },
     "source-url" : "git://github.com/atweiden/crane.git",
@@ -11257,7 +11341,7 @@
       "X::Crane" : "lib/X/Crane.pm",
       "Crane" : "lib/Crane.pm"
     },
-    "license" : "http://unlicense.org/UNLICENSE",
+    "license" : "Unlicense",
     "version" : "*",
     "description" : "Navigate Perl6 containers and perform tasks"
   },
@@ -12447,7 +12531,7 @@
       "TXN::Parser::Types" : "lib/TXN/Parser/Types.pm",
       "TXN::Parser::Grammar" : "lib/TXN/Parser/Grammar.pm"
     },
-    "license" : "http://unlicense.org/UNLICENSE",
+    "license" : "Unlicense",
     "version" : "*",
     "description" : "Double-entry accounting ledger parser"
   },
@@ -13366,7 +13450,7 @@
     "provides" : {
       "File::Presence" : "lib/File/Presence.pm"
     },
-    "license" : "http://unlicense.org/UNLICENSE",
+    "license" : "Unlicense",
     "version" : "0.0.3",
     "description" : "Check permissions of potentially nonexistent files"
   },
@@ -13943,7 +14027,7 @@
       "Auth::SCRAM::Server" : "lib/Auth/SCRAM/Server.pm6",
       "Auth::SCRAM::Client" : "lib/Auth/SCRAM/Client.pm6"
     },
-    "license" : "The Artistic License 2.0",
+    "license" : "Artistic-2.0",
     "version" : "v0.4.6.2",
     "description" : "Salted Challenge Response Authentication Mechanism (SCRAM)",
     "authors" : [
@@ -14089,7 +14173,7 @@
       "X::TXN::Remarshal" : "lib/X/TXN/Remarshal.pm",
       "TXN::Remarshal" : "lib/TXN/Remarshal.pm"
     },
-    "license" : "http://unlicense.org/UNLICENSE",
+    "license" : "Unlicense",
     "version" : "*",
     "description" : "Double-entry accounting ledger file format converter"
   },
@@ -14634,7 +14718,7 @@
     "provides" : {
       "Pod::Render" : "lib/Pod/Render.pm6"
     },
-    "license" : "The Artistic License 2.0",
+    "license" : "Artistic-2.0",
     "version" : "v0.7.1",
     "description" : "Render pod docs to html, pdf or md",
     "authors" : [
