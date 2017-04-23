@@ -15533,7 +15533,7 @@
     "depends" : [
       "META6",
       "HTTP::Client",
-      "Git::Config:ver<0.1.1>",
+      "Git::Config:ver<0.1.2>",
       "JSON::Tiny",
       "Test::META",
       "Slippy::Semilist",
@@ -16558,5 +16558,29 @@
       "Patrick Spek <p.spek@tyil.work>"
     ],
     "description" : "Extensible library for reading and writing configuration files."
+  },
+  {
+    "name" : "PostCocoon::Url",
+    "source-url" : "https://github.com/PostCocoon/P6-Url.git",
+    "perl" : "6",
+    "auth" : "github:PostCocoon",
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "query string",
+      "url",
+      "http"
+    ],
+    "provides" : {
+      "PostCocoon::Url" : "lib/PostCocoon/Url.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.0",
+    "authors" : [
+      "eater <perl6@eaterofco.de>"
+    ],
+    "description" : "Some simple but useful URL utils"
   }
 ]
