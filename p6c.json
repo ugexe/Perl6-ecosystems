@@ -1702,7 +1702,7 @@
     "name" : "GeoIP::City",
     "source-url" : "git://github.com/bbkr/GeoIPerl6.git",
     "perl" : "6.c",
-    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "license" : "Artistic-2.0",
     "provides" : {
       "GeoIP::City" : "lib/GeoIP/City.pm",
       "GeoIP" : "lib/GeoIP.pm"
@@ -4298,7 +4298,7 @@
     "name" : "Text::Markov",
     "source-url" : "git://github.com/bbkr/text_markov.git",
     "perl" : "6.c",
-    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "license" : "Artistic-2.0",
     "provides" : {
       "Text::Markov" : "lib/Text/Markov.pm"
     },
@@ -13444,7 +13444,7 @@
     "name" : "TinyID",
     "source-url" : "git://github.com/bbkr/TinyID.git",
     "perl" : "6.c",
-    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "license" : "Artistic-2.0",
     "provides" : {
       "TinyID" : "lib/TinyID.pm"
     },
@@ -15485,7 +15485,7 @@
     "test-depends" : [ ],
     "license" : "Artistic-2.0",
     "tags" : [ ],
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "meta6" : "0",
     "description" : "Read and provide interface to git config.",
     "authors" : [
@@ -16346,6 +16346,7 @@
     "provides" : {
       "IO::Socket::Async::SSL" : "lib/IO/Socket/Async/SSL.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1",
     "authors" : [
       "Jonathan Worthington <jnthn@jnthn.net>"
