@@ -47,6 +47,7 @@
       "JSON::Tiny" : "lib/JSON/Tiny.pm",
       "JSON::Tiny::Grammar" : "lib/JSON/Tiny/Grammar.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "A minimal JSON (de)serializer"
   },
@@ -16528,5 +16529,34 @@
       "eater <perl6@eaterofco.de>"
     ],
     "description" : "TagLib C bindings in Perl6"
+  },
+  {
+    "name" : "Config",
+    "source-url" : "https://github.com/scriptkitties/p6-Config.git",
+    "perl" : "6",
+    "auth" : "github:scriptkitties",
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "config",
+      "configuration"
+    ],
+    "provides" : {
+      "Config::Exception::UnknownTypeException" : "lib/Config/Exception/UnknownTypeException.pm6",
+      "Config::Exception::UnsupportedTypeException" : "lib/Config/Exception/UnsupportedTypeException.pm6",
+      "Config::Parser" : "lib/Config/Parser.pm6",
+      "Config::Exception::FileNotFoundException" : "lib/Config/Exception/FileNotFoundException.pm6",
+      "Config" : "lib/Config.pm6",
+      "Config::Exception::UnimplementedMethodException" : "lib/Config/Exception/UnimplementedMethodException.pm6",
+      "Config::Type" : "lib/Config/Type.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "1.0.0",
+    "authors" : [
+      "Patrick Spek <p.spek@tyil.work>"
+    ],
+    "description" : "Extensible library for reading and writing configuration files."
   }
 ]
