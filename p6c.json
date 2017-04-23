@@ -3539,6 +3539,7 @@
     "provides" : {
       "Debugger::UI::CommandLine" : "lib/Debugger/UI/CommandLine.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Command-line debugger frontend for Rakudo"
   },
@@ -5085,6 +5086,7 @@
     },
     "perl" : "6.c",
     "depends" : [ ],
+    "license" : "Artistic-2.0",
     "provides" : {
       "OO::Monitors" : "lib/OO/Monitors.pm6"
     },
@@ -6275,7 +6277,7 @@
   },
   {
     "name" : "Readline",
-    "source-url" : "https://github.com/drforr/perl6-readline",
+    "source-url" : "https://github.com/drforr/perl6-readline.git",
     "perl" : "6.c",
     "support" : {
       "source" : "https://github.com/drforr/perl6-readline"
@@ -14763,6 +14765,7 @@
     "provides" : {
       "File::Ignore" : "lib/File/Ignore.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "1.1",
     "description" : "Parsing and application of .gitignore-style ignore files."
   },
@@ -15138,6 +15141,7 @@
     "source-url" : "git://github.com/jnthn/p6-test-scheduler.git",
     "perl" : "6.c",
     "depends" : [ ],
+    "license" : "Artistic-2.0",
     "provides" : {
       "Test::Scheduler" : "lib/Test/Scheduler.pm6"
     },
@@ -15438,6 +15442,7 @@
     "provides" : {
       "Data::TextOrBinary" : "lib/Data/TextOrBinary.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "1.0",
     "description" : "Heuristic detection of text vs. binary data."
   },
