@@ -1653,27 +1653,6 @@
     "description" : "HMM decoding with the Viterbi algorithm."
   },
   {
-    "name" : "JSON::RPC",
-    "source-url" : "git://github.com/bbkr/jsonrpc.git",
-    "authority" : "bbkr",
-    "perl" : "6.*",
-    "author" : "Pawel Pabian",
-    "repo-type" : "git",
-    "depends" : [
-      "JSON::Tiny",
-      "URI",
-      "HTTP::Easy",
-      "LWP::Simple"
-    ],
-    "provides" : {
-      "X::JSON::RPC" : "lib/X/JSON/RPC.pm",
-      "JSON::RPC::Client" : "lib/JSON/RPC/Client.pm",
-      "JSON::RPC::Server" : "lib/JSON/RPC/Server.pm"
-    },
-    "version" : "0.17.1",
-    "description" : "JSON-RPC 2.0 client and server."
-  },
-  {
     "name" : "BSON",
     "perl" : "6",
     "source-url" : "git://github.com/MARTIMM/BSON.git",
