@@ -6504,6 +6504,7 @@
       "Font::Metrics::symbol" : "lib/Font/Metrics/symbol.pm",
       "Font::Metrics::courier" : "lib/Font/Metrics/courier.pm"
     },
+    "license" : "Artistic 2.0",
     "version" : "1.23.5",
     "description" : "Interface to Adobe Font Metrics files"
   },
@@ -8638,10 +8639,12 @@
     "name" : "Crypt::RC4",
     "source-url" : "git://github.com/p6-pdf/perl6-Crypt-RC4.git",
     "perl" : "6",
+    "auth" : "github:p6-pdf",
     "depends" : [ ],
     "provides" : {
       "Crypt::RC4" : "lib/Crypt/RC4.pm"
     },
+    "license" : "Artistic 2.0",
     "version" : "0.0.2",
     "description" : "Perl 6 implementation of the RC4 encryption algorithm"
   },
