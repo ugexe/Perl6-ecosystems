@@ -16563,6 +16563,33 @@
     "description" : "Extensible library for reading and writing configuration files."
   },
   {
+    "name" : "Config::Parser::yaml",
+    "source-url" : "https://github.com/scriptkitties/p6-Config-Parser-yaml.git",
+    "perl" : "6",
+    "auth" : "github:scriptkitties",
+    "depends" : [
+      "Config",
+      "YAMLish"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "config",
+      "configuration",
+      "yaml"
+    ],
+    "provides" : {
+      "Config::Parser::yaml" : "lib/Config/Parser/yaml.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "1.0.0",
+    "authors" : [
+      "Patrick Spek <p.spek@tyil.work>"
+    ],
+    "description" : "YAML parser for Config."
+  },
+  {
     "name" : "PostCocoon::Url",
     "source-url" : "https://github.com/PostCocoon/P6-Url.git",
     "perl" : "6",
