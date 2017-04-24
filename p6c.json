@@ -10560,7 +10560,6 @@
     },
     "source-url" : "git://github.com/salortiz/p6-LMDB.git",
     "perl" : "6.c",
-    "licence" : "artistic_2",
     "build-depends" : [ ],
     "auth" : "github:salortiz",
     "repo-type" : "git",
@@ -10569,6 +10568,7 @@
       "kv",
       "liblmdb"
     ],
+    "license" : "Artistic-2.0",
     "provides" : {
       "LMDB" : "lib/LMDB.pm6"
     },
@@ -11062,7 +11062,6 @@
     },
     "source-url" : "git://github.com/salortiz/NativeHelpers-Blob.git",
     "perl" : "6.c",
-    "licence" : "artistic_2",
     "build-depends" : [ ],
     "auth" : "github:salortiz",
     "repo-type" : "git",
@@ -11075,6 +11074,7 @@
       "CArray",
       "Pointer"
     ],
+    "license" : "Artistic-2.0",
     "provides" : {
       "MoarVM::Guts::REPRs" : "lib/MoarVM/Guts/REPRs.pm6",
       "NativeHelpers::CStruct" : "lib/NativeHelpers/CStruct.pm6",
