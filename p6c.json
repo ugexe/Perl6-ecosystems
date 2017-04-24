@@ -10848,12 +10848,12 @@
     "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [
-      "NCurses",
       "Terminal::WCWidth"
     ],
     "test-depends" : [
       "Test"
     ],
+    "tags" : [ ],
     "provides" : {
       "Term::Choose" : "lib/Term/Choose.pm6",
       "Term::Choose::NCurses" : "lib/Term/Choose/NCurses.pm6",
