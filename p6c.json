@@ -314,6 +314,39 @@
     "description" : "Simple list utility subs"
   },
   {
+    "name" : "Algorithm::Diff",
+    "source-url" : "git://github.com/Takadonet/Algorithm--Diff.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Algorithm::Diff" : "lib/Algorithm/Diff.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "*",
+    "description" : "Contains several interfaces for which computing the differences between two lists."
+  },
+  {
+    "name" : "Text::Diff",
+    "source-url" : "git://github.com/Takadonet/Text--Diff.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "depends" : [
+      "Algorithm::Diff"
+    ],
+    "provides" : {
+      "Text::Diff::OldStyle" : "lib/Text/Diff/OldStyle.pm",
+      "Text::Diff" : "lib/Text/Diff.pm",
+      "Text::Diff::Unified" : "lib/Text/Diff/Unified.pm",
+      "Text::Diff::Table" : "lib/Text/Diff/Table.pm"
+    },
+    "version" : "*",
+    "description" : "Perform diffs on files and record sets"
+  },
+  {
     "name" : "ABC",
     "source-url" : "git://github.com/colomon/ABC.git",
     "perl" : "6.*",
@@ -1748,21 +1781,6 @@
     },
     "version" : "v0.1.3",
     "description" : "A URI implementation using Perl 6 grammars to implement RFC 3986 BNF"
-  },
-  {
-    "name" : "Algorithm::Soundex",
-    "source-url" : "git://github.com/leto/perl6-Algorithm-Soundex.git",
-    "perl" : "6.*",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "Algorithm::Soundex" : "lib/Algorithm/Soundex.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "*",
-    "description" : "Soundex Algorithm in Perl 6"
   },
   {
     "name" : "MongoDB",
@@ -9842,6 +9860,24 @@
     "description" : "(DEPRECATED) Helper library for using resources made of native code"
   },
   {
+    "name" : "Email::Notmuch",
+    "source-url" : "git://github.com/goneri/p6-Email-Notmuch.git",
+    "perl" : "6.c",
+    "depends" : [ ],
+    "test-depends" : [
+      "File::Temp",
+      "Test"
+    ],
+    "provides" : {
+      "Email::Notmuch" : "lib/Email/Notmuch.pm6"
+    },
+    "version" : "0.3",
+    "authors" : [
+      "Gon\u00e9ri Le Bouder"
+    ],
+    "description" : "lib NotmuchMail binding"
+  },
+  {
     "name" : "Concurrent::Iterator",
     "source-url" : "git://github.com/jnthn/p6-concurrent-iterator.git",
     "perl" : "6.*",
@@ -10720,36 +10756,6 @@
       "Jake Russo <madcap.russo@gmail.com>"
     ],
     "description" : "Mangle text via libtranslate."
-  },
-  {
-    "name" : "Linux::Process::SignalInfo",
-    "source-url" : "https://github.com/Gnouc/p6-linux-process-signalinfo.git",
-    "support" : {
-      "source" : "https://github.com/Gnouc/p6-linux-process-signalinfo.git"
-    },
-    "perl" : "6.c",
-    "build-depends" : [
-      "panda"
-    ],
-    "author" : "Cuong Manh Le <cuong.manhle@gmail.com>",
-    "auth" : "github:Gnouc",
-    "depends" : [ ],
-    "provides" : {
-      "Linux::Process::SignalInfo" : "lib/Linux/Process/SignalInfo.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "tags" : [
-      "linux",
-      "utils",
-      "signal"
-    ],
-    "version" : "v0.0.2",
-    "authors" : [
-      "Cuong Manh Le <cuong.manhle@gmail.com>"
-    ],
-    "description" : "Show process signal information on Linux"
   },
   {
     "name" : "LendingClub",
@@ -13674,6 +13680,18 @@
       "Peter Pentchev"
     ],
     "description" : "Process single-character options with option clustering"
+  },
+  {
+    "name" : "Math::Arrow",
+    "source-url" : "git://github.com/ajs/perl6-Math-Arrow",
+    "perl" : "6.c",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "Math::Arrow" : "lib/Math/Arrow.pm"
+    },
+    "version" : "0.1.0",
+    "description" : "Knuth arrow notation in Perl 6"
   },
   {
     "name" : "CoreHackers::Sourcery",
