@@ -1783,6 +1783,21 @@
     "description" : "A URI implementation using Perl 6 grammars to implement RFC 3986 BNF"
   },
   {
+    "name" : "Algorithm::Soundex",
+    "source-url" : "git://github.com/leto/perl6-Algorithm-Soundex.git",
+    "perl" : "6.*",
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Algorithm::Soundex" : "lib/Algorithm/Soundex.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "*",
+    "description" : "Soundex Algorithm in Perl 6"
+  },
+  {
     "name" : "MongoDB",
     "source-url" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
     "perl" : "6.c",
@@ -4707,15 +4722,19 @@
   },
   {
     "name" : "SP6",
+    "perl" : "6.*",
     "source-url" : "git://github.com/mj41/SP6.git",
     "source-type" : "git",
-    "author" : "Michal Jurosz",
     "depends" : [ ],
     "provides" : {
       "SP6::ProcessMethods" : "lib/SP6/ProcessMethods.pm6",
       "SP6" : "lib/SP6.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.1",
+    "authors" : [
+      "Michal Jurosz"
+    ],
     "description" : "Simple templates for Perl 6"
   },
   {
@@ -10758,6 +10777,36 @@
     "description" : "Mangle text via libtranslate."
   },
   {
+    "name" : "Linux::Process::SignalInfo",
+    "source-url" : "https://github.com/Gnouc/p6-linux-process-signalinfo.git",
+    "support" : {
+      "source" : "https://github.com/Gnouc/p6-linux-process-signalinfo.git"
+    },
+    "perl" : "6.c",
+    "build-depends" : [
+      "panda"
+    ],
+    "author" : "Cuong Manh Le <cuong.manhle@gmail.com>",
+    "auth" : "github:Gnouc",
+    "depends" : [ ],
+    "provides" : {
+      "Linux::Process::SignalInfo" : "lib/Linux/Process/SignalInfo.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "linux",
+      "utils",
+      "signal"
+    ],
+    "version" : "v0.0.2",
+    "authors" : [
+      "Cuong Manh Le <cuong.manhle@gmail.com>"
+    ],
+    "description" : "Show process signal information on Linux"
+  },
+  {
     "name" : "LendingClub",
     "source-url" : "git://github.com/peelle/LendingClub.git",
     "perl" : "6.*",
@@ -11941,31 +11990,6 @@
       "Martin Barth <martin@senfdax.de>"
     ],
     "description" : "Time::Crontab for Perl6 - Parses Crontab Specifications"
-  },
-  {
-    "name" : "JSON::WebToken",
-    "source-url" : "git://github.com/jamesalbert/JSON-WebToken.git",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "depends" : [
-      "JSON::Fast",
-      "MIME::Base64",
-      "Digest::SHA",
-      "Digest::HMAC"
-    ],
-    "provides" : {
-      "JSON::WebToken" : "lib/JSON/WebToken.pm6",
-      "JSON::WebToken::Crypt::RSA" : "lib/JSON/WebToken/Crypt/RSA.pm6",
-      "JSON::WebToken::Exception" : "lib/JSON/WebToken/Exception.pm6",
-      "JSON::WebToken::Crypt::HMAC" : "lib/JSON/WebToken/Crypt/HMAC.pm6",
-      "JSON::WebToken::Constants" : "lib/JSON/WebToken/Constants.pm6",
-      "JSON::WebToken::Crypt" : "lib/JSON/WebToken/Crypt.pm6"
-    },
-    "version" : "0.0.1",
-    "authors" : [
-      "James Albert"
-    ],
-    "description" : "JSON::WebToken is a JSON Web Token (JWT) implementation for Perl6"
   },
   {
     "name" : "Term::Form",
