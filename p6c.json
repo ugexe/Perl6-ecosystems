@@ -5515,23 +5515,6 @@
     "description" : "Portable PNG output for Perl 6"
   },
   {
-    "name" : "WebService::Lastfm",
-    "source-url" : "git://github.com/avuserow/perl6-webservice-lastfm.git",
-    "perl" : "6.*",
-    "author" : "Adrian Kreher",
-    "depends" : [
-      "JSON::Tiny",
-      "Digest::MD5",
-      "LWP::Simple",
-      "URI::Encode"
-    ],
-    "provides" : {
-      "WebService::Lastfm" : "lib/WebService/Lastfm.pm"
-    },
-    "version" : "0.0.2",
-    "description" : "interact with the Last.fm API"
-  },
-  {
     "name" : "TOML",
     "source-url" : "git://github.com/Mouq/toml-pm6.git",
     "author" : "Mouq",
