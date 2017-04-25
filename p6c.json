@@ -3146,6 +3146,23 @@
     "description" : "Semantic versioning for objects"
   },
   {
+    "name" : "SSL",
+    "source-url" : "git://github.com/grondilu/openssl.git",
+    "build-depends" : [
+      "NativeCall"
+    ],
+    "author" : "Lucien Grondin <grondilu@yahoo.fr>",
+    "depends" : [ ],
+    "provides" : {
+      "SSL::Digest" : "lib/SSL/Digest.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.2.0",
+    "description" : "Perl6 interface to a OpenSSL (so far only digests though)"
+  },
+  {
     "name" : "Farabi6",
     "source-url" : "git://github.com/azawawi/farabi6.git",
     "perl" : "6.*",
@@ -3597,7 +3614,7 @@
       "PDF::Grammar" : "lib/PDF/Grammar.pm",
       "PDF::Grammar::Doc" : "lib/PDF/Grammar/Doc.pm"
     },
-    "license" : "Artistic 2.0",
+    "license" : "Artistic-2.0",
     "version" : "0.0.8",
     "description" : "Perl 6 grammars for parsing PDF Content Streams and File Structure"
   },
@@ -3885,7 +3902,7 @@
       "CSS::Grammar::Core" : "lib/CSS/Grammar.pm",
       "CSS::Grammar::CSS21" : "lib/CSS/Grammar/CSS21.pm"
     },
-    "license" : "Artistic 2.0",
+    "license" : "Artistic-2.0",
     "version" : "0.3.1",
     "description" : "Perl 6 core CSS grammars"
   },
@@ -3946,7 +3963,7 @@
       "CSS::Module::CSS3::_Base" : "lib/CSS/Module/CSS3/_Base.pm",
       "CSS::Module::CSS1::Spec::Grammar" : "lib/CSS/Module/CSS1/Spec/Grammar.pm"
     },
-    "license" : "Artistic 2.0",
+    "license" : "Artistic-2.0",
     "version" : "0.4.8",
     "description" : "Perl 6 CSS extended and property-specific grammars"
   },
@@ -4789,9 +4806,27 @@
       "CSS::Specification" : "lib/CSS/Specification.pm",
       "CSS::Specification::Build" : "lib/CSS/Specification/Build.pm"
     },
-    "license" : "Artistic 2.0",
+    "license" : "Artistic-2.0",
     "version" : "0.4.4",
     "description" : "CSS Property definition grammar and generation tools"
+  },
+  {
+    "name" : "Chess",
+    "source-url" : "git://github.com/grondilu/chess.git",
+    "perl" : "6.*",
+    "build-depends" : [ ],
+    "author" : "L. Grondin",
+    "depends" : [ ],
+    "provides" : {
+      "Chess::PGN" : "lib/Chess/PGN.pm6",
+      "Chess::FEN" : "lib/Chess/FEN.pm6",
+      "Chess" : "lib/Chess.pm6"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.2.0",
+    "description" : "Chess-related stuff in Perl 6."
   },
   {
     "name" : "Text::Fortune",
@@ -5389,7 +5424,7 @@
     "provides" : {
       "CSS::Writer" : "lib/CSS/Writer.pm"
     },
-    "license" : "Artistic 2.0",
+    "license" : "Artistic-2.0",
     "version" : "0.2.4",
     "description" : "AST Serializer; compatible with CSS::Grammar and CSS::Module"
   },
@@ -5512,7 +5547,7 @@
       "CSS::Module::CSS3::Selectors::Actions" : "lib/CSS/Module/CSS3/Selectors/Actions.pm",
       "CSS::Module::CSS3::Selectors" : "lib/CSS/Module/CSS3/Selectors.pm"
     },
-    "license" : "Artistic 2.0",
+    "license" : "Artistic-2.0",
     "version" : "0.0.1",
     "description" : "CSS3 Module Level 3 Selectors"
   },
@@ -6521,7 +6556,7 @@
       "Font::Metrics::symbol" : "lib/Font/Metrics/symbol.pm",
       "Font::Metrics::courier" : "lib/Font/Metrics/courier.pm"
     },
-    "license" : "Artistic 2.0",
+    "license" : "Artistic-2.0",
     "version" : "1.23.5",
     "description" : "Interface to Adobe Font Metrics files"
   },
@@ -8669,7 +8704,7 @@
     "provides" : {
       "Crypt::RC4" : "lib/Crypt/RC4.pm"
     },
-    "license" : "Artistic 2.0",
+    "license" : "Artistic-2.0",
     "version" : "0.0.2",
     "description" : "Perl 6 implementation of the RC4 encryption algorithm"
   },
@@ -8926,7 +8961,7 @@
       "PDF::DAO::Type::Info" : "lib/PDF/DAO/Type/Info.pm",
       "PDF::DAO::Int" : "lib/PDF/DAO/Int.pm"
     },
-    "license" : "Artistic 2.0",
+    "license" : "Artistic-2.0",
     "tags" : [
       "pdf"
     ],
@@ -14929,7 +14964,7 @@
       "CSS::Declarations::Font" : "lib/CSS/Declarations/Font.pm",
       "CSS::Declarations" : "lib/CSS/Declarations.pm"
     },
-    "license" : "Artistic 2.0",
+    "license" : "Artistic-2.0",
     "tags" : [
       "css"
     ],
@@ -16385,7 +16420,7 @@
       "native",
       "struct"
     ],
-    "license" : "Artistic 2.0",
+    "license" : "Artistic-2.0",
     "version" : "0.0.1",
     "description" : "Endian safe Binary Struct packing and unpacking"
   },
