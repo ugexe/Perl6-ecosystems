@@ -3146,23 +3146,6 @@
     "description" : "Semantic versioning for objects"
   },
   {
-    "name" : "SSL",
-    "source-url" : "git://github.com/grondilu/openssl.git",
-    "build-depends" : [
-      "NativeCall"
-    ],
-    "author" : "Lucien Grondin <grondilu@yahoo.fr>",
-    "depends" : [ ],
-    "provides" : {
-      "SSL::Digest" : "lib/SSL/Digest.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "0.2.0",
-    "description" : "Perl6 interface to a OpenSSL (so far only digests though)"
-  },
-  {
     "name" : "Farabi6",
     "source-url" : "git://github.com/azawawi/farabi6.git",
     "perl" : "6.*",
@@ -4809,24 +4792,6 @@
     "license" : "Artistic 2.0",
     "version" : "0.4.4",
     "description" : "CSS Property definition grammar and generation tools"
-  },
-  {
-    "name" : "Chess",
-    "source-url" : "git://github.com/grondilu/chess.git",
-    "perl" : "6.*",
-    "build-depends" : [ ],
-    "author" : "L. Grondin",
-    "depends" : [ ],
-    "provides" : {
-      "Chess::PGN" : "lib/Chess/PGN.pm6",
-      "Chess::FEN" : "lib/Chess/FEN.pm6",
-      "Chess" : "lib/Chess.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "0.2.0",
-    "description" : "Chess-related stuff in Perl 6."
   },
   {
     "name" : "Text::Fortune",
