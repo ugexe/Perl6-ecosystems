@@ -11992,6 +11992,31 @@
     "description" : "Time::Crontab for Perl6 - Parses Crontab Specifications"
   },
   {
+    "name" : "JSON::WebToken",
+    "source-url" : "git://github.com/jamesalbert/JSON-WebToken.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "depends" : [
+      "JSON::Fast",
+      "MIME::Base64",
+      "Digest::SHA",
+      "Digest::HMAC"
+    ],
+    "provides" : {
+      "JSON::WebToken" : "lib/JSON/WebToken.pm6",
+      "JSON::WebToken::Crypt::RSA" : "lib/JSON/WebToken/Crypt/RSA.pm6",
+      "JSON::WebToken::Exception" : "lib/JSON/WebToken/Exception.pm6",
+      "JSON::WebToken::Crypt::HMAC" : "lib/JSON/WebToken/Crypt/HMAC.pm6",
+      "JSON::WebToken::Constants" : "lib/JSON/WebToken/Constants.pm6",
+      "JSON::WebToken::Crypt" : "lib/JSON/WebToken/Crypt.pm6"
+    },
+    "version" : "0.0.1",
+    "authors" : [
+      "James Albert"
+    ],
+    "description" : "JSON::WebToken is a JSON Web Token (JWT) implementation for Perl6"
+  },
+  {
     "name" : "Term::Form",
     "source-url" : "git://github.com/kuerbis/Term-Form-p6.git",
     "perl" : "6.c",
