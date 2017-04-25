@@ -1960,68 +1960,6 @@
     "description" : "Convert Perl 6 Pod to HTML"
   },
   {
-    "name" : "Bailador",
-    "source-url" : "git://github.com/ufobat/Bailador.git",
-    "support" : {
-      "source" : "git://github.com/ufobat/Bailador.git",
-      "bugtracker" : "https://github.com/ufobat/Bailador/issues"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "HTTP::Easy",
-      "Template::Mojo",
-      "Template::Mustache",
-      "URI",
-      "Digest::HMAC",
-      "Digest",
-      "HTTP::MultiPartParser"
-    ],
-    "provides" : {
-      "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
-      "Bailador::Request" : "lib/Bailador/Request.pm",
-      "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
-      "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
-      "Bailador::Sessions::Config" : "lib/Bailador/Sessions/Config.pm",
-      "Bailador::Test" : "lib/Bailador/Test.pm",
-      "Bailador::Template" : "lib/Bailador/Template.pm",
-      "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
-      "Bailador::Exceptions" : "lib/Bailador/Exceptions.pm",
-      "Bailador" : "lib/Bailador.pm",
-      "Bailador::App" : "lib/Bailador/App.pm",
-      "Bailador::Template::Mustache" : "lib/Bailador/Template/Mustache.pm",
-      "Bailador::Template::Mojo" : "lib/Bailador/Template/Mojo.pm",
-      "Bailador::Route::StaticFile" : "lib/Bailador/Route/StaticFile.pm",
-      "Bailador::Response" : "lib/Bailador/Response.pm",
-      "Bailador::Context" : "lib/Bailador/Context.pm",
-      "Bailador::Route" : "lib/Bailador/Route.pm",
-      "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm"
-    },
-    "license" : "MIT",
-    "tags" : [
-      "Web",
-      "HTTP",
-      "Net"
-    ],
-    "version" : "*",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-      "Anthony Parsons",
-      "Carl Masak",
-      "Gabor Szabo",
-      "GlitchMr",
-      "Moritz Lenz",
-      "Panu Ervamaa",
-      "Paul Cochrane",
-      "Solomon Foster",
-      "Sterling Hanenkamp",
-      "Tobias Leich",
-      "ugexe",
-      "vendethiel",
-      "Martin Barth (ufobat) "
-    ],
-    "description" : "A bare-bones Dancer port"
-  },
-  {
     "name" : "Form",
     "source-url" : "git://github.com/perl6/form.git",
     "perl" : "6.*",
@@ -11227,23 +11165,6 @@
       "Tommy Brunton"
     ],
     "description" : "Cellular Automata in Perl6"
-  },
-  {
-    "name" : "RPi::Wiring::Pi",
-    "source-url" : "git://github.com/sufrostico/perl6-wiringpi.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "RPi::Wiring::Pi" : "lib/RPi/Wiring/Pi.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "2.25.0",
-    "description" : "Perl 6 wrapper to the WiringPI, a wiring based Raspberry Pi library",
-    "authors" : [
-      "Aurelio Sanabria (Sufrostico) <sufrostico at gmail dot com>"
-    ]
   },
   {
     "name" : "Algorithm::ZobristHashing",
