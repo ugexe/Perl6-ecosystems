@@ -2856,19 +2856,6 @@
     "description" : "A Perl 6 module to deal with W3CDTF dates"
   },
   {
-    "name" : "Redis",
-    "source-url" : "git://github.com/Cofyc/perl6-redis.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "author" : "Yecheng Fu",
-    "depends" : [ ],
-    "provides" : {
-      "Redis" : "lib/Redis.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "A Perl6 binding for Redis"
-  },
-  {
     "name" : "Sitemap::XML::Parser",
     "source-url" : "git://github.com/afiskon/p6-sitemap-xml-parser.git",
     "perl" : "6.*",
@@ -3945,18 +3932,6 @@
     ],
     "version" : "0.0.1",
     "description" : "Perl 6 interface to the Imlib2 image library."
-  },
-  {
-    "name" : "Lingua::EN::Sentence",
-    "source-url" : "git://github.com/dginev/perl6-Lingua-EN-Sentence.git",
-    "perl" : "6.*",
-    "author" : "Deyan Ginev",
-    "depends" : [ ],
-    "provides" : {
-      "Lingua::EN::Sentence" : "lib/Lingua/EN/Sentence.pm6"
-    },
-    "version" : "0.1.2",
-    "description" : "Module for splitting text into sentences"
   },
   {
     "name" : "ignore",
@@ -9277,24 +9252,6 @@
     "license" : "Unlicense",
     "version" : "0.0.7",
     "description" : "Double-entry accounting ledger packager"
-  },
-  {
-    "name" : "Haikunator",
-    "source-url" : "git://github.com/Atrox/haikunatorperl.git",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "depends" : [ ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Haikunator" : "lib/Haikunator.pm6"
-    },
-    "version" : "0.1.0",
-    "authors" : [
-      "Atrox <mail@atrox.me>"
-    ],
-    "description" : "Generate Heroku-like random names to use in your perl 6 applications."
   },
   {
     "name" : "StrictNamedArguments",
