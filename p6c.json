@@ -274,6 +274,23 @@
     "description" : "Handle CSV data. API based on Text::CSV_XS"
   },
   {
+    "name" : "HTTP::Server::Simple",
+    "source-url" : "git://github.com/gfldex/http-server-simple.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "HTTP::Server::Simple" : "lib/HTTP/Server/Simple.pm6",
+      "HTTP::Server::Simple::PSGI" : "lib/HTTP/Server/Simple/PSGI.pm6"
+    },
+    "version" : "0.1.2",
+    "authors" : [
+      "Martin Berends",
+      "Wenzel P. P. Peppmeyer"
+    ],
+    "description" : "Simple webserver module, with PSGI support"
+  },
+  {
     "name" : "MPD",
     "source-url" : "git://github.com/tadzik/perl6-MPD.git",
     "perl" : "6.*",
@@ -1495,81 +1512,6 @@
     },
     "version" : "*",
     "description" : "Automagic integrator for models (first order ODEs)"
-  },
-  {
-    "name" : "panda",
-    "support" : {
-      "source" : "git://github.com/tadzik/panda.git",
-      "bugtracker" : "https://github.com/tadzik/panda/issues"
-    },
-    "source-url" : "git://github.com/tadzik/panda.git",
-    "perl" : "6.c",
-    "depends" : [
-      "File::Find",
-      "Shell::Command",
-      "JSON::Fast",
-      "File::Which"
-    ],
-    "provides" : {
-      "Panda::Tester" : "lib/Panda/Tester.pm",
-      "Panda::Fetcher" : "lib/Panda/Fetcher.pm",
-      "Panda::Reporter" : "lib/Panda/Reporter.pm",
-      "Panda::Installer" : "lib/Panda/Installer.pm",
-      "Panda::Ecosystem" : "lib/Panda/Ecosystem.pm",
-      "Panda::Builder" : "lib/Panda/Builder.pm",
-      "Panda::App" : "lib/Panda/App.pm",
-      "Panda::Bundler" : "lib/Panda/Bundler.pm",
-      "Panda" : "lib/Panda.pm",
-      "Panda::Common" : "lib/Panda/Common.pm",
-      "Panda::Project" : "lib/Panda/Project.pm"
-    },
-    "license" : "MIT",
-    "version" : "2016.02",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-      "Ahmad M. Zawawi",
-      "Alex Kotov",
-      "Andrew Egeler",
-      "Bartlomiej Palmowski",
-      "Ben Tyler",
-      "Caleb Cushing",
-      "Carlin",
-      "Carl M\u00e4sak",
-      "Dagur",
-      "David Warring",
-      "Donald Hunter",
-      "Elizabeth Mattijsen",
-      "flussence",
-      "Geoffrey Broadwell",
-      "Heather",
-      "Ilya Chesnokov",
-      "jnthn",
-      "Jonathan \"Duke\" Leto",
-      "Jonathan Scott Duff",
-      "Jonathan Stowe",
-      "Jorn van Engelen",
-      "Kamil Ku\u0142aga",
-      "laben",
-      "Moritz Lenz",
-      "Mouq",
-      "nbrown",
-      "Nick Logan",
-      "Panu Ervamaa",
-      "Paul Cochrane",
-      "raydiak",
-      "Rob Hoelz",
-      "Shlomi Fish",
-      "Siddhant Saraf",
-      "Solomon Foster",
-      "Stefan Seifert",
-      "Steve Mynott",
-      "Tim Bunce",
-      "Timo Paulssen",
-      "Tim Smith",
-      "Tobias Leich",
-      "tony-o"
-    ],
-    "description" : "A module manager"
   },
   {
     "name" : "Cache::Memcached",
@@ -3544,20 +3486,6 @@
     "description" : "The only fake threads in Perl 6"
   },
   {
-    "name" : "Debugger::UI::CommandLine",
-    "source-url" : "git://github.com/jnthn/rakudo-debugger.git",
-    "perl" : "6.*",
-    "depends" : [
-      "Terminal::ANSIColor"
-    ],
-    "provides" : {
-      "Debugger::UI::CommandLine" : "lib/Debugger/UI/CommandLine.pm"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "description" : "Command-line debugger frontend for Rakudo"
-  },
-  {
     "name" : "File::Find::Duplicates",
     "source-url" : "git://github.com/labster/perl6-File-Find-Duplicates.git",
     "author" : "Brent Laabs",
@@ -3600,6 +3528,18 @@
     "license" : "Artistic 2.0",
     "version" : "0.0.8",
     "description" : "Perl 6 grammars for parsing PDF Content Streams and File Structure"
+  },
+  {
+    "name" : "File::Compare",
+    "source-url" : "git://github.com/labster/perl6-File-Compare.git",
+    "perl" : "6.*",
+    "author" : "labster",
+    "depends" : [ ],
+    "provides" : {
+      "File::Compare" : "lib/File/Compare.pm6"
+    },
+    "version" : "*",
+    "description" : "Compare files to check for equality/difference"
   },
   {
     "name" : "HTML::Strip",
@@ -4207,74 +4147,6 @@
     },
     "version" : "0.0.1",
     "description" : "Implementation of http://questhub.io API + CLI"
-  },
-  {
-    "name" : "File::Find",
-    "source-url" : "git://github.com/tadzik/File-Find.git",
-    "support" : {
-      "source" : "git://github.com/tadzik/File-Find.git",
-      "bugtracker" : "https://github.com/tadzik/File-Find/issues"
-    },
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "File::Find" : "lib/File/Find.pm"
-    },
-    "version" : "0.1",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-      "Dagur Valberg Johansson",
-      "Elizabeth Mattijsen",
-      "Filip Sergot",
-      "GlitchMr",
-      "Heather",
-      "isleofmax",
-      "Moritz Lenz",
-      "Paul Cochrane",
-      "Steve Mynott",
-      "timo",
-      "Tobias Leich"
-    ],
-    "description" : "File::Find for Perl 6"
-  },
-  {
-    "name" : "Shell::Command",
-    "source-url" : "git://github.com/tadzik/Shell-Command.git",
-    "support" : {
-      "source" : "git://github.com/tadzik/Shell-Command.git",
-      "bugtracker" : "https://github.com/tadzik/Shell-Command/issues"
-    },
-    "perl" : "6.*",
-    "build-depends" : [
-      "File::Find"
-    ],
-    "depends" : [
-      "File::Which",
-      "File::Find"
-    ],
-    "provides" : {
-      "Shell::Command" : "lib/Shell/Command.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "*",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-      "Dagur Valberg Johansson",
-      "Elizabeth Mattijsen",
-      "Filip Sergot",
-      "Geoffrey Broadwell",
-      "GlitchMr",
-      "Heather",
-      "Kamil Ku\u0142aga",
-      "Moritz Lenz",
-      "Steve Mynott",
-      "timo",
-      "Tobias Leich",
-      "Tim Smith"
-    ],
-    "description" : "Common shell command replacements"
   },
   {
     "name" : "JSON::Unmarshal",
