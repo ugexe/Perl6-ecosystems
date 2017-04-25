@@ -274,23 +274,6 @@
     "description" : "Handle CSV data. API based on Text::CSV_XS"
   },
   {
-    "name" : "HTTP::Server::Simple",
-    "source-url" : "git://github.com/gfldex/http-server-simple.git",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "HTTP::Server::Simple" : "lib/HTTP/Server/Simple.pm6",
-      "HTTP::Server::Simple::PSGI" : "lib/HTTP/Server/Simple/PSGI.pm6"
-    },
-    "version" : "0.1.2",
-    "authors" : [
-      "Martin Berends",
-      "Wenzel P. P. Peppmeyer"
-    ],
-    "description" : "Simple webserver module, with PSGI support"
-  },
-  {
     "name" : "MPD",
     "source-url" : "git://github.com/tadzik/perl6-MPD.git",
     "perl" : "6.*",
@@ -3617,18 +3600,6 @@
     "license" : "Artistic 2.0",
     "version" : "0.0.8",
     "description" : "Perl 6 grammars for parsing PDF Content Streams and File Structure"
-  },
-  {
-    "name" : "File::Compare",
-    "source-url" : "git://github.com/labster/perl6-File-Compare.git",
-    "perl" : "6.*",
-    "author" : "labster",
-    "depends" : [ ],
-    "provides" : {
-      "File::Compare" : "lib/File/Compare.pm6"
-    },
-    "version" : "*",
-    "description" : "Compare files to check for equality/difference"
   },
   {
     "name" : "HTML::Strip",
