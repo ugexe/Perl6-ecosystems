@@ -111,18 +111,6 @@
     "description" : "Simple polynomial class"
   },
   {
-    "name" : "Math::Vector",
-    "source-url" : "git://github.com/colomon/Math-Vector.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [ ],
-    "provides" : {
-      "Math::Vector" : "lib/Math/Vector.pm"
-    },
-    "version" : "*",
-    "description" : "Vector math class"
-  },
-  {
     "name" : "Math::ContinuedFractions",
     "source-url" : "git://github.com/colomon/Math-ContinuedFractions.git",
     "source-type" : "git",
@@ -345,20 +333,6 @@
     },
     "version" : "*",
     "description" : "Perform diffs on files and record sets"
-  },
-  {
-    "name" : "MIME::Base64",
-    "source-url" : "git://github.com/perl6/Perl6-MIME-Base64.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "author" : "github:retupmoca",
-    "depends" : [ ],
-    "provides" : {
-      "MIME::Base64::Perl" : "lib/MIME/Base64/Perl.pm6",
-      "MIME::Base64" : "lib/MIME/Base64.pm6"
-    },
-    "version" : "1.2",
-    "description" : "Encoding and decoding Base64 ASCII strings"
   },
   {
     "name" : "Test::Mock",
@@ -1364,22 +1338,6 @@
     "description" : "Literate programming (\u00e0 la Haskell) in Perl 6"
   },
   {
-    "name" : "LWP::Simple",
-    "source-url" : "git://github.com/perl6/perl6-lwp-simple.git",
-    "authority" : "perl6",
-    "perl" : "6.*",
-    "author" : "Cosimo Streppone",
-    "depends" : [
-      "MIME::Base64",
-      "URI"
-    ],
-    "provides" : {
-      "LWP::Simple" : "lib/LWP/Simple.pm"
-    },
-    "version" : "0.090",
-    "description" : "LWP::Simple quick & dirty implementation for Rakudo Perl 6"
-  },
-  {
     "name" : "SVG",
     "source-url" : "git://github.com/moritz/svg.git",
     "perl" : "6.*",
@@ -1453,23 +1411,6 @@
     },
     "version" : "0.04",
     "description" : "Simple Perl 6 class to calculate a CRC32 checksum of a string"
-  },
-  {
-    "name" : "Digest::MD5",
-    "source-url" : "git://github.com/cosimo/perl6-digest-md5.git",
-    "authority" : "cosimo",
-    "perl" : "6.*",
-    "author" : "Cosimo Streppone",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "Digest::MD5" : "lib/Digest/MD5.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "0.05",
-    "description" : "Perl6 port of Perl5' Digest::MD5 module"
   },
   {
     "name" : "Math::Model",
@@ -1739,22 +1680,6 @@
     "description" : "Simple rule profiling for Perl 6 grammars"
   },
   {
-    "name" : "URI",
-    "source-url" : "git://github.com/perl6-community-modules/uri.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "URI::DefaultPort" : "lib/URI/DefaultPort.pm",
-      "URI" : "lib/URI.pm",
-      "IETF::RFC_Grammar::URI" : "lib/IETF/RFC_Grammar/URI.pm",
-      "IETF::RFC_Grammar::IPv6" : "lib/IETF/RFC_Grammar/IPv6.pm",
-      "IETF::RFC_Grammar" : "lib/IETF/RFC_Grammar.pm",
-      "URI::Escape" : "lib/URI/Escape.pm"
-    },
-    "version" : "v0.1.3",
-    "description" : "A URI implementation using Perl 6 grammars to implement RFC 3986 BNF"
-  },
-  {
     "name" : "Algorithm::Soundex",
     "source-url" : "git://github.com/leto/perl6-Algorithm-Soundex.git",
     "perl" : "6.*",
@@ -1842,70 +1767,6 @@
     "description" : "A Perl 6 wrapper around SDL 1.2"
   },
   {
-    "name" : "IRC::Utils",
-    "source-url" : "git://github.com/perl6-community-modules/p6-irc-utils.git",
-    "authority" : "soh-cah-toa",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "author" : "Kevin Polulak",
-    "depends" : [ ],
-    "provides" : {
-      "IRC::Utils" : "lib/IRC/Utils.pm"
-    },
-    "version" : "0.2.0",
-    "description" : "A Perl 6 port of the IRC::Utils module"
-  },
-  {
-    "name" : "Test::Builder",
-    "source-url" : "git://github.com/perl6-community-modules/p6-test-builder.git",
-    "authority" : "soh-cah-toa",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "author" : "Kevin Polulak",
-    "depends" : [ ],
-    "provides" : {
-      "Test::Builder::Test" : "lib/Test/Builder/Test.pm",
-      "Test::Builder::Plan" : "lib/Test/Builder/Plan.pm",
-      "Test::Builder::Output" : "lib/Test/Builder/Output.pm",
-      "Test::Builder" : "lib/Test/Builder.pm"
-    },
-    "version" : "0.0.1",
-    "description" : "Flexible framework for building TAP test libraries"
-  },
-  {
-    "name" : "YAML",
-    "source-url" : "git://github.com/perl6-community-modules/yaml-pm6.git",
-    "perl" : "6.*",
-    "author" : "Ingy d\u00f6t Net <ingy@cpan.org>",
-    "depends" : [
-      "TestML"
-    ],
-    "provides" : {
-      "YAML::Dumper" : "lib/YAML/Dumper.pm",
-      "YAML" : "lib/YAML.pm"
-    },
-    "version" : "*",
-    "description" : "YAML Ain\u2019t Markup Language"
-  },
-  {
-    "name" : "TestML",
-    "source-url" : "git://github.com/perl6-community-modules/testml-pm6.git",
-    "perl" : "6.*",
-    "author" : "Ingy d\u00f6t Net <ingy@cpan.org>",
-    "depends" : [ ],
-    "provides" : {
-      "TestML::Runner::TAP" : "lib/TestML/Runner/TAP.pm",
-      "TestML::Runner" : "lib/TestML/Runner.pm",
-      "TestML::Standard" : "lib/TestML/Standard.pm",
-      "TestML::Parser::Grammar" : "lib/TestML/Parser/Grammar.pm",
-      "TestML" : "lib/TestML.pm",
-      "TestML::Parser" : "lib/TestML/Parser.pm",
-      "TestML::Document" : "lib/TestML/Document.pm"
-    },
-    "version" : "*",
-    "description" : "A Generic Software Testing Meta Language"
-  },
-  {
     "name" : "XXX",
     "source-url" : "git://github.com/ingydotnet/xxx-pm6.git",
     "author" : "Ingy d\u00f6t Net <ingy@cpan.org>",
@@ -1917,19 +1778,6 @@
     },
     "version" : "*",
     "description" : "See Your Data in the Nude"
-  },
-  {
-    "name" : "Pod::To::HTML",
-    "source-url" : "git://github.com/perl6/Pod-To-HTML.git",
-    "perl" : "6.*",
-    "depends" : [
-      "URI"
-    ],
-    "provides" : {
-      "Pod::To::HTML" : "lib/Pod/To/HTML.pm"
-    },
-    "version" : "0.3.7",
-    "description" : "Convert Perl 6 Pod to HTML"
   },
   {
     "name" : "Bailador",
@@ -1992,24 +1840,6 @@
       "Martin Barth (ufobat) "
     ],
     "description" : "A bare-bones Dancer port"
-  },
-  {
-    "name" : "Form",
-    "source-url" : "git://github.com/perl6/form.git",
-    "perl" : "6.*",
-    "author" : "Matthew Walton",
-    "depends" : [ ],
-    "provides" : {
-      "Form" : "lib/Form.pm",
-      "Form::Actions" : "lib/Form/Actions.pm",
-      "Form::TextFormatting" : "lib/Form/TextFormatting.pm",
-      "Form::Grammar" : "lib/Form/Grammar.pm",
-      "Form::NumberFormatting" : "lib/Form/NumberFormatting.pm",
-      "Form::Types" : "lib/Form/Types.pm",
-      "Form::Field" : "lib/Form/Field.pm"
-    },
-    "version" : "*",
-    "description" : "A Perl 6 implementation of Perl 6-style string formatting."
   },
   {
     "name" : "Text::T9",
@@ -2675,19 +2505,6 @@
     "description" : "Database connectivity for Perl 6"
   },
   {
-    "name" : "Date::WorkdayCalendar",
-    "source-url" : "git://github.com/perl6-community-modules/Date-WorkdayCalendar.git",
-    "perl" : "6.*",
-    "author" : "github:shinobi",
-    "depends" : [ ],
-    "provides" : {
-      "Workdate" : "lib/Date/WorkdayCalendar.pm",
-      "WorkdayCalendar" : "lib/Date/WorkdayCalendar.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "Calendar and Date objects to handle business days, holidays and weekends"
-  },
-  {
     "name" : "Acme::Addslashes",
     "source-url" : "git://github.com/xfix/perl6-Acme-Addslashes.git",
     "perl" : "6.*",
@@ -2773,36 +2590,6 @@
     "description" : "An adventure game."
   },
   {
-    "name" : "p6doc",
-    "source-url" : "git://github.com/perl6/doc.git",
-    "perl" : "6.*",
-    "build-depends" : [
-      "File::Find"
-    ],
-    "depends" : [
-      "URI",
-      "File::Temp",
-      "JSON::Fast",
-      "Pod::To::BigPage",
-      "Pod::To::HTML",
-      "OO::Monitors",
-      "IO::String"
-    ],
-    "provides" : {
-      "Pod::To::SectionFilter" : "lib/Pod/To/SectionFilter.pm",
-      "Perl6::Documentable" : "lib/Perl6/Documentable.pm",
-      "Pod::Htmlify" : "lib/Pod/Htmlify.pm6",
-      "Perl6::TypeGraph" : "lib/Perl6/TypeGraph.pm",
-      "Perl6::TypeGraph::Viz" : "lib/Perl6/TypeGraph/Viz.pm",
-      "Perl6::Documentable::Registry" : "lib/Perl6/Documentable/Registry.pm",
-      "Pod::Convenience" : "lib/Pod/Convenience.pm6",
-      "Perl6::Type" : "lib/Perl6/Type.pm"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "description" : "Perl 6 documentation (tools and docs)"
-  },
-  {
     "name" : "Class::Utils",
     "source-url" : "git://github.com/sirrobert/Class-Utils.git",
     "author" : "Sir Robert Burbridge",
@@ -2856,52 +2643,6 @@
     "description" : "A Perl 6 module to deal with W3CDTF dates"
   },
   {
-    "name" : "Sitemap::XML::Parser",
-    "source-url" : "git://github.com/afiskon/p6-sitemap-xml-parser.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [
-      "LWP::Simple",
-      "URI",
-      "XML::Parser::Tiny",
-      "DateTime::Format::W3CDTF",
-      "Test::Mock"
-    ],
-    "provides" : {
-      "Sitemap::XML::Parser" : "lib/Sitemap/XML/Parser.pm"
-    },
-    "version" : "*",
-    "description" : "Module for parsing sitemap.xml files"
-  },
-  {
-    "name" : "Digest::PSHA1",
-    "source-url" : "git://github.com/FROGGS/p6-Digest-PSHA1.git",
-    "perl" : "6.*",
-    "author" : "github:FROGGS",
-    "depends" : [
-      "Digest",
-      "Digest::HMAC"
-    ],
-    "provides" : {
-      "Digest::PSHA1" : "lib/Digest/PSHA1.pm"
-    },
-    "version" : "1.0.0",
-    "description" : "pseudorandom hashing algorithm as per rfc5246"
-  },
-  {
-    "name" : "Games::BubbleBreaker",
-    "source-url" : "git://github.com/FROGGS/p6-Games-BubbleBreaker.git",
-    "perl" : "6.*",
-    "depends" : [
-      "SDL"
-    ],
-    "provides" : {
-      "Games::BubbleBreaker" : "lib/Games/BubbleBreaker.pm6"
-    },
-    "version" : "*",
-    "description" : "A mouse based logic game"
-  },
-  {
     "name" : "Sum",
     "emulates" : {
       "Sum::Digest::MD5" : "Digest::MD5:auth<skids>"
@@ -2943,105 +2684,6 @@
     },
     "version" : "0.1.0",
     "description" : "conditionally use packages"
-  },
-  {
-    "name" : "Inline",
-    "source-url" : "git://github.com/FROGGS/p6-Inline-C.git",
-    "perl" : "6.*",
-    "author" : "github:FROGGS",
-    "depends" : [ ],
-    "provides" : {
-      "Inline" : "lib/Inline.pm",
-      "Inline::C" : "lib/Inline/C.pm"
-    },
-    "version" : "1.0.1",
-    "description" : "use C-code from within Perl"
-  },
-  {
-    "name" : "JSON::Pretty",
-    "source-url" : "git://github.com/FROGGS/p6-JSON-Pretty.git",
-    "perl" : "6.*",
-    "author" : "github:FROGGS",
-    "depends" : [
-      "JSON::Tiny"
-    ],
-    "provides" : {
-      "JSON::Pretty" : "lib/JSON/Pretty.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "A minimal JSON (de)serializer that produces easily readable JSON"
-  },
-  {
-    "name" : "Slang::Tuxic",
-    "source-url" : "git://github.com/FROGGS/p6-Slang-Tuxic.git",
-    "perl" : "6.*",
-    "author" : "github:FROGGS",
-    "depends" : [ ],
-    "provides" : {
-      "Slang::Tuxic" : "lib/Slang/Tuxic.pm"
-    },
-    "version" : "0.0.1",
-    "description" : "allows to call subs as: foo (args)"
-  },
-  {
-    "name" : "Slang::Piersing",
-    "source-url" : "git://github.com/FROGGS/p6-Slang-Piersing.git",
-    "perl" : "6.*",
-    "author" : "github:FROGGS",
-    "depends" : [ ],
-    "provides" : {
-      "Slang::Piersing" : "lib/Slang/Piersing.pm"
-    },
-    "version" : "0.0.1",
-    "description" : "allows identifier names like 'foo?' and 'foo!'"
-  },
-  {
-    "name" : "overload::constant",
-    "source-url" : "git://github.com/FROGGS/p6-overload-constant.git",
-    "perl" : "6.*",
-    "author" : "github:FROGGS",
-    "depends" : [ ],
-    "provides" : {
-      "overload::constant" : "lib/overload/constant.pm"
-    },
-    "version" : "0.0.1",
-    "description" : "allows to intercept parsing of num/str literals"
-  },
-  {
-    "name" : "IDNA::Punycode",
-    "source-url" : "git://github.com/FROGGS/p6-IDNA-Punycode.git",
-    "perl" : "6.*",
-    "author" : "github:FROGGS",
-    "depends" : [ ],
-    "provides" : {
-      "IDNA::Punycode" : "lib/IDNA/Punycode.pm"
-    },
-    "version" : "1.0.0",
-    "description" : "Punycode implementation according to RFC3492"
-  },
-  {
-    "name" : "Foo",
-    "source-url" : "git://github.com/FROGGS/p6-Foo-v1.0.0.git",
-    "perl" : "6.*",
-    "author" : "github:FROGGS",
-    "depends" : [ ],
-    "provides" : {
-      "Foo" : "lib/Foo.pm"
-    },
-    "version" : "1.0.0",
-    "description" : "Test for installation of same named dists"
-  },
-  {
-    "name" : "Foo",
-    "source-url" : "git://github.com/FROGGS/p6-Foo-v1.2.0.git",
-    "perl" : "6.*",
-    "author" : "github:FROGGS",
-    "depends" : [ ],
-    "provides" : {
-      "Foo" : "lib/Foo.pm"
-    },
-    "version" : "1.2.0",
-    "description" : "Test for installation of same named dists"
   },
   {
     "name" : "Locale::US",
@@ -3490,20 +3132,6 @@
     "description" : "Read TAP output"
   },
   {
-    "name" : "Digest",
-    "source-url" : "git://github.com/grondilu/libdigest-perl6.git",
-    "perl" : "6.*",
-    "author" : "Lucien Grondin",
-    "depends" : [ ],
-    "provides" : {
-      "Digest::SHA" : "lib/Digest/SHA.pm",
-      "Digest" : "lib/Digest.pm",
-      "Digest::RIPEMD" : "lib/Digest/RIPEMD.pm"
-    },
-    "version" : "0.3.4",
-    "description" : "Pure perl6 implementation of digest algorigthms."
-  },
-  {
     "name" : "Coroutines",
     "source-url" : "git://github.com/tadzik/Coroutines.git",
     "perl" : "6.*",
@@ -3934,17 +3562,6 @@
     "description" : "Perl 6 interface to the Imlib2 image library."
   },
   {
-    "name" : "ignore",
-    "source-url" : "git://github.com/Heather/ignore.git",
-    "perl" : "6.*",
-    "depends" : [
-      "File::Find"
-    ],
-    "provides" : { },
-    "version" : "*",
-    "description" : "cli util that adds stuff to VCS ignore files"
-  },
-  {
     "name" : "IO::Path::More",
     "support" : {
       "irc" : "labster",
@@ -3997,19 +3614,6 @@
     "description" : "A naive, fast json parser and serializer; drop-in replacement for JSON::Tiny"
   },
   {
-    "name" : "GD",
-    "source-url" : "git://github.com/perl6-community-modules/perl6-GD.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "author" : "Henrique Dias",
-    "depends" : [ ],
-    "provides" : {
-      "GD" : "lib/GD.pm"
-    },
-    "version" : "0.0.1",
-    "description" : "Perl 6 interface to the Gd graphics library."
-  },
-  {
     "name" : "App::Uni",
     "source-url" : "git://github.com/coke/p6-uni.git",
     "perl" : "6.c",
@@ -4050,14 +3654,6 @@
     "description" : "Perl 6 interface to the IUP toolkit for building GUI's"
   },
   {
-    "name" : "v5",
-    "source-url" : "git://github.com/rakudo-p5/v5.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "version" : "v0.0.1",
-    "description" : "Reimplementation of Perl 5 Slang"
-  },
-  {
     "name" : "File::Directory::Tree",
     "source-url" : "git://github.com/labster/p6-file-directory-tree.git",
     "author" : "labster",
@@ -4079,32 +3675,6 @@
     },
     "version" : "*",
     "description" : "Check if your filesystem is case sensitive or case tolerant (insensitive)"
-  },
-  {
-    "name" : "GD::Raw",
-    "source-url" : "git://github.com/dagurval/perl6-gd-raw.git",
-    "perl" : "6.*",
-    "author" : "Dagur Valberg Johannsson",
-    "depends" : [ ],
-    "provides" : {
-      "GD::Raw" : "lib/GD/Raw.pm"
-    },
-    "version" : "0.2",
-    "description" : "Low level language bindings to GD Graphics Library"
-  },
-  {
-    "name" : "Image::Resize",
-    "source-url" : "git://github.com/dagurval/perl6-image-resize.git",
-    "perl" : "6.*",
-    "author" : "Dagur Valberg Johannsson",
-    "depends" : [
-      "GD::Raw"
-    ],
-    "provides" : {
-      "Image::Resize" : "lib/Image/Resize.pm6"
-    },
-    "version" : "0.01",
-    "description" : "Resize images using GD"
   },
   {
     "name" : "Phaser::ATEXIT",
@@ -4645,25 +4215,6 @@
     "description" : "Simple templates for Perl 6"
   },
   {
-    "name" : "HTTP::Server::Async",
-    "source-url" : "git://github.com/perl6/perl6-http-server-async.git",
-    "perl" : "6.*",
-    "auth" : "github:tony-o",
-    "depends" : [
-      "HTTP::Server"
-    ],
-    "provides" : {
-      "HTTP::Server::Async::Response" : "lib/HTTP/Server/Async/Response.pm6",
-      "HTTP::Server::Async" : "lib/HTTP/Server/Async.pm6",
-      "HTTP::Server::Async::Request" : "lib/HTTP/Server/Async/Request.pm6"
-    },
-    "version" : "0.1.5",
-    "authors" : [
-      "tony-o"
-    ],
-    "description" : "Asynchronous Base HTTP Server"
-  },
-  {
     "name" : "Template::Mustache",
     "support" : {
       "bugtracker" : "https://github.com/softmoth/p6-Template-Mustache/issues"
@@ -4807,17 +4358,6 @@
     },
     "version" : "0.1.0",
     "description" : "Parse JDF files"
-  },
-  {
-    "name" : "colomon::App::TagTools",
-    "source-url" : "git://github.com/colomon/TagTools.git",
-    "source-type" : "git",
-    "depends" : [
-      "Audio::Taglib::Simple"
-    ],
-    "provides" : { },
-    "version" : "*",
-    "description" : "Scripts for manipulating MP3 tags"
   },
   {
     "name" : "IO::String",
@@ -6356,21 +5896,6 @@
       "Brian S. Julin"
     ],
     "description" : "Perl6 module for deferred error handling"
-  },
-  {
-    "name" : "HTTP::Server",
-    "source-url" : "git://github.com/perl6/perl6-http-server.git",
-    "perl" : "6.*",
-    "author" : "tony-o",
-    "auth" : "github:tony-o",
-    "depends" : [ ],
-    "provides" : {
-      "HTTP::Server" : "lib/HTTP/Server.pm6",
-      "HTTP::Request" : "lib/HTTP/Request.pm6",
-      "HTTP::Response" : "lib/HTTP/Response.pm6"
-    },
-    "version" : "0.1.1",
-    "description" : "role for HTTP::Server so we can have start building out some servers with interchangeable backends"
   },
   {
     "name" : "HTTP::Server::Logger",
@@ -13270,18 +12795,6 @@
     "description" : "Alias $_ topical variable to something prettier"
   },
   {
-    "name" : "Slang::Mosdef",
-    "source-url" : "git://github.com/bduggan/mosdef.git",
-    "perl" : "6.*",
-    "author" : "github:bduggan",
-    "depends" : [ ],
-    "provides" : {
-      "Slang::Mosdef" : "lib/Slang/Mosdef.pm"
-    },
-    "version" : "0.0.1",
-    "description" : "Use def and \u03bb as declarators."
-  },
-  {
     "name" : "\u05d5\u05d5\u05d5",
     "source-url" : "git://github.com/zoffixznet/perl6-666.git",
     "perl" : "6.c",
@@ -13454,25 +12967,6 @@
     },
     "version" : "0.1.7",
     "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, and multi-page support."
-  },
-  {
-    "name" : "Pod::To::BigPage",
-    "source-url" : "git://github.com/gfldex/perl6-pod-to-bigpage.git",
-    "support" : {
-      "source" : "https://github.com/gfldex/perl6-pod-to-bigpage"
-    },
-    "source-type" : "git",
-    "author" : "Wenzel P. P. Peppmeyer",
-    "depends" : [
-      "IO::Socket::SSL",
-      "LWP::Simple"
-    ],
-    "provides" : {
-      "Pod::To::BigPage" : "lib/Pod/To/BigPage.pm6"
-    },
-    "license" : "https://opensource.org/licenses/Artistic-2.0",
-    "version" : "0.2.1",
-    "description" : "Render many pod6-files into one (big) html-file."
   },
   {
     "name" : "Desktop::Notify",
@@ -14191,26 +13685,6 @@
     "description" : "Simple Heap implementation"
   },
   {
-    "name" : "FileSystem::Capacity",
-    "source-url" : "git@github.com:ramiroencinas/perl6-FileSystem-Capacity.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "tags" : [
-      "filesystem",
-      "utils",
-      "capacity"
-    ],
-    "provides" : {
-      "FileSystem::Capacity::DirSize" : "lib/FileSystem/Capacity/DirSize.pm6",
-      "FileSystem::Capacity::VolumesInfo" : "lib/FileSystem/Capacity/VolumesInfo.pm6"
-    },
-    "version" : "*",
-    "authors" : [
-      "Ramiro Encinas Alarza"
-    ],
-    "description" : "Provides filesystem capacity information."
-  },
-  {
     "name" : "Data::MessagePack",
     "source-url" : "git@github.com:pierre-vigier/Perl6-Data-MessagePack.git",
     "perl" : "6.c",
@@ -14355,20 +13829,6 @@
     },
     "version" : "0.0.2",
     "description" : "Perl 6 JavaScript minifier"
-  },
-  {
-    "name" : "Crypt::RSA",
-    "source-url" : "git://github.com/bduggan/p6-crypt-rsa.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Crypt::RSA" : "lib/Crypt/RSA.pm6"
-    },
-    "version" : "0.1.0",
-    "authors" : [
-      "Brian Duggan"
-    ],
-    "description" : "Pure Perl6 implementation of RSA public key encryption."
   },
   {
     "name" : "Concurrent::File::Find",
