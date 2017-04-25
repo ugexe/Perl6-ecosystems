@@ -811,6 +811,21 @@
     "description" : "strftime and other DateTime formatting libraries"
   },
   {
+    "name" : "DateTime::Math",
+    "source-url" : "git://github.com/supernovus/perl6-datetime-math.git",
+    "perl" : "6.*",
+    "depends" : [ ],
+    "provides" : {
+      "DateTime::Math" : "lib/DateTime/Math.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.6.0",
+    "authors" : [
+      "Timothy Totten"
+    ],
+    "description" : "Add common math operations to DateTime objects."
+  },
+  {
     "name" : "DateTime::TimeZone",
     "source-url" : "git://github.com/supernovus/perl6-timezone.git",
     "perl" : "6.*",
@@ -1651,6 +1666,34 @@
     "depends" : [ ],
     "version" : "*",
     "description" : "HMM decoding with the Viterbi algorithm."
+  },
+  {
+    "name" : "JSON::RPC",
+    "source-url" : "git://github.com/bbkr/jsonrpc.git",
+    "authority" : "bbkr",
+    "perl" : "6.c",
+    "repo-type" : "git",
+    "depends" : [
+      "JSON::Tiny",
+      "URI",
+      "HTTP::Easy",
+      "LWP::Simple"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "X::JSON::RPC" : "lib/X/JSON/RPC.pm6",
+      "JSON::RPC::Client" : "lib/JSON/RPC/Client.pm6",
+      "JSON::RPC::Server" : "lib/JSON/RPC/Server.pm6"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.17.2",
+    "description" : "JSON-RPC 2.0 client and server.",
+    "authors" : [
+      "Pawel Pabian    (bbkr)    - Master mind",
+      "Ahmad M. Zawawi (azawawi) - Humble Contributor"
+    ]
   },
   {
     "name" : "BSON",
@@ -5513,6 +5556,23 @@
     },
     "version" : "*",
     "description" : "Portable PNG output for Perl 6"
+  },
+  {
+    "name" : "WebService::Lastfm",
+    "source-url" : "git://github.com/avuserow/perl6-webservice-lastfm.git",
+    "perl" : "6.*",
+    "author" : "Adrian Kreher",
+    "depends" : [
+      "JSON::Tiny",
+      "Digest::MD5",
+      "LWP::Simple",
+      "URI::Encode"
+    ],
+    "provides" : {
+      "WebService::Lastfm" : "lib/WebService/Lastfm.pm6"
+    },
+    "version" : "0.0.2",
+    "description" : "interact with the Last.fm API"
   },
   {
     "name" : "TOML",
