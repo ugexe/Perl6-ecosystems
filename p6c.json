@@ -2947,7 +2947,7 @@
     "support" : {
       "source" : "https://github.com/skids/perl6sum.git"
     },
-    "perl" : "v6.0.0",
+    "perl" : "6.*",
     "emulates" : {
       "Sum::Digest::MD5" : "Digest::MD5:auth<skids>"
     },
@@ -5920,6 +5920,27 @@
     "description" : "Awesome event emitter.  Threaded, or not."
   },
   {
+    "name" : "Grammar::BNF",
+    "support" : {
+      "source" : "https://github.com/tadzik/Grammar-BNF.git"
+    },
+    "source-url" : "https://github.com/tadzik/Grammar-BNF.git",
+    "perl" : "6",
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Slang::ABNF" : "lib/Slang/ABNF.pm",
+      "Slang::BNF" : "lib/Slang/BNF.pm",
+      "Grammar::ABNF" : "lib/Grammar/ABNF.pm",
+      "Grammar::BNF" : "lib/Grammar/BNF.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "v0.1.0",
+    "description" : "Parse BNF and ABNF grammars and generate Perl 6 grammars from them"
+  },
+  {
     "name" : "Log::Syslog::Native",
     "perl" : "6.c",
     "support" : {
@@ -6471,17 +6492,17 @@
     "support" : {
       "source" : "https://github.com/skids/perl6-Control-Bail.git"
     },
-    "perl" : 6,
+    "perl" : "6",
     "depends" : [ ],
     "provides" : {
       "Control::Bail" : "lib/Control/Bail.pm6"
     },
     "license" : "Artistic-2.0",
     "version" : "v0.0.1",
+    "description" : "Perl6 module for deferred error handling",
     "authors" : [
       "Brian S. Julin"
-    ],
-    "description" : "Perl6 module for deferred error handling"
+    ]
   },
   {
     "name" : "HTTP::Server",
