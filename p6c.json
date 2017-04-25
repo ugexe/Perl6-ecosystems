@@ -314,39 +314,6 @@
     "description" : "Simple list utility subs"
   },
   {
-    "name" : "Algorithm::Diff",
-    "source-url" : "git://github.com/Takadonet/Algorithm--Diff.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "Algorithm::Diff" : "lib/Algorithm/Diff.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "*",
-    "description" : "Contains several interfaces for which computing the differences between two lists."
-  },
-  {
-    "name" : "Text::Diff",
-    "source-url" : "git://github.com/Takadonet/Text--Diff.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [
-      "Algorithm::Diff"
-    ],
-    "provides" : {
-      "Text::Diff::OldStyle" : "lib/Text/Diff/OldStyle.pm",
-      "Text::Diff" : "lib/Text/Diff.pm",
-      "Text::Diff::Unified" : "lib/Text/Diff/Unified.pm",
-      "Text::Diff::Table" : "lib/Text/Diff/Table.pm"
-    },
-    "version" : "*",
-    "description" : "Perform diffs on files and record sets"
-  },
-  {
     "name" : "ABC",
     "source-url" : "git://github.com/colomon/ABC.git",
     "perl" : "6.*",
@@ -4356,6 +4323,31 @@
     "description" : "decompose file path"
   },
   {
+    "name" : "CLDR::List",
+    "source-url" : "git://github.com/patch/cldr-list-pm6.git",
+    "perl" : "6.*",
+    "author" : "Nova Patch",
+    "depends" : [ ],
+    "provides" : {
+      "CLDR::List" : "lib/CLDR/List.pm"
+    },
+    "version" : "*",
+    "description" : "Localized list formatters using the Unicode CLDR"
+  },
+  {
+    "name" : "Geo::Region",
+    "source-url" : "git://github.com/patch/geo-region-pm6.git",
+    "perl" : "6.*",
+    "author" : "Nick Patch",
+    "depends" : [ ],
+    "provides" : {
+      "Geo::Region" : "lib/Geo/Region.pm",
+      "Geo::Region::Enum" : "lib/Geo/Region/Enum.pm"
+    },
+    "version" : "*",
+    "description" : "Geographical regions and groupings using UN M.49 and CLDR data"
+  },
+  {
     "name" : "Rakudo::Perl6::Parsing",
     "source-url" : "git://github.com/jaffa4/perl6parsing.git",
     "perl" : "6.*",
@@ -4696,6 +4688,19 @@
     "description" : "such \"foo\" is \"bar\" wow"
   },
   {
+    "name" : "SP6",
+    "source-url" : "git://github.com/mj41/SP6.git",
+    "source-type" : "git",
+    "author" : "Michal Jurosz",
+    "depends" : [ ],
+    "provides" : {
+      "SP6::ProcessMethods" : "lib/SP6/ProcessMethods.pm6",
+      "SP6" : "lib/SP6.pm6"
+    },
+    "version" : "0.1.1",
+    "description" : "Simple templates for Perl 6"
+  },
+  {
     "name" : "HTTP::Server::Async",
     "source-url" : "git://github.com/perl6/perl6-http-server-async.git",
     "perl" : "6.*",
@@ -4893,6 +4898,29 @@
     },
     "version" : "0.1.0",
     "description" : "Implementation of the longest common subsequence algorithm"
+  },
+  {
+    "name" : "Sprockets",
+    "source-url" : "git://github.com/vendethiel/Sprockets.pl.git",
+    "perl" : "6.*",
+    "author" : "github:vendethiel",
+    "provides" : {
+      "Sprockets" : "lib/Sprockets.pm"
+    },
+    "version" : "*",
+    "description" : "Ruby Sprockets-like"
+  },
+  {
+    "name" : "Serialize::Tiny",
+    "source-url" : "git://github.com/vendethiel/Serialize-Tiny.pm6.git",
+    "perl" : "6.*",
+    "author" : "vendethiel",
+    "depends" : [ ],
+    "provides" : {
+      "Serialize::Tiny" : "lib/Serialize/Tiny.pm"
+    },
+    "version" : "1",
+    "description" : "A very simple `serialize` sub to get public attribute values"
   },
   {
     "name" : "Clifford",
@@ -6190,6 +6218,22 @@
     "description" : "Converts scripts into colour syntax HTML using vim. "
   },
   {
+    "name" : "HTTP::Server::Threaded",
+    "source-url" : "git://github.com/tony-o/perl6-http-server-threaded.git",
+    "perl" : "6.*",
+    "auth" : "github:tony-o",
+    "depends" : [
+      "HTTP::Server"
+    ],
+    "provides" : {
+      "HTTP::Server::Threaded::Request" : "lib/HTTP/Server/Threaded/Request.pm6",
+      "HTTP::Server::Threaded" : "lib/HTTP/Server/Threaded.pm6",
+      "HTTP::Server::Threaded::Response" : "lib/HTTP/Server/Threaded/Response.pm6"
+    },
+    "version" : "0.1.0",
+    "description" : "Threaded Base HTTP Server"
+  },
+  {
     "name" : "Template::Anti",
     "perl" : "6.c",
     "source-url" : "git://github.com/zostay/Template-Anti.git",
@@ -7330,6 +7374,23 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk"
     ]
+  },
+  {
+    "name" : "Pekyll",
+    "source-url" : "git://github.com/nunorc/p6-Pekyll.git",
+    "perl" : "6.*",
+    "author" : "github:nunorc",
+    "depends" : [
+      "Template6",
+      "Syndication"
+    ],
+    "provides" : {
+      "Pekyll" : "lib/Pekyll.pm6",
+      "Pekyll::Compilers" : "lib/Pekyll/Compilers.pm6",
+      "Pekyll::Routers" : "lib/Pekyll/Routers.pm6"
+    },
+    "version" : "*",
+    "description" : "A static website generator."
   },
   {
     "name" : "Green",
@@ -8696,18 +8757,6 @@
     "description" : "A simple module for your configuration file need"
   },
   {
-    "name" : "Hydrate",
-    "source-url" : "git://github.com/vendethiel/hydrate6.git",
-    "perl" : "v6",
-    "author" : "vendethiel",
-    "depends" : [ ],
-    "provides" : {
-      "Hydrate" : "lib/Hydrate.pm"
-    },
-    "version" : "*",
-    "description" : "A simple hydration module"
-  },
-  {
     "name" : "Terminal::WCWidth",
     "source-url" : "git://github.com/bluebear94/Terminal-WCWidth.git",
     "perl" : "6.*",
@@ -9519,6 +9568,25 @@
     "description" : "SOP API authentication"
   },
   {
+    "name" : "PKafka",
+    "source-url" : "git://github.com/mempko/PKafka.git",
+    "perl" : "6",
+    "depends" : [ ],
+    "provides" : {
+      "PKafka::Config" : "lib/PKafka/Config.pm6",
+      "PKafka::Producer" : "lib/PKafka/Producer.pm6",
+      "PKafka::Native" : "lib/PKafka/Native.pm6",
+      "PKafka::Consumer" : "lib/PKafka/Consumer.pm6",
+      "PKafka::Message" : "lib/PKafka/Message.pm6",
+      "PKafka::Kafka" : "lib/PKafka/Kafka.pm6"
+    },
+    "version" : "0.4",
+    "authors" : [
+      "Maxim Noah Khailo"
+    ],
+    "description" : "Apache Kafka client"
+  },
+  {
     "name" : "App::GPTrixie",
     "source-url" : "git://github.com/Skarsnik/gptrixie.git",
     "perl" : "6.*",
@@ -9772,24 +9840,6 @@
     },
     "version" : "0.1.0",
     "description" : "(DEPRECATED) Helper library for using resources made of native code"
-  },
-  {
-    "name" : "Email::Notmuch",
-    "source-url" : "git://github.com/goneri/p6-Email-Notmuch.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "test-depends" : [
-      "File::Temp",
-      "Test"
-    ],
-    "provides" : {
-      "Email::Notmuch" : "lib/Email/Notmuch.pm6"
-    },
-    "version" : "0.3",
-    "authors" : [
-      "Gon\u00e9ri Le Bouder"
-    ],
-    "description" : "lib NotmuchMail binding"
   },
   {
     "name" : "Concurrent::Iterator",
@@ -11255,6 +11305,21 @@
     ]
   },
   {
+    "name" : "Scientist",
+    "source-url" : "git://github.com/lancew/ScientistP6.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Scientist" : "lib/Scientist.pm"
+    },
+    "version" : "0.0.2",
+    "authors" : [
+      "Lance Wicks"
+    ],
+    "description" : "Perl 6 Scientist - Test new code against old."
+  },
+  {
     "name" : "Util::Bitfield",
     "source-url" : "git://github.com/jonathanstowe/Util-Bitfield.git",
     "support" : {
@@ -12526,6 +12591,27 @@
     "description" : "Take a snapshot of the installed modules for later reinstallation"
   },
   {
+    "name" : "Audio::OggVorbis",
+    "source-url" : "git://github.com/Xliff/p6-audio-oggvorbis.git",
+    "perl" : "6.c",
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Audio::OggVorbis::Ogg" : "lib/Audio/OggVorbis/Ogg.pm",
+      "Audio::OggVorbis::Vorbis" : "lib/Audio/OggVorbis/Vorbis.pm",
+      "Audio::OggVorbis::VorbisEnc" : "lib/Audio/OggVorbis/VorbisEnc.pm"
+    },
+    "test-depends" : [
+      "Test::META"
+    ],
+    "version" : "0.0.1",
+    "description" : "Perl6 bindings for libogg, libvorbis and libvorbisenc",
+    "authors" : [
+      "github:Xliff",
+      "Clifton Wood"
+    ]
+  },
+  {
     "name" : "Bailador::Dev::AutoRestarter",
     "source-url" : "git://github.com/zoffixznet/perl6-Bailador-Dev-AutoRestarter.git",
     "perl" : "6.c",
@@ -13588,18 +13674,6 @@
       "Peter Pentchev"
     ],
     "description" : "Process single-character options with option clustering"
-  },
-  {
-    "name" : "Math::Arrow",
-    "source-url" : "git://github.com/ajs/perl6-Math-Arrow",
-    "perl" : "6.c",
-    "source-type" : "git",
-    "depends" : [ ],
-    "provides" : {
-      "Math::Arrow" : "lib/Math/Arrow.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "Knuth arrow notation in Perl 6"
   },
   {
     "name" : "CoreHackers::Sourcery",
