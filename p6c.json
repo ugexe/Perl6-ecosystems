@@ -73,21 +73,6 @@
     "description" : "Simple Mandelbrot Set scripts"
   },
   {
-    "name" : "IO::Prompter",
-    "source-url" : "git://github.com/colomon/io-prompter.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "repo-type" : "git",
-    "depends" : [
-      "Testing"
-    ],
-    "provides" : {
-      "IO::Prompter" : "lib/IO/Prompter.pm"
-    },
-    "version" : "*",
-    "description" : "Damian Conway's IO::Prompter"
-  },
-  {
     "name" : "Math::FourierTransform",
     "source-url" : "git://github.com/MattOates/Math--FourierTransform.git",
     "source-type" : "git",
