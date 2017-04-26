@@ -3649,6 +3649,7 @@
       "HTML::Strip" : "lib/HTML/Strip.pm6",
       "HTML::Strip::Decode" : "lib/HTML/Strip/Decode.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "description" : "Strip HTML markup from text"
   },
@@ -4190,6 +4191,7 @@
     "provides" : {
       "GD::Raw" : "lib/GD/Raw.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.2",
     "description" : "Low level language bindings to GD Graphics Library"
   },
@@ -10477,24 +10479,6 @@
       "Sylvain Colinet <scolinet@gmail.com>"
     ],
     "description" : "Provide info about a process memory usage"
-  },
-  {
-    "name" : "Finance::CompoundInterest",
-    "source-url" : "git://github.com/peelle/Finance-CompoundInterest.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
-    "provides" : {
-      "Finance::CompoundInterest" : "lib/Finance/CompoundInterest.pm"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.1.0",
-    "authors" : [
-      "James (Jeremy) Carman <developer@peelle.org>"
-    ],
-    "description" : "Compound Interest calculations for fun and profit."
   },
   {
     "name" : "AttrX::PrivateAccessor",
