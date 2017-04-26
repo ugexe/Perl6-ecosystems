@@ -1886,18 +1886,19 @@
   },
   {
     "name" : "Test::Builder",
-    "source-url" : "git://github.com/perl6-community-modules/p6-test-builder.git",
-    "authority" : "soh-cah-toa",
     "perl" : "6.*",
-    "source-type" : "git",
+    "authority" : "soh-cah-toa",
+    "source-url" : "git://github.com/perl6-community-modules/p6-test-builder.git",
     "author" : "Kevin Polulak",
+    "source-type" : "git",
     "depends" : [ ],
     "provides" : {
-      "Test::Builder::Test" : "lib/Test/Builder/Test.pm",
       "Test::Builder::Plan" : "lib/Test/Builder/Plan.pm",
+      "Test::Builder::Test" : "lib/Test/Builder/Test.pm",
       "Test::Builder::Output" : "lib/Test/Builder/Output.pm",
       "Test::Builder" : "lib/Test/Builder.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.0.1",
     "description" : "Flexible framework for building TAP test libraries"
   },
@@ -2886,14 +2887,15 @@
   },
   {
     "name" : "Redis",
-    "source-url" : "git://github.com/Cofyc/perl6-redis.git",
     "perl" : "6.*",
-    "source-type" : "git",
+    "source-url" : "git://github.com/Cofyc/perl6-redis.git",
     "author" : "Yecheng Fu",
+    "source-type" : "git",
     "depends" : [ ],
     "provides" : {
       "Redis" : "lib/Redis.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "description" : "A Perl6 binding for Redis"
   },
@@ -7918,6 +7920,7 @@
       "Apache::LogFormat::Compiler" : "lib/Apache/LogFormat/Compiler.pm6",
       "Apache::LogFormat::Formatter" : "lib/Apache/LogFormat/Formatter.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "authors" : [
       "Daisuke Maki"
