@@ -9765,7 +9765,7 @@
     "provides" : {
       "CompUnit::Util" : "lib/CompUnit/Util.pm6"
     },
-    "version" : "0.5.4",
+    "version" : "0.6.0",
     "authors" : [
       "Lloyd Fournier"
     ],
@@ -11584,10 +11584,10 @@
     "test-depends" : [
       "Test"
     ],
+    "tags" : [ ],
     "provides" : {
       "Term::Choose::Util" : "lib/Term/Choose/Util.pm6"
     },
-    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "CLI related functions.",
     "authors" : [
@@ -11609,10 +11609,10 @@
     "test-depends" : [
       "Test"
     ],
+    "tags" : [ ],
     "provides" : {
       "Term::TablePrint" : "lib/Term/TablePrint.pm6"
     },
-    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Print a table to the terminal and browse it interactively.",
     "authors" : [
@@ -16616,7 +16616,9 @@
     "source-url" : "https://github.com/scriptkitties/p6-Config.git",
     "perl" : "6",
     "auth" : "github:scriptkitties",
-    "depends" : [ ],
+    "depends" : [
+      "Hash::Merge"
+    ],
     "test-depends" : [
       "Test::META"
     ],
@@ -16634,7 +16636,7 @@
       "Config::Type" : "lib/Config/Type.pm6"
     },
     "license" : "GPL-3.0",
-    "version" : "1.0.0",
+    "version" : "1.1.0",
     "authors" : [
       "Patrick Spek <p.spek@tyil.work>"
     ],
