@@ -2129,6 +2129,7 @@
     "provides" : {
       "Plosurin" : "lib/Plosurin.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.02",
     "description" : "Perl 6 implementation of Closure Templates"
   },
@@ -4791,13 +4792,14 @@
   },
   {
     "name" : "PerlStore",
-    "source-url" : "git://github.com/teodozjan/perl-store.git",
     "perl" : "6.*",
+    "source-url" : "git://github.com/teodozjan/perl-store.git",
     "author" : "github:teodozjan",
     "depends" : [ ],
     "provides" : {
       "PerlStore::FileStore" : "lib/PerlStore/FileStore.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Implemented simple Serialization form http://doc.perl6.org"
   },
@@ -5714,6 +5716,7 @@
     "provides" : {
       "Mortgage" : "lib/Mortgage.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Mortgage calculation library"
   },
@@ -8690,6 +8693,7 @@
       "Pod::Coverage::PodEgg" : "lib/Pod/Coverage/PodEgg.pm6",
       "Pod::Tester" : "lib/Pod/Tester.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "v0.1.0",
     "description" : "Pod coverage library",
     "authors" : [
@@ -8911,6 +8915,7 @@
       "File::Find"
     ],
     "provides" : { },
+    "license" : "Artistic-2.0",
     "version" : "0.2",
     "description" : "Checks whether package name equals with module path and creates provides section from path",
     "authors" : [
@@ -9063,6 +9068,7 @@
       "Valid",
       "Validator"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.0.0",
     "authors" : [
       "Denis Kanchev - demayl"
@@ -10916,6 +10922,7 @@
       "Term::Choose::NCurses" : "lib/Term/Choose/NCurses.pm6",
       "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Choose items from a list interactively.",
     "authors" : [
@@ -11580,6 +11587,7 @@
     "provides" : {
       "Term::Choose::Util" : "lib/Term/Choose/Util.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "CLI related functions.",
     "authors" : [
@@ -11604,6 +11612,7 @@
     "provides" : {
       "Term::TablePrint" : "lib/Term/TablePrint.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Print a table to the terminal and browse it interactively.",
     "authors" : [
