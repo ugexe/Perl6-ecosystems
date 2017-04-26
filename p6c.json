@@ -4962,30 +4962,6 @@
     "description" : "Scripts for manipulating MP3 tags"
   },
   {
-    "name" : "IO::String",
-    "source-url" : "https://github.com/hoelzro/p6-io-string.git",
-    "perl" : "6.*",
-    "author" : "Rob Hoelz",
-    "depends" : [ ],
-    "provides" : {
-      "IO::String" : "lib/IO/String.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "Emulate file interface for strings"
-  },
-  {
-    "name" : "Algorithm::LCS",
-    "source-url" : "git://github.com/hoelzro/p6-algorithm-lcs.git",
-    "perl" : "6.*",
-    "author" : "Rob Hoelz",
-    "depends" : [ ],
-    "provides" : {
-      "Algorithm::LCS" : "lib/Algorithm/LCS.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "Implementation of the longest common subsequence algorithm"
-  },
-  {
     "name" : "Sprockets",
     "source-url" : "git://github.com/vendethiel/Sprockets.pl.git",
     "perl" : "6.*",
@@ -5094,7 +5070,7 @@
     "test-depends" : [
       "File::Temp"
     ],
-    "version" : "0.25",
+    "version" : "0.26",
     "description" : "Use Perl 5 code in a Perl 6 program",
     "authors" : [
       "Stefan Seifert"
@@ -9924,21 +9900,6 @@
     "meta6" : "0"
   },
   {
-    "name" : "Native::Resources",
-    "source-url" : "https://github.com/hoelzro/p6-native-resources.git",
-    "perl" : "6.*",
-    "author" : "Rob Hoelz",
-    "depends" : [
-      "LibraryMake"
-    ],
-    "provides" : {
-      "Native::Resources::Build" : "lib/Native/Resources/Build.pm",
-      "Native::Resources" : "lib/Native/Resources.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "(DEPRECATED) Helper library for using resources made of native code"
-  },
-  {
     "name" : "Email::Notmuch",
     "source-url" : "git://github.com/goneri/p6-Email-Notmuch.git",
     "perl" : "6.c",
@@ -10269,19 +10230,6 @@
       "Tony O'Dell"
     ],
     "description" : "It's like [cpanm] wearing high heels with a tracksuit"
-  },
-  {
-    "name" : "Pod::EOD",
-    "perl" : "6.c",
-    "source-url" : "https://github.com/hoelzro/p6-pod-eod.git",
-    "provides" : {
-      "Pod::EOD" : "lib/Pod/EOD.pm"
-    },
-    "version" : "0.1.0",
-    "authors" : [
-      "Rob Hoelz"
-    ],
-    "description" : "Moves declarative POD blocks to the end of the POD, allowing for end-of-document style POD"
   },
   {
     "name" : "IO::MiddleMan",
