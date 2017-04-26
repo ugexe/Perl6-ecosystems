@@ -1872,15 +1872,16 @@
   },
   {
     "name" : "IRC::Utils",
-    "source-url" : "git://github.com/perl6-community-modules/p6-irc-utils.git",
-    "authority" : "soh-cah-toa",
     "perl" : "6.*",
-    "source-type" : "git",
+    "authority" : "soh-cah-toa",
+    "source-url" : "git://github.com/perl6-community-modules/p6-irc-utils.git",
     "author" : "Kevin Polulak",
+    "source-type" : "git",
     "depends" : [ ],
     "provides" : {
       "IRC::Utils" : "lib/IRC/Utils.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.2.0",
     "description" : "A Perl 6 port of the IRC::Utils module"
   },
@@ -2706,14 +2707,15 @@
   },
   {
     "name" : "Date::WorkdayCalendar",
-    "source-url" : "git://github.com/perl6-community-modules/Date-WorkdayCalendar.git",
     "perl" : "6.*",
+    "source-url" : "git://github.com/perl6-community-modules/Date-WorkdayCalendar.git",
     "author" : "github:shinobi",
     "depends" : [ ],
     "provides" : {
       "Workdate" : "lib/Date/WorkdayCalendar.pm",
       "WorkdayCalendar" : "lib/Date/WorkdayCalendar.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "description" : "Calendar and Date objects to handle business days, holidays and weekends"
   },
@@ -9576,7 +9578,7 @@
       "String::CamelCase" : "lib/String/CamelCase.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "1.0.0",
+    "version" : "1.0.1",
     "description" : "Camelizes and decamelizes given string",
     "authors" : [
       "yowcow"
@@ -16615,10 +16617,10 @@
     ],
     "provides" : {
       "Config::Exception::UnknownTypeException" : "lib/Config/Exception/UnknownTypeException.pm6",
-      "Config::Exception::UnsupportedTypeException" : "lib/Config/Exception/UnsupportedTypeException.pm6",
       "Config::Parser" : "lib/Config/Parser.pm6",
       "Config::Exception::FileNotFoundException" : "lib/Config/Exception/FileNotFoundException.pm6",
       "Config" : "lib/Config.pm6",
+      "Config::Exception::MissingParserException" : "lib/Config/Exception/MissingParserException.pm6",
       "Config::Exception::UnimplementedMethodException" : "lib/Config/Exception/UnimplementedMethodException.pm6",
       "Config::Type" : "lib/Config/Type.pm6"
     },
