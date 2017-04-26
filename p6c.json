@@ -16651,14 +16651,16 @@
     ],
     "auth" : "Ian G. Tayler",
     "depends" : [ ],
+    "license" : "Artistic-2.0",
     "provides" : {
+      "MinG::EDMG" : "lib/MinG/EDMG.pm6",
       "MinG" : "lib/MinG.pm6",
       "ming-analyser.p6" : "bin/ming-analyser.p6",
       "MinG::S13::Logic" : "lib/MinG/S13/Logic.pm6",
       "MinG::From::Text" : "lib/MinG/From/Text.pm6",
       "MinG::S13" : "lib/MinG/S13.pm6"
     },
-    "version" : "1.2.4",
+    "version" : "1.2.5",
     "authors" : [
       "Ian G. Tayler"
     ],
