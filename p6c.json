@@ -3241,13 +3241,14 @@
   {
     "name" : "Net::Curl",
     "source-url" : "git://github.com/azawawi/perl6-net-curl.git",
+    "perl" : "6.c",
     "depends" : [ ],
     "provides" : {
       "Net::Curl::NativeCall" : "lib/Net/Curl/NativeCall.pm6",
       "Net::Curl" : "lib/Net/Curl.pm6",
       "Net::Curl::Easy" : "lib/Net/Curl/Easy.pm6"
     },
-    "version" : "*",
+    "version" : "0.1.0",
     "description" : "Perl 6 interface to libcurl, the free and easy-to-use client-side URL transfer library"
   },
   {
@@ -9814,6 +9815,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "version" : "0.2.0",
     "authors" : [
       "Sam Morrison"
@@ -13623,6 +13625,7 @@
     "provides" : {
       "Uzu" : "lib/Uzu.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.7",
     "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, and multi-page support."
   },
@@ -14524,6 +14527,7 @@
     "provides" : {
       "JS::Minify" : "lib/JS/Minify.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.0.2",
     "description" : "Perl 6 JavaScript minifier"
   },
@@ -16066,6 +16070,7 @@
       "Cache",
       "LRU"
     ],
+    "license" : "Artistic-2.0",
     "version" : "0.000001",
     "authors" : [
       "Sam Morrison"
