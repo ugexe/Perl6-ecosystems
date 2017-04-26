@@ -10455,6 +10455,7 @@
     "provides" : {
       "Finance::CompoundInterest" : "lib/Finance/CompoundInterest.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "authors" : [
       "James (Jeremy) Carman <developer@peelle.org>"
@@ -10815,6 +10816,7 @@
       "utils",
       "signal"
     ],
+    "license" : "Artistic-2.0",
     "version" : "v0.0.2",
     "authors" : [
       "Cuong Manh Le <cuong.manhle@gmail.com>"
@@ -16018,6 +16020,8 @@
       "src/Regex.spt",
       "src/PID.spt",
       "src/Git.spt",
+      "src/commands.spt",
+      "src/Docker.spt",
       "core-lib/Test.spt"
     ],
     "depends" : [
@@ -16049,7 +16053,7 @@
       "Spit::Doc::Markdown" : "lib/Spit/Doc/Markdown.pm6",
       "Spit::PRECOMP" : "lib/Spit/PRECOMP.pm6"
     },
-    "version" : "0.0.22",
+    "version" : "0.0.23",
     "authors" : [
       "Lloyd Fournier lloyd.fourn@gmail.com"
     ],
