@@ -16723,5 +16723,21 @@
       "Patrick Spek <p.spek@tyil.work>"
     ],
     "description" : "Module to add deep merge functionality to Hashes"
+  },
+  {
+    "name" : "TrigPi",
+    "source-url" : "git://github.com/grondilu/trigpi.git",
+    "perl" : "6.*",
+    "build-depends" : [ ],
+    "author" : "Lucien Grondin",
+    "depends" : [ ],
+    "provides" : {
+      "TrigPi" : "lib/TrigPi.pm6"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "1.0.1",
+    "description" : "accurate computation of sin(\u03c0*$x) and cos(\u03c0*$x)"
   }
 ]
