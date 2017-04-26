@@ -6405,17 +6405,6 @@
     "meta6" : "0"
   },
   {
-    "name" : "Slang::Roman",
-    "source-url" : "git://github.com/drforr/perl6-slang-roman.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "Slang::Roman" : "lib/Slang/Roman.pm6"
-    },
-    "version" : "0.1",
-    "description" : "A slang to allow Roman numerals"
-  },
-  {
     "name" : "Inline::Scheme::Guile",
     "source-url" : "https://github.com/drforr/perl6-Inline-Scheme-Guile.git",
     "perl" : "6.c",
@@ -6792,6 +6781,7 @@
     "provides" : {
       "Marpa" : "lib/Marpa.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "A Perl6 binding to libmarpa, the parser module"
   },
@@ -11132,6 +11122,7 @@
       "Net::OSC::Bundle" : "lib/Net/OSC/Bundle.pm6",
       "Net::OSC" : "lib/Net/OSC.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.1",
     "description" : "Open Sound Control for Perl6",
     "authors" : [
@@ -15160,6 +15151,7 @@
       "Algorithm::Genetic::Genotype" : "lib/Algorithm/Genetic/Genotype.pm6",
       "Algorithm::Genetic::Selection" : "lib/Algorithm/Genetic/Selection.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.0.1",
     "description" : "A simple evolutionanry algorithm in Perl6",
     "authors" : [
