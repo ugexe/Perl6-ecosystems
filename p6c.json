@@ -14714,38 +14714,6 @@
     "description" : "turn a lazy list into an auto-threading lazy list"
   },
   {
-    "name" : "DNS::Zone",
-    "source-url" : "https://github.com/jsimonet/dns-zone.git",
-    "perl" : "6.c",
-    "depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "provides" : {
-      "DNS::Zone::ResourceRecordData::DNAME" : "lib/DNS/Zone/ResourceRecordData/DNAME.pm6",
-      "DNS::Zone::ResourceRecordData::NS" : "lib/DNS/Zone/ResourceRecordData/NS.pm6",
-      "DNS::Zone::ResourceRecordData::TXT" : "lib/DNS/Zone/ResourceRecordData/TXT.pm6",
-      "DNS::Zone" : "lib/DNS/Zone.pm6",
-      "DNS::Zone::ResourceRecordData::A" : "lib/DNS/Zone/ResourceRecordData/A.pm6",
-      "DNS::Zone::ResourceRecordData::PTR" : "lib/DNS/Zone/ResourceRecordData/PTR.pm6",
-      "DNS::Zone::ResourceRecordData::SRV" : "lib/DNS/Zone/ResourceRecordData/SRV.pm6",
-      "DNS::Zone::ResourceRecordData::CNAME" : "lib/DNS/Zone/ResourceRecordData/CNAME.pm6",
-      "DNS::Zone::ResourceRecordData::SPF" : "lib/DNS/Zone/ResourceRecordData/SPF.pm6",
-      "DNS::Zone::ResourceRecordData::AAAA" : "lib/DNS/Zone/ResourceRecordData/AAAA.pm6",
-      "DNS::Zone::ResourceRecord" : "lib/DNS/Zone/ResourceRecord.pm6",
-      "DNS::Zone::ResourceRecordData" : "lib/DNS/Zone/ResourceRecordData.pm6",
-      "DNS::Zone::Grammars::ModernActions" : "lib/DNS/Zone/Grammars/ModernActions.pm6",
-      "DNS::Zone::ResourceRecordData::MX" : "lib/DNS/Zone/ResourceRecordData/MX.pm6",
-      "DNS::Zone::ResourceRecordData::SOA" : "lib/DNS/Zone/ResourceRecordData/SOA.pm6",
-      "DNS::Zone::Grammars::Modern" : "lib/DNS/Zone/Grammars/Modern.pm6"
-    },
-    "version" : "0.1.2",
-    "authors" : [
-      "Julien Simonet"
-    ],
-    "description" : "Parses a DNS zone and returns objects to manipulate it."
-  },
-  {
     "name" : "URI::FetchFile",
     "perl" : "6.c",
     "support" : {
