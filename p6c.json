@@ -541,7 +541,7 @@
     "tags" : [
       "config"
     ],
-    "version" : "0.7.0",
+    "version" : "0.7.2",
     "description" : "Refinements on use of configurations loaded with parsers such as found in Config::TOML",
     "authors" : "Marcel Timmerman"
   },
@@ -702,6 +702,7 @@
       "OpenSSL::Cipher" : "lib/OpenSSL/Cipher.pm6",
       "OpenSSL::Ctx" : "lib/OpenSSL/Ctx.pm6",
       "OpenSSL::Bio" : "lib/OpenSSL/Bio.pm6",
+      "OpenSSL::Digest::MD5" : "lib/OpenSSL/Digest/MD5.pm6",
       "OpenSSL::Stack" : "lib/OpenSSL/Stack.pm6",
       "OpenSSL::NativeLib" : "lib/OpenSSL/NativeLib.pm6",
       "OpenSSL" : "lib/OpenSSL.pm6",
@@ -715,7 +716,7 @@
       "OpenSSL::Digest" : "lib/OpenSSL/Digest.pm6",
       "OpenSSL::CryptTools" : "lib/OpenSSL/CryptTools.pm6"
     },
-    "version" : "0.1.11",
+    "version" : "0.1.12",
     "description" : "OpenSSL bindings"
   },
   {
@@ -2866,6 +2867,32 @@
     "description" : "Let Perl 6 constructs masquerade as other things."
   },
   {
+    "name" : "XML::Parser::Tiny",
+    "source-url" : "git://github.com/afiskon/p6-xml-parser-tiny.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "XML::Parser::Tiny::Actions" : "lib/XML/Parser/Tiny/Actions.pm6",
+      "XML::Parser::Tiny" : "lib/XML/Parser/Tiny.pm6",
+      "XML::Parser::Tiny::Grammar" : "lib/XML/Parser/Tiny/Grammar.pm6"
+    },
+    "version" : "*",
+    "description" : "A Perl 6 module for parsing XML documents"
+  },
+  {
+    "name" : "DateTime::Format::W3CDTF",
+    "source-url" : "git://github.com/afiskon/p6-datetime-format-w3cdtf.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "DateTime::Format::W3CDTF" : "lib/DateTime/Format/W3CDTF.pm6"
+    },
+    "version" : "*",
+    "description" : "A Perl 6 module to deal with W3CDTF dates"
+  },
+  {
     "name" : "Redis",
     "perl" : "6.*",
     "source-url" : "git://github.com/Cofyc/perl6-redis.git",
@@ -4671,6 +4698,28 @@
       "Steve Mynott <steve.mynott@gmail.com>"
     ],
     "description" : "Converts to and from Koremutake Memorable Random Strings. "
+  },
+  {
+    "name" : "Crypt::Bcrypt",
+    "source-url" : "git://github.com/skinkade/p6-Crypt-Bcrypt.git",
+    "perl" : "6.*",
+    "resources" : [
+      "crypt_blowfish.so"
+    ],
+    "build-depends" : [
+      "LibraryMake",
+      "Crypt::Random"
+    ],
+    "depends" : [ ],
+    "provides" : {
+      "Crypt::Bcrypt" : "lib/Crypt/Bcrypt.pm6"
+    },
+    "version" : "1.3.2",
+    "description" : "Easy bcrypt password hashing",
+    "authors" : [
+      "github:carbin",
+      "github:skinkade"
+    ]
   },
   {
     "name" : "Acme::DSON",
@@ -12251,6 +12300,23 @@
     "description" : "A Forth written in Perl 6"
   },
   {
+    "name" : "Crypt::Random",
+    "source-url" : "git://github.com/skinkade/crypt-random.git",
+    "perl" : "6.*",
+    "author" : "github:skinkade",
+    "depends" : [
+      "if"
+    ],
+    "provides" : {
+      "Crypt::Random" : "lib/Crypt/Random.pm6",
+      "Crypt::Random::Nix" : "lib/Crypt/Random/Nix.pm6",
+      "Crypt::Random::Extra" : "lib/Crypt/Random/Extra.pm6",
+      "Crypt::Random::Win" : "lib/Crypt/Random/Win.pm6"
+    },
+    "version" : "0.4.1",
+    "description" : "Random numbers and bytes mimicking arc4random"
+  },
+  {
     "name" : "GlotIO",
     "source-url" : "git://github.com/zoffixznet/perl6-GlotIO.git",
     "perl" : "6.c",
@@ -12439,6 +12505,25 @@
       "Zoffix Znet"
     ],
     "description" : "create awesome subsets"
+  },
+  {
+    "name" : "Crypt::Argon2",
+    "source-url" : "git://github.com/skinkade/p6-crypt-argon2.git",
+    "perl" : "6.*",
+    "resources" : [
+      "libraries/argon2"
+    ],
+    "build-depends" : [
+      "Crypt::Random",
+      "LibraryMake"
+    ],
+    "author" : "github:skinkade",
+    "provides" : {
+      "Crypt::Argon2::Base" : "lib/Crypt/Argon2/Base.pm6",
+      "Crypt::Argon2" : "lib/Crypt/Argon2.pm6"
+    },
+    "version" : "0.2.1",
+    "description" : "Easy Argon2i password hashing"
   },
   {
     "name" : "App::Whiff",
