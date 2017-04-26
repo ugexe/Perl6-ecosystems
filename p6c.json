@@ -107,6 +107,7 @@
     "provides" : {
       "Math::Polynomial" : "lib/Math/Polynomial.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Simple polynomial class"
   },
@@ -4734,6 +4735,35 @@
     },
     "version" : "0.2.1",
     "description" : "such \"foo\" is \"bar\" wow"
+  },
+  {
+    "name" : "Stats",
+    "support" : {
+      "source" : "git://github.com/MattOates/Stats.git",
+      "bugtracker" : "https://github.com/MattOates/Stats/issues"
+    },
+    "source-url" : "git://github.com/MattOates/Stats.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "auth" : "github:MattOates",
+    "depends" : [ ],
+    "provides" : {
+      "Stats" : "lib/Stats.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "Stats",
+      "Statistics",
+      "Maths",
+      "Math"
+    ],
+    "version" : "0.0.5",
+    "authors" : [
+      "Matt Oates <mattoates@gmail.com>",
+      "Pawe\u0142 Szulc",
+      "Graham Todd"
+    ],
+    "description" : "Basic statistics modules for Perl6."
   },
   {
     "name" : "SP6",
