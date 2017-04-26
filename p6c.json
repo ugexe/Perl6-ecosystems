@@ -10481,6 +10481,24 @@
     "description" : "Provide info about a process memory usage"
   },
   {
+    "name" : "Finance::CompoundInterest",
+    "source-url" : "git://github.com/peelle/Finance-CompoundInterest.git",
+    "perl" : "6.*",
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "provides" : {
+      "Finance::CompoundInterest" : "lib/Finance/CompoundInterest.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "authors" : [
+      "James (Jeremy) Carman <developer@peelle.org>"
+    ],
+    "description" : "Compound Interest calculations for fun and profit."
+  },
+  {
     "name" : "AttrX::PrivateAccessor",
     "source-url" : "git@github.com:pierre-vigier/Perl6-AttrX-PrivateAccessor.git",
     "perl" : "6.c",
@@ -11093,6 +11111,7 @@
       "Dice::Roller::Selector" : "lib/Dice/Roller/Selector.pm6",
       "Dice::Roller::Rollable" : "lib/Dice/Roller/Rollable.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.1",
     "description" : "Roll RPG-style polyhedral dice",
     "authors" : [
