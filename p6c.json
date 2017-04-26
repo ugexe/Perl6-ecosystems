@@ -11020,6 +11020,30 @@
     "description" : "data structure for cumulative frequency tables"
   },
   {
+    "name" : "Net::OSC",
+    "source-url" : "git://github.com/samgwise/Net-OSC.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Numeric::Pack"
+    ],
+    "test-depends" : [ ],
+    "provides" : {
+      "Net::OSC::Types" : "lib/Net/OSC/Types.pm6",
+      "Net::OSC::Message" : "lib/Net/OSC/Message.pm6",
+      "Net::OSC::Server" : "lib/Net/OSC/Server.pm6",
+      "Net::OSC::Server::UDP" : "lib/Net/OSC/Server/UDP.pm6",
+      "Net::OSC::Bundle" : "lib/Net/OSC/Bundle.pm6",
+      "Net::OSC" : "lib/Net/OSC.pm6"
+    },
+    "version" : "0.1.1",
+    "description" : "Open Sound Control for Perl6",
+    "authors" : [
+      "Sam Gillespie"
+    ]
+  },
+  {
     "name" : "Dice::Roller",
     "source-url" : "https://github.com/jamesneko/dice-roller.git",
     "support" : {
@@ -15014,6 +15038,27 @@
     "description" : "extension of placeholder",
     "authors" : [
       "astj"
+    ]
+  },
+  {
+    "name" : "Algorithm::Genetic",
+    "source-url" : "git://github.com/samgwise/p6-algorithm-genetic.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "provides" : {
+      "Algorithm::Genetic" : "lib/Algorithm/Genetic.pm6",
+      "Algorithm::Genetic::Crossoverable" : "lib/Algorithm/Genetic/Crossoverable.pm6",
+      "Algorithm::Genetic::Selection::Roulette" : "lib/Algorithm/Genetic/Selection/Roulette.pm6",
+      "Algorithm::Genetic::Genotype" : "lib/Algorithm/Genetic/Genotype.pm6",
+      "Algorithm::Genetic::Selection" : "lib/Algorithm/Genetic/Selection.pm6"
+    },
+    "version" : "0.0.1",
+    "description" : "A simple evolutionanry algorithm in Perl6",
+    "authors" : [
+      "Sam Gillespie"
     ]
   },
   {
