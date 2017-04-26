@@ -1784,16 +1784,17 @@
   },
   {
     "name" : "Algorithm::Soundex",
-    "source-url" : "git://github.com/leto/perl6-Algorithm-Soundex.git",
     "perl" : "6.*",
+    "source-url" : "git://github.com/leto/perl6-Algorithm-Soundex.git",
     "build-depends" : [ ],
     "depends" : [ ],
-    "provides" : {
-      "Algorithm::Soundex" : "lib/Algorithm/Soundex.pm"
-    },
     "test-depends" : [
       "Test"
     ],
+    "provides" : {
+      "Algorithm::Soundex" : "lib/Algorithm/Soundex.pm"
+    },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Soundex Algorithm in Perl 6"
   },
@@ -4088,30 +4089,32 @@
   },
   {
     "name" : "Lingua::EN::Syllable",
-    "source-url" : "git://github.com/coke/p6-lingua-en-syllable.git",
     "perl" : "6.*",
+    "source-url" : "git://github.com/coke/p6-lingua-en-syllable.git",
     "author" : "Will \u201cCoke\u201d Coleda",
     "depends" : [ ],
     "provides" : {
       "Lingua::EN::Syllable" : "lib/Lingua/EN/Syllable.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Guess the number of syllables in an English word"
   },
   {
     "name" : "App::Uni",
-    "source-url" : "git://github.com/coke/p6-uni.git",
     "perl" : "6.c",
+    "source-url" : "git://github.com/coke/p6-uni.git",
     "resources" : [ ],
     "depends" : [ ],
     "provides" : {
       "App::Uni" : "lib/App/Uni.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.9.2",
+    "description" : "command-line utility to find or display Unicode characters",
     "authors" : [
       "Will 'Coke' Coleda"
-    ],
-    "description" : "command-line utility to find or display Unicode characters"
+    ]
   },
   {
     "name" : "File::HomeDir",
@@ -11017,30 +11020,6 @@
     "description" : "data structure for cumulative frequency tables"
   },
   {
-    "name" : "Net::OSC",
-    "source-url" : "git://github.com/samgwise/Net-OSC.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "depends" : [
-      "Numeric::Pack"
-    ],
-    "test-depends" : [ ],
-    "provides" : {
-      "Net::OSC::Types" : "lib/Net/OSC/Types.pm6",
-      "Net::OSC::Message" : "lib/Net/OSC/Message.pm6",
-      "Net::OSC::Server" : "lib/Net/OSC/Server.pm6",
-      "Net::OSC::Server::UDP" : "lib/Net/OSC/Server/UDP.pm6",
-      "Net::OSC::Bundle" : "lib/Net/OSC/Bundle.pm6",
-      "Net::OSC" : "lib/Net/OSC.pm6"
-    },
-    "version" : "0.1.1",
-    "description" : "Open Sound Control for Perl6",
-    "authors" : [
-      "Sam Gillespie"
-    ]
-  },
-  {
     "name" : "Dice::Roller",
     "source-url" : "https://github.com/jamesneko/dice-roller.git",
     "support" : {
@@ -15035,27 +15014,6 @@
     "description" : "extension of placeholder",
     "authors" : [
       "astj"
-    ]
-  },
-  {
-    "name" : "Algorithm::Genetic",
-    "source-url" : "git://github.com/samgwise/p6-algorithm-genetic.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "test-depends" : [ ],
-    "provides" : {
-      "Algorithm::Genetic" : "lib/Algorithm/Genetic.pm6",
-      "Algorithm::Genetic::Crossoverable" : "lib/Algorithm/Genetic/Crossoverable.pm6",
-      "Algorithm::Genetic::Selection::Roulette" : "lib/Algorithm/Genetic/Selection/Roulette.pm6",
-      "Algorithm::Genetic::Genotype" : "lib/Algorithm/Genetic/Genotype.pm6",
-      "Algorithm::Genetic::Selection" : "lib/Algorithm/Genetic/Selection.pm6"
-    },
-    "version" : "0.0.1",
-    "description" : "A simple evolutionanry algorithm in Perl6",
-    "authors" : [
-      "Sam Gillespie"
     ]
   },
   {
