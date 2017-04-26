@@ -3985,13 +3985,14 @@
   },
   {
     "name" : "Lingua::EN::Sentence",
-    "source-url" : "git://github.com/dginev/perl6-Lingua-EN-Sentence.git",
     "perl" : "6.*",
+    "source-url" : "git://github.com/dginev/perl6-Lingua-EN-Sentence.git",
     "author" : "Deyan Ginev",
     "depends" : [ ],
     "provides" : {
       "Lingua::EN::Sentence" : "lib/Lingua/EN/Sentence.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.2",
     "description" : "Module for splitting text into sentences"
   },
@@ -10974,6 +10975,7 @@
     "provides" : {
       "IO::Prompt" : "lib/IO/Prompt.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.0.2",
     "authors" : [
       "pnu",
