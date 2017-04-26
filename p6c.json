@@ -6405,6 +6405,17 @@
     "meta6" : "0"
   },
   {
+    "name" : "Slang::Roman",
+    "source-url" : "git://github.com/drforr/perl6-slang-roman.git",
+    "perl" : "6.*",
+    "depends" : [ ],
+    "provides" : {
+      "Slang::Roman" : "lib/Slang/Roman.pm6"
+    },
+    "version" : "0.1",
+    "description" : "A slang to allow Roman numerals"
+  },
+  {
     "name" : "Inline::Scheme::Guile",
     "source-url" : "https://github.com/drforr/perl6-Inline-Scheme-Guile.git",
     "perl" : "6.c",
