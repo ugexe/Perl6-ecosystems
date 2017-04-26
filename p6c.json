@@ -10847,6 +10847,7 @@
     "provides" : {
       "p6dx" : "bin/p6dx"
     },
+    "license" : "Artistic-2.0",
     "version" : "v0.3.0",
     "authors" : [
       "Jake Russo <madcap.russo@gmail.com>"
@@ -10862,6 +10863,7 @@
       "mangle" : "bin/mangle",
       "Acme::Mangle" : "lib/Acme/Mangle.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "v0.1.0",
     "authors" : [
       "Jake Russo <madcap.russo@gmail.com>"
@@ -11236,6 +11238,7 @@
       "Test::Lab" : "lib/Test/Lab.pm6",
       "Test::Lab::Experiment" : "lib/Test/Lab/Experiment.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "1.0.0",
     "description" : "Test run refactored code against legacy code"
   },
@@ -16715,7 +16718,8 @@
       "Config" : "lib/Config.pm6",
       "Config::Exception::MissingParserException" : "lib/Config/Exception/MissingParserException.pm6",
       "Config::Exception::UnimplementedMethodException" : "lib/Config/Exception/UnimplementedMethodException.pm6",
-      "Config::Type" : "lib/Config/Type.pm6"
+      "Config::Type" : "lib/Config/Type.pm6",
+      "Config::Parser::NULL" : "lib/Config/Parser/NULL.pm6"
     },
     "license" : "GPL-3.0",
     "version" : "1.1.0",
