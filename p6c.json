@@ -4590,13 +4590,13 @@
       "wrapper"
     ],
     "provides" : {
-      "Git::Wrapper::Log" : "lib/Git/Log/Parser.pm",
-      "Git::Wrapper" : "lib/Git/Wrapper.pm",
-      "Git::Log::Actions" : "lib/Git/Log/Parser.pm",
-      "Git::Log::Parser" : "lib/Git/Log/Parser.pm"
+      "Git::Wrapper::Log" : "lib/Git/Log/Parser.pm6",
+      "Git::Wrapper" : "lib/Git/Wrapper.pm6",
+      "Git::Log::Actions" : "lib/Git/Log/Parser.pm6",
+      "Git::Log::Parser" : "lib/Git/Log/Parser.pm6"
     },
     "test-depends" : [ ],
-    "version" : "v0.0.6",
+    "version" : "0.0.7",
     "description" : "simple, hacky way to use git from Perl 6",
     "authors" : [
       "PerlPilot",
