@@ -1636,6 +1636,28 @@
     "description" : "Simple benchmark graphing script"
   },
   {
+    "name" : "Net::IRC::Bot",
+    "source-url" : "git://github.com/TiMBuS/Net--IRC.git",
+    "perl" : "6.*",
+    "depends" : [ ],
+    "provides" : {
+      "Net::IRC::Modules::Tell" : "lib/Net/IRC/Modules/Tell.pm",
+      "Net::IRC::Modules::Seen" : "lib/Net/IRC/Modules/Seen.pm",
+      "Net::IRC::TextUtil" : "lib/Net/IRC/TextUtil.pm",
+      "Net::IRC::Parser" : "lib/Net/IRC/Parser.pm",
+      "Net::IRC::Modules::Help" : "lib/Net/IRC/Modules/Help.pm",
+      "Net::IRC::CommandHandler" : "lib/Net/IRC/CommandHandler.pm",
+      "Net::IRC::Handlers::Default" : "lib/Net/IRC/Handlers/Default.pm",
+      "Net::IRC::Modules::Autoident" : "lib/Net/IRC/Modules/Autoident.pm",
+      "Net::IRC::Bot" : "lib/Net/IRC/Bot.pm",
+      "Net::IRC::Event" : "lib/Net/IRC/Event.pm",
+      "Net::IRC::Modules::ACME" : "lib/Net/IRC/Modules/ACME.pm",
+      "Net::IRC::Modules::Twitter" : "lib/Net/IRC/Modules/Twitter.pm"
+    },
+    "version" : "0.9",
+    "description" : "An IRC bot framework"
+  },
+  {
     "name" : "IoC",
     "source-url" : "git://github.com/jasonmay/perl6-ioc.git",
     "source-type" : "git",
@@ -9809,6 +9831,7 @@
     "provides" : {
       "CompUnit::Util" : "lib/CompUnit/Util.pm6"
     },
+    "license" : "MIT",
     "version" : "0.6.0",
     "authors" : [
       "Lloyd Fournier"
@@ -12534,6 +12557,7 @@
       "Utils",
       "Admin"
     ],
+    "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "description" : "Port of perl whiff"
   },
@@ -12675,6 +12699,7 @@
       "Devel::Trace" : "lib/Devel/Trace.pm6"
     },
     "tags" : "Devel",
+    "license" : "Artistic-2.0",
     "version" : "0.1",
     "description" : "DEPRECATED Perl6 code tracer."
   },
@@ -13369,6 +13394,7 @@
       "Web",
       "API"
     ],
+    "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "description" : "Bindings to DuckDuckGo search API"
   },
@@ -13424,6 +13450,7 @@
       "Grammar",
       "Config"
     ],
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : ".netrc file parser module for Perl 6"
   },
@@ -13576,6 +13603,7 @@
     "provides" : {
       "Text::Tabs" : "lib/Text/Tabs.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1",
     "description" : "Perl 6 port of Perl's Text::Tabs"
   },
@@ -13650,6 +13678,7 @@
     "provides" : {
       "Test::NoTabs" : "lib/Test/NoTabs.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1",
     "description" : "Test module for tabs checking"
   },
@@ -13965,6 +13994,7 @@
       "Texas::To::Uni" : "lib/Texas/To/Uni.pm6"
     },
     "test-depends" : [ ],
+    "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "description" : "Library and tool to convert operators in Perl 6 source files from Texas to Unicode"
   },
@@ -16103,6 +16133,7 @@
       "src/Git.spt",
       "src/commands.spt",
       "src/Docker.spt",
+      "src/HTTP.spt",
       "core-lib/Test.spt"
     ],
     "depends" : [
@@ -16134,6 +16165,7 @@
       "Spit::Doc::Markdown" : "lib/Spit/Doc/Markdown.pm6",
       "Spit::PRECOMP" : "lib/Spit/PRECOMP.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.0.23",
     "authors" : [
       "Lloyd Fournier lloyd.fourn@gmail.com"
