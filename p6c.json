@@ -13234,19 +13234,6 @@
     "description" : "Selectively run tests based on the environment and installed modules and libs"
   },
   {
-    "name" : "Path::Map",
-    "source-url" : "git://github.com/fjwhittle/p6-Path-Map.git",
-    "perl" : "6.c",
-    "auth" : "github:fjwhittle",
-    "depends" : [ ],
-    "provides" : {
-      "Path::Map" : "lib/Path/Map.pm6"
-    },
-    "test-depends" : [ ],
-    "version" : "0.2",
-    "description" : "Hash tree based path router"
-  },
-  {
     "name" : "Weather",
     "source-url" : "git://github.com/palapitta/Weather",
     "depends" : [
