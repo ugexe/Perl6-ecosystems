@@ -3195,6 +3195,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "version" : "0.2.0",
     "description" : "Perl6 interface to a OpenSSL (so far only digests though)"
   },
@@ -3690,6 +3691,7 @@
     "provides" : {
       "Modular" : "lib/Modular.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.2",
     "description" : "Modular arithmetics in Perl6"
   },
@@ -4905,6 +4907,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "version" : "0.2.0",
     "description" : "Chess-related stuff in Perl 6."
   },
@@ -5038,27 +5041,6 @@
     },
     "version" : "1",
     "description" : "A very simple `serialize` sub to get public attribute values"
-  },
-  {
-    "name" : "Clifford",
-    "source-url" : "git://github.com/grondilu/clifford.git",
-    "perl" : "6.c",
-    "auth" : "github:grondilu",
-    "depends" : [ ],
-    "provides" : {
-      "MultiVector::BitEncoded::Default" : "lib/MultiVector/BitEncoded/Default.pm6",
-      "MultiVector::BitEncoded::Optimized" : "lib/MultiVector/BitEncoded/Optimized.pm6",
-      "MultiVector" : "lib/MultiVector.pm6",
-      "Clifford" : "lib/Clifford.pm6",
-      "MultiVector::BitEncoded" : "lib/MultiVector/BitEncoded.pm6",
-      "BasisBlade" : "lib/BasisBlade.pm6"
-    },
-    "license" : "Artistic",
-    "version" : "6.1.6",
-    "authors" : [
-      "Lucien Grondin"
-    ],
-    "description" : "Basic Geometric Algebra."
   },
   {
     "name" : "TAP::Harness",
@@ -13903,6 +13885,7 @@
     "provides" : {
       "Math::Arrow" : "lib/Math/Arrow.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "description" : "Knuth arrow notation in Perl 6"
   },
