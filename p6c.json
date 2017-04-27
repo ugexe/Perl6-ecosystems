@@ -7331,20 +7331,6 @@
     ]
   },
   {
-    "name" : "YAMLish",
-    "source-url" : "git://github.com/leont/yamlish.git",
-    "perl" : "6.*",
-    "author" : "Leon Timmermans",
-    "depends" : [
-      "MIME::Base64"
-    ],
-    "provides" : {
-      "YAMLish" : "lib/YAMLish.pm6"
-    },
-    "version" : "0.0.2",
-    "description" : "An implementation of a useful subset of YAML"
-  },
-  {
     "name" : "Path::Iterator",
     "source-url" : "git://github.com/leont/path-iterator.git",
     "perl" : "6.*",
@@ -11050,6 +11036,7 @@
       "Acme::Cow" : "lib/Acme/Cow.pm6",
       "cow-say" : "bin/cow-say"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1",
     "authors" : [
       "Naoum Hankache"
