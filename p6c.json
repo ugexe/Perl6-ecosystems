@@ -15993,7 +15993,9 @@
       "Shell::Command"
     ],
     "author" : "Jonathan Worthington <jnthn@jnthn.net>",
-    "depends" : [ ],
+    "depends" : [
+      "Concurrent::Progress"
+    ],
     "provides" : {
       "SSH::LibSSH" : "lib/SSH/LibSSH.pm6",
       "SSH::LibSSH::Raw" : "lib/SSH/LibSSH/Raw.pm6"
