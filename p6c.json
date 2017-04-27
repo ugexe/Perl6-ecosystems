@@ -11574,6 +11574,7 @@
       "Algorithm::KdTree::Response" : "lib/Algorithm/KdTree/Response.pm6",
       "Algorithm::KdTree" : "lib/Algorithm/KdTree.pm6"
     },
+    "license" : "BSD-3-Clause",
     "version" : "0.05",
     "description" : "a perl6 binding for C implementation of the Kd-Tree Algorithm (https://github.com/jtsiomb/kdtree)",
     "authors" : [
@@ -12064,6 +12065,7 @@
     "provides" : {
       "Algorithm::Manacher" : "lib/Algorithm/Manacher.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "authors" : [
       "titsuki"
@@ -13027,6 +13029,7 @@
     "provides" : {
       "Terminal::Readsecret" : "lib/Terminal/Readsecret.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.0.2",
     "description" : "A perl6 binding of readsecret ( https://github.com/dmeranda/readsecret ) for reading secrets or passwords from a command line secretly (not being displayed)",
     "authors" : [
@@ -13453,6 +13456,7 @@
       "Algorithm::NaiveBayes::Classifiable" : "lib/Algorithm/NaiveBayes/Classifiable.pm6",
       "Algorithm::NaiveBayes::Vocabulary" : "lib/Algorithm/NaiveBayes/Vocabulary.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "A Perl 6 Naive Bayes classifier implementation",
     "authors" : [
@@ -14929,6 +14933,7 @@
       "MeCab" : "lib/MeCab.pm6",
       "MeCab::Model" : "lib/MeCab/Model.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.0.4",
     "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
     "authors" : [
@@ -15790,6 +15795,7 @@
       "Algorithm::LibSVM::Grammar" : "lib/Algorithm/LibSVM/Grammar.pm6",
       "Algorithm::LibSVM" : "lib/Algorithm/LibSVM.pm6"
     },
+    "license" : "MIT",
     "version" : "*",
     "description" : "A Perl 6 bindings for libsvm",
     "authors" : [
@@ -16879,5 +16885,21 @@
     ],
     "version" : "1.3.1",
     "description" : "accurate computation of sin(\u03c0*$x) and cos(\u03c0*$x)"
+  },
+  {
+    "name" : "Concurrent::Progress",
+    "source-url" : "https://github.com/jnthn/p6-concurrent-progress.git",
+    "perl" : "6.*",
+    "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+    "depends" : [ ],
+    "provides" : {
+      "Concurrent::Progress" : "lib/Concurrent/Progress.pm6"
+    },
+    "test-depends" : [
+      "Test::Scheduler"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.0",
+    "description" : "An object to help with reporting the progress of a concurrent operation."
   }
 ]
