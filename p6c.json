@@ -1,5 +1,28 @@
 [
   {
+    "name" : "Grammar::Tracer::Compact",
+    "source-url" : "git://github.com/nkh/P6-Grammar-Tracer-Compact.git",
+    "perl" : "6.c",
+    "build-depends" : [
+      "Terminal::ANSIColor"
+    ],
+    "depends" : [
+      "Terminal::ANSIColor"
+    ],
+    "provides" : {
+      "Grammar::Tracer::Compact" : "lib/Grammar/Tracer/Compact.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.0",
+    "description" : "Simple tracing for Perl 6 grammars",
+    "authors" : [
+      "Nadim Khemir"
+    ]
+  },
+  {
     "name" : "Locale-Codes-Country",
     "source-url" : "https://github.com/PowellDean/Locale-Codes-Country.git",
     "perl" : "6.*",
@@ -11479,6 +11502,7 @@
     "provides" : {
       "Scientist" : "lib/Scientist.pm"
     },
+    "license" : "MIT",
     "version" : "0.0.2",
     "authors" : [
       "Lance Wicks"
@@ -12261,6 +12285,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "version" : "0.003002",
     "authors" : [
       "Zoffix Znet"
@@ -12347,6 +12372,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
@@ -12516,6 +12542,7 @@
       "Test",
       "Test::Output"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
@@ -12669,6 +12696,7 @@
       "Test",
       "Test::META"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Perl6 Noise Gang"
@@ -12688,20 +12716,6 @@
     },
     "version" : "0.1",
     "description" : "MoarVM heap snapshot analysis tool"
-  },
-  {
-    "name" : "Devel::Trace",
-    "source-url" : "git://github.com/Altai-man/perl6-Devel-Trace.git",
-    "perl" : "6.*",
-    "author" : "github:Altai-man",
-    "depends" : [ ],
-    "provides" : {
-      "Devel::Trace" : "lib/Devel/Trace.pm6"
-    },
-    "tags" : "Devel",
-    "license" : "Artistic-2.0",
-    "version" : "0.1",
-    "description" : "DEPRECATED Perl6 code tracer."
   },
   {
     "name" : "TXN::Parser",
@@ -12793,6 +12807,7 @@
     ],
     "provides" : { },
     "test-depends" : [ ],
+    "license" : "Artistic-2.0",
     "version" : "1.002003",
     "authors" : [
       "Zoffix Znet"
@@ -12816,6 +12831,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "version" : "3.001001",
     "authors" : [
       "Zoffix Znet"
@@ -12835,6 +12851,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "version" : "2.001001",
     "authors" : [
       "Zoffix Znet"
@@ -12856,6 +12873,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "version" : "2.001001",
     "authors" : [
       "Zoffix Znet"
@@ -13132,6 +13150,7 @@
     "provides" : {
       "Text::Diff::Sift4" : "lib/Text/Diff/Sift4.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "1.3.0",
     "authors" : [
       "Daniel Green"
@@ -13154,6 +13173,7 @@
       "Test",
       "Test::Output"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
@@ -13204,6 +13224,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001005",
     "authors" : [
       "Zoffix Znet"
@@ -13251,6 +13272,7 @@
       "Test",
       "Test::META"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
@@ -13271,6 +13293,7 @@
       "Test",
       "Test::META"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
@@ -13470,6 +13493,7 @@
       "Test",
       "Test::META"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
@@ -13524,6 +13548,7 @@
       "Test",
       "Test::META"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
@@ -13544,6 +13569,7 @@
       "Test",
       "Test::META"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
@@ -13573,6 +13599,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
@@ -13706,6 +13733,7 @@
       "Test",
       "Test::META"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001003",
     "authors" : [
       "Zoffix Znet"
@@ -13880,6 +13908,7 @@
       "Test::When",
       "Test::META"
     ],
+    "license" : "Artistic-2.0",
     "version" : "2.001004",
     "authors" : [
       "Zoffix Znet"
@@ -14334,6 +14363,7 @@
       "Test",
       "Test::META"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
@@ -15904,9 +15934,10 @@
     },
     "test-depends" : [
       "Test",
-      "Test::Meta"
+      "Test::META"
     ],
-    "version" : "1.001001",
+    "license" : "Artistic-2.0",
+    "version" : "1.001002",
     "authors" : [
       "Zoffix Znet"
     ],
@@ -16260,6 +16291,7 @@
     "tags" : [
       "HTTP"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.002001",
     "authors" : [
       "Zoffix Znet"
@@ -16383,6 +16415,7 @@
     "tags" : [
       "Failure"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
