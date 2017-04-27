@@ -4583,6 +4583,10 @@
     "perl" : "6.c",
     "build-depends" : [ ],
     "depends" : [ ],
+    "tags" : [
+      "git",
+      "wrapper"
+    ],
     "provides" : {
       "Git::Wrapper::Log" : "lib/Git/Log/Parser.pm",
       "Git::Wrapper" : "lib/Git/Wrapper.pm",
@@ -4590,7 +4594,7 @@
       "Git::Log::Parser" : "lib/Git/Log/Parser.pm"
     },
     "test-depends" : [ ],
-    "version" : "v0.0.5",
+    "version" : "v0.0.6",
     "description" : "simple, hacky way to use git from Perl 6",
     "authors" : [
       "PerlPilot",
@@ -16887,6 +16891,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "MIT",
     "version" : "1.3.1",
     "description" : "accurate computation of sin(\u03c0*$x) and cos(\u03c0*$x)"
   },
