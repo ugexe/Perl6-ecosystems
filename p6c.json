@@ -9473,6 +9473,7 @@
       "Pod::TreeWalker::Listener" : "lib/Pod/TreeWalker/Listener.pm6",
       "Pod::TreeWalker" : "lib/Pod/TreeWalker.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.0.3",
     "description" : "Walk a Pod tree and generate an event for each node"
   },
@@ -9557,20 +9558,6 @@
       "Zoffix Znet"
     ],
     "description" : "Plugin for New Year's IRC parties"
-  },
-  {
-    "name" : "File::LibMagic",
-    "source-url" : "git://github.com/autarch/perl6-File-LibMagic.git",
-    "perl" : "6.*",
-    "author" : "Dave Rolsky <autarch@urth.org>",
-    "depends" : [
-      "File::Temp"
-    ],
-    "provides" : {
-      "File::LibMagic" : "lib/File/LibMagic.pm6"
-    },
-    "version" : "0.0.1",
-    "description" : "Use libmagic to determine MIME type and encodings of content"
   },
   {
     "name" : "Hash::Consistent",
@@ -16001,7 +15988,7 @@
       "SSH::LibSSH::Raw" : "lib/SSH/LibSSH/Raw.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.8.1",
+    "version" : "0.9",
     "description" : "Asynchronous binding for libssh; client-only and limited functionality so far."
   },
   {
