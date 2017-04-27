@@ -5043,6 +5043,27 @@
     "description" : "A very simple `serialize` sub to get public attribute values"
   },
   {
+    "name" : "Clifford",
+    "source-url" : "git://github.com/grondilu/clifford.git",
+    "perl" : "6.c",
+    "auth" : "github:grondilu",
+    "depends" : [ ],
+    "provides" : {
+      "MultiVector::BitEncoded::Default" : "lib/MultiVector/BitEncoded/Default.pm6",
+      "MultiVector::BitEncoded::Optimized" : "lib/MultiVector/BitEncoded/Optimized.pm6",
+      "MultiVector" : "lib/MultiVector.pm6",
+      "Clifford" : "lib/Clifford.pm6",
+      "MultiVector::BitEncoded" : "lib/MultiVector/BitEncoded.pm6",
+      "BasisBlade" : "lib/BasisBlade.pm6"
+    },
+    "license" : "Artistic",
+    "version" : "6.1.6",
+    "authors" : [
+      "Lucien Grondin"
+    ],
+    "description" : "Basic Geometric Algebra."
+  },
+  {
     "name" : "TAP::Harness",
     "source-url" : "git://github.com/perl6/tap-harness6.git",
     "perl" : "6.*",
