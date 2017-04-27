@@ -4212,6 +4212,7 @@
     "provides" : {
       "Image::Resize" : "lib/Image/Resize.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.01",
     "description" : "Resize images using GD"
   },
@@ -14538,6 +14539,7 @@
     "provides" : {
       "Geo::IP2Location::Lite" : "lib/Geo/IP2Location/Lite.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.9.0",
     "authors" : [
       "github:leejo"
@@ -14930,23 +14932,6 @@
     "description" : "Parsing and application of .gitignore-style ignore files."
   },
   {
-    "name" : "Crust::Middleware::Session::Store::DBIish",
-    "source-url" : "git://github.com/adaptiveoptics/Crust-Middleware-Session-Store-DBIish.git",
-    "perl" : "6.c",
-    "depends" : [
-      "Crust::Middleware::Session",
-      "JSON::Fast"
-    ],
-    "provides" : {
-      "Crust::Middleware::Session::Store::DBIish" : "lib/Crust/Middleware/Session/Store/DBIish.pm6"
-    },
-    "version" : "0.0.1",
-    "authors" : [
-      "Mark Rushing"
-    ],
-    "description" : "Implements database storage role for Crust::Middleware::Session"
-  },
-  {
     "name" : "Statistics::LinearRegression",
     "source-url" : "git://github.com/hipek8/p6-Statistics-LinearRegression.git",
     "perl" : "6.c",
@@ -15148,6 +15133,7 @@
     "provides" : {
       "SQL::NamedPlaceholder" : "lib/SQL/NamedPlaceholder.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "description" : "extension of placeholder",
     "authors" : [
@@ -16820,7 +16806,7 @@
     "test-depends" : [
       "Test"
     ],
-    "version" : "1.3.0",
+    "version" : "1.3.1",
     "description" : "accurate computation of sin(\u03c0*$x) and cos(\u03c0*$x)"
   }
 ]
