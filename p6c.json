@@ -6162,6 +6162,7 @@
       "DEBUG" : "DEBUG.pm6",
       "dbg" : "dbg.pm6"
     },
+    "license" : "BSL-1.0",
     "version" : "*",
     "description" : "Experimental debugging macros"
   },
@@ -6198,23 +6199,6 @@
     "description" : "Reads RGBA image data from text files"
   },
   {
-    "name" : "Native::LibC",
-    "source-url" : "git://github.com/cygx/p6-native-libc.git",
-    "support" : {
-      "source" : "https://github.com/cygx/p6-native-libc",
-      "bugtracker" : "https://github.com/cygx/p6-native-libc/issues"
-    },
-    "perl" : "6.*",
-    "author" : "cygx <cygx@cpan.org>",
-    "depends" : [ ],
-    "provides" : {
-      "Native::Types" : "lib/Native/Types.pm6",
-      "Native::LibC" : "lib/Native/LibC.pm6"
-    },
-    "version" : "*",
-    "description" : "The C standard library [work in progress]"
-  },
-  {
     "name" : "NQP::Eval",
     "source-url" : "git://github.com/cygx/p6-nqp-eval.git",
     "support" : {
@@ -6227,29 +6211,9 @@
     "provides" : {
       "NQP::Eval" : "lib/NQP/Eval.pm6"
     },
+    "license" : "BSL-1.0",
     "version" : "*",
     "description" : "Enables EVAL :lang<nqp>"
-  },
-  {
-    "name" : "TinyCC",
-    "support" : {
-      "source" : "https://github.com/cygx/p6-tinycc",
-      "bugtracker" : "https://github.com/cygx/p6-tinycc/issues"
-    },
-    "source-url" : "git://github.com/cygx/p6-tinycc.git",
-    "perl" : "6.*",
-    "author" : "cygx <cygx@cpan.org>",
-    "depends" : [ ],
-    "provides" : {
-      "TinyCC::Types" : "lib/TinyCC/Types.pm6",
-      "TinyCC::Eval" : "lib/TinyCC/Eval.pm6",
-      "TinyCC::CFunc" : "lib/TinyCC/CFunc.pm6",
-      "TinyCC" : "lib/TinyCC.pm6",
-      "TinyCC::CCall" : "lib/TinyCC/CCall.pm6",
-      "TinyCC::NC" : "lib/TinyCC/NC.pm6"
-    },
-    "version" : "*",
-    "description" : "The Tiny C Compiler"
   },
   {
     "name" : "Uni63",
@@ -10327,7 +10291,7 @@
       "Zef::Fetch" : "lib/Zef/Fetch.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.1.9",
+    "version" : "0.1.10",
     "authors" : [
       "Nick Logan",
       "Tony O'Dell"
