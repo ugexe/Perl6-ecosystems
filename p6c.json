@@ -13234,6 +13234,20 @@
     "description" : "Selectively run tests based on the environment and installed modules and libs"
   },
   {
+    "name" : "Path::Map",
+    "source-url" : "git://github.com/fjwhittle/p6-Path-Map.git",
+    "perl" : "6.c",
+    "auth" : "github:fjwhittle",
+    "depends" : [ ],
+    "provides" : {
+      "Path::Map" : "lib/Path/Map.pm6"
+    },
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
+    "version" : "0.3",
+    "description" : "Hash tree based path router"
+  },
+  {
     "name" : "Weather",
     "source-url" : "git://github.com/palapitta/Weather",
     "depends" : [
@@ -14465,6 +14479,7 @@
     "provides" : {
       "IRC::Client::Plugin::UserPoints" : "lib/IRC/Client/Plugin/UserPoints.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.2",
     "authors" : [
       "Julien Simonet"
@@ -14671,6 +14686,7 @@
     "provides" : {
       "Crypt::RSA" : "lib/Crypt/RSA.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "authors" : [
       "Brian Duggan"
@@ -14822,6 +14838,7 @@
       "DNS::Zone::ResourceRecordData::SOA" : "lib/DNS/Zone/ResourceRecordData/SOA.pm6",
       "DNS::Zone::Grammars::Modern" : "lib/DNS/Zone/Grammars/Modern.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.2",
     "authors" : [
       "Julien Simonet"
@@ -16754,17 +16771,15 @@
       "configuration"
     ],
     "provides" : {
-      "Config::Exception::UnknownTypeException" : "lib/Config/Exception/UnknownTypeException.pm6",
       "Config::Parser" : "lib/Config/Parser.pm6",
       "Config::Exception::FileNotFoundException" : "lib/Config/Exception/FileNotFoundException.pm6",
       "Config" : "lib/Config.pm6",
       "Config::Exception::MissingParserException" : "lib/Config/Exception/MissingParserException.pm6",
       "Config::Exception::UnimplementedMethodException" : "lib/Config/Exception/UnimplementedMethodException.pm6",
-      "Config::Type" : "lib/Config/Type.pm6",
       "Config::Parser::NULL" : "lib/Config/Parser/NULL.pm6"
     },
     "license" : "GPL-3.0",
-    "version" : "1.1.0",
+    "version" : "1.1.1",
     "authors" : [
       "Patrick Spek <p.spek@tyil.work>"
     ],
