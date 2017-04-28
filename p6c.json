@@ -1829,6 +1829,50 @@
     "description" : "Soundex Algorithm in Perl 6"
   },
   {
+    "name" : "MongoDB",
+    "source-url" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
+    "perl" : "6",
+    "depends" : [
+      "BSON",
+      "Semaphore::ReadersWriters",
+      "Config::DataLang::Refine",
+      "Auth::SCRAM",
+      "Base64",
+      "OpenSSL",
+      "URI::Escape",
+      "Unicode::PRECIS",
+      "Log::Async",
+      "Terminal::ANSIColor"
+    ],
+    "provides" : {
+      "MongoDB::Header" : "lib/MongoDB/Header.pm6",
+      "MongoDB::Database" : "lib/MongoDB/Database.pm6",
+      "MongoDB::Cursor" : "lib/MongoDB/Cursor.pm6",
+      "MongoDB::Authenticate::Credential" : "lib/MongoDB/Authenticate/Credential.pm6",
+      "MongoDB::Server::Monitor" : "lib/MongoDB/Server/Monitor.pm6",
+      "MongoDB::HL::Users" : "lib/MongoDB/HL/Users.pm6",
+      "MongoDB::Wire" : "lib/MongoDB/Wire.pm6",
+      "MongoDB::Collection" : "lib/MongoDB/Collection.pm6",
+      "MongoDB::Uri" : "lib/MongoDB/Uri.pm6",
+      "MongoDB::MDBConfig" : "lib/MongoDB/MDBConfig.pm6",
+      "MongoDB::HL::Collection" : "lib/MongoDB/HL/Collection.pm6",
+      "MongoDB::Log" : "lib/MongoDB/Log.pm6",
+      "MongoDB" : "lib/MongoDB.pm6",
+      "MongoDB::Server::Control" : "lib/MongoDB/Server/Control.pm6",
+      "MongoDB::Client" : "lib/MongoDB/Client.pm6",
+      "MongoDB::Server" : "lib/MongoDB/Server.pm6",
+      "MongoDB::Server::Socket" : "lib/MongoDB/Server/Socket.pm6",
+      "MongoDB::Authenticate::Scram" : "lib/MongoDB/Authenticate/Scram.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.37.1.1",
+    "description" : "MongoDB driver",
+    "authors" : [
+      "Marcel Timmerman took over in Januari 2015 and is working on it until the present day",
+      "Pawe\u0142 Pabian worked on it from 2011 until January 2015"
+    ]
+  },
+  {
     "name" : "SDL",
     "source-url" : "git://github.com/PerlGameDev/SDL6.git",
     "depends" : [ ],
@@ -14195,6 +14239,29 @@
       "Armand Halbert"
     ],
     "description" : "Port of python's itertools to perl6."
+  },
+  {
+    "name" : "Auth::SCRAM",
+    "source-url" : "git://github.com/MARTIMM/Auth-SCRAM.git",
+    "perl" : "6",
+    "depends" : [
+      "Digest::HMAC",
+      "OpenSSL",
+      "Base64",
+      "PKCS5",
+      "Unicode::PRECIS"
+    ],
+    "provides" : {
+      "Auth::SCRAM" : "lib/Auth/SCRAM.pm6",
+      "Auth::SCRAM::Server" : "lib/Auth/SCRAM/Server.pm6",
+      "Auth::SCRAM::Client" : "lib/Auth/SCRAM/Client.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "v0.4.6.3",
+    "description" : "Salted Challenge Response Authentication Mechanism (SCRAM)",
+    "authors" : [
+      "Marcel Timmerman"
+    ]
   },
   {
     "name" : "Sparrowdo::RemoteFile",
