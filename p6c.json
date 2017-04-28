@@ -8103,7 +8103,7 @@
   {
     "name" : "Text::LTSV",
     "perl" : "v6",
-    "source-url" : "git://github.com/moznion/p6-Text-LTSV",
+    "source-url" : "git://github.com/moznion/p6-Text-LTSV.git",
     "build-depends" : [ ],
     "depends" : [ ],
     "test-depends" : [ ],
@@ -8111,6 +8111,7 @@
       "Text::LTSV::Parser" : "lib/Text/LTSV/Parser.pm6",
       "Text::LTSV" : "lib/Text/LTSV.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "authors" : [
       "moznion"
