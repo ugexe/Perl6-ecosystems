@@ -535,22 +535,6 @@
     "description" : "Perl 6 implementation of Progress Bar."
   },
   {
-    "name" : "Semaphore::ReadersWriters",
-    "source-url" : "git://github.com/MARTIMM/semaphore-readerswriters.git",
-    "perl" : "6.c",
-    "author" : "Marcel Timmerman",
-    "depends" : [ ],
-    "provides" : {
-      "Semaphore::ReadersWriters" : "lib/Semaphore/ReadersWriters.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "v0.2.5",
-    "description" : "Semaphore Readers Writers Pattern",
-    "authors" : [
-      "Marcel Timmerman"
-    ]
-  },
-  {
     "name" : "Config::DataLang::Refine",
     "source-url" : "git://github.com/MARTIMM/config-datalang-refine.git",
     "perl" : "6",
@@ -7645,6 +7629,29 @@
     "description" : "HTTP parser."
   },
   {
+    "name" : "HTTP::Server::Tiny",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/tokuhirom/p6-HTTP-Server-Tiny.git",
+    "build-depends" : [ ],
+    "depends" : [
+      "HTTP::Parser",
+      "HTTP::Status",
+      "IO::Blob"
+    ],
+    "test-depends" : [
+      "JSON::Fast",
+      "HTTP::Tinyish"
+    ],
+    "provides" : {
+      "HTTP::Server::Tiny" : "lib/HTTP/Server/Tiny.pm6"
+    },
+    "version" : "*",
+    "authors" : [
+      "Tokuhiro Matsuno"
+    ],
+    "description" : "a simple HTTP server for Perl6"
+  },
+  {
     "name" : "Getopt::Tiny",
     "perl" : "6",
     "source-url" : "git://github.com/tokuhirom/p6-Getopt-Tiny.git",
@@ -8629,6 +8636,7 @@
       "Net::FTP::Config" : "lib/Net/FTP/Config.pm6",
       "Net::FTP::Transfer" : "lib/Net/FTP/Transfer.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.6.1",
     "description" : "A ftp client written in perl6"
   },
@@ -14113,24 +14121,6 @@
     "description" : "Search compunits, modules and classes in installed repositories"
   },
   {
-    "name" : "PKCS5",
-    "source-url" : "git://github.com/MARTIMM/PKCS5",
-    "perl" : "6.c",
-    "depends" : [
-      "Digest::HMAC",
-      "OpenSSL"
-    ],
-    "provides" : {
-      "PKCS5::PBKDF2" : "lib/PKCS5/PBKDF2.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "v0.1.6.1",
-    "description" : "PKCS #5 with PBKDF2",
-    "authors" : [
-      "Marcel Timmerman"
-    ]
-  },
-  {
     "name" : "Acme::Sudoku",
     "source-url" : "git@github.com:pierre-vigier/Perl6-Acme-Sudoku.git",
     "perl" : "6.c",
@@ -14607,28 +14597,6 @@
       "Fernando Correa de Oliveira"
     ],
     "description" : "Simple Constraint Programming Problem Solver"
-  },
-  {
-    "name" : "Unicode::PRECIS",
-    "source-url" : "git://github.com/MARTIMM/unicode-precis.git",
-    "perl" : "6.c",
-    "author" : "Marcel Timmerman",
-    "depends" : [ ],
-    "provides" : {
-      "Unicode::PRECIS" : "lib/Unicode/PRECIS.pm6",
-      "Unicode::PRECIS::Tables" : "lib/Unicode/PRECIS/Tables.pm6",
-      "Unicode::PRECIS::Identifier::UsernameCasePreserved" : "lib/Unicode/PRECIS/Identifier/UsernameCasePreserved.pm6",
-      "Unicode::PRECIS::Identifier" : "lib/Unicode/PRECIS/Identifier.pm6",
-      "Unicode::PRECIS::FreeForm::OpaqueString" : "lib/Unicode/PRECIS/FreeForm/OpaqueString.pm6",
-      "Unicode::PRECIS::Identifier::UsernameCaseMapped" : "lib/Unicode/PRECIS/Identifier/UsernameCaseMapped.pm6",
-      "Unicode::PRECIS::FreeForm" : "lib/Unicode/PRECIS/FreeForm.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "v0.5.1",
-    "description" : "Implements PRECIS framework, rfc7564 and others. Obsoletes stringprep and saslprep",
-    "authors" : [
-      "Marcel Timmerman"
-    ]
   },
   {
     "name" : "JS::Minify",
