@@ -7562,6 +7562,7 @@
     "provides" : {
       "HTTP::MultiPartParser" : "lib/HTTP/MultiPartParser.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "authors" : [
       "Tokuhiro Matsuno"
@@ -7580,6 +7581,7 @@
     "provides" : {
       "Cookie::Baker" : "lib/Cookie/Baker.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "authors" : [
       "Tokuhiro Matsuno"
@@ -7641,29 +7643,6 @@
       "Tokuhiro Matsuno"
     ],
     "description" : "HTTP parser."
-  },
-  {
-    "name" : "HTTP::Server::Tiny",
-    "perl" : "6.c",
-    "source-url" : "git://github.com/tokuhirom/p6-HTTP-Server-Tiny.git",
-    "build-depends" : [ ],
-    "depends" : [
-      "HTTP::Parser",
-      "HTTP::Status",
-      "IO::Blob"
-    ],
-    "test-depends" : [
-      "JSON::Fast",
-      "HTTP::Tinyish"
-    ],
-    "provides" : {
-      "HTTP::Server::Tiny" : "lib/HTTP/Server/Tiny.pm6"
-    },
-    "version" : "*",
-    "authors" : [
-      "Tokuhiro Matsuno"
-    ],
-    "description" : "a simple HTTP server for Perl6"
   },
   {
     "name" : "Getopt::Tiny",
