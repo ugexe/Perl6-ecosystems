@@ -4563,6 +4563,11 @@
     "perl" : "6.*",
     "author" : "Adrian Kreher",
     "depends" : [ ],
+    "tags" : [
+      "audio",
+      "music",
+      "mp3"
+    ],
     "provides" : {
       "Audio::Taglib::Simple" : "lib/Audio/Taglib/Simple.pm"
     },
@@ -8096,6 +8101,7 @@
     "provides" : {
       "HTTP::Router::Blind" : "lib/HTTP/Router/Blind.pm6"
     },
+    "license" : "MIT",
     "version" : "2.0.0",
     "description" : "A framework-agnostic HTTP Router"
   },
@@ -8123,6 +8129,7 @@
     "provides" : {
       "Config::Clever" : "lib/Config/Clever.pm6"
     },
+    "license" : "MIT",
     "version" : "1.0.0",
     "description" : "A clever, heirarchical config loader"
   },
