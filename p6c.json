@@ -4770,6 +4770,7 @@
     "provides" : {
       "Crypt::Bcrypt" : "lib/Crypt/Bcrypt.pm6"
     },
+    "license" : "ISC",
     "version" : "1.3.2",
     "description" : "Easy bcrypt password hashing",
     "authors" : [
@@ -8595,33 +8596,26 @@
   },
   {
     "name" : "META6",
-    "source-url" : "git://github.com/jonathanstowe/META6.git",
     "perl" : "6.c",
     "support" : {
-      "phone" : null,
-      "irc" : null,
-      "email" : null,
-      "mailinglist" : null,
       "source" : "git://github.com/jonathanstowe/META6.git",
       "bugtracker" : "https://github.com/jonathanstowe/META6/issues"
     },
-    "emulates" : { },
+    "source-url" : "git://github.com/jonathanstowe/META6.git",
     "build-depends" : [ ],
-    "excludes" : { },
-    "superseded-by" : { },
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "JSON::Class"
     ],
-    "resource" : { },
-    "license" : "Artistic-2.0",
+    "provides" : {
+      "META6" : "lib/META6.pm"
+    },
     "test-depends" : [
       "JSON::Fast",
       "Test"
     ],
-    "provides" : {
-      "META6" : "lib/META6.pm"
-    },
+    "license" : "Artistic-2.0",
     "tags" : [
       "devel",
       "meta",
@@ -8629,33 +8623,33 @@
     ],
     "version" : "0.0.15",
     "production" : true,
-    "supersedes" : { },
+    "meta6" : "0",
     "description" : "Work with Perl 6 META files",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "Test::META",
-    "source-url" : "git://github.com/jonathanstowe/Test-META.git",
     "perl" : "6.c",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Test-META.git"
     },
+    "source-url" : "git://github.com/jonathanstowe/Test-META.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "Test",
       "META6"
     ],
-    "license" : "Artistic",
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "Test::META" : "lib/Test/META.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "devel",
       "meta",
@@ -8663,6 +8657,7 @@
       "testing"
     ],
     "version" : "0.0.8",
+    "meta6" : "0",
     "description" : "Test a distributions META file",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -9794,29 +9789,29 @@
   },
   {
     "name" : "RPi::Device::SMBus",
-    "source-url" : "git://github.com/jonathanstowe/RPi-Device-SMBus.git",
     "perl" : "6.c",
     "support" : {
       "source" : "git://github.com/jonathanstowe/RPi-Device-SMBus.git"
     },
-    "resources" : [
-      "libraries/i2chelper"
-    ],
+    "source-url" : "git://github.com/jonathanstowe/RPi-Device-SMBus.git",
     "build-depends" : [
       "Shell::Command",
       "LibraryMake"
+    ],
+    "resources" : [
+      "libraries/i2chelper"
     ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "NativeHelpers::Array"
     ],
-    "license" : "Artistic",
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "RPi::Device::SMBus" : "lib/RPi/Device/SMBus.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "RPi",
       "Rapberry Pi",
@@ -9824,31 +9819,32 @@
       "SMBus"
     ],
     "version" : "0.0.2",
+    "meta6" : "0",
     "description" : "SMBus/i2c interface on the Raspberry Pi",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "RPi::Device::PiGlow",
-    "source-url" : "git://github.com/jonathanstowe/RPi-Device-PiGlow.git",
     "perl" : "6",
     "support" : {
       "source" : "git://github.com/jonathanstowe/RPi-Device-PiGlow.git"
     },
+    "source-url" : "git://github.com/jonathanstowe/RPi-Device-PiGlow.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "RPi::Device::SMBus"
     ],
-    "license" : "Artistic",
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "RPi::Device::PiGlow" : "lib/RPi/Device/PiGlow.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "RPi",
       "Rapberry Pi",
@@ -9856,11 +9852,11 @@
       "PiGlow"
     ],
     "version" : "0.0.1",
+    "meta6" : "0",
     "description" : "Interface for the Pimoroni PiGlow on the Raspberry Pi",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "CompUnit::Util",
@@ -9963,23 +9959,24 @@
   },
   {
     "name" : "IO::Path::Mode",
-    "source-url" : "git://github.com/jonathanstowe/IO-Path-Mode.git",
     "perl" : "6.c",
     "support" : {
       "email" : "jns+git@gellyfish.co.uk",
       "source" : "git://github.com/jonathanstowe/IO-Path-Mode.git",
       "bugtracker" : "https://github.com/jonathanstowe/IO-Path-Mode/issues"
     },
+    "source-url" : "git://github.com/jonathanstowe/IO-Path-Mode.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "license" : "Artistic",
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "IO::Path::Mode" : "lib/IO/Path/Mode.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "IO",
       "permissions",
@@ -9987,11 +9984,11 @@
       "utility"
     ],
     "version" : "0.0.6",
+    "meta6" : "0",
     "description" : "Augment IO::Path with a .mode() method to get the file mode",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "Native::Resources",
@@ -10678,34 +10675,35 @@
   },
   {
     "name" : "Tinky",
-    "source-url" : "git://github.com/jonathanstowe/Tinky.git",
     "perl" : "6.c",
     "support" : {
       "email" : "jns+git@gellyfish.co.uk",
       "source" : "git://github.com/jonathanstowe/Tinky.git",
       "bugtracker" : "https://github.com/jonathanstowe/Tinky/issues"
     },
+    "source-url" : "git://github.com/jonathanstowe/Tinky.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "license" : "Artistic-2.0",
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "Tinky" : "lib/Tinky.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "Workflow",
       "toolkit",
       "state machine"
     ],
     "version" : "0.0.5",
+    "meta6" : "0",
     "description" : "An Experimental Workflow / State Management toolit",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "WebService::AWS::Auth::V4",
@@ -11070,34 +11068,35 @@
   },
   {
     "name" : "Oyatul",
-    "source-url" : "git://github.com/jonathanstowe/Oyatul.git",
     "perl" : "6.c",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Oyatul.git"
     },
+    "source-url" : "git://github.com/jonathanstowe/Oyatul.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "JSON::Fast"
     ],
-    "license" : "Artistic",
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "Oyatul" : "lib/Oyatul.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "filesystem",
       "layout",
       "util"
     ],
     "version" : "0.0.4",
+    "meta6" : "0",
     "description" : "Abstract representation of a filesystem layout",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "IO::Prompt",
@@ -11121,21 +11120,22 @@
   },
   {
     "name" : "Test::Util::ServerPort",
-    "source-url" : "git://github.com/jonathanstowe/Test-Util-ServerPort.git",
     "perl" : "6.c",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Test-Util-ServerPort.git"
     },
+    "source-url" : "git://github.com/jonathanstowe/Test-Util-ServerPort.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "license" : "Artistic",
-    "test-depends" : [
-      "Test"
-    ],
     "provides" : {
       "Test::Util::ServerPort" : "lib/Test/Util/ServerPort.pm"
     },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "network",
       "server",
@@ -11143,11 +11143,11 @@
       "util"
     ],
     "version" : "0.0.1",
+    "meta6" : "0",
     "description" : "Get a free server port for testing with",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "Algorithm::BinaryIndexedTree",
@@ -11215,37 +11215,38 @@
   },
   {
     "name" : "Audio::Liquidsoap",
-    "source-url" : "git://github.com/jonathanstowe/Audio-Liquidsoap.git",
     "perl" : "6.c",
     "support" : {
       "email" : "jns+git@gellyfish.co.uk",
       "source" : "git://github.com/jonathanstowe/Audio-Liquidsoap.git",
       "bugtracker" : "https://github.com/jonathanstowe/Audio-Liquidsoap/issues"
     },
+    "source-url" : "git://github.com/jonathanstowe/Audio-Liquidsoap.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "File::Which"
     ],
-    "license" : "Artistic-2.0",
+    "provides" : {
+      "Audio::Liquidsoap" : "lib/Audio/Liquidsoap.pm"
+    },
     "test-depends" : [
       "Test",
       "Test::Util::ServerPort"
     ],
-    "provides" : {
-      "Audio::Liquidsoap" : "lib/Audio/Liquidsoap.pm"
-    },
+    "license" : "Artistic-2.0",
     "tags" : [
       "audio",
       "integration",
       "streaming"
     ],
     "version" : "0.0.6",
+    "meta6" : "0",
     "description" : "Interact with the Liquidsoap command server",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "NativeHelpers::Blob",
@@ -11322,30 +11323,30 @@
   },
   {
     "name" : "Audio::Playlist::JSPF",
-    "source-url" : "git://github.com/jonathanstowe/Audio-Playlist-JSPF.git",
+    "perl" : "6.c",
     "support" : {
       "source" : "git://github.com/jonathan/stowe/Audio-Playlist-JSPF.git"
     },
-    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/Audio-Playlist-JSPF.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "JSON::Class"
     ],
-    "resource" : { },
-    "license" : "perl",
+    "provides" : {
+      "Audio::Playlist::JSPF" : "lib/Audio/Playlist/JSPF.pm"
+    },
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "playlist",
       "music",
       "JSON",
       "xiph"
     ],
-    "provides" : {
-      "Audio::Playlist::JSPF" : "lib/Audio/Playlist/JSPF.pm"
-    },
     "version" : "0.0.1",
     "meta6" : "0",
     "description" : "JSON representation of a 'playlist'",
@@ -11480,37 +11481,33 @@
   },
   {
     "name" : "XML::Class",
+    "perl" : "6.c",
     "support" : {
       "email" : "jns+gh@gellyfish.co.uk",
       "source" : "git://github.com/jonathanstowe/XML-Class.git",
       "bugtracker" : "https://github.com/jonathanstowe/XML-Class/issues"
     },
     "source-url" : "git://github.com/jonathanstowe/XML-Class.git",
-    "perl" : "6.c",
-    "emulates" : { },
     "build-depends" : [ ],
-    "excludes" : { },
-    "superseded-by" : { },
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "XML"
     ],
-    "resource" : { },
-    "license" : "perl",
+    "provides" : {
+      "XML::Class" : "lib/XML/Class.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "XML",
       "object",
       "role",
       "framework"
     ],
-    "test-depends" : [
-      "Test"
-    ],
-    "provides" : {
-      "XML::Class" : "lib/XML/Class.pm"
-    },
     "version" : "0.0.4",
-    "supersedes" : { },
     "meta6" : "0",
     "description" : "Role to Serialize/De-Serialize a Perl 6 class to/from XML",
     "authors" : [
@@ -11535,31 +11532,33 @@
   },
   {
     "name" : "Util::Bitfield",
-    "source-url" : "git://github.com/jonathanstowe/Util-Bitfield.git",
+    "perl" : "6.c",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Util-Bitfield.git"
     },
-    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/Util-Bitfield.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
-    "resource" : { },
+    "depends" : [ ],
     "provides" : {
       "Util::Bitfield" : "lib/Util/Bitfield.pm"
     },
     "test-depends" : [
       "Test"
     ],
-    "license" : "perl",
+    "license" : "Artistic-2.0",
     "tags" : [
       "util",
       "bit",
       "bitfield"
     ],
     "version" : "0.0.2",
+    "meta6" : "0",
     "description" : "Utility subroutines for working with bitfields",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "Crane",
@@ -11621,21 +11620,15 @@
   {
     "name" : "Audio::Hydrogen",
     "perl" : "6.c",
-    "source-url" : "https://github.com/jonathanstowe/Audio-Hydrogen.git",
     "support" : {
       "source" : "https://github.com/jonathanstowe/Audio-Hydrogen.git"
     },
+    "source-url" : "https://github.com/jonathanstowe/Audio-Hydrogen.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "XML::Class"
-    ],
-    "license" : "perl",
-    "resource" : { },
-    "tags" : [
-      "audio",
-      "drumkit",
-      "xml"
     ],
     "provides" : {
       "Audio::Hydrogen::Pattern" : "lib/Audio/Hydrogen/Pattern.pm",
@@ -11647,12 +11640,18 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "audio",
+      "drumkit",
+      "xml"
+    ],
     "version" : "0.0.1",
+    "meta6" : "0",
+    "description" : "Work with Hydrogen songs and drumkits",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0",
-    "description" : "Work with Hydrogen songs and drumkits"
+    ]
   },
   {
     "name" : "Algorithm::MinMaxHeap",
@@ -11677,32 +11676,33 @@
   {
     "name" : "Audio::PortAudio",
     "perl" : "6.c",
-    "source-url" : "git://github.com/Perl6-Noise-Gang/Audio-PortAudio.git",
     "support" : {
       "source" : "git://github.com/Perl6-Noise-Gang/Audio-PortAudio.git"
     },
+    "source-url" : "git://github.com/Perl6-Noise-Gang/Audio-PortAudio.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:Perl6-Noise-Gang",
     "depends" : [ ],
-    "license" : "perl",
+    "provides" : {
+      "Audio::PortAudio" : "lib/Audio/PortAudio.pm"
+    },
+    "test-depends" : [
+      "LibraryCheck"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "audio",
       "portaudio",
       "input",
       "output"
     ],
-    "resource" : { },
-    "test-depends" : [
-      "LibraryCheck"
-    ],
-    "provides" : {
-      "Audio::PortAudio" : "lib/Audio/PortAudio.pm"
-    },
     "version" : "0.0.2",
+    "meta6" : "0",
     "description" : "Access to audio input and output devices",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "Term::Choose::Util",
@@ -11825,24 +11825,25 @@
   },
   {
     "name" : "Audio::PortMIDI",
+    "perl" : "6.c",
     "support" : {
       "irc" : "irc://irc.freenode.net/perl6-noise-gang",
       "source" : "git://github.com/Perl6-Noise-Gang/Audio-PortMIDI.git"
     },
     "source-url" : "git://github.com/Perl6-Noise-Gang/Audio-PortMIDI.git",
-    "perl" : "6.c",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:Perl6-Noise-Gang",
     "depends" : [
       "Util::Bitfield"
     ],
-    "resource" : { },
     "provides" : {
       "Audio::PortMIDI" : "lib/Audio/PortMIDI.pm"
     },
     "test-depends" : [
       "LibraryCheck"
     ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "MIDI",
       "audio",
@@ -11850,10 +11851,9 @@
       "sequencer",
       "noise-gang"
     ],
-    "license" : "perl",
     "version" : "0.0.8",
-    "description" : "Perl6 MIDI access using the portmidi library",
     "meta6" : "0",
+    "description" : "Perl6 MIDI access using the portmidi library",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>",
       "Pepe Schwarz <peschwa@gmail.com>"
@@ -11925,11 +11925,12 @@
   {
     "name" : "Audio::Icecast",
     "perl" : "6.c",
-    "source-url" : "git@github.com:jonathanstowe/Audio-Icecast.git",
     "support" : {
       "source" : "git@github.com:jonathanstowe/Audio-Icecast.git"
     },
+    "source-url" : "git@github.com:jonathanstowe/Audio-Icecast.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "XML::Class",
@@ -11939,21 +11940,20 @@
     "provides" : {
       "Audio::Icecast" : "lib/Audio/Icecast.pm"
     },
-    "license" : "perl",
     "test-depends" : [
       "CheckSocket",
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "audio",
       "util",
       "icecast",
       "admin"
     ],
-    "resource" : { },
     "version" : "0.0.2",
-    "description" : "Administrative helpers for an icecast server",
     "meta6" : "0",
+    "description" : "Administrative helpers for an icecast server",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
@@ -12022,61 +12022,63 @@
     },
     "source-url" : "git@github.com:jonathanstowe/Lumberjack.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "DateTime::Format"
     ],
-    "resource" : { },
+    "provides" : {
+      "Lumberjack" : "lib/Lumberjack.pm"
+    },
+    "test-depends" : [
+      "Test",
+      "IO::MiddleMan"
+    ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "logger",
       "log",
       "logging",
       "framework"
     ],
-    "license" : "perl",
-    "test-depends" : [
-      "Test",
-      "IO::MiddleMan"
-    ],
-    "provides" : {
-      "Lumberjack" : "lib/Lumberjack.pm"
-    },
     "version" : "0.0.5",
+    "meta6" : "0",
+    "description" : "A simple logging framework.",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "description" : "A simple logging framework.",
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "Lumberjack::Dispatcher::Syslog",
-    "source-url" : "git@github.com:jonathanstowe/Lumberjack-Dispatcher-Syslog.git",
+    "perl" : "6.c",
     "support" : {
       "source" : "git@github.com:jonathanstowe/Lumberjack-Dispatcher-Syslog.git"
     },
-    "perl" : "6.c",
+    "source-url" : "git@github.com:jonathanstowe/Lumberjack-Dispatcher-Syslog.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "Lumberjack",
       "Log::Syslog::Native"
     ],
-    "resource" : { },
-    "license" : "perl",
+    "provides" : {
+      "Lumberjack::Dispatcher::Syslog" : "lib/Lumberjack/Dispatcher/Syslog.pm"
+    },
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "logger",
       "log",
       "syslog",
       "lumberjack"
     ],
-    "provides" : {
-      "Lumberjack::Dispatcher::Syslog" : "lib/Lumberjack/Dispatcher/Syslog.pm"
-    },
     "version" : "0.0.2",
+    "meta6" : "0",
+    "description" : "A Syslog dispatcher for the Lumberjack logger",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0",
-    "description" : "A Syslog dispatcher for the Lumberjack logger"
+    ]
   },
   {
     "name" : "Algorithm::Manacher",
@@ -12412,29 +12414,31 @@
   },
   {
     "name" : "EuclideanRhythm",
+    "perl" : "6.c",
     "support" : {
       "source" : "git@github.com:jonathanstowe/EuclideanRhythm.git"
     },
-    "perl" : "6.c",
     "source-url" : "git@github.com:jonathanstowe/EuclideanRhythm.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "license" : "perl",
+    "provides" : {
+      "EuclideanRhythm" : "lib/EuclideanRhythm.pm"
+    },
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "rhythm",
       "algorithm",
       "euclid"
     ],
-    "provides" : {
-      "EuclideanRhythm" : "lib/EuclideanRhythm.pm"
-    },
     "version" : "0.0.1",
+    "meta6" : "0",
     "description" : "create rhythmic patterns based on the Euclidean algorithm",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "deredere",
@@ -12465,10 +12469,10 @@
       "bugtracker" : "https://github.com/jonathanstowe/Lumberjack-Application/issues"
     },
     "source-url" : "git://github.com/jonathanstowe/Lumberjack-Application.git",
+    "build-depends" : [ ],
     "resources" : [
       "templates/index.tt"
     ],
-    "build-depends" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "Lumberjack",
@@ -12492,16 +12496,16 @@
     "test-depends" : [
       "Test::Util::ServerPort"
     ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "logging",
       "lumberjack",
       "websocket",
       "p6sgi"
     ],
-    "license" : "Artistic-2.0",
     "version" : "0.0.5",
-    "description" : "A web facility for the Lumberjack logging framework",
     "meta6" : "0",
+    "description" : "A web facility for the Lumberjack logging framework",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
@@ -12788,30 +12792,30 @@
     },
     "source-url" : "git://github.com/jonathanstowe/App-ModuleSnap.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "JSON::Fast",
       "META6"
     ],
+    "provides" : {
+      "App::ModuleSnap" : "lib/App/ModuleSnap.pm"
+    },
     "test-depends" : [
       "JSON::Fast"
     ],
-    "license" : "perl",
+    "license" : "Artistic-2.0",
     "tags" : [
       "package",
       "snapshot",
       "utility"
     ],
-    "provides" : {
-      "App::ModuleSnap" : "lib/App/ModuleSnap.pm"
-    },
-    "resource" : { },
     "version" : "0.0.9",
+    "meta6" : "0",
+    "description" : "Take a snapshot of the installed modules for later reinstallation",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0",
-    "description" : "Take a snapshot of the installed modules for later reinstallation"
+    ]
   },
   {
     "name" : "Audio::OggVorbis",
@@ -13001,26 +13005,26 @@
     "depends" : [
       "NativeHelpers::Array"
     ],
+    "provides" : {
+      "Audio::Fingerprint::Chromaprint" : "lib/Audio/Fingerprint/Chromaprint.pm"
+    },
     "test-depends" : [
       "Test::META",
       "Audio::Sndfile"
     ],
-    "license" : "perl",
+    "license" : "Artistic-2.0",
     "tags" : [
       "audio",
       "fingerprint",
       "acoustid",
       "noise-gang"
     ],
-    "provides" : {
-      "Audio::Fingerprint::Chromaprint" : "lib/Audio/Fingerprint/Chromaprint.pm"
-    },
     "version" : "0.0.1",
+    "meta6" : "0",
+    "description" : "Get audio fingerprint using the chromaprint / AcoustID library",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0",
-    "description" : "Get audio fingerprint using the chromaprint / AcoustID library"
+    ]
   },
   {
     "name" : "App::AizuOnlineJudge",
@@ -13040,6 +13044,7 @@
       "App::AizuOnlineJudge::BasicCourse" : "lib/App/AizuOnlineJudge/BasicCourse.pm6",
       "App::AizuOnlineJudge" : "lib/App/AizuOnlineJudge.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "a perl6 implementation of the unofficial code submitter for Aizu Online Judge( http://judge.u-aizu.ac.jp/onlinejudge/index.jsp ).",
     "authors" : [
@@ -13077,26 +13082,28 @@
       "bugtracker" : "https://github.com/jonathanstowe/Acme-Insult-Lala/issues"
     },
     "source-url" : "git://github.com/jonathanstowe/Acme-Insult-Lala.git",
+    "build-depends" : [ ],
     "resources" : [
       "lala.txt"
     ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "license" : "perl",
+    "provides" : {
+      "Acme::Insult::Lala" : "lib/Acme/Insult/Lala.pm"
+    },
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "insult",
       "acme",
       "fun"
     ],
-    "provides" : {
-      "Acme::Insult::Lala" : "lib/Acme/Insult/Lala.pm"
-    },
     "version" : "0.0.3",
+    "meta6" : "0",
+    "description" : "Construct an insulting epithet in the manner of an old IRC bot",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0",
-    "description" : "Construct an insulting epithet in the manner of an old IRC bot"
+    ]
   },
   {
     "name" : "WebService::FootballData",
@@ -13219,11 +13226,11 @@
   },
   {
     "name" : "Device::Velleman::K8055",
-    "source-url" : "git://github.com/jonathanstowe/Device-Velleman-K8055.git",
+    "perl" : "6.c",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Device-Velleman-K8055.git"
     },
-    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/Device-Velleman-K8055.git",
     "build-depends" : [
       "LibraryMake",
       "Shell::Command"
@@ -13233,22 +13240,22 @@
     ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
+    "provides" : {
+      "Device::Velleman::K8055" : "lib/Device/Velleman/K8055.pm"
+    },
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
     "tags" : [
       "USB",
       "device",
       "experimental"
     ],
-    "license" : "perl",
-    "provides" : {
-      "Device::Velleman::K8055" : "lib/Device/Velleman/K8055.pm"
-    },
-    "test-depends" : [ ],
     "version" : "0.0.2",
+    "meta6" : "0",
     "description" : "A Perl 6 interface to the Velleman USB Experiment Kit",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "Test::When",
@@ -13975,23 +13982,23 @@
     "depends" : [
       "LibraryMake"
     ],
+    "provides" : {
+      "Doublephone" : "lib/Doublephone.pm"
+    },
     "test-depends" : [ ],
-    "license" : "perl",
+    "license" : "Artistic-2.0",
     "tags" : [
       "search",
       "phonetic",
       "soundex",
       "metaphone"
     ],
-    "provides" : {
-      "Doublephone" : "lib/Doublephone.pm"
-    },
     "version" : "0.0.3",
+    "meta6" : "0",
+    "description" : "Implementation of the Double Metaphone phonetic encoding algorithm",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0",
-    "description" : "Implementation of the Double Metaphone phonetic encoding algorithm"
+    ]
   },
   {
     "name" : "MetaCPAN::Favorite",
@@ -14603,6 +14610,7 @@
       "Algorithm::LBFGS::Status" : "lib/Algorithm/LBFGS/Status.pm6",
       "Algorithm::LBFGS::Parameter" : "lib/Algorithm/LBFGS/Parameter.pm6"
     },
+    "license" : "MIT",
     "version" : "0.01",
     "description" : "A Perl6 bindings for libLBFGS",
     "authors" : [
@@ -14894,24 +14902,24 @@
     "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
+    "provides" : {
+      "URI::FetchFile" : "lib/URI/FetchFile.pm"
+    },
     "test-depends" : [
       "Test"
     ],
-    "license" : "perl",
+    "license" : "Artistic-2.0",
     "tags" : [
       "download",
       "utility",
       "http"
     ],
-    "provides" : {
-      "URI::FetchFile" : "lib/URI/FetchFile.pm"
-    },
     "version" : "0.0.1",
+    "meta6" : "0",
+    "description" : "retrieve a file from the internet by the best available method",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0",
-    "description" : "retrieve a file from the internet by the best available method"
+    ]
   },
   {
     "name" : "Monitor::Monit",
@@ -14928,25 +14936,25 @@
       "URI::Template",
       "XML::Class"
     ],
+    "provides" : {
+      "Monitor::Monit" : "lib/Monitor/Monit.pm"
+    },
     "test-depends" : [
       "Test",
       "CheckSocket"
     ],
-    "license" : "perl",
+    "license" : "Artistic-2.0",
     "tags" : [
       "monitor",
       "api",
       "system"
     ],
-    "provides" : {
-      "Monitor::Monit" : "lib/Monitor/Monit.pm"
-    },
     "version" : "0.0.1",
+    "meta6" : "0",
+    "description" : "Provide an interface to the monit monitoring daemon",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0",
-    "description" : "Provide an interface to the monit monitoring daemon"
+    ]
   },
   {
     "name" : "MeCab",
@@ -15194,35 +15202,35 @@
   },
   {
     "name" : "Manifesto",
+    "perl" : "6.c",
     "support" : {
       "email" : "jns+gh@gellyfish.co.uk",
       "source" : "https://github.com/jonathanstowe/Manifesto.git",
       "bugtracker" : "https://github.com/jonathanstowe/Manifesto/issues"
     },
-    "perl" : "6.c",
     "source-url" : "https://github.com/jonathanstowe/Manifesto.git",
     "build-depends" : [ ],
     "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "async",
-      "util",
-      "promise"
-    ],
     "provides" : {
       "Manifesto" : "lib/Manifesto.pm"
     },
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "async",
+      "util",
+      "promise"
+    ],
     "version" : "0.0.2",
+    "meta6" : "0",
     "description" : "Make a supply of the results of Promises",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "SQL::NamedPlaceholder",
@@ -15335,14 +15343,15 @@
   },
   {
     "name" : "Tinky::JSON",
-    "source-url" : "git://github.com/jonathanstowe/Tinky-JSON.git",
+    "perl" : "6.c",
     "support" : {
       "email" : "jns+gh@gellyfish.co.uk",
       "source" : "git://github.com/jonathanstowe/Tinky-JSON.git",
       "bugtracker" : "https://github.com/jonathanstowe/Tinky-JSON/issues"
     },
-    "perl" : "6.c",
+    "source-url" : "git://github.com/jonathanstowe/Tinky-JSON.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "Tinky",
@@ -15350,25 +15359,25 @@
       "JSON::Unmarshal",
       "JSON::Class"
     ],
-    "tags" : [
-      "Workflow",
-      "toolkit",
-      "state machine",
-      "JSON"
-    ],
     "provides" : {
       "Tinky::JSON" : "lib/Tinky/JSON.pm"
     },
     "test-depends" : [
       "Test"
     ],
-    "license" : "Artistic",
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "Workflow",
+      "toolkit",
+      "state machine",
+      "JSON"
+    ],
     "version" : "0.0.2",
+    "meta6" : "0",
+    "description" : "Describe Tinky Workflows in JSON",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ],
-    "meta6" : "0",
-    "description" : "Describe Tinky Workflows in JSON"
+    ]
   },
   {
     "name" : "Sparrowdo::Chef::Client",
@@ -16061,33 +16070,33 @@
   },
   {
     "name" : "EventSource::Server",
+    "perl" : "6.c",
     "support" : {
       "source" : "https://github.com/jonathanstowe/EventSource-Server.git"
     },
-    "perl" : "6.c",
     "source-url" : "https://github.com/jonathanstowe/EventSource-Server.git",
     "build-depends" : [ ],
     "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "license" : "perl",
-    "tags" : [
-      "async",
-      "event",
-      "web"
-    ],
     "provides" : {
       "EventSource::Server" : "lib/EventSource/Server.pm"
     },
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "async",
+      "event",
+      "web"
+    ],
     "version" : "0.0.2",
+    "meta6" : "0",
     "description" : "A simple handler to provide Server Sent Events from a PSGI app",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ],
-    "meta6" : "0"
+    ]
   },
   {
     "name" : "XML::Rabbit",
@@ -16157,7 +16166,7 @@
     "test-depends" : [
       "DBIish"
     ],
-    "license" : "perl",
+    "license" : "Artistic-2.0",
     "tags" : [
       "database",
       "postgres",
@@ -16736,6 +16745,7 @@
     },
     "source-url" : "https://github.com/jonathanstowe/MessagePack-Class.git",
     "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "Data::MessagePack"
@@ -16744,7 +16754,7 @@
       "MessagePack::Class" : "lib/MessagePack/Class.pm"
     },
     "test-depends" : [ ],
-    "license" : "perl",
+    "license" : "Artistic-2.0",
     "tags" : [
       "messagepack",
       "message",
