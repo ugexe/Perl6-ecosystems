@@ -6925,6 +6925,7 @@
     "provides" : {
       "App::p6tags" : "bin/p6tags"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.6",
     "authors" : [
       "Steve Mynott <steve.mynott@gmail.com>"
@@ -7249,6 +7250,7 @@
     "provides" : {
       "HTML::Restrict" : "lib/HTML/Restrict.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1",
     "authors" : [
       "Steve Mynott <steve.mynott@gmail.com>"
@@ -7742,6 +7744,7 @@
     "provides" : {
       "App::ecoreadme" : "bin/ecoreadme"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.2",
     "description" : "Display and cache ecosystem README files for perl6"
   },
@@ -10678,12 +10681,14 @@
     "source-url" : "git://github.com/jonathanstowe/Tinky.git",
     "perl" : "6.c",
     "support" : {
-      "source" : "git://github.com/jonathanstowe/Tinky.git"
+      "email" : "jns+git@gellyfish.co.uk",
+      "source" : "git://github.com/jonathanstowe/Tinky.git",
+      "bugtracker" : "https://github.com/jonathanstowe/Tinky/issues"
     },
     "build-depends" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "license" : "Artistic",
+    "license" : "Artistic-2.0",
     "test-depends" : [
       "Test"
     ],
@@ -10695,7 +10700,7 @@
       "toolkit",
       "state machine"
     ],
-    "version" : "0.0.4",
+    "version" : "0.0.5",
     "description" : "An Experimental Workflow / State Management toolit",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
