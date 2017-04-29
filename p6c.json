@@ -8865,6 +8865,18 @@
     ]
   },
   {
+    "name" : "Lingua::EN::Conjugate",
+    "source-url" : "https://github.com/kolikov/perl6-Lingua-EN-Conjugate.git",
+    "perl" : "6.*",
+    "author" : "Romuald Nuguet",
+    "depends" : [ ],
+    "provides" : {
+      "Lingua::EN::Conjugate" : "lib/Lingua/EN/Conjugate/Conjugate.pm6"
+    },
+    "version" : "0.2",
+    "description" : "A module that conjugates English verbs"
+  },
+  {
     "name" : "Config::Simple",
     "source-url" : "git://github.com/Skarsnik/perl6-config-simple.git",
     "perl" : "6",
