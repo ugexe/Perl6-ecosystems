@@ -8865,18 +8865,6 @@
     ]
   },
   {
-    "name" : "Lingua::EN::Conjugate",
-    "source-url" : "https://github.com/kolikov/perl6-Lingua-EN-Conjugate.git",
-    "perl" : "6.*",
-    "author" : "Romuald Nuguet",
-    "depends" : [ ],
-    "provides" : {
-      "Lingua::EN::Conjugate" : "lib/Lingua/EN/Conjugate/Conjugate.pm6"
-    },
-    "version" : "0.2",
-    "description" : "A module that conjugates English verbs"
-  },
-  {
     "name" : "Config::Simple",
     "source-url" : "git://github.com/Skarsnik/perl6-config-simple.git",
     "perl" : "6",
@@ -11213,14 +11201,16 @@
     "source-url" : "git://github.com/jonathanstowe/Audio-Liquidsoap.git",
     "perl" : "6.c",
     "support" : {
-      "source" : "git://github.com/jonathanstowe/Audio-Liquidsoap.git"
+      "email" : "jns+git@gellyfish.co.uk",
+      "source" : "git://github.com/jonathanstowe/Audio-Liquidsoap.git",
+      "bugtracker" : "https://github.com/jonathanstowe/Audio-Liquidsoap/issues"
     },
     "build-depends" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [
       "File::Which"
     ],
-    "license" : "Artistic",
+    "license" : "Artistic-2.0",
     "test-depends" : [
       "Test",
       "Test::Util::ServerPort"
@@ -11233,7 +11223,7 @@
       "integration",
       "streaming"
     ],
-    "version" : "0.0.5",
+    "version" : "0.0.6",
     "description" : "Interact with the Liquidsoap command server",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -15188,7 +15178,9 @@
   {
     "name" : "Manifesto",
     "support" : {
-      "source" : "https://github.com/jonathanstowe/Manifesto.git"
+      "email" : "jns+gh@gellyfish.co.uk",
+      "source" : "https://github.com/jonathanstowe/Manifesto.git",
+      "bugtracker" : "https://github.com/jonathanstowe/Manifesto/issues"
     },
     "perl" : "6.c",
     "source-url" : "https://github.com/jonathanstowe/Manifesto.git",
@@ -15196,7 +15188,7 @@
     "resources" : [ ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
-    "license" : "perl",
+    "license" : "Artistic-2.0",
     "tags" : [
       "async",
       "util",
@@ -15208,7 +15200,7 @@
     "test-depends" : [
       "Test"
     ],
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description" : "Make a supply of the results of Promises",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
