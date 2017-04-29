@@ -4550,6 +4550,7 @@
     "provides" : {
       "Audio::Taglib::Simple" : "lib/Audio/Taglib/Simple.pm"
     },
+    "license" : "MIT",
     "version" : "0.0.7",
     "description" : "Read, write ID3 and other audio metadata with TagLib"
   },
@@ -4576,6 +4577,7 @@
     "provides" : {
       "Compress::Snappy" : "lib/Compress/Snappy.pm"
     },
+    "license" : "MIT",
     "version" : "0.0.3",
     "description" : "(de)compress data in Google's Snappy compression format"
   },
@@ -5669,6 +5671,7 @@
     "provides" : {
       "WebService::Lastfm" : "lib/WebService/Lastfm.pm6"
     },
+    "license" : "MIT",
     "version" : "0.0.2",
     "description" : "interact with the Last.fm API"
   },
@@ -5757,20 +5760,6 @@
     "authors" : [
       "Stefan Seifert"
     ]
-  },
-  {
-    "name" : "DateTime::Format::LikeGo",
-    "source-url" : "git://github.com/avuserow/perl6-datetime-format-likego.git",
-    "perl" : "6.*",
-    "author" : "Adrian Kreher",
-    "depends" : [
-      "DateTime::Format"
-    ],
-    "provides" : {
-      "DateTime::Format::LikeGo" : "lib/DateTime/Format/LikeGo.pm6"
-    },
-    "version" : "0.0.2",
-    "description" : "Format dates using Go's reference format"
   },
   {
     "name" : "Inline::Lua",
@@ -9761,6 +9750,7 @@
     "provides" : {
       "Num::HexFloat" : "lib/Num/HexFloat.pm"
     },
+    "license" : "MIT",
     "version" : "0.1.2",
     "authors" : [
       "Dan Kogai"
