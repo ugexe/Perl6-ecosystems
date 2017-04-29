@@ -12148,6 +12148,7 @@
       "JSON::WebToken::Constants" : "lib/JSON/WebToken/Constants.pm6",
       "JSON::WebToken::Crypt" : "lib/JSON/WebToken/Crypt.pm6"
     },
+    "license" : "GPL-1.0+ OR Artistic-1.0-Perl",
     "version" : "0.0.1",
     "authors" : [
       "James Albert"
@@ -12308,8 +12309,10 @@
       "NASA::MarsRovers::Rover" : "lib/NASA/MarsRovers/Rover.pm6"
     },
     "test-depends" : [
-      "Test"
+      "Test",
+      "Test::META"
     ],
+    "license" : "Artistic-2.0",
     "version" : "1.001001",
     "authors" : [
       "Zoffix Znet"
