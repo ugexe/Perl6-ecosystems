@@ -5762,6 +5762,21 @@
     ]
   },
   {
+    "name" : "DateTime::Format::LikeGo",
+    "source-url" : "git://github.com/avuserow/perl6-datetime-format-likego.git",
+    "perl" : "6.*",
+    "author" : "Adrian Kreher",
+    "depends" : [
+      "DateTime::Format"
+    ],
+    "provides" : {
+      "DateTime::Format::LikeGo" : "lib/DateTime/Format/LikeGo.pm6"
+    },
+    "license" : "MIT",
+    "version" : "0.0.2",
+    "description" : "Format dates using Go's reference format"
+  },
+  {
     "name" : "Inline::Lua",
     "source-url" : "git://github.com/raydiak/Inline-Lua.git",
     "perl" : "6.*",
@@ -9740,6 +9755,22 @@
     },
     "version" : "*",
     "description" : "A module to create IRC Art string (color/bg/bold/italic)"
+  },
+  {
+    "name" : "Num::HexFloat",
+    "source-url" : "git://github.com/dankogai/p6-num-hexfloat.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Num::HexFloat" : "lib/Num/HexFloat.pm"
+    },
+    "license" : "MIT",
+    "version" : "0.1.2",
+    "authors" : [
+      "Dan Kogai"
+    ],
+    "description" : "Rudimentary C99 Hexadecimal Floating Point Support in Perl6"
   },
   {
     "name" : "RPi::Device::SMBus",
