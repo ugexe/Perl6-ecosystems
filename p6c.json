@@ -9518,6 +9518,7 @@
     "provides" : {
       "Haikunator" : "lib/Haikunator.pm6"
     },
+    "license" : "BSD-3-Clause",
     "version" : "0.1.0",
     "authors" : [
       "Atrox <mail@atrox.me>"
@@ -12448,9 +12449,11 @@
     "name" : "Lumberjack::Application",
     "perl" : "6.c",
     "support" : {
-      "source" : "git@github.com:jonathanstowe/Lumberjack-Application.git"
+      "email" : "jns+gh@gellyfish.co.uk",
+      "source" : "git://github.com/jonathanstowe/Lumberjack-Application.git",
+      "bugtracker" : "https://github.com/jonathanstowe/Lumberjack-Application/issues"
     },
-    "source-url" : "git@github.com:jonathanstowe/Lumberjack-Application.git",
+    "source-url" : "git://github.com/jonathanstowe/Lumberjack-Application.git",
     "resources" : [
       "templates/index.tt"
     ],
@@ -12484,8 +12487,8 @@
       "websocket",
       "p6sgi"
     ],
-    "license" : "perl",
-    "version" : "0.0.4",
+    "license" : "Artistic-2.0",
+    "version" : "0.0.5",
     "description" : "A web facility for the Lumberjack logging framework",
     "meta6" : "0",
     "authors" : [
