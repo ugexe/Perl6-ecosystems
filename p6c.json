@@ -9742,22 +9742,6 @@
     "description" : "A module to create IRC Art string (color/bg/bold/italic)"
   },
   {
-    "name" : "Num::HexFloat",
-    "source-url" : "git://github.com/dankogai/p6-num-hexfloat.git",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "Num::HexFloat" : "lib/Num/HexFloat.pm"
-    },
-    "license" : "MIT",
-    "version" : "0.1.2",
-    "authors" : [
-      "Dan Kogai"
-    ],
-    "description" : "Rudimentary C99 Hexadecimal Floating Point Support in Perl6"
-  },
-  {
     "name" : "RPi::Device::SMBus",
     "source-url" : "git://github.com/jonathanstowe/RPi-Device-SMBus.git",
     "perl" : "6.c",
