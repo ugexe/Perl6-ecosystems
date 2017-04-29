@@ -16966,5 +16966,24 @@
     "license" : "Artistic-2.0",
     "version" : "1.1",
     "description" : "An object to help with reporting the progress of a concurrent operation."
+  },
+  {
+    "name" : "Trait::IO",
+    "source-url" : "git://github.com/zoffixznet/perl6-Trait-IO.git",
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "Trait::IO" : "lib/Trait/IO.pm6"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Helper IO traits"
   }
 ]
