@@ -11043,6 +11043,8 @@
     "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [
+      "LibraryCheck",
+      "NativeCall",
       "Terminal::WCWidth"
     ],
     "test-depends" : [
