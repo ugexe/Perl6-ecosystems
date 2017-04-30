@@ -8906,19 +8906,6 @@
     "description" : "A simple module for your configuration file need"
   },
   {
-    "name" : "Terminal::WCWidth",
-    "source-url" : "git://github.com/bluebear94/Terminal-WCWidth.git",
-    "perl" : "6.*",
-    "author" : "Tae Lim Kook",
-    "depends" : [ ],
-    "provides" : {
-      "Terminal::WCWidth::Tables" : "lib/Terminal/WCWidth/Tables.pm6",
-      "Terminal::WCWidth" : "lib/Terminal/WCWidth.pm6"
-    },
-    "version" : "0.1.0",
-    "description" : "Returns what the character width should be on the terminal."
-  },
-  {
     "name" : "Compress::Brotli",
     "source-url" : "git://github.com/sylvarant/Compress-Brotli.git",
     "perl" : "6.*",
@@ -9187,20 +9174,6 @@
     "license" : "Artistic-2.0",
     "version" : "0.0.1",
     "description" : "Glue for Mozilla's JavaScript interpreter."
-  },
-  {
-    "name" : "Math::Random",
-    "source-url" : "git://github.com/bluebear94/Math-Random.git",
-    "perl" : "6.*",
-    "author" : "Tae Lim Kook",
-    "depends" : [ ],
-    "provides" : {
-      "Math::Random::MT" : "lib/Math/Random/MT.pm6",
-      "Math::Random::JavaStyle" : "lib/Math/Random/JavaStyle.pm6",
-      "Math::Random" : "lib/Math/Random.pm6"
-    },
-    "version" : "0.1.0",
-    "description" : "Random numbers \u00e0 la java.util.Random."
   },
   {
     "name" : "Subsets::Common",
