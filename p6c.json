@@ -13764,15 +13764,20 @@
     "support" : {
       "source" : "https://github.com/gfldex/perl6-operator-defined-alternation"
     },
+    "perl" : "6.*",
     "source-type" : "git",
-    "author" : "Wenzel P. P. Peppmeyer",
-    "depends" : [ ],
+    "depends" : [
+      "Test::META"
+    ],
     "provides" : {
       "Operator::defined-alternation" : "lib/Operator/defined-alternation.pm6"
     },
-    "license" : "https://opensource.org/licenses/Artistic-2.0",
+    "license" : "Artistic-2.0",
     "version" : "0.0.1",
-    "description" : "Provides a ?? !! equivalent that tests for definedness instread of trueness."
+    "description" : "Provides a ?? !! equivalent that tests for definedness instread of trueness.",
+    "authors" : [
+      "Wenzel P. P. Peppmeyer"
+    ]
   },
   {
     "name" : "Test::NoTabs",
@@ -14784,6 +14789,7 @@
     "provides" : {
       "Concurrent::File::Find" : "lib/Concurrent/File/Find.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.2",
     "authors" : [
       "Wenzel P. P. Peppmeyer"
@@ -14887,6 +14893,7 @@
     "provides" : {
       "Concurrent::Channelify" : "lib/Concurrent/Channelify.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.0.1",
     "authors" : [
       "Wenzel P. P. Peppmeyer"
@@ -15846,7 +15853,7 @@
     "test-depends" : [ ],
     "license" : "Artistic-2.0",
     "tags" : [ ],
-    "version" : "0.11.1",
+    "version" : "0.13.0",
     "meta6" : "0",
     "description" : "Provide a binary to work with META6.json-files.",
     "authors" : [
