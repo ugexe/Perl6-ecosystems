@@ -11051,7 +11051,6 @@
       "Term::Choose::NCurses" : "lib/Term/Choose/NCurses.pm6",
       "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
     },
-    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Choose items from a list interactively.",
     "authors" : [
@@ -12209,6 +12208,7 @@
     "test-depends" : [
       "Test"
     ],
+    "tags" : [ ],
     "provides" : {
       "Term::Form" : "lib/Term/Form.pm6"
     },
