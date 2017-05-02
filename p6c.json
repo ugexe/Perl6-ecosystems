@@ -4546,23 +4546,6 @@
     "description" : "Access to Justcoin trading API (Norwegian Bitcoin marketplace)"
   },
   {
-    "name" : "Web::Scraper",
-    "source-url" : "git://github.com/tony-o/perl6-web-scraper.git",
-    "perl" : "6.*",
-    "author" : "Tony ODell",
-    "auth" : "github:tony-o",
-    "depends" : [
-      "LWP::Simple",
-      "HTML::Parser::XML",
-      "XML::Query"
-    ],
-    "provides" : {
-      "Web::Scraper" : "lib/Web/Scraper.pm6"
-    },
-    "version" : "0.1.0",
-    "description" : "Similar to Web::Scraper for Perl5 with some other cool stuff, duh"
-  },
-  {
     "name" : "Audio::Taglib::Simple",
     "source-url" : "git://github.com/avuserow/perl6-audio-taglib-simple.git",
     "perl" : "6.*",
@@ -6917,28 +6900,6 @@
     "description" : "Generate editor tags for perl6. "
   },
   {
-    "name" : "Hiker",
-    "source-url" : "git://github.com/tony-o/perl6-hiker.git",
-    "perl" : "6.*",
-    "auth" : "github:tony-o",
-    "depends" : [
-      "HTTP::Server::Async",
-      "HTTP::Server::Router",
-      "Template::Mustache"
-    ],
-    "provides" : {
-      "Hiker" : "lib/Hiker.pm6",
-      "Hiker::Render" : "lib/Hiker/Render.pm6",
-      "Hiker::Model" : "lib/Hiker/Model.pm6",
-      "Hiker::Route" : "lib/Hiker/Route.pm6"
-    },
-    "version" : "0.1.2",
-    "description" : "MVC Framework built on HTTP::Server HTTP::Server::Router",
-    "authors" : [
-      "tony-o"
-    ]
-  },
-  {
     "name" : "CheckSocket",
     "perl" : "6.c",
     "support" : {
@@ -8413,20 +8374,6 @@
     },
     "version" : "0.1",
     "description" : "role for finding loaded modules in global scope that 'does' some role or class, useful for modules that want to support hot swapping modules with minimal end user code"
-  },
-  {
-    "name" : "HTML::Parser",
-    "source-url" : "git://github.com/tony-o/perl6-html-parser.git",
-    "perl" : "6.*",
-    "auth" : "github:tony-o",
-    "depends" : [
-      "XML"
-    ],
-    "provides" : {
-      "HTML::Parser" : "lib/HTML/Parser.pm6"
-    },
-    "version" : "0.1",
-    "description" : "role for HTML parsing"
   },
   {
     "name" : "JSON::Marshal",
@@ -16965,7 +16912,7 @@
       "Test"
     ],
     "license" : "MIT",
-    "version" : "1.4.0",
+    "version" : "1.4.2",
     "description" : "accurate computation of sin(\u03c0*$x) and cos(\u03c0*$x)"
   },
   {
