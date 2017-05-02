@@ -5569,9 +5569,9 @@
     "author" : "Andrew Robbins",
     "depends" : [ ],
     "provides" : {
-      "C::Parser::Utils" : "lib/C/Parser/Actions.pm6",
+      "C::Parser::Utils" : "lib/C/Parser/Utils.pm6",
       "C::Parser::Grammar" : "lib/C/Parser/Grammar.pm6",
-      "C::AST" : "lib/C/AST/Utils.pm6",
+      "C::AST" : "lib/C/AST.pm6",
       "C::Parser" : "lib/C/Parser.pm6",
       "C::AST::Utils" : "lib/C/AST/Utils.pm6",
       "C::Parser::Actions" : "lib/C/Parser/Actions.pm6",
@@ -5581,7 +5581,7 @@
     "test-depends" : [
       "Test"
     ],
-    "version" : "0.2.5",
+    "version" : "0.3.1",
     "description" : "Grammar for Parsing C in Perl6"
   },
   {
