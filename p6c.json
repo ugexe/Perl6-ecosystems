@@ -10052,12 +10052,12 @@
     "provides" : {
       "Base64" : "lib/Base64.pm6"
     },
-    "version" : "*",
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
     "description" : "Lazy base64 encoding and decoding routines",
     "authors" : [
       "ugexe"
-    ],
-    "owner" : "ugexe"
+    ]
   },
   {
     "name" : "CompUnit::Repository::Tar",
@@ -10099,12 +10099,12 @@
       "Distribution::Common" : "lib/Distribution/Common.pm6",
       "Distribution::IO::Directory" : "lib/Distribution/IO/Directory.pm6"
     },
-    "version" : "*",
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
     "description" : "Create an installable Distribution from common sources",
     "authors" : [
       "ugexe"
-    ],
-    "owner" : "ugexe"
+    ]
   },
   {
     "name" : "Distribution::Common::Remote",
@@ -10123,12 +10123,12 @@
       "Distribution::Common::Remote::Github" : "lib/Distribution/Common/Remote/Github.pm6",
       "Distribution::IO::Remote::Github" : "lib/Distribution/IO/Remote/Github.pm6"
     },
-    "version" : "*",
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
     "description" : "Create an installable Distribution from common remote sources",
     "authors" : [
       "ugexe"
-    ],
-    "owner" : "ugexe"
+    ]
   },
   {
     "name" : "Foo",
@@ -10202,12 +10202,12 @@
       "Net::HTTP::Transport" : "lib/Net/HTTP/Transport.pm6",
       "Net::HTTP::Request" : "lib/Net/HTTP/Request.pm6"
     },
-    "version" : "*",
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
     "description" : "Roll your own http client",
     "authors" : [
       "ugexe"
-    ],
-    "owner" : "ugexe"
+    ]
   },
   {
     "name" : "PathTools",
@@ -17031,5 +17031,32 @@
       "Curt Tilmes <ctilmes@cpan.org>"
     ],
     "description" : "Perl6 bindings for primesieve"
+  },
+  {
+    "name" : "Config::Parser::toml",
+    "source-url" : "https://github.com/scriptkitties/p6-Config-Parser-toml.git",
+    "perl" : "6",
+    "auth" : "github:scriptkitties",
+    "depends" : [
+      "Config",
+      "Config::TOML"
+    ],
+    "test-depends" : [
+      "File::Temp",
+      "Test::META"
+    ],
+    "tags" : [
+      "config",
+      "configuration"
+    ],
+    "provides" : {
+      "Config::Parser::toml" : "lib/Config/Parser/toml.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "1.0.0",
+    "authors" : [
+      "Patrick Spek <p.spek@tyil.work>"
+    ],
+    "description" : "TOML parser for Config"
   }
 ]
