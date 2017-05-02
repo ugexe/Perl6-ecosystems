@@ -11707,9 +11707,7 @@
     "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [
-      "Term::Choose",
-      "Term::Choose::NCurses",
-      "Term::Choose::LineFold"
+      "Term::Choose"
     ],
     "test-depends" : [
       "Test"
@@ -11733,8 +11731,6 @@
     "build-depends" : [ ],
     "depends" : [
       "Term::Choose",
-      "Term::Choose::NCurses",
-      "Term::Choose::LineFold",
       "Term::Choose::Util"
     ],
     "test-depends" : [
@@ -12192,8 +12188,7 @@
     "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [
-      "Term::Choose::NCurses",
-      "Term::Choose::LineFold"
+      "Term::Choose"
     ],
     "test-depends" : [
       "Test"
@@ -17006,5 +17001,34 @@
       "Zoffix Znet"
     ],
     "description" : "Helper IO traits"
+  },
+  {
+    "name" : "Math::Primesieve",
+    "support" : {
+      "source" : "https://github.com/CurtTilmes/perl6-primesieve.git",
+      "bugtracker" : "https://github.com/CurtTilmes/perl6-primesieve/issues"
+    },
+    "perl" : "6.c",
+    "source-url" : "https://github.com/CurtTilmes/perl6-primesieve.git",
+    "auth" : "github:CurtTilmes",
+    "depends" : [
+      "NativeCall"
+    ],
+    "license" : "BSD-2-Clause",
+    "test-depends" : [
+      "Test"
+    ],
+    "provides" : {
+      "Math::Primesieve" : "lib/Math/Primesieve.pm6"
+    },
+    "tags" : [
+      "Math",
+      "Primes"
+    ],
+    "version" : "0.1",
+    "authors" : [
+      "Curt Tilmes <ctilmes@cpan.org>"
+    ],
+    "description" : "Perl6 bindings for primesieve"
   }
 ]
