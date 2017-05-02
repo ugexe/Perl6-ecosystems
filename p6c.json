@@ -10037,6 +10037,7 @@
     "provides" : {
       "P6TCI" : "lib/P6TCI.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.0.4",
     "description" : "Example of testing a Perl6 module on Travis-CI"
   },
@@ -10070,15 +10071,19 @@
     "depends" : [
       "Distribution::Common"
     ],
+    "tags" : [
+      "CUR",
+      "Installable"
+    ],
     "provides" : {
       "CompUnit::Repository::Tar" : "lib/CompUnit/Repository/Tar.pm6"
     },
-    "version" : "*",
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
     "description" : "Load modules directory from a .tar.gz archive",
     "authors" : [
       "ugexe"
-    ],
-    "owner" : "ugexe"
+    ]
   },
   {
     "name" : "Distribution::Common",
@@ -10173,13 +10178,13 @@
       "Grammar::HTTP::Extensions" : "lib/Grammar/HTTP/Extensions.pm6",
       "Grammar::HTTP::RFC5322" : "lib/Grammar/HTTP/RFC5322.pm6"
     },
-    "version" : "*",
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
     "description" : "HTTP request, response, and message body parsing grammar",
     "authors" : [
       "Nick Logan",
       "Mike Francis"
-    ],
-    "owner" : "ugexe"
+    ]
   },
   {
     "name" : "Net::HTTP",
@@ -10225,12 +10230,12 @@
     "provides" : {
       "PathTools" : "lib/PathTools.pm6"
     },
-    "version" : "0.1",
+    "license" : "Artistic-2.0",
+    "version" : "0.1.1",
     "description" : "General purpose file system utility routines",
     "authors" : [
       "ugexe"
-    ],
-    "owner" : "ugexe"
+    ]
   },
   {
     "name" : "Text::Levenshtein::Damerau",
@@ -10238,11 +10243,15 @@
     "perl" : "6",
     "auth" : "github:ugexe",
     "depends" : [ ],
+    "tags" : [
+      "levenshtein",
+      "typos"
+    ],
     "provides" : {
       "Text::Levenshtein::Damerau" : "lib/Text/Levenshtein/Damerau.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1.7",
-    "owner" : "ugexe",
     "description" : "Calculate Levenshtein or Damerau Levenshtein edit distances for strings"
   },
   {
@@ -10254,6 +10263,7 @@
     "provides" : {
       "Text::Table::Simple" : "lib/Text/Table/Simple.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.0.3",
     "authors" : [
       "Nick Logan"
