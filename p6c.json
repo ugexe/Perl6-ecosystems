@@ -3302,10 +3302,11 @@
       "ASCII-Art"
     ],
     "provides" : {
-      "Terminal::Caca" : "lib/Terminal/Caca.pm6"
+      "Terminal::Caca" : "lib/Terminal/Caca.pm6",
+      "Terminal::Caca::Raw" : "lib/Terminal/Caca/Raw.pm6"
     },
-    "license" : "WTFPL",
-    "version" : "0.0.1",
+    "license" : "MIT",
+    "version" : "0.1.0",
     "description" : "Use libcaca (Colour AsCii Art library) API in Perl 6",
     "authors" : [
       "Ahmad M. Zawawi"
@@ -4258,6 +4259,7 @@
     "provides" : {
       "File::Spec::Case" : "lib/File/Spec/Case.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Check if your filesystem is case sensitive or case tolerant (insensitive)"
   },
