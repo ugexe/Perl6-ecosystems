@@ -5140,46 +5140,6 @@
     "description" : "TAP harness for perl6"
   },
   {
-    "name" : "Term::termios",
-    "support" : {
-      "irc" : "irc://irc.freenode.org/#perl6"
-    },
-    "source-url" : "git://github.com/krunen/term-termios.git",
-    "perl" : "6.c",
-    "author" : "github:krunen",
-    "repo-type" : "git",
-    "depends" : [ ],
-    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
-    "provides" : {
-      "Term::termios" : "lib/Term/termios.pm6"
-    },
-    "version" : "*",
-    "description" : "termios routines for Rakudo Perl 6",
-    "authors" : [
-      "Karl Rune Nilsen"
-    ]
-  },
-  {
-    "name" : "Unicode::UTF8-Parser",
-    "support" : {
-      "irc" : "irc://irc.freenode.org/#perl6"
-    },
-    "source-url" : "git://github.com/krunen/unicode-utf8-parser.git",
-    "perl" : "v6.0.0",
-    "author" : "github:krunen",
-    "repo-type" : "git",
-    "depends" : [ ],
-    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
-    "provides" : {
-      "Unicode::UTF8-Parser" : "lib/Unicode/UTF8-Parser.pm6"
-    },
-    "version" : "*",
-    "description" : "Supply which converts a supply of UTF8 bytes to unicode characters",
-    "authors" : [
-      "Karl Rune Nilsen"
-    ]
-  },
-  {
     "name" : "Pluggable",
     "source-url" : "git://github.com/tony-o/perl6-pluggable.git",
     "perl" : "6.*",
