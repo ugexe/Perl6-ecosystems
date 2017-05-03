@@ -3296,7 +3296,6 @@
     "auth" : "github:azawawi",
     "repo-type" : "git",
     "test-depends" : [
-      "LibraryCheck",
       "Test"
     ],
     "tags" : [
@@ -3307,7 +3306,7 @@
     ],
     "license" : "MIT",
     "description" : "Use libcaca (Colour AsCii Art library) API in Perl 6",
-    "version" : "0.4.1",
+    "version" : "0.5.0",
     "authors" : [
       "Ahmad M. Zawawi"
     ]
@@ -5535,7 +5534,7 @@
   },
   {
     "name" : "CSS::Writer",
-    "source-url" : "git://github.com/p6-css/perl6-CSS-Writer.git",
+    "source-url" : "git://github.com/p6-css/CSS-Writer-p6.git",
     "perl" : "6.*",
     "provides" : {
       "CSS::Writer" : "lib/CSS/Writer.pm"
@@ -5656,7 +5655,7 @@
   {
     "api" : "css3-selectors-20110929",
     "name" : "CSS::Module::CSS3::Selectors",
-    "source-url" : "git://github.com/p6-css/perl6-CSS-Module-CSS3-Selectors.git",
+    "source-url" : "git://github.com/p6-css/CSS-Module-CSS3-Selectors-p6.git",
     "perl" : "6.*",
     "provides" : {
       "CSS::Module::CSS3::Selectors::Actions" : "lib/CSS/Module/CSS3/Selectors/Actions.pm",
@@ -15202,7 +15201,7 @@
   },
   {
     "name" : "CSS::Declarations",
-    "source-url" : "git://github.com/p6-css/perl6-CSS-Declarations.git",
+    "source-url" : "git://github.com/p6-css/CSS-Declarations-p6.git",
     "perl" : "6.*",
     "provides" : {
       "CSS::Declarations::Units" : "lib/CSS/Declarations/Units.pm",
