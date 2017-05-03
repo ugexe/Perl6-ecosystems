@@ -17097,5 +17097,35 @@
     "authors" : [
       "Patrick Spek <p.spek@tyil.work>"
     ]
+  },
+  {
+    "name" : "DBI::Async",
+    "support" : {
+      "source" : "https://github.com/CurtTilmes/perl6-dbi-async.git",
+      "bugtracker" : "https://github.com/CurtTilmes/perl6-dbi-async/issues"
+    },
+    "perl" : "6.c",
+    "source-url" : "https://github.com/CurtTilmes/perl6-dbi-async.git",
+    "provides" : {
+      "DBI::Async" : "lib/DBI/Async.pm"
+    },
+    "auth" : "github:CurtTilmes",
+    "depends" : [
+      "DBIish"
+    ],
+    "license" : "NASA-1.3",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "DBI",
+      "Database",
+      "RDBMS"
+    ],
+    "description" : "Tiny async wrapper around DBIish",
+    "version" : "0.1",
+    "authors" : [
+      "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+    ]
   }
 ]
