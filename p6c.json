@@ -1508,13 +1508,20 @@
     "source-url" : "git://github.com/cosimo/perl6-string-crc32.git",
     "authority" : "cosimo",
     "perl" : "6.*",
-    "author" : "Cosimo Streppone",
     "provides" : {
       "String::CRC32" : "lib/String/CRC32.pm"
     },
     "depends" : [ ],
+    "tags" : [
+      "String",
+      "CRC"
+    ],
+    "license" : "",
     "description" : "Simple Perl 6 class to calculate a CRC32 checksum of a string",
-    "version" : "0.04"
+    "version" : "0.05",
+    "authors" : [
+      "Cosimo Streppone"
+    ]
   },
   {
     "name" : "Digest::MD5",
