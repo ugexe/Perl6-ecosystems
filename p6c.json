@@ -12544,10 +12544,12 @@
     },
     "perl" : "6.c",
     "provides" : {
+      "IRC::Async::Parser" : "lib/IRC/Async/Parser.pm6",
+      "IRC::Async::Grammar::Actions" : "lib/IRC/Async/Grammar/Actions.pm6",
+      "IRC::Async::Grammar" : "lib/IRC/Async/Grammar.pm6",
       "IRC::Async" : "lib/IRC/Async.pm6"
     },
     "depends" : [
-      "IRC::Client",
       "Readline"
     ],
     "test-depends" : [
