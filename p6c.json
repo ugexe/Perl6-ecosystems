@@ -5066,6 +5066,7 @@
     },
     "depends" : [ ],
     "description" : "Emulate file interface for strings",
+    "license" : "MIT",
     "version" : "0.1.0"
   },
   {
@@ -5078,6 +5079,7 @@
     },
     "depends" : [ ],
     "description" : "Implementation of the longest common subsequence algorithm",
+    "license" : "MIT",
     "version" : "0.1.0"
   },
   {
@@ -5847,6 +5849,7 @@
     },
     "depends" : [ ],
     "description" : "Bindings to linenoise",
+    "license" : "MIT",
     "version" : "0.1.1"
   },
   {
@@ -7060,6 +7063,7 @@
     },
     "depends" : [ ],
     "description" : "Implementation of the Elo chess rating system",
+    "license" : "MIT",
     "version" : "0.1.0"
   },
   {
@@ -10008,21 +10012,6 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
-  },
-  {
-    "name" : "Native::Resources",
-    "source-url" : "https://github.com/hoelzro/p6-native-resources.git",
-    "perl" : "6.*",
-    "author" : "Rob Hoelz",
-    "provides" : {
-      "Native::Resources::Build" : "lib/Native/Resources/Build.pm",
-      "Native::Resources" : "lib/Native/Resources.pm"
-    },
-    "depends" : [
-      "LibraryMake"
-    ],
-    "description" : "(DEPRECATED) Helper library for using resources made of native code",
-    "version" : "0.1.0"
   },
   {
     "name" : "Email::Notmuch",
@@ -16704,7 +16693,7 @@
       "struct"
     ],
     "license" : "Artistic-2.0",
-    "version" : "0.0.1"
+    "version" : "0.0.2"
   },
   {
     "name" : "Log::Any",
