@@ -9954,7 +9954,8 @@
       "Test"
     ],
     "provides" : {
-      "AWS::Pricing" : "lib/AWS/Pricing.pm6"
+      "AWS::Pricing" : "lib/AWS/Pricing.pm6",
+      "AWS::Pricing::CLI" : "lib/AWS/Pricing/CLI.pm6"
     },
     "test-depends" : [
       "Test"
