@@ -13865,6 +13865,10 @@
       "IO::Socket::SSL",
       "LWP::Simple"
     ],
+    "test-depends" : [
+      "Test",
+      "Test::When"
+    ],
     "provides" : {
       "Pod::To::BigPage" : "lib/Pod/To/BigPage.pm6"
     },
