@@ -3667,21 +3667,6 @@
     "description" : "Command-line debugger frontend for Rakudo"
   },
   {
-    "name" : "File::Find::Duplicates",
-    "source-url" : "git://github.com/labster/perl6-File-Find-Duplicates.git",
-    "author" : "Brent Laabs",
-    "depends" : [
-      "File::Find",
-      "Digest",
-      "File::Compare"
-    ],
-    "provides" : {
-      "File::Find::Duplicates" : "lib/File/Find/Duplicates.pm6"
-    },
-    "version" : "*",
-    "description" : "Get a list of duplicate files in directories"
-  },
-  {
     "api" : "PDF-1.7",
     "name" : "PDF::Grammar",
     "source-url" : "git://github.com/p6-pdf/PDF-Grammar-p6.git",
@@ -4249,6 +4234,7 @@
   {
     "name" : "File::Directory::Tree",
     "source-url" : "git://github.com/labster/p6-file-directory-tree.git",
+    "perl" : "6.*",
     "author" : "labster",
     "depends" : [ ],
     "provides" : {
@@ -17132,5 +17118,38 @@
       "Curt Tilmes <Curt.Tilmes@nasa.gov>"
     ],
     "description" : "Tiny async wrapper around DBIish"
+  },
+  {
+    "name" : "WebService::Slack::Webhook",
+    "perl" : "6.c",
+    "emulates" : { },
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "https://github.com/nicqrocks/perl6-slack-webhook.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "superseded-by" : { },
+    "excludes" : { },
+    "auth" : "github:nicqrocks",
+    "depends" : [
+      "Net::HTTP::POST",
+      "JSON::Fast"
+    ],
+    "provides" : {
+      "WebService::Slack::Webhook" : "lib/WebService/Slack/Webhook.pm6"
+    },
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "web",
+      "slack"
+    ],
+    "version" : "0.1.2",
+    "description" : "Easy way to send a message to Slack",
+    "authors" : [
+      "Nic Quoziente"
+    ],
+    "supersedes" : { }
   }
 ]
