@@ -6384,7 +6384,8 @@
       "Template::Anti::Library" : "lib/Template/Anti.pm6",
       "Template::Anti" : "lib/Template/Anti.pm6"
     },
-    "version" : "0.4.0",
+    "license" : "Artistic-2.0",
+    "version" : "0.4.1",
     "authors" : [
       "Sterling Hanenkamp <hanenkamp@cpan.org>"
     ],
@@ -6515,6 +6516,7 @@
       "Path::Router::Route" : "lib/Path/Router/Route.pm6",
       "Path::Router" : "lib/Path/Router.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1",
     "authors" : [
       "Sterling Hanenkamp (hanenkamp@cpan.org)"
@@ -6673,6 +6675,7 @@
       "HTTP::Header::Custom" : "lib/HTTP/Headers.pm6",
       "HTTP::Header::Standard::Content-Type" : "lib/HTTP/Headers.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.1",
     "authors" : [
       "Andrew Sterling Hanenkamp"
@@ -7006,20 +7009,6 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
-  },
-  {
-    "name" : "ArrayHash",
-    "source-url" : "git://github.com/zostay/perl6-ArrayHash.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "ArrayHash" : "lib/ArrayHash.pm6"
-    },
-    "version" : "0.2",
-    "authors" : [
-      "Sterling Hanenkamp <hanenkamp@cpan.org>"
-    ],
-    "description" : "An array in a hash in an array... like a turducken"
   },
   {
     "name" : "Audio::Libshout",
@@ -7469,6 +7458,7 @@
     "provides" : {
       "P6W" : "P6W.pod"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.7.Draft",
     "authors" : [
       "Sterling Hanenkamp <hanenkamp@cpan.org>"
@@ -13727,18 +13717,6 @@
       "Pawe\u0142 bbkr Pabian"
     ],
     "description" : "Shorten and obfuscate IDs."
-  },
-  {
-    "name" : "DateTime::DST",
-    "source-url" : "git://github.com/zostay/DateTime-DST.git",
-    "perl" : "6.*",
-    "author" : "Andrew Sterling Hanenkamp",
-    "depends" : [ ],
-    "provides" : {
-      "ArrayHash" : "lib/DateTime/DST.pm6"
-    },
-    "version" : "0.1",
-    "description" : "Make localtime[8] available as is-dst to Perl 6"
   },
   {
     "name" : "File::Presence",
