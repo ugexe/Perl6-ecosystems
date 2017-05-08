@@ -3667,6 +3667,23 @@
     "description" : "Command-line debugger frontend for Rakudo"
   },
   {
+    "name" : "File::Find::Duplicates",
+    "source-url" : "git://github.com/labster/perl6-File-Find-Duplicates.git",
+    "perl" : "6.*",
+    "author" : "Brent Laabs",
+    "depends" : [
+      "File::Find",
+      "Digest",
+      "File::Compare"
+    ],
+    "provides" : {
+      "File::Find::Duplicates" : "lib/File/Find/Duplicates.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "*",
+    "description" : "Get a list of duplicate files in directories"
+  },
+  {
     "api" : "PDF-1.7",
     "name" : "PDF::Grammar",
     "source-url" : "git://github.com/p6-pdf/PDF-Grammar-p6.git",
@@ -4240,6 +4257,7 @@
     "provides" : {
       "File::Directory::Tree" : "lib/File/Directory/Tree.pm"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Port of File::Path::Tiny - create and delete directory trees"
   },
