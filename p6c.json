@@ -17170,5 +17170,29 @@
       "Nic Quoziente"
     ],
     "supersedes" : { }
+  },
+  {
+    "name" : "Pythonic::Str",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Pythonic-Str.git"
+    },
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "Pythonic::Str" : "lib/Pythonic/Str.pm6"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "Python"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Index into strings like Pythonists do!"
   }
 ]
