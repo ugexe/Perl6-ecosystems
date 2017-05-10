@@ -9260,6 +9260,21 @@
     "description" : "Some common subsets to built-in types."
   },
   {
+    "name" : "WebService::GoogleDyDNS",
+    "source-url" : "git://github.com/cbk/WebService-GoogleDyDNS.git",
+    "author" : "Michael",
+    "depends" : [
+      "WebService::HazIP",
+      "HTTP::UserAgent"
+    ],
+    "license" : "CC-BY-1.0",
+    "provides" : {
+      "WebService::GoogleDyDNS" : "lib/WebService/GoogleDyDNS.pm6"
+    },
+    "version" : "1.0.0",
+    "description" : "Simple web service used to update an IP address on domains.google.com if the current one has changed. "
+  },
+  {
     "name" : "Chronic",
     "perl" : "6.c",
     "support" : {
