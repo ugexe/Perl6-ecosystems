@@ -7896,20 +7896,6 @@
     "description" : "Routing engine for perl6"
   },
   {
-    "name" : "Lingua::Unihan",
-    "source-url" : "git://github.com/fayland/perl6-Lingua-Unihan.git",
-    "author" : "github:fayland",
-    "depends" : [
-      "DBIish",
-      "Encode"
-    ],
-    "provides" : {
-      "Lingua::Unihan" : "lib/Lingua/Unihan.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "Perl6 reader (SQLite) for unihan database"
-  },
-  {
     "name" : "Backtrace::AsHTML",
     "perl" : "6",
     "source-url" : "git://github.com/moznion/p6-Backtrace-AsHTML.git",
@@ -8091,55 +8077,6 @@
     "description" : "Temporary buffer to save bytes"
   },
   {
-    "name" : "WebService::GitHub",
-    "source-url" : "git://github.com/fayland/perl6-WebService-GitHub.git",
-    "perl" : "6.*",
-    "author" : "github:fayland",
-    "depends" : [
-      "MIME::Base64",
-      "URI",
-      "IO::Socket::SSL",
-      "HTTP::UserAgent",
-      "JSON::Fast",
-      "Cache::LRU"
-    ],
-    "provides" : {
-      "WebService::GitHub" : "lib/WebService/GitHub.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "GitHub API"
-  },
-  {
-    "name" : "WebService::Google::PageRank",
-    "source-url" : "git://github.com/fayland/perl6-WebService-Google-PageRank.git",
-    "author" : "github:fayland",
-    "depends" : [
-      "URI::Escape",
-      "HTTP::Tinyish"
-    ],
-    "provides" : {
-      "WebService::Google::PageRank" : "lib/WebService/Google/PageRank.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "Query Google PageRank"
-  },
-  {
-    "name" : "Locale::Codes",
-    "source-url" : "git://github.com/fayland/perl6-Locale-Codes.git",
-    "perl" : "6.*",
-    "author" : "github:fayland",
-    "depends" : [ ],
-    "provides" : {
-      "Locale::Script" : "lib/Locale/Script.pm",
-      "Locale::Country" : "lib/Locale/Country.pm",
-      "Locale::Language" : "lib/Locale/Language.pm",
-      "Locale::Currency" : "lib/Locale/Currency.pm",
-      "Locale::Codes" : "lib/Locale/Codes.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "Locale codes - Country, Currency, Langauge"
-  },
-  {
     "name" : "HTTP::Router::Blind",
     "source-url" : "git://github.com/ShaneKilkelly/perl6-http-router-blind.git",
     "perl" : "6.*",
@@ -8149,20 +8086,6 @@
     "license" : "MIT",
     "version" : "2.0.0",
     "description" : "A framework-agnostic HTTP Router"
-  },
-  {
-    "name" : "Gravatar::URL",
-    "source-url" : "git://github.com/fayland/perl6-Gravatar-URL.git",
-    "author" : "github:fayland",
-    "depends" : [
-      "URI::Escape",
-      "Digest::MD5"
-    ],
-    "provides" : {
-      "Gravatar::URL" : "lib/Gravatar/URL.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "Make URLs for Gravatars from an email address"
   },
   {
     "name" : "Config::Clever",
@@ -8614,18 +8537,6 @@
     },
     "version" : "0.1.1",
     "description" : "POSIX - Perl interface to IEEE Std 1003.1"
-  },
-  {
-    "name" : "Business::CreditCard",
-    "source-url" : "git://github.com/fayland/perl6-Business-CreditCard.git",
-    "perl" : "6.*",
-    "author" : "github:fayland",
-    "depends" : [ ],
-    "provides" : {
-      "Business::CreditCard" : "lib/Business/CreditCard.pm"
-    },
-    "version" : "0.1.0",
-    "description" : "Validate/generate credit card checksums/names"
   },
   {
     "name" : "RPi",
