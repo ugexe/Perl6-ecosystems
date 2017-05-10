@@ -8862,21 +8862,6 @@
     "description" : "Perl 6 implementation of the RC4 encryption algorithm"
   },
   {
-    "name" : "WebService::HazIP",
-    "source-url" : "git://github.com/cbk/WebService-HazIP",
-    "perl" : "6.*",
-    "author" : "Michael",
-    "depends" : [
-      "LWP::Simple"
-    ],
-    "license" : "CC-BY-1.0",
-    "provides" : {
-      "WebService::HazIP" : "lib/WebService/HazIP.pm6"
-    },
-    "version" : "1.0.0",
-    "description" : "Simple web service client that queries the canihazip.com web site, to obtain the host's public facing IP address."
-  },
-  {
     "name" : "JSON::Infer",
     "perl" : "6.c",
     "support" : {
