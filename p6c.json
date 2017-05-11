@@ -17444,5 +17444,30 @@
       "Zoffix Znet"
     ],
     "description" : "Secure version of IO::Path.child"
+  },
+  {
+    "name" : "RakudoPrereq",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-RakudoPrereq.git"
+    },
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "RakudoPrereq" : "lib/RakudoPrereq.pm6"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "rakudo",
+      "versioning"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Specify minimum required versions of Rakudo"
   }
 ]
