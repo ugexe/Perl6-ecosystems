@@ -17276,5 +17276,30 @@
       "Curt Tilmes <Curt.Tilmes@nasa.gov>"
     ],
     "description" : "Perl 6 bindings for Eredis, high-performance Redis Client"
+  },
+  {
+    "name" : "Augment::IO::Path::ChildSecure",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Augment-IO-Path-ChildSecure.git"
+    },
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "Augment::IO::Path::ChildSecure" : "lib/Augment/IO/Path/ChildSecure.pm6"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "file",
+      "file system"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Augment IO::Path to provide secure version of .child"
   }
 ]
