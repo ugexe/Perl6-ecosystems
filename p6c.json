@@ -17245,5 +17245,35 @@
       "Curt Tilmes <Curt.Tilmes@nasa.gov>"
     ],
     "description" : "Perl6 bindings for LibCurl"
+  },
+  {
+    "name" : "Redis::Async",
+    "support" : {
+      "source" : "https://github.com/CurtTilmes/perl6-eredis.git",
+      "bugtracker" : "https://github.com/CurtTilmes/Perl6-GraphQL/issues"
+    },
+    "perl" : "6.c",
+    "source-url" : "https://github.com/CurtTilmes/perl6-eredis.git",
+    "auth" : "github:CurtTilmes",
+    "depends" : [
+      "NativeCall"
+    ],
+    "license" : "NASA-1.3",
+    "test-depends" : [
+      "Test"
+    ],
+    "provides" : {
+      "Eredis" : "lib/Eredis.pm",
+      "Test::Redis" : "lib/Test/Redis.pm",
+      "Redis::Async" : "lib/Redis/Async.pm"
+    },
+    "tags" : [
+      "Redis"
+    ],
+    "version" : "0.5",
+    "authors" : [
+      "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+    ],
+    "description" : "Perl 6 bindings for Eredis, high-performance Redis Client"
   }
 ]
