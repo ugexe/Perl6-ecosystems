@@ -17278,14 +17278,14 @@
     "description" : "Perl 6 bindings for Eredis, high-performance Redis Client"
   },
   {
-    "name" : "Augment::IO::Path::ChildSecure",
+    "name" : "IO::Path::ChildSecure",
     "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Augment-IO-Path-ChildSecure.git"
+      "source" : "git://github.com/zoffixznet/perl6-IO-Path-ChildSecure.git"
     },
     "perl" : "6.c",
     "depends" : [ ],
     "provides" : {
-      "Augment::IO::Path::ChildSecure" : "lib/Augment/IO/Path/ChildSecure.pm6"
+      "IO::Path::ChildSecure" : "lib/IO/Path/ChildSecure.pm6"
     },
     "test-depends" : [
       "Test",
@@ -17300,6 +17300,6 @@
     "authors" : [
       "Zoffix Znet"
     ],
-    "description" : "Augment IO::Path to provide secure version of .child"
+    "description" : "Secure version of IO::Path.child"
   }
 ]
