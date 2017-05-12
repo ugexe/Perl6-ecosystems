@@ -35,32 +35,6 @@
     "description" : "Country Code following ISO 3166 spec"
   },
   {
-    "name" : "Acme::Meow",
-    "source-url" : "git://github.com/tadzik/perl6-Acme-Meow.git",
-    "support" : {
-      "source" : "git://github.com/tadzik/perl6-Acme-Meow.git",
-      "bugtracker" : "https://github.com/tadzik/perl6-Acme-Meow/issues"
-    },
-    "perl" : "6.*",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "Acme::Meow" : "lib/Acme/Meow.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "*",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-      "Paul Cochrane",
-      "GlithMr",
-      "Ethan House",
-      "Tobias Leich"
-    ],
-    "description" : "The kitty you always wanted, now in Perl 6"
-  },
-  {
     "name" : "JSON::Tiny",
     "source-url" : "git://github.com/moritz/json.git",
     "perl" : "6.*",
@@ -197,79 +171,6 @@
     "description" : "A collection of ready to use (whatever)fix for Perl 6"
   },
   {
-    "name" : "Config::INI",
-    "source-url" : "git://github.com/tadzik/perl6-Config-INI.git",
-    "support" : {
-      "source" : "git://github.com/tadzik/perl6-Config-INI.git",
-      "bugtracker" : "https://github.com/tadzik/perl6-Config-INI/issues"
-    },
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "Config::INI::Writer" : "lib/Config/INI/Writer.pm",
-      "Config::INI" : "lib/Config/INI.pm"
-    },
-    "version" : "*",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-      "Nobuo Danjou"
-    ],
-    "description" : ".ini file parser and writer module for Perl 6"
-  },
-  {
-    "name" : "Term::ANSIColor",
-    "source-url" : "git://github.com/tadzik/perl6-Term-ANSIColor.git",
-    "support" : {
-      "source" : "git://github.com/tadzik/perl6-Term-ANSIColor.git",
-      "bugtracker" : "https://github.com/tadzik/perl6-Term-ANSIColor/issues"
-    },
-    "perl" : "6.*",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "Term::ANSIColor" : "lib/Term/ANSIColor.pm"
-    },
-    "test-depends" : [
-      "nqp",
-      "Test"
-    ],
-    "version" : "*",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-      "jnthn",
-      "Steve Mynott",
-      "timo",
-      "Tobias Leich"
-    ],
-    "description" : "Colorize terminal output"
-  },
-  {
-    "name" : "Terminal::ANSIColor",
-    "source-url" : "git://github.com/tadzik/Terminal-ANSIColor.git",
-    "support" : {
-      "source" : "git://github.com/tadzik/Terminal-ANSIColor.git",
-      "bugtracker" : "https://github.com/tadzik/Terminal-ANSIColor/issues"
-    },
-    "perl" : "6.*",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "Terminal::ANSIColor" : "lib/Terminal/ANSIColor.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "0.2",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-      "jnthn",
-      "Steve Mynott",
-      "timo",
-      "Tobias Leich"
-    ],
-    "description" : "Colorize terminal output"
-  },
-  {
     "name" : "Text::CSV",
     "support" : {
       "irc" : "irc://irc.perl.org/#csv"
@@ -315,17 +216,6 @@
       "Wenzel P. P. Peppmeyer"
     ],
     "description" : "Simple webserver module, with PSGI support"
-  },
-  {
-    "name" : "MPD",
-    "source-url" : "git://github.com/tadzik/perl6-MPD.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "MPD" : "lib/MPD.pm"
-    },
-    "version" : "*",
-    "description" : "Interface to libmpdclient C library"
   },
   {
     "name" : "List::Utils",
@@ -2093,6 +1983,7 @@
     "provides" : {
       "Text::T9" : "lib/Text/T9.pm"
     },
+    "license" : "MIT",
     "version" : "*",
     "description" : "Guess words basing on a T9 key sequence"
   },
@@ -2685,32 +2576,6 @@
     "depends" : [ ],
     "version" : "*",
     "description" : "A continuous test runner for Perl 6"
-  },
-  {
-    "name" : "Template::Mojo",
-    "source-url" : "git://github.com/tadzik/Template-Mojo.git",
-    "support" : {
-      "source" : "git://github.com/tadzik/Template-Mojo.git",
-      "bugtracker" : "https://github.com/tadzik/Template-Mojo/issues"
-    },
-    "perl" : "6",
-    "build-depends" : [ ],
-    "provides" : {
-      "Template::Mojo" : "lib/Template/Mojo.pm"
-    },
-    "version" : "v0.1",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-      "Andrew Egeler",
-      "Anthony Parsons",
-      "Carl M\u00e4sak",
-      "Gabor Szabo",
-      "Moritz Lenz",
-      "Sterling Hanenkamp",
-      "Timo Paulssen",
-      "Tobias Leich"
-    ],
-    "description" : "A templating system similar to Perl 5's Mojo::Template"
   },
   {
     "name" : "DBIish",
@@ -3654,17 +3519,6 @@
     "description" : "Pure perl6 implementation of digest algorigthms."
   },
   {
-    "name" : "Coroutines",
-    "source-url" : "git://github.com/tadzik/Coroutines.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "Coroutines" : "lib/Coroutines.pm"
-    },
-    "version" : "*",
-    "description" : "The only fake threads in Perl 6"
-  },
-  {
     "name" : "Debugger::UI::CommandLine",
     "source-url" : "git://github.com/jnthn/rakudo-debugger.git",
     "perl" : "6.*",
@@ -4426,20 +4280,6 @@
     "description" : "Common shell command replacements"
   },
   {
-    "name" : "JSON::Unmarshal",
-    "source-url" : "git://github.com/tadzik/JSON-Unmarshal.git",
-    "perl" : "6.c",
-    "depends" : [
-      "JSON::Fast",
-      "JSON::Name"
-    ],
-    "provides" : {
-      "JSON::Unmarshal" : "lib/JSON/Unmarshal.pm"
-    },
-    "version" : "0.08",
-    "description" : "Turn JSON into objects"
-  },
-  {
     "name" : "sake",
     "source-url" : "git://github.com/perlpilot/p6-sake.git",
     "author" : "Jonathan Scott Duff <duff@pobox.com>",
@@ -4789,17 +4629,6 @@
     },
     "version" : "v0.2",
     "description" : "Cairo 2D graphics library"
-  },
-  {
-    "name" : "ClassX::StrictConstructor",
-    "source-url" : "git://github.com/tadzik/ClassX-StrictConstructor.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "ClassX::StrictConstructor" : "lib/ClassX/StrictConstructor.pm"
-    },
-    "version" : "0.1",
-    "description" : "Make your object constructors blow up on unknown attributes"
   },
   {
     "name" : "String::Koremutake",
@@ -12392,32 +12221,6 @@
       "James Albert"
     ],
     "description" : "JSON::WebToken is a JSON Web Token (JWT) implementation for Perl6"
-  },
-  {
-    "name" : "Geo::Coder::OpenCage",
-    "source-url" : "git://github.com/tadzik/Geo-Coder-OpenCage.git",
-    "support" : {
-      "source" : "git://github.com/tadzik/Geo-Coder-OpenCage.git",
-      "bugtracker" : "https://github.com/tadzik/Geo-Coder-OpenCage/issues"
-    },
-    "perl" : "6.*",
-    "depends" : [
-      "HTTP::UserAgent",
-      "JSON::Unmarshal",
-      "URI"
-    ],
-    "provides" : {
-      "Geo::Coder::OpenCage" : "lib/Geo/Coder/OpenCage.pm",
-      "Geo::Coder::OpenCage::Response" : "lib/Geo/Coder/OpenCage/Response.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "1.0",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz"
-    ],
-    "description" : "Client library for the OpenCage Geocoder"
   },
   {
     "name" : "Task::Galaxy",
