@@ -6420,14 +6420,12 @@
     },
     "source-url" : "git://github.com/cygx/p6-unicode-gcb.git",
     "perl" : "6.c",
+    "auth" : "github:cygx",
     "provides" : {
       "Unicode::GCB" : "lib/Unicode/GCB.pm6"
     },
-    "license" : "http://boost.org/LICENSE_1_0.txt",
+    "license" : "BSL-1.0",
     "version" : "0.2.1",
-    "authors" : [
-      "github:cygx"
-    ],
     "description" : "Unicode grapheme cluster boundary detection"
   },
   {
@@ -14039,7 +14037,8 @@
     "tags" : [
       "desktop",
       "notification",
-      "libnotify"
+      "libnotify",
+      "nativecall"
     ],
     "license" : "Artistic-2.0",
     "version" : "0.2.0",
@@ -15726,7 +15725,8 @@
     "tags" : [
       "archive",
       "libarchive",
-      "compression"
+      "compression",
+      "nativecall"
     ],
     "version" : "0.0.3",
     "authors" : [
