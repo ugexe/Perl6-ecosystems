@@ -17321,11 +17321,13 @@
     "perl" : "6.c",
     "source-url" : "https://github.com/CurtTilmes/perl6-libcurl.git",
     "depends" : [
-      "NativeCall"
+      "NativeCall",
+      "JSON::Fast"
     ],
     "license" : "NASA-1.3",
     "test-depends" : [
-      "Test"
+      "Test",
+      "Test::When"
     ],
     "provides" : {
       "LibCurl::Multi" : "lib/LibCurl/Multi.pm6",
