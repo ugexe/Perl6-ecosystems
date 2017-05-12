@@ -14049,23 +14049,6 @@
     ]
   },
   {
-    "name" : "Ecosystem::Test",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Ecosystem::Test" : "lib/Ecosystem/Test.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Dummy module for testing ecosystem pipeline"
-  },
-  {
     "name" : "Test::Deeply::Relaxed",
     "source-url" : "https://github.com/ppentchev/perl6-Test-Deeply-Relaxed.git",
     "perl" : "6.c",
@@ -17414,7 +17397,7 @@
       "file system"
     ],
     "license" : "Artistic-2.0",
-    "version" : "1.001002",
+    "version" : "1.001003",
     "authors" : [
       "Zoffix Znet"
     ],
