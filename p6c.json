@@ -6292,17 +6292,17 @@
     "depends" : [ ],
     "repo-type" : "git",
     "provides" : {
-      "TinyCC::Win64" : "lib/TinyCC/Win64.pm",
       "TinyCC::State" : "lib/TinyCC/State.pm",
       "TinyCC::Compiler" : "lib/TinyCC/Compiler.pm",
       "TinyCC::Eval" : "lib/TinyCC/Eval.pm",
       "TinyCC" : "lib/TinyCC.pm",
+      "TinyCC::Bundled" : "lib/TinyCC/Bundled.pm",
       "TinyCC::Typeof" : "lib/TinyCC/Typeof.pm",
       "TinyCC::CSub" : "lib/TinyCC/CSub.pm",
       "TinyCC::Binary" : "lib/TinyCC/Binary.pm"
     },
     "license" : "BSL-1.0",
-    "version" : "0.2.1",
+    "version" : "0.2.2",
     "description" : "Bindings for the Tiny C Compiler"
   },
   {
