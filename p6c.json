@@ -878,43 +878,6 @@
     "description" : "A flexible HTTP Client library"
   },
   {
-    "name" : "Task::Star",
-    "source-url" : "git://github.com/tadzik/Task-Star.git",
-    "perl" : "6.*",
-    "depends" : [
-      "Debugger::UI::CommandLine",
-      "ufo",
-      "XML::Writer",
-      "SVG",
-      "SVG::Plot",
-      "Terminal::ANSIColor",
-      "Test::Mock",
-      "Grammar::Profiler::Simple",
-      "Grammar::Debugger",
-      "JSON::Tiny",
-      "Digest::MD5",
-      "panda",
-      "HTTP::Status",
-      "HTTP::Easy",
-      "Template::Mojo",
-      "DBIish",
-      "URI",
-      "Linenoise",
-      "LWP::Simple",
-      "JSON::RPC",
-      "Pod::To::HTML",
-      "p6doc",
-      "MIME::Base64",
-      "PSGI",
-      "Shell::Command",
-      "File::Find",
-      "Test::META"
-    ],
-    "provides" : { },
-    "version" : "*",
-    "description" : "Meta-package for modules included in Rakudo Star"
-  },
-  {
     "name" : "Flower",
     "source-url" : "git://github.com/supernovus/flower.git",
     "perl" : "6.*",
@@ -1976,18 +1939,6 @@
     "description" : "A Perl 6 implementation of Perl 6-style string formatting."
   },
   {
-    "name" : "Text::T9",
-    "source-url" : "git://github.com/tadzik/Text-T9.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "Text::T9" : "lib/Text/T9.pm"
-    },
-    "license" : "MIT",
-    "version" : "*",
-    "description" : "Guess words basing on a T9 key sequence"
-  },
-  {
     "name" : "Grammar::Debugger",
     "source-url" : "git://github.com/jnthn/grammar-debugger.git",
     "perl" : "6.*",
@@ -2664,17 +2615,6 @@
     ],
     "version" : "0.0.5",
     "description" : "Create temporary files & directories"
-  },
-  {
-    "name" : "Typed::Subroutines",
-    "source-url" : "git://github.com/tadzik/Typed-Subroutines.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "Typed::Subroutines" : "lib/Typed/Subroutines.pm"
-    },
-    "version" : "*",
-    "description" : "Better type checking for first-class functions"
   },
   {
     "name" : "Pod::Parser",
@@ -3491,17 +3431,6 @@
     ],
     "version" : "0.0.2",
     "description" : "A simple Odoo ERP client that uses JSON RPC"
-  },
-  {
-    "name" : "Test::Harness",
-    "source-url" : "git://github.com/tadzik/Test-Harness.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "Test::Harness" : "lib/Test/Harness.pm"
-    },
-    "version" : "*",
-    "description" : "Read TAP output"
   },
   {
     "name" : "Digest",
@@ -5916,6 +5845,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "MIT",
     "version" : "v0.1.0",
     "description" : "Parse BNF and ABNF grammars and generate Perl 6 grammars from them"
   },
@@ -6131,7 +6061,7 @@
       "TinyCC::Binary" : "lib/TinyCC/Binary.pm"
     },
     "license" : "BSL-1.0",
-    "version" : "0.2.2",
+    "version" : "0.2.3",
     "description" : "Bindings for the Tiny C Compiler"
   },
   {
