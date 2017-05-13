@@ -17472,5 +17472,30 @@
       "Zoffix Znet"
     ],
     "description" : "Perl 6 Testing Done Right"
+  },
+  {
+    "name" : "IO::Dir",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-IO-Dir"
+    },
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "IO::Dir" : "lib/IO/Dir.pm6"
+    },
+    "test-depends" : [
+      "Testo",
+      "Test::META"
+    ],
+    "tags" : [
+      "IO",
+      "filesystem"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "IO::Path.dir you can close"
   }
 ]
