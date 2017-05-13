@@ -6794,7 +6794,7 @@
       "Font::Metrics::courier" : "lib/Font/Metrics/courier.pm"
     },
     "license" : "Artistic-2.0",
-    "version" : "1.23.5",
+    "version" : "1.23.6",
     "description" : "Interface to Adobe Font Metrics files"
   },
   {
@@ -17537,5 +17537,26 @@
     },
     "version" : "1.0.0",
     "description" : "Simple Perl 6 interface to the U.S. Naval Observatory, Astronomical Applications API v2.0.1"
+  },
+  {
+    "name" : "Distribution::Builder::MakeFromJSON",
+    "source-url" : "https://github.com/niner/Distribution-Builder-MakeFromJSON.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "System::Query"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Distribution::Builder::MakeFromJSON" : "lib/Distribution/Builder/MakeFromJSON.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1",
+    "description" : "Makefile based distribution builder",
+    "authors" : [
+      "Stefan Seifert"
+    ]
   }
 ]
