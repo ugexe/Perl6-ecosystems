@@ -17445,5 +17445,32 @@
     ],
     "version" : "0.1.0",
     "description" : "A utility for collapsing JSON dependent upon certain environmental information"
+  },
+  {
+    "name" : "Testo",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Testo.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "RakudoPrereq"
+    ],
+    "provides" : {
+      "Testo::Test::IsRun" : "lib/Testo/Test.pm6",
+      "Testo::Test::Result" : "lib/Testo/Test/Result.pm6",
+      "Testo::Test::Is" : "lib/Testo/Test.pm6",
+      "Testo::Out" : "lib/Testo/Out.pm6",
+      "Testo::Test" : "lib/Testo/Test.pm6",
+      "Testo" : "lib/Testo.pm6",
+      "Testo::Test::IsEqv" : "lib/Testo/Test.pm6",
+      "Testo::Out::TAP" : "lib/Testo/Out/TAP.pm6",
+      "Testo::Tester" : "lib/Testo/Tester.pm6"
+    },
+    "test-depends" : [ ],
+    "version" : "1.001002",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Perl 6 Testing Done Right"
   }
 ]
