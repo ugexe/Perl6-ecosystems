@@ -17522,5 +17522,20 @@
     "authors" : [
       "Shoichi Kaji"
     ]
+  },
+  {
+    "name" : "API::USNavalObservatory",
+    "source-url" : "git://github.com/cbk/API-USNavalObservatory",
+    "perl" : "6.*",
+    "author" : "Michael",
+    "depends" : [
+      ""
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "API-USNavalObservatory" : "lib/API/USNavalObservatory.pm"
+    },
+    "version" : "1.0.0",
+    "description" : "Simple Perl 6 interface to the U.S. Naval Observatory, Astronomical Applications API v2.0.1"
   }
 ]
