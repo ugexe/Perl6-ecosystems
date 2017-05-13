@@ -17499,5 +17499,27 @@
       "Zoffix Znet"
     ],
     "description" : "IO::Path.dir you can close"
+  },
+  {
+    "name" : "CPAN::Uploader::Tiny",
+    "source-url" : "git://github.com/skaji/perl6-CPAN-Uploader-Tiny.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "HTTP::Tinyish"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "CPAN::Uploader::Tiny::MultiPart" : "lib/CPAN/Uploader/Tiny/MultiPart.pm6",
+      "CPAN::Uploader::Tiny" : "lib/CPAN/Uploader/Tiny.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Upload tarballs to CPAN",
+    "authors" : [
+      "Shoichi Kaji"
+    ]
   }
 ]
