@@ -11909,7 +11909,11 @@
     "test-depends" : [
       "Test"
     ],
-    "tags" : [ ],
+    "tags" : [
+      "terminal",
+      "table",
+      "text"
+    ],
     "provides" : {
       "Term::TablePrint" : "lib/Term/TablePrint.pm6"
     },
