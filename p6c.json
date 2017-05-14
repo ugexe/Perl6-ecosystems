@@ -8140,6 +8140,7 @@
     "provides" : {
       "LREP" : "lib/LREP.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.2.1",
     "description" : "A fun little REPL inspired by Pry, nREPL, and others."
   },
@@ -8160,6 +8161,7 @@
       "Inline::Ruby::RbObject" : "lib/Inline/Ruby/RbObject.pm6",
       "Inline::Ruby" : "lib/Inline/Ruby.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "0.4.0",
     "description" : "Use Ruby code and libraries in a Perl 6 program"
   },
@@ -17531,7 +17533,10 @@
     "depends" : [
       ""
     ],
-    "tags" : "WIP",
+    "tags" : [
+      "WIP",
+      "api"
+    ],
     "license" : "Artistic-2.0",
     "provides" : {
       "API-USNavalObservatory" : "lib/API/USNavalObservatory.pm"
