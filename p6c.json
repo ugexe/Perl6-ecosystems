@@ -4768,11 +4768,12 @@
   {
     "name" : "ClassX::StrictConstructor",
     "source-url" : "git://github.com/tadzik/ClassX-StrictConstructor.git",
-    "perl" : "6.*",
+    "perl" : "6.c",
     "depends" : [ ],
     "provides" : {
       "ClassX::StrictConstructor" : "lib/ClassX/StrictConstructor.pm"
     },
+    "license" : "MIT",
     "version" : "0.1",
     "description" : "Make your object constructors blow up on unknown attributes"
   },
