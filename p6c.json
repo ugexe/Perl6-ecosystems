@@ -263,7 +263,7 @@
       "Test"
     ],
     "license" : "MIT",
-    "version" : "0.2",
+    "version" : "0.3",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz",
       "jnthn",
@@ -325,13 +325,14 @@
   {
     "name" : "MPD",
     "source-url" : "git://github.com/tadzik/perl6-MPD.git",
-    "perl" : "6.*",
+    "perl" : "6.c",
+    "author" : "Tadeusz \u201ctadzik\u201d So\u015bnierz",
     "depends" : [ ],
     "provides" : {
       "MPD" : "lib/MPD.pm"
     },
     "license" : "MIT",
-    "version" : "*",
+    "version" : "0.1",
     "description" : "Interface to libmpdclient C library"
   },
   {
