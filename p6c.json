@@ -17592,5 +17592,24 @@
       "Samantha McVey <samantham@posteo.net>"
     ],
     "description" : "Perl 6 module for interfacing with MPD"
+  },
+  {
+    "name" : "Die",
+    "source-url" : "git://github.com/zoffixznet/perl6-Die.git",
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "Die" : "lib/Die.pm6"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Perl 5 like die routine for note + exit"
   }
 ]
