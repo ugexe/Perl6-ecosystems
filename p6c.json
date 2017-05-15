@@ -17582,12 +17582,14 @@
       "MPD::Client::Exceptions::ArgumentException" : "lib/MPD/Client/Exceptions/ArgumentException.pm6",
       "MPD::Client::Util" : "lib/MPD/Client/Util.pm6",
       "MPD::Client::Exceptions::SocketException" : "lib/MPD/Client/Exceptions/SocketException.pm6",
+      "MPD::Client::Current" : "lib/MPD/Client/Current.pm6",
       "MPD::Client::Control" : "lib/MPD/Client/Control.pm6"
     },
     "license" : "GPL-3.0",
     "version" : "0.1.0",
     "authors" : [
-      "Patrick Spek <p.spek@tyil.work>"
+      "Patrick Spek <p.spek@tyil.work>",
+      "Samantha McVey <samantham@posteo.net>"
     ],
     "description" : "Perl 6 module for interfacing with MPD"
   }
