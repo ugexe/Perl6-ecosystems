@@ -17617,5 +17617,37 @@
       "Zoffix Znet"
     ],
     "description" : "Perl 5 like die routine for note + exit"
+  },
+  {
+    "name" : "LibYAML",
+    "support" : {
+      "source" : "https://github.com/CurtTilmes/perl6-libyaml.git",
+      "bugtracker" : "https://github.com/CurtTilmes/perl6-libyaml/issues"
+    },
+    "perl" : "6.c",
+    "source-url" : "https://github.com/CurtTilmes/perl6-libyaml.git",
+    "auth" : "github:CurtTilmes",
+    "depends" : [
+      "NativeCall"
+    ],
+    "license" : "Artistic-2.0",
+    "test-depends" : [
+      "Test",
+      "JSON::Fast"
+    ],
+    "provides" : {
+      "LibYAML" : "lib/LibYAML.pm6"
+    },
+    "tags" : [
+      "LibYAML",
+      "YAML",
+      "format",
+      "serialization"
+    ],
+    "version" : "0.1",
+    "authors" : [
+      "Curt Tilmes <curt@tilmes.org>"
+    ],
+    "description" : "Perl6 bindings for LibYAML"
   }
 ]
