@@ -8231,7 +8231,10 @@
       "Cache::LRU"
     ],
     "provides" : {
-      "WebService::GitHub" : "lib/WebService/GitHub.pm"
+      "WebService::GitHub::OAuth" : "lib/WebService/GitHub/OAuth.pm",
+      "WebService::GitHub" : "lib/WebService/GitHub.pm",
+      "WebService::GitHub::Response" : "lib/WebService/GitHub/Response.pm",
+      "WebService::GitHub::Role" : "lib/WebService/GitHub/Role.pm"
     },
     "version" : "0.1.0",
     "description" : "GitHub API"
