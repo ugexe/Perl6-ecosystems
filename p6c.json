@@ -5675,6 +5675,22 @@
     "description" : "CSS3 Module Level 3 Selectors"
   },
   {
+    "name" : "Image::PNG::Portable",
+    "source-url" : "git://github.com/raydiak/Image-PNG-Portable.git",
+    "perl" : "6.*",
+    "author" : "raydiak",
+    "depends" : [
+      "String::CRC32",
+      "Compress::Zlib"
+    ],
+    "provides" : {
+      "Image::PNG::Portable" : "lib/Image/PNG/Portable.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "*",
+    "description" : "Portable PNG output for Perl 6"
+  },
+  {
     "name" : "WebService::Lastfm",
     "source-url" : "git://github.com/avuserow/perl6-webservice-lastfm.git",
     "perl" : "6.*",
@@ -15507,7 +15523,7 @@
       "IRC::TextColor" : "IRC/TextColor.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.2.1",
+    "version" : "0.3.0",
     "description" : "Color/Style text for IRC, and convert ANSI color from terminals into IRC coloring",
     "authors" : [
       "Samantha McVey"
