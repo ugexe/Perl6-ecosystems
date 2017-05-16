@@ -5330,6 +5330,7 @@
       "Math::Symbolic::Language" : "lib/Math/Symbolic/Language.pm6",
       "Math::Symbolic::Constants" : "lib/Math/Symbolic/Constants.pm6"
     },
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Symbolic math for Perl 6"
   },
@@ -5651,6 +5652,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "Perl 6 Ray Tracing Engine"
   },
@@ -5671,22 +5673,6 @@
     "license" : "Artistic-2.0",
     "version" : "0.0.1",
     "description" : "CSS3 Module Level 3 Selectors"
-  },
-  {
-    "name" : "Image::PNG::Portable",
-    "source-url" : "git://github.com/raydiak/Image-PNG-Portable.git",
-    "perl" : "6.*",
-    "author" : "raydiak",
-    "depends" : [
-      "String::CRC32",
-      "Compress::Zlib"
-    ],
-    "provides" : {
-      "Image::PNG::Portable" : "lib/Image/PNG/Portable.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "description" : "Portable PNG output for Perl 6"
   },
   {
     "name" : "WebService::Lastfm",
