@@ -10490,6 +10490,7 @@
       "Zef::Shell" : "lib/Zef/Shell.pm6",
       "Zef::Service::Shell::curl" : "lib/Zef/Service/Shell/curl.pm6",
       "Zef::Repository::Ecosystems" : "lib/Zef/Repository/Ecosystems.pm6",
+      "Zef::Report" : "lib/Zef/Report.pm6",
       "Zef::CLI" : "lib/Zef/CLI.pm6",
       "Zef::Build" : "lib/Zef/Build.pm6",
       "Zef::Utils::SystemInfo" : "lib/Zef/Utils/SystemInfo.pm6",
@@ -10501,10 +10502,11 @@
       "Zef::Service::Shell::PowerShell::download" : "lib/Zef/Service/Shell/PowerShell/download.pm6",
       "Zef::Service::Shell::PowerShell" : "lib/Zef/Service/Shell/PowerShell.pm6",
       "Zef::Service::Shell::git" : "lib/Zef/Service/Shell/git.pm6",
+      "Zef::Service::P6CReporter" : "lib/Zef/Service/P6CReporter.pm6",
       "Zef::Fetch" : "lib/Zef/Fetch.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.1.12",
+    "version" : "0.1.13",
     "authors" : [
       "Nick Logan",
       "Tony O'Dell"
