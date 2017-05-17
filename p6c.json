@@ -13748,7 +13748,8 @@
     "source-type" : "git",
     "depends" : [
       "Terminal::ANSIColor",
-      "JSON::Tiny"
+      "JSON::Tiny",
+      "Config::Simple"
     ],
     "license" : "Artistic-2.0",
     "provides" : {
