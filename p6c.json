@@ -17662,5 +17662,27 @@
       "Curt Tilmes <curt@tilmes.org>"
     ],
     "description" : "Perl6 bindings for LibYAML"
+  },
+  {
+    "name" : "Zef::CPANReporter",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/garu/Zef-Reporter.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "auth" : "github:garu",
+    "depends" : [
+      "Zef",
+      "Net::HTTP"
+    ],
+    "test-depends" : [ ],
+    "provides" : {
+      "Zef::CPANReporter" : "lib/Zef/CPANReporter.pm6"
+    },
+    "version" : "0.0.1",
+    "authors" : [
+      "Breno G. de Oliveira",
+      "Nick Logan"
+    ],
+    "description" : "Zef plugin to send test reports to cpantesters"
   }
 ]
