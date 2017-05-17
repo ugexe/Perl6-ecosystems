@@ -8153,27 +8153,6 @@
     "description" : "A fun little REPL inspired by Pry, nREPL, and others."
   },
   {
-    "name" : "Inline::Ruby",
-    "source-url" : "git://github.com/awwaiid/p6-Inline-Ruby.git",
-    "perl" : "6.c",
-    "resources" : [
-      "libraries/rbhelper"
-    ],
-    "author" : "github:awwaiid",
-    "depends" : [
-      "LibraryMake"
-    ],
-    "provides" : {
-      "Inline::Ruby::RbValue" : "lib/Inline/Ruby/RbValue.pm6",
-      "Inline::Ruby::Sweet" : "lib/Inline/Ruby/Sweet.pm6",
-      "Inline::Ruby::RbObject" : "lib/Inline/Ruby/RbObject.pm6",
-      "Inline::Ruby" : "lib/Inline/Ruby.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.4.0",
-    "description" : "Use Ruby code and libraries in a Perl 6 program"
-  },
-  {
     "name" : "Apache::LogFormat",
     "perl" : "6",
     "source-url" : "git://github.com/lestrrat/p6-Apache-LogFormat.git",
