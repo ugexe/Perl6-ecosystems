@@ -17650,12 +17650,12 @@
   {
     "name" : "LibYAML",
     "support" : {
-      "source" : "https://github.com/CurtTilmes/perl6-libyaml.git",
-      "bugtracker" : "https://github.com/CurtTilmes/perl6-libyaml/issues"
+      "source" : "https://github.com/yaml/yaml-libyaml-perl6.git",
+      "bugtracker" : "https://github.com/yaml/yaml-libyaml-perl6/issues"
     },
     "perl" : "6.c",
-    "source-url" : "https://github.com/CurtTilmes/perl6-libyaml.git",
-    "auth" : "github:CurtTilmes",
+    "source-url" : "https://github.com/yaml/yaml-libyaml-perl6.git",
+    "auth" : "github:yaml",
     "depends" : [
       "NativeCall"
     ],
@@ -17673,9 +17673,10 @@
       "format",
       "serialization"
     ],
-    "version" : "0.1",
+    "version" : "0.2",
     "authors" : [
-      "Curt Tilmes <curt@tilmes.org>"
+      "Curt Tilmes <ctilmes@cpan.org>",
+      "Ingy d\u00f6t Net <ingy@cpan.org>"
     ],
     "description" : "Perl6 bindings for LibYAML"
   },
