@@ -1,13 +1,11 @@
 [
   {
     "name" : "Inline",
-    "source-url" : "http://www.cpan.org/authors/id/F/FR/FROGGS/Perl6/Inline-v1.2.1.tar.gz",
     "support" : {
       "source" : "https://github.com/FROGGS/p6-Inline-C.git",
       "bugtracker" : "https://github.com/FROGGS/p6-Inline-C/issues"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "depends" : [
       "NativeCall"
@@ -22,13 +20,11 @@
   },
   {
     "name" : "Inline",
-    "source-url" : "http://www.cpan.org/authors/id/F/FR/FROGGS/Perl6/Inline-v1.2.1.tar.gz",
     "support" : {
       "source" : "https://github.com/FROGGS/p6-Inline-C.git",
       "bugtracker" : "https://github.com/FROGGS/p6-Inline-C/issues"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "depends" : [
       "NativeCall"
@@ -43,13 +39,11 @@
   },
   {
     "name" : "Inline",
-    "source-url" : "http://www.cpan.org/authors/id/F/FR/FROGGS/Perl6/Inline-v1.1.tar.gz",
     "support" : {
       "source" : "https://github.com/FROGGS/p6-Inline-C.git",
       "bugtracker" : "https://github.com/FROGGS/p6-Inline-C/issues"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "depends" : [
       "NativeCall"
@@ -64,9 +58,7 @@
   },
   {
     "name" : "IO::Glob",
-    "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/perl6-IO-Glob-0.1.tar.gz",
     "perl" : "6",
-    "source-type" : "http",
     "auth" : "github:zostay",
     "source" : {
       "source" : "git://github.com/zostay/perl6-IO-Glob.git",
@@ -93,12 +85,11 @@
   },
   {
     "name" : "Text::CSV",
-    "source-url" : "http://www.cpan.org/authors/id/H/HM/HMBRAND/Perl6/Text-CSV-0.007.tgz",
     "support" : {
       "irc" : "irc://irc.perl.org/#csv"
     },
+    "source-url" : "git://github.com/Tux/CSV.git",
     "perl" : "6.c",
-    "source-type" : "http",
     "resources" : [ ],
     "build-depends" : [ ],
     "auth" : "github:Tux",
@@ -107,7 +98,6 @@
       "Slang::Tuxic",
       "File::Temp"
     ],
-    "original-source-url" : "git://github.com/Tux/CSV.git",
     "license" : "Artistic-2.0",
     "provides" : {
       "Text::CSV" : "lib/Text/CSV.pm"
@@ -127,12 +117,11 @@
   },
   {
     "name" : "Text::CSV",
-    "source-url" : "http://www.cpan.org/authors/id/H/HM/HMBRAND/Perl6/Text-CSV-0.008.tgz",
     "support" : {
       "irc" : "irc://irc.perl.org/#csv"
     },
+    "source-url" : "git://github.com/Tux/CSV.git",
     "perl" : "6.c",
-    "source-type" : "http",
     "resources" : [ ],
     "build-depends" : [ ],
     "auth" : "github:Tux",
@@ -141,7 +130,6 @@
       "Slang::Tuxic",
       "File::Temp"
     ],
-    "original-source-url" : "git://github.com/Tux/CSV.git",
     "license" : "Artistic-2.0",
     "provides" : {
       "Text::CSV" : "lib/Text/CSV.pm"
@@ -161,7 +149,6 @@
   },
   {
     "name" : "Data::Selector",
-    "source-url" : "http://www.cpan.org/authors/id/J/JD/JDV/Perl6/Data-Selector-1.01.tar.gz",
     "support" : {
       "irc" : "irc://irc.freenode.net/perl6",
       "email" : "justin@devuyst.com",
@@ -169,7 +156,6 @@
       "bugtracker" : "https://github.com/jdv/p6-data-selector/issues"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "license" : "artistic_2",
     "provides" : {
       "Data::Selector::SelectorString::Actions" : "lib/Data/Selector.pm",
@@ -184,7 +170,6 @@
   },
   {
     "name" : "Data::Selector",
-    "source-url" : "http://www.cpan.org/authors/id/J/JD/JDV/Perl6/Data-Selector-1.02.tar.gz",
     "support" : {
       "irc" : "irc://irc.freenode.net/perl6",
       "email" : "justin@devuyst.com",
@@ -192,7 +177,6 @@
       "bugtracker" : "https://github.com/jdv/p6-data-selector/issues"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "license" : "artistic_2",
     "provides" : {
       "Data::Selector::SelectorString::Actions" : "lib/Data/Selector.pm",
@@ -207,13 +191,11 @@
   },
   {
     "name" : "NativeCall",
-    "source-url" : "http://www.cpan.org/authors/id/J/JO/JONATHAN/Perl6/NativeCall-v1.tar.gz",
     "support" : {
       "source" : "https://github.com/jnthn/zavolaj.git",
       "bugtracker" : "https://github.com/jnthn/zavolaj/issues"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "depends" : [ ],
     "provides" : {
@@ -225,12 +207,11 @@
   },
   {
     "name" : "Inline::Perl5",
-    "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.26.tar.gz",
     "support" : {
       "irc" : "irc://irc.freenode.org/#perl6"
     },
+    "source-url" : "git://github.com/niner/Inline-Perl5.git",
     "perl" : "6.c",
-    "source-type" : "http",
     "resources" : [
       "libraries/p5helper"
     ],
@@ -239,7 +220,6 @@
     "depends" : [
       "LibraryMake"
     ],
-    "original-source-url" : "git://github.com/niner/Inline-Perl5.git",
     "license" : "Artistic-2.0",
     "provides" : {
       "Inline::Perl5" : "lib/Inline/Perl5.pm6"
@@ -255,12 +235,10 @@
   },
   {
     "name" : "AccessorFacade",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/AccessorFacade-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jonathanstowe/AccessorFacade.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "auth" : "github:jonathanstowe",
@@ -281,11 +259,9 @@
   },
   {
     "name" : "Acme::DSON",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Acme-DSON-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/xfix/Acme-DSON.git"
     },
-    "source-type" : "http",
     "author" : "Konrad Borowski <x.fix@o2.pl>",
     "depends" : [
       "JSON::Tiny"
@@ -300,11 +276,9 @@
   },
   {
     "name" : "Acme::Flutterby",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Acme-Flutterby-0.000.001.tar.gz",
     "support" : {
       "source" : "https://github.com/byterock/Acme-Flutterby.git"
     },
-    "source-type" : "http",
     "author" : "John Scoles",
     "depends" : [ ],
     "provides" : {
@@ -315,12 +289,10 @@
   },
   {
     "name" : "Acme::GiveUp",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Acme-GiveUp-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-Acme-GiveUp.git"
     },
     "authority" : "zoffixznet",
-    "source-type" : "http",
     "author" : "Zoffix Znet",
     "depends" : [ ],
     "test-depends" : [
@@ -334,12 +306,10 @@
   },
   {
     "name" : "Acme::Meow",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Acme-Meow-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tadzik/perl6-Acme-Meow.git",
       "bugtracker" : "https://github.com/tadzik/perl6-Acme-Meow/issues"
     },
-    "source-type" : "http",
     "build-depends" : [ ],
     "depends" : [ ],
     "test-depends" : [
@@ -360,12 +330,10 @@
   },
   {
     "name" : "Acme::WTF",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Acme-WTF-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/Skarsnik/acme-wtf.git"
     },
     "perl" : "6",
-    "source-type" : "http",
     "author" : "Sylvain Colinet <scolinet@gmail.com>",
     "depends" : [
       "Test::META"
@@ -378,24 +346,20 @@
   },
   {
     "name" : "Adventure::Engine",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Adventure-Engine-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/masak/Adventure-Engine.git"
     },
-    "source-type" : "http",
     "author" : "Carl M\u00e4sak",
     "depends" : [ ],
     "version" : "0.3.0",
     "description" : "Helps build and run adventure games."
   },
   {
-    "original-source-type" : "git",
     "name" : "Algorithm::Diff",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Algorithm-Diff-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/Takadonet/Algorithm--Diff.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "build-depends" : [ ],
     "depends" : [ ],
     "test-depends" : [
@@ -409,11 +373,9 @@
   },
   {
     "name" : "Algorithm::LCS",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Algorithm-LCS-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/hoelzro/p6-algorithm-lcs.git"
     },
-    "source-type" : "http",
     "author" : "Rob Hoelz",
     "depends" : [ ],
     "provides" : {
@@ -423,25 +385,21 @@
     "description" : "Implementation of the longest common subsequence algorithm"
   },
   {
-    "original-source-type" : "git",
     "name" : "Algorithm::Viterbi",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Algorithm-Viterbi-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/arnsholt/Algorithm-Viterbi.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "depends" : [ ],
     "version" : "*",
     "description" : "HMM decoding with the Viterbi algorithm."
   },
   {
     "name" : "App::Nopaste",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/App-Nopaste-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-App-Nopaste.git"
     },
     "authority" : "zoffixznet",
-    "source-type" : "http",
     "author" : "Zoffix Znet",
     "depends" : [
       "Pastebin::Gist",
@@ -457,13 +415,11 @@
     "description" : "Access pastebins from command line"
   },
   {
-    "original-source-type" : "git",
     "name" : "App::jsonv",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/App-jsonv-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/Miniconf/App-jsonv.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "author" : [
       "David Farrell",
       "Dmitry Yaskolko"
@@ -479,12 +435,10 @@
   },
   {
     "name" : "Astro::Sunrise",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Astro-Sunrise-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/perlpilot/p6-Astro-Sunrise.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "depends" : [ ],
     "test-depends" : [ ],
@@ -499,12 +453,10 @@
   },
   {
     "name" : "Audio::Sndfile",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Audio-Sndfile-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Audio-Sndfile.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [
       "panda",
       "LibraryCheck"
@@ -534,11 +486,9 @@
   },
   {
     "name" : "Auth::PAM::Simple",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Auth-PAM-Simple-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-Auth-PAM-Simple.git"
     },
-    "source-type" : "http",
     "resources" : [
       "libauthpamsimple.so"
     ],
@@ -554,11 +504,9 @@
   },
   {
     "name" : "Auth::SAML2",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Auth-SAML2-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-SAML.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "XML",
@@ -576,11 +524,9 @@
   },
   {
     "name" : "Bamboo",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Bamboo-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/sergot/bamboo.git"
     },
-    "source-type" : "http",
     "author" : "github:sergot",
     "depends" : [
       "Panda"
@@ -593,11 +539,9 @@
   },
   {
     "name" : "Bench",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Bench-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tony-o/perl6-bench.git"
     },
-    "source-type" : "http",
     "auth" : "github:tony-o",
     "depends" : [
       "Text::Table::Simple"
@@ -610,11 +554,9 @@
   },
   {
     "name" : "Benchmark",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Benchmark-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/perlpilot/benchmark.git"
     },
-    "source-type" : "http",
     "build-depends" : [ ],
     "depends" : [ ],
     "test-depends" : [
@@ -627,13 +569,11 @@
     "description" : "Benchmark running times of Perl 6 code"
   },
   {
-    "original-source-type" : "git",
     "name" : "Benchmark::Plot",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Benchmark-Plot-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/colomon/Benchmark-Plot.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "depends" : [
       "SVG",
       "SVG::Plot"
@@ -644,11 +584,9 @@
   },
   {
     "name" : "BreakDancer",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/BreakDancer-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/sergot/BreakDancer.git"
     },
-    "source-type" : "http",
     "build-depends" : [
       "Shell::Command"
     ],
@@ -666,11 +604,9 @@
   },
   {
     "name" : "Business::CreditCard",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Business-CreditCard-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/fayland/perl6-Business-CreditCard.git"
     },
-    "source-type" : "http",
     "author" : "github:fayland",
     "depends" : [ ],
     "provides" : {
@@ -681,11 +617,9 @@
   },
   {
     "name" : "C::Parser",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/C-Parser-0.000.001.tar.gz",
     "support" : {
       "source" : "https://github.com/andydude/p6-c-parser.git"
     },
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Andrew Robbins",
     "depends" : [ ],
@@ -707,11 +641,9 @@
   },
   {
     "name" : "CGI::Application",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/CGI-Application-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/moritz/CGI-Application.git"
     },
-    "source-type" : "http",
     "build-depends" : [ ],
     "depends" : [ ],
     "test-depends" : [
@@ -725,11 +657,9 @@
   },
   {
     "name" : "CLDR::List",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/CLDR-List-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/patch/cldr-list-pm6.git"
     },
-    "source-type" : "http",
     "author" : "Nova Patch",
     "depends" : [ ],
     "provides" : {
@@ -740,11 +670,9 @@
   },
   {
     "name" : "CSS::Module::CSS3::Selectors",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/CSS-Module-CSS3-Selectors-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/p6-css/perl6-CSS-Module-CSS3-Selectors.git"
     },
-    "source-type" : "http",
     "depends" : [
       "CSS::Grammar",
       "JSON::Fast"
@@ -758,11 +686,9 @@
   },
   {
     "name" : "CSV::Parser",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/CSV-Parser-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tony-o/perl6-csv-parser.git"
     },
-    "source-type" : "http",
     "auth" : "auth:tony-o",
     "depends" : [ ],
     "provides" : {
@@ -773,11 +699,9 @@
   },
   {
     "name" : "Cache::LRU",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Cache-LRU-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/fayland/perl6-Cache-LRU.git"
     },
-    "source-type" : "http",
     "author" : "github:fayland",
     "depends" : [ ],
     "provides" : {
@@ -788,12 +712,10 @@
   },
   {
     "name" : "CheckSocket",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/CheckSocket-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jonathanstowe/CheckSocket.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "auth" : "github:jonathanstowe",
@@ -816,11 +738,9 @@
   },
   {
     "name" : "Chess",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Chess-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/grondilu/chess.git"
     },
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "L. Grondin",
     "depends" : [ ],
@@ -837,14 +757,12 @@
   },
   {
     "name" : "Chronic",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Chronic-0.000.001.tar.gz",
     "support" : {
       "irc" : "irc:// irc.freenode.net/#perl6",
       "source" : "git://github.com/jonathanstowe/Chronic.git",
       "bugtracker" : "https://github.com/jonathanstowe/Chronic/issues"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "auth" : "github:jonathanstowe",
@@ -870,11 +788,9 @@
   },
   {
     "name" : "Class::Utils",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Class-Utils-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/sirrobert/Class-Utils.git"
     },
-    "source-type" : "http",
     "author" : "Sir Robert Burbridge",
     "depends" : [ ],
     "provides" : {
@@ -885,11 +801,9 @@
   },
   {
     "name" : "ClassX::StrictConstructor",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/ClassX-StrictConstructor-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tadzik/ClassX-StrictConstructor.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "ClassX::StrictConstructor" : "lib/ClassX/StrictConstructor.pm"
@@ -899,12 +813,10 @@
   },
   {
     "name" : "Color",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Color-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-Color.git"
     },
     "authority" : "zoffixznet",
-    "source-type" : "http",
     "author" : "Zoffix Znet",
     "depends" : [ ],
     "test-depends" : [
@@ -919,11 +831,9 @@
   },
   {
     "name" : "Config::Clever",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Config-Clever-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/ShaneKilkelly/perl6-config-clever.git"
     },
-    "source-type" : "http",
     "depends" : [
       "JSON::Tiny"
     ],
@@ -935,11 +845,9 @@
   },
   {
     "name" : "Coroutines",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Coroutines-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tadzik/Coroutines.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Coroutines" : "lib/Coroutines.pm"
@@ -949,11 +857,9 @@
   },
   {
     "name" : "Crust::Handler::SCGI",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Crust-Handler-SCGI-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/p6-Crust-Handler-SCGI.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "SCGI",
@@ -967,11 +873,9 @@
   },
   {
     "name" : "Crust::Middleware::Syslog",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Crust-Middleware-Syslog-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-Crust-Middleware-Syslog.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "Log::Syslog::Native",
@@ -985,11 +889,9 @@
   },
   {
     "name" : "Crypt::RC4",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Crypt-RC4-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/p6-pdf/perl6-Crypt-RC4.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Crypt::RC4" : "lib/Crypt/RC4.pm"
@@ -999,11 +901,9 @@
   },
   {
     "name" : "DB::Model::Easy",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/DB-Model-Easy-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/supernovus/perl6-db-model-easy.git"
     },
-    "source-type" : "http",
     "depends" : [
       "DBIish"
     ],
@@ -1016,11 +916,9 @@
   },
   {
     "name" : "DEBUG",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/DEBUG-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/cygx/p6-debug.git"
     },
-    "source-type" : "http",
     "author" : "cygx <cygx@cpan.org>",
     "depends" : [ ],
     "provides" : {
@@ -1035,12 +933,10 @@
   },
   {
     "name" : "Data::Dump",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Data-Dump-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tony-o/perl6-data-dump.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "depends" : [ ],
     "test-depends" : [
       "Test"
@@ -1053,11 +949,9 @@
   },
   {
     "name" : "Data::ICal",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Data-ICal-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-iCal.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [ ],
     "provides" : {
@@ -1075,11 +969,9 @@
   },
   {
     "name" : "Data::Pretty",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Data-Pretty-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/masak/data-pretty.git"
     },
-    "source-type" : "http",
     "author" : "github:masak",
     "depends" : [ ],
     "provides" : {
@@ -1089,13 +981,11 @@
     "description" : "Righting the last few wrongs in Perl 6 gist output"
   },
   {
-    "original-source-type" : "git",
     "name" : "DateTime::Format::W3CDTF",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/DateTime-Format-W3CDTF-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/afiskon/p6-datetime-format-w3cdtf.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "depends" : [ ],
     "provides" : {
       "DateTime::Format::W3CDTF" : "lib/DateTime/Format/W3CDTF.pm6"
@@ -1105,11 +995,9 @@
   },
   {
     "name" : "DateTime::Utils",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/DateTime-Utils-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/supernovus/temporal-utils.git"
     },
-    "source-type" : "http",
     "depends" : [
       "DateTime::Format",
       "DateTime::Math",
@@ -1121,11 +1009,9 @@
   },
   {
     "name" : "Digest",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Digest-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/grondilu/libdigest-perl6.git"
     },
-    "source-type" : "http",
     "author" : "Lucien Grondin",
     "depends" : [ ],
     "provides" : {
@@ -1138,11 +1024,9 @@
   },
   {
     "name" : "Digest::HMAC",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Digest-HMAC-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-Digest-HMAC.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "Digest"
@@ -1155,11 +1039,9 @@
   },
   {
     "name" : "Druid",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Druid-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/masak/druid.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Druid::Game::Subject" : "lib/Druid/Game/Subject.pm",
@@ -1178,11 +1060,9 @@
   },
   {
     "name" : "Editsrc::Uggedit",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Editsrc-Uggedit-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/Uladox/Editscr-Uggedit.git"
     },
-    "source-type" : "http",
     "author" : "Uladox <uladoxiental@gmail.com>",
     "depends" : [
       "File::Temp"
@@ -1195,11 +1075,9 @@
   },
   {
     "name" : "Electron",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Electron-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/azawawi/perl6-electron.git"
     },
-    "source-type" : "http",
     "depends" : [
       "File::Which",
       "JSON::RPC"
@@ -1223,11 +1101,9 @@
   },
   {
     "name" : "Email::MIME",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Email-MIME-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/p6-Email-MIME.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "Email::Simple",
@@ -1246,11 +1122,9 @@
   },
   {
     "name" : "Email::Simple",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Email-Simple-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/p6-Email-Simple.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "DateTime::Format"
@@ -1264,11 +1138,9 @@
   },
   {
     "name" : "Encode",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Encode-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/sergot/perl6-encode.git"
     },
-    "source-type" : "http",
     "author" : "github:sergot",
     "depends" : [ ],
     "provides" : {
@@ -1282,11 +1154,9 @@
   },
   {
     "name" : "Encoding::Huffman::PP6",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Encoding-Huffman-PP6-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tony-o/perl6-encoding-huffman-pp6.git"
     },
-    "source-type" : "http",
     "auth" : "github:tony-o",
     "depends" : [ ],
     "provides" : {
@@ -1297,12 +1167,10 @@
   },
   {
     "name" : "Facter",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Facter-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/cosimo/perl6-facter.git"
     },
     "authority" : "cosimo",
-    "source-type" : "http",
     "author" : "Cosimo Streppone",
     "depends" : [ ],
     "provides" : {
@@ -1323,11 +1191,9 @@
   },
   {
     "name" : "FastCGI",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/FastCGI-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/supernovus/perl6-fastcgi.git"
     },
-    "source-type" : "http",
     "depends" : [
       "PSGI"
     ],
@@ -1346,11 +1212,9 @@
   },
   {
     "name" : "FastCGI::NativeCall",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/FastCGI-NativeCall-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/carbin/p6-fcgi.git"
     },
-    "source-type" : "http",
     "author" : "github:carbin",
     "depends" : [ ],
     "provides" : {
@@ -1361,11 +1225,9 @@
   },
   {
     "name" : "FastCGI::NativeCall::PSGI",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/FastCGI-NativeCall-PSGI-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/carbin/p6-fcgi-psgi.git"
     },
-    "source-type" : "http",
     "author" : "github:carbin",
     "depends" : [
       "PSGI",
@@ -1379,11 +1241,9 @@
   },
   {
     "name" : "File::Compare",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/File-Compare-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/labster/perl6-File-Compare.git"
     },
-    "source-type" : "http",
     "author" : "labster",
     "depends" : [ ],
     "provides" : {
@@ -1394,11 +1254,9 @@
   },
   {
     "name" : "File::Directory::Tree",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/File-Directory-Tree-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/labster/p6-file-directory-tree.git"
     },
-    "source-type" : "http",
     "author" : "labster",
     "depends" : [ ],
     "provides" : {
@@ -1409,12 +1267,10 @@
   },
   {
     "name" : "File::Find",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/File-Find-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tadzik/File-Find.git",
       "bugtracker" : "https://github.com/tadzik/File-Find/issues"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "File::Find" : "lib/File/Find.pm"
@@ -1438,11 +1294,9 @@
   },
   {
     "name" : "File::Find::Duplicates",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/File-Find-Duplicates-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/labster/perl6-File-Find-Duplicates.git"
     },
-    "source-type" : "http",
     "author" : "Brent Laabs",
     "depends" : [
       "File::Find",
@@ -1457,18 +1311,16 @@
   },
   {
     "name" : "File::Temp",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/File-Temp-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/perlpilot/p6-File-Temp.git"
     },
+    "source-url" : "git://github.com/perlpilot/p6-File-Temp.git",
     "perl" : "v6.0.0",
-    "source-type" : "http",
     "author" : "Jonathan Scott Duff",
     "repo-type" : "git",
     "depends" : [
       "File::Directory::Tree"
     ],
-    "original-source-url" : "git://github.com/perlpilot/p6-File-Temp.git",
     "provides" : [
       "File::Temp"
     ],
@@ -1477,11 +1329,9 @@
   },
   {
     "name" : "Find::Bundled",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Find-Bundled-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-Find-Bundled.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [ ],
     "provides" : {
@@ -1492,11 +1342,9 @@
   },
   {
     "name" : "Font::AFM",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Font-AFM-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/p6-pdf/perl6-Font-AFM.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Font::Metrics::times-italic" : "lib/Font/Metrics/times-italic.pm",
@@ -1520,11 +1368,9 @@
   },
   {
     "name" : "Foo",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Foo-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/FROGGS/p6-Foo-v1.2.0.git"
     },
-    "source-type" : "http",
     "author" : "github:FROGGS",
     "depends" : [ ],
     "provides" : {
@@ -1535,11 +1381,9 @@
   },
   {
     "name" : "Form",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Form-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/perl6/form.git"
     },
-    "source-type" : "http",
     "author" : "Matthew Walton",
     "depends" : [ ],
     "provides" : {
@@ -1556,11 +1400,9 @@
   },
   {
     "name" : "GGE",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/GGE-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/masak/gge.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "GGE::Grammar" : "lib/GGE/Grammar.pm",
@@ -1575,11 +1417,9 @@
   },
   {
     "name" : "Game::Crypt",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Game-Crypt-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/masak/crypt.git"
     },
-    "source-type" : "http",
     "author" : "Carl M\u00e4sak",
     "depends" : [
       "Adventure::Engine"
@@ -1589,11 +1429,9 @@
   },
   {
     "name" : "Games::BubbleBreaker",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Games-BubbleBreaker-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/FROGGS/p6-Games-BubbleBreaker.git"
     },
-    "source-type" : "http",
     "depends" : [
       "SDL"
     ],
@@ -1605,11 +1443,9 @@
   },
   {
     "name" : "Geo::Region",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Geo-Region-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/patch/geo-region-pm6.git"
     },
-    "source-type" : "http",
     "author" : "Nick Patch",
     "depends" : [ ],
     "provides" : {
@@ -1621,11 +1457,9 @@
   },
   {
     "name" : "Git::PurePerl",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Git-PurePerl-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/raydiak/Git-PurePerl.git"
     },
-    "source-type" : "http",
     "author" : "raydiak",
     "depends" : [
       "Compress::Zlib",
@@ -1656,11 +1490,9 @@
   },
   {
     "name" : "Graffiks",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Graffiks-0.000.001.tar.gz",
     "support" : {
       "source" : "https://github.com/wentam/P6-Graffiks.git"
     },
-    "source-type" : "http",
     "author" : "github:wentam",
     "depends" : [ ],
     "provides" : {
@@ -1677,11 +1509,9 @@
   },
   {
     "name" : "Grammar::Profiler::Simple",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Grammar-Profiler-Simple-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/perlpilot/Grammar-Profiler-Simple.git"
     },
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Jonathan Scott Duff",
     "depends" : [ ],
@@ -1696,11 +1526,9 @@
   },
   {
     "name" : "Gravatar::URL",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Gravatar-URL-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/fayland/perl6-Gravatar-URL.git"
     },
-    "source-type" : "http",
     "author" : "github:fayland",
     "depends" : [
       "URI::Escape",
@@ -1714,11 +1542,9 @@
   },
   {
     "name" : "HTML::Entity",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/HTML-Entity-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/Mouq/HTML-Entity.git"
     },
-    "source-type" : "http",
     "author" : "Alexander Moquin",
     "depends" : [ ],
     "provides" : {
@@ -1730,11 +1556,9 @@
   },
   {
     "name" : "HTML::Restrict",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/HTML-Restrict-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/stmuk/p6-html-restrict.git"
     },
-    "source-type" : "http",
     "author" : "Steve Mynott <steve.mynott@gmail.com>",
     "depends" : [
       "HTML::Parser::XML"
@@ -1747,11 +1571,9 @@
   },
   {
     "name" : "HTML::Template",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/HTML-Template-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/masak/html-template.git"
     },
-    "source-type" : "http",
     "repo-type" : "git",
     "depends" : [ ],
     "provides" : {
@@ -1764,11 +1586,9 @@
   },
   {
     "name" : "HTTP::Client",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/HTTP-Client-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/supernovus/perl6-http-client.git"
     },
-    "source-type" : "http",
     "depends" : [
       "MIME::Base64",
       "HTTP::Status"
@@ -1783,11 +1603,9 @@
   },
   {
     "name" : "HTTP::ParseParams",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/HTTP-ParseParams-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-HTTP-ParseParams.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "URI::Encode"
@@ -1800,11 +1618,9 @@
   },
   {
     "name" : "HTTP::Server::Async::Plugins::Router::Simple",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/HTTP-Server-Async-Plugins-Router-Simple-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tony-o/perl6-http-server-async-plugins-router-simple.git"
     },
-    "source-type" : "http",
     "auth" : "github:tony-o",
     "depends" : [
       "HTTP::Server::Async"
@@ -1817,11 +1633,9 @@
   },
   {
     "name" : "HTTP::Status",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/HTTP-Status-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/supernovus/perl6-http-status.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "HTTP::Status" : "lib/HTTP/Status.pm6"
@@ -1831,11 +1645,9 @@
   },
   {
     "name" : "HexDump::Tiny",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/HexDump-Tiny-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/perlpilot/p6-HexDump-Tiny.git"
     },
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Jonathan Scott Duff",
     "repo-type" : "git",
@@ -1851,11 +1663,9 @@
   },
   {
     "name" : "Hinges",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Hinges-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/supernovus/hinges.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Hinges::Markup" : "lib/Hinges/Markup.pm",
@@ -1875,12 +1685,10 @@
   },
   {
     "name" : "Hydrate",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Hydrate-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/vendethiel/hydrate6.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "author" : "vendethiel",
     "depends" : [ ],
     "provides" : {
@@ -1891,11 +1699,9 @@
   },
   {
     "name" : "IO-Glob",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/IO-Glob-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/zostay/perl6-IO-Glob.git"
     },
-    "source-type" : "http",
     "author" : "Andrew Sterling Hanenkamp",
     "depends" : [ ],
     "provides" : {
@@ -1912,11 +1718,9 @@
   },
   {
     "name" : "IO::Notification::Recursive",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/IO-Notification-Recursive-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/perlpilot/p6-IO-Notification-Recursive.git"
     },
-    "source-type" : "http",
     "author" : "Jonathan Scott Duff <duff@pobox.com>",
     "depends" : [
       "File::Find"
@@ -1929,12 +1733,10 @@
   },
   {
     "name" : "IO::Path::More",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/IO-Path-More-0.000.001.tar.gz",
     "support" : {
       "irc" : "labster",
       "source" : "git://github.com/labster/p6-IO-Path-More.git"
     },
-    "source-type" : "http",
     "author" : "labster",
     "depends" : [
       "File::Find",
@@ -1948,11 +1750,9 @@
   },
   {
     "name" : "IO::Socket::SSL",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/IO-Socket-SSL-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/sergot/io-socket-ssl.git"
     },
-    "source-type" : "http",
     "author" : "github:sergot",
     "depends" : [
       "OpenSSL"
@@ -1964,13 +1764,11 @@
     "description" : "IO::Socket::SSL for Perl 6 using OpenSSL"
   },
   {
-    "original-source-type" : "git",
     "name" : "IUP",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/IUP-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/mrhdias/perl6-IUP.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "author" : "Henrique Dias",
     "depends" : [
       "NativeCall"
@@ -1979,14 +1777,12 @@
     "description" : "Perl 6 interface to the IUP toolkit for building GUI's"
   },
   {
-    "original-source-type" : "git",
     "name" : "Ident::Client",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Ident-Client-0.000.001.tar.gz",
     "support" : {
       "source" : "https://github.com/yuvipanda/perl6-Ident-Client.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
+    "source-type" : "git",
     "provides" : {
       "Ident::Client" : "lib/Ident/Client.pm6"
     },
@@ -1995,12 +1791,10 @@
   },
   {
     "name" : "Image::PNG::Inflated",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Image-PNG-Inflated-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/cygx/p6-image-png-inflated.git",
       "bugtracker" : "https://github.com/cygx/p6-image-png-inflated/issues"
     },
-    "source-type" : "http",
     "author" : "cygx <cygx@cpan.org>",
     "depends" : [ ],
     "provides" : {
@@ -2011,11 +1805,9 @@
   },
   {
     "name" : "Image::PNG::Portable",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Image-PNG-Portable-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/raydiak/Image-PNG-Portable.git"
     },
-    "source-type" : "http",
     "author" : "raydiak",
     "depends" : [
       "String::CRC32",
@@ -2029,12 +1821,10 @@
   },
   {
     "name" : "Image::RGBA::Text",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Image-RGBA-Text-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/cygx/p6-image-rgba-text.git",
       "bugtracker" : "https://github.com/cygx/p6-image-rgba-text/issues"
     },
-    "source-type" : "http",
     "author" : "cygx <cygx@cpan.org>",
     "depends" : [ ],
     "provides" : {
@@ -2044,13 +1834,11 @@
     "description" : "Reads RGBA image data from text files"
   },
   {
-    "original-source-type" : "git",
     "name" : "Imlib2",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Imlib2-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/mrhdias/perl6-Imlib2.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "author" : "Henrique Dias",
     "depends" : [
       "NativeCall",
@@ -2060,25 +1848,21 @@
     "description" : "Perl 6 interface to the Imlib2 image library."
   },
   {
-    "original-source-type" : "git",
     "name" : "IoC",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/IoC-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jasonmay/perl6-ioc.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "depends" : [ ],
     "version" : "*",
     "description" : "Wire your application components together using inversion of control"
   },
   {
     "name" : "JSON::Class",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/JSON-Class-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jonathanstowe/JSON-Class.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "auth" : "github:jonathanstowe",
@@ -2105,12 +1889,10 @@
   },
   {
     "name" : "JSON::Marshal",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/JSON-Marshal-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jonathanstowe/JSON-Marshal.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "auth" : "github:jonathanstowe",
@@ -2137,11 +1919,9 @@
   },
   {
     "name" : "JSON::Path",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/JSON-Path-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jnthn/json-path.git"
     },
-    "source-type" : "http",
     "depends" : [
       "JSON::Tiny"
     ],
@@ -2153,11 +1933,9 @@
   },
   {
     "name" : "JSON::Pretty",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/JSON-Pretty-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/FROGGS/p6-JSON-Pretty.git"
     },
-    "source-type" : "http",
     "author" : "github:FROGGS",
     "depends" : [
       "JSON::Tiny"
@@ -2170,11 +1948,9 @@
   },
   {
     "name" : "JSON5::Tiny",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/JSON5-Tiny-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/Mouq/json5.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "JSON5::Tiny::Actions" : "lib/JSON5/Tiny/Actions.pm6",
@@ -2186,11 +1962,9 @@
   },
   {
     "name" : "JavaScript::SpiderMonkey",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/JavaScript-SpiderMonkey-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/hartenfels/JavaScript-SpiderMonkey.git"
     },
-    "source-type" : "http",
     "author" : "Carsten Hartenfels",
     "depends" : [ ],
     "provides" : {
@@ -2205,12 +1979,10 @@
   },
   {
     "name" : "Kains",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Kains-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/cedric-vincent/kains.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [
       "NativeCall"
     ],
@@ -2235,11 +2007,9 @@
   },
   {
     "name" : "LREP",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/LREP-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/awwaiid/p6-lrep.git"
     },
-    "source-type" : "http",
     "author" : "Brock Wilcox",
     "depends" : [
       "Linenoise"
@@ -2252,12 +2022,10 @@
   },
   {
     "name" : "LibraryCheck",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/LibraryCheck-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jonathanstowe/LibraryCheck.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "auth" : "github:jonathanstowe",
@@ -2280,11 +2048,9 @@
   },
   {
     "name" : "LibraryMake",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/LibraryMake-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-LibraryMake.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [ ],
     "test-depends" : [
@@ -2298,11 +2064,9 @@
   },
   {
     "name" : "Lingua::EN::Conjugate",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Lingua-EN-Conjugate-0.000.001.tar.gz",
     "support" : {
       "source" : "https://github.com/kolikov/perl6-Lingua-EN-Conjugate.git"
     },
-    "source-type" : "http",
     "author" : "Romuald Nuguet",
     "depends" : [ ],
     "provides" : {
@@ -2313,11 +2077,9 @@
   },
   {
     "name" : "Lingua::EN::Numbers::Ordinal",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Lingua-EN-Numbers-Ordinal-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/lue/Lingua--EN--Numbers--Ordinal.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Lingua::EN::Numbers::Ordinal" : "lib/Lingua/EN/Numbers/Ordinal.pm6"
@@ -2327,11 +2089,9 @@
   },
   {
     "name" : "Lingua::EN::Syllable",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Lingua-EN-Syllable-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/coke/p6-lingua-en-syllable.git"
     },
-    "source-type" : "http",
     "author" : "Will \u201cCoke\u201d Coleda",
     "depends" : [ ],
     "provides" : {
@@ -2342,11 +2102,9 @@
   },
   {
     "name" : "Lingua::Number",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Lingua-Number-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/labster/p6-Lingua-Number.git"
     },
-    "source-type" : "http",
     "author" : "github:labster",
     "depends" : [
       "XML",
@@ -2564,11 +2322,9 @@
   },
   {
     "name" : "Lingua::Unihan",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Lingua-Unihan-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/fayland/perl6-Lingua-Unihan.git"
     },
-    "source-type" : "http",
     "author" : "github:fayland",
     "depends" : [
       "DBIish",
@@ -2582,12 +2338,10 @@
   },
   {
     "name" : "Linux::Cpuinfo",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Linux-Cpuinfo-0.000.001.tar.gz",
     "support" : {
       "source" : "https://github.com/jonathanstowe/p6-Linux-Cpuinfo.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [
       "panda"
     ],
@@ -2615,11 +2369,9 @@
   },
   {
     "name" : "Linux::Fuser",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Linux-Fuser-0.000.001.tar.gz",
     "support" : {
       "source" : "https://github.com/jonathanstowe/p6-Linux-Fuser.git"
     },
-    "source-type" : "http",
     "build-depends" : [
       "panda"
     ],
@@ -2645,13 +2397,11 @@
     ]
   },
   {
-    "original-source-type" : "git",
     "name" : "List::Utils",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/List-Utils-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/colomon/List-Utils.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "depends" : [ ],
     "provides" : {
       "List::Utils" : "lib/List/Utils.pm"
@@ -2661,11 +2411,9 @@
   },
   {
     "name" : "Locale::Codes",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Locale-Codes-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/fayland/perl6-Locale-Codes.git"
     },
-    "source-type" : "http",
     "author" : "github:fayland",
     "depends" : [ ],
     "provides" : {
@@ -2680,11 +2428,9 @@
   },
   {
     "name" : "Locale::US",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Locale-US-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/perlpilot/p6-Locale-US.git"
     },
-    "source-type" : "http",
     "author" : "Jonathan Scott Duff",
     "depends" : [ ],
     "provides" : {
@@ -2695,12 +2441,10 @@
   },
   {
     "name" : "Log::Syslog::Native",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Log-Syslog-Native-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Log-Syslog-Native.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "auth" : "github:jonathanstowe",
@@ -2719,11 +2463,9 @@
   },
   {
     "name" : "MIME::QuotedPrint",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/MIME-QuotedPrint-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/p6-MIME-QuotedPrint.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [ ],
     "provides" : {
@@ -2734,11 +2476,9 @@
   },
   {
     "name" : "MPD",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/MPD-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tadzik/perl6-MPD.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "MPD" : "lib/MPD.pm"
@@ -2748,11 +2488,9 @@
   },
   {
     "name" : "Masquerade",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Masquerade-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/sirrobert/Masquerade.git"
     },
-    "source-type" : "http",
     "author" : "Sir Robert Burbridge",
     "depends" : [
       "JSON::Tiny"
@@ -2767,13 +2505,11 @@
     "description" : "Let Perl 6 constructs masquerade as other things."
   },
   {
-    "original-source-type" : "git",
     "name" : "Math::ChebyshevPolynomial",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Math-ChebyshevPolynomial-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/colomon/Math-ChebyshevPolynomial.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "depends" : [ ],
     "provides" : {
       "Math::ChebyshevPolynomial" : "lib/Math/ChebyshevPolynomial.pm"
@@ -2782,13 +2518,11 @@
     "description" : "Simple Chebyshev polynomial class"
   },
   {
-    "original-source-type" : "git",
     "name" : "Math::ContinuedFractions",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Math-ContinuedFractions-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/colomon/Math-ContinuedFractions.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "depends" : [ ],
     "provides" : {
       "Math::ContinuedFractions" : "lib/Math/ContinuedFraction.pm"
@@ -2798,11 +2532,9 @@
   },
   {
     "name" : "Math::Model",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Math-Model-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/moritz/Math-Model.git"
     },
-    "source-type" : "http",
     "depends" : [
       "Math::RungeKutta",
       "SVG",
@@ -2815,13 +2547,11 @@
     "description" : "Automagic integrator for models (first order ODEs)"
   },
   {
-    "original-source-type" : "git",
     "name" : "Math::OddFunctions",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Math-OddFunctions-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/colomon/Math-Odd-Functions.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "depends" : [ ],
     "provides" : {
       "Math::OddFunctions" : "lib/Math/OddFunctions.pm"
@@ -2830,13 +2560,11 @@
     "description" : "Standard math function odds and ends"
   },
   {
-    "original-source-type" : "git",
     "name" : "Math::Polynomial",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Math-Polynomial-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/colomon/Math-Polynomial.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "depends" : [ ],
     "provides" : {
       "Math::Polynomial" : "lib/Math/Polynomial.pm"
@@ -2846,11 +2574,9 @@
   },
   {
     "name" : "Math::Random",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Math-Random-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/bluebear94/Math-Random.git"
     },
-    "source-type" : "http",
     "author" : "Tae Lim Kook",
     "depends" : [ ],
     "provides" : {
@@ -2863,11 +2589,9 @@
   },
   {
     "name" : "Math::RungeKutta",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Math-RungeKutta-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/moritz/Math-RungeKutta.git"
     },
-    "source-type" : "http",
     "provides" : {
       "Math::RungeKutta" : "lib/Math/RungeKutta.pm"
     },
@@ -2876,11 +2600,9 @@
   },
   {
     "name" : "Math::Symbolic",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Math-Symbolic-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/raydiak/Math-Symbolic.git"
     },
-    "source-type" : "http",
     "author" : "raydiak",
     "depends" : [ ],
     "provides" : {
@@ -2897,11 +2619,9 @@
   },
   {
     "name" : "Math::ThreeD",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Math-ThreeD-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/raydiak/Math--ThreeD.git"
     },
-    "source-type" : "http",
     "author" : "raydiak",
     "depends" : [ ],
     "provides" : {
@@ -2913,11 +2633,9 @@
   },
   {
     "name" : "Math::Trig",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Math-Trig-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/perlpilot/p6-Math-Trig.git"
     },
-    "source-type" : "http",
     "author" : "Jonathan Scott Duff",
     "depends" : [ ],
     "provides" : {
@@ -2928,11 +2646,9 @@
   },
   {
     "name" : "Modular",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Modular-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/grondilu/p6-modular.git"
     },
-    "source-type" : "http",
     "author" : "Lucien Grondin",
     "depends" : [ ],
     "provides" : {
@@ -2943,11 +2659,9 @@
   },
   {
     "name" : "Mortgage",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Mortgage-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/teodozjan/mortage6.git"
     },
-    "source-type" : "http",
     "author" : "github:teodozjan",
     "depends" : [ ],
     "provides" : {
@@ -2958,11 +2672,9 @@
   },
   {
     "name" : "NCurses",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/NCurses-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/azawawi/perl6-ncurses.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "NCurses" : "lib/NCurses.pm6"
@@ -2972,12 +2684,10 @@
   },
   {
     "name" : "NQP::Eval",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/NQP-Eval-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/cygx/p6-nqp-eval.git",
       "bugtracker" : "https://github.com/cygx/p6-nqp-eval/issues"
     },
-    "source-type" : "http",
     "author" : "cygx <cygx@cpan.org>",
     "depends" : [ ],
     "provides" : {
@@ -2988,12 +2698,10 @@
   },
   {
     "name" : "Native::LibC",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Native-LibC-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/cygx/p6-native-libc.git",
       "bugtracker" : "https://github.com/cygx/p6-native-libc/issues"
     },
-    "source-type" : "http",
     "author" : "cygx <cygx@cpan.org>",
     "depends" : [ ],
     "provides" : {
@@ -3005,11 +2713,9 @@
   },
   {
     "name" : "Net::POP3",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Net-POP3-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-Net-POP3.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "Digest",
@@ -3026,11 +2732,9 @@
   },
   {
     "name" : "Net::Packet",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Net-Packet-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jpve/perl6-net-packet.git"
     },
-    "source-type" : "http",
     "author" : "Jorn van Engelen",
     "depends" : [ ],
     "provides" : {
@@ -3051,11 +2755,9 @@
   },
   {
     "name" : "Net::Pcap",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Net-Pcap-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jpve/perl6-net-pcap.git"
     },
-    "source-type" : "http",
     "author" : "Jorn van Engelen",
     "depends" : [ ],
     "provides" : {
@@ -3069,11 +2771,9 @@
   },
   {
     "name" : "Net::SOCKS",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Net-SOCKS-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-Net-SOCKS.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [ ],
     "provides" : {
@@ -3084,11 +2784,9 @@
   },
   {
     "name" : "Net::XMPP",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Net-XMPP-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-Net-XMPP.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "XML",
@@ -3106,11 +2804,9 @@
   },
   {
     "name" : "Netstring",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Netstring-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/supernovus/perl6-netstring.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Netstring" : "lib/Netstring.pm6"
@@ -3120,11 +2816,9 @@
   },
   {
     "name" : "November",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/November-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/viklund/november.git"
     },
-    "source-type" : "http",
     "author" : "github:viklund",
     "depends" : [
       "HTML::Template",
@@ -3155,12 +2849,10 @@
   },
   {
     "name" : "OO::Monitors",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/OO-Monitors-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jnthn/oo-monitors.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "repo-type" : "git",
     "depends" : [ ],
     "provides" : {
@@ -3171,11 +2863,9 @@
   },
   {
     "name" : "Overwatch",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Overwatch-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tony-o/perl6-overwatch.git"
     },
-    "source-type" : "http",
     "auth" : "github:tony-o",
     "depends" : [
       "Shell::Command"
@@ -3191,11 +2881,9 @@
   },
   {
     "name" : "P6SGI",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/P6SGI-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/zostay/P6SGI.git"
     },
-    "source-type" : "http",
     "author" : "Andrew Sterling Hanenkamp",
     "depends" : [ ],
     "provides" : {
@@ -3206,11 +2894,9 @@
   },
   {
     "name" : "P6TCI",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/P6TCI-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/ugexe/P6TCI.git"
     },
-    "source-type" : "http",
     "auth" : "github:ugexe",
     "depends" : [ ],
     "provides" : {
@@ -3221,11 +2907,9 @@
   },
   {
     "name" : "PDF::Grammar",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/PDF-Grammar-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/p6-pdf/perl6-PDF-Grammar.git"
     },
-    "source-type" : "http",
     "depends" : [
       "JSON::Fast"
     ],
@@ -3249,11 +2933,9 @@
   },
   {
     "name" : "POSIX",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/POSIX-0.000.001.tar.gz",
     "support" : {
       "source" : "https://github.com/cspencer/perl6-posix.git"
     },
-    "source-type" : "http",
     "author" : "Cory Spencer",
     "depends" : [ ],
     "test-depends" : [
@@ -3267,11 +2949,9 @@
   },
   {
     "name" : "Parse::Selenese",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Parse-Selenese-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/azawawi/perl6-parse-selenese.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Parse::Selenese::TestCase" : "lib/Parse/Selenese/TestCase.pm6",
@@ -3286,12 +2966,10 @@
   },
   {
     "name" : "Pastebin::Gist",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Pastebin-Gist-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-Pastebin-Gist.git"
     },
     "authority" : "zoffixznet",
-    "source-type" : "http",
     "author" : "Zoffix Znet",
     "depends" : [
       "HTTP::Tinyish"
@@ -3307,12 +2985,10 @@
   },
   {
     "name" : "Pastebin::Shadowcat",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Pastebin-Shadowcat-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-Pastebin-Shadowcat.git"
     },
     "authority" : "zoffixznet",
-    "source-type" : "http",
     "author" : "Zoffix Znet",
     "depends" : [
       "LWP::Simple",
@@ -3330,11 +3006,9 @@
   },
   {
     "name" : "Pekyll",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Pekyll-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/nunorc/p6-Pekyll.git"
     },
-    "source-type" : "http",
     "author" : "github:nunorc",
     "depends" : [
       "Template6",
@@ -3350,11 +3024,9 @@
   },
   {
     "name" : "Perl6::Literate",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Perl6-Literate-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/masak/perl6-literate.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Perl6::Literate" : "lib/Perl6/Literate.pm"
@@ -3364,12 +3036,10 @@
   },
   {
     "name" : "Perl6-Math-Quaternion",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Perl6-Math-Quaternion-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/Util/Perl6-Math-Quaternion.git"
     },
     "authority" : "cpan+BGRAY",
-    "source-type" : "http",
     "author" : "Bruce Gray",
     "depends" : [ ],
     "provides" : {
@@ -3380,11 +3050,9 @@
   },
   {
     "name" : "PerlStore",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/PerlStore-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/teodozjan/perl-store.git"
     },
-    "source-type" : "http",
     "author" : "github:teodozjan",
     "depends" : [ ],
     "provides" : {
@@ -3394,13 +3062,11 @@
     "description" : "Implemented simple Serialization form http://doc.perl6.org"
   },
   {
-    "original-source-type" : "git",
     "name" : "Phaser::ATEXIT",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Phaser-ATEXIT-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/colomon/Phaser-ATEXIT.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "depends" : [ ],
     "provides" : {
       "Phaser::ATEXIT" : "lib/Phaser/ATEXIT.pm"
@@ -3410,11 +3076,9 @@
   },
   {
     "name" : "Plosurin",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Plosurin-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/zag/plosurin.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Plosurin" : "lib/Plosurin.pm"
@@ -3424,11 +3088,9 @@
   },
   {
     "name" : "Pod::Parser",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Pod-Parser-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/szabgab/perl6-Pod-Parser.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Pod::Parser" : "lib/Pod/Parser.pm",
@@ -3438,13 +3100,11 @@
     "description" : "Naive parser for Perl 6 style POD documents"
   },
   {
-    "original-source-type" : "git",
     "name" : "Pod::PerlTricks",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Pod-PerlTricks-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/dnmfarrell/Pod-PerlTricks.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "author" : "David Farrell",
     "depends" : [
       "Pod::Perl5",
@@ -3459,11 +3119,9 @@
   },
   {
     "name" : "Pod::Strip",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Pod-Strip-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jpve/perl6-pod-strip.git"
     },
-    "source-type" : "http",
     "author" : "Jorn van Engelen",
     "depends" : [ ],
     "provides" : {
@@ -3473,13 +3131,11 @@
     "description" : "Strip Pod annotation from Perl6 code"
   },
   {
-    "original-source-type" : "git",
     "name" : "Pod::Walker",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Pod-Walker-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/lue/pod-walker.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "author" : "lue",
     "depends" : [ ],
     "provides" : {
@@ -3490,11 +3146,9 @@
   },
   {
     "name" : "Printing::Jdf",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Printing-Jdf-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/carbin/p6-jdf.git"
     },
-    "source-type" : "http",
     "author" : "github:carbin",
     "depends" : [
       "XML"
@@ -3507,11 +3161,9 @@
   },
   {
     "name" : "Questhub",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Questhub-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/perlpilot/p6-Questhub.git"
     },
-    "source-type" : "http",
     "author" : "Jonathan Scott Duff <duff@pobox.com>",
     "depends" : [
       "JSON::Tiny",
@@ -3529,11 +3181,9 @@
   },
   {
     "name" : "RPi",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/RPi-0.000.001.tar.gz",
     "support" : {
       "source" : "https://github.com/cspencer/perl6-raspberry-pi.git"
     },
-    "source-type" : "http",
     "author" : "Cory Spencer",
     "depends" : [
       "POSIX"
@@ -3552,11 +3202,9 @@
   },
   {
     "name" : "Rototo",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Rototo-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/eiro/p6-rototo.git"
     },
-    "source-type" : "http",
     "author" : "Marc Chantreux",
     "depends" : [ ],
     "provides" : {
@@ -3568,11 +3216,9 @@
   },
   {
     "name" : "SCGI",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/SCGI-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/supernovus/SCGI.git"
     },
-    "source-type" : "http",
     "depends" : [
       "HTTP::Status",
       "Netstring",
@@ -3591,11 +3237,9 @@
   },
   {
     "name" : "SDL",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/SDL-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/PerlGameDev/SDL6.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "SDL::Palette" : "lib/lib/SDL/Palette.pm6",
@@ -3623,11 +3267,9 @@
   },
   {
     "name" : "SOAP::Client",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/SOAP-Client-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-SOAP.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "XML",
@@ -3641,13 +3283,11 @@
     "description" : "Quick and dirty SOAP client"
   },
   {
-    "original-source-type" : "git",
     "name" : "SP6",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/SP6-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/mj41/SP6.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "author" : "Michal Jurosz",
     "depends" : [ ],
     "provides" : {
@@ -3659,11 +3299,9 @@
   },
   {
     "name" : "SSL",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/SSL-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/grondilu/openssl.git"
     },
-    "source-type" : "http",
     "build-depends" : [
       "NativeCall"
     ],
@@ -3680,11 +3318,9 @@
   },
   {
     "name" : "SVG",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/SVG-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/moritz/svg.git"
     },
-    "source-type" : "http",
     "depends" : [
       "XML::Writer"
     ],
@@ -3696,11 +3332,9 @@
   },
   {
     "name" : "Semantic::Versioning",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Semantic-Versioning-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/sirrobert/Semantic-Versioning.git"
     },
-    "source-type" : "http",
     "author" : "Sir Robert Burbridge",
     "depends" : [ ],
     "version" : "*",
@@ -3708,11 +3342,9 @@
   },
   {
     "name" : "Sprockets",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Sprockets-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/vendethiel/Sprockets.pl.git"
     },
-    "source-type" : "http",
     "author" : "github:vendethiel",
     "provides" : {
       "Sprockets" : "lib/Sprockets.pm"
@@ -3722,12 +3354,10 @@
   },
   {
     "name" : "Staticish",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Staticish-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jonathanstowe/Staticish.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "auth" : "github:jonathanstowe",
@@ -3750,13 +3380,11 @@
     ]
   },
   {
-    "original-source-type" : "git",
     "name" : "Stats",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Stats-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/MattOates/Stats.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "author" : "Matt Oates",
     "depends" : [ ],
     "provides" : {
@@ -3767,11 +3395,9 @@
   },
   {
     "name" : "String::Koremutake",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/String-Koremutake-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/stmuk/p6-String-Koremutake.git"
     },
-    "source-type" : "http",
     "author" : "Steve Mynott <steve.mynott@gmail.com>",
     "depends" : [ ],
     "provides" : {
@@ -3782,11 +3408,9 @@
   },
   {
     "name" : "Syndication",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Syndication-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/p6-syndication.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "XML"
@@ -3799,11 +3423,9 @@
   },
   {
     "name" : "System::Passwd",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/System-Passwd-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/dnmfarrell/System-Passwd.git"
     },
-    "source-type" : "http",
     "author" : "David Farrell",
     "depends" : [ ],
     "provides" : {
@@ -3815,11 +3437,9 @@
   },
   {
     "name" : "TOML",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/TOML-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/Mouq/toml-pm6.git"
     },
-    "source-type" : "http",
     "author" : "Mouq",
     "depends" : [
       "JSON::Tiny"
@@ -3834,11 +3454,9 @@
   },
   {
     "name" : "Tag",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Tag-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/4d47/perl6-tag-helper.git"
     },
-    "source-type" : "http",
     "author" : "Mathieu Gagnon",
     "depends" : [
       "HTML::Entity"
@@ -3851,11 +3469,9 @@
   },
   {
     "name" : "Tardis",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Tardis-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/masak/tardis.git"
     },
-    "source-type" : "http",
     "repo-type" : "git",
     "depends" : [
       "Yapsi"
@@ -3865,13 +3481,11 @@
   },
   {
     "name" : "Template::Mojo",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Template-Mojo-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tadzik/Template-Mojo.git",
       "bugtracker" : "https://github.com/tadzik/Template-Mojo/issues"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "provides" : {
       "Template::Mojo" : "lib/Template/Mojo.pm"
@@ -3891,13 +3505,11 @@
     ]
   },
   {
-    "original-source-type" : "git",
     "name" : "Term::ColorText",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Term-ColorText-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/lue/term-colortext.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "author" : "lue",
     "depends" : [
       "Term::ANSIColor"
@@ -3910,13 +3522,11 @@
   },
   {
     "name" : "Term::termios",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Term-termios-0.000.001.tar.gz",
     "support" : {
       "irc" : "irc://irc.freenode.org/#perl6",
       "source" : "git://github.com/krunen/term-termios.git"
     },
     "perl" : "v6.0.0",
-    "source-type" : "http",
     "author" : "github:krunen",
     "repo-type" : "git",
     "depends" : [ ],
@@ -3932,11 +3542,9 @@
   },
   {
     "name" : "Terminal::Print",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Terminal-Print-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/ab5tract/Terminal-Print.git"
     },
-    "source-type" : "http",
     "author" : "John Haltiwanger",
     "depends" : [
       "Terminal::ANSIColor"
@@ -3949,11 +3557,9 @@
   },
   {
     "name" : "Test::Harness",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Test-Harness-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tadzik/Test-Harness.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Test::Harness" : "lib/Test/Harness.pm"
@@ -3963,23 +3569,19 @@
   },
   {
     "name" : "Test::Junkie",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Test-Junkie-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/colomon/Test-Junkie.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "version" : "*",
     "description" : "A continuous test runner for Perl 6"
   },
   {
-    "original-source-type" : "git",
     "name" : "Testing",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Testing-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/colomon/perl6-Testing.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "depends" : [ ],
     "provides" : {
       "Testing" : "lib/Testing.pm"
@@ -3989,13 +3591,11 @@
   },
   {
     "name" : "Text::CSV",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Text-CSV-0.000.001.tar.gz",
     "support" : {
       "irc" : "irc://irc.perl.org/#csv",
       "source" : "git://github.com/Tux/CSV.git"
     },
     "perl" : "v6.0.0",
-    "source-type" : "http",
     "auth" : "github:Tux",
     "repo-type" : "git",
     "depends" : [
@@ -4020,17 +3620,15 @@
   },
   {
     "name" : "Text::Fortune",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Text-Fortune-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/zengargoyle/Text-Fortune.git"
     },
+    "source-url" : "git://github.com/zengargoyle/Text-Fortune.git",
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "depends" : [
       "File::Find"
     ],
-    "original-source-url" : "git://github.com/zengargoyle/Text-Fortune.git",
     "test-depends" : [ ],
     "provides" : {
       "Text::Fortune" : "lib/Text/Fortune.pm6"
@@ -4042,13 +3640,11 @@
     ]
   },
   {
-    "original-source-type" : "git",
     "name" : "Text::Homoglyph",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Text-Homoglyph-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/MattOates/Text--Homoglyph.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "author" : "Matt Oates",
     "depends" : [ ],
     "provides" : {
@@ -4059,22 +3655,18 @@
   },
   {
     "name" : "Text::Indented",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Text-Indented-0.000.001.tar.gz",
     "support" : {
       "source" : "https://github.com/masak/text-indented.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "version" : "0.1",
     "description" : "Parse indented text in Perl 6"
   },
   {
     "name" : "Text::Levenshtein::Damerau",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Text-Levenshtein-Damerau-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/ugexe/Perl6-Text--Levenshtein--Damerau.git"
     },
-    "source-type" : "http",
     "auth" : "github:ugexe",
     "depends" : [ ],
     "provides" : {
@@ -4085,11 +3677,9 @@
   },
   {
     "name" : "Text::Markdown::Discount",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Text-Markdown-Discount-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/hartenfels/Text-Markdown-Discount.git"
     },
-    "source-type" : "http",
     "author" : "Carsten Hartenfels",
     "depends" : [ ],
     "provides" : {
@@ -4100,12 +3690,10 @@
   },
   {
     "name" : "Text::Markov",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Text-Markov-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/bbkr/text_markov.git"
     },
     "authority" : "bbkr",
-    "source-type" : "http",
     "author" : "Pawel Pabian",
     "repo-type" : "git",
     "depends" : [ ],
@@ -4117,11 +3705,9 @@
   },
   {
     "name" : "Text::T9",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Text-T9-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tadzik/Text-T9.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Text::T9" : "lib/Text/T9.pm"
@@ -4131,11 +3717,9 @@
   },
   {
     "name" : "Text::Table::List",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Text-Table-List-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/supernovus/perl6-text-table-list.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Text::Table::List::ASCII" : "lib/Text/Table/List/ASCII.pm6",
@@ -4146,12 +3730,10 @@
   },
   {
     "name" : "Text::Table::Simple",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Text-Table-Simple-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/ugexe/Perl6-Text--Table--Simple.git"
     },
     "perl" : "v6.0.0",
-    "source-type" : "http",
     "auth" : "github:ugexe",
     "depends" : [ ],
     "provides" : {
@@ -4166,11 +3748,9 @@
   },
   {
     "name" : "Text::VimColour",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Text-VimColour-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/stmuk/p6-Text-VimColour.git"
     },
-    "source-type" : "http",
     "author" : "Steve Mynott <steve.mynott@gmail.com>",
     "depends" : [
       "File::Temp"
@@ -4183,12 +3763,10 @@
   },
   {
     "name" : "TinyCC",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/TinyCC-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/cygx/p6-tinycc.git",
       "bugtracker" : "https://github.com/cygx/p6-tinycc/issues"
     },
-    "source-type" : "http",
     "author" : "cygx <cygx@cpan.org>",
     "depends" : [ ],
     "provides" : {
@@ -4204,11 +3782,9 @@
   },
   {
     "name" : "Totem",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Totem-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/azawawi/totem.git"
     },
-    "source-type" : "http",
     "depends" : [
       "HTTP::Easy",
       "JSON::Tiny",
@@ -4222,11 +3798,9 @@
   },
   {
     "name" : "Typed::Subroutines",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Typed-Subroutines-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/tadzik/Typed-Subroutines.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Typed::Subroutines" : "lib/Typed/Subroutines.pm"
@@ -4236,11 +3810,9 @@
   },
   {
     "name" : "UNIX::Privileges",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/UNIX-Privileges-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/carbin/p6-unix-privileges.git"
     },
-    "source-type" : "http",
     "author" : "github:carbin",
     "depends" : [ ],
     "provides" : {
@@ -4250,13 +3822,11 @@
     "description" : "A module for handling UNIX Privileges"
   },
   {
-    "original-source-type" : "git",
     "name" : "URI::Encode",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/URI-Encode-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/dnmfarrell/URI-Encode.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "build-depends" : [ ],
     "author" : "David Farrell",
     "depends" : [ ],
@@ -4271,14 +3841,12 @@
   },
   {
     "name" : "URI::Template",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/URI-Template-0.000.001.tar.gz",
     "support" : {
       "irc" : "irc:// irc.freenode.net/#perl6",
       "source" : "git://github.com/jonathanstowe/URI-Template.git",
       "bugtracker" : "https://github.com/jonathanstowe/URI-Template/issues"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
     "auth" : "github:jonathanstowe",
@@ -4305,12 +3873,10 @@
   },
   {
     "name" : "Uni63",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Uni63-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/cygx/p6-uni63.git",
       "bugtracker" : "https://github.com/cygx/p6-uni63/issues"
     },
-    "source-type" : "http",
     "author" : "cygx <cygx@cpan.org>",
     "depends" : [ ],
     "provides" : {
@@ -4321,13 +3887,11 @@
   },
   {
     "name" : "Unicode::UTF8-Parser",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Unicode-UTF8-Parser-0.000.001.tar.gz",
     "support" : {
       "irc" : "irc://irc.freenode.org/#perl6",
       "source" : "git://github.com/krunen/unicode-utf8-parser.git"
     },
     "perl" : "v6.0.0",
-    "source-type" : "http",
     "author" : "github:krunen",
     "repo-type" : "git",
     "depends" : [ ],
@@ -4343,11 +3907,9 @@
   },
   {
     "name" : "WWW::Google::Time",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/WWW-Google-Time-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-WWW-Google-Time.git"
     },
-    "source-type" : "http",
     "author" : "Zoffix Znet",
     "depends" : [
       "HTTP::Tinyish",
@@ -4364,11 +3926,9 @@
   },
   {
     "name" : "Web",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Web-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/supernovus/perl6-web.git"
     },
-    "source-type" : "http",
     "depends" : [
       "MIME::Types"
     ],
@@ -4387,11 +3947,9 @@
   },
   {
     "name" : "Web::App::Ballet",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Web-App-Ballet-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/supernovus/perl6-web-app-ballet.git"
     },
-    "source-type" : "http",
     "depends" : [
       "Web",
       "SCGI",
@@ -4406,11 +3964,9 @@
   },
   {
     "name" : "Web::RF",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Web-RF-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-Web-RF.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "Crust",
@@ -4425,11 +3981,9 @@
   },
   {
     "name" : "WebService::Google::PageRank",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/WebService-Google-PageRank-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/fayland/perl6-WebService-Google-PageRank.git"
     },
-    "source-type" : "http",
     "author" : "github:fayland",
     "depends" : [
       "URI::Escape",
@@ -4443,11 +3997,9 @@
   },
   {
     "name" : "WebService::HazIP",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/WebService-HazIP-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/cbk/WebService-HazIP"
     },
-    "source-type" : "http",
     "author" : "Michael",
     "depends" : [
       "LWP::Simple"
@@ -4460,12 +4012,10 @@
   },
   {
     "name" : "X::Protocol",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/X-Protocol-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/skids/perl6xproto.git"
     },
     "perl" : "v6.0.0",
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "X::Protocol" : "lib/X/Protocol.pm6",
@@ -4480,12 +4030,10 @@
   },
   {
     "name" : "XDG::BaseDirectory",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/XDG-BaseDirectory-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git"
     },
     "perl" : "v6",
-    "source-type" : "http",
     "build-depends" : [ ],
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk",
     "auth" : "github:jonathanstowe",
@@ -4510,11 +4058,9 @@
   },
   {
     "name" : "XML::Canonical",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/XML-Canonical-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-XML-Canonical.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "XML"
@@ -4527,11 +4073,9 @@
   },
   {
     "name" : "XML::Signature",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/XML-Signature-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/retupmoca/P6-XML-Signature.git"
     },
-    "source-type" : "http",
     "author" : "github:retupmoca",
     "depends" : [
       "XML",
@@ -4549,11 +4093,9 @@
   },
   {
     "name" : "XML::Writer",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/XML-Writer-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/masak/xml-writer.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "XML::Writer" : "lib/XML/Writer.pm"
@@ -4563,11 +4105,9 @@
   },
   {
     "name" : "XXX",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/XXX-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/ingydotnet/xxx-pm6.git"
     },
-    "source-type" : "http",
     "author" : "Ingy d\u00f6t Net <ingy@cpan.org>",
     "depends" : [
       "YAML"
@@ -4580,11 +4120,9 @@
   },
   {
     "name" : "Yapsi",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/Yapsi-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/masak/yapsi.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : {
       "Yapsi" : "lib/Yapsi.pm"
@@ -4594,11 +4132,9 @@
   },
   {
     "name" : "ignore",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/ignore-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/Heather/ignore.git"
     },
-    "source-type" : "http",
     "depends" : [
       "File::Find"
     ],
@@ -4607,13 +4143,11 @@
     "description" : "cli util that adds stuff to VCS ignore files"
   },
   {
-    "original-source-type" : "git",
     "name" : "mandelbrot",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/mandelbrot-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/colomon/mandelbrot.git"
     },
-    "source-type" : "http",
+    "source-type" : "git",
     "depends" : [ ],
     "provides" : { },
     "version" : "*",
@@ -4621,11 +4155,9 @@
   },
   {
     "name" : "sake",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/sake-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/perlpilot/p6-sake.git"
     },
-    "source-type" : "http",
     "author" : "Jonathan Scott Duff <duff@pobox.com>",
     "depends" : [ ],
     "provides" : {
@@ -4636,11 +4168,9 @@
   },
   {
     "name" : "ufo",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/ufo-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/masak/ufo.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "provides" : { },
     "version" : "*",
@@ -4648,20 +4178,17 @@
   },
   {
     "name" : "v5",
-    "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXDISTS/Perl6/v5-0.000.001.tar.gz",
     "support" : {
       "source" : "git://github.com/rakudo-p5/v5.git"
     },
-    "source-type" : "http",
     "depends" : [ ],
     "version" : "v0.0.1",
     "description" : "Reimplementation of Perl 5 Slang"
   },
   {
     "name" : "App::Mi6",
-    "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/App-Mi6-0.0.2.tar.gz",
+    "source-url" : "git://github.com/skaji/mi6.git",
     "perl" : "6.c",
-    "source-type" : "http",
     "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [
@@ -4671,7 +4198,6 @@
       "Shell::Command",
       "CPAN::Uploader::Tiny"
     ],
-    "original-source-url" : "git://github.com/skaji/mi6.git",
     "test-depends" : [
       "File::Temp"
     ],
@@ -4690,16 +4216,14 @@
   },
   {
     "name" : "Acme::Meow",
-    "source-url" : "http://www.cpan.org/authors/id/T/TA/TADZIK/Perl6/Acme-Meow-0.1.tar.gz",
+    "source-url" : "git://github.com/tadzik/perl6-Acme-Meow.git",
     "support" : {
       "source" : "git://github.com/tadzik/perl6-Acme-Meow.git",
       "bugtracker" : "https://github.com/tadzik/perl6-Acme-Meow/issues"
     },
     "perl" : "6.*",
-    "source-type" : "http",
     "build-depends" : [ ],
     "depends" : [ ],
-    "original-source-url" : "git://github.com/tadzik/perl6-Acme-Meow.git",
     "provides" : {
       "Acme::Meow" : "lib/Acme/Meow.pm"
     },
@@ -4718,19 +4242,17 @@
   },
   {
     "name" : "Geo::Coder::OpenCage",
-    "source-url" : "http://www.cpan.org/authors/id/T/TA/TADZIK/Perl6/Geo-Coder-OpenCage-1.0.tar.gz",
+    "source-url" : "git://github.com/tadzik/Geo-Coder-OpenCage.git",
     "support" : {
       "source" : "git://github.com/tadzik/Geo-Coder-OpenCage.git",
       "bugtracker" : "https://github.com/tadzik/Geo-Coder-OpenCage/issues"
     },
     "perl" : "6.*",
-    "source-type" : "http",
     "depends" : [
       "HTTP::UserAgent",
       "JSON::Unmarshal",
       "URI"
     ],
-    "original-source-url" : "git://github.com/tadzik/Geo-Coder-OpenCage.git",
     "provides" : {
       "Geo::Coder::OpenCage" : "lib/Geo/Coder/OpenCage.pm",
       "Geo::Coder::OpenCage::Response" : "lib/Geo/Coder/OpenCage/Response.pm"
