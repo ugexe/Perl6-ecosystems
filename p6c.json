@@ -17477,6 +17477,7 @@
     ],
     "provides" : {
       "Testo::Test::IsRun" : "lib/Testo/Test.pm6",
+      "Testo::Test::Group" : "lib/Testo/Test.pm6",
       "Testo::Test::Result" : "lib/Testo/Test/Result.pm6",
       "Testo::Test::Is" : "lib/Testo/Test.pm6",
       "Testo::Out" : "lib/Testo/Out.pm6",
@@ -17487,7 +17488,7 @@
       "Testo::Tester" : "lib/Testo/Tester.pm6"
     },
     "test-depends" : [ ],
-    "version" : "1.001002",
+    "version" : "1.002001",
     "authors" : [
       "Zoffix Znet"
     ],
