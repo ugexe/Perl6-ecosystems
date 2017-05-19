@@ -17388,12 +17388,13 @@
     "provides" : {
       "Eredis" : "lib/Eredis.pm",
       "Test::Redis" : "lib/Test/Redis.pm",
+      "Redis::Objects" : "lib/Redis/Objects.pm6",
       "Redis::Async" : "lib/Redis/Async.pm"
     },
     "tags" : [
       "Redis"
     ],
-    "version" : "0.5",
+    "version" : "0.6",
     "authors" : [
       "Curt Tilmes <Curt.Tilmes@nasa.gov>"
     ],
