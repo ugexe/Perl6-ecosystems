@@ -5215,16 +5215,26 @@
   },
   {
     "name" : "Pluggable",
-    "source-url" : "git://github.com/tony-o/perl6-pluggable.git",
-    "perl" : "6.*",
-    "author" : "Tony ODell",
+    "source-url" : "https://github.com/tony-o/perl6-pluggable.git",
+    "perl" : "6.c",
     "auth" : "github:tony-o",
-    "depends" : [ ],
+    "depends" : [
+      "Test::META"
+    ],
+    "license" : "Artistic-2.0",
     "provides" : {
       "Pluggable" : "lib/Pluggable.pm6"
     },
-    "version" : "0.1.1",
-    "description" : "Helper role to find plugins for your module"
+    "test-depends" : [
+      "SVG::Plot::Pie",
+      "File::Find"
+    ],
+    "version" : "0.2",
+    "authors" : [
+      "Robert Lemmen",
+      "Tony ODell"
+    ],
+    "description" : "Find plugin classes or modules"
   },
   {
     "name" : "DB::ORM::Quicky",
