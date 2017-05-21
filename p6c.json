@@ -5174,6 +5174,34 @@
     "description" : "TAP harness for perl6"
   },
   {
+    "name" : "Inline::Perl5",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.26.tar.gz",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/p5helper"
+    ],
+    "author" : "github:niner",
+    "repo-type" : "git",
+    "depends" : [
+      "LibraryMake"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "Inline::Perl5" : "lib/Inline/Perl5.pm6"
+    },
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "version" : "0.26",
+    "description" : "Use Perl 5 code in a Perl 6 program",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
     "name" : "Term::termios",
     "support" : {
       "irc" : "irc://irc.freenode.org/#perl6"
@@ -8035,6 +8063,28 @@
     "description" : "Routing engine for perl6"
   },
   {
+    "name" : "Perl6::Maven",
+    "source-url" : "git://github.com/szabgab/Perl6-Maven.git",
+    "support" : {
+      "source" : "git://github.com/szabgab/Perl6-Maven.git",
+      "bugtracker" : "https://github.com/szabgab/Perl6-Maven/issues"
+    },
+    "perl" : "6.*",
+    "depends" : [
+      "Bailador",
+      "JSON::Tiny",
+      "LWP::Simple"
+    ],
+    "provides" : {
+      "Perl6::Maven" : "lib/Perl6/Maven.pm"
+    },
+    "version" : "*",
+    "authors" : [
+      "Gabor Szabo"
+    ],
+    "description" : "Content management system used by the Perl6Maven.com site"
+  },
+  {
     "name" : "Lingua::Unihan",
     "source-url" : "git://github.com/fayland/perl6-Lingua-Unihan.git",
     "author" : "github:fayland",
@@ -9094,6 +9144,18 @@
     "description" : "A simple module for your configuration file need"
   },
   {
+    "name" : "Hydrate",
+    "source-url" : "git://github.com/vendethiel/hydrate6.git",
+    "perl" : "v6",
+    "author" : "vendethiel",
+    "depends" : [ ],
+    "provides" : {
+      "Hydrate" : "lib/Hydrate.pm"
+    },
+    "version" : "*",
+    "description" : "A simple hydration module"
+  },
+  {
     "name" : "Terminal::WCWidth",
     "source-url" : "git://github.com/bluebear94/Terminal-WCWidth.git",
     "perl" : "6.*",
@@ -9753,6 +9815,30 @@
       "Zoffix Znet"
     ],
     "description" : "Plugin for New Year's IRC parties"
+  },
+  {
+    "name" : "Data::Dump::Tree",
+    "source-url" : "https://github.com/nkh/P6-Data-Dump-Tree.git",
+    "perl" : "6.c",
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "provides" : {
+      "Data::Dump::Tree::Diff" : "lib/Data/Dump/Tree/Diff.pm",
+      "Data::Dump::Tree::ExtraRoles" : "lib/Data/Dump/Tree/ExtraRoles.pm",
+      "Data::Dump::Tree::DescribeBaseObjects" : "lib/Data/Dump/Tree/DescribeBaseObjects.pm",
+      "Data::Dump::Tree" : "lib/Data/Dump/Tree.pm",
+      "Data::Dump::Tree::AnsiColor" : "lib/Data/Dump/Tree/AnsiColor.pm",
+      "Data::Dump::Tree::Enums" : "lib/Data/Dump/Tree/Enums.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.0.3",
+    "description" : "Render data structures as trees; user definable filters",
+    "authors" : [
+      "Nadim Khemir"
+    ]
   },
   {
     "name" : "File::LibMagic",
@@ -13457,6 +13543,34 @@
     ]
   },
   {
+    "name" : "Getopt::Kinoko",
+    "support" : {
+      "source" : "https://github.com/araraloren/Getopt-Kinoko/tree/v0.3.5",
+      "bugtracker" : "https://github.com/araraloren/Getopt-Kinoko/issues"
+    },
+    "source-url" : "https://github.com/araraloren/Getopt-Kinoko/archive/v0.3.5.zip",
+    "perl" : "6.c",
+    "auth" : "github:araraloren",
+    "depends" : [
+      "Terminal::Table"
+    ],
+    "provides" : {
+      "Getopt::Kinoko::NonOption" : "lib/Getopt/Kinoko/NonOption.pm6",
+      "Getopt::Kinoko::OptionSet" : "lib/Getopt/Kinoko/OptionSet.pm6",
+      "Getopt::Kinoko" : "lib/Getopt/Kinoko.pm6",
+      "Getopt::Kinoko::Group" : "lib/Getopt/Kinoko/Group.pm6",
+      "Getopt::Kinoko::DeepClone" : "lib/Getopt/Kinoko/DeepClone.pm6",
+      "Getopt::Kinoko::Option" : "lib/Getopt/Kinoko/Option.pm6",
+      "Getopt::Kinoko::Argument" : "lib/Getopt/Kinoko/Argument.pm6",
+      "Getopt::Kinoko::Parser" : "lib/Getopt/Kinoko/Parser.pm6",
+      "Getopt::Kinoko::Exception" : "lib/Getopt/Kinoko/Exception.pm6"
+    },
+    "license" : "MIT",
+    "version" : "0.3.5",
+    "authors" : "Loren",
+    "description" : "A command line parsing tool which written in Perl6"
+  },
+  {
     "name" : "Test::When",
     "source-url" : "git://github.com/zoffixznet/perl6-Test-When.git",
     "perl" : "6.c",
@@ -14983,6 +15097,64 @@
     "description" : "p6 bindings to C implementation of SHA1"
   },
   {
+    "name" : "Net::IP::Lite",
+    "support" : {
+      "source" : "https://github.com/tbrowder/Net-IP-Lite-Perl6",
+      "bugtracker" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/archive/0.1.2.zip",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "tags" : [
+      "Net",
+      "IP",
+      "IP address",
+      "IPv4",
+      "IPv6"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Net::IP::Lite" : "lib/Net/IP/Lite.pm6"
+    },
+    "license" : "Artistic 2.0",
+    "version" : "0.1.2",
+    "authors" : [
+      "Tom Browder <tom.browder@gmail.com>"
+    ],
+    "description" : "Provides utility functions for dealing with IPv4 and IPv6 addresses."
+  },
+  {
+    "name" : "Net::IP::Lite",
+    "support" : {
+      "source" : "https://github.com/tbrowder/Net-IP-Lite-Perl6",
+      "bugtracker" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/archive/0.1.4.zip",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "tags" : [
+      "Net",
+      "IP",
+      "IP address",
+      "IPv4",
+      "IPv6"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Net::IP::Lite" : "lib/Net/IP/Lite.pm6"
+    },
+    "license" : "Artistic 2.0",
+    "version" : "0.1.4",
+    "authors" : [
+      "github:tbrowder"
+    ],
+    "description" : "Provides utility functions for dealing with IPv4 and IPv6 addresses."
+  },
+  {
     "name" : "Sparrowdo::Chef::Manager",
     "source-url" : "https://github.com/melezhik/sparrowdo-chef-manager.git",
     "support" : {
@@ -15916,6 +16088,94 @@
     ]
   },
   {
+    "name" : "Ddt",
+    "perl" : "6.c",
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "https://github.com/kalkin/Ddt.git",
+    "auth" : "kalkin",
+    "depends" : [
+      "File::Find",
+      "JSON::Pretty",
+      "License::Software",
+      "META6",
+      "Pod::To::Markdown",
+      "Shell::Command",
+      "Test::META"
+    ],
+    "test-depends" : [
+      "File::Temp",
+      "Test::META"
+    ],
+    "provides" : {
+      "Ddt::Template" : "lib/Ddt/Template.pm6",
+      "Ddt::Distribution" : "lib/Ddt/Distribution.pm6",
+      "Ddt" : "lib/Ddt.pm6"
+    },
+    "version" : "0.3.2",
+    "authors" : [
+      "Shoichi Kaji",
+      "Bahtiar `kalkin-` Gadimov"
+    ],
+    "meta6" : "0",
+    "description" : "Distribution Development Tool similar to mi6"
+  },
+  {
+    "name" : "Ddt",
+    "perl" : "6.c",
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "https://github.com/kalkin/Ddt.git",
+    "auth" : "kalkin",
+    "depends" : [
+      "File::Find",
+      "File::Ignore",
+      "File::Temp",
+      "JSON::Pretty",
+      "License::Software",
+      "META6",
+      "Pod::To::Markdown",
+      "Test::META",
+      "Zef",
+      "Zef::Client",
+      "Zef::Config",
+      "Zef::Distribution",
+      "Zef::Identity"
+    ],
+    "test-depends" : [
+      "File::Temp",
+      "Test::META"
+    ],
+    "tags" : [
+      "authoring",
+      "command line",
+      "devel",
+      "development",
+      "generator",
+      "module",
+      "testing",
+      "utility"
+    ],
+    "provides" : {
+      "Ddt::Template" : "lib/Ddt/Template.pm6",
+      "Ddt::Distribution" : "lib/Ddt/Distribution.pm6",
+      "Ddt::Plugins::Deps" : "lib/Ddt/Plugins/Deps.pm6",
+      "Ddt::Plugins::Watch" : "lib/Ddt/Plugins/Watch.pm6",
+      "Ddt::Plugins::Unit-Generator" : "lib/Ddt/Plugins/Unit-Generator.pm6",
+      "Ddt::CLI" : "lib/Ddt/CLI.pm6",
+      "Ddt" : "lib/Ddt.pm6"
+    },
+    "version" : "0.4.0",
+    "authors" : [
+      "Shoichi Kaji",
+      "Bahtiar `kalkin-` Gadimov"
+    ],
+    "meta6" : "0",
+    "description" : "Distribution Development Tool"
+  },
+  {
     "name" : "Data::TextOrBinary",
     "source-url" : "https://github.com/jnthn/p6-data-textorbinary.git",
     "perl" : "6.*",
@@ -16420,6 +16680,62 @@
     "description" : "Make a useful prompt for your shell"
   },
   {
+    "name" : "Text::More",
+    "support" : {
+      "source" : "https://github.com/tbrowder/Text-More-Perl6/tree/v0.1.2",
+      "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/Text-More-Perl6/archive/v0.1.2.zip",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [
+      "Getopt::Std"
+    ],
+    "tags" : [
+      "string functions"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Text::More" : "lib/Text/More.pm6"
+    },
+    "license" : "Artistic 2.0",
+    "version" : "0.1.2",
+    "authors" : [
+      "github:tbrowder"
+    ],
+    "description" : "Provides some additional text functions and a binary helper file"
+  },
+  {
+    "name" : "Text::More",
+    "support" : {
+      "source" : "https://github.com/tbrowder/Text-More-Perl6/tree/v0.1.3",
+      "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/Text-More-Perl6/archive/v0.1.3.zip",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [
+      "Getopt::Std"
+    ],
+    "tags" : [
+      "string functions"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Text::More" : "lib/Text/More.pm6"
+    },
+    "license" : "Artistic 2.0",
+    "version" : "0.1.3",
+    "authors" : [
+      "github:tbrowder"
+    ],
+    "description" : "Provides some additional text functions and a utility program to create a markdown file of subroutine descriptions"
+  },
+  {
     "name" : "Spit",
     "support" : {
       "email" : "lloyd.fourn@gmail.com",
@@ -16495,6 +16811,60 @@
     "description" : "The Spook in the Shell Script (Spit-sh) compiler"
   },
   {
+    "name" : "Text::More",
+    "support" : {
+      "source" : "https://github.com/tbrowder/Text-More-Perl6/tree/v0.1.4",
+      "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/Text-More-Perl6/archive/v0.1.4.zip",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [
+      "Getopt::Std"
+    ],
+    "tags" : [
+      "string functions"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Text::More" : "lib/Text/More.pm6"
+    },
+    "license" : "Artistic 2.0",
+    "version" : "0.1.4",
+    "authors" : [
+      "github:tbrowder"
+    ],
+    "description" : "Provides some additional text functions and a utility program to create a markdown file of subroutine descriptions"
+  },
+  {
+    "name" : "Linux::Proc::Time",
+    "support" : {
+      "source" : "https://github.com/tbrowder/Linux-Proc-Time-Perl6/tree/v0.1.0",
+      "bugtracker" : "https://github.com/tbrowder/Linux-Proc-Time-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/Linux-Proc-Time-Perl6/archive/v0.1.0.zip",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [ ],
+    "tags" : [
+      "POSIX time function"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Linux::Proc::Time" : "lib/Linux/Proc/Time.pm6"
+    },
+    "license" : "Artistic 2.0",
+    "version" : "0.1.0",
+    "authors" : [
+      "github:tbrowder"
+    ],
+    "description" : "Provides functions to gather and filter process times for a user command"
+  },
+  {
     "name" : "Web::Cache",
     "source-url" : "git://github.com/smorrison/per6-Web-Cache.git",
     "perl" : "6.c",
@@ -16540,6 +16910,33 @@
       "Alexey Melezhik"
     ],
     "description" : "Sparrowdo module to run goss scenarios"
+  },
+  {
+    "name" : "Number::More",
+    "support" : {
+      "source" : "https://github.com/tbrowder/Number-More-Perl6/tree/v0.1.0",
+      "bugtracker" : "https://github.com/tbrowder/Number-More-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/Number-More-Perl6/archive/v0.1.0.zip",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [ ],
+    "tags" : [
+      "number",
+      "base transform"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Number::More" : "lib/Number/More.pm6"
+    },
+    "license" : "Artistic 2.0",
+    "version" : "0.1.0",
+    "authors" : [
+      "github:tbrowder"
+    ],
+    "description" : "Provides number base transform functions"
   },
   {
     "name" : "App::InstallerMaker::WiX",
@@ -16588,6 +16985,29 @@
       "Zoffix Znet"
     ],
     "description" : "No-nonsense, simple HTTPS client with JSON decoder"
+  },
+  {
+    "name" : "Net::FTPlib",
+    "support" : {
+      "source" : "https://github.com/araraloren/Net-FTPlib/tree/v0.2.0",
+      "bugtracker" : "https://github.com.araraloren/Net-FTPlib/issues"
+    },
+    "source-url" : "https://github.com/araraloren/Net-FTPlib/archive/v0.2.0.zip",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/ftplibhelp"
+    ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
+    "auth" : "github:araraloren",
+    "depends" : [ ],
+    "provides" : {
+      "Net::FTPlib" : "lib/Net/FTPlib.pm6"
+    },
+    "version" : "0.2.0",
+    "authors" : "Loren",
+    "description" : "A Perl 6 binding for ftplib (http://nbpfaus.net/~pfau/ftplib)"
   },
   {
     "name" : "Proc::Async::Timeout",
@@ -17593,6 +18013,41 @@
     ]
   },
   {
+    "name" : "Terminal::Table",
+    "support" : {
+      "source" : "https://github.com/araraloren/perl6-terminal-table/tree/v0.0.2",
+      "bugtracker" : "https://github.com.araraloren/perl6-terminal-table/issues"
+    },
+    "source-url" : "https://github.com/araraloren/perl6-terminal-table/archive/v0.0.2.zip",
+    "perl" : "6.c",
+    "auth" : "github:araraloren",
+    "depends" : [
+      "Terminal::ANSIColor",
+      "Terminal::WCWidth",
+      "Text::Tabs"
+    ],
+    "provides" : {
+      "Terminal::Table::Generator" : "lib/Terminal/Table/Generator.pm6",
+      "Terminal::Table::Shader" : "lib/Terminal/Table/Shader.pm6",
+      "Terminal::Table::LightWrap" : "lib/Terminal/Table/LightWrap.pm6",
+      "Terminal::Table::Style" : "lib/Terminal/Table/Style.pm6",
+      "Terminal::Table::String" : "lib/Terminal/Table/String.pm6",
+      "Terminal::Table" : "lib/Terminal/Table.pm6",
+      "Terminal::Table::Exception" : "lib/Terminal/Table/Exception.pm6",
+      "Terminal::Table::Frame" : "lib/Terminal/Table/Frame.pm6",
+      "Terminal::Table::Settings" : "lib/Terminal/Table/Settings.pm6"
+    },
+    "tags" : [
+      "terminal",
+      "table",
+      "text"
+    ],
+    "license" : "MIT",
+    "version" : "0.0.2",
+    "authors" : "Loren",
+    "description" : "Advanced table generate module for perl6"
+  },
+  {
     "name" : "MPD::Client",
     "source-url" : "https://github.com/scriptkitties/p6-mpd-client.git",
     "perl" : "6",
@@ -17685,7 +18140,7 @@
       "format",
       "serialization"
     ],
-    "version" : "0.2",
+    "version" : "0.2.1",
     "authors" : [
       "Curt Tilmes <ctilmes@cpan.org>",
       "Ingy d\u00f6t Net <ingy@cpan.org>"
