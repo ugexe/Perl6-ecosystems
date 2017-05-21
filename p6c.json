@@ -5837,6 +5837,25 @@
     ]
   },
   {
+    "name" : "CompUnit::Repository::Mask",
+    "source-url" : "https://github.com/niner/CompUnit-Repository-Mask.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "CompUnit::Repository::Mask" : "lib/CompUnit/Repository/Mask.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "hide installed modules for testing.",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
     "name" : "DateTime::Format::LikeGo",
     "source-url" : "git://github.com/avuserow/perl6-datetime-format-likego.git",
     "perl" : "6.*",
@@ -18168,5 +18187,30 @@
       "Nick Logan"
     ],
     "description" : "Zef plugin to send test reports to cpantesters"
+  },
+  {
+    "name" : "Benchy",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-Benchy"
+    },
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "Benchy" : "lib/Benchy.pm6"
+    },
+    "test-depends" : [
+      "Testo",
+      "Test::META"
+    ],
+    "tags" : [
+      "benchmark",
+      "dev"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Benchmark some code"
   }
 ]
