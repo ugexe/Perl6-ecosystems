@@ -9189,6 +9189,21 @@
     "description" : "Returns what the character width should be on the terminal."
   },
   {
+    "name" : "Compress::Brotli",
+    "source-url" : "git://github.com/sylvarant/Compress-Brotli.git",
+    "perl" : "6.*",
+    "author" : "sylvarant",
+    "depends" : [
+      "NativeCall",
+      "LibraryMake"
+    ],
+    "provides" : {
+      "Compress::Brotli" : "lib/Compress/Brotli.pm"
+    },
+    "version" : "0.1.0",
+    "description" : "Brotli compression using NativeCall"
+  },
+  {
     "name" : "URI::Template",
     "perl" : "6.c",
     "support" : {
