@@ -18232,6 +18232,11 @@
     "name" : "Base64::Native",
     "source-url" : "git://github.com/p6-pdf/Base64-Native-p6.git",
     "perl" : "6.c",
+    "resources" : [
+      "lib/libbase64.so",
+      "lib/libbase64.dll",
+      "lib/libbase64.dylib"
+    ],
     "build-depends" : [ ],
     "auth" : "github:p6-pdf",
     "depends" : [
