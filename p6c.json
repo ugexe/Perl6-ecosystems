@@ -18227,5 +18227,29 @@
       "Zoffix Znet"
     ],
     "description" : "Benchmark some code"
+  },
+  {
+    "name" : "Base64::Native",
+    "source-url" : "git://github.com/p6-pdf/Base64-Native-p6.git",
+    "perl" : "6.c",
+    "build-depends" : [ ],
+    "auth" : "github:p6-pdf",
+    "depends" : [
+      "LibraryMake"
+    ],
+    "provides" : {
+      "Base64::Native" : "lib/Base64/Native.pm"
+    },
+    "test-depends" : [ ],
+    "tags" : [
+      "base64",
+      "encode"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Fast Base 64 encoding and decoding (eager)",
+    "authors" : [
+      "David Warring"
+    ]
   }
 ]
