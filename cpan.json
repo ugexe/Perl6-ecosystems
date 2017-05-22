@@ -206,6 +206,25 @@
     "description" : "Native call interface for Rakudo"
   },
   {
+    "name" : "CompUnit::Repository::Mask",
+    "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/CompUnit-Repository-Mask-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "CompUnit::Repository::Mask" : "lib/CompUnit/Repository/Mask.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "hide installed modules for testing.",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
     "name" : "Inline::Perl5",
     "support" : {
       "irc" : "irc://irc.freenode.org/#perl6"
