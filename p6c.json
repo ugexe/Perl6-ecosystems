@@ -6345,9 +6345,16 @@
       "TinyCC::CSub" : "lib/TinyCC/CSub.pm",
       "TinyCC::Binary" : "lib/TinyCC/Binary.pm"
     },
+    "tags" : [
+      "C",
+      "compiler"
+    ],
     "license" : "BSL-1.0",
     "version" : "0.2.3",
-    "description" : "Bindings for the Tiny C Compiler"
+    "description" : "Bindings for the Tiny C Compiler",
+    "authors" : [
+      "cygx"
+    ]
   },
   {
     "name" : "TinyCC::Resources::Win64",
