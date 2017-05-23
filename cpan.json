@@ -334,23 +334,6 @@
     "description" : "Client library for the OpenCage Geocoder"
   },
   {
-    "name" : "Text::Levenshtein::Damerau",
-    "source-url" : "http://www.cpan.org/authors/id//home/ftp/pub/PAUSE/authors/id/U/UG/UGEXE/Perl6/Text-Levenshtein-Damerau-0.1.7.tar.gz",
-    "perl" : "6",
-    "auth" : "github:ugexe",
-    "depends" : [ ],
-    "tags" : [
-      "levenshtein",
-      "typos"
-    ],
-    "provides" : {
-      "Text::Levenshtein::Damerau" : "lib/Text/Levenshtein/Damerau.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.1.7",
-    "description" : "Calculate Levenshtein or Damerau Levenshtein edit distances for strings"
-  },
-  {
     "name" : "zef",
     "support" : {
       "bugtracker" : "https://github.com/ugexe/zef/issues"
