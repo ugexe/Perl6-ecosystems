@@ -4111,6 +4111,18 @@
     "description" : "Extends IO::Path to make it more like p5's Path::Class"
   },
   {
+    "name" : "ADT",
+    "source-url" : "git://github.com/timo/ADT.git",
+    "perl" : "6.*",
+    "author" : "Timo Paulssen",
+    "depends" : [ ],
+    "provides" : {
+      "ADT" : "lib/ADT.pm6"
+    },
+    "version" : "0.5",
+    "description" : "Algebraic Data Types inspired by Haskell."
+  },
+  {
     "name" : "JSON::Fast",
     "support" : {
       "source" : "git://github.com/timo/json_fast.git"
