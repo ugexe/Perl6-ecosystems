@@ -15951,7 +15951,6 @@
     ],
     "build-depends" : [
       "LWP::Simple",
-      "panda",
       "Shell::Command"
     ],
     "depends" : [
@@ -17342,7 +17341,9 @@
       "binary",
       "endian",
       "native",
-      "struct"
+      "struct",
+      "pack",
+      "unpack"
     ],
     "license" : "Artistic-2.0",
     "version" : "0.0.2",
