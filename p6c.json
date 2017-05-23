@@ -14873,25 +14873,6 @@
     "description" : "Xlib binding using NativeCall"
   },
   {
-    "name" : "IRC::Client::Plugin::UserPoints",
-    "source-url" : "https://github.com/jsimonet/IRC-Client-Plugin-UserPoints.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [
-      "PerlStore::FileStore",
-      "IRC::Client"
-    ],
-    "provides" : {
-      "IRC::Client::Plugin::UserPoints" : "lib/IRC/Client/Plugin/UserPoints.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.1.2",
-    "authors" : [
-      "Julien Simonet"
-    ],
-    "description" : "Plugin for counting user points."
-  },
-  {
     "name" : "Heap",
     "source-url" : "git://github.com/FCO/Heap.git",
     "perl" : "6.*",
