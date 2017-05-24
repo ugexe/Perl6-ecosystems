@@ -7500,6 +7500,41 @@
     "description" : "Delete specified HTML tags and attributes"
   },
   {
+    "name" : "Audio::Convert::Samplerate",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git"
+    },
+    "source-url" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git",
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "NativeHelpers::Array"
+    ],
+    "provides" : {
+      "Audio::Convert::Samplerate" : "lib/Audio/Convert/Samplerate.pm"
+    },
+    "test-depends" : [
+      "LibraryCheck",
+      "Audio::Sndfile",
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "audio",
+      "utils",
+      "comvert"
+    ],
+    "version" : "0.0.7",
+    "meta6" : "0",
+    "description" : "Convert the samplerate of PCM audio data using libsamplerate",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
     "name" : "Staticish",
     "perl" : "6.c",
     "support" : {
@@ -18025,10 +18060,10 @@
   {
     "name" : "Terminal::Table",
     "support" : {
-      "source" : "https://github.com/araraloren/perl6-terminal-table/tree/v0.0.2",
+      "source" : "https://github.com/araraloren/perl6-terminal-table/tree/v0.0.5",
       "bugtracker" : "https://github.com.araraloren/perl6-terminal-table/issues"
     },
-    "source-url" : "https://github.com/araraloren/perl6-terminal-table/archive/v0.0.2.zip",
+    "source-url" : "https://github.com/araraloren/perl6-terminal-table/archive/v0.0.5.zip",
     "perl" : "6.c",
     "auth" : "github:araraloren",
     "depends" : [
@@ -18045,7 +18080,8 @@
       "Terminal::Table" : "lib/Terminal/Table.pm6",
       "Terminal::Table::Exception" : "lib/Terminal/Table/Exception.pm6",
       "Terminal::Table::Frame" : "lib/Terminal/Table/Frame.pm6",
-      "Terminal::Table::Settings" : "lib/Terminal/Table/Settings.pm6"
+      "Terminal::Table::Settings" : "lib/Terminal/Table/Settings.pm6",
+      "Terminal::Table::VisitorHelper" : "lib/Terminal/Table/VisitorHelper.pm6"
     },
     "tags" : [
       "terminal",
@@ -18053,7 +18089,7 @@
       "text"
     ],
     "license" : "MIT",
-    "version" : "0.0.2",
+    "version" : "0.0.5",
     "authors" : "Loren",
     "description" : "Advanced table generate module for perl6"
   },
