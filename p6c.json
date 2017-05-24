@@ -3605,6 +3605,31 @@
     "description" : "A simple Odoo ERP client that uses JSON RPC"
   },
   {
+    "name" : "Graphics::PLplot",
+    "source-url" : "git://github.com/azawawi/perl6-graphics-plplot.git",
+    "perl" : "6.*",
+    "auth" : "github:azawawi",
+    "repo-type" : "git",
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "Chart",
+      "Plot",
+      "NativeCall"
+    ],
+    "provides" : {
+      "Graphics::PLplot::Raw" : "lib/Graphics/PLplot/Raw.pm6",
+      "Graphics::PLplot" : "lib/Graphics/PLplot.pm6"
+    },
+    "license" : "MIT",
+    "version" : "0.0.1",
+    "description" : "Perl 6 native bindings for PLplot",
+    "authors" : [
+      "Ahmad M. Zawawi"
+    ]
+  },
+  {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
     "perl" : "6.*",
