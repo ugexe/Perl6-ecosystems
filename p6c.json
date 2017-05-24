@@ -1171,6 +1171,19 @@
     "description" : "A PSGI helper library."
   },
   {
+    "name" : "Perl6-Math-Quaternion",
+    "source-url" : "git://github.com/Util/Perl6-Math-Quaternion.git",
+    "authority" : "cpan+BGRAY",
+    "perl" : "6.*",
+    "author" : "Bruce Gray",
+    "depends" : [ ],
+    "provides" : {
+      "Math::Quaternion" : "lib/Math/Quaternion.pm6"
+    },
+    "version" : "*",
+    "description" : "Hyper-complex numbers as objects with operators"
+  },
+  {
     "name" : "Sort::Naturally",
     "source-url" : "git://github.com/thundergnat/Sort-Naturally.git",
     "perl" : "6.*",
