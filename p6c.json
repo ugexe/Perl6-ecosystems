@@ -7500,41 +7500,6 @@
     "description" : "Delete specified HTML tags and attributes"
   },
   {
-    "name" : "Audio::Convert::Samplerate",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git"
-    },
-    "source-url" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git",
-    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [
-      "NativeHelpers::Array"
-    ],
-    "provides" : {
-      "Audio::Convert::Samplerate" : "lib/Audio/Convert/Samplerate.pm"
-    },
-    "test-depends" : [
-      "LibraryCheck",
-      "Audio::Sndfile",
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "audio",
-      "utils",
-      "comvert"
-    ],
-    "version" : "0.0.7",
-    "meta6" : "0",
-    "description" : "Convert the samplerate of PCM audio data using libsamplerate",
-    "authors" : [
-      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ]
-  },
-  {
     "name" : "Staticish",
     "perl" : "6.c",
     "support" : {
