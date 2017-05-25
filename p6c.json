@@ -15478,6 +15478,24 @@
     "description" : "Parsing and application of .gitignore-style ignore files."
   },
   {
+    "name" : "Crust::Middleware::Session::Store::DBIish",
+    "source-url" : "git://github.com/adaptiveoptics/Crust-Middleware-Session-Store-DBIish.git",
+    "perl" : "6.c",
+    "depends" : [
+      "Crust::Middleware::Session",
+      "JSON::Fast"
+    ],
+    "provides" : {
+      "Crust::Middleware::Session::Store::DBIish" : "lib/Crust/Middleware/Session/Store/DBIish.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Mark Rushing"
+    ],
+    "description" : "Implements database storage role for Crust::Middleware::Session"
+  },
+  {
     "name" : "Statistics::LinearRegression",
     "source-url" : "git://github.com/hipek8/p6-Statistics-LinearRegression.git",
     "perl" : "6.c",
