@@ -18295,5 +18295,35 @@
     "authors" : [
       "David Warring"
     ]
+  },
+  {
+    "name" : "LibUUID",
+    "support" : {
+      "source" : "https://github.com/CurtTilmes/perl6-libuuid.git",
+      "bugtracker" : "https://github.com/CurtTilmes/perl6-libuuid/issues"
+    },
+    "perl" : "6.c",
+    "source-url" : "https://github.com/CurtTilmes/perl6-libuuid.git",
+    "auth" : "github:CurtTilmes",
+    "depends" : [
+      "NativeCall"
+    ],
+    "license" : "Artistic-2.0",
+    "test-depends" : [
+      "Test",
+      "Test::When",
+      "Test::META"
+    ],
+    "provides" : {
+      "UUID" : "lib/LibUUID.pm6"
+    },
+    "tags" : [
+      "UUID"
+    ],
+    "version" : "0.1",
+    "authors" : [
+      "Curt Tilmes <ctilmes@cpan.org>"
+    ],
+    "description" : "Perl 6 bindings for libuuid, for UUID generation"
   }
 ]
