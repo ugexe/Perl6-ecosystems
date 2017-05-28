@@ -1994,7 +1994,8 @@
       "URI",
       "Digest::HMAC",
       "Digest",
-      "HTTP::MultiPartParser"
+      "HTTP::MultiPartParser",
+      "File::Find"
     ],
     "provides" : {
       "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
