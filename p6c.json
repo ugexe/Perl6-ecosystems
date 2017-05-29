@@ -14778,7 +14778,7 @@
     "provides" : {
       "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6"
     },
-    "version" : "0.1",
+    "version" : "0.1.1",
     "description" : "A modern HTTP request parser",
     "authors" : [
       "Sterling Hanenkamp <hanenkamp@cpan.org>"
@@ -16526,7 +16526,9 @@
       "Test",
       "Test::META"
     ],
-    "provides" : { },
+    "provides" : {
+      "Punnable" : "lib/Punnable.pm6"
+    },
     "tags" : [
       "pun",
       "role",
