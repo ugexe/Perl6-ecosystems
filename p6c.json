@@ -1998,7 +1998,8 @@
       "Digest::HMAC",
       "Digest",
       "HTTP::MultiPartParser",
-      "File::Find"
+      "File::Find",
+      "File::Temp"
     ],
     "provides" : {
       "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
