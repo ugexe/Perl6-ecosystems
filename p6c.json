@@ -2824,6 +2824,16 @@
     "description" : "Helps build and run adventure games."
   },
   {
+    "name" : "Game::Crypt",
+    "source-url" : "git://github.com/masak/crypt.git",
+    "author" : "Carl M\u00e4sak",
+    "depends" : [
+      "Adventure::Engine"
+    ],
+    "version" : "0.2.2",
+    "description" : "An adventure game."
+  },
+  {
     "name" : "p6doc",
     "source-url" : "git://github.com/perl6/doc.git",
     "perl" : "6.*",
@@ -3100,6 +3110,18 @@
       "Foo" : "lib/Foo.pm"
     },
     "version" : "1.0.0",
+    "description" : "Test for installation of same named dists"
+  },
+  {
+    "name" : "Foo",
+    "source-url" : "git://github.com/FROGGS/p6-Foo-v1.2.0.git",
+    "perl" : "6.*",
+    "author" : "github:FROGGS",
+    "depends" : [ ],
+    "provides" : {
+      "Foo" : "lib/Foo.pm"
+    },
+    "version" : "1.2.0",
     "description" : "Test for installation of same named dists"
   },
   {
@@ -8795,41 +8817,6 @@
     "description" : "Simple, fast implementation of LRU cache in pure perl",
     "authors" : [
       "github:fayland"
-    ]
-  },
-  {
-    "name" : "JSON::Class",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git://github.com/jonathanstowe/JSON-Class.git"
-    },
-    "source-url" : "git://github.com/jonathanstowe/JSON-Class.git",
-    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [
-      "JSON::Marshal",
-      "JSON::Unmarshal"
-    ],
-    "provides" : {
-      "JSON::Class" : "lib/JSON/Class.pm"
-    },
-    "test-depends" : [
-      "JSON::Fast",
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "object",
-      "serialisation",
-      "JSON"
-    ],
-    "version" : "0.0.8",
-    "meta6" : "0",
-    "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON",
-    "authors" : [
-      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
   },
   {
