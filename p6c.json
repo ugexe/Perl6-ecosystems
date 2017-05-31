@@ -1101,17 +1101,6 @@
     "description" : "A template engine inspired by TT."
   },
   {
-    "name" : "PSpec",
-    "source-url" : "git://github.com/supernovus/PSpec.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "PSpec" : "lib/PSpec.pm6"
-    },
-    "version" : "*",
-    "description" : "An RSpec-like testing framework for Perl 6"
-  },
-  {
     "name" : "Method::Modifiers",
     "source-url" : "git://github.com/supernovus/perl6-method-modifiers.git",
     "perl" : "6.*",
@@ -8820,6 +8809,41 @@
     ]
   },
   {
+    "name" : "JSON::Class",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/JSON-Class.git"
+    },
+    "source-url" : "git://github.com/jonathanstowe/JSON-Class.git",
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "JSON::Marshal",
+      "JSON::Unmarshal"
+    ],
+    "provides" : {
+      "JSON::Class" : "lib/JSON/Class.pm"
+    },
+    "test-depends" : [
+      "JSON::Fast",
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "object",
+      "serialisation",
+      "JSON"
+    ],
+    "version" : "0.0.8",
+    "meta6" : "0",
+    "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
     "name" : "POSIX",
     "source-url" : "https://github.com/cspencer/perl6-posix.git",
     "author" : "Cory Spencer",
@@ -12184,25 +12208,25 @@
   },
   {
     "name" : "Algorithm::Kruskal",
-    "perl" : "6.c",
     "source-url" : "git://github.com/titsuki/p6-Algorithm-Kruskal.git",
-    "build-depends" : [ ],
+    "perl" : "6.c",
     "resources" : [ ],
+    "build-depends" : [ ],
     "depends" : [
       "Algorithm::SetUnion",
-      "Algorithm::MinMaxHeap",
-      "Algorithm::MinMaxHeap::Comparable"
+      "Algorithm::MinMaxHeap"
     ],
     "test-depends" : [ ],
+    "tags" : [ ],
     "provides" : {
       "Algorithm::Kruskal" : "lib/Algorithm/Kruskal.pm6"
     },
     "license" : "Artistic-2.0",
     "version" : "*",
+    "description" : "a perl6 implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length",
     "authors" : [
       "titsuki"
-    ],
-    "description" : "a perl6 implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length"
+    ]
   },
   {
     "name" : "Perl6 Snowball Binding",
@@ -13574,25 +13598,6 @@
       "Rajkumar Reddy"
     ],
     "description" : "Get Weather info"
-  },
-  {
-    "name" : "Terminal::Width",
-    "source-url" : "git://github.com/zoffixznet/perl6-Terminal-Width.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Terminal::Width" : "lib/Terminal/Width.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Get the current width of the terminal"
   },
   {
     "name" : "Test::Notice",
