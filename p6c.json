@@ -16545,32 +16545,6 @@
     "description" : "Make roles with stub-methods punnable"
   },
   {
-    "name" : "SSH::LibSSH",
-    "source-url" : "https://github.com/jnthn/p6-ssh-libssh.git",
-    "perl" : "6.*",
-    "resources" : [
-      "ssh.dll",
-      "libeay32.dll",
-      "msvcr110.dll"
-    ],
-    "build-depends" : [
-      "LWP::Simple",
-      "panda",
-      "Shell::Command"
-    ],
-    "author" : "Jonathan Worthington <jnthn@jnthn.net>",
-    "depends" : [
-      "Concurrent::Progress"
-    ],
-    "provides" : {
-      "SSH::LibSSH" : "lib/SSH/LibSSH.pm6",
-      "SSH::LibSSH::Raw" : "lib/SSH/LibSSH/Raw.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.9",
-    "description" : "Asynchronous binding for libssh; client-only and limited functionality so far."
-  },
-  {
     "name" : "Context",
     "source-url" : "git://github.com/bradclawsie/Context.git",
     "perl" : "6.*",
@@ -17966,7 +17940,7 @@
       "Testo::Tester" : "lib/Testo/Tester.pm6"
     },
     "test-depends" : [ ],
-    "version" : "1.002001",
+    "version" : "1.002002",
     "authors" : [
       "Zoffix Znet"
     ],
@@ -17983,7 +17957,7 @@
       "IO::Dir" : "lib/IO/Dir.pm6"
     },
     "test-depends" : [
-      "Testo",
+      "Testo:ver('1.002002')",
       "Test::META"
     ],
     "tags" : [
@@ -17991,7 +17965,7 @@
       "filesystem"
     ],
     "license" : "Artistic-2.0",
-    "version" : "1.001001",
+    "version" : "1.001002",
     "authors" : [
       "Zoffix Znet"
     ],
