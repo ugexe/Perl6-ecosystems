@@ -18303,5 +18303,23 @@
       "Curt Tilmes <ctilmes@cpan.org>"
     ],
     "description" : "Perl 6 bindings for libuuid, for UUID generation"
+  },
+  {
+    "name" : "Log",
+    "support" : {
+      "source" : "https://github.com/whity/perl6-log"
+    },
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "Log" : "lib/Log.pm6"
+    },
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "authors" : [
+      "Andr\u00e9 Br\u00e1s"
+    ],
+    "description" : "A simple logging class"
   }
 ]
