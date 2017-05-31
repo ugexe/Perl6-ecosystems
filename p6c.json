@@ -9555,29 +9555,6 @@
     "description" : "Extendable Internet Relay Chat client"
   },
   {
-    "name" : "WWW::Google::Time",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-WWW-Google-Time.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "HTTP::Tinyish",
-      "URI::Escape"
-    ],
-    "provides" : {
-      "WWW::Google::Time" : "lib/WWW/Google/Time.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.002003",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Get time for various locations using Google"
-  },
-  {
     "name" : "Lingua::Conjunction",
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-Lingua-Conjunction.git"
@@ -9797,31 +9774,6 @@
       "Wenzel P. P. Peppmeyer"
     ],
     "description" : "Guards against extra named arguments on methods."
-  },
-  {
-    "name" : "IRC::Client::Plugin::HNY",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-IRC-Client-Plugin-HNY.git"
-    },
-    "perl" : "6.*",
-    "depends" : [
-      "IRC::Client:ver",
-      "Number::Denominate",
-      "WWW::Google::Time",
-      "Lingua::Conjunction"
-    ],
-    "provides" : {
-      "IRC::Client::Plugin::HNY" : "lib/IRC/Client/Plugin/HNY.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "2.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Plugin for New Year's IRC parties"
   },
   {
     "name" : "Data::Dump::Tree",
@@ -11253,25 +11205,6 @@
       "James (Jeremy) Carman <developer@peelle.org>"
     ],
     "description" : "A wrapper for the Lending Club API."
-  },
-  {
-    "name" : "String::Quotemeta",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-String-Quotemeta.git"
-    },
-    "perl" : "6.c",
-    "provides" : {
-      "String::Quotemeta" : "lib/String/Quotemeta.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Perl 5's quotemeta subroutine"
   },
   {
     "name" : "Algorithm::Treap",
@@ -13766,29 +13699,6 @@
     "description" : ".netrc file parser module for Perl 6"
   },
   {
-    "name" : "Config::From",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Config-From.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "JSON::Fast"
-    ],
-    "provides" : {
-      "Config::From" : "lib/Config/From.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Load configuration from file to variables via traits"
-  },
-  {
     "name" : "Sparrowdo",
     "source-url" : "https://github.com/melezhik/sparrowdo.git",
     "support" : {
@@ -13824,48 +13734,6 @@
     "description" : "Configuration management tool based on sparrow plugins system"
   },
   {
-    "name" : "Quantum::Collapse",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Quantum-Collapse.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Quantum::Collapse" : "lib/Quantum/Collapse.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Collapse allomophic types into their components"
-  },
-  {
-    "name" : "Pretty::Topic",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Pretty-Topic.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Pretty::Topic" : "lib/Pretty/Topic.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Alias $_ topical variable to something prettier"
-  },
-  {
     "name" : "Slang::Mosdef",
     "source-url" : "git://github.com/bduggan/mosdef.git",
     "perl" : "6.*",
@@ -13876,24 +13744,6 @@
     },
     "version" : "0.0.1",
     "description" : "Use def and \u03bb as declarators."
-  },
-  {
-    "name" : "\u05d5\u05d5\u05d5",
-    "source-url" : "git://github.com/zoffixznet/perl6-666.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "\u05d5\u05d5\u05d5" : "lib/\u05d5\u05d5\u05d5.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "666th module in the Perl 6 Ecosystem is properly Evil!"
   },
   {
     "name" : "Text::Wrap",
@@ -14641,27 +14491,6 @@
     "authors" : [
       "Sam Gillespie"
     ]
-  },
-  {
-    "name" : "SPEC::Func",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-SPEC-Func.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "SPEC::Func" : "lib/SPEC/Func.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Import $*SPEC methods as functions"
   },
   {
     "name" : "Binary::Structured",
@@ -16436,27 +16265,6 @@
     "description" : "A client library for the Ridiculously Simple Configuration System"
   },
   {
-    "name" : "M",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-M.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "M" : "lib/M.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001002",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "M, the 1-character Map: non-nodal, non-autothreading .map(*.some-method)"
-  },
-  {
     "name" : "Punnable",
     "source-url" : "https://github.com/FCO/Punnable.git",
     "perl" : "6.*",
@@ -17089,30 +16897,6 @@
       "Jarkko Haapalainen <jarkko@viidakko.fi>"
     ],
     "description" : "Tool for making development environments with docker"
-  },
-  {
-    "name" : "Failer",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Failer.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Failer" : "lib/Failer.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "tags" : [
-      "Failure"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Handle Failures like a Pro"
   },
   {
     "name" : "Sparrowdo::Rvm",
