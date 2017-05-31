@@ -274,38 +274,6 @@
     "description" : "Colorize terminal output"
   },
   {
-    "name" : "Text::CSV",
-    "support" : {
-      "irc" : "irc://irc.perl.org/#csv"
-    },
-    "source-url" : "git://github.com/Tux/CSV.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "auth" : "github:Tux",
-    "repo-type" : "git",
-    "depends" : [
-      "Slang::Tuxic",
-      "File::Temp"
-    ],
-    "license" : "Artistic-2.0",
-    "provides" : {
-      "Text::CSV" : "lib/Text/CSV.pm"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "tags" : [
-      "CSV"
-    ],
-    "version" : "0.008",
-    "authors" : [
-      "H.Merijn Brand (Tux)"
-    ],
-    "description" : "Handle CSV data. API based on Text::CSV_XS"
-  },
-  {
     "name" : "HTTP::Server::Simple",
     "source-url" : "git://github.com/gfldex/http-server-simple.git",
     "perl" : "6.*",
@@ -9499,20 +9467,6 @@
     "description" : "Glue for Mozilla's JavaScript interpreter."
   },
   {
-    "name" : "Math::Random",
-    "source-url" : "git://github.com/bluebear94/Math-Random.git",
-    "perl" : "6.*",
-    "author" : "Tae Lim Kook",
-    "depends" : [ ],
-    "provides" : {
-      "Math::Random::MT" : "lib/Math/Random/MT.pm6",
-      "Math::Random::JavaStyle" : "lib/Math/Random/JavaStyle.pm6",
-      "Math::Random" : "lib/Math/Random.pm6"
-    },
-    "version" : "0.1.0",
-    "description" : "Random numbers \u00e0 la java.util.Random."
-  },
-  {
     "name" : "Subsets::Common",
     "source-url" : "git://github.com/bradclawsie/Subsets-Common.git",
     "perl" : "6.*",
@@ -14182,24 +14136,6 @@
     ]
   },
   {
-    "name" : "Test::Deeply::Relaxed",
-    "source-url" : "https://github.com/ppentchev/perl6-Test-Deeply-Relaxed.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [ ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Test::Deeply::Relaxed" : "lib/Test/Deeply/Relaxed.pm6"
-    },
-    "version" : "0.1.1.dev1",
-    "authors" : [
-      "Peter Pentchev"
-    ],
-    "description" : "Compare two complex data structures loosely"
-  },
-  {
     "name" : "OAuth2::Client::Google",
     "source-url" : "git://github.com/bduggan/p6-oauth2-client-google.git",
     "perl" : "6.*",
@@ -14534,27 +14470,6 @@
     ]
   },
   {
-    "name" : "Sparrowdo::Cpm",
-    "source-url" : "https://github.com/melezhik/sparrowdo-cpm.git",
-    "support" : {
-      "source" : "https://github.com/melezhik/sparrowdo-cpm.git",
-      "bugtracker" : "https://github.com/melezhik/sparrowdo-cpm/issues"
-    },
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [
-      "Sparrowdo"
-    ],
-    "provides" : {
-      "Sparrowdo::Cpm" : "lib/Sparrowdo/Cpm.pm6"
-    },
-    "version" : "*",
-    "authors" : [
-      "Alexey Melezhik"
-    ],
-    "description" : "Sparrowdo module to install CPAN modules using App::cpm - a fast CPAN module installer"
-  },
-  {
     "name" : "DOM::Tiny",
     "source-url" : "git://github.com/zostay/p6-DOM-Tiny.git",
     "perl" : "6.c",
@@ -14581,20 +14496,6 @@
       "Sterling Hanenkamp <hanenkamp@cpan.org>"
     ],
     "meta6" : "0"
-  },
-  {
-    "name" : "python::itertools",
-    "source-url" : "git://github.com/ahalbert/perl6-itertools",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "provides" : {
-      "itertools" : "lib/python/itertools.pm"
-    },
-    "version" : "0.9.0",
-    "authors" : [
-      "Armand Halbert"
-    ],
-    "description" : "Port of python's itertools to perl6."
   },
   {
     "name" : "Auth::SCRAM",
@@ -14706,27 +14607,6 @@
     "authors" : [
       "Sam Gillespie"
     ]
-  },
-  {
-    "name" : "SPEC::Func",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-SPEC-Func.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "SPEC::Func" : "lib/SPEC/Func.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Import $*SPEC methods as functions"
   },
   {
     "name" : "Binary::Structured",
@@ -16545,6 +16425,32 @@
     "description" : "Make roles with stub-methods punnable"
   },
   {
+    "name" : "SSH::LibSSH",
+    "source-url" : "https://github.com/jnthn/p6-ssh-libssh.git",
+    "perl" : "6.*",
+    "resources" : [
+      "ssh.dll",
+      "libeay32.dll",
+      "msvcr110.dll"
+    ],
+    "build-depends" : [
+      "LWP::Simple",
+      "panda",
+      "Shell::Command"
+    ],
+    "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+    "depends" : [
+      "Concurrent::Progress"
+    ],
+    "provides" : {
+      "SSH::LibSSH" : "lib/SSH/LibSSH.pm6",
+      "SSH::LibSSH::Raw" : "lib/SSH/LibSSH/Raw.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.9",
+    "description" : "Asynchronous binding for libssh; client-only and limited functionality so far."
+  },
+  {
     "name" : "Context",
     "source-url" : "git://github.com/bradclawsie/Context.git",
     "perl" : "6.*",
@@ -18170,28 +18076,6 @@
       "Ingy d\u00f6t Net <ingy@cpan.org>"
     ],
     "description" : "Perl6 bindings for LibYAML"
-  },
-  {
-    "name" : "Zef::CPANReporter",
-    "perl" : "6.c",
-    "source-url" : "git://github.com/garu/Zef-Reporter.git",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "auth" : "github:garu",
-    "depends" : [
-      "Zef",
-      "Net::HTTP"
-    ],
-    "test-depends" : [ ],
-    "provides" : {
-      "Zef::CPANReporter" : "lib/Zef/CPANReporter.pm6"
-    },
-    "version" : "0.0.1",
-    "authors" : [
-      "Breno G. de Oliveira",
-      "Nick Logan"
-    ],
-    "description" : "Zef plugin to send test reports to cpantesters"
   },
   {
     "name" : "Benchy",
