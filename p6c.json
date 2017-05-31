@@ -770,6 +770,20 @@
     "description" : "Perl 6 dependency manager"
   },
   {
+    "name" : "DB::Model::Easy",
+    "source-url" : "git://github.com/supernovus/perl6-db-model-easy.git",
+    "perl" : "6.*",
+    "depends" : [
+      "DBIish"
+    ],
+    "provides" : {
+      "DB::Model::Easy::Row" : "lib/DB/Model/Easy/Row.pm6",
+      "DB::Model::Easy" : "lib/DB/Model/Easy.pm6"
+    },
+    "version" : "*",
+    "description" : "Build database models in Perl 6, easily."
+  },
+  {
     "name" : "XML",
     "source-url" : "git://github.com/supernovus/exemel.git",
     "perl" : "6.*",
@@ -804,6 +818,19 @@
     },
     "version" : "*",
     "description" : "jQuery-like node selecting and traversing for XML."
+  },
+  {
+    "name" : "DateTime::Utils",
+    "source-url" : "git://github.com/supernovus/temporal-utils.git",
+    "perl" : "6.*",
+    "depends" : [
+      "DateTime::Format",
+      "DateTime::Math",
+      "DateTime::TimeZone"
+    ],
+    "provides" : { },
+    "version" : "*",
+    "description" : "A meta project for DateTime related libraries."
   },
   {
     "name" : "DateTime::Format",
@@ -2797,16 +2824,6 @@
     "description" : "Helps build and run adventure games."
   },
   {
-    "name" : "Game::Crypt",
-    "source-url" : "git://github.com/masak/crypt.git",
-    "author" : "Carl M\u00e4sak",
-    "depends" : [
-      "Adventure::Engine"
-    ],
-    "version" : "0.2.2",
-    "description" : "An adventure game."
-  },
-  {
     "name" : "p6doc",
     "source-url" : "git://github.com/perl6/doc.git",
     "perl" : "6.*",
@@ -3083,18 +3100,6 @@
       "Foo" : "lib/Foo.pm"
     },
     "version" : "1.0.0",
-    "description" : "Test for installation of same named dists"
-  },
-  {
-    "name" : "Foo",
-    "source-url" : "git://github.com/FROGGS/p6-Foo-v1.2.0.git",
-    "perl" : "6.*",
-    "author" : "github:FROGGS",
-    "depends" : [ ],
-    "provides" : {
-      "Foo" : "lib/Foo.pm"
-    },
-    "version" : "1.2.0",
     "description" : "Test for installation of same named dists"
   },
   {
@@ -4069,6 +4074,19 @@
     ],
     "version" : "0.0.1",
     "description" : "Perl 6 interface to the Imlib2 image library."
+  },
+  {
+    "name" : "Lingua::EN::Sentence",
+    "perl" : "6.*",
+    "source-url" : "git://github.com/dginev/perl6-Lingua-EN-Sentence.git",
+    "author" : "Deyan Ginev",
+    "depends" : [ ],
+    "provides" : {
+      "Lingua::EN::Sentence" : "lib/Lingua/EN/Sentence.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.2",
+    "description" : "Module for splitting text into sentences"
   },
   {
     "name" : "ignore",
@@ -5483,6 +5501,27 @@
     "description" : "a Perl 6 module for creating new modules"
   },
   {
+    "name" : "Net::Packet",
+    "source-url" : "git://github.com/jpve/perl6-net-packet.git",
+    "author" : "Jorn van Engelen",
+    "depends" : [ ],
+    "provides" : {
+      "Net::Packet::IP_proto" : "lib/Net/Packet/IP_proto.pm6",
+      "Net::Packet::IPv4_addr" : "lib/Net/Packet/IPv4_addr.pm6",
+      "Net::Packet::Ethernet" : "lib/Net/Packet/Ethernet.pm6",
+      "Net::Packet::Base" : "lib/Net/Packet/Base.pm6",
+      "Net::Packet::ARP" : "lib/Net/Packet/ARP.pm6",
+      "Net::Packet" : "lib/Net/Packet.pm6",
+      "Net::Packet::ICMP" : "lib/Net/Packet/ICMP.pm6",
+      "Net::Packet::UDP" : "lib/Net/Packet/UDP.pm6",
+      "Net::Packet::MAC_addr" : "lib/Net/Packet/MAC_addr.pm6",
+      "Net::Packet::EtherType" : "lib/Net/Packet/EtherType.pm6",
+      "Net::Packet::IPv4" : "lib/Net/Packet/IPv4.pm6"
+    },
+    "version" : "v0.0.1",
+    "description" : "Decodeing network frames"
+  },
+  {
     "name" : "Net::Pcap",
     "source-url" : "git://github.com/jpve/perl6-net-pcap.git",
     "author" : "Jorn van Engelen",
@@ -5719,6 +5758,21 @@
     "license" : "MIT",
     "version" : "0.0.2",
     "description" : "interact with the Last.fm API"
+  },
+  {
+    "name" : "TOML",
+    "source-url" : "git://github.com/Mouq/toml-pm6.git",
+    "author" : "Mouq",
+    "depends" : [
+      "JSON::Tiny"
+    ],
+    "provides" : {
+      "TOML::Grammar" : "lib/TOML/Grammar.pm",
+      "TOML" : "lib/TOML.pm",
+      "ForeignGrammar" : "lib/ForeignGrammar.pm"
+    },
+    "version" : "0.3.1alpha",
+    "description" : "Perl 6 TOML Serializer"
   },
   {
     "name" : "Inline::Python",
@@ -6772,6 +6826,21 @@
     "authors" : [
       "Brian S. Julin"
     ]
+  },
+  {
+    "name" : "HTTP::Server",
+    "source-url" : "git://github.com/perl6/perl6-http-server.git",
+    "perl" : "6.*",
+    "author" : "tony-o",
+    "auth" : "github:tony-o",
+    "depends" : [ ],
+    "provides" : {
+      "HTTP::Server" : "lib/HTTP/Server.pm6",
+      "HTTP::Request" : "lib/HTTP/Request.pm6",
+      "HTTP::Response" : "lib/HTTP/Response.pm6"
+    },
+    "version" : "0.1.1",
+    "description" : "role for HTTP::Server so we can have start building out some servers with interchangeable backends"
   },
   {
     "name" : "HTTP::Server::Logger",
@@ -11090,6 +11159,60 @@
     ]
   },
   {
+    "name" : "AttrX::Lazy",
+    "source-url" : "git@github.com:pierre-vigier/Perl6-AttrX-Lazy.git",
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "AttrX::Lazy" : "lib/AttrX/Lazy.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.3",
+    "description" : "Moo similar Lazy attribute funtionality",
+    "authors" : [
+      "github:pierre-vigier"
+    ]
+  },
+  {
+    "name" : "Inline::Brainfuck",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Inline-Brainfuck.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "Term::termios"
+    ],
+    "provides" : {
+      "Inline::Brainfuck" : "lib/Inline/Brainfuck.pm6"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::Output"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Use Brainfuck language in your Perl 6 programs"
+  },
+  {
+    "name" : "Concurrent::BoundedChannel",
+    "source-url" : "https://github.com/gotoexit/Concurrent-BoundedChannel.git",
+    "perl" : "6.*",
+    "repo-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "Concurrent::BoundedChannel" : "lib/Concurrent/BoundedChannel.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.4.0",
+    "authors" : [
+      "github:gotoexit"
+    ],
+    "description" : "Subclass of Channel with limited number of elements"
+  },
+  {
     "name" : "App::P6Dx",
     "source-url" : "git://github.com/madcapjake/p6dx",
     "perl" : "6",
@@ -11630,6 +11753,33 @@
       "titsuki"
     ],
     "description" : "a hash function for board games"
+  },
+  {
+    "name" : "PackUnpack",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
+    "source-url" : "https://github.com/lizmat/PackUnpack.git",
+    "perl" : "6.c",
+    "auth" : "github:lizmat",
+    "repo-type" : "git",
+    "depends" : [ ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "PackUnpack" : "lib/PackUnpack.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "pack",
+      "unpack"
+    ],
+    "version" : "0.07",
+    "authors" : [
+      "Elizabeth Mattijsen"
+    ],
+    "description" : "Implementation of pack/unpack a la Perl 5"
   },
   {
     "name" : "Getopt::Long",
@@ -15809,6 +15959,49 @@
     "description" : "Generative Testing"
   },
   {
+    "name" : "Inform",
+    "source-url" : "git://github.com/finanalyst/p6-inform.git",
+    "perl" : "6.c",
+    "resources" : [
+      "blib/lib/GTK/libatk-1.0-0.dll",
+      "blib/lib/GTK/libcairo-2.dll",
+      "blib/lib/GTK/libcairo-gobject-2.dll",
+      "blib/lib/GTK/libffi-6.dll",
+      "blib/lib/GTK/libfontconfig-1.dll",
+      "blib/lib/GTK/libfreetype-6.dll",
+      "blib/lib/GTK/libgdk-3-0.dll",
+      "blib/lib/GTK/libgdk_pixbuf-2.0-0.dll",
+      "blib/lib/GTK/libgio-2.0-0.dll",
+      "blib/lib/GTK/libglib-2.0-0.dll",
+      "blib/lib/GTK/libgmodule-2.0-0.dll",
+      "blib/lib/GTK/libgobject-2.0-0.dll",
+      "blib/lib/GTK/libgtk-3-0.dll",
+      "blib/lib/GTK/libiconv-2.dll",
+      "blib/lib/GTK/libintl-8.dll",
+      "blib/lib/GTK/liblzma-5.dll",
+      "blib/lib/GTK/libpango-1.0-0.dll",
+      "blib/lib/GTK/libpangocairo-1.0-0.dll",
+      "blib/lib/GTK/libpangoft2-1.0-0.dll",
+      "blib/lib/GTK/libpangowin32-1.0-0.dll",
+      "blib/lib/GTK/libpixman-1-0.dll",
+      "blib/lib/GTK/libpng15-15.dll",
+      "blib/lib/GTK/libxml2-2.dll",
+      "blib/lib/GTK/zlib1.dll"
+    ],
+    "build-depends" : [
+      "LWP::Simple",
+      "Shell::Command"
+    ],
+    "repo-type" : "git",
+    "provides" : {
+      "Informative" : "lib/Informative.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1",
+    "description" : "Easy to use GUI Dialog box using GTK3 label, button, entry widgets",
+    "authors" : "Richard Hainsworth, aka finanalyst"
+  },
+  {
     "name" : "Task::Popular",
     "source-url" : "git://github.com/finanalyst/p6-task-popular.git",
     "perl" : "6.c",
@@ -16261,6 +16454,29 @@
     "license" : "Artistic-2.0",
     "version" : "0.0.1",
     "description" : "prove6 TAP harness for perl6"
+  },
+  {
+    "name" : "DB::Rscs",
+    "source-url" : "git://github.com/bradclawsie/DB-Rscs.git",
+    "perl" : "6.*",
+    "build-depends" : [
+      "HTTP::UserAgent",
+      "JSON::Tiny"
+    ],
+    "author" : "Brad Clawsie",
+    "depends" : [
+      "HTTP::UserAgent",
+      "JSON::Tiny"
+    ],
+    "test-depends" : [
+      "HTTP::UserAgent",
+      "JSON::Tiny"
+    ],
+    "provides" : {
+      "DB::RSCS" : "lib/DB/Rscs.pm6"
+    },
+    "version" : "0.0.2",
+    "description" : "A client library for the Ridiculously Simple Configuration System"
   },
   {
     "name" : "M",
