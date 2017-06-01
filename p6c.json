@@ -7272,6 +7272,45 @@
     "description" : "An array in a hash in an array... like a turducken"
   },
   {
+    "name" : "Audio::Libshout",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/Audio-Libshout.git"
+    },
+    "source-url" : "git://github.com/jonathanstowe/Audio-Libshout.git",
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [
+      "LibraryCheck"
+    ],
+    "resources" : [ ],
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "AccessorFacade"
+    ],
+    "provides" : {
+      "Audio::Libshout" : "lib/Audio/Libshout.pm"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META",
+      "File::Find",
+      "Shell::Command",
+      "CheckSocket"
+    ],
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "audio",
+      "streaming",
+      "utils"
+    ],
+    "version" : "0.0.10",
+    "meta6" : "0",
+    "description" : "Binding for libshout - source streaming client library for icecast",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+    ]
+  },
+  {
     "name" : "Algorithm::Elo",
     "source-url" : "https://github.com/hoelzro/p6-algorithm-elo.git",
     "perl" : "6.*",
