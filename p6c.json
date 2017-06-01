@@ -12285,146 +12285,6 @@
     "description" : "Helps calculate TF-IDF values from a given set of documents."
   },
   {
-    "name" : "Docker::File",
-    "perl" : "6.c",
-    "source-url" : "git://github.com/jnthn/p6-docker-file.git",
-    "support" : {
-      "source" : "git://github.com/jnthn/p6-docker-file.git"
-    },
-    "build-depends" : [ ],
-    "author" : "Jonathan Worthington <jnthn@jnthn.net>",
-    "auth" : "github:jnthn",
-    "depends" : [ ],
-    "test-depends" : [ ],
-    "provides" : {
-      "Docker::File" : "lib/Docker/File.pm6"
-    },
-    "tags" : [
-      "docker",
-      "dockerfile"
-    ],
-    "version" : "1.0",
-    "description" : "Parsing and generation of Dockerfiles."
-  },
-  {
-    "name" : "Lumberjack",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git@github.com:jonathanstowe/Lumberjack.git"
-    },
-    "source-url" : "git@github.com:jonathanstowe/Lumberjack.git",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [
-      "DateTime::Format"
-    ],
-    "provides" : {
-      "Lumberjack" : "lib/Lumberjack.pm"
-    },
-    "test-depends" : [
-      "Test",
-      "IO::MiddleMan"
-    ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "logger",
-      "log",
-      "logging",
-      "framework"
-    ],
-    "version" : "0.0.5",
-    "meta6" : "0",
-    "description" : "A simple logging framework.",
-    "authors" : [
-      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ]
-  },
-  {
-    "name" : "Lumberjack::Dispatcher::Syslog",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git@github.com:jonathanstowe/Lumberjack-Dispatcher-Syslog.git"
-    },
-    "source-url" : "git@github.com:jonathanstowe/Lumberjack-Dispatcher-Syslog.git",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [
-      "Lumberjack",
-      "Log::Syslog::Native"
-    ],
-    "provides" : {
-      "Lumberjack::Dispatcher::Syslog" : "lib/Lumberjack/Dispatcher/Syslog.pm"
-    },
-    "test-depends" : [ ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "logger",
-      "log",
-      "syslog",
-      "lumberjack"
-    ],
-    "version" : "0.0.2",
-    "meta6" : "0",
-    "description" : "A Syslog dispatcher for the Lumberjack logger",
-    "authors" : [
-      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ]
-  },
-  {
-    "name" : "Algorithm::Manacher",
-    "perl" : "6.c",
-    "source-url" : "git://github.com/titsuki/p6-Algorithm-Manacher.git",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "depends" : [ ],
-    "test-depends" : [ ],
-    "provides" : {
-      "Algorithm::Manacher" : "lib/Algorithm/Manacher.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "authors" : [
-      "titsuki"
-    ],
-    "description" : "a perl6 implementation of the extended Manacher's Algorithm for solving longest palindromic substring(i.e. palindrome) problem"
-  },
-  {
-    "name" : "Text::Template",
-    "source-url" : "https://github.com/nkh/P6-Text-Template.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "test-depends" : [
-      "Test",
-      "Test::META",
-      "IO::Capture::Simple"
-    ],
-    "provides" : {
-      "Text::Template" : "lib/Text/Template.pm"
-    },
-    "version" : "1.0.8",
-    "description" : "Render text template with embedded variables and Perl6 code",
-    "authors" : [
-      "Nadim Khemir"
-    ]
-  },
-  {
-    "name" : "wig",
-    "source-url" : "git://github.com/0racle/p6-wig.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "license" : "Artistic-2.0",
-    "provides" : {
-      "wig" : "lib/wig.pm"
-    },
-    "version" : "0.2.0",
-    "authors" : [
-      "Joshua Yeshouroun"
-    ],
-    "description" : "where is grep: Make grep prettier, put a wig on it!"
-  },
-  {
     "name" : "Time::Crontab",
     "source-url" : "https://github.com/ufobat/p6-time-crontab.git",
     "perl" : "6.c",
@@ -12703,34 +12563,6 @@
     "description" : "Use glot.io API: pastebin allowing execution of code"
   },
   {
-    "name" : "EuclideanRhythm",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git@github.com:jonathanstowe/EuclideanRhythm.git"
-    },
-    "source-url" : "git@github.com:jonathanstowe/EuclideanRhythm.git",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [ ],
-    "provides" : {
-      "EuclideanRhythm" : "lib/EuclideanRhythm.pm"
-    },
-    "test-depends" : [ ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "rhythm",
-      "algorithm",
-      "euclid"
-    ],
-    "version" : "0.0.1",
-    "meta6" : "0",
-    "description" : "create rhythmic patterns based on the Euclidean algorithm",
-    "authors" : [
-      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ]
-  },
-  {
     "name" : "deredere",
     "source-url" : "git://github.com/Altai-man/deredere.git",
     "perl" : "6.*",
@@ -12826,61 +12658,6 @@
     "description" : "IRC client in the reactive paradigm"
   },
   {
-    "name" : "Music::Helpers",
-    "emulates" : { },
-    "perl" : "6",
-    "support" : {
-      "source" : "git://github.com/Perl6-Noise-Gang/p6-Music-Helpers.git"
-    },
-    "source-url" : "git://github.com/Perl6-Noise-Gang/p6-Music-Helpers.git",
-    "build-depends" : [ ],
-    "superseded-by" : { },
-    "auth" : null,
-    "excludes" : { },
-    "depends" : [
-      "Audio::PortMIDI"
-    ],
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic",
-    "tags" : [
-      "Music",
-      "Midi"
-    ],
-    "provides" : {
-      "Music::Helpers" : "lib/Music/Helpers.pm"
-    },
-    "resource" : { },
-    "version" : "0.0.5",
-    "production" : false,
-    "authors" : [
-      "Pepe Schwarz <peschwa@gmail.com>"
-    ],
-    "supersedes" : { },
-    "meta6" : "0",
-    "description" : "Abstractions for handling musical content"
-  },
-  {
-    "name" : "Subset::Helper",
-    "source-url" : "git://github.com/zoffixznet/perl6-Subset-Helper.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Subset::Helper" : "lib/Subset/Helper.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::Output"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "create awesome subsets"
-  },
-  {
     "name" : "Crypt::Argon2",
     "source-url" : "git://github.com/skinkade/p6-crypt-argon2.git",
     "perl" : "6.*",
@@ -12918,33 +12695,6 @@
     "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "description" : "Port of perl whiff"
-  },
-  {
-    "name" : "HTML::MyHTML",
-    "perl" : "6.c",
-    "source-url" : "git://github.com/madcapjake/p6-myhtml.git",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "depends" : [ ],
-    "test-depends" : [ ],
-    "provides" : {
-      "HTML::MyHTML::Tree" : "lib/HTML/MyHTML/Tree.pm6",
-      "HTML::MyHTML::Raw" : "lib/HTML/MyHTML/Raw.pm6",
-      "HTML::MyHTML::Node" : "lib/HTML/MyHTML/Node.pm6",
-      "HTML::MyHTML::Namespace" : "lib/HTML/MyHTML/Namespace.pm6",
-      "HTML::MyHTML::Collection" : "lib/HTML/MyHTML/Collection.pm6",
-      "HTML::MyHTML::Status" : "lib/HTML/MyHTML/Status.pm6",
-      "HTML::MyHTML::State" : "lib/HTML/MyHTML/State.pm6",
-      "HTML::MyHTML::Encoding" : "lib/HTML/MyHTML/Encoding.pm6",
-      "HTML::MyHTML::Tag" : "lib/HTML/MyHTML/Tag.pm6",
-      "HTML::MyHTML" : "lib/HTML/MyHTML.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.3.0",
-    "authors" : [
-      "Jake Russo"
-    ],
-    "description" : "wrapper for MyHTML, a fast HTML parsing C library"
   },
   {
     "name" : "Module::Toolkit",
@@ -12992,50 +12742,6 @@
     "description" : "MAIN? Getopt semantics? Why not both?"
   },
   {
-    "name" : "App::redpanda",
-    "support" : {
-      "source" : "git://github.com/tadzik/App-redpanda.git",
-      "bugtracker" : "https://github.com/tadzik/App-redpanda/issues"
-    },
-    "source-url" : "git://github.com/tadzik/App-redpanda.git",
-    "perl" : "6.c",
-    "depends" : [
-      "Module::Toolkit",
-      "Shell::Command",
-      "File::Temp",
-      "JSON::Fast",
-      "Getopt::Type"
-    ],
-    "provides" : { },
-    "version" : "0.1",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz"
-    ],
-    "description" : "A tiny module installer"
-  },
-  {
-    "name" : "Audio::MIDI::Note",
-    "source-url" : "git://github.com/Perl6-Noise-Gang/perl6-Audio-MIDI-Note.git",
-    "perl" : "6.c",
-    "depends" : [
-      "Audio::PortMIDI",
-      "Subset::Helper"
-    ],
-    "provides" : {
-      "Audio::MIDI::Note" : "lib/Audio/MIDI/Note.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Perl6 Noise Gang"
-    ],
-    "description" : "Playable MIDI note"
-  },
-  {
     "name" : "App::MoarVM::HeapAnalyzer",
     "source-url" : "git://github.com/jnthn/p6-app-moarvm-heapanalyzer.git",
     "perl" : "6.*",
@@ -13049,31 +12755,6 @@
     "license" : "Artistic-2.0",
     "version" : "0.1",
     "description" : "MoarVM heap snapshot analysis tool"
-  },
-  {
-    "name" : "TXN::Parser",
-    "support" : {
-      "source" : "https://github.com/atweiden/txn-parser",
-      "bugtracker" : "https://github.com/atweiden/txn-parser/issues"
-    },
-    "source-url" : "git://github.com/atweiden/txn-parser.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "author" : "Andy Weidenbaum",
-    "depends" : [
-      "Digest::xxHash"
-    ],
-    "provides" : {
-      "TXN::Parser::AST" : "lib/TXN/Parser/AST.pm",
-      "TXN::Parser" : "lib/TXN/Parser.pm",
-      "TXN::Parser::Actions" : "lib/TXN/Parser/Actions.pm",
-      "X::TXN::Parser" : "lib/X/TXN/Parser.pm",
-      "TXN::Parser::Types" : "lib/TXN/Parser/Types.pm",
-      "TXN::Parser::Grammar" : "lib/TXN/Parser/Grammar.pm"
-    },
-    "license" : "Unlicense",
-    "version" : "*",
-    "description" : "Double-entry accounting ledger parser"
   },
   {
     "name" : "App::ModuleSnap",
@@ -13204,40 +12885,6 @@
     "description" : "Native bindings for JSON-C library"
   },
   {
-    "name" : "Audio::Fingerprint::Chromaprint",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git"
-    },
-    "source-url" : "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [
-      "NativeHelpers::Array"
-    ],
-    "provides" : {
-      "Audio::Fingerprint::Chromaprint" : "lib/Audio/Fingerprint/Chromaprint.pm"
-    },
-    "test-depends" : [
-      "Test::META",
-      "Audio::Sndfile"
-    ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "audio",
-      "fingerprint",
-      "acoustid",
-      "noise-gang"
-    ],
-    "version" : "0.0.1",
-    "meta6" : "0",
-    "description" : "Get audio fingerprint using the chromaprint / AcoustID library",
-    "authors" : [
-      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ]
-  },
-  {
     "name" : "App::AizuOnlineJudge",
     "source-url" : "git://github.com/titsuki/p6-App-AizuOnlineJudge.git",
     "perl" : "6.c",
@@ -13259,28 +12906,6 @@
     "license" : "Artistic-2.0",
     "version" : "*",
     "description" : "a perl6 implementation of the unofficial code submitter for Aizu Online Judge( http://judge.u-aizu.ac.jp/onlinejudge/index.jsp ).",
-    "authors" : [
-      "titsuki"
-    ]
-  },
-  {
-    "name" : "Terminal::Readsecret",
-    "source-url" : "git://github.com/titsuki/p6-Terminal-Readsecret.git",
-    "perl" : "6.c",
-    "resources" : [
-      "libraries/readsecret"
-    ],
-    "build-depends" : [
-      "LibraryMake"
-    ],
-    "depends" : [ ],
-    "test-depends" : [ ],
-    "provides" : {
-      "Terminal::Readsecret" : "lib/Terminal/Readsecret.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.0.3",
-    "description" : "A perl6 binding of readsecret ( https://github.com/dmeranda/readsecret ) for reading secrets or passwords from a command line secretly (not being displayed)",
     "authors" : [
       "titsuki"
     ]
@@ -13399,21 +13024,6 @@
     "description" : "Command line app for accessing football(soccer) data"
   },
   {
-    "name" : "Text::Diff::Sift4",
-    "perl" : "6.c",
-    "source-url" : "git://github.com/masterduke17/text-diff-sift4.git",
-    "depends" : [ ],
-    "provides" : {
-      "Text::Diff::Sift4" : "lib/Text/Diff/Sift4.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "1.3.0",
-    "authors" : [
-      "Daniel Green"
-    ],
-    "description" : "A quick string distance algorithm"
-  },
-  {
     "name" : "Acme::Anguish",
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-Acme-Anguish.git"
@@ -13435,39 +13045,6 @@
       "Zoffix Znet"
     ],
     "description" : "Use Anguish programming language in your Perl 6 programs"
-  },
-  {
-    "name" : "Device::Velleman::K8055",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git://github.com/jonathanstowe/Device-Velleman-K8055.git"
-    },
-    "source-url" : "git://github.com/jonathanstowe/Device-Velleman-K8055.git",
-    "build-depends" : [
-      "LibraryMake",
-      "Shell::Command"
-    ],
-    "resources" : [
-      "libraries/k8055"
-    ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [ ],
-    "provides" : {
-      "Device::Velleman::K8055" : "lib/Device/Velleman/K8055.pm"
-    },
-    "test-depends" : [ ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "USB",
-      "device",
-      "experimental"
-    ],
-    "version" : "0.0.2",
-    "meta6" : "0",
-    "description" : "A Perl 6 interface to the Velleman USB Experiment Kit",
-    "authors" : [
-      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ]
   },
   {
     "name" : "Getopt::Kinoko",
@@ -13514,36 +13091,6 @@
       "Zoffix Znet"
     ],
     "description" : "Selectively run tests based on the environment and installed modules and libs"
-  },
-  {
-    "name" : "Path::Map",
-    "source-url" : "git://github.com/fjwhittle/p6-Path-Map.git",
-    "perl" : "6.c",
-    "auth" : "github:fjwhittle",
-    "depends" : [ ],
-    "provides" : {
-      "Path::Map" : "lib/Path/Map.pm6"
-    },
-    "test-depends" : [ ],
-    "license" : "Artistic-2.0",
-    "version" : "0.3",
-    "description" : "Hash tree based path router"
-  },
-  {
-    "name" : "Weather",
-    "source-url" : "git://github.com/palapitta/Weather",
-    "depends" : [
-      "JSON::Fast",
-      "Net::HTTP::GET"
-    ],
-    "provides" : {
-      "Weather" : "lib/Weather.pm6"
-    },
-    "version" : "0.2.1",
-    "authors" : [
-      "Rajkumar Reddy"
-    ],
-    "description" : "Get Weather info"
   },
   {
     "name" : "Terminal::Width",
@@ -13618,40 +13165,6 @@
     ]
   },
   {
-    "name" : "Movieinfo",
-    "source-url" : "git://github.com/palapitta/Movieinfo",
-    "depends" : [
-      "JSON::Fast",
-      "Net::HTTP::GET"
-    ],
-    "provides" : {
-      "Movieinfo" : "lib/Movieinfo.pm6"
-    },
-    "version" : "0.1.2",
-    "authors" : [
-      "Rajkumar Reddy"
-    ],
-    "description" : "Get Movie Info"
-  },
-  {
-    "name" : "IO::TailFile",
-    "source-url" : "git://github.com/skaji/perl6-tail.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "test-depends" : [ ],
-    "provides" : {
-      "IO::TailFile" : "lib/IO/TailFile.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "description" : "emulation of tail -f",
-    "authors" : [
-      "Shoichi Kaji"
-    ]
-  },
-  {
     "name" : "Hashids",
     "support" : {
       "source" : "https://github.com/kalkin/perl6-hashids.git",
@@ -13709,18 +13222,6 @@
     "description" : "Bindings to DuckDuckGo search API"
   },
   {
-    "name" : "Bencode",
-    "source-url" : "git://github.com/palapitta/Bencode",
-    "provides" : {
-      "Bencode" : "lib/Bencode.pm6"
-    },
-    "version" : "0.1.1",
-    "authors" : [
-      "Rajkumar Reddy"
-    ],
-    "description" : "Encode and Decode Bencoding strings"
-  },
-  {
     "name" : "Algorithm::NaiveBayes",
     "source-url" : "git://github.com/titsuki/p6-Algorithm-NaiveBayes.git",
     "perl" : "6.c",
@@ -13745,119 +13246,6 @@
     ]
   },
   {
-    "name" : "Config::Netrc",
-    "source-url" : "git://github.com/Altai-man/perl6-Config-Netrc.git",
-    "support" : {
-      "bugtracker" : "https://github.com/Altai-man/perl6-Config-Netrc/issues"
-    },
-    "perl" : "6.*",
-    "author" : "github:Altai-man",
-    "depends" : [ ],
-    "provides" : {
-      "Config::Netrc" : "lib/Config/Netrc.pm6",
-      "Config::Netrc::Writer" : "lib/Config/Netrc/Writer.pm6"
-    },
-    "tags" : [
-      "Grammar",
-      "Config"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "description" : ".netrc file parser module for Perl 6"
-  },
-  {
-    "name" : "Sparrowdo",
-    "source-url" : "https://github.com/melezhik/sparrowdo.git",
-    "support" : {
-      "source" : "https://github.com/melezhik/sparrowdo.git",
-      "bugtracker" : "https://github.com/melezhik/sparrowdo/issues"
-    },
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [
-      "Terminal::ANSIColor",
-      "JSON::Tiny",
-      "Config::Simple"
-    ],
-    "license" : "Artistic-2.0",
-    "provides" : {
-      "Sparrowdo::Core::DSL::Service" : "lib/Sparrowdo/Core/DSL/Service.pm6",
-      "Sparrowdo::Core::DSL::CPAN::Package" : "lib/Sparrowdo/Core/DSL/CPAN/Package.pm6",
-      "Sparrowdo::Core::DSL::Assert" : "lib/Sparrowdo/Core/DSL/Assert.pm6",
-      "Sparrowdo::Core::DSL::Ssh" : "lib/Sparrowdo/Core/DSL/Ssh.pm6",
-      "Sparrowdo::Core::DSL::Package" : "lib/Sparrowdo/Core/DSL/Package.pm6",
-      "Sparrowdo::Core::DSL::User" : "lib/Sparrowdo/Core/DSL/User.pm6",
-      "Sparrowdo::Core::DSL::Template" : "lib/Sparrowdo/Core/DSL/Template.pm6",
-      "Sparrowdo" : "lib/Sparrowdo.pm6",
-      "Sparrowdo::Core::DSL::Directory" : "lib/Sparrowdo/Core/DSL/Directory.pm6",
-      "Sparrowdo::Core::DSL::File" : "lib/Sparrowdo/Core/DSL/File.pm6",
-      "Sparrowdo::Core::DSL::Group" : "lib/Sparrowdo/Core/DSL/Group.pm6",
-      "Sparrowdo::Core::DSL::Bash" : "lib/Sparrowdo/Core/DSL/Bash.pm6"
-    },
-    "version" : "0.0.18",
-    "authors" : [
-      "Alexey Melezhik"
-    ],
-    "description" : "Configuration management tool based on sparrow plugins system"
-  },
-  {
-    "name" : "Slang::Mosdef",
-    "source-url" : "git://github.com/bduggan/mosdef.git",
-    "perl" : "6.*",
-    "author" : "github:bduggan",
-    "depends" : [ ],
-    "provides" : {
-      "Slang::Mosdef" : "lib/Slang/Mosdef.pm"
-    },
-    "version" : "0.0.1",
-    "description" : "Use def and \u03bb as declarators."
-  },
-  {
-    "name" : "Text::Wrap",
-    "source-url" : "git://github.com/jkramer/p6-Text-Wrap.git",
-    "perl" : "6.*",
-    "build-depends" : [ ],
-    "author" : "Jonas Kramer <jkramer@mark17.net>",
-    "depends" : [ ],
-    "repo-type" : "git",
-    "provides" : {
-      "Text::Wrap" : "lib/Text/Wrap.pm6"
-    },
-    "test-depends" : [ ],
-    "version" : "0.0.1",
-    "description" : "Wrap text."
-  },
-  {
-    "name" : "Text::Tabs",
-    "source-url" : "git://github.com/Altai-man/perl6-Text-Tabs.git",
-    "perl" : "6.c",
-    "author" : "github:Altai-man",
-    "depends" : [ ],
-    "provides" : {
-      "Text::Tabs" : "lib/Text/Tabs.pm6"
-    },
-    "tags" : [
-      ""
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "0.1",
-    "description" : "Perl 6 port of Perl's Text::Tabs"
-  },
-  {
-    "name" : "TinyID",
-    "source-url" : "git://github.com/bbkr/TinyID.git",
-    "perl" : "6.c",
-    "license" : "Artistic-2.0",
-    "provides" : {
-      "TinyID" : "lib/TinyID.pm"
-    },
-    "version" : "1.0.0",
-    "authors" : [
-      "Pawe\u0142 bbkr Pabian"
-    ],
-    "description" : "Shorten and obfuscate IDs."
-  },
-  {
     "name" : "DateTime::DST",
     "source-url" : "git://github.com/zostay/DateTime-DST.git",
     "perl" : "6.*",
@@ -13869,63 +13257,6 @@
     "license" : "Artistic-2.0",
     "version" : "0.1",
     "description" : "Make localtime[8] available as is-dst to Perl 6"
-  },
-  {
-    "name" : "File::Presence",
-    "support" : {
-      "source" : "https://github.com/atweiden/file-presence",
-      "bugtracker" : "https://github.com/atweiden/file-presence/issues"
-    },
-    "source-url" : "git://github.com/atweiden/file-presence.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "author" : "Andy Weidenbaum",
-    "provides" : {
-      "File::Presence" : "lib/File/Presence.pm"
-    },
-    "license" : "Unlicense",
-    "version" : "0.0.3",
-    "description" : "Check permissions of potentially nonexistent files"
-  },
-  {
-    "name" : "Operator::defined-alternation",
-    "source-url" : "git://github.com/gfldex/perl6-operator-defined-alternation.git",
-    "support" : {
-      "source" : "https://github.com/gfldex/perl6-operator-defined-alternation"
-    },
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Operator::defined-alternation" : "lib/Operator/defined-alternation.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.0.1",
-    "description" : "Provides a ?? !! equivalent that tests for definedness instread of trueness.",
-    "authors" : [
-      "Wenzel P. P. Peppmeyer"
-    ]
-  },
-  {
-    "name" : "Test::NoTabs",
-    "source-url" : "git://github.com/Altai-man/perl6-Test-NoTabs.git",
-    "support" : {
-      "bugtracker" : "https://github.com/Altai-man/perl6-Test-NoTabs/issues"
-    },
-    "perl" : "6.*",
-    "author" : "github:Altai-man",
-    "depends" : [ ],
-    "provides" : {
-      "Test::NoTabs" : "lib/Test/NoTabs.pm6"
-    },
-    "tags" : [
-      "Testing"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "0.1",
-    "description" : "Test module for tabs checking"
   },
   {
     "name" : "RT::REST::Client",
@@ -14010,48 +13341,6 @@
     "description" : "Render many pod6-files into one (big) html-file."
   },
   {
-    "name" : "Desktop::Notify",
-    "source-url" : "git://github.com/frithnanth/perl6-Desktop-Notify",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "test-depends" : [ ],
-    "provides" : {
-      "Desktop::Notify" : "lib/Desktop/Notify.pm6"
-    },
-    "tags" : [
-      "desktop",
-      "notification",
-      "libnotify",
-      "nativecall"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "0.2.0",
-    "description" : "A simple interface to libnotify",
-    "authors" : [
-      "Fernando Santagata"
-    ]
-  },
-  {
-    "name" : "Test::Deeply::Relaxed",
-    "source-url" : "https://github.com/ppentchev/perl6-Test-Deeply-Relaxed.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [ ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Test::Deeply::Relaxed" : "lib/Test/Deeply/Relaxed.pm6"
-    },
-    "version" : "0.1.1.dev1",
-    "authors" : [
-      "Peter Pentchev"
-    ],
-    "description" : "Compare two complex data structures loosely"
-  },
-  {
     "name" : "OAuth2::Client::Google",
     "source-url" : "git://github.com/bduggan/p6-oauth2-client-google.git",
     "perl" : "6.*",
@@ -14068,98 +13357,6 @@
       "Brian Duggan"
     ],
     "description" : "Authenticate against Google's OAuth2 API."
-  },
-  {
-    "name" : "Getopt::Std",
-    "source-url" : "https://github.com/ppentchev/perl6-Getopt-Std.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [ ],
-    "test-depends" : [
-      "Test::Deeply::Relaxed",
-      "Test::META"
-    ],
-    "provides" : {
-      "Getopt::Std" : "lib/Getopt/Std.pm6"
-    },
-    "version" : "1.0.0.dev1",
-    "authors" : [
-      "Peter Pentchev"
-    ],
-    "description" : "Process single-character options with option clustering"
-  },
-  {
-    "name" : "Math::Arrow",
-    "source-url" : "git://github.com/ajs/perl6-Math-Arrow",
-    "perl" : "6.c",
-    "source-type" : "git",
-    "depends" : [ ],
-    "provides" : {
-      "Math::Arrow" : "lib/Math/Arrow.pm"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.1.0",
-    "description" : "Knuth arrow notation in Perl 6"
-  },
-  {
-    "name" : "CoreHackers::Sourcery",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-CoreHackers-Sourcery.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "CoreHackers::Sourcery" : "lib/CoreHackers/Sourcery.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::When",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "2.001005",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Helper for showing actual source code locations of core subs and methods"
-  },
-  {
-    "name" : "Doublephone",
-    "perl" : "6.c",
-    "support" : {
-      "email" : "jns+gh@gellyfish.co.uk",
-      "source" : "git://github.com/jonathanstowe/Doublephone.git",
-      "bugtracker" : "https://github.com/jonathanstowe/Doublephone/issues"
-    },
-    "source-url" : "git://github.com/jonathanstowe/Doublephone.git",
-    "build-depends" : [
-      "Shell::Command",
-      "LibraryMake"
-    ],
-    "resources" : [
-      "libraries/double_metaphone"
-    ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [
-      "LibraryMake"
-    ],
-    "provides" : {
-      "Doublephone" : "lib/Doublephone.pm"
-    },
-    "test-depends" : [ ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "search",
-      "phonetic",
-      "soundex",
-      "metaphone"
-    ],
-    "version" : "0.0.3",
-    "meta6" : "0",
-    "description" : "Implementation of the Double Metaphone phonetic encoding algorithm",
-    "authors" : [
-      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ]
   },
   {
     "name" : "MetaCPAN::Favorite",
@@ -14181,25 +13378,6 @@
     "authors" : [
       "Shoichi Kaji"
     ]
-  },
-  {
-    "name" : "HTTP::HPACK",
-    "support" : {
-      "source" : "git://github.com/jnthn/p6-http-hpack.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "HTTP::HPACK" : "lib/HTTP/HPACK.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "0.9",
-    "authors" : [
-      "Jonathan Worthington"
-    ],
-    "description" : "Implementation of RFC 7541 HPACK: Header Compression for HTTP/2"
   },
   {
     "name" : "Rakudo::Slippy::Semilist",
@@ -14319,57 +13497,6 @@
     "description" : "Interface to ESCPOS printers"
   },
   {
-    "name" : "CompUnit::Search",
-    "perl" : "6",
-    "source-url" : "git://github.com/shantanubhadoria/p6-CompUnit-Search.git",
-    "support" : {
-      "source" : "git://github.com/shantanubhadoria/p6-CompUnit-Search.git",
-      "bugtracker" : "git://github.com/shantanubhadoria/p6-CompUnit-Search/issues"
-    },
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "author" : "Shantanu Bhadoria <shantanu@cpan.org>",
-    "auth" : "github:shantanubhadoria",
-    "depends" : [ ],
-    "license" : "Artistic",
-    "tags" : [
-      "CompUnit",
-      "Search",
-      "Puggable",
-      "Module",
-      "Class"
-    ],
-    "provides" : {
-      "CompUnit::Search" : "lib/CompUnit/Search.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "2.0.0",
-    "authors" : [
-      "Shantanu Bhadoria <shantanu@cpan.org>"
-    ],
-    "description" : "Search compunits, modules and classes in installed repositories"
-  },
-  {
-    "name" : "PKCS5",
-    "source-url" : "git://github.com/MARTIMM/PKCS5",
-    "perl" : "6",
-    "depends" : [
-      "Digest::HMAC",
-      "OpenSSL"
-    ],
-    "provides" : {
-      "PKCS5::PBKDF2" : "lib/PKCS5/PBKDF2.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "v0.1.6.2",
-    "description" : "PKCS #5 with PBKDF2",
-    "authors" : [
-      "Marcel Timmerman"
-    ]
-  },
-  {
     "name" : "Acme::Sudoku",
     "source-url" : "git@github.com:pierre-vigier/Perl6-Acme-Sudoku.git",
     "perl" : "6.c",
@@ -14384,27 +13511,6 @@
     "authors" : [
       "github:pierre-vigier"
     ]
-  },
-  {
-    "name" : "Sparrowdo::Cpm",
-    "source-url" : "https://github.com/melezhik/sparrowdo-cpm.git",
-    "support" : {
-      "source" : "https://github.com/melezhik/sparrowdo-cpm.git",
-      "bugtracker" : "https://github.com/melezhik/sparrowdo-cpm/issues"
-    },
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [
-      "Sparrowdo"
-    ],
-    "provides" : {
-      "Sparrowdo::Cpm" : "lib/Sparrowdo/Cpm.pm6"
-    },
-    "version" : "*",
-    "authors" : [
-      "Alexey Melezhik"
-    ],
-    "description" : "Sparrowdo module to install CPAN modules using App::cpm - a fast CPAN module installer"
   },
   {
     "name" : "DOM::Tiny",
@@ -14472,27 +13578,6 @@
     ]
   },
   {
-    "name" : "Sparrowdo::RemoteFile",
-    "source-url" : "https://github.com/melezhik/remote-file.git",
-    "support" : {
-      "source" : "https://github.com/melezhik/remote-file.git",
-      "bugtracker" : "https://github.com/melezhik/remote-file/issues"
-    },
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [
-      "Sparrowdo"
-    ],
-    "provides" : {
-      "Sparrowdo::RemoteFile" : "lib/Sparrowdo/RemoteFile.pm6"
-    },
-    "version" : "*",
-    "authors" : [
-      "Alexey Melezhik"
-    ],
-    "description" : "Fetch remote file using http"
-  },
-  {
     "name" : "Sparrowdo::Archive",
     "source-url" : "https://github.com/melezhik/sparrowdo-archive.git",
     "support" : {
@@ -14558,67 +13643,6 @@
     "authors" : [
       "Sam Gillespie"
     ]
-  },
-  {
-    "name" : "Binary::Structured",
-    "source-url" : "git://github.com/avuserow/perl6-binary-structured.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Binary::Structured" : "lib/Binary/Structured.pm6"
-    },
-    "version" : "0.0.2",
-    "authors" : [
-      "Adrian Kreher"
-    ],
-    "description" : "Read and write binary formats defined by classes"
-  },
-  {
-    "name" : "TXN::Remarshal",
-    "support" : {
-      "source" : "https://github.com/atweiden/txn-remarshal",
-      "bugtracker" : "https://github.com/atweiden/txn-remarshal/issues"
-    },
-    "source-url" : "git://github.com/atweiden/txn-remarshal.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "author" : "Andy Weidenbaum",
-    "depends" : [
-      "File::Presence",
-      "TXN::Parser"
-    ],
-    "provides" : {
-      "X::TXN::Remarshal" : "lib/X/TXN/Remarshal.pm",
-      "TXN::Remarshal" : "lib/TXN/Remarshal.pm"
-    },
-    "license" : "Unlicense",
-    "version" : "*",
-    "description" : "Double-entry accounting ledger file format converter"
-  },
-  {
-    "name" : "HTTP::Request::Supply",
-    "source-url" : "git://github.com/zostay/HTTP-Request-Supply.git",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git://github.com/zostay/HTTP-Request-Supply.git"
-    },
-    "build-depends" : [ ],
-    "auth" : "github:zostay",
-    "depends" : [ ],
-    "license" : "Artistic-2.0",
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "provides" : {
-      "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6"
-    },
-    "version" : "0.1.1",
-    "description" : "A modern HTTP request parser",
-    "authors" : [
-      "Sterling Hanenkamp <hanenkamp@cpan.org>"
-    ],
-    "meta6" : "0"
   },
   {
     "name" : "DispatchMap",
@@ -14759,24 +13783,6 @@
     ]
   },
   {
-    "name" : "Geo::IP2Location::Lite",
-    "source-url" : "git://github.com/leejo/geo-ip2location-lite-p6",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [
-      "NativeCall"
-    ],
-    "provides" : {
-      "Geo::IP2Location::Lite" : "lib/Geo/IP2Location/Lite.pm"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.9.0",
-    "authors" : [
-      "github:leejo"
-    ],
-    "description" : "Lightweight lookup of IPv4 address details using BIN files from http://www.ip2location.com"
-  },
-  {
     "name" : "Getopt::ForClass",
     "source-url" : "git://github.com/zostay/p6-Getopt-ForClass.git",
     "perl" : "6.c",
@@ -14850,22 +13856,6 @@
     ]
   },
   {
-    "name" : "JS::Minify",
-    "source-url" : "https://github.com/scmorrison/JS-Minify.git",
-    "perl" : "6.*",
-    "author" : "Sam Morrison <sam@samcm.com>",
-    "depends" : [ ],
-    "test-depends" : [
-      "Test::Output"
-    ],
-    "provides" : {
-      "JS::Minify" : "lib/JS/Minify.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.0.2",
-    "description" : "Perl 6 JavaScript minifier"
-  },
-  {
     "name" : "Crypt::RSA",
     "source-url" : "git://github.com/bduggan/p6-crypt-rsa.git",
     "perl" : "6.c",
@@ -14925,35 +13915,6 @@
       "source" : "https://github.com/tbrowder/Net-IP-Lite-Perl6",
       "bugtracker" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/issues"
     },
-    "source-url" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/archive/0.1.2.zip",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "tags" : [
-      "Net",
-      "IP",
-      "IP address",
-      "IPv4",
-      "IPv6"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Net::IP::Lite" : "lib/Net/IP/Lite.pm6"
-    },
-    "license" : "Artistic 2.0",
-    "version" : "0.1.2",
-    "authors" : [
-      "Tom Browder <tom.browder@gmail.com>"
-    ],
-    "description" : "Provides utility functions for dealing with IPv4 and IPv6 addresses."
-  },
-  {
-    "name" : "Net::IP::Lite",
-    "support" : {
-      "source" : "https://github.com/tbrowder/Net-IP-Lite-Perl6",
-      "bugtracker" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/issues"
-    },
     "source-url" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/archive/0.1.4.zip",
     "perl" : "6.c",
     "resources" : [ ],
@@ -14999,74 +13960,6 @@
     "description" : "Sparrowdo module to manage chef users"
   },
   {
-    "name" : "Log::Async",
-    "perl" : "6.c",
-    "source-url" : "git://github.com/bduggan/p6-log-async.git",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "license" : "Perl",
-    "test-depends" : [ ],
-    "tags" : [
-      "log",
-      "logging",
-      "logger",
-      "async",
-      "asynchronous"
-    ],
-    "provides" : {
-      "Log::Async::Context" : "lib/Log/Async/Context.pm6",
-      "Log::Async::CommandLine" : "lib/Log/Async/CommandLine.pm6",
-      "Log::Async" : "lib/Log/Async.pm6"
-    },
-    "version" : "0.0.3",
-    "authors" : [
-      "Brian Duggan"
-    ],
-    "description" : "Asynchronous logging with supplies and taps"
-  },
-  {
-    "name" : "CompUnit::DynamicLib",
-    "source-url" : "git://github.com/zostay/p6-CompUnit-DynamicLib.git",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git://github.com/zostay/p6-CompUnit-DynamicLib.git"
-    },
-    "build-depends" : [ ],
-    "auth" : "github:zostay",
-    "depends" : [ ],
-    "license" : "Artistic",
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "provides" : {
-      "CompUnit::DynamicLib" : "lib/CompUnit/DynamicLib.pm6"
-    },
-    "version" : "0.2.1",
-    "description" : "Load modules from temporarily included locations",
-    "authors" : [
-      "Sterling Hanenkamp <hanenkamp@cpan.org>"
-    ],
-    "meta6" : "0"
-  },
-  {
-    "name" : "Concurrent::Channelify",
-    "perl" : "v6",
-    "source-url" : "git://github.com/gfldex/perl6-concurrent-channelify.git",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "test-depends" : [ ],
-    "provides" : {
-      "Concurrent::Channelify" : "lib/Concurrent/Channelify.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.0.1",
-    "authors" : [
-      "Wenzel P. P. Peppmeyer"
-    ],
-    "description" : "turn a lazy list into an auto-threading lazy list"
-  },
-  {
     "name" : "DNS::Zone",
     "source-url" : "https://github.com/jsimonet/dns-zone.git",
     "perl" : "6.c",
@@ -15098,36 +13991,6 @@
       "Julien Simonet"
     ],
     "description" : "Parses a DNS zone and returns objects to manipulate it."
-  },
-  {
-    "name" : "URI::FetchFile",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git://github.com/jonathanstowe/URI-FetchFile.git"
-    },
-    "source-url" : "git://github.com/jonathanstowe/URI-FetchFile.git",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [ ],
-    "provides" : {
-      "URI::FetchFile" : "lib/URI/FetchFile.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "download",
-      "utility",
-      "http"
-    ],
-    "version" : "0.0.1",
-    "meta6" : "0",
-    "description" : "retrieve a file from the internet by the best available method",
-    "authors" : [
-      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-    ]
   },
   {
     "name" : "Monitor::Monit",
@@ -15188,34 +14051,6 @@
     "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
     "authors" : [
       "titsuki"
-    ]
-  },
-  {
-    "name" : "Pod::Render",
-    "source-url" : "git://github.com/MARTIMM/pod-render.git",
-    "perl" : "6",
-    "resources" : [
-      "pod6.css",
-      "google-code-prettify/desert.css",
-      "google-code-prettify/doxy.css",
-      "google-code-prettify/prettify.css",
-      "google-code-prettify/sons-of-obsidian.css",
-      "google-code-prettify/sunburst.css",
-      "google-code-prettify/prettify.js",
-      "google-code-prettify/run_prettify.js"
-    ],
-    "depends" : [
-      "Pod::To::HTML",
-      "Pod::To::Markdown"
-    ],
-    "provides" : {
-      "Pod::Render" : "lib/Pod/Render.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "v0.7.2.2",
-    "description" : "Render pod docs to html, pdf or md",
-    "authors" : [
-      "Marcel Timmerman"
     ]
   },
   {
@@ -15367,49 +14202,6 @@
     "description" : "Generate simple, interleafable, HTML tags."
   },
   {
-    "name" : "CSS::Declarations",
-    "source-url" : "git://github.com/p6-css/CSS-Declarations-p6.git",
-    "perl" : "6.*",
-    "auth" : "github:p6-css",
-    "depends" : [
-      "CSS::Module",
-      "CSS::Writer",
-      "Color"
-    ],
-    "provides" : {
-      "CSS::Declarations::Units" : "lib/CSS/Declarations/Units.pm",
-      "CSS::Declarations::Box" : "lib/CSS/Declarations/Box.pm",
-      "CSS::Declarations::Property" : "lib/CSS/Declarations/Property.pm",
-      "CSS::Declarations::Edges" : "lib/CSS/Declarations/Edges.pm",
-      "CSS::Declarations::Font" : "lib/CSS/Declarations/Font.pm",
-      "CSS::Declarations" : "lib/CSS/Declarations.pm"
-    },
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "css"
-    ],
-    "version" : "0.3.1",
-    "description" : "CSS property manipulation library"
-  },
-  {
-    "name" : "WaitGroup",
-    "source-url" : "git://github.com/skaji/perl6-WaitGroup.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "test-depends" : [ ],
-    "provides" : {
-      "WaitGroup" : "lib/WaitGroup.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "description" : "sys.WaitGroup in perl6",
-    "authors" : [
-      "Shoichi Kaji"
-    ]
-  },
-  {
     "name" : "Manifesto",
     "perl" : "6.c",
     "support" : {
@@ -15481,73 +14273,6 @@
     "description" : "A simple evolutionanry algorithm in Perl6",
     "authors" : [
       "Sam Gillespie"
-    ]
-  },
-  {
-    "name" : "UNIX::Daemonize",
-    "source-url" : "git://github.com/hipek8/p6-UNIX-Daemonize.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "depends" : [
-      "NativeCall"
-    ],
-    "test-depends" : [
-      "Test",
-      "Test::When",
-      "Test::META"
-    ],
-    "provides" : {
-      "UNIX::Daemonize" : "lib/UNIX/Daemonize.pm6",
-      "UNIX::Daemonize::NativeSymbols" : "lib/UNIX/Daemonize/NativeSymbols.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.0.3",
-    "description" : "configurable daemonizing tool written in Perl 6",
-    "authors" : [
-      "Pawe\u0142 Szulc"
-    ]
-  },
-  {
-    "name" : "JSON::Hjson",
-    "source-url" : "git://github.com/akiym/JSON-Hjson.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "test-depends" : [
-      "JSON::Tiny",
-      "Test::META"
-    ],
-    "provides" : {
-      "JSON::Hjson" : "lib/JSON/Hjson.pm6",
-      "JSON::Hjson::Grammar" : "lib/JSON/Hjson/Grammar.pm6",
-      "JSON::Hjson::Actions" : "lib/JSON/Hjson/Actions.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "description" : "Human JSON (Hjson) deserializer",
-    "authors" : [
-      "Takumi Akiyama"
-    ]
-  },
-  {
-    "name" : "IRC::TextColor",
-    "support" : {
-      "source" : "git://github.com/samcv/IRC-TextColor.git",
-      "bugtracker" : "https://github.com/samcv/IRC-TextColor/issues"
-    },
-    "source-url" : "git://github.com/samcv/IRC-TextColor.git",
-    "perl" : "6.*",
-    "auth" : "github:samcv",
-    "provides" : {
-      "IRC::TextColor" : "IRC/TextColor.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.3.0",
-    "description" : "Color/Style text for IRC, and convert ANSI color from terminals into IRC coloring",
-    "authors" : [
-      "Samantha McVey"
     ]
   },
   {
