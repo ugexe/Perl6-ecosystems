@@ -1999,7 +1999,8 @@
       "Digest",
       "HTTP::MultiPartParser",
       "File::Find",
-      "File::Temp"
+      "File::Temp",
+      "File::Directory::Tree"
     ],
     "provides" : {
       "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
