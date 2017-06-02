@@ -5363,6 +5363,21 @@
     "description" : "Hannover Perl Mongers."
   },
   {
+    "name" : "Operator::feq",
+    "source-url" : "git://github.com/tony-o/perl6-operator-feq.git",
+    "perl" : "6.*",
+    "auth" : "github:tony-o",
+    "depends" : [
+      "Text::Levenshtein::Damerau"
+    ],
+    "provides" : {
+      "Operator::feq" : "lib/Operator/feq.pm6",
+      "Operator::feq::Levenshtein" : "lib/Operator/feq/Levenshtein.pm6"
+    },
+    "version" : "0.1.1",
+    "description" : "Adds a fuzzy matching operator for clean and fuzzy string matching in 'if' statements"
+  },
+  {
     "name" : "SDL2::Raw",
     "source-url" : "git://github.com/timo/SDL2_Raw-p6.git",
     "perl" : "6.*",
@@ -12061,6 +12076,26 @@
     "version" : "0.0.7",
     "authors" : "Salvador Ortiz <sortiz@cpan.com>",
     "description" : "ODBC Database connectivity for Perl 6"
+  },
+  {
+    "name" : "Acme::Skynet",
+    "source-url" : "git://github.com/kmwallio/Acme-Skynet.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "depends" : [
+      "Lingua::EN::Stem::Porter"
+    ],
+    "provides" : {
+      "Acme::Skynet" : "lib/Acme/Skynet.pm6",
+      "Acme::Skynet::DumbDown" : "lib/Acme/Skynet/DumbDown.pm6",
+      "Acme::Skynet::ChainLabel" : "lib/Acme/Skynet/ChainLabel.pm6",
+      "Acme::Skynet::ID3" : "lib/Acme/Skynet/ID3.pm6"
+    },
+    "version" : "0.0.3",
+    "authors" : [
+      "KM Wallio"
+    ],
+    "description" : "Machine Learnings for your Perls6."
   },
   {
     "name" : "Algorithm::SetUnion",
