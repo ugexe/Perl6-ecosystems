@@ -18107,5 +18107,33 @@
       "Andr\u00e9 Br\u00e1s"
     ],
     "description" : "A simple logging class"
+  },
+  {
+    "name" : "Proc::Q",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-Proc-Q.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "RakudoPrereq"
+    ],
+    "provides" : {
+      "Proc::Q" : "lib/Proc/Q.pm6"
+    },
+    "test-depends" : [
+      "Testo",
+      "Test::Notice",
+      "Test::META"
+    ],
+    "tags" : [
+      "proc",
+      "process"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Queue up and run a herd of Procs"
   }
 ]
