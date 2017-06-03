@@ -18135,5 +18135,29 @@
       "Zoffix Znet"
     ],
     "description" : "Queue up and run a herd of Procs"
+  },
+  {
+    "name" : "WhereList",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-WhereList.git"
+    },
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "WhereList" : "lib/WhereList.pm6"
+    },
+    "test-depends" : [
+      "Testo",
+      "Test::META"
+    ],
+    "tags" : [
+      "lists"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001002",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Simpler `where` constraints for items of lists"
   }
 ]
