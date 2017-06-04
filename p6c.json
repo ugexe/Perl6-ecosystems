@@ -18165,5 +18165,33 @@
       "Zoffix Znet"
     ],
     "description" : "Simpler `where` constraints for items of lists"
+  },
+  {
+    "name" : "Temp::Path",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-Temp-Path.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "Digest::SHA",
+      "File::Directory::Tree",
+      "RakudoPrereq"
+    ],
+    "provides" : {
+      "Temp::Path" : "lib/Temp/Path.pm6"
+    },
+    "test-depends" : [
+      "Testo",
+      "Test::META"
+    ],
+    "tags" : [
+      "filesystem"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Make a temporary path, file, or directory"
   }
 ]
