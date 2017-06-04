@@ -17970,6 +17970,10 @@
       "JSON::Fast"
     ],
     "provides" : {
+      "LibYAML::Parser" : "lib/LibYAML/Parser.pm6",
+      "LibYAML::Loader::Event" : "lib/LibYAML/Loader/Event.pm6",
+      "LibYAML::Loader::TestSuite" : "lib/LibYAML/Loader/TestSuite.pm6",
+      "LibYAML::Emitter" : "lib/LibYAML/Emitter.pm6",
       "LibYAML" : "lib/LibYAML.pm6"
     },
     "tags" : [
@@ -17981,7 +17985,8 @@
     "version" : "0.2.1",
     "authors" : [
       "Curt Tilmes <ctilmes@cpan.org>",
-      "Ingy d\u00f6t Net <ingy@cpan.org>"
+      "Ingy d\u00f6t Net <ingy@cpan.org>",
+      "Tina M\u00fcller <tinita@cpan.org>"
     ],
     "description" : "Perl6 bindings for LibYAML"
   },
