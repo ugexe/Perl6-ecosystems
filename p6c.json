@@ -2344,6 +2344,24 @@
     "description" : "Simple POP3 Client"
   },
   {
+    "name" : "Net::IMAP",
+    "source-url" : "git://github.com/retupmoca/P6-Net-IMAP.git",
+    "perl" : "6.*",
+    "author" : "github:retupmoca",
+    "depends" : [
+      "Email::MIME",
+      "IO::Socket::SSL"
+    ],
+    "provides" : {
+      "Net::IMAP::Message" : "lib/Net/IMAP/Message.pm6",
+      "Net::IMAP::Simple" : "lib/Net/IMAP/Simple.pm6",
+      "Net::IMAP" : "lib/Net/IMAP.pm6",
+      "Net::IMAP::Raw" : "lib/Net/IMAP/Raw.pm6"
+    },
+    "version" : "1.0.0",
+    "description" : "Simple IMAP Client"
+  },
+  {
     "name" : "Digest::HMAC",
     "source-url" : "git://github.com/retupmoca/P6-Digest-HMAC.git",
     "perl" : "6.*",
