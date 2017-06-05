@@ -4596,6 +4596,20 @@
     "description" : "Parse indented text in Perl 6"
   },
   {
+    "name" : "WebService::Justcoin",
+    "source-url" : "git://github.com/dagurval/p6-webservice-justcoin.git",
+    "perl" : "6.*",
+    "author" : "Dagur Valberg Johannsson",
+    "depends" : [
+      "JSON::Tiny"
+    ],
+    "provides" : {
+      "WebService::Justcoin" : "lib/WebService/Justcoin.pm6"
+    },
+    "version" : "0.0.1",
+    "description" : "Access to Justcoin trading API (Norwegian Bitcoin marketplace)"
+  },
+  {
     "name" : "Web::Scraper",
     "source-url" : "git://github.com/tony-o/perl6-web-scraper.git",
     "perl" : "6.*",
@@ -5106,6 +5120,17 @@
     "description" : "Implementation of the longest common subsequence algorithm"
   },
   {
+    "name" : "Sprockets",
+    "source-url" : "git://github.com/vendethiel/Sprockets.pl.git",
+    "perl" : "6.*",
+    "author" : "github:vendethiel",
+    "provides" : {
+      "Sprockets" : "lib/Sprockets.pm"
+    },
+    "version" : "*",
+    "description" : "Ruby Sprockets-like"
+  },
+  {
     "name" : "Serialize::Tiny",
     "source-url" : "git://github.com/vendethiel/Serialize-Tiny.pm6.git",
     "perl" : "6.*",
@@ -5273,6 +5298,22 @@
     "description" : "Find plugin classes or modules"
   },
   {
+    "name" : "DB::ORM::Quicky",
+    "source-url" : "git://github.com/tony-o/perl6-db-orm-quicky.git",
+    "perl" : "6.*",
+    "auth" : "github:tony-o",
+    "depends" : [
+      "DBIish"
+    ],
+    "provides" : {
+      "DB::ORM::Quicky::Search" : "lib/DB/ORM/Quicky/Search.pm6",
+      "DB::ORM::Quicky" : "lib/DB/ORM/Quicky.pm6",
+      "DB::ORM::Quicky::Model" : "lib/DB/ORM/Quicky/Model.pm6"
+    },
+    "version" : "0.0.3",
+    "description" : "Easy Prototyping ORM for Perl 6"
+  },
+  {
     "name" : "OO::Monitors",
     "support" : {
       "source" : "git://github.com/jnthn/oo-monitors.git"
@@ -5303,6 +5344,24 @@
     },
     "version" : "*",
     "description" : "Basic Actor model support. A work in progress."
+  },
+  {
+    "name" : "PerlMongers::Hannover",
+    "source-url" : "git://github.com/paultcochrane/Perl6Mongers-Hannover.git",
+    "perl" : "6.*",
+    "depends" : [
+      "IO::Capture::Simple"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "PerlMongers::Hannover" : "lib/PerlMongers/Hannover.pm"
+    },
+    "version" : "0.8.6",
+    "authors" : "Paul Cochrane",
+    "description" : "Hannover Perl Mongers."
   },
   {
     "name" : "Operator::feq",
@@ -5365,6 +5424,23 @@
     "description" : "More complete port of p5's benchmark, including cmpthese, timethese, timethis, etc."
   },
   {
+    "name" : "URI::Encode",
+    "source-url" : "git://github.com/dnmfarrell/URI-Encode.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "build-depends" : [ ],
+    "author" : "David Farrell",
+    "depends" : [ ],
+    "provides" : {
+      "URI::Encode" : "lib/URI/Encode.pm6"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.05",
+    "description" : "Encode and decode URIs according to RFC 3986"
+  },
+  {
     "name" : "System::Passwd",
     "source-url" : "git://github.com/dnmfarrell/System-Passwd.git",
     "perl" : "6.*",
@@ -5376,6 +5452,28 @@
     },
     "version" : "0.04",
     "description" : "easily search for system users in Unix-based systems"
+  },
+  {
+    "name" : "Software::License",
+    "source-url" : "git://github.com/sillymoose/Software-License.git",
+    "perl" : "6.*",
+    "author" : "David Farrell",
+    "depends" : [ ],
+    "provides" : {
+      "Software::License::CC0" : "lib/Software/License/CC0.pm6",
+      "Software::License::BSD" : "lib/Software/License/BSD.pm6",
+      "Software::License::FreeBSD" : "lib/Software/License/FreeBSD.pm6",
+      "Software::License" : "lib/Software/License.pm6",
+      "Software::License::MPL2" : "lib/Software/License/MPL2.pm6",
+      "Software::License::GPL3" : "lib/Software/License/GPL3.pm6",
+      "Software::License::Artistic_2_0" : "lib/Software/License/Artistic_2_0.pm6",
+      "license" : "bin/license",
+      "Software::License::Apache_2_0" : "lib/Software/License/Apache_2_0.pm6",
+      "Software::License::MIT" : "lib/Software/License/MIT.pm6",
+      "Software::License::LGPL3" : "lib/Software/License/LGPL3.pm6"
+    },
+    "version" : "0.05",
+    "description" : "a Perl 6 module for creating free software license texts"
   },
   {
     "name" : "Pod::Perl5",
@@ -5498,6 +5596,19 @@
     "license" : "Artistic-2.0",
     "version" : "v0.0.1",
     "description" : "Render Perl6 Pod as Markdown"
+  },
+  {
+    "name" : "Coro::Simple",
+    "source-url" : "git://github.com/marcoonroad/Coro-Simple.git",
+    "perl" : "6.*",
+    "author" : "Marco Aur\u00e9lio da Silva",
+    "depends" : [ ],
+    "provides" : {
+      "Coro::Simple" : "lib/Coro/Simple.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "*",
+    "description" : "Simple coroutines for Perl 6, inspired by the Lua coroutines."
   },
   {
     "name" : "CSS::Writer",
