@@ -9501,20 +9501,6 @@
     "description" : "Glue for Mozilla's JavaScript interpreter."
   },
   {
-    "name" : "Math::Random",
-    "source-url" : "git://github.com/bluebear94/Math-Random.git",
-    "perl" : "6.*",
-    "author" : "Tae Lim Kook",
-    "depends" : [ ],
-    "provides" : {
-      "Math::Random::MT" : "lib/Math/Random/MT.pm6",
-      "Math::Random::JavaStyle" : "lib/Math/Random/JavaStyle.pm6",
-      "Math::Random" : "lib/Math/Random.pm6"
-    },
-    "version" : "0.1.0",
-    "description" : "Random numbers \u00e0 la java.util.Random."
-  },
-  {
     "name" : "Subsets::Common",
     "source-url" : "git://github.com/bradclawsie/Subsets-Common.git",
     "perl" : "6.*",
