@@ -18195,5 +18195,32 @@
       "Zoffix Znet"
     ],
     "description" : "Make a temporary path, file, or directory"
+  },
+  {
+    "name" : "IO::CatHandle::AutoLines",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-IO-CatHandle-AutoLines.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "RakudoPrereq"
+    ],
+    "provides" : {
+      "IO::CatHandle::AutoLines" : "lib/IO/CatHandle/AutoLines.pm6"
+    },
+    "test-depends" : [
+      "Testo",
+      "Temp::Path",
+      "Test::META"
+    ],
+    "tags" : [
+      "IO"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001002",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Get IO::CatHandle's current handle's line number"
   }
 ]
