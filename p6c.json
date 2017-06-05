@@ -18222,5 +18222,32 @@
       "Zoffix Znet"
     ],
     "description" : "Get IO::CatHandle's current handle's line number"
+  },
+  {
+    "name" : "LN",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-LN.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "IO::CatHandle::AutoLines"
+    ],
+    "provides" : {
+      "LN" : "lib/LN.pm6"
+    },
+    "test-depends" : [
+      "Testo",
+      "Temp::Path",
+      "Test::META"
+    ],
+    "tags" : [
+      "IO"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Get $*ARGFILES with line numbers via $*LN"
   }
 ]
