@@ -3548,20 +3548,6 @@
     "description" : "Perl 6 bindings for libzip"
   },
   {
-    "name" : "Clean",
-    "source-url" : "git://github.com/azawawi/perl6-clean.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Clean" : "lib/Clean.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "*",
-    "description" : "Scoped object oriented automatic cleanup"
-  },
-  {
     "name" : "GTK::Simpler",
     "source-url" : "git://github.com/azawawi/perl6-gtk-simpler.git",
     "perl" : "6.c",
@@ -4270,19 +4256,6 @@
     "depends" : [ ],
     "version" : "v0.0.1",
     "description" : "Reimplementation of Perl 5 Slang"
-  },
-  {
-    "name" : "File::Directory::Tree",
-    "source-url" : "git://github.com/labster/p6-file-directory-tree.git",
-    "perl" : "6.*",
-    "author" : "labster",
-    "depends" : [ ],
-    "provides" : {
-      "File::Directory::Tree" : "lib/File/Directory/Tree.pm"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "description" : "Port of File::Path::Tiny - create and delete directory trees"
   },
   {
     "name" : "File::Spec::Case",
