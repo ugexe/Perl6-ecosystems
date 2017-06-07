@@ -15112,7 +15112,9 @@
     "build-depends" : [ ],
     "resources" : [ ],
     "auth" : "github:jonathanstowe",
-    "depends" : [ ],
+    "depends" : [
+      "File::Which"
+    ],
     "provides" : {
       "URI::FetchFile" : "lib/URI/FetchFile.pm"
     },
@@ -15125,8 +15127,8 @@
       "utility",
       "http"
     ],
-    "version" : "0.0.1",
-    "meta6" : "0",
+    "meta-version" : "0",
+    "version" : "0.0.2",
     "description" : "retrieve a file from the internet by the best available method",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
