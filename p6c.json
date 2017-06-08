@@ -2598,6 +2598,21 @@
     "description" : "Markdown parser / HTML generator"
   },
   {
+    "name" : "Crust::Handler::SCGI",
+    "source-url" : "git://github.com/retupmoca/p6-Crust-Handler-SCGI.git",
+    "perl" : "6.*",
+    "author" : "github:retupmoca",
+    "depends" : [
+      "SCGI",
+      "IO::Blob"
+    ],
+    "provides" : {
+      "Crust::Handler::SCGI" : "lib/Crust/Handler/SCGI.pm6"
+    },
+    "version" : "1.0.0",
+    "description" : "Crust handler using the SCGI library"
+  },
+  {
     "name" : "Crust::Middleware::Syslog",
     "source-url" : "git://github.com/retupmoca/P6-Crust-Middleware-Syslog.git",
     "perl" : "6.*",
@@ -18252,7 +18267,7 @@
     "provides" : {
       "EC::Grammars::DIG" : "lib/ec/grammars/DIG.pm6"
     },
-    "license" : "GNU General Public License - Version 3, 29 June 2007",
+    "license" : "GPL-3.0",
     "version" : "1.0.0",
     "authors" : [
       "EDUARDO CAPANEMA"
