@@ -18252,5 +18252,21 @@
       "Zoffix Znet"
     ],
     "description" : "Get $*ARGFILES with line numbers via $*LN"
+  },
+  {
+    "name" : "EC::Grammars::DIG",
+    "source-url" : "git://github.com/you/EC-Grammars-DIG.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "EC::Grammars::DIG" : "lib/ec/grammars/DIG.pm6"
+    },
+    "license" : "GNU General Public License - Version 3, 29 June 2007",
+    "version" : "1.0.0",
+    "authors" : [
+      "EDUARDO CAPANEMA"
+    ],
+    "description" : "A Grammar to parse dig results."
   }
 ]
