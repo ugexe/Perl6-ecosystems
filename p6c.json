@@ -18275,5 +18275,31 @@
       "EDUARDO CAPANEMA"
     ],
     "description" : "A Grammar to parse dig results."
+  },
+  {
+    "name" : "Time::Duration::Parser",
+    "support" : {
+      "source" : "https://github.com/perlpilot/p6-Time-Duration-Parser.git",
+      "bugtracker" : "https://github.com/perlpilot/p6-Time-Duration-Parser/issues"
+    },
+    "source-url" : "https://github.com/perlpilot/p6-Time-Duration-Parser.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "auth" : "github:perlpilot",
+    "depends" : [ ],
+    "provides" : {
+      "Time::Duration::Parser" : "lib/Time/Duration/Parser.pm6"
+    },
+    "test-depends" : [ ],
+    "tags" : [
+      "Time",
+      "Parser"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Scott Duff <duff@pobox.com>"
+    ],
+    "description" : "Parse duration strings into seconds"
   }
 ]
