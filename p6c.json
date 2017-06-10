@@ -9756,19 +9756,6 @@
     "description" : "Client for the Discord application"
   },
   {
-    "name" : "MQTT::Client",
-    "source-url" : "git://github.com/Juerd/p6-mqtt.git",
-    "perl" : "6.*",
-    "author" : "Juerd Waalboer",
-    "depends" : [ ],
-    "provides" : {
-      "MQTT::Client::MyPack" : "lib/MQTT/Client/MyPack.pm",
-      "MQTT::Client" : "lib/MQTT/Client.pm"
-    },
-    "version" : "*",
-    "description" : "Minimal MQTT v3 client interface"
-  },
-  {
     "name" : "Test::Class",
     "source-url" : "git://github.com/perlpilot/p6-Test-Class.git",
     "repo-type" : "git",
