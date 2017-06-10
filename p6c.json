@@ -2807,6 +2807,17 @@
     "description" : "Naive parser for Perl 6 style POD documents"
   },
   {
+    "name" : "Text::Abbrev",
+    "source-url" : "git://github.com/xfix/perl6-Text-Abbrev.git",
+    "perl" : "6.*",
+    "depends" : [ ],
+    "provides" : {
+      "Text::Abbrev" : "lib/Text/Abbrev.pm"
+    },
+    "version" : "0.1.0",
+    "description" : "Create an abbreviation table from a list"
+  },
+  {
     "name" : "Adventure::Engine",
     "source-url" : "git://github.com/masak/Adventure-Engine.git",
     "author" : "Carl M\u00e4sak",
@@ -9743,6 +9754,20 @@
     "license" : "Artistic-2.0",
     "version" : "0.0.1",
     "description" : "Client for the Discord application"
+  },
+  {
+    "name" : "MQTT::Client",
+    "source-url" : "git://github.com/Juerd/p6-mqtt.git",
+    "perl" : "6.*",
+    "author" : "Juerd Waalboer",
+    "depends" : [ ],
+    "license" : "APSL-1.1 OR LGPL-2.0+ OR AGPL-3.0 OR Artistic-2.0 OR MPL-1.1 OR EFL-2.0 OR LPL-1.0 OR PHP-3.0 OR Multics OR LPPL-1.3c OR ECL-2.0 OR BSD-2-Clause OR BSD-3-Clause OR GPL-3.0 OR Python-2.0 OR GPL-3.0-with-autoconf-exception OR IPL-1.0 OR Entessa OR GPL-2.0-with-autoconf-exception OR EPL-1.0 OR LGPL-2.1 OR Artistic-1.0 OR Nokia OR GPL-2.0-with-font-exception OR CDDL-1.0 OR IPA OR APL-1.0 OR Motosoto OR MS-RL OR LGPL-3.0 OR GPL-3.0+ OR NTP OR SPL-1.0 OR LGPL-2.0 OR SimPL-2.0 OR RSCPL OR AFL-2.1 OR Apache-2.0 OR GPL-2.0+ OR LGPL-2.1+ OR Artistic-1.0-Perl OR Sleepycat OR Naumen OR Fair OR AFL-1.1 OR CUA-OPL-1.0 OR AFL-1.2 OR OFL-1.1 OR W3C OR LGPL-3.0+ OR LiLiQ-P-1.1 OR GPL-2.0-with-bison-exception OR RPL-1.1 OR EUPL-1.1 OR GPL-2.0-with-GCC-exception OR QPL-1.0 OR LiLiQ-R-1.1 OR Xnet OR OSL-2.0 OR AAL OR LiLiQ-Rplus-1.1 OR GPL-2.0-with-classpath-exception OR OCLC-2.0 OR APSL-1.0 OR Zlib OR MS-PL OR NPOSL-3.0 OR Watcom-1.0 OR LPL-1.02 OR APSL-2.0 OR CPAL-1.0 OR CNRI-Python OR RPSL-1.0 OR BSL-1.0 OR CPL-1.0 OR EUDatagrid OR ZPL-2.0 OR WXwindows OR SISSL OR GPL-3.0-with-GCC-exception OR MirOS OR OSL-3.0 OR NASA-1.3 OR ISC OR Frameworx-1.0 OR OSL-2.1 OR EFL-1.0 OR CECILL-2.1 OR AFL-3.0 OR NCSA OR VSL-1.0 OR MPL-2.0 OR OSL-1.0 OR MPL-2.0-no-copyleft-exception OR HPND OR GPL-2.0 OR RPL-1.5 OR CATOSL-1.1 OR Artistic-1.0-cl8 OR OGTSL OR OSET-PL-2.1 OR MIT OR MPL-1.0 OR Intel OR UPL-1.0 OR PostgreSQL OR ECL-1.0 OR Apache-1.1 OR AFL-2.0 OR NGPL OR 0BSD OR APSL-1.2",
+    "provides" : {
+      "MQTT::Client::MyPack" : "lib/MQTT/Client/MyPack.pm",
+      "MQTT::Client" : "lib/MQTT/Client.pm"
+    },
+    "version" : "*",
+    "description" : "Minimal MQTT v3 client interface"
   },
   {
     "name" : "Test::Class",
