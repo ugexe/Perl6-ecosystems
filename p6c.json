@@ -1992,27 +1992,32 @@
       "error.template"
     ],
     "depends" : [
-      "HTTP::Easy",
-      "Template::Mojo",
-      "Template::Mustache",
-      "URI",
-      "Digest::HMAC",
       "Digest",
-      "HTTP::MultiPartParser",
+      "Digest::HMAC",
+      "File::Directory::Tree",
       "File::Find",
       "File::Temp",
-      "File::Directory::Tree"
+      "HTTP::Easy",
+      "HTTP::MultiPartParser",
+      "Path::Iterator",
+      "Template::Mojo",
+      "Template::Mustache",
+      "URI"
     ],
     "provides" : {
       "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
       "Bailador::Request" : "lib/Bailador/Request.pm",
       "Bailador::Configuration" : "lib/Bailador/Configuration.pm",
+      "Bailador::Commands" : "lib/Bailador/Commands.pm",
+      "Bailador::CLI" : "lib/Bailador/CLI.pm",
       "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
       "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
+      "Bailador::Command" : "lib/Bailador/Command.pm",
       "Bailador::Test" : "lib/Bailador/Test.pm",
       "Bailador::Template" : "lib/Bailador/Template.pm",
       "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
       "Bailador::Exceptions" : "lib/Bailador/Exceptions.pm",
+      "Bailador::Command::easy" : "lib/Bailador/Command/easy.pm",
       "Bailador" : "lib/Bailador.pm",
       "Bailador::App" : "lib/Bailador/App.pm",
       "Bailador::Template::Mustache" : "lib/Bailador/Template/Mustache.pm",
@@ -2020,6 +2025,7 @@
       "Bailador::Route::StaticFile" : "lib/Bailador/Route/StaticFile.pm",
       "Bailador::Response" : "lib/Bailador/Response.pm",
       "Bailador::Context" : "lib/Bailador/Context.pm",
+      "Bailador::Command::p6w" : "lib/Bailador/Command/p6w.pm",
       "Bailador::Route" : "lib/Bailador/Route.pm",
       "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm"
     },
@@ -2029,7 +2035,7 @@
       "HTTP",
       "Net"
     ],
-    "version" : "0.0.3",
+    "version" : "0.0.4",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz",
       "Anthony Parsons",
@@ -2046,7 +2052,7 @@
       "vendethiel",
       "Martin Barth (ufobat) "
     ],
-    "description" : "A bare-bones Dancer port"
+    "description" : "A light-weight route-based web application framework for Perl 6"
   },
   {
     "name" : "Form",
