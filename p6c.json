@@ -1819,6 +1819,7 @@
     "name" : "MongoDB",
     "source-url" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
     "perl" : "6",
+    "build-depends" : [ ],
     "depends" : [
       "BSON",
       "Semaphore::ReadersWriters",
@@ -1852,7 +1853,15 @@
       "MongoDB::Authenticate::Scram" : "lib/MongoDB/Authenticate/Scram.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.37.1.2",
+    "tags" : [
+      "NoSQL",
+      "Database",
+      "mongodb"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "version" : "0.37.1.5",
     "description" : "MongoDB driver",
     "authors" : [
       "Marcel Timmerman took over in Januari 2015 and is working on it until the present day",
