@@ -18023,7 +18023,7 @@
     "provides" : {
       "Zef::CPANReporter" : "lib/Zef/CPANReporter.pm6"
     },
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "authors" : [
       "Breno G. de Oliveira",
       "Nick Logan"
@@ -18307,5 +18307,38 @@
       "Jonathan Scott Duff <duff@pobox.com>"
     ],
     "description" : "Parse duration strings into seconds"
+  },
+  {
+    "name" : "AI::FANN",
+    "support" : {
+      "source" : "https://github.com/perlpilot/p6-AI-FANN.git",
+      "bugtracker" : "https://github.com/perlpilot/p6-AI-FANN/issues"
+    },
+    "source-url" : "https://github.com/perlpilot/p6-AI-FANN.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "auth" : "github:perlpilot",
+    "depends" : [ ],
+    "provides" : {
+      "AI::FANN::Raw::Error" : "lib/AI/FANN/Raw/Error.pm6",
+      "AI::FANN::Raw::Creation" : "lib/AI/FANN/Raw/Creation.pm6",
+      "AI::FANN::Raw::Training" : "lib/AI/FANN/Raw/Training.pm6",
+      "AI::FANN" : "lib/AI/FANN.pm6",
+      "AI::FANN::Raw::Base" : "lib/AI/FANN/Raw/Base.pm6",
+      "AI::FANN::Raw::IO" : "lib/AI/FANN/Raw/IO.pm6",
+      "AI::FANN::Raw" : "lib/AI/FANN/Raw.pm6",
+      "AI::FANN::Raw::Cascade" : "lib/AI/FANN/Raw/Cascade.pm6"
+    },
+    "test-depends" : [ ],
+    "tags" : [
+      "AI",
+      "Neural Network"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Scott Duff <duff@pobox.com>"
+    ],
+    "description" : "Perl\u00a06 binding to the Fast Artificial Neural Network library"
   }
 ]
