@@ -1714,10 +1714,10 @@
     "name" : "BSON",
     "perl" : "6",
     "source-url" : "git://github.com/MARTIMM/BSON.git",
+    "build-depends" : [ ],
     "depends" : [
       "Digest::MD5",
-      "UUID",
-      "Test::META"
+      "UUID"
     ],
     "history" : [
       "Pawe\u0142 Pabian worked on it from 2011 until January 2015",
@@ -1732,7 +1732,15 @@
       "BSON::ObjectId" : "lib/BSON/ObjectId.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.9.33",
+    "tags" : [
+      "bson",
+      "mongodb",
+      "serialize"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "version" : "0.9.34",
     "description" : "BSON encoding/decoding, used in MongoDB drivers",
     "authors" : [
       "Marcel Timmerman",
