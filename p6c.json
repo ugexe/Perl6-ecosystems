@@ -9618,7 +9618,7 @@
   {
     "name" : "Algorithm::Trie::libdatrie",
     "source-url" : "git://github.com/zengargoyle/p6-Algorithm-Trie-libdatrie.git",
-    "perl" : "v6",
+    "perl" : "6.c",
     "resources" : [
       "lib/libdatrie.so"
     ],
@@ -9634,15 +9634,16 @@
       "Test",
       "File::Temp"
     ],
+    "tags" : [ ],
     "provides" : {
       "Algorithm::Trie::libdatrie" : "lib/Algorithm/Trie/libdatrie.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.2",
+    "version" : "v.0.2",
+    "description" : "a character keyed trie using the datrie library.",
     "authors" : [
       "zengargoyle"
-    ],
-    "description" : "a character keyed trie using the datrie library."
+    ]
   },
   {
     "name" : "JSON::Name",
