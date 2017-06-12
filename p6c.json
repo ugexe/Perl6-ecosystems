@@ -7412,26 +7412,6 @@
     ]
   },
   {
-    "name" : "Avro",
-    "source-url" : "git://github.com/sylvarant/Avro.git",
-    "perl" : "6.*",
-    "author" : "Adriaan Larmuseau",
-    "depends" : [
-      "JSON::Tiny",
-      "Compress::Zlib"
-    ],
-    "provides" : {
-      "Avro::Auxiliary" : "lib/Avro/Auxiliary.pm",
-      "Avro::Encode" : "lib/Avro/Encode.pm",
-      "Avro" : "lib/Avro.pm",
-      "Avro::Schema" : "lib/Avro/Schema.pm",
-      "Avro::DataFile" : "lib/Avro/DataFile.pm",
-      "Avro::Decode" : "lib/Avro/Decode.pm"
-    },
-    "version" : "0.1.1",
-    "description" : "Perl6 Avro Data Serialization"
-  },
-  {
     "name" : "Log::D",
     "source-url" : "git://github.com/jaffa4/logd.git",
     "perl" : "6.*",
