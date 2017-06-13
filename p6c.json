@@ -14548,7 +14548,9 @@
     },
     "perl" : "6.*",
     "author" : "github:Altai-man",
-    "depends" : [ ],
+    "depends" : [
+      "File::Find"
+    ],
     "provides" : {
       "Test::NoTabs" : "lib/Test/NoTabs.pm6"
     },
@@ -16933,16 +16935,6 @@
     "authors" : [
       "Martin Barth (ufobat)"
     ]
-  },
-  {
-    "name" : "TAP::Harness::Prove6",
-    "source-url" : "git@github.com:stmuk/tap-harness6-prove6.git",
-    "author" : "Leon Timmermans",
-    "depends" : [ ],
-    "provides" : { },
-    "license" : "Artistic-2.0",
-    "version" : "0.0.1",
-    "description" : "prove6 TAP harness for perl6"
   },
   {
     "name" : "DB::Rscs",
