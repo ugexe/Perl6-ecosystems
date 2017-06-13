@@ -1,0 +1,480 @@
+[
+  {
+    "name" : "Inline",
+    "support" : {
+      "source" : "https://github.com/FROGGS/p6-Inline-C.git",
+      "bugtracker" : "https://github.com/FROGGS/p6-Inline-C/issues"
+    },
+    "perl" : "v6",
+    "build-depends" : [ ],
+    "depends" : [
+      "NativeCall"
+    ],
+    "provides" : {
+      "Inline" : "lib/Inline.pm",
+      "Inline::C" : "lib/Inline/C.pm"
+    },
+    "test-depends" : [ ],
+    "version" : "1.2.1",
+    "description" : "use C-code from within Perl"
+  },
+  {
+    "name" : "Inline",
+    "support" : {
+      "source" : "https://github.com/FROGGS/p6-Inline-C.git",
+      "bugtracker" : "https://github.com/FROGGS/p6-Inline-C/issues"
+    },
+    "perl" : "v6",
+    "build-depends" : [ ],
+    "depends" : [
+      "NativeCall"
+    ],
+    "provides" : {
+      "Inline" : "lib/Inline.pm",
+      "Inline::C" : "lib/Inline/C.pm"
+    },
+    "test-depends" : [ ],
+    "version" : "v1.2",
+    "description" : "use C-code from within Perl"
+  },
+  {
+    "name" : "Inline",
+    "support" : {
+      "source" : "https://github.com/FROGGS/p6-Inline-C.git",
+      "bugtracker" : "https://github.com/FROGGS/p6-Inline-C/issues"
+    },
+    "perl" : "v6",
+    "build-depends" : [ ],
+    "depends" : [
+      "NativeCall"
+    ],
+    "provides" : {
+      "Inline" : "lib/Inline.pm",
+      "Inline::C" : "lib/Inline/C.pm"
+    },
+    "test-depends" : [ ],
+    "version" : "v1",
+    "description" : "use C-code from within Perl"
+  },
+  {
+    "name" : "IO::Glob",
+    "perl" : "6",
+    "auth" : "github:zostay",
+    "source" : {
+      "source" : "git://github.com/zostay/perl6-IO-Glob.git",
+      "bugtracker" : "https://github.com/zostay/perl6-IO-Glob/issues"
+    },
+    "depends" : [ ],
+    "provides" : {
+      "IO::Glob::Simple" : "lib/IO/Glob.pm6",
+      "IO::Glob::Globber" : "lib/IO/Glob.pm6",
+      "IO::Glob::Base" : "lib/IO/Glob.pm6",
+      "IO::Glob" : "lib/IO/Glob.pm6",
+      "IO::Glob::SQL" : "lib/IO/Glob.pm6",
+      "IO::Glob::BSD" : "lib/IO/Glob.pm6",
+      "IO::Glob::Globber::Match" : "lib/IO/Glob.pm6",
+      "IO::Glob::Globber::Term" : "lib/IO/Glob.pm6",
+      "IO::Glob::Globber::Expansion" : "lib/IO/Glob.pm6"
+    },
+    "license" : "Artistic 2.0",
+    "version" : "v0.1",
+    "authors" : [
+      "Andrew Sterling Hanenkamp <hanenkamp@cpan.org>"
+    ],
+    "description" : "Glob matching for paths & strings and listing files"
+  },
+  {
+    "name" : "Text::CSV",
+    "support" : {
+      "irc" : "irc://irc.perl.org/#csv"
+    },
+    "source-url" : "git://github.com/Tux/CSV.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:Tux",
+    "repo-type" : "git",
+    "depends" : [
+      "Slang::Tuxic",
+      "File::Temp"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "Text::CSV" : "lib/Text/CSV.pm"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "CSV"
+    ],
+    "version" : "0.007",
+    "authors" : [
+      "H.Merijn Brand (Tux)"
+    ],
+    "description" : "Handle CSV data. API based on Text::CSV_XS"
+  },
+  {
+    "name" : "Text::CSV",
+    "support" : {
+      "irc" : "irc://irc.perl.org/#csv"
+    },
+    "source-url" : "git://github.com/Tux/CSV.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:Tux",
+    "repo-type" : "git",
+    "depends" : [
+      "Slang::Tuxic",
+      "File::Temp"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "Text::CSV" : "lib/Text/CSV.pm"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "CSV"
+    ],
+    "version" : "0.008",
+    "authors" : [
+      "H.Merijn Brand (Tux)"
+    ],
+    "description" : "Handle CSV data. API based on Text::CSV_XS"
+  },
+  {
+    "name" : "Data::Selector",
+    "support" : {
+      "irc" : "irc://irc.freenode.net/perl6",
+      "email" : "justin@devuyst.com",
+      "source" : "https://github.com/jdv/p6-data-selector.git",
+      "bugtracker" : "https://github.com/jdv/p6-data-selector/issues"
+    },
+    "perl" : "v6",
+    "license" : "artistic_2",
+    "provides" : {
+      "Data::Selector::SelectorString::Actions" : "lib/Data/Selector.pm",
+      "Data::Selector" : "lib/Data/Selector.pm",
+      "Data::Selector::SelectorString::Grammar" : "lib/Data/Selector.pm"
+    },
+    "version" : "v1.01",
+    "authors" : [
+      "Justin DeVuyst"
+    ],
+    "description" : "data selection dsl parser and applicator"
+  },
+  {
+    "name" : "Data::Selector",
+    "support" : {
+      "irc" : "irc://irc.freenode.net/perl6",
+      "email" : "justin@devuyst.com",
+      "source" : "https://github.com/jdv/p6-data-selector.git",
+      "bugtracker" : "https://github.com/jdv/p6-data-selector/issues"
+    },
+    "perl" : "v6",
+    "license" : "artistic_2",
+    "provides" : {
+      "Data::Selector::SelectorString::Actions" : "lib/Data/Selector.pm",
+      "Data::Selector" : "lib/Data/Selector.pm",
+      "Data::Selector::SelectorString::Grammar" : "lib/Data/Selector.pm"
+    },
+    "version" : "v1.02",
+    "authors" : [
+      "Justin DeVuyst"
+    ],
+    "description" : "data selection dsl parser and applicator"
+  },
+  {
+    "name" : "NativeCall",
+    "support" : {
+      "source" : "https://github.com/jnthn/zavolaj.git",
+      "bugtracker" : "https://github.com/jnthn/zavolaj/issues"
+    },
+    "perl" : "v6",
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "NativeCall" : "lib/NativeCall.pm6"
+    },
+    "test-depends" : [ ],
+    "version" : "v1",
+    "description" : "Native call interface for Rakudo"
+  },
+  {
+    "name" : "CompUnit::Repository::Mask",
+    "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/CompUnit-Repository-Mask-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "CompUnit::Repository::Mask" : "lib/CompUnit/Repository/Mask.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "hide installed modules for testing.",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
+    "name" : "Inline::Perl5",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
+    "source-url" : "git://github.com/niner/Inline-Perl5.git",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/p5helper"
+    ],
+    "author" : "github:niner",
+    "repo-type" : "git",
+    "depends" : [
+      "LibraryMake"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "Inline::Perl5" : "lib/Inline/Perl5.pm6"
+    },
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "version" : "0.26",
+    "description" : "Use Perl 5 code in a Perl 6 program",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
+    "name" : "App::Mi6",
+    "source-url" : "git://github.com/skaji/mi6.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "File::Find",
+      "JSON::Pretty",
+      "Pod::To::Markdown",
+      "Shell::Command",
+      "CPAN::Uploader::Tiny"
+    ],
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "App::Mi6" : "lib/App/Mi6.pm6",
+      "App::Mi6::JSON" : "lib/App/Mi6/JSON.pm6",
+      "App::Mi6::Template" : "lib/App/Mi6/Template.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
+    "description" : "minimal authoring tool for Perl6",
+    "authors" : [
+      "Shoichi Kaji"
+    ]
+  },
+  {
+    "name" : "Acme::Meow",
+    "source-url" : "git://github.com/tadzik/perl6-Acme-Meow.git",
+    "support" : {
+      "source" : "git://github.com/tadzik/perl6-Acme-Meow.git",
+      "bugtracker" : "https://github.com/tadzik/perl6-Acme-Meow/issues"
+    },
+    "perl" : "6.*",
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Acme::Meow" : "lib/Acme/Meow.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.1",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+      "Paul Cochrane",
+      "GlithMr",
+      "Ethan House",
+      "Tobias Leich"
+    ],
+    "description" : "The kitty you always wanted, now in Perl 6"
+  },
+  {
+    "name" : "Geo::Coder::OpenCage",
+    "source-url" : "git://github.com/tadzik/Geo-Coder-OpenCage.git",
+    "support" : {
+      "source" : "git://github.com/tadzik/Geo-Coder-OpenCage.git",
+      "bugtracker" : "https://github.com/tadzik/Geo-Coder-OpenCage/issues"
+    },
+    "perl" : "6.*",
+    "depends" : [
+      "HTTP::UserAgent",
+      "JSON::Unmarshal",
+      "URI"
+    ],
+    "provides" : {
+      "Geo::Coder::OpenCage" : "lib/Geo/Coder/OpenCage.pm",
+      "Geo::Coder::OpenCage::Response" : "lib/Geo/Coder/OpenCage/Response.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "1.0",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz"
+    ],
+    "description" : "Client library for the OpenCage Geocoder"
+  },
+  {
+    "name" : "Bailador",
+    "support" : {
+      "source" : "git://github.com/Bailador/Bailador.git",
+      "bugtracker" : "https://github.com/Bailador/Bailador/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/Bailador-0.0.4.tar.gz",
+    "perl" : "6.c",
+    "resources" : [
+      "error.template"
+    ],
+    "depends" : [
+      "Digest",
+      "Digest::HMAC",
+      "File::Directory::Tree",
+      "File::Find",
+      "File::Temp",
+      "HTTP::Easy",
+      "HTTP::MultiPartParser",
+      "Path::Iterator",
+      "Template::Mojo",
+      "Template::Mustache",
+      "URI"
+    ],
+    "tags" : [
+      "Web",
+      "HTTP",
+      "Net"
+    ],
+    "provides" : {
+      "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
+      "Bailador::Request" : "lib/Bailador/Request.pm",
+      "Bailador::Configuration" : "lib/Bailador/Configuration.pm",
+      "Bailador::Commands" : "lib/Bailador/Commands.pm",
+      "Bailador::CLI" : "lib/Bailador/CLI.pm",
+      "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
+      "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
+      "Bailador::Command" : "lib/Bailador/Command.pm",
+      "Bailador::Test" : "lib/Bailador/Test.pm",
+      "Bailador::Template" : "lib/Bailador/Template.pm",
+      "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
+      "Bailador::Exceptions" : "lib/Bailador/Exceptions.pm",
+      "Bailador::Command::easy" : "lib/Bailador/Command/easy.pm",
+      "Bailador" : "lib/Bailador.pm",
+      "Bailador::App" : "lib/Bailador/App.pm",
+      "Bailador::Template::Mustache" : "lib/Bailador/Template/Mustache.pm",
+      "Bailador::Template::Mojo" : "lib/Bailador/Template/Mojo.pm",
+      "Bailador::Route::StaticFile" : "lib/Bailador/Route/StaticFile.pm",
+      "Bailador::Response" : "lib/Bailador/Response.pm",
+      "Bailador::Context" : "lib/Bailador/Context.pm",
+      "Bailador::Command::p6w" : "lib/Bailador/Command/p6w.pm",
+      "Bailador::Route" : "lib/Bailador/Route.pm",
+      "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm"
+    },
+    "license" : "MIT",
+    "version" : "0.0.4",
+    "description" : "A light-weight route-based web application framework for Perl 6",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+      "Anthony Parsons",
+      "Carl Masak",
+      "Gabor Szabo",
+      "GlitchMr",
+      "Moritz Lenz",
+      "Panu Ervamaa",
+      "Paul Cochrane",
+      "Solomon Foster",
+      "Sterling Hanenkamp",
+      "Tobias Leich",
+      "ugexe",
+      "vendethiel",
+      "Martin Barth (ufobat) "
+    ]
+  },
+  {
+    "name" : "zef",
+    "support" : {
+      "bugtracker" : "https://github.com/ugexe/zef/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/U/UG/UGEXE/Perl6/zef-0.1.15.tar.gz",
+    "perl" : "6",
+    "resources" : [
+      "config.json",
+      "scripts/perl5tar.pl",
+      "scripts/win32http.ps1",
+      "scripts/win32unzip.ps1"
+    ],
+    "auth" : "github:ugexe",
+    "depends" : [ ],
+    "tags" : [
+      "package-manager",
+      "module-installer",
+      "meta-search",
+      "distribution",
+      "ecosystem",
+      "cpan",
+      "toolchain"
+    ],
+    "provides" : {
+      "Zef::Service::TAP" : "lib/Zef/Service/TAP.pm6",
+      "Zef::Service::Shell::unzip" : "lib/Zef/Service/Shell/unzip.pm6",
+      "Zef::Service::FetchPath" : "lib/Zef/Service/FetchPath.pm6",
+      "Zef::Distribution::Local" : "lib/Zef/Distribution/Local.pm6",
+      "Zef::Test" : "lib/Zef/Test.pm6",
+      "Zef::Service::Shell::prove" : "lib/Zef/Service/Shell/prove.pm6",
+      "Zef::Repository::LocalCache" : "lib/Zef/Repository/LocalCache.pm6",
+      "Zef::Identity" : "lib/Zef/Identity.pm6",
+      "Zef::Service::Shell::p5tar" : "lib/Zef/Service/Shell/p5tar.pm6",
+      "Zef::Repository::MetaCPAN" : "lib/Zef/Repository/MetaCPAN.pm6",
+      "Zef::Repository" : "lib/Zef/Repository.pm6",
+      "Zef::Extract" : "lib/Zef/Extract.pm6",
+      "Zef::Distribution::DependencySpecification" : "lib/Zef/Distribution/DependencySpecification.pm6",
+      "Zef::Distribution" : "lib/Zef/Distribution.pm6",
+      "Zef::Config" : "lib/Zef/Config.pm6",
+      "Zef::Client" : "lib/Zef/Client.pm6",
+      "Zef" : "lib/Zef.pm6",
+      "Zef::Utils::FileSystem" : "lib/Zef/Utils/FileSystem.pm6",
+      "Zef::Shell" : "lib/Zef/Shell.pm6",
+      "Zef::Service::Shell::PowerShell::unzip" : "lib/Zef/Service/Shell/PowerShell/unzip.pm6",
+      "Zef::Service::Shell::curl" : "lib/Zef/Service/Shell/curl.pm6",
+      "Zef::Repository::Ecosystems" : "lib/Zef/Repository/Ecosystems.pm6",
+      "Zef::Report" : "lib/Zef/Report.pm6",
+      "Zef::CLI" : "lib/Zef/CLI.pm6",
+      "Zef::Build" : "lib/Zef/Build.pm6",
+      "Zef::Utils::SystemInfo" : "lib/Zef/Utils/SystemInfo.pm6",
+      "Zef::Service::Shell::wget" : "lib/Zef/Service/Shell/wget.pm6",
+      "Zef::Service::Shell::tar" : "lib/Zef/Service/Shell/tar.pm6",
+      "Zef::Service::Shell::Test" : "lib/Zef/Service/Shell/Test.pm6",
+      "Zef::Service::Shell::Build" : "lib/Zef/Service/Shell/Build.pm6",
+      "Zef::Utils::URI" : "lib/Zef/Utils/URI.pm6",
+      "Zef::Service::Shell::git" : "lib/Zef/Service/Shell/git.pm6",
+      "Zef::Service::Shell::PowerShell::download" : "lib/Zef/Service/Shell/PowerShell/download.pm6",
+      "Zef::Service::Shell::PowerShell" : "lib/Zef/Service/Shell/PowerShell.pm6",
+      "Zef::Service::P6CReporter" : "lib/Zef/Service/P6CReporter.pm6",
+      "Zef::Fetch" : "lib/Zef/Fetch.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.15",
+    "description" : "It's like [cpanm] wearing high heels with a tracksuit",
+    "authors" : [
+      "Nick Logan",
+      "Tony O'Dell"
+    ]
+  }
+]
