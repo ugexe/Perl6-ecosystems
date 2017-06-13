@@ -334,6 +334,80 @@
     "description" : "Client library for the OpenCage Geocoder"
   },
   {
+    "name" : "Bailador",
+    "support" : {
+      "source" : "git://github.com/Bailador/Bailador.git",
+      "bugtracker" : "https://github.com/Bailador/Bailador/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/Bailador-0.0.4.tar.gz",
+    "perl" : "6.c",
+    "resources" : [
+      "error.template"
+    ],
+    "depends" : [
+      "Digest",
+      "Digest::HMAC",
+      "File::Directory::Tree",
+      "File::Find",
+      "File::Temp",
+      "HTTP::Easy",
+      "HTTP::MultiPartParser",
+      "Path::Iterator",
+      "Template::Mojo",
+      "Template::Mustache",
+      "URI"
+    ],
+    "tags" : [
+      "Web",
+      "HTTP",
+      "Net"
+    ],
+    "provides" : {
+      "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
+      "Bailador::Request" : "lib/Bailador/Request.pm",
+      "Bailador::Configuration" : "lib/Bailador/Configuration.pm",
+      "Bailador::Commands" : "lib/Bailador/Commands.pm",
+      "Bailador::CLI" : "lib/Bailador/CLI.pm",
+      "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
+      "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
+      "Bailador::Command" : "lib/Bailador/Command.pm",
+      "Bailador::Test" : "lib/Bailador/Test.pm",
+      "Bailador::Template" : "lib/Bailador/Template.pm",
+      "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
+      "Bailador::Exceptions" : "lib/Bailador/Exceptions.pm",
+      "Bailador::Command::easy" : "lib/Bailador/Command/easy.pm",
+      "Bailador" : "lib/Bailador.pm",
+      "Bailador::App" : "lib/Bailador/App.pm",
+      "Bailador::Template::Mustache" : "lib/Bailador/Template/Mustache.pm",
+      "Bailador::Template::Mojo" : "lib/Bailador/Template/Mojo.pm",
+      "Bailador::Route::StaticFile" : "lib/Bailador/Route/StaticFile.pm",
+      "Bailador::Response" : "lib/Bailador/Response.pm",
+      "Bailador::Context" : "lib/Bailador/Context.pm",
+      "Bailador::Command::p6w" : "lib/Bailador/Command/p6w.pm",
+      "Bailador::Route" : "lib/Bailador/Route.pm",
+      "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm"
+    },
+    "license" : "MIT",
+    "version" : "0.0.4",
+    "description" : "A light-weight route-based web application framework for Perl 6",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+      "Anthony Parsons",
+      "Carl Masak",
+      "Gabor Szabo",
+      "GlitchMr",
+      "Moritz Lenz",
+      "Panu Ervamaa",
+      "Paul Cochrane",
+      "Solomon Foster",
+      "Sterling Hanenkamp",
+      "Tobias Leich",
+      "ugexe",
+      "vendethiel",
+      "Martin Barth (ufobat) "
+    ]
+  },
+  {
     "name" : "zef",
     "support" : {
       "bugtracker" : "https://github.com/ugexe/zef/issues"
