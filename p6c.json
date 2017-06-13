@@ -2310,10 +2310,10 @@
     "name" : "BSON",
     "perl" : "6",
     "source-url" : "git://github.com/MARTIMM/BSON.git",
-    "build-depends" : [ ],
     "depends" : [
       "Digest::MD5",
-      "UUID"
+      "UUID",
+      "Test::META"
     ],
     "history" : [
       "Pawe\u0142 Pabian worked on it from 2011 until January 2015",
@@ -2332,9 +2332,6 @@
       "bson",
       "mongodb",
       "serialize"
-    ],
-    "test-depends" : [
-      "Test::META"
     ],
     "version" : "0.9.34.1",
     "description" : "BSON encoding/decoding, used in MongoDB drivers",
