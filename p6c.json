@@ -2420,7 +2420,6 @@
     "name" : "MongoDB",
     "source-url" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
     "perl" : "6",
-    "build-depends" : [ ],
     "depends" : [
       "BSON",
       "Semaphore::ReadersWriters",
@@ -2430,7 +2429,8 @@
       "OpenSSL",
       "URI::Escape",
       "Unicode::PRECIS",
-      "Terminal::ANSIColor"
+      "Terminal::ANSIColor",
+      "Test::META"
     ],
     "provides" : {
       "MongoDB::Header" : "lib/MongoDB/Header.pm6",
@@ -2457,9 +2457,6 @@
       "NoSQL",
       "Database",
       "mongodb"
-    ],
-    "test-depends" : [
-      "Test::META"
     ],
     "version" : "0.37.1.7",
     "description" : "MongoDB driver",
