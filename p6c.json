@@ -7268,11 +7268,12 @@
     "build-depends" : [ ],
     "auth" : "github:drforr",
     "depends" : [ ],
-    "license" : "Artistic",
+    "license" : "Artistic-2.0",
     "test-depends" : [
       "Test"
     ],
     "provides" : {
+      "Perl6::Parser::Factory" : "lib/Perl6/Parser/Factory.pm6",
       "Perl6::Parser" : "lib/Perl6/Parser.pm6"
     },
     "tags" : [
