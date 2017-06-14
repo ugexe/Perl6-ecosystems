@@ -9683,7 +9683,11 @@
     "auth" : "github:zengargoyle",
     "depends" : [ ],
     "test-depends" : [ ],
-    "tags" : [ ],
+    "tags" : [
+      "text",
+      "dictionary",
+      "search"
+    ],
     "provides" : {
       "Search::Dict" : "lib/Search/Dict.pm6"
     },
