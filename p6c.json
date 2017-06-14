@@ -2461,7 +2461,7 @@
     "test-depends" : [
       "Test::META"
     ],
-    "version" : "0.37.2",
+    "version" : "0.37.2.1",
     "description" : "MongoDB driver",
     "authors" : [
       "Marcel Timmerman took over in Januari 2015 and is working on it until the present day",
@@ -9676,19 +9676,23 @@
   },
   {
     "name" : "Search::Dict",
-    "perl" : "v6",
     "source-url" : "git://github.com/zengargoyle/p6-Search-Dict.git",
+    "perl" : "6.c",
+    "resources" : [ ],
     "build-depends" : [ ],
+    "auth" : "github:zengargoyle",
     "depends" : [ ],
     "test-depends" : [ ],
+    "tags" : [ ],
     "provides" : {
       "Search::Dict" : "lib/Search/Dict.pm6"
     },
-    "version" : "0.1",
+    "license" : "Artistic-2.0",
+    "version" : "0.2",
+    "description" : "a fast binary search of dictionary like files",
     "authors" : [
       "zengargoyle"
-    ],
-    "description" : "a fast binary search of dictionary like files"
+    ]
   },
   {
     "name" : "Pod::Coverage",
