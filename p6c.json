@@ -2785,6 +2785,7 @@
       "Email::Simple::Header" : "lib/Email/Simple/Header.pm6",
       "Email::Simple" : "lib/Email/Simple.pm6"
     },
+    "license" : "CC0-1.0",
     "version" : "2.0.0",
     "description" : "Simple email parsing module"
   },
@@ -2805,6 +2806,7 @@
       "Email::MIME::Encoder::Base64" : "lib/Email/MIME/Encoder/Base64.pm6",
       "Email::MIME::ParseContentType" : "lib/Email/MIME/ParseContentType.pm6"
     },
+    "license" : "CC0-1.0",
     "version" : "2.0.0",
     "description" : "Simple MIME email parsing module"
   },
@@ -2817,6 +2819,7 @@
     "provides" : {
       "MIME::QuotedPrint" : "lib/MIME/QuotedPrint.pm6"
     },
+    "license" : "CC0-1.0",
     "version" : "1.0.0",
     "description" : "quoted-printable mime encode/decode"
   },
@@ -2975,20 +2978,6 @@
     },
     "version" : "1.0.0",
     "description" : "Simple IMAP Client"
-  },
-  {
-    "name" : "Digest::HMAC",
-    "source-url" : "git://github.com/retupmoca/P6-Digest-HMAC.git",
-    "perl" : "6.*",
-    "author" : "github:retupmoca",
-    "depends" : [
-      "Digest"
-    ],
-    "provides" : {
-      "Digest::HMAC" : "lib/Digest/HMAC.pm6"
-    },
-    "version" : "1.0.0",
-    "description" : "Generic HMAC implementation"
   },
   {
     "name" : "Net::SOCKS",
@@ -3273,6 +3262,7 @@
     "provides" : {
       "JSON::JWT" : "lib/JSON/JWT.pm6"
     },
+    "license" : "MIT",
     "version" : "1.0",
     "description" : "JWT Signing and Verifying using openssl"
   },
@@ -5630,22 +5620,29 @@
   },
   {
     "name" : "Text::Fortune",
-    "perl" : "v6",
     "source-url" : "git://github.com/zengargoyle/Text-Fortune.git",
+    "perl" : "6.c",
+    "resources" : [ ],
     "build-depends" : [ ],
+    "auth" : "github:zengargoyle",
     "depends" : [
       "File::Find"
     ],
     "test-depends" : [ ],
+    "tags" : [
+      "text",
+      "fortune",
+      "games"
+    ],
     "provides" : {
       "Text::Fortune" : "lib/Text/Fortune.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "*",
+    "version" : "0.03",
+    "description" : "print a random adage, fortune(6), strfile(1)",
     "authors" : [
       "zengargoyle"
-    ],
-    "description" : "print a random adage, fortune(6), strfile(1)"
+    ]
   },
   {
     "name" : "Data::Pretty",
@@ -7606,6 +7603,7 @@
       "Graffiks::Object" : "lib/Graffiks/Object.pm6",
       "Graffiks::PointLight" : "lib/Graffiks/PointLight.pm6"
     },
+    "license" : "MIT",
     "version" : "0.1.0",
     "description" : "Bindings to the graphics engine Graffiks"
   },
@@ -14434,7 +14432,7 @@
       "Sparrowdo::Core::DSL::Group" : "lib/Sparrowdo/Core/DSL/Group.pm6",
       "Sparrowdo::Core::DSL::Bash" : "lib/Sparrowdo/Core/DSL/Bash.pm6"
     },
-    "version" : "0.0.18",
+    "version" : "0.0.19",
     "authors" : [
       "Alexey Melezhik"
     ],
@@ -17233,6 +17231,7 @@
     "perl" : "6.c",
     "resources" : [
       "reserved.txt",
+      "cat-names.txt",
       "src/Any.spt",
       "src/Bool.spt",
       "src/Cmd.spt",
@@ -17259,6 +17258,9 @@
       "src/Pair.spt",
       "src/Host.spt",
       "src/Port.spt",
+      "src/Log.spt",
+      "src/env.spt",
+      "src/SSH.spt",
       "core-lib/Test.spt",
       "tools/harness.spt",
       "tools/spit-helper.spt"
@@ -17280,15 +17282,20 @@
       "Spit::Util" : "lib/Spit/Util.pm6",
       "Spit::Constants" : "lib/Spit/Constants.pm6",
       "Spit::Parser::Grammar" : "lib/Spit/Parser/Grammar.pm6",
+      "Spit::Sh::Compiler::Name-Generator" : "lib/Spit/Sh/Compiler/Name-Generator.pm6",
       "Spit::SETTING" : "lib/Spit/SETTING.pm6",
       "Spit::Parser::Regex" : "lib/Spit/Parser/Regex.pm6",
       "Spit::SpitDoc" : "lib/Spit/SpitDoc.pm6",
       "Spit::Sh::ShellElement" : "lib/Spit/Sh/ShellElement.pm6",
       "Spit::Parser::Quote" : "lib/Spit/Parser/Quote.pm6",
+      "Spit::Sh::Compiler::Compile-Statement-Control" : "lib/Spit/Sh/Compiler/Compile-Statement-Control.pm6",
+      "Spit::Sh::Compiler::Compile-Junction" : "lib/Spit/Sh/Compiler/Compile-Junction.pm6",
       "Spit::Exceptions" : "lib/Spit/Exceptions.pm6",
       "Spit::Repo" : "lib/Spit/Repo.pm6",
       "Spit::OptsParser" : "lib/Spit/OptsParser.pm6",
       "Spit::Compile" : "lib/Spit/Compile.pm6",
+      "Spit::Sh::Call-Inliner" : "lib/Spit/Sh/Call-Inliner.pm6",
+      "Spit::Sh::Compiler::Compile-Cmd-And-Call" : "lib/Spit/Sh/Compiler/Compile-Cmd-And-Call.pm6",
       "Spit::Sh::Compiler" : "lib/Spit/Sh/Compiler.pm6",
       "Spit::Doc::Markdown" : "lib/Spit/Doc/Markdown.pm6",
       "Spit::Sh::Method-Optimizer" : "lib/Spit/Sh/Method-Optimizer.pm6",
@@ -18959,5 +18966,24 @@
       "Jonathan Scott Duff <duff@pobox.com>"
     ],
     "description" : "Perl\u00a06 binding to the Fast Artificial Neural Network library"
+  },
+  {
+    "name" : "Font::QueryInfo",
+    "source-url" : "git://github.com/samcv/perl6-Font-QueryInfo.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Font::QueryInfo" : "lib/Font/QueryInfo.pm6"
+    },
+    "license" : "Artistic-2.0 AND OFL-1.1",
+    "version" : "0.6.1",
+    "description" : "blah blah blah",
+    "authors" : [
+      "Samantha McVey"
+    ]
   }
 ]
