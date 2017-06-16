@@ -2591,15 +2591,16 @@
   },
   {
     "name" : "Bailador",
-    "source-url" : "git://github.com/Bailador/Bailador.git",
     "support" : {
       "source" : "git://github.com/Bailador/Bailador.git",
       "bugtracker" : "https://github.com/Bailador/Bailador/issues"
     },
+    "source-url" : "git://github.com/Bailador/Bailador.git",
     "perl" : "6.c",
     "resources" : [
       "error.template"
     ],
+    "build-depends" : [ ],
     "depends" : [
       "Digest",
       "Digest::HMAC",
@@ -2611,7 +2612,14 @@
       "Path::Iterator",
       "Template::Mojo",
       "Template::Mustache",
-      "URI"
+      "URI",
+      "YAMLish"
+    ],
+    "test-depends" : [ ],
+    "tags" : [
+      "Web",
+      "HTTP",
+      "Net"
     ],
     "provides" : {
       "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
@@ -2621,6 +2629,7 @@
       "Bailador::CLI" : "lib/Bailador/CLI.pm",
       "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
       "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
+      "Bailador::Command::watch" : "lib/Bailador/Command/watch.pm",
       "Bailador::Command" : "lib/Bailador/Command.pm",
       "Bailador::Test" : "lib/Bailador/Test.pm",
       "Bailador::Template" : "lib/Bailador/Template.pm",
@@ -2639,12 +2648,8 @@
       "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm"
     },
     "license" : "MIT",
-    "tags" : [
-      "Web",
-      "HTTP",
-      "Net"
-    ],
-    "version" : "0.0.4",
+    "version" : "0.0.5",
+    "description" : "A light-weight route-based web application framework for Perl 6",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz",
       "Anthony Parsons",
@@ -2659,9 +2664,9 @@
       "Tobias Leich",
       "ugexe",
       "vendethiel",
-      "Martin Barth (ufobat) "
-    ],
-    "description" : "A light-weight route-based web application framework for Perl 6"
+      "Martin Barth (ufobat)",
+      "Emeric Fischer"
+    ]
   },
   {
     "name" : "Form",
@@ -2978,6 +2983,20 @@
     },
     "version" : "1.0.0",
     "description" : "Simple IMAP Client"
+  },
+  {
+    "name" : "Digest::HMAC",
+    "source-url" : "git://github.com/retupmoca/P6-Digest-HMAC.git",
+    "perl" : "6.*",
+    "author" : "github:retupmoca",
+    "depends" : [
+      "Digest"
+    ],
+    "provides" : {
+      "Digest::HMAC" : "lib/Digest/HMAC.pm6"
+    },
+    "version" : "1.0.0",
+    "description" : "Generic HMAC implementation"
   },
   {
     "name" : "Net::SOCKS",
@@ -10976,6 +10995,27 @@
     "description" : "Example of testing a Perl6 module on Travis-CI"
   },
   {
+    "name" : "App::ecogen",
+    "source-url" : "git://github.com/ugexe/Perl6-App--ecogen.git",
+    "support" : {
+      "bugtracker" : "https://github.com/ugexe/Perl6-App--ecogen/issues"
+    },
+    "perl" : "6.c",
+    "auth" : "github:ugexe",
+    "depends" : [ ],
+    "provides" : {
+      "App::ecogen::p6c" : "lib/App/ecogen/p6c.pm6",
+      "App::ecogen::cpan" : "lib/App/ecogen/cpan.pm6",
+      "App::ecogen" : "lib/App/ecogen.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Generate an ecosystem from a list of META files",
+    "authors" : [
+      "ugexe"
+    ]
+  },
+  {
     "name" : "Base64",
     "source-url" : "git://github.com/ugexe/Perl6-Base64.git",
     "support" : {
@@ -17268,7 +17308,8 @@
     "depends" : [
       "DispatchMap",
       "JSON5::Tiny",
-      "Terminal::ANSIColor"
+      "Terminal::ANSIColor",
+      "JSON::Fast"
     ],
     "provides" : {
       "Spit::Parser::Lang" : "lib/Spit/Parser/Lang.pm6",
@@ -17302,7 +17343,7 @@
       "Spit::PRECOMP" : "lib/Spit/PRECOMP.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.0.29",
+    "version" : "0.0.30",
     "authors" : [
       "Lloyd Fournier lloyd.fourn@gmail.com"
     ],
