@@ -7218,22 +7218,6 @@
     ]
   },
   {
-    "name" : "Text::VimColour",
-    "source-url" : "git://github.com/stmuk/p6-Text-VimColour.git",
-    "perl" : "6.c",
-    "depends" : [
-      "File::Temp"
-    ],
-    "provides" : {
-      "Text::VimColour" : "lib/Text/VimColour.pm"
-    },
-    "version" : "0.4",
-    "authors" : [
-      "Steve Mynott <steve.mynott@gmail.com>"
-    ],
-    "description" : "Converts scripts into colour syntax HTML using vim. "
-  },
-  {
     "name" : "HTTP::Server::Threaded",
     "source-url" : "git://github.com/tony-o/perl6-http-server-threaded.git",
     "perl" : "6.*",
@@ -7403,23 +7387,6 @@
       "Sterling Hanenkamp (hanenkamp@cpan.org)"
     ],
     "description" : "A tool for routing paths"
-  },
-  {
-    "name" : "HTTP::Server::Router",
-    "source-url" : "git://github.com/tony-o/perl6-http-server-router.git",
-    "perl" : "6.*",
-    "auth" : "github:tony-o",
-    "depends" : [
-      "HTTP::Server"
-    ],
-    "provides" : {
-      "HTTP::Server::Router" : "lib/HTTP/Server/Router.pm6"
-    },
-    "test-depends" : [
-      "HTTP::Server::Async"
-    ],
-    "version" : "0.1.3",
-    "description" : "Router for HTTP::Server based servers"
   },
   {
     "name" : "X::Protocol",
@@ -7965,17 +7932,6 @@
     "description" : "Implementation of the Elo chess rating system"
   },
   {
-    "name" : "Dependency::Sort",
-    "source-url" : "git://github.com/jaffa4/Dependency-Sort.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "Dependency::Sort" : "lib/Dependency/Sort.pm6"
-    },
-    "version" : "1",
-    "description" : "perform topological sort"
-  },
-  {
     "name" : "Ini::Storage",
     "source-url" : "git://github.com/jaffa4/inistorage.git",
     "perl" : "6.*",
@@ -7987,47 +7943,6 @@
     },
     "version" : "0.8",
     "description" : "store data in ini files"
-  },
-  {
-    "name" : "Audio::Encode::LameMP3",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git://github.com/jonathanstowe/Audio-Encode-LameMP3.git"
-    },
-    "source-url" : "git://github.com/jonathanstowe/Audio-Encode-LameMP3.git",
-    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-    "build-depends" : [
-      "LibraryCheck",
-      "AccessorFacade"
-    ],
-    "resources" : [ ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [
-      "AccessorFacade",
-      "NativeHelpers::Array"
-    ],
-    "provides" : {
-      "Audio::Encode::LameMP3" : "lib/Audio/Encode/LameMP3.pm"
-    },
-    "test-depends" : [
-      "Test::META",
-      "Audio::Taglib::Simple",
-      "Audio::Sndfile"
-    ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "audio",
-      "codec",
-      "encode",
-      "mpeg",
-      "mp3"
-    ],
-    "version" : "0.0.10",
-    "meta6" : "0",
-    "description" : "Encode PCM Audio data to MP3 in Perl 6 using a binding to liblame",
-    "authors" : [
-      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ]
   },
   {
     "name" : "Avro",
@@ -8048,18 +7963,6 @@
     },
     "version" : "0.1.1",
     "description" : "Perl6 Avro Data Serialization"
-  },
-  {
-    "name" : "Log::D",
-    "source-url" : "git://github.com/jaffa4/logd.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "Log::Empty" : "lib/Log/Empty.pm",
-      "Log::D" : "lib/Log/D.pm"
-    },
-    "version" : "0.8",
-    "description" : "Support for logging"
   },
   {
     "name" : "String::Stream",
@@ -8123,38 +8026,6 @@
     "description" : "data selection dsl parser and applicator"
   },
   {
-    "name" : "IO::Glob",
-    "support" : {
-      "source" : "git://github.com/zostay/perl6-IO-Glob.git",
-      "bugtracker" : "https://github.com/zostay/perl6-IO-Glob/issues"
-    },
-    "source-url" : "git://github.com/zostay/perl6-IO-Glob.git",
-    "perl" : "6",
-    "auth" : "github:zostay",
-    "depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "provides" : {
-      "IO::Glob::Simple" : "lib/IO/Glob.pm6",
-      "IO::Glob::Globber" : "lib/IO/Glob.pm6",
-      "IO::Glob::Base" : "lib/IO/Glob.pm6",
-      "IO::Glob" : "lib/IO/Glob.pm6",
-      "IO::Glob::SQL" : "lib/IO/Glob.pm6",
-      "IO::Glob::BSD" : "lib/IO/Glob.pm6",
-      "IO::Glob::Globber::Match" : "lib/IO/Glob.pm6",
-      "IO::Glob::Globber::Term" : "lib/IO/Glob.pm6",
-      "IO::Glob::Globber::Expansion" : "lib/IO/Glob.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "v0.3",
-    "authors" : [
-      "Andrew Sterling Hanenkamp <hanenkamp@cpan.org>",
-      "Peter Pentchev <roam@ringlet.net>"
-    ],
-    "description" : "Glob matching for paths & strings and listing files"
-  },
-  {
     "name" : "HTML::Restrict",
     "source-url" : "git://github.com/stmuk/p6-html-restrict.git",
     "perl" : "6.c",
@@ -8170,41 +8041,6 @@
       "Steve Mynott <steve.mynott@gmail.com>"
     ],
     "description" : "Delete specified HTML tags and attributes"
-  },
-  {
-    "name" : "Audio::Convert::Samplerate",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git"
-    },
-    "source-url" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git",
-    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [
-      "NativeHelpers::Array"
-    ],
-    "provides" : {
-      "Audio::Convert::Samplerate" : "lib/Audio/Convert/Samplerate.pm"
-    },
-    "test-depends" : [
-      "LibraryCheck",
-      "Audio::Sndfile",
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "audio",
-      "utils",
-      "comvert"
-    ],
-    "version" : "0.0.7",
-    "meta6" : "0",
-    "description" : "Convert the samplerate of PCM audio data using libsamplerate",
-    "authors" : [
-      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ]
   },
   {
     "name" : "Staticish",
@@ -8250,18 +8086,6 @@
     },
     "version" : "0.0.3",
     "description" : "An implementation of a useful subset of YAML"
-  },
-  {
-    "name" : "Path::Iterator",
-    "source-url" : "git://github.com/leont/path-iterator.git",
-    "perl" : "6.*",
-    "author" : "Leon Timmermans",
-    "depends" : [ ],
-    "provides" : {
-      "Path::Iterator" : "lib/Path/Iterator.pm"
-    },
-    "version" : "0.0.1",
-    "description" : "Iterative, recursive file finder for Perl 6"
   },
   {
     "name" : "FastCGI::NativeCall",
