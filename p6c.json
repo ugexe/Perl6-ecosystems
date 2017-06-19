@@ -2373,21 +2373,6 @@
     "description" : "Benchmark running times of Perl 6 code"
   },
   {
-    "name" : "Grammar::Profiler::Simple",
-    "source-url" : "git://github.com/perlpilot/Grammar-Profiler-Simple.git",
-    "author" : "Jonathan Scott Duff",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "Grammar::Profiler::Simple" : "lib/Grammar/Profiler/Simple.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "0.01",
-    "description" : "Simple rule profiling for Perl 6 grammars"
-  },
-  {
     "name" : "URI",
     "source-url" : "git://github.com/perl6-community-modules/uri.git",
     "perl" : "6.*",
