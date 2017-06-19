@@ -6693,7 +6693,7 @@
     },
     "perl" : "6.c",
     "depends" : [
-      "LWP::Simple",
+      "HTTP::UserAgent",
       "URI::Encode",
       "HTML::Entity"
     ],
@@ -6707,7 +6707,7 @@
       "pastebin"
     ],
     "license" : "Artistic-2.0",
-    "version" : "2.001002",
+    "version" : "2.001003",
     "authors" : [
       "Zoffix Znet"
     ],
@@ -14093,10 +14093,11 @@
     },
     "test-depends" : [
       "Test",
+      "Test::META",
       "Test::Output"
     ],
     "license" : "Artistic-2.0",
-    "version" : "1.001001",
+    "version" : "1.001002",
     "authors" : [
       "Zoffix Znet"
     ],
