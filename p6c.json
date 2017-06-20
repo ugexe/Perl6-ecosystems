@@ -3740,17 +3740,6 @@
     "description" : "Test for installation of same named dists"
   },
   {
-    "name" : "Locale::US",
-    "source-url" : "git://github.com/perlpilot/p6-Locale-US.git",
-    "author" : "Jonathan Scott Duff",
-    "depends" : [ ],
-    "provides" : {
-      "Locale::US" : "lib/Locale/US.pm"
-    },
-    "version" : "0.0.1",
-    "description" : "Two letter codes for identifying United States territories and vice versa"
-  },
-  {
     "name" : "Text::Emotion",
     "source-url" : "git://github.com/MattOates/Text--Emotion.git",
     "perl" : "6.*",
@@ -9330,22 +9319,6 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
-  },
-  {
-    "name" : "HexDump::Tiny",
-    "source-url" : "git://github.com/perlpilot/p6-HexDump-Tiny.git",
-    "author" : "Jonathan Scott Duff",
-    "build-depends" : [ ],
-    "repo-type" : "git",
-    "depends" : [ ],
-    "provides" : {
-      "HexDump::Tiny" : "lib/HexDump/Tiny.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "0.01",
-    "description" : "Generate hexadecimal dump of scalar values"
   },
   {
     "name" : "Module::Does",
