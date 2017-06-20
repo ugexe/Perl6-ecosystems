@@ -2373,6 +2373,34 @@
     "description" : "Benchmark running times of Perl 6 code"
   },
   {
+    "name" : "Grammar::Profiler::Simple",
+    "support" : {
+      "email" : "duff@pobox.com",
+      "source" : "https://github.com/perlpilot/Grammar-Profiler-Simple.git",
+      "bugtracker" : "https://github.com/perlpilot/Grammar-Profiler-Simple/issues"
+    },
+    "source-url" : "git://github.com/perlpilot/Grammar-Profiler-Simple.git",
+    "perl" : "6.*",
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Grammar::Profiler::Simple" : "lib/Grammar/Profiler/Simple.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "Grammar",
+      "Profiler"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "0.02",
+    "authors" : [
+      "Jonathan Scott Duff <duff@pobox.com>"
+    ],
+    "description" : "Simple rule profiling for Perl 6 grammars"
+  },
+  {
     "name" : "URI",
     "source-url" : "git://github.com/perl6-community-modules/uri.git",
     "perl" : "6.*",
@@ -3740,6 +3768,19 @@
     "description" : "Test for installation of same named dists"
   },
   {
+    "name" : "Locale::US",
+    "source-url" : "git://github.com/perlpilot/p6-Locale-US.git",
+    "perl" : "6.*",
+    "author" : "Jonathan Scott Duff",
+    "depends" : [ ],
+    "provides" : {
+      "Locale::US" : "lib/Locale/US.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Two letter codes for identifying United States territories and vice versa"
+  },
+  {
     "name" : "Text::Emotion",
     "source-url" : "git://github.com/MattOates/Text--Emotion.git",
     "perl" : "6.*",
@@ -4952,6 +4993,32 @@
     "description" : "Parses CSV files, duh"
   },
   {
+    "name" : "Questhub",
+    "support" : {
+      "email" : "duff@pobox.com",
+      "source" : "https://github.com/perlpilot/p6-Questhub.git",
+      "bugtracker" : "https://github.com/perlpilot/p6-Questhub/issues"
+    },
+    "perl" : "6.*",
+    "depends" : [
+      "JSON::Tiny",
+      "HTTP::UserAgent",
+      "Terminal::ANSIColor",
+      "IO::Socket::SSL"
+    ],
+    "provides" : {
+      "Questhub::Quest" : "lib/Questhub/Quest.pm6",
+      "Questhub::Quest::State" : "lib/Questhub/Quest/State.pm6",
+      "Questhub" : "lib/Questhub.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Scott Duff <duff@pobox.com>"
+    ],
+    "description" : "Implementation of http://questhub.io API + CLI"
+  },
+  {
     "name" : "File::Find",
     "source-url" : "git://github.com/tadzik/File-Find.git",
     "support" : {
@@ -5034,6 +5101,19 @@
     "license" : "MIT",
     "version" : "0.08",
     "description" : "Turn JSON into objects"
+  },
+  {
+    "name" : "sake",
+    "source-url" : "git://github.com/perlpilot/p6-sake.git",
+    "perl" : "6.*",
+    "author" : "Jonathan Scott Duff <duff@pobox.com>",
+    "depends" : [ ],
+    "provides" : {
+      "Sake" : "lib/Sake.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "A make-a-like implemented in Perl 6"
   },
   {
     "name" : "Text::Markov",
@@ -8315,6 +8395,27 @@
     "description" : "Asynchronous printing to your terminal -- as a simple grid"
   },
   {
+    "name" : "IO::Notification::Recursive",
+    "support" : {
+      "email" : "duff@pobox.com",
+      "source" : "https://github.com/perlpilot/p6-IO-Notification-Recursive.git",
+      "bugtracker" : "https://github.com/perlpilot/p6-IO-Notification-Recursive/issues"
+    },
+    "perl" : "6.*",
+    "depends" : [
+      "File::Find"
+    ],
+    "provides" : {
+      "IO::Notification::Recursive" : "lib/IO/Notification/Recursive.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Jonathan Scott Duff <duff@pobox.com>"
+    ],
+    "description" : "Recursively watch a directory and any subdirectories"
+  },
+  {
     "name" : "P6W",
     "source-url" : "git://github.com/zostay/P6W.git",
     "perl" : "6.c",
@@ -9308,6 +9409,23 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "HexDump::Tiny",
+    "source-url" : "git://github.com/perlpilot/p6-HexDump-Tiny.git",
+    "perl" : "6.*",
+    "author" : "Jonathan Scott Duff",
+    "build-depends" : [ ],
+    "repo-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "HexDump::Tiny" : "lib/HexDump/Tiny.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.01",
+    "description" : "Generate hexadecimal dump of scalar values"
   },
   {
     "name" : "Module::Does",
