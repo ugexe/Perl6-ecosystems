@@ -4963,24 +4963,6 @@
     "description" : "Parses CSV files, duh"
   },
   {
-    "name" : "Questhub",
-    "source-url" : "git://github.com/perlpilot/p6-Questhub.git",
-    "author" : "Jonathan Scott Duff <duff@pobox.com>",
-    "depends" : [
-      "JSON::Tiny",
-      "HTTP::UserAgent",
-      "Term::ANSIColor",
-      "IO::Socket::SSL"
-    ],
-    "provides" : {
-      "Questhub::Quest" : "lib/Questhub/Quest.pm6",
-      "Questhub::Quest::State" : "lib/Questhub/Quest/State.pm6",
-      "Questhub" : "lib/Questhub.pm6"
-    },
-    "version" : "0.0.1",
-    "description" : "Implementation of http://questhub.io API + CLI"
-  },
-  {
     "name" : "File::Find",
     "source-url" : "git://github.com/tadzik/File-Find.git",
     "support" : {
@@ -7806,6 +7788,7 @@
   {
     "name" : "Math::Trig",
     "source-url" : "git://github.com/perlpilot/p6-Math-Trig.git",
+    "perl" : "6.*",
     "build-depends" : [ ],
     "author" : "Jonathan Scott Duff <duff@pobox.com>",
     "depends" : [ ],
@@ -7816,6 +7799,7 @@
     "test-depends" : [
       "Test"
     ],
+    "license" : "Artistic-2.0",
     "version" : "0.0.2",
     "description" : "Useful trigonometric routines"
   },
@@ -8351,19 +8335,6 @@
       "John Haltiwanger"
     ],
     "description" : "Asynchronous printing to your terminal -- as a simple grid"
-  },
-  {
-    "name" : "IO::Notification::Recursive",
-    "source-url" : "git://github.com/perlpilot/p6-IO-Notification-Recursive.git",
-    "author" : "Jonathan Scott Duff <duff@pobox.com>",
-    "depends" : [
-      "File::Find"
-    ],
-    "provides" : {
-      "IO::Notification::Recursive" : "lib/IO/Notification/Recursive.pm"
-    },
-    "version" : "0.0.1",
-    "description" : "Recursively watch a directory and any subdirectories"
   },
   {
     "name" : "P6W",
