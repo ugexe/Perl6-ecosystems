@@ -4690,6 +4690,18 @@
     "description" : "Perl 6 CSS extended and property-specific grammars"
   },
   {
+    "name" : "Imlib2",
+    "source-url" : "git://github.com/mrhdias/perl6-Imlib2.git",
+    "source-type" : "git",
+    "author" : "Henrique Dias",
+    "depends" : [
+      "NativeCall",
+      "LibraryMake"
+    ],
+    "version" : "0.0.1",
+    "description" : "Perl 6 interface to the Imlib2 image library."
+  },
+  {
     "name" : "Lingua::EN::Sentence",
     "perl" : "6.*",
     "source-url" : "git://github.com/dginev/perl6-Lingua-EN-Sentence.git",
@@ -5349,6 +5361,48 @@
     "license" : "Artistic-2.0",
     "version" : "0.1.5",
     "description" : "Simple GTK 3 binding using NativeCall"
+  },
+  {
+    "name" : "Cairo",
+    "support" : {
+      "source" : "git://github.com/timo/cairo-p6.git"
+    },
+    "source-url" : "git://github.com/timo/cairo-p6.git",
+    "perl" : "v6",
+    "depends" : [ ],
+    "provides" : {
+      "Cairo::Pattern" : "lib/Cairo.pm6",
+      "Cairo::LineCap" : "lib/Cairo.pm6",
+      "Cairo::Surface" : "lib/Cairo.pm6",
+      "Cairo::Pattern::Solid" : "lib/Cairo.pm6",
+      "Cairo::FontSlant" : "lib/Cairo.pm6",
+      "Cairo" : "lib/Cairo.pm6",
+      "Cairo::Pattern::Gradient::Linear" : "lib/Cairo.pm6",
+      "Cairo::Pattern::Gradient" : "lib/Cairo.pm6",
+      "Cairo::Operator" : "lib/Cairo.pm6",
+      "Cairo::Image" : "lib/Cairo.pm6",
+      "Cairo::Format" : "lib/Cairo.pm6",
+      "Cairo::Context" : "lib/Cairo.pm6",
+      "Cairo::Extend" : "lib/Cairo.pm6",
+      "Cairo::RecordingSurface" : "lib/Cairo.pm6",
+      "Cairo::Surface::SVG" : "lib/Cairo.pm6",
+      "Cairo::FillRule" : "lib/Cairo.pm6",
+      "Cairo::Content" : "lib/Cairo.pm6",
+      "Cairo::Pattern::Surface" : "lib/Cairo.pm6",
+      "Cairo::Pattern::Gradient::Radial" : "lib/Cairo.pm6",
+      "Cairo::FontWeight" : "lib/Cairo.pm6",
+      "Cairo::Antialias" : "lib/Cairo.pm6",
+      "Cairo::Surface::PDF" : "lib/Cairo.pm6",
+      "Cairo::Matrix" : "lib/Cairo.pm6",
+      "Cairo::LineJoin" : "lib/Cairo.pm6"
+    },
+    "tags" : [
+      "png",
+      "pdf",
+      "svg"
+    ],
+    "version" : "0.2.2",
+    "description" : "Cairo 2D graphics library"
   },
   {
     "name" : "ClassX::StrictConstructor",
