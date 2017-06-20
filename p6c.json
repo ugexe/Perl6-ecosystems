@@ -14723,6 +14723,14 @@
       "Test::Output"
     ],
     "provides" : {
+      "Uzu::Logger" : "lib/Uzu/Logger.pm6",
+      "Uzu::LiveReload" : "lib/Uzu/LiveReload.pm6",
+      "Uzu::Config" : "lib/Uzu/Config.pm6",
+      "Uzu::Watch" : "lib/Uzu/Watch.pm6",
+      "Uzu::Utilities" : "lib/Uzu/Utilities.pm6",
+      "Uzu::Render" : "lib/Uzu/Render.pm6",
+      "Uzu::HTTP" : "lib/Uzu/HTTP.pm6",
+      "Uzu::CLI" : "lib/Uzu/CLI.pm6",
       "Uzu" : "lib/Uzu.pm6"
     },
     "license" : "Artistic-2.0",
