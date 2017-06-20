@@ -12996,6 +12996,24 @@
     ]
   },
   {
+    "name" : "Algorithm::Manacher",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/titsuki/p6-Algorithm-Manacher.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "provides" : {
+      "Algorithm::Manacher" : "lib/Algorithm/Manacher.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "*",
+    "authors" : [
+      "titsuki"
+    ],
+    "description" : "a perl6 implementation of the extended Manacher's Algorithm for solving longest palindromic substring(i.e. palindrome) problem"
+  },
+  {
     "name" : "Text::Template",
     "source-url" : "https://github.com/nkh/P6-Text-Template.git",
     "perl" : "6.c",
