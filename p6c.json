@@ -14716,7 +14716,6 @@
       "Terminal::ANSIColor",
       "Template6",
       "Bailador",
-      "HTTP::Tinyish",
       "YAMLish"
     ],
     "test-depends" : [
@@ -14733,6 +14732,10 @@
       "Uzu::CLI" : "lib/Uzu/CLI.pm6",
       "Uzu" : "lib/Uzu.pm6"
     },
+    "tags" : [
+      "web",
+      "static-site-generator"
+    ],
     "license" : "Artistic-2.0",
     "version" : "0.1.8",
     "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, and multi-page support."
