@@ -18864,11 +18864,14 @@
     "perl" : "6.c",
     "depends" : [ ],
     "provides" : {
-      "Log" : "lib/Log.pm6"
+      "Log" : "lib/Log.pm6",
+      "Log::NDC" : "lib/Log/NDC.pm6",
+      "Log::Exceptions" : "lib/Log/Exceptions.pm6",
+      "Log::MDC" : "lib/Log/MDC.pm6"
     },
     "test-depends" : [ ],
     "license" : "Artistic-2.0",
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "authors" : [
       "Andr\u00e9 Br\u00e1s"
     ],
