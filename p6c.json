@@ -19104,5 +19104,18 @@
     "authors" : [
       "Samantha McVey"
     ]
+  },
+  {
+    "name" : "Dictionary::Create",
+    "source-url" : "git://github.com/prodotiscus/perl6-Dictionary-Create.git",
+    "perl" : "6.*",
+    "depends" : [ ],
+    "provides" : {
+      "Dictionary::Create::DSL" : "lib/Dictionary/Create/DSL.pm",
+      "Dictionary::Create" : "lib/Dictionary/Create.pm"
+    },
+    "license" : "Apache-License-2.0",
+    "version" : "*",
+    "description" : "Dictionaries creating module"
   }
 ]
