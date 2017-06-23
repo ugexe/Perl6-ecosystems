@@ -19120,5 +19120,36 @@
     "license" : "Apache-License-2.0",
     "version" : "*",
     "description" : "Dictionaries creating module"
+  },
+  {
+    "name" : "TCC",
+    "support" : {
+      "source" : "https://github.com/CurtTilmes/perl6-tcc.git",
+      "bugtracker" : "https://github.com/CurtTilmes/perl6-tcc/issues"
+    },
+    "perl" : "6.c",
+    "source-url" : "https://github.com/CurtTilmes/perl6-tcc.git",
+    "auth" : "github:CurtTilmes",
+    "depends" : [
+      "NativeCall"
+    ],
+    "license" : "Artistic-2.0",
+    "test-depends" : [
+      "Test"
+    ],
+    "provides" : {
+      "TCC" : "lib/TCC.pm6"
+    },
+    "tags" : [
+      "inline",
+      "c",
+      "compiler",
+      "nativecall"
+    ],
+    "version" : "0.1",
+    "authors" : [
+      "Curt Tilmes <ctilmes@cpan.org>"
+    ],
+    "description" : "Perl 6 bindings for TCC, The Tiny C Compiler"
   }
 ]
