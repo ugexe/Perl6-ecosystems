@@ -8593,20 +8593,22 @@
   },
   {
     "name" : "IO::Blob",
-    "perl" : "6",
     "source-url" : "git://github.com/moznion/p6-IO-Blob.git",
+    "perl" : "6",
+    "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [ ],
     "test-depends" : [ ],
+    "tags" : [ ],
     "provides" : {
       "IO::Blob" : "lib/IO/Blob.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "*",
+    "version" : "0.0.1",
+    "description" : "IO:: interface for reading/writing a Blob",
     "authors" : [
       "moznion"
-    ],
-    "description" : "IO:: interface for reading/writing a Blob"
+    ]
   },
   {
     "name" : "HTTP::Tinyish",
