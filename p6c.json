@@ -19151,5 +19151,31 @@
       "Curt Tilmes <ctilmes@cpan.org>"
     ],
     "description" : "Perl 6 bindings for TCC, The Tiny C Compiler"
+  },
+  {
+    "name" : "HTTP::Server::Ogre",
+    "source-url" : "git://github.com/ufobat/HTTP-Server-Ogre.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "HTTP::Request::Supply",
+      "HTTP::Status"
+    ],
+    "test-depends" : [ ],
+    "tags" : [
+      "Web",
+      "HTTP",
+      "P6W"
+    ],
+    "provides" : {
+      "HTTP::Server::Ogre" : "lib/HTTP/Server/Ogre.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "he is not tiny nor easy to handle. He is rather a stupid ogre that handles paralell http requests",
+    "authors" : [
+      "Martin Barth (ufobat)"
+    ]
   }
 ]
