@@ -3507,33 +3507,6 @@
     "description" : "Perl 6 documentation (tools and docs)"
   },
   {
-    "name" : "Class::Utils",
-    "source-url" : "git://github.com/sirrobert/Class-Utils.git",
-    "author" : "Sir Robert Burbridge",
-    "depends" : [ ],
-    "provides" : {
-      "Class::Utils" : "lib/Class/Utils.pm6"
-    },
-    "version" : "0.1.0",
-    "description" : "Small utilities to help with defining classes"
-  },
-  {
-    "name" : "Masquerade",
-    "source-url" : "git://github.com/sirrobert/Masquerade.git",
-    "author" : "Sir Robert Burbridge",
-    "depends" : [
-      "JSON::Tiny"
-    ],
-    "provides" : {
-      "Masquerade::AsIf::Perl" : "lib/Masquerade/AsIf/Perl.pm6",
-      "Masquerade" : "lib/Masquerade.pm6",
-      "Masquerade::AsIf::YAML" : "lib/Masquerade/AsIf/YAML.pm",
-      "Masquerade::AsIf::JSON" : "lib/Masquerade/AsIf/JSON.pm6"
-    },
-    "version" : "*",
-    "description" : "Let Perl 6 constructs masquerade as other things."
-  },
-  {
     "name" : "XML::Parser::Tiny",
     "source-url" : "git://github.com/afiskon/p6-xml-parser-tiny.git",
     "perl" : "6.*",
@@ -3818,14 +3791,6 @@
     "license" : "Artistic-2.0",
     "version" : "0.0.2",
     "description" : "Map ASCII to unicode homoglyphs."
-  },
-  {
-    "name" : "Semantic::Versioning",
-    "source-url" : "git://github.com/sirrobert/Semantic-Versioning.git",
-    "author" : "Sir Robert Burbridge",
-    "depends" : [ ],
-    "version" : "*",
-    "description" : "Semantic versioning for objects"
   },
   {
     "name" : "SSL",
