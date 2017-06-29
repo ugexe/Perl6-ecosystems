@@ -19159,5 +19159,28 @@
     "authors" : [
       "Martin Barth (ufobat)"
     ]
+  },
+  {
+    "name" : "Chart::Gnuplot",
+    "source-url" : "git://github.com/titsuki/p6-Chart-Gnuplot.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [
+      "zef"
+    ],
+    "depends" : [ ],
+    "test-depends" : [
+      "IO::Capture::Simple"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "Chart::Gnuplot" : "lib/Chart/Gnuplot.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.0.1",
+    "description" : "A Perl 6 bindings for gnuplot",
+    "authors" : [
+      "titsuki"
+    ]
   }
 ]
