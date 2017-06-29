@@ -19143,7 +19143,9 @@
       "HTTP::Request::Supply",
       "HTTP::Status"
     ],
-    "test-depends" : [ ],
+    "test-depends" : [
+      "Path::Iterator"
+    ],
     "tags" : [
       "Web",
       "HTTP",
