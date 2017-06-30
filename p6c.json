@@ -19221,5 +19221,26 @@
     "authors" : [
       "titsuki"
     ]
+  },
+  {
+    "name" : "Prompt::Gruff",
+    "source-url" : "git://github.com/adaptiveoptics/P6-Prompt-Gruff.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "provides" : {
+      "Prompt::Gruff::Export" : "lib/Prompt/Gruff/Export.pm6",
+      "Prompt::Gruff" : "lib/Prompt/Gruff.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Mark Rushing"
+    ],
+    "description" : "Uncomplicated yet functional and terse user input"
   }
 ]
