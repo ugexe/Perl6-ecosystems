@@ -16016,6 +16016,7 @@
     "source-url" : "git://github.com/adaptiveoptics/Crust-Middleware-Session-Store-DBIish.git",
     "perl" : "6.c",
     "depends" : [
+      "Crust",
       "Crust::Middleware::Session",
       "JSON::Fast"
     ],
@@ -19229,8 +19230,7 @@
     "resources" : [ ],
     "depends" : [ ],
     "test-depends" : [
-      "Test",
-      "Test::META"
+      "Test"
     ],
     "provides" : {
       "Prompt::Gruff::Export" : "lib/Prompt/Gruff/Export.pm6",
