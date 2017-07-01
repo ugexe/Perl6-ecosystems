@@ -1,5 +1,26 @@
 [
   {
+    "name" : "HandleSupplier",
+    "source-url" : "http://www.cpan.org/authors/id/A/AS/ASTJ/Perl6/HandleSupplier-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "IO::Blob"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "HandleSupplier" : "lib/HandleSupplier.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "generate Supplier for an IO::Handle object",
+    "authors" : [
+      "Asato Wakisaka"
+    ]
+  },
+  {
     "name" : "SQL::NamedPlaceholder",
     "source-url" : "http://www.cpan.org/authors/id/A/AS/ASTJ/Perl6/SQL-NamedPlaceholder-0.1.0.tar.gz",
     "perl" : "6",
