@@ -431,6 +431,32 @@
     "description" : "Client library for the OpenCage Geocoder"
   },
   {
+    "name" : "HTTP::Server::Tiny",
+    "source-url" : "http://www.cpan.org/authors/id/T/TO/TOKUHIROM/Perl6/HTTP-Server-Tiny-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "HTTP::Parser",
+      "HTTP::Status",
+      "IO::Blob"
+    ],
+    "test-depends" : [
+      "JSON::Fast",
+      "HTTP::Tinyish"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "HTTP::Server::Tiny" : "lib/HTTP/Server/Tiny.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "a simple HTTP server for Perl6",
+    "authors" : [
+      "Tokuhiro Matsuno"
+    ]
+  },
+  {
     "name" : "Bailador",
     "support" : {
       "source" : "git://github.com/Bailador/Bailador.git",
