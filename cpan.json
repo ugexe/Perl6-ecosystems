@@ -1,5 +1,47 @@
 [
   {
+    "name" : "SQL::NamedPlaceholder",
+    "source-url" : "http://www.cpan.org/authors/id/A/AS/ASTJ/Perl6/SQL-NamedPlaceholder-0.1.0.tar.gz",
+    "perl" : "6",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "SQL::NamedPlaceholder" : "lib/SQL/NamedPlaceholder.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "description" : "extension of placeholder",
+    "authors" : [
+      "astj"
+    ]
+  },
+  {
+    "name" : "SQL::NamedPlaceholder",
+    "source-url" : "http://www.cpan.org/authors/id/A/AS/ASTJ/Perl6/SQL-NamedPlaceholder-0.1.1.tar.gz",
+    "perl" : "6",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "SQL::NamedPlaceholder" : "lib/SQL/NamedPlaceholder.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.1",
+    "description" : "extension of placeholder",
+    "authors" : [
+      "astj"
+    ]
+  },
+  {
     "name" : "Inline",
     "support" : {
       "source" : "https://github.com/FROGGS/p6-Inline-C.git",
@@ -220,6 +262,27 @@
     "license" : "Artistic-2.0",
     "version" : "0.0.1",
     "description" : "IO:: interface for reading/writing a Blob",
+    "authors" : [
+      "moznion"
+    ]
+  },
+  {
+    "name" : "Router::Boost",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Router-Boost-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Router::Boost" : "lib/Router/Boost.pm6",
+      "Router::Boost::Node" : "lib/Router/Boost/Node.pm6",
+      "Router::Boost::Method" : "lib/Router/Boost/Method.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Routing engine for perl6",
     "authors" : [
       "moznion"
     ]
