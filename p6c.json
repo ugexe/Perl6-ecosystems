@@ -15515,6 +15515,32 @@
     ]
   },
   {
+    "name" : "Algorithm::LBFGS",
+    "source-url" : "git://github.com/titsuki/p6-Algorithm-LBFGS.git",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/liblbfgs"
+    ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
+    "depends" : [
+      "NativeHelpers::Array"
+    ],
+    "test-depends" : [ ],
+    "provides" : {
+      "Algorithm::LBFGS" : "lib/Algorithm/LBFGS.pm6",
+      "Algorithm::LBFGS::Status" : "lib/Algorithm/LBFGS/Status.pm6",
+      "Algorithm::LBFGS::Parameter" : "lib/Algorithm/LBFGS/Parameter.pm6"
+    },
+    "license" : "MIT",
+    "version" : "0.0.2",
+    "description" : "A Perl6 bindings for libLBFGS",
+    "authors" : [
+      "titsuki"
+    ]
+  },
+  {
     "name" : "Geo::IP2Location::Lite",
     "source-url" : "git://github.com/leejo/geo-ip2location-lite-p6",
     "perl" : "6.c",
