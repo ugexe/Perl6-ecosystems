@@ -12081,6 +12081,7 @@
     "depends" : [
       "LibraryCheck",
       "NativeCall",
+      "NCurses",
       "Terminal::WCWidth"
     ],
     "test-depends" : [
@@ -12089,7 +12090,7 @@
     "tags" : [ ],
     "provides" : {
       "Term::Choose" : "lib/Term/Choose.pm6",
-      "Term::Choose::NCurses" : "lib/Term/Choose/NCurses.pm6",
+      "Term::Choose::NCursesAdd" : "lib/Term/Choose/NCursesAdd.pm6",
       "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
     },
     "license" : "Artistic-2.0",
@@ -12767,6 +12768,7 @@
     "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [
+      "NCurses",
       "Term::Choose"
     ],
     "test-depends" : [
@@ -12790,6 +12792,7 @@
     "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [
+      "NCurses",
       "Term::Choose",
       "Term::Choose::Util"
     ],
