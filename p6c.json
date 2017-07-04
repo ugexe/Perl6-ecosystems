@@ -2659,6 +2659,7 @@
       "Bailador::Command::tiny" : "lib/Bailador/Command/tiny.pm",
       "Bailador::Command::easy" : "lib/Bailador/Command/easy.pm",
       "Bailador" : "lib/Bailador.pm",
+      "Bailador::Feature::AutoHead" : "lib/Bailador/Feature/AutoHead.pm",
       "Bailador::App" : "lib/Bailador/App.pm",
       "Bailador::Template::Mustache" : "lib/Bailador/Template/Mustache.pm",
       "Bailador::Template::Mojo" : "lib/Bailador/Template/Mojo.pm",
@@ -2672,7 +2673,7 @@
       "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
     },
     "license" : "MIT",
-    "version" : "0.0.6",
+    "version" : "0.0.7",
     "description" : "A light-weight route-based web application framework for Perl 6",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz",
