@@ -17605,8 +17605,11 @@
       "Platform::Environment" : "lib/Platform/Environment.pm6",
       "Platform::Docker::Container" : "lib/Platform/Docker/Container.pm6",
       "Platform" : "lib/Platform.pm6",
+      "Platform::Util::OS" : "lib/Platform/Util/OS.pm6",
+      "Platform::Docker::DNS::MacOS" : "lib/Platform/Docker/DNS/MacOS.pm6",
       "Platform::Docker::DNS" : "lib/Platform/Docker/DNS.pm6",
-      "Platform::Project" : "lib/Platform/Project.pm6"
+      "Platform::Project" : "lib/Platform/Project.pm6",
+      "Platform::Docker::DNS::Linux" : "lib/Platform/Docker/DNS/Linux.pm6"
     },
     "tags" : [
       "Platform",
