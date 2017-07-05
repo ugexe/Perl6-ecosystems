@@ -15337,7 +15337,12 @@
       "Numeric::Pack" : "lib/Numeric/Pack.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.1.2",
+    "tags" : [
+      "Binary",
+      "Buf",
+      "Native"
+    ],
+    "version" : "0.2.0",
     "description" : "Convert perl6 Numerics to Bufs and back again!",
     "authors" : [
       "Sam Gillespie"
