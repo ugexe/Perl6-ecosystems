@@ -19265,5 +19265,49 @@
       "Mark Rushing"
     ],
     "description" : "Uncomplicated yet functional and terse user input"
+  },
+  {
+    "name" : "Finance::GDAX::API",
+    "source-url" : "git://github.com/adaptiveoptics/P6-Finance-GDAX-API.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [
+      "JSON::Fast",
+      "LibCurl",
+      "Digest::HMAC",
+      "Digest::SHA",
+      "MIME::Base64"
+    ],
+    "test-depends" : [
+      "Test",
+      "File::Temp"
+    ],
+    "provides" : {
+      "Finance::GDAX::API::URL" : "lib/Finance/GDAX/API/URL.pm6",
+      "Finance::GDAX::API::UserAccount" : "lib/Finance/GDAX/API/UserAccount.pm6",
+      "Finance::GDAX::API::Order" : "lib/Finance/GDAX/API/Order.pm6",
+      "Finance::GDAX::API::Funding" : "lib/Finance/GDAX/API/Funding.pm6",
+      "Finance::GDAX::API::Report" : "lib/Finance/GDAX/API/Report.pm6",
+      "Finance::GDAX::API::Quote" : "lib/Finance/GDAX/API/Quote.pm6",
+      "Finance::GDAX::API::Currency" : "lib/Finance/GDAX/API/Currency.pm6",
+      "Finance::GDAX::API::Account" : "lib/Finance/GDAX/API/Account.pm6",
+      "Finance::GDAX::API::Deposit" : "lib/Finance/GDAX/API/Deposit.pm6",
+      "Finance::GDAX::API::Time" : "lib/Finance/GDAX/API/Time.pm6",
+      "Finance::GDAX::API::Position" : "lib/Finance/GDAX/API/Position.pm6",
+      "Finance::GDAX::API::Fill" : "lib/Finance/GDAX/API/Fill.pm6",
+      "Finance::GDAX::API::CoinbaseAccount" : "lib/Finance/GDAX/API/CoinbaseAccount.pm6",
+      "Finance::GDAX::API::PaymentMethod" : "lib/Finance/GDAX/API/PaymentMethod.pm6",
+      "Finance::GDAX::API::TypeConstraints" : "lib/Finance/GDAX/API/TypeConstraints.pm6",
+      "Finance::GDAX::API::MarginTransfer" : "lib/Finance/GDAX/API/MarginTransfer.pm6",
+      "Finance::GDAX::API" : "lib/Finance/GDAX/API.pm6",
+      "Finance::GDAX::API::Withdrawl" : "lib/Finance/GDAX/API/Withdrawl.pm6",
+      "Finance::GDAX::API::Product" : "lib/Finance/GDAX/API/Product.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Mark Rushing"
+    ],
+    "description" : "GDAX Cyrptocurrency Exchange low-level API implementation."
   }
 ]
