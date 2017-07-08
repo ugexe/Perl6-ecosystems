@@ -19320,5 +19320,39 @@
       "Mark Rushing"
     ],
     "description" : "GDAX Crypto-currency Exchange low-level API implementation"
+  },
+  {
+    "name" : "Getopt::Advance",
+    "support" : {
+      "source" : "https://github.com/araraloren/perl6-getopt-advance.git",
+      "bugtracker" : "https://github.com.araraloren/perl6-getopt-advance/issues"
+    },
+    "source-url" : "https://github.com/araraloren/perl6-getopt-advance.git",
+    "perl" : "6.c",
+    "auth" : "github:araraloren",
+    "depends" : [
+      "Terminal::Table"
+    ],
+    "provides" : {
+      "Getopt::Advance::Types" : "lib/Getopt/Advance/Types.pm6",
+      "Getopt::Advance::Helper" : "lib/Getopt/Advance/Helper.pm6",
+      "Getopt::Advance" : "lib/Getopt/Advance.pm6",
+      "Getopt::Advance::Exception" : "lib/Getopt/Advance/Exception.pm6",
+      "Getopt::Advance::Parser" : "lib/Getopt/Advance/Parser.pm6",
+      "Getopt::Advance::Option" : "lib/Getopt/Advance/Option.pm6",
+      "Getopt::Advance::NonOption" : "lib/Getopt/Advance/NonOption.pm6",
+      "Getopt::Advance::Group" : "lib/Getopt/Advance/Group.pm6",
+      "Getopt::Advance::Argument" : "lib/Getopt/Advance/Argument.pm6"
+    },
+    "tags" : [
+      "getopt",
+      "unix",
+      "gnu",
+      "bsd"
+    ],
+    "license" : "MIT",
+    "version" : "0.0.1",
+    "authors" : "Loren",
+    "description" : "Advanced command line parse module for perl6"
   }
 ]
