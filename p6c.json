@@ -35,32 +35,6 @@
     "description" : "Country Code following ISO 3166 spec"
   },
   {
-    "name" : "Acme::Meow",
-    "source-url" : "git://github.com/tadzik/perl6-Acme-Meow.git",
-    "support" : {
-      "source" : "git://github.com/tadzik/perl6-Acme-Meow.git",
-      "bugtracker" : "https://github.com/tadzik/perl6-Acme-Meow/issues"
-    },
-    "perl" : "6.*",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "Acme::Meow" : "lib/Acme/Meow.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "0.1",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-      "Paul Cochrane",
-      "GlithMr",
-      "Ethan House",
-      "Tobias Leich"
-    ],
-    "description" : "The kitty you always wanted, now in Perl 6"
-  },
-  {
     "name" : "JSON::Tiny",
     "source-url" : "git://github.com/moritz/json.git",
     "perl" : "6.*",
