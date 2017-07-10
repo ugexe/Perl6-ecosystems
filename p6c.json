@@ -9306,18 +9306,6 @@
     "description" : "Find the time of sunrise/sunset on a particular day"
   },
   {
-    "name" : "Encoding::Huffman::PP6",
-    "source-url" : "git://github.com/tony-o/perl6-encoding-huffman-pp6.git",
-    "perl" : "6.*",
-    "auth" : "github:tony-o",
-    "depends" : [ ],
-    "provides" : {
-      "Encoding::Huffman::PP6" : "lib/Encoding/Huffman/PP6.pm6"
-    },
-    "version" : "0.0.2",
-    "description" : "Huffman Encoding with pure perl6"
-  },
-  {
     "name" : "Gumbo",
     "source-url" : "git://github.com/Skarsnik/perl6-gumbo.git",
     "perl" : "6.*",
@@ -10531,29 +10519,6 @@
     "license" : "Artistic-2.0",
     "version" : "0.0.3",
     "description" : "Walk a Pod tree and generate an event for each node"
-  },
-  {
-    "name" : "TXN",
-    "support" : {
-      "source" : "https://github.com/atweiden/mktxn",
-      "bugtracker" : "https://github.com/atweiden/mktxn/issues"
-    },
-    "source-url" : "git://github.com/atweiden/mktxn.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "author" : "Andy Weidenbaum",
-    "depends" : [
-      "Config::TOML",
-      "File::Presence",
-      "TXN::Parser",
-      "TXN::Remarshal"
-    ],
-    "provides" : {
-      "TXN" : "lib/TXN.pm"
-    },
-    "license" : "Unlicense",
-    "version" : "0.0.7",
-    "description" : "Double-entry accounting ledger packager"
   },
   {
     "name" : "Haikunator",
