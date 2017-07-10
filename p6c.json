@@ -6768,33 +6768,6 @@
     "description" : "Container tool based on Linux namespaces"
   },
   {
-    "name" : "Pastebin::Shadowcat",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Pastebin-Shadowcat.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "HTTP::UserAgent",
-      "URI::Encode",
-      "HTML::Entity"
-    ],
-    "provides" : {
-      "Pastebin::Shadowcat" : "lib/Pastebin/Shadowcat.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "tags" : [
-      "pastebin"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "2.001003",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Use http://fpaste.scsys.co.uk/ pastebin from Perl 6"
-  },
-  {
     "name" : "Linux::Cpuinfo",
     "perl" : "6.c",
     "support" : {
@@ -8927,52 +8900,6 @@
     "description" : "TOML file parser and writer"
   },
   {
-    "name" : "Pastebin::Gist",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Pastebin-Gist.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "HTTP::Tinyish",
-      "JSON::Fast"
-    ],
-    "provides" : {
-      "Pastebin::Gist" : "lib/Pastebin/Gist.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001003",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Use https://gist.github.com/ as a pastebin"
-  },
-  {
-    "name" : "App::Nopaste",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-App-Nopaste.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "Pastebin::Gist",
-      "Pastebin::Shadowcat"
-    ],
-    "provides" : {
-      "App::Nopaste" : "lib/App/Nopaste.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Access pastebins from command line"
-  },
-  {
     "name" : "Path::Canonical",
     "perl" : "v6",
     "source-url" : "git://github.com/mattn/p6-Path-Canonical.git",
@@ -10039,27 +9966,6 @@
     "description" : "A module to look at your nativecall types, like class A is repr('CStruct')"
   },
   {
-    "name" : "Color",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Color.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Color::Operators" : "lib/Color/Operators.pm6",
-      "Color" : "lib/Color.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Format conversion, manipulation, and math operations on colours"
-  },
-  {
     "name" : "path-coverage",
     "source-url" : "git://github.com/teodozjan/path6-coverage.git",
     "perl" : "6.*",
@@ -10336,78 +10242,6 @@
       "Sylvain Colinet <scolinet@gmail.com>"
     ],
     "description" : "Seriously, WTF?"
-  },
-  {
-    "name" : "IRC::Client",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-IRC-Client.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "IRC::Client" : "lib/IRC/Client.pm6",
-      "IRC::Client::Server" : "lib/IRC/Client/Server.pm6",
-      "IRC::Client::Grammar::Actions" : "lib/IRC/Client/Grammar/Actions.pm6",
-      "IRC::Client::Message" : "lib/IRC/Client/Message.pm6",
-      "IRC::Client::Grammar" : "lib/IRC/Client/Grammar.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::When",
-      "Test::Notice"
-    ],
-    "tags" : [
-      "Net",
-      "IRC"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "3.006005",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Extendable Internet Relay Chat client"
-  },
-  {
-    "name" : "Lingua::Conjunction",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Lingua-Conjunction.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Lingua::Conjunction" : "lib/Lingua/Conjunction.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Convert lists into linguistic conjunctions and fill them into a template"
-  },
-  {
-    "name" : "Number::Denominate",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Number-Denominate.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "Lingua::Conjunction"
-    ],
-    "provides" : {
-      "Number::Denominate" : "lib/Number/Denominate.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Break up numbers into preset or arbitrary denominations"
   },
   {
     "name" : "Audio::Silan",
@@ -10931,29 +10765,6 @@
     "description" : "Utilities for introspecting compunits and re-exporting"
   },
   {
-    "name" : "IRC::Client::Plugin::Factoid",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-IRC-Client-Plugin-Factoid.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "IRC::Client",
-      "DBIish"
-    ],
-    "provides" : {
-      "IRC::Client::Plugin::Factoid" : "lib/IRC/Client/Plugin/Factoid.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "IRC factoid bot"
-  },
-  {
     "name" : "Test::IO::Socket::Async",
     "source-url" : "git://github.com/jnthn/p6-test-io-socket-async.git",
     "perl" : "6.*",
@@ -10991,28 +10802,6 @@
       "Sam Morrison"
     ],
     "description" : "AWS Price List API library"
-  },
-  {
-    "name" : "Test::Output",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Test-Output.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "Test"
-    ],
-    "provides" : {
-      "Test::Output" : "lib/Test/Output.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Test the output to STDOUT and STDERR your program generates"
   },
   {
     "name" : "IO::Path::Mode",
@@ -11426,26 +11215,6 @@
       "Rob Hoelz"
     ],
     "description" : "Moves declarative POD blocks to the end of the POD, allowing for end-of-document style POD"
-  },
-  {
-    "name" : "IO::MiddleMan",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-IO-MiddleMan.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "IO::MiddleMan" : "lib/IO/MiddleMan.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001002",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "hijack, capture, or mute writes to an IO::Handle"
   },
   {
     "name" : "Text::Spintax",
@@ -11922,29 +11691,6 @@
     "authors" : [
       "github:pierre-vigier"
     ]
-  },
-  {
-    "name" : "Inline::Brainfuck",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Inline-Brainfuck.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "Term::termios"
-    ],
-    "provides" : {
-      "Inline::Brainfuck" : "lib/Inline/Brainfuck.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::Output"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Use Brainfuck language in your Perl 6 programs"
   },
   {
     "name" : "Concurrent::BoundedChannel",
@@ -13366,68 +13112,6 @@
     "description" : "*"
   },
   {
-    "name" : "Twitter",
-    "source-url" : "git://github.com/zoffixznet/perl6-Twitter.git",
-    "perl" : "6.c",
-    "depends" : [
-      "HTTP::Tinyish",
-      "JSON::Fast",
-      "URI::Escape",
-      "Base64",
-      "Digest::SHA",
-      "Digest::HMAC",
-      "URI",
-      "URI::Escape",
-      "Subset::Helper"
-    ],
-    "provides" : {
-      "Twitter::UA" : "lib/Twitter/UA.pm6",
-      "Twitter::API::Search" : "lib/Twitter/API/Search.pm6",
-      "Twitter::API::DirectMessages" : "lib/Twitter/API/DirectMessages.pm6",
-      "Twitter::API::Statuses" : "lib/Twitter/API/Statuses.pm6",
-      "Twitter" : "lib/Twitter.pm6",
-      "Twitter::OAuth" : "lib/Twitter/OAuth.pm6",
-      "Twitter::API" : "lib/Twitter/API.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "0.003002",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Twitter API"
-  },
-  {
-    "name" : "NASA",
-    "source-url" : "git://github.com/zoffixznet/perl6-NASA.git",
-    "perl" : "6.c",
-    "depends" : [
-      "HTTP::Tinyish",
-      "JSON::Fast",
-      "URI::Escape",
-      "Subset::Helper"
-    ],
-    "provides" : {
-      "NASA::UA" : "lib/NASA/UA.pm6",
-      "NASA::APOD" : "lib/NASA/APOD.pm6",
-      "NASA::MarsRovers" : "lib/NASA/MarsRovers.pm6",
-      "NASA" : "lib/NASA.pm6",
-      "NASA::MarsRovers::Rover" : "lib/NASA/MarsRovers/Rover.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "use NASA's APIs via Perl 6"
-  },
-  {
     "name" : "Rabble",
     "perl" : "6.c",
     "source-url" : "git://github.com/madcapjake/rabble.git",
@@ -13465,28 +13149,6 @@
     },
     "version" : "0.4.1",
     "description" : "Random numbers and bytes mimicking arc4random"
-  },
-  {
-    "name" : "GlotIO",
-    "source-url" : "git://github.com/zoffixznet/perl6-GlotIO.git",
-    "perl" : "6.c",
-    "depends" : [
-      "HTTP::Tinyish",
-      "JSON::Fast",
-      "URI::Escape"
-    ],
-    "provides" : {
-      "GlotIO" : "lib/GlotIO.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Use glot.io API: pastebin allowing execution of code"
   },
   {
     "name" : "EuclideanRhythm",
@@ -13646,25 +13308,6 @@
     "supersedes" : { },
     "meta6" : "0",
     "description" : "Abstractions for handling musical content"
-  },
-  {
-    "name" : "Subset::Helper",
-    "source-url" : "git://github.com/zoffixznet/perl6-Subset-Helper.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Subset::Helper" : "lib/Subset/Helper.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::Output"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "create awesome subsets"
   },
   {
     "name" : "Crypt::Argon2",
@@ -14200,30 +13843,6 @@
     "description" : "A quick string distance algorithm"
   },
   {
-    "name" : "Acme::Anguish",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Acme-Anguish.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "Term::termios"
-    ],
-    "provides" : {
-      "Acme::Anguish" : "lib/Acme/Anguish.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META",
-      "Test::Output"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001002",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Use Anguish programming language in your Perl 6 programs"
-  },
-  {
     "name" : "Device::Velleman::K8055",
     "perl" : "6.c",
     "support" : {
@@ -14285,24 +13904,6 @@
     "description" : "A command line parsing tool which written in Perl6"
   },
   {
-    "name" : "Test::When",
-    "source-url" : "git://github.com/zoffixznet/perl6-Test-When.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Test::When" : "lib/Test/When.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001005",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Selectively run tests based on the environment and installed modules and libs"
-  },
-  {
     "name" : "Path::Map",
     "source-url" : "git://github.com/fjwhittle/p6-Path-Map.git",
     "perl" : "6.c",
@@ -14331,46 +13932,6 @@
       "Rajkumar Reddy"
     ],
     "description" : "Get Weather info"
-  },
-  {
-    "name" : "Terminal::Width",
-    "source-url" : "git://github.com/zoffixznet/perl6-Terminal-Width.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Terminal::Width" : "lib/Terminal/Width.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Get the current width of the terminal"
-  },
-  {
-    "name" : "Test::Notice",
-    "source-url" : "git://github.com/zoffixznet/perl6-Test-Notice.git",
-    "perl" : "6.c",
-    "depends" : [
-      "Test"
-    ],
-    "provides" : {
-      "Test::Notice" : "lib/Test/Notice.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001003",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Display noticable messages to users during tests"
   },
   {
     "name" : "Aria",
@@ -14718,37 +14279,6 @@
     "description" : "Test module for tabs checking"
   },
   {
-    "name" : "RT::REST::Client",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-RT-REST-Client.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "IO::Socket::SSL",
-      "HTTP::UserAgent",
-      "URI",
-      "URI::Escape"
-    ],
-    "provides" : {
-      "RT::REST::Client::Grammar" : "lib/RT/REST/Client/Grammar.pm6",
-      "RT::REST::Client::Grammar::Actions::Tickets" : "lib/RT/REST/Client/Grammar/Actions.pm6",
-      "RT::REST::Client::Grammar::Actions" : "lib/RT/REST/Client/Grammar/Actions.pm6",
-      "RT::REST::Client::Grammar::Tickets" : "lib/RT/REST/Client/Grammar.pm6",
-      "RT::REST::Client::Ticket" : "lib/RT/REST/Client/Grammar/Actions.pm6",
-      "RT::REST::Client" : "lib/RT/REST/Client.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001003",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Use Request Tracker's (RT) REST client interface"
-  },
-  {
     "name" : "Uzu",
     "source-url" : "https://github.com/scmorrison/uzu.git",
     "perl" : "6.c",
@@ -14900,28 +14430,6 @@
     "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "description" : "Knuth arrow notation in Perl 6"
-  },
-  {
-    "name" : "CoreHackers::Sourcery",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-CoreHackers-Sourcery.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "CoreHackers::Sourcery" : "lib/CoreHackers/Sourcery.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::When",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "2.001005",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Helper for showing actual source code locations of core subs and methods"
   },
   {
     "name" : "Doublephone",
@@ -15342,7 +14850,7 @@
       "lib/libnumpack.dylib"
     ],
     "build-depends" : [
-      "Native::Resources"
+      "LibraryMake"
     ],
     "depends" : [
       "LibraryMake",
@@ -17624,35 +17132,6 @@
     "description" : "Tool to make basic WiX installers for Perl 6 apps, bundling MoarVM/Rakudo."
   },
   {
-    "name" : "WWW",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-WWW.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "HTTP::UserAgent",
-      "JSON::Fast",
-      "IO::Socket::SSL"
-    ],
-    "provides" : {
-      "WWW" : "lib/WWW.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::When",
-      "Test::META"
-    ],
-    "tags" : [
-      "HTTP"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.002001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "No-nonsense, simple HTTPS client with JSON decoder"
-  },
-  {
     "name" : "Net::FTPlib",
     "support" : {
       "source" : "https://github.com/araraloren/Net-FTPlib/tree/v0.2.0",
@@ -18249,28 +17728,6 @@
     "description" : "An object to help with reporting the progress of a concurrent operation."
   },
   {
-    "name" : "Trait::IO",
-    "source-url" : "git://github.com/zoffixznet/perl6-Trait-IO.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Trait::IO" : "lib/Trait/IO.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "tags" : [
-      "IO"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Helper IO traits"
-  },
-  {
     "name" : "Math::Primesieve",
     "support" : {
       "source" : "https://github.com/CurtTilmes/perl6-primesieve.git",
@@ -18390,30 +17847,6 @@
     "supersedes" : { }
   },
   {
-    "name" : "Pythonic::Str",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Pythonic-Str.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Pythonic::Str" : "lib/Pythonic/Str.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "tags" : [
-      "Python"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Index into strings like Pythonists do!"
-  },
-  {
     "name" : "LibCurl",
     "support" : {
       "source" : "https://github.com/CurtTilmes/perl6-libcurl.git",
@@ -18481,58 +17914,6 @@
     "description" : "Perl 6 bindings for Eredis, high-performance Redis Client"
   },
   {
-    "name" : "IO::Path::ChildSecure",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-IO-Path-ChildSecure.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "RakudoPrereq"
-    ],
-    "provides" : {
-      "IO::Path::ChildSecure" : "lib/IO/Path/ChildSecure.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "tags" : [
-      "file",
-      "file system"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001004",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Secure version of IO::Path.child"
-  },
-  {
-    "name" : "RakudoPrereq",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-RakudoPrereq.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "RakudoPrereq" : "lib/RakudoPrereq.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "tags" : [
-      "rakudo",
-      "versioning"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001005",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Require specific versions of Rakudo"
-  },
-  {
     "name" : "System::Query",
     "source-url" : "git://github.com/tony-o/p6-warthog.git",
     "perl" : "6.*",
@@ -18546,59 +17927,6 @@
     ],
     "version" : "0.1.3",
     "description" : "A utility for collapsing JSON dependent upon certain environmental information"
-  },
-  {
-    "name" : "Testo",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Testo.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "RakudoPrereq"
-    ],
-    "provides" : {
-      "Testo::Test::IsRun" : "lib/Testo/Test.pm6",
-      "Testo::Test::Group" : "lib/Testo/Test.pm6",
-      "Testo::Test::Result" : "lib/Testo/Test/Result.pm6",
-      "Testo::Test::Is" : "lib/Testo/Test.pm6",
-      "Testo::Out" : "lib/Testo/Out.pm6",
-      "Testo::Test" : "lib/Testo/Test.pm6",
-      "Testo" : "lib/Testo.pm6",
-      "Testo::Test::IsEqv" : "lib/Testo/Test.pm6",
-      "Testo::Out::TAP" : "lib/Testo/Out/TAP.pm6",
-      "Testo::Tester" : "lib/Testo/Tester.pm6"
-    },
-    "test-depends" : [ ],
-    "version" : "1.003002",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Perl 6 Testing Done Right"
-  },
-  {
-    "name" : "IO::Dir",
-    "support" : {
-      "source" : "https://github.com/zoffixznet/perl6-IO-Dir.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "IO::Dir" : "lib/IO/Dir.pm6"
-    },
-    "test-depends" : [
-      "Testo",
-      "Test::META"
-    ],
-    "tags" : [
-      "IO",
-      "filesystem"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001003",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "IO::Path.dir you can close"
   },
   {
     "name" : "CPAN::Uploader::Tiny",
@@ -18749,25 +18077,6 @@
     "description" : "Perl 6 module for interfacing with MPD"
   },
   {
-    "name" : "Die",
-    "source-url" : "git://github.com/zoffixznet/perl6-Die.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Die" : "lib/Die.pm6"
-    },
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Perl 5 like die routine for note + exit"
-  },
-  {
     "name" : "LibYAML",
     "support" : {
       "source" : "https://github.com/yaml/yaml-libyaml-perl6.git",
@@ -18826,31 +18135,6 @@
       "Nick Logan"
     ],
     "description" : "Zef plugin to send test reports to cpantesters"
-  },
-  {
-    "name" : "Benchy",
-    "support" : {
-      "source" : "https://github.com/zoffixznet/perl6-Benchy.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Benchy" : "lib/Benchy.pm6"
-    },
-    "test-depends" : [
-      "Testo",
-      "Test::META"
-    ],
-    "tags" : [
-      "benchmark",
-      "dev"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Benchmark some code"
   },
   {
     "name" : "Base64::Native",
@@ -18931,140 +18215,6 @@
       "Andr\u00e9 Br\u00e1s"
     ],
     "description" : "A simple logging class"
-  },
-  {
-    "name" : "Proc::Q",
-    "support" : {
-      "source" : "https://github.com/zoffixznet/perl6-Proc-Q.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "RakudoPrereq"
-    ],
-    "provides" : {
-      "Proc::Q" : "lib/Proc/Q.pm6"
-    },
-    "test-depends" : [
-      "Testo",
-      "Test::Notice",
-      "Test::META"
-    ],
-    "tags" : [
-      "proc",
-      "process"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001003",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Queue up and run a herd of Procs"
-  },
-  {
-    "name" : "WhereList",
-    "support" : {
-      "source" : "https://github.com/zoffixznet/perl6-WhereList.git"
-    },
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "WhereList" : "lib/WhereList.pm6"
-    },
-    "test-depends" : [
-      "Testo",
-      "Test::META"
-    ],
-    "tags" : [
-      "lists"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001002",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Simpler `where` constraints for items of lists"
-  },
-  {
-    "name" : "Temp::Path",
-    "support" : {
-      "source" : "https://github.com/zoffixznet/perl6-Temp-Path.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "Digest::SHA",
-      "File::Directory::Tree",
-      "RakudoPrereq"
-    ],
-    "provides" : {
-      "Temp::Path" : "lib/Temp/Path.pm6"
-    },
-    "test-depends" : [
-      "Testo",
-      "Test::META"
-    ],
-    "tags" : [
-      "filesystem"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Make a temporary path, file, or directory"
-  },
-  {
-    "name" : "IO::CatHandle::AutoLines",
-    "support" : {
-      "source" : "https://github.com/zoffixznet/perl6-IO-CatHandle-AutoLines.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "RakudoPrereq"
-    ],
-    "provides" : {
-      "IO::CatHandle::AutoLines" : "lib/IO/CatHandle/AutoLines.pm6"
-    },
-    "test-depends" : [
-      "Testo",
-      "Temp::Path",
-      "Test::META"
-    ],
-    "tags" : [
-      "IO"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001002",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Get IO::CatHandle's current handle's line number"
-  },
-  {
-    "name" : "LN",
-    "support" : {
-      "source" : "https://github.com/zoffixznet/perl6-LN.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "IO::CatHandle::AutoLines"
-    ],
-    "provides" : {
-      "LN" : "lib/LN.pm6"
-    },
-    "test-depends" : [
-      "Testo",
-      "Temp::Path",
-      "Test::META"
-    ],
-    "tags" : [
-      "IO"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "1.001001",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Get $*ARGFILES with line numbers via $*LN"
   },
   {
     "name" : "EC::Grammars::DIG",
