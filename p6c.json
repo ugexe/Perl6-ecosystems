@@ -19353,5 +19353,40 @@
     "version" : "0.0.1",
     "authors" : "Loren",
     "description" : "Advanced command line parse module for perl6"
+  },
+  {
+    "name" : "WebService::AWS::S3",
+    "source-url" : "git://github.com/bduggan/aws-s3-p6.git",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/bduggan/aws-s3-p6.git"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:bduggan",
+    "depends" : [
+      "Test",
+      "XML::Class",
+      "URI::Encode",
+      "IO::Socket::SSL",
+      "HTTP::UserAgent",
+      "Digest",
+      "Digest::HMAC",
+      "URI"
+    ],
+    "license" : "MIT",
+    "test-depends" : [
+      "Test"
+    ],
+    "provides" : {
+      "WebService::AWS::S3" : "lib/WebService/AWS/S3.pm6"
+    },
+    "tags" : [
+      "aws"
+    ],
+    "version" : "0.0.1",
+    "description" : "AWS S3 Client",
+    "authors" : [
+      "Brian Duggan <bduggan@matatu.org>"
+    ]
   }
 ]
