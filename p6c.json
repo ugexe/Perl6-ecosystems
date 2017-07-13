@@ -17652,6 +17652,29 @@
     "description" : "No-nonsense, simple HTTPS client with JSON decoder"
   },
   {
+    "name" : "Net::FTPlib",
+    "support" : {
+      "source" : "https://github.com/araraloren/Net-FTPlib/tree/v0.2.0",
+      "bugtracker" : "https://github.com.araraloren/Net-FTPlib/issues"
+    },
+    "source-url" : "https://github.com/araraloren/Net-FTPlib/archive/v0.2.0.zip",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/ftplibhelp"
+    ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
+    "auth" : "github:araraloren",
+    "depends" : [ ],
+    "provides" : {
+      "Net::FTPlib" : "lib/Net/FTPlib.pm6"
+    },
+    "version" : "0.2.0",
+    "authors" : "Loren",
+    "description" : "A Perl 6 binding for ftplib (http://nbpfaus.net/~pfau/ftplib)"
+  },
+  {
     "name" : "Proc::Async::Timeout",
     "perl" : "6.c",
     "emulates" : { },
