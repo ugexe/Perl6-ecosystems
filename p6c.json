@@ -17226,35 +17226,6 @@
     ]
   },
   {
-    "name" : "XML::Rabbit",
-    "source-url" : "git://github.com/ufobat/p6-XML-Rabbit.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "depends" : [
-      "XML",
-      "XML::XPath",
-      "Test::META"
-    ],
-    "test-depends" : [ ],
-    "provides" : {
-      "XML::Rabbit" : "lib/XML/Rabbit.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "XML",
-      "XPath",
-      "Attribute",
-      "Builder",
-      "Lazy Builder"
-    ],
-    "version" : "0.1.0",
-    "description" : "XML::Rabbit builds your Attributes from xml files with xpath expressions",
-    "authors" : [
-      "Martin Barth"
-    ]
-  },
-  {
     "name" : "Git::Simple",
     "source-url" : "https://github.com/7ojo/perl6-git-simple.git",
     "perl" : "6",
