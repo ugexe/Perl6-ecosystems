@@ -2616,7 +2616,9 @@
     "resources" : [
       "error.template"
     ],
-    "build-depends" : [ ],
+    "build-depends" : [
+      "TAP::Harness"
+    ],
     "depends" : [
       "Digest",
       "Digest::HMAC",
@@ -2642,6 +2644,7 @@
     ],
     "provides" : {
       "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
+      "Bailador::Route::AutoHead" : "lib/Bailador/Route/AutoHead.pm",
       "Bailador::Request" : "lib/Bailador/Request.pm",
       "Bailador::Configuration" : "lib/Bailador/Configuration.pm",
       "Bailador::Commands" : "lib/Bailador/Commands.pm",
@@ -2650,10 +2653,12 @@
       "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
       "Bailador::Command::watch" : "lib/Bailador/Command/watch.pm",
       "Bailador::Command" : "lib/Bailador/Command.pm",
+      "Bailador::Route::Prefix" : "lib/Bailador/Route/Prefix.pm",
       "Bailador::Command::ogre" : "lib/Bailador/Command/ogre.pm",
       "Bailador::Test" : "lib/Bailador/Test.pm",
       "Bailador::Template" : "lib/Bailador/Template.pm",
       "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
+      "Bailador::RouteHelper" : "lib/Bailador/RouteHelper.pm",
       "Bailador::LogAdapter" : "lib/Bailador/LogAdapter.pm",
       "Bailador::Exceptions" : "lib/Bailador/Exceptions.pm",
       "Bailador::Command::tiny" : "lib/Bailador/Command/tiny.pm",
@@ -2664,6 +2669,7 @@
       "Bailador::Template::Mustache" : "lib/Bailador/Template/Mustache.pm",
       "Bailador::Template::Mojo" : "lib/Bailador/Template/Mojo.pm",
       "Bailador::Route::StaticFile" : "lib/Bailador/Route/StaticFile.pm",
+      "Bailador::Route::Simple" : "lib/Bailador/Route/Simple.pm",
       "Bailador::Response" : "lib/Bailador/Response.pm",
       "Bailador::Context" : "lib/Bailador/Context.pm",
       "Bailador::Command::p6w" : "lib/Bailador/Command/p6w.pm",
@@ -2673,7 +2679,7 @@
       "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
     },
     "license" : "MIT",
-    "version" : "0.0.7",
+    "version" : "0.0.8",
     "description" : "A light-weight route-based web application framework for Perl 6",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz",
