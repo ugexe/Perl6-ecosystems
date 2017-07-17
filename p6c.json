@@ -19399,5 +19399,21 @@
     "authors" : [
       "Brian Duggan <bduggan@matatu.org>"
     ]
+  },
+  {
+    "name" : "Swedish::TextDates_sv",
+    "source-url" : "https://github.com/svekenfur/Swedish-TextDates_sv.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Swedish::TextDates_sv" : "lib/Swedish/TextDates_sv.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "authors" : [
+      "Sverre Furberg"
+    ],
+    "description" : "Transforms a date or a day of week to the text equivalent in Swedish."
   }
 ]
