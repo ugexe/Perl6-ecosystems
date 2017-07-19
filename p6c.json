@@ -19448,12 +19448,12 @@
     "resources" : [ ],
     "depends" : [ ],
     "provides" : {
-      "Grammar::Modelica::ComponentClause" : "lib/Grammar/ComponentClause.pm6",
+      "Grammar::Modelica::ComponentClause" : "lib/Grammar/Modelica/ComponentClause.pm6",
       "Grammar::Modelica" : "lib/Grammar/Modelica.pm6",
       "Grammar::Modelica::Extends" : "lib/Grammar/Modelica/Extends.pm6",
       "Grammar::Modelica::Equations" : "lib/Grammar/Modelica/Equations.pm6",
       "Grammar::Modelica::Modification" : "lib/Grammar/Modelica/Modification.pm6",
-      "Grammar::Modelica::LexicalConventions" : "lib/Grammar/LexicalConventions.pm6",
+      "Grammar::Modelica::LexicalConventions" : "lib/Grammar/Modelica/LexicalConventions.pm6",
       "Grammar::Modelica::Expressions" : "lib/Grammar/Modelica/Expressions.pm6",
       "Grammar::Modelica::ClassDefinition" : "lib/Grammar/Modelica/ClassDefinition.pm6"
     },
