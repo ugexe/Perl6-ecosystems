@@ -19462,5 +19462,28 @@
       "Steven Albano"
     ],
     "description" : "A Grammar for the Modelica programming language."
+  },
+  {
+    "name" : "Sparky",
+    "source-url" : "https://github.com/melezhik/sparky.git",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparky.git",
+      "bugtracker" : "https://github.com/melezhik/sparky/issues"
+    },
+    "perl" : "6.*",
+    "source-type" : "git",
+    "depends" : [
+      "YAMLish",
+      "DBIish",
+      "Sparrowdo",
+      "Time::Crontab"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : { },
+    "version" : "0.0.1",
+    "authors" : [
+      "Alexey Melezhik"
+    ],
+    "description" : "Sparky is a continues integration server based on Sparrow/Sparrowdo ecosystem"
   }
 ]
