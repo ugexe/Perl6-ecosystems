@@ -19417,5 +19417,50 @@
       "Sverre Furberg"
     ],
     "description" : "Transforms a date or a day of week to the text equivalent in Swedish."
+  },
+  {
+    "name" : "Text::MiscUtils",
+    "source-url" : "",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Terminal::ANSIColor"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Text::MiscUtils" : "lib/Text/MiscUtils.pm6",
+      "Text::MiscUtils::Layout" : "lib/Text/MiscUtils/Layout.pm6",
+      "Text::MiscUtils::English" : "lib/Text/MiscUtils/English.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
+    "description" : "A bag of small text processing tricks",
+    "authors" : [
+      "Geoffrey Broadwell"
+    ]
+  },
+  {
+    "name" : "Grammar::Modelica",
+    "source-url" : "git://github.com/albastev/Grammar-Modelica.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Grammar::Modelica::ComponentClause" : "lib/Grammar/ComponentClause.pm6",
+      "Grammar::Modelica" : "lib/Grammar/Modelica.pm6",
+      "Grammar::Modelica::Extends" : "lib/Grammar/Modelica/Extends.pm6",
+      "Grammar::Modelica::Equations" : "lib/Grammar/Modelica/Equations.pm6",
+      "Grammar::Modelica::Modification" : "lib/Grammar/Modelica/Modification.pm6",
+      "Grammar::Modelica::LexicalConventions" : "lib/Grammar/LexicalConventions.pm6",
+      "Grammar::Modelica::Expressions" : "lib/Grammar/Modelica/Expressions.pm6",
+      "Grammar::Modelica::ClassDefinition" : "lib/Grammar/Modelica/ClassDefinition.pm6"
+    },
+    "version" : "0.0.1",
+    "authors" : [
+      "Steven Albano"
+    ],
+    "description" : "A Grammar for the Modelica programming language."
   }
 ]
