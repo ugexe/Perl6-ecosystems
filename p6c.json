@@ -10129,7 +10129,7 @@
       "PDF::IO" : "lib/PDF/IO.pm",
       "PDF::DAO::Dict" : "lib/PDF/DAO/Dict.pm",
       "PDF::DAO::Array" : "lib/PDF/DAO/Array.pm",
-      "PDF::DAO::Delegator" : "lib/PDF/DAO/Delegator.pm",
+      "PDF::DAO::Loader" : "lib/PDF/DAO/Loader.pm",
       "PDF" : "lib/PDF.pm",
       "PDF::IO::Filter::ASCIIHex" : "lib/PDF/IO/Filter/ASCIIHex.pm",
       "PDF::IO::Crypt::PDF" : "lib/PDF/IO/Crypt/PDF.pm",
@@ -10142,13 +10142,14 @@
       "PDF::IO::Crypt::RC4" : "lib/PDF/IO/Crypt/RC4.pm",
       "PDF::DAO::Type::ObjStm" : "lib/PDF/DAO/Type/ObjStm.pm",
       "PDF::DAO::Type::Info" : "lib/PDF/DAO/Type/Info.pm",
-      "PDF::DAO::Int" : "lib/PDF/DAO/Int.pm"
+      "PDF::DAO::Int" : "lib/PDF/DAO/Int.pm",
+      "PDF::DAO::Coercer" : "lib/PDF/DAO/Coercer.pm"
     },
     "license" : "Artistic-2.0",
     "tags" : [
       "pdf"
     ],
-    "version" : "0.2.3",
+    "version" : "0.2.4",
     "description" : "Base classes for reading, manipulation and writing of PDF data"
   },
   {
