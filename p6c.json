@@ -19489,5 +19489,37 @@
       "Alexey Melezhik"
     ],
     "description" : "Sparky is a continues integration server based on Sparrow/Sparrowdo ecosystem"
+  },
+  {
+    "name" : "YAML::Parser",
+    "source-url" : "git://github.com/tony-o/perl6-libyaml.git",
+    "perl" : "6.c",
+    "resources" : [
+      "lib/libyaml_wrap.so",
+      "lib/libyaml_wrap.dll",
+      "lib/libyaml_wrap.dylib"
+    ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
+    "auth" : "github:tony-o",
+    "depends" : [ ],
+    "provides" : {
+      "YAML::Parser" : "lib/YAML/Parser.pm6"
+    },
+    "test-depends" : [
+      "JSON::Fast"
+    ],
+    "tags" : [
+      "yaml",
+      "parser",
+      "native"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "libyaml wrapper + Parser",
+    "authors" : [
+      "Tony O'Dell"
+    ]
   }
 ]
