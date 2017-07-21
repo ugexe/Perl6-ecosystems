@@ -19563,5 +19563,25 @@
       "Fernando Corr\u00eaa de Oliveira"
     ],
     "supersedes" : { }
+  },
+  {
+    "name" : "Object::Container",
+    "source-url" : "git://github.com/moznion/p6-Object-Container.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Object::Container" : "lib/Object/Container.pm6",
+      "Object::Container::Item" : "lib/Object/Container/Item.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
+    "description" : "A simple container for object for perl6",
+    "authors" : [
+      "moznion"
+    ]
   }
 ]
