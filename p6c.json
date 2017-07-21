@@ -19525,7 +19525,9 @@
     "name" : "6pm",
     "perl" : "v6.*",
     "emulates" : { },
-    "support" : { },
+    "support" : {
+      "source" : "git://github.com/FCO/6pm.git"
+    },
     "build-depends" : [ ],
     "resources" : { },
     "superseded-by" : { },
@@ -19556,7 +19558,7 @@
       "UTILS",
       "COMMAND LINE"
     ],
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "production" : false,
     "description" : "Perl6 module dependency manager (aka npm for Perl6)",
     "authors" : [
