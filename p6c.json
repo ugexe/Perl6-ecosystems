@@ -19495,15 +19495,15 @@
     "source-url" : "git://github.com/tony-o/perl6-libyaml.git",
     "perl" : "6.*",
     "resources" : [
-      "lib/libyaml_wrap.so",
-      "lib/libyaml_wrap.dll",
-      "lib/libyaml_wrap.dylib"
+      "lib/libyamlwrap.so",
+      "lib/libyamlwrap.dll",
+      "lib/libyamlwrap.dylib"
     ],
-    "build-depends" : [
+    "build-depends" : [ ],
+    "auth" : "github:tony-o",
+    "depends" : [
       "LibraryMake"
     ],
-    "auth" : "github:tony-o",
-    "depends" : [ ],
     "provides" : {
       "YAML::Parser::LibYAML" : "lib/YAML/Parser/LibYAML.pm6"
     },
@@ -19515,10 +19515,10 @@
       "parser",
       "native"
     ],
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "description" : "libyaml wrapper + Parser",
     "authors" : [
-      "Tony O'Dell"
+      "tony-o"
     ]
   },
   {
