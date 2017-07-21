@@ -19546,10 +19546,10 @@
       "App::six-pm::Installer" : "lib/App/six-pm/Installer.pm6"
     },
     "test-depends" : [
-      "Test::Mock",
+      "Test::Mock:ver<1.4>",
       "Test::META"
     ],
-    "license" : "https://spdx.org/licenses/Artistic-2.0.html",
+    "license" : "Artistic-2.0",
     "tags" : [
       "PACKAGE",
       "INSTALL",
@@ -19559,7 +19559,7 @@
       "UTILS",
       "COMMAND LINE"
     ],
-    "version" : "0.0.3",
+    "version" : "0.0.4",
     "production" : false,
     "description" : "Perl6 module dependency manager (aka npm for Perl6)",
     "authors" : [
