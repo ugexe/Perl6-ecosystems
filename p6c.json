@@ -9649,6 +9649,7 @@
     "name" : "META6",
     "perl" : "6.c",
     "support" : {
+      "email" : "jns+git@gellyfish.co.uk",
       "source" : "git://github.com/jonathanstowe/META6.git",
       "bugtracker" : "https://github.com/jonathanstowe/META6/issues"
     },
@@ -9672,9 +9673,9 @@
       "meta",
       "utils"
     ],
-    "version" : "0.0.15",
+    "meta-version" : "0",
+    "version" : "0.0.16",
     "production" : true,
-    "meta6" : "0",
     "description" : "Work with Perl 6 META files",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
