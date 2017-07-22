@@ -9686,7 +9686,9 @@
     "name" : "Test::META",
     "perl" : "6.c",
     "support" : {
-      "source" : "git://github.com/jonathanstowe/Test-META.git"
+      "email" : "jns+git@gellyfish.co.uk",
+      "source" : "git://github.com/jonathanstowe/Test-META.git",
+      "bugtracker" : "http://github.com/jonathanstowe/Test-META/issue"
     },
     "source-url" : "git://github.com/jonathanstowe/Test-META.git",
     "build-depends" : [ ],
@@ -9710,8 +9712,8 @@
       "utils",
       "testing"
     ],
-    "version" : "0.0.9",
-    "meta6" : "0",
+    "meta-version" : "0",
+    "version" : "0.0.10",
     "description" : "Test a distributions META file",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
