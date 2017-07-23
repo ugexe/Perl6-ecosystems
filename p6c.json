@@ -549,12 +549,16 @@
     "name" : "Semaphore::ReadersWriters",
     "source-url" : "git://github.com/MARTIMM/semaphore-readerswriters.git",
     "perl" : "6",
+    "build-depends" : [ ],
     "author" : "Marcel Timmerman",
     "depends" : [ ],
     "provides" : {
       "Semaphore::ReadersWriters" : "lib/Semaphore/ReadersWriters.pm6"
     },
     "license" : "Artistic-2.0",
+    "test-depends" : [
+      "Test::META"
+    ],
     "version" : "v0.2.6",
     "description" : "Semaphore Readers Writers Pattern",
     "authors" : [
@@ -12108,7 +12112,6 @@
     "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [
-      "LibraryCheck",
       "NativeCall",
       "NCurses",
       "Terminal::WCWidth"
@@ -12123,7 +12126,7 @@
       "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.0.5",
+    "version" : "0.0.6",
     "description" : "Choose items from a list interactively.",
     "authors" : [
       "kuerbis"
