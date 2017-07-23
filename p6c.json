@@ -12263,7 +12263,7 @@
       "Net::OSC::Types" : "lib/Net/OSC/Types.pm6",
       "Net::OSC::Message" : "lib/Net/OSC/Message.pm6",
       "Net::OSC::Server" : "lib/Net/OSC/Server.pm6",
-      "Net::OSC::Server::UDP" : "lib/Net/OSC/Server/UDP.pm6",
+      "Net::OSC::Server::UDP" : "lib/Net/OSC/Transport/TCP.pm6",
       "Net::OSC::Bundle" : "lib/Net/OSC/Bundle.pm6",
       "Net::OSC" : "lib/Net/OSC.pm6"
     },
@@ -12273,7 +12273,7 @@
       "Open Sound Control",
       "Communication"
     ],
-    "version" : "0.1.2",
+    "version" : "0.2.0",
     "description" : "Open Sound Control for Perl6",
     "authors" : [
       "Sam Gillespie"
