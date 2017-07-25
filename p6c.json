@@ -11354,15 +11354,19 @@
     "perl" : "6",
     "auth" : "github:ugexe",
     "depends" : [ ],
+    "tags" : [
+      "text",
+      "terminal",
+      "utils"
+    ],
     "provides" : {
       "Text::Table::Simple" : "lib/Text/Table/Simple.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.0.4",
+    "version" : "0.0.5",
     "authors" : [
       "Nick Logan"
     ],
-    "owner" : "ugexe",
     "description" : "Create basic tables from a two dimensional array"
   },
   {
