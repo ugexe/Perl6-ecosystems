@@ -19603,5 +19603,23 @@
     "authors" : [
       "moznion"
     ]
+  },
+  {
+    "name" : "HTTP::Server::Middleware::JSON",
+    "source-url" : "git://github.com/tony-o/perl6-http-server-middleware-json.git",
+    "perl" : "6.*",
+    "auth" : "github:tony-o",
+    "depends" : [
+      "HTTP::Server",
+      "JSON::Fast"
+    ],
+    "provides" : {
+      "HTTP::Server::Middleware::JSON" : "lib/HTTP/Server/Middleware/JSON.pm6"
+    },
+    "test-depends" : [
+      "HTTP::Server::Async"
+    ],
+    "version" : "0.0.1",
+    "description" : "Middleware to parse JSON for HTTP::Server-s"
   }
 ]
