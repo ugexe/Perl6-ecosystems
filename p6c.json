@@ -19386,10 +19386,10 @@
   },
   {
     "name" : "WebService::AWS::S3",
-    "source-url" : "git://github.com/bduggan/aws-s3-p6.git",
+    "source-url" : "git://github.com/bduggan/aws-s3-perl6.git",
     "perl" : "6.c",
     "support" : {
-      "source" : "git://github.com/bduggan/aws-s3-p6.git"
+      "source" : "git://github.com/bduggan/aws-s3-perl6.git"
     },
     "build-depends" : [ ],
     "auth" : "github:bduggan",
@@ -19622,5 +19622,34 @@
     ],
     "version" : "0.0.1",
     "description" : "Middleware to parse JSON for HTTP::Server-s"
+  },
+  {
+    "name" : "HTTP::Server::Router::YAML",
+    "source-url" : "git://github.com/tony-o/perl6-http-server-router-yaml.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:tony-o",
+    "depends" : [
+      "YAML::Parser::LibYAML",
+      "HTTP::Server::Router",
+      "HTTP::Server"
+    ],
+    "provides" : {
+      "HTTP::Server::Router::YAML" : "lib/HTTP/Server/Router/YAML.pm6"
+    },
+    "test-depends" : [
+      "HTTP::Server::Async"
+    ],
+    "tags" : [
+      "yaml",
+      "router",
+      "http"
+    ],
+    "version" : "0.0.1",
+    "description" : "YAML routing for HTTP::Server::Router-s",
+    "authors" : [
+      "tony-o"
+    ]
   }
 ]
