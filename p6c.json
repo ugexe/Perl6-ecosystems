@@ -19409,7 +19409,9 @@
       "Test"
     ],
     "provides" : {
-      "WebService::AWS::S3" : "lib/WebService/AWS/S3.pm6"
+      "WebService::AWS::S3" : "lib/WebService/AWS/S3.pm6",
+      "WebService::AWS::S3::Resources" : "lib/WebService/AWS/S3/Resources.pm6",
+      "WebService::AWS::S3::Request" : "lib/WebService/AWS/S3/Request.pm6"
     },
     "tags" : [
       "aws"
