@@ -2637,10 +2637,12 @@
       "HTTP::MultiPartParser",
       "HTTP::Server::Ogre",
       "HTTP::Status",
+      "JSON::Fast",
       "Log::Any",
       "Path::Iterator",
       "Template::Mojo",
       "Template::Mustache",
+      "Terminal::ANSIColor",
       "URI",
       "YAMLish"
     ],
@@ -2657,6 +2659,7 @@
       "Bailador::Configuration" : "lib/Bailador/Configuration.pm",
       "Bailador::Commands" : "lib/Bailador/Commands.pm",
       "Bailador::CLI" : "lib/Bailador/CLI.pm",
+      "Bailador::Utils" : "lib/Bailador/Utils.pm",
       "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
       "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
       "Bailador::Command::watch" : "lib/Bailador/Command/watch.pm",
@@ -2687,7 +2690,7 @@
       "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
     },
     "license" : "MIT",
-    "version" : "0.0.8",
+    "version" : "0.0.9",
     "description" : "A light-weight route-based web application framework for Perl 6",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz",
