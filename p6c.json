@@ -17465,29 +17465,34 @@
       "src/Log.sp",
       "src/env.sp",
       "src/SSH.sp",
+      "src/Service.sp",
       "core-lib/Test.sp",
+      "core-lib/DigitalOcean.sp",
       "tools/harness.sp",
       "tools/spit-helper.sp"
     ],
     "depends" : [
       "DispatchMap",
-      "JSON::Tiny"
+      "JSON::Tiny",
+      "YAMLish"
     ],
     "provides" : {
       "Spit::Parser::Lang" : "lib/Spit/Parser/Lang.pm6",
       "Spit::Parser::Actions" : "lib/Spit/Parser/Actions.pm6",
+      "Spit::PRECOMP::core-lib" : "lib/Spit/PRECOMP/core-lib.pm6",
       "Spit::cli" : "lib/Spit/cli.pm6",
+      "Spit::Src" : "lib/Spit/Src.pm6",
       "Spit::Sastify" : "lib/Spit/Sastify.pm6",
       "Spit::Stage2-Util" : "lib/Spit/Stage2-Util.pm6",
       "Spit::Metamodel" : "lib/Spit/Metamodel.pm6",
       "Spit::DependencyList" : "lib/Spit/DependencyList.pm6",
+      "Spit::Parser::YAML" : "lib/Spit/Parser/YAML.pm6",
       "Spit::Sh::Composer" : "lib/Spit/Sh/Composer.pm6",
       "Spit::SAST" : "lib/Spit/SAST.pm6",
       "Spit::Util" : "lib/Spit/Util.pm6",
       "Spit::Constants" : "lib/Spit/Constants.pm6",
       "Spit::Parser::Grammar" : "lib/Spit/Parser/Grammar.pm6",
       "Spit::Sh::Compiler::Name-Generator" : "lib/Spit/Sh/Compiler/Name-Generator.pm6",
-      "Spit::SETTING" : "lib/Spit/SETTING.pm6",
       "Spit::Parser::Regex" : "lib/Spit/Parser/Regex.pm6",
       "Spit::SpitDoc" : "lib/Spit/SpitDoc.pm6",
       "Spit::Sh::ShellElement" : "lib/Spit/Sh/ShellElement.pm6",
@@ -17505,7 +17510,7 @@
       "Spit::Sh::Compiler" : "lib/Spit/Sh/Compiler.pm6",
       "Spit::Doc::Markdown" : "lib/Spit/Doc/Markdown.pm6",
       "Spit::Sh::Method-Optimizer" : "lib/Spit/Sh/Method-Optimizer.pm6",
-      "Spit::PRECOMP" : "lib/Spit/PRECOMP.pm6"
+      "Spit::PRECOMP::SETTING" : "lib/Spit/PRECOMP/SETTING.pm6"
     },
     "license" : "Artistic-2.0",
     "version" : "0.0.31",
