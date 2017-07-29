@@ -19260,7 +19260,8 @@
       "HTTP::Status"
     ],
     "test-depends" : [
-      "Path::Iterator"
+      "Path::Iterator",
+      "Test::META"
     ],
     "tags" : [
       "Web",
@@ -19271,7 +19272,7 @@
       "HTTP::Server::Ogre" : "lib/HTTP/Server/Ogre.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description" : "he is not tiny nor easy to handle. He is rather a stupid ogre that handles paralell http requests",
     "authors" : [
       "Martin Barth (ufobat)"
