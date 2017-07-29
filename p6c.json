@@ -19691,5 +19691,32 @@
     "authors" : [
       "Jaldhar H. Vyas"
     ]
+  },
+  {
+    "name" : "Proc::More",
+    "support" : {
+      "source" : "https://github.com/tbrowder/Proc-More-Perl6/tree/v0.2.0",
+      "bugtracker" : "https://github.com/tbrowder/Proc-More-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/Proc-More-Perl6/archive/v0.2.0.zip",
+    "perl" : "6",
+    "resources" : [ ],
+    "depends" : [ ],
+    "tags" : [
+      "POSIX time function",
+      "proc run"
+    ],
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "provides" : {
+      "Proc::More" : "lib/Proc/More.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.2.0",
+    "authors" : [
+      "github:tbrowder"
+    ],
+    "description" : "Provides functions using class"
   }
 ]
