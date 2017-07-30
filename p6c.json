@@ -12820,8 +12820,8 @@
     "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [
-      "NCurses",
-      "Term::Choose"
+      "Term::Choose",
+      "NCurses"
     ],
     "test-depends" : [
       "Test"
@@ -12831,7 +12831,7 @@
       "Term::Choose::Util" : "lib/Term/Choose/Util.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.0.2",
+    "version" : "1.0.0",
     "description" : "CLI related functions.",
     "authors" : [
       "kuerbis"
@@ -12860,7 +12860,7 @@
       "Term::TablePrint" : "lib/Term/TablePrint.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.0.2",
+    "version" : "1.0.1",
     "description" : "Print a table to the terminal and browse it interactively.",
     "authors" : [
       "kuerbis"
