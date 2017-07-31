@@ -790,6 +790,43 @@
     "description" : "Build database models in Perl 6, easily."
   },
   {
+    "name" : "App::snippet",
+    "support" : {
+      "source" : "https://github.com/araraloren/perl6-terminal-table.git",
+      "bugtracker" : "https://github.com.araraloren/perl6-terminal-table/issues"
+    },
+    "source-url" : "https://github.com/araraloren/perl6-app-snippet.git",
+    "perl" : "6.*",
+    "auth" : "github:araraloren",
+    "depends" : [
+      "Readline",
+      "PathTools",
+      "Getopt::Advance",
+      "File::Which",
+      "Pluggable"
+    ],
+    "provides" : {
+      "App::snippet::Interface::Cpp" : "lib/App/snippet/Interface/Cpp.pm6",
+      "App::snippet::Interface::C" : "lib/App/snippet/Interface/C.pm6",
+      "App::snippet" : "lib/App/snippet.pm6",
+      "App::snippet::Common" : "lib/App/snippet/Common.pm6",
+      "App::snippet::Compiler::GCC" : "lib/App/snippet/Compiler/GCC.pm6",
+      "App::snippet::Compiler::Clang" : "lib/App/snippet/Compiler/Clang.pm6"
+    },
+    "tags" : [
+      "c",
+      "cpp",
+      "snippet"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "license" : "MIT",
+    "version" : "0.0.6",
+    "authors" : "Loren",
+    "description" : "run c/cpp or other language code snippet"
+  },
+  {
     "name" : "XML",
     "source-url" : "git://github.com/supernovus/exemel.git",
     "perl" : "6.*",
@@ -19395,7 +19432,7 @@
       "bsd"
     ],
     "license" : "MIT",
-    "version" : "0.0.4",
+    "version" : "0.0.5",
     "authors" : "Loren",
     "description" : "Advanced command line parse module for perl6"
   },
