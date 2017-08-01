@@ -8995,7 +8995,7 @@
     },
     "perl" : "6.c",
     "depends" : [
-      "HTTP::Tinyish",
+      "WWW",
       "JSON::Fast"
     ],
     "provides" : {
@@ -9005,7 +9005,7 @@
       "Test"
     ],
     "license" : "Artistic-2.0",
-    "version" : "1.001003",
+    "version" : "1.002002",
     "authors" : [
       "Zoffix Znet"
     ],
@@ -10670,12 +10670,17 @@
       "Data::Dump::Tree::Diff" : "lib/Data/Dump/Tree/Diff.pm",
       "Data::Dump::Tree::Colorizer" : "lib/Data/Dump/Tree/Colorizer.pm",
       "Data::Dump::Tree::ExtraRoles" : "lib/Data/Dump/Tree/ExtraRoles.pm",
+      "Data::Dump::Tree::LayHorizontal.pm" : "lib/Data/Dump/Tree/LayHorizontal.pm",
+      "Data::Dump::Tree::DHTML.pm" : "lib/Data/Dump/Tree/DHTML.pm",
       "Data::Dump::Tree::DescribeBaseObjects" : "lib/Data/Dump/Tree/DescribeBaseObjects.pm",
+      "Data::Dump::Tree::Foldable.pm" : "lib/Data/Dump/Tree/Foldable.pm",
       "Data::Dump::Tree" : "lib/Data/Dump/Tree.pm",
+      "Data::Dump::Tree::Horizontal.pm" : "lib/Data/Dump/Tree/Horizontal.pm",
+      "Data::Dump::Tree::MultiColumns.pm" : "lib/Data/Dump/Tree/MultiColumns.pm",
       "Data::Dump::Tree::Enums" : "lib/Data/Dump/Tree/Enums.pm"
     },
     "license" : "Artistic-2.0",
-    "version" : "1.0.4",
+    "version" : "1.5.0",
     "description" : "Render data structures as trees; user definable filters",
     "authors" : [
       "Nadim Khemir"
@@ -17727,7 +17732,7 @@
       "HTTP"
     ],
     "license" : "Artistic-2.0",
-    "version" : "1.003001",
+    "version" : "1.004001",
     "authors" : [
       "Zoffix Znet"
     ],
