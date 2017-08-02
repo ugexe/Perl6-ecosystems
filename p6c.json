@@ -19830,5 +19830,22 @@
     "authors" : [
       "brian d foy"
     ]
+  },
+  {
+    "name" : "Text::UpsideDown",
+    "source-url" : "git://github.com/mcsnolte/Text-UpsideDown.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "Text::UpsideDown" : "lib/Text/UpsideDown.pm6"
+    },
+    "version" : "1.0.0",
+    "authors" : [
+      "Marcel Gr\u00fcnauer",
+      "Mike Doherty",
+      "Steve Nolte (mcsnolte)"
+    ],
+    "description" : "Flip text upside-down using Unicode. Perl 5 -> 6 port."
   }
 ]
