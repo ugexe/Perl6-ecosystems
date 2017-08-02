@@ -8999,13 +8999,14 @@
       "JSON::Fast"
     ],
     "provides" : {
-      "Pastebin::Gist" : "lib/Pastebin/Gist.pm6"
+      "Pastebin::Gist" : "lib/Pastebin/Gist.pm6",
+      "Pastebin::Gist::X" : "lib/Pastebin/Gist.pm6"
     },
     "test-depends" : [
       "Test"
     ],
     "license" : "Artistic-2.0",
-    "version" : "1.002002",
+    "version" : "1.003002",
     "authors" : [
       "Zoffix Znet"
     ],
