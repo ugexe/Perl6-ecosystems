@@ -19806,5 +19806,25 @@
       "Ryan S. Northrup"
     ],
     "description" : "Perl 6 wrapper around GLFW3"
+  },
+  {
+    "name" : "PrettyDump",
+    "source-url" : "https://github.com/briandfoy/perl6-PrettyDump",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "PrettyDump" : "lib/PrettyDump.pm6",
+      "Test" : "lib/Test.pm6"
+    },
+    "license" : "NOASSERTION",
+    "version" : "1.1.4",
+    "description" : "represent a Perl 6 data structure in a human readable way",
+    "authors" : [
+      "brian d foy"
+    ]
   }
 ]
