@@ -10671,7 +10671,18 @@
     "name" : "Data::Dump::Tree",
     "source-url" : "https://github.com/nkh/P6-Data-Dump-Tree.git",
     "perl" : "6.c",
+    "auth" : "github:nkh",
     "depends" : [ ],
+    "tags" : [
+      "data",
+      "dump",
+      "render",
+      "presentation",
+      "diff",
+      "HTML",
+      "Layout",
+      "dumper"
+    ],
     "test-depends" : [
       "Test",
       "Test::META"
@@ -10680,17 +10691,16 @@
       "Data::Dump::Tree::Diff" : "lib/Data/Dump/Tree/Diff.pm",
       "Data::Dump::Tree::Colorizer" : "lib/Data/Dump/Tree/Colorizer.pm",
       "Data::Dump::Tree::ExtraRoles" : "lib/Data/Dump/Tree/ExtraRoles.pm",
-      "Data::Dump::Tree::LayHorizontal.pm" : "lib/Data/Dump/Tree/LayHorizontal.pm",
+      "DDT" : "lib/Data/Dump/Tree.pm",
       "Data::Dump::Tree::DHTML.pm" : "lib/Data/Dump/Tree/DHTML.pm",
       "Data::Dump::Tree::DescribeBaseObjects" : "lib/Data/Dump/Tree/DescribeBaseObjects.pm",
       "Data::Dump::Tree::Foldable.pm" : "lib/Data/Dump/Tree/Foldable.pm",
       "Data::Dump::Tree" : "lib/Data/Dump/Tree.pm",
-      "Data::Dump::Tree::Horizontal.pm" : "lib/Data/Dump/Tree/Horizontal.pm",
       "Data::Dump::Tree::MultiColumns.pm" : "lib/Data/Dump/Tree/MultiColumns.pm",
       "Data::Dump::Tree::Enums" : "lib/Data/Dump/Tree/Enums.pm"
     },
     "license" : "Artistic-2.0",
-    "version" : "1.5.0",
+    "version" : "1.5.1",
     "description" : "Render data structures as trees; user definable filters",
     "authors" : [
       "Nadim Khemir"
