@@ -19446,8 +19446,11 @@
       "gnu",
       "bsd"
     ],
+    "test-depends" : [
+      "Test::MATE"
+    ],
     "license" : "MIT",
-    "version" : "0.0.5",
+    "version" : "0.0.6",
     "authors" : "Loren",
     "description" : "Advanced command line parse module for perl6"
   },
