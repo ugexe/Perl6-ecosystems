@@ -289,6 +289,25 @@
     ]
   },
   {
+    "name" : "HTML::Escape",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/HTML-Escape-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "HTML::Escape" : "lib/HTML/Escape.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Utility of HTML escaping",
+    "authors" : [
+      "moznion"
+    ]
+  },
+  {
     "name" : "IO::Blob",
     "source-url" : "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/IO-Blob-0.0.1.tar.gz",
     "perl" : "6",
@@ -303,6 +322,30 @@
     "license" : "Artistic-2.0",
     "version" : "0.0.1",
     "description" : "IO:: interface for reading/writing a Blob",
+    "authors" : [
+      "moznion"
+    ]
+  },
+  {
+    "name" : "Log::Minimal",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Log-Minimal-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Terminal::ANSIColor",
+      "Grammar::Tracer"
+    ],
+    "test-depends" : [
+      "IO::Capture::Simple"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "Log::Minimal" : "lib/Log/Minimal.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Minimal and customizable logger for perl6",
     "authors" : [
       "moznion"
     ]
