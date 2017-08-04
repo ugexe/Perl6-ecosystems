@@ -8949,21 +8949,23 @@
   },
   {
     "name" : "Backtrace::AsHTML",
-    "perl" : "6",
     "source-url" : "git://github.com/moznion/p6-Backtrace-AsHTML.git",
+    "perl" : "6",
+    "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [ ],
     "test-depends" : [ ],
+    "tags" : [ ],
     "provides" : {
       "Backtrace::AsHTML" : "lib/Backtrace/AsHTML.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "*",
+    "version" : "0.0.1",
+    "description" : "Displays back trace in HTML",
     "authors" : [
       "moznion",
       "Wenzel P. P. Peppmeyer"
-    ],
-    "description" : "Displays back trace in HTML"
+    ]
   },
   {
     "name" : "Config::TOML",
@@ -9111,14 +9113,16 @@
   },
   {
     "name" : "Stream::Buffered",
-    "perl" : "6",
     "source-url" : "git://github.com/moznion/p6-Stream-Buffered.git",
+    "perl" : "6",
+    "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [
       "IO::Blob",
       "File::Temp"
     ],
     "test-depends" : [ ],
+    "tags" : [ ],
     "provides" : {
       "Stream::Buffered" : "lib/Stream/Buffered.pm6",
       "Stream::Buffered::Blob" : "lib/Stream/Buffered/Blob.pm6",
@@ -9126,11 +9130,11 @@
       "Stream::Buffered::File" : "lib/Stream/Buffered/File.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "*",
+    "version" : "0.0.1",
+    "description" : "Temporary buffer to save bytes",
     "authors" : [
       "moznion"
-    ],
-    "description" : "Temporary buffer to save bytes"
+    ]
   },
   {
     "name" : "WebService::GitHub",
