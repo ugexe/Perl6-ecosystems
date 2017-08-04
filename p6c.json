@@ -19872,5 +19872,24 @@
       "Steve Nolte (mcsnolte)"
     ],
     "description" : "Flip text upside-down using Unicode. Perl 5 -> 6 port."
+  },
+  {
+    "name" : "HTML::Escape",
+    "source-url" : "git://github.com/moznion/p6-HTML-Escape.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "HTML::Escape" : "lib/HTML/Escape.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Utility of HTML escaping",
+    "authors" : [
+      "moznion"
+    ]
   }
 ]
