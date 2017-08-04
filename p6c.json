@@ -17783,6 +17783,7 @@
     "provides" : {
       "Net::FTPlib" : "lib/Net/FTPlib.pm6"
     },
+    "license" : "MIT",
     "version" : "0.2.0",
     "authors" : "Loren",
     "description" : "A Perl 6 binding for ftplib (http://nbpfaus.net/~pfau/ftplib)"
@@ -18780,10 +18781,10 @@
   {
     "name" : "Terminal::Table",
     "support" : {
-      "source" : "https://github.com/araraloren/perl6-terminal-table/tree/v0.0.6",
+      "source" : "https://github.com/araraloren/perl6-terminal-table.git",
       "bugtracker" : "https://github.com.araraloren/perl6-terminal-table/issues"
     },
-    "source-url" : "https://github.com/araraloren/perl6-terminal-table/archive/v0.0.6.zip",
+    "source-url" : "https://github.com/araraloren/perl6-terminal-table.git",
     "perl" : "6.c",
     "auth" : "github:araraloren",
     "depends" : [
@@ -18809,7 +18810,7 @@
       "text"
     ],
     "license" : "MIT",
-    "version" : "0.0.6",
+    "version" : "0.0.7",
     "authors" : "Loren",
     "description" : "Advanced table generate module for perl6"
   },
