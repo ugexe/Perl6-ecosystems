@@ -2660,7 +2660,10 @@
     "source-url" : "git://github.com/Bailador/Bailador.git",
     "perl" : "6.c",
     "resources" : [
-      "error.template"
+      "error.template",
+      "skeleton/default/bin/app.pl6",
+      "skeleton/default/t/app.t",
+      "skeleton/default/views/index.html"
     ],
     "build-depends" : [
       "TAP::Harness"
@@ -2728,7 +2731,7 @@
       "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
     },
     "license" : "MIT",
-    "version" : "0.0.9",
+    "version" : "0.0.10",
     "description" : "A light-weight route-based web application framework for Perl 6",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz",
