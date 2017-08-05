@@ -2523,7 +2523,7 @@
       "mongodb"
     ],
     "test-depends" : [ ],
-    "version" : "0.38.2",
+    "version" : "0.38.2.1",
     "description" : "MongoDB driver",
     "authors" : [
       "Marcel Timmerman took over in Januari 2015 and is working on it until the present day",
@@ -19895,5 +19895,28 @@
     "authors" : [
       "moznion"
     ]
+  },
+  {
+    "name" : "App::Miroku",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/noqisofon/p6-miroku.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "depends" : [
+      "File::Find",
+      "JSON::Fast"
+    ],
+    "test-depends" : [ ],
+    "provides" : {
+      "App::Miroku" : "lib/App/Miroku.pm6",
+      "App::Miroku::Template" : "lib/App/Miroku/Template.pm6"
+    },
+    "tags" : [ ],
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Ned Rihine"
+    ],
+    "description" : "Yet another minimal authoring tool for Perl6"
   }
 ]
