@@ -2381,10 +2381,8 @@
       "mongodb",
       "serialize"
     ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "version" : "0.9.35.2",
+    "test-depends" : [ ],
+    "version" : "0.9.35.3",
     "description" : "BSON encoding/decoding, used in MongoDB drivers",
     "authors" : [
       "Marcel Timmerman",
@@ -17743,7 +17741,6 @@
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-WWW.git"
     },
-    "perl" : "6.c",
     "depends" : [
       "HTTP::UserAgent",
       "JSON::Fast",
