@@ -19918,5 +19918,31 @@
       "Ned Rihine"
     ],
     "description" : "Yet another minimal authoring tool for Perl6"
+  },
+  {
+    "name" : "Chemistry::Elements",
+    "source-url" : "git@github.com:briandfoy/perl6-chemistry-elements.git",
+    "support" : {
+      "source" : "git@github.com:briandfoy/perl6-chemistry-elements.git"
+    },
+    "perl" : "6.c",
+    "depends" : [ ],
+    "tags" : [
+      "chemistry",
+      "Z",
+      "atomic number"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "provides" : {
+      "Chemistry::Elements" : "lib/Chemistry/Elements.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.001002",
+    "description" : "Perl 6 extension for working with the Periodic Table of Elements",
+    "authors" : [
+      "brian d foy"
+    ]
   }
 ]
