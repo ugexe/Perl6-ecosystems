@@ -18672,6 +18672,9 @@
     "depends" : [
       "RakudoPrereq"
     ],
+    "tags" : [
+      "Testing"
+    ],
     "provides" : {
       "Testo::Test::IsRun" : "lib/Testo/Test.pm6",
       "Testo::Test::Group" : "lib/Testo/Test.pm6",
@@ -18685,7 +18688,7 @@
       "Testo::Tester" : "lib/Testo/Tester.pm6"
     },
     "test-depends" : [ ],
-    "version" : "1.003002",
+    "version" : "1.003003",
     "authors" : [
       "Zoffix Znet"
     ],
