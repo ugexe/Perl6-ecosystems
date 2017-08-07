@@ -16415,12 +16415,13 @@
       "Test::When",
       "Test::META"
     ],
+    "tags" : [ ],
     "provides" : {
       "UNIX::Daemonize" : "lib/UNIX/Daemonize.pm6",
       "UNIX::Daemonize::NativeSymbols" : "lib/UNIX/Daemonize/NativeSymbols.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.0.3",
+    "version" : "0.0.4",
     "description" : "configurable daemonizing tool written in Perl 6",
     "authors" : [
       "Pawe\u0142 Szulc"
@@ -19904,7 +19905,9 @@
       "File::Find",
       "JSON::Fast"
     ],
-    "test-depends" : [ ],
+    "test-depends" : [
+      "File::Temp"
+    ],
     "provides" : {
       "App::Miroku" : "lib/App/Miroku.pm6",
       "App::Miroku::Template" : "lib/App/Miroku/Template.pm6"
