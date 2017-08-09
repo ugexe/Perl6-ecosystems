@@ -10710,7 +10710,7 @@
       "Data::Dump::Tree::Enums" : "lib/Data/Dump/Tree/Enums.pm"
     },
     "license" : "Artistic-2.0",
-    "version" : "1.5.3",
+    "version" : "1.5.4",
     "description" : "Render data structures as trees; user definable filters",
     "authors" : [
       "Nadim Khemir"
@@ -19974,5 +19974,37 @@
       "Ramiro Encinas Alarza"
     ],
     "description" : "Send email alerts about disk capacity and pending updates."
+  },
+  {
+    "name" : "WWW::SilverGoldBull",
+    "source-url" : "git://github.com/dboys/p6-WWW-SilverGoldBull.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "depends" : [
+      "URI",
+      "HTTP::UserAgent",
+      "JSON::Fast"
+    ],
+    "provides" : {
+      "WWW::SilverGoldBull::Quote" : "lib/WWW/SilverGoldBull/Quote.pm6",
+      "WWW::SilverGoldBull::Order" : "lib/WWW/SilverGoldBull/Order.pm6",
+      "WWW::SilverGoldBull::CommonMethodsRole" : "lib/WWW/SilverGoldBull/CommonMethodsRole.pm6",
+      "WWW::SilverGoldBull::Address" : "lib/WWW/SilverGoldBull/Address.pm6",
+      "WWW::SilverGoldBull::Item" : "lib/WWW/SilverGoldBull/Item.pm6",
+      "WWW::SilverGoldBull::OrderQuoteRole" : "lib/WWW/SilverGoldBull/OrderQuoteRole.pm6",
+      "WWW::SilverGoldBull::Types" : "lib/WWW/SilverGoldBull/Types.pm6",
+      "WWW::SilverGoldBull" : "lib/WWW/SilverGoldBull.pm6",
+      "WWW::SilverGoldBull::Response" : "lib/WWW/SilverGoldBull/Response.pm6"
+    },
+    "tags" : [
+      "Web",
+      "API"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Perl6 client for the Silver Gold Bull(https://silvergoldbull.com) web service",
+    "authors" : [
+      "github:dboys"
+    ]
   }
 ]
