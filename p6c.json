@@ -20050,5 +20050,25 @@
     "license" : "Artistic-2.0",
     "version" : "0.0.6",
     "description" : "PDF content related classes; including text, images, fonts and graphics"
+  },
+  {
+    "api" : "PDF-1.7",
+    "name" : "PDF::Lite",
+    "source-url" : "git://github.com/p6-pdf/PDF-Lite-p6.git",
+    "perl" : "6.*",
+    "auth" : "github:p6-pdf",
+    "depends" : [
+      "PDF::Content",
+      "PDF"
+    ],
+    "provides" : {
+      "PDF::Lite" : "lib/PDF/Lite.pm"
+    },
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "pdf"
+    ],
+    "version" : "0.0.1",
+    "description" : "Minimal class for the creation and editing of PDF documents"
   }
 ]
