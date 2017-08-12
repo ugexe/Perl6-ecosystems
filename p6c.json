@@ -20070,5 +20070,24 @@
     ],
     "version" : "0.0.1",
     "description" : "Minimal class for the creation and editing of PDF documents"
+  },
+  {
+    "name" : "PDF::API6",
+    "source-url" : "git://github.com/p6-pdf/PDF-API6.git",
+    "perl" : "6.*",
+    "auth" : "github:p6-pdf",
+    "depends" : [
+      "PDF::Lite",
+      "PDF::Content"
+    ],
+    "provides" : {
+      "PDF::API6" : "lib/PDF/API6.pm"
+    },
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "pdf"
+    ],
+    "version" : "0.0.1",
+    "description" : "Facilitates the creation and modification of PDF files"
   }
 ]
