@@ -17305,7 +17305,9 @@
     "name" : "EventSource::Server",
     "perl" : "6.c",
     "support" : {
-      "source" : "https://github.com/jonathanstowe/EventSource-Server.git"
+      "email" : "jns+evensourceserver@gellyfish.co.uk",
+      "source" : "https://github.com/jonathanstowe/EventSource-Server.git",
+      "bugtracker" : "https://github.com/jonathanstowe/EventSource-Server/issues"
     },
     "source-url" : "https://github.com/jonathanstowe/EventSource-Server.git",
     "build-depends" : [ ],
@@ -17324,8 +17326,8 @@
       "event",
       "web"
     ],
-    "version" : "0.0.2",
-    "meta6" : "0",
+    "meta-version" : "0",
+    "version" : "0.0.3",
     "description" : "A simple handler to provide Server Sent Events from a PSGI app",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
