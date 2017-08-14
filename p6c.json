@@ -12708,7 +12708,9 @@
     "name" : "Util::Bitfield",
     "perl" : "6.c",
     "support" : {
-      "source" : "git://github.com/jonathanstowe/Util-Bitfield.git"
+      "email" : "jns+gh@gellyfish.co.uk",
+      "source" : "git://github.com/jonathanstowe/Util-Bitfield.git",
+      "bugtracker" : "https://github.com/jonathanstowe/Util-Bitfield/issues"
     },
     "source-url" : "git://github.com/jonathanstowe/Util-Bitfield.git",
     "build-depends" : [ ],
@@ -12727,8 +12729,8 @@
       "bit",
       "bitfield"
     ],
-    "version" : "0.0.2",
-    "meta6" : "0",
+    "meta-version" : "0",
+    "version" : "0.0.3",
     "description" : "Utility subroutines for working with bitfields",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
