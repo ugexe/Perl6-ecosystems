@@ -20091,5 +20091,36 @@
     ],
     "version" : "0.0.1",
     "description" : "Facilitates the creation and modification of PDF files"
+  },
+  {
+    "name" : "Hematite",
+    "support" : {
+      "source" : "https://github.com/whity/perl6-hematite.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "Crust",
+      "Template::Mustache",
+      "MIME::Types",
+      "Log"
+    ],
+    "provides" : {
+      "Hematite::Context" : "lib/Hematite/Context.pm6",
+      "Hematite::Response" : "lib/Hematite/Response.pm6",
+      "Hematite::App" : "lib/Hematite/App.pm6",
+      "Hematite::Router" : "lib/Hematite/Router.pm6",
+      "Hematite" : "lib/Hematite.pm6",
+      "Hematite::Templates" : "lib/Hematite/Templates.pm6",
+      "Hematite::Route" : "lib/Hematite/Route.pm6",
+      "Hematite::Handler" : "lib/Hematite/Handler.pm6",
+      "Hematite::Request" : "lib/Hematite/Request.pm6"
+    },
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "authors" : [
+      "Andr\u00e9 Br\u00e1s"
+    ],
+    "description" : "Hematite, a simple web framework for perl6"
   }
 ]
