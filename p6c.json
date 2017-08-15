@@ -2313,6 +2313,31 @@
     "description" : "An IRC bot framework"
   },
   {
+    "name" : "IoC",
+    "source-url" : "git://github.com/jasonmay/perl6-ioc.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "IoC::ConstructorInjection" : "lib/IoC/ConstructorInjection.pm6",
+      "IoC::Literal" : "lib/IoC/Literal.pm6",
+      "IoC" : "lib/IoC.pm6",
+      "IoC::Service" : "lib/IoC/Service.pm6",
+      "IoC::Container" : "lib/IoC/Container.pm6",
+      "IoC::BlockInjection" : "lib/IoC/BlockInjection.pm6"
+    },
+    "license" : "NOASSERTION",
+    "version" : "0.0.1",
+    "description" : "Wire your application components together using inversion of control",
+    "authors" : [
+      "Jason May"
+    ]
+  },
+  {
     "name" : "Algorithm::Viterbi",
     "source-url" : "git://github.com/arnsholt/Algorithm-Viterbi.git",
     "source-type" : "git",
