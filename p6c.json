@@ -6213,45 +6213,6 @@
     "description" : "More complete port of p5's benchmark, including cmpthese, timethese, timethis, etc."
   },
   {
-    "name" : "URI::Encode",
-    "source-url" : "git://github.com/dnmfarrell/URI-Encode.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "build-depends" : [ ],
-    "author" : "David Farrell",
-    "depends" : [ ],
-    "provides" : {
-      "URI::Encode" : "lib/URI/Encode.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "0.05",
-    "description" : "Encode and decode URIs according to RFC 3986"
-  },
-  {
-    "name" : "Software::License",
-    "source-url" : "git://github.com/sillymoose/Software-License.git",
-    "perl" : "6.*",
-    "author" : "David Farrell",
-    "depends" : [ ],
-    "provides" : {
-      "Software::License::CC0" : "lib/Software/License/CC0.pm6",
-      "Software::License::BSD" : "lib/Software/License/BSD.pm6",
-      "Software::License::FreeBSD" : "lib/Software/License/FreeBSD.pm6",
-      "Software::License" : "lib/Software/License.pm6",
-      "Software::License::MPL2" : "lib/Software/License/MPL2.pm6",
-      "Software::License::GPL3" : "lib/Software/License/GPL3.pm6",
-      "Software::License::Artistic_2_0" : "lib/Software/License/Artistic_2_0.pm6",
-      "license" : "bin/license",
-      "Software::License::Apache_2_0" : "lib/Software/License/Apache_2_0.pm6",
-      "Software::License::MIT" : "lib/Software/License/MIT.pm6",
-      "Software::License::LGPL3" : "lib/Software/License/LGPL3.pm6"
-    },
-    "version" : "0.05",
-    "description" : "a Perl 6 module for creating free software license texts"
-  },
-  {
     "name" : "Pod::Perl5",
     "source-url" : "git://github.com/dnmfarrell/Pod-Perl5.git",
     "perl" : "6.*",
@@ -6283,22 +6244,6 @@
     },
     "version" : "0.01",
     "description" : "Parser for PerlTricks pseudopod"
-  },
-  {
-    "name" : "Module::Minter",
-    "source-url" : "git://github.com/dnmfarrell/Module-Minter.git",
-    "perl" : "6.*",
-    "author" : "David Farrell",
-    "depends" : [
-      "File::Temp",
-      "Software::License",
-      "File::Directory::Tree"
-    ],
-    "provides" : {
-      "Module::Minter" : "lib/Module/Minter.pm6"
-    },
-    "version" : "0.04",
-    "description" : "a Perl 6 module for creating new modules"
   },
   {
     "name" : "Net::Packet",
