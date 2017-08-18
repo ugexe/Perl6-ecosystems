@@ -20146,5 +20146,40 @@
       "Andr\u00e9 Br\u00e1s"
     ],
     "description" : "A simple web framework for perl6"
+  },
+  {
+    "name" : "Toaster",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-Toaster.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "File::Find",
+      "JSON::Fast",
+      "Terminal::ANSIColor",
+      "DBIish",
+      "Temp::Path",
+      "Proc::Q",
+      "WhereList",
+      "WWW"
+    ],
+    "provides" : {
+      "Toaster" : "lib/Toaster.pm6",
+      "Toaster::DB" : "lib/Toaster/DB.pm6"
+    },
+    "test-depends" : [
+      "Testo",
+      "Test::META"
+    ],
+    "tags" : [
+      "ecosystem",
+      "testing"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Toaster of Perl 6 Ecosystem Modules"
   }
 ]
