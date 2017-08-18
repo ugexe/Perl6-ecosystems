@@ -6230,19 +6230,6 @@
     "description" : "Encode and decode URIs according to RFC 3986"
   },
   {
-    "name" : "System::Passwd",
-    "source-url" : "git://github.com/dnmfarrell/System-Passwd.git",
-    "perl" : "6.*",
-    "author" : "David Farrell",
-    "depends" : [ ],
-    "provides" : {
-      "System::Passwd::User" : "lib/System/Passwd/User.pm6",
-      "System::Passwd" : "lib/System/Passwd.pm6"
-    },
-    "version" : "0.04",
-    "description" : "easily search for system users in Unix-based systems"
-  },
-  {
     "name" : "Software::License",
     "source-url" : "git://github.com/sillymoose/Software-License.git",
     "perl" : "6.*",
