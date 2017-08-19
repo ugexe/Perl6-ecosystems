@@ -6235,6 +6235,19 @@
     "description" : "More complete port of p5's benchmark, including cmpthese, timethese, timethis, etc."
   },
   {
+    "name" : "System::Passwd",
+    "source-url" : "git://github.com/dnmfarrell/System-Passwd.git",
+    "perl" : "6.*",
+    "author" : "David Farrell",
+    "depends" : [ ],
+    "provides" : {
+      "System::Passwd::User" : "lib/System/Passwd/User.pm6",
+      "System::Passwd" : "lib/System/Passwd.pm6"
+    },
+    "version" : "0.04",
+    "description" : "easily search for system users in Unix-based systems"
+  },
+  {
     "name" : "Pod::Perl5",
     "source-url" : "git://github.com/dnmfarrell/Pod-Perl5.git",
     "perl" : "6.*",
