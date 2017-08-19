@@ -2174,6 +2174,28 @@
     "description" : "Automagic integrator for models (first order ODEs)"
   },
   {
+    "name" : "Grammar-ErrorReporting",
+    "perl" : "6.c",
+    "support" : {
+      "bugtracker" : "https://github.com/moritz/Grammar-ErrorReporting/issues"
+    },
+    "source-url" : "git://github.com/moritz/Grammar-ErrorReporting.git",
+    "provides" : {
+      "X::Grammar::ParseError" : "lib/Grammar/ErrorReporting.pm6",
+      "Grammar::ErrorReporting" : "lib/Grammar/ErrorReporting.pm6"
+    },
+    "test-depends" : [
+      "Test::META"
+    ],
+    "license" : "GPL-3.0",
+    "meta-version" : "0",
+    "version" : "*",
+    "description" : "Error reporting infrastructure for Perl 6 grammars",
+    "authors" : [
+      "Moritz Lenz"
+    ]
+  },
+  {
     "name" : "panda",
     "support" : {
       "source" : "git://github.com/tadzik/panda.git",
