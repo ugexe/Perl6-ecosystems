@@ -6235,6 +6235,23 @@
     "description" : "More complete port of p5's benchmark, including cmpthese, timethese, timethis, etc."
   },
   {
+    "name" : "URI::Encode",
+    "source-url" : "git://github.com/dnmfarrell/URI-Encode.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "build-depends" : [ ],
+    "author" : "David Farrell",
+    "depends" : [ ],
+    "provides" : {
+      "URI::Encode" : "lib/URI/Encode.pm6"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.05",
+    "description" : "Encode and decode URIs according to RFC 3986"
+  },
+  {
     "name" : "System::Passwd",
     "source-url" : "git://github.com/dnmfarrell/System-Passwd.git",
     "perl" : "6.*",
