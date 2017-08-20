@@ -3576,7 +3576,10 @@
     "source-url" : "git://github.com/masak/Adventure-Engine.git",
     "author" : "Carl M\u00e4sak",
     "depends" : [ ],
-    "version" : "0.3.0",
+    "provides" : {
+      "Adventure::Engine" : "lib/Adventure/Engine.pm"
+    },
+    "version" : "0.4.0",
     "description" : "Helps build and run adventure games."
   },
   {
@@ -3586,7 +3589,7 @@
     "depends" : [
       "Adventure::Engine"
     ],
-    "version" : "0.2.2",
+    "version" : "0.2.3",
     "description" : "An adventure game."
   },
   {
