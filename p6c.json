@@ -20204,5 +20204,26 @@
     "authors" : [
       "Geoffrey Broadwell"
     ]
+  },
+  {
+    "name" : "App::P6Ghq",
+    "source-url" : "git://github.com/skaji/App-P6Ghq.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Zef"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "App::P6Ghq" : "lib/App/P6Ghq.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "get Perl6 module's repository by ghq",
+    "authors" : [
+      "Shoichi Kaji"
+    ]
   }
 ]
