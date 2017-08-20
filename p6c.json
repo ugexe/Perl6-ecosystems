@@ -15297,7 +15297,7 @@
     "provides" : {
       "Acme::Sudoku" : "lib/Acme/Sudoku.pm6"
     },
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description" : "Simple Sudoku solver",
     "authors" : [
       "github:pierre-vigier"
@@ -19543,7 +19543,7 @@
   },
   {
     "name" : "Text::MiscUtils",
-    "source-url" : "",
+    "source-url" : "git://github.com/japhb/Text-MiscUtils.git",
     "perl" : "6.c",
     "resources" : [ ],
     "build-depends" : [ ],
@@ -19551,14 +19551,17 @@
       "Terminal::ANSIColor"
     ],
     "test-depends" : [ ],
-    "tags" : [ ],
+    "tags" : [
+      "Text",
+      "MiscUtils"
+    ],
     "provides" : {
       "Text::MiscUtils" : "lib/Text/MiscUtils.pm6",
       "Text::MiscUtils::Layout" : "lib/Text/MiscUtils/Layout.pm6",
       "Text::MiscUtils::English" : "lib/Text/MiscUtils/English.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "description" : "A bag of small text processing tricks",
     "authors" : [
       "Geoffrey Broadwell"
@@ -20165,5 +20168,41 @@
       "Zoffix Znet"
     ],
     "description" : "Toaster of Perl 6 Ecosystem Modules"
+  },
+  {
+    "name" : "RPG::Base",
+    "source-url" : "git://github.com/japhb/RPG-Base.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [
+      "RPG",
+      "Base",
+      "Adventure",
+      "Creature"
+    ],
+    "provides" : {
+      "RPG::Base::StatModifier" : "lib/RPG/Base/StatModifier.pm6",
+      "RPG::Base::Creature" : "lib/RPG/Base/Creature.pm6",
+      "RPG::Base" : "lib/RPG/Base.pm6",
+      "RPG::Base::Named" : "lib/RPG/Base/Named.pm6",
+      "RPG::Base::Grouping" : "lib/RPG/Base/Grouping.pm6",
+      "RPG::Base::StatsBearer" : "lib/RPG/Base/StatsBearer.pm6",
+      "RPG::Base::Container" : "lib/RPG/Base/Container.pm6",
+      "RPG::Base::Adventure" : "lib/RPG/Base/Adventure.pm6",
+      "RPG::Base::Thing" : "lib/RPG/Base/Thing.pm6",
+      "RPG::Base::Party" : "lib/RPG/Base/Party.pm6",
+      "RPG::Base::Location" : "lib/RPG/Base/Location.pm6",
+      "RPG::Base::AreaMap" : "lib/RPG/Base/AreaMap.pm6",
+      "RPG::Base::ThingContainer" : "lib/RPG/Base/ThingContainer.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.7",
+    "description" : "Common base components for RPGs",
+    "authors" : [
+      "Geoffrey Broadwell"
+    ]
   }
 ]
