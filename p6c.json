@@ -13327,35 +13327,6 @@
     "description" : "where is grep: Make grep prettier, put a wig on it!"
   },
   {
-    "name" : "Time::Crontab",
-    "source-url" : "https://github.com/ufobat/p6-time-crontab.git",
-    "perl" : "6.c",
-    "depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Time::Crontab::Set" : "lib/Time/Crontab/Set.pm6",
-      "Time::Crontab::Actions" : "lib/Time/Crontab/Actions.pm6",
-      "Time::Crontab" : "lib/Time/Crontab.pm6",
-      "Time::Crontab::Grammar" : "lib/Time/Crontab/Grammar.pm6"
-    },
-    "tags" : [
-      "Cron",
-      "Crontab",
-      "Time",
-      "Parsing",
-      "Linux",
-      "Unix",
-      "Date"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "0.1.0",
-    "authors" : [
-      "Martin Barth <martin@senfdax.de>"
-    ],
-    "description" : "Time::Crontab for Perl6 - Parses Crontab Specifications"
-  },
-  {
     "name" : "JSON::WebToken",
     "source-url" : "git://github.com/jamesalbert/JSON-WebToken.git",
     "perl" : "6.*",
