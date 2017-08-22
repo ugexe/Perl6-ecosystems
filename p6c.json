@@ -2562,7 +2562,7 @@
       "mongodb"
     ],
     "test-depends" : [ ],
-    "version" : "0.38.2.3",
+    "version" : "0.38.3",
     "description" : "MongoDB driver",
     "authors" : [
       "Marcel Timmerman",
@@ -11362,7 +11362,7 @@
       "Grammar::HTTP::RFC5322" : "lib/Grammar/HTTP/RFC5322.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description" : "HTTP request, response, and message body parsing grammar",
     "authors" : [
       "Nick Logan",
@@ -20232,5 +20232,32 @@
     "authors" : [
       "Shoichi Kaji"
     ]
+  },
+  {
+    "name" : "Jupyter::Kernel",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/bduggan/p6-jupyter-kernel.git",
+    "build-depends" : [ ],
+    "depends" : [
+      "UUID",
+      "Log::Async",
+      "Net::ZMQ",
+      "JSON::Tiny",
+      "Digest::HMAC",
+      "Digest"
+    ],
+    "license" : "Artistic-2.0",
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Jupyter::Kernel::Sandbox" : "lib/Jupyter/Kernel/Sandbox.pm6",
+      "Jupyter::Kernel" : "lib/Jupyter/Kernel.pm6",
+      "Jupyter::Kernel::Service" : "lib/Jupyter/Kernel/Service.pm6"
+    },
+    "version" : "0.0.1",
+    "authors" : [
+      "Brian Duggan"
+    ],
+    "description" : "Perl 6 Kernel for Jupyter Notebooks"
   }
 ]
