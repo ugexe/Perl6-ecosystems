@@ -4961,21 +4961,24 @@
     "name" : "Net::ZMQ",
     "source-url" : "git://github.com/arnsholt/Net-ZMQ.git",
     "perl" : "6.*",
-    "author" : "Arne Skj\u00e6rholt",
     "depends" : [ ],
     "provides" : {
-      "Net::ZMQ::Constants" : "lib/Net/ZMQ/Constants.pm",
-      "Net::ZMQ::Util" : "lib/Net/ZMQ/Util.pm",
-      "Net::ZMQ::Proxy" : "lib/Net/ZMQ/Proxy.pm6",
-      "Net::ZMQ::Pollitem" : "lib/Net/ZMQ/Pollitem.pm",
-      "Net::ZMQ::Socket" : "lib/Net/ZMQ/Socket.pm",
-      "Net::ZMQ::Poll" : "lib/Net/ZMQ/Poll.pm",
-      "Net::ZMQ" : "lib/Net/ZMQ.pm",
-      "Net::ZMQ::Context" : "lib/Net/ZMQ/Context.pm",
-      "Net::ZMQ::Message" : "lib/Net/ZMQ/Message.pm"
+      "Net::ZMQ4" : "lib/Net/ZMQ4.pm6",
+      "Net::ZMQ4::Util" : "lib/Net/ZMQ4/Util.pm6",
+      "Net::ZMQ4::Socket" : "lib/Net/ZMQ4/Socket.pm6",
+      "Net::ZMQ4::Proxy" : "lib/Net/ZMQ4/Proxy.pm6",
+      "Net::ZMQ4::Poll" : "lib/Net/ZMQ4/Poll.pm6",
+      "Net::ZMQ4::Message" : "lib/Net/ZMQ4/Message.pm6",
+      "Net::ZMQ4::Context" : "lib/Net/ZMQ4/Context.pm6",
+      "Net::ZMQ4::Constants" : "lib/Net/ZMQ4/Constants.pm6",
+      "Net::ZMQ4::Pollitem" : "lib/Net/ZMQ4/Pollitem.pm6"
     },
-    "version" : "0.5",
-    "description" : "ZeroMQ bindings for Perl6"
+    "version" : "0.8",
+    "description" : "ZeroMQ bindings for Perl6",
+    "authors" : [
+      "Arne Skj\u00e6rholt",
+      "github:Altai-man"
+    ]
   },
   {
     "name" : "Lingua::EN::Syllable",
