@@ -20245,7 +20245,7 @@
     "depends" : [
       "UUID",
       "Log::Async",
-      "Net::ZMQ",
+      "Net::ZMQ:ver<0.8>",
       "JSON::Tiny",
       "Digest::HMAC",
       "Digest"
