@@ -8630,22 +8630,37 @@
   },
   {
     "name" : "UNIX::Privileges",
-    "source-url" : "git://github.com/jonathanstowe/p6-unix-privileges.git",
     "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/p6-unix-privileges.git"
+    },
+    "source-url" : "git://github.com/jonathanstowe/p6-unix-privileges.git",
+    "author" : "github:carbin",
+    "build-depends" : [
+      "LibraryMake",
+      "Shell::Command"
+    ],
     "resources" : [
       "libraries/unix_privileges"
     ],
-    "build-depends" : [
-      "LibraryMake"
-    ],
-    "author" : "github:carbin",
     "auth" : "github:carbin",
     "depends" : [ ],
     "provides" : {
       "UNIX::Privileges" : "lib/UNIX/Privileges.pm6"
     },
+    "test-depends" : [ ],
+    "license" : "ISC",
+    "tags" : [
+      "unix",
+      "privileges",
+      "daemon"
+    ],
+    "meta-version" : "0",
     "version" : "0.1.1",
-    "description" : "A module for handling UNIX Privileges"
+    "description" : "A module for handling UNIX Privileges",
+    "authors" : [
+      "carbin"
+    ]
   },
   {
     "name" : "HTTP::MultiPartParser",
