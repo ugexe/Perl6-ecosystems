@@ -10922,9 +10922,13 @@
       "Generator"
     ],
     "provides" : {
+      "GPT::HandleFileDeps" : "lib/GPT/HandleFileDeps.pm6",
+      "GPT::ListTypes" : "lib/GPT/ListTypes.pm6",
+      "GPT::FileFilter" : "lib/GPT/FileTiler.pm6",
       "GPT::FileGenerator" : "lib/GPT/FileGenerator.pm6",
       "GPT::DumbGenerator" : "lib/GPT/DumbGenerator.pm6",
       "gptrixie" : "bin/gptrixie",
+      "GPT::ListFiles" : "lib/GPT/ListFiles.pm6",
       "GPT::Class" : "lib/GPT/Class.pm6"
     },
     "license" : "Artistic-2.0",
