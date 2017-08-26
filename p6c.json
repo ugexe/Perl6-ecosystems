@@ -20341,7 +20341,9 @@
       "OO::Monitors",
       "IO::Path::ChildSecure",
       "Base64",
-      "HTTP::HPACK"
+      "HTTP::HPACK",
+      "Cro::Core",
+      "Cro::SSL"
     ],
     "provides" : {
       "Cro::HTTP::Request" : "lib/Cro/HTTP/Request.pm6",
@@ -20425,7 +20427,9 @@
     "perl" : "6.*",
     "resources" : [ ],
     "depends" : [
-      "Net::ZMQ"
+      "Net::ZMQ",
+      "Cro::Core",
+      "Cro"
     ],
     "provides" : {
       "Cro::ZeroMQ::Socket::Rep" : "lib/Cro/ZeroMQ/Socket/Rep.pm6",
@@ -20468,7 +20472,8 @@
       "File::Find",
       "Terminal::ANSIColor",
       "OO::Monitors",
-      "YAMLish"
+      "YAMLish",
+      "Cro::WebSocket"
     ],
     "provides" : {
       "Cro::Tools::Template::ZeroMQWorkSinkService" : "lib/Cro/Tools/Template/ZeroMQWorkSinkService.pm6",
