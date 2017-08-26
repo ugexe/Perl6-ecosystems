@@ -2745,6 +2745,7 @@
       "Bailador::Command::watch" : "lib/Bailador/Command/watch.pm",
       "Bailador::Command" : "lib/Bailador/Command.pm",
       "Bailador::Route::Prefix" : "lib/Bailador/Route/Prefix.pm",
+      "Bailador::Route::Controller" : "lib/Bailador/Route/Controller.pm",
       "Bailador::Command::ogre" : "lib/Bailador/Command/ogre.pm",
       "Bailador::Test" : "lib/Bailador/Test.pm",
       "Bailador::Template" : "lib/Bailador/Template.pm",
@@ -2766,11 +2767,12 @@
       "Bailador::Command::p6w" : "lib/Bailador/Command/p6w.pm",
       "Bailador::Route" : "lib/Bailador/Route.pm",
       "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm",
+      "Bailador::LogFormatter" : "lib/Bailador/LogFormatter.pm",
       "Bailador::Gradual" : "lib/Bailador/Gradual.pm",
       "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
     },
     "license" : "MIT",
-    "version" : "0.0.10",
+    "version" : "0.0.11",
     "description" : "A light-weight route-based web application framework for Perl 6",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz",
