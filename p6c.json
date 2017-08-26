@@ -8460,12 +8460,13 @@
   },
   {
     "name" : "Terminal::Print",
-    "perl" : "6.c",
+    "perl" : "6.d.PREVIEW",
     "source-url" : "git://github.com/ab5tract/Terminal-Print.git",
     "build-depends" : [ ],
     "resources" : [ ],
     "depends" : [
       "OO::Monitors",
+      "Term::termios",
       "Terminal::ANSIColor"
     ],
     "test-depends" : [ ],
@@ -8477,6 +8478,7 @@
       "Terminal::Print::BoxDrawing" : "lib/Terminal/Print/BoxDrawing.pm6",
       "Terminal::Print::Util::Timing" : "lib/Terminal/Print/Util/Timing.pm6",
       "Terminal::Print::ParticleEffect" : "lib/Terminal/Print/ParticleEffect.pm6",
+      "Terminal::Print::RawInput" : "lib/Terminal/Print/RawInput.pm6",
       "Terminal::Print::Animated" : "lib/Terminal/Print/Animated.pm6",
       "Terminal::Print::Util::Text" : "lib/Terminal/Print/Util/Text.pm6",
       "Terminal::Print::Grid" : "lib/Terminal/Print/Grid.pm6"
