@@ -10510,7 +10510,7 @@
       "IRC"
     ],
     "license" : "Artistic-2.0",
-    "version" : "3.007001",
+    "version" : "3.007003",
     "authors" : [
       "Zoffix Znet"
     ],
@@ -11442,6 +11442,10 @@
     "perl" : "6",
     "auth" : "github:ugexe",
     "depends" : [ ],
+    "tags" : [
+      "HTTP",
+      "Client"
+    ],
     "provides" : {
       "Net::HTTP::POST" : "lib/Net/HTTP/POST.pm6",
       "Net::HTTP::Response" : "lib/Net/HTTP/Response.pm6",
@@ -11455,7 +11459,7 @@
       "Net::HTTP::Request" : "lib/Net/HTTP/Request.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description" : "Roll your own http client",
     "authors" : [
       "ugexe"
