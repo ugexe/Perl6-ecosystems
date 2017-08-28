@@ -8447,9 +8447,15 @@
   },
   {
     "name" : "FastCGI::NativeCall::PSGI",
-    "source-url" : "git://github.com/jonathanstowe/p6-fcgi-psgi.git",
     "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/jonathanstowe/p6-fcgi-psgi.git",
+      "bugtracker" : "https://github.com/jonathanstowe/p6-fcgi-psgi/issues"
+    },
+    "source-url" : "git://github.com/jonathanstowe/p6-fcgi-psgi.git",
     "author" : "github:carbin",
+    "build-depends" : [ ],
+    "resources" : [ ],
     "auth" : "github:carbin",
     "depends" : [
       "PSGI",
@@ -8458,8 +8464,20 @@
     "provides" : {
       "FastCGI::NativeCall::PSGI" : "lib/FastCGI/NativeCall/PSGI.pm6"
     },
-    "version" : "0.0.1",
-    "description" : "A PSGI interface for FastCGI::NativeCall"
+    "test-depends" : [ ],
+    "license" : "ISC",
+    "tags" : [
+      "http",
+      "fastcgi",
+      "fcgi",
+      "psgi"
+    ],
+    "meta-version" : "0",
+    "version" : "0.0.2",
+    "description" : "A PSGI interface for FastCGI::NativeCall",
+    "authors" : [
+      "carbin"
+    ]
   },
   {
     "name" : "Acme::Flutterby",
