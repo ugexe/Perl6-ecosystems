@@ -10962,33 +10962,6 @@
     "description" : "Apache Kafka client"
   },
   {
-    "name" : "App::GPTrixie",
-    "source-url" : "git://github.com/Skarsnik/gptrixie.git",
-    "perl" : "6.*",
-    "author" : "Sylvain 'Skarsnik' Colinet <scolinet@gmail.com>",
-    "depends" : [
-      "XML"
-    ],
-    "tags" : [
-      "NativeCall",
-      "Authoring",
-      "Generator"
-    ],
-    "provides" : {
-      "GPT::HandleFileDeps" : "lib/GPT/HandleFileDeps.pm6",
-      "GPT::ListTypes" : "lib/GPT/ListTypes.pm6",
-      "GPT::FileFilter" : "lib/GPT/FileFilter.pm6",
-      "GPT::FileGenerator" : "lib/GPT/FileGenerator.pm6",
-      "GPT::DumbGenerator" : "lib/GPT/DumbGenerator.pm6",
-      "gptrixie" : "bin/gptrixie",
-      "GPT::ListFiles" : "lib/GPT/ListFiles.pm6",
-      "GPT::Class" : "lib/GPT/Class.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "description" : "Generate NativeCall code from C headers file"
-  },
-  {
     "name" : "IRC::Art",
     "source-url" : "git://github.com/Skarsnik/perl6-irc-art.git",
     "perl" : "6",
