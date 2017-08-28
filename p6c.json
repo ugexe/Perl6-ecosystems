@@ -680,9 +680,16 @@
   },
   {
     "name" : "HTTP::UserAgent",
-    "source-url" : "git://github.com/sergot/http-useragent.git",
     "perl" : "6.c",
+    "support" : {
+      "source" : "git://github.com/sergot/http-useragent.git",
+      "bugtracker" : "https://github.com/sergot/http-useragent/issues"
+    },
+    "source-url" : "git://github.com/sergot/http-useragent.git",
     "author" : "github:sergot",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "auth" : "github:sergot",
     "depends" : [
       "HTTP::Status",
       "File::Temp",
@@ -711,9 +718,17 @@
       "Test::Util::ServerPort"
     ],
     "license" : "MIT",
-    "version" : "1.1.34",
-    "meta-version" : 0,
-    "description" : "Web user agent"
+    "tags" : [
+      "http",
+      "useragent",
+      "client"
+    ],
+    "meta-version" : "0",
+    "version" : "1.1.35",
+    "description" : "Web user agent",
+    "authors" : [
+      "sergot"
+    ]
   },
   {
     "name" : "DateTime::Parse",
