@@ -2357,8 +2357,13 @@
     "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [ ],
-    "test-depends" : [ ],
-    "tags" : [ ],
+    "test-depends" : [
+      "Path::Iterator",
+      "Test::META"
+    ],
+    "tags" : [
+      "Dependency Injection"
+    ],
     "provides" : {
       "IoC::ConstructorInjection" : "lib/IoC/ConstructorInjection.pm6",
       "IoC::Literal" : "lib/IoC/Literal.pm6",
