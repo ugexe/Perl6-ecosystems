@@ -12300,14 +12300,18 @@
     "test-depends" : [
       "Test"
     ],
-    "tags" : [ ],
+    "tags" : [
+      "cli",
+      "terminal",
+      "text"
+    ],
     "provides" : {
       "Term::Choose" : "lib/Term/Choose.pm6",
       "Term::Choose::NCursesAdd" : "lib/Term/Choose/NCursesAdd.pm6",
       "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "1.0.2",
+    "version" : "1.0.3",
     "description" : "Choose items from a list interactively.",
     "authors" : [
       "kuerbis"
@@ -12995,12 +12999,15 @@
     "test-depends" : [
       "Test"
     ],
-    "tags" : [ ],
+    "tags" : [
+      "cli",
+      "terminal"
+    ],
     "provides" : {
       "Term::Choose::Util" : "lib/Term/Choose/Util.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "1.0.1",
+    "version" : "1.0.2",
     "description" : "CLI related functions.",
     "authors" : [
       "kuerbis"
@@ -13021,15 +13028,16 @@
       "Test"
     ],
     "tags" : [
-      "terminal",
+      "cli",
       "table",
+      "terminal",
       "text"
     ],
     "provides" : {
       "Term::TablePrint" : "lib/Term/TablePrint.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "1.0.2",
+    "version" : "1.0.3",
     "description" : "Print a table to the terminal and browse it interactively.",
     "authors" : [
       "kuerbis"
