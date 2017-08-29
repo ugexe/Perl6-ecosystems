@@ -11699,6 +11699,18 @@
     "description" : "Generate XHTML1.1 with subs (many, many subs)"
   },
   {
+    "name" : "LCS::All",
+    "source-url" : "git://github.com/wollmers/P6-LCS-All.git",
+    "perl" : "6.*",
+    "author" : "Helmut Wollmersdorfer",
+    "depends" : [ ],
+    "provides" : {
+      "LCS::All" : "lib/LCS/All.pm"
+    },
+    "version" : "0.2.0",
+    "description" : "Calculate all Longest Common Subsequences"
+  },
+  {
     "name" : "LCS::BV",
     "source-url" : "git://github.com/wollmers/P6-LCS-BV.git",
     "perl" : "6.*",
