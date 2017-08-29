@@ -2553,7 +2553,8 @@
       "OpenSSL",
       "URI::Escape",
       "Unicode::PRECIS",
-      "Terminal::ANSIColor"
+      "Terminal::ANSIColor",
+      "Log::Async"
     ],
     "provides" : {
       "MongoDB::Header" : "lib/MongoDB/Header.pm6",
@@ -2581,8 +2582,10 @@
       "Database",
       "mongodb"
     ],
-    "test-depends" : [ ],
-    "version" : "0.38.3",
+    "test-depends" : [
+      "Test::META"
+    ],
+    "version" : "0.38.3.1",
     "description" : "MongoDB driver",
     "authors" : [
       "Marcel Timmerman",
