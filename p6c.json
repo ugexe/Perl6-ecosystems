@@ -3400,22 +3400,6 @@
     "description" : "Crust logger for syslog"
   },
   {
-    "name" : "Web::RF",
-    "source-url" : "git://github.com/retupmoca/P6-Web-RF.git",
-    "perl" : "6.*",
-    "author" : "github:retupmoca",
-    "depends" : [
-      "Crust",
-      "URI::Escape",
-      "Path::Router"
-    ],
-    "provides" : {
-      "Web::RF" : "lib/Web/RF.pm6"
-    },
-    "version" : "1.0.0",
-    "description" : "Web Application Routing Framework"
-  },
-  {
     "name" : "JSON::JWT",
     "source-url" : "git://github.com/retupmoca/P6-JSON-JWT.git",
     "perl" : "6.*",
@@ -3646,19 +3630,6 @@
     "license" : "Artistic-2.0",
     "version" : "1.001001",
     "description" : "Perl 6 documentation (tools and docs)"
-  },
-  {
-    "name" : "Class::Utils",
-    "source-url" : "git://github.com/sirrobert/Class-Utils.git",
-    "perl" : "6.*",
-    "author" : "Sir Robert Burbridge",
-    "depends" : [ ],
-    "provides" : {
-      "Class::Utils" : "lib/Class/Utils.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.1.0",
-    "description" : "Small utilities to help with defining classes"
   },
   {
     "name" : "Masquerade",
