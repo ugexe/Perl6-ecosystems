@@ -3400,6 +3400,22 @@
     "description" : "Crust logger for syslog"
   },
   {
+    "name" : "Web::RF",
+    "source-url" : "git://github.com/retupmoca/P6-Web-RF.git",
+    "perl" : "6.*",
+    "author" : "github:retupmoca",
+    "depends" : [
+      "Crust",
+      "URI::Escape",
+      "Path::Router"
+    ],
+    "provides" : {
+      "Web::RF" : "lib/Web/RF.pm6"
+    },
+    "version" : "1.0.0",
+    "description" : "Web Application Routing Framework"
+  },
+  {
     "name" : "JSON::JWT",
     "source-url" : "git://github.com/retupmoca/P6-JSON-JWT.git",
     "perl" : "6.*",
@@ -3630,6 +3646,19 @@
     "license" : "Artistic-2.0",
     "version" : "1.001001",
     "description" : "Perl 6 documentation (tools and docs)"
+  },
+  {
+    "name" : "Class::Utils",
+    "source-url" : "git://github.com/sirrobert/Class-Utils.git",
+    "perl" : "6.*",
+    "author" : "Sir Robert Burbridge",
+    "depends" : [ ],
+    "provides" : {
+      "Class::Utils" : "lib/Class/Utils.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "description" : "Small utilities to help with defining classes"
   },
   {
     "name" : "Masquerade",
@@ -17348,30 +17377,6 @@
       "Fernando Correa de Oliveira"
     ],
     "description" : "Make roles with stub-methods punnable"
-  },
-  {
-    "name" : "SSH::LibSSH",
-    "source-url" : "https://github.com/jnthn/p6-ssh-libssh.git",
-    "perl" : "6.*",
-    "resources" : [
-      "ssh.dll",
-      "libeay32.dll",
-      "msvcr110.dll"
-    ],
-    "build-depends" : [
-      "LWP::Simple"
-    ],
-    "author" : "Jonathan Worthington <jnthn@jnthn.net>",
-    "depends" : [
-      "Concurrent::Progress"
-    ],
-    "provides" : {
-      "SSH::LibSSH" : "lib/SSH/LibSSH.pm6",
-      "SSH::LibSSH::Raw" : "lib/SSH/LibSSH/Raw.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.9",
-    "description" : "Asynchronous binding for libssh; client-only and limited functionality so far."
   },
   {
     "name" : "Context",
