@@ -10195,20 +10195,6 @@
     ]
   },
   {
-    "name" : "NativeCall::TypeDiag",
-    "source-url" : "git://github.com/Skarsnik/nativecall-typediag.git",
-    "perl" : "v6",
-    "author" : "Sylvain Colinet",
-    "depends" : [
-      "File::Temp"
-    ],
-    "provides" : {
-      "NativeCall::TypeDiag" : "lib/NativeCall/TypeDiag.pm6"
-    },
-    "version" : "*",
-    "description" : "A module to look at your nativecall types, like class A is repr('CStruct')"
-  },
-  {
     "name" : "Color",
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-Color.git"
@@ -10870,36 +10856,6 @@
     "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "description" : "A bloom filter implementation in Perl 6",
-    "authors" : [
-      "yowcow"
-    ]
-  },
-  {
-    "name" : "Digest::MurmurHash3",
-    "source-url" : "git://github.com/yowcow/p6-Digest-MurmurHash3.git",
-    "perl" : "6.c",
-    "resources" : [
-      "libmurmurhash3.dylib",
-      "libmurmurhash3.dll",
-      "libmurmurhash3.so"
-    ],
-    "build-depends" : [
-      "LibraryMake"
-    ],
-    "depends" : [
-      "LibraryMake",
-      "NativeCall"
-    ],
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "provides" : {
-      "Digest::MurmurHash3" : "lib/Digest/MurmurHash3.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.1.4",
-    "description" : "MurmurHash3 implementation for Perl 6",
     "authors" : [
       "yowcow"
     ]
@@ -17377,6 +17333,30 @@
       "Fernando Correa de Oliveira"
     ],
     "description" : "Make roles with stub-methods punnable"
+  },
+  {
+    "name" : "SSH::LibSSH",
+    "source-url" : "https://github.com/jnthn/p6-ssh-libssh.git",
+    "perl" : "6.*",
+    "resources" : [
+      "ssh.dll",
+      "libeay32.dll",
+      "msvcr110.dll"
+    ],
+    "build-depends" : [
+      "LWP::Simple"
+    ],
+    "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+    "depends" : [
+      "Concurrent::Progress"
+    ],
+    "provides" : {
+      "SSH::LibSSH" : "lib/SSH/LibSSH.pm6",
+      "SSH::LibSSH::Raw" : "lib/SSH/LibSSH/Raw.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.9",
+    "description" : "Asynchronous binding for libssh; client-only and limited functionality so far."
   },
   {
     "name" : "Context",
