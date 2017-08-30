@@ -5135,18 +5135,6 @@
     "description" : "Simple implementation of ATEXIT for Perl 6"
   },
   {
-    "name" : "CSV::Parser",
-    "source-url" : "git://github.com/tony-o/perl6-csv-parser.git",
-    "perl" : "6.*",
-    "auth" : "github:tony-o",
-    "depends" : [ ],
-    "provides" : {
-      "CSV::Parser" : "lib/CSV/Parser.pm"
-    },
-    "version" : "0.1.2",
-    "description" : "Parses CSV files, duh"
-  },
-  {
     "name" : "Questhub",
     "support" : {
       "email" : "duff@pobox.com",
@@ -5879,20 +5867,6 @@
     },
     "version" : "0.0.2",
     "description" : "Righting the last few wrongs in Perl 6 gist output"
-  },
-  {
-    "name" : "IO::Socket::SSL",
-    "source-url" : "git://github.com/sergot/io-socket-ssl.git",
-    "perl" : "6.*",
-    "author" : "github:sergot",
-    "depends" : [
-      "OpenSSL"
-    ],
-    "provides" : {
-      "IO::Socket::SSL" : "lib/IO/Socket/SSL.pm6"
-    },
-    "version" : "*",
-    "description" : "IO::Socket::SSL for Perl 6 using OpenSSL"
   },
   {
     "name" : "Encode",
@@ -6708,21 +6682,6 @@
     "license" : "MIT",
     "version" : "0.0.2",
     "description" : "Format dates using Go's reference format"
-  },
-  {
-    "name" : "Inline::Lua",
-    "source-url" : "git://github.com/raydiak/Inline-Lua.git",
-    "perl" : "6.*",
-    "author" : "raydiak",
-    "depends" : [ ],
-    "provides" : {
-      "Inline::Lua::Object" : "lib/Inline/Lua/Object.pm6",
-      "Lua::Raw" : "lib/Lua/Raw.pm6",
-      "Inline::Lua" : "lib/Inline/Lua.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "description" : "Embedded Lua for Perl 6"
   },
   {
     "name" : "Mortgage",
@@ -9845,7 +9804,8 @@
     "auth" : "github:jonathanstowe",
     "depends" : [
       "Test",
-      "META6"
+      "META6",
+      "URI"
     ],
     "provides" : {
       "Test::META::LicenseList" : "lib/Test/META/LicenseList.pm",
@@ -9862,7 +9822,7 @@
       "testing"
     ],
     "meta-version" : "0",
-    "version" : "0.0.12",
+    "version" : "0.0.13",
     "description" : "Test a distributions META file",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -10193,6 +10153,20 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "NativeCall::TypeDiag",
+    "source-url" : "git://github.com/Skarsnik/nativecall-typediag.git",
+    "perl" : "v6",
+    "author" : "Sylvain Colinet",
+    "depends" : [
+      "File::Temp"
+    ],
+    "provides" : {
+      "NativeCall::TypeDiag" : "lib/NativeCall/TypeDiag.pm6"
+    },
+    "version" : "*",
+    "description" : "A module to look at your nativecall types, like class A is repr('CStruct')"
   },
   {
     "name" : "Color",
@@ -10856,6 +10830,36 @@
     "license" : "Artistic-2.0",
     "version" : "0.1.0",
     "description" : "A bloom filter implementation in Perl 6",
+    "authors" : [
+      "yowcow"
+    ]
+  },
+  {
+    "name" : "Digest::MurmurHash3",
+    "source-url" : "git://github.com/yowcow/p6-Digest-MurmurHash3.git",
+    "perl" : "6.c",
+    "resources" : [
+      "libmurmurhash3.dylib",
+      "libmurmurhash3.dll",
+      "libmurmurhash3.so"
+    ],
+    "build-depends" : [
+      "LibraryMake"
+    ],
+    "depends" : [
+      "LibraryMake",
+      "NativeCall"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "provides" : {
+      "Digest::MurmurHash3" : "lib/Digest/MurmurHash3.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.4",
+    "description" : "MurmurHash3 implementation for Perl 6",
     "authors" : [
       "yowcow"
     ]
