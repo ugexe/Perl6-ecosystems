@@ -17557,34 +17557,6 @@
   {
     "name" : "Text::More",
     "support" : {
-      "source" : "https://github.com/tbrowder/Text-More-Perl6/tree/v0.1.2",
-      "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/Text-More-Perl6/archive/v0.1.2.zip",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [
-      "Getopt::Std"
-    ],
-    "tags" : [
-      "string functions"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Text::More" : "lib/Text/More.pm6"
-    },
-    "license" : "Artistic 2.0",
-    "version" : "0.1.2",
-    "authors" : [
-      "github:tbrowder"
-    ],
-    "description" : "Provides some additional text functions and a binary helper file"
-  },
-  {
-    "name" : "Text::More",
-    "support" : {
       "source" : "https://github.com/tbrowder/Text-More-Perl6/tree/v0.1.3",
       "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
     },
@@ -19001,44 +18973,6 @@
     "description" : "Perl 5 like die routine for note + exit"
   },
   {
-    "name" : "LibYAML",
-    "support" : {
-      "source" : "https://github.com/yaml/yaml-libyaml-perl6.git",
-      "bugtracker" : "https://github.com/yaml/yaml-libyaml-perl6/issues"
-    },
-    "perl" : "6.c",
-    "source-url" : "https://github.com/yaml/yaml-libyaml-perl6.git",
-    "auth" : "github:yaml",
-    "depends" : [
-      "NativeCall"
-    ],
-    "license" : "Artistic-2.0",
-    "test-depends" : [
-      "Test",
-      "JSON::Fast"
-    ],
-    "provides" : {
-      "LibYAML::Parser" : "lib/LibYAML/Parser.pm6",
-      "LibYAML::Loader::Event" : "lib/LibYAML/Loader/Event.pm6",
-      "LibYAML::Loader::TestSuite" : "lib/LibYAML/Loader/TestSuite.pm6",
-      "LibYAML::Emitter" : "lib/LibYAML/Emitter.pm6",
-      "LibYAML" : "lib/LibYAML.pm6"
-    },
-    "tags" : [
-      "LibYAML",
-      "YAML",
-      "format",
-      "serialization"
-    ],
-    "version" : "0.2.1",
-    "authors" : [
-      "Curt Tilmes <ctilmes@cpan.org>",
-      "Ingy d\u00f6t Net <ingy@cpan.org>",
-      "Tina M\u00fcller <tinita@cpan.org>"
-    ],
-    "description" : "Perl6 bindings for LibYAML"
-  },
-  {
     "name" : "Zef::CPANReporter",
     "perl" : "6.c",
     "source-url" : "git://github.com/garu/Zef-Reporter.git",
@@ -19691,32 +19625,6 @@
       "Steven Albano"
     ],
     "description" : "A Grammar for the Modelica programming language."
-  },
-  {
-    "name" : "Sparky",
-    "source-url" : "https://github.com/melezhik/sparky.git",
-    "support" : {
-      "source" : "https://github.com/melezhik/sparky.git",
-      "bugtracker" : "https://github.com/melezhik/sparky/issues"
-    },
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [
-      "YAMLish",
-      "DBIish",
-      "Sparrowdo",
-      "Time::Crontab",
-      "Bailador",
-      "Text::Markdown",
-      "Data::Dump"
-    ],
-    "license" : "Artistic-2.0",
-    "provides" : { },
-    "version" : "0.0.21",
-    "authors" : [
-      "Alexey Melezhik"
-    ],
-    "description" : "Sparky is a continues integration server based on Sparrow/Sparrowdo ecosystem"
   },
   {
     "name" : "YAML::Parser::LibYAML",
