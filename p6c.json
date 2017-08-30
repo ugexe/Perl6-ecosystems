@@ -15841,9 +15841,9 @@
       "Test::META"
     ],
     "provides" : {
-      "Domain" : "lib/ProblemSolver/Domain.pm6",
       "ProblemSolver" : "lib/ProblemSolver.pm6",
-      "State" : "lib/ProblemSolver/State.pm6"
+      "ProblemSolver::State" : "lib/ProblemSolver/State.pm6",
+      "ProblemSolver::Domain" : "lib/ProblemSolver/Domain.pm6"
     },
     "tags" : [
       "solver",
