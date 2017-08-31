@@ -8523,10 +8523,13 @@
     "resources" : [ ],
     "depends" : [
       "OO::Monitors",
-      "Term::termios",
-      "Terminal::ANSIColor"
+      "Terminal::ANSIColor",
+      "File::Which"
     ],
     "test-depends" : [ ],
+    "tags" : [
+      "Terminal"
+    ],
     "provides" : {
       "Terminal::Print::Widget" : "lib/Terminal/Print/Widget.pm6",
       "Terminal::Print::Commands" : "lib/Terminal/Print/Commands.pm6",
@@ -8541,9 +8544,10 @@
       "Terminal::Print::Grid" : "lib/Terminal/Print/Grid.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.91",
+    "version" : "0.92",
     "authors" : [
-      "John Haltiwanger"
+      "John Haltiwanger",
+      "japhb"
     ],
     "description" : "Asynchronous printing to your terminal -- as a simple grid"
   },
