@@ -14975,6 +14975,16 @@
     "name" : "Uzu",
     "source-url" : "https://github.com/scmorrison/uzu.git",
     "perl" : "6.c",
+    "resources" : [
+      "mustache/pages/index.mustache",
+      "mustache/partials/footer.mustache",
+      "mustache/partials/head.mustache",
+      "mustache/themes/default/layout.mustache",
+      "tt/pages/index.tt",
+      "tt/partials/footer.tt",
+      "tt/partials/head.tt",
+      "tt/themes/default/layout.tt"
+    ],
     "depends" : [
       "File::Find",
       "File::Temp",
@@ -15003,7 +15013,7 @@
       "static-site-generator"
     ],
     "license" : "Artistic-2.0",
-    "version" : "0.2.2",
+    "version" : "0.2.3",
     "authors" : [
       "Sam Morrison"
     ],
