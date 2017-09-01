@@ -3631,7 +3631,8 @@
       "Pod::To::BigPage",
       "Pod::To::HTML",
       "OO::Monitors",
-      "IO::String"
+      "IO::String",
+      "File::Find"
     ],
     "provides" : {
       "Pod::To::SectionFilter" : "lib/Pod/To/SectionFilter.pm",
@@ -3644,7 +3645,7 @@
       "Perl6::Type" : "lib/Perl6/Type.pm"
     },
     "license" : "Artistic-2.0",
-    "version" : "1.001001",
+    "version" : "1.001002",
     "description" : "Perl 6 documentation (tools and docs)"
   },
   {
