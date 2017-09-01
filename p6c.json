@@ -6394,13 +6394,15 @@
     "name" : "Pod::To::Markdown",
     "source-url" : "git://github.com/softmoth/perl6-pod-to-markdown.git",
     "perl" : "6.*",
-    "author" : "Jorn van Engelen",
     "depends" : [ ],
     "provides" : {
       "Pod::To::Markdown" : "lib/Pod/To/Markdown.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "v0.0.1",
+    "version" : "v0.1.1",
+    "authors" : [
+      "Jorn van Engelen"
+    ],
     "description" : "Render Perl6 Pod as Markdown"
   },
   {
