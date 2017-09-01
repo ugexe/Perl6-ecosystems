@@ -12068,26 +12068,6 @@
     "description" : "tweetnacl p6 bindings - public/secret key encryption and signatures"
   },
   {
-    "name" : "Algorithm::AhoCorasick",
-    "source-url" : "git://github.com/titsuki/p6-Algorithm-AhoCorasick.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "test-depends" : [ ],
-    "tags" : [ ],
-    "provides" : {
-      "Algorithm::AhoCorasick" : "lib/Algorithm/AhoCorasick.pm6",
-      "Algorithm::AhoCorasick::Node" : "lib/Algorithm/AhoCorasick/Node.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.0.7",
-    "description" : "efficient search for multiple strings",
-    "authors" : [
-      "titsuki"
-    ]
-  },
-  {
     "name" : "Attribute::Lazy",
     "perl" : "6.c",
     "support" : {
@@ -15713,30 +15693,6 @@
       "Julien Simonet"
     ],
     "description" : "Plugin for counting user points."
-  },
-  {
-    "name" : "Heap",
-    "source-url" : "git://github.com/FCO/Heap.git",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "depends" : [ ],
-    "test-depends" : [
-      "Test",
-      "Test::META"
-    ],
-    "provides" : {
-      "Heap" : "lib/Heap.pm6"
-    },
-    "tags" : [
-      "heap",
-      "struct",
-      "data"
-    ],
-    "version" : "0.0.1",
-    "authors" : [
-      "Fernando Correa de Oliveira"
-    ],
-    "description" : "Simple Heap implementation"
   },
   {
     "name" : "FileSystem::Capacity",
