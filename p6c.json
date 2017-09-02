@@ -20602,5 +20602,40 @@
       "Jonathan Worthington <jnthn@jnthn.net>"
     ],
     "description" : "Libraries for building reactive services in Perl 6."
+  },
+  {
+    "name" : "FastCGI::NativeCall::Async",
+    "perl" : "6.c",
+    "support" : {
+      "email" : "jns+gh@gellyfish.co.uk",
+      "source" : "https://github.com/jonathanstowe/FastCGI-NativeCall-Async.git",
+      "bugtracker" : "https://github.com/jonathanstowe/FastCGI-NativeCall-Async/issues"
+    },
+    "source-url" : "https://github.com/jonathanstowe/FastCGI-NativeCall-Async.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "FastCGI::NativeCall"
+    ],
+    "provides" : {
+      "FastCGI::NativeCall::Async" : "lib/FastCGI/NativeCall/Async.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "http",
+      "fastcgi",
+      "fcgi",
+      "async"
+    ],
+    "meta-version" : "0",
+    "version" : "0.0.1",
+    "description" : "A reactive wrapper for FastCGI::NatveCalll",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk"
+    ]
   }
 ]
