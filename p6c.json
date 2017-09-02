@@ -1537,7 +1537,8 @@
     "perl" : "6.*",
     "depends" : [
       "MIME::Types",
-      "PSGI"
+      "PSGI",
+      "SCGI"
     ],
     "provides" : {
       "Web::App::Test" : "lib/Web/App/Test.pm6",
