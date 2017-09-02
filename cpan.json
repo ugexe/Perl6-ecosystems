@@ -1,1 +1,1261 @@
-[ ]
+[
+  {
+    "name" : "HandleSupplier",
+    "source-url" : "http://www.cpan.org/authors/id/A/AS/ASTJ/Perl6/HandleSupplier-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "IO::Blob"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "HandleSupplier" : "lib/HandleSupplier.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "generate Supplier for an IO::Handle object",
+    "authors" : [
+      "Asato Wakisaka"
+    ]
+  },
+  {
+    "name" : "SQL::NamedPlaceholder",
+    "source-url" : "http://www.cpan.org/authors/id/A/AS/ASTJ/Perl6/SQL-NamedPlaceholder-0.1.0.tar.gz",
+    "perl" : "6",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "SQL::NamedPlaceholder" : "lib/SQL/NamedPlaceholder.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "description" : "extension of placeholder",
+    "authors" : [
+      "astj"
+    ]
+  },
+  {
+    "name" : "SQL::NamedPlaceholder",
+    "source-url" : "http://www.cpan.org/authors/id/A/AS/ASTJ/Perl6/SQL-NamedPlaceholder-0.1.1.tar.gz",
+    "perl" : "6",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "SQL::NamedPlaceholder" : "lib/SQL/NamedPlaceholder.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.1",
+    "description" : "extension of placeholder",
+    "authors" : [
+      "astj"
+    ]
+  },
+  {
+    "name" : "Inline",
+    "support" : {
+      "source" : "https://github.com/FROGGS/p6-Inline-C.git",
+      "bugtracker" : "https://github.com/FROGGS/p6-Inline-C/issues"
+    },
+    "perl" : "v6",
+    "build-depends" : [ ],
+    "depends" : [
+      "NativeCall"
+    ],
+    "provides" : {
+      "Inline" : "lib/Inline.pm",
+      "Inline::C" : "lib/Inline/C.pm"
+    },
+    "test-depends" : [ ],
+    "version" : "1.2.1",
+    "description" : "use C-code from within Perl"
+  },
+  {
+    "name" : "Inline",
+    "support" : {
+      "source" : "https://github.com/FROGGS/p6-Inline-C.git",
+      "bugtracker" : "https://github.com/FROGGS/p6-Inline-C/issues"
+    },
+    "perl" : "v6",
+    "build-depends" : [ ],
+    "depends" : [
+      "NativeCall"
+    ],
+    "provides" : {
+      "Inline" : "lib/Inline.pm",
+      "Inline::C" : "lib/Inline/C.pm"
+    },
+    "test-depends" : [ ],
+    "version" : "v1.2",
+    "description" : "use C-code from within Perl"
+  },
+  {
+    "name" : "Inline",
+    "support" : {
+      "source" : "https://github.com/FROGGS/p6-Inline-C.git",
+      "bugtracker" : "https://github.com/FROGGS/p6-Inline-C/issues"
+    },
+    "perl" : "v6",
+    "build-depends" : [ ],
+    "depends" : [
+      "NativeCall"
+    ],
+    "provides" : {
+      "Inline" : "lib/Inline.pm",
+      "Inline::C" : "lib/Inline/C.pm"
+    },
+    "test-depends" : [ ],
+    "version" : "v1",
+    "description" : "use C-code from within Perl"
+  },
+  {
+    "name" : "IO::Glob",
+    "perl" : "6",
+    "auth" : "github:zostay",
+    "source" : {
+      "source" : "git://github.com/zostay/perl6-IO-Glob.git",
+      "bugtracker" : "https://github.com/zostay/perl6-IO-Glob/issues"
+    },
+    "depends" : [ ],
+    "provides" : {
+      "IO::Glob::Simple" : "lib/IO/Glob.pm6",
+      "IO::Glob::Globber" : "lib/IO/Glob.pm6",
+      "IO::Glob::Base" : "lib/IO/Glob.pm6",
+      "IO::Glob" : "lib/IO/Glob.pm6",
+      "IO::Glob::SQL" : "lib/IO/Glob.pm6",
+      "IO::Glob::BSD" : "lib/IO/Glob.pm6",
+      "IO::Glob::Globber::Match" : "lib/IO/Glob.pm6",
+      "IO::Glob::Globber::Term" : "lib/IO/Glob.pm6",
+      "IO::Glob::Globber::Expansion" : "lib/IO/Glob.pm6"
+    },
+    "license" : "Artistic 2.0",
+    "version" : "v0.1",
+    "authors" : [
+      "Andrew Sterling Hanenkamp <hanenkamp@cpan.org>"
+    ],
+    "description" : "Glob matching for paths & strings and listing files"
+  },
+  {
+    "name" : "Text::CSV",
+    "support" : {
+      "irc" : "irc://irc.perl.org/#csv"
+    },
+    "source-url" : "git://github.com/Tux/CSV.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:Tux",
+    "repo-type" : "git",
+    "depends" : [
+      "Slang::Tuxic",
+      "File::Temp"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "Text::CSV" : "lib/Text/CSV.pm"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "CSV"
+    ],
+    "version" : "0.007",
+    "authors" : [
+      "H.Merijn Brand (Tux)"
+    ],
+    "description" : "Handle CSV data. API based on Text::CSV_XS"
+  },
+  {
+    "name" : "Text::CSV",
+    "support" : {
+      "irc" : "irc://irc.perl.org/#csv"
+    },
+    "source-url" : "git://github.com/Tux/CSV.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:Tux",
+    "repo-type" : "git",
+    "depends" : [
+      "Slang::Tuxic",
+      "File::Temp"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "Text::CSV" : "lib/Text/CSV.pm"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "CSV"
+    ],
+    "version" : "0.008",
+    "authors" : [
+      "H.Merijn Brand (Tux)"
+    ],
+    "description" : "Handle CSV data. API based on Text::CSV_XS"
+  },
+  {
+    "name" : "Data::Selector",
+    "support" : {
+      "irc" : "irc://irc.freenode.net/perl6",
+      "email" : "justin@devuyst.com",
+      "source" : "https://github.com/jdv/p6-data-selector.git",
+      "bugtracker" : "https://github.com/jdv/p6-data-selector/issues"
+    },
+    "perl" : "v6",
+    "license" : "artistic_2",
+    "provides" : {
+      "Data::Selector::SelectorString::Actions" : "lib/Data/Selector.pm",
+      "Data::Selector" : "lib/Data/Selector.pm",
+      "Data::Selector::SelectorString::Grammar" : "lib/Data/Selector.pm"
+    },
+    "version" : "v1.01",
+    "authors" : [
+      "Justin DeVuyst"
+    ],
+    "description" : "data selection dsl parser and applicator"
+  },
+  {
+    "name" : "Data::Selector",
+    "support" : {
+      "irc" : "irc://irc.freenode.net/perl6",
+      "email" : "justin@devuyst.com",
+      "source" : "https://github.com/jdv/p6-data-selector.git",
+      "bugtracker" : "https://github.com/jdv/p6-data-selector/issues"
+    },
+    "perl" : "v6",
+    "license" : "artistic_2",
+    "provides" : {
+      "Data::Selector::SelectorString::Actions" : "lib/Data/Selector.pm",
+      "Data::Selector" : "lib/Data/Selector.pm",
+      "Data::Selector::SelectorString::Grammar" : "lib/Data/Selector.pm"
+    },
+    "version" : "v1.02",
+    "authors" : [
+      "Justin DeVuyst"
+    ],
+    "description" : "data selection dsl parser and applicator"
+  },
+  {
+    "name" : "NativeCall",
+    "support" : {
+      "source" : "https://github.com/jnthn/zavolaj.git",
+      "bugtracker" : "https://github.com/jnthn/zavolaj/issues"
+    },
+    "perl" : "v6",
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "NativeCall" : "lib/NativeCall.pm6"
+    },
+    "test-depends" : [ ],
+    "version" : "v1",
+    "description" : "Native call interface for Rakudo"
+  },
+  {
+    "name" : "Backtrace::AsHTML",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Backtrace-AsHTML-0.0.1.tar.gz",
+    "perl" : "6",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Backtrace::AsHTML" : "lib/Backtrace/AsHTML.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Displays back trace in HTML",
+    "authors" : [
+      "moznion",
+      "Wenzel P. P. Peppmeyer"
+    ]
+  },
+  {
+    "name" : "HTML::Escape",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/HTML-Escape-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "HTML::Escape" : "lib/HTML/Escape.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Utility of HTML escaping",
+    "authors" : [
+      "moznion"
+    ]
+  },
+  {
+    "name" : "IO::Blob",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/IO-Blob-0.0.1.tar.gz",
+    "perl" : "6",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "IO::Blob" : "lib/IO/Blob.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "IO:: interface for reading/writing a Blob",
+    "authors" : [
+      "moznion"
+    ]
+  },
+  {
+    "name" : "Log::Minimal",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Log-Minimal-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Terminal::ANSIColor",
+      "Grammar::Tracer"
+    ],
+    "test-depends" : [
+      "IO::Capture::Simple"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "Log::Minimal" : "lib/Log/Minimal.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Minimal and customizable logger for perl6",
+    "authors" : [
+      "moznion"
+    ]
+  },
+  {
+    "name" : "Object::Container",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Object-Container-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Object::Container" : "lib/Object/Container.pm6",
+      "Object::Container::Item" : "lib/Object/Container/Item.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "A simple container for object for perl6",
+    "authors" : [
+      "moznion"
+    ]
+  },
+  {
+    "name" : "Object::Container",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Object-Container-0.0.2.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Object::Container" : "lib/Object/Container.pm6",
+      "Object::Container::Item" : "lib/Object/Container/Item.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
+    "description" : "A simple container for object for perl6",
+    "authors" : [
+      "moznion"
+    ]
+  },
+  {
+    "name" : "Router::Boost",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Router-Boost-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Router::Boost" : "lib/Router/Boost.pm6",
+      "Router::Boost::Node" : "lib/Router/Boost/Node.pm6",
+      "Router::Boost::Method" : "lib/Router/Boost/Method.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Routing engine for perl6",
+    "authors" : [
+      "moznion"
+    ]
+  },
+  {
+    "name" : "Stream::Buffered",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Stream-Buffered-0.0.1.tar.gz",
+    "perl" : "6",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "IO::Blob",
+      "File::Temp"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Stream::Buffered" : "lib/Stream/Buffered.pm6",
+      "Stream::Buffered::Blob" : "lib/Stream/Buffered/Blob.pm6",
+      "Stream::Buffered::Auto" : "lib/Stream/Buffered/Auto.pm6",
+      "Stream::Buffered::File" : "lib/Stream/Buffered/File.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Temporary buffer to save bytes",
+    "authors" : [
+      "moznion"
+    ]
+  },
+  {
+    "name" : "CompUnit::Repository::Mask",
+    "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/CompUnit-Repository-Mask-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "CompUnit::Repository::Mask" : "lib/CompUnit/Repository/Mask.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "hide installed modules for testing.",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
+    "name" : "Inline::Perl5",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
+    "source-url" : "git://github.com/niner/Inline-Perl5.git",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/p5helper"
+    ],
+    "author" : "github:niner",
+    "repo-type" : "git",
+    "depends" : [
+      "LibraryMake"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "Inline::Perl5" : "lib/Inline/Perl5.pm6"
+    },
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "version" : "0.26",
+    "description" : "Use Perl 5 code in a Perl 6 program",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
+    "name" : "Inline::Perl5",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.27.tar.gz",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/p5helper"
+    ],
+    "author" : "github:niner",
+    "repo-type" : "git",
+    "depends" : [
+      "LibraryMake"
+    ],
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "provides" : {
+      "Inline::Perl5::Object" : "lib/Inline/Perl5/Object.pm6",
+      "Inline::Perl5" : "lib/Inline/Perl5.pm6",
+      "Inline::Perl5::Package" : "lib/Inline/Perl5/Package.pm6",
+      "Inline::Perl5::Caller" : "lib/Inline/Perl5/Caller.pm6",
+      "Inline::Perl5::Callable" : "lib/Inline/Perl5/Callable.pm6",
+      "Inline::Perl5::Attributes" : "lib/Inline/Perl5/Attributes.pm6",
+      "Inline::Perl5::Array" : "lib/Inline/Perl5/Array.pm6",
+      "Inline::Language::ObjectKeeper" : "lib/Inline/Language/ObjectKeeper.pm6",
+      "Inline::Perl5::Extension" : "lib/Inline/Perl5/Extension.pm6",
+      "Inline::Perl5::Parent" : "lib/Inline/Perl5/Parent.pm6",
+      "Inline::Perl5::Hash" : "lib/Inline/Perl5/Hash.pm6",
+      "Inline::Perl5::Interpreter" : "lib/Inline/Perl5/Interpreter.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.27",
+    "description" : "Use Perl 5 code in a Perl 6 program",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
+    "name" : "Inline::Perl5",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.28.tar.gz",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/p5helper"
+    ],
+    "author" : "github:niner",
+    "repo-type" : "git",
+    "depends" : [
+      "LibraryMake"
+    ],
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "provides" : {
+      "Inline::Perl5::Object" : "lib/Inline/Perl5/Object.pm6",
+      "Inline::Perl5" : "lib/Inline/Perl5.pm6",
+      "Inline::Perl5::Package" : "lib/Inline/Perl5/Package.pm6",
+      "Inline::Perl5::Caller" : "lib/Inline/Perl5/Caller.pm6",
+      "Inline::Perl5::Callable" : "lib/Inline/Perl5/Callable.pm6",
+      "Inline::Perl5::Attributes" : "lib/Inline/Perl5/Attributes.pm6",
+      "Inline::Perl5::Array" : "lib/Inline/Perl5/Array.pm6",
+      "Inline::Language::ObjectKeeper" : "lib/Inline/Language/ObjectKeeper.pm6",
+      "Inline::Perl5::Extension" : "lib/Inline/Perl5/Extension.pm6",
+      "Inline::Perl5::Parent" : "lib/Inline/Perl5/Parent.pm6",
+      "Inline::Perl5::Hash" : "lib/Inline/Perl5/Hash.pm6",
+      "Inline::Perl5::Interpreter" : "lib/Inline/Perl5/Interpreter.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.28",
+    "description" : "Use Perl 5 code in a Perl 6 program",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
+    "name" : "Inline::Perl5",
+    "support" : {
+      "irc" : "irc://irc.freenode.org/#perl6"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.29.tar.gz",
+    "perl" : "6.c",
+    "resources" : [
+      "libraries/p5helper"
+    ],
+    "author" : "github:niner",
+    "repo-type" : "git",
+    "depends" : [
+      "LibraryMake"
+    ],
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "provides" : {
+      "Inline::Perl5::Object" : "lib/Inline/Perl5/Object.pm6",
+      "Inline::Perl5" : "lib/Inline/Perl5.pm6",
+      "Inline::Perl5::Package" : "lib/Inline/Perl5/Package.pm6",
+      "Inline::Perl5::Caller" : "lib/Inline/Perl5/Caller.pm6",
+      "Inline::Perl5::Callable" : "lib/Inline/Perl5/Callable.pm6",
+      "Inline::Perl5::Attributes" : "lib/Inline/Perl5/Attributes.pm6",
+      "Inline::Perl5::Array" : "lib/Inline/Perl5/Array.pm6",
+      "Inline::Language::ObjectKeeper" : "lib/Inline/Language/ObjectKeeper.pm6",
+      "Inline::Perl5::Extension" : "lib/Inline/Perl5/Extension.pm6",
+      "Inline::Perl5::Parent" : "lib/Inline/Perl5/Parent.pm6",
+      "Inline::Perl5::Hash" : "lib/Inline/Perl5/Hash.pm6",
+      "Inline::Perl5::Interpreter" : "lib/Inline/Perl5/Interpreter.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.29",
+    "description" : "Use Perl 5 code in a Perl 6 program",
+    "authors" : [
+      "Stefan Seifert"
+    ]
+  },
+  {
+    "name" : "App::Mi6",
+    "source-url" : "git://github.com/skaji/mi6.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "File::Find",
+      "JSON::Pretty",
+      "Pod::To::Markdown",
+      "Shell::Command",
+      "CPAN::Uploader::Tiny"
+    ],
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "App::Mi6" : "lib/App/Mi6.pm6",
+      "App::Mi6::JSON" : "lib/App/Mi6/JSON.pm6",
+      "App::Mi6::Template" : "lib/App/Mi6/Template.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
+    "description" : "minimal authoring tool for Perl6",
+    "authors" : [
+      "Shoichi Kaji"
+    ]
+  },
+  {
+    "name" : "Acme::Meow",
+    "source-url" : "git://github.com/tadzik/perl6-Acme-Meow.git",
+    "support" : {
+      "source" : "git://github.com/tadzik/perl6-Acme-Meow.git",
+      "bugtracker" : "https://github.com/tadzik/perl6-Acme-Meow/issues"
+    },
+    "perl" : "6.*",
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Acme::Meow" : "lib/Acme/Meow.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "0.1",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+      "Paul Cochrane",
+      "GlithMr",
+      "Ethan House",
+      "Tobias Leich"
+    ],
+    "description" : "The kitty you always wanted, now in Perl 6"
+  },
+  {
+    "name" : "Geo::Coder::OpenCage",
+    "source-url" : "git://github.com/tadzik/Geo-Coder-OpenCage.git",
+    "support" : {
+      "source" : "git://github.com/tadzik/Geo-Coder-OpenCage.git",
+      "bugtracker" : "https://github.com/tadzik/Geo-Coder-OpenCage/issues"
+    },
+    "perl" : "6.*",
+    "depends" : [
+      "HTTP::UserAgent",
+      "JSON::Unmarshal",
+      "URI"
+    ],
+    "provides" : {
+      "Geo::Coder::OpenCage" : "lib/Geo/Coder/OpenCage.pm",
+      "Geo::Coder::OpenCage::Response" : "lib/Geo/Coder/OpenCage/Response.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "1.0",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz"
+    ],
+    "description" : "Client library for the OpenCage Geocoder"
+  },
+  {
+    "name" : "HTTP::Server::Tiny",
+    "source-url" : "http://www.cpan.org/authors/id/T/TO/TOKUHIROM/Perl6/HTTP-Server-Tiny-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "HTTP::Parser",
+      "HTTP::Status",
+      "IO::Blob"
+    ],
+    "test-depends" : [
+      "JSON::Fast",
+      "HTTP::Tinyish"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "HTTP::Server::Tiny" : "lib/HTTP/Server/Tiny.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "a simple HTTP server for Perl6",
+    "authors" : [
+      "Tokuhiro Matsuno"
+    ]
+  },
+  {
+    "name" : "Bailador",
+    "support" : {
+      "source" : "git://github.com/Bailador/Bailador.git",
+      "bugtracker" : "https://github.com/Bailador/Bailador/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/Bailador-0.0.10.tar.gz",
+    "perl" : "6.c",
+    "resources" : [
+      "error.template",
+      "skeleton/default/bin/app.pl6",
+      "skeleton/default/t/app.t",
+      "skeleton/default/views/index.html"
+    ],
+    "build-depends" : [
+      "TAP::Harness"
+    ],
+    "depends" : [
+      "Digest",
+      "Digest::HMAC",
+      "File::Directory::Tree",
+      "File::Find",
+      "File::Temp",
+      "HTTP::Easy",
+      "HTTP::MultiPartParser",
+      "HTTP::Server::Ogre",
+      "HTTP::Status",
+      "JSON::Fast",
+      "Log::Any",
+      "Path::Iterator",
+      "Template::Mojo",
+      "Template::Mustache",
+      "Terminal::ANSIColor",
+      "URI",
+      "YAMLish"
+    ],
+    "test-depends" : [ ],
+    "tags" : [
+      "Web",
+      "HTTP",
+      "Net"
+    ],
+    "provides" : {
+      "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
+      "Bailador::Route::AutoHead" : "lib/Bailador/Route/AutoHead.pm",
+      "Bailador::Request" : "lib/Bailador/Request.pm",
+      "Bailador::Configuration" : "lib/Bailador/Configuration.pm",
+      "Bailador::Commands" : "lib/Bailador/Commands.pm",
+      "Bailador::CLI" : "lib/Bailador/CLI.pm",
+      "Bailador::Utils" : "lib/Bailador/Utils.pm",
+      "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
+      "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
+      "Bailador::Command::watch" : "lib/Bailador/Command/watch.pm",
+      "Bailador::Command" : "lib/Bailador/Command.pm",
+      "Bailador::Route::Prefix" : "lib/Bailador/Route/Prefix.pm",
+      "Bailador::Command::ogre" : "lib/Bailador/Command/ogre.pm",
+      "Bailador::Test" : "lib/Bailador/Test.pm",
+      "Bailador::Template" : "lib/Bailador/Template.pm",
+      "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
+      "Bailador::RouteHelper" : "lib/Bailador/RouteHelper.pm",
+      "Bailador::LogAdapter" : "lib/Bailador/LogAdapter.pm",
+      "Bailador::Exceptions" : "lib/Bailador/Exceptions.pm",
+      "Bailador::Command::tiny" : "lib/Bailador/Command/tiny.pm",
+      "Bailador::Command::easy" : "lib/Bailador/Command/easy.pm",
+      "Bailador" : "lib/Bailador.pm",
+      "Bailador::Feature::AutoHead" : "lib/Bailador/Feature/AutoHead.pm",
+      "Bailador::App" : "lib/Bailador/App.pm",
+      "Bailador::Template::Mustache" : "lib/Bailador/Template/Mustache.pm",
+      "Bailador::Template::Mojo" : "lib/Bailador/Template/Mojo.pm",
+      "Bailador::Route::StaticFile" : "lib/Bailador/Route/StaticFile.pm",
+      "Bailador::Route::Simple" : "lib/Bailador/Route/Simple.pm",
+      "Bailador::Response" : "lib/Bailador/Response.pm",
+      "Bailador::Context" : "lib/Bailador/Context.pm",
+      "Bailador::Command::p6w" : "lib/Bailador/Command/p6w.pm",
+      "Bailador::Route" : "lib/Bailador/Route.pm",
+      "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm",
+      "Bailador::Gradual" : "lib/Bailador/Gradual.pm",
+      "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
+    },
+    "license" : "MIT",
+    "version" : "0.0.10",
+    "description" : "A light-weight route-based web application framework for Perl 6",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+      "Anthony Parsons",
+      "Carl Masak",
+      "Gabor Szabo",
+      "GlitchMr",
+      "Moritz Lenz",
+      "Panu Ervamaa",
+      "Paul Cochrane",
+      "Solomon Foster",
+      "Sterling Hanenkamp",
+      "Tobias Leich",
+      "ugexe",
+      "vendethiel",
+      "Martin Barth (ufobat)",
+      "Emeric Fischer"
+    ]
+  },
+  {
+    "name" : "Bailador",
+    "support" : {
+      "source" : "git://github.com/Bailador/Bailador.git",
+      "bugtracker" : "https://github.com/Bailador/Bailador/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/Bailador-0.0.11.tar.gz",
+    "perl" : "6.c",
+    "resources" : [
+      "error.template",
+      "skeleton/default/bin/app.pl6",
+      "skeleton/default/t/app.t",
+      "skeleton/default/views/index.html"
+    ],
+    "build-depends" : [
+      "TAP::Harness"
+    ],
+    "depends" : [
+      "Digest",
+      "Digest::HMAC",
+      "File::Directory::Tree",
+      "File::Find",
+      "File::Temp",
+      "HTTP::Easy",
+      "HTTP::MultiPartParser",
+      "HTTP::Server::Ogre",
+      "HTTP::Status",
+      "JSON::Fast",
+      "Log::Any",
+      "Path::Iterator",
+      "Template::Mojo",
+      "Template::Mustache",
+      "Terminal::ANSIColor",
+      "URI",
+      "YAMLish"
+    ],
+    "test-depends" : [ ],
+    "tags" : [
+      "Web",
+      "HTTP",
+      "Net"
+    ],
+    "provides" : {
+      "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
+      "Bailador::Route::AutoHead" : "lib/Bailador/Route/AutoHead.pm",
+      "Bailador::Request" : "lib/Bailador/Request.pm",
+      "Bailador::Configuration" : "lib/Bailador/Configuration.pm",
+      "Bailador::Commands" : "lib/Bailador/Commands.pm",
+      "Bailador::CLI" : "lib/Bailador/CLI.pm",
+      "Bailador::Utils" : "lib/Bailador/Utils.pm",
+      "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
+      "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
+      "Bailador::Command::watch" : "lib/Bailador/Command/watch.pm",
+      "Bailador::Command" : "lib/Bailador/Command.pm",
+      "Bailador::Route::Prefix" : "lib/Bailador/Route/Prefix.pm",
+      "Bailador::Route::Controller" : "lib/Bailador/Route/Controller.pm",
+      "Bailador::Command::ogre" : "lib/Bailador/Command/ogre.pm",
+      "Bailador::Test" : "lib/Bailador/Test.pm",
+      "Bailador::Template" : "lib/Bailador/Template.pm",
+      "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
+      "Bailador::RouteHelper" : "lib/Bailador/RouteHelper.pm",
+      "Bailador::LogAdapter" : "lib/Bailador/LogAdapter.pm",
+      "Bailador::Exceptions" : "lib/Bailador/Exceptions.pm",
+      "Bailador::Command::tiny" : "lib/Bailador/Command/tiny.pm",
+      "Bailador::Command::easy" : "lib/Bailador/Command/easy.pm",
+      "Bailador" : "lib/Bailador.pm",
+      "Bailador::Feature::AutoHead" : "lib/Bailador/Feature/AutoHead.pm",
+      "Bailador::App" : "lib/Bailador/App.pm",
+      "Bailador::Template::Mustache" : "lib/Bailador/Template/Mustache.pm",
+      "Bailador::Template::Mojo" : "lib/Bailador/Template/Mojo.pm",
+      "Bailador::Route::StaticFile" : "lib/Bailador/Route/StaticFile.pm",
+      "Bailador::Route::Simple" : "lib/Bailador/Route/Simple.pm",
+      "Bailador::Response" : "lib/Bailador/Response.pm",
+      "Bailador::Context" : "lib/Bailador/Context.pm",
+      "Bailador::Command::p6w" : "lib/Bailador/Command/p6w.pm",
+      "Bailador::Route" : "lib/Bailador/Route.pm",
+      "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm",
+      "Bailador::LogFormatter" : "lib/Bailador/LogFormatter.pm",
+      "Bailador::Gradual" : "lib/Bailador/Gradual.pm",
+      "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
+    },
+    "license" : "MIT",
+    "version" : "0.0.11",
+    "description" : "A light-weight route-based web application framework for Perl 6",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+      "Anthony Parsons",
+      "Carl Masak",
+      "Gabor Szabo",
+      "GlitchMr",
+      "Moritz Lenz",
+      "Panu Ervamaa",
+      "Paul Cochrane",
+      "Solomon Foster",
+      "Sterling Hanenkamp",
+      "Tobias Leich",
+      "ugexe",
+      "vendethiel",
+      "Martin Barth (ufobat)",
+      "Emeric Fischer"
+    ]
+  },
+  {
+    "name" : "Bailador",
+    "support" : {
+      "source" : "git://github.com/Bailador/Bailador.git",
+      "bugtracker" : "https://github.com/Bailador/Bailador/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/Bailador-0.0.7.tar.gz",
+    "perl" : "6.c",
+    "resources" : [
+      "error.template"
+    ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Digest",
+      "Digest::HMAC",
+      "File::Directory::Tree",
+      "File::Find",
+      "File::Temp",
+      "HTTP::Easy",
+      "HTTP::MultiPartParser",
+      "HTTP::Server::Ogre",
+      "HTTP::Status",
+      "Log::Any",
+      "Path::Iterator",
+      "Template::Mojo",
+      "Template::Mustache",
+      "URI",
+      "YAMLish"
+    ],
+    "test-depends" : [ ],
+    "tags" : [
+      "Web",
+      "HTTP",
+      "Net"
+    ],
+    "provides" : {
+      "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
+      "Bailador::Request" : "lib/Bailador/Request.pm",
+      "Bailador::Configuration" : "lib/Bailador/Configuration.pm",
+      "Bailador::Commands" : "lib/Bailador/Commands.pm",
+      "Bailador::CLI" : "lib/Bailador/CLI.pm",
+      "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
+      "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
+      "Bailador::Command::watch" : "lib/Bailador/Command/watch.pm",
+      "Bailador::Command" : "lib/Bailador/Command.pm",
+      "Bailador::Command::ogre" : "lib/Bailador/Command/ogre.pm",
+      "Bailador::Test" : "lib/Bailador/Test.pm",
+      "Bailador::Template" : "lib/Bailador/Template.pm",
+      "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
+      "Bailador::LogAdapter" : "lib/Bailador/LogAdapter.pm",
+      "Bailador::Exceptions" : "lib/Bailador/Exceptions.pm",
+      "Bailador::Command::tiny" : "lib/Bailador/Command/tiny.pm",
+      "Bailador::Command::easy" : "lib/Bailador/Command/easy.pm",
+      "Bailador" : "lib/Bailador.pm",
+      "Bailador::Feature::AutoHead" : "lib/Bailador/Feature/AutoHead.pm",
+      "Bailador::App" : "lib/Bailador/App.pm",
+      "Bailador::Template::Mustache" : "lib/Bailador/Template/Mustache.pm",
+      "Bailador::Template::Mojo" : "lib/Bailador/Template/Mojo.pm",
+      "Bailador::Route::StaticFile" : "lib/Bailador/Route/StaticFile.pm",
+      "Bailador::Response" : "lib/Bailador/Response.pm",
+      "Bailador::Context" : "lib/Bailador/Context.pm",
+      "Bailador::Command::p6w" : "lib/Bailador/Command/p6w.pm",
+      "Bailador::Route" : "lib/Bailador/Route.pm",
+      "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm",
+      "Bailador::Gradual" : "lib/Bailador/Gradual.pm",
+      "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
+    },
+    "license" : "MIT",
+    "version" : "0.0.7",
+    "description" : "A light-weight route-based web application framework for Perl 6",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+      "Anthony Parsons",
+      "Carl Masak",
+      "Gabor Szabo",
+      "GlitchMr",
+      "Moritz Lenz",
+      "Panu Ervamaa",
+      "Paul Cochrane",
+      "Solomon Foster",
+      "Sterling Hanenkamp",
+      "Tobias Leich",
+      "ugexe",
+      "vendethiel",
+      "Martin Barth (ufobat)",
+      "Emeric Fischer"
+    ]
+  },
+  {
+    "name" : "Bailador",
+    "support" : {
+      "source" : "git://github.com/Bailador/Bailador.git",
+      "bugtracker" : "https://github.com/Bailador/Bailador/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/Bailador-0.0.8.tar.gz",
+    "perl" : "6.c",
+    "resources" : [
+      "error.template"
+    ],
+    "build-depends" : [
+      "TAP::Harness"
+    ],
+    "depends" : [
+      "Digest",
+      "Digest::HMAC",
+      "File::Directory::Tree",
+      "File::Find",
+      "File::Temp",
+      "HTTP::Easy",
+      "HTTP::MultiPartParser",
+      "HTTP::Server::Ogre",
+      "HTTP::Status",
+      "Log::Any",
+      "Path::Iterator",
+      "Template::Mojo",
+      "Template::Mustache",
+      "URI",
+      "YAMLish"
+    ],
+    "test-depends" : [ ],
+    "tags" : [
+      "Web",
+      "HTTP",
+      "Net"
+    ],
+    "provides" : {
+      "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
+      "Bailador::Route::AutoHead" : "lib/Bailador/Route/AutoHead.pm",
+      "Bailador::Request" : "lib/Bailador/Request.pm",
+      "Bailador::Configuration" : "lib/Bailador/Configuration.pm",
+      "Bailador::Commands" : "lib/Bailador/Commands.pm",
+      "Bailador::CLI" : "lib/Bailador/CLI.pm",
+      "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
+      "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
+      "Bailador::Command::watch" : "lib/Bailador/Command/watch.pm",
+      "Bailador::Command" : "lib/Bailador/Command.pm",
+      "Bailador::Route::Prefix" : "lib/Bailador/Route/Prefix.pm",
+      "Bailador::Command::ogre" : "lib/Bailador/Command/ogre.pm",
+      "Bailador::Test" : "lib/Bailador/Test.pm",
+      "Bailador::Template" : "lib/Bailador/Template.pm",
+      "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
+      "Bailador::RouteHelper" : "lib/Bailador/RouteHelper.pm",
+      "Bailador::LogAdapter" : "lib/Bailador/LogAdapter.pm",
+      "Bailador::Exceptions" : "lib/Bailador/Exceptions.pm",
+      "Bailador::Command::tiny" : "lib/Bailador/Command/tiny.pm",
+      "Bailador::Command::easy" : "lib/Bailador/Command/easy.pm",
+      "Bailador" : "lib/Bailador.pm",
+      "Bailador::Feature::AutoHead" : "lib/Bailador/Feature/AutoHead.pm",
+      "Bailador::App" : "lib/Bailador/App.pm",
+      "Bailador::Template::Mustache" : "lib/Bailador/Template/Mustache.pm",
+      "Bailador::Template::Mojo" : "lib/Bailador/Template/Mojo.pm",
+      "Bailador::Route::StaticFile" : "lib/Bailador/Route/StaticFile.pm",
+      "Bailador::Route::Simple" : "lib/Bailador/Route/Simple.pm",
+      "Bailador::Response" : "lib/Bailador/Response.pm",
+      "Bailador::Context" : "lib/Bailador/Context.pm",
+      "Bailador::Command::p6w" : "lib/Bailador/Command/p6w.pm",
+      "Bailador::Route" : "lib/Bailador/Route.pm",
+      "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm",
+      "Bailador::Gradual" : "lib/Bailador/Gradual.pm",
+      "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
+    },
+    "license" : "MIT",
+    "version" : "0.0.8",
+    "description" : "A light-weight route-based web application framework for Perl 6",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+      "Anthony Parsons",
+      "Carl Masak",
+      "Gabor Szabo",
+      "GlitchMr",
+      "Moritz Lenz",
+      "Panu Ervamaa",
+      "Paul Cochrane",
+      "Solomon Foster",
+      "Sterling Hanenkamp",
+      "Tobias Leich",
+      "ugexe",
+      "vendethiel",
+      "Martin Barth (ufobat)",
+      "Emeric Fischer"
+    ]
+  },
+  {
+    "name" : "Bailador",
+    "support" : {
+      "source" : "git://github.com/Bailador/Bailador.git",
+      "bugtracker" : "https://github.com/Bailador/Bailador/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/Bailador-0.0.9.tar.gz",
+    "perl" : "6.c",
+    "resources" : [
+      "error.template"
+    ],
+    "build-depends" : [
+      "TAP::Harness"
+    ],
+    "depends" : [
+      "Digest",
+      "Digest::HMAC",
+      "File::Directory::Tree",
+      "File::Find",
+      "File::Temp",
+      "HTTP::Easy",
+      "HTTP::MultiPartParser",
+      "HTTP::Server::Ogre",
+      "HTTP::Status",
+      "JSON::Fast",
+      "Log::Any",
+      "Path::Iterator",
+      "Template::Mojo",
+      "Template::Mustache",
+      "Terminal::ANSIColor",
+      "URI",
+      "YAMLish"
+    ],
+    "test-depends" : [ ],
+    "tags" : [
+      "Web",
+      "HTTP",
+      "Net"
+    ],
+    "provides" : {
+      "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
+      "Bailador::Route::AutoHead" : "lib/Bailador/Route/AutoHead.pm",
+      "Bailador::Request" : "lib/Bailador/Request.pm",
+      "Bailador::Configuration" : "lib/Bailador/Configuration.pm",
+      "Bailador::Commands" : "lib/Bailador/Commands.pm",
+      "Bailador::CLI" : "lib/Bailador/CLI.pm",
+      "Bailador::Utils" : "lib/Bailador/Utils.pm",
+      "Bailador::Sessions::Store::Memory" : "lib/Bailador/Sessions/Store/Memory.pm",
+      "Bailador::ContentTypes" : "lib/Bailador/ContentTypes.pm",
+      "Bailador::Command::watch" : "lib/Bailador/Command/watch.pm",
+      "Bailador::Command" : "lib/Bailador/Command.pm",
+      "Bailador::Route::Prefix" : "lib/Bailador/Route/Prefix.pm",
+      "Bailador::Command::ogre" : "lib/Bailador/Command/ogre.pm",
+      "Bailador::Test" : "lib/Bailador/Test.pm",
+      "Bailador::Template" : "lib/Bailador/Template.pm",
+      "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
+      "Bailador::RouteHelper" : "lib/Bailador/RouteHelper.pm",
+      "Bailador::LogAdapter" : "lib/Bailador/LogAdapter.pm",
+      "Bailador::Exceptions" : "lib/Bailador/Exceptions.pm",
+      "Bailador::Command::tiny" : "lib/Bailador/Command/tiny.pm",
+      "Bailador::Command::easy" : "lib/Bailador/Command/easy.pm",
+      "Bailador" : "lib/Bailador.pm",
+      "Bailador::Feature::AutoHead" : "lib/Bailador/Feature/AutoHead.pm",
+      "Bailador::App" : "lib/Bailador/App.pm",
+      "Bailador::Template::Mustache" : "lib/Bailador/Template/Mustache.pm",
+      "Bailador::Template::Mojo" : "lib/Bailador/Template/Mojo.pm",
+      "Bailador::Route::StaticFile" : "lib/Bailador/Route/StaticFile.pm",
+      "Bailador::Route::Simple" : "lib/Bailador/Route/Simple.pm",
+      "Bailador::Response" : "lib/Bailador/Response.pm",
+      "Bailador::Context" : "lib/Bailador/Context.pm",
+      "Bailador::Command::p6w" : "lib/Bailador/Command/p6w.pm",
+      "Bailador::Route" : "lib/Bailador/Route.pm",
+      "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm",
+      "Bailador::Gradual" : "lib/Bailador/Gradual.pm",
+      "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
+    },
+    "license" : "MIT",
+    "version" : "0.0.9",
+    "description" : "A light-weight route-based web application framework for Perl 6",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+      "Anthony Parsons",
+      "Carl Masak",
+      "Gabor Szabo",
+      "GlitchMr",
+      "Moritz Lenz",
+      "Panu Ervamaa",
+      "Paul Cochrane",
+      "Solomon Foster",
+      "Sterling Hanenkamp",
+      "Tobias Leich",
+      "ugexe",
+      "vendethiel",
+      "Martin Barth (ufobat)",
+      "Emeric Fischer"
+    ]
+  },
+  {
+    "name" : "zef",
+    "support" : {
+      "bugtracker" : "https://github.com/ugexe/zef/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/U/UG/UGEXE/Perl6/zef-0.1.15.tar.gz",
+    "perl" : "6",
+    "resources" : [
+      "config.json",
+      "scripts/perl5tar.pl",
+      "scripts/win32http.ps1",
+      "scripts/win32unzip.ps1"
+    ],
+    "auth" : "github:ugexe",
+    "depends" : [ ],
+    "tags" : [
+      "package-manager",
+      "module-installer",
+      "meta-search",
+      "distribution",
+      "ecosystem",
+      "cpan",
+      "toolchain"
+    ],
+    "provides" : {
+      "Zef::Service::TAP" : "lib/Zef/Service/TAP.pm6",
+      "Zef::Service::Shell::unzip" : "lib/Zef/Service/Shell/unzip.pm6",
+      "Zef::Service::FetchPath" : "lib/Zef/Service/FetchPath.pm6",
+      "Zef::Distribution::Local" : "lib/Zef/Distribution/Local.pm6",
+      "Zef::Test" : "lib/Zef/Test.pm6",
+      "Zef::Service::Shell::prove" : "lib/Zef/Service/Shell/prove.pm6",
+      "Zef::Repository::LocalCache" : "lib/Zef/Repository/LocalCache.pm6",
+      "Zef::Identity" : "lib/Zef/Identity.pm6",
+      "Zef::Service::Shell::p5tar" : "lib/Zef/Service/Shell/p5tar.pm6",
+      "Zef::Repository::MetaCPAN" : "lib/Zef/Repository/MetaCPAN.pm6",
+      "Zef::Repository" : "lib/Zef/Repository.pm6",
+      "Zef::Extract" : "lib/Zef/Extract.pm6",
+      "Zef::Distribution::DependencySpecification" : "lib/Zef/Distribution/DependencySpecification.pm6",
+      "Zef::Distribution" : "lib/Zef/Distribution.pm6",
+      "Zef::Config" : "lib/Zef/Config.pm6",
+      "Zef::Client" : "lib/Zef/Client.pm6",
+      "Zef" : "lib/Zef.pm6",
+      "Zef::Utils::FileSystem" : "lib/Zef/Utils/FileSystem.pm6",
+      "Zef::Shell" : "lib/Zef/Shell.pm6",
+      "Zef::Service::Shell::PowerShell::unzip" : "lib/Zef/Service/Shell/PowerShell/unzip.pm6",
+      "Zef::Service::Shell::curl" : "lib/Zef/Service/Shell/curl.pm6",
+      "Zef::Repository::Ecosystems" : "lib/Zef/Repository/Ecosystems.pm6",
+      "Zef::Report" : "lib/Zef/Report.pm6",
+      "Zef::CLI" : "lib/Zef/CLI.pm6",
+      "Zef::Build" : "lib/Zef/Build.pm6",
+      "Zef::Utils::SystemInfo" : "lib/Zef/Utils/SystemInfo.pm6",
+      "Zef::Service::Shell::wget" : "lib/Zef/Service/Shell/wget.pm6",
+      "Zef::Service::Shell::tar" : "lib/Zef/Service/Shell/tar.pm6",
+      "Zef::Service::Shell::Test" : "lib/Zef/Service/Shell/Test.pm6",
+      "Zef::Service::Shell::Build" : "lib/Zef/Service/Shell/Build.pm6",
+      "Zef::Utils::URI" : "lib/Zef/Utils/URI.pm6",
+      "Zef::Service::Shell::git" : "lib/Zef/Service/Shell/git.pm6",
+      "Zef::Service::Shell::PowerShell::download" : "lib/Zef/Service/Shell/PowerShell/download.pm6",
+      "Zef::Service::Shell::PowerShell" : "lib/Zef/Service/Shell/PowerShell.pm6",
+      "Zef::Service::P6CReporter" : "lib/Zef/Service/P6CReporter.pm6",
+      "Zef::Fetch" : "lib/Zef/Fetch.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.15",
+    "description" : "It's like [cpanm] wearing high heels with a tracksuit",
+    "authors" : [
+      "Nick Logan",
+      "Tony O'Dell"
+    ]
+  }
+]
