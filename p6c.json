@@ -18180,14 +18180,13 @@
     "source-url" : "https://github.com/jnthn/p6-io-socket-async-ssl.git",
     "perl" : "6.*",
     "depends" : [
-      "OpenSSL",
-      "Test::META"
+      "OpenSSL"
     ],
     "provides" : {
       "IO::Socket::Async::SSL" : "lib/IO/Socket/Async/SSL.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.2",
+    "version" : "0.3",
     "authors" : [
       "Jonathan Worthington <jnthn@jnthn.net>"
     ],
