@@ -20640,5 +20640,36 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk"
     ]
+  },
+  {
+    "name" : "Net::IP::Lite",
+    "support" : {
+      "source" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/release",
+      "bugtracker" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/Net-IP-Lite-Perl6.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [
+      "Number::More",
+      "Text::More"
+    ],
+    "tags" : [
+      "Net",
+      "IP",
+      "IP address",
+      "IPv4",
+      "IPv6"
+    ],
+    "test-depends" : [ ],
+    "provides" : {
+      "Net::IP::Lite" : "lib/Net/IP/Lite.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.6",
+    "authors" : [
+      "github:tbrowder"
+    ],
+    "description" : "Provides utility functions for dealing with IPv4 and IPv6 addresses."
   }
 ]
