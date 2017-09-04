@@ -20704,5 +20704,28 @@
       "Gabriel Ash",
       "github:gabrielash"
     ]
+  },
+  {
+    "name" : "Text::More",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/Text-More-Perl6.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [ ],
+    "tags" : [
+      "string functions"
+    ],
+    "test-depends" : [ ],
+    "provides" : {
+      "Text::More" : "lib/Text/More.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.6",
+    "authors" : [
+      "github:tbrowder"
+    ],
+    "description" : "Provides some additional text functions and a utility program to create a markdown file of subroutine descriptions"
   }
 ]
