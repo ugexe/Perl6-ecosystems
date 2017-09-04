@@ -16796,6 +16796,9 @@
     "resources" : [
       "libarchive.dll"
     ],
+    "build-depends" : [
+      "LWP::Simple"
+    ],
     "depends" : [
       "NativeCall"
     ],
@@ -16813,7 +16816,7 @@
       "compression",
       "nativecall"
     ],
-    "version" : "0.0.4",
+    "version" : "0.0.5",
     "authors" : [
       "Fernando Santagata"
     ],
