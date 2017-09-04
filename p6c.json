@@ -6912,7 +6912,9 @@
     "name" : "Linux::Cpuinfo",
     "perl" : "6.c",
     "support" : {
-      "source" : "git://github.com/jonathanstowe/p6-Linux-Cpuinfo.git"
+      "email" : "jns+git@gellyfish.co.uk",
+      "source" : "git://github.com/jonathanstowe/p6-Linux-Cpuinfo.git",
+      "bugtracker" : "https://github.com/jonathanstowe/p6-Linux-Cpuinfo/issues/"
     },
     "source-url" : "https://github.com/jonathanstowe/p6-Linux-Cpuinfo.git",
     "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
@@ -6935,7 +6937,7 @@
       "cpu"
     ],
     "meta-version" : "0",
-    "version" : "0.0.7",
+    "version" : "0.0.8",
     "description" : "Get the kernel CPU information on Linux",
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
