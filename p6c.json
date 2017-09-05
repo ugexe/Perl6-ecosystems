@@ -20727,5 +20727,29 @@
       "github:tbrowder"
     ],
     "description" : "Provides some additional text functions and a utility program to create a markdown file of subroutine descriptions"
+  },
+  {
+    "name" : "Number::More",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/Number-More-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/Number-More-Perl6.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [ ],
+    "tags" : [
+      "number",
+      "base transform"
+    ],
+    "test-depends" : [ ],
+    "provides" : {
+      "Number::More" : "lib/Number/More.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.2",
+    "authors" : [
+      "github:tbrowder"
+    ],
+    "description" : "Provides number base transform functions"
   }
 ]
