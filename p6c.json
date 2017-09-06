@@ -19922,6 +19922,32 @@
     ]
   },
   {
+    "name" : "Proc::More",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/Proc-More-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/Proc-More-Perl6.git",
+    "perl" : "6",
+    "resources" : [ ],
+    "depends" : [ ],
+    "tags" : [
+      "POSIX time function",
+      "proc run"
+    ],
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "provides" : {
+      "Proc::More" : "lib/Proc/More.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.3.0",
+    "authors" : [
+      "github:tbrowder"
+    ],
+    "description" : "Provides functions for using class Proc."
+  },
+  {
     "name" : "Symbol",
     "source-url" : "git://github.com/grondilu/symbol",
     "perl" : "6",
