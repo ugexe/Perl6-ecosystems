@@ -20688,10 +20688,17 @@
     "depends" : [ ],
     "provides" : {
       "Net::ZMQ::V4::Constants" : "lib/Net/ZMQ/V4/Constants.pm",
-      "Net::ZMQ::Socket" : "lib/Net/ZMQ/Poll.pm",
+      "Net::ZMQ::Error" : "lib/Net/ZMQ/Error.pm",
+      "Net::ZMQ::Proxy" : "lib/Net/ZMQ/Proxy.pm",
+      "Net::ZMQ::Version" : "lib/Net/ZMQ/Version.pm",
+      "Net::ZMQ::ContextOptions" : "lib/Net/ZMQ/ContextOptions.pm",
+      "Net::ZMQ::Poll" : "lib/Net/ZMQ/Poll.pm",
+      "Net::ZMQ::Socket" : "lib/Net/ZMQ/Socket.pm",
       "Net::ZMQ::V4::LowLevel" : "lib/Net/ZMQ/V4/LowLevel.pm",
+      "Net::ZMQ::SocketOptions" : "lib/Net/ZMQ/SocketOptions.pm",
       "Net::ZMQ::Context" : "lib/Net/ZMQ/Context.pm",
-      "Net::ZMQ::Message" : "lib/Net/ZMQ/Message.pm"
+      "Net::ZMQ::Message" : "lib/Net/ZMQ/Message.pm",
+      "Net::ZMQ::Common" : "lib/Net/ZMQ/Common.pm"
     },
     "test-depends" : [ ],
     "license" : "Artistic-2.0",
