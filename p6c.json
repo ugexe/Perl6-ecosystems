@@ -10808,13 +10808,13 @@
     ],
     "provides" : {
       "Data::Dump::Tree::Diff" : "lib/Data/Dump/Tree/Diff.pm",
-      "Data::Dump::Tree::CursesFoldable" : "lib/Data/Dump/Tree/CursesFoldable.pm",
       "Data::Dump::Tree::Colorizer" : "lib/Data/Dump/Tree/Colorizer.pm",
       "Data::Dump::Tree::DHTML" : "lib/Data/Dump/Tree/DHTML.pm",
       "Data::Dump::Tree::Horizontal" : "lib/Data/Dump/Tree/Horizontal.pm",
       "Data::Dump::Tree::Foldable" : "lib/Data/Dump/Tree/Foldable.pm",
       "Data::Dump::Tree::ExtraRoles" : "lib/Data/Dump/Tree/ExtraRoles.pm",
       "DDT" : "lib/Data/Dump/Tree.pm",
+      "Data::Dump::Tree::TerminalFoldable" : "lib/Data/Dump/Tree/TerminalFoldable.pm",
       "Data::Dump::Tree::DescribeBaseObjects" : "lib/Data/Dump/Tree/DescribeBaseObjects.pm",
       "Data::Dump::Tree::LayHorizontal" : "lib/Data/Dump/Tree/LayHorizontal.pm",
       "Data::Dump::Tree" : "lib/Data/Dump/Tree.pm",
@@ -10823,7 +10823,7 @@
       "Data::Dump::Tree::Enums" : "lib/Data/Dump/Tree/Enums.pm"
     },
     "license" : "Artistic-2.0",
-    "version" : "1.7.0",
+    "version" : "1.8.0",
     "description" : "Render data structures as trees; user definable filters",
     "authors" : [
       "Nadim Khemir"
