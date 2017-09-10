@@ -20770,21 +20770,28 @@
   },
   {
     "name" : "NativeHelpers::CBuffer",
-    "source-url" : "",
+    "source-url" : "git://github.com/scovit/NativeHelpers-CBuffer.git",
     "perl" : "6.c",
     "resources" : [ ],
     "build-depends" : [ ],
+    "repo-type" : "git",
     "depends" : [ ],
-    "test-depends" : [ ],
-    "tags" : [ ],
+    "tags" : [
+      "NativeCall",
+      "Utilities",
+      "Blob",
+      "Pointer",
+      "CPointer"
+    ],
     "provides" : {
       "NativeHelpers::CBuffer" : "lib/NativeHelpers/CBuffer.pm6"
     },
     "license" : "Artistic-2.0",
+    "test-depends" : [ ],
     "version" : "0.0.1",
     "description" : "A type for storing a caller allocated Buffer",
     "authors" : [
-      "Vittore F. Scolari"
+      "Vittore F. Scolari <vittore.scolari@pasteur.fr>"
     ]
   }
 ]
