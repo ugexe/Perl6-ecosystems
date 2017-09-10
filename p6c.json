@@ -20761,5 +20761,24 @@
       "github:tbrowder"
     ],
     "description" : "Provides number base transform functions"
+  },
+  {
+    "name" : "NativeHelpers::CBuffer",
+    "source-url" : "",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "NativeHelpers::CBuffer" : "lib/NativeHelpers/CBuffer.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "A type for storing a caller allocated Buffer",
+    "authors" : [
+      "Vittore F. Scolari"
+    ]
   }
 ]
