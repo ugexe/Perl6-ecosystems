@@ -8434,11 +8434,17 @@
     "depends" : [
       "MIME::Base64"
     ],
+    "tags" : [
+      "YAML",
+      "format",
+      "parser",
+      "serialization"
+    ],
     "provides" : {
       "YAMLish" : "lib/YAMLish.pm6"
     },
     "version" : "0.0.3",
-    "description" : "An implementation of a useful subset of YAML"
+    "description" : "A pure perl6 implementation of YAML"
   },
   {
     "name" : "Path::Iterator",
