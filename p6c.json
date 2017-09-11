@@ -20773,5 +20773,30 @@
     "authors" : [
       "Vittore F. Scolari <vittore.scolari@pasteur.fr>"
     ]
+  },
+  {
+    "name" : "IRC::Client::Plugin::Github",
+    "source-url" : "https://github.com/scriptkitties/perl6-IRC-Client-Plugin-Github.git",
+    "perl" : "6",
+    "auth" : "github:scriptkitties",
+    "depends" : [
+      "Bailador",
+      "Config",
+      "IRC::Client"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "IRC::Client::Plugin::Github" : "lib/IRC/Client/Plugin/Github.pm6",
+      "IRC::Client::Plugin::Github::WebhookEvents::Push" : "lib/IRC/Client/Plugin/Github/WebhookEvents.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Patrick Spek <p.spek@tyil.work>"
+    ],
+    "description" : "A plugin to provide Github functionality to IRC::Client projects"
   }
 ]
