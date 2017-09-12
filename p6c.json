@@ -13283,23 +13283,6 @@
     ]
   },
   {
-    "name" : "Lingua::EN::Stopwords",
-    "source-url" : "git://github.com/kmwallio/p6-Lingua-EN-Stopwords.git",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "Lingua::EN::Stopwords::SQL" : "lib/Lingua/EN/Stopwords/SQL.pm6",
-      "Lingua::EN::Stopwords::Short" : "lib/Lingua/EN/Stopwords/Short.pm6",
-      "Lingua::EN::Stopwords::Long" : "lib/Lingua/EN/Stopwords/Long.pm6"
-    },
-    "version" : "0.0.2",
-    "authors" : [
-      "KM Wallio"
-    ],
-    "description" : "Provides lists and functions for common English stop words."
-  },
-  {
     "name" : "Text::TFIdf",
     "source-url" : "git://github.com/kmwallio/p6-Text-TFIdf.git",
     "perl" : "6.*",
