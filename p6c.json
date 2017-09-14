@@ -20693,9 +20693,7 @@
     "build-depends" : [ ],
     "resources" : [ ],
     "auth" : "github:gabrielash",
-    "depends" : [
-      "Test::META"
-    ],
+    "depends" : [ ],
     "provides" : {
       "Net::ZMQ::V4::Constants" : "lib/Net/ZMQ/V4/Constants.pm",
       "Net::ZMQ::EchoServer" : "lib/Net/ZMQ/EchoServer.pm",
@@ -20711,7 +20709,9 @@
       "Net::ZMQ::Message" : "lib/Net/ZMQ/Message.pm",
       "Net::ZMQ::Common" : "lib/Net/ZMQ/Common.pm"
     },
-    "test-depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
     "license" : "Artistic-2.0",
     "tags" : [ ],
     "meta-version" : "0",
