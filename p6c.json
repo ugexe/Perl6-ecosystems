@@ -20821,5 +20821,56 @@
       "Patrick Spek <p.spek@tyil.work>"
     ],
     "description" : "A plugin to provide Github functionality to IRC::Client projects"
+  },
+  {
+    "name" : "Brazilian::FederalDocuments",
+    "source-url" : "git://github.com/paulohrpinheiro/Brazilian-FederalDocuments.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Brazilian::FederalDocuments" : "lib/Brazilian/FederalDocuments.pm6"
+    },
+    "license" : "MIT",
+    "version" : "0.1.0",
+    "authors" : [
+      "Paulo Henrique Rodrigues Pinheiro"
+    ],
+    "description" : "Module for brazilian federal documents validations."
+  },
+  {
+    "name" : "Log::ZMQ",
+    "perl" : "6.c",
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "https://github.com/gabrielash/p6-log-zmq.git",
+    "build-depends" : [ ],
+    "resources" : [
+      "scripts/log-catcher.pl"
+    ],
+    "auth" : "github:gabrielash",
+    "depends" : [
+      "Net::ZMQ:auth('github:gabrielash')",
+      "JSON::Tiny"
+    ],
+    "provides" : {
+      "Log::ZMQ::Logger" : "lib/Log/ZMQ/Logger.pm",
+      "Log::ZMQ::LogCatcher" : "lib/Log/ZMQ/LogCatcher.pm",
+      "Log::ZMQ::Common" : "lib/Log/ZMQ/Common.pm"
+    },
+    "test-depends" : [
+      "Test::META"
+    ],
+    "license" : "Artistic-2.0",
+    "tags" : [ ],
+    "meta-version" : "0",
+    "version" : "0.0.2",
+    "production" : false,
+    "description" : "Perl6 zmq-based logging",
+    "authors" : [
+      "Gabriel Ash",
+      "github:gabrielash"
+    ]
   }
 ]
