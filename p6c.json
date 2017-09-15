@@ -20883,7 +20883,9 @@
     "source-url" : "git://github.com/bduggan/p6-digest-sha256-native.git",
     "build-depends" : [ ],
     "resources" : [
-      "libraries/sha256"
+      "libraries/libsha256.so",
+      "libraries/libsha256.dll",
+      "libraries/libsha256.dylib"
     ],
     "depends" : [
       "LibraryMake"
