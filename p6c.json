@@ -20876,5 +20876,27 @@
       "Gabriel Ash",
       "github:gabrielash"
     ]
+  },
+  {
+    "name" : "Digest::SHA256::Native",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/bduggan/p6-digest-sha256-native.git",
+    "build-depends" : [ ],
+    "resources" : [
+      "libraries/sha256"
+    ],
+    "depends" : [
+      "LibraryMake"
+    ],
+    "license" : "Artistic-2.0",
+    "test-depends" : [ ],
+    "provides" : {
+      "Digest::SHA256::Native" : "lib/Digest/SHA256/Native.pm6"
+    },
+    "version" : "0.01",
+    "authors" : [
+      "Brian Duggan"
+    ],
+    "description" : "p6 bindings to C implementation of SHA256"
   }
 ]
