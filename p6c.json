@@ -20898,5 +20898,38 @@
       "Brian Duggan"
     ],
     "description" : "p6 bindings to C implementation of SHA256"
+  },
+  {
+    "name" : "MQ::Posix",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "https://github.com/jonathanstowe/MQ-Posix.git",
+      "bugtracker" : "https://github.com/jonathanstowe/MQ-Posix/issues"
+    },
+    "source-url" : "https://github.com/jonathanstowe/MQ-Posix.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "NativeHelpers::Array"
+    ],
+    "provides" : {
+      "MQ::Posix" : "lib/MQ/Posix.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "posix",
+      "IPC",
+      "MQ"
+    ],
+    "meta-version" : "0",
+    "version" : "0.0.1",
+    "description" : "binding for POSIX message queues",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
