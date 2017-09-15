@@ -20448,6 +20448,25 @@
     "description" : "Libraries for building reactive services in Perl 6 - SSL part."
   },
   {
+    "name" : "Cro::TLS",
+    "source-url" : "https://github.com/croservices/cro-tls.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "depends" : [
+      "Cro::Core",
+      "IO::Socket::Async::SSL"
+    ],
+    "provides" : {
+      "Cro::TLS" : "lib/Cro/TLS.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.7",
+    "authors" : [
+      "Jonathan Worthington <jnthn@jnthn.net>"
+    ],
+    "description" : "Libraries for building reactive services in Perl 6 - TLS part."
+  },
+  {
     "name" : "Cro::HTTP",
     "source-url" : "https://github.com/croservices/cro-http.git",
     "perl" : "6.*",
@@ -20459,7 +20478,7 @@
       "Base64",
       "HTTP::HPACK",
       "Cro::Core",
-      "Cro::SSL",
+      "Cro::TLS",
       "JSON::Fast"
     ],
     "provides" : {
@@ -20580,9 +20599,9 @@
       "web/index.html",
       "web/css/bootstrap.min.css",
       "web/css/cro.css",
-      "fake-ssl/ca-crt.pem",
-      "fake-ssl/server-crt.pem",
-      "fake-ssl/server-key.pem"
+      "fake-tls/ca-crt.pem",
+      "fake-tls/server-crt.pem",
+      "fake-tls/server-key.pem"
     ],
     "depends" : [
       "IO::Socket::Async::SSL",
