@@ -3363,13 +3363,15 @@
     "source-url" : "git://github.com/retupmoca/p6-markdown.git",
     "perl" : "6.*",
     "author" : "github:retupmoca",
-    "depends" : [ ],
+    "depends" : [
+      "HTML::Escape"
+    ],
     "provides" : {
       "Text::Markdown::Document" : "lib/Text/Markdown/Document.pm6",
       "Text::Markdown" : "lib/Text/Markdown.pm6",
       "Text::Markdown::to::HTML" : "lib/Text/Markdown/to/HTML.pm6"
     },
-    "version" : "1.0.0",
+    "version" : "1.0.2",
     "description" : "Markdown parser / HTML generator"
   },
   {
