@@ -5127,16 +5127,24 @@
     "name" : "Image::Resize",
     "source-url" : "git://github.com/dagurval/perl6-image-resize.git",
     "perl" : "6.*",
-    "author" : "Dagur Valberg Johannsson",
+    "resources" : [ ],
+    "build-depends" : [ ],
     "depends" : [
       "GD::Raw"
     ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [ ],
     "provides" : {
       "Image::Resize" : "lib/Image/Resize.pm6"
     },
     "license" : "Artistic-2.0",
     "version" : "0.01",
-    "description" : "Resize images using GD"
+    "description" : "Resize images using GD",
+    "authors" : [
+      "Dagur Valberg Johannsson"
+    ]
   },
   {
     "name" : "Phaser::ATEXIT",
