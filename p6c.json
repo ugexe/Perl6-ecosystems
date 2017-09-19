@@ -552,7 +552,6 @@
     "source-url" : "git://github.com/MARTIMM/semaphore-readerswriters.git",
     "perl" : "6",
     "build-depends" : [ ],
-    "author" : "Marcel Timmerman",
     "depends" : [ ],
     "provides" : {
       "Semaphore::ReadersWriters" : "lib/Semaphore/ReadersWriters.pm6"
@@ -561,7 +560,7 @@
     "test-depends" : [
       "Test::META"
     ],
-    "version" : "v0.2.6",
+    "version" : "0.2.6.1",
     "description" : "Semaphore Readers Writers Pattern",
     "authors" : [
       "Marcel Timmerman"
