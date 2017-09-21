@@ -20964,5 +20964,38 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "META6::To::Man",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/META6-To-Man-Perl6/issues"
+    },
+    "source-url" : "https://github.com/tbrowder/META6-To-Man-Perl6.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [
+      "Text::More",
+      "META6"
+    ],
+    "tags" : [
+      "META6",
+      "*NIX",
+      "man page",
+      "roff",
+      "troff",
+      "groff"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "META6::To::Man" : "lib/META6/To/Man.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "authors" : [
+      "github:tbrowder"
+    ],
+    "description" : "Produces a rudimentary man page from a Perl 6 META6.json (or META.json) file."
   }
 ]
