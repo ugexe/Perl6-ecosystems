@@ -12854,6 +12854,26 @@
     ]
   },
   {
+    "name" : "Scientist",
+    "source-url" : "git://github.com/lancew/ScientistP6.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "depends" : [ ],
+    "tags" : [
+      "utils",
+      "devel"
+    ],
+    "provides" : {
+      "Scientist" : "lib/Scientist.pm"
+    },
+    "license" : "MIT",
+    "version" : "0.0.2",
+    "authors" : [
+      "Lance Wicks"
+    ],
+    "description" : "Perl 6 Scientist - Test new code against old."
+  },
+  {
     "name" : "Util::Bitfield",
     "perl" : "6.c",
     "support" : {
