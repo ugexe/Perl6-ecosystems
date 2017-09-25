@@ -21033,5 +21033,38 @@
       "Jim Gibson (CPAN Perl 5 author, v1.12)"
     ],
     "description" : "Accurate latitude/longitude calculations"
+  },
+  {
+    "name" : "GDBM",
+    "perl" : "6.c",
+    "support" : {
+      "email" : "jns+gh@gellyfish.co.uk",
+      "source" : "https://github.com/jonathanstowe/p6-GDBM.git",
+      "bugtracker" : "https://github.com/jonathanstowe/p6-GDBM/issues"
+    },
+    "source-url" : "https://github.com/jonathanstowe/p6-GDBM.git",
+    "build-depends" : [
+      "LibraryMake",
+      "Shell::Command"
+    ],
+    "resources" : [ ],
+    "auth" : "github:jonathanstowe",
+    "depends" : [ ],
+    "provides" : {
+      "GDBM" : "lib/GDBM.pm"
+    },
+    "test-depends" : [ ],
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "gdbm",
+      "dbm",
+      "hash"
+    ],
+    "meta-version" : "0",
+    "version" : "0.0.1",
+    "description" : "GNU dbm binding for Perl 6",
+    "authors" : [
+      "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+    ]
   }
 ]
