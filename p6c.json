@@ -5921,14 +5921,18 @@
     "name" : "IO::Socket::SSL",
     "source-url" : "git://github.com/sergot/io-socket-ssl.git",
     "perl" : "6.*",
-    "author" : "github:sergot",
+    "auth" : "github:sergot",
     "depends" : [
       "OpenSSL"
+    ],
+    "tags" : [
+      "SSL",
+      "Sockets"
     ],
     "provides" : {
       "IO::Socket::SSL" : "lib/IO/Socket/SSL.pm6"
     },
-    "version" : "*",
+    "version" : "0.0.1",
     "description" : "IO::Socket::SSL for Perl 6 using OpenSSL"
   },
   {
