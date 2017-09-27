@@ -5811,7 +5811,8 @@
     "depends" : [ ],
     "test-depends" : [
       "JSON::Fast",
-      "Test"
+      "Test",
+      "Test::META"
     ],
     "tags" : [
       "mustache",
@@ -5824,7 +5825,7 @@
     },
     "license" : "Artistic-2.0",
     "production" : 1,
-    "version" : "*",
+    "version" : "1.0.1",
     "description" : "A logic-free, cross-language templating format",
     "authors" : [
       "Tim Smith"
