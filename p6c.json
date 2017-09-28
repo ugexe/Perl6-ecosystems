@@ -182,21 +182,6 @@
     "description" : "Standard math function odds and ends"
   },
   {
-    "name" : "Mofixes",
-    "source-url" : "git://github.com/faraco/Mofixes.git",
-    "perl" : "6.c",
-    "depends" : [ ],
-    "provides" : {
-      "Mofixes" : "lib/Mofixes.pm6"
-    },
-    "test-depends" : [
-      "Test::META"
-    ],
-    "version" : "0.2.3",
-    "authors" : "faraco",
-    "description" : "A collection of ready to use (whatever)fix for Perl 6"
-  },
-  {
     "name" : "Config::INI",
     "source-url" : "git://github.com/tadzik/perl6-Config-INI.git",
     "support" : {
