@@ -21056,5 +21056,23 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
+  },
+  {
+    "name" : "CucumisSextus",
+    "source-url" : "https://github.com/robertlemmen/perl6-cucumis-sextus.git",
+    "perl" : "6.*",
+    "depends" : [ ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "CucumisSextus" : "lib/X/CucumisSextus/FeatureParseFailure.pm6"
+    },
+    "test-depends" : [
+      "Test::Meta"
+    ],
+    "version" : "0.1",
+    "authors" : [
+      "Robert Lemmen"
+    ],
+    "description" : "Cucumber-like BDD Framework"
   }
 ]
