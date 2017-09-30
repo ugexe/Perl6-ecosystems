@@ -2407,7 +2407,7 @@
     "source-url" : "git://github.com/MARTIMM/BSON.git",
     "build-depends" : [ ],
     "depends" : [
-      "Digest::MD5",
+      "OpenSSL",
       "UUID"
     ],
     "history" : [
@@ -2429,7 +2429,7 @@
       "serialize"
     ],
     "test-depends" : [ ],
-    "version" : "0.9.37.1",
+    "version" : "0.9.37.2",
     "description" : "BSON encoding/decoding, used in MongoDB drivers",
     "authors" : [
       "Marcel Timmerman",
