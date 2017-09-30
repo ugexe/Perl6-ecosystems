@@ -6635,7 +6635,8 @@
     ],
     "author" : "github:niner",
     "depends" : [
-      "LibraryMake"
+      "LibraryMake",
+      "Panda::Common"
     ],
     "provides" : {
       "Inline::Python" : "lib/Inline/Python.pm6"
