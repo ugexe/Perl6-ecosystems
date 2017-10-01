@@ -6894,33 +6894,6 @@
     "description" : "Container tool based on Linux namespaces"
   },
   {
-    "name" : "Pastebin::Shadowcat",
-    "support" : {
-      "source" : "git://github.com/zoffixznet/perl6-Pastebin-Shadowcat.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "HTTP::UserAgent",
-      "URI::Encode",
-      "HTML::Entity"
-    ],
-    "provides" : {
-      "Pastebin::Shadowcat" : "lib/Pastebin/Shadowcat.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "tags" : [
-      "pastebin"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "2.001003",
-    "authors" : [
-      "Zoffix Znet"
-    ],
-    "description" : "Use http://fpaste.scsys.co.uk/ pastebin from Perl 6"
-  },
-  {
     "name" : "Linux::Cpuinfo",
     "perl" : "6.c",
     "support" : {
