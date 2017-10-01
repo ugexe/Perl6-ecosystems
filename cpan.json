@@ -1184,5 +1184,35 @@
       "Nick Logan",
       "Tony O'Dell"
     ]
+  },
+  {
+    "name" : "Pastebin::Shadowcat",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Pastebin-Shadowcat.git"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/Z/ZO/ZOFFIX/Perl6/Pastebin-Shadowcat-2.001001.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "HTTP::UserAgent",
+      "URI::Encode",
+      "HTML::Entity"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "pastebin"
+    ],
+    "provides" : {
+      "Pastebin::Shadowcat" : "lib/Pastebin/Shadowcat.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "2.001001",
+    "description" : "Use http://fpaste.scsys.co.uk/ pastebin from Perl 6",
+    "authors" : [
+      "Zoffix Znet"
+    ]
   }
 ]
