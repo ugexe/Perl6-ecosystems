@@ -1186,6 +1186,54 @@
     ]
   },
   {
+    "name" : "Acme::Anguish",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Acme-Anguish.git"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/Z/ZO/ZOFFIX/Perl6/Acme-Anguish-1.001002.tar.gz",
+    "perl" : "6.c",
+    "depends" : [
+      "Term::termios"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::META",
+      "Test::Output"
+    ],
+    "provides" : {
+      "Acme::Anguish" : "lib/Acme/Anguish.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.001002",
+    "description" : "Use Anguish programming language in your Perl 6 programs",
+    "authors" : [
+      "Zoffix Znet"
+    ]
+  },
+  {
+    "name" : "Number::Denominate",
+    "support" : {
+      "source" : "git://github.com/zoffixznet/perl6-Number-Denominate.git"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/Z/ZO/ZOFFIX/Perl6/Number-Denominate-1.001001.tar.gz",
+    "perl" : "6.c",
+    "depends" : [
+      "Lingua::Conjunction"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "provides" : {
+      "Number::Denominate" : "lib/Number/Denominate.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "description" : "Break up numbers into preset or arbitrary denominations",
+    "authors" : [
+      "Zoffix Znet"
+    ]
+  },
+  {
     "name" : "Pastebin::Shadowcat",
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-Pastebin-Shadowcat.git"
