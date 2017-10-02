@@ -21076,5 +21076,24 @@
     "authors" : [
       "titsuki"
     ]
+  },
+  {
+    "name" : "Foo::Bar",
+    "source-url" : "git://github.com/tbrowder/Foo-Bar-Perl6.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::Meta"
+    ],
+    "provides" : {
+      "Foo::Bar" : "lib/Foo/Bar.pm6"
+    },
+    "version" : "72.0.1",
+    "description" : "Miscellaneous stuff for practicing module development",
+    "authors" : [
+      "Tom Browder <tom.browder@gmail.com>"
+    ]
   }
 ]
