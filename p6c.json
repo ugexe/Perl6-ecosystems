@@ -4955,23 +4955,23 @@
   },
   {
     "name" : "JSON::Fast",
-    "perl" : "6.*",
     "support" : {
       "source" : "git://github.com/timo/json_fast.git"
     },
     "source-url" : "git://github.com/timo/json_fast.git",
-    "build-depends" : [ ],
+    "perl" : "6.*",
     "resources" : [ ],
+    "build-depends" : [ ],
     "auth" : null,
     "depends" : [ ],
-    "provides" : {
-      "JSON::Fast" : "lib/JSON/Fast.pm"
-    },
     "test-depends" : [
       "Test"
     ],
-    "license" : "Artistic-2.0",
     "tags" : [ ],
+    "provides" : {
+      "JSON::Fast" : "lib/JSON/Fast.pm"
+    },
+    "license" : "Artistic-2.0",
     "version" : "0.9.5",
     "meta6" : "0",
     "description" : "A naive, fast json parser and serializer; drop-in replacement for JSON::Tiny",
