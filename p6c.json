@@ -6857,7 +6857,7 @@
   {
     "name" : "Overwatch",
     "source-url" : "git://github.com/tony-o/perl6-overwatch.git",
-    "perl" : "6",
+    "perl" : "6.*",
     "auth" : "github:tony-o",
     "depends" : [
       "Shell::Command"
@@ -6865,7 +6865,7 @@
     "provides" : {
       "overwatch" : "lib/overwatch.pm6"
     },
-    "version" : "0.1.2",
+    "version" : "0.1.3",
     "authors" : [
       "Tony O'Dell"
     ],
