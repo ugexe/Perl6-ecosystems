@@ -833,7 +833,9 @@
     "source-url" : "git://github.com/supernovus/exemel.git",
     "perl" : "6.*",
     "author" : "Timothy Totten",
-    "depends" : [ ],
+    "depends" : [
+      "HTML::Escape"
+    ],
     "provides" : {
       "XML::Comment" : "lib/XML/Comment.pm6",
       "XML::Document" : "lib/XML/Document.pm6",
