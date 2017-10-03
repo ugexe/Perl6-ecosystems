@@ -21044,12 +21044,18 @@
     "depends" : [ ],
     "license" : "Artistic-2.0",
     "provides" : {
-      "CucumisSextus" : "lib/X/CucumisSextus/FeatureParseFailure.pm6"
+      "CucumisSextus::Tags" : "lib/CucumisSextus/Tags.pm6",
+      "CucumisSextus::Glue" : "lib/CucumisSextus/Glue.pm6",
+      "CucumisSextus::I18n" : "lib/CucumisSextus/I18n.pm6",
+      "X::CucumisSextus::FeatureExecFailure" : "lib/X/CucumisSextus/FeatureExecFailure.pm6",
+      "CucumisSextus::Core" : "lib/CucumisSextus/Core.pm6",
+      "CucumisSextus::Gherkin" : "lib/CucumisSextus/Gherkin.pm6",
+      "X::CucumisSextus::FeatureParseFailure" : "lib/X/CucumisSextus/FeatureParseFailure.pm6"
     },
     "test-depends" : [
       "Test::Meta"
     ],
-    "version" : "0.1",
+    "version" : "0.1.1",
     "authors" : [
       "Robert Lemmen"
     ],
