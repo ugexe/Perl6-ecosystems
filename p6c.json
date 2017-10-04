@@ -21106,14 +21106,17 @@
   },
   {
     "name" : "RPi::Device::ST7036",
-    "source-url" : "https://github.com/patszim/perl6-RPi-Device-ST7036.git",
+    "support" : {
+      "source" : "git://github.com/patzim/perl6-RPi-Device-ST7036.git"
+    },
     "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "repo-type" : "git",
     "depends" : [
       "RPi::Wiring::Pi"
     ],
+    "provides" : {
+      "RPi::Device::ST7036" : "lib/RPi/Device/ST7036.pm6",
+      "RPi::Device::ST7036::Setup" : "lib/RPi/Device/ST7036/Setup.pm6"
+    },
     "test-depends" : [
       "Test::META"
     ],
@@ -21121,17 +21124,12 @@
       "RPi",
       "Raspberry Pi"
     ],
-    "provides" : {
-      "RPi::Device::ST7036" : "lib/RPi/Device/ST7036.pm6",
-      "RPi::Device::ST7036::Setup" : "lib/RPi/Device/ST7036/Setup.pm6"
-    },
-    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
-    "version" : "0.0.1",
-    "meta6" : "0",
-    "description" : "Support for the ST7036 dot matrix display.",
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
     "authors" : [
       "Patrick Sebastian Zimmermann"
-    ]
+    ],
+    "description" : "Support for the ST7036 dot matrix display."
   },
   {
     "name" : "MPD::AutoQueue",
