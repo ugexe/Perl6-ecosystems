@@ -17633,32 +17633,6 @@
     "description" : "The Spook in the Shell (Spit-sh) compiler"
   },
   {
-    "name" : "Linux::Proc::Time",
-    "support" : {
-      "source" : "https://github.com/tbrowder/Linux-Proc-Time-Perl6/tree/v0.1.0",
-      "bugtracker" : "https://github.com/tbrowder/Linux-Proc-Time-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/Linux-Proc-Time-Perl6/archive/v0.1.0.zip",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [ ],
-    "tags" : [
-      "POSIX time function"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Linux::Proc::Time" : "lib/Linux/Proc/Time.pm6"
-    },
-    "license" : "Artistic 2.0",
-    "version" : "0.1.0",
-    "authors" : [
-      "github:tbrowder"
-    ],
-    "description" : "Provides functions to gather and filter process times for a user command"
-  },
-  {
     "name" : "Web::Cache",
     "source-url" : "git://github.com/smorrison/per6-Web-Cache.git",
     "perl" : "6.c",
@@ -19756,32 +19730,6 @@
     "authors" : [
       "Jaldhar H. Vyas"
     ]
-  },
-  {
-    "name" : "Proc::More",
-    "support" : {
-      "bugtracker" : "https://github.com/tbrowder/Proc-More-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/Proc-More-Perl6.git",
-    "perl" : "6",
-    "resources" : [ ],
-    "depends" : [ ],
-    "tags" : [
-      "POSIX time function",
-      "proc run"
-    ],
-    "test-depends" : [
-      "File::Temp"
-    ],
-    "provides" : {
-      "Proc::More" : "lib/Proc/More.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.3.0",
-    "authors" : [
-      "github:tbrowder"
-    ],
-    "description" : "Provides functions for using class Proc."
   },
   {
     "name" : "Symbol",
