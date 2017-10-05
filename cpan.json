@@ -844,6 +844,32 @@
     ]
   },
   {
+    "name" : "Proc::More",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/Proc-More-Perl6/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Proc-More-Perl6-0.3.0.tar.gz",
+    "perl" : "6",
+    "resources" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "tags" : [
+      "POSIX time function",
+      "proc run"
+    ],
+    "provides" : {
+      "Proc::More" : "lib/Proc/More.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.3.0",
+    "description" : "Provides functions for using class Proc.",
+    "authors" : [
+      "github:tbrowder"
+    ]
+  },
+  {
     "name" : "Text::More",
     "support" : {
       "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
