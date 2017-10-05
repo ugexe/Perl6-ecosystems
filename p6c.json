@@ -17595,62 +17595,6 @@
     "description" : "Make a useful prompt for your shell"
   },
   {
-    "name" : "Text::More",
-    "support" : {
-      "source" : "https://github.com/tbrowder/Text-More-Perl6/tree/v0.1.2",
-      "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/Text-More-Perl6/archive/v0.1.2.zip",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [
-      "Getopt::Std"
-    ],
-    "tags" : [
-      "string functions"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Text::More" : "lib/Text/More.pm6"
-    },
-    "license" : "Artistic 2.0",
-    "version" : "0.1.2",
-    "authors" : [
-      "github:tbrowder"
-    ],
-    "description" : "Provides some additional text functions and a binary helper file"
-  },
-  {
-    "name" : "Text::More",
-    "support" : {
-      "source" : "https://github.com/tbrowder/Text-More-Perl6/tree/v0.1.3",
-      "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/Text-More-Perl6/archive/v0.1.3.zip",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [
-      "Getopt::Std"
-    ],
-    "tags" : [
-      "string functions"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Text::More" : "lib/Text/More.pm6"
-    },
-    "license" : "Artistic 2.0",
-    "version" : "0.1.3",
-    "authors" : [
-      "github:tbrowder"
-    ],
-    "description" : "Provides some additional text functions and a utility program to create a markdown file of subroutine descriptions"
-  },
-  {
     "name" : "Spit",
     "support" : {
       "email" : "lloyd.fourn@gmail.com",
@@ -17745,34 +17689,6 @@
       "Lloyd Fournier lloyd.fourn@gmail.com"
     ],
     "description" : "The Spook in the Shell (Spit-sh) compiler"
-  },
-  {
-    "name" : "Text::More",
-    "support" : {
-      "source" : "https://github.com/tbrowder/Text-More-Perl6/tree/v0.1.4",
-      "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/Text-More-Perl6/archive/v0.1.4.zip",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [
-      "Getopt::Std"
-    ],
-    "tags" : [
-      "string functions"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Text::More" : "lib/Text/More.pm6"
-    },
-    "license" : "Artistic 2.0",
-    "version" : "0.1.4",
-    "authors" : [
-      "github:tbrowder"
-    ],
-    "description" : "Provides some additional text functions and a utility program to create a markdown file of subroutine descriptions"
   },
   {
     "name" : "Linux::Proc::Time",
@@ -20744,29 +20660,6 @@
     ]
   },
   {
-    "name" : "Text::More",
-    "support" : {
-      "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/Text-More-Perl6.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [ ],
-    "tags" : [
-      "string functions"
-    ],
-    "test-depends" : [ ],
-    "provides" : {
-      "Text::More" : "lib/Text/More.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.1.7",
-    "authors" : [
-      "github:tbrowder"
-    ],
-    "description" : "Provides some additional text functions and a utility program to create a markdown file of subroutine descriptions"
-  },
-  {
     "name" : "Number::More",
     "support" : {
       "bugtracker" : "https://github.com/tbrowder/Number-More-Perl6/issues"
@@ -20954,19 +20847,23 @@
       "bugtracker" : "https://github.com/tbrowder/META6-To-Man-Perl6/issues"
     },
     "source-url" : "https://github.com/tbrowder/META6-To-Man-Perl6.git",
-    "perl" : "6.c",
+    "perl" : "6.*",
     "resources" : [ ],
+    "author" : "github:tbrowder",
+    "auth" : "github:tbrowder",
     "depends" : [
       "Text::More",
       "META6"
     ],
     "tags" : [
       "META6",
-      "*NIX",
+      "UNIX",
       "man page",
       "roff",
       "troff",
-      "groff"
+      "groff",
+      "Linux",
+      "man"
     ],
     "test-depends" : [
       "Test::META"
@@ -20975,41 +20872,11 @@
       "META6::To::Man" : "lib/META6/To/Man.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.1.0",
-    "authors" : [
-      "github:tbrowder"
-    ],
-    "description" : "Produces a rudimentary man page from a Perl 6 META6.json (or META.json) file."
-  },
-  {
-    "name" : "Geo::Ellipsoid",
-    "support" : {
-      "bugtracker" : "https://github.com/tbrowder/Geo-Ellipsoid-Perl6/issues"
-    },
-    "source-url" : "git://github.com/tbrowder/Geo-Ellipsoid-Perl6.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "source-type" : "git",
-    "author" : "github:tbrowder",
-    "auth" : "github:tbrowder",
-    "tags" : [
-      "geo",
-      "position"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Geo::Ellipsoid" : "lib/Geo/Ellipsoid.pm6",
-      "Geo::Ellipsoid::Utils" : "lib/Geo/Ellipsoid/Utils.pm6"
-    },
-    "license" : "Artistic-2.0",
     "version" : "0.2.0",
     "authors" : [
-      "Tom Browder <tom.browder@gmail.com> (translator Perl 5 to Perl 6, current maintainer)",
-      "Jim Gibson (CPAN Perl 5 author, v1.12)"
+      "Tom Browder <tom.browder@gmail.com>"
     ],
-    "description" : "Accurate latitude/longitude calculations"
+    "description" : "Produces a rudimentary man page from a Perl 6 META6.json (or META.json) file."
   },
   {
     "name" : "GDBM",
