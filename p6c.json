@@ -15985,64 +15985,6 @@
     "description" : "p6 bindings to C implementation of SHA1"
   },
   {
-    "name" : "Net::IP::Lite",
-    "support" : {
-      "source" : "https://github.com/tbrowder/Net-IP-Lite-Perl6",
-      "bugtracker" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/archive/0.1.2.zip",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "tags" : [
-      "Net",
-      "IP",
-      "IP address",
-      "IPv4",
-      "IPv6"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Net::IP::Lite" : "lib/Net/IP/Lite.pm6"
-    },
-    "license" : "Artistic 2.0",
-    "version" : "0.1.2",
-    "authors" : [
-      "Tom Browder <tom.browder@gmail.com>"
-    ],
-    "description" : "Provides utility functions for dealing with IPv4 and IPv6 addresses."
-  },
-  {
-    "name" : "Net::IP::Lite",
-    "support" : {
-      "source" : "https://github.com/tbrowder/Net-IP-Lite-Perl6",
-      "bugtracker" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/archive/0.1.4.zip",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "tags" : [
-      "Net",
-      "IP",
-      "IP address",
-      "IPv4",
-      "IPv6"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Net::IP::Lite" : "lib/Net/IP/Lite.pm6"
-    },
-    "license" : "Artistic 2.0",
-    "version" : "0.1.4",
-    "authors" : [
-      "github:tbrowder"
-    ],
-    "description" : "Provides utility functions for dealing with IPv4 and IPv6 addresses."
-  },
-  {
     "name" : "Sparrowdo::Chef::Manager",
     "source-url" : "https://github.com/melezhik/sparrowdo-chef-manager.git",
     "support" : {
@@ -17762,33 +17704,6 @@
       "Alexey Melezhik"
     ],
     "description" : "Sparrowdo module to run goss scenarios"
-  },
-  {
-    "name" : "Number::More",
-    "support" : {
-      "source" : "https://github.com/tbrowder/Number-More-Perl6/tree/v0.1.0",
-      "bugtracker" : "https://github.com/tbrowder/Number-More-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/Number-More-Perl6/archive/v0.1.0.zip",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [ ],
-    "tags" : [
-      "number",
-      "base transform"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "Number::More" : "lib/Number/More.pm6"
-    },
-    "license" : "Artistic 2.0",
-    "version" : "0.1.0",
-    "authors" : [
-      "github:tbrowder"
-    ],
-    "description" : "Provides number base transform functions"
   },
   {
     "name" : "App::InstallerMaker::WiX",
@@ -20590,36 +20505,6 @@
     ]
   },
   {
-    "name" : "Net::IP::Lite",
-    "support" : {
-      "bugtracker" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/Net-IP-Lite-Perl6.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [
-      "Number::More",
-      "Text::More"
-    ],
-    "tags" : [
-      "Net",
-      "IP",
-      "IP address",
-      "IPv4",
-      "IPv6"
-    ],
-    "test-depends" : [ ],
-    "provides" : {
-      "Net::IP::Lite" : "lib/Net/IP/Lite.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.1.6",
-    "authors" : [
-      "github:tbrowder"
-    ],
-    "description" : "Provides utility functions for dealing with IPv4 and IPv6 addresses."
-  },
-  {
     "name" : "Net::ZMQ",
     "perl" : "6.c",
     "support" : {
@@ -20658,30 +20543,6 @@
       "Gabriel Ash",
       "github:gabrielash"
     ]
-  },
-  {
-    "name" : "Number::More",
-    "support" : {
-      "bugtracker" : "https://github.com/tbrowder/Number-More-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/Number-More-Perl6.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "depends" : [ ],
-    "tags" : [
-      "number",
-      "base transform"
-    ],
-    "test-depends" : [ ],
-    "provides" : {
-      "Number::More" : "lib/Number/More.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.1.2",
-    "authors" : [
-      "github:tbrowder"
-    ],
-    "description" : "Provides number base transform functions"
   },
   {
     "name" : "NativeHelpers::CBuffer",
@@ -20840,43 +20701,6 @@
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
     ]
-  },
-  {
-    "name" : "META6::To::Man",
-    "support" : {
-      "bugtracker" : "https://github.com/tbrowder/META6-To-Man-Perl6/issues"
-    },
-    "source-url" : "https://github.com/tbrowder/META6-To-Man-Perl6.git",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "author" : "github:tbrowder",
-    "auth" : "github:tbrowder",
-    "depends" : [
-      "Text::More",
-      "META6"
-    ],
-    "tags" : [
-      "META6",
-      "UNIX",
-      "man page",
-      "roff",
-      "troff",
-      "groff",
-      "Linux",
-      "man"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "provides" : {
-      "META6::To::Man" : "lib/META6/To/Man.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.2.0",
-    "authors" : [
-      "Tom Browder <tom.browder@gmail.com>"
-    ],
-    "description" : "Produces a rudimentary man page from a Perl 6 META6.json (or META.json) file."
   },
   {
     "name" : "GDBM",
