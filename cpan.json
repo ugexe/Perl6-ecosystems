@@ -720,6 +720,100 @@
     ]
   },
   {
+    "name" : "Geo::Ellipsoid",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/Geo-Ellipsoid-Perl6/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Geo-Ellipsoid-Perl6-0.2.0.tar.gz",
+    "perl" : "6.c",
+    "source-type" : "git",
+    "resources" : [ ],
+    "author" : "github:tbrowder",
+    "auth" : "github:tbrowder",
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "geo",
+      "position"
+    ],
+    "provides" : {
+      "Geo::Ellipsoid" : "lib/Geo/Ellipsoid.pm6",
+      "Geo::Ellipsoid::Utils" : "lib/Geo/Ellipsoid/Utils.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.2.0",
+    "description" : "Accurate latitude/longitude calculations",
+    "authors" : [
+      "Tom Browder <tom.browder@gmail.com> (translator Perl 5 to Perl 6, current maintainer)",
+      "Jim Gibson (CPAN Perl 5 author, v1.12)"
+    ]
+  },
+  {
+    "name" : "META6::To::Man",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/META6-To-Man-Perl6/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/META6-To-Man-Perl6-0.2.0.tar.gz",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "author" : "github:tbrowder",
+    "auth" : "github:tbrowder",
+    "depends" : [
+      "Text::More",
+      "META6"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "META6",
+      "UNIX",
+      "man page",
+      "roff",
+      "troff",
+      "groff",
+      "Linux",
+      "man"
+    ],
+    "provides" : {
+      "META6::To::Man" : "lib/META6/To/Man.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.2.0",
+    "description" : "Produces a rudimentary man page from a Perl 6 META6.json (or META.json) file.",
+    "authors" : [
+      "Tom Browder <tom.browder@gmail.com>"
+    ]
+  },
+  {
+    "name" : "Text::More",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Text-More-Perl6-0.1.8.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "author" : "github:tbrowder",
+    "auth" : "github:tbrowder",
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "string functions"
+    ],
+    "provides" : {
+      "Text::More" : "lib/Text/More.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.8",
+    "description" : "Provides some additional text functions and a utility program to create a markdown file of subroutine descriptions",
+    "authors" : [
+      "Tom Browder <tom.browder@gmail.com>"
+    ]
+  },
+  {
     "name" : "Text::More",
     "support" : {
       "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
