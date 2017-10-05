@@ -682,6 +682,44 @@
     "description" : "Client library for the OpenCage Geocoder"
   },
   {
+    "name" : "Foo::Bar",
+    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Foo-Bar-Perl6-0.10.tar.gz",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::Meta"
+    ],
+    "provides" : {
+      "Foo::Bar" : "lib/Foo/Bar.pm6"
+    },
+    "version" : "72.0.1",
+    "description" : "Miscellaneous stuff for practicing module development",
+    "authors" : [
+      "Tom Browder <tom.browder@gmail.com>"
+    ]
+  },
+  {
+    "name" : "Foo::Bar",
+    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Foo-Bar-Perl6-1.2.3.tar.gz",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::Meta"
+    ],
+    "provides" : {
+      "Foo::Bar" : "lib/Foo/Bar.pm6"
+    },
+    "version" : "72.0.1",
+    "description" : "Miscellaneous stuff for practicing module development",
+    "authors" : [
+      "Tom Browder <tom.browder@gmail.com>"
+    ]
+  },
+  {
     "name" : "JSON::Fast",
     "support" : {
       "source" : "git://github.com/timo/json_fast.git"
