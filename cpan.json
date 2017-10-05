@@ -787,6 +787,63 @@
     ]
   },
   {
+    "name" : "Net::IP::Lite",
+    "support" : {
+      "source" : "https://github.com/tbrowder/Net-IP-Lite-Perl6",
+      "bugtracker" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Net-IP-Lite-Perl6-0.1.4.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "Net",
+      "IP",
+      "IP address",
+      "IPv4",
+      "IPv6"
+    ],
+    "provides" : {
+      "Net::IP::Lite" : "lib/Net/IP/Lite.pm6"
+    },
+    "license" : "Artistic 2.0",
+    "version" : "0.1.4",
+    "description" : "Provides utility functions for dealing with IPv4 and IPv6 addresses.",
+    "authors" : [
+      "github:tbrowder"
+    ]
+  },
+  {
+    "name" : "Number::More",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/Number-More-Perl6/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Number-More-Perl6-0.2.0.tar.gz",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "author" : "github:tbrowder",
+    "auth" : "github:tbrowder",
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "number",
+      "base transform"
+    ],
+    "provides" : {
+      "Number::More" : "lib/Number/More.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.2.0",
+    "description" : "Provides number base transform functions",
+    "authors" : [
+      "Tom Browder <tom.browder@gmail.com>"
+    ]
+  },
+  {
     "name" : "Text::More",
     "support" : {
       "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
