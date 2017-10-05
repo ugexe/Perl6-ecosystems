@@ -720,6 +720,33 @@
     ]
   },
   {
+    "name" : "Text::More",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Text-More-Perl6-01.8.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "author" : "github:tbrowder",
+    "auth" : "github:tbrowder",
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "string functions"
+    ],
+    "provides" : {
+      "Text::More" : "lib/Text/More.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.8",
+    "description" : "Provides some additional text functions and a utility program to create a markdown file of subroutine descriptions",
+    "authors" : [
+      "Tom Browder <tom.browder@gmail.com>"
+    ]
+  },
+  {
     "name" : "JSON::Fast",
     "support" : {
       "source" : "git://github.com/timo/json_fast.git"
