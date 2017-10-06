@@ -952,6 +952,25 @@
     ]
   },
   {
+    "name" : "SDL2::Raw",
+    "source-url" : "http://www.cpan.org/authors/id/T/TI/TIMOTIMO/Perl6/SDL2-Raw-0.1.tar.gz",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "SDL2::Raw" : "lib/SDL2/Raw.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1",
+    "description" : "Sugar-free NativeCall binding for libSDL2",
+    "authors" : [
+      "Timo Paulssen"
+    ]
+  },
+  {
     "name" : "HTTP::Server::Tiny",
     "source-url" : "http://www.cpan.org/authors/id/T/TO/TOKUHIROM/Perl6/HTTP-Server-Tiny-0.0.1.tar.gz",
     "perl" : "6.c",
