@@ -9256,6 +9256,9 @@
       "JSON::Fast",
       "Cache::LRU"
     ],
+    "test-depends" : [
+      "Test::META"
+    ],
     "provides" : {
       "WebService::GitHub::OAuth" : "lib/WebService/GitHub/OAuth.pm",
       "WebService::GitHub" : "lib/WebService/GitHub.pm",
@@ -9263,7 +9266,10 @@
       "WebService::GitHub::Role" : "lib/WebService/GitHub/Role.pm"
     },
     "version" : "0.1.0",
-    "description" : "GitHub API"
+    "description" : "GitHub API",
+    "authors" : [
+      "github:fayland"
+    ]
   },
   {
     "name" : "WebService::Google::PageRank",
