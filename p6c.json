@@ -4956,34 +4956,6 @@
     "description" : "Algebraic Data Types inspired by Haskell."
   },
   {
-    "name" : "JSON::Fast",
-    "support" : {
-      "source" : "git://github.com/timo/json_fast.git"
-    },
-    "source-url" : "git://github.com/timo/json_fast.git",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "auth" : null,
-    "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
-    "tags" : [ ],
-    "provides" : {
-      "JSON::Fast" : "lib/JSON/Fast.pm"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.9.5",
-    "meta6" : "0",
-    "description" : "A naive, fast json parser and serializer; drop-in replacement for JSON::Tiny",
-    "authors" : [
-      "Timo Paulssen",
-      "Tony O'Dell",
-      "Wenzel P. P. Peppmeyer"
-    ]
-  },
-  {
     "name" : "GD",
     "source-url" : "git://github.com/perl6-community-modules/perl6-GD.git",
     "perl" : "6.*",
