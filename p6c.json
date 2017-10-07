@@ -18153,63 +18153,6 @@
     "description" : "TagLib C bindings in Perl6"
   },
   {
-    "name" : "Config",
-    "source-url" : "https://github.com/scriptkitties/p6-Config.git",
-    "perl" : "6",
-    "auth" : "github:scriptkitties",
-    "depends" : [
-      "Hash::Merge"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "tags" : [
-      "config",
-      "configuration"
-    ],
-    "provides" : {
-      "Config::Parser" : "lib/Config/Parser.pm6",
-      "Config::Exception::FileNotFoundException" : "lib/Config/Exception/FileNotFoundException.pm6",
-      "Config" : "lib/Config.pm6",
-      "Config::Exception::MissingParserException" : "lib/Config/Exception/MissingParserException.pm6",
-      "Config::Exception::UnimplementedMethodException" : "lib/Config/Exception/UnimplementedMethodException.pm6",
-      "Config::Parser::NULL" : "lib/Config/Parser/NULL.pm6"
-    },
-    "license" : "GPL-3.0",
-    "version" : "1.2.1",
-    "authors" : [
-      "Patrick Spek <p.spek@tyil.work>"
-    ],
-    "description" : "Extensible library for reading and writing configuration files."
-  },
-  {
-    "name" : "Config::Parser::yaml",
-    "source-url" : "https://github.com/scriptkitties/p6-Config-Parser-yaml.git",
-    "perl" : "6",
-    "auth" : "github:scriptkitties",
-    "depends" : [
-      "Config",
-      "YAMLish"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "tags" : [
-      "config",
-      "configuration",
-      "yaml"
-    ],
-    "provides" : {
-      "Config::Parser::yaml" : "lib/Config/Parser/yaml.pm6"
-    },
-    "license" : "GPL-3.0",
-    "version" : "1.0.0",
-    "authors" : [
-      "Patrick Spek <p.spek@tyil.work>"
-    ],
-    "description" : "YAML parser for Config."
-  },
-  {
     "name" : "PostCocoon::Url",
     "source-url" : "https://github.com/PostCocoon/P6-Url.git",
     "perl" : "6",
@@ -18232,30 +18175,6 @@
       "eater <perl6@eaterofco.de>"
     ],
     "description" : "Some simple but useful URL utils"
-  },
-  {
-    "name" : "Hash::Merge",
-    "source-url" : "https://github.com/scriptkitties/p6-Hash-Merge.git",
-    "perl" : "6",
-    "auth" : "github:scriptkitties",
-    "depends" : [ ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "tags" : [
-      "hash",
-      "utils"
-    ],
-    "provides" : {
-      "Hash::Merge" : "lib/Hash/Merge.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.1.0",
-    "authors" : [
-      "Samantha McVey <samantham@posteo.net>",
-      "Patrick Spek <p.spek@tyil.work>"
-    ],
-    "description" : "Module to add deep merge functionality to Hashes"
   },
   {
     "name" : "TrigPi",
@@ -18340,33 +18259,6 @@
       "Curt Tilmes <ctilmes@cpan.org>"
     ],
     "description" : "Perl 6 bindings for primesieve"
-  },
-  {
-    "name" : "Config::Parser::toml",
-    "source-url" : "https://github.com/scriptkitties/p6-Config-Parser-toml.git",
-    "perl" : "6",
-    "auth" : "github:scriptkitties",
-    "depends" : [
-      "Config",
-      "Config::TOML"
-    ],
-    "test-depends" : [
-      "File::Temp",
-      "Test::META"
-    ],
-    "tags" : [
-      "config",
-      "configuration"
-    ],
-    "provides" : {
-      "Config::Parser::toml" : "lib/Config/Parser/toml.pm6"
-    },
-    "license" : "GPL-3.0",
-    "version" : "1.0.0",
-    "authors" : [
-      "Patrick Spek <p.spek@tyil.work>"
-    ],
-    "description" : "TOML parser for Config"
   },
   {
     "name" : "DBI::Async",
@@ -18741,54 +18633,6 @@
     "version" : "0.0.7",
     "authors" : "Loren",
     "description" : "Advanced table generate module for perl6"
-  },
-  {
-    "name" : "MPD::Client",
-    "source-url" : "https://github.com/scriptkitties/p6-mpd-client.git",
-    "perl" : "6",
-    "auth" : "github:scriptkitties",
-    "depends" : [ ],
-    "test-depends" : [
-      "File::Temp",
-      "Test::META"
-    ],
-    "tags" : [
-      "mpd",
-      "musicpd",
-      "mpc",
-      "musicpc",
-      "music"
-    ],
-    "provides" : {
-      "MPD::Client::Database" : "lib/MPD/Client/Database.pm6",
-      "MPD::Client::Reflection" : "lib/MPD/Client/Reflection.pm6",
-      "MPD::Client::Playlist" : "lib/MPD/Client/Playlist.pm6",
-      "MPD::Client::Playback" : "lib/MPD/Client/Playback.pm6",
-      "MPD::Client::Grammars::PlaylistLine" : "lib/MPD/Client/Grammars/PlaylistLine.pm6",
-      "MPD::Client" : "lib/MPD/Client.pm6",
-      "MPD::Client::Status" : "lib/MPD/Client/Status.pm6",
-      "MPD::Client::Connection" : "lib/MPD/Client/Connection.pm6",
-      "MPD::Client::Exceptions::ArgumentException" : "lib/MPD/Client/Exceptions/ArgumentException.pm6",
-      "MPD::Client::Util" : "lib/MPD/Client/Util.pm6",
-      "MPD::Client::Sticker" : "lib/MPD/Client/Sticker.pm6",
-      "MPD::Client::Exceptions::SocketException" : "lib/MPD/Client/Exceptions/SocketException.pm6",
-      "MPD::Client::Partition" : "lib/MPD/Client/Partition.pm6",
-      "MPD::Client::Client" : "lib/MPD/Client/Client.pm6",
-      "MPD::Client::Grammars::ResponseLine" : "lib/MPD/Client/Grammars/ResponseLine.pm6",
-      "MPD::Client::Current" : "lib/MPD/Client/Current.pm6",
-      "MPD::Client::Control" : "lib/MPD/Client/Control.pm6",
-      "MPD::Client::Grammars::AckLine" : "lib/MPD/Client/Grammars/AckLine.pm6",
-      "MPD::Client::Exceptions::MpdException" : "lib/MPD/Client/Exceptions/MpdException.pm6",
-      "MPD::Client::Mount" : "lib/MPD/Client/Mount.pm6",
-      "MPD::Client::Grammars::CurrentPlaylistLine" : "lib/MPD/Client/Grammars/CurrentPlaylistLine.pm6"
-    },
-    "license" : "GPL-3.0",
-    "version" : "0.1.3",
-    "authors" : [
-      "Patrick Spek <p.spek@tyil.work>",
-      "Samantha McVey <samantham@posteo.net>"
-    ],
-    "description" : "Perl 6 module for interfacing with MPD"
   },
   {
     "name" : "Die",
@@ -20483,34 +20327,6 @@
     "authors" : [
       "Vittore F. Scolari <vittore.scolari@pasteur.fr>"
     ]
-  },
-  {
-    "name" : "IRC::Client::Plugin::Github",
-    "source-url" : "https://github.com/scriptkitties/perl6-IRC-Client-Plugin-Github.git",
-    "perl" : "6",
-    "auth" : "github:scriptkitties",
-    "depends" : [
-      "Bailador",
-      "Config",
-      "IRC::Client"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "tags" : [ ],
-    "provides" : {
-      "IRC::Client::Plugin::Github" : "lib/IRC/Client/Plugin/Github.pm6",
-      "IRC::Client::Plugin::Github::WebhookEvents::PullRequest" : "lib/IRC/Client/Plugin/Github/WebhookEvents/PullRequest.pm6",
-      "IRC::Client::Plugin::Github::WebhookEvents::Issues" : "lib/IRC/Client/Plugin/Github/WebhookEvents/Issues.pm6",
-      "IRC::Client::Plugin::Github::WebhookEvents::IssueComment" : "lib/IRC/Client/Plugin/Github/WebhookEvents/IssueComment.pm6",
-      "IRC::Client::Plugin::Github::WebhookEvents::Push" : "lib/IRC/Client/Plugin/Github/WebhookEvents/Push.pm6"
-    },
-    "license" : "GPL-3.0",
-    "version" : "0.1.2",
-    "authors" : [
-      "Patrick Spek <p.spek@tyil.work>"
-    ],
-    "description" : "A plugin to provide Github functionality to IRC::Client projects"
   },
   {
     "name" : "Brazilian::FederalDocuments",
