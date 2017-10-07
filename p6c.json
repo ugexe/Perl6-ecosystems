@@ -20630,7 +20630,9 @@
       "LibraryMake",
       "Shell::Command"
     ],
-    "resources" : [ ],
+    "resources" : [
+      "libraries/gdbmhelper"
+    ],
     "auth" : "github:jonathanstowe",
     "depends" : [ ],
     "provides" : {
@@ -20644,7 +20646,7 @@
       "hash"
     ],
     "meta-version" : "0",
-    "version" : "0.0.1",
+    "version" : "0.0.2",
     "description" : "GNU dbm binding for Perl 6",
     "authors" : [
       "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
