@@ -6220,19 +6220,6 @@
     "description" : "Adds a fuzzy matching operator for clean and fuzzy string matching in 'if' statements"
   },
   {
-    "name" : "SDL2::Raw",
-    "source-url" : "git://github.com/timo/SDL2_Raw-p6.git",
-    "perl" : "6.*",
-    "author" : "Timo Paulssen",
-    "depends" : [ ],
-    "provides" : {
-      "SDL2::Raw" : "lib/SDL2/Raw.pm"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.1",
-    "description" : "Sugar-free NativeCall binding for libSDL2"
-  },
-  {
     "name" : "Math::Symbolic",
     "source-url" : "git://github.com/raydiak/Math-Symbolic.git",
     "perl" : "6.*",
