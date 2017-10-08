@@ -726,25 +726,6 @@
   },
   {
     "name" : "Foo::Bar",
-    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Foo-Bar-Perl6-0.10.tar.gz",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "test-depends" : [
-      "Test::Meta"
-    ],
-    "provides" : {
-      "Foo::Bar" : "lib/Foo/Bar.pm6"
-    },
-    "version" : "72.0.1",
-    "description" : "Miscellaneous stuff for practicing module development",
-    "authors" : [
-      "Tom Browder <tom.browder@gmail.com>"
-    ]
-  },
-  {
-    "name" : "Foo::Bar",
     "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Foo-Bar-Perl6-1.2.3.tar.gz",
     "perl" : "6.*",
     "resources" : [ ],
@@ -918,33 +899,6 @@
       "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
     },
     "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Text-More-Perl6-0.1.8.tar.gz",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "author" : "github:tbrowder",
-    "auth" : "github:tbrowder",
-    "depends" : [ ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "tags" : [
-      "string functions"
-    ],
-    "provides" : {
-      "Text::More" : "lib/Text/More.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.1.8",
-    "description" : "Provides some additional text functions and a utility program to create a markdown file of subroutine descriptions",
-    "authors" : [
-      "Tom Browder <tom.browder@gmail.com>"
-    ]
-  },
-  {
-    "name" : "Text::More",
-    "support" : {
-      "bugtracker" : "https://github.com/tbrowder/Text-More-Perl6/issues"
-    },
-    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Text-More-Perl6-01.8.tar.gz",
     "perl" : "6.c",
     "resources" : [ ],
     "author" : "github:tbrowder",
