@@ -269,6 +269,30 @@
     "description" : "Native call interface for Rakudo"
   },
   {
+    "name" : "Math::Model",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MORITZ/Perl6/Math-Model-0.3.tar.gz",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Math::RungeKutta",
+      "SVG",
+      "SVG::Plot"
+    ],
+    "test-depends" : [ ],
+    "tags" : [
+      "math"
+    ],
+    "provides" : {
+      "Math::Model" : "lib/Math/Model.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.3",
+    "description" : "Automagic integrator for models (first order ODEs)",
+    "authors" : [
+      "Moritz Lenz"
+    ]
+  },
+  {
     "name" : "Math::RungeKutta",
     "source-url" : "http://www.cpan.org/authors/id/M/MO/MORITZ/Perl6/Math-RungeKutta-0.1.tar.gz",
     "perl" : "6.*",
