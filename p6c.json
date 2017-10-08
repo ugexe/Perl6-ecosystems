@@ -12356,28 +12356,6 @@
     ]
   },
   {
-    "name" : "IO::Prompt",
-    "source-url" : "git://github.com/wbiker/io-prompt.git",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "test-depends" : [
-      "Test"
-    ],
-    "tags" : [ ],
-    "provides" : {
-      "IO::Prompt" : "lib/IO/Prompt.pm"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.0.2",
-    "description" : "This is a generic module for interactive prompting from the console.",
-    "authors" : [
-      "pnu",
-      "wbiker"
-    ]
-  },
-  {
     "name" : "Test::Util::ServerPort",
     "perl" : "6.c",
     "support" : {
