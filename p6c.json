@@ -2155,17 +2155,26 @@
   {
     "name" : "Math::Model",
     "source-url" : "git://github.com/moritz/Math-Model.git",
+    "resources" : [ ],
+    "build-depends" : [ ],
     "depends" : [
       "Math::RungeKutta",
       "SVG",
       "SVG::Plot"
     ],
+    "test-depends" : [ ],
+    "tags" : [
+      "math"
+    ],
     "license" : "Artistic-2.0",
     "provides" : {
       "Math::Model" : "lib/Math/Model.pm"
     },
-    "version" : "0.1",
-    "description" : "Automagic integrator for models (first order ODEs)"
+    "version" : "0.3",
+    "description" : "Automagic integrator for models (first order ODEs)",
+    "authors" : [
+      "Moritz Lenz"
+    ]
   },
   {
     "name" : "Grammar-ErrorReporting",
