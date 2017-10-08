@@ -1604,6 +1604,28 @@
     ]
   },
   {
+    "name" : "IO::Prompt",
+    "source-url" : "http://www.cpan.org/authors/id/W/WB/WBIKER/Perl6/IO-Prompt-0.0.2.tar.gz",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "IO::Prompt" : "lib/IO/Prompt.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
+    "description" : "This is a generic module for interactive prompting from the console.",
+    "authors" : [
+      "pnu",
+      "wbiker"
+    ]
+  },
+  {
     "name" : "Acme::Anguish",
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-Acme-Anguish.git"
