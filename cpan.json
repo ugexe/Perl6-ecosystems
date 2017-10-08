@@ -1021,6 +1021,31 @@
     ]
   },
   {
+    "name" : "App::MPD::AutoQueue",
+    "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-MPD-AutoQueue-0.1.0.tar.gz",
+    "perl" : "6",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:scriptkitties",
+    "depends" : [
+      "Config",
+      "MPD::Client"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "App::MPD::AutoQueue" : "lib/App/MPD/AutoQueue.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.1.0",
+    "description" : "Automatic playlist queueing",
+    "authors" : [
+      "Patrick Spek <p.spek@tyil.work>"
+    ]
+  },
+  {
     "name" : "IRC::Client::Plugin::Github",
     "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IRC-Client-Plugin-Github-0.1.2.tar.gz",
     "perl" : "6",
