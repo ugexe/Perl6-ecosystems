@@ -703,6 +703,36 @@
     ]
   },
   {
+    "name" : "App::Mi6",
+    "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/App-Mi6-0.0.7.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "File::Find",
+      "JSON::Pretty",
+      "Pod::To::Markdown",
+      "Shell::Command",
+      "CPAN::Uploader::Tiny"
+    ],
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "App::Mi6" : "lib/App/Mi6.pm6",
+      "App::Mi6::JSON" : "lib/App/Mi6/JSON.pm6",
+      "App::Mi6::Template" : "lib/App/Mi6/Template.pm6",
+      "App::Mi6::INI" : "lib/App/Mi6/INI.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.7",
+    "description" : "minimal authoring tool for Perl6",
+    "authors" : [
+      "Shoichi Kaji"
+    ]
+  },
+  {
     "name" : "Acme::Meow",
     "source-url" : "git://github.com/tadzik/perl6-Acme-Meow.git",
     "support" : {
