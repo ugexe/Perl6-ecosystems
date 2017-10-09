@@ -1535,6 +1535,75 @@
     "support" : {
       "bugtracker" : "https://github.com/ugexe/zef/issues"
     },
+    "source-url" : "http://www.cpan.org/authors/id/U/UG/UGEXE/Perl6/v0.1.30.tar.gz",
+    "perl" : "6",
+    "resources" : [
+      "config.json",
+      "scripts/perl5tar.pl",
+      "scripts/win32http.ps1",
+      "scripts/win32unzip.ps1"
+    ],
+    "auth" : "github:ugexe",
+    "depends" : [ ],
+    "tags" : [
+      "package-manager",
+      "module-installer",
+      "meta-search",
+      "distribution",
+      "ecosystem",
+      "cpan",
+      "toolchain"
+    ],
+    "provides" : {
+      "Zef::Service::TAP" : "lib/Zef/Service/TAP.pm6",
+      "Zef::Service::Shell::unzip" : "lib/Zef/Service/Shell/unzip.pm6",
+      "Zef::Service::FetchPath" : "lib/Zef/Service/FetchPath.pm6",
+      "Zef::Distribution::Local" : "lib/Zef/Distribution/Local.pm6",
+      "Zef::Test" : "lib/Zef/Test.pm6",
+      "Zef::Service::Shell::prove" : "lib/Zef/Service/Shell/prove.pm6",
+      "Zef::Repository::LocalCache" : "lib/Zef/Repository/LocalCache.pm6",
+      "Zef::Identity" : "lib/Zef/Identity.pm6",
+      "Zef::Service::Shell::p5tar" : "lib/Zef/Service/Shell/p5tar.pm6",
+      "Zef::Repository::MetaCPAN" : "lib/Zef/Repository/MetaCPAN.pm6",
+      "Zef::Repository" : "lib/Zef/Repository.pm6",
+      "Zef::Extract" : "lib/Zef/Extract.pm6",
+      "Zef::Distribution::DependencySpecification" : "lib/Zef/Distribution/DependencySpecification.pm6",
+      "Zef::Distribution" : "lib/Zef/Distribution.pm6",
+      "Zef::Config" : "lib/Zef/Config.pm6",
+      "Zef::Client" : "lib/Zef/Client.pm6",
+      "Zef" : "lib/Zef.pm6",
+      "Zef::Utils::FileSystem" : "lib/Zef/Utils/FileSystem.pm6",
+      "Zef::Service::Shell::PowerShell::unzip" : "lib/Zef/Service/Shell/PowerShell/unzip.pm6",
+      "Zef::Service::Shell::curl" : "lib/Zef/Service/Shell/curl.pm6",
+      "Zef::Repository::Ecosystems" : "lib/Zef/Repository/Ecosystems.pm6",
+      "Zef::Report" : "lib/Zef/Report.pm6",
+      "Zef::CLI" : "lib/Zef/CLI.pm6",
+      "Zef::Build" : "lib/Zef/Build.pm6",
+      "Zef::Utils::SystemInfo" : "lib/Zef/Utils/SystemInfo.pm6",
+      "Zef::Service::Shell::wget" : "lib/Zef/Service/Shell/wget.pm6",
+      "Zef::Service::Shell::tar" : "lib/Zef/Service/Shell/tar.pm6",
+      "Zef::Service::Shell::Test" : "lib/Zef/Service/Shell/Test.pm6",
+      "Zef::Service::Shell::Build" : "lib/Zef/Service/Shell/Build.pm6",
+      "Zef::Utils::URI" : "lib/Zef/Utils/URI.pm6",
+      "Zef::Service::Shell::git" : "lib/Zef/Service/Shell/git.pm6",
+      "Zef::Service::Shell::PowerShell::download" : "lib/Zef/Service/Shell/PowerShell/download.pm6",
+      "Zef::Service::Shell::PowerShell" : "lib/Zef/Service/Shell/PowerShell.pm6",
+      "Zef::Service::P6CReporter" : "lib/Zef/Service/P6CReporter.pm6",
+      "Zef::Fetch" : "lib/Zef/Fetch.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.30",
+    "description" : "It's like [cpanm] wearing high heels with a tracksuit",
+    "authors" : [
+      "Nick Logan",
+      "Tony O'Dell"
+    ]
+  },
+  {
+    "name" : "zef",
+    "support" : {
+      "bugtracker" : "https://github.com/ugexe/zef/issues"
+    },
     "source-url" : "http://www.cpan.org/authors/id/U/UG/UGEXE/Perl6/zef-0.1.15.tar.gz",
     "perl" : "6",
     "resources" : [
