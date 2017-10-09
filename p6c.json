@@ -12630,9 +12630,10 @@
   },
   {
     "name" : "RPi::Wiring::Pi",
-    "source-url" : "git://github.com/sufrostico/perl6-wiringpi.git",
-    "perl" : "6.*",
-    "depends" : [ ],
+    "support" : {
+      "source" : "git://github.com/sufrostico/perl6-wiringpi.git"
+    },
+    "perl" : "6.c",
     "provides" : {
       "RPi::Wiring::Pi" : "lib/RPi/Wiring/Pi.pm6"
     },
@@ -12641,7 +12642,7 @@
     ],
     "license" : "GPL-3.0",
     "version" : "2.25.0",
-    "description" : "Perl 6 wrapper to the WiringPI, a wiring based Raspberry Pi library",
+    "description" : "Perl 6 wrapper to the WiringPI, a wiring based Raspberry Pi library.",
     "authors" : [
       "Aurelio Sanabria (Sufrostico) <sufrostico at gmail dot com>"
     ]
@@ -19217,7 +19218,7 @@
       "Test::META"
     ],
     "license" : "MIT",
-    "version" : "0.0.7",
+    "version" : "0.1.0",
     "authors" : "Loren",
     "description" : "Advanced command line parse module for perl6"
   },
