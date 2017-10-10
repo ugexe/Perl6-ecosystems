@@ -1128,36 +1128,6 @@
     ]
   },
   {
-    "name" : "IRC::Client::Plugin::Github",
-    "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IRC-Client-Plugin-Github-0.1.2.tar.gz",
-    "perl" : "6",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "auth" : "github:scriptkitties",
-    "depends" : [
-      "Bailador",
-      "Config",
-      "IRC::Client"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "tags" : [ ],
-    "provides" : {
-      "IRC::Client::Plugin::Github" : "lib/IRC/Client/Plugin/Github.pm6",
-      "IRC::Client::Plugin::Github::WebhookEvents::PullRequest" : "lib/IRC/Client/Plugin/Github/WebhookEvents/PullRequest.pm6",
-      "IRC::Client::Plugin::Github::WebhookEvents::Issues" : "lib/IRC/Client/Plugin/Github/WebhookEvents/Issues.pm6",
-      "IRC::Client::Plugin::Github::WebhookEvents::IssueComment" : "lib/IRC/Client/Plugin/Github/WebhookEvents/IssueComment.pm6",
-      "IRC::Client::Plugin::Github::WebhookEvents::Push" : "lib/IRC/Client/Plugin/Github/WebhookEvents/Push.pm6"
-    },
-    "license" : "GPL-3.0",
-    "version" : "0.1.2",
-    "description" : "A plugin to provide Github functionality to IRC::Client projects",
-    "authors" : [
-      "Patrick Spek <p.spek@tyil.work>"
-    ]
-  },
-  {
     "name" : "App::MPD::Notify",
     "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/perl6-App-MPD-Notify.tar.gz",
     "perl" : "6",
