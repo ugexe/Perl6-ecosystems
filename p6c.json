@@ -20522,30 +20522,5 @@
       "Patrick Sebastian Zimmermann"
     ],
     "description" : "Support for the ST7036 dot matrix display."
-  },
-  {
-    "name" : "App::MPD::AutoQueue",
-    "source-url" : "https://github.com/tyil/perl6-App-MPD-AutoQueue.git",
-    "perl" : "6",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "auth" : "github:scriptkitties",
-    "depends" : [
-      "Config",
-      "MPD::Client"
-    ],
-    "test-depends" : [
-      "Test::META"
-    ],
-    "tags" : [ ],
-    "provides" : {
-      "App::MPD::AutoQueue" : "lib/App/MPD/AutoQueue.pm6"
-    },
-    "license" : "GPL-3.0",
-    "version" : "0.1.1",
-    "description" : "Automatic playlist queueing",
-    "authors" : [
-      "Patrick Spek <p.spek@tyil.work>"
-    ]
   }
 ]
