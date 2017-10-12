@@ -18033,7 +18033,8 @@
       "Matrix::Client::Room" : "lib/Matrix/Client/Room.pm6"
     },
     "test-depends" : [
-      "Test"
+      "Test",
+      "Test::META"
     ],
     "tags" : [
       "Net",
