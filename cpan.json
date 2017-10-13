@@ -63,6 +63,27 @@
     ]
   },
   {
+    "name" : "Propius",
+    "source-url" : "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/Propius-0.1.0.tar.gz",
+    "perl" : "6.*",
+    "author" : [
+      "Mikhail Khorkov"
+    ],
+    "depends" : [
+      "TimeUnit",
+      "OO::Monitors"
+    ],
+    "tags" : [
+      "cache"
+    ],
+    "provides" : {
+      "Propius" : "lib/Propius.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "description" : "Memory cache with loader and eviction by time."
+  },
+  {
     "name" : "TimeUnit",
     "source-url" : "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/TimeUnit-0.1.0.tar.gz",
     "perl" : "6.*",
@@ -100,6 +121,23 @@
     },
     "license" : "Artistic-2.0",
     "version" : "0.1.1",
+    "description" : "Library for conversion a time unit to another."
+  },
+  {
+    "name" : "TimeUnit",
+    "source-url" : "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/TimeUnit-0.1.2.tar.gz",
+    "perl" : "6.*",
+    "author" : [
+      "Mikhail Khorkov"
+    ],
+    "tags" : [
+      "time"
+    ],
+    "provides" : {
+      "TimeUnit" : "lib/TimeUnit.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.2",
     "description" : "Library for conversion a time unit to another."
   },
   {
