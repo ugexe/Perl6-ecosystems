@@ -4475,20 +4475,6 @@
     "description" : "The only fake threads in Perl 6"
   },
   {
-    "name" : "Debugger::UI::CommandLine",
-    "source-url" : "git://github.com/jnthn/rakudo-debugger.git",
-    "perl" : "6.*",
-    "depends" : [
-      "Terminal::ANSIColor"
-    ],
-    "provides" : {
-      "Debugger::UI::CommandLine" : "lib/Debugger/UI/CommandLine.pm"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "description" : "Command-line debugger frontend for Rakudo"
-  },
-  {
     "name" : "File::Find::Duplicates",
     "source-url" : "git://github.com/labster/perl6-File-Find-Duplicates.git",
     "perl" : "6.*",
