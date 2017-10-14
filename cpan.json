@@ -1156,6 +1156,31 @@
     ]
   },
   {
+    "name" : "App::Bob",
+    "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-Bob-0.2.2.tar.gz",
+    "perl" : "6",
+    "auth" : "github:scriptkitties",
+    "depends" : [
+      "JSON::Fast",
+      "Template::Mustache"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "bob" : "bin/bob",
+      "App::Bob::Package::Ebuild" : "lib/App/Bob/Package/Ebuild.pm6",
+      "App::Bob" : "lib/App/Bob.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.2.2",
+    "description" : "Bob helps you build and package your modules",
+    "authors" : [
+      "Patrick Spek <p.spek@tyil.work>"
+    ]
+  },
+  {
     "name" : "App::MPD::AutoQueue",
     "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-MPD-AutoQueue-0.1.0.tar.gz",
     "perl" : "6",
@@ -1287,6 +1312,106 @@
     "description" : "YAML parser for Config.",
     "authors" : [
       "Patrick Spek <p.spek@tyil.work>"
+    ]
+  },
+  {
+    "name" : "Hash::Merge",
+    "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Hash-Merge-0.1.1.tar.gz",
+    "perl" : "6",
+    "auth" : "github:scriptkitties",
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "hash",
+      "utils"
+    ],
+    "provides" : {
+      "Hash::Merge" : "lib/Hash/Merge.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.1",
+    "description" : "Module to add deep merge functionality to Hashes",
+    "authors" : [
+      "Samantha McVey <samantham@posteo.net>",
+      "Patrick Spek <p.spek@tyil.work>"
+    ]
+  },
+  {
+    "name" : "IRC::Client::Plugin::Github",
+    "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IRC-Client-Plugin-Github-0.1.4.tar.gz",
+    "perl" : "6",
+    "auth" : "github:scriptkitties",
+    "depends" : [
+      "Bailador",
+      "Config",
+      "IRC::Client"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "IRC::Client::Plugin::Github" : "lib/IRC/Client/Plugin/Github.pm6",
+      "IRC::Client::Plugin::Github::WebhookEvents::PullRequest" : "lib/IRC/Client/Plugin/Github/WebhookEvents/PullRequest.pm6",
+      "IRC::Client::Plugin::Github::WebhookEvents::Issues" : "lib/IRC/Client/Plugin/Github/WebhookEvents/Issues.pm6",
+      "IRC::Client::Plugin::Github::WebhookEvents::IssueComment" : "lib/IRC/Client/Plugin/Github/WebhookEvents/IssueComment.pm6",
+      "IRC::Client::Plugin::Github::WebhookEvents::Push" : "lib/IRC/Client/Plugin/Github/WebhookEvents/Push.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.1.4",
+    "description" : "A plugin to provide Github functionality to IRC::Client projects",
+    "authors" : [
+      "Patrick Spek <p.spek@tyil.work>"
+    ]
+  },
+  {
+    "name" : "MPD::Client",
+    "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/MPD-Client-0.1.3.tar.gz",
+    "perl" : "6",
+    "auth" : "github:scriptkitties",
+    "depends" : [ ],
+    "test-depends" : [
+      "File::Temp",
+      "Test::META"
+    ],
+    "tags" : [
+      "mpd",
+      "musicpd",
+      "mpc",
+      "musicpc",
+      "music"
+    ],
+    "provides" : {
+      "MPD::Client::Database" : "lib/MPD/Client/Database.pm6",
+      "MPD::Client::Reflection" : "lib/MPD/Client/Reflection.pm6",
+      "MPD::Client::Playlist" : "lib/MPD/Client/Playlist.pm6",
+      "MPD::Client::Playback" : "lib/MPD/Client/Playback.pm6",
+      "MPD::Client::Grammars::PlaylistLine" : "lib/MPD/Client/Grammars/PlaylistLine.pm6",
+      "MPD::Client" : "lib/MPD/Client.pm6",
+      "MPD::Client::Status" : "lib/MPD/Client/Status.pm6",
+      "MPD::Client::Exceptions::ArgumentException" : "lib/MPD/Client/Exceptions/ArgumentException.pm6",
+      "MPD::Client::Connection" : "lib/MPD/Client/Connection.pm6",
+      "MPD::Client::Util" : "lib/MPD/Client/Util.pm6",
+      "MPD::Client::Sticker" : "lib/MPD/Client/Sticker.pm6",
+      "MPD::Client::Exceptions::SocketException" : "lib/MPD/Client/Exceptions/SocketException.pm6",
+      "MPD::Client::Partition" : "lib/MPD/Client/Partition.pm6",
+      "MPD::Client::Grammars::ResponseLine" : "lib/MPD/Client/Grammars/ResponseLine.pm6",
+      "MPD::Client::Client" : "lib/MPD/Client/Client.pm6",
+      "MPD::Client::Grammars::AckLine" : "lib/MPD/Client/Grammars/AckLine.pm6",
+      "MPD::Client::Exceptions::MpdException" : "lib/MPD/Client/Exceptions/MpdException.pm6",
+      "MPD::Client::Current" : "lib/MPD/Client/Current.pm6",
+      "MPD::Client::Control" : "lib/MPD/Client/Control.pm6",
+      "MPD::Client::Mount" : "lib/MPD/Client/Mount.pm6",
+      "MPD::Client::Grammars::CurrentPlaylistLine" : "lib/MPD/Client/Grammars/CurrentPlaylistLine.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.1.3",
+    "description" : "Perl 6 module for interfacing with MPD",
+    "authors" : [
+      "Patrick Spek <p.spek@tyil.work>",
+      "Samantha McVey <samantham@posteo.net>"
     ]
   },
   {
