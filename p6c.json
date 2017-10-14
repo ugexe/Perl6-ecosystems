@@ -4032,6 +4032,9 @@
     "provides" : {
       "Browser::Open" : "lib/Browser/Open.pm6"
     },
+    "test-depends" : [
+      "Test"
+    ],
     "license" : "MIT",
     "version" : "*",
     "description" : "Open a given URL in a browser"
