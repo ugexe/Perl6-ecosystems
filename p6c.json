@@ -20568,5 +20568,27 @@
       "Jarkko Haapalainen <jarkko@viidakko.fi>"
     ],
     "description" : "Alternative command line usage generator"
+  },
+  {
+    "name" : "Operator-grandpa",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "https://github.com/holli-holzer/Operator-grandpa.git"
+    },
+    "source-url" : "https://github.com/holli-holzer/Operator-grandpa.git",
+    "provides" : {
+      "Operator::grandpa" : "lib/Operator/grandpa.pm6"
+    },
+    "test-depends" : [
+      "Test::META"
+    ],
+    "license" : "Artistic-2.0",
+    "meta-version" : "0",
+    "version" : "*",
+    "description" : "The grandpa operator",
+    "authors" : [
+      "Markus \u00abHolli\u00bb Holzer",
+      ""
+    ]
   }
 ]
