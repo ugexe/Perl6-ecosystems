@@ -1181,6 +1181,31 @@
     ]
   },
   {
+    "name" : "App::Bob",
+    "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-Bob-0.5.1.tar.gz",
+    "perl" : "6",
+    "auth" : "github:scriptkitties",
+    "depends" : [
+      "JSON::Fast",
+      "Template::Mustache"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "bob" : "bin/bob",
+      "App::Bob::Package::Ebuild" : "lib/App/Bob/Package/Ebuild.pm6",
+      "App::Bob" : "lib/App/Bob.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.5.1",
+    "description" : "Bob the CPAN distribution builder",
+    "authors" : [
+      "Patrick Spek <p.spek@tyil.work>"
+    ]
+  },
+  {
     "name" : "App::MPD::AutoQueue",
     "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-MPD-AutoQueue-0.1.0.tar.gz",
     "perl" : "6",
