@@ -18883,8 +18883,7 @@
     "perl" : "6.c",
     "depends" : [
       "Digest::SHA",
-      "File::Directory::Tree",
-      "RakudoPrereq"
+      "File::Directory::Tree"
     ],
     "provides" : {
       "Temp::Path" : "lib/Temp/Path.pm6"
@@ -18897,7 +18896,7 @@
       "filesystem"
     ],
     "license" : "Artistic-2.0",
-    "version" : "1.001001",
+    "version" : "1.001003",
     "authors" : [
       "Zoffix Znet"
     ],
