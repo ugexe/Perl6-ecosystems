@@ -1759,6 +1759,19 @@
     "description" : "An RSpec-like testing framework for Perl 6"
   },
   {
+    "name" : "Method::Modifiers",
+    "source-url" : "git://github.com/supernovus/perl6-method-modifiers.git",
+    "perl" : "6.*",
+    "depends" : [ ],
+    "provides" : {
+      "Method::Modifiers::Role" : "lib/Method/Modifiers/Role.pm6",
+      "Method::Modifiers::Augment" : "lib/Method/Modifiers/Augment.pm6",
+      "Method::Modifiers" : "lib/Method/Modifiers.pm6"
+    },
+    "version" : "*",
+    "description" : "Adds before, after and around functions to make wrapping method calls easier."
+  },
+  {
     "name" : "Text::Table::List",
     "source-url" : "git://github.com/supernovus/perl6-text-table-list.git",
     "perl" : "6.*",
