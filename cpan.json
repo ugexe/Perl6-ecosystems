@@ -347,6 +347,28 @@
     "description" : "Native call interface for Rakudo"
   },
   {
+    "name" : "Grammar::ErrorReporting",
+    "support" : {
+      "bugtracker" : "https://github.com/moritz/Grammar-ErrorReporting/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MORITZ/Perl6/Grammar-ErrorReporting-0.2.tar.gz",
+    "perl" : "6.c",
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "X::Grammar::ParseError" : "lib/Grammar/ErrorReporting.pm6",
+      "Grammar::ErrorReporting" : "lib/Grammar/ErrorReporting.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.2",
+    "meta-version" : "0",
+    "description" : "Error reporting infrastructure for Perl 6 grammars",
+    "authors" : [
+      "Moritz Lenz"
+    ]
+  },
+  {
     "name" : "Math::Model",
     "source-url" : "http://www.cpan.org/authors/id/M/MO/MORITZ/Perl6/Math-Model-0.3.tar.gz",
     "resources" : [ ],
