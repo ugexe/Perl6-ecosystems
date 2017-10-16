@@ -20589,5 +20589,37 @@
     "authors" : [
       "Markus \u00abHolli\u00bb Holzer"
     ]
+  },
+  {
+    "name" : "Scheduler::DRMAA",
+    "source-url" : "git://github.com/scovit/Scheduler-DRMAA.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "File::Temp",
+      "NativeHelpers::CBuffer"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "DRMAA" : "lib/DRMAA.pm6",
+      "DRMAA::NativeCall" : "lib/DRMAA/NativeCall.pm6",
+      "DRMAA::Native-specification::Default" : "lib/DRMAA/Native-specification/Default.pm6",
+      "DRMAA::Session" : "lib/DRMAA/Session.pm6",
+      "DRMAA::Native-specification::SLURM" : "lib/DRMAA/Native-specification/SLURM.pm6",
+      "X::DRMAA" : "lib/X/DRMAA.pm6",
+      "Scheduler::DRMAA" : "lib/Scheduler/DRMAA.pm6",
+      "DRMAA::Submission" : "lib/DRMAA/Submission.pm6",
+      "DRMAA::Job-template" : "lib/DRMAA/Job-template.pm6",
+      "DRMAA::Submission::Status" : "lib/DRMAA/Submission/Status.pm6",
+      "DRMAA::Native-specification" : "lib/DRMAA/Native-specification.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.0.1",
+    "description" : "Bindings for the DRMAA cluster library",
+    "authors" : [
+      "Vittore F. Scolari"
+    ]
   }
 ]
