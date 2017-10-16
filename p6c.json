@@ -6859,41 +6859,6 @@
     "description" : "Container tool based on Linux namespaces"
   },
   {
-    "name" : "Linux::Cpuinfo",
-    "perl" : "6.c",
-    "support" : {
-      "email" : "jns+git@gellyfish.co.uk",
-      "source" : "git://github.com/jonathanstowe/p6-Linux-Cpuinfo.git",
-      "bugtracker" : "https://github.com/jonathanstowe/p6-Linux-Cpuinfo/issues/"
-    },
-    "source-url" : "https://github.com/jonathanstowe/p6-Linux-Cpuinfo.git",
-    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [ ],
-    "provides" : {
-      "Linux::Cpuinfo" : "lib/Linux/Cpuinfo.pm",
-      "Linux::Cpuinfo::Cpu" : "lib/Linux/Cpuinfo/Cpu.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "linux",
-      "system",
-      "utils",
-      "cpu"
-    ],
-    "meta-version" : "0",
-    "version" : "0.0.8",
-    "description" : "Get the kernel CPU information on Linux",
-    "authors" : [
-      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ]
-  },
-  {
     "name" : "Event::Emitter",
     "source-url" : "git://github.com/tony-o/perl6-event-emitter.git",
     "support" : {
