@@ -1278,6 +1278,58 @@
     ]
   },
   {
+    "name" : "App::Cpan6",
+    "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-Cpan6-0.6.2.tar.gz",
+    "perl" : "6",
+    "auth" : "github:scriptkitties",
+    "depends" : {
+      "test" : {
+        "requires" : [
+          "Test::META"
+        ]
+      },
+      "runtime" : {
+        "recommends" : [
+          "git:from<bin>"
+        ],
+        "requires" : [
+          "Config",
+          "Config::Parser::toml",
+          "JSON::Fast",
+          "Template::Mustache",
+          "MIME::Base64",
+          "File::Temp",
+          "curl:from<bin>",
+          "tar:from<bin>"
+        ]
+      }
+    },
+    "tags" : [ ],
+    "provides" : {
+      "cpan6" : "bin/cpan6",
+      "App::Cpan6::Package::Ebuild" : "lib/App/Cpan6/Package/Ebuild.pm6",
+      "App::Cpan6::Commands::Release" : "lib/App/Cpan6/Commands/Release.pm6",
+      "App::Cpan6::Commands::Upload" : "lib/App/Cpan6/Commands/Upload.pm6",
+      "App::Cpan6::Meta" : "lib/App/Cpan6/Meta.pm6",
+      "App::Cpan6::Commands::Touch::Lib" : "lib/App/Cpan6/Commands/Touch/Lib.pm6",
+      "App::Cpan6::Commands::Dist" : "lib/App/Cpan6/Commands/Dist.pm6",
+      "App::Cpan6::Commands::Depend" : "lib/App/Cpan6/Commands/Depend.pm6",
+      "App::Cpan6" : "lib/App/Cpan6.pm6",
+      "App::Cpan6::Commands::Touch::Bin" : "lib/App/Cpan6/Commands/Touch/Bin.pm6",
+      "App::Cpan6::Commands::Touch" : "lib/App/Cpan6/Commands/Touch.pm6",
+      "App::Cpan6::Input" : "lib/App/Cpan6/Input.pm6",
+      "App::Cpan6::Commands::Pkg::Ebuild" : "lib/App/Cpan6/Commands/Pkg/Ebuild.pm6",
+      "App::Cpan6::Config" : "lib/App/Cpan6/Config.pm6",
+      "App::Cpan6::Commands::New" : "lib/App/Cpan6/Commands/New.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.6.2",
+    "description" : "The CPAN distribution helper",
+    "authors" : [
+      "Patrick Spek <p.spek@tyil.work>"
+    ]
+  },
+  {
     "name" : "App::MPD::AutoQueue",
     "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-MPD-AutoQueue-0.1.0.tar.gz",
     "perl" : "6",
