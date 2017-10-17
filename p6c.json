@@ -19080,7 +19080,8 @@
     "build-depends" : [ ],
     "depends" : [
       "HTTP::Request::Supply",
-      "HTTP::Status"
+      "HTTP::Status",
+      "IO::Socket::Async::SSL"
     ],
     "test-depends" : [
       "Path::Iterator",
