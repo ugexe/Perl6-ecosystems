@@ -10181,13 +10181,16 @@
     "depends" : [ ],
     "provides" : {
       "Color::Operators" : "lib/Color/Operators.pm6",
+      "Color::Manipulation" : "lib/Color/Manipulation.pm6",
+      "Color::Conversion" : "lib/Color/Conversion.pm6",
+      "Color::Utilities" : "lib/Color/Utilities.pm6",
       "Color" : "lib/Color.pm6"
     },
     "test-depends" : [
       "Test"
     ],
     "license" : "Artistic-2.0",
-    "version" : "1.001001",
+    "version" : "1.002002",
     "authors" : [
       "Zoffix Znet"
     ],
