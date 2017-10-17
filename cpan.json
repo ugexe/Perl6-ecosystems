@@ -347,6 +347,34 @@
     "description" : "Native call interface for Rakudo"
   },
   {
+    "name" : "Sparrowdo::Prometheus",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowdo-prometheus.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowdo-prometheus/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-Prometheus-0.0.1.tar.gz",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Sparrowdo",
+      "Sparrowdo::Archive",
+      "Sparrowdo::RemoteFile"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Sparrowdo::Prometheus" : "lib/Sparrowdo/Prometheus.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
+  },
+  {
     "name" : "Grammar::ErrorReporting",
     "support" : {
       "bugtracker" : "https://github.com/moritz/Grammar-ErrorReporting/issues"
