@@ -19821,7 +19821,7 @@
     },
     "test-depends" : [ ],
     "license" : "Artistic-2.0",
-    "version" : "0.1.1",
+    "version" : "0.2.0",
     "authors" : [
       "Andr\u00e9 Br\u00e1s"
     ],
@@ -20436,7 +20436,9 @@
     "name" : "CucumisSextus",
     "source-url" : "https://github.com/robertlemmen/perl6-cucumis-sextus.git",
     "perl" : "6.*",
-    "depends" : [ ],
+    "depends" : [
+      "Terminal::ANSIColor"
+    ],
     "license" : "Artistic-2.0",
     "provides" : {
       "CucumisSextus::Tags" : "lib/CucumisSextus/Tags.pm6",
