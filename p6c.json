@@ -20585,5 +20585,28 @@
     "authors" : [
       "Vittore F. Scolari"
     ]
+  },
+  {
+    "name" : "Reminders",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-Reminders.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "OO::Monitors",
+      "DBIish"
+    ],
+    "provides" : {
+      "Reminders" : "lib/Reminders.pm6"
+    },
+    "test-depends" : [
+      "Test",
+      "Temp::Path"
+    ],
+    "version" : "1.001004",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Class for managing reminders about tasks and events"
   }
 ]
