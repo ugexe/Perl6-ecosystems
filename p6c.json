@@ -14076,27 +14076,6 @@
     ]
   },
   {
-    "name" : "Audio::OggVorbis",
-    "source-url" : "git://github.com/Xliff/p6-audio-oggvorbis.git",
-    "perl" : "6.c",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "Audio::OggVorbis::Ogg" : "lib/Audio/OggVorbis/Ogg.pm",
-      "Audio::OggVorbis::Vorbis" : "lib/Audio/OggVorbis/Vorbis.pm",
-      "Audio::OggVorbis::VorbisEnc" : "lib/Audio/OggVorbis/VorbisEnc.pm"
-    },
-    "test-depends" : [
-      "Test::META"
-    ],
-    "version" : "0.0.1",
-    "description" : "Perl6 bindings for libogg, libvorbis and libvorbisenc",
-    "authors" : [
-      "github:Xliff",
-      "Clifton Wood"
-    ]
-  },
-  {
     "name" : "Task::Noise",
     "perl" : "6.c",
     "support" : {
