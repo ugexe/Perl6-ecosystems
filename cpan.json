@@ -401,6 +401,32 @@
     ]
   },
   {
+    "name" : "Sparrowdo::RemoteFile",
+    "support" : {
+      "source" : "https://github.com/melezhik/remote-file.git",
+      "bugtracker" : "https://github.com/melezhik/remote-file/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-RemoteFile-0.0.2.tar.gz",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Sparrowdo"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Sparrowdo::RemoteFile" : "lib/Sparrowdo/RemoteFile.pm6"
+    },
+    "license" : "NOASSERTION",
+    "version" : "0.0.2",
+    "description" : "Fetch remote file using http",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
+  },
+  {
     "name" : "Grammar::ErrorReporting",
     "support" : {
       "bugtracker" : "https://github.com/moritz/Grammar-ErrorReporting/issues"
