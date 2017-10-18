@@ -15467,27 +15467,6 @@
     ]
   },
   {
-    "name" : "Sparrowdo::RemoteFile",
-    "source-url" : "https://github.com/melezhik/remote-file.git",
-    "support" : {
-      "source" : "https://github.com/melezhik/remote-file.git",
-      "bugtracker" : "https://github.com/melezhik/remote-file/issues"
-    },
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [
-      "Sparrowdo"
-    ],
-    "provides" : {
-      "Sparrowdo::RemoteFile" : "lib/Sparrowdo/RemoteFile.pm6"
-    },
-    "version" : "*",
-    "authors" : [
-      "Alexey Melezhik"
-    ],
-    "description" : "Fetch remote file using http"
-  },
-  {
     "name" : "Sparrowdo::Archive",
     "source-url" : "https://github.com/melezhik/sparrowdo-archive.git",
     "support" : {
