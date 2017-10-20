@@ -417,6 +417,28 @@
     ]
   },
   {
+    "name" : "Color::Scheme",
+    "support" : {
+      "source" : "git://github.com/holli-holzer/perl6-Color-Names.git"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLLI/Perl6/Color-Scheme-1.001001.tar.gz",
+    "perl" : "6.c",
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Color::Scheme" : "lib/Color/Scheme.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "1.001001",
+    "meta-version" : "0",
+    "description" : "Generate color schemes from a base color",
+    "authors" : [
+      "Markus 'holli' Holzer",
+      ""
+    ]
+  },
+  {
     "name" : "Operator::grandpa",
     "support" : {
       "source" : "https://github.com/holli-holzer/Operator-grandpa.git"
