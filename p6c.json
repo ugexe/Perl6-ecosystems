@@ -20610,5 +20610,17 @@
       "Zoffix Znet"
     ],
     "description" : "Class for managing reminders about tasks and events"
+  },
+  {
+    "name" : "panda-stub",
+    "source-url" : "git://github.com/stmuk/p6-panda-stub",
+    "perl" : "6.c",
+    "author" : "Steve Mynott <steve.mynott@gmail.com>",
+    "provides" : {
+      "panda-stub" : "bin/panda"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1",
+    "description" : "A placeholder for panda which displays how to install panda. Intended for temporary use in Rakudo Star builds only"
   }
 ]
