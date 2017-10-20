@@ -311,6 +311,28 @@
     ]
   },
   {
+    "name" : "Color::Named",
+    "support" : {
+      "source" : "https://github.com/holli-holzer/perl6-Color-Named.git"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLLI/Perl6/Color-Named-1.001002.tar.gz",
+    "perl" : "6.c",
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Color::Named" : "lib/Color/Named.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "1.001002",
+    "meta-version" : "0",
+    "description" : "Work with named colors",
+    "authors" : [
+      "Markus 'holli' Holzer",
+      ""
+    ]
+  },
+  {
     "name" : "Color::Names",
     "support" : {
       "source" : "https://github.com/holli-holzer/perl6-Color-Names.git"
@@ -363,6 +385,56 @@
     "description" : "A comprehensive? list of named colors",
     "authors" : [
       "Markus 'holli' Holzer",
+      ""
+    ]
+  },
+  {
+    "name" : "Color::Names",
+    "support" : {
+      "source" : "https://github.com/holli-holzer/perl6-Color-Names.git"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLLI/Perl6/Color-Names-1.001003.tar.gz",
+    "perl" : "6.c",
+    "depends" : [
+      "JSON::Fast"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Color::Names::XKCD" : "lib/Color/Names/XKCD.pm6",
+      "Color::Names::X11" : "lib/Color/Names/X11.pm6",
+      "Color::Names" : "lib/Color/Names.pm6",
+      "Color::Names::CSS3" : "lib/Color/Names/CSS3.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "1.001003",
+    "meta-version" : "0",
+    "description" : "A comprehensive? list of named colors",
+    "authors" : [
+      "Markus 'holli' Holzer",
+      ""
+    ]
+  },
+  {
+    "name" : "Operator::grandpa",
+    "support" : {
+      "source" : "https://github.com/holli-holzer/Operator-grandpa.git"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLLI/Perl6/Operator-grandpa-1.001001.tar.gz",
+    "perl" : "6.c",
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Operator::grandpa" : "lib/Operator/grandpa.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "meta-version" : "0",
+    "description" : "The grandpa operator",
+    "authors" : [
+      "Markus 'Holli' Holzer",
       ""
     ]
   },
