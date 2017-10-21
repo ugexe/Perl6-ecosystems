@@ -259,6 +259,38 @@
     "description" : "Colorize terminal output"
   },
   {
+    "name" : "Text::CSV",
+    "support" : {
+      "irc" : "irc://irc.perl.org/#csv"
+    },
+    "source-url" : "git://github.com/Tux/CSV.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:Tux",
+    "repo-type" : "git",
+    "depends" : [
+      "Slang::Tuxic",
+      "File::Temp"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "Text::CSV" : "lib/Text/CSV.pm"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "CSV"
+    ],
+    "version" : "0.008",
+    "authors" : [
+      "H.Merijn Brand (Tux)"
+    ],
+    "description" : "Handle CSV data. API based on Text::CSV_XS"
+  },
+  {
     "name" : "HTTP::Server::Simple",
     "source-url" : "git://github.com/gfldex/http-server-simple.git",
     "perl" : "6.*",
