@@ -11984,6 +11984,37 @@
     "description" : "A library of routines to create AWS V4 authentication strings"
   },
   {
+    "name" : "LMDB",
+    "support" : {
+      "email" : "sog@msg.com.mx",
+      "source" : [
+        "git://github.com/salortiz/p6-LMDB.git",
+        "https://github.com/salortiz/p6-LMDB.git"
+      ]
+    },
+    "source-url" : "git://github.com/salortiz/p6-LMDB.git",
+    "perl" : "6.c",
+    "build-depends" : [ ],
+    "auth" : "github:salortiz",
+    "repo-type" : "git",
+    "depends" : [ ],
+    "tags" : [
+      "kv",
+      "liblmdb"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "LMDB" : "lib/LMDB.pm6"
+    },
+    "test-depends" : [
+      "Test",
+      "File::Temp"
+    ],
+    "version" : "0.0.1",
+    "authors" : "Salvador Ortiz <sortiz@cpan.com>",
+    "description" : "Native bindings for OpenLDAP's LMDB library"
+  },
+  {
     "name" : "Crypt::TweetNacl",
     "perl" : "v6.c",
     "source-url" : "git://github.com/soundart/perl6-tweetnacl.git",
