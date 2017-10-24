@@ -543,6 +543,20 @@
     ]
   },
   {
+    "name" : "JSON::Tiny",
+    "source-url" : "http://www.cpan.org/authors/id/M/MO/MORITZ/Perl6/JSON-Tiny-1.0.tar.gz",
+    "perl" : "6.*",
+    "depends" : [ ],
+    "provides" : {
+      "JSON::Tiny::Actions" : "lib/JSON/Tiny/Actions.pm",
+      "JSON::Tiny" : "lib/JSON/Tiny.pm",
+      "JSON::Tiny::Grammar" : "lib/JSON/Tiny/Grammar.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.0",
+    "description" : "A minimal JSON (de)serializer"
+  },
+  {
     "name" : "Math::Model",
     "source-url" : "http://www.cpan.org/authors/id/M/MO/MORITZ/Perl6/Math-Model-0.3.tar.gz",
     "resources" : [ ],
