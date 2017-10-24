@@ -61,20 +61,6 @@
     "description" : "The kitty you always wanted, now in Perl 6"
   },
   {
-    "name" : "JSON::Tiny",
-    "source-url" : "git://github.com/moritz/json.git",
-    "perl" : "6.*",
-    "depends" : [ ],
-    "provides" : {
-      "JSON::Tiny::Actions" : "lib/JSON/Tiny/Actions.pm",
-      "JSON::Tiny" : "lib/JSON/Tiny.pm",
-      "JSON::Tiny::Grammar" : "lib/JSON/Tiny/Grammar.pm"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "1.0",
-    "description" : "A minimal JSON (de)serializer"
-  },
-  {
     "name" : "Testing",
     "source-url" : "git://github.com/colomon/perl6-Testing.git",
     "source-type" : "git",
