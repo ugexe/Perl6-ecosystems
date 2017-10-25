@@ -20617,5 +20617,22 @@
     "license" : "Artistic-2.0",
     "version" : "0.1",
     "description" : "A placeholder for panda which displays how to install panda. Intended for temporary use in Rakudo Star builds only"
+  },
+  {
+    "name" : "Parse::STDF",
+    "source-url" : "git://github.com/erickjordan/perl6-Parse-STDF.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "author" : "ejordan",
+    "depends" : [ ],
+    "provides" : {
+      "Parse::STDF" : "lib/Parse/STDF.pm6",
+      "Parse::STDF::Native" : "lib/Parse/STDF/Native.pm6"
+    },
+    "version" : "0.1.1",
+    "description" : "Module for parsing files in Standard Test Data Format",
+    "authors" : [
+      "Erick Jordan <ejordan@cpan.org>"
+    ]
   }
 ]
