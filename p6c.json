@@ -146,6 +146,17 @@
     "description" : "Basic continued fraction arithmetic"
   },
   {
+    "name" : "Math::ChebyshevPolynomial",
+    "source-url" : "git://github.com/colomon/Math-ChebyshevPolynomial.git",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "Math::ChebyshevPolynomial" : "lib/Math/ChebyshevPolynomial.pm"
+    },
+    "version" : "*",
+    "description" : "Simple Chebyshev polynomial class"
+  },
+  {
     "name" : "Math::OddFunctions",
     "source-url" : "git://github.com/colomon/Math-Odd-Functions.git",
     "source-type" : "git",
