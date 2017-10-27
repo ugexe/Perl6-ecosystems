@@ -9732,25 +9732,6 @@
     "description" : "Validate/generate credit card checksums/names"
   },
   {
-    "name" : "RPi",
-    "source-url" : "https://github.com/cspencer/perl6-raspberry-pi.git",
-    "author" : "Cory Spencer",
-    "depends" : [
-      "POSIX"
-    ],
-    "test-depends" : [
-      "Test"
-    ],
-    "provides" : {
-      "RPi::Wiring" : "lib/RPi/Wiring.pm6",
-      "RPi::GPIO::Pin" : "lib/RPi/GPIO/Pin.pm6",
-      "RPi::GPIO" : "lib/RPi/GPIO.pm6",
-      "RPi" : "lib/RPi.pm6"
-    },
-    "version" : "0.1.1",
-    "description" : "RPi - An interface to the Raspberry Pi's GPIO and other peripherals"
-  },
-  {
     "name" : "META6",
     "perl" : "6.c",
     "support" : {
@@ -10780,23 +10761,6 @@
     },
     "version" : "0.0.3",
     "description" : "Basic Consistent Hash implementation."
-  },
-  {
-    "name" : "RPi::Device::DS18B20",
-    "source-url" : "https://github.com/cspencer/perl6-raspberry-pi-device-ds18b20.git",
-    "author" : "Cory Spencer",
-    "depends" : [
-      "RPi"
-    ],
-    "test-depends" : [
-      "Test"
-    ],
-    "provides" : {
-      "RPi::Device::DS18B20::Sensor" : "lib/RPi/Device/DS18B20/Sensor.pm6",
-      "RPi::Device::DS18B20" : "lib/RPi/Device/DS18B20.pm6"
-    },
-    "version" : "0.2.0",
-    "description" : "RPi::Device::DS18B20 provides support for the DS18B20 family of temperature sensors."
   },
   {
     "name" : "Algorithm::BloomFilter",
