@@ -20551,7 +20551,9 @@
     "perl" : "6.c",
     "resources" : [ ],
     "author" : "ejordan",
-    "depends" : [ ],
+    "depends" : [
+      "RakudoPrereq"
+    ],
     "tags" : [
       "Parser",
       "Parsing",
@@ -20561,7 +20563,7 @@
       "Parse::STDF" : "lib/Parse/STDF.pm6",
       "Parse::STDF::Native" : "lib/Parse/STDF/Native.pm6"
     },
-    "version" : "0.1.1",
+    "version" : "0.1.2",
     "description" : "Module for parsing files in Standard Test Data Format",
     "authors" : [
       "Erick Jordan <ejordan@cpan.org>"
