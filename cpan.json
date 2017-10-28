@@ -975,6 +975,29 @@
     ]
   },
   {
+    "name" : "RPi::ButtonWatcher",
+    "support" : {
+      "source" : "git://github.com/patzim/perl6-RPi-ButtonWatcher.git"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/P/PA/PATRICKZ/Perl6/RPi-ButtonWatcher-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "depends" : [
+      "RPi::Wiring::Pi"
+    ],
+    "tags" : [
+      "RaspberryPi"
+    ],
+    "provides" : {
+      "RPi::ButtonWatcher" : "lib/RPi/ButtonWatcher.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "A button push event supplier.",
+    "authors" : [
+      "Patrick Sebastian Zimmermann"
+    ]
+  },
+  {
     "name" : "App::Mi6",
     "source-url" : "git://github.com/skaji/mi6.git",
     "perl" : "6.c",
