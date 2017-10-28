@@ -4964,6 +4964,19 @@
     ]
   },
   {
+    "name" : "Lingua::EN::Syllable",
+    "perl" : "6.*",
+    "source-url" : "git://github.com/coke/p6-lingua-en-syllable.git",
+    "author" : "Will \u201cCoke\u201d Coleda",
+    "depends" : [ ],
+    "provides" : {
+      "Lingua::EN::Syllable" : "lib/Lingua/EN/Syllable.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "*",
+    "description" : "Guess the number of syllables in an English word"
+  },
+  {
     "name" : "App::Uni",
     "perl" : "6.c",
     "source-url" : "git://github.com/coke/p6-uni.git",
