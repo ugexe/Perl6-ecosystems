@@ -998,6 +998,33 @@
     ]
   },
   {
+    "name" : "RPi::Device::ST7036",
+    "support" : {
+      "source" : "git://github.com/patzim/perl6-RPi-Device-ST7036.git"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/P/PA/PATRICKZ/Perl6/RPi-Device-ST7036-0.0.3.tar.gz",
+    "perl" : "6.c",
+    "depends" : [
+      "RPi::Wiring::Pi"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "RaspberryPi"
+    ],
+    "provides" : {
+      "RPi::Device::ST7036" : "lib/RPi/Device/ST7036.pm6",
+      "RPi::Device::ST7036::Setup" : "lib/RPi/Device/ST7036/Setup.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.3",
+    "description" : "Support for the ST7036 dot matrix display.",
+    "authors" : [
+      "Patrick Sebastian Zimmermann"
+    ]
+  },
+  {
     "name" : "App::Mi6",
     "source-url" : "git://github.com/skaji/mi6.git",
     "perl" : "6.c",
