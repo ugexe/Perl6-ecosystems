@@ -157,6 +157,17 @@
     "description" : "Simple Chebyshev polynomial class"
   },
   {
+    "name" : "Math::OddFunctions",
+    "source-url" : "git://github.com/colomon/Math-Odd-Functions.git",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "Math::OddFunctions" : "lib/Math/OddFunctions.pm"
+    },
+    "version" : "*",
+    "description" : "Standard math function odds and ends"
+  },
+  {
     "name" : "Config::INI",
     "source-url" : "git://github.com/tadzik/perl6-Config-INI.git",
     "support" : {
