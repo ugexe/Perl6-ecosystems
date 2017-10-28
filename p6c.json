@@ -20418,32 +20418,6 @@
     ]
   },
   {
-    "name" : "RPi::Device::ST7036",
-    "support" : {
-      "source" : "git://github.com/patzim/perl6-RPi-Device-ST7036.git"
-    },
-    "perl" : "6.c",
-    "depends" : [
-      "RPi::Wiring::Pi"
-    ],
-    "provides" : {
-      "RPi::Device::ST7036" : "lib/RPi/Device/ST7036.pm6",
-      "RPi::Device::ST7036::Setup" : "lib/RPi/Device/ST7036/Setup.pm6"
-    },
-    "test-depends" : [
-      "Test::META"
-    ],
-    "tags" : [
-      "RaspberryPi"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "0.0.3",
-    "authors" : [
-      "Patrick Sebastian Zimmermann"
-    ],
-    "description" : "Support for the ST7036 dot matrix display."
-  },
-  {
     "name" : "CommandLine::Usage",
     "source-url" : "https://github.com/7ojo/p6-commandline-usage.git",
     "perl" : "6",
