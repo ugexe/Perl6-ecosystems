@@ -425,6 +425,26 @@
     "description" : "data selection dsl parser and applicator"
   },
   {
+    "name" : "IO::Socket::Async::SSL",
+    "support" : {
+      "source" : "https://github.com/jnthn/p6-io-socket-async-ssl.git"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/IO-Socket-Async-SSL-0.5.0.tar.gz",
+    "perl" : "6.*",
+    "depends" : [
+      "OpenSSL"
+    ],
+    "provides" : {
+      "IO::Socket::Async::SSL" : "lib/IO/Socket/Async/SSL.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.5",
+    "description" : "Provides an API like IO::Socket::Async, but with SSL support.",
+    "authors" : [
+      "Jonathan Worthington <jnthn@jnthn.net>"
+    ]
+  },
+  {
     "name" : "NativeCall",
     "support" : {
       "source" : "https://github.com/jnthn/zavolaj.git",
