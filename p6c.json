@@ -17841,25 +17841,6 @@
     "description" : "Install Rakudo as system package"
   },
   {
-    "name" : "IO::Socket::Async::SSL",
-    "support" : {
-      "source" : "https://github.com/jnthn/p6-io-socket-async-ssl.git"
-    },
-    "perl" : "6.*",
-    "depends" : [
-      "OpenSSL"
-    ],
-    "provides" : {
-      "IO::Socket::Async::SSL" : "lib/IO/Socket/Async/SSL.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.5",
-    "authors" : [
-      "Jonathan Worthington <jnthn@jnthn.net>"
-    ],
-    "description" : "Provides an API like IO::Socket::Async, but with SSL support."
-  },
-  {
     "name" : "Native::Packing",
     "source-url" : "git://github.com/p6-pdf/Native-Packing-p6.git",
     "perl" : "6.c",
