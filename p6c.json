@@ -19210,6 +19210,9 @@
     "perl" : "6.c",
     "resources" : [ ],
     "depends" : [ ],
+    "test-depends" : [
+      "Test::Meta"
+    ],
     "provides" : {
       "Grammar::Modelica::ComponentClause" : "lib/Grammar/Modelica/ComponentClause.pm6",
       "Grammar::Modelica" : "lib/Grammar/Modelica.pm6",
