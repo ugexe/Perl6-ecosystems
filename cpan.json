@@ -383,6 +383,31 @@
     ]
   },
   {
+    "name" : "Test::Color",
+    "support" : {
+      "source" : "https://github.com/holli-holzer/perl6-Test-Color"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLLI/Perl6/Test-Color-1.001001.tar.gz",
+    "perl" : "6.c",
+    "depends" : [
+      "Terminal::ANSIColor"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "Test::Color" : "lib/Test/Color.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "1.001001",
+    "meta-version" : "0",
+    "description" : "Colored Test - output",
+    "authors" : [
+      "Markus 'Holli' Holzer",
+      ""
+    ]
+  },
+  {
     "name" : "Data::Selector",
     "support" : {
       "irc" : "irc://irc.freenode.net/perl6",
