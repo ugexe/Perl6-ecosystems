@@ -8361,7 +8361,7 @@
     "provides" : {
       "YAMLish" : "lib/YAMLish.pm6"
     },
-    "version" : "0.0.3",
+    "version" : "0.0.4",
     "description" : "A pure perl6 implementation of YAML"
   },
   {
@@ -11021,22 +11021,6 @@
     "authors" : [
       "Jonathan Stowe <jns+git@gellyfish.co.uk>"
     ]
-  },
-  {
-    "name" : "CompUnit::Util",
-    "source-url" : "git://github.com/LLFourn/p6-CompUnit-Util",
-    "perl" : "6.*",
-    "resources" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "CompUnit::Util" : "lib/CompUnit/Util.pm6"
-    },
-    "license" : "MIT",
-    "version" : "0.6.0",
-    "authors" : [
-      "Lloyd Fournier"
-    ],
-    "description" : "Utilities for introspecting compunits and re-exporting"
   },
   {
     "name" : "IRC::Client::Plugin::Factoid",
