@@ -14749,16 +14749,26 @@
   },
   {
     "name" : "DateTime::DST",
+    "support" : {
+      "source" : "git://github.com/zostay/DateTime-DST.git"
+    },
     "source-url" : "git://github.com/zostay/DateTime-DST.git",
-    "perl" : "6.*",
+    "perl" : "6.c",
     "author" : "Andrew Sterling Hanenkamp",
-    "depends" : [ ],
+    "auth" : "github:zostay",
+    "depends" : [
+      "LibraryMake"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
     "provides" : {
-      "ArrayHash" : "lib/DateTime/DST.pm6"
+      "DateTime::DST" : "lib/DateTime/DST.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.1",
-    "description" : "Make localtime[8] available as is-dst to Perl 6"
+    "version" : "0.2",
+    "description" : "Make localtime[8] available as is-dst to Perl 6",
+    "meta6" : "0"
   },
   {
     "name" : "File::Presence",
