@@ -11023,6 +11023,22 @@
     ]
   },
   {
+    "name" : "CompUnit::Util",
+    "source-url" : "git://github.com/LLFourn/p6-CompUnit-Util",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "CompUnit::Util" : "lib/CompUnit/Util.pm6"
+    },
+    "license" : "MIT",
+    "version" : "0.6.0",
+    "authors" : [
+      "Lloyd Fournier"
+    ],
+    "description" : "Utilities for introspecting compunits and re-exporting"
+  },
+  {
     "name" : "IRC::Client::Plugin::Factoid",
     "support" : {
       "source" : "git://github.com/zoffixznet/perl6-IRC-Client-Plugin-Factoid.git"
