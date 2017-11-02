@@ -4410,6 +4410,30 @@
     ]
   },
   {
+    "name" : "MsgPack",
+    "source-url" : "git://github.com/azawawi/perl6-msgpack.git",
+    "perl" : "6.c",
+    "resources" : [
+      "libmsgpack-perl6.dll",
+      "libmsgpack-perl6.dylib",
+      "libmsgpack-perl6.so"
+    ],
+    "auth" : "github:azawawi",
+    "provides" : {
+      "MsgPack" : "lib/MsgPack.pm6",
+      "MsgPack::Packer" : "lib/MsgPack/Packer.pm6"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "MIT",
+    "version" : "0.0.2",
+    "authors" : [
+      "Ahmad M. Zawawi"
+    ],
+    "description" : "Perl 6 Interface to libmsgpack"
+  },
+  {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
     "perl" : "6.*",
