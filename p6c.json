@@ -15008,24 +15008,6 @@
     "description" : "Compare two complex data structures loosely"
   },
   {
-    "name" : "OAuth2::Client::Google",
-    "source-url" : "git://github.com/bduggan/p6-oauth2-client-google.git",
-    "perl" : "6.*",
-    "depends" : [
-      "HTTP::UserAgent",
-      "IO::Socket::SSL",
-      "JSON::Fast"
-    ],
-    "provides" : {
-      "OAuth2::Client::Google" : "lib/OAuth2/Client/Google.pm6"
-    },
-    "version" : "0.1.0",
-    "authors" : [
-      "Brian Duggan"
-    ],
-    "description" : "Authenticate against Google's OAuth2 API."
-  },
-  {
     "name" : "Getopt::Std",
     "source-url" : "https://github.com/ppentchev/perl6-Getopt-Std.git",
     "perl" : "6.c",
