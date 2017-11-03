@@ -9890,37 +9890,6 @@
     ]
   },
   {
-    "name" : "JSON::Name",
-    "perl" : "6.c",
-    "support" : {
-      "source" : "git://github.com/jonathanstowe/JSON-Name.git"
-    },
-    "source-url" : "git://github.com/jonathanstowe/JSON-Name.git",
-    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-    "build-depends" : [ ],
-    "resources" : [ ],
-    "auth" : "github:jonathanstowe",
-    "depends" : [ ],
-    "provides" : {
-      "JSON::Name" : "lib/JSON/Name.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "tags" : [
-      "object",
-      "serialisation",
-      "JSON"
-    ],
-    "version" : "0.0.2",
-    "meta6" : "0",
-    "description" : "Provides a trait to store an alternative JSON Name",
-    "authors" : [
-      "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-    ]
-  },
-  {
     "name" : "Search::Dict",
     "source-url" : "git://github.com/zengargoyle/p6-Search-Dict.git",
     "perl" : "6.c",
