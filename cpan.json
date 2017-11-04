@@ -1342,6 +1342,46 @@
     ]
   },
   {
+    "name" : "Acme::Test::Module",
+    "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/Acme-Test-Module-1.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Acme::Test::Module" : "lib/Acme/Test/Module.pm6",
+      "Acme::Test::Module::Foo" : "lib/Acme/Test/Module/Foo.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.0.1",
+    "description" : "a test module",
+    "authors" : [
+      "Shoichi Kaji"
+    ]
+  },
+  {
+    "name" : "Acme::Test::Module",
+    "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/Acme-Test-Module-1.0.2.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Acme::Test::Module" : "lib/Acme/Test/Module.pm6",
+      "Acme::Test::Module::Foo" : "lib/Acme/Test/Module/Foo.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.0.2",
+    "description" : "a test module",
+    "authors" : [
+      "Shoichi Kaji"
+    ]
+  },
+  {
     "name" : "App::Mi6",
     "source-url" : "git://github.com/skaji/mi6.git",
     "perl" : "6.c",
