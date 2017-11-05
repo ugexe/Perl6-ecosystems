@@ -19679,7 +19679,6 @@
       "PDF::Content::ResourceDict" : "lib/PDF/Content/ResourceDict.pm",
       "PDF::Content::Matrix" : "lib/PDF/Content/Matrix.pm",
       "PDF::Content::Graphics" : "lib/PDF/Content/Graphics.pm",
-      "PDF::Content::Util::Font" : "lib/PDF/Content/Util/Font.pm",
       "PDF::Content::Image::GIF" : "lib/PDF/Content/Image/GIF.pm",
       "PDF::Content::Image" : "lib/PDF/Content/Image.pm",
       "PDF::Content::Font::Enc::CMap" : "lib/PDF/Content/Font/Enc/CMap.pm",
@@ -19690,6 +19689,7 @@
       "PDF::Content" : "lib/PDF/Content.pm",
       "PDF::Content::Text::Style" : "lib/PDF/Content/Text/Style.pm",
       "PDF::Content::Text::Line" : "lib/PDF/Content/Text/Line.pm",
+      "PDF::Content::Font::CoreFont" : "lib/PDF/Content/Font/CoreFont.pm",
       "PDF::Content::Image::PNG" : "lib/PDF/Content/Image/PNG.pm",
       "PDF::Content::Text::Reserved" : "lib/PDF/Content/Text/Reserved.pm",
       "PDF::Content::Text::Block" : "lib/PDF/Content/Text/Block.pm",
@@ -19698,7 +19698,7 @@
       "PDF::Content::Marked" : "lib/PDF/Content/Marked.pm"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.0.7",
+    "version" : "0.0.8",
     "description" : "PDF content related classes; including text, images, fonts and graphics"
   },
   {
