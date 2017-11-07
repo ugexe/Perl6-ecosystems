@@ -111,6 +111,18 @@
     "description" : "Discrete Fourier Transform implementation."
   },
   {
+    "name" : "Math::Polynomial",
+    "source-url" : "git://github.com/colomon/Math-Polynomial.git",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "Math::Polynomial" : "lib/Math/Polynomial.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "*",
+    "description" : "Simple polynomial class"
+  },
+  {
     "name" : "Math::Vector",
     "source-url" : "git://github.com/colomon/Math-Vector.git",
     "perl" : "6.*",
