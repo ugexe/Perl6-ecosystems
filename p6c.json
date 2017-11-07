@@ -2700,6 +2700,7 @@
       "Template::Mustache",
       "Terminal::ANSIColor",
       "URI",
+      "URI::Encode",
       "YAMLish"
     ],
     "test-depends" : [ ],
@@ -2709,6 +2710,7 @@
       "Net"
     ],
     "provides" : {
+      "Bailador::Log::Adapter" : "lib/Bailador/Log/Adapter.pm",
       "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
       "Bailador::Route::AutoHead" : "lib/Bailador/Route/AutoHead.pm",
       "Bailador::Request" : "lib/Bailador/Request.pm",
@@ -2722,12 +2724,12 @@
       "Bailador::Command" : "lib/Bailador/Command.pm",
       "Bailador::Route::Prefix" : "lib/Bailador/Route/Prefix.pm",
       "Bailador::Route::Controller" : "lib/Bailador/Route/Controller.pm",
+      "Bailador::Log::Formatter" : "lib/Bailador/Log/Formatter.pm",
       "Bailador::Command::ogre" : "lib/Bailador/Command/ogre.pm",
       "Bailador::Test" : "lib/Bailador/Test.pm",
       "Bailador::Template" : "lib/Bailador/Template.pm",
       "Bailador::Sessions" : "lib/Bailador/Sessions.pm",
       "Bailador::RouteHelper" : "lib/Bailador/RouteHelper.pm",
-      "Bailador::LogAdapter" : "lib/Bailador/LogAdapter.pm",
       "Bailador::Exceptions" : "lib/Bailador/Exceptions.pm",
       "Bailador::Command::tiny" : "lib/Bailador/Command/tiny.pm",
       "Bailador::Command::easy" : "lib/Bailador/Command/easy.pm",
@@ -2744,12 +2746,12 @@
       "Bailador::Command::p6w" : "lib/Bailador/Command/p6w.pm",
       "Bailador::Route" : "lib/Bailador/Route.pm",
       "Bailador::Request::Multipart" : "lib/Bailador/Request/Multipart.pm",
-      "Bailador::LogFormatter" : "lib/Bailador/LogFormatter.pm",
+      "Bailador::Log" : "lib/Bailador/Log.pm",
       "Bailador::Gradual" : "lib/Bailador/Gradual.pm",
       "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
     },
     "license" : "MIT",
-    "version" : "0.0.13",
+    "version" : "0.0.14",
     "description" : "A light-weight route-based web application framework for Perl 6",
     "authors" : [
       "Tadeusz \u201ctadzik\u201d So\u015bnierz",
@@ -2766,7 +2768,8 @@
       "ugexe",
       "vendethiel",
       "Martin Barth (ufobat)",
-      "Emeric Fischer"
+      "Emeric Fischer",
+      "Julien Simonet (jsimonet)"
     ]
   },
   {
