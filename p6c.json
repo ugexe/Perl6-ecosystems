@@ -4413,39 +4413,6 @@
     ]
   },
   {
-    "name" : "MsgPack",
-    "source-url" : "git://github.com/azawawi/perl6-msgpack.git",
-    "perl" : "6.c",
-    "resources" : [
-      "libmsgpack-perl6.dll",
-      "libmsgpack-perl6.dylib",
-      "libmsgpack-perl6.so"
-    ],
-    "auth" : "github:azawawi",
-    "test-depends" : [
-      "Test"
-    ],
-    "tags" : [
-      "Data",
-      "JSON",
-      "MessagePack",
-      "msgpack",
-      "NativeCall"
-    ],
-    "provides" : {
-      "MsgPack" : "lib/MsgPack.pm6",
-      "MsgPack::Packer" : "lib/MsgPack/Packer.pm6",
-      "MsgPack::Unpacker" : "lib/MsgPack/Unpacker.pm6",
-      "MsgPack::Native" : "lib/MsgPack/Native.pm6"
-    },
-    "license" : "MIT",
-    "version" : "0.0.7",
-    "description" : "Perl 6 Interface to libmsgpack",
-    "authors" : [
-      "Ahmad M. Zawawi"
-    ]
-  },
-  {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
     "perl" : "6.*",
