@@ -2020,6 +2020,31 @@
     ]
   },
   {
+    "name" : "App::MPD::Notify",
+    "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-MPD-Notify-0.1.0.tar.gz",
+    "perl" : "6",
+    "auth" : "github:tyil",
+    "depends" : [
+      "Config",
+      "Desktop::Notify",
+      "HTML::Escape",
+      "MPD::Client"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "mpd-notify" : "bin/mpd-notify"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.1.0",
+    "description" : "Show MPD notifications",
+    "authors" : [
+      "Patrick Spek <p.spek@tyil.work>"
+    ]
+  },
+  {
     "name" : "Config",
     "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Config-1.2.2.tar.gz",
     "perl" : "6",
