@@ -5704,10 +5704,20 @@
   },
   {
     "name" : "SP6",
-    "perl" : "6.*",
+    "support" : {
+      "bugtracker" : "https://github.com/mj41/SP6/issues"
+    },
     "source-url" : "git://github.com/mj41/SP6.git",
+    "perl" : "6",
     "source-type" : "git",
+    "auth" : "github:mj41",
     "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "template"
+    ],
     "provides" : {
       "SP6::ProcessMethods" : "lib/SP6/ProcessMethods.pm6",
       "SP6" : "lib/SP6.pm6"
