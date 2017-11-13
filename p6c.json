@@ -17785,8 +17785,7 @@
     "source-url" : "https://github.com/CurtTilmes/Perl6-GraphQL.git",
     "depends" : [
       "JSON::Fast",
-      "Text::Wrap",
-      "Bailador"
+      "Text::Wrap"
     ],
     "license" : "NASA-1.3",
     "test-depends" : [
@@ -17796,6 +17795,7 @@
       "GraphQL::Actions" : "lib/GraphQL/Actions.pm",
       "GraphQL::Introspection" : "lib/GraphQL/Introspection.pm",
       "GraphQL" : "lib/GraphQL.pm",
+      "Cro::HTTP::Router::GraphQL" : "lib/Cro/HTTP/Router/GraphQL.pm6",
       "GraphQL::Compare" : "lib/GraphQL/Compare.pm",
       "GraphQL::Execution" : "lib/GraphQL/Execution.pm",
       "GraphQL::Response" : "lib/GraphQL/Response.pm",
@@ -17808,7 +17808,7 @@
     "tags" : [
       "GraphQL"
     ],
-    "version" : "0.5.3",
+    "version" : "0.5.4",
     "authors" : [
       "Curt Tilmes <Curt.Tilmes@nasa.gov>"
     ],
