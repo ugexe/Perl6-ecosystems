@@ -750,20 +750,6 @@
     "description" : "OpenSSL bindings"
   },
   {
-    "name" : "bamboo",
-    "source-url" : "git://github.com/sergot/bamboo.git",
-    "perl" : "6.*",
-    "author" : "github:sergot",
-    "depends" : [
-      "Panda"
-    ],
-    "provides" : {
-      "Bamboo" : "lib/Bamboo.pm6"
-    },
-    "version" : "0.0.3",
-    "description" : "Perl 6 dependency manager"
-  },
-  {
     "name" : "DB::Model::Easy",
     "source-url" : "git://github.com/supernovus/perl6-db-model-easy.git",
     "perl" : "6.*",
