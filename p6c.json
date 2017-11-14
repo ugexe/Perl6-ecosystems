@@ -16375,13 +16375,14 @@
       "JSON::Tiny",
       "Test::META"
     ],
+    "tags" : [ ],
     "provides" : {
       "JSON::Hjson" : "lib/JSON/Hjson.pm6",
       "JSON::Hjson::Grammar" : "lib/JSON/Hjson/Grammar.pm6",
       "JSON::Hjson::Actions" : "lib/JSON/Hjson/Actions.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "*",
+    "version" : "0.0.1",
     "description" : "Human JSON (Hjson) deserializer",
     "authors" : [
       "Takumi Akiyama"
