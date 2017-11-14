@@ -16183,15 +16183,14 @@
     "source-url" : "git://github.com/spebern/Parser-FreeXL-Native.git",
     "perl" : "6.c",
     "resources" : [ ],
-    "build-depends" : [
-      "LibraryMake"
-    ],
+    "build-depends" : [ ],
     "depends" : [ ],
     "test-depends" : [ ],
     "provides" : {
       "Parser::FreeXL::Native" : "lib/Parser/FreeXL/Native.pm6"
     },
-    "version" : "*",
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
     "description" : "wrapper for freexl parsing .xls files",
     "authors" : [
       "spebern"
