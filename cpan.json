@@ -1375,6 +1375,25 @@
     ]
   },
   {
+    "name" : "Timer::Breakable",
+    "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Timer-Breakable-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Timer::Breakable" : "lib/Timer/Breakable.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Timed block calls that can be broken externally.",
+    "authors" : [
+      "Simon Proctor"
+    ]
+  },
+  {
     "name" : "Acme::Test::Module",
     "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/Acme-Test-Module-1.0.1.tar.gz",
     "perl" : "6.c",
