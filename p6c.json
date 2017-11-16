@@ -218,33 +218,6 @@
     "description" : "Colorize terminal output"
   },
   {
-    "name" : "Terminal::ANSIColor",
-    "source-url" : "git://github.com/tadzik/Terminal-ANSIColor.git",
-    "support" : {
-      "source" : "git://github.com/tadzik/Terminal-ANSIColor.git",
-      "bugtracker" : "https://github.com/tadzik/Terminal-ANSIColor/issues"
-    },
-    "perl" : "6.*",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "Terminal::ANSIColor" : "lib/Terminal/ANSIColor.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "MIT",
-    "version" : "0.4",
-    "authors" : [
-      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-      "jnthn",
-      "Steve Mynott",
-      "timo",
-      "Tobias Leich"
-    ],
-    "description" : "Colorize terminal output"
-  },
-  {
     "name" : "Text::CSV",
     "support" : {
       "irc" : "irc://irc.perl.org/#csv"
