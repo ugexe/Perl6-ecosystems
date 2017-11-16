@@ -397,6 +397,23 @@
     "description" : "Encoding and decoding Base64 ASCII strings"
   },
   {
+    "name" : "Test::Mock",
+    "source-url" : "git://github.com/jnthn/test-mock.git",
+    "perl" : "6.*",
+    "depends" : [
+      "OO::Monitors"
+    ],
+    "provides" : {
+      "Test::Mock" : "lib/Test/Mock.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.4",
+    "description" : "Creation of stub objects using the Arrange, Act, Assert pattern.",
+    "authors" : [
+      "Jonathan Worthington <jnthn@jnthn.net>"
+    ]
+  },
+  {
     "name" : "BioPerl6",
     "source-url" : "git://github.com/cjfields/bioperl6.git",
     "perl" : "6.c",
