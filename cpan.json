@@ -197,6 +197,29 @@
     ]
   },
   {
+    "name" : "OAuth2::Client::Google",
+    "source-url" : "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/OAuth2-Client-Google-0.1.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "HTTP::UserAgent",
+      "IO::Socket::SSL",
+      "JSON::Fast"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "OAuth2::Client::Google" : "lib/OAuth2/Client/Google.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.1",
+    "description" : "Authenticate against Google's OAuth2 API.",
+    "authors" : [
+      "Brian Duggan"
+    ]
+  },
+  {
     "name" : "Inline",
     "support" : {
       "source" : "https://github.com/FROGGS/p6-Inline-C.git",
