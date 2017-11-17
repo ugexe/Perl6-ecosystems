@@ -20337,5 +20337,20 @@
       "Zoffix Znet"
     ],
     "description" : "Use http://fpaste.scsys.co.uk/ pastebin from Perl 6"
+  },
+  {
+    "name" : "Algorithm::BitMap",
+    "source-url" : "git://github.com/W4anD0eR96/Algorithm-BitMap.git",
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "Algorithm::BitMap" : "lib/Algorithm/BitMap.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "authors" : [
+      "Alex Chen"
+    ],
+    "description" : "Efficient way to handle Boolean vector"
   }
 ]
