@@ -18960,7 +18960,8 @@
     "build-depends" : [ ],
     "depends" : [
       "HTTP::Request::Supply",
-      "HTTP::Status"
+      "HTTP::Status",
+      "HTTP::HPACK"
     ],
     "test-depends" : [
       "Path::Iterator",
