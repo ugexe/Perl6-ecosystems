@@ -18972,11 +18972,18 @@
       "P6W"
     ],
     "provides" : {
+      "HTTP::Server::Ogre::HTTP2::RequestParser" : "lib/HTTP/Server/Ogre/HTTP2/RequestParser.pm6",
+      "HTTP::Server::Ogre::HTTP2::ResponseSerializer" : "lib/HTTP/Server/Ogre/HTTP2/ResponseSerializer.pm6",
       "HTTP::Server::Ogre::Http1Protocol" : "lib/HTTP/Server/Ogre/Http1Protocol.pm",
+      "HTTP::Server::Ogre::HTTP2::FrameSerializer" : "lib/HTTP/Server/Ogre/HTTP2/FrameSerializer.pm6",
+      "HTTP::Server::Ogre::HTTP2::FrameParser" : "lib/HTTP/Server/Ogre/HTTP2/FrameParser.pm6",
+      "HTTP::Server::Ogre::HTTP2::Frame" : "lib/HTTP/Server/Ogre/HTTP2/Frame.pm6",
+      "HTTP::Server::Ogre::HTTP2::ConnectionState" : "lib/HTTP/Server/Ogre/HTTP2/ConnectionState.pm6",
+      "HTTP::Server::Ogre::Http2Protocol" : "lib/HTTP/Server/Ogre/Http2Protocol.pm6",
       "HTTP::Server::Ogre" : "lib/HTTP/Server/Ogre.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.0.2",
+    "version" : "0.0.3",
     "description" : "he is not tiny nor easy to handle. He is rather a stupid ogre that handles paralell http requests",
     "authors" : [
       "Martin Barth (ufobat)"
