@@ -20363,5 +20363,37 @@
       "Alex Chen"
     ],
     "description" : "Efficient way to handle Boolean vector"
+  },
+  {
+    "name" : "Format::Lisp",
+    "source-url" : "https://github.com/drforr/perl6-Format-Lisp.git",
+    "perl" : "6.c",
+    "support" : {
+      "source" : "https://github.com/drforr/perl6-Format-Lisp"
+    },
+    "build-depends" : [ ],
+    "auth" : "github:drforr",
+    "depends" : [ ],
+    "license" : "Artistic-2.0",
+    "test-depends" : [
+      "Test"
+    ],
+    "provides" : {
+      "Format::Lisp" : "lib/Format/Lisp.pm6",
+      "Format::Lisp::Grammar" : "lib/Format/Lisp/Grammar.pm6",
+      "Format::Lisp::Actions" : "lib/Format/Lisp/Actions.pm6"
+    },
+    "tags" : [
+      "format",
+      "formatter",
+      "formatiing",
+      "Lisp"
+    ],
+    "version" : "0.0.1",
+    "description" : "Implement Common Lisp formatter for Perl 6",
+    "authors" : [
+      "Jeffrey Goff <drforr@pobox.com>"
+    ],
+    "meta6" : "0"
   }
 ]
