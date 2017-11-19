@@ -309,18 +309,6 @@
     "description" : "Interface to libmpdclient C library"
   },
   {
-    "name" : "List::Utils",
-    "source-url" : "git://github.com/colomon/List-Utils.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [ ],
-    "provides" : {
-      "List::Utils" : "lib/List/Utils.pm"
-    },
-    "version" : "*",
-    "description" : "Simple list utility subs"
-  },
-  {
     "name" : "Algorithm::Diff",
     "source-url" : "git://github.com/Takadonet/Algorithm--Diff.git",
     "perl" : "6.*",
