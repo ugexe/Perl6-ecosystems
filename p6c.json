@@ -20395,5 +20395,17 @@
       "Jeffrey Goff <drforr@pobox.com>"
     ],
     "meta6" : "0"
+  },
+  {
+    "name" : "Digest::FNV",
+    "source-url" : "git://github.com/tony-o/perl6-digest-fnv.git",
+    "perl" : "6.*",
+    "auth" : "github:tony-o",
+    "depends" : [ ],
+    "provides" : {
+      "Digest::FNV" : "lib/Digest/FNV.pm6"
+    },
+    "version" : "0.1.0",
+    "description" : "FNV[1|0|1a] for the masses"
   }
 ]
