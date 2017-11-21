@@ -1595,6 +1595,26 @@
     "description" : "Get the text message associated with an HTTP status code"
   },
   {
+    "name" : "HTTP::Client",
+    "source-url" : "git://github.com/supernovus/perl6-http-client.git",
+    "depends" : [
+      "MIME::Base64",
+      "HTTP::Status",
+      "IO::Socket::SSL"
+    ],
+    "provides" : {
+      "HTTP::Client" : "lib/HTTP/Client.pm6",
+      "HTTP::Client::Request" : "lib/HTTP/Client/Request.pm6",
+      "HTTP::Client::Response" : "lib/HTTP/Client/Response.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
+    "authors" : [
+      "Timothy Totten"
+    ],
+    "description" : "A flexible HTTP Client library"
+  },
+  {
     "name" : "Flower",
     "source-url" : "git://github.com/supernovus/flower.git",
     "perl" : "6.*",
