@@ -17682,8 +17682,10 @@
       "Platform::CLI::Run" : "lib/Platform/CLI/Run.pm6",
       "Platform::CLI::Destroy" : "lib/Platform/CLI/Destroy.pm6",
       "Platform::Docker::DNS::Linux" : "lib/Platform/Docker/DNS/Linux.pm6",
+      "Platform::Git" : "lib/Platform/Git.pm6",
       "Platform::CLI" : "lib/Platform/CLI.pm6",
       "Platform::Output" : "lib/Platform/Output.pm6",
+      "Platform::Git::Command" : "lib/Platform/Git/Command.pm6",
       "Platform::CLI::Rm" : "lib/Platform/CLI/Rm.pm6",
       "Platform::CLI::Attach" : "lib/Platform/CLI/Attach.pm6",
       "Platform::Docker::DNS::Windows" : "lib/Platform/Docker/DNS/Windows.pm6"
@@ -17695,7 +17697,7 @@
       "Development"
     ],
     "license" : "MIT",
-    "version" : "0.0.5",
+    "version" : "0.0.6",
     "authors" : [
       "Jarkko Haapalainen <jarkko@viidakko.fi>"
     ],
