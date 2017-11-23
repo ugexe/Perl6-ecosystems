@@ -17650,7 +17650,7 @@
     "description" : "Installs CPAN modules fetched from remote GitHub repositories"
   },
   {
-    "name" : "Platform",
+    "name" : "App::Platform",
     "source-url" : "https://github.com/7ojo/perl6-platform.git",
     "perl" : "6",
     "auth" : "github:7ojo",
@@ -17662,33 +17662,33 @@
       "CommandLine::Usage"
     ],
     "provides" : {
-      "Platform::CLI::Remove" : "lib/Platform/CLI/Remove.pm6",
-      "Platform::CLI::Create" : "lib/Platform/CLI/Create.pm6",
-      "Platform::Docker::Proxy" : "lib/Platform/Docker/Proxy.pm6",
-      "Platform::Container" : "lib/Platform/Container.pm6",
-      "Platform::CLI::Stop" : "lib/Platform/CLI/Stop.pm6",
-      "Platform::Environment" : "lib/Platform/Environment.pm6",
-      "Platform::Command" : "lib/Platform/Command.pm6",
-      "Platform::CLI::SSH" : "lib/Platform/CLI/SSH.pm6",
-      "Platform::Docker::Command" : "lib/Platform/Docker/Command.pm6",
-      "Platform::Docker::Container" : "lib/Platform/Docker/Container.pm6",
-      "Platform" : "lib/Platform.pm6",
-      "Platform::Util::OS" : "lib/Platform/Util/OS.pm6",
-      "Platform::Docker::DNS::MacOS" : "lib/Platform/Docker/DNS/MacOS.pm6",
-      "Platform::Docker::DNS" : "lib/Platform/Docker/DNS.pm6",
-      "Platform::Project" : "lib/Platform/Project.pm6",
-      "Platform::CLI::Start" : "lib/Platform/CLI/Start.pm6",
-      "Platform::CLI::SSL" : "lib/Platform/CLI/SSL.pm6",
-      "Platform::CLI::Run" : "lib/Platform/CLI/Run.pm6",
-      "Platform::CLI::Destroy" : "lib/Platform/CLI/Destroy.pm6",
-      "Platform::Docker::DNS::Linux" : "lib/Platform/Docker/DNS/Linux.pm6",
-      "Platform::Git" : "lib/Platform/Git.pm6",
-      "Platform::CLI" : "lib/Platform/CLI.pm6",
-      "Platform::Output" : "lib/Platform/Output.pm6",
-      "Platform::Git::Command" : "lib/Platform/Git/Command.pm6",
-      "Platform::CLI::Rm" : "lib/Platform/CLI/Rm.pm6",
-      "Platform::CLI::Attach" : "lib/Platform/CLI/Attach.pm6",
-      "Platform::Docker::DNS::Windows" : "lib/Platform/Docker/DNS/Windows.pm6"
+      "App::Platform::CLI::Create" : "lib/App/Platform/CLI/Create.pm6",
+      "App::Platform::Docker::DNS::Linux" : "lib/App/Platform/Docker/DNS/Linux.pm6",
+      "App::Platform::Environment" : "lib/App/Platform/Environment.pm6",
+      "App::Platform::CLI::Attach" : "lib/App/Platform/CLI/Attach.pm6",
+      "App::Platform::Util::OS" : "lib/App/Platform/Util/OS.pm6",
+      "App::Platform::Docker::Proxy" : "lib/App/Platform/Docker/Proxy.pm6",
+      "App::Platform::Docker::DNS::MacOS" : "lib/App/Platform/Docker/DNS/MacOS.pm6",
+      "App::Platform::Git" : "lib/App/Platform/Git.pm6",
+      "App::Platform" : "lib/App/Platform.pm6",
+      "App::Platform::CLI::Stop" : "lib/App/Platform/CLI/Stop.pm6",
+      "App::Platform::CLI::SSL" : "lib/App/Platform/CLI/SSL.pm6",
+      "App::Platform::CLI::Run" : "lib/App/Platform/CLI/Run.pm6",
+      "App::Platform::CLI::Rm" : "lib/App/Platform/CLI/Rm.pm6",
+      "App::Platform::Docker::DNS::Windows" : "lib/App/Platform/Docker/DNS/Windows.pm6",
+      "App::Platform::Project" : "lib/App/Platform/Project.pm6",
+      "App::Platform::Container" : "lib/App/Platform/Container.pm6",
+      "App::Platform::CLI::SSH" : "lib/App/Platform/CLI/SSH.pm6",
+      "App::Platform::CLI::Destroy" : "lib/App/Platform/CLI/Destroy.pm6",
+      "App::Platform::Output" : "lib/App/Platform/Output.pm6",
+      "App::Platform::CLI::Start" : "lib/App/Platform/CLI/Start.pm6",
+      "App::Platform::CLI" : "lib/App/Platform/CLI.pm6",
+      "App::Platform::Docker::DNS" : "lib/App/Platform/Docker/DNS.pm6",
+      "App::Platform::Docker::Command" : "lib/App/Platform/Docker/Command.pm6",
+      "App::Platform::CLI::Remove" : "lib/App/Platform/CLI/Remove.pm6",
+      "App::Platform::Docker::Container" : "lib/App/Platform/Docker/Container.pm6",
+      "App::Platform::Command" : "lib/App/Platform/Command.pm6",
+      "App::Platform::Git::Command" : "lib/App/Platform/Git/Command.pm6"
     },
     "tags" : [
       "Platform",
@@ -17697,11 +17697,11 @@
       "Development"
     ],
     "license" : "MIT",
-    "version" : "0.0.6",
+    "version" : "0.1.0",
     "authors" : [
       "Jarkko Haapalainen <jarkko@viidakko.fi>"
     ],
-    "description" : "Tool for making development environments with docker"
+    "description" : "Tool for constructing development environments"
   },
   {
     "name" : "Sparrowdo::Rvm",
