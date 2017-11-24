@@ -1452,6 +1452,26 @@
     ]
   },
   {
+    "name" : "Terminal::Spinners",
+    "support" : {
+      "source" : "https://github.com/ryn1x/Terminal-Spinners"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/R/RY/RYNIX/Perl6/Terminal-Spinners-0.0.3.tar.gz",
+    "perl" : "6.c",
+    "tags" : [
+      "CLI",
+      "Terminal"
+    ],
+    "provides" : {
+      "Terminal::Spinners" : "lib/Terminal/Spinners.pm6"
+    },
+    "license" : "MIT",
+    "version" : "0.0.3",
+    "meta-version" : 1,
+    "description" : "Simple spinners and progress bars for Perl 6.",
+    "authors" : "Ryan Goodner (ryn1x)"
+  },
+  {
     "name" : "Timer::Breakable",
     "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Timer-Breakable-0.1.0.tar.gz",
     "perl" : "6.c",
