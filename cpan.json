@@ -3559,6 +3559,42 @@ null
     ]
   },
   {
+    "name" : "Font::AFM",
+    "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-AFM-1.24.2.tar.gz",
+    "perl" : "6",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:p6-pdf",
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [
+      "font"
+    ],
+    "provides" : {
+      "Font::Metrics::times-italic" : "lib/Font/Metrics/times-italic.pm",
+      "Font::Metrics::helvetica-boldoblique" : "lib/Font/Metrics/helvetica-boldoblique.pm",
+      "Font::Metrics::helvetica" : "lib/Font/Metrics/helvetica.pm",
+      "Font::Metrics::helvetica-oblique" : "lib/Font/Metrics/helvetica-oblique.pm",
+      "Font::Metrics::zapfdingbats" : "lib/Font/Metrics/zapfdingbats.pm",
+      "Font::Metrics::times-roman" : "lib/Font/Metrics/times-roman.pm",
+      "Font::AFM" : "lib/Font/AFM.pm",
+      "Font::Metrics::times-bolditalic" : "lib/Font/Metrics/times-bolditalic.pm",
+      "Font::Metrics::courier-oblique" : "lib/Font/Metrics/courier-oblique.pm",
+      "Font::Metrics::courier-boldoblique" : "lib/Font/Metrics/courier-boldoblique.pm",
+      "Font::Metrics::courier-bold" : "lib/Font/Metrics/courier-bold.pm",
+      "Font::Metrics::times-bold" : "lib/Font/Metrics/times-bold.pm",
+      "Font::Metrics::helvetica-bold" : "lib/Font/Metrics/helvetica-bold.pm",
+      "Font::Metrics::symbol" : "lib/Font/Metrics/symbol.pm",
+      "Font::Metrics::courier" : "lib/Font/Metrics/courier.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.24.2",
+    "description" : "Interface to Adobe Font Metrics files",
+    "authors" : [
+      "David Warring"
+    ]
+  },
+  {
     "name" : "Font::FreeType",
     "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.0.1.tar.gz",
     "perl" : "6",
