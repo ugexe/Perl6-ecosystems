@@ -4399,6 +4399,31 @@
     ]
   },
   {
+    "name" : "Inline::Go",
+    "source-url" : "git://github.com/azawawi/perl6-inline-go.git",
+    "perl" : "6.c",
+    "auth" : "github:azawawi",
+    "depends" : [
+      "File::Temp"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "Go"
+    ],
+    "provides" : {
+      "Inline::Go::Grammar" : "lib/Inline/Go/Grammar.pm6",
+      "Inline::Go" : "lib/Inline/Go.pm6"
+    },
+    "license" : "MIT",
+    "version" : "0.0.1",
+    "description" : "Use Go code inside Perl 6",
+    "authors" : [
+      "Ahmad M. Zawawi"
+    ]
+  },
+  {
     "name" : "Test::Harness",
     "source-url" : "git://github.com/tadzik/Test-Harness.git",
     "perl" : "6.*",
@@ -9022,7 +9047,7 @@
       "Test"
     ],
     "license" : "Artistic-2.0",
-    "version" : "1.003002",
+    "version" : "1.004001",
     "authors" : [
       "Zoffix Znet"
     ],
@@ -17521,7 +17546,7 @@
       "HTTP"
     ],
     "license" : "Artistic-2.0",
-    "version" : "1.005001",
+    "version" : "1.005002",
     "authors" : [
       "Zoffix Znet"
     ],
