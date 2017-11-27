@@ -20350,5 +20350,35 @@
     },
     "version" : "0.1.0",
     "description" : "FNV[1|0|1a] for the masses"
+  },
+  {
+    "name" : "Acme::Advent::Highlighter",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-Acme-Advent-Highlighter.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "Text::Markdown",
+      "DOM::Tiny",
+      "Pastebin::Gist",
+      "UUID",
+      "WWW"
+    ],
+    "provides" : {
+      "Advent::Highlighter::HTMLParser" : "lib/Acme/Advent/Highlighter/HTMLParser.pm6",
+      "Acme::Advent::Highlighter" : "lib/Acme/Advent/Highlighter.pm6"
+    },
+    "test-depends" : [
+      "Test::When"
+    ],
+    "tags" : [
+      "utils"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001002",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Preprocessor for Perl 6 Advent Articles"
   }
 ]
