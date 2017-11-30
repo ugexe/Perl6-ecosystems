@@ -20356,5 +20356,35 @@
       "Zoffix Znet"
     ],
     "description" : "Preprocessor for Perl 6 Advent Articles"
+  },
+  {
+    "name" : "Wikidata::API",
+    "source-url" : "https://github.com/JJ/p6-wikidata-API.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "URI::Encode",
+      "HTTP::Client",
+      "JSON::Tiny"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "wrapper",
+      "SPARQL",
+      "wikidata"
+    ],
+    "provides" : {
+      "Wikidata::API" : "lib/Wikidata/API.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.0.3",
+    "description" : "A thin wrapper for querying Wikidata using SPARQL",
+    "authors" : [
+      "JJ Merelo"
+    ]
   }
 ]
