@@ -20386,5 +20386,29 @@
     "authors" : [
       "JJ Merelo"
     ]
+  },
+  {
+    "name" : "Proxee",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-Proxy.git"
+    },
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "Proxee" : "lib/Proxee.pm6",
+      "Proxee::X::CannotBindStore" : "lib/Proxee.pm6"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [
+      "containers"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001002",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "A more usable Proxy with bells"
   }
 ]
