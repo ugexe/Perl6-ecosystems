@@ -7282,6 +7282,47 @@
     "description" : "Unicode grapheme cluster boundary detection"
   },
   {
+    "name" : "Sys::Lastlog",
+    "perl" : "6",
+    "support" : {
+      "email" : "jns+git@gellyfish.co.uk",
+      "irc" : "irc://irc.freenode.net/#perl6",
+      "source" : "git://github.com/jonathanstowe/p6-Sys-Lastlog.git",
+      "bugtracker" : "https://github.com/jonathanstowe/p6-Sys-Lastlog/issues"
+    },
+    "source-url" : "git://github.com/jonathanstowe/p6-Sys-Lastlog.git",
+    "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+    "build-depends" : [
+      "LibraryMake",
+      "Shell::Command"
+    ],
+    "resources" : [
+      "libraries/lastloghelper"
+    ],
+    "auth" : "github:jonathanstowe",
+    "depends" : [
+      "System::Passwd"
+    ],
+    "provides" : {
+      "Sys::Lastlog" : "lib/Sys/Lastlog.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "unix",
+      "audit",
+      "lastlog"
+    ],
+    "version" : "0.0.9",
+    "meta6" : "0",
+    "description" : "Perl 6 access to Lastlog information on Unix-like systems",
+    "authors" : [
+      "Jonathan Stowe <jns+git@gellyfish.com>"
+    ]
+  },
+  {
     "name" : "Text::VimColour",
     "source-url" : "git://github.com/stmuk/p6-Text-VimColour.git",
     "perl" : "6.c",
