@@ -629,6 +629,36 @@
     "description" : "data selection dsl parser and applicator"
   },
   {
+    "name" : "Wikidata::API",
+    "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Wikidata-API-0.0.3.tar.gz",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "URI::Encode",
+      "HTTP::Client",
+      "JSON::Tiny"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "wrapper",
+      "SPARQL",
+      "wikidata"
+    ],
+    "provides" : {
+      "Wikidata::API" : "lib/Wikidata/API.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.0.3",
+    "description" : "A thin wrapper for querying Wikidata using SPARQL",
+    "authors" : [
+      "JJ Merelo"
+    ]
+  },
+  {
     "name" : "IO::Socket::Async::SSL",
     "support" : {
       "source" : "https://github.com/jnthn/p6-io-socket-async-ssl.git"
