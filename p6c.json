@@ -13491,19 +13491,27 @@
       "Subset::Helper"
     ],
     "provides" : {
+      "Twitter::API::TrendsAvailable" : "lib/Twitter/API/TrendsAvailable.pm6",
+      "Twitter::API::AccountCredentials" : "lib/Twitter/API/AccountCredentials.pm6",
       "Twitter::UA" : "lib/Twitter/UA.pm6",
+      "Twitter::API::TrendsPlace" : "lib/Twitter/API/TrendsPlace.pm6",
+      "Twitter::API::DMReceived" : "lib/Twitter/API/DMReceived.pm6",
       "Twitter::API::Search" : "lib/Twitter/API/Search.pm6",
       "Twitter::API::DirectMessages" : "lib/Twitter/API/DirectMessages.pm6",
+      "Twitter::API::DMSent" : "lib/Twitter/API/DMSent.pm6",
       "Twitter::API::Statuses" : "lib/Twitter/API/Statuses.pm6",
       "Twitter" : "lib/Twitter.pm6",
+      "Twitter::API::ApplicationRateLimit" : "lib/Twitter/API/ApplicationRateLimit.pm6",
+      "Twitter::API::FavoritesList" : "lib/Twitter/API/FavoritesList.pm6",
       "Twitter::OAuth" : "lib/Twitter/OAuth.pm6",
+      "Twitter::API::AccountSettings" : "lib/Twitter/API/AccountSettings.pm6",
       "Twitter::API" : "lib/Twitter/API.pm6"
     },
     "test-depends" : [
       "Test"
     ],
     "license" : "Artistic-2.0",
-    "version" : "0.003002",
+    "version" : "0.003003",
     "authors" : [
       "Zoffix Znet"
     ],
