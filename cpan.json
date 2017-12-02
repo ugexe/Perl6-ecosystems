@@ -142,31 +142,6 @@
   },
   {
     "name" : "Inline::Go",
-    "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/Go-Inline-0.0.2.tar.gz",
-    "perl" : "6.c",
-    "auth" : "github:azawawi",
-    "depends" : [
-      "File::Temp"
-    ],
-    "test-depends" : [
-      "Test"
-    ],
-    "tags" : [
-      "Go"
-    ],
-    "provides" : {
-      "Inline::Go::Grammar" : "lib/Inline/Go/Grammar.pm6",
-      "Inline::Go" : "lib/Inline/Go.pm6"
-    },
-    "license" : "MIT",
-    "version" : "0.0.2",
-    "description" : "Use Go code inside Perl 6",
-    "authors" : [
-      "Ahmad M. Zawawi"
-    ]
-  },
-  {
-    "name" : "Inline::Go",
     "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/Inline-Go-0.0.2.tar.gz",
     "perl" : "6.c",
     "auth" : "github:azawawi",
