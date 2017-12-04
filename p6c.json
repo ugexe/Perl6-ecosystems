@@ -19160,32 +19160,6 @@
     "description" : "A Grammar for the Modelica programming language."
   },
   {
-    "name" : "Sparky",
-    "source-url" : "https://github.com/melezhik/sparky.git",
-    "support" : {
-      "source" : "https://github.com/melezhik/sparky.git",
-      "bugtracker" : "https://github.com/melezhik/sparky/issues"
-    },
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [
-      "YAMLish",
-      "DBIish",
-      "Sparrowdo",
-      "Time::Crontab",
-      "Bailador",
-      "Text::Markdown",
-      "Data::Dump"
-    ],
-    "license" : "Artistic-2.0",
-    "provides" : { },
-    "version" : "0.0.21",
-    "authors" : [
-      "Alexey Melezhik"
-    ],
-    "description" : "Sparky is a continues integration server based on Sparrow/Sparrowdo ecosystem"
-  },
-  {
     "name" : "YAML::Parser::LibYAML",
     "source-url" : "git://github.com/tony-o/perl6-libyaml.git",
     "perl" : "6.*",
