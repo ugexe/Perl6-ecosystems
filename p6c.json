@@ -13389,6 +13389,75 @@
     "description" : "Client library for the OpenCage Geocoder"
   },
   {
+    "name" : "Task::Galaxy",
+    "source-url" : "https://gitlab.com/stmuk/p6-task-galaxy.git",
+    "perl" : "6.c",
+    "depends" : [
+      "007",
+      "Bailador",
+      "Base64",
+      "BioInfo",
+      "BioPerl6",
+      "CSS::Grammar",
+      "CSV::Parser",
+      "CompUnit::Util",
+      "Compress::Zlib",
+      "Crust",
+      "DBIish",
+      "DateTime::Format",
+      "Debugger::UI::CommandLine",
+      "Digest",
+      "Digest::HMAC",
+      "Digest::MD5",
+      "Email::Simple",
+      "File::Find",
+      "File::Temp",
+      "File::Which",
+      "Grammar::BNF",
+      "Grammar::Debugger",
+      "Grammar::Profiler::Simple",
+      "HTTP::Easy",
+      "HTTP::Status",
+      "HTTP::UserAgent",
+      "JSON::RPC",
+      "JSON::Tiny",
+      "LWP::Simple",
+      "LibraryMake",
+      "Linenoise",
+      "MIME::Base64",
+      "OpenSSL",
+      "P6TCI",
+      "PSGI",
+      "Pod::To::HTML",
+      "Pod::To::Markdown",
+      "SCGI",
+      "SVG",
+      "SVG::Plot",
+      "Shell::Command",
+      "Sparrowdo",
+      "Template6",
+      "Template::Mojo",
+      "Terminal::ANSIColor",
+      "Test::Meta",
+      "Test::Mock",
+      "URI",
+      "URI::Encode",
+      "UUID",
+      "XML",
+      "XML::Writer",
+      "YAMLish",
+      "p6doc",
+      "panda",
+      "Zef"
+    ],
+    "provides" : { },
+    "version" : "0.1",
+    "authors" : [
+      "Steve Mynott <steve.mynott@gmail.com>"
+    ],
+    "description" : "Another meta-package for modules (with tests), fatter than Task::Star and more test orientated."
+  },
+  {
     "name" : "Text::Caesar",
     "source-url" : "git://github.com/Emeric54/p6-text-caesar.git",
     "perl" : "6.c",
@@ -14209,6 +14278,33 @@
       "Siavash Askari Nasr"
     ],
     "description" : "An interface to football-data.org API"
+  },
+  {
+    "name" : "App::Football",
+    "source-url" : "https://gitlab.com/CIAvash/App-Football.git",
+    "perl" : "6.c",
+    "depends" : [
+      "WebService::FootballData",
+      "Text::Table::Simple"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::Output"
+    ],
+    "provides" : {
+      "App::Football" : "lib/App/Football.pm6"
+    },
+    "tags" : [
+      "football",
+      "soccer",
+      "cli",
+      "command line"
+    ],
+    "version" : "0.1.4",
+    "authors" : [
+      "Siavash Askari Nasr"
+    ],
+    "description" : "Command line app for accessing football(soccer) data"
   },
   {
     "name" : "Text::Diff::Sift4",
