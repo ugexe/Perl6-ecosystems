@@ -20393,5 +20393,22 @@
       "Zoffix Znet"
     ],
     "description" : "A more usable Proxy with bells"
+  },
+  {
+    "name" : "Event::Emitter::Inter-Process",
+    "source-url" : "git://github.com/tony-o/perl6-event-emitter-interprocess.git",
+    "perl" : "6.*",
+    "auth" : "github:tony-o",
+    "depends" : [
+      "Event::Emitter"
+    ],
+    "provides" : {
+      "Event::Emitter::Inter-Process" : "lib/Event/Emitter/Inter-Process.pm6"
+    },
+    "version" : "0.1.0",
+    "authors" : [
+      "Tony O'Dell"
+    ],
+    "description" : "Event::Emitter plugin to assist in cross process communication"
   }
 ]
