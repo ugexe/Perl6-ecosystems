@@ -1005,6 +1005,38 @@
     ]
   },
   {
+    "name" : "Sparky",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparky.git",
+      "bugtracker" : "https://github.com/melezhik/sparky/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparky-0.0.23.tar.gz",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "YAMLish",
+      "DBIish",
+      "Sparrowdo",
+      "Time::Crontab",
+      "Bailador",
+      "Text::Markdown",
+      "Data::Dump"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Sparky" : "lib/Sparky.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.23",
+    "description" : "Sparky is a continues integration server based on Sparrow/Sparrowdo ecosystem",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
+  },
+  {
     "name" : "Sparrowdo",
     "support" : {
       "source" : "https://github.com/melezhik/sparrowdo.git",
@@ -1690,6 +1722,26 @@
     "meta-version" : 1,
     "description" : "Simple spinners and progress bars for Perl 6.",
     "authors" : "Ryan Goodner (ryn1x)"
+  },
+  {
+    "name" : "Game::Sudoku",
+    "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Game-Sudoku-0.1.0.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Game::Sudoku" : "lib/Game/Sudoku.pm6",
+      "Game::Sudoku::Solver" : "lib/Game/Sudoku/Solver.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "description" : "Store, validate and solve sudoku puzzles",
+    "authors" : [
+      "Simon Proctor"
+    ]
   },
   {
     "name" : "Timer::Breakable",
