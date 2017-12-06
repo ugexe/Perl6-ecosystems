@@ -1089,6 +1089,32 @@
     ]
   },
   {
+    "name" : "Sparky::Plugin::Notify::Email",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparky-plugin-notify-email.git",
+      "bugtracker" : "https://github.com/melezhik/sparky-plugin-notify-email/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparky-Plugin-Notify-Email-0.0.1.tar.gz",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Sparky"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Sparky::Plugin::Notify::Email" : "lib/Sparky/Plugin/Notify/Email.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Sparky plugin to send email notifications upon completed builds",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
+  },
+  {
     "name" : "Sparrowdo",
     "support" : {
       "source" : "https://github.com/melezhik/sparrowdo.git",
