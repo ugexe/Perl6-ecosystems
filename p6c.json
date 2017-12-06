@@ -7688,6 +7688,25 @@
     "description" : "Uggh I need to edit a text file in some copy paste way...wait, perl modules!"
   },
   {
+    "name" : "Graffiks",
+    "source-url" : "https://github.com/wentam/P6-Graffiks.git",
+    "perl" : "6.*",
+    "author" : "github:wentam",
+    "depends" : [ ],
+    "provides" : {
+      "Graffiks::Objloader" : "lib/Graffiks/Objloader.pm6",
+      "Graffiks::Material" : "lib/Graffiks/Material.pm6",
+      "Graffiks::Camera" : "lib/Graffiks/Camera.pm6",
+      "Graffiks::Mesh" : "lib/Graffiks/Mesh.pm6",
+      "Graffiks" : "lib/Graffiks.pm6",
+      "Graffiks::Object" : "lib/Graffiks/Object.pm6",
+      "Graffiks::PointLight" : "lib/Graffiks/PointLight.pm6"
+    },
+    "license" : "MIT",
+    "version" : "0.1.0",
+    "description" : "Bindings to the graphics engine Graffiks"
+  },
+  {
     "name" : "PriorityQueue",
     "support" : {
       "email" : "rob AT-SIGN hoelz.ro",
