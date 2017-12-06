@@ -1037,6 +1037,32 @@
     ]
   },
   {
+    "name" : "Sparky::Plugin::Hello",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparky-plugin-hello.git",
+      "bugtracker" : "https://github.com/melezhik/sparky-plugin-hello/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparky-Plugin-Hello-0.0.1.tar.gz",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Sparky"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Sparky::Plugin::Hello" : "lib/Sparky/Plugin/Hello.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Sparky Hello Plugin",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
+  },
+  {
     "name" : "Sparrowdo",
     "support" : {
       "source" : "https://github.com/melezhik/sparrowdo.git",
