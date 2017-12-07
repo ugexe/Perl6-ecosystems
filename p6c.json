@@ -19860,7 +19860,11 @@
       "Test::META"
     ],
     "license" : "Artistic-2.0",
-    "tags" : [ ],
+    "tags" : [
+      "Net",
+      "Messaging",
+      "Native"
+    ],
     "meta-version" : "0",
     "version" : "0.1.0",
     "production" : false,
@@ -19914,7 +19918,7 @@
   },
   {
     "name" : "Log::ZMQ",
-    "perl" : "6.c",
+    "perl" : "6.d",
     "support" : {
       "source" : null
     },
@@ -19935,7 +19939,11 @@
       "Test::META"
     ],
     "license" : "Artistic-2.0",
-    "tags" : [ ],
+    "tags" : [
+      "Net",
+      "Log",
+      "Messaging"
+    ],
     "meta-version" : "0",
     "version" : "0.0.5",
     "production" : false,
