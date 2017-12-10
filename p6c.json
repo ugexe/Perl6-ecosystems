@@ -20428,17 +20428,19 @@
       "source" : null
     },
     "source-url" : "https://github.com/gabrielash/p6-net-jupyter.git",
-    "build-depends" : [ ],
+    "build-depends" : [
+      "Test::META"
+    ],
     "resources" : [
       "kernels/perl6/logo-32x32.png",
       "kernels/perl6/logo-64x64.png"
     ],
     "auth" : "github:gabrielash",
     "depends" : [
-      "Net::ZMQ:auth(github:gabrielash)",
-      "Log::ZMQ:auth(github:gabrielash)",
+      "Net::ZMQ:auth('github:gabrielash')",
+      "Log::ZMQ",
       "JSON::Tiny",
-      "Mime::Base64",
+      "MIME::Base64",
       "Digest::HMAC",
       "Digest::SHA256::Native",
       "UUID"
