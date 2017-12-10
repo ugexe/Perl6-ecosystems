@@ -20420,5 +20420,53 @@
       "Tony O'Dell"
     ],
     "description" : "Event::Emitter plugin to assist in cross process communication"
+  },
+  {
+    "name" : "Net::Jupyter",
+    "perl" : "6.d",
+    "support" : {
+      "source" : null
+    },
+    "source-url" : "https://github.com/gabrielash/p6-net-jupyter.git",
+    "build-depends" : [ ],
+    "resources" : [
+      "kernels/perl6/logo-32x32.png",
+      "kernels/perl6/logo-64x64.png"
+    ],
+    "auth" : "github:gabrielash",
+    "depends" : [
+      "Net::ZMQ:auth(github:gabrielash)",
+      "Log::ZMQ:auth(github:gabrielash)",
+      "JSON::Tiny",
+      "Mime::Base64",
+      "Digest::HMAC",
+      "Digest::SHA256::Native",
+      "UUID"
+    ],
+    "provides" : {
+      "Net::Jupyter::Messages" : "lib/Net/Jupyter/Messages.pm",
+      "Net::Jupyter::Executer" : "lib/Net/Jupyter/Executer.pm",
+      "Net::Jupyter::ContextREPL" : "lib/Net/Jupyter/ContextREPL.pm",
+      "Net::Jupyter::Messenger" : "lib/Net/Jupyter/Messenger.pm",
+      "Net::Jupyter::EvalError" : "lib/Net/Jupyter/EvalError.pm",
+      "Net::Jupyter::Common" : "lib/Net/Jupyter/Common.pm"
+    },
+    "test-depends" : [
+      "Test::META"
+    ],
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "Net",
+      "Tools",
+      "Web"
+    ],
+    "meta-version" : "0",
+    "version" : "0.1.0",
+    "production" : false,
+    "description" : "Perl6 ikernel for Jupyter",
+    "authors" : [
+      "Gabriel Ash",
+      "github:gabrielash"
+    ]
   }
 ]
