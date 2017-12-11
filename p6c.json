@@ -1499,7 +1499,9 @@
     "depends" : [
       "MIME::Types",
       "PSGI",
-      "SCGI"
+      "SCGI",
+      "FastCGI",
+      "HTTP::Easy::PSGI"
     ],
     "provides" : {
       "Web::App::Test" : "lib/Web/App/Test.pm6",
