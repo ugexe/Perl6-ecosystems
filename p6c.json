@@ -8811,6 +8811,24 @@
     ]
   },
   {
+    "name" : "App::ecoreadme",
+    "source-url" : "git://github.com/stmuk/p6-eco-readme.git",
+    "perl" : "6.c",
+    "author" : "Steve Mynott <steve.mynott@gmail.com>",
+    "depends" : [
+      "LWP::Simple",
+      "IO::Socket::SSL",
+      "Panda",
+      "IO::Capture::Simple"
+    ],
+    "provides" : {
+      "App::ecoreadme" : "bin/ecoreadme"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.2",
+    "description" : "Display and cache ecosystem README files for perl6"
+  },
+  {
     "name" : "Growl::GNTP",
     "perl" : "v6",
     "source-url" : "git://github.com/mattn/p6-Growl-GNTP.git",
