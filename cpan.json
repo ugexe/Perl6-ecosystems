@@ -295,6 +295,34 @@
     ]
   },
   {
+    "name" : "SQL::Lexer",
+    "support" : {
+      "email" : "dmaestro@cpan.org",
+      "source" : "git://github.com/dmaestro/SQL-Lexer.git",
+      "bugtracker" : "https://github.com/dmaestro/SQL-Lexer/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/D/DM/DMAESTRO/Perl6/SQL-Lexer-0.1.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:dmaestro",
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "SQL::Keyword" : "lib/SQL/Lexer.pm",
+      "SQL::Lexer" : "lib/SQL/Lexer.pm",
+      "SQL::Basic" : "lib/SQL/Basic.pm"
+    },
+    "license" : "MIT",
+    "version" : "0.1.1",
+    "meta-version" : "0",
+    "description" : "Grammar for lexical analysis of SQL",
+    "authors" : [
+      "Douglas L. Schrag <dmaestro@cpan.org>"
+    ]
+  },
+  {
     "name" : "Inline",
     "support" : {
       "source" : "https://github.com/FROGGS/p6-Inline-C.git",
