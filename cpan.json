@@ -1248,6 +1248,36 @@
     ]
   },
   {
+    "name" : "LIVR",
+    "source-url" : "http://www.cpan.org/authors/id/K/KO/KOORCHIK/Perl6/LIVR-2.0.0.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "JSON::Tiny",
+      "Email::Valid"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "LIVR::Utils" : "lib/LIVR/Utils.pm6",
+      "LIVR::Validator" : "lib/LIVR/Validator.pm6",
+      "LIVR::Rules::Modifiers" : "lib/LIVR/Rules/Modifiers.pm6",
+      "LIVR::Rules::Special" : "lib/LIVR/Rules/Special.pm6",
+      "LIVR::Rules::Numeric" : "lib/LIVR/Rules/Numeric.pm6",
+      "LIVR::Rules::Common" : "lib/LIVR/Rules/Common.pm6",
+      "LIVR::Rules::String" : "lib/LIVR/Rules/String.pm6",
+      "LIVR::Rules::Meta" : "lib/LIVR/Rules/Meta.pm6",
+      "LIVR" : "lib/LIVR.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "2.0.0",
+    "description" : "Lightweight Perl validator supporting Language Independent Validation Rules Specification (LIVR)",
+    "authors" : [
+      "koorchik"
+    ]
+  },
+  {
     "name" : "Sparky",
     "support" : {
       "source" : "https://github.com/melezhik/sparky.git",
