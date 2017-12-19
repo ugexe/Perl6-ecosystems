@@ -9885,6 +9885,30 @@
     ]
   },
   {
+    "name" : "Search::Dict",
+    "source-url" : "git://github.com/zengargoyle/p6-Search-Dict.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:zengargoyle",
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [
+      "text",
+      "dictionary",
+      "search"
+    ],
+    "provides" : {
+      "Search::Dict" : "lib/Search/Dict.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.2",
+    "description" : "a fast binary search of dictionary like files",
+    "authors" : [
+      "zengargoyle"
+    ]
+  },
+  {
     "name" : "Pod::Coverage",
     "source-url" : "git://github.com/teodozjan/pod6-coverage.git",
     "perl" : "6.*",
