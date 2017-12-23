@@ -15633,15 +15633,17 @@
     "perl" : "6.c",
     "depends" : [ ],
     "provides" : {
+      "Data::MessagePack::StreamingUnpacker" : "lib/Data/MessagePack/StreamingUnpacker.pm6",
       "Data::MessagePack::Unpacker" : "lib/Data/MessagePack/Unpacker.pm6",
       "Data::MessagePack" : "lib/Data/MessagePack.pm6",
       "Data::MessagePack::Packer" : "lib/Data/MessagePack/Packer.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.1.0",
+    "version" : "0.1.1",
     "description" : "Data::MessagePack",
     "authors" : [
-      "github:pierre-vigier"
+      "github:pierre-vigier",
+      "github:timo"
     ]
   },
   {
