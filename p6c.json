@@ -19578,10 +19578,12 @@
     ]
   },
   {
-    "api" : "PDF-1.7",
     "name" : "PDF::Content",
+    "api" : "PDF-1.7",
     "source-url" : "git://github.com/p6-pdf/PDF-Content-p6.git",
     "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
     "auth" : "github:p6-pdf",
     "depends" : [
       "PDF",
@@ -19591,35 +19593,41 @@
       "Native::Packing",
       "Compress::Zlib::Raw"
     ],
+    "test-depends" : [ ],
+    "tags" : [ ],
     "provides" : {
-      "PDF::Content::Font::Encodings" : "lib/PDF/Content/Font/Encodings.pm",
       "PDF::Content::XObject" : "lib/PDF/Content/XObject.pm",
       "PDF::Content::PageNode" : "lib/PDF/Content/PageNode.pm",
-      "PDF::Content::Font::Enc::Type1" : "lib/PDF/Content/Font/Enc/Type1.pm",
+      "PDF::Content::Font::Encodings" : "lib/PDF/Content/Font/Encodings.pm",
       "PDF::Content::Image::PDF" : "lib/PDF/Content/Image/PDF.pm",
+      "PDF::Content::Font::Enc::Type1" : "lib/PDF/Content/Font/Enc/Type1.pm",
       "PDF::Content::ResourceDict" : "lib/PDF/Content/ResourceDict.pm",
       "PDF::Content::Matrix" : "lib/PDF/Content/Matrix.pm",
       "PDF::Content::Graphics" : "lib/PDF/Content/Graphics.pm",
       "PDF::Content::Image::GIF" : "lib/PDF/Content/Image/GIF.pm",
       "PDF::Content::Image" : "lib/PDF/Content/Image.pm",
       "PDF::Content::Page" : "lib/PDF/Content/Page.pm",
-      "PDF::Content::Ops" : "lib/PDF/Content/Ops.pm",
       "PDF::Content::PageTree" : "lib/PDF/Content/PageTree.pm",
+      "PDF::Content::Ops" : "lib/PDF/Content/Ops.pm",
       "PDF::Content::Font" : "lib/PDF/Content/Font.pm",
       "PDF::Content" : "lib/PDF/Content.pm",
       "PDF::Content::Text::Style" : "lib/PDF/Content/Text/Style.pm",
       "PDF::Content::Text::Line" : "lib/PDF/Content/Text/Line.pm",
-      "PDF::Content::Font::CoreFont" : "lib/PDF/Content/Font/CoreFont.pm",
       "PDF::Content::Image::PNG" : "lib/PDF/Content/Image/PNG.pm",
+      "PDF::Content::Font::CoreFont" : "lib/PDF/Content/Font/CoreFont.pm",
       "PDF::Content::Text::Reserved" : "lib/PDF/Content/Text/Reserved.pm",
       "PDF::Content::Text::Block" : "lib/PDF/Content/Text/Block.pm",
-      "PDF::Content::Image::JPEG" : "lib/PDF/Content/Image/JPEG.pm",
       "PDF::Content::Resourced" : "lib/PDF/Content/Resourced.pm",
-      "PDF::Content::Marked" : "lib/PDF/Content/Marked.pm"
+      "PDF::Content::Marked" : "lib/PDF/Content/Marked.pm",
+      "PDF::Content::Image::JPEG" : "lib/PDF/Content/Image/JPEG.pm",
+      "PDF::Content::Fontish" : "lib/PDF/Content/Fontish.pm"
     },
     "license" : "Artistic-2.0",
     "version" : "0.1.0",
-    "description" : "PDF content related classes; including text, images, fonts and graphics"
+    "description" : "PDF content related classes; including text, images, fonts and graphics",
+    "authors" : [
+      "David Warring"
+    ]
   },
   {
     "api" : "PDF-1.7",
