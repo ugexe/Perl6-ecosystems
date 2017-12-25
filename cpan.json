@@ -4797,6 +4797,42 @@ null
     ]
   },
   {
+    "name" : "PDF::Font::Loader",
+    "api" : "PDF-1.7",
+    "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.1.7.tar.gz",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:p6-pdf",
+    "depends" : [
+      "PDF::Lite",
+      "PDF::Content",
+      "Font::FreeType",
+      "PDF",
+      "Native::Packing"
+    ],
+    "test-depends" : [ ],
+    "tags" : [
+      "pdf",
+      "font"
+    ],
+    "provides" : {
+      "PDF::Font::Loader::Type1" : "lib/PDF/Font/Loader/Type1.pm",
+      "PDF::Font::Loader::Enc::CMap" : "lib/PDF/Font/Loader/Enc/CMap.pm",
+      "PDF::Font::Loader" : "lib/PDF/Font/Loader.pm",
+      "PDF::Font::Loader::Type1::Stream" : "lib/PDF/Font/Loader/Type1/Stream.pm",
+      "PDF::Font::Loader::FreeType" : "lib/PDF/Font/Loader/FreeType.pm",
+      "PDF::Font::Loader::Enc::Type1" : "lib/PDF/Font/Loader/Enc/Type1.pm",
+      "PDF::Font::Loader::Enc::Identity-H" : "lib/PDF/Font/Loader/Enc/Identity-H.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.7",
+    "description" : "Font classes for the PDF Tool-chain",
+    "authors" : [
+      "David Warring"
+    ]
+  },
+  {
     "name" : "IO::Prompt",
     "source-url" : "http://www.cpan.org/authors/id/W/WB/WBIKER/Perl6/IO-Prompt-0.0.2.tar.gz",
     "perl" : "6.*",
