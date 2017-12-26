@@ -1454,6 +1454,38 @@
     ]
   },
   {
+    "name" : "Sparky",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparky.git",
+      "bugtracker" : "https://github.com/melezhik/sparky/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparky-0.0.24.tar.gz",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "YAMLish",
+      "DBIish",
+      "Sparrowdo",
+      "Time::Crontab",
+      "Bailador",
+      "Text::Markdown",
+      "Data::Dump"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Sparky" : "lib/Sparky.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.24",
+    "description" : "Sparky is a continues integration server based on Sparrow/Sparrowdo ecosystem",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
+  },
+  {
     "name" : "Sparky::Plugin::Hello",
     "support" : {
       "source" : "https://github.com/melezhik/sparky-plugin-hello.git",
