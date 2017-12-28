@@ -319,6 +319,35 @@
     ]
   },
   {
+    "name" : "Verge::RPC::Client",
+    "support" : {
+      "source" : "git://github.com/brakmic/Perl6-Verge-Client.git"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/B/BR/BRAKMIC/Perl6/Verge-RPC-Client-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "depends" : [
+      "WWW",
+      "JSON::Fast",
+      "LWP::Simple",
+      "Base64::Native",
+      "Data::Dump",
+      "Slippy::Semilist"
+    ],
+    "test-depends" : [
+      "Test"
+    ],
+    "provides" : {
+      "Verge::RPC::Client" : "lib/Verge/RPC/Client.pm6",
+      "Verge::Helpers::Config" : "lib/Verge/Helpers/Config.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "query Verge transactions, wallet info and more",
+    "authors" : [
+      "Harris Brakmic"
+    ]
+  },
+  {
     "name" : "SQL::Lexer",
     "support" : {
       "email" : "dmaestro@cpan.org",
