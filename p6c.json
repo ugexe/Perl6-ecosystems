@@ -20516,5 +20516,36 @@
       "Gabriel Ash",
       "github:gabrielash"
     ]
+  },
+  {
+    "name" : "WWW::P6lert",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-WWW-P6lert.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "WWW",
+      "Subset::Helper"
+    ],
+    "provides" : {
+      "WWW::P6lert::Alert" : "lib/WWW/P6lert.pm6",
+      "WWW::P6lert::X" : "lib/WWW/P6lert.pm6",
+      "WWW::P6lert::X::NotFound" : "lib/WWW/P6lert.pm6",
+      "WWW::P6lert" : "lib/WWW/P6lert.pm6",
+      "WWW::P6lert::X::Network" : "lib/WWW/P6lert.pm6"
+    },
+    "test-depends" : [
+      "Testo",
+      "Test::When"
+    ],
+    "tags" : [
+      "WWW"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001003",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Implementation of alerts.perl6.org API"
   }
 ]
