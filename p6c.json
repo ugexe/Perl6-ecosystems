@@ -20546,5 +20546,31 @@
       "Zoffix Znet"
     ],
     "description" : "Implementation of alerts.perl6.org API"
+  },
+  {
+    "name" : "p6lert",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-p6lert.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "JSON::Fast",
+      "WWW::P6lerts"
+    ],
+    "provides" : { },
+    "test-depends" : [
+      "JSON::Fast",
+      "Testo",
+      "Test::When"
+    ],
+    "tags" : [
+      "command line"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001002",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Command line utility to fetch alerts.perl6.org alerts"
   }
 ]
