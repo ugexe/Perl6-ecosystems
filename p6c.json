@@ -15785,7 +15785,8 @@
     "perl" : "6.c",
     "depends" : [ ],
     "provides" : {
-      "Crypt::RSA" : "lib/Crypt/RSA.pm6"
+      "Crypt::RSA" : "lib/Crypt/RSA.pm6",
+      "Crypt::RSA::Key" : "lib/Crypt/RSA/Key.pm6"
     },
     "license" : "Artistic-2.0",
     "version" : "0.1.0",
