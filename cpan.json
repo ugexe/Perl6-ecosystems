@@ -2642,6 +2642,33 @@
     ]
   },
   {
+    "name" : "Sparky::Plugin::Notify::Telegram",
+    "support" : {
+      "source" : "https://github.com/Spigell/sparky-plugin-notify-telegram.git",
+      "bugtracker" : "https://github.com/Spigell/sparky-plugin-notify-telegram/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/S/SP/SPIGELL/Perl6/Sparky-Plugin-Notify-Telegram-0.0.1.tar.gz",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Sparky",
+      "TelegramBot"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Sparky::Plugin::Notify::Telegram" : "lib/Sparky/Plugin/Notify/Telegram.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Sparky plugin to send notifications to telegram chat upon completed tasks",
+    "authors" : [
+      "Spigell"
+    ]
+  },
+  {
     "name" : "Acme::Meow",
     "source-url" : "git://github.com/tadzik/perl6-Acme-Meow.git",
     "support" : {
