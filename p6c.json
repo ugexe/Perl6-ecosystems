@@ -6479,47 +6479,6 @@
     "description" : "Grammar for Parsing C in Perl6"
   },
   {
-    "name" : "App::Pray",
-    "source-url" : "git://github.com/raydiak/pray.git",
-    "perl" : "6.*",
-    "build-depends" : [
-      "JSON::Tiny"
-    ],
-    "author" : "raydiak",
-    "depends" : [
-      "Image::PNG::Portable",
-      "JSON::Tiny"
-    ],
-    "provides" : {
-      "Pray::Scene::Intersection" : "lib/Pray/Scene/Intersection.pm6",
-      "Pray::Scene::Object" : "lib/Pray/Scene/Object.pm6",
-      "Pray::Scene::Color" : "lib/Pray/Scene/Color.pm6",
-      "Pray::Geometry::Object" : "lib/Pray/Geometry/Object.pm6",
-      "Pray::Scene::Material" : "lib/Pray/Scene/Material.pm6",
-      "Pray::Geometry::Matrix3D" : "lib/Pray/Geometry/Matrix3D.pm6",
-      "Pray::Scene" : "lib/Pray/Scene.pm6",
-      "Pray::Output" : "lib/Pray/Output.pm6",
-      "Pray::Input::JSON" : "lib/Pray/Input/JSON.pm6",
-      "Pray::Geometry::Cylinder" : "lib/Pray/Geometry/Cylinder.pm6",
-      "Pray::Geometry::Sphere" : "lib/Pray/Geometry/Sphere.pm6",
-      "Pray::Geometry::Ray" : "lib/Pray/Geometry/Ray.pm6",
-      "Pray::Geometry::Cone" : "lib/Pray/Geometry/Cone.pm6",
-      "Pray::Scene::Camera" : "lib/Pray/Scene/Camera.pm6",
-      "Pray::Scene::Light" : "lib/Pray/Scene/Light.pm6",
-      "Pray::Scene::Lighting" : "lib/Pray/Scene/Lighting.pm6",
-      "Pray::Output::PPM" : "lib/Pray/Output/PPM.pm6",
-      "Pray::Geometry::Vector3D" : "lib/Pray/Geometry/Vector3D.pm6",
-      "Pray::Geometry::Cube" : "lib/Pray/Geometry/Cube.pm6",
-      "Pray" : "lib/Pray.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "license" : "Artistic-2.0",
-    "version" : "*",
-    "description" : "Perl 6 Ray Tracing Engine"
-  },
-  {
     "api" : "css3-selectors-20110929",
     "name" : "CSS::Module::CSS3::Selectors",
     "source-url" : "git://github.com/p6-css/CSS-Module-CSS3-Selectors-p6.git",
