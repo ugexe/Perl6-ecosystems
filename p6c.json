@@ -10186,10 +10186,12 @@
     ]
   },
   {
-    "api" : "PDF-1.7",
     "name" : "PDF",
+    "api" : "PDF-1.7",
     "source-url" : "git://github.com/p6-pdf/PDF-p6.git",
     "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
     "auth" : "github:p6-pdf",
     "depends" : [
       "Compress::Zlib",
@@ -10197,14 +10199,18 @@
       "JSON::Fast",
       "OpenSSL"
     ],
+    "test-depends" : [ ],
+    "tags" : [
+      "pdf"
+    ],
     "provides" : {
+      "PDF::Writer" : "lib/PDF/Writer.pm",
       "PDF::IO::IndObj" : "lib/PDF/IO/IndObj.pm",
       "PDF::IO::Handle" : "lib/PDF/IO/Handle.pm",
       "PDF::DAO::Tie::Array" : "lib/PDF/DAO/Tie/Array.pm",
       "PDF::DAO::Real" : "lib/PDF/DAO/Real.pm",
       "PDF::DAO::Null" : "lib/PDF/DAO/Null.pm",
       "PDF::DAO::Bool" : "lib/PDF/DAO/Bool.pm",
-      "PDF::Writer" : "lib/PDF/Writer.pm",
       "PDF::IO::Util" : "lib/PDF/IO/Util.pm",
       "PDF::DAO::Util" : "lib/PDF/DAO/Util.pm",
       "PDF::DAO::Tie" : "lib/PDF/DAO/Tie.pm",
@@ -10216,17 +10222,17 @@
       "PDF::DAO::Type::Encrypt" : "lib/PDF/DAO/Type/Encrypt.pm",
       "PDF::DAO::Tie::Hash" : "lib/PDF/DAO/Tie/Hash.pm",
       "PDF::DAO::Stream" : "lib/PDF/DAO/Stream.pm",
+      "PDF::Reader" : "lib/PDF/Reader.pm",
       "PDF::IO::Crypt::AES" : "lib/PDF/IO/Crypt/AES.pm",
       "PDF::IO::Blob" : "lib/PDF/IO/Blob.pm",
       "PDF::DAO::TextString" : "lib/PDF/DAO/TextString.pm",
       "PDF::DAO" : "lib/PDF/DAO.pm",
-      "PDF::Reader" : "lib/PDF/Reader.pm",
-      "PDF::IO::Filter" : "lib/PDF/IO/Filter.pm",
       "PDF::IO::Str" : "lib/PDF/IO/Str.pm",
+      "PDF::IO::Filter" : "lib/PDF/IO/Filter.pm",
       "PDF::IO" : "lib/PDF/IO.pm",
+      "PDF::DAO::Loader" : "lib/PDF/DAO/Loader.pm",
       "PDF::DAO::Dict" : "lib/PDF/DAO/Dict.pm",
       "PDF::DAO::Array" : "lib/PDF/DAO/Array.pm",
-      "PDF::DAO::Loader" : "lib/PDF/DAO/Loader.pm",
       "PDF" : "lib/PDF.pm",
       "PDF::IO::Filter::ASCIIHex" : "lib/PDF/IO/Filter/ASCIIHex.pm",
       "PDF::IO::Crypt::PDF" : "lib/PDF/IO/Crypt/PDF.pm",
@@ -10243,11 +10249,11 @@
       "PDF::DAO::Coercer" : "lib/PDF/DAO/Coercer.pm"
     },
     "license" : "Artistic-2.0",
-    "tags" : [
-      "pdf"
-    ],
-    "version" : "0.2.6",
-    "description" : "Base classes for reading, manipulation and writing of PDF data"
+    "version" : "0.2.7",
+    "description" : "Base classes for reading, manipulation and writing of PDF data",
+    "authors" : [
+      "David Warring"
+    ]
   },
   {
     "name" : "HTTP::Signature",
