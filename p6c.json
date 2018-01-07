@@ -20519,6 +20519,34 @@
     ]
   },
   {
+    "name" : "SQL::Lexer",
+    "perl" : "6.c",
+    "support" : {
+      "email" : "dmaestro@cpan.org",
+      "source" : "git://github.com/dmaestro/SQL-Lexer.git",
+      "bugtracker" : "https://github.com/dmaestro/SQL-Lexer/issues"
+    },
+    "source-url" : "git://github.com/dmaestro/SQL-Lexer.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "auth" : "github:dmaestro",
+    "depends" : [ ],
+    "provides" : {
+      "SQL::Keyword" : "lib/SQL/Lexer.pm",
+      "SQL::Lexer" : "lib/SQL/Lexer.pm",
+      "SQL::Basic" : "lib/SQL/Basic.pm"
+    },
+    "test-depends" : [ ],
+    "license" : "MIT",
+    "tags" : [ ],
+    "meta-version" : "0",
+    "version" : "0.2.0",
+    "description" : "Grammar for lexical analysis of SQL",
+    "authors" : [
+      "Douglas L. Schrag <dmaestro@cpan.org>"
+    ]
+  },
+  {
     "name" : "WWW::P6lert",
     "support" : {
       "source" : "https://github.com/zoffixznet/perl6-WWW-P6lert.git"
@@ -20598,5 +20626,35 @@
     "authors" : [
       "Mike Stemle, Jr."
     ]
+  },
+  {
+    "name" : "Config::JSON",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-Config-JSON"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "JSON::Fast"
+    ],
+    "provides" : {
+      "Config::JSON" : "lib/Config/JSON.pm6"
+    },
+    "test-depends" : [
+      "JSON::Fast",
+      "Testo",
+      "Test::When",
+      "Temp::Path"
+    ],
+    "tags" : [
+      "config",
+      "configuration",
+      "JSON"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001002",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Flat, JSON-backed read-write configuration"
   }
 ]
