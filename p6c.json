@@ -18475,6 +18475,31 @@
     "description" : "Zef plugin to send test reports to cpantesters"
   },
   {
+    "name" : "Benchy",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-Benchy.git"
+    },
+    "perl" : "6.c",
+    "depends" : [ ],
+    "provides" : {
+      "Benchy" : "lib/Benchy.pm6"
+    },
+    "test-depends" : [
+      "Testo",
+      "Test::META"
+    ],
+    "tags" : [
+      "benchmark",
+      "dev"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001001",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Benchmark some code"
+  },
+  {
     "name" : "Base64::Native",
     "source-url" : "git://github.com/p6-pdf/Base64-Native-p6.git",
     "perl" : "6.c",
