@@ -2896,6 +2896,49 @@
     ]
   },
   {
+    "name" : "App::Mi6",
+    "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/App-Mi6-0.1.2.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "File::Find",
+      "JSON::Pretty",
+      "Pod::To::Markdown",
+      "Shell::Command",
+      "CPAN::Uploader::Tiny"
+    ],
+    "test-depends" : [
+      "File::Temp"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "App::Mi6::Release::RegenerateFiles" : "lib/App/Mi6/Release/RegenerateFiles.pm6",
+      "App::Mi6" : "lib/App/Mi6.pm6",
+      "App::Mi6::Release::BumpVersion" : "lib/App/Mi6/Release/BumpVersion.pm6",
+      "App::Mi6::Release::RewriteChanges" : "lib/App/Mi6/Release/RewriteChanges.pm6",
+      "App::Mi6::JSON" : "lib/App/Mi6/JSON.pm6",
+      "App::Mi6::Template" : "lib/App/Mi6/Template.pm6",
+      "App::Mi6::Release::MakeDist" : "lib/App/Mi6/Release/MakeDist.pm6",
+      "App::Mi6::INI" : "lib/App/Mi6/INI.pm6",
+      "App::Mi6::Release::GitCommit" : "lib/App/Mi6/Release/GitCommit.pm6",
+      "App::Mi6::Release::CreateGitTag" : "lib/App/Mi6/Release/CreateGitTag.pm6",
+      "App::Mi6::Release" : "lib/App/Mi6/Release.pm6",
+      "App::Mi6::Release::DistTest" : "lib/App/Mi6/Release/DistTest.pm6",
+      "App::Mi6::Util" : "lib/App/Mi6/Util.pm6",
+      "App::Mi6::Release::UploadToCPAN" : "lib/App/Mi6/Release/UploadToCPAN.pm6",
+      "App::Mi6::Release::CheckUntrackedFiles" : "lib/App/Mi6/Release/CheckUntrackedFiles.pm6",
+      "App::Mi6::Release::CheckOrigin" : "lib/App/Mi6/Release/CheckOrigin.pm6",
+      "App::Mi6::Release::CheckChanges" : "lib/App/Mi6/Release/CheckChanges.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.2",
+    "description" : "minimal authoring tool for Perl6",
+    "authors" : [
+      "Shoichi Kaji"
+    ]
+  },
+  {
     "name" : "CPAN::Uploader::Tiny",
     "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/CPAN-Uploader-Tiny-0.0.3.tar.gz",
     "perl" : "6.c",
@@ -2913,6 +2956,30 @@
     "license" : "Artistic-2.0",
     "version" : "0.0.3",
     "description" : "Upload tarballs to CPAN",
+    "authors" : [
+      "Shoichi Kaji"
+    ]
+  },
+  {
+    "name" : "HTTP::Tinyish",
+    "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/HTTP-Tinyish-0.1.0.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "File::Temp"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "HTTP::Tinyish::Curl" : "lib/HTTP/Tinyish/Curl.pm6",
+      "HTTP::Tinyish::FileTempFactory" : "lib/HTTP/Tinyish/FileTempFactory.pm6",
+      "HTTP::Tinyish::Base" : "lib/HTTP/Tinyish/Base.pm6",
+      "HTTP::Tinyish" : "lib/HTTP/Tinyish.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "description" : "perl6 port of HTTP::Tinyish",
     "authors" : [
       "Shoichi Kaji"
     ]
