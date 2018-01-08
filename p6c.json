@@ -8694,30 +8694,6 @@
     ]
   },
   {
-    "name" : "HTTP::Tinyish",
-    "source-url" : "git://github.com/skaji/perl6-HTTP-Tinyish.git",
-    "perl" : "6.c",
-    "resources" : [ ],
-    "build-depends" : [ ],
-    "depends" : [
-      "File::Temp"
-    ],
-    "test-depends" : [ ],
-    "tags" : [ ],
-    "provides" : {
-      "HTTP::Tinyish::Curl" : "lib/HTTP/Tinyish/Curl.pm6",
-      "HTTP::Tinyish::FileTempFactory" : "lib/HTTP/Tinyish/FileTempFactory.pm6",
-      "HTTP::Tinyish::Base" : "lib/HTTP/Tinyish/Base.pm6",
-      "HTTP::Tinyish" : "lib/HTTP/Tinyish.pm6"
-    },
-    "license" : "Artistic-2.0",
-    "version" : "0.0.1",
-    "description" : "perl6 port of HTTP::Tinyish",
-    "authors" : [
-      "Shoichi Kaji"
-    ]
-  },
-  {
     "name" : "HTTP::Parser",
     "perl" : "6",
     "source-url" : "git://github.com/tokuhirom/p6-HTTP-Parser.git",
