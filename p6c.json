@@ -20586,5 +20586,30 @@
       "Zoffix Znet"
     ],
     "description" : "Flat, JSON-backed read-write configuration"
+  },
+  {
+    "name" : "CoreHackers::Q",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/q.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "HTML::Escape"
+    ],
+    "provides" : {
+      "CoreHackers::Q::Parser::Actions" : "lib/CoreHackers/Q/Parser/Actions.pm6",
+      "CoreHackers::Q" : "lib/CoreHackers/Q.pm6",
+      "CoreHackers::Q::Parser" : "lib/CoreHackers/Q/Parser.pm6"
+    },
+    "test-depends" : [ ],
+    "tags" : [
+      "core dev"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001003",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Perl 6 QAST Visualizer"
   }
 ]
