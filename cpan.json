@@ -406,6 +406,39 @@
     ]
   },
   {
+    "name" : "epoll",
+    "support" : {
+      "source" : "https://github.com/CurtTilmes/perl6-epoll.git",
+      "bugtracker" : "https://github.com/CurtTilmes/perl6-epoll/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/epoll-0.1.tar.gz",
+    "perl" : "6.c",
+    "depends" : [
+      "NativeCall"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::When",
+      "Test::META"
+    ],
+    "tags" : [
+      "IO",
+      "NET",
+      "ASYNC",
+      "LINUX",
+      "NATIVECALL"
+    ],
+    "provides" : {
+      "epoll" : "lib/epoll.pm6"
+    },
+    "license" : "NASA-1.3",
+    "version" : "0.1",
+    "description" : "Perl 6 bindings for epoll(7), async IO event notification",
+    "authors" : [
+      "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+    ]
+  },
+  {
     "name" : "SQL::Lexer",
     "support" : {
       "email" : "dmaestro@cpan.org",
