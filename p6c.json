@@ -19429,7 +19429,7 @@
     "name" : "Chemistry::Elements",
     "source-url" : "git@github.com:briandfoy/perl6-chemistry-elements.git",
     "support" : {
-      "source" : "git@github.com:briandfoy/perl6-chemistry-elements.git"
+      "source" : "https://github.com/briandfoy/perl6-chemistry-elements"
     },
     "perl" : "6.c",
     "depends" : [ ],
@@ -19439,7 +19439,8 @@
       "atomic number"
     ],
     "test-depends" : [
-      "Test"
+      "Test",
+      "Test::META"
     ],
     "provides" : {
       "Chemistry::Elements" : "lib/Chemistry/Elements.pm6"
