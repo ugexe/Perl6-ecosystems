@@ -406,6 +406,46 @@
     ]
   },
   {
+    "name" : "DB::Pg",
+    "support" : {
+      "source" : "https://github.com/CurtTilmes/perl6-dbpg.git",
+      "bugtracker" : "https://github.com/CurtTilmes/perl6-dbpg/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/DB-Pg-0.1.tar.gz",
+    "perl" : "6.c",
+    "depends" : [
+      "NativeCall"
+    ],
+    "test-depends" : [
+      "Test",
+      "Test::When",
+      "Test::META"
+    ],
+    "tags" : [
+      "DATABASE"
+    ],
+    "provides" : {
+      "DB::Pg::Converter::DateTime" : "lib/DB/Pg/Converter/DateTime.pm6",
+      "DB::Pg::GeometricTypes" : "lib/DB/Pg/GeometricTypes.pm6",
+      "DB::Pg::Converter::UUID" : "lib/DB/Pg/Converter/UUID.pm6",
+      "DB::Pg::Statement" : "lib/DB/Pg/Statement.pm6",
+      "DB::Pg::Database" : "lib/DB/Pg/Database.pm6",
+      "DB::Pg::Converter::JSON" : "lib/DB/Pg/Converter/JSON.pm6",
+      "DB::Pg::Converter::Geometric" : "lib/DB/Pg/Converter/Geometric.pm6",
+      "DB::Pg::Converter" : "lib/DB/Pg/Converter.pm6",
+      "DB::Pg" : "lib/DB/Pg.pm6",
+      "DB::Pg::Results" : "lib/DB/Pg/Results.pm6",
+      "DB::Pg::Native" : "lib/DB/Pg/Native.pm6",
+      "DB::Pg::ArrayParser" : "lib/DB/Pg/ArrayParser.pm6"
+    },
+    "license" : "NASA-1.3",
+    "version" : "0.1",
+    "description" : "Perl6 bindings for PostgreSQL",
+    "authors" : [
+      "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+    ]
+  },
+  {
     "name" : "epoll",
     "support" : {
       "source" : "https://github.com/CurtTilmes/perl6-epoll.git",
