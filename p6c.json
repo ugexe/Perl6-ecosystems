@@ -470,6 +470,43 @@
     "description" : "Collection of Bioinformatics classes, roles, and modules"
   },
   {
+    "name" : "BioInfo",
+    "source-url" : "git://github.com/MattOates/BioInfo.git",
+    "perl" : "6.c",
+    "source-type" : "git",
+    "author" : "Matt Oates",
+    "depends" : [
+      "Stats"
+    ],
+    "provides" : {
+      "BioInfo::Parser::Newick" : "lib/BioInfo/Parser/Newick.pm6",
+      "BioInfo::Seq::RNA" : "lib/BioInfo/Seq/RNA.pm6",
+      "BioInfo::Parser::FASTA::Grammar" : "lib/BioInfo/Parser/FASTA/Grammar.pm6",
+      "BioInfo" : "lib/BioInfo.pm6",
+      "BioInfo::Seq::Nucleic" : "lib/BioInfo/Seq/Nucleic.pm6",
+      "BioInfo::Parser::FASTA" : "lib/BioInfo/Parser/FASTA.pm6",
+      "BioInfo::Parser" : "lib/BioInfo/Parser.pm6",
+      "BioInfo::Parser::Newick::Grammar" : "lib/BioInfo/Parser/Newick/Grammar.pm6",
+      "BioInfo::Seq::Amino" : "lib/BioInfo/Seq/Amino.pm6",
+      "BioInfo::Parser::Newick::Actions" : "lib/BioInfo/Parser/Newick/Actions.pm6",
+      "BioInfo::Parser::FASTA::Actions" : "lib/BioInfo/Parser/FASTA/Actions.pm6",
+      "BioInfo::Seq::DNA" : "lib/BioInfo/Seq/DNA.pm6",
+      "BioInfo::Seq" : "lib/BioInfo/Seq.pm6",
+      "BioInfo::IO::FileParser" : "lib/BioInfo/IO/FileParser.pm6"
+    },
+    "tags" : [
+      "Bio",
+      "Biology",
+      "Science",
+      "Bioinformatics",
+      "Slang",
+      "Parser"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "0.4.3",
+    "description" : "Bioinformatics modules written specifically for a Perl6 generation."
+  },
+  {
     "name" : "Term::ProgressBar",
     "source-url" : "git://github.com/sergot/Term--ProgressBar.git",
     "perl" : "6.*",
@@ -19312,13 +19349,16 @@
     "resources" : [ ],
     "build-depends" : [ ],
     "depends" : [ ],
-    "test-depends" : [ ],
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
     "tags" : [ ],
     "provides" : {
       "PrettyDump" : "lib/PrettyDump.pm6"
     },
     "license" : "Artistic-2.0",
-    "version" : "1.1.6",
+    "version" : "1.1.7",
     "description" : "represent a Perl 6 data structure in a human readable way",
     "authors" : [
       "brian d foy"
