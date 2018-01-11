@@ -1,5 +1,28 @@
 [
   {
+    "name" : "Grammar::Tracer::Compact",
+    "source-url" : "git://github.com/nkh/P6-Grammar-Tracer-Compact.git",
+    "perl" : "6.c",
+    "build-depends" : [
+      "Terminal::ANSIColor"
+    ],
+    "depends" : [
+      "Terminal::ANSIColor"
+    ],
+    "provides" : {
+      "Grammar::Tracer::Compact" : "lib/Grammar/Tracer/Compact.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.0",
+    "description" : "Simple tracing for Perl 6 grammars",
+    "authors" : [
+      "Nadim Khemir"
+    ]
+  },
+  {
     "name" : "Locale-Codes-Country",
     "source-url" : "https://github.com/PowellDean/Locale-Codes-Country.git",
     "perl" : "6.*",
@@ -38,6 +61,17 @@
     "description" : "The kitty you always wanted, now in Perl 6"
   },
   {
+    "name" : "Testing",
+    "source-url" : "git://github.com/colomon/perl6-Testing.git",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "Testing" : "lib/Testing.pm"
+    },
+    "version" : "*",
+    "description" : "Damian Conway's Perl 6 testing module"
+  },
+  {
     "name" : "mandelbrot",
     "source-url" : "git://github.com/colomon/mandelbrot.git",
     "perl" : "6.*",
@@ -63,6 +97,20 @@
     "description" : "Damian Conway's IO::Prompter"
   },
   {
+    "name" : "Math::FourierTransform",
+    "source-url" : "git://github.com/MattOates/Math--FourierTransform.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "author" : "Matt Oates",
+    "depends" : [ ],
+    "provides" : {
+      "Math::FourierTransform" : "lib/Math/FourierTransform.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Discrete Fourier Transform implementation."
+  },
+  {
     "name" : "Math::Polynomial",
     "source-url" : "git://github.com/colomon/Math-Polynomial.git",
     "source-type" : "git",
@@ -75,6 +123,18 @@
     "description" : "Simple polynomial class"
   },
   {
+    "name" : "Math::Vector",
+    "source-url" : "git://github.com/colomon/Math-Vector.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "Math::Vector" : "lib/Math/Vector.pm"
+    },
+    "version" : "0.5.1",
+    "description" : "Vector math class"
+  },
+  {
     "name" : "Math::ContinuedFractions",
     "source-url" : "git://github.com/colomon/Math-ContinuedFractions.git",
     "source-type" : "git",
@@ -84,6 +144,330 @@
     },
     "version" : "*",
     "description" : "Basic continued fraction arithmetic"
+  },
+  {
+    "name" : "Math::ChebyshevPolynomial",
+    "source-url" : "git://github.com/colomon/Math-ChebyshevPolynomial.git",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "Math::ChebyshevPolynomial" : "lib/Math/ChebyshevPolynomial.pm"
+    },
+    "version" : "*",
+    "description" : "Simple Chebyshev polynomial class"
+  },
+  {
+    "name" : "Math::OddFunctions",
+    "source-url" : "git://github.com/colomon/Math-Odd-Functions.git",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "Math::OddFunctions" : "lib/Math/OddFunctions.pm"
+    },
+    "version" : "*",
+    "description" : "Standard math function odds and ends"
+  },
+  {
+    "name" : "Config::INI",
+    "source-url" : "git://github.com/tadzik/perl6-Config-INI.git",
+    "support" : {
+      "source" : "git://github.com/tadzik/perl6-Config-INI.git",
+      "bugtracker" : "https://github.com/tadzik/perl6-Config-INI/issues"
+    },
+    "perl" : "6.*",
+    "depends" : [ ],
+    "provides" : {
+      "Config::INI::Writer" : "lib/Config/INI/Writer.pm",
+      "Config::INI" : "lib/Config/INI.pm"
+    },
+    "version" : "*",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+      "Nobuo Danjou"
+    ],
+    "description" : ".ini file parser and writer module for Perl 6"
+  },
+  {
+    "name" : "Term::ANSIColor",
+    "source-url" : "git://github.com/tadzik/perl6-Term-ANSIColor.git",
+    "support" : {
+      "source" : "git://github.com/tadzik/perl6-Term-ANSIColor.git",
+      "bugtracker" : "https://github.com/tadzik/perl6-Term-ANSIColor/issues"
+    },
+    "perl" : "6.*",
+    "build-depends" : [ ],
+    "superseded-by" : {
+      "Term::ANSIColor" : "Terminal::ANSIColor"
+    },
+    "depends" : [ ],
+    "provides" : {
+      "Term::ANSIColor" : "lib/Term/ANSIColor.pm"
+    },
+    "license" : "MIT",
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "*",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+      "jnthn",
+      "Steve Mynott",
+      "timo",
+      "Tobias Leich"
+    ],
+    "description" : "Colorize terminal output"
+  },
+  {
+    "name" : "Terminal::ANSIColor",
+    "source-url" : "git://github.com/tadzik/Terminal-ANSIColor.git",
+    "support" : {
+      "source" : "git://github.com/tadzik/Terminal-ANSIColor.git",
+      "bugtracker" : "https://github.com/tadzik/Terminal-ANSIColor/issues"
+    },
+    "perl" : "6.*",
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Terminal::ANSIColor" : "lib/Terminal/ANSIColor.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "license" : "MIT",
+    "version" : "0.4",
+    "authors" : [
+      "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+      "jnthn",
+      "Steve Mynott",
+      "timo",
+      "Tobias Leich"
+    ],
+    "description" : "Colorize terminal output"
+  },
+  {
+    "name" : "Text::CSV",
+    "support" : {
+      "irc" : "irc://irc.perl.org/#csv"
+    },
+    "source-url" : "git://github.com/Tux/CSV.git",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:Tux",
+    "repo-type" : "git",
+    "depends" : [
+      "Slang::Tuxic",
+      "File::Temp"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "Text::CSV" : "lib/Text/CSV.pm"
+    },
+    "test-depends" : [
+      "Test",
+      "Test::META"
+    ],
+    "tags" : [
+      "CSV"
+    ],
+    "version" : "0.008",
+    "authors" : [
+      "H.Merijn Brand (Tux)"
+    ],
+    "description" : "Handle CSV data. API based on Text::CSV_XS"
+  },
+  {
+    "name" : "HTTP::Server::Simple",
+    "source-url" : "git://github.com/gfldex/http-server-simple.git",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "depends" : [
+      "Test::META"
+    ],
+    "provides" : {
+      "HTTP::Server::Simple" : "lib/HTTP/Server/Simple.pm6",
+      "HTTP::Server::Simple::PSGI" : "lib/HTTP/Server/Simple/PSGI.pm6"
+    },
+    "version" : "0.1.2",
+    "authors" : [
+      "Martin Berends",
+      "Wenzel P. P. Peppmeyer"
+    ],
+    "description" : "Simple webserver module, with PSGI support"
+  },
+  {
+    "name" : "MPD",
+    "source-url" : "git://github.com/tadzik/perl6-MPD.git",
+    "perl" : "6.c",
+    "author" : "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+    "depends" : [ ],
+    "provides" : {
+      "MPD" : "lib/MPD.pm"
+    },
+    "license" : "MIT",
+    "version" : "0.1",
+    "description" : "Interface to libmpdclient C library"
+  },
+  {
+    "name" : "List::Utils",
+    "source-url" : "git://github.com/colomon/List-Utils.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "List::Utils" : "lib/List/Utils.pm"
+    },
+    "version" : "*",
+    "description" : "Simple list utility subs"
+  },
+  {
+    "name" : "Algorithm::Diff",
+    "source-url" : "git://github.com/Takadonet/Algorithm--Diff.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Algorithm::Diff" : "lib/Algorithm/Diff.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "*",
+    "description" : "Contains several interfaces for which computing the differences between two lists."
+  },
+  {
+    "name" : "Text::Diff",
+    "source-url" : "git://github.com/Takadonet/Text--Diff.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "depends" : [
+      "Algorithm::Diff"
+    ],
+    "provides" : {
+      "Text::Diff::OldStyle" : "lib/Text/Diff/OldStyle.pm",
+      "Text::Diff" : "lib/Text/Diff.pm",
+      "Text::Diff::Unified" : "lib/Text/Diff/Unified.pm",
+      "Text::Diff::Table" : "lib/Text/Diff/Table.pm"
+    },
+    "version" : "*",
+    "description" : "Perform diffs on files and record sets"
+  },
+  {
+    "name" : "ABC",
+    "source-url" : "git://github.com/colomon/ABC.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "depends" : [ ],
+    "provides" : {
+      "ABC::Tuplet" : "lib/ABC/Tuplet.pm",
+      "ABC::Tune" : "lib/ABC/Tune.pm",
+      "ABC::Stem" : "lib/ABC/Stem.pm",
+      "ABC::Context" : "lib/ABC/Context.pm",
+      "ABC::GraceNotes" : "lib/ABC/GraceNotes.pm",
+      "ABC::Grammar" : "lib/ABC/Grammar.pm",
+      "ABC::Actions" : "lib/ABC/Actions.pm",
+      "ABC::BrokenRhythm" : "lib/ABC/BrokenRhythm.pm",
+      "ABC::Rest" : "lib/ABC/Rest.pm",
+      "ABC::KeyInfo" : "lib/ABC/KeyInfo.pm",
+      "ABC::Note" : "lib/ABC/Note.pm",
+      "ABC::Header" : "lib/ABC/Header.pm",
+      "ABC::Pitched" : "lib/ABC/Pitched.pm",
+      "ABC::Duration" : "lib/ABC/Duration.pm",
+      "ABC::LongRest" : "lib/ABC/LongRest.pm",
+      "ABC::Chord" : "lib/ABC/Chord.pm",
+      "ABC::Utils" : "lib/ABC/Utils.pm"
+    },
+    "version" : "0.5.3",
+    "description" : "Toolkit for dealing with ABC music notation"
+  },
+  {
+    "name" : "MIME::Base64",
+    "source-url" : "git://github.com/perl6/Perl6-MIME-Base64.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "author" : "github:retupmoca",
+    "depends" : [ ],
+    "provides" : {
+      "MIME::Base64::Perl" : "lib/MIME/Base64/Perl.pm6",
+      "MIME::Base64" : "lib/MIME/Base64.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.2.1",
+    "description" : "Encoding and decoding Base64 ASCII strings"
+  },
+  {
+    "name" : "Test::Mock",
+    "source-url" : "git://github.com/jnthn/test-mock.git",
+    "perl" : "6.*",
+    "depends" : [
+      "OO::Monitors"
+    ],
+    "provides" : {
+      "Test::Mock" : "lib/Test/Mock.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.4",
+    "description" : "Creation of stub objects using the Arrange, Act, Assert pattern.",
+    "authors" : [
+      "Jonathan Worthington <jnthn@jnthn.net>"
+    ]
+  },
+  {
+    "name" : "BioPerl6",
+    "source-url" : "git://github.com/cjfields/bioperl6.git",
+    "perl" : "6.c",
+    "source-type" : "git",
+    "depends" : [
+      "File::Temp"
+    ],
+    "provides" : {
+      "Bio::Tools::IUPAC" : "lib/Bio/Tools/IUPAC.pm6",
+      "Bio::Annotation::Reference" : "lib/Bio/Annotation/Reference.pm6",
+      "Bio::Role::PrimarySeq" : "lib/Bio/Role/PrimarySeq.pm6",
+      "Bio::SeqIO::fasta" : "lib/Bio/SeqIO/fasta.pm6",
+      "Bio::Role::Annotatable" : "lib/Bio/Role/Annotatable.pm6",
+      "Bio::Role::Pluggable" : "lib/Bio/Role/Pluggable.pm6",
+      "Bio::Annotation::Comment" : "lib/Bio/Annotation/Comment.pm6",
+      "Bio::Grammar::Actions::Fasta" : "lib/Bio/Grammar/Actions/Fasta.pm6",
+      "Bio::Grammar::Genbank" : "lib/Bio/Grammar/Genbank.pm6",
+      "Bio::PrimarySeq" : "lib/Bio/PrimarySeq.pm6",
+      "Bio::Role::Describable" : "lib/Bio/Role/Describable.pm6",
+      "Bio::SeqIO" : "lib/Bio/SeqIO.pm6",
+      "Bio::Grammar::Fasta" : "lib/Bio/Grammar/Fasta.pm6",
+      "Bio::Grammar::GFF" : "lib/Bio/Grammar/GFF.pm6",
+      "Bio::Location::Simple" : "lib/Bio/Location/Simple.pm6",
+      "Bio::Role::Annotation" : "lib/Bio/Role/Annotation.pm6",
+      "Bio::Role::RecordFormat" : "lib/Bio/Role/RecordFormat.pm6",
+      "Bio::Role::SeqStream" : "lib/Bio/Role/SeqStream.pm6",
+      "Bio::Role::Temp" : "lib/Bio/Role/Temp.pm6",
+      "Bio::Annotation::DBLink" : "lib/Bio/Annotation/DBLink.pm6",
+      "Bio::Role::Identifiable" : "lib/Bio/Role/Identifiable.pm6",
+      "Bio::Annotation::SimpleValue" : "lib/Bio/Annotation/SimpleValue.pm6",
+      "Bio::Grammar::Actions::SeqDumper" : "lib/Bio/Grammar/Actions/SeqDumper.pm6",
+      "Bio::Role::Location" : "lib/Bio/Role/Location.pm6",
+      "Bio::Role::Range" : "lib/Bio/Role/Range.pm6",
+      "Bio::Grammar::FTLocation" : "lib/Bio/Grammar/FTLocation.pm6",
+      "Bio::Role::IO" : "lib/Bio/Role/IO.pm6",
+      "Bio::Root::Root" : "lib/Bio/Root/Root.pm6",
+      "Bio::Type::Sequence" : "lib/Bio/Type/Sequence.pm6",
+      "Bio::Type::Location" : "lib/Bio/Type/Location.pm6",
+      "Bio::Grammar::Actions::Default" : "lib/Bio/Grammar/Actions/Default.pm6",
+      "Bio::Tools::CodonTable" : "lib/Bio/Tools/CodonTable.pm6",
+      "Bio::Tools::FTLocationParser" : "lib/Bio/Tools/FTLocationParser.pm6",
+      "Bio::Role::Aliased" : "lib/Bio/Role/Aliased.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "tags" : [
+      "Bio",
+      "Biology",
+      "Science",
+      "Bioinformatics",
+      "Grammar"
+    ],
+    "version" : "0.0.1",
+    "authors" : "git:cjfields",
+    "description" : "Collection of Bioinformatics classes, roles, and modules"
   },
   {
     "name" : "BioInfo",
