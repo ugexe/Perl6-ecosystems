@@ -9254,25 +9254,6 @@
     "description" : "LTSV (Labeled Tab Separated Value) toolkit"
   },
   {
-    "name" : "Test::Base",
-    "perl" : "v6",
-    "source-url" : "git://github.com/tokuhirom/p6-Test-Base.git",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "test-depends" : [ ],
-    "provides" : {
-      "Test::Base::Actions" : "lib/Test/Base/Actions.pm",
-      "Test::Base::Block" : "lib/Test/Base/Block.pm",
-      "Test::Base" : "lib/Test/Base.pm6",
-      "Test::Base::Grammar" : "lib/Test/Base/Grammar.pm"
-    },
-    "version" : "*",
-    "authors" : [
-      "Tokuhiro Matsuno"
-    ],
-    "description" : "Data driven development for Perl6"
-  },
-  {
     "name" : "Data::Section::Simple",
     "perl" : "6.c",
     "source-url" : "git://github.com/skaji/Data-Section-Simple.git",
