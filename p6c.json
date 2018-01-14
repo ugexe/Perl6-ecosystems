@@ -19623,6 +19623,7 @@
       "X::Hematite::HTTPException" : "lib/X/Hematite/HTTPException.pm6",
       "Hematite::Router" : "lib/Hematite/Router.pm6",
       "Hematite" : "lib/Hematite.pm6",
+      "Hematite::Middleware::Static" : "lib/Hematite/Middleware/Static.pm6",
       "Hematite::Templates" : "lib/Hematite/Templates.pm6",
       "Hematite::Route" : "lib/Hematite/Route.pm6",
       "Hematite::Handler" : "lib/Hematite/Handler.pm6",
@@ -19632,7 +19633,7 @@
     },
     "test-depends" : [ ],
     "license" : "Artistic-2.0",
-    "version" : "0.3.1",
+    "version" : "0.3.2",
     "authors" : [
       "Andr\u00e9 Br\u00e1s"
     ],
