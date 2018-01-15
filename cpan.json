@@ -1719,6 +1719,60 @@
     ]
   },
   {
+    "name" : "App::Platform",
+    "source-url" : "http://www.cpan.org/authors/id/K/KA/KAJI/Perl6/App-Platform-0.2.1.tar.gz",
+    "perl" : "6",
+    "auth" : "github:7ojo",
+    "depends" : [
+      "Text::Wrap",
+      "YAMLish",
+      "JSON::Tiny",
+      "Terminal::ANSIColor",
+      "CommandLine::Usage"
+    ],
+    "tags" : [
+      "Platform",
+      "Docker",
+      "Tool",
+      "Development"
+    ],
+    "provides" : {
+      "App::Platform::Environment" : "lib/App/Platform/Environment.pm6",
+      "App::Platform::Docker::DNS::Linux" : "lib/App/Platform/Docker/DNS/Linux.pm6",
+      "App::Platform::CLI::Create" : "lib/App/Platform/CLI/Create.pm6",
+      "App::Platform::Util::OS" : "lib/App/Platform/Util/OS.pm6",
+      "App::Platform::Git" : "lib/App/Platform/Git.pm6",
+      "App::Platform::Docker::Proxy" : "lib/App/Platform/Docker/Proxy.pm6",
+      "App::Platform::Docker::DNS::MacOS" : "lib/App/Platform/Docker/DNS/MacOS.pm6",
+      "App::Platform::CLI::Attach" : "lib/App/Platform/CLI/Attach.pm6",
+      "App::Platform" : "lib/App/Platform.pm6",
+      "App::Platform::Project" : "lib/App/Platform/Project.pm6",
+      "App::Platform::Docker::DNS::Windows" : "lib/App/Platform/Docker/DNS/Windows.pm6",
+      "App::Platform::Container" : "lib/App/Platform/Container.pm6",
+      "App::Platform::CLI::Stop" : "lib/App/Platform/CLI/Stop.pm6",
+      "App::Platform::CLI::SSL" : "lib/App/Platform/CLI/SSL.pm6",
+      "App::Platform::CLI::Run" : "lib/App/Platform/CLI/Run.pm6",
+      "App::Platform::CLI::Rm" : "lib/App/Platform/CLI/Rm.pm6",
+      "App::Platform::Output" : "lib/App/Platform/Output.pm6",
+      "App::Platform::CLI::SSH" : "lib/App/Platform/CLI/SSH.pm6",
+      "App::Platform::CLI::Destroy" : "lib/App/Platform/CLI/Destroy.pm6",
+      "App::Platform::Docker::DNS" : "lib/App/Platform/Docker/DNS.pm6",
+      "App::Platform::CLI::Start" : "lib/App/Platform/CLI/Start.pm6",
+      "App::Platform::CLI" : "lib/App/Platform/CLI.pm6",
+      "App::Platform::Docker::Command" : "lib/App/Platform/Docker/Command.pm6",
+      "App::Platform::CLI::Remove" : "lib/App/Platform/CLI/Remove.pm6",
+      "App::Platform::Git::Command" : "lib/App/Platform/Git/Command.pm6",
+      "App::Platform::Docker::Container" : "lib/App/Platform/Docker/Container.pm6",
+      "App::Platform::Command" : "lib/App/Platform/Command.pm6"
+    },
+    "license" : "MIT",
+    "version" : "0.2.1",
+    "description" : "Tool for constructing development environments",
+    "authors" : [
+      "Jarkko Haapalainen <jarkko@viidakko.fi>"
+    ]
+  },
+  {
     "name" : "LIVR",
     "source-url" : "http://www.cpan.org/authors/id/K/KO/KOORCHIK/Perl6/LIVR-2.0.0.tar.gz",
     "perl" : "6.c",
