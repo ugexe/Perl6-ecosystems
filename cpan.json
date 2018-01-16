@@ -3017,6 +3017,34 @@
     ]
   },
   {
+    "name" : "Test::HTTP::Server",
+    "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Test-HTTP-Server-0.1.0.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "HTTP::Server::Async",
+      "Test::Util::ServerPort"
+    ],
+    "test-depends" : [
+      "File::Temp",
+      "HTTP::UserAgent"
+    ],
+    "tags" : [
+      "test"
+    ],
+    "provides" : {
+      "Test::HTTP::Server" : "lib/Test/HTTP/Server.pm6",
+      "Test::HTTP::Server::Event" : "lib/Test/HTTP/Server/Event.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "description" : "Simple to use wrapper around HTTP::Server::Async designed for tests",
+    "authors" : [
+      "Simon Proctor"
+    ]
+  },
+  {
     "name" : "Timer::Breakable",
     "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Timer-Breakable-0.1.0.tar.gz",
     "perl" : "6.c",
