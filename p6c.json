@@ -16191,11 +16191,17 @@
     "name" : "CSS::Declarations",
     "source-url" : "git://github.com/p6-css/CSS-Declarations-p6.git",
     "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
     "auth" : "github:p6-css",
     "depends" : [
       "CSS::Module",
       "CSS::Writer",
       "Color"
+    ],
+    "test-depends" : [ ],
+    "tags" : [
+      "css"
     ],
     "provides" : {
       "CSS::Declarations::Units" : "lib/CSS/Declarations/Units.pm",
@@ -16206,11 +16212,11 @@
       "CSS::Declarations" : "lib/CSS/Declarations.pm"
     },
     "license" : "Artistic-2.0",
-    "tags" : [
-      "css"
-    ],
-    "version" : "0.3.5",
-    "description" : "CSS property manipulation library"
+    "version" : "0.3.6",
+    "description" : "CSS property manipulation library",
+    "authors" : [
+      "David Warring"
+    ]
   },
   {
     "name" : "WaitGroup",
