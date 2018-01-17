@@ -920,6 +920,30 @@
     ]
   },
   {
+    "name" : "Tie::StdArray",
+    "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-StdArray-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [
+      "P5tie"
+    ],
+    "tags" : [
+      "UTILS",
+      "CPAN5"
+    ],
+    "provides" : {
+      "Tie::StdArray" : "lib/Tie/StdArray.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Implement Perl 5's Tie::StdArray core module",
+    "authors" : [
+      "Elizabeth Mattijsen"
+    ]
+  },
+  {
     "name" : "Inline",
     "support" : {
       "source" : "https://github.com/FROGGS/p6-Inline-C.git",
