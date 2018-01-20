@@ -1881,6 +1881,28 @@
     "description" : "Calculate Levenshtein edit distance for strings. Perl 5 -> 6 port."
   },
   {
+    "name" : "Acme::Scrub",
+    "source-url" : "git://github.com/thundergnat/Acme-Scrub.git",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "depends" : [ ],
+    "tags" : [
+      "Bleach",
+      "Whitespace",
+      "Obfuscate",
+      "Silly"
+    ],
+    "license" : "Artistic-2.0",
+    "provides" : {
+      "Acme::Scrub" : "lib/Acme/Scrub.pm6"
+    },
+    "version" : "0.2.0",
+    "authors" : [
+      "Steve Schulze (thundergnat)"
+    ],
+    "description" : "For REALLY clean code."
+  },
+  {
     "name" : "Lingua::EN::Numbers::Cardinal",
     "source-url" : "git://github.com/thundergnat/Lingua-EN-Numbers-Cardinal.git",
     "perl" : "6.*",
