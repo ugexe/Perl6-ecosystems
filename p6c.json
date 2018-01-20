@@ -19534,6 +19534,7 @@
     "depends" : [
       "PDF",
       "PDF::Grammar",
+      "Color",
       "Font::AFM",
       "Base64::Native",
       "Native::Packing",
@@ -19547,6 +19548,7 @@
       "PDF::Content::Font::Encodings" : "lib/PDF/Content/Font/Encodings.pm",
       "PDF::Content::Image::PDF" : "lib/PDF/Content/Image/PDF.pm",
       "PDF::Content::Font::Enc::Type1" : "lib/PDF/Content/Font/Enc/Type1.pm",
+      "PDF::Content::Color" : "lib/PDF/Content/Color.pm",
       "PDF::Content::ResourceDict" : "lib/PDF/Content/ResourceDict.pm",
       "PDF::Content::Matrix" : "lib/PDF/Content/Matrix.pm",
       "PDF::Content::Graphics" : "lib/PDF/Content/Graphics.pm",
