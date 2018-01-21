@@ -5812,7 +5812,8 @@
     "source-url" : "git://github.com/p6-css/CSS-Specification-p6.git",
     "perl" : "6.c",
     "depends" : [
-      "CSS::Grammar"
+      "CSS::Grammar",
+      "Color::Names"
     ],
     "provides" : {
       "CSS::Specification::Terms" : "lib/CSS/Specification/Terms.pm",
@@ -5822,7 +5823,7 @@
       "CSS::Specification::Build" : "lib/CSS/Specification/Build.pm"
     },
     "license" : "Artistic-2.0",
-    "version" : "0.4.4",
+    "version" : "0.4.5",
     "description" : "CSS Property definition grammar and generation tools"
   },
   {
@@ -6411,6 +6412,7 @@
     "perl" : "6.*",
     "depends" : [
       "CSS::Grammar",
+      "Color::Names",
       "JSON::Fast"
     ],
     "provides" : {
