@@ -12575,33 +12575,6 @@
     "description" : "a hash function for board games"
   },
   {
-    "name" : "PackUnpack",
-    "support" : {
-      "irc" : "irc://irc.freenode.org/#perl6"
-    },
-    "source-url" : "https://github.com/lizmat/PackUnpack.git",
-    "perl" : "6.c",
-    "auth" : "github:lizmat",
-    "repo-type" : "git",
-    "depends" : [ ],
-    "license" : "Artistic-2.0",
-    "provides" : {
-      "PackUnpack" : "lib/PackUnpack.pm"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "tags" : [
-      "pack",
-      "unpack"
-    ],
-    "version" : "0.07",
-    "authors" : [
-      "Elizabeth Mattijsen"
-    ],
-    "description" : "Implementation of pack/unpack a la Perl 5"
-  },
-  {
     "name" : "Getopt::Long",
     "source-url" : "https://github.com/Leont/getopt-long6.git",
     "perl" : "6.*",
