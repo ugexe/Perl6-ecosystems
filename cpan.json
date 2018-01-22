@@ -535,6 +535,34 @@
     ]
   },
   {
+    "name" : "SQL::Lexer",
+    "support" : {
+      "email" : "dmaestro@cpan.org",
+      "source" : "git://github.com/dmaestro/SQL-Lexer.git",
+      "bugtracker" : "https://github.com/dmaestro/SQL-Lexer/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/D/DM/DMAESTRO/Perl6/SQL-Lexer-0.2.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:dmaestro",
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "SQL::Keyword" : "lib/SQL/Lexer.pm",
+      "SQL::Lexer" : "lib/SQL/Lexer.pm",
+      "SQL::Basic" : "lib/SQL/Basic.pm"
+    },
+    "license" : "MIT",
+    "version" : "0.2.1",
+    "meta-version" : "0",
+    "description" : "Grammar for lexical analysis of SQL",
+    "authors" : [
+      "Douglas L. Schrag <dmaestro@cpan.org>"
+    ]
+  },
+  {
     "name" : "List::Util",
     "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-Util-0.0.1.tar.gz",
     "perl" : "6.c",
@@ -2660,6 +2688,33 @@
     },
     "license" : "Artistic-2.0",
     "version" : "0.0.2",
+    "description" : "Sparrowdo provision for Terraform backed instances",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
+  },
+  {
+    "name" : "Sparrowform",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowform.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowform/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowform-0.0.3.tar.gz",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Sparrowdo",
+      "Data::Dump"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Sparrowform" : "lib/Sparrowform.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.3",
     "description" : "Sparrowdo provision for Terraform backed instances",
     "authors" : [
       "Alexey Melezhik"
