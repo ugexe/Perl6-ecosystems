@@ -6300,23 +6300,6 @@
     "description" : "Parser and grammar for Perl 5 pod, with an HTML and Markdown converter"
   },
   {
-    "name" : "Pod::PerlTricks",
-    "source-url" : "git://github.com/dnmfarrell/Pod-PerlTricks.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "author" : "David Farrell",
-    "depends" : [
-      "Pod::Perl5",
-      "JSON::Tiny"
-    ],
-    "provides" : {
-      "Pod::Grammar" : "lib/Pod/PerlTricks/Grammar.pm6",
-      "Pod::ToHTML" : "lib/Pod/PerlTricks/ToJSON.pm6"
-    },
-    "version" : "0.01",
-    "description" : "Parser for PerlTricks pseudopod"
-  },
-  {
     "name" : "Net::Packet",
     "source-url" : "git://github.com/jpve/perl6-net-packet.git",
     "author" : "Jorn van Engelen",
