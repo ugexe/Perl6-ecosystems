@@ -4240,6 +4240,40 @@
     ]
   },
   {
+    "name" : "Geo::Ellipsoid",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/Geo-Ellipsoid-Perl6/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Geo-Ellipsoid-Perl6-1.0.0.tar.gz",
+    "perl" : "6.c",
+    "source-type" : "git",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "author" : "github:tbrowder",
+    "auth" : "github:tbrowder",
+    "depends" : [ ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "geo",
+      "position",
+      "CPAN5"
+    ],
+    "provides" : {
+      "Geo::Ellipsoid::GenFuncs" : "lib/Geo/Ellipsoid/GenFuncs.pm6",
+      "Geo::Ellipsoid" : "lib/Geo/Ellipsoid.pm6",
+      "Geo::Ellipsoid::Utils" : "lib/Geo/Ellipsoid/Utils.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.0.0",
+    "description" : "Longitude and latitude calculations using an ellipsoid model.",
+    "authors" : [
+      "Tom Browder <tom.browder@gmail.com> (translator Perl 5 to Perl 6, current maintainer)",
+      "Jim Gibson (CPAN Perl 5 author, v1.12)"
+    ]
+  },
+  {
     "name" : "META6::To::Man",
     "support" : {
       "bugtracker" : "https://github.com/tbrowder/META6-To-Man-Perl6/issues"
@@ -4303,6 +4337,41 @@
     "description" : "Provides utility functions for dealing with IPv4 and IPv6 addresses.",
     "authors" : [
       "github:tbrowder"
+    ]
+  },
+  {
+    "name" : "Net::IP::Lite",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/Net-IP-Lite-Perl6/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Net-IP-Lite-Perl6-1.0.0.tar.gz",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "author" : "github:tbrowder",
+    "auth" : "github:tbrowder",
+    "depends" : [
+      "Number::More",
+      "Text::More"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "Net",
+      "IP",
+      "IP address",
+      "IPv4",
+      "IPv6",
+      "CPAN5"
+    ],
+    "provides" : {
+      "Net::IP::Lite" : "lib/Net/IP/Lite.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.0.0",
+    "description" : "Provides utility functions for dealing with IPv4 and IPv6 addresses.",
+    "authors" : [
+      "Tom Browder <tom.browder@gmail.com>"
     ]
   },
   {
