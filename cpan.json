@@ -4491,6 +4491,41 @@
     ]
   },
   {
+    "name" : "Net::IP",
+    "support" : {
+      "bugtracker" : "https://github.com/tbrowder/Net-IP-Perl6/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Net-IP-Perl6-1.0.0.tar.gz",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "author" : "github:tbrowder",
+    "auth" : "github:tbrowder",
+    "depends" : [
+      "Number::More",
+      "Text::More"
+    ],
+    "test-depends" : [
+      "Test::META"
+    ],
+    "tags" : [
+      "Net",
+      "IP",
+      "IP address",
+      "IPv4",
+      "IPv6",
+      "CPAN5"
+    ],
+    "provides" : {
+      "Net::IP" : "lib/Net/IP.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "1.0.0",
+    "description" : "Provides utility functions for dealing with IPv4 and IPv6 addresses.",
+    "authors" : [
+      "Tom Browder <tom.browder@gmail.com>"
+    ]
+  },
+  {
     "name" : "Number::More",
     "support" : {
       "bugtracker" : "https://github.com/tbrowder/Number-More-Perl6/issues"
