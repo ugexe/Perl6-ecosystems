@@ -689,6 +689,28 @@
     ]
   },
   {
+    "name" : "P5hex",
+    "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5hex-0.0.2.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [
+      "PERL5",
+      "CPAN5"
+    ],
+    "provides" : {
+      "P5hex" : "lib/P5hex.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
+    "description" : "Implement Perl 5's hex() built-in",
+    "authors" : [
+      "Elizabeth Mattijsen"
+    ]
+  },
+  {
     "name" : "P5lcfirst",
     "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5lcfirst-0.0.1.tar.gz",
     "perl" : "6.c",
@@ -749,6 +771,28 @@
     },
     "license" : "Artistic-2.0",
     "version" : "0.0.1",
+    "description" : "Implement Perl 5's oct() built-in",
+    "authors" : [
+      "Elizabeth Mattijsen"
+    ]
+  },
+  {
+    "name" : "P5oct",
+    "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5oct-0.0.2.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [
+      "PERL5",
+      "CPAN5"
+    ],
+    "provides" : {
+      "P5oct" : "lib/P5oct.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
     "description" : "Implement Perl 5's oct() built-in",
     "authors" : [
       "Elizabeth Mattijsen"
@@ -2972,6 +3016,35 @@
       "source" : "https://github.com/melezhik/sparrowform.git",
       "bugtracker" : "https://github.com/melezhik/sparrowform/issues"
     },
+    "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowform-0.0.12.tar.gz",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Sparrowdo",
+      "Data::Dump",
+      "Terminal::Print",
+      "Terminal::ANSIColor"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Sparrowform" : "lib/Sparrowform.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.12",
+    "description" : "Sparrowdo provision for Terraform backed instances",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
+  },
+  {
+    "name" : "Sparrowform",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowform.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowform/issues"
+    },
     "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowform-0.0.2.tar.gz",
     "perl" : "6.*",
     "source-type" : "git",
@@ -3850,6 +3923,28 @@
     "license" : "Artistic-2.0",
     "version" : "0.0.1",
     "description" : "blah blah blah",
+    "authors" : [
+      "Simon Proctor"
+    ]
+  },
+  {
+    "name" : "Algorithm::GooglePolylineEncoding",
+    "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Algorithm-GooglePolylineEncoding-0.0.2.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [
+      "geo",
+      "google"
+    ],
+    "provides" : {
+      "Algorithm::GooglePolylineEncoding" : "lib/Algorithm/GooglePolylineEncoding.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
+    "description" : "Encode and Decode lat/lon polygons using Google Maps string encoding.",
     "authors" : [
       "Simon Proctor"
     ]
