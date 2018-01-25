@@ -799,6 +799,28 @@
     ]
   },
   {
+    "name" : "P5index",
+    "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5index-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [
+      "PERL5",
+      "CPAN5"
+    ],
+    "provides" : {
+      "P5index" : "lib/P5index.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Implement Perl 5's index() built-in",
+    "authors" : [
+      "Elizabeth Mattijsen"
+    ]
+  },
+  {
     "name" : "P5lcfirst",
     "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5lcfirst-0.0.1.tar.gz",
     "perl" : "6.c",
