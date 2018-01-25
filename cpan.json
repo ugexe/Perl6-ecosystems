@@ -406,6 +406,22 @@
     ]
   },
   {
+    "name" : "Supply::Timeout",
+    "source-url" : "http://www.cpan.org/authors/id/C/CO/CONO/Perl6/Supply-Timeout-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "depends" : [ ],
+    "provides" : {
+      "Supply::Timeout" : "lib/Supply/Timeout.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Supply wrapper with timeout functionality",
+    "authors" : [
+      "cono"
+    ]
+  },
+  {
     "name" : "DB::Pg",
     "support" : {
       "source" : "https://github.com/CurtTilmes/perl6-dbpg.git",
