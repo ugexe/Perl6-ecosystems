@@ -3303,6 +3303,36 @@
       "source" : "https://github.com/melezhik/sparrowform.git",
       "bugtracker" : "https://github.com/melezhik/sparrowform/issues"
     },
+    "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowform-0.0.13.tar.gz",
+    "perl" : "6.*",
+    "source-type" : "git",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Sparrowdo",
+      "Data::Dump",
+      "Terminal::Print",
+      "Terminal::ANSIColor",
+      "JSON::Tiny"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Sparrowform" : "lib/Sparrowform.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.13",
+    "description" : "Sparrowdo provision for Terraform backed instances",
+    "authors" : [
+      "Alexey Melezhik"
+    ]
+  },
+  {
+    "name" : "Sparrowform",
+    "support" : {
+      "source" : "https://github.com/melezhik/sparrowform.git",
+      "bugtracker" : "https://github.com/melezhik/sparrowform/issues"
+    },
     "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowform-0.0.2.tar.gz",
     "perl" : "6.*",
     "source-type" : "git",
