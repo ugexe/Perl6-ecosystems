@@ -1549,26 +1549,6 @@
     "description" : "A template engine abstraction layer for web frameworks."
   },
   {
-    "name" : "Web::App::MVC",
-    "source-url" : "git://github.com/supernovus/perl6-web-app-mvc.git",
-    "perl" : "6.*",
-    "depends" : [
-      "Web",
-      "SCGI",
-      "HTTP::Easy",
-      "Web::Template",
-      "DB::Model::Easy",
-      "JSON::Tiny"
-    ],
-    "provides" : {
-      "Web::App::MVC::Controller" : "lib/Web/App/MVC/Controller.pm6",
-      "Web::App::MVC" : "lib/Web/App/MVC.pm6",
-      "Web::App::MVC::Controller::MethodDispatch" : "lib/Web/App/MVC/Controller/MethodDispatch.pm6"
-    },
-    "version" : "*",
-    "description" : "MVC Framework for Web Apps in Perl 6."
-  },
-  {
     "name" : "Web::App::Ballet",
     "source-url" : "git://github.com/supernovus/perl6-web-app-ballet.git",
     "perl" : "6.*",
