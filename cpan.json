@@ -5261,6 +5261,27 @@
     ]
   },
   {
+    "name" : "Terminal::Getpass",
+    "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Terminal-Getpass-0.0.5.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Term::termios:auth<github:titsuki>:ver<0.0.1>"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Terminal::Getpass" : "lib/Terminal/Getpass.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.5",
+    "description" : "A getpass implementation for Perl 6",
+    "authors" : [
+      "titsuki"
+    ]
+  },
+  {
     "name" : "HTTP::Server::Tiny",
     "source-url" : "http://www.cpan.org/authors/id/T/TO/TOKUHIROM/Perl6/HTTP-Server-Tiny-0.0.1.tar.gz",
     "perl" : "6.c",
