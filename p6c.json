@@ -11131,6 +11131,25 @@
     ]
   },
   {
+    "name" : "Email::Notmuch",
+    "source-url" : "git://github.com/goneri/p6-Email-Notmuch.git",
+    "perl" : "6.c",
+    "depends" : [ ],
+    "test-depends" : [
+      "File::Temp",
+      "Test"
+    ],
+    "provides" : {
+      "Email::Notmuch" : "lib/Email/Notmuch.pm6"
+    },
+    "license" : "GPL-3.0",
+    "version" : "0.5",
+    "authors" : [
+      "Gon\u00e9ri Le Bouder"
+    ],
+    "description" : "lib NotmuchMail binding"
+  },
+  {
     "name" : "Concurrent::Iterator",
     "source-url" : "git://github.com/jnthn/p6-concurrent-iterator.git",
     "perl" : "6.*",
