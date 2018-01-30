@@ -2351,7 +2351,7 @@
       "JSON::Tiny",
       "URI",
       "HTTP::Easy",
-      "LWP::Simple"
+      "HTTP::UserAgent"
     ],
     "license" : "Artistic-2.0",
     "provides" : {
@@ -2362,11 +2362,11 @@
     "test-depends" : [
       "Test"
     ],
-    "version" : "0.17.3",
+    "version" : "1.0.0",
     "description" : "JSON-RPC 2.0 client and server.",
     "authors" : [
-      "Pawel Pabian    (bbkr)    - Master mind",
-      "Ahmad M. Zawawi (azawawi) - Humble Contributor"
+      "Pawel (bbkr) Pabian",
+      "Ahmad M. Zawawi (azawawi)"
     ]
   },
   {
