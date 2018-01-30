@@ -1,5 +1,44 @@
 [
   {
+    "name" : "Terminal::Table",
+    "support" : {
+      "source" : "https://github.com/araraloren/perl6-terminal-table.git",
+      "bugtracker" : "https://github.com.araraloren/perl6-terminal-table/issues"
+    },
+    "source-url" : "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/Terminal-Table-0.0.7.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : "github:araraloren",
+    "depends" : [
+      "Terminal::ANSIColor",
+      "Terminal::WCWidth",
+      "Text::Tabs"
+    ],
+    "test-depends" : [ ],
+    "tags" : [
+      "terminal",
+      "table",
+      "text"
+    ],
+    "provides" : {
+      "Terminal::Table::Shader" : "lib/Terminal/Table/Shader.pm6",
+      "Terminal::Table::Generator" : "lib/Terminal/Table/Generator.pm6",
+      "Terminal::Table::Style" : "lib/Terminal/Table/Style.pm6",
+      "Terminal::Table::String" : "lib/Terminal/Table/String.pm6",
+      "Terminal::Table::LightWrap" : "lib/Terminal/Table/LightWrap.pm6",
+      "Terminal::Table" : "lib/Terminal/Table.pm6",
+      "Terminal::Table::Exception" : "lib/Terminal/Table/Exception.pm6",
+      "Terminal::Table::Settings" : "lib/Terminal/Table/Settings.pm6",
+      "Terminal::Table::Frame" : "lib/Terminal/Table/Frame.pm6",
+      "Terminal::Table::VisitorHelper" : "lib/Terminal/Table/VisitorHelper.pm6"
+    },
+    "license" : "MIT",
+    "version" : "0.0.7",
+    "description" : "Advanced table generate module for perl6",
+    "authors" : "Loren"
+  },
+  {
     "name" : "HandleSupplier",
     "source-url" : "http://www.cpan.org/authors/id/A/AS/ASTJ/Perl6/HandleSupplier-0.0.1.tar.gz",
     "perl" : "6.c",
