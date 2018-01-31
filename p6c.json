@@ -20626,5 +20626,31 @@
       "Zoffix Znet"
     ],
     "description" : "Perl 6 QAST Visualizer"
+  },
+  {
+    "name" : "Subsets::IO",
+    "support" : {
+      "source" : "https://github.com/zoffixznet/perl6-Subsets-IO.git"
+    },
+    "perl" : "6.c",
+    "depends" : [
+      "Subset::Helper"
+    ],
+    "provides" : {
+      "Subsets::IO" : "lib/Subsets/IO.pm6"
+    },
+    "test-depends" : [
+      "Testo",
+      "Temp::Path"
+    ],
+    "tags" : [
+      "IO"
+    ],
+    "license" : "Artistic-2.0",
+    "version" : "1.001002",
+    "authors" : [
+      "Zoffix Znet"
+    ],
+    "description" : "Subsets for various types of IO::Path instances"
   }
 ]
