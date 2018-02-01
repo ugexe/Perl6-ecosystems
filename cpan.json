@@ -4512,6 +4512,75 @@
     ]
   },
   {
+    "name" : "Result",
+    "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Result-0.1.0.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [
+      "Rust",
+      "Functional",
+      "Error",
+      "FP"
+    ],
+    "provides" : {
+      "Result::Err" : "lib/Result/Err.pm6",
+      "Result" : "lib/Result.pm6",
+      "Result::Imports" : "lib/Result/Imports.pm6",
+      "Result::OK" : "lib/Result/OK.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "description" : "Functional error handling ala Rust",
+    "authors" : [
+      "Sam Gillespie"
+    ]
+  },
+  {
+    "name" : "Seq::PreFetch",
+    "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Seq-PreFetch-0.1.0.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Seq::PreFetch" : "lib/Seq/PreFetch.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.1.0",
+    "description" : "Asynchronously pre-fetch the next item of a Seq",
+    "authors" : [
+      "Sam Gillespie"
+    ]
+  },
+  {
+    "name" : "Slang::Predicate",
+    "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Slang-Predicate-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [
+      "logic",
+      "predicate",
+      "Slang"
+    ],
+    "provides" : {
+      "Slang::Predicate" : "lib/Slang/Predicate.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Predicates in perl6",
+    "authors" : [
+      "Sam Gillespie"
+    ]
+  },
+  {
     "name" : "Algorithm::GooglePolylineEncoding",
     "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Algorithm-GooglePolylineEncoding-0.0.1.tar.gz",
     "perl" : "6.c",
