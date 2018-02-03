@@ -631,6 +631,25 @@
     "description" : "A genuine Perl 6 client for the Telegram's Bot API"
   },
   {
+    "name" : "BreakDancer",
+    "source-url" : "git://github.com/sergot/BreakDancer.git",
+    "perl" : "6.*",
+    "build-depends" : [
+      "Shell::Command"
+    ],
+    "depends" : [
+      "Shell::Command"
+    ],
+    "provides" : {
+      "BreakDancer" : "lib/BreakDancer.pm"
+    },
+    "test-depends" : [
+      "Test"
+    ],
+    "version" : "*",
+    "description" : "Framework for generating static webpages."
+  },
+  {
     "name" : "HTTP::UserAgent",
     "perl" : "6.c",
     "support" : {
