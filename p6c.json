@@ -1531,24 +1531,6 @@
     "description" : "A Web Application foundation for Perl 6"
   },
   {
-    "name" : "Web::Template",
-    "source-url" : "git://github.com/supernovus/perl6-web-template.git",
-    "perl" : "6.*",
-    "depends" : [
-      "Template6",
-      "Template::Mojo",
-      "HTML::Template"
-    ],
-    "provides" : {
-      "Web::Template::HTML" : "lib/Web/Template/HTML.pm6",
-      "Web::Template" : "lib/Web/Template.pm6",
-      "Web::Template::Template6" : "lib/Web/Template/Template6.pm6",
-      "Web::Template::Mojo" : "lib/Web/Template/Mojo.pm6"
-    },
-    "version" : "*",
-    "description" : "A template engine abstraction layer for web frameworks."
-  },
-  {
     "name" : "Web::App::MVC",
     "source-url" : "git://github.com/supernovus/perl6-web-app-mvc.git",
     "perl" : "6.*",
