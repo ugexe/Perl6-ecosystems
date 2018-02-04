@@ -1,5 +1,43 @@
 [
   {
+    "name" : "jmp",
+    "source-url" : "git://github.com/nige123/jmp.nigelhamilton.com.git",
+    "support" : {
+      "bugtracker" : "https://github.com/nige123/jmp.nigelhamilton.com/issues"
+    },
+    "perl" : "6",
+    "resources" : [ ],
+    "auth" : "github:nige123",
+    "depends" : [
+      "Terminal::ANSIColor"
+    ],
+    "tags" : [
+      "invoke-editor",
+      "code-search"
+    ],
+    "provides" : {
+      "JMP::System" : "lib/JMP/System.pm",
+      "JMP::Finder::Hit" : "lib/JMP/Finder/Hit.pm",
+      "JMP::Screen::Action::EditFile" : "lib/JMP/Screen/Action/EditFile.pm",
+      "JMP::Finder" : "lib/JMP/Finder.pm",
+      "JMP::Editor" : "lib/JMP/Editor.pm",
+      "JMP::Screen::Page" : "lib/JMP/Screen/Page.pm",
+      "JMP::Screen::Action" : "lib/JMP/Screen/Action.pm",
+      "JMP::Template" : "lib/JMP/Template.pm",
+      "JMP::Config" : "lib/JMP/Config.pm",
+      "JMP" : "lib/JMP.pm",
+      "JMP::Screen::Action::EditFileLine" : "lib/JMP/Screen/Action/EditFileLine.pm",
+      "JMP::Screen" : "lib/JMP/Screen.pm",
+      "JMP::CLI" : "lib/JMP/CLI.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.2",
+    "authors" : [
+      "Nigel Hamilton"
+    ],
+    "description" : "search files and jump to matching lines in a text editor"
+  },
+  {
     "name" : "Grammar::Tracer::Compact",
     "source-url" : "git://github.com/nkh/P6-Grammar-Tracer-Compact.git",
     "perl" : "6.c",
