@@ -3056,6 +3056,29 @@
     ]
   },
   {
+    "name" : "Auth::SCRAM",
+    "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Auth-SCRAM-0.4.6.3.tar.gz",
+    "perl" : "6",
+    "depends" : [
+      "Digest::HMAC",
+      "OpenSSL",
+      "Base64",
+      "PKCS5",
+      "Unicode::PRECIS"
+    ],
+    "provides" : {
+      "Auth::SCRAM" : "lib/Auth/SCRAM.pm6",
+      "Auth::SCRAM::Server" : "lib/Auth/SCRAM/Server.pm6",
+      "Auth::SCRAM::Client" : "lib/Auth/SCRAM/Client.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "v0.4.6.3",
+    "description" : "Salted Challenge Response Authentication Mechanism (SCRAM)",
+    "authors" : [
+      "Marcel Timmerman"
+    ]
+  },
+  {
     "name" : "Sparky",
     "support" : {
       "source" : "https://github.com/melezhik/sparky.git",
