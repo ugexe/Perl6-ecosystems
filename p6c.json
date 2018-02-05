@@ -38,6 +38,40 @@
     "description" : "search files and jump to matching lines in a text editor"
   },
   {
+    "name" : "Do123",
+    "source-url" : "git://github.com/nige123/app.123.do.git",
+    "support" : {
+      "bugtracker" : "https://github.com/nige123/app.123.do/issues"
+    },
+    "perl" : "6",
+    "resources" : [ ],
+    "auth" : "github:nige123",
+    "depends" : [
+      "Terminal::ANSIColor",
+      "jmp"
+    ],
+    "tags" : [
+      "todo",
+      "timeline"
+    ],
+    "provides" : {
+      "Do::Timeline::Grammar::Actions" : "lib/Do/Timeline/Grammar/Actions.pm",
+      "Do::Timeline" : "lib/Do/Timeline.pm",
+      "Do" : "lib/Do.pm",
+      "Do::Timeline::Viewport" : "lib/Do/Timeline/Viewport.pm",
+      "Do::CLI" : "lib/Do/CLI.pm",
+      "Do::Timeline::Entry" : "lib/Do/Timeline/Entry.pm",
+      "Do::Timeline::Grammar" : "lib/Do/Timeline/Grammar.pm",
+      "Do::Editor" : "lib/Do/Editor.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.2",
+    "authors" : [
+      "Nigel Hamilton"
+    ],
+    "description" : "a timeline to help your work flow: do, doing, done"
+  },
+  {
     "name" : "Grammar::Tracer::Compact",
     "source-url" : "git://github.com/nkh/P6-Grammar-Tracer-Compact.git",
     "perl" : "6.c",
