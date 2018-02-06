@@ -4574,6 +4574,28 @@
     ]
   },
   {
+    "name" : "PowerNap",
+    "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/PowerNap-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Serialise::Map"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "PowerNap" : "lib/PowerNap.pm6",
+      "PowerNap::Controller" : "lib/PowerNap/Controller.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "A short but strict REST service framework",
+    "authors" : [
+      "Sam Gillespie"
+    ]
+  },
+  {
     "name" : "Result",
     "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Result-0.1.0.tar.gz",
     "perl" : "6.c",
