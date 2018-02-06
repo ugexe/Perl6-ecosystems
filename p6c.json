@@ -20726,5 +20726,27 @@
       "Zoffix Znet"
     ],
     "description" : "Subsets for various types of IO::Path instances"
+  },
+  {
+    "name" : "Cro::HTTP::Session::Redis",
+    "source-url" : "https://github.com/croservices/cro-http-session-redis.git",
+    "perl" : "6.*",
+    "depends" : [
+      "Cro::HTTP",
+      "Redis::Async"
+    ],
+    "provides" : {
+      "Cro::HTTP::Session::Redis" : "lib/Cro/HTTP/Session/Redis.pm6"
+    },
+    "test-depends" : [
+      "Test::META"
+    ],
+    "license" : "Artistic-2.0",
+    "meta-version" : "0",
+    "version" : "0.7.3",
+    "authors" : [
+      "Altai-man"
+    ],
+    "description" : "Redis-based session support for the Cro library for building distributed systems in Perl 6."
   }
 ]
