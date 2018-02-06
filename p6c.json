@@ -775,21 +775,6 @@
     ]
   },
   {
-    "name" : "DateTime::Parse",
-    "source-url" : "git://github.com/sergot/datetime-parse.git",
-    "perl" : "6.*",
-    "build-depends" : [ ],
-    "depends" : [ ],
-    "provides" : {
-      "DateTime::Parse" : "lib/DateTime/Parse.pm6"
-    },
-    "test-depends" : [
-      "Test"
-    ],
-    "version" : "0.0.1",
-    "description" : "DateTime parser"
-  },
-  {
     "name" : "OpenSSL",
     "source-url" : "git://github.com/sergot/openssl.git",
     "perl" : "6.*",
