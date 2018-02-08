@@ -4844,6 +4844,32 @@
     ]
   },
   {
+    "name" : "Math::Curves",
+    "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Math-Curves-0.0.1.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "tags" : [
+      "Math",
+      "Geometry",
+      "Trajectory",
+      "Simple",
+      "Plot",
+      "Length"
+    ],
+    "provides" : {
+      "Math::Curves" : "lib/Math/Curves.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.1",
+    "description" : "Simple functions for simple curves.",
+    "authors" : [
+      "Sam Gillespie"
+    ]
+  },
+  {
     "name" : "PowerNap",
     "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/PowerNap-0.0.1.tar.gz",
     "perl" : "6.c",
