@@ -5062,6 +5062,53 @@
     ]
   },
   {
+    "name" : "ScaleVec",
+    "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/ScaleVec-0.0.4.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Serialise::Map",
+      "Result",
+      "JSON::Tiny"
+    ],
+    "test-depends" : [ ],
+    "tags" : [
+      "Music",
+      "Scale",
+      "Chord",
+      "Rhythmn",
+      "Transposition"
+    ],
+    "provides" : {
+      "ScaleVec::Scale::Fence" : "lib/ScaleVec/Scale/Fence.pm6",
+      "ScaleVec::Vector" : "lib/ScaleVec/Vector.pm6",
+      "ScaleVec::Scale" : "lib/ScaleVec/Scale.pm6",
+      "ScaleVec::Chord::Map" : "lib/ScaleVec/Chord/Map.pm6",
+      "ScaleVec::Chord::Graph" : "lib/ScaleVec/Chord/Graph.pm6",
+      "ScaleVec::Scale::EqualTemperment" : "lib/ScaleVec/Scale/EqualTemperment.pm6",
+      "ScaleVec::Chord::System::Foundation" : "lib/ScaleVec/Chord/System/Foundation.pm6",
+      "ScaleVec::Chord::Set::Minor::Harm" : "lib/ScaleVec/Chord/Set/Minor/Harm.pm6",
+      "ScaleVec::Chord::Set" : "lib/ScaleVec/Chord/Set.pm6",
+      "ScaleVec" : "lib/ScaleVec.pm6",
+      "ScaleVec::Chord::Voicer" : "lib/ScaleVec/Chord/Voicer.pm6",
+      "ScaleVec::Chord::System::Foundation::Element" : "lib/ScaleVec/Chord/System/Foundation/Element.pm6",
+      "ScaleVec::Chord::System" : "lib/ScaleVec/Chord/System.pm6",
+      "ScaleVec::Scale::Stack" : "lib/ScaleVec/Scale/Stack.pm6",
+      "ScaleVec::Scale::Intervalic" : "lib/ScaleVec/Scale/Intervalic.pm6",
+      "ScaleVec::Vectorable" : "lib/ScaleVec/Vectorable.pm6",
+      "ScaleVec::Network" : "lib/ScaleVec/Network.pm6",
+      "ScaleVec::Chord::Set::Minor::Nat" : "lib/ScaleVec/Chord/Set/Minor/Nat.pm6",
+      "ScaleVec::Chord::Set::Major" : "lib/ScaleVec/Chord/Set/Major.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.4",
+    "description" : "A flexible yet accurate music representation system.",
+    "authors" : [
+      "Sam Gillespie"
+    ]
+  },
+  {
     "name" : "Seq::PreFetch",
     "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Seq-PreFetch-0.1.0.tar.gz",
     "perl" : "6.c",
