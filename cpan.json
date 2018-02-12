@@ -4870,6 +4870,34 @@
     ]
   },
   {
+    "name" : "Music::Engine",
+    "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Music-Engine-0.0.2.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "ScaleVec",
+      "Math::Curves",
+      "Net::OSC"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "Music::Engine" : "lib/Music/Engine.pm6",
+      "Music::Engine::Generator::CurveMD" : "lib/Music/Engine/Generator/CurveMD.pm6",
+      "Music::Engine::CounterPoint" : "lib/Music/Engine/CounterPoint.pm6",
+      "Music::Engine::Section::Context" : "lib/Music/Engine/Section/Context.pm6",
+      "Music::Engine::Section" : "lib/Music/Engine/Section.pm6",
+      "Music::Engine::Conductor" : "lib/Music/Engine/Conductor.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
+    "description" : "Generate music in realtime",
+    "authors" : [
+      "Sam Gillespie"
+    ]
+  },
+  {
     "name" : "PowerNap",
     "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/PowerNap-0.0.1.tar.gz",
     "perl" : "6.c",
@@ -4886,6 +4914,28 @@
     },
     "license" : "Artistic-2.0",
     "version" : "0.0.1",
+    "description" : "A short but strict REST service framework",
+    "authors" : [
+      "Sam Gillespie"
+    ]
+  },
+  {
+    "name" : "PowerNap",
+    "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/PowerNap-0.0.2.tar.gz",
+    "perl" : "6.c",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "depends" : [
+      "Serialise::Map"
+    ],
+    "test-depends" : [ ],
+    "tags" : [ ],
+    "provides" : {
+      "PowerNap" : "lib/PowerNap.pm6",
+      "PowerNap::Controller" : "lib/PowerNap/Controller.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.2",
     "description" : "A short but strict REST service framework",
     "authors" : [
       "Sam Gillespie"
