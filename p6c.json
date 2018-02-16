@@ -10412,6 +10412,18 @@
     "description" : "Random numbers \u00e0 la java.util.Random."
   },
   {
+    "name" : "Subsets::Common",
+    "source-url" : "git://github.com/bradclawsie/Subsets-Common.git",
+    "perl" : "6.*",
+    "author" : "Brad Clawsie",
+    "depends" : [ ],
+    "provides" : {
+      "Subsets::Common" : "lib/Subsets/Common.pm6"
+    },
+    "version" : "0.0.3",
+    "description" : "Some common subsets to built-in types."
+  },
+  {
     "name" : "WebService::GoogleDyDNS",
     "source-url" : "git://github.com/cbk/WebService-GoogleDyDNS.git",
     "author" : "Michael",
@@ -12624,6 +12636,24 @@
     "authors" : [
       "Aurelio Sanabria (Sufrostico) <sufrostico at gmail dot com>"
     ]
+  },
+  {
+    "name" : "Algorithm::ZobristHashing",
+    "perl" : "6.c",
+    "source-url" : "git://github.com/titsuki/p6-Algorithm-ZobristHashing.git",
+    "build-depends" : [ ],
+    "resources" : [ ],
+    "depends" : [ ],
+    "test-depends" : [ ],
+    "provides" : {
+      "Algorithm::ZobristHashing" : "lib/Algorithm/ZobristHashing.pm6"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.0.4",
+    "authors" : [
+      "titsuki"
+    ],
+    "description" : "a hash function for board games"
   },
   {
     "name" : "Getopt::Long",
