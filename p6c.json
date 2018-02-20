@@ -410,23 +410,6 @@
     "description" : "Contains several interfaces for which computing the differences between two lists."
   },
   {
-    "name" : "Text::Diff",
-    "source-url" : "git://github.com/Takadonet/Text--Diff.git",
-    "perl" : "6.*",
-    "source-type" : "git",
-    "depends" : [
-      "Algorithm::Diff"
-    ],
-    "provides" : {
-      "Text::Diff::OldStyle" : "lib/Text/Diff/OldStyle.pm",
-      "Text::Diff" : "lib/Text/Diff.pm",
-      "Text::Diff::Unified" : "lib/Text/Diff/Unified.pm",
-      "Text::Diff::Table" : "lib/Text/Diff/Table.pm"
-    },
-    "version" : "*",
-    "description" : "Perform diffs on files and record sets"
-  },
-  {
     "name" : "ABC",
     "source-url" : "git://github.com/colomon/ABC.git",
     "perl" : "6.*",
