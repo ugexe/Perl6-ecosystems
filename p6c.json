@@ -6153,32 +6153,6 @@
     ]
   },
   {
-    "name" : "Term::termios",
-    "support" : {
-      "irc" : "irc://irc.freenode.org/#perl6"
-    },
-    "source-url" : "git://github.com/krunen/term-termios.git",
-    "perl" : "6.c",
-    "resources" : [
-      "libraries/myhelper"
-    ],
-    "build-depends" : [
-      "LibraryMake"
-    ],
-    "author" : "github:krunen",
-    "repo-type" : "git",
-    "depends" : [ ],
-    "license" : "Artistic-2.0",
-    "provides" : {
-      "Term::termios" : "lib/Term/termios.pm6"
-    },
-    "version" : "*",
-    "description" : "termios routines for Rakudo Perl 6",
-    "authors" : [
-      "Karl Rune Nilsen"
-    ]
-  },
-  {
     "name" : "Unicode::UTF8-Parser",
     "support" : {
       "irc" : "irc://irc.freenode.org/#perl6"
