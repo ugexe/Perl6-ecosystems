@@ -436,11 +436,14 @@
       "ABC::Tuplet" : "lib/ABC/Tuplet.pm",
       "ABC::Tune" : "lib/ABC/Tune.pm",
       "ABC::Stem" : "lib/ABC/Stem.pm",
+      "abcoctave" : "bin/abcoctave",
       "ABC::Context" : "lib/ABC/Context.pm",
       "ABC::GraceNotes" : "lib/ABC/GraceNotes.pm",
       "ABC::Grammar" : "lib/ABC/Grammar.pm",
       "ABC::Actions" : "lib/ABC/Actions.pm",
+      "abctranspose" : "bin/abctranspose",
       "ABC::BrokenRhythm" : "lib/ABC/BrokenRhythm.pm",
+      "abc2ly" : "bin/abc2ly",
       "ABC::Rest" : "lib/ABC/Rest.pm",
       "ABC::KeyInfo" : "lib/ABC/KeyInfo.pm",
       "ABC::Note" : "lib/ABC/Note.pm",
@@ -451,7 +454,7 @@
       "ABC::Chord" : "lib/ABC/Chord.pm",
       "ABC::Utils" : "lib/ABC/Utils.pm"
     },
-    "version" : "0.5.3",
+    "version" : "0.5.4",
     "description" : "Toolkit for dealing with ABC music notation"
   },
   {
