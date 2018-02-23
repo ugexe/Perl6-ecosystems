@@ -6004,6 +6004,34 @@
     "support" : {
       "source" : "git://github.com/timo/json_fast.git"
     },
+    "source-url" : "http://www.cpan.org/authors/id/T/TI/TIMOTIMO/Perl6/JSON-Fast-0.9.10.tar.gz",
+    "perl" : "6.*",
+    "resources" : [ ],
+    "build-depends" : [ ],
+    "auth" : null,
+    "depends" : [ ],
+    "test-depends" : [
+      "Test"
+    ],
+    "tags" : [ ],
+    "provides" : {
+      "JSON::Fast" : "lib/JSON/Fast.pm"
+    },
+    "license" : "Artistic-2.0",
+    "version" : "0.9.10",
+    "meta6" : "0",
+    "description" : "A naive, fast json parser and serializer; drop-in replacement for JSON::Tiny",
+    "authors" : [
+      "Timo Paulssen",
+      "Tony O'Dell",
+      "Wenzel P. P. Peppmeyer"
+    ]
+  },
+  {
+    "name" : "JSON::Fast",
+    "support" : {
+      "source" : "git://github.com/timo/json_fast.git"
+    },
     "source-url" : "http://www.cpan.org/authors/id/T/TI/TIMOTIMO/Perl6/JSON-Fast-0.9.5.tar.gz",
     "perl" : "6.*",
     "resources" : [ ],
