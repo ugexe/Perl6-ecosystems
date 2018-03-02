@@ -3238,6 +3238,30 @@
 }
 ,
 {
+  "name" : "Net::LibIDN2",
+  "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Net-LibIDN2-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "API",
+    "DNS",
+    "Net"
+  ],
+  "provides" : {
+    "Net::LibIDN2" : "lib/Net/LibIDN2.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Perl6 bindings for GNU LibIDN2",
+  "authors" : [
+    "Ben Davies"
+  ]
+}
+,
+{
   "name" : "App::Platform",
   "source-url" : "http://www.cpan.org/authors/id/K/KA/KAJI/Perl6/App-Platform-0.1.0.tar.gz",
   "perl" : "6",
