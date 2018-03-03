@@ -21709,4 +21709,31 @@
   ],
   "description" : "Redis-based session support for the Cro library for building distributed systems in Perl 6."
 }
+,
+{
+  "name" : "Data::StaticTable",
+  "perl" : "6.*",
+  "source-url" : "https://github.com/shinobi/Data-StaticTable.git",
+  "author" : "github:shinobi",
+  "depends" : [ ],
+  "tags" : [
+    "data",
+    "table",
+    "bidimensional",
+    "spreadsheet",
+    "static",
+    "immutable",
+    "cells",
+    "rows",
+    "columns"
+  ],
+  "provides" : {
+    "X::Data::StaticTable" : "lib/X/Data/StaticTable.pm6",
+    "StaticTable" : "lib/Data/StaticTable.pm6",
+    "StaticTable::Query" : "lib/Data/StaticTable.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "A static memory structure in Perl6, bidimensional, that uses String for column names and rows starting from one. Provides basic search and indexing features."
+}
 ]
