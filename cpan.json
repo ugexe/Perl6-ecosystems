@@ -2393,6 +2393,36 @@
 }
 ,
 {
+  "name" : "CommonMark",
+  "support" : {
+    "source" : "https://github.com/drforr/perl6-CommonMark.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/CommonMark-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:drforr",
+  "depends" : [
+    "Test::META"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "CommonMark",
+    "Markdown"
+  ],
+  "provides" : {
+    "CommonMark" : "lib/CommonMark.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "meta6" : "0",
+  "description" : "Interface to the CommonMark library",
+  "authors" : [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ]
+}
+,
+{
   "name" : "Wikidata::API",
   "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Wikidata-API-0.0.3.tar.gz",
   "perl" : "6.*",
