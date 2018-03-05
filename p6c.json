@@ -741,6 +741,26 @@
 }
 ,
 {
+  "name" : "BreakDancer",
+  "source-url" : "git://github.com/sergot/BreakDancer.git",
+  "perl" : "6.*",
+  "build-depends" : [
+    "Shell::Command"
+  ],
+  "depends" : [
+    "Shell::Command"
+  ],
+  "provides" : {
+    "BreakDancer" : "lib/BreakDancer.pm"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "version" : "*",
+  "description" : "Framework for generating static webpages."
+}
+,
+{
   "name" : "HTTP::UserAgent",
   "perl" : "6.c",
   "support" : {
@@ -4292,6 +4312,33 @@
 }
 ,
 {
+  "name" : "Terminal::Caca",
+  "source-url" : "git://github.com/azawawi/perl6-terminal-caca.git",
+  "perl" : "6.*",
+  "auth" : "github:azawawi",
+  "repo-type" : "git",
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "CLI",
+    "Terminal",
+    "NativeCall",
+    "ASCII-Art"
+  ],
+  "provides" : {
+    "Terminal::Caca" : "lib/Terminal/Caca.pm6",
+    "Terminal::Caca::Raw" : "lib/Terminal/Caca/Raw.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.5.3",
+  "description" : "Use libcaca (Colour AsCii Art library) API in Perl 6",
+  "authors" : [
+    "Ahmad M. Zawawi"
+  ]
+}
+,
+{
   "name" : "Net::Curl",
   "source-url" : "git://github.com/azawawi/perl6-net-curl.git",
   "perl" : "6.*",
@@ -6452,23 +6499,6 @@
     "Tony ODell"
   ],
   "description" : "Find plugin classes or modules"
-}
-,
-{
-  "name" : "DB::ORM::Quicky",
-  "source-url" : "git://github.com/tony-o/perl6-db-orm-quicky.git",
-  "perl" : "6.*",
-  "auth" : "github:tony-o",
-  "depends" : [
-    "DBIish"
-  ],
-  "provides" : {
-    "DB::ORM::Quicky::Search" : "lib/DB/ORM/Quicky/Search.pm6",
-    "DB::ORM::Quicky" : "lib/DB/ORM/Quicky.pm6",
-    "DB::ORM::Quicky::Model" : "lib/DB/ORM/Quicky/Model.pm6"
-  },
-  "version" : "0.1.1",
-  "description" : "Easy Prototyping ORM for Perl 6"
 }
 ,
 {
