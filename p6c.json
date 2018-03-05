@@ -16853,6 +16853,28 @@
 }
 ,
 {
+  "name" : "Statistics::LinearRegression",
+  "source-url" : "git://github.com/hipek8/p6-Statistics-LinearRegression.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "Statistics::LinearRegression" : "lib/Statistics/LinearRegression.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.1.1",
+  "description" : "simple linear regression",
+  "authors" : [
+    "Pawe\u0142 Szulc"
+  ]
+}
+,
+{
   "name" : "URL::Find",
   "source-url" : "git://github.com/samcv/URL-Find.git",
   "support" : {
@@ -18056,6 +18078,22 @@
   "license" : "Artistic-2.0",
   "version" : "0.9",
   "description" : "Asynchronous binding for libssh; client-only and limited functionality so far."
+}
+,
+{
+  "name" : "Context",
+  "source-url" : "git://github.com/bradclawsie/Context.git",
+  "perl" : "6.*",
+  "build-depends" : [ ],
+  "author" : "Brad Clawsie",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "DB::RSCS" : "lib/Context.pm6"
+  },
+  "license" : "BSD-2-Clause",
+  "version" : "0.0.2",
+  "description" : "A building block for concurrent programming inspired by Go's context package"
 }
 ,
 {
