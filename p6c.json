@@ -741,26 +741,6 @@
 }
 ,
 {
-  "name" : "BreakDancer",
-  "source-url" : "git://github.com/sergot/BreakDancer.git",
-  "perl" : "6.*",
-  "build-depends" : [
-    "Shell::Command"
-  ],
-  "depends" : [
-    "Shell::Command"
-  ],
-  "provides" : {
-    "BreakDancer" : "lib/BreakDancer.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "version" : "*",
-  "description" : "Framework for generating static webpages."
-}
-,
-{
   "name" : "HTTP::UserAgent",
   "perl" : "6.c",
   "support" : {
@@ -4306,33 +4286,6 @@
   "license" : "MIT",
   "version" : "0.6.3",
   "description" : "Perl 6 interface to NCurses, the text-based interface library",
-  "authors" : [
-    "Ahmad M. Zawawi"
-  ]
-}
-,
-{
-  "name" : "Terminal::Caca",
-  "source-url" : "git://github.com/azawawi/perl6-terminal-caca.git",
-  "perl" : "6.*",
-  "auth" : "github:azawawi",
-  "repo-type" : "git",
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "CLI",
-    "Terminal",
-    "NativeCall",
-    "ASCII-Art"
-  ],
-  "provides" : {
-    "Terminal::Caca" : "lib/Terminal/Caca.pm6",
-    "Terminal::Caca::Raw" : "lib/Terminal/Caca/Raw.pm6"
-  },
-  "license" : "MIT",
-  "version" : "0.5.3",
-  "description" : "Use libcaca (Colour AsCii Art library) API in Perl 6",
   "authors" : [
     "Ahmad M. Zawawi"
   ]
@@ -9868,6 +9821,26 @@
   "authors" : [
     "Tokuhiro Matsuno"
   ]
+}
+,
+{
+  "name" : "Astro::Sunrise",
+  "source-url" : "git://github.com/perlpilot/p6-Astro-Sunrise.git",
+  "perl" : "v6",
+  "build-depends" : [ ],
+  "repo-type" : "git",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "Astro::Sunrise" : "lib/Astro/Sunrise.pm"
+  },
+  "version" : "0.0.1",
+  "authors" : [
+    "Jonathan Scott Duff <duff@pobox.com>"
+  ],
+  "description" : "Find the time of sunrise/sunset on a particular day"
 }
 ,
 {
@@ -16794,6 +16767,20 @@
   "authors" : [
     "Marcel Timmerman"
   ]
+}
+,
+{
+  "name" : "File::Ignore",
+  "source-url" : "https://github.com/jnthn/p6-file-ignore.git",
+  "perl" : "6.*",
+  "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+  "depends" : [ ],
+  "provides" : {
+    "File::Ignore" : "lib/File/Ignore.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.1",
+  "description" : "Parsing and application of .gitignore-style ignore files."
 }
 ,
 {
