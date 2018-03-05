@@ -3578,23 +3578,6 @@
 }
 ,
 {
-  "name" : "Web::RF",
-  "source-url" : "git://github.com/retupmoca/P6-Web-RF.git",
-  "perl" : "6.*",
-  "author" : "github:retupmoca",
-  "depends" : [
-    "Crust",
-    "URI::Escape",
-    "Path::Router"
-  ],
-  "provides" : {
-    "Web::RF" : "lib/Web/RF.pm6"
-  },
-  "version" : "1.0.0",
-  "description" : "Web Application Routing Framework"
-}
-,
-{
   "name" : "JSON::JWT",
   "source-url" : "git://github.com/retupmoca/P6-JSON-JWT.git",
   "perl" : "6.*",
