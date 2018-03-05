@@ -6502,6 +6502,23 @@
 }
 ,
 {
+  "name" : "DB::ORM::Quicky",
+  "source-url" : "git://github.com/tony-o/perl6-db-orm-quicky.git",
+  "perl" : "6.*",
+  "auth" : "github:tony-o",
+  "depends" : [
+    "DBIish"
+  ],
+  "provides" : {
+    "DB::ORM::Quicky::Search" : "lib/DB/ORM/Quicky/Search.pm6",
+    "DB::ORM::Quicky" : "lib/DB/ORM/Quicky.pm6",
+    "DB::ORM::Quicky::Model" : "lib/DB/ORM/Quicky/Model.pm6"
+  },
+  "version" : "0.1.1",
+  "description" : "Easy Prototyping ORM for Perl 6"
+}
+,
+{
   "name" : "OO::Monitors",
   "support" : {
     "source" : "git://github.com/jnthn/oo-monitors.git"
@@ -9444,7 +9461,7 @@
   "source-url" : "git://github.com/atweiden/config-toml.git",
   "perl" : "6.*",
   "source-type" : "git",
-  "author" : "Andy Weidenbaum",
+  "author" : "atweiden",
   "depends" : [
     "Crane"
   ],
