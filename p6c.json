@@ -6857,6 +6857,7 @@
 {
   "name" : "C::Parser",
   "source-url" : "https://github.com/andydude/p6-c-parser.git",
+  "perl" : "6.*",
   "build-depends" : [ ],
   "author" : "Andrew Robbins",
   "depends" : [ ],
@@ -6865,8 +6866,8 @@
     "C::Parser::Grammar" : "lib/C/Parser/Grammar.pm6",
     "C::AST" : "lib/C/AST.pm6",
     "C::Parser" : "lib/C/Parser.pm6",
-    "C::AST::Utils" : "lib/C/AST/Utils.pm6",
     "C::Parser::Actions" : "lib/C/Parser/Actions.pm6",
+    "C::AST::Utils" : "lib/C/AST/Utils.pm6",
     "C::Parser::Lexer" : "lib/C/Parser/Lexer.pm6",
     "C::AST::Ops" : "lib/C/AST/Ops.pm6"
   },
