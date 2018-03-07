@@ -9467,12 +9467,12 @@
     "Crane"
   ],
   "provides" : {
-    "Config::TOML::Parser::Grammar" : "lib/Config/TOML/Parser/Grammar.pm",
-    "Config::TOML::Parser::Actions" : "lib/Config/TOML/Parser/Actions.pm",
-    "Config::TOML" : "lib/Config/TOML.pm",
-    "Config::TOML::Dumper" : "lib/Config/TOML/Dumper.pm",
-    "X::Config::TOML" : "lib/X/Config/TOML.pm",
-    "Config::TOML::Parser" : "lib/Config/TOML/Parser.pm"
+    "Config::TOML::Parser::Grammar" : "lib/Config/TOML/Parser/Grammar.pm6",
+    "Config::TOML::Parser::Actions" : "lib/Config/TOML/Parser/Actions.pm6",
+    "Config::TOML" : "lib/Config/TOML.pm6",
+    "Config::TOML::Dumper" : "lib/Config/TOML/Dumper.pm6",
+    "X::Config::TOML" : "lib/X/Config/TOML.pm6",
+    "Config::TOML::Parser" : "lib/Config/TOML/Parser.pm6"
   },
   "license" : "Unlicense",
   "version" : "0.0.1",
@@ -9823,7 +9823,7 @@
   "perl" : "6.*",
   "source-type" : "git",
   "provides" : {
-    "Digest::xxHash" : "lib/Digest/xxHash.pm"
+    "Digest::xxHash" : "lib/Digest/xxHash.pm6"
   },
   "license" : "Unlicense",
   "version" : "1.0.0",
@@ -11195,7 +11195,7 @@
     "TXN::Remarshal"
   ],
   "provides" : {
-    "TXN" : "lib/TXN.pm"
+    "TXN" : "lib/TXN.pm6"
   },
   "license" : "Unlicense",
   "version" : "0.0.7",
@@ -13370,8 +13370,8 @@
   "source-type" : "git",
   "author" : "atweiden",
   "provides" : {
-    "X::Crane" : "lib/X/Crane.pm",
-    "Crane" : "lib/Crane.pm"
+    "X::Crane" : "lib/X/Crane.pm6",
+    "Crane" : "lib/Crane.pm6"
   },
   "license" : "Unlicense",
   "version" : "0.1.0",
@@ -14657,12 +14657,12 @@
     "Digest::xxHash"
   ],
   "provides" : {
-    "TXN::Parser::AST" : "lib/TXN/Parser/AST.pm",
-    "TXN::Parser" : "lib/TXN/Parser.pm",
-    "TXN::Parser::Actions" : "lib/TXN/Parser/Actions.pm",
-    "X::TXN::Parser" : "lib/X/TXN/Parser.pm",
-    "TXN::Parser::Types" : "lib/TXN/Parser/Types.pm",
-    "TXN::Parser::Grammar" : "lib/TXN/Parser/Grammar.pm"
+    "TXN::Parser::AST" : "lib/TXN/Parser/AST.pm6",
+    "TXN::Parser" : "lib/TXN/Parser.pm6",
+    "TXN::Parser::Actions" : "lib/TXN/Parser/Actions.pm6",
+    "X::TXN::Parser" : "lib/X/TXN/Parser.pm6",
+    "TXN::Parser::Types" : "lib/TXN/Parser/Types.pm6",
+    "TXN::Parser::Grammar" : "lib/TXN/Parser/Grammar.pm6"
   },
   "license" : "Unlicense",
   "version" : "*",
@@ -16211,8 +16211,8 @@
     "TXN::Parser"
   ],
   "provides" : {
-    "X::TXN::Remarshal" : "lib/X/TXN/Remarshal.pm",
-    "TXN::Remarshal" : "lib/TXN/Remarshal.pm"
+    "X::TXN::Remarshal" : "lib/X/TXN/Remarshal.pm6",
+    "TXN::Remarshal" : "lib/TXN/Remarshal.pm6"
   },
   "license" : "Unlicense",
   "version" : "*",
