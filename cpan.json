@@ -589,6 +589,38 @@
 }
 ,
 {
+  "name" : "Munge",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-munge.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-munge/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/Munge-0.1.tar.gz",
+  "perl" : "6.c",
+  "depends" : [
+    "NativeCall"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [
+    "NATIVECALL",
+    "AUTHENTICATION"
+  ],
+  "provides" : {
+    "Munge::Context" : "lib/Munge/Context.pm6",
+    "Munge" : "lib/Munge.pm6"
+  },
+  "license" : "NASA-1.3",
+  "version" : "0.1",
+  "description" : "MUNGE Uid 'N' Gid Emporium Authentication Service",
+  "authors" : [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ]
+}
+,
+{
   "name" : "epoll",
   "support" : {
     "source" : "https://github.com/CurtTilmes/perl6-epoll.git",
