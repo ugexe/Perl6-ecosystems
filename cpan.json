@@ -2531,6 +2531,23 @@
 }
 ,
 {
+  "name" : "Concurrent::Trie",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Concurrent-Trie-1.0.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "Concurrent::Stack" : "lib/Concurrent/Trie.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0",
+  "description" : "A lock-free concurrent trie (Text Retrieval) data structure.",
+  "authors" : [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ]
+}
+,
+{
   "name" : "IO::Socket::Async::SSL",
   "support" : {
     "source" : "https://github.com/jnthn/p6-io-socket-async-ssl.git"
