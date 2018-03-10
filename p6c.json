@@ -14141,6 +14141,27 @@
 }
 ,
 {
+  "name" : "Text::Caesar",
+  "source-url" : "git://github.com/Emeric54/p6-text-caesar.git",
+  "perl" : "6.c",
+  "author" : "Emeric Fischer <fischer.emeric@gmail.com>",
+  "resources" : [ ],
+  "depends" : [ ],
+  "tags" : [
+    "crypt",
+    "password"
+  ],
+  "provides" : {
+    "Text::Caesar" : "lib/Text/Caesar.pm6"
+  },
+  "version" : "0.1",
+  "authors" : [
+    "Emeric Fischer"
+  ],
+  "description" : "*"
+}
+,
+{
   "name" : "Twitter",
   "source-url" : "git://github.com/zoffixznet/perl6-Twitter.git",
   "perl" : "6.c",
