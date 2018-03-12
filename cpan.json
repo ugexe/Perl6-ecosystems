@@ -2498,6 +2498,35 @@
 }
 ,
 {
+  "name" : "Perl6::Tidy",
+  "support" : {
+    "source" : "https://github.com/drforr/perl6-Perl6-Tidy.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Perl6-Tidy-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:drforr",
+  "depends" : [
+    "Test::META"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Tidying"
+  ],
+  "provides" : {
+    "Perl6::Tidy" : "lib/Perl6/Tidy.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "meta6" : "0",
+  "description" : "Perl 6 tidier",
+  "authors" : [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ]
+}
+,
+{
   "name" : "Wikidata::API",
   "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Wikidata-API-0.0.3.tar.gz",
   "perl" : "6.*",
