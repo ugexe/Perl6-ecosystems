@@ -21822,4 +21822,30 @@
     "Timo Paulssen"
   ]
 }
+,
+{
+  "name" : "Java::Generate",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Java::Generate::CompUnit" : "lib/Java/Generate/CompUnit.pm6",
+    "Java::Generate::ASTNode" : "lib/Java/Generate/ASTNode.pm6",
+    "Java::Generate::JavaMethod" : "lib/Java/Generate/JavaMethod.pm6",
+    "Java::Generate::Class" : "lib/Java/Generate/Class.pm6",
+    "Java::Generate::Utils" : "lib/Java/Generate/Utils.pm6",
+    "Java::Generate::JavaSignature" : "lib/Java/Generate/JavaSignature.pm6",
+    "Java::Generate::Interface" : "lib/Java/Generate/Interface.pm6",
+    "Java::Generate::Variable" : "lib/Java/Generate/Variable.pm6",
+    "Java::Generate::JavaParameter" : "lib/Java/Generate/JavaParameter.pm6",
+    "Java::Generate::Expression" : "lib/Java/Generate/Expression.pm6",
+    "Java::Generate::Literal" : "lib/Java/Generate/Literal.pm6",
+    "Java::Generate::Argument" : "lib/Java/Generate/Argument.pm6",
+    "Java::Generate::Statement" : "lib/Java/Generate/Statement.pm6"
+  },
+  "tags" : [ ],
+  "version" : "1.0.0",
+  "meta-version" : 1,
+  "authors" : "Altai-man <altay-man@mail.ru>",
+  "description" : "Generates Java code from AST"
+}
 ]
