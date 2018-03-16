@@ -7845,6 +7845,52 @@ null
 }
 ,
 {
+  "name" : "Dist::Helper",
+  "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Dist-Helper-0.19.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "templates/editorconfig",
+    "templates/gitignore",
+    "templates/module/bin",
+    "templates/module/class",
+    "templates/module/lib",
+    "templates/module/test",
+    "templates/module/unit",
+    "templates/travis.yml",
+    "templates/vim-line/space",
+    "templates/vim-line/tab"
+  ],
+  "auth" : "github:scriptkitties",
+  "depends" : [
+    "Config:ver<1.3.2+>",
+    "File::Directory::Tree",
+    "File::Temp:ver<0.0.6+>",
+    "File::Which:ver<1.0.0+>",
+    "JSON::Fast:ver<0.9.11+>",
+    "MIME::Base64:ver<1.2.1+>",
+    "SemVer:ver<0.1.3+>",
+    "Template::Mustache:ver<1.0.1+>"
+  ],
+  "tags" : [
+    "devel",
+    "ecosystems"
+  ],
+  "provides" : {
+    "Dist::Helper::Clean" : "lib/Dist/Helper/Clean.pm6",
+    "Dist::Helper" : "lib/Dist/Helper.pm6",
+    "Dist::Helper::Path" : "lib/Dist/Helper/Path.pm6",
+    "Dist::Helper::Template" : "lib/Dist/Helper/Template.pm6",
+    "Dist::Helper::Meta" : "lib/Dist/Helper/Meta.pm6"
+  },
+  "license" : "GPL-3.0",
+  "version" : "0.19.2",
+  "description" : "The CPAN distribution helper",
+  "authors" : [
+    "Patrick Spek <p.spek@tyil.work>"
+  ]
+}
+,
+{
   "name" : "Hash::Merge",
   "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Hash-Merge-0.1.1.tar.gz",
   "perl" : "6",
