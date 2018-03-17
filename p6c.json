@@ -21848,4 +21848,39 @@
   "authors" : "Altai-man <altay-man@mail.ru>",
   "description" : "Generates Java code from AST"
 }
+,
+{
+  "name" : "App::FindSource",
+  "support" : {
+    "source" : "https://github.com/araraloren/perl6-app-findsource.git",
+    "bugtracker" : "https://github.com.araraloren/perl6-app-findsource/issues"
+  },
+  "source-url" : "https://github.com/araraloren/perl6-app-findsource.git",
+  "perl" : "6.c",
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "auth" : "github:araraloren",
+  "depends" : [
+    "Getopt::Advance",
+    "JSON::Fast"
+  ],
+  "provides" : {
+    "Config::Searcher" : "lib/Config/Searcher.pm6",
+    "Config::Loader" : "lib/Config/Loader.pm6"
+  },
+  "tags" : [
+    "find",
+    "c",
+    "cpp",
+    "make"
+  ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "license" : "GPL",
+  "version" : "0.0.1",
+  "authors" : "Loren",
+  "description" : "Find your source file easily."
+}
 ]
