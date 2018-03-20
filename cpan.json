@@ -7658,6 +7658,53 @@
 }
 ,
 {
+  "name" : "App::Assixt",
+  "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-Assixt-0.2.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "docopt.txt",
+    "man/assixt.1.adoc"
+  ],
+  "depends" : [
+    "Config::Parser::toml:ver<1.0.1+>",
+    "Config:ver<1.3.3+>",
+    "Dist::Helper:ver<0.19.2+>",
+    "Terminal::Getpass:ver<0.0.5+>"
+  ],
+  "tags" : [
+    "CLI",
+    "devel",
+    "ecosystems"
+  ],
+  "provides" : {
+    "App::Assixt::Commands::Touch::Bin" : "lib/App/Assixt/Commands/Touch/Bin.pm6",
+    "App::Assixt::Commands::Dist" : "lib/App/Assixt/Commands/Dist.pm6",
+    "App::Assixt::Commands::Depend" : "lib/App/Assixt/Commands/Depend.pm6",
+    "App::Assixt::Commands::Clean" : "lib/App/Assixt/Commands/Clean.pm6",
+    "assixt" : "bin/assixt",
+    "App::Assixt::Usage" : "lib/App/Assixt/Usage.pm6",
+    "App::Assixt::Input" : "lib/App/Assixt/Input.pm6",
+    "App::Assixt::Config" : "lib/App/Assixt/Config.pm6",
+    "App::Assixt::Commands::Test" : "lib/App/Assixt/Commands/Test.pm6",
+    "App::Assixt::Commands::New" : "lib/App/Assixt/Commands/New.pm6",
+    "App::Assixt::Commands::Upload" : "lib/App/Assixt/Commands/Upload.pm6",
+    "App::Assixt::Commands::Touch::Resource" : "lib/App/Assixt/Commands/Touch/Resource.pm6",
+    "App::Assixt::Commands::Touch::Lib" : "lib/App/Assixt/Commands/Touch/Lib.pm6",
+    "App::Assixt::Commands::Bootstrap::Config" : "lib/App/Assixt/Commands/Bootstrap/Config.pm6",
+    "App::Assixt::Main" : "lib/App/Assixt/Main.pm6",
+    "App::Assixt::Commands::Push" : "lib/App/Assixt/Commands/Push.pm6",
+    "App::Assixt::Commands::Bump" : "lib/App/Assixt/Commands/Bump.pm6",
+    "App::Assixt::Commands::Touch::Test" : "lib/App/Assixt/Commands/Touch/Test.pm6",
+    "App::Assixt::Commands::Help" : "lib/App/Assixt/Commands/Help.pm6",
+    "App::Assixt::Commands::Bootstrap::Man" : "lib/App/Assixt/Commands/Bootstrap/Man.pm6"
+  },
+  "license" : "GPL-3.0",
+  "version" : "0.2.1",
+  "description" : "A CLI frontend to Dist::Helper",
+  "authors" : "Patrick Spek <p.spek@tyil.work>"
+}
+,
+{
   "name" : "App::MPD::AutoQueue",
   "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-MPD-AutoQueue-0.1.0.tar.gz",
   "perl" : "6",
