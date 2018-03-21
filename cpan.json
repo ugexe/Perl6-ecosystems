@@ -325,6 +325,46 @@
 }
 ,
 {
+  "name" : "Crypt::RSA",
+  "source-url" : "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Crypt-RSA-0.1.0.tar.gz",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Crypt::RSA" : "lib/Crypt/RSA.pm6",
+    "Crypt::RSA::Key" : "lib/Crypt/RSA/Key.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "Pure Perl6 implementation of RSA public key encryption.",
+  "authors" : [
+    "Brian Duggan"
+  ]
+}
+,
+{
+  "name" : "Digest::SHA256::Native",
+  "source-url" : "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Digest-SHA256-Native-0.03.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/sha256"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "LibraryMake"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Digest::SHA256::Native" : "lib/Digest/SHA256/Native.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.03",
+  "description" : "p6 bindings to C implementation of SHA256",
+  "authors" : [
+    "Brian Duggan"
+  ]
+}
+,
+{
   "name" : "OAuth2::Client::Google",
   "source-url" : "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/OAuth2-Client-Google-0.1.0.tar.gz",
   "perl" : "6.c",
@@ -405,6 +445,45 @@
   },
   "license" : "MIT",
   "version" : "0.0.1",
+  "description" : "AWS S3 Client",
+  "authors" : [
+    "Brian Duggan <bduggan@matatu.org>"
+  ]
+}
+,
+{
+  "name" : "WebService::AWS::S3",
+  "support" : {
+    "source" : "git://github.com/bduggan/aws-s3-perl6.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/WebService-AWS-S3-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "build-depends" : [ ],
+  "auth" : "github:bduggan",
+  "depends" : [
+    "Test",
+    "XML::Class",
+    "URI::Encode",
+    "IO::Socket::SSL",
+    "HTTP::UserAgent",
+    "Digest",
+    "Digest::HMAC",
+    "JSON::Fast",
+    "URI"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "aws"
+  ],
+  "provides" : {
+    "WebService::AWS::S3" : "lib/WebService/AWS/S3.pm6",
+    "WebService::AWS::S3::Resources" : "lib/WebService/AWS/S3/Resources.pm6",
+    "WebService::AWS::S3::Request" : "lib/WebService/AWS/S3/Request.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.2",
   "description" : "AWS S3 Client",
   "authors" : [
     "Brian Duggan <bduggan@matatu.org>"
