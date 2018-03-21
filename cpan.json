@@ -8294,6 +8294,38 @@ null
 }
 ,
 {
+  "name" : "Config",
+  "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Config-1.3.4.tar.gz",
+  "perl" : "6",
+  "resources" : [ ],
+  "auth" : "github:scriptkitties",
+  "depends" : [
+    "Hash::Merge"
+  ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "config",
+    "configuration"
+  ],
+  "provides" : {
+    "Config::Parser" : "lib/Config/Parser.pm6",
+    "Config::Exception::FileNotFoundException" : "lib/Config/Exception/FileNotFoundException.pm6",
+    "Config" : "lib/Config.pm6",
+    "Config::Exception::UnimplementedMethodException" : "lib/Config/Exception/UnimplementedMethodException.pm6",
+    "Config::Exception::MissingParserException" : "lib/Config/Exception/MissingParserException.pm6",
+    "Config::Parser::NULL" : "lib/Config/Parser/NULL.pm6"
+  },
+  "license" : "GPL-3.0",
+  "version" : "1.3.4",
+  "description" : "Extensible library for reading and writing configuration files.",
+  "authors" : [
+    "Patrick Spek <p.spek@tyil.work>"
+  ]
+}
+,
+{
   "name" : "Config::Parser::toml",
   "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Config-Parser-toml-1.0.1.tar.gz",
   "perl" : "6",
