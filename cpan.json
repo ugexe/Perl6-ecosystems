@@ -5934,6 +5934,34 @@
 }
 ,
 {
+  "name" : "Test::SourceFiles",
+  "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Test-SourceFiles-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Test"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "testing",
+    "use",
+    "development"
+  ],
+  "provides" : {
+    "Test::SourceFiles" : "lib/Test/SourceFiles.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "A basic compilation checker",
+  "authors" : [
+    "Sam Gillespie"
+  ]
+}
+,
+{
   "name" : "Algorithm::GooglePolylineEncoding",
   "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Algorithm-GooglePolylineEncoding-0.0.1.tar.gz",
   "perl" : "6.c",
