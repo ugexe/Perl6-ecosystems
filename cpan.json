@@ -373,6 +373,45 @@
 }
 ,
 {
+  "name" : "WebService::AWS::S3",
+  "support" : {
+    "source" : "git://github.com/bduggan/aws-s3-perl6.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/WebService-AWS-S3-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "build-depends" : [ ],
+  "auth" : "github:bduggan",
+  "depends" : [
+    "Test",
+    "XML::Class",
+    "URI::Encode",
+    "IO::Socket::SSL",
+    "HTTP::UserAgent",
+    "Digest",
+    "Digest::HMAC",
+    "JSON::Fast",
+    "URI"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "aws"
+  ],
+  "provides" : {
+    "WebService::AWS::S3" : "lib/WebService/AWS/S3.pm6",
+    "WebService::AWS::S3::Resources" : "lib/WebService/AWS/S3/Resources.pm6",
+    "WebService::AWS::S3::Request" : "lib/WebService/AWS/S3/Request.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.1",
+  "description" : "AWS S3 Client",
+  "authors" : [
+    "Brian Duggan <bduggan@matatu.org>"
+  ]
+}
+,
+{
   "name" : "Bitcoin::RPC::Client",
   "support" : {
     "source" : "git://github.com/brakmic/Perl6-Bitcoin-Client.git"
