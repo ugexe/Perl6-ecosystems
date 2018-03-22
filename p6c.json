@@ -21804,4 +21804,33 @@
   "authors" : "Loren",
   "description" : "Find your source file easily."
 }
+,
+{
+  "name" : "App::OrgSleep",
+  "source-url" : "git://github.com/AlexDaniel/orgsleep.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "Inline::Perl5",
+    "JSON::Fast"
+  ],
+  "provides" : {
+    "bdf2json" : "bin/bdf2json",
+    "orgsleep" : "bin/orgsleep"
+  },
+  "license" : "GPL-3.0-or-later",
+  "tags" : [
+    "emacs",
+    "org-mode",
+    "sleep",
+    "sleep-analysis",
+    "sleep-tracker",
+    "sleep-research"
+  ],
+  "version" : "0.0.8",
+  "authors" : [
+    "Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>"
+  ],
+  "description" : "Use Emacs Org-mode to graph your sleep pattern"
+}
 ]
