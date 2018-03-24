@@ -8261,11 +8261,12 @@
     "parsing"
   ],
   "provides" : {
+    "ANTLR4::Grammar::Parser" : "lib/ANTLR4/Grammar/Parser.pm6",
     "ANTLR4::Actions::Perl6" : "lib/ANTLR4/Actions/Perl6.pm6",
     "ANTLR4::Grammar" : "lib/ANTLR4/Grammar.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.1.1",
+  "version" : "0.2.0",
   "meta6" : "0",
   "description" : "Turn ANTLR4 Grammars into Perl 6 Grammars",
   "authors" : [
