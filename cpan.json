@@ -7590,35 +7590,6 @@
 }
 ,
 {
-  "name" : "Term::termios",
-  "support" : {
-    "irc" : "irc://irc.freenode.org/#perl6"
-  },
-  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Term-termios-0.0.1.tar.gz",
-  "perl" : "6.c",
-  "resources" : [
-    "libraries/myhelper"
-  ],
-  "build-depends" : [
-    "LibraryMake"
-  ],
-  "author" : "github:titsuki",
-  "repo-type" : "git",
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [ ],
-  "provides" : {
-    "Term::termios" : "lib/Term/termios.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "termios routines for Rakudo Perl 6",
-  "authors" : [
-    "titsuki"
-  ]
-}
-,
-{
   "name" : "Terminal::Getpass",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Terminal-Getpass-0.0.1.tar.gz",
   "perl" : "6.c",
