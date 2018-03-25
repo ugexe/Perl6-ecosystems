@@ -7011,6 +7011,30 @@
 }
 ,
 {
+  "name" : "CPAN::Uploader::Tiny",
+  "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/CPAN-Uploader-Tiny-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:SKAJI",
+  "depends" : [
+    "HTTP::Tinyish"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "CPAN::Uploader::Tiny::MultiPart" : "lib/CPAN/Uploader/Tiny/MultiPart.pm6",
+    "CPAN::Uploader::Tiny" : "lib/CPAN/Uploader/Tiny.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "Upload tarballs to CPAN",
+  "authors" : [
+    "Shoichi Kaji"
+  ]
+}
+,
+{
   "name" : "HTTP::Tinyish",
   "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/HTTP-Tinyish-0.1.0.tar.gz",
   "perl" : "6.c",
