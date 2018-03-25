@@ -2209,6 +2209,91 @@
 }
 ,
 {
+  "name" : "Archive::Libarchive",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-0.0.7.tar.gz",
+  "perl" : "6.c",
+  "depends" : [
+    "Archive::Libarchive::Raw"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "archive",
+    "libarchive",
+    "compression"
+  ],
+  "provides" : {
+    "Archive::Libarchive" : "lib/Archive/Libarchive.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "description" : "High-level bindings to libarchive",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
+  "name" : "Archive::Libarchive::Raw",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-Raw-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libarchive.dll"
+  ],
+  "build-depends" : [
+    "LWP::Simple"
+  ],
+  "depends" : [
+    "NativeCall"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "archive",
+    "libarchive",
+    "compression",
+    "nativecall"
+  ],
+  "provides" : {
+    "Archive::Libarchive::Raw" : "lib/Archive/Libarchive/Raw.pm6",
+    "Archive::Libarchive::Constants" : "lib/Archive/Libarchive/Constants.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "description" : "Raw interface to libarchive",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
+  "name" : "Desktop::Notify",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-0.2.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "desktop",
+    "notification",
+    "libnotify",
+    "nativecall"
+  ],
+  "provides" : {
+    "Desktop::Notify" : "lib/Desktop/Notify.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.2",
+  "description" : "A simple interface to libnotify",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
   "name" : "Image::QRCode",
   "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Image-QRCode-0.0.1.tar.gz",
   "perl" : "6.c",
