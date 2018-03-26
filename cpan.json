@@ -3037,6 +3037,47 @@
 }
 ,
 {
+  "name" : "ANTLR4::Grammar",
+  "support" : {
+    "source" : "https://github.com/drforr/perl6-ANTLR4.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/ANTLR4-Grammar-0.2.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:drforr",
+  "depends" : [
+    "Test::META"
+  ],
+  "test-depends" : [
+    "Test",
+    "JSON::Tiny"
+  ],
+  "tags" : [
+    "ANTLR",
+    "ANTLR4",
+    "Grammar",
+    "Transform",
+    "Languages",
+    "parse",
+    "parser",
+    "parsing"
+  ],
+  "provides" : {
+    "ANTLR4::Grammar::Parser" : "lib/ANTLR4/Grammar/Parser.pm6",
+    "ANTLR4::Actions::Perl6" : "lib/ANTLR4/Actions/Perl6.pm6",
+    "ANTLR4::Grammar" : "lib/ANTLR4/Grammar.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.1",
+  "meta6" : "0",
+  "description" : "Turn ANTLR4 Grammars into Perl 6 Grammars",
+  "authors" : [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ]
+}
+,
+{
   "name" : "CommonMark",
   "support" : {
     "source" : "https://github.com/drforr/perl6-CommonMark.git"
