@@ -8026,6 +8026,50 @@
 }
 ,
 {
+  "name" : "Text::Sift4",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Text-Sift4-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : [
+    "cpan:TITSUKI"
+  ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Text::Sift4" : "lib/Text/Sift4.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "description" : "A Perl 6 Sift4 (Super Fast and Accurate string distance algorithm) implementation",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
+  "name" : "Text::Sift4",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Text-Sift4-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Text::Sift4" : "lib/Text/Sift4.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
+  "description" : "A Perl 6 Sift4 (Super Fast and Accurate string distance algorithm) implementation",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
   "name" : "HTTP::Server::Tiny",
   "source-url" : "http://www.cpan.org/authors/id/T/TO/TOKUHIROM/Perl6/HTTP-Server-Tiny-0.0.1.tar.gz",
   "perl" : "6.c",
