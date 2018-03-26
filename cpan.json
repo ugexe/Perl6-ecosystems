@@ -9343,6 +9343,23 @@ null
 }
 ,
 {
+  "name" : "Ops::SI",
+  "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Ops-SI-0.1.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Ops::SI" : "lib/Ops/SI.pm6"
+  },
+  "license" : "AGPL-3.0",
+  "version" : "0.1.0",
+  "meta-version" : 0,
+  "description" : "Add new suffix operators for SI prefixes",
+  "authors" : "Patrick Spek <p.spek@tyil.work>"
+}
+,
+{
   "name" : "SemVer",
   "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/SemVer-0.1.0.tar.gz",
   "perl" : "6.c",
