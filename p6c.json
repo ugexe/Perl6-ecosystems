@@ -16767,34 +16767,6 @@
 }
 ,
 {
-  "name" : "MeCab",
-  "source-url" : "git://github.com/titsuki/p6-MeCab.git",
-  "perl" : "6.c",
-  "resources" : [
-    "libraries/mecab"
-  ],
-  "build-depends" : [
-    "LibraryMake"
-  ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [ ],
-  "provides" : {
-    "MeCab::DictionaryInfo" : "lib/MeCab/DictionaryInfo.pm6",
-    "MeCab::Tagger" : "lib/MeCab/Tagger.pm6",
-    "MeCab::Lattice" : "lib/MeCab/Lattice.pm6",
-    "MeCab" : "lib/MeCab.pm6",
-    "MeCab::Model" : "lib/MeCab/Model.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.6",
-  "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
-  "authors" : [
-    "titsuki"
-  ]
-}
-,
-{
   "name" : "Pod::Render",
   "source-url" : "git://github.com/MARTIMM/pod-render.git",
   "perl" : "6",
@@ -21016,31 +20988,6 @@
     "Robert Lemmen"
   ],
   "description" : "Cucumber-like Behavior-Driven Development (BDD) Test Framework"
-}
-,
-{
-  "name" : "Geo::Hash",
-  "source-url" : "git://github.com/titsuki/p6-Geo-Hash.git",
-  "perl" : "6.c",
-  "resources" : [
-    "libraries/geohash"
-  ],
-  "build-depends" : [
-    "LibraryMake"
-  ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [ ],
-  "provides" : {
-    "Geo::Hash" : "lib/Geo/Hash.pm6",
-    "Geo::Hash::Coord" : "lib/Geo/Hash/Coord.pm6"
-  },
-  "license" : "BSD-3-Clause",
-  "version" : "0.0.1",
-  "description" : "A Perl 6 bindings for libgeohash",
-  "authors" : [
-    "titsuki"
-  ]
 }
 ,
 {
