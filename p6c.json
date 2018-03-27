@@ -2143,27 +2143,6 @@
 }
 ,
 {
-  "name" : "Druid",
-  "source-url" : "git://github.com/masak/druid.git",
-  "perl" : "6.*",
-  "depends" : [ ],
-  "provides" : {
-    "Druid::Game::Subject" : "lib/Druid/Game/Subject.pm",
-    "Druid::View::Text" : "lib/Druid/View/Text.pm",
-    "Druid::Player" : "lib/Druid/Player.pm",
-    "Test::Ix" : "lib/Test/Ix.pm",
-    "Druid::Player::Human" : "lib/Druid/Player/Human.pm",
-    "Druid::Game::Observer" : "lib/Druid/Game/Observer.pm",
-    "Druid::Player::Computer" : "lib/Druid/Player/Computer.pm",
-    "Druid::Base" : "lib/Druid/Base.pm",
-    "Druid::View" : "lib/Druid/View.pm",
-    "Druid::Game" : "lib/Druid/Game.pm"
-  },
-  "version" : "0.1",
-  "description" : "A connection-oriented board game written in Perl 6"
-}
-,
-{
   "name" : "GGE",
   "source-url" : "git://github.com/masak/gge.git",
   "depends" : [ ],
