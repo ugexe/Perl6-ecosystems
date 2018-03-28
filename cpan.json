@@ -9196,6 +9196,32 @@ null
 }
 ,
 {
+  "name" : "Hash::Merge",
+  "api" : "0.2",
+  "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Hash-Merge-0.2.1.tar.gz",
+  "perl" : "6",
+  "auth" : "github:scriptkitties",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "hash",
+    "utils"
+  ],
+  "provides" : {
+    "Hash::Merge" : "lib/Hash/Merge.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.1",
+  "description" : "Module to add deep merge functionality to Hashes",
+  "authors" : [
+    "Samantha McVey <samantham@posteo.net>",
+    "Patrick Spek <p.spek@tyil.work>"
+  ]
+}
+,
+{
   "name" : "IO::Path::Dirstack",
   "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IO-Path-Dirstack-0.1.0.tar.gz",
   "perl" : "6.c",
