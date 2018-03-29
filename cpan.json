@@ -6897,6 +6897,31 @@
 }
 ,
 {
+  "name" : "Proc::InvokeEditor",
+  "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Proc-InvokeEditor-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "Simon Proctor \"simon.proctor@gmail.com\"",
+  "depends" : [
+    "File::Temp"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "cpan5"
+  ],
+  "provides" : {
+    "Proc::InvokeEditor" : "lib/Proc/InvokeEditor.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "Edit strings in an external editor. ",
+  "authors" : [
+    "Simon Proctor"
+  ]
+}
+,
+{
   "name" : "Test::HTTP::Server",
   "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Test-HTTP-Server-0.1.0.tar.gz",
   "perl" : "6.c",
