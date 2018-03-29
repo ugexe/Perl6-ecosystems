@@ -2390,6 +2390,28 @@
 }
 ,
 {
+  "name" : "Image::QRCode",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Image-QRCode-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "image",
+    "qrcode"
+  ],
+  "provides" : {
+    "Image::QRCode" : "lib/Image/QRCode.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Interface to libqrencode",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
   "name" : "Inline",
   "support" : {
     "source" : "https://github.com/FROGGS/p6-Inline-C.git",
