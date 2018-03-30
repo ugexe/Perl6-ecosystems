@@ -638,6 +638,42 @@
 }
 ,
 {
+  "name" : "Lingua::Stopwords",
+  "source-url" : "http://www.cpan.org/authors/id/C/CH/CHSANCH/Perl6/Lingua-Stopwords-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Testo",
+    "Test::META"
+  ],
+  "tags" : [
+    "nlp",
+    "text"
+  ],
+  "provides" : {
+    "Lingua::Stopwords::HU" : "lib/Lingua/Stopwords/HU.pm6",
+    "Lingua::Stopwords::NO" : "lib/Lingua/Stopwords/NO.pm6",
+    "Lingua::Stopwords::PT" : "lib/Lingua/Stopwords/PT.pm6",
+    "Lingua::Stopwords::NL" : "lib/Lingua/Stopwords/NL.pm6",
+    "Lingua::Stopwords::IT" : "lib/Lingua/Stopwords/IT.pm6",
+    "Lingua::Stopwords::FR" : "lib/Lingua/Stopwords/FR.pm6",
+    "Lingua::Stopwords::DA" : "lib/Lingua/Stopwords/DA.pm6",
+    "Lingua::Stopwords::EN" : "lib/Lingua/Stopwords/EN.pm6",
+    "Lingua::Stopwords::HE" : "lib/Lingua/Stopwords/HE.pm6",
+    "Lingua::Stopwords::ES" : "lib/Lingua/Stopwords/ES.pm6",
+    "Lingua::Stopwords::FI" : "lib/Lingua/Stopwords/FI.pm6",
+    "Lingua::Stopwords::SV" : "lib/Lingua/Stopwords/SV.pm6",
+    "Lingua::Stopwords::RU" : "lib/Lingua/Stopwords/RU.pm6",
+    "Lingua::Stopwords::DE" : "lib/Lingua/Stopwords/DE.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Provides stop words for several languages.",
+  "authors" : "Christian S\u00e1nchez"
+}
+,
+{
   "name" : "Supply::Timeout",
   "source-url" : "http://www.cpan.org/authors/id/C/CO/CONO/Perl6/Supply-Timeout-0.0.1.tar.gz",
   "perl" : "6.c",
