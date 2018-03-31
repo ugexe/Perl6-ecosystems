@@ -4771,6 +4771,59 @@
 }
 ,
 {
+  "name" : "Net::LibIDN",
+  "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Net-LibIDN-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "API",
+    "Net",
+    "DNS"
+  ],
+  "provides" : {
+    "Net::LibIDN::TLD" : "lib/Net/LibIDN/TLD.pm6",
+    "Net::LibIDN::Punycode" : "lib/Net/LibIDN/Punycode.pm6",
+    "Net::LibIDN::Native" : "lib/Net/LibIDN/Native.pm6",
+    "Net::LibIDN::Free" : "lib/Net/LibIDN/Free.pm6",
+    "Net::LibIDN" : "lib/Net/LibIDN.pm6",
+    "Net::LibIDN::StringPrep" : "lib/Net/LibIDN/StringPrep.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Perl 6 Bindings for GNU LibIDN",
+  "authors" : [
+    "Ben Davies"
+  ]
+}
+,
+{
+  "name" : "Net::LibIDN2",
+  "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Net-LibIDN2-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "API",
+    "DNS",
+    "Net"
+  ],
+  "provides" : {
+    "Net::LibIDN2" : "lib/Net/LibIDN2.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "Perl 6 bindings for GNU LibIDN2",
+  "authors" : [
+    "Ben Davies"
+  ]
+}
+,
+{
   "name" : "App::Platform",
   "source-url" : "http://www.cpan.org/authors/id/K/KA/KAJI/Perl6/App-Platform-0.1.0.tar.gz",
   "perl" : "6",
