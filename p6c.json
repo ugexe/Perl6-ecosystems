@@ -12593,28 +12593,6 @@
 }
 ,
 {
-  "name" : "Algorithm::AhoCorasick",
-  "source-url" : "git://github.com/titsuki/p6-Algorithm-AhoCorasick.git",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "author" : "cpan:TITSUKI",
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [ ],
-  "provides" : {
-    "Algorithm::AhoCorasick" : "lib/Algorithm/AhoCorasick.pm6",
-    "Algorithm::AhoCorasick::Node" : "lib/Algorithm/AhoCorasick/Node.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.8",
-  "description" : "efficient search for multiple strings",
-  "authors" : [
-    "Itsuki Toyota"
-  ]
-}
-,
-{
   "name" : "Attribute::Lazy",
   "perl" : "6.c",
   "support" : {
