@@ -13459,27 +13459,6 @@
 }
 ,
 {
-  "name" : "Algorithm::MinMaxHeap",
-  "source-url" : "git://github.com/titsuki/p6-Algorithm-MinMaxHeap.git",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "provides" : {
-    "Algorithm::MinMaxHeap::Comparable" : "lib/Algorithm/MinMaxHeap/Comparable.pm6",
-    "Algorithm::MinMaxHeap" : "lib/Algorithm/MinMaxHeap.pm6",
-    "Algorithm::MinMaxHeap::CmpOperator" : "lib/Algorithm/MinMaxHeap/CmpOperator.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.13.2",
-  "description" : "A Perl 6 implementation of double ended priority queue",
-  "authors" : [
-    "titsuki"
-  ]
-}
-,
-{
   "name" : "Audio::PortAudio",
   "perl" : "6.c",
   "support" : {
