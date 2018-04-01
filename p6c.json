@@ -15349,8 +15349,10 @@
   "perl" : "6.c",
   "resources" : [ ],
   "build-depends" : [ ],
+  "author" : "cpan:TITSUKI",
   "depends" : [ ],
   "test-depends" : [ ],
+  "tags" : [ ],
   "provides" : {
     "Algorithm::NaiveBayes::ModelUpdatable" : "lib/Algorithm/NaiveBayes/ModelUpdatable.pm6",
     "Algorithm::NaiveBayes" : "lib/Algorithm/NaiveBayes.pm6",
@@ -15361,10 +15363,10 @@
     "Algorithm::NaiveBayes::Vocabulary" : "lib/Algorithm/NaiveBayes/Vocabulary.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "*",
+  "version" : "0.0.1",
   "description" : "A Perl 6 Naive Bayes classifier implementation",
   "authors" : [
-    "titsuki"
+    "Itsuki Toyota"
   ]
 }
 ,
