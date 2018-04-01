@@ -2435,6 +2435,43 @@
 }
 ,
 {
+  "name" : "Lingua::Pangram",
+  "api" : 1,
+  "support" : {
+    "email" : "sfischer13@ymail.com",
+    "source" : "git://github.com/sfischer13/perl6-Lingua-Pangram.git",
+    "bugtracker" : "https://github.com/sfischer13/perl6-Lingua-Pangram/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/F/FI/FISCHER/Perl6/Lingua-Pangram-0.1.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "auth" : "github:sfischer13",
+  "depends" : [
+    "Pod::To::Text"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [
+    "alphabet",
+    "letters",
+    "pangram",
+    "perl6"
+  ],
+  "provides" : {
+    "Lingua::Pangram" : "lib/Lingua/Pangram.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.1.1",
+  "production" : true,
+  "description" : "Check whether a string is a pangram",
+  "authors" : [
+    "Stefan Fischer <sfischer13@ymail.com>"
+  ]
+}
+,
+{
   "name" : "Archive::Libarchive",
   "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-0.0.7.tar.gz",
   "perl" : "6.c",
