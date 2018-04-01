@@ -8541,6 +8541,55 @@
 }
 ,
 {
+  "name" : "Algorithm::AhoCorasick",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-AhoCorasick-0.0.9.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::AhoCorasick" : "lib/Algorithm/AhoCorasick.pm6",
+    "Algorithm::AhoCorasick::Node" : "lib/Algorithm/AhoCorasick/Node.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.9",
+  "description" : "efficient search for multiple strings",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
+  "name" : "Algorithm::NaiveBayes",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-NaiveBayes-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::NaiveBayes::ModelUpdatable" : "lib/Algorithm/NaiveBayes/ModelUpdatable.pm6",
+    "Algorithm::NaiveBayes" : "lib/Algorithm/NaiveBayes.pm6",
+    "Algorithm::NaiveBayes::Document" : "lib/Algorithm/NaiveBayes/Document.pm6",
+    "Algorithm::NaiveBayes::Classifier::Multinomial" : "lib/Algorithm/NaiveBayes/Classifier/Multinomial.pm6",
+    "Algorithm::NaiveBayes::Classifier::Bernoulli" : "lib/Algorithm/NaiveBayes/Classifier/Bernoulli.pm6",
+    "Algorithm::NaiveBayes::Classifiable" : "lib/Algorithm/NaiveBayes/Classifiable.pm6",
+    "Algorithm::NaiveBayes::Vocabulary" : "lib/Algorithm/NaiveBayes/Vocabulary.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "A Perl 6 Naive Bayes classifier implementation",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
   "name" : "Geo::Hash",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Geo-Hash-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -11050,6 +11099,47 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.6",
+  "description" : "read font files and render glyphs from Perl using FreeType2",
+  "authors" : [
+    "David Warring"
+  ]
+}
+,
+{
+  "name" : "Font::FreeType",
+  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.0.7.tar.gz",
+  "perl" : "6",
+  "resources" : [
+    "lib/libft6.so",
+    "lib/libft6.dll",
+    "lib/libft6.dylib"
+  ],
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "auth" : "github:p6-pdf",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "font",
+    "freetype"
+  ],
+  "provides" : {
+    "Font::FreeType::BBox" : "lib/Font/FreeType/BBox.pm",
+    "Font::FreeType" : "lib/Font/FreeType.pm",
+    "Font::FreeType::Outline" : "lib/Font/FreeType/Outline.pm",
+    "Font::FreeType::GlyphImage" : "lib/Font/FreeType/GlyphImage.pm",
+    "Font::FreeType::Glyph" : "lib/Font/FreeType/Glyph.pm",
+    "Font::FreeType::NamedInfo" : "lib/Font/FreeType/NamedInfo.pm",
+    "Font::FreeType::Native::Types" : "lib/Font/FreeType/Native/Types.pm",
+    "Font::FreeType::Error" : "lib/Font/FreeType/Error.pm",
+    "Font::FreeType::CharMap" : "lib/Font/FreeType/CharMap.pm",
+    "Font::FreeType::Native" : "lib/Font/FreeType/Native.pm",
+    "Font::FreeType::BitMap" : "lib/Font/FreeType/BitMap.pm",
+    "Font::FreeType::Face" : "lib/Font/FreeType/Face.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
   "description" : "read font files and render glyphs from Perl using FreeType2",
   "authors" : [
     "David Warring"
