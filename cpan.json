@@ -8630,6 +8630,29 @@
 }
 ,
 {
+  "name" : "Algorithm::MinMaxHeap",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-MinMaxHeap-0.13.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::MinMaxHeap::Comparable" : "lib/Algorithm/MinMaxHeap/Comparable.pm6",
+    "Algorithm::MinMaxHeap" : "lib/Algorithm/MinMaxHeap.pm6",
+    "Algorithm::MinMaxHeap::CmpOperator" : "lib/Algorithm/MinMaxHeap/CmpOperator.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.13.3",
+  "description" : "A Perl 6 implementation of double ended priority queue",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
   "name" : "Algorithm::NaiveBayes",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-NaiveBayes-0.0.1.tar.gz",
   "perl" : "6.c",
