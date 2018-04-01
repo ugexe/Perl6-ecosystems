@@ -3682,6 +3682,40 @@
 }
 ,
 {
+  "name" : "Algorithm::Evolutionary::Simple",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.4.tar.gz",
+  "perl" : "6.*",
+  "resources" : [
+    "examples/max-ones.p6",
+    "examples/concurrent-selecto-recombinative-EA.p6",
+    "examples/concurrent-evolutionary-algorithm.p6",
+    "examples/population-mixer.p6"
+  ],
+  "build-depends" : [ ],
+  "auth" : "github:JJ",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [
+    "evolutionary algorithms",
+    "genetic algorithms",
+    "optimization",
+    "computational inteligence"
+  ],
+  "provides" : {
+    "Algorithm::Evolutionary::Simple" : "lib/Algorithm/Evolutionary/Simple.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "A simple evolutionary algorithm",
+  "authors" : [
+    "JJ Merelo"
+  ]
+}
+,
+{
   "name" : "Wikidata::API",
   "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Wikidata-API-0.0.3.tar.gz",
   "perl" : "6.*",
@@ -8624,6 +8658,27 @@
   "license" : "Artistic-2.0",
   "version" : "0.0.9",
   "description" : "efficient search for multiple strings",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
+  "name" : "Algorithm::Manacher",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-Manacher-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::Manacher" : "lib/Algorithm/Manacher.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "a perl6 implementation of the extended Manacher's Algorithm for solving longest palindromic substring(i.e. palindrome) problem",
   "authors" : [
     "Itsuki Toyota"
   ]
