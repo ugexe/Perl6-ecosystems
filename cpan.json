@@ -2390,6 +2390,43 @@
 }
 ,
 {
+  "name" : "Lingua::Lipogram",
+  "api" : 1,
+  "support" : {
+    "email" : "sfischer13@ymail.com",
+    "source" : "git://github.com/sfischer13/perl6-Lingua-Lipogram.git",
+    "bugtracker" : "https://github.com/sfischer13/perl6-Lingua-Lipogram/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/F/FI/FISCHER/Perl6/Lingua-Lipogram-0.1.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "auth" : "github:sfischer13",
+  "depends" : [
+    "Pod::To::Text"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [
+    "alphabet",
+    "letters",
+    "lipogram",
+    "perl6"
+  ],
+  "provides" : {
+    "Lingua::Lipogram" : "lib/Lingua/Lipogram.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.1.0",
+  "production" : true,
+  "description" : "Check whether a string is a lipogram",
+  "authors" : [
+    "Stefan Fischer <sfischer13@ymail.com>"
+  ]
+}
+,
+{
   "name" : "Lingua::Pangram",
   "api" : 1,
   "support" : {
