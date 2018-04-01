@@ -8520,6 +8520,28 @@
 ,
 {
   "name" : "Algorithm::AhoCorasick",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-AhoCorasick-0.0.10.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::AhoCorasick" : "lib/Algorithm/AhoCorasick.pm6",
+    "Algorithm::AhoCorasick::Node" : "lib/Algorithm/AhoCorasick/Node.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.10",
+  "description" : "A Perl 6 Aho-Corasick dictionary matching algorithm implementation",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
+  "name" : "Algorithm::AhoCorasick",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-AhoCorasick-0.0.8.tar.gz",
   "perl" : "6.c",
   "resources" : [ ],
@@ -8583,6 +8605,60 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.1",
+  "description" : "A Perl 6 Naive Bayes classifier implementation",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
+  "name" : "Algorithm::NaiveBayes",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-NaiveBayes-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::NaiveBayes::ModelUpdatable" : "lib/Algorithm/NaiveBayes/ModelUpdatable.pm6",
+    "Algorithm::NaiveBayes" : "lib/Algorithm/NaiveBayes.pm6",
+    "Algorithm::NaiveBayes::Document" : "lib/Algorithm/NaiveBayes/Document.pm6",
+    "Algorithm::NaiveBayes::Classifier::Multinomial" : "lib/Algorithm/NaiveBayes/Classifier/Multinomial.pm6",
+    "Algorithm::NaiveBayes::Classifier::Bernoulli" : "lib/Algorithm/NaiveBayes/Classifier/Bernoulli.pm6",
+    "Algorithm::NaiveBayes::Classifiable" : "lib/Algorithm/NaiveBayes/Classifiable.pm6",
+    "Algorithm::NaiveBayes::Vocabulary" : "lib/Algorithm/NaiveBayes/Vocabulary.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "A Perl 6 Naive Bayes classifier implementation",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
+  "name" : "Algorithm::NaiveBayes",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-NaiveBayes-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::NaiveBayes::ModelUpdatable" : "lib/Algorithm/NaiveBayes/ModelUpdatable.pm6",
+    "Algorithm::NaiveBayes" : "lib/Algorithm/NaiveBayes.pm6",
+    "Algorithm::NaiveBayes::Document" : "lib/Algorithm/NaiveBayes/Document.pm6",
+    "Algorithm::NaiveBayes::Classifier::Multinomial" : "lib/Algorithm/NaiveBayes/Classifier/Multinomial.pm6",
+    "Algorithm::NaiveBayes::Classifier::Bernoulli" : "lib/Algorithm/NaiveBayes/Classifier/Bernoulli.pm6",
+    "Algorithm::NaiveBayes::Classifiable" : "lib/Algorithm/NaiveBayes/Classifiable.pm6",
+    "Algorithm::NaiveBayes::Vocabulary" : "lib/Algorithm/NaiveBayes/Vocabulary.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
   "description" : "A Perl 6 Naive Bayes classifier implementation",
   "authors" : [
     "Itsuki Toyota"
