@@ -5412,19 +5412,6 @@
 }
 ,
 {
-  "name" : "Phaser::ATEXIT",
-  "source-url" : "git://github.com/colomon/Phaser-ATEXIT.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "depends" : [ ],
-  "provides" : {
-    "Phaser::ATEXIT" : "lib/Phaser/ATEXIT.pm"
-  },
-  "version" : "*",
-  "description" : "Simple implementation of ATEXIT for Perl 6"
-}
-,
-{
   "name" : "CSV::Parser",
   "source-url" : "git://github.com/tony-o/perl6-csv-parser.git",
   "perl" : "6.*",
