@@ -1,45 +1,5 @@
 [
 {
-  "name" : "jmp",
-  "source-url" : "git://github.com/nige123/jmp.nigelhamilton.com.git",
-  "support" : {
-    "bugtracker" : "https://github.com/nige123/jmp.nigelhamilton.com/issues"
-  },
-  "perl" : "6",
-  "resources" : [ ],
-  "auth" : "github:nige123",
-  "depends" : [
-    "Terminal::ANSIColor",
-    "Test::META"
-  ],
-  "tags" : [
-    "invoke-editor",
-    "code-search"
-  ],
-  "provides" : {
-    "JMP::System" : "lib/JMP/System.pm",
-    "JMP::Finder::Hit" : "lib/JMP/Finder/Hit.pm",
-    "JMP::Screen::Action::EditFile" : "lib/JMP/Screen/Action/EditFile.pm",
-    "JMP::Finder" : "lib/JMP/Finder.pm",
-    "JMP::Editor" : "lib/JMP/Editor.pm",
-    "JMP::Screen::Page" : "lib/JMP/Screen/Page.pm",
-    "JMP::Screen::Action" : "lib/JMP/Screen/Action.pm",
-    "JMP::Template" : "lib/JMP/Template.pm",
-    "JMP::Config" : "lib/JMP/Config.pm",
-    "JMP" : "lib/JMP.pm",
-    "JMP::Screen::Action::EditFileLine" : "lib/JMP/Screen/Action/EditFileLine.pm",
-    "JMP::Screen" : "lib/JMP/Screen.pm",
-    "JMP::CLI" : "lib/JMP/CLI.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.2",
-  "authors" : [
-    "Nigel Hamilton"
-  ],
-  "description" : "search files and jump to matching lines in a text editor"
-}
-,
-{
   "name" : "Do123",
   "source-url" : "git://github.com/nige123/app.123.do.git",
   "support" : {
@@ -148,17 +108,6 @@
   },
   "version" : "*",
   "description" : "Damian Conway's Perl 6 testing module"
-}
-,
-{
-  "name" : "mandelbrot",
-  "source-url" : "git://github.com/colomon/mandelbrot.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "depends" : [ ],
-  "provides" : { },
-  "version" : "*",
-  "description" : "Simple Mandelbrot Set scripts"
 }
 ,
 {
@@ -415,23 +364,6 @@
   },
   "version" : "*",
   "description" : "Simple list utility subs"
-}
-,
-{
-  "name" : "Algorithm::Diff",
-  "source-url" : "git://github.com/Takadonet/Algorithm--Diff.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "provides" : {
-    "Algorithm::Diff" : "lib/Algorithm/Diff.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "version" : "*",
-  "description" : "Contains several interfaces for which computing the differences between two lists."
 }
 ,
 {
@@ -1677,27 +1609,6 @@
 }
 ,
 {
-  "name" : "Web::App::MVC",
-  "source-url" : "git://github.com/supernovus/perl6-web-app-mvc.git",
-  "perl" : "6.*",
-  "depends" : [
-    "Web",
-    "SCGI",
-    "HTTP::Easy",
-    "Web::Template",
-    "DB::Model::Easy",
-    "JSON::Tiny"
-  ],
-  "provides" : {
-    "Web::App::MVC::Controller" : "lib/Web/App/MVC/Controller.pm6",
-    "Web::App::MVC" : "lib/Web/App/MVC.pm6",
-    "Web::App::MVC::Controller::MethodDispatch" : "lib/Web/App/MVC/Controller/MethodDispatch.pm6"
-  },
-  "version" : "*",
-  "description" : "MVC Framework for Web Apps in Perl 6."
-}
-,
-{
   "name" : "Web::App::Ballet",
   "source-url" : "git://github.com/supernovus/perl6-web-app-ballet.git",
   "perl" : "6.*",
@@ -2211,20 +2122,6 @@
 }
 ,
 {
-  "name" : "SVG",
-  "source-url" : "git://github.com/moritz/svg.git",
-  "perl" : "6.*",
-  "depends" : [
-    "XML::Writer"
-  ],
-  "provides" : {
-    "SVG" : "lib/SVG.pm"
-  },
-  "version" : "*",
-  "description" : "A Perl 6 module to generate SVG (Scalable Vector Graphics)"
-}
-,
-{
   "name" : "SVG::Plot",
   "source-url" : "git://github.com/moritz/svg-plot.git",
   "perl" : "6.*",
@@ -2239,30 +2136,6 @@
   },
   "version" : "*",
   "description" : "A Perl 6 charting and plotting library that produces SVG output"
-}
-,
-{
-  "name" : "Facter",
-  "source-url" : "git://github.com/cosimo/perl6-facter.git",
-  "authority" : "cosimo",
-  "perl" : "6.*",
-  "author" : "Cosimo Streppone",
-  "depends" : [ ],
-  "provides" : {
-    "Facter::Util::Loader" : "lib/Facter/Util/Loader.pm",
-    "Facter::Util::Values" : "lib/Facter/Util/Values.pm",
-    "Facter::Util::Collection" : "lib/Facter/Util/Collection.pm",
-    "Facter::Util::Resolution" : "lib/Facter/Util/Resolution.pm",
-    "Facter" : "lib/Facter.pm",
-    "Facter::physicalprocessorcount" : "lib/Facter/physicalprocessorcount.pm",
-    "Facter::perl6os" : "lib/Facter/perl6os.pm",
-    "Facter::kernel" : "lib/Facter/kernel.pm",
-    "Facter::Debug" : "lib/Facter/Debug.pm",
-    "Facter::Util::Fact" : "lib/Facter/Util/Fact.pm",
-    "Facter::Util::Confine" : "lib/Facter/Util/Confine.pm"
-  },
-  "version" : "0.04",
-  "description" : "A port of puppetlabs facter to Perl 6"
 }
 ,
 {
@@ -2578,22 +2451,6 @@
 }
 ,
 {
-  "name" : "GeoIP::City",
-  "source-url" : "git://github.com/bbkr/GeoIPerl6.git",
-  "perl" : "6.c",
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "GeoIP::City" : "lib/GeoIP/City.pm",
-    "GeoIP" : "lib/GeoIP.pm"
-  },
-  "version" : "1.0.1",
-  "authors" : [
-    "Pawe\u0142 bbkr Pabian"
-  ],
-  "description" : "MaxMind GeoIP City library interface."
-}
-,
-{
   "name" : "Benchmark",
   "source-url" : "git://github.com/perlpilot/benchmark.git",
   "build-depends" : [ ],
@@ -2606,35 +2463,6 @@
   ],
   "version" : "*",
   "description" : "Benchmark running times of Perl 6 code"
-}
-,
-{
-  "name" : "Grammar::Profiler::Simple",
-  "support" : {
-    "email" : "duff@pobox.com",
-    "source" : "https://github.com/perlpilot/Grammar-Profiler-Simple.git",
-    "bugtracker" : "https://github.com/perlpilot/Grammar-Profiler-Simple/issues"
-  },
-  "source-url" : "git://github.com/perlpilot/Grammar-Profiler-Simple.git",
-  "perl" : "6.*",
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "provides" : {
-    "Grammar::Profiler::Simple" : "lib/Grammar/Profiler/Simple.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "Grammar",
-    "Profiler"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "0.02",
-  "authors" : [
-    "Jonathan Scott Duff <duff@pobox.com>"
-  ],
-  "description" : "Simple rule profiling for Perl 6 grammars"
 }
 ,
 {
@@ -3162,24 +2990,6 @@
 }
 ,
 {
-  "name" : "Auth::PAM::Simple",
-  "source-url" : "git://github.com/retupmoca/P6-Auth-PAM-Simple.git",
-  "perl" : "6.*",
-  "resources" : [
-    "libauthpamsimple.so"
-  ],
-  "author" : "github:retupmoca",
-  "depends" : [
-    "LibraryMake"
-  ],
-  "provides" : {
-    "Auth::PAM::Simple" : "lib/Auth/PAM/Simple.pm6"
-  },
-  "version" : "1.0.0",
-  "description" : "Simple PAM authentication"
-}
-,
-{
   "name" : "LibraryMake",
   "source-url" : "git://github.com/retupmoca/P6-LibraryMake.git",
   "perl" : "6.*",
@@ -3324,79 +3134,6 @@
 }
 ,
 {
-  "name" : "Net::XMPP",
-  "perl" : "6.c",
-  "support" : {
-    "source" : null
-  },
-  "source-url" : "git://github.com/kalkin/Net-XMPP.git",
-  "auth" : "kalkin",
-  "depends" : [
-    "MIME::Base64",
-    "Net::DNS",
-    "XML"
-  ],
-  "test-depends" : [
-    "Test::META"
-  ],
-  "provides" : {
-    "Net::XMPP::Presence" : "lib/Net/XMPP/Presence.pm6",
-    "Net::XMPP::IQ" : "lib/Net/XMPP/IQ.pm6",
-    "Net::XMPP" : "lib/Net/XMPP.pm6",
-    "Net::XMPP::Message" : "lib/Net/XMPP/Message.pm6"
-  },
-  "version" : "0.0.1",
-  "production" : false,
-  "authors" : [
-    "Andrew Egeler",
-    "Bahtiar `kalkin-` Gadimov",
-    "Paul Cochrane",
-    "Rob Hoelz",
-    "Zoffix Znet",
-    "nbrown"
-  ],
-  "meta6" : "0",
-  "description" : "an XMPP client module"
-}
-,
-{
-  "name" : "Net::AMQP",
-  "source-url" : "git://github.com/retupmoca/P6-Net-AMQP.git",
-  "support" : {
-    "source" : "git://github.com/retupmoca/P6-Net-AMQP.git",
-    "bugtracker" : "https://github.com/retupmoca/P6-Net-AMQP/issues"
-  },
-  "perl" : "6.c",
-  "auth" : "github:retupmoca",
-  "depends" : [ ],
-  "tags" : [
-    "messaging",
-    "amqp",
-    "mq",
-    "amqp"
-  ],
-  "provides" : {
-    "Net::AMQP::Payload::Heartbeat" : "lib/Net/AMQP/Payload/Heartbeat.pm6",
-    "Net::AMQP::Queue" : "lib/Net/AMQP/Queue.pm6",
-    "Net::AMQP::Channel" : "lib/Net/AMQP/Channel.pm6",
-    "Net::AMQP::Frame" : "lib/Net/AMQP/Frame.pm6",
-    "Net::AMQP::Payload::ArgumentSerialization" : "lib/Net/AMQP/Payload/ArgumentSerialization.pm6",
-    "Net::AMQP::Payload::Body" : "lib/Net/AMQP/Payload/Body.pm6",
-    "Net::AMQP::Exchange" : "lib/Net/AMQP/Exchange.pm6",
-    "Net::AMQP" : "lib/Net/AMQP.pm6",
-    "Net::AMQP::Payload::Method" : "lib/Net/AMQP/Payload/Method.pm6",
-    "Net::AMQP::Payload::Header" : "lib/Net/AMQP/Payload/Header.pm6"
-  },
-  "license" : "MIT",
-  "meta-version" : 0,
-  "version" : "0.1.10",
-  "description" : "AMQP (RabbitMQ) 0.9.1 client",
-  "authors" : [
-    "Andrew Egeler"
-  ]
-}
-,
-{
   "name" : "SOAP::Client",
   "source-url" : "git://github.com/retupmoca/P6-SOAP.git",
   "perl" : "6.*",
@@ -3424,21 +3161,6 @@
   },
   "version" : "1.0.0",
   "description" : "UUID Generator"
-}
-,
-{
-  "name" : "XML::Canonical",
-  "source-url" : "git://github.com/retupmoca/P6-XML-Canonical.git",
-  "perl" : "6.*",
-  "author" : "github:retupmoca",
-  "depends" : [
-    "XML"
-  ],
-  "provides" : {
-    "XML::Canonical" : "lib/XML/Canonical.pm6"
-  },
-  "version" : "1.0.0",
-  "description" : "XML Canonicalization"
 }
 ,
 {
@@ -3918,21 +3640,6 @@
   },
   "version" : "*",
   "description" : "A Perl 6 module to deal with W3CDTF dates"
-}
-,
-{
-  "name" : "Redis",
-  "perl" : "6.*",
-  "source-url" : "git://github.com/Cofyc/perl6-redis.git",
-  "author" : "Yecheng Fu",
-  "source-type" : "git",
-  "depends" : [ ],
-  "provides" : {
-    "Redis" : "lib/Redis.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.1.0",
-  "description" : "A Perl6 binding for Redis"
 }
 ,
 {
@@ -4667,32 +4374,6 @@
   "license" : "MIT",
   "version" : "0.0.2",
   "description" : "A simple Odoo ERP client that uses JSON RPC"
-}
-,
-{
-  "name" : "Graphics::PLplot",
-  "source-url" : "git://github.com/azawawi/perl6-graphics-plplot.git",
-  "perl" : "6.*",
-  "auth" : "github:azawawi",
-  "repo-type" : "git",
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "Chart",
-    "Plot",
-    "NativeCall"
-  ],
-  "provides" : {
-    "Graphics::PLplot::Raw" : "lib/Graphics/PLplot/Raw.pm6",
-    "Graphics::PLplot" : "lib/Graphics/PLplot.pm6"
-  },
-  "license" : "MIT",
-  "version" : "0.0.2",
-  "description" : "Perl 6 native bindings for PLplot",
-  "authors" : [
-    "Ahmad M. Zawawi"
-  ]
 }
 ,
 {
