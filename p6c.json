@@ -1658,6 +1658,25 @@
 }
 ,
 {
+  "name" : "Web::Template",
+  "source-url" : "git://github.com/supernovus/perl6-web-template.git",
+  "perl" : "6.*",
+  "depends" : [
+    "Template6",
+    "Template::Mojo",
+    "HTML::Template"
+  ],
+  "provides" : {
+    "Web::Template::HTML" : "lib/Web/Template/HTML.pm6",
+    "Web::Template" : "lib/Web/Template.pm6",
+    "Web::Template::Template6" : "lib/Web/Template/Template6.pm6",
+    "Web::Template::Mojo" : "lib/Web/Template/Mojo.pm6"
+  },
+  "version" : "*",
+  "description" : "A template engine abstraction layer for web frameworks."
+}
+,
+{
   "name" : "Web::App::MVC",
   "source-url" : "git://github.com/supernovus/perl6-web-app-mvc.git",
   "perl" : "6.*",
@@ -5390,6 +5409,19 @@
   "authors" : [
     "Dagur Valberg Johannsson"
   ]
+}
+,
+{
+  "name" : "Phaser::ATEXIT",
+  "source-url" : "git://github.com/colomon/Phaser-ATEXIT.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "depends" : [ ],
+  "provides" : {
+    "Phaser::ATEXIT" : "lib/Phaser/ATEXIT.pm"
+  },
+  "version" : "*",
+  "description" : "Simple implementation of ATEXIT for Perl 6"
 }
 ,
 {
