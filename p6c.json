@@ -15580,31 +15580,6 @@
 }
 ,
 {
-  "name" : "Desktop::Notify",
-  "source-url" : "git://github.com/frithnanth/perl6-Desktop-Notify.git",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "provides" : {
-    "Desktop::Notify" : "lib/Desktop/Notify.pm6"
-  },
-  "tags" : [
-    "desktop",
-    "notification",
-    "libnotify",
-    "nativecall"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "0.2.2",
-  "description" : "A simple interface to libnotify",
-  "authors" : [
-    "Fernando Santagata"
-  ]
-}
-,
-{
   "name" : "Test::Deeply::Relaxed",
   "source-url" : "https://github.com/ppentchev/perl6-Test-Deeply-Relaxed.git",
   "perl" : "6.c",
@@ -17247,66 +17222,6 @@
   },
   "version" : "0.0.3",
   "description" : "Types for IP addresses and manipulation methods."
-}
-,
-{
-  "name" : "Archive::Libarchive::Raw",
-  "source-url" : "git://github.com/frithnanth/perl6-Archive-Libarchive-Raw.git",
-  "perl" : "6.c",
-  "resources" : [
-    "libarchive.dll"
-  ],
-  "build-depends" : [
-    "LWP::Simple"
-  ],
-  "depends" : [
-    "NativeCall"
-  ],
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "Archive::Libarchive::Constants" : "lib/Archive/Libarchive/Constants.pm6",
-    "Archive::Libarchive::Raw" : "lib/Archive/Libarchive/Raw.pm6"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "archive",
-    "libarchive",
-    "compression",
-    "nativecall"
-  ],
-  "version" : "0.0.5",
-  "authors" : [
-    "Fernando Santagata"
-  ],
-  "description" : "Raw interface to libarchive"
-}
-,
-{
-  "name" : "Archive::Libarchive",
-  "source-url" : "git://github.com/frithnanth/perl6-Archive-Libarchive.git",
-  "perl" : "6.c",
-  "depends" : [
-    "Archive::Libarchive::Raw"
-  ],
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "Archive::Libarchive" : "lib/Archive/Libarchive.pm6"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "archive",
-    "libarchive",
-    "compression"
-  ],
-  "version" : "0.0.7",
-  "authors" : [
-    "Fernando Santagata"
-  ],
-  "description" : "High-level bindings to libarchive"
 }
 ,
 {
