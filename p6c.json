@@ -14886,14 +14886,14 @@
   "source-url" : "https://gitlab.com/CIAvash/WebService-FootballData.git",
   "perl" : "6.c",
   "depends" : [
-    "HTTP::UserAgent",
-    "JSON::Fast",
-    "URI::Escape"
+    "HTTP::UserAgent:ver<1.1.39>",
+    "JSON::Fast:ver<0.9.10>",
+    "URI:ver<0.1.4>"
   ],
   "test-depends" : [
     "Test",
-    "Test::Mock",
-    "JSON::Fast"
+    "Test::Mock:ver<1.4>",
+    "JSON::Fast:ver<0.9.10>"
   ],
   "provides" : {
     "WebService::FootballData::Team" : "lib/WebService/FootballData/Team.pm6",
@@ -14929,7 +14929,7 @@
     "web service",
     "football-data.org"
   ],
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "authors" : [
     "Siavash Askari Nasr"
   ],
@@ -14941,12 +14941,12 @@
   "source-url" : "https://gitlab.com/CIAvash/App-Football.git",
   "perl" : "6.c",
   "depends" : [
-    "WebService::FootballData",
-    "Text::Table::Simple"
+    "WebService::FootballData:ver<0.1.4>",
+    "Text::Table::Simple:ver<0.0.4>"
   ],
   "test-depends" : [
     "Test",
-    "Test::Output"
+    "Test::Output:ver<1.001001>"
   ],
   "provides" : {
     "App::Football" : "lib/App/Football.pm6"
@@ -14957,7 +14957,7 @@
     "cli",
     "command line"
   ],
-  "version" : "0.1.4",
+  "version" : "0.1.5",
   "authors" : [
     "Siavash Askari Nasr"
   ],
