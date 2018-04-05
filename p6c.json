@@ -21511,4 +21511,23 @@
   ],
   "description" : "Use Emacs Org-mode to graph your sleep pattern"
 }
+,
+{
+  "name" : "SupplyTimeWindow",
+  "source-url" : "git://github.com/FCO/SupplyTimeWindow.git",
+  "perl" : "v6.*",
+  "scripts" : {
+    "test" : "zef test ."
+  },
+  "test-depends" : [
+    "Testo"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "production" : false,
+  "description" : "",
+  "authors" : [
+    "fernando"
+  ]
+}
 ]
