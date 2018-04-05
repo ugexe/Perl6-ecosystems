@@ -17739,6 +17739,13 @@
     "Test::META"
   ],
   "test-depends" : [ ],
+  "tags" : [
+    "XML",
+    "XPath",
+    "Parsing",
+    "W3C",
+    "Query Language"
+  ],
   "provides" : {
     "XML::XPath::Utils" : "lib/XML/XPath/Utils.pm6",
     "XML::XPath::ExprOperator::UnaryMinus" : "lib/XML/XPath/ExprOperator/UnaryMinus.pm6",
@@ -17768,15 +17775,8 @@
     "XML::XPath::ExprOperator::Mod" : "lib/XML/XPath/ExprOperator/Mod.pm6",
     "XML::XPath::ExprOperator::Minus" : "lib/XML/XPath/ExprOperator/Minus.pm6"
   },
-  "tags" : [
-    "XML",
-    "XPath",
-    "Parsing",
-    "W3C",
-    "Query Language"
-  ],
   "license" : "Artistic-2.0",
-  "version" : "0.9.0",
+  "version" : "0.9.1",
   "description" : "XPath perl6 library",
   "authors" : [
     "Martin Barth (ufobat)"
