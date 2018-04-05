@@ -11287,6 +11287,61 @@ null
 }
 ,
 {
+  "name" : "XML::XPath",
+  "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/XML-XPath-0.9.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "XML",
+    "Test::META"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "XML",
+    "XPath",
+    "Parsing",
+    "W3C",
+    "Query Language"
+  ],
+  "provides" : {
+    "XML::XPath::Utils" : "lib/XML/XPath/Utils.pm6",
+    "XML::XPath::ExprOperator::UnaryMinus" : "lib/XML/XPath/ExprOperator/UnaryMinus.pm6",
+    "XML::XPath::Expr" : "lib/XML/XPath/Expr.pm6",
+    "XML::XPath::Predicates" : "lib/XML/XPath/Predicates.pm6",
+    "XML::XPath::FunctionCall::Number" : "lib/XML/XPath/FunctionCall/Number.pm6",
+    "XML::XPath::ExprOperator::GreaterThan" : "lib/XML/XPath/ExprOperator/GreaterThan.pm6",
+    "XML::XPath::InfixExprOperatorPerElement" : "lib/XML/XPath/InfixExprOperatorPerElement.pm6",
+    "XML::XPath::ExprOperator::Or" : "lib/XML/XPath/ExprOperator/Or.pm6",
+    "XML::XPath::Evaluable" : "lib/XML/XPath/Evaluable.pm6",
+    "XML::XPath" : "lib/XML/XPath.pm6",
+    "XML::XPath::FunctionCall::Node" : "lib/XML/XPath/FunctionCall/Node.pm6",
+    "XML::XPath::ExprOperator::And" : "lib/XML/XPath/ExprOperator/And.pm6",
+    "XML::XPath::ExprOperator::SmallerThan" : "lib/XML/XPath/ExprOperator/SmallerThan.pm6",
+    "XML::XPath::ExprOperator::Pipe" : "lib/XML/XPath/ExprOperator/Pipe.pm6",
+    "XML::XPath::ExprOperator::Equal" : "lib/XML/XPath/ExprOperator/Equal.pm6",
+    "XML::XPath::Actions" : "lib/XML/XPath/Actions.pm6",
+    "XML::XPath::FunctionCall::Boolean" : "lib/XML/XPath/FunctionCall/Boolean.pm6",
+    "XML::XPath::ExprOperator::Plus" : "lib/XML/XPath/ExprOperator/Plus.pm6",
+    "XML::XPath::Step" : "lib/XML/XPath/Step.pm6",
+    "XML::XPath::NodeTest" : "lib/XML/XPath/NodeTest.pm6",
+    "XML::XPath::FunctionCall" : "lib/XML/XPath/FunctionCall.pm6",
+    "XML::XPath::ExprOperator::Div" : "lib/XML/XPath/ExprOperator/Div.pm6",
+    "XML::XPath::Types" : "lib/XML/XPath/Types.pm6",
+    "XML::XPath::Grammar" : "lib/XML/XPath/Grammar.pm6",
+    "XML::XPath::FunctionCall::String" : "lib/XML/XPath/FunctionCall/String.pm6",
+    "XML::XPath::ExprOperator::Mod" : "lib/XML/XPath/ExprOperator/Mod.pm6",
+    "XML::XPath::ExprOperator::Minus" : "lib/XML/XPath/ExprOperator/Minus.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.9.1",
+  "description" : "XPath perl6 library",
+  "authors" : [
+    "Martin Barth (ufobat)"
+  ]
+}
+,
+{
   "name" : "zef",
   "support" : {
     "bugtracker" : "https://github.com/ugexe/zef/issues"
