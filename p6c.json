@@ -21533,4 +21533,28 @@
     "fernando"
   ]
 }
+,
+{
+  "api" : "1",
+  "name" : "CUID",
+  "source-url" : "git://github.com/marcoonroad/perl6-cuid.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:marcoonroad",
+  "depends" : [ ],
+  "tags" : [
+    "CUID"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "CUID" : "lib/CUID.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "authors" : [
+    "Marco Aur\u00e9lio da Silva"
+  ],
+  "description" : "CUID generator for Perl 6."
+}
 ]
