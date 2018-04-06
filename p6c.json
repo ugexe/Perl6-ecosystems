@@ -21519,6 +21519,9 @@
   "scripts" : {
     "test" : "zef test ."
   },
+  "provides" : {
+    "SupplyTimeWindow" : "lib/SupplyTimeWindow.pm6"
+  },
   "test-depends" : [
     "Testo"
   ],
