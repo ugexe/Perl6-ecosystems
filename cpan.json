@@ -2697,6 +2697,29 @@
 }
 ,
 {
+  "name" : "P5uc",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5uc-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5uc" : "lib/P5uc.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Implement Perl 5's uc() built-in",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5ucfirst",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5ucfirst-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -4445,6 +4468,41 @@
   "version" : "y",
   "meta6" : "0",
   "description" : "Perl 6 tidier",
+  "authors" : [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ]
+}
+,
+{
+  "name" : "Pod::To::HTMLBody",
+  "support" : {
+    "source" : "https://github.com/drforr/perl6-Pod-To-HTMLBody.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Pod-To-HTMLBody-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:drforr",
+  "depends" : [
+    "Test::META",
+    "URI"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "Pod6",
+    "Pod",
+    "HTML"
+  ],
+  "provides" : {
+    "Pod::To::Tree" : "lib/Pod/To/Tree.pm6",
+    "Pod::To::HTMLBody" : "lib/Pod/To/HTMLBody.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "meta6" : "0",
+  "description" : "HTML body",
   "authors" : [
     "Jeffrey Goff <drforr@pobox.com>"
   ]
