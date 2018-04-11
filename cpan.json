@@ -3171,6 +3171,31 @@
 }
 ,
 {
+  "name" : "Tie::StdHash",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-StdHash-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "P5tie"
+  ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Tie::StdHash" : "lib/Tie/StdHash.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "Implement Perl 5's Tie::StdHash core module",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Lingua::Lipogram",
   "api" : 1,
   "support" : {
