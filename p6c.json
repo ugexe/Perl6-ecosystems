@@ -21558,4 +21558,25 @@
   ],
   "description" : "CUID generator for Perl 6."
 }
+,
+{
+  "name" : "Koos",
+  "source-url" : "git://github.com/tony-o/perl6-koos.git",
+  "perl" : "6",
+  "auth" : "github:tony-o",
+  "depends" : [
+    "DBIish"
+  ],
+  "provides" : {
+    "Koos::Model" : "lib/Koos/Model.pm6",
+    "Koos::Searchable" : "lib/Koos/Searchable.pm6",
+    "Koos" : "lib/Koos.pm6",
+    "Koos::Row" : "lib/Koos/Row.pm6"
+  },
+  "version" : "0.0.1",
+  "authors" : [
+    "Tony O'Dell"
+  ],
+  "description" : "An ORM."
+}
 ]
