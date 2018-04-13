@@ -781,7 +781,8 @@
     "DateTime::Parse",
     "Encode",
     "MIME::Base64",
-    "URI"
+    "URI",
+    "IO::Socket::SSL"
   ],
   "provides" : {
     "HTTP::Message" : "lib/HTTP/Message.pm6",
