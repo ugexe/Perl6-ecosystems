@@ -2869,9 +2869,8 @@
     "skeleton/default/t/app.t",
     "skeleton/default/views/index.html"
   ],
-  "build-depends" : [
-    "TAP::Harness"
-  ],
+  "build-depends" : [ ],
+  "auth" : "github:Bailador",
   "depends" : [
     "Digest",
     "Digest::HMAC",
@@ -2892,7 +2891,9 @@
     "URI::Encode",
     "YAMLish"
   ],
-  "test-depends" : [ ],
+  "test-depends" : [
+    "TAP::Harness"
+  ],
   "tags" : [
     "Web",
     "HTTP",
@@ -2903,6 +2904,7 @@
     "Bailador::Sessions::Store" : "lib/Bailador/Sessions/Store.pm",
     "Bailador::Route::AutoHead" : "lib/Bailador/Route/AutoHead.pm",
     "Bailador::Request" : "lib/Bailador/Request.pm",
+    "Bailador::Plugins" : "lib/Bailador/Plugins.pm",
     "Bailador::Configuration" : "lib/Bailador/Configuration.pm",
     "Bailador::Commands" : "lib/Bailador/Commands.pm",
     "Bailador::CLI" : "lib/Bailador/CLI.pm",
@@ -2940,7 +2942,7 @@
     "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
   },
   "license" : "MIT",
-  "version" : "0.0.14",
+  "version" : "0.0.15",
   "description" : "A light-weight route-based web application framework for Perl 6",
   "authors" : [
     "Tadeusz \u201ctadzik\u201d So\u015bnierz",
