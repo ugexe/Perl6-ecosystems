@@ -21582,4 +21582,37 @@
   ],
   "description" : "An ORM."
 }
+,
+{
+  "name" : "Test::Time",
+  "perl" : "6.*",
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "git://github.com/FCO/test-time.git",
+  "depends" : [
+    "Test::Scheduler"
+  ],
+  "provides" : {
+    "Test::Time" : "lib/Test/Time.pm6"
+  },
+  "test-depends" : [
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "test",
+    "time",
+    "now",
+    "date",
+    "sleep"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.1",
+  "production" : false,
+  "description" : "",
+  "authors" : [
+    "Fernando Correa de Oliveira"
+  ]
+}
 ]
