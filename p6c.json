@@ -2205,9 +2205,10 @@
     "LWP::Simple" : "lib/LWP/Simple.pm"
   },
   "test-depends" : [
-    "JSON::Tiny"
+    "JSON::Tiny",
+    "IO::Socket::SSL"
   ],
-  "version" : "0.097",
+  "version" : "0.098",
   "description" : "LWP::Simple quick & dirty implementation for Rakudo Perl 6"
 }
 ,
