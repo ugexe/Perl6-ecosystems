@@ -2193,7 +2193,7 @@
 ,
 {
   "name" : "LWP::Simple",
-  "source-url" : "git://github.com/perl6/perl6-lwp-simple.git",
+  "source-url" : "https://github.com/perl6/perl6-lwp-simple.git",
   "authority" : "perl6",
   "perl" : "6.*",
   "author" : "Cosimo Streppone",
@@ -2205,10 +2205,9 @@
     "LWP::Simple" : "lib/LWP/Simple.pm"
   },
   "test-depends" : [
-    "JSON::Tiny",
-    "IO::Socket::SSL"
+    "JSON::Tiny"
   ],
-  "version" : "0.098",
+  "version" : "0.099",
   "description" : "LWP::Simple quick & dirty implementation for Rakudo Perl 6"
 }
 ,
