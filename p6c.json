@@ -3825,15 +3825,15 @@
   "name" : "p6doc",
   "perl" : "6.*",
   "support" : {
-    "source" : null
+    "source" : "git://github.com/perl6/doc.git"
   },
   "source-url" : "git://github.com/perl6/doc.git",
   "build-depends" : [
     "File::Find"
   ],
-  "resources" : [ ],
   "auth" : null,
   "depends" : [
+    "LWP::Simple:ver<0.098+>",
     "URI",
     "File::Temp",
     "JSON::Fast",
@@ -3853,9 +3853,13 @@
     "Pod::Convenience" : "lib/Pod/Convenience.pm6",
     "Perl6::Type" : "lib/Perl6/Type.pm6"
   },
-  "test-depends" : [ ],
   "license" : "Artistic-2.0",
-  "tags" : [ ],
+  "tags" : [
+    "perl6",
+    "pod6",
+    "documentation",
+    "reference"
+  ],
   "version" : "1.001002",
   "meta6" : "0",
   "description" : "Perl 6 documentation (tools and docs)",
@@ -12152,7 +12156,7 @@
     "Test"
   ],
   "license" : "Artistic-2.0",
-  "version" : "1.001002",
+  "version" : "1.001003",
   "authors" : [
     "Zoffix Znet"
   ],
