@@ -7739,6 +7739,32 @@
 }
 ,
 {
+  "name" : "Bailador::Plugin::NamedQueries",
+  "source-url" : "http://www.cpan.org/authors/id/M/MZ/MZIESCHA/Perl6/Bailador-Plugin-NamedQueries-0.001000.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:MZIESCHA",
+  "depends" : [
+    "Bailador",
+    "DBIx::NamedQueries"
+  ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Bailador::Plugin::NamedQueries" : "lib/Bailador/Plugin/NamedQueries.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.001000",
+  "description" : "a predefined sql framework for Perl6",
+  "authors" : [
+    "Mario Zieschang"
+  ]
+}
+,
+{
   "name" : "DBIx::NamedQueries",
   "support" : {
     "source" : "git://github.com/mziescha/perl6-DBIx-NamedQueries.git",
