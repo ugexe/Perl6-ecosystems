@@ -1034,6 +1034,30 @@
 }
 ,
 {
+  "name" : "List::MoreUtils",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-MoreUtils-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "List::MoreUtils" : "lib/List/MoreUtils.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Port of Perl 5's List::MoreUtils 0.428",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "List::Util",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-Util-0.0.3.tar.gz",
   "perl" : "6.c",
