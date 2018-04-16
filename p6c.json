@@ -11214,7 +11214,7 @@
     "TXN" : "lib/TXN.pm6"
   },
   "license" : "Unlicense",
-  "version" : "0.0.7",
+  "version" : "0.1.0",
   "description" : "Double-entry accounting ledger packager"
 }
 ,
@@ -14628,15 +14628,15 @@
     "Digest::xxHash"
   ],
   "provides" : {
-    "TXN::Parser::AST" : "lib/TXN/Parser/AST.pm6",
     "TXN::Parser" : "lib/TXN/Parser.pm6",
     "TXN::Parser::Actions" : "lib/TXN/Parser/Actions.pm6",
     "X::TXN::Parser" : "lib/X/TXN/Parser.pm6",
     "TXN::Parser::Types" : "lib/TXN/Parser/Types.pm6",
+    "TXN::Parser::ParseTree" : "lib/TXN/Parser/ParseTree.pm6",
     "TXN::Parser::Grammar" : "lib/TXN/Parser/Grammar.pm6"
   },
   "license" : "Unlicense",
-  "version" : "*",
+  "version" : "0.1.0",
   "description" : "Double-entry accounting ledger parser"
 }
 ,
@@ -16136,7 +16136,7 @@
     "TXN::Remarshal" : "lib/TXN/Remarshal.pm6"
   },
   "license" : "Unlicense",
-  "version" : "*",
+  "version" : "0.1.0",
   "description" : "Double-entry accounting ledger file format converter"
 }
 ,
