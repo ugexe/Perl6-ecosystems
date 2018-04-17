@@ -15573,7 +15573,6 @@
   "source-type" : "git",
   "author" : "Wenzel P. P. Peppmeyer",
   "depends" : [
-    "IO::Socket::SSL",
     "LWP::Simple"
   ],
   "test-depends" : [
@@ -15584,7 +15583,7 @@
     "Pod::To::BigPage" : "lib/Pod/To/BigPage.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.2.1",
+  "version" : "0.2.2",
   "description" : "Render many pod6-files into one (big) html-file."
 }
 ,
