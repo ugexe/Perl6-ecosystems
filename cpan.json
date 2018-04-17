@@ -599,6 +599,30 @@
 }
 ,
 {
+  "name" : "Lingua::Stem::Es",
+  "source-url" : "http://www.cpan.org/authors/id/C/CH/CHSANCH/Perl6/Lingua-Stem-Es-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "auth" : "cpan:CHSANCH",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "nlp",
+    "text"
+  ],
+  "provides" : {
+    "Lingua::Stem::Es" : "lib/Lingua/Stem/Es.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "meta-version" : 0,
+  "description" : "Porter's stemming algorithm for Spanish",
+  "authors" : "Christian S\u00e1nchez"
+}
+,
+{
   "name" : "Lingua::Stopwords",
   "source-url" : "http://www.cpan.org/authors/id/C/CH/CHSANCH/Perl6/Lingua-Stopwords-0.0.1.tar.gz",
   "perl" : "6.c",
