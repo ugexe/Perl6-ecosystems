@@ -21619,4 +21619,25 @@
     "Fernando Correa de Oliveira"
   ]
 }
+,
+{
+  "name" : "Slang::AltTernary",
+  "source-url" : "https://github.com/mryan/perl6-Slang-AltTernary.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Slang::AltTernary" : "lib/Slang/AltTernary.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "Alternative Ternary Experssion",
+  "authors" : [
+    "Martin Ryan"
+  ]
+}
 ]
