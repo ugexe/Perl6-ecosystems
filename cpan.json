@@ -1156,6 +1156,32 @@
 }
 ,
 {
+  "name" : "List::SomeUtils",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-SomeUtils-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "List::MoreUtils"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "List::SomeUtils" : "lib/List/SomeUtils.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Port of Perl 5's List::SomeUtils 0.56",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "List::Util",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-Util-0.0.3.tar.gz",
   "perl" : "6.c",
