@@ -3083,6 +3083,59 @@
 }
 ,
 {
+  "name" : "Email::Simple",
+  "source-url" : "git://github.com/retupmoca/p6-Email-Simple.git",
+  "perl" : "6.*",
+  "author" : "github:retupmoca",
+  "depends" : [
+    "DateTime::Format"
+  ],
+  "provides" : {
+    "Email::Simple::Header" : "lib/Email/Simple/Header.pm6",
+    "Email::Simple" : "lib/Email/Simple.pm6"
+  },
+  "license" : "CC0-1.0",
+  "version" : "2.1.0",
+  "description" : "Simple email parsing module"
+}
+,
+{
+  "name" : "Email::MIME",
+  "source-url" : "git://github.com/retupmoca/p6-Email-MIME.git",
+  "perl" : "6.*",
+  "author" : "github:retupmoca",
+  "depends" : [
+    "Email::Simple",
+    "MIME::QuotedPrint",
+    "MIME::Base64"
+  ],
+  "provides" : {
+    "Email::MIME" : "lib/Email/MIME.pm6",
+    "Email::MIME::Exceptions" : "lib/Email/MIME/Exceptions.pm6",
+    "Email::MIME::Header" : "lib/Email/MIME/Header.pm6",
+    "Email::MIME::Encoder::Base64" : "lib/Email/MIME/Encoder/Base64.pm6",
+    "Email::MIME::ParseContentType" : "lib/Email/MIME/ParseContentType.pm6"
+  },
+  "license" : "CC0-1.0",
+  "version" : "2.0.0",
+  "description" : "Simple MIME email parsing module"
+}
+,
+{
+  "name" : "MIME::QuotedPrint",
+  "source-url" : "git://github.com/retupmoca/p6-MIME-QuotedPrint.git",
+  "perl" : "6.*",
+  "author" : "github:retupmoca",
+  "depends" : [ ],
+  "provides" : {
+    "MIME::QuotedPrint" : "lib/MIME/QuotedPrint.pm6"
+  },
+  "license" : "CC0-1.0",
+  "version" : "1.0.0",
+  "description" : "quoted-printable mime encode/decode"
+}
+,
+{
   "name" : "Compress::Zlib::Raw",
   "source-url" : "git://github.com/retupmoca/P6-Compress-Zlib-Raw.git",
   "perl" : "6.c",
@@ -3547,6 +3600,26 @@
   },
   "version" : "1.0.0",
   "description" : "Web Application Routing Framework"
+}
+,
+{
+  "name" : "JSON::JWT",
+  "source-url" : "git://github.com/retupmoca/P6-JSON-JWT.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "author" : "github:retupmoca",
+  "depends" : [
+    "JSON::Fast",
+    "MIME::Base64",
+    "OpenSSL",
+    "Digest::HMAC"
+  ],
+  "provides" : {
+    "JSON::JWT" : "lib/JSON/JWT.pm6"
+  },
+  "license" : "MIT",
+  "version" : "1.0",
+  "description" : "JWT Signing and Verifying using openssl"
 }
 ,
 {
@@ -20826,22 +20899,6 @@
     "Zoffix Znet"
   ],
   "description" : "Use http://fpaste.scsys.co.uk/ pastebin from Perl 6"
-}
-,
-{
-  "name" : "Algorithm::BitMap",
-  "source-url" : "git://github.com/W4anD0eR96/perl6-Algorithm-BitMap.git",
-  "perl" : "6.c",
-  "depends" : [ ],
-  "provides" : {
-    "Algorithm::BitMap" : "lib/Algorithm/BitMap.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.2",
-  "authors" : [
-    "Alex Chen"
-  ],
-  "description" : "Efficient way to handle Boolean vector"
 }
 ,
 {
