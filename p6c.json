@@ -3083,59 +3083,6 @@
 }
 ,
 {
-  "name" : "Email::Simple",
-  "source-url" : "git://github.com/retupmoca/p6-Email-Simple.git",
-  "perl" : "6.*",
-  "author" : "github:retupmoca",
-  "depends" : [
-    "DateTime::Format"
-  ],
-  "provides" : {
-    "Email::Simple::Header" : "lib/Email/Simple/Header.pm6",
-    "Email::Simple" : "lib/Email/Simple.pm6"
-  },
-  "license" : "CC0-1.0",
-  "version" : "2.0.0",
-  "description" : "Simple email parsing module"
-}
-,
-{
-  "name" : "Email::MIME",
-  "source-url" : "git://github.com/retupmoca/p6-Email-MIME.git",
-  "perl" : "6.*",
-  "author" : "github:retupmoca",
-  "depends" : [
-    "Email::Simple",
-    "MIME::QuotedPrint",
-    "MIME::Base64"
-  ],
-  "provides" : {
-    "Email::MIME" : "lib/Email/MIME.pm6",
-    "Email::MIME::Exceptions" : "lib/Email/MIME/Exceptions.pm6",
-    "Email::MIME::Header" : "lib/Email/MIME/Header.pm6",
-    "Email::MIME::Encoder::Base64" : "lib/Email/MIME/Encoder/Base64.pm6",
-    "Email::MIME::ParseContentType" : "lib/Email/MIME/ParseContentType.pm6"
-  },
-  "license" : "CC0-1.0",
-  "version" : "2.0.0",
-  "description" : "Simple MIME email parsing module"
-}
-,
-{
-  "name" : "MIME::QuotedPrint",
-  "source-url" : "git://github.com/retupmoca/p6-MIME-QuotedPrint.git",
-  "perl" : "6.*",
-  "author" : "github:retupmoca",
-  "depends" : [ ],
-  "provides" : {
-    "MIME::QuotedPrint" : "lib/MIME/QuotedPrint.pm6"
-  },
-  "license" : "CC0-1.0",
-  "version" : "1.0.0",
-  "description" : "quoted-printable mime encode/decode"
-}
-,
-{
   "name" : "Compress::Zlib::Raw",
   "source-url" : "git://github.com/retupmoca/P6-Compress-Zlib-Raw.git",
   "perl" : "6.c",
@@ -3258,7 +3205,7 @@
     "Net::SMTP::Simple" : "lib/Net/SMTP/Simple.pm6",
     "Net::SMTP" : "lib/Net/SMTP.pm6"
   },
-  "version" : "1.1.0",
+  "version" : "1.2.0",
   "description" : "Simple SMTP Client"
 }
 ,
@@ -12092,6 +12039,7 @@
     "Zef::Service::Shell::Test" : "lib/Zef/Service/Shell/Test.pm6",
     "Zef::Service::Shell::Build" : "lib/Zef/Service/Shell/Build.pm6",
     "Zef::Utils::URI" : "lib/Zef/Utils/URI.pm6",
+    "Zef::Utils::SystemQuery" : "lib/Zef/Utils/SystemQuery.pm6",
     "Zef::Service::Shell::PowerShell::download" : "lib/Zef/Service/Shell/PowerShell/download.pm6",
     "Zef::Service::Shell::PowerShell" : "lib/Zef/Service/Shell/PowerShell.pm6",
     "Zef::Service::Shell::git" : "lib/Zef/Service/Shell/git.pm6",
@@ -18431,6 +18379,28 @@
   "supersedes" : { },
   "meta6" : "0",
   "description" : "Install Rakudo as system package"
+}
+,
+{
+  "name" : "Native::Packing",
+  "source-url" : "git://github.com/p6-pdf/Native-Packing-p6.git",
+  "perl" : "6.c",
+  "auth" : "github:p6-pdf",
+  "depends" : [ ],
+  "provides" : {
+    "Native::Packing" : "lib/Native/Packing.pm"
+  },
+  "tags" : [
+    "binary",
+    "endian",
+    "native",
+    "struct",
+    "pack",
+    "unpack"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "Endian safe Binary Struct packing and unpacking"
 }
 ,
 {
