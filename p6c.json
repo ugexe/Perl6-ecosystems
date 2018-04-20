@@ -3603,26 +3603,6 @@
 }
 ,
 {
-  "name" : "JSON::JWT",
-  "source-url" : "git://github.com/retupmoca/P6-JSON-JWT.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "author" : "github:retupmoca",
-  "depends" : [
-    "JSON::Fast",
-    "MIME::Base64",
-    "OpenSSL",
-    "Digest::HMAC"
-  ],
-  "provides" : {
-    "JSON::JWT" : "lib/JSON/JWT.pm6"
-  },
-  "license" : "MIT",
-  "version" : "1.0",
-  "description" : "JWT Signing and Verifying using openssl"
-}
-,
-{
   "name" : "Test::Junkie",
   "source-url" : "git://github.com/colomon/Test-Junkie.git",
   "depends" : [ ],
@@ -18454,28 +18434,6 @@
 }
 ,
 {
-  "name" : "Native::Packing",
-  "source-url" : "git://github.com/p6-pdf/Native-Packing-p6.git",
-  "perl" : "6.c",
-  "auth" : "github:p6-pdf",
-  "depends" : [ ],
-  "provides" : {
-    "Native::Packing" : "lib/Native/Packing.pm"
-  },
-  "tags" : [
-    "binary",
-    "endian",
-    "native",
-    "struct",
-    "pack",
-    "unpack"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "0.0.3",
-  "description" : "Endian safe Binary Struct packing and unpacking"
-}
-,
-{
   "name" : "Log::Any",
   "source-url" : "git://github.com/jsimonet/log-any.git",
   "perl" : "6.c",
@@ -21451,7 +21409,7 @@
   },
   "tags" : [ ],
   "version" : "1.0.0",
-  "meta-version" : 1,
+  "meta-version" : 0,
   "authors" : "Altai-man <altay-man@mail.ru>",
   "description" : "Generates Java code from AST"
 }
