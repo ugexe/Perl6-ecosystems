@@ -5334,6 +5334,18 @@
 }
 ,
 {
+  "name" : "IUP",
+  "source-url" : "git://github.com/mrhdias/perl6-IUP.git",
+  "source-type" : "git",
+  "author" : "Henrique Dias",
+  "depends" : [
+    "NativeCall"
+  ],
+  "version" : "0.0.1",
+  "description" : "Perl 6 interface to the IUP toolkit for building GUI's"
+}
+,
+{
   "name" : "v5",
   "source-url" : "git://github.com/rakudo-p5/v5.git",
   "perl" : "6.*",
@@ -7836,6 +7848,37 @@
 }
 ,
 {
+  "name" : "Perl6::Parser",
+  "source-url" : "https://github.com/drforr/perl6-Perl6-Parser.git",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "https://github.com/drforr/perl6-Perl6-Parser"
+  },
+  "build-depends" : [ ],
+  "auth" : "github:drforr",
+  "depends" : [ ],
+  "license" : "Artistic-2.0",
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "Perl6::Parser::Factory" : "lib/Perl6/Parser/Factory.pm6",
+    "Perl6::Parser" : "lib/Perl6/Parser.pm6"
+  },
+  "tags" : [
+    "parse",
+    "parser",
+    "parsing"
+  ],
+  "version" : "0.0.5",
+  "description" : "Parse Perl 6 from within Perl 6",
+  "authors" : [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "meta6" : "0"
+}
+,
+{
   "name" : "Readline",
   "source-url" : "https://github.com/drforr/perl6-readline.git",
   "perl" : "6.c",
@@ -8285,6 +8328,36 @@
   "meta-version" : "0",
   "version" : "0.0.11",
   "description" : "Binding for libsndfile - read/write multiple audio formats",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "AccessorFacade",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/AccessorFacade.git"
+  },
+  "source-url" : "git://github.com/jonathanstowe/AccessorFacade.git",
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "provides" : {
+    "AccessorFacade" : "lib/AccessorFacade.pm"
+  },
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "devel",
+    "utils",
+    "facade"
+  ],
+  "version" : "0.0.7",
+  "meta6" : "0",
+  "description" : "Provides a method trait to turn indivdual get/set subroutines into a single attribute",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
