@@ -8326,7 +8326,7 @@
   },
   "license" : "MIT",
   "version" : "0.0.3",
-  "meta-version" : 1,
+  "meta-version" : 0,
   "description" : "Simple spinners and progress bars for Perl 6.",
   "authors" : "Ryan Goodner (ryn1x)"
 }
@@ -8347,7 +8347,7 @@
   },
   "license" : "MIT",
   "version" : "0.0.4",
-  "meta-version" : 1,
+  "meta-version" : 0,
   "description" : "Simple spinners and progress bars for Perl 6.",
   "authors" : "Ryan Goodner (ryn1x)"
 }
@@ -8368,7 +8368,7 @@
   },
   "license" : "MIT",
   "version" : "0.0.5",
-  "meta-version" : 1,
+  "meta-version" : 0,
   "description" : "Simple spinners and progress bars for Perl 6.",
   "authors" : "Ryan Goodner (ryn1x)"
 }
@@ -12074,23 +12074,13 @@ null
   "name" : "SemVer",
   "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/SemVer-0.1.0.tar.gz",
   "perl" : "6.c",
-  "depends" : {
-    "runtime" : {
-      "test" : {
-        "requires" : [
-          "Test::META"
-        ]
-      },
-      "recommends" : [ ],
-      "requires" : [ ]
-    }
-  },
+  "depends" : [ ],
   "tags" : [ ],
   "provides" : {
     "SemVer" : "lib/SemVer.pm6"
   },
   "version" : "0.1.0",
-  "meta-version" : 1,
+  "meta-version" : 0,
   "description" : "Class representing a semantic version",
   "authors" : "Patrick Spek <p.spek@tyil.email>"
 }
@@ -12110,7 +12100,7 @@ null
     "SemVer" : "lib/SemVer.pm6"
   },
   "version" : "0.1.1",
-  "meta-version" : 1,
+  "meta-version" : 0,
   "description" : "Class representing a semantic version",
   "authors" : "Patrick Spek <p.spek@tyil.email>"
 }
@@ -12123,7 +12113,7 @@ null
     "SemVer" : "lib/SemVer.pm6"
   },
   "version" : "0.1.3",
-  "meta-version" : 1,
+  "meta-version" : 0,
   "description" : "Class representing a semantic version",
   "authors" : "Patrick Spek <p.spek@tyil.email>"
 }
@@ -12136,7 +12126,7 @@ null
     "SemVer" : "lib/SemVer.pm6"
   },
   "version" : "0.2.0",
-  "meta-version" : 1,
+  "meta-version" : 0,
   "description" : "Class representing a semantic version",
   "authors" : "Patrick Spek <p.spek@tyil.email>"
 }
