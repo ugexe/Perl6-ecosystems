@@ -7986,6 +7986,28 @@
 }
 ,
 {
+  "name" : "Distribution::Builder::MakeFromJSON",
+  "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Distribution-Builder-MakeFromJSON-0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "System::Query"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Distribution::Builder::MakeFromJSON" : "lib/Distribution/Builder/MakeFromJSON.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.4",
+  "description" : "Makefile based distribution builder",
+  "authors" : [
+    "Stefan Seifert"
+  ]
+}
+,
+{
   "name" : "Inline::Perl5",
   "support" : {
     "irc" : "irc://irc.freenode.org/#perl6"
