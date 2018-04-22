@@ -21665,13 +21665,14 @@
   "perl" : "6.c",
   "depends" : [ ],
   "provides" : {
+    "Games::TauStation::DateTime" : "lib/Games/TauStation/DateTime.pm6",
     "GCT" : "lib/Games/TauStation/DateTime.pm6"
   },
   "test-depends" : [
     "Test"
   ],
   "license" : "Artistic-2.0",
-  "version" : "1.001003",
+  "version" : "1.001005",
   "authors" : [
     "Zoffix Znet"
   ],
