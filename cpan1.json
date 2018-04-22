@@ -60,6 +60,41 @@
 }
 ,
 {
+  "name" : "App::FindSource",
+  "support" : {
+    "source" : "https://github.com/araraloren/perl6-app-findsource.git",
+    "bugtracker" : "https://github.com.araraloren/perl6-app-findsource/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/App-FindSource-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "auth" : "github:araraloren",
+  "depends" : [
+    "Getopt::Advance",
+    "JSON::Fast"
+  ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "find",
+    "c",
+    "cpp",
+    "make"
+  ],
+  "provides" : {
+    "Config::Searcher" : "lib/Config/Searcher.pm6",
+    "Config::Loader" : "lib/Config/Loader.pm6"
+  },
+  "license" : "GPL",
+  "version" : "0.0.3",
+  "description" : "Find your source file easily.",
+  "authors" : "Loren"
+}
+,
+{
   "name" : "Terminal::Table",
   "support" : {
     "source" : "https://github.com/araraloren/perl6-terminal-table.git",
