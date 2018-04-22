@@ -19144,12 +19144,12 @@
 }
 ,
 {
-  "name" : "Die",
-  "source-url" : "git://github.com/zoffixznet/perl6-Die.git",
+  "name" : "Games::TauStation::DateTime",
+  "source-url" : "https://github.com/zoffixznet/perl6-Games-TauStation-DateTime",
   "perl" : "6.c",
   "depends" : [ ],
   "provides" : {
-    "Die" : "lib/Die.pm6"
+    "GCT" : "lib/Games/TauStation/DateTime.pm6"
   },
   "test-depends" : [
     "Test",
@@ -19160,7 +19160,7 @@
   "authors" : [
     "Zoffix Znet"
   ],
-  "description" : "Perl 5 like die routine for note + exit"
+  "description" : "Convert Coordinated Central Time to Old Earth Time"
 }
 ,
 {
