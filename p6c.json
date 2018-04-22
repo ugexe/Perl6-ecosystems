@@ -7007,19 +7007,40 @@
   "name" : "Inline::Python",
   "source-url" : "git://github.com/niner/Inline-Python.git",
   "perl" : "6.c",
+  "build-depends" : [
+    "Distribution::Builder::MakeFromJSON"
+  ],
   "resources" : [
     "libraries/pyhelper"
   ],
-  "author" : "github:niner",
-  "depends" : [
-    "LibraryMake",
-    "Panda::Common"
-  ],
+  "builder" : "MakeFromJSON",
+  "auth" : "cpan:NINE",
+  "depends" : [ ],
+  "build" : {
+    "makefile-variables" : {
+      "pyhelper" : {
+        "resource" : "libraries/pyhelper"
+      },
+      "ldflags" : {
+        "run" : [
+          "python2-config",
+          "--ldflags"
+        ]
+      },
+      "cflags" : {
+        "run" : [
+          "python2-config",
+          "--cflags"
+        ]
+      }
+    }
+  },
   "provides" : {
     "Inline::Python" : "lib/Inline/Python.pm6"
   },
   "license" : "Artistic-2.0",
   "version" : "0.3",
+  "meta-version" : 0,
   "description" : "Use Python code and libraries in a Perl 6 program"
 }
 ,
@@ -19075,7 +19096,7 @@
     "Distribution::Builder::MakeFromJSON" : "lib/Distribution/Builder/MakeFromJSON.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.3",
+  "version" : "0.4",
   "description" : "Makefile based distribution builder",
   "authors" : [
     "Stefan Seifert"
