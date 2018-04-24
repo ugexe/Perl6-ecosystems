@@ -20242,7 +20242,9 @@
     "Compress::Zlib::Raw"
   ],
   "test-depends" : [ ],
-  "tags" : [ ],
+  "tags" : [
+    "pdf"
+  ],
   "provides" : {
     "PDF::Content::XObject" : "lib/PDF/Content/XObject.pm",
     "PDF::Content::PageNode" : "lib/PDF/Content/PageNode.pm",
