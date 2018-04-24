@@ -10515,6 +10515,36 @@
 }
 ,
 {
+  "name" : "Algorithm::LibSVM",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LibSVM-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/svm"
+  ],
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::LibSVM::Node" : "lib/Algorithm/LibSVM/Node.pm6",
+    "Algorithm::LibSVM::Problem" : "lib/Algorithm/LibSVM/Problem.pm6",
+    "Algorithm::LibSVM::Parameter" : "lib/Algorithm/LibSVM/Parameter.pm6",
+    "Algorithm::LibSVM::Actions" : "lib/Algorithm/LibSVM/Actions.pm6",
+    "Algorithm::LibSVM::Model" : "lib/Algorithm/LibSVM/Model.pm6",
+    "Algorithm::LibSVM::Grammar" : "lib/Algorithm/LibSVM/Grammar.pm6",
+    "Algorithm::LibSVM" : "lib/Algorithm/LibSVM.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.3",
+  "description" : "A Perl 6 bindings for libsvm",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
   "name" : "Algorithm::Manacher",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-Manacher-0.0.1.tar.gz",
   "perl" : "6.c",
