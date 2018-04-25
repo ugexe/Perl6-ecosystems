@@ -6226,6 +6226,36 @@
 }
 ,
 {
+  "name" : "OpenAPI::Schema::Validate",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/OpenAPI-Schema-Validate-1.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Cro::Core",
+    "JSON::Pointer",
+    "DateTime::Parse"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "openapi",
+    "oas",
+    "swagger",
+    "schema",
+    "validation"
+  ],
+  "provides" : {
+    "OpenAPI::Schema::Validate" : "lib/OpenAPI/Schema/Validate.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0",
+  "description" : "Validate a value or data structure against an OpenAPI schema.",
+  "authors" : [
+    "Jonathan Worthington <jonathan@edument.se>"
+  ]
+}
+,
+{
   "name" : "cro",
   "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-0.7.1.tar.gz",
   "perl" : "6.*",
