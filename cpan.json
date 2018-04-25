@@ -1470,6 +1470,30 @@
 }
 ,
 {
+  "name" : "List::Util",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-Util-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "List::Util" : "lib/List/Util.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
+  "description" : "Port of Perl 5's List::Util 1.49",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "List::UtilsBy",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-UtilsBy-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -1487,6 +1511,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.1",
+  "description" : "Port of Perl 5's List::UtilsBy 0.11",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "List::UtilsBy",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-UtilsBy-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "List::UtilsBy" : "lib/List/UtilsBy.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
   "description" : "Port of Perl 5's List::UtilsBy 0.11",
   "authors" : [
     "Elizabeth Mattijsen"
@@ -3575,6 +3623,30 @@
 }
 ,
 {
+  "name" : "Scalar::Util",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Scalar-Util-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Scalar::Util" : "lib/Scalar/Util.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "Port of Perl 5's Scalar::Util 1.49",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Sub::Name",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sub-Name-0.0.4.tar.gz",
   "perl" : "6.c",
@@ -3621,6 +3693,30 @@
 }
 ,
 {
+  "name" : "Sub::Name",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sub-Name-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Sub::Name" : "lib/Sub/Name.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
+  "description" : "Port of Perl 5's Sub::Name",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Sub::Util",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sub-Util-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -3660,6 +3756,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.2",
+  "description" : "Port of Perl 5's Sub::Util 1.49",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "Sub::Util",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sub-Util-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Sub::Util" : "lib/Sub/Util.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
   "description" : "Port of Perl 5's Sub::Util 1.49",
   "authors" : [
     "Elizabeth Mattijsen"
@@ -3729,6 +3849,29 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.4",
+  "description" : "Implement Perl 5's Sys::Hostname core module",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "Sys::Hostname",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sys-Hostname-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Sys::Hostname" : "lib/Sys/Hostname.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
   "description" : "Implement Perl 5's Sys::Hostname core module",
   "authors" : [
     "Elizabeth Mattijsen"
