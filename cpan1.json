@@ -4264,6 +4264,38 @@
 }
 ,
 {
+  "name" : "Hash::MultiValue",
+  "support" : {
+    "source" : "git://github.com/zostay/p6-Hash-MultiValue.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Hash-MultiValue-0.5.tar.gz",
+  "perl" : "6.c",
+  "build-depends" : [ ],
+  "author" : "Andrew Sterling Hanenkamp",
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [
+    "hash",
+    "data structure",
+    "array"
+  ],
+  "provides" : {
+    "Hash::MultiValue" : "lib/Hash/MultiValue.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.5",
+  "meta6" : "0",
+  "description" : "Store multiple values per key, but act like a regular hash",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkap@cpan.org>"
+  ]
+}
+,
+{
   "name" : "IO::Glob",
   "perl" : "6",
   "auth" : "github:zostay",
