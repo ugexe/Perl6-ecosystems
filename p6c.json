@@ -3831,13 +3831,12 @@
   "build-depends" : [
     "File::Find"
   ],
-  "auth" : null,
   "depends" : [
-    "LWP::Simple:ver<0.098+>",
+    "LWP::Simple",
     "URI",
     "File::Temp",
     "JSON::Fast",
-    "Pod::To::BigPage:ver<0.3.0+>",
+    "Pod::To::BigPage",
     "Pod::To::HTML",
     "OO::Monitors",
     "File::Find",
