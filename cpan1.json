@@ -4168,6 +4168,55 @@
 }
 ,
 {
+  "name" : "ArrayHash",
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ArrayHash-0.3.tar.gz",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "ArrayHash" : "lib/ArrayHash.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3",
+  "description" : "An array in a hash in an array... like a turducken",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "DOM::Tiny",
+  "support" : {
+    "source" : "git://github.com/zostay/p6-DOM-Tiny.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/DOM-Tiny-0.4.0.tar.gz",
+  "perl" : "6.c",
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "DOM::Tiny::CSS" : "lib/DOM/Tiny/CSS.pm6",
+    "DOM::Tiny" : "lib/DOM/Tiny.pm6",
+    "DOM::Tiny::HTML" : "lib/DOM/Tiny/HTML.pm6",
+    "DOM::Tiny::Entities" : "lib/DOM/Tiny/Entities.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.4.0",
+  "meta6" : "0",
+  "description" : "Very small, self-sufficient DOM parser manipulator",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
   "name" : "HTTP::Request::FormData",
   "support" : {
     "source" : "git://github.com/zostay/HTTP-Request-FormData.git"
