@@ -6192,6 +6192,40 @@
 }
 ,
 {
+  "name" : "OpenAPI::Model",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/OpenAPI-Model-1.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "JSON::Pointer",
+    "JSON::Fast",
+    "YAMLish"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "openapi",
+    "oas",
+    "swagger",
+    "parsing",
+    "generation"
+  ],
+  "provides" : {
+    "OpenAPI::Model::PatternedObject" : "lib/OpenAPI/Model/PatternedObject.pm6",
+    "OpenAPI::Model::OpenAPI" : "lib/OpenAPI/Model/OpenAPI.pm6",
+    "OpenAPI::Model::Reference" : "lib/OpenAPI/Model/Reference.pm6",
+    "OpenAPI::Model" : "lib/OpenAPI/Model.pm6",
+    "OpenAPI::Model::Element" : "lib/OpenAPI/Model/Element.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0",
+  "description" : "Work with OpenAPI documents in terms of a set of Perl 6 objects.",
+  "authors" : [
+    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>"
+  ]
+}
+,
+{
   "name" : "cro",
   "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-0.7.1.tar.gz",
   "perl" : "6.*",
