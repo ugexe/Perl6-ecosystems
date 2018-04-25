@@ -1093,6 +1093,30 @@
 }
 ,
 {
+  "name" : "Hash::Util",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Util-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Hash::Util" : "lib/Hash/Util.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Port of Perl 5's Hash::Util 0.22",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "List::AllUtils",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-AllUtils-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -5401,6 +5425,26 @@
 }
 ,
 {
+  "name" : "Proc::Editor",
+  "source-url" : "http://www.cpan.org/authors/id/J/JK/JKRAMER/Perl6/Proc-Editor-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Proc::Editor" : "lib/Proc/Editor.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Start a text editor",
+  "authors" : [
+    "Jonas Kramer"
+  ]
+}
+,
+{
   "name" : "Algorithm::Evolutionary::Simple",
   "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.3.1.tar.gz",
   "perl" : "6.*",
@@ -8200,6 +8244,32 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.001000",
+  "description" : "a predefined sql framework for Perl6",
+  "authors" : [
+    "Mario Zieschang"
+  ]
+}
+,
+{
+  "name" : "Bailador::Plugin::NamedQueries",
+  "source-url" : "http://www.cpan.org/authors/id/M/MZ/MZIESCHA/Perl6/Bailador-Plugin-NamedQueries-0.1001.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:MZIESCHA",
+  "depends" : [
+    "Bailador",
+    "DBIx::NamedQueries"
+  ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Bailador::Plugin::NamedQueries" : "lib/Bailador/Plugin/NamedQueries.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1001",
   "description" : "a predefined sql framework for Perl6",
   "authors" : [
     "Mario Zieschang"
