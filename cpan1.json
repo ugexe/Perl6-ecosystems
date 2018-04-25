@@ -1921,6 +1921,57 @@
 }
 ,
 {
+  "name" : "P5built-ins",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5built-ins-0.0.8.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "P5caller",
+    "P5chomp",
+    "P5chop",
+    "P5chr",
+    "P5each",
+    "P5fc",
+    "P5hex",
+    "P5index",
+    "P5lc",
+    "P5lcfirst",
+    "P5length",
+    "P5oct",
+    "P5ord",
+    "P5pack",
+    "P5quotemeta",
+    "P5ref",
+    "P5reverse",
+    "P5rindex",
+    "P5sleep",
+    "P5study",
+    "P5substr",
+    "P5tie",
+    "P5times",
+    "P5uc",
+    "P5ucfirst",
+    "P5-X"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5built-ins" : "lib/P5built-ins.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.8",
+  "description" : "Implement Perl 5's built-in functions",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5caller",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5caller-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -1984,6 +2035,30 @@
   "license" : "Artistic-2.0",
   "version" : "0.0.3",
   "description" : "Implement Perl 5's caller() built-in",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5chdir",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5chdir-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5chdir" : "lib/P5chdir.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Implement Perl 5's chdir() built-in",
   "authors" : [
     "Elizabeth Mattijsen"
   ]
