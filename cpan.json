@@ -3879,6 +3879,30 @@
 }
 ,
 {
+  "name" : "Sys::Hostname",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sys-Hostname-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Sys::Hostname" : "lib/Sys/Hostname.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
+  "description" : "Implement Perl 5's Sys::Hostname core module",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Tie::Array",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-Array-0.0.2.tar.gz",
   "perl" : "6.c",
@@ -3922,6 +3946,32 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.3",
+  "description" : "Implement Perl 5's Tie::Array core module",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "Tie::Array",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-Array-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [
+    "P5tie"
+  ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Tie::Array" : "lib/Tie/Array.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
   "description" : "Implement Perl 5's Tie::Array core module",
   "authors" : [
     "Elizabeth Mattijsen"
@@ -3979,6 +4029,32 @@
 }
 ,
 {
+  "name" : "Tie::Hash",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-Hash-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [
+    "P5tie"
+  ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Tie::Hash" : "lib/Tie/Hash.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "Implement Perl 5's Tie::Hash core module",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Tie::StdArray",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-StdArray-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -4029,6 +4105,32 @@
 }
 ,
 {
+  "name" : "Tie::StdArray",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-StdArray-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [
+    "P5tie"
+  ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Tie::StdArray" : "lib/Tie/StdArray.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "Implement Perl 5's Tie::StdArray core module",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Tie::StdHash",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-StdHash-0.0.2.tar.gz",
   "perl" : "6.c",
@@ -4072,6 +4174,32 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.3",
+  "description" : "Implement Perl 5's Tie::StdHash core module",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "Tie::StdHash",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-StdHash-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [
+    "P5tie"
+  ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Tie::StdHash" : "lib/Tie/StdHash.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
   "description" : "Implement Perl 5's Tie::StdHash core module",
   "authors" : [
     "Elizabeth Mattijsen"
