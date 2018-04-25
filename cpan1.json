@@ -4329,6 +4329,29 @@
 }
 ,
 {
+  "name" : "Template::Anti",
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Template-Anti-0.4.3.tar.gz",
+  "perl" : "6.c",
+  "depends" : [
+    "DOM::Tiny"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "Template::Anti::Library" : "lib/Template/Anti.pm6",
+    "Template::Anti" : "lib/Template/Anti.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.4.3",
+  "description" : "The anti-template templating tool.",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
   "name" : "IO::Glob",
   "perl" : "6",
   "auth" : "github:zostay",
