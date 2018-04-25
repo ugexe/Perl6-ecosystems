@@ -4297,6 +4297,39 @@
 ,
 {
   "name" : "IO::Glob",
+  "support" : {
+    "source" : "git://github.com/zostay/perl6-IO-Glob.git",
+    "bugtracker" : "https://github.com/zostay/perl6-IO-Glob/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/IO-Glob-0.4.tar.gz",
+  "perl" : "6",
+  "auth" : "github:zostay",
+  "depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "IO::Glob::Simple" : "lib/IO/Glob.pm6",
+    "IO::Glob::Globber" : "lib/IO/Glob.pm6",
+    "IO::Glob::Base" : "lib/IO/Glob.pm6",
+    "IO::Glob" : "lib/IO/Glob.pm6",
+    "IO::Glob::SQL" : "lib/IO/Glob.pm6",
+    "IO::Glob::BSD" : "lib/IO/Glob.pm6",
+    "IO::Glob::Globber::Term" : "lib/IO/Glob.pm6",
+    "IO::Glob::Globber::Match" : "lib/IO/Glob.pm6",
+    "IO::Glob::Globber::Expansion" : "lib/IO/Glob.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.4",
+  "description" : "Glob matching for paths & strings and listing files",
+  "authors" : [
+    "Andrew Sterling Hanenkamp <hanenkamp@cpan.org>",
+    "Peter Pentchev <roam@ringlet.net>"
+  ]
+}
+,
+{
+  "name" : "IO::Glob",
   "perl" : "6",
   "auth" : "github:zostay",
   "source" : {
