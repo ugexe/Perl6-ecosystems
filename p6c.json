@@ -15616,6 +15616,27 @@
 }
 ,
 {
+  "name" : "Getopt::Std",
+  "source-url" : "https://github.com/ppentchev/perl6-Getopt-Std.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::Deeply::Relaxed",
+    "Test::META"
+  ],
+  "provides" : {
+    "Getopt::Std" : "lib/Getopt/Std.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0.1",
+  "authors" : [
+    "Peter Pentchev"
+  ],
+  "description" : "Process single-character options with option clustering"
+}
+,
+{
   "name" : "Math::Arrow",
   "source-url" : "git://github.com/ajs/perl6-Math-Arrow",
   "perl" : "6.c",
