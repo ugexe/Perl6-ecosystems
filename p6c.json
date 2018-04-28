@@ -2208,7 +2208,7 @@
   "test-depends" : [
     "JSON::Tiny"
   ],
-  "version" : "0.100",
+  "version" : "0.101",
   "description" : "LWP::Simple quick & dirty implementation for Rakudo Perl 6"
 }
 ,
@@ -3818,7 +3818,6 @@
     "File::Find"
   ],
   "depends" : [
-    "IO::Socket::SSL",
     "LWP::Simple",
     "URI",
     "File::Temp",
