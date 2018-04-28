@@ -2760,25 +2760,6 @@
 }
 ,
 {
-  "name" : "Test::Builder",
-  "perl" : "6.*",
-  "authority" : "soh-cah-toa",
-  "source-url" : "git://github.com/perl6-community-modules/p6-test-builder.git",
-  "author" : "Kevin Polulak",
-  "source-type" : "git",
-  "depends" : [ ],
-  "provides" : {
-    "Test::Builder::Plan" : "lib/Test/Builder/Plan.pm",
-    "Test::Builder::Test" : "lib/Test/Builder/Test.pm",
-    "Test::Builder::Output" : "lib/Test/Builder/Output.pm",
-    "Test::Builder" : "lib/Test/Builder.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "Flexible framework for building TAP test libraries"
-}
-,
-{
   "name" : "YAML",
   "source-url" : "git://github.com/perl6-community-modules/yaml-pm6.git",
   "perl" : "6.*",
