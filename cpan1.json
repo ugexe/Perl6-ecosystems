@@ -3259,6 +3259,30 @@
 }
 ,
 {
+  "name" : "P5push",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5push-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5push" : "lib/P5push.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "Implement Perl 5's push() / pop() built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5quotemeta",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5quotemeta-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -3578,6 +3602,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.2",
+  "description" : "Implement Perl 5's shift() / unshift() built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5shift",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5shift-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5shift" : "lib/P5shift.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
   "description" : "Implement Perl 5's shift() / unshift() built-ins",
   "authors" : [
     "Elizabeth Mattijsen"
