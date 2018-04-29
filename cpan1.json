@@ -8889,6 +8889,34 @@
 }
 ,
 {
+  "name" : "HTTP::Tinyish",
+  "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/HTTP-Tinyish-0.1.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:SKAJI",
+  "depends" : [
+    "File::Temp"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "CPAN5"
+  ],
+  "provides" : {
+    "HTTP::Tinyish::Curl" : "lib/HTTP/Tinyish/Curl.pm6",
+    "HTTP::Tinyish::FileTempFactory" : "lib/HTTP/Tinyish/FileTempFactory.pm6",
+    "HTTP::Tinyish::Base" : "lib/HTTP/Tinyish/Base.pm6",
+    "HTTP::Tinyish" : "lib/HTTP/Tinyish.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.2",
+  "description" : "perl6 port of HTTP::Tinyish",
+  "authors" : [
+    "Shoichi Kaji"
+  ]
+}
+,
+{
   "name" : "Sparky::Plugin::Notify::Telegram",
   "support" : {
     "source" : "https://github.com/Spigell/sparky-plugin-notify-telegram.git",
