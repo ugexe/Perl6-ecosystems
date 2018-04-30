@@ -2760,6 +2760,29 @@
 }
 ,
 {
+  "name" : "Unix::errno",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Unix-errno-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UNIX"
+  ],
+  "provides" : {
+    "Unix::errno" : "lib/Unix/errno.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Provide transparent access to errno",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Lingua::Lipogram",
   "api" : 1,
   "support" : {
