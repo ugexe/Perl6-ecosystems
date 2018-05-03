@@ -1949,6 +1949,30 @@
 }
 ,
 {
+  "name" : "P5getgrnam",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5getgrnam-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5getgrnam" : "lib/P5getgrnam.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "Implement Perl 5's getgrnam() and associated built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5getnetbyname",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5getnetbyname-0.0.1.tar.gz",
   "perl" : "6.c",
