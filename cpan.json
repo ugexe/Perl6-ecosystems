@@ -1762,6 +1762,66 @@
 ,
 {
   "name" : "P5built-ins",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5built-ins-0.0.18.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "P5__FILE__",
+    "P5caller",
+    "P5chdir",
+    "P5chomp",
+    "P5chr",
+    "P5each",
+    "P5fc",
+    "P5fileno",
+    "P5getgrnam",
+    "P5getnetbyname",
+    "P5getprotobyname",
+    "P5getpwnam",
+    "P5getservbyname",
+    "P5hex",
+    "P5index",
+    "P5lc",
+    "P5lcfirst",
+    "P5length",
+    "P5localtime",
+    "P5opendir",
+    "P5pack",
+    "P5print",
+    "P5push",
+    "P5quotemeta",
+    "P5readlink",
+    "P5ref",
+    "P5reverse",
+    "P5seek",
+    "P5shift",
+    "P5sleep",
+    "P5study",
+    "P5substr",
+    "P5tie",
+    "P5times",
+    "P5-X"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5built-ins" : "lib/P5built-ins.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.18",
+  "description" : "Implement Perl 5's built-in functions",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5built-ins",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5built-ins-0.0.8.tar.gz",
   "perl" : "6.c",
   "resources" : [ ],
@@ -2660,6 +2720,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.1",
+  "description" : "Implement Perl 5's print() and associated built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5print",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5print-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5print" : "lib/P5print.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
   "description" : "Implement Perl 5's print() and associated built-ins",
   "authors" : [
     "Elizabeth Mattijsen"
