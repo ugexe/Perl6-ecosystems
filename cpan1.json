@@ -2065,6 +2065,32 @@
 }
 ,
 {
+  "name" : "P5chop",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5chop-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "P5chomp"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5chop" : "lib/P5chop.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "Implement Perl 5's chop() built-in [DEPRECATED]",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5chr",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5chr-0.0.4.tar.gz",
   "perl" : "6.c",
