@@ -17672,7 +17672,7 @@
   "depends" : [
     "META6",
     "HTTP::Client",
-    "Git::Config",
+    "Git::Config:auth<github:gfldex>",
     "JSON::Tiny",
     "Test::META",
     "Slippy::Semilist",
