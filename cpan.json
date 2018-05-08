@@ -9648,6 +9648,30 @@
 }
 ,
 {
+  "name" : "Algorithm::GooglePolylineEncoding",
+  "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Algorithm-GooglePolylineEncoding-1.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "simon.proctor@gmail.com",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "geo",
+    "google"
+  ],
+  "provides" : {
+    "Algorithm::GooglePolylineEncoding" : "lib/Algorithm/GooglePolylineEncoding.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0.1",
+  "description" : "Encode and Decode lat/lon polygons using Google Maps string encoding.",
+  "authors" : [
+    "Simon Proctor"
+  ]
+}
+,
+{
   "name" : "Game::Sudoku",
   "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Game-Sudoku-0.1.0.tar.gz",
   "perl" : "6.c",
