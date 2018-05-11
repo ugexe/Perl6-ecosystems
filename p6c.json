@@ -7562,6 +7562,24 @@
 }
 ,
 {
+  "name" : "NQP::Eval",
+  "source-url" : "git://github.com/cygx/p6-nqp-eval.git",
+  "support" : {
+    "source" : "https://github.com/cygx/p6-nqp-eval",
+    "bugtracker" : "https://github.com/cygx/p6-nqp-eval/issues"
+  },
+  "perl" : "6.*",
+  "author" : "cygx <cygx@cpan.org>",
+  "depends" : [ ],
+  "provides" : {
+    "NQP::Eval" : "lib/NQP/Eval.pm6"
+  },
+  "license" : "BSL-1.0",
+  "version" : "*",
+  "description" : "Enables EVAL :lang<nqp>"
+}
+,
+{
   "name" : "TinyCC",
   "support" : {
     "source" : "https://github.com/cygx/p6-tinycc",
