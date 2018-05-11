@@ -7562,24 +7562,6 @@
 }
 ,
 {
-  "name" : "NQP::Eval",
-  "source-url" : "git://github.com/cygx/p6-nqp-eval.git",
-  "support" : {
-    "source" : "https://github.com/cygx/p6-nqp-eval",
-    "bugtracker" : "https://github.com/cygx/p6-nqp-eval/issues"
-  },
-  "perl" : "6.*",
-  "author" : "cygx <cygx@cpan.org>",
-  "depends" : [ ],
-  "provides" : {
-    "NQP::Eval" : "lib/NQP/Eval.pm6"
-  },
-  "license" : "BSL-1.0",
-  "version" : "*",
-  "description" : "Enables EVAL :lang<nqp>"
-}
-,
-{
   "name" : "TinyCC",
   "support" : {
     "source" : "https://github.com/cygx/p6-tinycc",
@@ -16404,6 +16386,29 @@
     "Fernando Correa de Oliveira"
   ],
   "description" : "Simple Constraint Programming Problem Solver"
+}
+,
+{
+  "name" : "Unicode::PRECIS",
+  "source-url" : "git://github.com/MARTIMM/unicode-precis.git",
+  "perl" : "6.c",
+  "author" : "Marcel Timmerman",
+  "depends" : [ ],
+  "provides" : {
+    "Unicode::PRECIS" : "lib/Unicode/PRECIS.pm6",
+    "Unicode::PRECIS::Tables" : "lib/Unicode/PRECIS/Tables.pm6",
+    "Unicode::PRECIS::Identifier::UsernameCasePreserved" : "lib/Unicode/PRECIS/Identifier/UsernameCasePreserved.pm6",
+    "Unicode::PRECIS::Identifier" : "lib/Unicode/PRECIS/Identifier.pm6",
+    "Unicode::PRECIS::FreeForm::OpaqueString" : "lib/Unicode/PRECIS/FreeForm/OpaqueString.pm6",
+    "Unicode::PRECIS::Identifier::UsernameCaseMapped" : "lib/Unicode/PRECIS/Identifier/UsernameCaseMapped.pm6",
+    "Unicode::PRECIS::FreeForm" : "lib/Unicode/PRECIS/FreeForm.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "v0.5.1.1",
+  "description" : "Implements PRECIS framework, rfc7564 and others. Obsoletes stringprep and saslprep",
+  "authors" : [
+    "Marcel Timmerman"
+  ]
 }
 ,
 {
