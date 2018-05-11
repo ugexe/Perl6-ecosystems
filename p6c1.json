@@ -21705,4 +21705,34 @@
   ],
   "description" : ""
 }
+,
+{
+  "name" : "FanFou",
+  "source-url" : "https://github.com/ohmycloud/fanfou-p6.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Digest::HMAC",
+    "Digest",
+    "Digest::SHA",
+    "MIME::Base64",
+    "URI::Encode",
+    "URI",
+    "Cro::HTTP::Client"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Client"
+  ],
+  "provides" : {
+    "FanFou" : "lib/FanFou.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Oauth client for fanfou, written in Perl 6",
+  "authors" : [
+    "ohmycloud@gmail.com"
+  ]
+}
 ]
