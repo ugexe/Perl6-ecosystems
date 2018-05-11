@@ -16407,29 +16407,6 @@
 }
 ,
 {
-  "name" : "Unicode::PRECIS",
-  "source-url" : "git://github.com/MARTIMM/unicode-precis.git",
-  "perl" : "6.c",
-  "author" : "Marcel Timmerman",
-  "depends" : [ ],
-  "provides" : {
-    "Unicode::PRECIS" : "lib/Unicode/PRECIS.pm6",
-    "Unicode::PRECIS::Tables" : "lib/Unicode/PRECIS/Tables.pm6",
-    "Unicode::PRECIS::Identifier::UsernameCasePreserved" : "lib/Unicode/PRECIS/Identifier/UsernameCasePreserved.pm6",
-    "Unicode::PRECIS::Identifier" : "lib/Unicode/PRECIS/Identifier.pm6",
-    "Unicode::PRECIS::FreeForm::OpaqueString" : "lib/Unicode/PRECIS/FreeForm/OpaqueString.pm6",
-    "Unicode::PRECIS::Identifier::UsernameCaseMapped" : "lib/Unicode/PRECIS/Identifier/UsernameCaseMapped.pm6",
-    "Unicode::PRECIS::FreeForm" : "lib/Unicode/PRECIS/FreeForm.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "v0.5.1.1",
-  "description" : "Implements PRECIS framework, rfc7564 and others. Obsoletes stringprep and saslprep",
-  "authors" : [
-    "Marcel Timmerman"
-  ]
-}
-,
-{
   "name" : "JS::Minify",
   "source-url" : "https://github.com/scmorrison/JS-Minify.git",
   "perl" : "6.*",
