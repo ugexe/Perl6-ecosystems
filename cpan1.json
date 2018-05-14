@@ -765,6 +765,24 @@
 }
 ,
 {
+  "name" : "Algorithm::Heap::Binary",
+  "source-url" : "http://www.cpan.org/authors/id/C/CO/CONO/Perl6/Algorithm-Heap-Binary-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "Algorithm::Heap" : "lib/Algorithm/Heap.pm6",
+    "Algorithm::Heap::Binary" : "lib/Algorithm/Heap/Binary.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "BinaryHeap data structure",
+  "authors" : [
+    "cono"
+  ]
+}
+,
+{
   "name" : "Supply::Timeout",
   "source-url" : "http://www.cpan.org/authors/id/C/CO/CONO/Perl6/Supply-Timeout-0.0.1.tar.gz",
   "perl" : "6.c",
