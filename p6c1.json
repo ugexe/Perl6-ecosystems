@@ -765,60 +765,6 @@
 }
 ,
 {
-  "name" : "HTTP::UserAgent",
-  "perl" : "6.c",
-  "support" : {
-    "source" : "git://github.com/sergot/http-useragent.git",
-    "bugtracker" : "https://github.com/sergot/http-useragent/issues"
-  },
-  "source-url" : "git://github.com/sergot/http-useragent.git",
-  "author" : "github:sergot",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:sergot",
-  "depends" : [
-    "HTTP::Status",
-    "File::Temp",
-    "DateTime::Parse",
-    "Encode",
-    "MIME::Base64",
-    "URI",
-    "IO::Socket::SSL"
-  ],
-  "provides" : {
-    "HTTP::Message" : "lib/HTTP/Message.pm6",
-    "HTTP::Cookies" : "lib/HTTP/Cookies.pm6",
-    "HTTP::UserAgent::Exception" : "lib/HTTP/UserAgent/Exception.pm6",
-    "HTTP::MediaType" : "lib/HTTP/MediaType.pm6",
-    "HTTP::Request::Common" : "lib/HTTP/Request/Common.pm6",
-    "HTTP::Header::Field" : "lib/HTTP/Header/Field.pm6",
-    "HTTP::Response" : "lib/HTTP/Response.pm6",
-    "HTTP::Request" : "lib/HTTP/Request.pm6",
-    "HTTP::Header" : "lib/HTTP/Header.pm6",
-    "HTTP::Cookie" : "lib/HTTP/Cookie.pm6",
-    "HTTP::UserAgent::Common" : "lib/HTTP/UserAgent/Common.pm6",
-    "HTTP::UserAgent" : "lib/HTTP/UserAgent.pm6"
-  },
-  "test-depends" : [
-    "URI",
-    "IO::Capture::Simple",
-    "Test::Util::ServerPort"
-  ],
-  "license" : "MIT",
-  "tags" : [
-    "http",
-    "useragent",
-    "client"
-  ],
-  "meta-version" : "0",
-  "version" : "1.1.39",
-  "description" : "Web user agent",
-  "authors" : [
-    "sergot"
-  ]
-}
-,
-{
   "name" : "DateTime::Parse",
   "source-url" : "git://github.com/sergot/datetime-parse.git",
   "perl" : "6.*",
