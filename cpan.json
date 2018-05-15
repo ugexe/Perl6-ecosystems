@@ -2092,6 +2092,30 @@
 }
 ,
 {
+  "name" : "P5caller",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5caller-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5caller" : "lib/P5caller.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "Implement Perl 5's caller() built-in",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5chdir",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5chdir-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -2325,6 +2349,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.3",
+  "description" : "Implement Perl 5's each() built-in",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5each",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5each-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5each" : "lib/P5each.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
   "description" : "Implement Perl 5's each() built-in",
   "authors" : [
     "Elizabeth Mattijsen"
@@ -3423,6 +3471,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.3",
+  "description" : "Implement Perl 5's reverse() built-in",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5reverse",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5reverse-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5reverse" : "lib/P5reverse.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
   "description" : "Implement Perl 5's reverse() built-in",
   "authors" : [
     "Elizabeth Mattijsen"
