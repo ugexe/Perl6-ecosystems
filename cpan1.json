@@ -2761,6 +2761,30 @@
 }
 ,
 {
+  "name" : "P5lc",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5lc-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5lc" : "lib/P5lc.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "description" : "Implement Perl 5's lc() / uc() built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5lcfirst",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5lcfirst-0.0.5.tar.gz",
   "perl" : "6.c",
@@ -2777,6 +2801,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.5",
+  "description" : "Implement Perl 5's lcfirst() / ucfirst() built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5lcfirst",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5lcfirst-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5lcfirst" : "lib/P5lcfirst.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
   "description" : "Implement Perl 5's lcfirst() / ucfirst() built-ins",
   "authors" : [
     "Elizabeth Mattijsen"
@@ -3566,6 +3614,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.5",
+  "description" : "Implement Perl 5's sleep() built-in",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5sleep",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5sleep-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5sleep" : "lib/P5sleep.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
   "description" : "Implement Perl 5's sleep() built-in",
   "authors" : [
     "Elizabeth Mattijsen"
