@@ -7017,7 +7017,16 @@
     },
     "build" : {
       "requires" : [
-        "python2-config:from<bin>"
+        {
+          "name" : {
+            "by-distro.name" : {
+              "" : "python2-config",
+              "debian" : "python2.7-config",
+              "macosx" : "python2.7-config"
+            }
+          },
+          "from" : "bin"
+        }
       ]
     }
   },
@@ -21245,37 +21254,6 @@
   "authors" : [
     "Mike Stemle, Jr."
   ]
-}
-,
-{
-  "name" : "Config::JSON",
-  "support" : {
-    "source" : "https://github.com/zoffixznet/perl6-Config-JSON.git"
-  },
-  "perl" : "6.c",
-  "depends" : [
-    "JSON::Fast"
-  ],
-  "provides" : {
-    "Config::JSON" : "lib/Config/JSON.pm6"
-  },
-  "test-depends" : [
-    "JSON::Fast",
-    "Testo",
-    "Test::When",
-    "Temp::Path"
-  ],
-  "tags" : [
-    "config",
-    "configuration",
-    "JSON"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "1.001003",
-  "authors" : [
-    "Zoffix Znet"
-  ],
-  "description" : "Flat, JSON-backed read-write configuration"
 }
 ,
 {
