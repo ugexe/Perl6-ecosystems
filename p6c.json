@@ -20360,6 +20360,7 @@
     "X::Hematite::ErrorHandlerNotFoundException" : "lib/X/Hematite/ErrorHandlerNotFoundException.pm6",
     "Hematite::Context" : "lib/Hematite/Context.pm6",
     "Hematite::Response" : "lib/Hematite/Response.pm6",
+    "X::Hematite::HaltException" : "lib/X/Hematite/HaltException.pm6",
     "X::Hematite" : "lib/X/Hematite.pm6",
     "Hematite::App" : "lib/Hematite/App.pm6",
     "X::Hematite::TemplateNotFoundException" : "lib/X/Hematite/TemplateNotFoundException.pm6",
@@ -20376,7 +20377,7 @@
   },
   "test-depends" : [ ],
   "license" : "Artistic-2.0",
-  "version" : "0.5.1",
+  "version" : "0.5.2",
   "authors" : [
     "Andr\u00e9 Br\u00e1s"
   ],
