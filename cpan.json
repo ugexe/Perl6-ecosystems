@@ -6106,6 +6106,28 @@
 }
 ,
 {
+  "name" : "Concurrent::Trie",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Concurrent-Trie-1.1.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "tags" : [
+    "trie",
+    "text",
+    "concurrent"
+  ],
+  "provides" : {
+    "Concurrent::Trie" : "lib/Concurrent/Trie.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.1",
+  "description" : "A lock-free concurrent trie (Text Retrieval) data structure.",
+  "authors" : [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ]
+}
+,
+{
   "name" : "Cro::HTTP::Test",
   "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-HTTP-Test-0.7.5.tar.gz",
   "perl" : "6.*",
