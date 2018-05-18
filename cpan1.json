@@ -4182,36 +4182,6 @@
 }
 ,
 {
-  "name" : "FanFou",
-  "source-url" : "http://www.cpan.org/authors/id/F/FA/FANFAN/Perl6/FanFou-0.0.1.tar.gz",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [
-    "Digest::HMAC",
-    "Digest",
-    "Digest::SHA",
-    "MIME::Base64",
-    "URI::Encode",
-    "URI",
-    "Cro::HTTP::Client"
-  ],
-  "test-depends" : [ ],
-  "tags" : [
-    "Client"
-  ],
-  "provides" : {
-    "FanFou" : "lib/FanFou.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "Oauth client for fanfou, written in Perl 6",
-  "authors" : [
-    "ohmycloud@gmail.com"
-  ]
-}
-,
-{
   "name" : "Lingua::Lipogram",
   "api" : 1,
   "support" : {
