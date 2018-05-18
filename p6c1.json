@@ -7037,13 +7037,25 @@
       },
       "ldflags" : {
         "run" : [
-          "python2-config",
+          {
+            "by-distro.name" : {
+              "" : "python2-config",
+              "debian" : "python2.7-config",
+              "macosx" : "python2.7-config"
+            }
+          },
           "--ldflags"
         ]
       },
       "cflags" : {
         "run" : [
-          "python2-config",
+          {
+            "by-distro.name" : {
+              "" : "python2-config",
+              "debian" : "python2.7-config",
+              "macosx" : "python2.7-config"
+            }
+          },
           "--cflags"
         ]
       }
