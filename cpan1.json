@@ -2841,6 +2841,30 @@
 }
 ,
 {
+  "name" : "P5getnetbyname",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5getnetbyname-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5getnetbyname" : "lib/P5getnetbyname.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Implement Perl 5's getnetbyname() and associated built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5getpriority",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5getpriority-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -2913,6 +2937,30 @@
 }
 ,
 {
+  "name" : "P5getpriority",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5getpriority-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5getpriority" : "lib/P5getpriority.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "Implement Perl 5's getpriority() and associated built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5getprotobyname",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5getprotobyname-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -2930,6 +2978,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.1",
+  "description" : "Implement Perl 5's getprotobyname() and associated built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5getprotobyname",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5getprotobyname-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5getprotobyname" : "lib/P5getprotobyname.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
   "description" : "Implement Perl 5's getprotobyname() and associated built-ins",
   "authors" : [
     "Elizabeth Mattijsen"
@@ -3002,6 +3074,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.3",
+  "description" : "Implement Perl 5's getpwnam() and associated built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5getpwnam",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5getpwnam-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5getpwnam" : "lib/P5getpwnam.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
   "description" : "Implement Perl 5's getpwnam() and associated built-ins",
   "authors" : [
     "Elizabeth Mattijsen"
