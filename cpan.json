@@ -159,6 +159,31 @@
 }
 ,
 {
+  "name" : "Time::Repeat",
+  "source-url" : "http://www.cpan.org/authors/id/A/AR/ARNE/Perl6/p6-time-repeat-0.0101.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "tags" : [
+    "time"
+  ],
+  "provides" : {
+    "Time::Repeat::internal" : "lib/Time/Repeat/internal.pm6",
+    "Time::Repeat::DateTime" : "lib/Time/Repeat/DateTime.pm6",
+    "Time::Repeat::String" : "lib/Time/Repeat/String.pm6",
+    "Time::Repeat::HHMM" : "lib/Time/Repeat/HHMM.pm6",
+    "Time::Repeat::MM" : "lib/Time/Repeat/MM.pm6",
+    "Time::Repeat" : "lib/Time/Repeat.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Set up and manipulate time intervals",
+  "authors" : [
+    "Arne Sommer"
+  ]
+}
+,
+{
   "name" : "HandleSupplier",
   "source-url" : "http://www.cpan.org/authors/id/A/AS/ASTJ/Perl6/HandleSupplier-0.0.1.tar.gz",
   "perl" : "6.c",
