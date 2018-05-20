@@ -17629,9 +17629,10 @@
   "resources" : [ ],
   "depends" : [ ],
   "provides" : {
-    "US-ASCII::ABNF::Common" : "lib/US-ASCII/ABNF/Common.pm6",
     "US-ASCII" : "lib/US-ASCII.pm6",
-    "US-ASCII-UC" : "lib/US-ASCII.pm6"
+    "US-ASCII::ABNF::Core::Common" : "lib/US-ASCII/ABNF/Core/Common.pm6",
+    "US-ASCII-UC" : "lib/US-ASCII.pm6",
+    "US-ASCII::ABNF::Core" : "lib/US-ASCII/ABNF/Core.pm6"
   },
   "license" : "Artistic-2.0",
   "tags" : [
@@ -17639,7 +17640,7 @@
     "ABNF",
     "parsing"
   ],
-  "version" : "0.1.6",
+  "version" : "0.6.2",
   "authors" : [
     "Ron Schmidt"
   ],
