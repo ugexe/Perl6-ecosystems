@@ -16328,7 +16328,7 @@
     "Data::MessagePack::Packer" : "lib/Data/MessagePack/Packer.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "description" : "Data::MessagePack",
   "authors" : [
     "github:pierre-vigier",
@@ -21788,5 +21788,31 @@
   "authors" : [
     "Darren Foreman"
   ]
+}
+,
+{
+  "name" : "App::GymScheduler",
+  "support" : {
+    "source" : "https://github.com/zoffixznet/perl6-App-GymScheduler.git"
+  },
+  "perl" : "6.c",
+  "depends" : [
+    "Config::JSON"
+  ],
+  "provides" : {
+    "App::GymScheduler" : "lib/App/GymScheduler.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "planning"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001003",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Randomized schedule maker for your workouts"
 }
 ]
