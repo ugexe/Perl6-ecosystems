@@ -3799,6 +3799,30 @@
 }
 ,
 {
+  "name" : "P5pack",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5pack-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5pack" : "lib/P5pack.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "Implement Perl 5's pack()/unpack() built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5print",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5print-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -3840,6 +3864,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.2",
+  "description" : "Implement Perl 5's print() and associated built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5print",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5print-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5print" : "lib/P5print.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
   "description" : "Implement Perl 5's print() and associated built-ins",
   "authors" : [
     "Elizabeth Mattijsen"
@@ -3919,6 +3967,30 @@
 }
 ,
 {
+  "name" : "P5push",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5push-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5push" : "lib/P5push.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "Implement Perl 5's push() / pop() built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5quotemeta",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5quotemeta-0.0.2.tar.gz",
   "perl" : "6.c",
@@ -3935,6 +4007,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.2",
+  "description" : "Implement Perl 5's quotemeta() built-in",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5quotemeta",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5quotemeta-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5quotemeta" : "lib/P5quotemeta.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
   "description" : "Implement Perl 5's quotemeta() built-in",
   "authors" : [
     "Elizabeth Mattijsen"
@@ -3983,6 +4079,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.2",
+  "description" : "Implement Perl 5's rand() built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5rand",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5rand-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5rand" : "lib/P5rand.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
   "description" : "Implement Perl 5's rand() built-ins",
   "authors" : [
     "Elizabeth Mattijsen"
