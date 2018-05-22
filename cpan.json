@@ -10527,6 +10527,28 @@
 }
 ,
 {
+  "name" : "Config::Parser::json",
+  "source-url" : "http://www.cpan.org/authors/id/R/RO/ROBERTLE/Perl6/perl6-config-json-0.1.0.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "JSON::Tiny"
+  ],
+  "test-depends" : [
+    "Test::META",
+    "Config"
+  ],
+  "provides" : {
+    "Config::Parser::json" : "lib/Config/Parser/json.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "A JSON parser for Config",
+  "authors" : [
+    "Robert Lemmen"
+  ]
+}
+,
+{
   "name" : "CucumisSextus",
   "source-url" : "http://www.cpan.org/authors/id/R/RO/ROBERTLE/Perl6/perl6-cucumis-sextus-0.1.2.tar.gz",
   "perl" : "6.*",
