@@ -3973,6 +3973,30 @@
 }
 ,
 {
+  "name" : "P5pack",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5pack-0.0.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5pack" : "lib/P5pack.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "description" : "Implement Perl 5's pack()/unpack() built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5print",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5print-0.0.1.tar.gz",
   "perl" : "6.c",
