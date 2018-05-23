@@ -5239,6 +5239,32 @@
 }
 ,
 {
+  "name" : "User::grent",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/User-grent-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "P5getgrnam"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "User::grent" : "lib/User/grent.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Port of Perl 5's User::grent",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Lingua::Lipogram",
   "api" : 1,
   "support" : {
