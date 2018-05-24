@@ -2208,7 +2208,7 @@
   "test-depends" : [
     "JSON::Tiny"
   ],
-  "version" : "0.101",
+  "version" : "0.103",
   "description" : "LWP::Simple quick & dirty implementation for Rakudo Perl 6"
 }
 ,
@@ -17619,8 +17619,14 @@
   "resources" : [ ],
   "depends" : [ ],
   "provides" : {
+    "US-ASCII::ABNF::Core::Only" : "lib/US-ASCII/ABNF/Core/Only.pm6",
+    "US-ASCII::ABNF::Core::Common-g" : "lib/US-ASCII/ABNF/Core/Common.pm6",
     "US-ASCII" : "lib/US-ASCII.pm6",
+    "US-ASCII::ABNF::Core::More" : "lib/US-ASCII/ABNF/Core/More.pm6",
     "US-ASCII::ABNF::Core::Common" : "lib/US-ASCII/ABNF/Core/Common.pm6",
+    "US-ASCII-ABNF" : "lib/US-ASCII.pm6",
+    "US-ASCII::ABNF::Core::P6Common-g" : "lib/US-ASCII/ABNF/Core/P6Common.pm6",
+    "US-ASCII::ABNF::Core::P6Common" : "lib/US-ASCII/ABNF/Core/P6Common.pm6",
     "US-ASCII-UC" : "lib/US-ASCII.pm6",
     "US-ASCII::ABNF::Core" : "lib/US-ASCII/ABNF/Core.pm6"
   },
