@@ -21797,7 +21797,8 @@
   },
   "perl" : "6.c",
   "depends" : [
-    "Config::JSON"
+    "Config::JSON",
+    "Terminal::ANSIColor"
   ],
   "provides" : {
     "App::GymScheduler" : "lib/App/GymScheduler.pm6"
@@ -21809,7 +21810,7 @@
     "planning"
   ],
   "license" : "Artistic-2.0",
-  "version" : "1.001003",
+  "version" : "1.001004",
   "authors" : [
     "Zoffix Znet"
   ],
