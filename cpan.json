@@ -1078,6 +1078,37 @@
 }
 ,
 {
+  "name" : "Test::Declare",
+  "source-url" : "http://www.cpan.org/authors/id/D/DA/DARRENF/Perl6/Test-Declare-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:darrenf",
+  "depends" : [
+    "IO::Capture::Simple",
+    "Test"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Testing"
+  ],
+  "provides" : {
+    "Test::Declare::Suite" : "lib/Test/Declare/Suite.pm6",
+    "Test::Declare::Result" : "lib/Test/Declare/Result.pm6",
+    "Test::Declare::Comparisons" : "lib/Test/Declare/Comparisons.pm6",
+    "Test::Declare::Callable" : "lib/Test/Declare/Callable.pm6",
+    "Test::Declare::Expectations" : "lib/Test/Declare/Expectations.pm6",
+    "Test::Declare" : "lib/Test/Declare.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Declare common test scenarios as data.",
+  "authors" : [
+    "Darren Foreman"
+  ]
+}
+,
+{
   "name" : "SQL::Lexer",
   "support" : {
     "email" : "dmaestro@cpan.org",
