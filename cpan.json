@@ -9120,6 +9120,26 @@
 }
 ,
 {
+  "name" : "Digest::BubbleBabble",
+  "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Digest-BubbleBabble-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Digest::BubbleBabble" : "lib/Digest/BubbleBabble.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Support for BubbleBabble string encoding and decoding",
+  "authors" : [
+    "Ben Davies"
+  ]
+}
+,
+{
   "name" : "Net::LibIDN",
   "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Net-LibIDN-0.0.2.tar.gz",
   "perl" : "6.c",
