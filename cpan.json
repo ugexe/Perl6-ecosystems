@@ -1222,6 +1222,30 @@
 }
 ,
 {
+  "name" : "Env",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Env-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Env" : "lib/Env.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Implement Perl 5's Env module",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Hash::Util",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Util-0.0.1.tar.gz",
   "perl" : "6.c",
