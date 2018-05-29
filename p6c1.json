@@ -15776,6 +15776,63 @@
 }
 ,
 {
+  "name" : "HTTP::HPACK",
+  "support" : {
+    "source" : "git://github.com/jnthn/p6-http-hpack.git"
+  },
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "HTTP::HPACK" : "lib/HTTP/HPACK.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "version" : "0.9.2",
+  "authors" : [
+    "Jonathan Worthington"
+  ],
+  "description" : "Implementation of RFC 7541 HPACK: Header Compression for HTTP/2"
+}
+,
+{
+  "name" : "Rakudo::Slippy::Semilist",
+  "source-url" : "git://github.com/gfldex/perl6-rakudo-slippy-semilists.git",
+  "support" : {
+    "source" : "https://github.com/gfldex/gfldex/perl6-rakudo-slippy-semilists"
+  },
+  "perl" : "6.c",
+  "source-type" : "git",
+  "depends" : [
+    "Test::META"
+  ],
+  "provides" : {
+    "Rakudo::Slippy::Semilist" : "lib/Rakudo/Slippy/Semilist.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Implement postcircumfix:<{|| }> to allow coercion of Array to semilist.",
+  "authors" : [
+    "Wenzel P. P. Peppmeyer"
+  ]
+}
+,
+{
+  "name" : "Texas::To::Uni",
+  "source-url" : "git://github.com/Altai-man/p6-Texas-To-Uni.git",
+  "perl" : "6.c",
+  "author" : "github:Altai-man",
+  "depends" : [ ],
+  "provides" : {
+    "Texas::To::Uni" : "lib/Texas/To/Uni.pm6"
+  },
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "Library and tool to convert operators in Perl 6 source files from Texas to Unicode"
+}
+,
+{
   "name" : "Sparrowdo::Nginx",
   "source-url" : "https://github.com/melezhik/sparrowdo-nginx.git",
   "support" : {
@@ -15821,6 +15878,77 @@
     "Alexey Melezhik"
   ],
   "description" : "Sparrowdo module to install/update Sparrow toolchain on target host"
+}
+,
+{
+  "name" : "Printer::ESCPOS",
+  "perl" : "6",
+  "source-url" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS.git",
+  "support" : {
+    "source" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS.git",
+    "bugtracker" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS/issues"
+  },
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Shantanu Bhadoria <shantanu@cpan.org>",
+  "auth" : "github:shantanubhadoria",
+  "depends" : [ ],
+  "license" : "Artistic",
+  "tags" : [
+    "Printer",
+    "ESCPOS",
+    "Receipt",
+    "Thermal",
+    "ESC/P",
+    "EPSON"
+  ],
+  "provides" : {
+    "Printer::ESCPOS::Network" : "lib/Printer/ESCPOS/Network.pm6",
+    "Printer::ESCPOS::Network::Async" : "lib/Printer/ESCPOS/Network/Async.pm6",
+    "Printer::ESCPOS" : "lib/Printer/ESCPOS.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "version" : "1.0.1",
+  "authors" : [
+    "Shantanu Bhadoria <shantanu@cpan.org>"
+  ],
+  "description" : "Interface to ESCPOS printers"
+}
+,
+{
+  "name" : "CompUnit::Search",
+  "perl" : "6",
+  "source-url" : "git://github.com/shantanubhadoria/p6-CompUnit-Search.git",
+  "support" : {
+    "source" : "git://github.com/shantanubhadoria/p6-CompUnit-Search.git",
+    "bugtracker" : "git://github.com/shantanubhadoria/p6-CompUnit-Search/issues"
+  },
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Shantanu Bhadoria <shantanu@cpan.org>",
+  "auth" : "github:shantanubhadoria",
+  "depends" : [ ],
+  "license" : "Artistic",
+  "tags" : [
+    "CompUnit",
+    "Search",
+    "Puggable",
+    "Module",
+    "Class"
+  ],
+  "provides" : {
+    "CompUnit::Search" : "lib/CompUnit/Search.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "version" : "2.0.0",
+  "authors" : [
+    "Shantanu Bhadoria <shantanu@cpan.org>"
+  ],
+  "description" : "Search compunits, modules and classes in installed repositories"
 }
 ,
 {
@@ -15879,6 +16007,35 @@
     "Alexey Melezhik"
   ],
   "description" : "Sparrowdo module to install CPAN modules using App::cpm - a fast CPAN module installer"
+}
+,
+{
+  "name" : "DOM::Tiny",
+  "source-url" : "git://github.com/zostay/p6-DOM-Tiny.git",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "git://github.com/zostay/p6-DOM-Tiny.git"
+  },
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "license" : "Artistic-2.0",
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "DOM::Tiny::CSS" : "lib/DOM/Tiny/CSS.pm6",
+    "DOM::Tiny" : "lib/DOM/Tiny.pm6",
+    "DOM::Tiny::HTML" : "lib/DOM/Tiny/HTML.pm6",
+    "DOM::Tiny::Entities" : "lib/DOM/Tiny/Entities.pm6"
+  },
+  "version" : "0.4.0",
+  "description" : "Very small, self-sufficient DOM parser manipulator",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "meta6" : "0"
 }
 ,
 {
@@ -15941,6 +16098,26 @@
 }
 ,
 {
+  "name" : "Math::Sequences",
+  "source-url" : "git@github.com:ajs/perl6-Math-Sequences.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "Test::META"
+  ],
+  "provides" : {
+    "Math::Sequences::Real" : "lib/Math/Sequences/Real.pm",
+    "Math::Sequences::Integer" : "lib/Math/Sequences/Integer.pm"
+  },
+  "version" : "0.0.3",
+  "authors" : [
+    "Aaron Sherman",
+    "JJ Merelo"
+  ],
+  "description" : "Various mathematical sequences of moderate use"
+}
+,
+{
   "name" : "Numeric::Pack",
   "source-url" : "git://github.com/samgwise/p6-Numeric-Pack.git",
   "perl" : "6.c",
@@ -15971,6 +16148,44 @@
   "authors" : [
     "Sam Gillespie"
   ]
+}
+,
+{
+  "name" : "Binary::Structured",
+  "source-url" : "git://github.com/avuserow/perl6-binary-structured.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Binary::Structured" : "lib/Binary/Structured.pm6"
+  },
+  "version" : "0.0.2",
+  "authors" : [
+    "Adrian Kreher"
+  ],
+  "description" : "Read and write binary formats defined by classes"
+}
+,
+{
+  "name" : "TXN::Remarshal",
+  "support" : {
+    "source" : "https://github.com/atweiden/txn-remarshal",
+    "bugtracker" : "https://github.com/atweiden/txn-remarshal/issues"
+  },
+  "source-url" : "git://github.com/atweiden/txn-remarshal.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "author" : "atweiden",
+  "depends" : [
+    "File::Presence",
+    "TXN::Parser"
+  ],
+  "provides" : {
+    "X::TXN::Remarshal" : "lib/X/TXN/Remarshal.pm6",
+    "TXN::Remarshal" : "lib/TXN/Remarshal.pm6"
+  },
+  "license" : "Unlicense",
+  "version" : "0.1.0",
+  "description" : "Double-entry accounting ledger file format converter"
 }
 ,
 {
@@ -16080,6 +16295,28 @@
 }
 ,
 {
+  "name" : "FileSystem::Capacity",
+  "source-url" : "git@github.com:ramiroencinas/perl6-FileSystem-Capacity.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "tags" : [
+    "filesystem",
+    "utils",
+    "capacity"
+  ],
+  "provides" : {
+    "FileSystem::Capacity::DirSize" : "lib/FileSystem/Capacity/DirSize.pm6",
+    "FileSystem::Capacity::VolumesInfo" : "lib/FileSystem/Capacity/VolumesInfo.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0.0",
+  "authors" : [
+    "Ramiro Encinas Alarza"
+  ],
+  "description" : "Provides filesystem capacity information."
+}
+,
+{
   "name" : "Data::MessagePack",
   "source-url" : "git@github.com:pierre-vigier/Perl6-Data-MessagePack.git",
   "perl" : "6.c",
@@ -16096,6 +16333,33 @@
   "authors" : [
     "github:pierre-vigier",
     "github:timo"
+  ]
+}
+,
+{
+  "name" : "Algorithm::LBFGS",
+  "source-url" : "git://github.com/titsuki/p6-Algorithm-LBFGS.git",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/liblbfgs"
+  ],
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "depends" : [
+    "NativeHelpers::Array"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Algorithm::LBFGS" : "lib/Algorithm/LBFGS.pm6",
+    "Algorithm::LBFGS::Status" : "lib/Algorithm/LBFGS/Status.pm6",
+    "Algorithm::LBFGS::Parameter" : "lib/Algorithm/LBFGS/Parameter.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.2",
+  "description" : "A Perl6 bindings for libLBFGS",
+  "authors" : [
+    "titsuki"
   ]
 }
 ,
