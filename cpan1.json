@@ -1396,6 +1396,30 @@
 }
 ,
 {
+  "name" : "Memoize",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Memoize-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Memoize" : "lib/Memoize.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Port of Perl 5's Memoize 1.03",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Net::netent",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Net-netent-0.0.1.tar.gz",
   "perl" : "6.c",
