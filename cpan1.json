@@ -10008,6 +10008,50 @@
 }
 ,
 {
+  "name" : "Sparrowdo",
+  "support" : {
+    "source" : "https://github.com/melezhik/sparrowdo.git",
+    "bugtracker" : "https://github.com/melezhik/sparrowdo/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-0.0.39.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Terminal::ANSIColor",
+    "JSON::Tiny",
+    "Config::Simple",
+    "Data::Dump"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::Core::DSL::Service" : "lib/Sparrowdo/Core/DSL/Service.pm6",
+    "Sparrowdo::Core::DSL::CPAN::Package" : "lib/Sparrowdo/Core/DSL/CPAN/Package.pm6",
+    "Sparrowdo::Core::DSL::User" : "lib/Sparrowdo/Core/DSL/User.pm6",
+    "Sparrowdo::Core::DSL::Ssh" : "lib/Sparrowdo/Core/DSL/Ssh.pm6",
+    "Sparrowdo::Core::DSL::Package" : "lib/Sparrowdo/Core/DSL/Package.pm6",
+    "Sparrowdo::Core::DSL::Assert" : "lib/Sparrowdo/Core/DSL/Assert.pm6",
+    "Sparrowdo::Core::DSL::Template" : "lib/Sparrowdo/Core/DSL/Template.pm6",
+    "Sparrowdo" : "lib/Sparrowdo.pm6",
+    "Sparrowdo::Core::DSL::File" : "lib/Sparrowdo/Core/DSL/File.pm6",
+    "Sparrowdo::Core::DSL::Directory" : "lib/Sparrowdo/Core/DSL/Directory.pm6",
+    "Sparrowdo::Core::DSL::Zef" : "lib/Sparrowdo/Core/DSL/Zef.pm6",
+    "Sparrowdo::Core::DSL::Systemd" : "lib/Sparrowdo/Core/DSL/Systemd.pm6",
+    "Sparrowdo::Core::DSL::Group" : "lib/Sparrowdo/Core/DSL/Group.pm6",
+    "Sparrowdo::Core::DSL::Git" : "lib/Sparrowdo/Core/DSL/Git.pm6",
+    "Sparrowdo::Core::DSL::Bash" : "lib/Sparrowdo/Core/DSL/Bash.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.39",
+  "description" : "Configuration management tool based on sparrow plugins system",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
   "name" : "Sparrowdo::Prometheus",
   "support" : {
     "source" : "https://github.com/melezhik/sparrowdo-prometheus.git",
