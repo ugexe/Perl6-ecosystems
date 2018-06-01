@@ -21817,4 +21817,19 @@
   ],
   "description" : "Randomized schedule maker for your workouts"
 }
+,
+{
+  "name" : "GeoIP2",
+  "source-url" : "git://github.com/bbkr/GeoIP2.git",
+  "perl" : "6.c",
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "GeoIP2" : "lib/GeoIP2.pm"
+  },
+  "version" : "1.0.0",
+  "authors" : [
+    "Pawe\u0142 bbkr Pabian"
+  ],
+  "description" : "MaxMind GeoIP v2 databases reader."
+}
 ]
