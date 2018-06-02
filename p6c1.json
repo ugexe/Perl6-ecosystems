@@ -21521,20 +21521,21 @@
     "JSON::Fast"
   ],
   "provides" : {
-    "Config::Searcher" : "lib/Config/Searcher.pm6",
-    "Config::Loader" : "lib/Config/Loader.pm6"
+    "Config::Searcher" : "lib/Config/Searcher.pm6"
   },
   "tags" : [
     "find",
     "c",
     "cpp",
-    "make"
+    "make",
+    "config",
+    "searcher"
   ],
   "test-depends" : [
     "Test::META"
   ],
   "license" : "GPL",
-  "version" : "0.0.3",
+  "version" : "0.0.5",
   "authors" : "Loren",
   "description" : "Find your source file easily."
 }
