@@ -13144,33 +13144,6 @@
 }
 ,
 {
-  "name" : "Lingua::EN::Stem::Porter",
-  "support" : {
-    "source" : "https://github.com/johnspurr/Lingua-EN-Stem-Porter.git"
-  },
-  "perl" : "6.*",
-  "tags" : [
-    "NLP",
-    "perl6",
-    "stem",
-    "porter"
-  ],
-  "license" : "MIT",
-  "provides" : {
-    "Lingua::EN::Stem::Porter" : "lib/Lingua/EN/Stem/Porter.pm6"
-  },
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "version" : "v1.0",
-  "authors" : [
-    "John Spurr"
-  ],
-  "description" : "Implementation of the Porter stemming algorithm"
-}
-,
-{
   "name" : "Audio::Playlist::JSPF",
   "perl" : "6.c",
   "support" : {
