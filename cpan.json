@@ -6089,6 +6089,30 @@
 }
 ,
 {
+  "name" : "vars",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/vars-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "vars" : "lib/vars.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "Port of Perl 5's pragma to predeclare variables to Perl 6",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Lingua::Lipogram",
   "api" : 1,
   "support" : {
