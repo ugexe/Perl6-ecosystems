@@ -13439,21 +13439,6 @@
 }
 ,
 {
-  "name" : "RPi::GpioDirect",
-  "perl" : 6,
-  "source-url" : "git://github.com/donaldh/Perl6-RPi-GpioDirect.git",
-  "test-depends" : [
-    "Test"
-  ],
-  "provides" : {
-    "RPi::GpioDirect" : "lib/RPi/GpioDirect.pm"
-  },
-  "version" : "0.1.0",
-  "authors" : "Donald Hunter",
-  "description" : "RPi::GpioDirect - Access the Raspberry Pi GPIO"
-}
-,
-{
   "name" : "Audio::Hydrogen",
   "perl" : "6.c",
   "support" : {
