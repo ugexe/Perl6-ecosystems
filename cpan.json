@@ -13677,6 +13677,26 @@
 }
 ,
 {
+  "name" : "Acme::Truth",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TISON/Perl6/Acme-Truth-0.0.2.tar.gz",
+  "perl" : "6",
+  "auth" : "cpan:TISON",
+  "depends" : [ ],
+  "tags" : [
+    "Acme"
+  ],
+  "provides" : {
+    "Acme::Truth" : "lib/Acme/Truth.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "authours" : [
+    "\u9648\u6893\u7acb"
+  ],
+  "description" : "Life, the universe and everything"
+}
+,
+{
   "name" : "Algorithm::AhoCorasick",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-AhoCorasick-0.0.10.tar.gz",
   "perl" : "6.c",
