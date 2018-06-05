@@ -14613,32 +14613,6 @@
 }
 ,
 {
-  "name" : "TXN::Parser",
-  "support" : {
-    "source" : "https://github.com/atweiden/txn-parser",
-    "bugtracker" : "https://github.com/atweiden/txn-parser/issues"
-  },
-  "source-url" : "git://github.com/atweiden/txn-parser.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "author" : "atweiden",
-  "depends" : [
-    "Digest::xxHash"
-  ],
-  "provides" : {
-    "TXN::Parser" : "lib/TXN/Parser.pm6",
-    "TXN::Parser::Actions" : "lib/TXN/Parser/Actions.pm6",
-    "X::TXN::Parser" : "lib/X/TXN/Parser.pm6",
-    "TXN::Parser::Types" : "lib/TXN/Parser/Types.pm6",
-    "TXN::Parser::ParseTree" : "lib/TXN/Parser/ParseTree.pm6",
-    "TXN::Parser::Grammar" : "lib/TXN/Parser/Grammar.pm6"
-  },
-  "license" : "Unlicense",
-  "version" : "0.1.0",
-  "description" : "Double-entry accounting ledger parser"
-}
-,
-{
   "name" : "App::ModuleSnap",
   "perl" : "6.c",
   "support" : {
