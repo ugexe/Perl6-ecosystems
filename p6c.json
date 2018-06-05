@@ -16849,8 +16849,8 @@
 }
 ,
 {
-  "name" : "CSS::Declarations",
-  "source-url" : "git://github.com/p6-css/CSS-Declarations-p6.git",
+  "name" : "CSS::Properties",
+  "source-url" : "git://github.com/p6-css/CSS-Properties-p6.git",
   "perl" : "6.*",
   "resources" : [ ],
   "build-depends" : [ ],
@@ -16865,15 +16865,15 @@
     "css"
   ],
   "provides" : {
-    "CSS::Declarations::Units" : "lib/CSS/Declarations/Units.pm",
-    "CSS::Declarations::Box" : "lib/CSS/Declarations/Box.pm",
-    "CSS::Declarations::Property" : "lib/CSS/Declarations/Property.pm",
-    "CSS::Declarations::Edges" : "lib/CSS/Declarations/Edges.pm",
-    "CSS::Declarations::Font" : "lib/CSS/Declarations/Font.pm",
-    "CSS::Declarations" : "lib/CSS/Declarations.pm"
+    "CSS::Properties::Box" : "lib/CSS/Properties/Box.pm",
+    "CSS::Properties::Property" : "lib/CSS/Properties/Property.pm",
+    "CSS::Properties::Font" : "lib/CSS/Properties/Font.pm",
+    "CSS::Properties::Edges" : "lib/CSS/Properties/Edges.pm",
+    "CSS::Properties::Units" : "lib/CSS/Properties/Units.pm",
+    "CSS::Properties" : "lib/CSS/Properties.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.3.7",
+  "version" : "0.3.8",
   "description" : "CSS property manipulation library",
   "authors" : [
     "David Warring"
