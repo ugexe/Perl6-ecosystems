@@ -21801,4 +21801,30 @@
   ],
   "description" : "MaxMind GeoIP v2 databases reader."
 }
+,
+{
+  "name" : "WWW::vlc::Remote",
+  "source-url" : "https://github.com/zoffixznet/perl6-WWW-vlc-Remote.git",
+  "perl" : "6.c",
+  "depends" : [
+    "DOM::Tiny",
+    "HTTP::UserAgent",
+    "URI::Encode"
+  ],
+  "provides" : {
+    "WWW::vlc::Remote::Track" : "lib/WWW/vlc/Remote.pm6",
+    "WWW::vlc::Remote::X::Network" : "lib/WWW/vlc/Remote.pm6",
+    "WWW::vlc::Remote" : "lib/WWW/vlc/Remote.pm6",
+    "WWW::vlc::Remote::X" : "lib/WWW/vlc/Remote.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001008",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Control vlc media player via its Web interface"
+}
 ]
