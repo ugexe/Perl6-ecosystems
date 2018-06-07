@@ -151,6 +151,26 @@
 }
 ,
 {
+  "name" : "IConv",
+  "support" : {
+    "source" : "https://github.com/araraloren/perl6-iconv",
+    "bugtracker" : "https://github.com/araraloren/perl6-iconv/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/IConv-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:araraloren",
+  "depends" : [ ],
+  "provides" : {
+    "IConv" : "lib/IConv.pm6"
+  },
+  "version" : "0.0.2",
+  "description" : "Binding of libiconv for Perl 6.",
+  "authors" : "Loren"
+}
+,
+{
   "name" : "Terminal::Table",
   "support" : {
     "source" : "https://github.com/araraloren/perl6-terminal-table.git",
