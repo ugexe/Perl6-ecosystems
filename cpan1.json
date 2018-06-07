@@ -11759,6 +11759,69 @@
 }
 ,
 {
+  "name" : "Magento",
+  "source-url" : "http://www.cpan.org/authors/id/S/SA/SACOMO/Perl6/Magento-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "depends" : [
+    "File::Find",
+    "HTTP::Tinyish",
+    "JSON::Fast",
+    "YAMLish"
+  ],
+  "test-depends" : [
+    "Base64",
+    "File::Temp",
+    "Test::Output"
+  ],
+  "tags" : [
+    "web",
+    "api",
+    "magento",
+    "ecommerce"
+  ],
+  "provides" : {
+    "Magento::GiftCardAccount" : "lib/Magento/GiftCardAccount.pm6",
+    "Magento::Search" : "lib/Magento/Search.pm6",
+    "Magento::Quote" : "lib/Magento/Quote.pm6",
+    "Magento::Config" : "lib/Magento/Config.pm6",
+    "Magento::CheckoutAgreements" : "lib/Magento/CheckoutAgreements.pm6",
+    "Magento::Store" : "lib/Magento/Store.pm6",
+    "Magento::Sales" : "lib/Magento/Sales.pm6",
+    "Magento::CLI" : "lib/Magento/CLI.pm6",
+    "Magento::CatalogInventory" : "lib/Magento/CatalogInventory.pm6",
+    "Magento::Auth" : "lib/Magento/Auth.pm6",
+    "Magento::Reward" : "lib/Magento/Reward.pm6",
+    "Magento::Integration" : "lib/Magento/Integration.pm6",
+    "Magento::Customer" : "lib/Magento/Customer.pm6",
+    "Magento::Catalog" : "lib/Magento/Catalog.pm6",
+    "Magento" : "lib/Magento.pm6",
+    "Magento::Utils" : "lib/Magento/Utils.pm6",
+    "Magento::Tax" : "lib/Magento/Tax.pm6",
+    "Magento::GiftRegistry" : "lib/Magento/GiftRegistry.pm6",
+    "Magento::GiftMessage" : "lib/Magento/GiftMessage.pm6",
+    "Magento::Checkout" : "lib/Magento/Checkout.pm6",
+    "Magento::Bundle" : "lib/Magento/Bundle.pm6",
+    "Magento::SalesRule" : "lib/Magento/SalesRule.pm6",
+    "Magento::CustomerBalance" : "lib/Magento/CustomerBalance.pm6",
+    "Magento::Cms" : "lib/Magento/Cms.pm6",
+    "Magento::Backend" : "lib/Magento/Backend.pm6",
+    "Magento::Rma" : "lib/Magento/Rma.pm6",
+    "Magento::HTTP" : "lib/Magento/HTTP.pm6",
+    "Magento::GiftWrapping" : "lib/Magento/GiftWrapping.pm6",
+    "Magento::Eav" : "lib/Magento/Eav.pm6",
+    "Magento::Downloadable" : "lib/Magento/Downloadable.pm6",
+    "Magento::Directory" : "lib/Magento/Directory.pm6",
+    "Magento::ConfigurableProduct" : "lib/Magento/ConfigurableProduct.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Magento 2 API client module for Perl 6",
+  "authors" : [
+    "Sam Morrison"
+  ]
+}
+,
+{
   "name" : "Math::Curves",
   "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Math-Curves-0.0.1.tar.gz",
   "perl" : "6.c",
