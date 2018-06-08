@@ -21402,41 +21402,6 @@
 }
 ,
 {
-  "name" : "App::MoarVM::Debug",
-  "source-url" : "git@github.com:edumentab/p6-app-moarvm-debug.git",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [
-    "JSON::Fast",
-    "MoarVM::Remote"
-  ],
-  "test-depends" : [ ],
-  "tags" : [
-    "MoarVM",
-    "Debug",
-    "API",
-    "CLI",
-    "Commandline",
-    "Terminal",
-    "Devel",
-    "Development",
-    "Client"
-  ],
-  "provides" : {
-    "App::MoarVM::Debug::Formatter" : "lib/App/MoarVM/Debug/Formatter.pm6",
-    "App::MoarVM::Debug::Breakpoints" : "lib/App/MoarVM/Debug/Breakpoints.pm6",
-    "moar-remote" : "bin/moar-remote"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "A command line interface application for debugging Perl 6 and NQP code using the MoarVM remote debugger.",
-  "authors" : [
-    "Timo Paulssen"
-  ]
-}
-,
-{
   "name" : "Java::Generate",
   "perl" : "6.c",
   "depends" : [ ],
