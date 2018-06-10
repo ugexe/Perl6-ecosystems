@@ -21813,4 +21813,27 @@
   ],
   "description" : "Control vlc media player via its Web interface"
 }
+,
+{
+  "name" : "Trie",
+  "source-url" : "",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "trie",
+    "data structures"
+  ],
+  "provides" : {
+    "Trie" : "lib/Trie.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "A Trie implementation",
+  "authors" : [
+    "Fernando Correa de Oliveira"
+  ]
+}
 ]
