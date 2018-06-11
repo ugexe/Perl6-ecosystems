@@ -13585,27 +13585,6 @@
 }
 ,
 {
-  "name" : "Acme::Skynet",
-  "source-url" : "git://github.com/kmwallio/Acme-Skynet.git",
-  "perl" : "6.*",
-  "resources" : [ ],
-  "depends" : [
-    "Lingua::EN::Stem::Porter"
-  ],
-  "provides" : {
-    "Acme::Skynet" : "lib/Acme/Skynet.pm6",
-    "Acme::Skynet::DumbDown" : "lib/Acme/Skynet/DumbDown.pm6",
-    "Acme::Skynet::ChainLabel" : "lib/Acme/Skynet/ChainLabel.pm6",
-    "Acme::Skynet::ID3" : "lib/Acme/Skynet/ID3.pm6"
-  },
-  "version" : "0.0.3",
-  "authors" : [
-    "KM Wallio"
-  ],
-  "description" : "Machine Learnings for your Perls6."
-}
-,
-{
   "name" : "Algorithm::SetUnion",
   "perl" : "6.c",
   "source-url" : "git://github.com/titsuki/p6-Algorithm-SetUnion.git",
@@ -13763,42 +13742,6 @@
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ]
-}
-,
-{
-  "name" : "Lingua::EN::Stopwords",
-  "source-url" : "git://github.com/kmwallio/p6-Lingua-EN-Stopwords.git",
-  "perl" : "6.*",
-  "resources" : [ ],
-  "depends" : [ ],
-  "provides" : {
-    "Lingua::EN::Stopwords::SQL" : "lib/Lingua/EN/Stopwords/SQL.pm6",
-    "Lingua::EN::Stopwords::Short" : "lib/Lingua/EN/Stopwords/Short.pm6",
-    "Lingua::EN::Stopwords::Long" : "lib/Lingua/EN/Stopwords/Long.pm6"
-  },
-  "version" : "0.0.2",
-  "authors" : [
-    "KM Wallio"
-  ],
-  "description" : "Provides lists and functions for common English stop words."
-}
-,
-{
-  "name" : "Text::TFIdf",
-  "source-url" : "git://github.com/kmwallio/p6-Text-TFIdf.git",
-  "perl" : "6.*",
-  "resources" : [ ],
-  "depends" : [
-    "Lingua::EN::Stem::Porter"
-  ],
-  "provides" : {
-    "Text::TFIdf" : "lib/Text/TFIdf.pm6"
-  },
-  "version" : "0.0.3",
-  "authors" : [
-    "KM Wallio"
-  ],
-  "description" : "Helps calculate TF-IDF values from a given set of documents."
 }
 ,
 {
