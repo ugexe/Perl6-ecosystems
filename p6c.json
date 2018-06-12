@@ -14873,6 +14873,34 @@
 }
 ,
 {
+  "name" : "App::Football",
+  "source-url" : "https://gitlab.com/CIAvash/App-Football.git",
+  "perl" : "6.c",
+  "depends" : [
+    "WebService::FootballData",
+    "Text::Table::Simple"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::Output"
+  ],
+  "provides" : {
+    "App::Football" : "lib/App/Football.pm6"
+  },
+  "tags" : [
+    "football",
+    "soccer",
+    "cli",
+    "command line"
+  ],
+  "version" : "0.1.5",
+  "authors" : [
+    "Siavash Askari Nasr"
+  ],
+  "description" : "Command line app for accessing football(soccer) data"
+}
+,
+{
   "name" : "Text::Diff::Sift4",
   "perl" : "6.c",
   "source-url" : "git://github.com/masterduke17/text-diff-sift4.git",
