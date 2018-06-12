@@ -17501,6 +17501,46 @@
 }
 ,
 {
+  "name" : "US-ASCII",
+  "source-url" : "git@github.com:ronaldxs/Perl6-US-ASCII.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "US-ASCII::ABNF::Core::Only" : "lib/US-ASCII/ABNF/Core/Only.pm6",
+    "US-ASCII::ABNF::Core-r" : "lib/US-ASCII/ABNF/Core.pm6",
+    "US-ASCII::ABNF::Core::Common-g" : "lib/US-ASCII/ABNF/Core/Common.pm6",
+    "US-ASCII" : "lib/US-ASCII.pm6",
+    "_US-ASCII" : "lib/_US-ASCII.pm6",
+    "US-ASCII::ABNF::Core::More" : "lib/US-ASCII/ABNF/Core/More.pm6",
+    "US-ASCII::ABNF::Core::Common" : "lib/US-ASCII/ABNF/Core/Common.pm6",
+    "_US-ASCII-UC" : "lib/_US-ASCII-UC.pm6",
+    "US-ASCIIx" : "lib/US-ASCIIx.pm6",
+    "US-ASCII-ABNF" : "lib/US-ASCII.pm6",
+    "US-ASCII::ABNF::Core::P6Common-g" : "lib/US-ASCII/ABNF/Core/P6Common.pm6",
+    "US-ASCII::ABNF::Core::P6Common" : "lib/US-ASCII/ABNF/Core/P6Common.pm6",
+    "US-ASCII-UC" : "lib/US-ASCII.pm6",
+    "US-ASCII::ABNF::Core" : "lib/US-ASCII/ABNF/Core.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "ascii",
+    "ABNF",
+    "grammar",
+    "parse",
+    "parser",
+    "parsing",
+    "text",
+    "web"
+  ],
+  "version" : "0.6.4",
+  "authors" : [
+    "Ron Schmidt"
+  ],
+  "description" : "US-ASCII restricted character classes from Perl6 and Core ABNF."
+}
+,
+{
   "name" : "Git::Config",
   "perl" : "6",
   "emulates" : { },
