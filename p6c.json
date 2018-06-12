@@ -21753,7 +21753,9 @@
   "perl" : "6.c",
   "resources" : [ ],
   "build-depends" : [ ],
-  "depends" : [ ],
+  "depends" : [
+    "OrderedHash"
+  ],
   "test-depends" : [ ],
   "tags" : [
     "trie",
@@ -21765,6 +21767,26 @@
   "license" : "Artistic-2.0",
   "version" : "0.0.1",
   "description" : "A Trie implementation",
+  "authors" : [
+    "Fernando Correa de Oliveira"
+  ]
+}
+,
+{
+  "name" : "OrderedHash",
+  "source-url" : "",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "OrderedHash" : "lib/OrderedHash.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "blah blah blah",
   "authors" : [
     "Fernando Correa de Oliveira"
   ]
