@@ -10594,6 +10594,58 @@
 }
 ,
 {
+  "name" : "Sparrowdo::VSTS::YAML::Build",
+  "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Build-0.0.1.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "build.yaml"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::VSTS::YAML::Build" : "lib/Sparrowdo/VSTS/YAML/Build.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.1",
+  "description" : "Sparrowdo module to generate VSTS yaml build definition header",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Sparrowdo::VSTS::YAML::Build",
+  "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Build-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "build.yaml"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::VSTS::YAML::Build" : "lib/Sparrowdo/VSTS/YAML/Build.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.2",
+  "description" : "Sparrowdo module to generate VSTS yaml build definition header",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
   "name" : "Sparrowform",
   "support" : {
     "source" : "https://github.com/melezhik/sparrowform.git",
