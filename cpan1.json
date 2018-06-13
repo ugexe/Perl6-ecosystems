@@ -1392,6 +1392,29 @@
 }
 ,
 {
+  "name" : "FINALIZER",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/FINALIZER-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "FINALIZER" : "lib/FINALIZER.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "dynamic finalizing for objects that need finalizing",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Hash::Util",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Util-0.0.1.tar.gz",
   "perl" : "6.c",
