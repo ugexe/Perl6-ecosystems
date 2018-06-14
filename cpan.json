@@ -10838,6 +10838,33 @@
 }
 ,
 {
+  "name" : "Sparrowdo::VSTS::YAML::Build::Assembly::Patch",
+  "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Build-Assembly-Patch-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "build.yaml",
+    "AssemblyInfoPatchVersion.ps1"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::VSTS::YAML::Build::Assembly::Patch" : "lib/Sparrowdo/VSTS/YAML/Build/Assembly/Patch.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.2",
+  "description" : "Sparrowdo module to generate VSTS yaml build definition steps for assembly info patcher",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
   "name" : "Sparrowdo::VSTS::YAML::Nuget",
   "support" : { },
   "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Nuget-0.0.1.tar.gz",
