@@ -16375,7 +16375,9 @@
   "name" : "Digest::SHA1::Native",
   "perl" : "6.c",
   "source-url" : "git://github.com/bduggan/p6-digest-sha1-native.git",
-  "build-depends" : [ ],
+  "build-depends" : [
+    "Shell::Command"
+  ],
   "resources" : [
     "libraries/sha1"
   ],
