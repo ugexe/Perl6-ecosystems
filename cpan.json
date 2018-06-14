@@ -11899,6 +11899,46 @@
 }
 ,
 {
+  "name" : "Inline::Perl5",
+  "support" : {
+    "irc" : "irc://irc.freenode.org/#perl6"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.35.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/p5helper"
+  ],
+  "author" : "github:niner",
+  "repo-type" : "git",
+  "depends" : [
+    "LibraryMake"
+  ],
+  "test-depends" : [
+    "File::Temp"
+  ],
+  "provides" : {
+    "Inline::Perl5::Object" : "lib/Inline/Perl5/Object.pm6",
+    "Inline::Perl5" : "lib/Inline/Perl5.pm6",
+    "Inline::Perl5::Caller" : "lib/Inline/Perl5/Caller.pm6",
+    "Inline::Perl5::Callable" : "lib/Inline/Perl5/Callable.pm6",
+    "Inline::Perl5::Attributes" : "lib/Inline/Perl5/Attributes.pm6",
+    "Inline::Perl5::Array" : "lib/Inline/Perl5/Array.pm6",
+    "Inline::Language::ObjectKeeper" : "lib/Inline/Language/ObjectKeeper.pm6",
+    "Inline::Perl5::Extension" : "lib/Inline/Perl5/Extension.pm6",
+    "Inline::Perl5::Parent" : "lib/Inline/Perl5/Parent.pm6",
+    "Inline::Perl5::Hash" : "lib/Inline/Perl5/Hash.pm6",
+    "Inline::Perl5::Interpreter" : "lib/Inline/Perl5/Interpreter.pm6",
+    "Inline::Perl5::ClassHOW" : "lib/Inline/Perl5/ClassHOW.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.35",
+  "description" : "Use Perl 5 code in a Perl 6 program",
+  "authors" : [
+    "Stefan Seifert"
+  ]
+}
+,
+{
   "name" : "RPi::ButtonWatcher",
   "support" : {
     "source" : "git://github.com/patzim/perl6-RPi-ButtonWatcher.git"
@@ -12152,6 +12192,46 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.6.4",
+  "description" : "US-ASCII restricted character classes from Perl6 and Core ABNF.",
+  "authors" : [
+    "Ron Schmidt"
+  ]
+}
+,
+{
+  "name" : "US-ASCII",
+  "source-url" : "http://www.cpan.org/authors/id/R/RO/RONALDWS/Perl6/US-ASCII-0.6.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "tags" : [
+    "ascii",
+    "ABNF",
+    "grammar",
+    "parse",
+    "parser",
+    "parsing",
+    "text",
+    "web"
+  ],
+  "provides" : {
+    "US-ASCII::ABNF::Core::Only" : "lib/US-ASCII/ABNF/Core/Only.pm6",
+    "US-ASCII::ABNF::Core-r" : "lib/US-ASCII/ABNF/Core.pm6",
+    "US-ASCII::ABNF::Core::Common-g" : "lib/US-ASCII/ABNF/Core/Common.pm6",
+    "US-ASCII" : "lib/US-ASCII.pm6",
+    "_US-ASCII" : "lib/_US-ASCII.pm6",
+    "_US-ASCII-UC" : "lib/_US-ASCII-UC.pm6",
+    "US-ASCII::ABNF::Core::More" : "lib/US-ASCII/ABNF/Core/More.pm6",
+    "US-ASCII::ABNF::Core::Common" : "lib/US-ASCII/ABNF/Core/Common.pm6",
+    "US-ASCIIx" : "lib/US-ASCIIx.pm6",
+    "US-ASCII-ABNF" : "lib/US-ASCII.pm6",
+    "US-ASCII::ABNF::Core::P6Common-g" : "lib/US-ASCII/ABNF/Core/P6Common.pm6",
+    "US-ASCII::ABNF::Core::P6Common" : "lib/US-ASCII/ABNF/Core/P6Common.pm6",
+    "US-ASCII-UC" : "lib/US-ASCII.pm6",
+    "US-ASCII::ABNF::Core" : "lib/US-ASCII/ABNF/Core.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.6.6",
   "description" : "US-ASCII restricted character classes from Perl6 and Core ABNF.",
   "authors" : [
     "Ron Schmidt"
