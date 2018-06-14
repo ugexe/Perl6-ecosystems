@@ -10891,6 +10891,32 @@
 }
 ,
 {
+  "name" : "Sparrowdo::VSTS::YAML::Nuget",
+  "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Nuget-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "build.yaml"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::VSTS::YAML::Nuget" : "lib/Sparrowdo/VSTS/YAML/Nuget.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.2",
+  "description" : "Sparrowdo module to generate VSTS yaml steps for nuget package manager",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
   "name" : "Sparrowdo::VSTS::YAML::Solution",
   "support" : { },
   "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Solution-0.0.1.tar.gz",
