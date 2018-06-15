@@ -11790,6 +11790,42 @@
 }
 ,
 {
+  "name" : "DBIx::NamedQueries",
+  "support" : {
+    "source" : "git://gitlab.com/mziescha/perl6-DBIx-NamedQueries.git",
+    "bugtracker" : "https://gitlab.com/mziescha/perl6-DBIx-NamedQueries/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/M/MZ/MZIESCHA/Perl6/DBIx-NamedQueries-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:MZIESCHA",
+  "depends" : [
+    "DBIish"
+  ],
+  "test-depends" : [
+    "Test::META",
+    "Path::Iterator"
+  ],
+  "tags" : [
+    "DBI",
+    "Database"
+  ],
+  "provides" : {
+    "DBIx::NamedQueries::Handle::DBIish" : "lib/DBIx/NamedQueries/Handle/DBIish.pm",
+    "DBIx::NamedQueries::Plugins" : "lib/DBIx/NamedQueries/Plugins.pm",
+    "DBIx::NamedQueries" : "lib/DBIx/NamedQueries.pm",
+    "DBIx::NamedQueries::Handles" : "lib/DBIx/NamedQueries/Handles.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "a predefined sql framework for Perl6",
+  "authors" : [
+    "Mario Zieschang"
+  ]
+}
+,
+{
   "name" : "CompUnit::Repository::Mask",
   "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/CompUnit-Repository-Mask-0.0.1.tar.gz",
   "perl" : "6.c",
