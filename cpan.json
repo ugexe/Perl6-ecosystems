@@ -8072,6 +8072,27 @@
 }
 ,
 {
+  "name" : "IP::Random",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/IP-Random-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:JMASLAK",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "IP::Random" : "lib/IP/Random.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Generate random IP Addresses",
+  "authors" : [
+    "Joelle Maslak"
+  ]
+}
+,
+{
   "name" : "Algorithm::Evolutionary::Simple",
   "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.3.1.tar.gz",
   "perl" : "6.*",
