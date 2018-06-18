@@ -12604,7 +12604,9 @@
   "name" : "Crypt::TweetNacl",
   "perl" : "v6.c",
   "source-url" : "git://github.com/soundart/perl6-tweetnacl.git",
-  "build-depends" : [ ],
+  "build-depends" : [
+    "Shell::Command"
+  ],
   "resources" : [
     "libraries/tweetnacl"
   ],
