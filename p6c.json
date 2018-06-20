@@ -13007,7 +13007,7 @@
     "Net::OSC" : "lib/Net/OSC.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.2.2",
+  "version" : "0.2.3",
   "description" : "Open Sound Control for Perl6",
   "authors" : [
     "Sam Gillespie"
@@ -16001,29 +16001,22 @@
   "name" : "Numeric::Pack",
   "source-url" : "git://github.com/samgwise/p6-Numeric-Pack.git",
   "perl" : "6.c",
-  "resources" : [
-    "lib/libnumpack.so",
-    "lib/libnumpack.dll",
-    "lib/libnumpack.dylib"
-  ],
-  "build-depends" : [
-    "LibraryMake"
-  ],
+  "resources" : [ ],
+  "build-depends" : [ ],
   "depends" : [
-    "LibraryMake",
     "NativeCall"
   ],
   "test-depends" : [ ],
-  "provides" : {
-    "Numeric::Pack" : "lib/Numeric/Pack.pm6"
-  },
-  "license" : "Artistic-2.0",
   "tags" : [
     "Binary",
     "Buf",
     "Native"
   ],
-  "version" : "0.2.0",
+  "provides" : {
+    "Numeric::Pack" : "lib/Numeric/Pack.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.0",
   "description" : "Convert perl6 Numerics to Bufs and back again!",
   "authors" : [
     "Sam Gillespie"
