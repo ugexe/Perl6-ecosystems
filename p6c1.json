@@ -13002,6 +13002,11 @@
     "Numeric::Pack"
   ],
   "test-depends" : [ ],
+  "tags" : [
+    "music",
+    "Open Sound Control",
+    "Communication"
+  ],
   "provides" : {
     "Net::OSC::Types" : "lib/Net/OSC/Types.pm6",
     "Net::OSC::Message" : "lib/Net/OSC/Message.pm6",
@@ -13012,12 +13017,7 @@
     "Net::OSC" : "lib/Net/OSC.pm6"
   },
   "license" : "Artistic-2.0",
-  "tags" : [
-    "music",
-    "Open Sound Control",
-    "Communication"
-  ],
-  "version" : "0.2.1",
+  "version" : "0.2.2",
   "description" : "Open Sound Control for Perl6",
   "authors" : [
     "Sam Gillespie"
