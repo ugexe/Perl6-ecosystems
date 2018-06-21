@@ -1293,6 +1293,30 @@
 }
 ,
 {
+  "name" : "Acme::Don't",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Acme-Dont-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "CPAN5",
+    "ACME"
+  ],
+  "provides" : {
+    "Acme::Don't" : "lib/Acme/Don't.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "The opposite of do",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "DirHandle",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/DirHandle-0.0.1.tar.gz",
   "perl" : "6.c",
