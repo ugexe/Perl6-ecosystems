@@ -5299,15 +5299,18 @@
 ,
 {
   "name" : "App::Uni",
-  "perl" : "6.c",
   "source-url" : "git://github.com/coke/p6-uni.git",
+  "perl" : "6",
   "resources" : [ ],
+  "build-depends" : [ ],
   "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
   "provides" : {
     "App::Uni" : "lib/App/Uni.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "1.0.0",
+  "version" : "1.0.1",
   "description" : "command-line utility to find or display Unicode characters",
   "authors" : [
     "Will 'Coke' Coleda"
