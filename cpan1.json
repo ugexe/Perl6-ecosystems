@@ -16705,6 +16705,30 @@ null
 }
 ,
 {
+  "name" : "Pod::To::Pager",
+  "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Pod-To-Pager-0.1.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "Terminal::ANSIColor"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Pod::To::Pager::BorderedBlock" : "lib/Pod/To/Pager/BorderedBlock.pm6",
+    "Pod::To::Pager" : "lib/Pod/To/Pager.pm6",
+    "p6man" : "bin/p6man",
+    "Pod::To::Pager::Handlers" : "lib/Pod/To/Pager/Handlers.pm6"
+  },
+  "license" : "AGPL-3.0",
+  "version" : "0.1.0",
+  "meta-version" : 0,
+  "description" : "Nondescript",
+  "authors" : [
+    "Patrick Spek <p.spek@tyil.work>"
+  ]
+}
+,
+{
   "name" : "SemVer",
   "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/SemVer-0.1.0.tar.gz",
   "perl" : "6.c",
