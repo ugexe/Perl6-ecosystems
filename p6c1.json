@@ -11062,7 +11062,7 @@
     "IRC"
   ],
   "license" : "Artistic-2.0",
-  "version" : "3.007006",
+  "version" : "3.007007",
   "authors" : [
     "Zoffix Znet"
   ],
@@ -11243,6 +11243,7 @@
   "author" : "atweiden",
   "depends" : [
     "Config::TOML",
+    "File::Path::Resolve",
     "File::Presence",
     "TXN::Parser",
     "TXN::Remarshal"
@@ -15376,7 +15377,7 @@
     "File::Presence" : "lib/File/Presence.pm6"
   },
   "license" : "Unlicense",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "description" : "Check permissions of potentially nonexistent files"
 }
 ,
@@ -16062,6 +16063,7 @@
   "source-type" : "git",
   "author" : "atweiden",
   "depends" : [
+    "File::Path::Resolve",
     "File::Presence",
     "TXN::Parser"
   ],
