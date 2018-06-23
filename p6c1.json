@@ -21766,4 +21766,22 @@
     "Fernando Correa de Oliveira"
   ]
 }
+,
+{
+  "name" : "File::Path::Resolve",
+  "support" : {
+    "source" : "https://github.com/atweiden/file-path-resolve",
+    "bugtracker" : "https://github.com/atweiden/file-path-resolve/issues"
+  },
+  "source-url" : "git://github.com/atweiden/file-path-resolve.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "author" : "atweiden",
+  "provides" : {
+    "File::Path::Resolve" : "lib/File/Path/Resolve.pm6"
+  },
+  "license" : "Unlicense",
+  "version" : "0.0.1",
+  "description" : "Resolve file path strings which may include a leading `~`"
+}
 ]
