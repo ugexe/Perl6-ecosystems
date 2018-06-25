@@ -9035,6 +9035,66 @@
 }
 ,
 {
+  "name" : "cro",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-0.7.6.tar.gz",
+  "perl" : "6.*",
+  "resources" : [
+    "web/index.html",
+    "web/css/bootstrap.min.css",
+    "web/css/cro.css",
+    "web/js/app.js",
+    "web/fonts/glyphicons-halflings-regular.woff2",
+    "fake-tls/ca-crt.pem",
+    "fake-tls/server-crt.pem",
+    "fake-tls/server-key.pem"
+  ],
+  "depends" : [
+    "IO::Socket::Async::SSL",
+    "JSON::Fast",
+    "META6",
+    "Shell::Command",
+    "File::Find",
+    "Terminal::ANSIColor",
+    "OO::Monitors",
+    "YAMLish",
+    "Cro::WebSocket",
+    "Docker::File",
+    "File::Ignore"
+  ],
+  "tags" : [
+    "HTTP",
+    "WebSocket"
+  ],
+  "provides" : {
+    "Cro::Tools::Template::ZeroMQWorkSinkService" : "lib/Cro/Tools/Template/ZeroMQWorkSinkService.pm6",
+    "Cro::Tools::TemplateLocator" : "lib/Cro/Tools/TemplateLocator.pm6",
+    "Cro::Tools::Template" : "lib/Cro/Tools/Template.pm6",
+    "Cro::Tools::Template::ZeroMQWorkerService" : "lib/Cro/Tools/Template/ZeroMQWorkerService.pm6",
+    "Cro::Tools::Web" : "lib/Cro/Tools/Web.pm6",
+    "Cro::Tools::Serve" : "lib/Cro/Tools/Serve.pm6",
+    "Cro::Tools::LinkTemplate::WS" : "lib/Cro/Tools/LinkTemplate/WS.pm6",
+    "Cro::Tools::LinkTemplate" : "lib/Cro/Tools/LinkTemplate.pm6",
+    "Cro::Tools::CroFile" : "lib/Cro/Tools/CroFile.pm6",
+    "Cro::Tools::Template::Common" : "lib/Cro/Tools/Template/Common.pm6",
+    "Cro::Tools::Services" : "lib/Cro/Tools/Services.pm6",
+    "Cro::Tools::LinkTemplate::HTTPS" : "lib/Cro/Tools/LinkTemplate/HTTPS.pm6",
+    "Cro::Tools::LinkTemplate::HTTP" : "lib/Cro/Tools/LinkTemplate/HTTP.pm6",
+    "Cro::Tools::Template::ReactReduxSPA" : "lib/Cro/Tools/Template/ReactReduxSPA.pm6",
+    "Cro::Tools::Template::HTTPService" : "lib/Cro/Tools/Template/HTTPService.pm6",
+    "Cro::Tools::Runner" : "lib/Cro/Tools/Runner.pm6",
+    "Cro::Tools::LinkTemplate::WSS" : "lib/Cro/Tools/LinkTemplate/WSS.pm6",
+    "Cro::Tools::Link::Editor" : "lib/Cro/Tools/Link/Editor.pm6",
+    "Cro::Tools::CLI" : "lib/Cro/Tools/CLI.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.7.6",
+  "description" : "Libraries and tools for building reactive services in Perl 6. This installs the cro command line and web tool, along with HTTP (including HTTPS and HTTP/2.0) and WebSocket support.",
+  "authors" : [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ]
+}
+,
+{
   "name" : "Cro::Core",
   "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-core-0.7.1.tar.gz",
   "perl" : "6.*",
@@ -9190,6 +9250,41 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.7.5",
+  "description" : "Implements the asynchronous pipeline at the heart of all Cro libraries.",
+  "authors" : [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ]
+}
+,
+{
+  "name" : "Cro::Core",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-core-0.7.6.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "Cro::Uri" : "lib/Cro/Uri.pm6",
+    "Cro::BodySerializer" : "lib/Cro/BodySerializer.pm6",
+    "Cro::Iri" : "lib/Cro/Iri.pm6",
+    "Cro::Connector" : "lib/Cro/Connector.pm6",
+    "Cro::Types" : "lib/Cro/Types.pm6",
+    "Cro::Transform" : "lib/Cro/Transform.pm6",
+    "Cro::Source" : "lib/Cro/Source.pm6",
+    "Cro::Service" : "lib/Cro/Service.pm6",
+    "Cro::MessageWithBody" : "lib/Cro/MessageWithBody.pm6",
+    "Cro::Message" : "lib/Cro/Message.pm6",
+    "Cro::TCP" : "lib/Cro/TCP.pm6",
+    "Cro::BodySerializerSelector" : "lib/Cro/BodySerializerSelector.pm6",
+    "Cro::Replyable" : "lib/Cro/Replyable.pm6",
+    "Cro::BodyParser" : "lib/Cro/BodyParser.pm6",
+    "Cro" : "lib/Cro.pm6",
+    "Cro::MediaType" : "lib/Cro/MediaType.pm6",
+    "Cro::Connection" : "lib/Cro/Connection.pm6",
+    "Cro::BodyParserSelector" : "lib/Cro/BodyParserSelector.pm6",
+    "Cro::Sink" : "lib/Cro/Sink.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.7.6",
   "description" : "Implements the asynchronous pipeline at the heart of all Cro libraries.",
   "authors" : [
     "Jonathan Worthington <jnthn@jnthn.net>"
@@ -9567,6 +9662,21 @@
 }
 ,
 {
+  "name" : "Cro::HTTP",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-http-0.7.6.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "Cro::HTTP" : "lib/Cro/HTTP.pm6"
+  },
+  "license" : "Choose me!",
+  "version" : "0.7.6",
+  "description" : "Write me!",
+  "authors" : [ ]
+}
+,
+{
   "name" : "Cro::TLS",
   "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-tls-0.7.1.tar.gz",
   "perl" : "6.*",
@@ -9676,6 +9786,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.7.5",
+  "description" : "Cro pipeline components for building services that use TLS.",
+  "authors" : [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ]
+}
+,
+{
+  "name" : "Cro::TLS",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-tls-0.7.6.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [
+    "Cro::Core",
+    "IO::Socket::Async::SSL"
+  ],
+  "tags" : [
+    "SSL",
+    "TLS"
+  ],
+  "provides" : {
+    "Cro::TLS" : "lib/Cro/TLS.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.7.6",
   "description" : "Cro pipeline components for building services that use TLS.",
   "authors" : [
     "Jonathan Worthington <jnthn@jnthn.net>"
@@ -9873,6 +10007,47 @@
 }
 ,
 {
+  "name" : "Cro::WebSocket",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-websocket-0.7.6.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [
+    "Cro::HTTP",
+    "Base64",
+    "Digest::SHA1::Native",
+    "Crypt::Random",
+    "JSON::Fast"
+  ],
+  "tags" : [
+    "WebSocket",
+    "Client",
+    "Server"
+  ],
+  "provides" : {
+    "Cro::WebSocket::Message::Opcode" : "lib/Cro/WebSocket/Message/Opcode.pm6",
+    "Cro::WebSocket::FrameSerializer" : "lib/Cro/WebSocket/FrameSerializer.pm6",
+    "Cro::HTTP::Router::WebSocket" : "lib/Cro/HTTP/Router/WebSocket.pm6",
+    "Cro::WebSocket::Handler" : "lib/Cro/WebSocket/Handler.pm6",
+    "Cro::WebSocket::FrameParser" : "lib/Cro/WebSocket/FrameParser.pm6",
+    "Cro::WebSocket::Frame" : "lib/Cro/WebSocket/Frame.pm6",
+    "Cro::WebSocket::MessageParser" : "lib/Cro/WebSocket/MessageParser.pm6",
+    "Cro::WebSocket::Internal" : "lib/Cro/WebSocket/Internal.pm6",
+    "Cro::WebSocket::BodySerializers" : "lib/Cro/WebSocket/BodySerializers.pm6",
+    "Cro::WebSocket::MessageSerializer" : "lib/Cro/WebSocket/MessageSerializer.pm6",
+    "Cro::WebSocket::Client::Connection" : "lib/Cro/WebSocket/Client/Connection.pm6",
+    "Cro::WebSocket::Client" : "lib/Cro/WebSocket/Client.pm6",
+    "Cro::WebSocket::BodyParsers" : "lib/Cro/WebSocket/BodyParsers.pm6",
+    "Cro::WebSocket::Message" : "lib/Cro/WebSocket/Message.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.7.6",
+  "description" : "WebSocket client, and WebSocket support in the Cro HTTP router.",
+  "authors" : [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ]
+}
+,
+{
   "name" : "Cro::ZeroMQ",
   "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-zeromq-0.7.1.tar.gz",
   "perl" : "6.*",
@@ -10053,6 +10228,44 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.7.5",
+  "description" : "Support for building ZeroMQ services with Cro.",
+  "authors" : [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ]
+}
+,
+{
+  "name" : "Cro::ZeroMQ",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-zeromq-0.7.6.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [
+    "Net::ZMQ",
+    "Cro::Core",
+    "Cro"
+  ],
+  "tags" : [
+    "ZeroMQ"
+  ],
+  "provides" : {
+    "Cro::ZeroMQ::Socket::Rep" : "lib/Cro/ZeroMQ/Socket/Rep.pm6",
+    "Cro::ZeroMQ::Socket::Pub" : "lib/Cro/ZeroMQ/Socket/Pub.pm6",
+    "Cro::ZeroMQ::Socket::Dealer" : "lib/Cro/ZeroMQ/Socket/Dealer.pm6",
+    "Cro::ZeroMQ::Distributor" : "lib/Cro/ZeroMQ/Distributor.pm6",
+    "Cro::ZeroMQ::Socket::Pull" : "lib/Cro/ZeroMQ/Socket/Pull.pm6",
+    "Cro::ZeroMQ::Client" : "lib/Cro/ZeroMQ/Client.pm6",
+    "Cro::ZeroMQ::Socket::Sub" : "lib/Cro/ZeroMQ/Socket/Sub.pm6",
+    "Cro::ZeroMQ::Socket::Router" : "lib/Cro/ZeroMQ/Socket/Router.pm6",
+    "Cro::ZeroMQ::Message" : "lib/Cro/ZeroMQ/Message.pm6",
+    "Cro::ZeroMQ::Socket::Push" : "lib/Cro/ZeroMQ/Socket/Push.pm6",
+    "Cro::ZeroMQ::Component" : "lib/Cro/ZeroMQ/Component.pm6",
+    "Cro::ZeroMQ::Internal" : "lib/Cro/ZeroMQ/Internal.pm6",
+    "Cro::ZeroMQ::Socket::Req" : "lib/Cro/ZeroMQ/Socket/Req.pm6",
+    "Cro::ZeroMQ::Service" : "lib/Cro/ZeroMQ/Service.pm6",
+    "Cro::ZeroMQ::Collector" : "lib/Cro/ZeroMQ/Collector.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.7.6",
   "description" : "Support for building ZeroMQ services with Cro.",
   "authors" : [
     "Jonathan Worthington <jnthn@jnthn.net>"
