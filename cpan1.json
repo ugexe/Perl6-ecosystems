@@ -10609,6 +10609,26 @@
 }
 ,
 {
+  "name" : "Geo::Coordinates::UTM",
+  "source-url" : "http://www.cpan.org/authors/id/K/KJ/KJPYE/Perl6/Geo-Coordinates-UTM-0.9.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Geo::Coordinates::UTM" : "lib/Geo/Coordinates/UTM.pm"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.9.0",
+  "description" : "Perl extension for Latitude Longitude conversions.",
+  "authors" : [
+    "Kevin Pye (Kevin.Pye@gmail.com)"
+  ]
+}
+,
+{
   "name" : "LIVR",
   "source-url" : "http://www.cpan.org/authors/id/K/KO/KOORCHIK/Perl6/LIVR-2.0.0.tar.gz",
   "perl" : "6.c",
