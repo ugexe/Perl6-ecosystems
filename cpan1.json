@@ -563,6 +563,27 @@
 }
 ,
 {
+  "name" : "RDF::Turtle",
+  "source-url" : "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/RDF-Turtle-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "depends" : [
+    "Terminal::ANSIColor"
+  ],
+  "provides" : {
+    "RDF::Turtle::Grammar" : "lib/RDF/Turtle/Grammar.pm6",
+    "RDF::Turtle" : "lib/RDF/Turtle.pm6",
+    "RDF::Turtle::Error" : "lib/RDF/Turtle/Error.pm6",
+    "RDF::Turtle::Actions" : "lib/RDF/Turtle/Actions.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.2",
+  "description" : "Parse RDF Turtle files",
+  "authors" : [
+    "Brian Duggan"
+  ]
+}
+,
+{
   "name" : "WebService::AWS::S3",
   "support" : {
     "source" : "git://github.com/bduggan/aws-s3-perl6.git"
