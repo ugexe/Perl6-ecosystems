@@ -11232,6 +11232,33 @@
 }
 ,
 {
+  "name" : "Sparrowdo::Azure::Web::Cert",
+  "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-Azure-Web-Cert-0.0.1.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "create-cert.json",
+    "update-cert.json"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::Azure::Web::Cert" : "lib/Sparrowdo/Azure/Web/Cert.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.1",
+  "description" : "Create SSL certificate  and bind domain for Azure web application",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
   "name" : "Sparrowdo::Prometheus",
   "support" : {
     "source" : "https://github.com/melezhik/sparrowdo-prometheus.git",
