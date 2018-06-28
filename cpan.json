@@ -1656,6 +1656,29 @@
 }
 ,
 {
+  "name" : "InterceptAllMethods",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/InterceptAllMethods-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "InterceptAllMethods" : "lib/InterceptAllMethods.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "export ClassHOW to intercept all method calls",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "List::AllUtils",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-AllUtils-0.0.3.tar.gz",
   "perl" : "6.c",
