@@ -8778,7 +8778,7 @@
     "IO::Glob::Globber::Expansion" : "lib/IO/Glob.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.4",
+  "version" : "0.5",
   "authors" : [
     "Andrew Sterling Hanenkamp <hanenkamp@cpan.org>",
     "Peter Pentchev <roam@ringlet.net>"
@@ -11041,6 +11041,7 @@
     "IRC::Client::Server" : "lib/IRC/Client/Server.pm6",
     "IRC::Client::Grammar::Actions" : "lib/IRC/Client/Grammar/Actions.pm6",
     "IRC::Client::Message" : "lib/IRC/Client/Message.pm6",
+    "IRC::Client::Plugin" : "lib/IRC/Client.pm6",
     "IRC::Client::Grammar" : "lib/IRC/Client/Grammar.pm6"
   },
   "test-depends" : [
@@ -11053,7 +11054,7 @@
     "IRC"
   ],
   "license" : "Artistic-2.0",
-  "version" : "3.007007",
+  "version" : "3.007008",
   "authors" : [
     "Zoffix Znet"
   ],
@@ -12150,7 +12151,7 @@
     "Zef::Fetch" : "lib/Zef/Fetch.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.4.4",
+  "version" : "0.4.5",
   "authors" : [
     "Nick Logan",
     "Tony O'Dell"
@@ -16229,6 +16230,7 @@
     "NativeHelpers::Array"
   ],
   "test-depends" : [ ],
+  "tags" : [ ],
   "provides" : {
     "Algorithm::LBFGS" : "lib/Algorithm/LBFGS.pm6",
     "Algorithm::LBFGS::Status" : "lib/Algorithm/LBFGS/Status.pm6",
@@ -19031,6 +19033,10 @@
   "source-url" : "git://github.com/zoffixznet/perl6-Die.git",
   "perl" : "6.c",
   "depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
   "provides" : {
     "Die" : "lib/Die.pm6"
   },
@@ -19039,7 +19045,7 @@
     "Test::META"
   ],
   "license" : "Artistic-2.0",
-  "version" : "1.001001",
+  "version" : "1.001002",
   "authors" : [
     "Zoffix Znet"
   ],
@@ -19637,7 +19643,7 @@
     "Test::META"
   ],
   "license" : "MIT",
-  "version" : "0.3.1",
+  "version" : "0.3.5",
   "authors" : "Loren",
   "description" : "Advanced command line parse module for perl6"
 }
@@ -20505,7 +20511,7 @@
   },
   "license" : "Artistic-2.0",
   "test-depends" : [ ],
-  "version" : "0.0.2",
+  "version" : "0.0.3",
   "description" : "A type for storing a caller allocated Buffer",
   "authors" : [
     "Vittore F. Scolari <vittore.scolari@pasteur.fr>"
@@ -21475,7 +21481,7 @@
     "Koos::Row" : "lib/Koos/Row.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.3",
+  "version" : "0.0.4",
   "authors" : [
     "Tony O'Dell"
   ],
