@@ -6495,6 +6495,29 @@
 }
 ,
 {
+  "name" : "unprint",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/unprint-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "unprint" : "lib/unprint.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "provide fast unbuffered print / say / put",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "vars",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/vars-0.0.1.tar.gz",
   "perl" : "6.c",
