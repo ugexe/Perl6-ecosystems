@@ -7935,33 +7935,34 @@
 ,
 {
   "name" : "Readline",
-  "source-url" : "https://github.com/drforr/perl6-readline.git",
-  "perl" : "6.c",
   "support" : {
     "source" : "https://github.com/drforr/perl6-readline"
   },
+  "source-url" : "https://github.com/drforr/perl6-readline.git",
+  "perl" : "6.c",
+  "resources" : [ ],
   "build-depends" : [
     "LibraryCheck"
   ],
   "auth" : "github:drforr",
   "depends" : [ ],
-  "license" : "Artistic-2.0",
   "test-depends" : [
     "Test"
   ],
-  "provides" : {
-    "Readline" : "lib/Readline.pm"
-  },
   "tags" : [
     "terminal",
     "CLI"
   ],
+  "provides" : {
+    "Readline" : "lib/Readline.pm"
+  },
+  "license" : "Artistic-2.0",
   "version" : "0.0.2",
+  "meta6" : "0",
   "description" : "Perl 6 interface to GNU Readline, the CLI-based line reading library",
   "authors" : [
     "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "meta6" : "0"
+  ]
 }
 ,
 {
@@ -19985,7 +19986,8 @@
     "Text::UpsideDown" : "lib/Text/UpsideDown.pm6"
   },
   "tags" : [
-    "Text"
+    "Text",
+    "CPAN5"
   ],
   "version" : "1.0.0",
   "authors" : [
