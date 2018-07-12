@@ -10481,16 +10481,11 @@
   ],
   "provides" : {
     "Pod::Coverage::Result" : "lib/Pod/Coverage/Result.pm6",
-    "Pod::Coverage::Anypod" : "lib/Pod/Coverage/Anypod.pm6",
     "Test::Coverage" : "lib/Test/Coverage.pm6",
-    "Pod::To::Keywords" : "lib/Pod/To/Keywords.pm6",
-    "Pod::Coverage::Full" : "lib/Pod/Coverage/Full.pm6",
-    "Pod::Coverage" : "lib/Pod/Coverage.pm6",
-    "Pod::Coverage::PodEgg" : "lib/Pod/Coverage/PodEgg.pm6",
-    "Pod::Tester" : "lib/Pod/Tester.pm6"
+    "Pod::Coverage" : "lib/Pod/Coverage.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "v0.1.0",
+  "version" : "v0.1.1",
   "description" : "Pod coverage library",
   "authors" : [
     "github:teodozjan"
