@@ -5829,6 +5829,30 @@
 }
 ,
 {
+  "name" : "P5substr",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5substr-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5substr" : "lib/P5substr.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "Implement Perl 5's substr() built-in",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5tie",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5tie-0.0.8.tar.gz",
   "perl" : "6.c",
@@ -6158,6 +6182,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.6",
+  "description" : "Implement Perl 5's Sys::Hostname core module",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "Sys::Hostname",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sys-Hostname-0.0.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Sys::Hostname" : "lib/Sys/Hostname.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
   "description" : "Implement Perl 5's Sys::Hostname core module",
   "authors" : [
     "Elizabeth Mattijsen"
@@ -11961,6 +12009,32 @@
   },
   "license" : "NOASSERTION",
   "version" : "0.0.2",
+  "description" : "Sparrowdo module to generate VSTS yaml build definition header",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Sparrowdo::VSTS::YAML::Build",
+  "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Build-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "build.yaml"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::VSTS::YAML::Build" : "lib/Sparrowdo/VSTS/YAML/Build.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.3",
   "description" : "Sparrowdo module to generate VSTS yaml build definition header",
   "authors" : [
     "Alexey Melezhik"
