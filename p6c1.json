@@ -14156,24 +14156,6 @@
 }
 ,
 {
-  "name" : "Crypt::Random",
-  "source-url" : "git://github.com/skinkade/crypt-random.git",
-  "perl" : "6.*",
-  "author" : "github:skinkade",
-  "depends" : [
-    "if"
-  ],
-  "provides" : {
-    "Crypt::Random" : "lib/Crypt/Random.pm6",
-    "Crypt::Random::Nix" : "lib/Crypt/Random/Nix.pm6",
-    "Crypt::Random::Extra" : "lib/Crypt/Random/Extra.pm6",
-    "Crypt::Random::Win" : "lib/Crypt/Random/Win.pm6"
-  },
-  "version" : "0.4.1",
-  "description" : "Random numbers and bytes mimicking arc4random"
-}
-,
-{
   "name" : "GlotIO",
   "source-url" : "git://github.com/zoffixznet/perl6-GlotIO.git",
   "perl" : "6.c",
