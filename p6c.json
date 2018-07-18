@@ -3002,6 +3002,31 @@
 }
 ,
 {
+  "name" : "Grammar::Debugger",
+  "source-url" : "git://github.com/jnthn/grammar-debugger.git",
+  "perl" : "6.*",
+  "build-depends" : [
+    "Terminal::ANSIColor"
+  ],
+  "auth" : "github:jnthn",
+  "depends" : [
+    "Terminal::ANSIColor"
+  ],
+  "provides" : {
+    "Grammar::Debugger::WrapCache" : "lib/Grammar/Debugger/WrapCache.pm6",
+    "Grammar::Debugger" : "lib/Grammar/Debugger.pm6",
+    "Grammar::Tracer" : "lib/Grammar/Tracer.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "creator" : "Jonathan Worthington",
+  "version" : "1.0.1",
+  "description" : "Simple tracing and debugging support for Perl 6 grammars"
+}
+,
+{
   "name" : "MessagePack",
   "source-url" : "git://github.com/uasi/messagepack-pm6.git",
   "perl" : "6.*",
