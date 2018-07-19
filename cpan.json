@@ -9136,6 +9136,32 @@
 }
 ,
 {
+  "name" : "Sparrowdo::VSTS::YAML::Build",
+  "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Build-0.0.5.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "build.yaml"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::VSTS::YAML::Build" : "lib/Sparrowdo/VSTS/YAML/Build.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.5",
+  "description" : "Sparrowdo module to generate VSTS yaml build definition header",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
   "name" : "Sparrowdo::VSTS::YAML::Build::Assembly::Patch",
   "support" : { },
   "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Build-Assembly-Patch-0.0.1.tar.gz",
@@ -13096,6 +13122,45 @@
   },
   "license" : "GPL-3.0",
   "version" : "0.0.4",
+  "description" : "A Perl 6 bindings for gnuplot",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
+  "name" : "Chart::Gnuplot",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Chart-Gnuplot-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [
+    "zef"
+  ],
+  "author" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [
+    "IO::Capture::Simple"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Chart::Gnuplot::Subset" : "lib/Chart/Gnuplot/Subset.pm6",
+    "Chart::Gnuplot::Legend" : "lib/Chart/Gnuplot/Legend.pm6",
+    "Chart::Gnuplot::Label" : "lib/Chart/Gnuplot/Label.pm6",
+    "Chart::Gnuplot::Range" : "lib/Chart/Gnuplot/Range.pm6",
+    "Chart::Gnuplot::Timestamp" : "lib/Chart/Gnuplot/Timestamp.pm6",
+    "Chart::Gnuplot::Title" : "lib/Chart/Gnuplot/Title.pm6",
+    "Chart::Gnuplot::Tics" : "lib/Chart/Gnuplot/Tics.pm6",
+    "Chart::Gnuplot::Border" : "lib/Chart/Gnuplot/Border.pm6",
+    "Chart::Gnuplot::Arrow" : "lib/Chart/Gnuplot/Arrow.pm6",
+    "Chart::Gnuplot" : "lib/Chart/Gnuplot.pm6",
+    "Chart::Gnuplot::Util" : "lib/Chart/Gnuplot/Util.pm6",
+    "Chart::Gnuplot::Terminal" : "lib/Chart/Gnuplot/Terminal.pm6",
+    "Chart::Gnuplot::Output" : "lib/Chart/Gnuplot/Output.pm6",
+    "Chart::Gnuplot::Object" : "lib/Chart/Gnuplot/Object.pm6",
+    "Chart::Gnuplot::Grid" : "lib/Chart/Gnuplot/Grid.pm6"
+  },
+  "license" : "GPL-3.0",
+  "version" : "0.0.5",
   "description" : "A Perl 6 bindings for gnuplot",
   "authors" : [
     "Itsuki Toyota"
