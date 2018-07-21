@@ -5805,6 +5805,34 @@
 }
 ,
 {
+  "name" : "Git::Wrapper",
+  "source-url" : "https://gitlab.com/orangebot/p6-Git-Wrapper.git",
+  "support" : {
+    "source" : "https://gitlab.com/orangebot/p6-Git-Wrapper.git"
+  },
+  "perl" : "6.c",
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "tags" : [
+    "git",
+    "wrapper"
+  ],
+  "provides" : {
+    "Git::Wrapper::Log" : "lib/Git/Log/Parser.pm6",
+    "Git::Wrapper" : "lib/Git/Wrapper.pm6",
+    "Git::Log::Actions" : "lib/Git/Log/Parser.pm6",
+    "Git::Log::Parser" : "lib/Git/Log/Parser.pm6"
+  },
+  "test-depends" : [ ],
+  "version" : "0.0.8",
+  "description" : "simple, hacky way to use git from Perl 6",
+  "authors" : [
+    "PerlPilot",
+    "nicqrocks"
+  ]
+}
+,
+{
   "name" : "GTK::Simple",
   "source-url" : "git://github.com/perl6/gtk-simple.git",
   "perl" : "6.c",
@@ -14018,6 +14046,76 @@
 }
 ,
 {
+  "name" : "Task::Galaxy",
+  "source-url" : "https://gitlab.com/stmuk/p6-task-galaxy.git",
+  "perl" : "6.c",
+  "depends" : [
+    "007",
+    "Bailador",
+    "Base64",
+    "BioInfo",
+    "BioPerl6",
+    "CSS::Grammar",
+    "CSV::Parser",
+    "CompUnit::Util",
+    "Compress::Zlib",
+    "Crust",
+    "DBIish",
+    "DateTime::Format",
+    "Debugger::UI::CommandLine",
+    "Digest",
+    "Digest::HMAC",
+    "Digest::MD5",
+    "Email::Simple",
+    "File::Find",
+    "File::Temp",
+    "File::Which",
+    "Grammar::BNF",
+    "Grammar::Debugger",
+    "Grammar::Profiler::Simple",
+    "HTTP::Easy",
+    "HTTP::Status",
+    "HTTP::UserAgent",
+    "JSON::RPC",
+    "JSON::Tiny",
+    "LWP::Simple",
+    "LibraryMake",
+    "Linenoise",
+    "MIME::Base64",
+    "OpenSSL",
+    "P6TCI",
+    "PSGI",
+    "Pod::To::HTML",
+    "Pod::To::Markdown",
+    "SCGI",
+    "SVG",
+    "SVG::Plot",
+    "Shell::Command",
+    "Sparrowdo",
+    "Template6",
+    "Template::Mojo",
+    "Terminal::ANSIColor",
+    "Test::Meta",
+    "Test::Mock",
+    "URI",
+    "URI::Encode",
+    "UUID",
+    "XML",
+    "XML::Writer",
+    "YAMLish",
+    "p6doc",
+    "panda",
+    "Zef"
+  ],
+  "provides" : { },
+  "version" : "0.1",
+  "authors" : [
+    "Steve Mynott <steve.mynott@gmail.com>"
+  ],
+  "description" : "Another meta-package for modules (with tests), fatter than Task::Star and more test orientated."
+}
+,
+{
   "name" : "Text::Caesar",
   "source-url" : "git://github.com/Emeric54/p6-text-caesar.git",
   "perl" : "6.c",
@@ -21798,6 +21896,19 @@
   "license" : "Unlicense",
   "version" : "0.0.1",
   "description" : "Calorie tracker"
+}
+,
+{
+  "name" : "Net::Ethereum",
+  "source-url" : "git://gitlab.com/pheix/net-ethereum-perl6.git",
+  "perl" : "6.*",
+  "depends" : [ ],
+  "provides" : {
+    "Net::Ethereum" : "lib/Net/Ethereum.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.28",
+  "description" : "A Perl6 interface for interacting with the Ethereum blockchain and ecosystem via JSON RPC API"
 }
 ,
 {
