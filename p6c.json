@@ -5805,34 +5805,6 @@
 }
 ,
 {
-  "name" : "Git::Wrapper",
-  "source-url" : "https://gitlab.com/orangebot/p6-Git-Wrapper.git",
-  "support" : {
-    "source" : "https://gitlab.com/orangebot/p6-Git-Wrapper.git"
-  },
-  "perl" : "6.c",
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "tags" : [
-    "git",
-    "wrapper"
-  ],
-  "provides" : {
-    "Git::Wrapper::Log" : "lib/Git/Log/Parser.pm6",
-    "Git::Wrapper" : "lib/Git/Wrapper.pm6",
-    "Git::Log::Actions" : "lib/Git/Log/Parser.pm6",
-    "Git::Log::Parser" : "lib/Git/Log/Parser.pm6"
-  },
-  "test-depends" : [ ],
-  "version" : "0.0.8",
-  "description" : "simple, hacky way to use git from Perl 6",
-  "authors" : [
-    "PerlPilot",
-    "nicqrocks"
-  ]
-}
-,
-{
   "name" : "GTK::Simple",
   "source-url" : "git://github.com/perl6/gtk-simple.git",
   "perl" : "6.c",
