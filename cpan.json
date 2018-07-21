@@ -3755,40 +3755,6 @@
 ,
 {
   "name" : "Archive::Libarchive::Raw",
-  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-Raw-0.0.5.tar.gz",
-  "perl" : "6.c",
-  "resources" : [
-    "libarchive.dll"
-  ],
-  "build-depends" : [
-    "LWP::Simple"
-  ],
-  "depends" : [
-    "NativeCall"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "archive",
-    "libarchive",
-    "compression",
-    "nativecall"
-  ],
-  "provides" : {
-    "Archive::Libarchive::Raw" : "lib/Archive/Libarchive/Raw.pm6",
-    "Archive::Libarchive::Constants" : "lib/Archive/Libarchive/Constants.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.5",
-  "description" : "Raw interface to libarchive",
-  "authors" : [
-    "Fernando Santagata"
-  ]
-}
-,
-{
-  "name" : "Archive::Libarchive::Raw",
   "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-Raw-0.0.6.tar.gz",
   "perl" : "6.c",
   "resources" : [
@@ -3854,106 +3820,6 @@
 ,
 {
   "name" : "Desktop::Notify",
-  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-0.2.2.tar.gz",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "desktop",
-    "notification",
-    "libnotify",
-    "nativecall"
-  ],
-  "provides" : {
-    "Desktop::Notify" : "lib/Desktop/Notify.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.2.2",
-  "description" : "A simple interface to libnotify",
-  "authors" : [
-    "Fernando Santagata"
-  ]
-}
-,
-{
-  "name" : "Desktop::Notify",
-  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-0.3.0.tar.gz",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "desktop",
-    "notification",
-    "libnotify",
-    "nativecall"
-  ],
-  "provides" : {
-    "Desktop::Notify" : "lib/Desktop/Notify.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.3.0",
-  "description" : "A simple interface to libnotify",
-  "authors" : [
-    "Fernando Santagata"
-  ]
-}
-,
-{
-  "name" : "Desktop::Notify",
-  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-0.3.1.tar.gz",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "desktop",
-    "notification",
-    "libnotify",
-    "nativecall"
-  ],
-  "provides" : {
-    "Desktop::Notify" : "lib/Desktop/Notify.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.3.1",
-  "description" : "A simple interface to libnotify",
-  "authors" : [
-    "Fernando Santagata"
-  ]
-}
-,
-{
-  "name" : "Desktop::Notify",
-  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-0.3.3.tar.gz",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "desktop",
-    "notification",
-    "libnotify",
-    "nativecall"
-  ],
-  "provides" : {
-    "Desktop::Notify" : "lib/Desktop/Notify.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.3.1",
-  "description" : "A simple interface to libnotify",
-  "authors" : [
-    "Fernando Santagata"
-  ]
-}
-,
-{
-  "name" : "Desktop::Notify",
   "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-0.3.4.tar.gz",
   "perl" : "6.c",
   "resources" : [ ],
@@ -3972,35 +3838,6 @@
   "license" : "Artistic-2.0",
   "version" : "0.3.2",
   "description" : "A simple interface to libnotify",
-  "authors" : [
-    "Fernando Santagata"
-  ]
-}
-,
-{
-  "name" : "Image::Libexif",
-  "api" : "1",
-  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Image-Libexif-0.0.1.tar.gz",
-  "perl" : "6.c",
-  "depends" : [
-    "NativeHelpers::Blob"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "image",
-    "exif",
-    "nativecall"
-  ],
-  "provides" : {
-    "Image::Libexif::Raw" : "lib/Image/Libexif/Raw.pm6",
-    "Image::Libexif" : "lib/Image/Libexif.pm6",
-    "Image::Libexif::Constants" : "lib/Image/Libexif/Constants.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "Manipulate image EXIF data",
   "authors" : [
     "Fernando Santagata"
   ]
@@ -4030,50 +3867,6 @@
   "license" : "Artistic-2.0",
   "version" : "0.0.2",
   "description" : "Manipulate image EXIF data",
-  "authors" : [
-    "Fernando Santagata"
-  ]
-}
-,
-{
-  "name" : "Image::QRCode",
-  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Image-QRCode-0.0.1.tar.gz",
-  "perl" : "6.c",
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "image",
-    "qrcode"
-  ],
-  "provides" : {
-    "Image::QRCode" : "lib/Image/QRCode.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "Interface to libqrencode",
-  "authors" : [
-    "Fernando Santagata"
-  ]
-}
-,
-{
-  "name" : "Image::QRCode",
-  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Image-QRCode-0.0.2.tar.gz",
-  "perl" : "6.c",
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "image",
-    "qrcode"
-  ],
-  "provides" : {
-    "Image::QRCode" : "lib/Image/QRCode.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "Interface to libqrencode",
   "authors" : [
     "Fernando Santagata"
   ]
