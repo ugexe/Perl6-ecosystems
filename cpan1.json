@@ -3676,58 +3676,6 @@
 ,
 {
   "name" : "Archive::Libarchive",
-  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-0.0.7.tar.gz",
-  "perl" : "6.c",
-  "depends" : [
-    "Archive::Libarchive::Raw"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "archive",
-    "libarchive",
-    "compression"
-  ],
-  "provides" : {
-    "Archive::Libarchive" : "lib/Archive/Libarchive.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.7",
-  "description" : "High-level bindings to libarchive",
-  "authors" : [
-    "Fernando Santagata"
-  ]
-}
-,
-{
-  "name" : "Archive::Libarchive",
-  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-0.0.8.tar.gz",
-  "perl" : "6.c",
-  "depends" : [
-    "Archive::Libarchive::Raw"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "archive",
-    "libarchive",
-    "compression"
-  ],
-  "provides" : {
-    "Archive::Libarchive" : "lib/Archive/Libarchive.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.8",
-  "description" : "High-level bindings to libarchive",
-  "authors" : [
-    "Fernando Santagata"
-  ]
-}
-,
-{
-  "name" : "Archive::Libarchive",
   "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-0.0.9.tar.gz",
   "perl" : "6.c",
   "depends" : [
