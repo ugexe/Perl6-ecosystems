@@ -21917,31 +21917,6 @@
 }
 ,
 {
-  "name" : "App::Lang::French::VerbTrainer",
-  "support" : {
-    "source" : "https://github.com/zoffixznet/perl6-App-Lang-French-VerbTrainer.git"
-  },
-  "perl" : "6.c",
-  "depends" : [ ],
-  "provides" : {
-    "ValidFrenchVerb" : "lib/App/Lang/French/VerbTrainer.pm6",
-    "App::Lang::French::VerbTrainer" : "lib/App/Lang/French/VerbTrainer.pm6"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "language"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "1.001001",
-  "authors" : [
-    "Zoffix Znet"
-  ],
-  "description" : "Training program for learning tenses and conjugations of French verbs"
-}
-,
-{
   "name" : "SeqSplitter",
   "source-url" : "",
   "perl" : "6.c",
