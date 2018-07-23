@@ -5095,6 +5095,29 @@
 }
 ,
 {
+  "name" : "CSS::Grammar",
+  "source-url" : "git://github.com/p6-css/CSS-Grammar-p6.git",
+  "perl" : "6c",
+  "auth" : "github:p6-css",
+  "depends" : [
+    "JSON::Fast"
+  ],
+  "provides" : {
+    "CSS::Grammar::Actions" : "lib/CSS/Grammar/Actions.pm",
+    "CSS::Grammar::CSS3" : "lib/CSS/Grammar/CSS3.pm",
+    "CSS::Grammar::Test" : "lib/CSS/Grammar/Test.pm",
+    "CSS::Grammar::CSS1" : "lib/CSS/Grammar/CSS1.pm",
+    "CSS::Grammar::AST" : "lib/CSS/Grammar/AST.pm",
+    "CSS::Grammar" : "lib/CSS/Grammar.pm",
+    "CSS::Grammar::Core" : "lib/CSS/Grammar.pm",
+    "CSS::Grammar::CSS21" : "lib/CSS/Grammar/CSS21.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.2",
+  "description" : "Perl 6 core CSS grammars"
+}
+,
+{
   "api" : "css-snapshot-2010",
   "name" : "CSS::Module",
   "source-url" : "git://github.com/p6-css/CSS-Module-p6.git",
