@@ -1422,6 +1422,29 @@
 }
 ,
 {
+  "name" : "Adverb::Eject",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Adverb-Eject-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Adverb::Eject" : "lib/Adverb/Eject.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "adverb for ejecting elements",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "DirHandle",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/DirHandle-0.0.1.tar.gz",
   "perl" : "6.c",
