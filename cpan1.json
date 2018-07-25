@@ -4146,6 +4146,26 @@
 }
 ,
 {
+  "name" : "Future",
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Future-0.1.tar.gz",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "Future" : "lib/Future.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1",
+  "description" : "A futuristic extension to Promises and other awaitables",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
   "name" : "HTTP::Headers",
   "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Headers-0.1.tar.gz",
   "perl" : "6.c",
