@@ -1518,6 +1518,29 @@
 }
 ,
 {
+  "name" : "Hash::LRU",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-LRU-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Hash::LRU" : "lib/Hash/LRU.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "trait for limiting number of keys in hashes",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Hash::Restricted",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Restricted-0.0.1.tar.gz",
   "perl" : "6.c",
