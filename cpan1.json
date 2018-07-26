@@ -9336,6 +9336,32 @@
 }
 ,
 {
+  "name" : "Sparrowdo::VSTS::YAML::DotNet",
+  "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-DotNet-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "build.yaml"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::VSTS::YAML::DotNet" : "lib/Sparrowdo/VSTS/YAML/DotNet.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.2",
+  "description" : "Sparrowdo module to generate VSTS yaml steps to build dotnet application",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
   "name" : "Sparrowdo::VSTS::YAML::MsBuild",
   "support" : { },
   "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-MsBuild-0.0.1.tar.gz",
@@ -9355,6 +9381,32 @@
   },
   "license" : "NOASSERTION",
   "version" : "0.0.1",
+  "description" : "Sparrowdo module to generate VSTS yaml steps for msbuild tool",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Sparrowdo::VSTS::YAML::MsBuild",
+  "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-MsBuild-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "build.yaml"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::VSTS::YAML::MsBuild" : "lib/Sparrowdo/VSTS/YAML/MsBuild.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.2",
   "description" : "Sparrowdo module to generate VSTS yaml steps for msbuild tool",
   "authors" : [
     "Alexey Melezhik"
@@ -9537,6 +9589,32 @@
   },
   "license" : "NOASSERTION",
   "version" : "0.0.2",
+  "description" : "Sparrowdo module to generate VSTS yaml steps to build solution files",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Sparrowdo::VSTS::YAML::Solution",
+  "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Solution-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "build.yaml"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::VSTS::YAML::Solution" : "lib/Sparrowdo/VSTS/YAML/Solution.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.3",
   "description" : "Sparrowdo module to generate VSTS yaml steps to build solution files",
   "authors" : [
     "Alexey Melezhik"
