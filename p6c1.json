@@ -14165,6 +14165,7 @@
   ],
   "provides" : {
     "Twitter::API::TrendsAvailable" : "lib/Twitter/API/TrendsAvailable.pm6",
+    "Twitter::API::Favorites" : "lib/Twitter/API/Favorites.pm6",
     "Twitter::API::AccountCredentials" : "lib/Twitter/API/AccountCredentials.pm6",
     "Twitter::UA" : "lib/Twitter/UA.pm6",
     "Twitter::API::TrendsPlace" : "lib/Twitter/API/TrendsPlace.pm6",
@@ -14184,7 +14185,7 @@
     "Test"
   ],
   "license" : "Artistic-2.0",
-  "version" : "0.003003",
+  "version" : "0.004003",
   "authors" : [
     "Zoffix Znet"
   ],
