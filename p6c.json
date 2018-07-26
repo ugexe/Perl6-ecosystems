@@ -419,6 +419,26 @@
 }
 ,
 {
+  "name" : "Algorithm::Diff",
+  "source-url" : "git://github.com/Takadonet/Algorithm--Diff.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "tags" : [
+    "CPAN5"
+  ],
+  "provides" : {
+    "Algorithm::Diff" : "lib/Algorithm/Diff.pm"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "version" : "*",
+  "description" : "Contains several interfaces for which computing the differences between two lists."
+}
+,
+{
   "name" : "Text::Diff",
   "source-url" : "git://github.com/Takadonet/Text--Diff.git",
   "perl" : "6.*",
