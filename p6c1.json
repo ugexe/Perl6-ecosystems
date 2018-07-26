@@ -419,26 +419,6 @@
 }
 ,
 {
-  "name" : "Algorithm::Diff",
-  "source-url" : "git://github.com/Takadonet/Algorithm--Diff.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "tags" : [
-    "CPAN5"
-  ],
-  "provides" : {
-    "Algorithm::Diff" : "lib/Algorithm/Diff.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "version" : "*",
-  "description" : "Contains several interfaces for which computing the differences between two lists."
-}
-,
-{
   "name" : "Text::Diff",
   "source-url" : "git://github.com/Takadonet/Text--Diff.git",
   "perl" : "6.*",
@@ -4541,6 +4521,39 @@
     "Ahmad M. Zawawi"
   ],
   "description" : "OpenCV Bindings using NativeCall"
+}
+,
+{
+  "name" : "MagickWand",
+  "source-url" : "git://github.com/azawawi/perl6-magickwand.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "auth" : "github:azawawi",
+  "provides" : {
+    "MagickWand::NativeCall::Property" : "lib/MagickWand/NativeCall/Property.pm6",
+    "MagickWand::NativeCall::PixelIterator" : "lib/MagickWand/NativeCall/PixelIterator.pm6",
+    "MagickWand::NativeCall::Mogrify" : "lib/MagickWand/NativeCall/Mogrify.pm6",
+    "MagickWand::NativeCall::DrawingWand" : "lib/MagickWand/NativeCall/DrawingWand.pm6",
+    "MagickWand::NativeCall" : "lib/MagickWand/NativeCall.pm6",
+    "MagickWand::NativeCall::Image" : "lib/MagickWand/NativeCall/Image.pm6",
+    "MagickWand::NativeCall::Common" : "lib/MagickWand/NativeCall/Common.pm6",
+    "MagickWand::NativeCall::WandView" : "lib/MagickWand/NativeCall/WandView.pm6",
+    "MagickWand::NativeCall::Wand" : "lib/MagickWand/NativeCall/Wand.pm6",
+    "MagickWand::Enums" : "lib/MagickWand/Enums.pm6",
+    "MagickWand" : "lib/MagickWand.pm6",
+    "MagickWand::NativeCall::Deprecated" : "lib/MagickWand/NativeCall/Deprecated.pm6",
+    "MagickWand::NativeCall::PixelWand" : "lib/MagickWand/NativeCall/PixelWand.pm6"
+  },
+  "test-depends" : [
+    "LibraryCheck",
+    "Test"
+  ],
+  "license" : "MIT",
+  "version" : "0.0.2",
+  "authors" : [
+    "Ahmad M. Zawawi"
+  ],
+  "description" : "ImageMagick's MagickWand API Bindings for Perl6"
 }
 ,
 {
