@@ -8176,7 +8176,7 @@
     "HTTP::Header::Standard::Content-Type" : "lib/HTTP/Headers.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.1",
+  "version" : "0.2",
   "authors" : [
     "Andrew Sterling Hanenkamp"
   ],
@@ -21944,6 +21944,35 @@
   "description" : "SeqSplitter is a \"better solution\" for .toggle it was being discussed here https://github.com/rakudo/rakudo/issues/2089",
   "authors" : [
     "Fernando Correa de Oliveira"
+  ]
+}
+,
+{
+  "name" : "Telegram",
+  "source-url" : "git://github.com/ijneb/telegram-bot.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Cro::HTTP::Client"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Telegram" : "lib/Telegram.pm6",
+    "Telegram::Object::User" : "lib/Telegram/Object/User.pm6",
+    "Telegram::Object::Chat" : "lib/Telegram/Object/Chat.pm6",
+    "Telegram::Object::Image" : "lib/Telegram/Object/Image.pm6",
+    "Telegram::Object::Message" : "lib/Telegram/Object/Message.pm6"
+  },
+  "tags" : [
+    "telegram",
+    "bot"
+  ],
+  "license" : "CC0-1.0",
+  "version" : "0.0.1",
+  "description" : "Reactive Telegram bot library",
+  "authors" : [
+    "Benjamin Frady"
   ]
 }
 ]
