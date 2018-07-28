@@ -17435,53 +17435,41 @@
 }
 ,
 {
-  "name" : "Ddt",
+  "name" : "Pod::To::Latex",
   "perl" : "6.c",
   "support" : {
-    "source" : null
+    "source" : "https://github.com/kalkin/Pod-To-Latex.git",
+    "bugtracker" : "https://github.com/kalkin/Pod-To-Latex/issues"
   },
-  "source-url" : "https://github.com/kalkin/Ddt.git",
-  "auth" : "kalkin",
-  "depends" : [
-    "File::Find",
-    "JSON::Pretty",
-    "License::Software",
-    "META6",
-    "Pod::To::Markdown",
-    "Shell::Command",
-    "Test::META"
-  ],
-  "test-depends" : [
-    "File::Temp",
-    "Test::META"
-  ],
+  "source-url" : "https://github.com/kalkin/Pod-To-Latex.git",
   "provides" : {
-    "Ddt::Template" : "lib/Ddt/Template.pm6",
-    "Ddt::Distribution" : "lib/Ddt/Distribution.pm6",
-    "Ddt" : "lib/Ddt.pm6"
+    "Pod::To::Latex" : "lib/Pod/To/Latex.pm6"
   },
-  "version" : "0.3.2",
-  "authors" : [
-    "Shoichi Kaji",
-    "Bahtiar `kalkin-` Gadimov"
+  "test-depends" : [
+    "Test::META"
   ],
-  "meta6" : "0",
-  "description" : "Distribution Development Tool similar to mi6"
+  "license" : "GPL-3.0",
+  "meta-version" : "0",
+  "version" : "0.1.1",
+  "description" : "Convert pod to LaTeX.",
+  "authors" : [
+    "Bahtiar `kalkin-` Gadimov"
+  ]
 }
 ,
 {
   "name" : "Ddt",
-  "perl" : "6.c",
   "support" : {
     "source" : null
   },
   "source-url" : "https://github.com/kalkin/Ddt.git",
+  "perl" : "6.c",
   "auth" : "kalkin",
   "depends" : [
     "File::Find",
     "File::Ignore",
     "File::Temp",
-    "JSON::Pretty",
+    "JSON::Fast",
     "License::Software",
     "META6",
     "Pod::To::Markdown",
@@ -17508,76 +17496,21 @@
   ],
   "provides" : {
     "Ddt::Template" : "lib/Ddt/Template.pm6",
-    "Ddt::Distribution" : "lib/Ddt/Distribution.pm6",
     "Ddt::Plugins::Deps" : "lib/Ddt/Plugins/Deps.pm6",
+    "Ddt::JSON" : "lib/Ddt/JSON.pm6",
+    "Ddt::Distribution" : "lib/Ddt/Distribution.pm6",
     "Ddt::Plugins::Watch" : "lib/Ddt/Plugins/Watch.pm6",
     "Ddt::Plugins::Unit-Generator" : "lib/Ddt/Plugins/Unit-Generator.pm6",
     "Ddt::CLI" : "lib/Ddt/CLI.pm6",
     "Ddt" : "lib/Ddt.pm6"
   },
-  "version" : "0.4.0",
-  "authors" : [
-    "Shoichi Kaji",
-    "Bahtiar `kalkin-` Gadimov"
-  ],
-  "meta6" : "0",
-  "description" : "Distribution Development Tool"
-}
-,
-{
-  "name" : "Ddt",
-  "perl" : "6.c",
-  "support" : {
-    "source" : null
-  },
-  "source-url" : "https://github.com/kalkin/Ddt.git",
-  "auth" : "kalkin",
-  "depends" : [
-    "File::Find",
-    "File::Ignore",
-    "File::Temp",
-    "JSON::Pretty",
-    "License::Software",
-    "META6",
-    "Pod::To::Markdown",
-    "Test::META",
-    "Zef",
-    "Zef::Client",
-    "Zef::Config",
-    "Zef::Distribution",
-    "Zef::Identity"
-  ],
-  "provides" : {
-    "Ddt::Template" : "lib/Ddt/Template.pm6",
-    "Ddt::Distribution" : "lib/Ddt/Distribution.pm6",
-    "Ddt::Plugins::Deps" : "lib/Ddt/Plugins/Deps.pm6",
-    "Ddt::Plugins::Watch" : "lib/Ddt/Plugins/Watch.pm6",
-    "Ddt::Plugins::Unit-Generator" : "lib/Ddt/Plugins/Unit-Generator.pm6",
-    "Ddt::CLI" : "lib/Ddt/CLI.pm6",
-    "Ddt" : "lib/Ddt.pm6"
-  },
-  "test-depends" : [
-    "File::Temp",
-    "Test::META"
-  ],
   "license" : "Artistic-2.0",
-  "tags" : [
-    "authoring",
-    "command line",
-    "devel",
-    "development",
-    "generator",
-    "module",
-    "testing",
-    "utility"
-  ],
-  "version" : "0.4.3",
-  "meta6" : "0",
+  "version" : "0.5.3",
+  "meta-version" : "0",
   "description" : "Distribution Development Tool",
   "authors" : [
-    "Shoichi Kaji",
     "Bahtiar `kalkin-` Gadimov",
-    ""
+    "Shoichi Kaji"
   ]
 }
 ,
