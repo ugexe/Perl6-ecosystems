@@ -21956,7 +21956,6 @@
   "depends" : [
     "Cro::HTTP::Client"
   ],
-  "test-depends" : [ ],
   "provides" : {
     "Telegram" : "lib/Telegram.pm6",
     "Telegram::Object::User" : "lib/Telegram/Object/User.pm6",
@@ -21964,6 +21963,7 @@
     "Telegram::Object::Image" : "lib/Telegram/Object/Image.pm6",
     "Telegram::Object::Message" : "lib/Telegram/Object/Message.pm6"
   },
+  "test-depends" : [ ],
   "tags" : [
     "telegram",
     "bot"
