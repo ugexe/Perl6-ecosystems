@@ -21848,19 +21848,6 @@
 }
 ,
 {
-  "name" : "Net::Ethereum",
-  "source-url" : "git://gitlab.com/pheix/net-ethereum-perl6.git",
-  "perl" : "6.*",
-  "depends" : [ ],
-  "provides" : {
-    "Net::Ethereum" : "lib/Net/Ethereum.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.28",
-  "description" : "A Perl6 interface for interacting with the Ethereum blockchain and ecosystem via JSON RPC API"
-}
-,
-{
   "name" : "SeqSplitter",
   "source-url" : "https://github.com/FCO/SeqSplitter.git",
   "perl" : "6.c",
