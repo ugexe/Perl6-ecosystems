@@ -5807,34 +5807,6 @@
 }
 ,
 {
-  "name" : "Git::Wrapper",
-  "source-url" : "https://gitlab.com/orangebot/p6-Git-Wrapper.git",
-  "support" : {
-    "source" : "https://gitlab.com/orangebot/p6-Git-Wrapper.git"
-  },
-  "perl" : "6.c",
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "tags" : [
-    "git",
-    "wrapper"
-  ],
-  "provides" : {
-    "Git::Wrapper::Log" : "lib/Git/Log/Parser.pm6",
-    "Git::Wrapper" : "lib/Git/Wrapper.pm6",
-    "Git::Log::Actions" : "lib/Git/Log/Parser.pm6",
-    "Git::Log::Parser" : "lib/Git/Log/Parser.pm6"
-  },
-  "test-depends" : [ ],
-  "version" : "0.0.8",
-  "description" : "simple, hacky way to use git from Perl 6",
-  "authors" : [
-    "PerlPilot",
-    "nicqrocks"
-  ]
-}
-,
-{
   "name" : "GTK::Simple",
   "source-url" : "git://github.com/perl6/gtk-simple.git",
   "perl" : "6.c",
@@ -21692,6 +21664,19 @@
   "license" : "Unlicense",
   "version" : "0.0.1",
   "description" : "Calorie tracker"
+}
+,
+{
+  "name" : "Net::Ethereum",
+  "source-url" : "git://gitlab.com/pheix/net-ethereum-perl6.git",
+  "perl" : "6.*",
+  "depends" : [ ],
+  "provides" : {
+    "Net::Ethereum" : "lib/Net/Ethereum.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.28",
+  "description" : "A Perl6 interface for interacting with the Ethereum blockchain and ecosystem via JSON RPC API"
 }
 ,
 {
