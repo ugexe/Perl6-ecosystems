@@ -10853,6 +10853,34 @@
 }
 ,
 {
+  "name" : "Text::Names",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/R/RI/RIBNOTTER/Perl6/Text-Names-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "dist.all.last",
+    "dist.female.first",
+    "dist.male.first"
+  ],
+  "auth" : "github:ribbon-otter",
+  "tags" : [
+    "NPL",
+    "Natural Language",
+    "Names",
+    "Dummy Data"
+  ],
+  "provides" : {
+    "Text::Names" : "lib/Text/Names.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.1",
+  "description" : "A module that can generate full American English names of either gender, as well as single first names and last names if that is desired. It generates names in roughly the same popularity as they were in 1990 USA",
+  "authors" : [
+    "ribbon-otter"
+  ]
+}
+,
+{
   "name" : "Cache::Async",
   "source-url" : "http://www.cpan.org/authors/id/R/RO/ROBERTLE/Perl6/perl6-cache-async-0.1.1.tar.gz",
   "perl" : "6.*",
