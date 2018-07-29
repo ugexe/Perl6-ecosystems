@@ -21908,4 +21908,39 @@
     "Benjamin Frady"
   ]
 }
+,
+{
+  "name" : "Injector",
+  "source-url" : "https://github.com/FCO/Injector.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [
+    "inject",
+    "dependency",
+    "ioc",
+    "inversion of control"
+  ],
+  "provides" : {
+    "Injector::Storage" : "lib/Injector/Storage.pm6",
+    "Injector" : "lib/Injector.pm6",
+    "Injector::Bind::Clone" : "lib/Injector/Bind/Clone.pm6",
+    "Injector::Injected::Attribute" : "lib/Injector/Injected/Attribute.pm6",
+    "Injector::Bind" : "lib/Injector/Bind.pm6",
+    "Injector::Injected" : "lib/Injector/Injected.pm6",
+    "Injector::Bind::ObjectType" : "lib/Injector/Bind/ObjectType.pm6",
+    "Injector::Bind::Instance" : "lib/Injector/Bind/Instance.pm6",
+    "Injector::Injected::Variable" : "lib/Injector/Injected/Variable.pm6",
+    "Injector::Bind::Singleton" : "lib/Injector/Bind/Singleton.pm6"
+  },
+  "version" : "0.0.1",
+  "authors" : [
+    "Fernando Corr\u00eaa de Oliveira"
+  ],
+  "description" : "Dependency injector"
+}
 ]
