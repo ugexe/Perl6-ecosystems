@@ -10261,6 +10261,31 @@
 }
 ,
 {
+  "name" : "KHPH",
+  "source-url" : "http://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/KHPH-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "auth" : "github:markldevine",
+  "depends" : [
+    "Base64::Native",
+    "Compress::Bzip2",
+    "Terminal::Readsecret"
+  ],
+  "tags" : [
+    "Security"
+  ],
+  "provides" : {
+    "KHPH" : "lib/KHPH.pm6"
+  },
+  "license" : "GPL-3.0",
+  "version" : "0.0.1",
+  "meta-version" : 0,
+  "description" : "Keep Honest People Honest - Unsecure Reversible Obfuscated Character Storage and Retrieval",
+  "authors" : [
+    "Mark Devine <mark@markdevine.com>"
+  ]
+}
+,
+{
   "name" : "Grammar::ErrorReporting",
   "support" : {
     "bugtracker" : "https://github.com/moritz/Grammar-ErrorReporting/issues"
