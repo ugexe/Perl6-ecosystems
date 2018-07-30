@@ -853,6 +853,7 @@
     "OpenSSL::Cipher" : "lib/OpenSSL/Cipher.pm6",
     "OpenSSL::Ctx" : "lib/OpenSSL/Ctx.pm6",
     "OpenSSL::Bio" : "lib/OpenSSL/Bio.pm6",
+    "OpenSSL::Version" : "lib/OpenSSL/Version.pm6",
     "OpenSSL::Digest::MD5" : "lib/OpenSSL/Digest/MD5.pm6",
     "OpenSSL::Stack" : "lib/OpenSSL/Stack.pm6",
     "OpenSSL::NativeLib" : "lib/OpenSSL/NativeLib.pm6",
@@ -867,7 +868,7 @@
     "OpenSSL::Digest" : "lib/OpenSSL/Digest.pm6",
     "OpenSSL::CryptTools" : "lib/OpenSSL/CryptTools.pm6"
   },
-  "version" : "0.1.19",
+  "version" : "0.1.20",
   "description" : "OpenSSL bindings"
 }
 ,
@@ -12168,7 +12169,7 @@
     "Zef::Fetch" : "lib/Zef/Fetch.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.4.5",
+  "version" : "0.4.6",
   "authors" : [
     "Nick Logan",
     "Tony O'Dell"
