@@ -324,6 +324,35 @@
 }
 ,
 {
+  "name" : "Propius",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/Propius-0.1.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:atroxaper",
+  "depends" : [
+    "TimeUnit",
+    "OO::Monitors"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "cache",
+    "eviction"
+  ],
+  "provides" : {
+    "Propius" : "lib/Propius.pm6",
+    "Propius::Linked" : "lib/Propius/Linked.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.1",
+  "description" : "Memory cache with loader and eviction by time.",
+  "authors" : [
+    "Mikhail Khorkov"
+  ]
+}
+,
+{
   "name" : "TimeUnit",
   "source-url" : "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/TimeUnit-0.1.2.tar.gz",
   "perl" : "6.*",
