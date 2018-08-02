@@ -11277,26 +11277,6 @@
 }
 ,
 {
-  "name" : "Haikunator",
-  "source-url" : "git://github.com/Atrox/haikunatorperl.git",
-  "perl" : "6.*",
-  "resources" : [ ],
-  "depends" : [ ],
-  "test-depends" : [
-    "Test::META"
-  ],
-  "provides" : {
-    "Haikunator" : "lib/Haikunator.pm6"
-  },
-  "license" : "BSD-3-Clause",
-  "version" : "0.1.0",
-  "authors" : [
-    "Atrox <mail@atrox.me>"
-  ],
-  "description" : "Generate Heroku-like random names to use in your perl 6 applications."
-}
-,
-{
   "name" : "StrictNamedArguments",
   "source-url" : "git://github.com/nxadm/StrictNamedArguments.git",
   "perl" : "6.*",
@@ -13276,27 +13256,6 @@
   },
   "version" : "0.0.1",
   "description" : "A powerful getopt implementation"
-}
-,
-{
-  "name" : "Algorithm::TernarySearchTree",
-  "source-url" : "git://github.com/titsuki/p6-Algorithm-TernarySearchTree.git",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [ ],
-  "provides" : {
-    "Algorithm::TernarySearchTree" : "lib/Algorithm/TernarySearchTree.pm6",
-    "Algorithm::TernarySearchTree::Node" : "lib/Algorithm/TernarySearchTree/Node.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.04",
-  "description" : "the algorithm which blends trie and binary search tree",
-  "authors" : [
-    "titsuki"
-  ]
 }
 ,
 {
@@ -16964,28 +16923,6 @@
   "description" : "Make a supply of the results of Promises",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
-}
-,
-{
-  "name" : "SQL::NamedPlaceholder",
-  "source-url" : "git://github.com/astj/p6-SQL-NamedPlaceholder.git",
-  "perl" : "6",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [
-    "Test::META"
-  ],
-  "tags" : [ ],
-  "provides" : {
-    "SQL::NamedPlaceholder" : "lib/SQL/NamedPlaceholder.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.1.1",
-  "description" : "extension of placeholder",
-  "authors" : [
-    "astj"
   ]
 }
 ,
