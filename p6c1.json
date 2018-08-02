@@ -7458,6 +7458,25 @@
 }
 ,
 {
+  "name" : "Template::Protone",
+  "source-url" : "git://github.com/tony-o/perl6-template-protone.git",
+  "support" : {
+    "bugtracker" : "https://github.com/tony-o/perl6-template-protone/issues"
+  },
+  "perl" : "6.c",
+  "auth" : "github:tony-o",
+  "depends" : [ ],
+  "provides" : {
+    "Template::Protone" : "lib/Template/Protone.pm6"
+  },
+  "version" : "0.1.2",
+  "authors" : [
+    "Tony O'Dell"
+  ],
+  "description" : "Perl6 embedded templates"
+}
+,
+{
   "name" : "Crypt::Libcrypt",
   "perl" : "6.c",
   "support" : {
