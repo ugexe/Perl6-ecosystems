@@ -439,24 +439,6 @@
 }
 ,
 {
-  "name" : "Text::Diff",
-  "source-url" : "git://github.com/Takadonet/Text--Diff.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "depends" : [
-    "Algorithm::Diff"
-  ],
-  "provides" : {
-    "Text::Diff::OldStyle" : "lib/Text/Diff/OldStyle.pm",
-    "Text::Diff" : "lib/Text/Diff.pm",
-    "Text::Diff::Unified" : "lib/Text/Diff/Unified.pm",
-    "Text::Diff::Table" : "lib/Text/Diff/Table.pm"
-  },
-  "version" : "*",
-  "description" : "Perform diffs on files and record sets"
-}
-,
-{
   "name" : "ABC",
   "source-url" : "git://github.com/colomon/ABC.git",
   "perl" : "6.*",
@@ -2594,7 +2576,7 @@
     "GeoIP::City" : "lib/GeoIP/City.pm",
     "GeoIP" : "lib/GeoIP.pm"
   },
-  "version" : "1.0.1",
+  "version" : "1.0.2",
   "authors" : [
     "Pawe\u0142 bbkr Pabian"
   ],
@@ -6332,7 +6314,7 @@
   "perl" : "6.*",
   "author" : "github:vendethiel",
   "provides" : {
-    "Sprockets" : "lib/Sprockets.pm"
+    "Sprockets" : "lib/Sprockets.pm6"
   },
   "version" : "*",
   "description" : "Ruby Sprockets-like"
