@@ -13577,6 +13577,35 @@
 }
 ,
 {
+  "name" : "Algorithm::LBFGS",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LBFGS-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/liblbfgs"
+  ],
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "auth" : "titsuki",
+  "depends" : [
+    "NativeHelpers::Array"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::LBFGS" : "lib/Algorithm/LBFGS.pm6",
+    "Algorithm::LBFGS::Status" : "lib/Algorithm/LBFGS/Status.pm6",
+    "Algorithm::LBFGS::Parameter" : "lib/Algorithm/LBFGS/Parameter.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.3",
+  "description" : "A Perl6 bindings for libLBFGS",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
   "name" : "Algorithm::LibSVM",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LibSVM-0.0.2.tar.gz",
   "perl" : "6.c",
