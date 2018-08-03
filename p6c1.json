@@ -8807,13 +8807,13 @@
 ,
 {
   "name" : "HTML::Restrict",
-  "source-url" : "git://github.com/stmuk/p6-html-restrict.git",
+  "source-url" : "https://github.com/stmuk/p6-html-restrict.git",
   "perl" : "6.c",
   "depends" : [
     "HTML::Parser::XML"
   ],
   "provides" : {
-    "HTML::Restrict" : "lib/HTML/Restrict.pm"
+    "HTML::Restrict" : "lib/HTML/Restrict.pm6"
   },
   "license" : "Artistic-2.0",
   "version" : "0.2",
@@ -21516,6 +21516,9 @@
 ,
 {
   "name" : "Java::Generate",
+  "support" : {
+    "source" : "https://github.com/Altai-man/perl6-Java-Generate.git"
+  },
   "perl" : "6.c",
   "depends" : [ ],
   "provides" : {
