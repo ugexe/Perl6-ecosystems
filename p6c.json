@@ -16290,6 +16290,7 @@
   "build-depends" : [
     "LibraryMake"
   ],
+  "auth" : "titsuki",
   "depends" : [
     "NativeHelpers::Array"
   ],
@@ -16301,10 +16302,10 @@
     "Algorithm::LBFGS::Parameter" : "lib/Algorithm/LBFGS/Parameter.pm6"
   },
   "license" : "MIT",
-  "version" : "0.0.2",
+  "version" : "0.0.3",
   "description" : "A Perl6 bindings for libLBFGS",
   "authors" : [
-    "titsuki"
+    "Itsuki Toyota"
   ]
 }
 ,
