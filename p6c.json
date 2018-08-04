@@ -4427,6 +4427,7 @@
   "perl" : "6.*",
   "depends" : [ ],
   "provides" : {
+    "Parse::Selenese::TestCaseDef" : "lib/Parse/Selenese/TestCaseDef.pm6",
     "Parse::Selenese::TestCase" : "lib/Parse/Selenese/TestCase.pm6",
     "Parse::Selenese::Grammar" : "lib/Parse/Selenese/Grammar.pm6",
     "Parse::Selenese::Actions" : "lib/Parse/Selenese/Actions.pm6",
