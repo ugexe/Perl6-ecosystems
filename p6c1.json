@@ -392,20 +392,6 @@
 }
 ,
 {
-  "name" : "MPD",
-  "source-url" : "git://github.com/tadzik/perl6-MPD.git",
-  "perl" : "6.c",
-  "author" : "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-  "depends" : [ ],
-  "provides" : {
-    "MPD" : "lib/MPD.pm"
-  },
-  "license" : "MIT",
-  "version" : "0.1",
-  "description" : "Interface to libmpdclient C library"
-}
-,
-{
   "name" : "List::Utils",
   "source-url" : "git://github.com/colomon/List-Utils.git",
   "perl" : "6.*",
@@ -6395,6 +6381,35 @@
 }
 ,
 {
+  "name" : "Inline::Perl5",
+  "support" : {
+    "irc" : "irc://irc.freenode.org/#perl6"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.26.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/p5helper"
+  ],
+  "author" : "github:niner",
+  "repo-type" : "git",
+  "depends" : [
+    "LibraryMake"
+  ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "Inline::Perl5" : "lib/Inline/Perl5.pm6"
+  },
+  "test-depends" : [
+    "File::Temp"
+  ],
+  "version" : "0.26",
+  "description" : "Use Perl 5 code in a Perl 6 program",
+  "authors" : [
+    "Stefan Seifert"
+  ]
+}
+,
+{
   "name" : "Term::termios",
   "support" : {
     "irc" : "irc://irc.freenode.org/#perl6"
@@ -7117,22 +7132,6 @@
   "license" : "MIT",
   "version" : "0.0.2",
   "description" : "Format dates using Go's reference format"
-}
-,
-{
-  "name" : "Inline::Lua",
-  "source-url" : "git://github.com/raydiak/Inline-Lua.git",
-  "perl" : "6.*",
-  "author" : "raydiak",
-  "depends" : [ ],
-  "provides" : {
-    "Inline::Lua::Object" : "lib/Inline/Lua/Object.pm6",
-    "Lua::Raw" : "lib/Lua/Raw.pm6",
-    "Inline::Lua" : "lib/Inline/Lua.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "*",
-  "description" : "Embedded Lua for Perl 6"
 }
 ,
 {
@@ -11221,6 +11220,23 @@
 }
 ,
 {
+  "name" : "StrictNamedArguments",
+  "source-url" : "git://github.com/nxadm/StrictNamedArguments.git",
+  "perl" : "6.*",
+  "depends" : [ ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "StrictNamedArguments" : "lib/StrictNamedArguments.pm"
+  },
+  "version" : "0.1.0",
+  "authors" : [
+    "Claudio Ramirez",
+    "Wenzel P. P. Peppmeyer"
+  ],
+  "description" : "Guards against extra named arguments on methods."
+}
+,
+{
   "name" : "Data::Dump::Tree",
   "source-url" : "https://github.com/nkh/P6-Data-Dump-Tree.git",
   "perl" : "6.c",
@@ -14806,39 +14822,6 @@
 }
 ,
 {
-  "name" : "Acme::Insult::Lala",
-  "perl" : "6.c",
-  "support" : {
-    "email" : "jns+gh@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/Acme-Insult-Lala.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Acme-Insult-Lala/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Acme-Insult-Lala.git",
-  "build-depends" : [ ],
-  "resources" : [
-    "lala.txt"
-  ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Acme::Insult::Lala" : "lib/Acme/Insult/Lala.pm"
-  },
-  "test-depends" : [ ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "insult",
-    "acme",
-    "fun"
-  ],
-  "version" : "0.0.3",
-  "meta6" : "0",
-  "description" : "Construct an insulting epithet in the manner of an old IRC bot",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
-}
-,
-{
   "name" : "WebService::FootballData",
   "source-url" : "https://gitlab.com/CIAvash/WebService-FootballData.git",
   "perl" : "6.c",
@@ -15780,43 +15763,6 @@
 }
 ,
 {
-  "name" : "Printer::ESCPOS",
-  "perl" : "6",
-  "source-url" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS.git",
-  "support" : {
-    "source" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS.git",
-    "bugtracker" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS/issues"
-  },
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "author" : "Shantanu Bhadoria <shantanu@cpan.org>",
-  "auth" : "github:shantanubhadoria",
-  "depends" : [ ],
-  "license" : "Artistic",
-  "tags" : [
-    "Printer",
-    "ESCPOS",
-    "Receipt",
-    "Thermal",
-    "ESC/P",
-    "EPSON"
-  ],
-  "provides" : {
-    "Printer::ESCPOS::Network" : "lib/Printer/ESCPOS/Network.pm6",
-    "Printer::ESCPOS::Network::Async" : "lib/Printer/ESCPOS/Network/Async.pm6",
-    "Printer::ESCPOS" : "lib/Printer/ESCPOS.pm6"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "version" : "1.0.1",
-  "authors" : [
-    "Shantanu Bhadoria <shantanu@cpan.org>"
-  ],
-  "description" : "Interface to ESCPOS printers"
-}
-,
-{
   "name" : "CompUnit::Search",
   "perl" : "6",
   "source-url" : "git://github.com/shantanubhadoria/p6-CompUnit-Search.git",
@@ -16299,6 +16245,29 @@
     "Fernando Correa de Oliveira"
   ],
   "description" : "Simple Constraint Programming Problem Solver"
+}
+,
+{
+  "name" : "Unicode::PRECIS",
+  "source-url" : "git://github.com/MARTIMM/unicode-precis.git",
+  "perl" : "6.c",
+  "author" : "Marcel Timmerman",
+  "depends" : [ ],
+  "provides" : {
+    "Unicode::PRECIS" : "lib/Unicode/PRECIS.pm6",
+    "Unicode::PRECIS::Tables" : "lib/Unicode/PRECIS/Tables.pm6",
+    "Unicode::PRECIS::Identifier::UsernameCasePreserved" : "lib/Unicode/PRECIS/Identifier/UsernameCasePreserved.pm6",
+    "Unicode::PRECIS::Identifier" : "lib/Unicode/PRECIS/Identifier.pm6",
+    "Unicode::PRECIS::FreeForm::OpaqueString" : "lib/Unicode/PRECIS/FreeForm/OpaqueString.pm6",
+    "Unicode::PRECIS::Identifier::UsernameCaseMapped" : "lib/Unicode/PRECIS/Identifier/UsernameCaseMapped.pm6",
+    "Unicode::PRECIS::FreeForm" : "lib/Unicode/PRECIS/FreeForm.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "v0.5.1.1",
+  "description" : "Implements PRECIS framework, rfc7564 and others. Obsoletes stringprep and saslprep",
+  "authors" : [
+    "Marcel Timmerman"
+  ]
 }
 ,
 {
@@ -19348,6 +19317,32 @@
 }
 ,
 {
+  "name" : "IO::CatHandle::AutoLines",
+  "support" : {
+    "source" : "https://github.com/zoffixznet/perl6-IO-CatHandle-AutoLines.git"
+  },
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "IO::CatHandle::AutoLines" : "lib/IO/CatHandle/AutoLines.pm6"
+  },
+  "test-depends" : [
+    "Testo",
+    "Temp::Path",
+    "Test::META"
+  ],
+  "tags" : [
+    "IO"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001003",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Get IO::CatHandle's current handle's line number"
+}
+,
+{
   "name" : "LN",
   "support" : {
     "source" : "https://github.com/zoffixznet/perl6-LN.git"
@@ -20867,19 +20862,6 @@
 }
 ,
 {
-  "name" : "Digest::FNV",
-  "source-url" : "git://github.com/tony-o/perl6-digest-fnv.git",
-  "perl" : "6.*",
-  "auth" : "github:tony-o",
-  "depends" : [ ],
-  "provides" : {
-    "Digest::FNV" : "lib/Digest/FNV.pm6"
-  },
-  "version" : "0.1.0",
-  "description" : "FNV[1|0|1a] for the masses"
-}
-,
-{
   "name" : "Acme::Advent::Highlighter",
   "support" : {
     "source" : "https://github.com/zoffixznet/perl6-Acme-Advent-Highlighter.git"
@@ -21179,32 +21161,6 @@
     "Zoffix Znet"
   ],
   "description" : "Flat, JSON-backed read-write configuration"
-}
-,
-{
-  "name" : "CoreHackers::Q",
-  "support" : {
-    "source" : "https://github.com/zoffixznet/q.git"
-  },
-  "perl" : "6.c",
-  "depends" : [
-    "HTML::Escape"
-  ],
-  "provides" : {
-    "CoreHackers::Q::Parser::Actions" : "lib/CoreHackers/Q/Parser/Actions.pm6",
-    "CoreHackers::Q" : "lib/CoreHackers/Q.pm6",
-    "CoreHackers::Q::Parser" : "lib/CoreHackers/Q/Parser.pm6"
-  },
-  "test-depends" : [ ],
-  "tags" : [
-    "core dev"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "1.001005",
-  "authors" : [
-    "Zoffix Znet"
-  ],
-  "description" : "Perl 6 QAST Visualizer"
 }
 ,
 {
