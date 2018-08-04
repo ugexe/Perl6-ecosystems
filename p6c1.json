@@ -13600,22 +13600,23 @@
 ,
 {
   "name" : "Algorithm::SetUnion",
-  "perl" : "6.c",
   "source-url" : "git://github.com/titsuki/p6-Algorithm-SetUnion.git",
-  "build-depends" : [ ],
+  "perl" : "6.c",
   "resources" : [ ],
+  "build-depends" : [ ],
   "depends" : [ ],
   "test-depends" : [ ],
+  "tags" : [ ],
   "provides" : {
     "Algorithm::SetUnion::Node" : "lib/Algorithm/SetUnion/Node.pm6",
     "Algorithm::SetUnion" : "lib/Algorithm/SetUnion.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "*",
+  "version" : "0.0.1",
+  "description" : "a perl6 implementation for solving the disjoint set union problem (a.k.a. Union-Find Tree)",
   "authors" : [
     "titsuki"
-  ],
-  "description" : "a perl6 implementation for solving the disjoint set union problem (a.k.a. Union-Find Tree)"
+  ]
 }
 ,
 {
