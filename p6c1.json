@@ -6395,35 +6395,6 @@
 }
 ,
 {
-  "name" : "Inline::Perl5",
-  "support" : {
-    "irc" : "irc://irc.freenode.org/#perl6"
-  },
-  "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.26.tar.gz",
-  "perl" : "6.c",
-  "resources" : [
-    "libraries/p5helper"
-  ],
-  "author" : "github:niner",
-  "repo-type" : "git",
-  "depends" : [
-    "LibraryMake"
-  ],
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "Inline::Perl5" : "lib/Inline/Perl5.pm6"
-  },
-  "test-depends" : [
-    "File::Temp"
-  ],
-  "version" : "0.26",
-  "description" : "Use Perl 5 code in a Perl 6 program",
-  "authors" : [
-    "Stefan Seifert"
-  ]
-}
-,
-{
   "name" : "Term::termios",
   "support" : {
     "irc" : "irc://irc.freenode.org/#perl6"
@@ -11247,23 +11218,6 @@
     "Atrox <mail@atrox.me>"
   ],
   "description" : "Generate Heroku-like random names to use in your perl 6 applications."
-}
-,
-{
-  "name" : "StrictNamedArguments",
-  "source-url" : "git://github.com/nxadm/StrictNamedArguments.git",
-  "perl" : "6.*",
-  "depends" : [ ],
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "StrictNamedArguments" : "lib/StrictNamedArguments.pm"
-  },
-  "version" : "0.1.0",
-  "authors" : [
-    "Claudio Ramirez",
-    "Wenzel P. P. Peppmeyer"
-  ],
-  "description" : "Guards against extra named arguments on methods."
 }
 ,
 {
@@ -16348,29 +16302,6 @@
 }
 ,
 {
-  "name" : "Unicode::PRECIS",
-  "source-url" : "git://github.com/MARTIMM/unicode-precis.git",
-  "perl" : "6.c",
-  "author" : "Marcel Timmerman",
-  "depends" : [ ],
-  "provides" : {
-    "Unicode::PRECIS" : "lib/Unicode/PRECIS.pm6",
-    "Unicode::PRECIS::Tables" : "lib/Unicode/PRECIS/Tables.pm6",
-    "Unicode::PRECIS::Identifier::UsernameCasePreserved" : "lib/Unicode/PRECIS/Identifier/UsernameCasePreserved.pm6",
-    "Unicode::PRECIS::Identifier" : "lib/Unicode/PRECIS/Identifier.pm6",
-    "Unicode::PRECIS::FreeForm::OpaqueString" : "lib/Unicode/PRECIS/FreeForm/OpaqueString.pm6",
-    "Unicode::PRECIS::Identifier::UsernameCaseMapped" : "lib/Unicode/PRECIS/Identifier/UsernameCaseMapped.pm6",
-    "Unicode::PRECIS::FreeForm" : "lib/Unicode/PRECIS/FreeForm.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "v0.5.1.1",
-  "description" : "Implements PRECIS framework, rfc7564 and others. Obsoletes stringprep and saslprep",
-  "authors" : [
-    "Marcel Timmerman"
-  ]
-}
-,
-{
   "name" : "JS::Minify",
   "source-url" : "https://github.com/scmorrison/JS-Minify.git",
   "perl" : "6.*",
@@ -19417,14 +19348,16 @@
 }
 ,
 {
-  "name" : "IO::CatHandle::AutoLines",
+  "name" : "LN",
   "support" : {
-    "source" : "https://github.com/zoffixznet/perl6-IO-CatHandle-AutoLines.git"
+    "source" : "https://github.com/zoffixznet/perl6-LN.git"
   },
   "perl" : "6.c",
-  "depends" : [ ],
+  "depends" : [
+    "IO::CatHandle::AutoLines"
+  ],
   "provides" : {
-    "IO::CatHandle::AutoLines" : "lib/IO/CatHandle/AutoLines.pm6"
+    "LN" : "lib/LN.pm6"
   },
   "test-depends" : [
     "Testo",
@@ -19435,11 +19368,11 @@
     "IO"
   ],
   "license" : "Artistic-2.0",
-  "version" : "1.001002",
+  "version" : "1.001001",
   "authors" : [
     "Zoffix Znet"
   ],
-  "description" : "Get IO::CatHandle's current handle's line number"
+  "description" : "Get $*ARGFILES with line numbers via $*LN"
 }
 ,
 {
@@ -21872,6 +21805,31 @@
   "license" : "Unlicense",
   "version" : "0.0.1",
   "description" : "Resolve file path strings which may include a leading `~`"
+}
+,
+{
+  "name" : "Sustenance",
+  "support" : {
+    "source" : "https://github.com/atweiden/sustenance",
+    "bugtracker" : "https://github.com/atweiden/sustenance/issues"
+  },
+  "source-url" : "git://github.com/atweiden/sustenance.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "author" : "atweiden",
+  "depends" : [
+    "Config::TOML"
+  ],
+  "provides" : {
+    "Sustenance::Parser" : "lib/Sustenance/Parser.pm6",
+    "X::Sustenance" : "lib/X/Sustenance.pm6",
+    "Sustenance" : "lib/Sustenance.pm6",
+    "Sustenance::Parser::ParseTree" : "lib/Sustenance/Parser/ParseTree.pm6",
+    "Sustenance::Types" : "lib/Sustenance/Types.pm6"
+  },
+  "license" : "Unlicense",
+  "version" : "0.0.1",
+  "description" : "Calorie tracker"
 }
 ,
 {
