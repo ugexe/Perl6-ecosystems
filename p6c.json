@@ -14660,7 +14660,11 @@
   "source-url" : "git://github.com/Xliff/p6-audio-oggvorbis.git",
   "perl" : "6.c",
   "build-depends" : [ ],
-  "depends" : [ ],
+  "depends" : [
+    "ogg:from<native>",
+    "vorbis:from<native>",
+    "vorbisenc:from<native>"
+  ],
   "provides" : {
     "Audio::OggVorbis::Ogg" : "lib/Audio/OggVorbis/Ogg.pm",
     "Audio::OggVorbis::Vorbis" : "lib/Audio/OggVorbis/Vorbis.pm",
