@@ -19443,34 +19443,6 @@
 }
 ,
 {
-  "name" : "LN",
-  "support" : {
-    "source" : "https://github.com/zoffixznet/perl6-LN.git"
-  },
-  "perl" : "6.c",
-  "depends" : [
-    "IO::CatHandle::AutoLines"
-  ],
-  "provides" : {
-    "LN" : "lib/LN.pm6"
-  },
-  "test-depends" : [
-    "Testo",
-    "Temp::Path",
-    "Test::META"
-  ],
-  "tags" : [
-    "IO"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "1.001001",
-  "authors" : [
-    "Zoffix Znet"
-  ],
-  "description" : "Get $*ARGFILES with line numbers via $*LN"
-}
-,
-{
   "name" : "EC::Grammars::DIG",
   "source-url" : "git://github.com/bioduds/EC-Grammars-DIG.git",
   "perl" : "6.c",
@@ -21900,31 +21872,6 @@
   "license" : "Unlicense",
   "version" : "0.0.1",
   "description" : "Resolve file path strings which may include a leading `~`"
-}
-,
-{
-  "name" : "Sustenance",
-  "support" : {
-    "source" : "https://github.com/atweiden/sustenance",
-    "bugtracker" : "https://github.com/atweiden/sustenance/issues"
-  },
-  "source-url" : "git://github.com/atweiden/sustenance.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "author" : "atweiden",
-  "depends" : [
-    "Config::TOML"
-  ],
-  "provides" : {
-    "Sustenance::Parser" : "lib/Sustenance/Parser.pm6",
-    "X::Sustenance" : "lib/X/Sustenance.pm6",
-    "Sustenance" : "lib/Sustenance.pm6",
-    "Sustenance::Parser::ParseTree" : "lib/Sustenance/Parser/ParseTree.pm6",
-    "Sustenance::Types" : "lib/Sustenance/Types.pm6"
-  },
-  "license" : "Unlicense",
-  "version" : "0.0.1",
-  "description" : "Calorie tracker"
 }
 ,
 {
