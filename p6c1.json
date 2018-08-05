@@ -10579,7 +10579,7 @@
   "author" : "Romuald Nuguet",
   "depends" : [ ],
   "provides" : {
-    "Lingua::EN::Conjugate" : "lib/Lingua/EN/Conjugate/Conjugate.pm6"
+    "Lingua::EN::Conjugate" : "lib/Lingua/EN/Conjugate.pm6"
   },
   "version" : "0.2",
   "description" : "A module that conjugates English verbs"
@@ -11438,8 +11438,8 @@
 ,
 {
   "name" : "WebService::SOP",
+  "source-url" : "git://github.com/yowcow/p6-WebService-SOP.git",
   "perl" : "6.c",
-  "source-url" : "git@github.com:yowcow/p6-WebService-SOP.git",
   "resources" : [ ],
   "build-depends" : [ ],
   "depends" : [
@@ -11448,6 +11448,11 @@
     "JSON::Fast",
     "URI"
   ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
   "provides" : {
     "WebService::SOP::V1_1::Request::POST" : "lib/WebService/SOP/V1_1/Request/POST.pm6",
     "WebService::SOP::V1_1" : "lib/WebService/SOP/V1_1.pm6",
@@ -11459,16 +11464,12 @@
     "WebService::SOP::V1_1::Request::PUT" : "lib/WebService/SOP/V1_1/Request/PUT.pm6",
     "WebService::SOP::V1_1::Request::DELETE" : "lib/WebService/SOP/V1_1/Request/DELETE.pm6"
   },
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
   "license" : "Artistic-2.0",
   "version" : "0.0.3",
+  "description" : "SOP API request creator and validator",
   "authors" : [
     "yowcow"
-  ],
-  "description" : "SOP API authentication"
+  ]
 }
 ,
 {
