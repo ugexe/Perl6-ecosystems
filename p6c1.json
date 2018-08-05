@@ -3930,25 +3930,6 @@
 }
 ,
 {
-  "name" : "Sitemap::XML::Parser",
-  "source-url" : "git://github.com/afiskon/p6-sitemap-xml-parser.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "depends" : [
-    "LWP::Simple",
-    "URI",
-    "XML::Parser::Tiny",
-    "DateTime::Format::W3CDTF",
-    "Test::Mock"
-  ],
-  "provides" : {
-    "Sitemap::XML::Parser" : "lib/Sitemap/XML/Parser.pm"
-  },
-  "version" : "*",
-  "description" : "Module for parsing sitemap.xml files"
-}
-,
-{
   "name" : "Digest::PSHA1",
   "source-url" : "git://github.com/FROGGS/p6-Digest-PSHA1.git",
   "perl" : "6.*",
