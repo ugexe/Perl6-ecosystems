@@ -11380,7 +11380,7 @@
 ,
 {
   "name" : "Digest::MurmurHash3",
-  "source-url" : "git://github.com/yowcow/p6-Digest-MurmurHash3.git",
+  "source-url" : "https://github.com/yowcow/p6-Digest-MurmurHash3.git",
   "perl" : "6.c",
   "resources" : [
     "libmurmurhash3.dylib",
@@ -11398,6 +11398,7 @@
     "Test",
     "Test::META"
   ],
+  "tags" : [ ],
   "provides" : {
     "Digest::MurmurHash3" : "lib/Digest/MurmurHash3.pm6"
   },
@@ -11438,7 +11439,7 @@
 ,
 {
   "name" : "WebService::SOP",
-  "source-url" : "git://github.com/yowcow/p6-WebService-SOP.git",
+  "source-url" : "https://github.com/yowcow/p6-WebService-SOP.git",
   "perl" : "6.c",
   "resources" : [ ],
   "build-depends" : [ ],
