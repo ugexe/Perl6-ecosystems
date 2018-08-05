@@ -7057,33 +7057,6 @@
 }
 ,
 {
-  "name" : "CompUnit::Repository::Panda",
-  "support" : {
-    "irc" : "irc://irc.freenode.org/#perl6"
-  },
-  "source-url" : "git://github.com/niner/CompUnit-Repository-Panda.git",
-  "perl" : "v6.c",
-  "build-depends" : [
-    "panda"
-  ],
-  "author" : "github:niner",
-  "repo-type" : "git",
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "CompUnit::Repository::Panda" : "lib/CompUnit/Repository/Panda.pm6"
-  },
-  "test-depends" : [
-    "File::Temp",
-    "panda"
-  ],
-  "version" : "0.1",
-  "description" : "Auto-install modules you use",
-  "authors" : [
-    "Stefan Seifert"
-  ]
-}
-,
-{
   "name" : "CompUnit::Repository::Mask",
   "source-url" : "https://github.com/niner/CompUnit-Repository-Mask.git",
   "perl" : "6.c",
