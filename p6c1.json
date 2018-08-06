@@ -15302,6 +15302,38 @@
 }
 ,
 {
+  "name" : "RT::REST::Client",
+  "support" : {
+    "source" : "git://github.com/zoffixznet/perl6-RT-REST-Client.git"
+  },
+  "perl" : "6.c",
+  "depends" : [
+    "IO::Socket::SSL",
+    "HTTP::UserAgent",
+    "URI",
+    "URI::Escape"
+  ],
+  "provides" : {
+    "RT::REST::Client::Grammar" : "lib/RT/REST/Client/Grammar.pm6",
+    "RT::REST::Client::Grammar::Actions::Tickets" : "lib/RT/REST/Client/Grammar/Actions.pm6",
+    "RT::REST::Client::Grammar::Actions" : "lib/RT/REST/Client/Grammar/Actions.pm6",
+    "RT::REST::Client::Grammar::Tickets" : "lib/RT/REST/Client/Grammar.pm6",
+    "RT::REST::Client::Ticket" : "lib/RT/REST/Client/Grammar/Actions.pm6",
+    "RT::REST::Client" : "lib/RT/REST/Client.pm6"
+  },
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001003",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Use Request Tracker's (RT) REST client interface"
+}
+,
+{
   "name" : "Uzu",
   "source-url" : "https://github.com/scmorrison/uzu.git",
   "perl" : "6.c",
