@@ -7811,29 +7811,6 @@
 }
 ,
 {
-  "name" : "Template::Anti",
-  "perl" : "6.c",
-  "source-url" : "git://github.com/zostay/Template-Anti.git",
-  "depends" : [
-    "DOM::Tiny"
-  ],
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "provides" : {
-    "Template::Anti::Library" : "lib/Template/Anti.pm6",
-    "Template::Anti" : "lib/Template/Anti.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.4.3",
-  "authors" : [
-    "Sterling Hanenkamp <hanenkamp@cpan.org>"
-  ],
-  "description" : "The anti-template templating tool."
-}
-,
-{
   "name" : "Perl6::Parser",
   "source-url" : "https://github.com/drforr/perl6-Perl6-Parser.git",
   "perl" : "6.c",
@@ -8089,58 +8066,6 @@
   },
   "version" : "0.1.2",
   "description" : "A common log format logger for anything abiding by HTTP::Server"
-}
-,
-{
-  "name" : "HTTP::Headers",
-  "source-url" : "git://github.com/zostay/p6-HTTP-Headers.git",
-  "perl" : "6.c",
-  "depends" : [ ],
-  "provides" : {
-    "HTTP::Header::Standard" : "lib/HTTP/Headers.pm6",
-    "HTTP::Header" : "lib/HTTP/Headers.pm6",
-    "HTTP::Headers" : "lib/HTTP/Headers.pm6",
-    "HTTP::Header::Custom" : "lib/HTTP/Headers.pm6",
-    "HTTP::Header::Standard::Content-Type" : "lib/HTTP/Headers.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.2",
-  "authors" : [
-    "Andrew Sterling Hanenkamp"
-  ],
-  "description" : "Tools for working with HTTP message headers"
-}
-,
-{
-  "name" : "Hash::MultiValue",
-  "perl" : "6.c",
-  "support" : {
-    "source" : "git://github.com/zostay/p6-Hash-MultiValue.git"
-  },
-  "source-url" : "git://github.com/zostay/p6-Hash-MultiValue.git",
-  "author" : "Andrew Sterling Hanenkamp",
-  "build-depends" : [ ],
-  "auth" : "github:zostay",
-  "depends" : [ ],
-  "provides" : {
-    "Hash::MultiValue" : "lib/Hash/MultiValue.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "hash",
-    "data structure",
-    "array"
-  ],
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "version" : "0.6",
-  "meta6" : "0",
-  "description" : "Store multiple values per key, but act like a regular hash",
-  "authors" : [
-    "Sterling Hanenkamp <hanenkap@cpan.org>"
-  ]
 }
 ,
 {
@@ -8460,26 +8385,6 @@
 }
 ,
 {
-  "name" : "ArrayHash",
-  "source-url" : "git://github.com/zostay/perl6-ArrayHash.git",
-  "perl" : "6.c",
-  "depends" : [ ],
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "provides" : {
-    "ArrayHash" : "lib/ArrayHash.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.3",
-  "authors" : [
-    "Sterling Hanenkamp <hanenkamp@cpan.org>"
-  ],
-  "description" : "An array in a hash in an array... like a turducken"
-}
-,
-{
   "name" : "Audio::Libshout",
   "perl" : "6.c",
   "support" : {
@@ -8697,39 +8602,6 @@
     "Justin DeVuyst"
   ],
   "description" : "data selection dsl parser and applicator"
-}
-,
-{
-  "name" : "IO::Glob",
-  "support" : {
-    "source" : "git://github.com/zostay/perl6-IO-Glob.git",
-    "bugtracker" : "https://github.com/zostay/perl6-IO-Glob/issues"
-  },
-  "source-url" : "git://github.com/zostay/perl6-IO-Glob.git",
-  "perl" : "6",
-  "auth" : "github:zostay",
-  "depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "provides" : {
-    "IO::Glob::Simple" : "lib/IO/Glob.pm6",
-    "IO::Glob::Globber" : "lib/IO/Glob.pm6",
-    "IO::Glob::Base" : "lib/IO/Glob.pm6",
-    "IO::Glob" : "lib/IO/Glob.pm6",
-    "IO::Glob::SQL" : "lib/IO/Glob.pm6",
-    "IO::Glob::BSD" : "lib/IO/Glob.pm6",
-    "IO::Glob::Globber::Match" : "lib/IO/Glob.pm6",
-    "IO::Glob::Globber::Term" : "lib/IO/Glob.pm6",
-    "IO::Glob::Globber::Expansion" : "lib/IO/Glob.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.5",
-  "authors" : [
-    "Andrew Sterling Hanenkamp <hanenkamp@cpan.org>",
-    "Peter Pentchev <roam@ringlet.net>"
-  ],
-  "description" : "Glob matching for paths & strings and listing files"
 }
 ,
 {
@@ -12826,7 +12698,7 @@
     "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "1.3.0",
+  "version" : "1.4.0",
   "description" : "Choose items from a list interactively.",
   "authors" : [
     "kuerbis"
@@ -15905,35 +15777,6 @@
     "Alexey Melezhik"
   ],
   "description" : "Sparrowdo module to install CPAN modules using App::cpm - a fast CPAN module installer"
-}
-,
-{
-  "name" : "DOM::Tiny",
-  "source-url" : "git://github.com/zostay/p6-DOM-Tiny.git",
-  "perl" : "6.c",
-  "support" : {
-    "source" : "git://github.com/zostay/p6-DOM-Tiny.git"
-  },
-  "build-depends" : [ ],
-  "auth" : "github:zostay",
-  "depends" : [ ],
-  "license" : "Artistic-2.0",
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "provides" : {
-    "DOM::Tiny::CSS" : "lib/DOM/Tiny/CSS.pm6",
-    "DOM::Tiny" : "lib/DOM/Tiny.pm6",
-    "DOM::Tiny::HTML" : "lib/DOM/Tiny/HTML.pm6",
-    "DOM::Tiny::Entities" : "lib/DOM/Tiny/Entities.pm6"
-  },
-  "version" : "0.4.1",
-  "description" : "Very small, self-sufficient DOM parser manipulator",
-  "authors" : [
-    "Sterling Hanenkamp <hanenkamp@cpan.org>"
-  ],
-  "meta6" : "0"
 }
 ,
 {
