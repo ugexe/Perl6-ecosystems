@@ -6969,6 +6969,7 @@
   "source-url" : "git://github.com/niner/Inline-Python.git",
   "perl" : "6.c",
   "build-depends" : [
+    "Distribution::Builder::MakeFromJSON",
     {
       "by-distro.name" : {
         "" : "python2-config",
