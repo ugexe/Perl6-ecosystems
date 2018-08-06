@@ -7385,7 +7385,8 @@
   "provides" : {
     "Template::Protone" : "lib/Template/Protone.pm6"
   },
-  "version" : "0.1.2",
+  "license" : "Artistic-2.0",
+  "version" : "0.1.3",
   "authors" : [
     "Tony O'Dell"
   ],
@@ -15328,29 +15329,32 @@
 ,
 {
   "name" : "DateTime::DST",
+  "perl" : "6.c",
   "support" : {
     "source" : "git://github.com/zostay/DateTime-DST.git"
   },
   "source-url" : "git://github.com/zostay/DateTime-DST.git",
-  "perl" : "6.c",
+  "author" : "Andrew Sterling Hanenkamp",
+  "build-depends" : [ ],
   "resources" : [
     "library/dsthelper"
   ],
-  "author" : "Andrew Sterling Hanenkamp",
   "auth" : "github:zostay",
   "depends" : [
     "LibraryMake"
   ],
-  "test-depends" : [
-    "Test"
-  ],
   "provides" : {
     "DateTime::DST" : "lib/DateTime/DST.pm6"
   },
+  "test-depends" : [
+    "Test"
+  ],
   "license" : "Artistic-2.0",
-  "version" : "0.2",
+  "tags" : [ ],
+  "meta-version" : "0",
+  "version" : "0.3",
   "description" : "Make localtime[8] available as is-dst to Perl 6",
-  "meta6" : "0"
+  "authors" : [ ]
 }
 ,
 {
