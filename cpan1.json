@@ -14047,6 +14047,28 @@
 }
 ,
 {
+  "name" : "Algorithm::SetUnion",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-SetUnion-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "titsuki",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::SetUnion::Node" : "lib/Algorithm/SetUnion/Node.pm6",
+    "Algorithm::SetUnion" : "lib/Algorithm/SetUnion.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "a perl6 implementation for solving the disjoint set union problem (a.k.a. Union-Find Tree)",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
   "name" : "Chart::Gnuplot",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Chart-Gnuplot-0.0.3.tar.gz",
   "perl" : "6.c",
