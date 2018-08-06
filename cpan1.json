@@ -1504,6 +1504,34 @@
 }
 ,
 {
+  "name" : "CamelPub",
+  "source-url" : "http://www.cpan.org/authors/id/D/DO/DONPDONP/Perl6/CamelPub-0.2.6.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "Cro::HTTP",
+    "URI",
+    "DBIish",
+    "HTML::Parser::XML"
+  ],
+  "tags" : [
+    "activitypub",
+    "webfinger"
+  ],
+  "provides" : {
+    "CamelPub::WebFinger" : "lib/CamelPub/WebFinger.pm6",
+    "CamelPub::Net" : "lib/CamelPub/Net.pm6",
+    "CamelPub::Commands" : "lib/CamelPub/Commands.pm6",
+    "CamelPub::Server" : "lib/CamelPub/Server.pm6",
+    "CamelPub" : "lib/CamelPub.pm6",
+    "CamelPub::ActivityPub" : "lib/CamelPub/ActivityPub.pm6",
+    "CamelPubTool" : "lib/CamelPubTool.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.6",
+  "description" : "Interact with the Fediverse including ActivityPub and Webfinger"
+}
+,
+{
   "name" : "Acme::Don't",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Acme-Dont-0.0.2.tar.gz",
   "perl" : "6.c",
