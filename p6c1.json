@@ -6981,6 +6981,7 @@
     },
     "build" : {
       "requires" : [
+        "Distribution::Builder::MakeFromJSON",
         {
           "name" : {
             "by-distro.name" : {
