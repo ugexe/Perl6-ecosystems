@@ -6450,30 +6450,6 @@
 }
 ,
 {
-  "name" : "Pluggable",
-  "source-url" : "https://github.com/tony-o/perl6-pluggable.git",
-  "perl" : "6.c",
-  "auth" : "github:tony-o",
-  "depends" : [
-    "Test::META"
-  ],
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "Pluggable" : "lib/Pluggable.pm6"
-  },
-  "test-depends" : [
-    "SVG::Plot::Pie",
-    "File::Find"
-  ],
-  "version" : "0.2",
-  "authors" : [
-    "Robert Lemmen",
-    "Tony ODell"
-  ],
-  "description" : "Find plugin classes or modules"
-}
-,
-{
   "name" : "DB::ORM::Quicky",
   "source-url" : "git://github.com/tony-o/perl6-db-orm-quicky.git",
   "perl" : "6.*",
@@ -20166,42 +20142,6 @@
     "Andr\u00e9 Br\u00e1s"
   ],
   "description" : "A simple web framework for perl6"
-}
-,
-{
-  "name" : "Toaster",
-  "support" : {
-    "source" : "https://github.com/zoffixznet/perl6-Toaster.git"
-  },
-  "perl" : "6.c",
-  "depends" : [
-    "File::Find",
-    "JSON::Fast",
-    "Terminal::ANSIColor",
-    "DBIish",
-    "Temp::Path",
-    "Proc::Q",
-    "WhereList",
-    "WWW"
-  ],
-  "provides" : {
-    "Toaster" : "lib/Toaster.pm6",
-    "Toaster::DB" : "lib/Toaster/DB.pm6"
-  },
-  "test-depends" : [
-    "Testo",
-    "Test::META"
-  ],
-  "tags" : [
-    "ecosystem",
-    "testing"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "1.001002",
-  "authors" : [
-    "Zoffix Znet"
-  ],
-  "description" : "Toaster of Perl 6 Ecosystem Modules"
 }
 ,
 {
