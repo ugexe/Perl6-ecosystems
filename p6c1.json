@@ -19606,7 +19606,8 @@
   "resources" : [ ],
   "depends" : [ ],
   "test-depends" : [
-    "Test::Meta"
+    "Test",
+    "Test::META"
   ],
   "provides" : {
     "Grammar::Modelica::ComponentClause" : "lib/Grammar/Modelica/ComponentClause.pm6",
