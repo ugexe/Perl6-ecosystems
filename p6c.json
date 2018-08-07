@@ -8054,7 +8054,7 @@
   "provides" : {
     "HTTP::Server::Logger" : "lib/HTTP/Server/Logger.pm6"
   },
-  "version" : "0.1.3",
+  "version" : "0.1.4",
   "description" : "A common log format logger for anything abiding by HTTP::Server"
 }
 ,
@@ -16538,24 +16538,6 @@
     "Joshua Yeshouroun"
   ],
   "description" : "Parse, manipulate and lookup IP network blocks"
-}
-,
-{
-  "name" : "Pod::To::Markdown::Fenced",
-  "source-url" : "git://github.com/0racle/p6-Pod-To-Markdown-Fenced.git",
-  "perl" : "6.c",
-  "depends" : [
-    "Pod::To::Markdown"
-  ],
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "Pod::To::Markdown::Fenced" : "lib/Pod/To/Markdown/Fenced.pm6"
-  },
-  "version" : "0.1.0",
-  "authors" : [
-    "Joshua Yeshouroun"
-  ],
-  "description" : "Render POD code blocks as fenced code blocks"
 }
 ,
 {
