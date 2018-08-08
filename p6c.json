@@ -21434,26 +21434,6 @@
 }
 ,
 {
-  "name" : "Games::TauStation::DateTime",
-  "source-url" : "https://github.com/zoffixznet/perl6-Games-TauStation-DateTime.git",
-  "perl" : "6.c",
-  "depends" : [ ],
-  "provides" : {
-    "Games::TauStation::DateTime" : "lib/Games/TauStation/DateTime.pm6",
-    "GCT" : "lib/Games/TauStation/DateTime.pm6"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "1.001006",
-  "authors" : [
-    "Zoffix Znet"
-  ],
-  "description" : "Convert Coordinated Central Time to Old Earth Time"
-}
-,
-{
   "name" : "JSON::Stream",
   "perl" : "6.*",
   "source-url" : "git://github.com/FCO/json-stream.git",
