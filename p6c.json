@@ -7690,6 +7690,24 @@
 }
 ,
 {
+  "name" : "Uni63",
+  "source-url" : "git://github.com/cygx/p6-uni63.git",
+  "support" : {
+    "source" : "https://github.com/cygx/p6-uni63",
+    "bugtracker" : "https://github.com/cygx/p6-uni63/issues"
+  },
+  "perl" : "6.*",
+  "author" : "cygx <cygx@cpan.org>",
+  "depends" : [ ],
+  "provides" : {
+    "Uni63" : "lib/Uni63.pm6"
+  },
+  "license" : "BSL-1.0",
+  "version" : "0.2.0",
+  "description" : "A Unicode encoding scheme suitable for name mangling"
+}
+,
+{
   "name" : "Unicode::GCB",
   "support" : {
     "source" : "https://github.com/cygx/p6-unicode-gcb/tree/v0.2.1",
@@ -15515,6 +15533,26 @@
   "authors" : [
     "Shoichi Kaji"
   ]
+}
+,
+{
+  "name" : "HTTP::HPACK",
+  "support" : {
+    "source" : "git://github.com/jnthn/p6-http-hpack.git"
+  },
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "HTTP::HPACK" : "lib/HTTP/HPACK.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "version" : "0.9.2",
+  "authors" : [
+    "Jonathan Worthington"
+  ],
+  "description" : "Implementation of RFC 7541 HPACK: Header Compression for HTTP/2"
 }
 ,
 {
