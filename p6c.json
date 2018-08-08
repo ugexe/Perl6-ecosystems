@@ -14256,27 +14256,6 @@
 }
 ,
 {
-  "name" : "App::Whiff",
-  "source-url" : "git://github.com/Altai-man/perl6-app-whiff.git",
-  "perl" : "6.*",
-  "resources" : [ ],
-  "author" : "github:Altai-man",
-  "depends" : [
-    "File::Which"
-  ],
-  "provides" : {
-    "App::Whiff" : "lib/App/Whiff.pm6"
-  },
-  "tags" : [
-    "Utils",
-    "Admin"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "0.1.0",
-  "description" : "Port of perl whiff"
-}
-,
-{
   "name" : "HTML::MyHTML",
   "perl" : "6.c",
   "source-url" : "git://github.com/madcapjake/p6-myhtml.git",
