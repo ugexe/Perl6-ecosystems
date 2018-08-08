@@ -16846,6 +16846,34 @@ null
 }
 ,
 {
+  "name" : "AttrX::Mooish",
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/AttrX-Mooish-v0.0.2.tar.gz",
+  "perl" : "6.c",
+  "auth" : "github:vrurg",
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [
+    "AttrX",
+    "Moo",
+    "Mooish",
+    "attribute",
+    "mooish",
+    "trait"
+  ],
+  "provides" : {
+    "AttrX::Mooish" : "lib/AttrX/Mooish.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Extending attribute functionality with ideas from Moo/Moose",
+  "authors" : [
+    "Vadim Belman"
+  ]
+}
+,
+{
   "name" : "Font::AFM",
   "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-AFM-1.24.2.tar.gz",
   "perl" : "6",
