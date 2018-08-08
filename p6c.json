@@ -9235,28 +9235,6 @@
 }
 ,
 {
-  "name" : "Router::Boost",
-  "source-url" : "git://github.com/moznion/p6-Router-Boost.git",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [ ],
-  "provides" : {
-    "Router::Boost" : "lib/Router/Boost.pm6",
-    "Router::Boost::Node" : "lib/Router/Boost/Node.pm6",
-    "Router::Boost::Method" : "lib/Router/Boost/Method.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "Routing engine for perl6",
-  "authors" : [
-    "moznion"
-  ]
-}
-,
-{
   "name" : "Perl6::Maven",
   "source-url" : "git://github.com/szabgab/Perl6-Maven.git",
   "support" : {
