@@ -1974,28 +1974,6 @@
 }
 ,
 {
-  "name" : "Prime::Factor",
-  "source-url" : "git://github.com/thundergnat/Prime-Factor.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "depends" : [ ],
-  "tags" : [
-    "Number",
-    "Prime",
-    "Factor"
-  ],
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "Prime::Factor" : "lib/Prime/Factor.pm6"
-  },
-  "version" : "0.2.3",
-  "authors" : [
-    "Steve Schulze (thundergnat)"
-  ],
-  "description" : "Returns all prime factors of an integer."
-}
-,
-{
   "name" : "Text::Levenshtein",
   "source-url" : "git://github.com/thundergnat/Text-Levenshtein.git",
   "perl" : "6.*",
@@ -15414,6 +15392,27 @@
     "Peter Pentchev"
   ],
   "description" : "Compare two complex data structures loosely"
+}
+,
+{
+  "name" : "Getopt::Std",
+  "source-url" : "https://github.com/ppentchev/perl6-Getopt-Std.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::Deeply::Relaxed",
+    "Test::META"
+  ],
+  "provides" : {
+    "Getopt::Std" : "lib/Getopt/Std.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0.1",
+  "authors" : [
+    "Peter Pentchev"
+  ],
+  "description" : "Process single-character options with option clustering"
 }
 ,
 {
