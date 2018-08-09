@@ -21355,28 +21355,6 @@
 }
 ,
 {
-  "name" : "Koos",
-  "source-url" : "git://github.com/tony-o/perl6-koos.git",
-  "perl" : "6",
-  "auth" : "github:tony-o",
-  "depends" : [
-    "DBIish"
-  ],
-  "provides" : {
-    "Koos::Model" : "lib/Koos/Model.pm6",
-    "Koos::Searchable" : "lib/Koos/Searchable.pm6",
-    "Koos" : "lib/Koos.pm6",
-    "Koos::Row" : "lib/Koos/Row.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.4",
-  "authors" : [
-    "Tony O'Dell"
-  ],
-  "description" : "An ORM."
-}
-,
-{
   "name" : "Test::Time",
   "perl" : "6.*",
   "support" : {
