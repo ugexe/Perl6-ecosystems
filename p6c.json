@@ -12368,6 +12368,24 @@
 }
 ,
 {
+  "name" : "WebService::AWS::Auth::V4",
+  "source-url" : "git://github.com/bradclawsie/WebService-AWS-V4.git",
+  "perl" : "6.*",
+  "author" : "Brad Clawsie",
+  "depends" : [
+    "URI",
+    "URI::Escape",
+    "Digest::SHA",
+    "Digest::HMAC"
+  ],
+  "provides" : {
+    "WebService::AWS::Auth::V4" : "lib/WebService/AWS/Auth/V4.pm6"
+  },
+  "version" : "0.0.3",
+  "description" : "A library of routines to create AWS V4 authentication strings"
+}
+,
+{
   "name" : "LMDB",
   "support" : {
     "email" : "sog@msg.com.mx",
