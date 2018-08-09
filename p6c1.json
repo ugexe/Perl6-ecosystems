@@ -1974,6 +1974,28 @@
 }
 ,
 {
+  "name" : "Prime::Factor",
+  "source-url" : "git://github.com/thundergnat/Prime-Factor.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "depends" : [ ],
+  "tags" : [
+    "Number",
+    "Prime",
+    "Factor"
+  ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "Prime::Factor" : "lib/Prime/Factor.pm6"
+  },
+  "version" : "0.2.3",
+  "authors" : [
+    "Steve Schulze (thundergnat)"
+  ],
+  "description" : "Returns all prime factors of an integer."
+}
+,
+{
   "name" : "Text::Levenshtein",
   "source-url" : "git://github.com/thundergnat/Text-Levenshtein.git",
   "perl" : "6.*",
