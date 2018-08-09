@@ -6300,6 +6300,19 @@
 }
 ,
 {
+  "name" : "Serialize::Tiny",
+  "source-url" : "git://github.com/vendethiel/Serialize-Tiny.pm6.git",
+  "perl" : "6.*",
+  "author" : "vendethiel",
+  "depends" : [ ],
+  "provides" : {
+    "Serialize::Tiny" : "lib/Serialize/Tiny.pm"
+  },
+  "version" : "1",
+  "description" : "A very simple `serialize` sub to get public attribute values"
+}
+,
+{
   "name" : "Clifford",
   "source-url" : "git://github.com/grondilu/clifford.git",
   "perl" : "6.c",
