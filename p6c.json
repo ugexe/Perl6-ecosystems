@@ -21018,6 +21018,37 @@
 }
 ,
 {
+  "name" : "Config::JSON",
+  "support" : {
+    "source" : "https://github.com/zoffixznet/perl6-Config-JSON.git"
+  },
+  "perl" : "6.c",
+  "depends" : [
+    "JSON::Fast"
+  ],
+  "provides" : {
+    "Config::JSON" : "lib/Config/JSON.pm6"
+  },
+  "test-depends" : [
+    "JSON::Fast",
+    "Testo",
+    "Test::When",
+    "Temp::Path"
+  ],
+  "tags" : [
+    "config",
+    "configuration",
+    "JSON"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001003",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Flat, JSON-backed read-write configuration"
+}
+,
+{
   "name" : "CoreHackers::Q",
   "support" : {
     "source" : "https://github.com/zoffixznet/q.git"
