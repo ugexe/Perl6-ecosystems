@@ -16723,6 +16723,33 @@
 }
 ,
 {
+  "name" : "UNIX::Daemonize",
+  "source-url" : "git://github.com/hipek8/p6-UNIX-Daemonize.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "NativeCall"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "UNIX::Daemonize" : "lib/UNIX/Daemonize.pm6",
+    "UNIX::Daemonize::NativeSymbols" : "lib/UNIX/Daemonize/NativeSymbols.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "configurable daemonizing tool written in Perl 6",
+  "authors" : [
+    "Pawe\u0142 Szulc"
+  ]
+}
+,
+{
   "name" : "JSON::Hjson",
   "source-url" : "git://github.com/akiym/JSON-Hjson.git",
   "perl" : "6.c",
