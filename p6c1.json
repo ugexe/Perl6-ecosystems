@@ -15859,6 +15859,32 @@
 }
 ,
 {
+  "name" : "Numeric::Pack",
+  "source-url" : "git://github.com/samgwise/p6-Numeric-Pack.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "NativeCall"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Binary",
+    "Buf",
+    "Native"
+  ],
+  "provides" : {
+    "Numeric::Pack" : "lib/Numeric/Pack.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.0",
+  "description" : "Convert perl6 Numerics to Bufs and back again!",
+  "authors" : [
+    "Sam Gillespie"
+  ]
+}
+,
+{
   "name" : "Binary::Structured",
   "source-url" : "git://github.com/avuserow/perl6-binary-structured.git",
   "perl" : "6.c",
