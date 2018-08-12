@@ -1011,616 +1011,6 @@
 }
 ,
 {
-  "name" : "DateTime::TimeZone",
-  "perl" : "6.*",
-  "support" : {
-    "source" : null
-  },
-  "source-url" : "git://github.com/supernovus/perl6-timezone.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : null,
-  "depends" : [ ],
-  "provides" : {
-    "DateTime::TimeZone::Zone::Europe::Gibraltar" : "lib/DateTime/TimeZone/Zone/Europe/Gibraltar.pm6",
-    "DateTime::TimeZone::Zone::Europe::Chisinau" : "lib/DateTime/TimeZone/Zone/Europe/Chisinau.pm6",
-    "DateTime::TimeZone::Zone::America::Santo_Domingo" : "lib/DateTime/TimeZone/Zone/America/Santo_Domingo.pm6",
-    "DateTime::TimeZone::Zone::America::Resolute" : "lib/DateTime/TimeZone/Zone/America/Resolute.pm6",
-    "DateTime::TimeZone::Zone::Australia::Perth" : "lib/DateTime/TimeZone/Zone/Australia/Perth.pm6",
-    "DateTime::TimeZone::Zone::Asia::Hovd" : "lib/DateTime/TimeZone/Zone/Asia/Hovd.pm6",
-    "DateTime::TimeZone::Zone::America::Scoresbysund" : "lib/DateTime/TimeZone/Zone/America/Scoresbysund.pm6",
-    "DateTime::TimeZone::Zone::America::Recife" : "lib/DateTime/TimeZone/Zone/America/Recife.pm6",
-    "DateTime::TimeZone::Zone::Iran" : "lib/DateTime/TimeZone/Zone/Iran.pm6",
-    "DateTime::TimeZone::Zone::America::Bahia" : "lib/DateTime/TimeZone/Zone/America/Bahia.pm6",
-    "DateTime::TimeZone::Zone::Asia::Sakhalin" : "lib/DateTime/TimeZone/Zone/Asia/Sakhalin.pm6",
-    "DateTime::TimeZone::Zone::Chile::Continental" : "lib/DateTime/TimeZone/Zone/Chile/Continental.pm6",
-    "DateTime::TimeZone::Zone::America::Santarem" : "lib/DateTime/TimeZone/Zone/America/Santarem.pm6",
-    "DateTime::TimeZone::Zone::America::Paramaribo" : "lib/DateTime/TimeZone/Zone/America/Paramaribo.pm6",
-    "DateTime::TimeZone::Zone::America::Metlakatla" : "lib/DateTime/TimeZone/Zone/America/Metlakatla.pm6",
-    "DateTime::TimeZone::Zone::Asia::Novosibirsk" : "lib/DateTime/TimeZone/Zone/Asia/Novosibirsk.pm6",
-    "DateTime::TimeZone::Zone::Canada::Newfoundland" : "lib/DateTime/TimeZone/Zone/Canada/Newfoundland.pm6",
-    "DateTime::TimeZone::Zone::US::Central" : "lib/DateTime/TimeZone/Zone/US/Central.pm6",
-    "DateTime::TimeZone::Zone::Asia::Bahrain" : "lib/DateTime/TimeZone/Zone/Asia/Bahrain.pm6",
-    "DateTime::TimeZone::Zone::Atlantic::St_Helena" : "lib/DateTime/TimeZone/Zone/Atlantic/St_Helena.pm6",
-    "DateTime::TimeZone::Zone::US::East_minus_Indiana" : "lib/DateTime/TimeZone/Zone/US/East_minus_Indiana.pm6",
-    "DateTime::TimeZone::Zone::Europe::Zurich" : "lib/DateTime/TimeZone/Zone/Europe/Zurich.pm6",
-    "DateTime::TimeZone::Zone::Antarctica::Macquarie" : "lib/DateTime/TimeZone/Zone/Antarctica/Macquarie.pm6",
-    "DateTime::TimeZone::Zone::America::Hermosillo" : "lib/DateTime/TimeZone/Zone/America/Hermosillo.pm6",
-    "DateTime::TimeZone::Zone::America::Campo_Grande" : "lib/DateTime/TimeZone/Zone/America/Campo_Grande.pm6",
-    "DateTime::TimeZone::Zone::America::Cayman" : "lib/DateTime/TimeZone/Zone/America/Cayman.pm6",
-    "DateTime::TimeZone::Zone::Asia::Seoul" : "lib/DateTime/TimeZone/Zone/Asia/Seoul.pm6",
-    "DateTime::TimeZone::Zone::Atlantic::Bermuda" : "lib/DateTime/TimeZone/Zone/Atlantic/Bermuda.pm6",
-    "DateTime::TimeZone::Zone::Canada::Central" : "lib/DateTime/TimeZone/Zone/Canada/Central.pm6",
-    "DateTime::TimeZone::Zone::America::Indiana::Marengo" : "lib/DateTime/TimeZone/Zone/America/Indiana/Marengo.pm6",
-    "DateTime::TimeZone::Zone::US::Mountain" : "lib/DateTime/TimeZone/Zone/US/Mountain.pm6",
-    "DateTime::TimeZone::Zone::Europe::Moscow" : "lib/DateTime/TimeZone/Zone/Europe/Moscow.pm6",
-    "DateTime::TimeZone::Zone::America::Monterrey" : "lib/DateTime/TimeZone/Zone/America/Monterrey.pm6",
-    "DateTime::TimeZone::Zone::America::Caracas" : "lib/DateTime/TimeZone/Zone/America/Caracas.pm6",
-    "DateTime::TimeZone::Zone::Europe::Belgrade" : "lib/DateTime/TimeZone/Zone/Europe/Belgrade.pm6",
-    "DateTime::TimeZone::Zone::Indian::Mauritius" : "lib/DateTime/TimeZone/Zone/Indian/Mauritius.pm6",
-    "DateTime::TimeZone::Zone::Indian::Antananarivo" : "lib/DateTime/TimeZone/Zone/Indian/Antananarivo.pm6",
-    "DateTime::TimeZone::Zone::Antarctica::DumontDUrville" : "lib/DateTime/TimeZone/Zone/Antarctica/DumontDUrville.pm6",
-    "DateTime::TimeZone::Zone::America::Yakutat" : "lib/DateTime/TimeZone/Zone/America/Yakutat.pm6",
-    "DateTime::TimeZone::Zone::ROC" : "lib/DateTime/TimeZone/Zone/ROC.pm6",
-    "DateTime::TimeZone::Zone::Asia::Phnom_Penh" : "lib/DateTime/TimeZone/Zone/Asia/Phnom_Penh.pm6",
-    "DateTime::TimeZone::Zone::Chile::EasterIsland" : "lib/DateTime/TimeZone/Zone/Chile/EasterIsland.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::Cordoba" : "lib/DateTime/TimeZone/Zone/America/Argentina/Cordoba.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Samoa" : "lib/DateTime/TimeZone/Zone/Pacific/Samoa.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Johnston" : "lib/DateTime/TimeZone/Zone/Pacific/Johnston.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Auckland" : "lib/DateTime/TimeZone/Zone/Pacific/Auckland.pm6",
-    "DateTime::TimeZone::Zone::Europe::San_Marino" : "lib/DateTime/TimeZone/Zone/Europe/San_Marino.pm6",
-    "DateTime::TimeZone::Zone::Europe::Jersey" : "lib/DateTime/TimeZone/Zone/Europe/Jersey.pm6",
-    "DateTime::TimeZone::Zone::Africa::Addis_Ababa" : "lib/DateTime/TimeZone/Zone/Africa/Addis_Ababa.pm6",
-    "DateTime::TimeZone::Zone::PST8PDT" : "lib/DateTime/TimeZone/Zone/PST8PDT.pm6",
-    "DateTime::TimeZone::Zone::CST6CDT" : "lib/DateTime/TimeZone/Zone/CST6CDT.pm6",
-    "DateTime::TimeZone::Zone::Africa::Sao_Tome" : "lib/DateTime/TimeZone/Zone/Africa/Sao_Tome.pm6",
-    "DateTime::TimeZone::Zone::Atlantic::South_Georgia" : "lib/DateTime/TimeZone/Zone/Atlantic/South_Georgia.pm6",
-    "DateTime::TimeZone::Zone::Europe::Zaporozhye" : "lib/DateTime/TimeZone/Zone/Europe/Zaporozhye.pm6",
-    "DateTime::TimeZone::Zone::Asia::Dili" : "lib/DateTime/TimeZone/Zone/Asia/Dili.pm6",
-    "DateTime::TimeZone::Zone::Africa::Nouakchott" : "lib/DateTime/TimeZone/Zone/Africa/Nouakchott.pm6",
-    "DateTime::TimeZone::Zone::Europe::Berlin" : "lib/DateTime/TimeZone/Zone/Europe/Berlin.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Marquesas" : "lib/DateTime/TimeZone/Zone/Pacific/Marquesas.pm6",
-    "DateTime::TimeZone::Zone::America::Ojinaga" : "lib/DateTime/TimeZone/Zone/America/Ojinaga.pm6",
-    "DateTime::TimeZone::Zone::America::Manaus" : "lib/DateTime/TimeZone/Zone/America/Manaus.pm6",
-    "DateTime::TimeZone::Zone::Navajo" : "lib/DateTime/TimeZone/Zone/Navajo.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_11" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_11.pm6",
-    "DateTime::TimeZone::Zone::HST" : "lib/DateTime/TimeZone/Zone/HST.pm6",
-    "DateTime::TimeZone::Zone::Africa::Banjul" : "lib/DateTime/TimeZone/Zone/Africa/Banjul.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_4" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_4.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Galapagos" : "lib/DateTime/TimeZone/Zone/Pacific/Galapagos.pm6",
-    "DateTime::TimeZone::Zone::Asia::Dhaka" : "lib/DateTime/TimeZone/Zone/Asia/Dhaka.pm6",
-    "DateTime::TimeZone::Zone::America::St_Lucia" : "lib/DateTime/TimeZone/Zone/America/St_Lucia.pm6",
-    "DateTime::TimeZone::Zone::America::Sitka" : "lib/DateTime/TimeZone/Zone/America/Sitka.pm6",
-    "DateTime::TimeZone::Zone::Africa::Casablanca" : "lib/DateTime/TimeZone/Zone/Africa/Casablanca.pm6",
-    "DateTime::TimeZone::Zone::America::Anguilla" : "lib/DateTime/TimeZone/Zone/America/Anguilla.pm6",
-    "DateTime::TimeZone::Zone::Asia::Macao" : "lib/DateTime/TimeZone/Zone/Asia/Macao.pm6",
-    "DateTime::TimeZone::Zone::Asia::Qyzylorda" : "lib/DateTime/TimeZone/Zone/Asia/Qyzylorda.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_13" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_13.pm6",
-    "DateTime::TimeZone::Zone::Europe::Luxembourg" : "lib/DateTime/TimeZone/Zone/Europe/Luxembourg.pm6",
-    "DateTime::TimeZone::Zone::Asia::Jayapura" : "lib/DateTime/TimeZone/Zone/Asia/Jayapura.pm6",
-    "DateTime::TimeZone::Zone::Asia::Aden" : "lib/DateTime/TimeZone/Zone/Asia/Aden.pm6",
-    "DateTime::TimeZone::Zone::WET" : "lib/DateTime/TimeZone/Zone/WET.pm6",
-    "DateTime::TimeZone::Zone::Singapore" : "lib/DateTime/TimeZone/Zone/Singapore.pm6",
-    "DateTime::TimeZone::Zone::Asia::Rangoon" : "lib/DateTime/TimeZone/Zone/Asia/Rangoon.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Pohnpei" : "lib/DateTime/TimeZone/Zone/Pacific/Pohnpei.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Niue" : "lib/DateTime/TimeZone/Zone/Pacific/Niue.pm6",
-    "DateTime::TimeZone::Zone::America::Tegucigalpa" : "lib/DateTime/TimeZone/Zone/America/Tegucigalpa.pm6",
-    "DateTime::TimeZone::Zone::America::Rio_Branco" : "lib/DateTime/TimeZone/Zone/America/Rio_Branco.pm6",
-    "DateTime::TimeZone::Zone::Canada::Atlantic" : "lib/DateTime/TimeZone/Zone/Canada/Atlantic.pm6",
-    "DateTime::TimeZone::Zone::Asia::Jerusalem" : "lib/DateTime/TimeZone/Zone/Asia/Jerusalem.pm6",
-    "DateTime::TimeZone::Zone::America::St_Kitts" : "lib/DateTime/TimeZone/Zone/America/St_Kitts.pm6",
-    "DateTime::TimeZone::Zone::America::Creston" : "lib/DateTime/TimeZone/Zone/America/Creston.pm6",
-    "DateTime::TimeZone::Zone::Australia::Brisbane" : "lib/DateTime/TimeZone/Zone/Australia/Brisbane.pm6",
-    "DateTime::TimeZone::Zone::Indian::Kerguelen" : "lib/DateTime/TimeZone/Zone/Indian/Kerguelen.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Funafuti" : "lib/DateTime/TimeZone/Zone/Pacific/Funafuti.pm6",
-    "DateTime::TimeZone::Zone::Europe::Dublin" : "lib/DateTime/TimeZone/Zone/Europe/Dublin.pm6",
-    "DateTime::TimeZone::Zone::Africa::Bamako" : "lib/DateTime/TimeZone/Zone/Africa/Bamako.pm6",
-    "DateTime::TimeZone::Zone::Atlantic::Faroe" : "lib/DateTime/TimeZone/Zone/Atlantic/Faroe.pm6",
-    "DateTime::TimeZone::Zone::Europe::Athens" : "lib/DateTime/TimeZone/Zone/Europe/Athens.pm6",
-    "DateTime::TimeZone::Zone::NZ_minus_CHAT" : "lib/DateTime/TimeZone/Zone/NZ_minus_CHAT.pm6",
-    "DateTime::TimeZone::Zone::America::Indiana::Indianapolis" : "lib/DateTime/TimeZone/Zone/America/Indiana/Indianapolis.pm6",
-    "DateTime::TimeZone::Zone::Asia::Yerevan" : "lib/DateTime/TimeZone/Zone/Asia/Yerevan.pm6",
-    "DateTime::TimeZone::Zone::Antarctica::Davis" : "lib/DateTime/TimeZone/Zone/Antarctica/Davis.pm6",
-    "DateTime::TimeZone::Zone::Asia::Istanbul" : "lib/DateTime/TimeZone/Zone/Asia/Istanbul.pm6",
-    "DateTime::TimeZone::Zone::America::El_Salvador" : "lib/DateTime/TimeZone/Zone/America/El_Salvador.pm6",
-    "DateTime::TimeZone::Zone::America::Port_of_Spain" : "lib/DateTime/TimeZone/Zone/America/Port_of_Spain.pm6",
-    "DateTime::TimeZone::Zone::America::Blanc_minus_Sablon" : "lib/DateTime/TimeZone/Zone/America/Blanc_minus_Sablon.pm6",
-    "DateTime::TimeZone::Zone::America::Barbados" : "lib/DateTime/TimeZone/Zone/America/Barbados.pm6",
-    "DateTime::TimeZone::Zone::Europe::Brussels" : "lib/DateTime/TimeZone/Zone/Europe/Brussels.pm6",
-    "DateTime::TimeZone::Zone::America::Juneau" : "lib/DateTime/TimeZone/Zone/America/Juneau.pm6",
-    "DateTime::TimeZone::Zone::Australia::Eucla" : "lib/DateTime/TimeZone/Zone/Australia/Eucla.pm6",
-    "DateTime::TimeZone::Zone::Europe::Isle_of_Man" : "lib/DateTime/TimeZone/Zone/Europe/Isle_of_Man.pm6",
-    "DateTime::TimeZone::Zone::Asia::Dubai" : "lib/DateTime/TimeZone/Zone/Asia/Dubai.pm6",
-    "DateTime::TimeZone::Zone::Asia::Riyadh89" : "lib/DateTime/TimeZone/Zone/Asia/Riyadh89.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_9" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_9.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Enderbury" : "lib/DateTime/TimeZone/Zone/Pacific/Enderbury.pm6",
-    "DateTime::TimeZone::Zone::America::Dawson" : "lib/DateTime/TimeZone/Zone/America/Dawson.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Tarawa" : "lib/DateTime/TimeZone/Zone/Pacific/Tarawa.pm6",
-    "DateTime::TimeZone::Zone::America::Knox_IN" : "lib/DateTime/TimeZone/Zone/America/Knox_IN.pm6",
-    "DateTime::TimeZone::Zone::NZ" : "lib/DateTime/TimeZone/Zone/NZ.pm6",
-    "DateTime::TimeZone::Zone::Africa::Lome" : "lib/DateTime/TimeZone/Zone/Africa/Lome.pm6",
-    "DateTime::TimeZone::Zone::Africa::Lubumbashi" : "lib/DateTime/TimeZone/Zone/Africa/Lubumbashi.pm6",
-    "DateTime::TimeZone::Zone::Atlantic::Madeira" : "lib/DateTime/TimeZone/Zone/Atlantic/Madeira.pm6",
-    "DateTime::TimeZone::Zone::America::Indiana::Vincennes" : "lib/DateTime/TimeZone/Zone/America/Indiana/Vincennes.pm6",
-    "DateTime::TimeZone::Zone::America::Port_minus_au_minus_Prince" : "lib/DateTime/TimeZone/Zone/America/Port_minus_au_minus_Prince.pm6",
-    "DateTime::TimeZone::Zone::Australia::LHI" : "lib/DateTime/TimeZone/Zone/Australia/LHI.pm6",
-    "DateTime::TimeZone::Zone::Brazil::East" : "lib/DateTime/TimeZone/Zone/Brazil/East.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Easter" : "lib/DateTime/TimeZone/Zone/Pacific/Easter.pm6",
-    "DateTime::TimeZone::Zone::America::Lima" : "lib/DateTime/TimeZone/Zone/America/Lima.pm6",
-    "DateTime::TimeZone::Zone::America::Godthab" : "lib/DateTime/TimeZone/Zone/America/Godthab.pm6",
-    "DateTime::TimeZone::Zone::PRC" : "lib/DateTime/TimeZone/Zone/PRC.pm6",
-    "DateTime::TimeZone::Zone::America::Anchorage" : "lib/DateTime/TimeZone/Zone/America/Anchorage.pm6",
-    "DateTime::TimeZone::Zone::Asia::Tokyo" : "lib/DateTime/TimeZone/Zone/Asia/Tokyo.pm6",
-    "DateTime::TimeZone::Zone::America::Indiana::Tell_City" : "lib/DateTime/TimeZone/Zone/America/Indiana/Tell_City.pm6",
-    "DateTime::TimeZone::Zone::Mexico::BajaSur" : "lib/DateTime/TimeZone/Zone/Mexico/BajaSur.pm6",
-    "DateTime::TimeZone::Zone::Indian::Comoro" : "lib/DateTime/TimeZone/Zone/Indian/Comoro.pm6",
-    "DateTime::TimeZone::Zone::Europe::Riga" : "lib/DateTime/TimeZone/Zone/Europe/Riga.pm6",
-    "DateTime::TimeZone::Zone::Asia::Beirut" : "lib/DateTime/TimeZone/Zone/Asia/Beirut.pm6",
-    "DateTime::TimeZone::Zone::America::Glace_Bay" : "lib/DateTime/TimeZone/Zone/America/Glace_Bay.pm6",
-    "DateTime::TimeZone::Zone::America::Indiana::Winamac" : "lib/DateTime/TimeZone/Zone/America/Indiana/Winamac.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Kiritimati" : "lib/DateTime/TimeZone/Zone/Pacific/Kiritimati.pm6",
-    "DateTime::TimeZone::Zone::Asia::Irkutsk" : "lib/DateTime/TimeZone/Zone/Asia/Irkutsk.pm6",
-    "DateTime::TimeZone::Zone::Asia::Krasnoyarsk" : "lib/DateTime/TimeZone/Zone/Asia/Krasnoyarsk.pm6",
-    "DateTime::TimeZone::Zone::America::Edmonton" : "lib/DateTime/TimeZone/Zone/America/Edmonton.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_10" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_10.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::Jujuy" : "lib/DateTime/TimeZone/Zone/America/Argentina/Jujuy.pm6",
-    "DateTime::TimeZone::Zone::Indian::Mahe" : "lib/DateTime/TimeZone/Zone/Indian/Mahe.pm6",
-    "DateTime::TimeZone::Zone::America::Costa_Rica" : "lib/DateTime/TimeZone/Zone/America/Costa_Rica.pm6",
-    "DateTime::TimeZone::Zone::Asia::Kuching" : "lib/DateTime/TimeZone/Zone/Asia/Kuching.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Wallis" : "lib/DateTime/TimeZone/Zone/Pacific/Wallis.pm6",
-    "DateTime::TimeZone::Zone::Asia::Chungking" : "lib/DateTime/TimeZone/Zone/Asia/Chungking.pm6",
-    "DateTime::TimeZone::Zone::Africa::Douala" : "lib/DateTime/TimeZone/Zone/Africa/Douala.pm6",
-    "DateTime::TimeZone::Zone::Australia::ACT" : "lib/DateTime/TimeZone/Zone/Australia/ACT.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_10" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_10.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Gambier" : "lib/DateTime/TimeZone/Zone/Pacific/Gambier.pm6",
-    "DateTime::TimeZone::Zone::Asia::Damascus" : "lib/DateTime/TimeZone/Zone/Asia/Damascus.pm6",
-    "DateTime::TimeZone::Zone::MST" : "lib/DateTime/TimeZone/Zone/MST.pm6",
-    "DateTime::TimeZone::Zone::Asia::Ujung_Pandang" : "lib/DateTime/TimeZone/Zone/Asia/Ujung_Pandang.pm6",
-    "DateTime::TimeZone::Zone::America::Kentucky::Louisville" : "lib/DateTime/TimeZone/Zone/America/Kentucky/Louisville.pm6",
-    "DateTime::TimeZone::Zone::US::Arizona" : "lib/DateTime/TimeZone/Zone/US/Arizona.pm6",
-    "DateTime::TimeZone::Zone::Europe::Vienna" : "lib/DateTime/TimeZone/Zone/Europe/Vienna.pm6",
-    "DateTime::TimeZone::Zone::Europe::Budapest" : "lib/DateTime/TimeZone/Zone/Europe/Budapest.pm6",
-    "DateTime::TimeZone::Zone::America::Martinique" : "lib/DateTime/TimeZone/Zone/America/Martinique.pm6",
-    "DateTime::TimeZone::Zone::Asia::Kuwait" : "lib/DateTime/TimeZone/Zone/Asia/Kuwait.pm6",
-    "DateTime::TimeZone::Zone::Asia::Saigon" : "lib/DateTime/TimeZone/Zone/Asia/Saigon.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::La_Rioja" : "lib/DateTime/TimeZone/Zone/America/Argentina/La_Rioja.pm6",
-    "DateTime::TimeZone::Zone::Canada::Eastern" : "lib/DateTime/TimeZone/Zone/Canada/Eastern.pm6",
-    "DateTime::TimeZone::Zone::America::Indiana::Petersburg" : "lib/DateTime/TimeZone/Zone/America/Indiana/Petersburg.pm6",
-    "DateTime::TimeZone::Zone::Jamaica" : "lib/DateTime/TimeZone/Zone/Jamaica.pm6",
-    "DateTime::TimeZone::Zone::Europe::Ljubljana" : "lib/DateTime/TimeZone/Zone/Europe/Ljubljana.pm6",
-    "DateTime::TimeZone::Zone::Asia::Kathmandu" : "lib/DateTime/TimeZone/Zone/Asia/Kathmandu.pm6",
-    "DateTime::TimeZone::Zone::America::St_Vincent" : "lib/DateTime/TimeZone/Zone/America/St_Vincent.pm6",
-    "DateTime::TimeZone::Zone::America::Panama" : "lib/DateTime/TimeZone/Zone/America/Panama.pm6",
-    "DateTime::TimeZone::Zone::Asia::Kuala_Lumpur" : "lib/DateTime/TimeZone/Zone/Asia/Kuala_Lumpur.pm6",
-    "DateTime::TimeZone::Zone::Australia::Queensland" : "lib/DateTime/TimeZone/Zone/Australia/Queensland.pm6",
-    "DateTime::TimeZone::Zone::Etc::UTC" : "lib/DateTime/TimeZone/Zone/Etc/UTC.pm6",
-    "DateTime::TimeZone::Zone::America::North_Dakota::New_Salem" : "lib/DateTime/TimeZone/Zone/America/North_Dakota/New_Salem.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::ComodRivadavia" : "lib/DateTime/TimeZone/Zone/America/Argentina/ComodRivadavia.pm6",
-    "DateTime::TimeZone::Zone::Antarctica::Casey" : "lib/DateTime/TimeZone/Zone/Antarctica/Casey.pm6",
-    "DateTime::TimeZone::Zone::America::Vancouver" : "lib/DateTime/TimeZone/Zone/America/Vancouver.pm6",
-    "DateTime::TimeZone::Zone::America::Grenada" : "lib/DateTime/TimeZone/Zone/America/Grenada.pm6",
-    "DateTime::TimeZone::Zone::America::Buenos_Aires" : "lib/DateTime/TimeZone/Zone/America/Buenos_Aires.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::Mendoza" : "lib/DateTime/TimeZone/Zone/America/Argentina/Mendoza.pm6",
-    "DateTime::TimeZone::Zone::Europe::Volgograd" : "lib/DateTime/TimeZone/Zone/Europe/Volgograd.pm6",
-    "DateTime::TimeZone::Zone::Europe::Istanbul" : "lib/DateTime/TimeZone/Zone/Europe/Istanbul.pm6",
-    "DateTime::TimeZone::Zone::Asia::Colombo" : "lib/DateTime/TimeZone/Zone/Asia/Colombo.pm6",
-    "DateTime::TimeZone::Zone::America::Menominee" : "lib/DateTime/TimeZone/Zone/America/Menominee.pm6",
-    "DateTime::TimeZone::Zone::Asia::Kolkata" : "lib/DateTime/TimeZone/Zone/Asia/Kolkata.pm6",
-    "DateTime::TimeZone::Zone::Asia::Choibalsan" : "lib/DateTime/TimeZone/Zone/Asia/Choibalsan.pm6",
-    "DateTime::TimeZone::Zone::America::Toronto" : "lib/DateTime/TimeZone/Zone/America/Toronto.pm6",
-    "DateTime::TimeZone::Zone::America::Guadeloupe" : "lib/DateTime/TimeZone/Zone/America/Guadeloupe.pm6",
-    "DateTime::TimeZone::Zone::Africa::Lusaka" : "lib/DateTime/TimeZone/Zone/Africa/Lusaka.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_8" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_8.pm6",
-    "DateTime::TimeZone::Zone::Etc::Zulu" : "lib/DateTime/TimeZone/Zone/Etc/Zulu.pm6",
-    "DateTime::TimeZone::Zone::GMT0" : "lib/DateTime/TimeZone/Zone/GMT0.pm6",
-    "DateTime::TimeZone::Zone::Africa::Freetown" : "lib/DateTime/TimeZone/Zone/Africa/Freetown.pm6",
-    "DateTime::TimeZone::Zone" : "lib/DateTime/TimeZone/Zone.pm6",
-    "DateTime::TimeZone::Zone::Europe::Kaliningrad" : "lib/DateTime/TimeZone/Zone/Europe/Kaliningrad.pm6",
-    "DateTime::TimeZone::Zone::Antarctica::McMurdo" : "lib/DateTime/TimeZone/Zone/Antarctica/McMurdo.pm6",
-    "DateTime::TimeZone::Zone::America::Sao_Paulo" : "lib/DateTime/TimeZone/Zone/America/Sao_Paulo.pm6",
-    "DateTime::TimeZone::Zone::Africa::Ceuta" : "lib/DateTime/TimeZone/Zone/Africa/Ceuta.pm6",
-    "DateTime::TimeZone::Zone::Asia::Thimphu" : "lib/DateTime/TimeZone/Zone/Asia/Thimphu.pm6",
-    "DateTime::TimeZone::Zone::Asia::Bangkok" : "lib/DateTime/TimeZone/Zone/Asia/Bangkok.pm6",
-    "DateTime::TimeZone::Zone::America::Tijuana" : "lib/DateTime/TimeZone/Zone/America/Tijuana.pm6",
-    "DateTime::TimeZone::Zone::America::Puerto_Rico" : "lib/DateTime/TimeZone/Zone/America/Puerto_Rico.pm6",
-    "DateTime::TimeZone::Zone::America::Catamarca" : "lib/DateTime/TimeZone/Zone/America/Catamarca.pm6",
-    "DateTime::TimeZone::Zone::Asia::Riyadh88" : "lib/DateTime/TimeZone/Zone/Asia/Riyadh88.pm6",
-    "DateTime::TimeZone::Zone::Canada::Pacific" : "lib/DateTime/TimeZone/Zone/Canada/Pacific.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_14" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_14.pm6",
-    "DateTime::TimeZone::Zone::America::Indiana::Vevay" : "lib/DateTime/TimeZone/Zone/America/Indiana/Vevay.pm6",
-    "DateTime::TimeZone::Zone::US::Samoa" : "lib/DateTime/TimeZone/Zone/US/Samoa.pm6",
-    "DateTime::TimeZone::Zone::America::St_Barthelemy" : "lib/DateTime/TimeZone/Zone/America/St_Barthelemy.pm6",
-    "DateTime::TimeZone::Zone::America::Pangnirtung" : "lib/DateTime/TimeZone/Zone/America/Pangnirtung.pm6",
-    "DateTime::TimeZone::Zone::Africa::Asmera" : "lib/DateTime/TimeZone/Zone/Africa/Asmera.pm6",
-    "DateTime::TimeZone::Zone::Asia::Tehran" : "lib/DateTime/TimeZone/Zone/Asia/Tehran.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Honolulu" : "lib/DateTime/TimeZone/Zone/Pacific/Honolulu.pm6",
-    "DateTime::TimeZone::Zone::Asia::Jakarta" : "lib/DateTime/TimeZone/Zone/Asia/Jakarta.pm6",
-    "DateTime::TimeZone::Zone::Asia::Qatar" : "lib/DateTime/TimeZone/Zone/Asia/Qatar.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_12" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_12.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Nauru" : "lib/DateTime/TimeZone/Zone/Pacific/Nauru.pm6",
-    "DateTime::TimeZone::Zone::Antarctica::Rothera" : "lib/DateTime/TimeZone/Zone/Antarctica/Rothera.pm6",
-    "DateTime::TimeZone::Zone::America::St_Thomas" : "lib/DateTime/TimeZone/Zone/America/St_Thomas.pm6",
-    "DateTime::TimeZone::Zone::America::Regina" : "lib/DateTime/TimeZone/Zone/America/Regina.pm6",
-    "DateTime::TimeZone::Zone::America::Fort_Wayne" : "lib/DateTime/TimeZone/Zone/America/Fort_Wayne.pm6",
-    "DateTime::TimeZone::Zone::GMT" : "lib/DateTime/TimeZone/Zone/GMT.pm6",
-    "DateTime::TimeZone::Zone::Asia::Muscat" : "lib/DateTime/TimeZone/Zone/Asia/Muscat.pm6",
-    "DateTime::TimeZone::Zone::Australia::NSW" : "lib/DateTime/TimeZone/Zone/Australia/NSW.pm6",
-    "DateTime::TimeZone::Zone::US::Indiana_minus_Starke" : "lib/DateTime/TimeZone/Zone/US/Indiana_minus_Starke.pm6",
-    "DateTime::TimeZone::Zone::Asia::Brunei" : "lib/DateTime/TimeZone/Zone/Asia/Brunei.pm6",
-    "DateTime::TimeZone::Zone::UTC" : "lib/DateTime/TimeZone/Zone/UTC.pm6",
-    "DateTime::TimeZone::Zone::UCT" : "lib/DateTime/TimeZone/Zone/UCT.pm6",
-    "DateTime::TimeZone::Zone::EET" : "lib/DateTime/TimeZone/Zone/EET.pm6",
-    "DateTime::TimeZone::Zone::Africa::Harare" : "lib/DateTime/TimeZone/Zone/Africa/Harare.pm6",
-    "DateTime::TimeZone::Zone::Atlantic::Cape_Verde" : "lib/DateTime/TimeZone/Zone/Atlantic/Cape_Verde.pm6",
-    "DateTime::TimeZone::Zone::Australia::North" : "lib/DateTime/TimeZone/Zone/Australia/North.pm6",
-    "DateTime::TimeZone::Zone::Australia::South" : "lib/DateTime/TimeZone/Zone/Australia/South.pm6",
-    "DateTime::TimeZone::Zone::Asia::Aqtobe" : "lib/DateTime/TimeZone/Zone/Asia/Aqtobe.pm6",
-    "DateTime::TimeZone::Zone::America::Ensenada" : "lib/DateTime/TimeZone/Zone/America/Ensenada.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_7" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_7.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_8" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_8.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Port_Moresby" : "lib/DateTime/TimeZone/Zone/Pacific/Port_Moresby.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Kwajalein" : "lib/DateTime/TimeZone/Zone/Pacific/Kwajalein.pm6",
-    "DateTime::TimeZone::Zone::Europe::Tallinn" : "lib/DateTime/TimeZone/Zone/Europe/Tallinn.pm6",
-    "DateTime::TimeZone::Zone::Europe::Prague" : "lib/DateTime/TimeZone/Zone/Europe/Prague.pm6",
-    "DateTime::TimeZone::Zone::Europe::Kiev" : "lib/DateTime/TimeZone/Zone/Europe/Kiev.pm6",
-    "DateTime::TimeZone::Zone::America::Swift_Current" : "lib/DateTime/TimeZone/Zone/America/Swift_Current.pm6",
-    "DateTime::TimeZone::Zone::America::Mazatlan" : "lib/DateTime/TimeZone/Zone/America/Mazatlan.pm6",
-    "DateTime::TimeZone::Zone::Africa::Algiers" : "lib/DateTime/TimeZone/Zone/Africa/Algiers.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::Rio_Gallegos" : "lib/DateTime/TimeZone/Zone/America/Argentina/Rio_Gallegos.pm6",
-    "DateTime::TimeZone::Zone::Asia::Kamchatka" : "lib/DateTime/TimeZone/Zone/Asia/Kamchatka.pm6",
-    "DateTime::TimeZone::Zone::America::Guatemala" : "lib/DateTime/TimeZone/Zone/America/Guatemala.pm6",
-    "DateTime::TimeZone::Zone::Europe::London" : "lib/DateTime/TimeZone/Zone/Europe/London.pm6",
-    "DateTime::TimeZone::Zone::Africa::Ndjamena" : "lib/DateTime/TimeZone/Zone/Africa/Ndjamena.pm6",
-    "DateTime::TimeZone::Zone::Asia::Taipei" : "lib/DateTime/TimeZone/Zone/Asia/Taipei.pm6",
-    "DateTime::TimeZone::Zone::America::Nassau" : "lib/DateTime/TimeZone/Zone/America/Nassau.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::Tucuman" : "lib/DateTime/TimeZone/Zone/America/Argentina/Tucuman.pm6",
-    "DateTime::TimeZone::Zone::Europe::Warsaw" : "lib/DateTime/TimeZone/Zone/Europe/Warsaw.pm6",
-    "DateTime::TimeZone::Zone::Europe::Vilnius" : "lib/DateTime/TimeZone/Zone/Europe/Vilnius.pm6",
-    "DateTime::TimeZone::Zone::Asia::Amman" : "lib/DateTime/TimeZone/Zone/Asia/Amman.pm6",
-    "DateTime::TimeZone::Zone::Africa::Kigali" : "lib/DateTime/TimeZone/Zone/Africa/Kigali.pm6",
-    "DateTime::TimeZone::Zone::Australia::Tasmania" : "lib/DateTime/TimeZone/Zone/Australia/Tasmania.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::Ushuaia" : "lib/DateTime/TimeZone/Zone/America/Argentina/Ushuaia.pm6",
-    "DateTime::TimeZone::Zone::America::Managua" : "lib/DateTime/TimeZone/Zone/America/Managua.pm6",
-    "DateTime::TimeZone::Zone::Asia::Pontianak" : "lib/DateTime/TimeZone/Zone/Asia/Pontianak.pm6",
-    "DateTime::TimeZone::Zone::America::Tortola" : "lib/DateTime/TimeZone/Zone/America/Tortola.pm6",
-    "DateTime::TimeZone::Zone::America::Halifax" : "lib/DateTime/TimeZone/Zone/America/Halifax.pm6",
-    "DateTime::TimeZone::Zone::Africa::Malabo" : "lib/DateTime/TimeZone/Zone/Africa/Malabo.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_12" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_12.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Tahiti" : "lib/DateTime/TimeZone/Zone/Pacific/Tahiti.pm6",
-    "DateTime::TimeZone::Zone::Africa::Bujumbura" : "lib/DateTime/TimeZone/Zone/Africa/Bujumbura.pm6",
-    "DateTime::TimeZone::Zone::Asia::Tbilisi" : "lib/DateTime/TimeZone/Zone/Asia/Tbilisi.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::San_Juan" : "lib/DateTime/TimeZone/Zone/America/Argentina/San_Juan.pm6",
-    "DateTime::TimeZone::Zone::Europe::Zagreb" : "lib/DateTime/TimeZone/Zone/Europe/Zagreb.pm6",
-    "DateTime::TimeZone::Zone::Europe::Paris" : "lib/DateTime/TimeZone/Zone/Europe/Paris.pm6",
-    "DateTime::TimeZone::Zone::Europe::Monaco" : "lib/DateTime/TimeZone/Zone/Europe/Monaco.pm6",
-    "DateTime::TimeZone::Zone::Europe::Bucharest" : "lib/DateTime/TimeZone/Zone/Europe/Bucharest.pm6",
-    "DateTime::TimeZone::Zone::Asia::Ashgabat" : "lib/DateTime/TimeZone/Zone/Asia/Ashgabat.pm6",
-    "DateTime::TimeZone::Zone::Europe::Nicosia" : "lib/DateTime/TimeZone/Zone/Europe/Nicosia.pm6",
-    "DateTime::TimeZone::Zone::Asia::Harbin" : "lib/DateTime/TimeZone/Zone/Asia/Harbin.pm6",
-    "DateTime::TimeZone::Zone::America::Whitehorse" : "lib/DateTime/TimeZone/Zone/America/Whitehorse.pm6",
-    "DateTime::TimeZone::Zone::Africa::Maseru" : "lib/DateTime/TimeZone/Zone/Africa/Maseru.pm6",
-    "DateTime::TimeZone::Zone::Brazil::Acre" : "lib/DateTime/TimeZone/Zone/Brazil/Acre.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Kosrae" : "lib/DateTime/TimeZone/Zone/Pacific/Kosrae.pm6",
-    "DateTime::TimeZone::Zone::Europe::Madrid" : "lib/DateTime/TimeZone/Zone/Europe/Madrid.pm6",
-    "DateTime::TimeZone::Zone::Arctic::Longyearbyen" : "lib/DateTime/TimeZone/Zone/Arctic/Longyearbyen.pm6",
-    "DateTime::TimeZone::Zone::America::Jujuy" : "lib/DateTime/TimeZone/Zone/America/Jujuy.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::San_Luis" : "lib/DateTime/TimeZone/Zone/America/Argentina/San_Luis.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Pitcairn" : "lib/DateTime/TimeZone/Zone/Pacific/Pitcairn.pm6",
-    "DateTime::TimeZone::Zone::America::Marigot" : "lib/DateTime/TimeZone/Zone/America/Marigot.pm6",
-    "DateTime::TimeZone::Zone::America::Fortaleza" : "lib/DateTime/TimeZone/Zone/America/Fortaleza.pm6",
-    "DateTime::TimeZone::Zone::America::Detroit" : "lib/DateTime/TimeZone/Zone/America/Detroit.pm6",
-    "DateTime::TimeZone::Zone::Hongkong" : "lib/DateTime/TimeZone/Zone/Hongkong.pm6",
-    "DateTime::TimeZone::Zone::America::Belem" : "lib/DateTime/TimeZone/Zone/America/Belem.pm6",
-    "DateTime::TimeZone::Zone::America::Bogota" : "lib/DateTime/TimeZone/Zone/America/Bogota.pm6",
-    "DateTime::TimeZone::Zone::Asia::Dacca" : "lib/DateTime/TimeZone/Zone/Asia/Dacca.pm6",
-    "DateTime::TimeZone::Zone::America::Winnipeg" : "lib/DateTime/TimeZone/Zone/America/Winnipeg.pm6",
-    "DateTime::TimeZone::Zone::Israel" : "lib/DateTime/TimeZone/Zone/Israel.pm6",
-    "DateTime::TimeZone::Zone::Asia::Katmandu" : "lib/DateTime/TimeZone/Zone/Asia/Katmandu.pm6",
-    "DateTime::TimeZone::Zone::Asia::Riyadh" : "lib/DateTime/TimeZone/Zone/Asia/Riyadh.pm6",
-    "DateTime::TimeZone::Zone::US::Eastern" : "lib/DateTime/TimeZone/Zone/US/Eastern.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Norfolk" : "lib/DateTime/TimeZone/Zone/Pacific/Norfolk.pm6",
-    "DateTime::TimeZone::Zone::Europe::Vatican" : "lib/DateTime/TimeZone/Zone/Europe/Vatican.pm6",
-    "DateTime::TimeZone::Zone::GMT_plus_0" : "lib/DateTime/TimeZone/Zone/GMT_plus_0.pm6",
-    "DateTime::TimeZone::Zone::Africa::Conakry" : "lib/DateTime/TimeZone/Zone/Africa/Conakry.pm6",
-    "DateTime::TimeZone::Zone::US::Hawaii" : "lib/DateTime/TimeZone/Zone/US/Hawaii.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Noumea" : "lib/DateTime/TimeZone/Zone/Pacific/Noumea.pm6",
-    "DateTime::TimeZone::Zone::Antarctica::Vostok" : "lib/DateTime/TimeZone/Zone/Antarctica/Vostok.pm6",
-    "DateTime::TimeZone::Zone::America::Chicago" : "lib/DateTime/TimeZone/Zone/America/Chicago.pm6",
-    "DateTime::TimeZone::Zone::Asia::Tel_Aviv" : "lib/DateTime/TimeZone/Zone/Asia/Tel_Aviv.pm6",
-    "DateTime::TimeZone::Zone::Indian::Cocos" : "lib/DateTime/TimeZone/Zone/Indian/Cocos.pm6",
-    "DateTime::TimeZone::Zone::Europe::Amsterdam" : "lib/DateTime/TimeZone/Zone/Europe/Amsterdam.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Yap" : "lib/DateTime/TimeZone/Zone/Pacific/Yap.pm6",
-    "DateTime::TimeZone::Zone::Asia::Aqtau" : "lib/DateTime/TimeZone/Zone/Asia/Aqtau.pm6",
-    "DateTime::TimeZone::Zone::GMT_minus_0" : "lib/DateTime/TimeZone/Zone/GMT_minus_0.pm6",
-    "DateTime::TimeZone::Zone::Australia::West" : "lib/DateTime/TimeZone/Zone/Australia/West.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_2" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_2.pm6",
-    "DateTime::TimeZone::Zone::Etc::Greenwich" : "lib/DateTime/TimeZone/Zone/Etc/Greenwich.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Truk" : "lib/DateTime/TimeZone/Zone/Pacific/Truk.pm6",
-    "DateTime::TimeZone::Zone::Asia::Ho_Chi_Minh" : "lib/DateTime/TimeZone/Zone/Asia/Ho_Chi_Minh.pm6",
-    "DateTime::TimeZone::Zone::America::Santa_Isabel" : "lib/DateTime/TimeZone/Zone/America/Santa_Isabel.pm6",
-    "DateTime::TimeZone::Zone::America::La_Paz" : "lib/DateTime/TimeZone/Zone/America/La_Paz.pm6",
-    "DateTime::TimeZone::Zone::Brazil::DeNoronha" : "lib/DateTime/TimeZone/Zone/Brazil/DeNoronha.pm6",
-    "DateTime::TimeZone::Zone::Europe::Lisbon" : "lib/DateTime/TimeZone/Zone/Europe/Lisbon.pm6",
-    "DateTime::TimeZone::Zone::America::Thule" : "lib/DateTime/TimeZone/Zone/America/Thule.pm6",
-    "DateTime::TimeZone::Zone::America::Inuvik" : "lib/DateTime/TimeZone/Zone/America/Inuvik.pm6",
-    "DateTime::TimeZone::Zone::America::Grand_Turk" : "lib/DateTime/TimeZone/Zone/America/Grand_Turk.pm6",
-    "DateTime::TimeZone::Zone::Australia::Currie" : "lib/DateTime/TimeZone/Zone/Australia/Currie.pm6",
-    "DateTime::TimeZone::Zone::Canada::Yukon" : "lib/DateTime/TimeZone/Zone/Canada/Yukon.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Majuro" : "lib/DateTime/TimeZone/Zone/Pacific/Majuro.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Chuuk" : "lib/DateTime/TimeZone/Zone/Pacific/Chuuk.pm6",
-    "DateTime::TimeZone::Zone::Europe::Helsinki" : "lib/DateTime/TimeZone/Zone/Europe/Helsinki.pm6",
-    "DateTime::TimeZone::Zone::Asia::Hong_Kong" : "lib/DateTime/TimeZone/Zone/Asia/Hong_Kong.pm6",
-    "DateTime::TimeZone::Zone::America::Rainy_River" : "lib/DateTime/TimeZone/Zone/America/Rainy_River.pm6",
-    "DateTime::TimeZone::Zone::America::Maceio" : "lib/DateTime/TimeZone/Zone/America/Maceio.pm6",
-    "DateTime::TimeZone::Zone::America::Dawson_Creek" : "lib/DateTime/TimeZone/Zone/America/Dawson_Creek.pm6",
-    "DateTime::TimeZone::Zone::Africa::Bissau" : "lib/DateTime/TimeZone/Zone/Africa/Bissau.pm6",
-    "DateTime::TimeZone::Zone::Africa::El_Aaiun" : "lib/DateTime/TimeZone/Zone/Africa/El_Aaiun.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_6" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_6.pm6",
-    "DateTime::TimeZone::Zone::Africa::Maputo" : "lib/DateTime/TimeZone/Zone/Africa/Maputo.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Wake" : "lib/DateTime/TimeZone/Zone/Pacific/Wake.pm6",
-    "DateTime::TimeZone::Zone::America::Merida" : "lib/DateTime/TimeZone/Zone/America/Merida.pm6",
-    "DateTime::TimeZone::Zone::Japan" : "lib/DateTime/TimeZone/Zone/Japan.pm6",
-    "DateTime::TimeZone::Zone::EST5EDT" : "lib/DateTime/TimeZone/Zone/EST5EDT.pm6",
-    "DateTime::TimeZone::Zone::Asia::Singapore" : "lib/DateTime/TimeZone/Zone/Asia/Singapore.pm6",
-    "DateTime::TimeZone::Zone::Asia::Thimbu" : "lib/DateTime/TimeZone/Zone/Asia/Thimbu.pm6",
-    "DateTime::TimeZone::Zone::Asia::Yekaterinburg" : "lib/DateTime/TimeZone/Zone/Asia/Yekaterinburg.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_0" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_0.pm6",
-    "DateTime::TimeZone::Zone::Europe::Skopje" : "lib/DateTime/TimeZone/Zone/Europe/Skopje.pm6",
-    "DateTime::TimeZone::Zone::America::Shiprock" : "lib/DateTime/TimeZone/Zone/America/Shiprock.pm6",
-    "DateTime::TimeZone::Zone::CET" : "lib/DateTime/TimeZone/Zone/CET.pm6",
-    "DateTime::TimeZone::Zone::Canada::Saskatchewan" : "lib/DateTime/TimeZone/Zone/Canada/Saskatchewan.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_1" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_1.pm6",
-    "DateTime::TimeZone::Zone::US::Aleutian" : "lib/DateTime/TimeZone/Zone/US/Aleutian.pm6",
-    "DateTime::TimeZone::Zone::Europe::Rome" : "lib/DateTime/TimeZone/Zone/Europe/Rome.pm6",
-    "DateTime::TimeZone::Zone::Asia::Dushanbe" : "lib/DateTime/TimeZone/Zone/Asia/Dushanbe.pm6",
-    "DateTime::TimeZone::Zone::America::Cancun" : "lib/DateTime/TimeZone/Zone/America/Cancun.pm6",
-    "DateTime::TimeZone::Zone::Africa::Brazzaville" : "lib/DateTime/TimeZone/Zone/Africa/Brazzaville.pm6",
-    "DateTime::TimeZone::Zone::Europe::Uzhgorod" : "lib/DateTime/TimeZone/Zone/Europe/Uzhgorod.pm6",
-    "DateTime::TimeZone::Zone::America::St_Johns" : "lib/DateTime/TimeZone/Zone/America/St_Johns.pm6",
-    "DateTime::TimeZone::Zone::America::Miquelon" : "lib/DateTime/TimeZone/Zone/America/Miquelon.pm6",
-    "DateTime::TimeZone::Zone::America::Los_Angeles" : "lib/DateTime/TimeZone/Zone/America/Los_Angeles.pm6",
-    "DateTime::TimeZone::Zone::Cuba" : "lib/DateTime/TimeZone/Zone/Cuba.pm6",
-    "DateTime::TimeZone::Zone::Asia::Novokuznetsk" : "lib/DateTime/TimeZone/Zone/Asia/Novokuznetsk.pm6",
-    "DateTime::TimeZone::Zone::Atlantic::Faeroe" : "lib/DateTime/TimeZone/Zone/Atlantic/Faeroe.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_4" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_4.pm6",
-    "DateTime::TimeZone::Zone::Africa::Tripoli" : "lib/DateTime/TimeZone/Zone/Africa/Tripoli.pm6",
-    "DateTime::TimeZone::Zone::Atlantic::Canary" : "lib/DateTime/TimeZone/Zone/Atlantic/Canary.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_5" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_5.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Fakaofo" : "lib/DateTime/TimeZone/Zone/Pacific/Fakaofo.pm6",
-    "DateTime::TimeZone::Zone::Africa::Ouagadougou" : "lib/DateTime/TimeZone/Zone/Africa/Ouagadougou.pm6",
-    "DateTime::TimeZone::Zone::America::Adak" : "lib/DateTime/TimeZone/Zone/America/Adak.pm6",
-    "DateTime::TimeZone::Zone::America::Asuncion" : "lib/DateTime/TimeZone/Zone/America/Asuncion.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Midway" : "lib/DateTime/TimeZone/Zone/Pacific/Midway.pm6",
-    "DateTime::TimeZone::Zone::Europe::Oslo" : "lib/DateTime/TimeZone/Zone/Europe/Oslo.pm6",
-    "DateTime::TimeZone::Zone::Africa::Mogadishu" : "lib/DateTime/TimeZone/Zone/Africa/Mogadishu.pm6",
-    "DateTime::TimeZone::Zone::Australia::Broken_Hill" : "lib/DateTime/TimeZone/Zone/Australia/Broken_Hill.pm6",
-    "DateTime::TimeZone::Zone::Mideast::Riyadh89" : "lib/DateTime/TimeZone/Zone/Mideast/Riyadh89.pm6",
-    "DateTime::TimeZone::Zone::Asia::Calcutta" : "lib/DateTime/TimeZone/Zone/Asia/Calcutta.pm6",
-    "DateTime::TimeZone::Zone::America::Guyana" : "lib/DateTime/TimeZone/Zone/America/Guyana.pm6",
-    "DateTime::TimeZone::Zone::Asia::Nicosia" : "lib/DateTime/TimeZone/Zone/Asia/Nicosia.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Efate" : "lib/DateTime/TimeZone/Zone/Pacific/Efate.pm6",
-    "DateTime::TimeZone::Zone::Asia::Vientiane" : "lib/DateTime/TimeZone/Zone/Asia/Vientiane.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_3" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_3.pm6",
-    "DateTime::TimeZone::Zone::Indian::Mayotte" : "lib/DateTime/TimeZone/Zone/Indian/Mayotte.pm6",
-    "DateTime::TimeZone::Zone::Antarctica::South_Pole" : "lib/DateTime/TimeZone/Zone/Antarctica/South_Pole.pm6",
-    "DateTime::TimeZone::Zone::Libya" : "lib/DateTime/TimeZone/Zone/Libya.pm6",
-    "DateTime::TimeZone::Zone::Africa::Tunis" : "lib/DateTime/TimeZone/Zone/Africa/Tunis.pm6",
-    "DateTime::TimeZone::Zone::Europe::Guernsey" : "lib/DateTime/TimeZone/Zone/Europe/Guernsey.pm6",
-    "DateTime::TimeZone::Zone::America::Rankin_Inlet" : "lib/DateTime/TimeZone/Zone/America/Rankin_Inlet.pm6",
-    "DateTime::TimeZone::Zone::America::Montreal" : "lib/DateTime/TimeZone/Zone/America/Montreal.pm6",
-    "DateTime::TimeZone::Zone::America::Goose_Bay" : "lib/DateTime/TimeZone/Zone/America/Goose_Bay.pm6",
-    "DateTime::TimeZone::Zone::US::Alaska" : "lib/DateTime/TimeZone/Zone/US/Alaska.pm6",
-    "DateTime::TimeZone::Zone::America::Nome" : "lib/DateTime/TimeZone/Zone/America/Nome.pm6",
-    "DateTime::TimeZone::Zone::Asia::Kashgar" : "lib/DateTime/TimeZone/Zone/Asia/Kashgar.pm6",
-    "DateTime::TimeZone::Zone::Africa::Johannesburg" : "lib/DateTime/TimeZone/Zone/Africa/Johannesburg.pm6",
-    "DateTime::TimeZone::Zone::Africa::Niamey" : "lib/DateTime/TimeZone/Zone/Africa/Niamey.pm6",
-    "DateTime::TimeZone::Zone::Asia::Riyadh87" : "lib/DateTime/TimeZone/Zone/Asia/Riyadh87.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::Buenos_Aires" : "lib/DateTime/TimeZone/Zone/America/Argentina/Buenos_Aires.pm6",
-    "DateTime::TimeZone::Zone::US::Pacific_minus_New" : "lib/DateTime/TimeZone/Zone/US/Pacific_minus_New.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Guam" : "lib/DateTime/TimeZone/Zone/Pacific/Guam.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Chatham" : "lib/DateTime/TimeZone/Zone/Pacific/Chatham.pm6",
-    "DateTime::TimeZone::Zone::MET" : "lib/DateTime/TimeZone/Zone/MET.pm6",
-    "DateTime::TimeZone::Zone::Africa::Juba" : "lib/DateTime/TimeZone/Zone/Africa/Juba.pm6",
-    "DateTime::TimeZone::Zone::Europe::Busingen" : "lib/DateTime/TimeZone/Zone/Europe/Busingen.pm6",
-    "DateTime::TimeZone::Zone::Antarctica::Syowa" : "lib/DateTime/TimeZone/Zone/Antarctica/Syowa.pm6",
-    "DateTime::TimeZone::Zone::Greenwich" : "lib/DateTime/TimeZone/Zone/Greenwich.pm6",
-    "DateTime::TimeZone::Zone::America::Antigua" : "lib/DateTime/TimeZone/Zone/America/Antigua.pm6",
-    "DateTime::TimeZone::Zone::Asia::Urumqi" : "lib/DateTime/TimeZone/Zone/Asia/Urumqi.pm6",
-    "DateTime::TimeZone::Zone::Atlantic::Azores" : "lib/DateTime/TimeZone/Zone/Atlantic/Azores.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_7" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_7.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::Salta" : "lib/DateTime/TimeZone/Zone/America/Argentina/Salta.pm6",
-    "DateTime::TimeZone::Zone::Asia::Oral" : "lib/DateTime/TimeZone/Zone/Asia/Oral.pm6",
-    "DateTime::TimeZone::Zone::Australia::Lord_Howe" : "lib/DateTime/TimeZone/Zone/Australia/Lord_Howe.pm6",
-    "DateTime::TimeZone::Zone::Europe::Belfast" : "lib/DateTime/TimeZone/Zone/Europe/Belfast.pm6",
-    "DateTime::TimeZone::Zone::America::Porto_Velho" : "lib/DateTime/TimeZone/Zone/America/Porto_Velho.pm6",
-    "DateTime::TimeZone::Zone::Australia::Victoria" : "lib/DateTime/TimeZone/Zone/Australia/Victoria.pm6",
-    "DateTime::TimeZone::Zone::America::North_Dakota::Center" : "lib/DateTime/TimeZone/Zone/America/North_Dakota/Center.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Tongatapu" : "lib/DateTime/TimeZone/Zone/Pacific/Tongatapu.pm6",
-    "DateTime::TimeZone::Zone::Indian::Reunion" : "lib/DateTime/TimeZone/Zone/Indian/Reunion.pm6",
-    "DateTime::TimeZone::Zone::Europe::Minsk" : "lib/DateTime/TimeZone/Zone/Europe/Minsk.pm6",
-    "DateTime::TimeZone::Zone::Europe::Malta" : "lib/DateTime/TimeZone/Zone/Europe/Malta.pm6",
-    "DateTime::TimeZone::Zone::America::Phoenix" : "lib/DateTime/TimeZone/Zone/America/Phoenix.pm6",
-    "DateTime::TimeZone::Zone::GB" : "lib/DateTime/TimeZone/Zone/GB.pm6",
-    "DateTime::TimeZone::Zone::America::Bahia_Banderas" : "lib/DateTime/TimeZone/Zone/America/Bahia_Banderas.pm6",
-    "DateTime::TimeZone::Zone::Asia::Pyongyang" : "lib/DateTime/TimeZone/Zone/Asia/Pyongyang.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Apia" : "lib/DateTime/TimeZone/Zone/Pacific/Apia.pm6",
-    "DateTime::TimeZone::Zone::Europe::Copenhagen" : "lib/DateTime/TimeZone/Zone/Europe/Copenhagen.pm6",
-    "DateTime::TimeZone::Zone::Asia::Anadyr" : "lib/DateTime/TimeZone/Zone/Asia/Anadyr.pm6",
-    "DateTime::TimeZone::Zone::Eire" : "lib/DateTime/TimeZone/Zone/Eire.pm6",
-    "DateTime::TimeZone::Zone::Africa::Khartoum" : "lib/DateTime/TimeZone/Zone/Africa/Khartoum.pm6",
-    "DateTime::TimeZone::Zone::Africa::Lagos" : "lib/DateTime/TimeZone/Zone/Africa/Lagos.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_2" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_2.pm6",
-    "DateTime::TimeZone::Zone::Indian::Chagos" : "lib/DateTime/TimeZone/Zone/Indian/Chagos.pm6",
-    "DateTime::TimeZone::Zone::Africa::Nairobi" : "lib/DateTime/TimeZone/Zone/Africa/Nairobi.pm6",
-    "DateTime::TimeZone::Zone::Mideast::Riyadh87" : "lib/DateTime/TimeZone/Zone/Mideast/Riyadh87.pm6",
-    "DateTime::TimeZone::Zone::America::Porto_Acre" : "lib/DateTime/TimeZone/Zone/America/Porto_Acre.pm6",
-    "DateTime::TimeZone" : "lib/DateTime/TimeZone.pm6",
-    "DateTime::TimeZone::Zone::Asia::Ust_minus_Nera" : "lib/DateTime/TimeZone/Zone/Asia/Ust_minus_Nera.pm6",
-    "DateTime::TimeZone::Zone::Asia::Yakutsk" : "lib/DateTime/TimeZone/Zone/Asia/Yakutsk.pm6",
-    "DateTime::TimeZone::Zone::Australia::Darwin" : "lib/DateTime/TimeZone/Zone/Australia/Darwin.pm6",
-    "DateTime::TimeZone::Zone::W_minus_SU" : "lib/DateTime/TimeZone/Zone/W_minus_SU.pm6",
-    "DateTime::TimeZone::Zone::Kwajalein" : "lib/DateTime/TimeZone/Zone/Kwajalein.pm6",
-    "DateTime::TimeZone::Zone::America::Indiana::Knox" : "lib/DateTime/TimeZone/Zone/America/Indiana/Knox.pm6",
-    "DateTime::TimeZone::Zone::Antarctica::Palmer" : "lib/DateTime/TimeZone/Zone/Antarctica/Palmer.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_0" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_0.pm6",
-    "DateTime::TimeZone::Zone::Europe::Tirane" : "lib/DateTime/TimeZone/Zone/Europe/Tirane.pm6",
-    "DateTime::TimeZone::Zone::Europe::Samara" : "lib/DateTime/TimeZone/Zone/Europe/Samara.pm6",
-    "DateTime::TimeZone::Zone::Asia::Baku" : "lib/DateTime/TimeZone/Zone/Asia/Baku.pm6",
-    "DateTime::TimeZone::Zone::America::Montevideo" : "lib/DateTime/TimeZone/Zone/America/Montevideo.pm6",
-    "DateTime::TimeZone::Zone::Africa::Monrovia" : "lib/DateTime/TimeZone/Zone/Africa/Monrovia.pm6",
-    "DateTime::TimeZone::Zone::Asia::Manila" : "lib/DateTime/TimeZone/Zone/Asia/Manila.pm6",
-    "DateTime::TimeZone::Zone::Australia::Yancowinna" : "lib/DateTime/TimeZone/Zone/Australia/Yancowinna.pm6",
-    "DateTime::TimeZone::Zone::Asia::Hebron" : "lib/DateTime/TimeZone/Zone/Asia/Hebron.pm6",
-    "DateTime::TimeZone::Zone::America::Cordoba" : "lib/DateTime/TimeZone/Zone/America/Cordoba.pm6",
-    "DateTime::TimeZone::Zone::Asia::Magadan" : "lib/DateTime/TimeZone/Zone/Asia/Magadan.pm6",
-    "DateTime::TimeZone::Zone::America::Nipigon" : "lib/DateTime/TimeZone/Zone/America/Nipigon.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Rarotonga" : "lib/DateTime/TimeZone/Zone/Pacific/Rarotonga.pm6",
-    "DateTime::TimeZone::Zone::Mideast::Riyadh88" : "lib/DateTime/TimeZone/Zone/Mideast/Riyadh88.pm6",
-    "DateTime::TimeZone::Zone::Africa::Gaborone" : "lib/DateTime/TimeZone/Zone/Africa/Gaborone.pm6",
-    "DateTime::TimeZone::Zone::America::Indianapolis" : "lib/DateTime/TimeZone/Zone/America/Indianapolis.pm6",
-    "DateTime::TimeZone::Zone::America::Rosario" : "lib/DateTime/TimeZone/Zone/America/Rosario.pm6",
-    "DateTime::TimeZone::Zone::America::Santiago" : "lib/DateTime/TimeZone/Zone/America/Santiago.pm6",
-    "DateTime::TimeZone::Zone::Asia::Kabul" : "lib/DateTime/TimeZone/Zone/Asia/Kabul.pm6",
-    "DateTime::TimeZone::Zone::Europe::Mariehamn" : "lib/DateTime/TimeZone/Zone/Europe/Mariehamn.pm6",
-    "DateTime::TimeZone::Zone::America::Argentina::Catamarca" : "lib/DateTime/TimeZone/Zone/America/Argentina/Catamarca.pm6",
-    "DateTime::TimeZone::Zone::America::Guayaquil" : "lib/DateTime/TimeZone/Zone/America/Guayaquil.pm6",
-    "DateTime::TimeZone::Zone::Brazil::West" : "lib/DateTime/TimeZone/Zone/Brazil/West.pm6",
-    "DateTime::TimeZone::Zone::Asia::Ulaanbaatar" : "lib/DateTime/TimeZone/Zone/Asia/Ulaanbaatar.pm6",
-    "DateTime::TimeZone::Zone::America::Atikokan" : "lib/DateTime/TimeZone/Zone/America/Atikokan.pm6",
-    "DateTime::TimeZone::Zone::Africa::Libreville" : "lib/DateTime/TimeZone/Zone/Africa/Libreville.pm6",
-    "DateTime::TimeZone::Zone::America::Cuiaba" : "lib/DateTime/TimeZone/Zone/America/Cuiaba.pm6",
-    "DateTime::TimeZone::Zone::America::Eirunepe" : "lib/DateTime/TimeZone/Zone/America/Eirunepe.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Ponape" : "lib/DateTime/TimeZone/Zone/Pacific/Ponape.pm6",
-    "DateTime::TimeZone::Zone::Indian::Christmas" : "lib/DateTime/TimeZone/Zone/Indian/Christmas.pm6",
-    "DateTime::TimeZone::Zone::Asia::Baghdad" : "lib/DateTime/TimeZone/Zone/Asia/Baghdad.pm6",
-    "DateTime::TimeZone::Zone::America::Dominica" : "lib/DateTime/TimeZone/Zone/America/Dominica.pm6",
-    "DateTime::TimeZone::Zone::Africa::Kampala" : "lib/DateTime/TimeZone/Zone/Africa/Kampala.pm6",
-    "DateTime::TimeZone::Zone::Africa::Mbabane" : "lib/DateTime/TimeZone/Zone/Africa/Mbabane.pm6",
-    "DateTime::TimeZone::Zone::Asia::Macau" : "lib/DateTime/TimeZone/Zone/Asia/Macau.pm6",
-    "DateTime::TimeZone::Zone::Canada::East_minus_Saskatchewan" : "lib/DateTime/TimeZone/Zone/Canada/East_minus_Saskatchewan.pm6",
-    "DateTime::TimeZone::Zone::America::North_Dakota::Beulah" : "lib/DateTime/TimeZone/Zone/America/North_Dakota/Beulah.pm6",
-    "DateTime::TimeZone::Zone::Antarctica::Mawson" : "lib/DateTime/TimeZone/Zone/Antarctica/Mawson.pm6",
-    "DateTime::TimeZone::Zone::America::Virgin" : "lib/DateTime/TimeZone/Zone/America/Virgin.pm6",
-    "DateTime::TimeZone::Zone::America::Denver" : "lib/DateTime/TimeZone/Zone/America/Denver.pm6",
-    "DateTime::TimeZone::Zone::America::Curacao" : "lib/DateTime/TimeZone/Zone/America/Curacao.pm6",
-    "DateTime::TimeZone::Zone::Egypt" : "lib/DateTime/TimeZone/Zone/Egypt.pm6",
-    "DateTime::TimeZone::Zone::Europe::Sofia" : "lib/DateTime/TimeZone/Zone/Europe/Sofia.pm6",
-    "DateTime::TimeZone::Zone::America::Mendoza" : "lib/DateTime/TimeZone/Zone/America/Mendoza.pm6",
-    "DateTime::TimeZone::Zone::Poland" : "lib/DateTime/TimeZone/Zone/Poland.pm6",
-    "DateTime::TimeZone::Zone::America::Boise" : "lib/DateTime/TimeZone/Zone/America/Boise.pm6",
-    "DateTime::TimeZone::Zone::Asia::Ulan_Bator" : "lib/DateTime/TimeZone/Zone/Asia/Ulan_Bator.pm6",
-    "DateTime::TimeZone::Zone::Australia::Adelaide" : "lib/DateTime/TimeZone/Zone/Australia/Adelaide.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT0" : "lib/DateTime/TimeZone/Zone/Etc/GMT0.pm6",
-    "DateTime::TimeZone::Zone::Asia::Ashkhabad" : "lib/DateTime/TimeZone/Zone/Asia/Ashkhabad.pm6",
-    "DateTime::TimeZone::Zone::Asia::Almaty" : "lib/DateTime/TimeZone/Zone/Asia/Almaty.pm6",
-    "DateTime::TimeZone::Zone::Africa::Porto_minus_Novo" : "lib/DateTime/TimeZone/Zone/Africa/Porto_minus_Novo.pm6",
-    "DateTime::TimeZone::Zone::Atlantic::Reykjavik" : "lib/DateTime/TimeZone/Zone/Atlantic/Reykjavik.pm6",
-    "DateTime::TimeZone::Zone::Mexico::General" : "lib/DateTime/TimeZone/Zone/Mexico/General.pm6",
-    "DateTime::TimeZone::Zone::America::Lower_Princes" : "lib/DateTime/TimeZone/Zone/America/Lower_Princes.pm6",
-    "DateTime::TimeZone::Zone::Africa::Abidjan" : "lib/DateTime/TimeZone/Zone/Africa/Abidjan.pm6",
-    "DateTime::TimeZone::Zone::Canada::Mountain" : "lib/DateTime/TimeZone/Zone/Canada/Mountain.pm6",
-    "DateTime::TimeZone::Zone::Etc::Universal" : "lib/DateTime/TimeZone/Zone/Etc/Universal.pm6",
-    "DateTime::TimeZone::Zone::America::Kentucky::Monticello" : "lib/DateTime/TimeZone/Zone/America/Kentucky/Monticello.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Fiji" : "lib/DateTime/TimeZone/Zone/Pacific/Fiji.pm6",
-    "DateTime::TimeZone::Zone::Indian::Maldives" : "lib/DateTime/TimeZone/Zone/Indian/Maldives.pm6",
-    "DateTime::TimeZone::Zone::Europe::Simferopol" : "lib/DateTime/TimeZone/Zone/Europe/Simferopol.pm6",
-    "DateTime::TimeZone::Zone::Europe::Sarajevo" : "lib/DateTime/TimeZone/Zone/Europe/Sarajevo.pm6",
-    "DateTime::TimeZone::Zone::America::Moncton" : "lib/DateTime/TimeZone/Zone/America/Moncton.pm6",
-    "DateTime::TimeZone::Zone::Portugal" : "lib/DateTime/TimeZone/Zone/Portugal.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_5" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_5.pm6",
-    "DateTime::TimeZone::Zone::America::Thunder_Bay" : "lib/DateTime/TimeZone/Zone/America/Thunder_Bay.pm6",
-    "DateTime::TimeZone::Zone::ROK" : "lib/DateTime/TimeZone/Zone/ROK.pm6",
-    "DateTime::TimeZone::Zone::Asia::Omsk" : "lib/DateTime/TimeZone/Zone/Asia/Omsk.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Guadalcanal" : "lib/DateTime/TimeZone/Zone/Pacific/Guadalcanal.pm6",
-    "DateTime::TimeZone::Zone::Europe::Vaduz" : "lib/DateTime/TimeZone/Zone/Europe/Vaduz.pm6",
-    "DateTime::TimeZone::Zone::Iceland" : "lib/DateTime/TimeZone/Zone/Iceland.pm6",
-    "DateTime::TimeZone::Zone::Africa::Dar_es_Salaam" : "lib/DateTime/TimeZone/Zone/Africa/Dar_es_Salaam.pm6",
-    "DateTime::TimeZone::Zone::Africa::Luanda" : "lib/DateTime/TimeZone/Zone/Africa/Luanda.pm6",
-    "DateTime::TimeZone::Zone::Asia::Vladivostok" : "lib/DateTime/TimeZone/Zone/Asia/Vladivostok.pm6",
-    "DateTime::TimeZone::Zone::Atlantic::Stanley" : "lib/DateTime/TimeZone/Zone/Atlantic/Stanley.pm6",
-    "DateTime::TimeZone::Zone::Australia::Canberra" : "lib/DateTime/TimeZone/Zone/Australia/Canberra.pm6",
-    "DateTime::TimeZone::Zone::Etc::UCT" : "lib/DateTime/TimeZone/Zone/Etc/UCT.pm6",
-    "DateTime::TimeZone::Zone::America::Kralendijk" : "lib/DateTime/TimeZone/Zone/America/Kralendijk.pm6",
-    "DateTime::TimeZone::Zone::Africa::Kinshasa" : "lib/DateTime/TimeZone/Zone/Africa/Kinshasa.pm6",
-    "DateTime::TimeZone::Zone::Asia::Makassar" : "lib/DateTime/TimeZone/Zone/Asia/Makassar.pm6",
-    "DateTime::TimeZone::Zone::Europe::Bratislava" : "lib/DateTime/TimeZone/Zone/Europe/Bratislava.pm6",
-    "DateTime::TimeZone::Zone::Asia::Bishkek" : "lib/DateTime/TimeZone/Zone/Asia/Bishkek.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT" : "lib/DateTime/TimeZone/Zone/Etc/GMT.pm6",
-    "DateTime::TimeZone::Zone::Europe::Stockholm" : "lib/DateTime/TimeZone/Zone/Europe/Stockholm.pm6",
-    "DateTime::TimeZone::Zone::Europe::Podgorica" : "lib/DateTime/TimeZone/Zone/Europe/Podgorica.pm6",
-    "DateTime::TimeZone::Zone::America::Mexico_City" : "lib/DateTime/TimeZone/Zone/America/Mexico_City.pm6",
-    "DateTime::TimeZone::Zone::Africa::Asmara" : "lib/DateTime/TimeZone/Zone/Africa/Asmara.pm6",
-    "DateTime::TimeZone::Zone::Africa::Blantyre" : "lib/DateTime/TimeZone/Zone/Africa/Blantyre.pm6",
-    "DateTime::TimeZone::Zone::America::Boa_Vista" : "lib/DateTime/TimeZone/Zone/America/Boa_Vista.pm6",
-    "DateTime::TimeZone::Zone::America::Cayenne" : "lib/DateTime/TimeZone/Zone/America/Cayenne.pm6",
-    "DateTime::TimeZone::Zone::Atlantic::Jan_Mayen" : "lib/DateTime/TimeZone/Zone/Atlantic/Jan_Mayen.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Saipan" : "lib/DateTime/TimeZone/Zone/Pacific/Saipan.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Palau" : "lib/DateTime/TimeZone/Zone/Pacific/Palau.pm6",
-    "DateTime::TimeZone::Zone::America::Montserrat" : "lib/DateTime/TimeZone/Zone/America/Montserrat.pm6",
-    "DateTime::TimeZone::Zone::America::Belize" : "lib/DateTime/TimeZone/Zone/America/Belize.pm6",
-    "DateTime::TimeZone::Zone::America::New_York" : "lib/DateTime/TimeZone/Zone/America/New_York.pm6",
-    "DateTime::TimeZone::Zone::Zulu" : "lib/DateTime/TimeZone/Zone/Zulu.pm6",
-    "DateTime::TimeZone::Zone::Turkey" : "lib/DateTime/TimeZone/Zone/Turkey.pm6",
-    "DateTime::TimeZone::Zone::America::Atka" : "lib/DateTime/TimeZone/Zone/America/Atka.pm6",
-    "DateTime::TimeZone::Zone::Asia::Tashkent" : "lib/DateTime/TimeZone/Zone/Asia/Tashkent.pm6",
-    "DateTime::TimeZone::Zone::America::Matamoros" : "lib/DateTime/TimeZone/Zone/America/Matamoros.pm6",
-    "DateTime::TimeZone::Zone::Africa::Dakar" : "lib/DateTime/TimeZone/Zone/Africa/Dakar.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_6" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_6.pm6",
-    "DateTime::TimeZone::Zone::Europe::Andorra" : "lib/DateTime/TimeZone/Zone/Europe/Andorra.pm6",
-    "DateTime::TimeZone::Zone::Pacific::Pago_Pago" : "lib/DateTime/TimeZone/Zone/Pacific/Pago_Pago.pm6",
-    "DateTime::TimeZone::Zone::America::Havana" : "lib/DateTime/TimeZone/Zone/America/Havana.pm6",
-    "DateTime::TimeZone::Zone::Africa::Djibouti" : "lib/DateTime/TimeZone/Zone/Africa/Djibouti.pm6",
-    "DateTime::TimeZone::Zone::Mexico::BajaNorte" : "lib/DateTime/TimeZone/Zone/Mexico/BajaNorte.pm6",
-    "DateTime::TimeZone::Zone::America::Yellowknife" : "lib/DateTime/TimeZone/Zone/America/Yellowknife.pm6",
-    "DateTime::TimeZone::Zone::GB_minus_Eire" : "lib/DateTime/TimeZone/Zone/GB_minus_Eire.pm6",
-    "DateTime::TimeZone::Zone::Australia::Sydney" : "lib/DateTime/TimeZone/Zone/Australia/Sydney.pm6",
-    "DateTime::TimeZone::Zone::America::Danmarkshavn" : "lib/DateTime/TimeZone/Zone/America/Danmarkshavn.pm6",
-    "DateTime::TimeZone::Zone::Universal" : "lib/DateTime/TimeZone/Zone/Universal.pm6",
-    "DateTime::TimeZone::Zone::Africa::Timbuktu" : "lib/DateTime/TimeZone/Zone/Africa/Timbuktu.pm6",
-    "DateTime::TimeZone::Zone::America::Araguaina" : "lib/DateTime/TimeZone/Zone/America/Araguaina.pm6",
-    "DateTime::TimeZone::Zone::US::Pacific" : "lib/DateTime/TimeZone/Zone/US/Pacific.pm6",
-    "DateTime::TimeZone::Zone::Europe::Tiraspol" : "lib/DateTime/TimeZone/Zone/Europe/Tiraspol.pm6",
-    "DateTime::TimeZone::Zone::Africa::Bangui" : "lib/DateTime/TimeZone/Zone/Africa/Bangui.pm6",
-    "DateTime::TimeZone::Zone::Asia::Khandyga" : "lib/DateTime/TimeZone/Zone/Asia/Khandyga.pm6",
-    "DateTime::TimeZone::Zone::Asia::Gaza" : "lib/DateTime/TimeZone/Zone/Asia/Gaza.pm6",
-    "DateTime::TimeZone::Zone::America::Iqaluit" : "lib/DateTime/TimeZone/Zone/America/Iqaluit.pm6",
-    "DateTime::TimeZone::Zone::Africa::Accra" : "lib/DateTime/TimeZone/Zone/Africa/Accra.pm6",
-    "DateTime::TimeZone::Zone::MST7MDT" : "lib/DateTime/TimeZone/Zone/MST7MDT.pm6",
-    "DateTime::TimeZone::Zone::America::Aruba" : "lib/DateTime/TimeZone/Zone/America/Aruba.pm6",
-    "DateTime::TimeZone::Zone::Asia::Shanghai" : "lib/DateTime/TimeZone/Zone/Asia/Shanghai.pm6",
-    "DateTime::TimeZone::Zone::Australia::Melbourne" : "lib/DateTime/TimeZone/Zone/Australia/Melbourne.pm6",
-    "DateTime::TimeZone::Zone::America::Louisville" : "lib/DateTime/TimeZone/Zone/America/Louisville.pm6",
-    "DateTime::TimeZone::Zone::Africa::Windhoek" : "lib/DateTime/TimeZone/Zone/Africa/Windhoek.pm6",
-    "DateTime::TimeZone::Zone::America::Cambridge_Bay" : "lib/DateTime/TimeZone/Zone/America/Cambridge_Bay.pm6",
-    "DateTime::TimeZone::Zone::America::Coral_Harbour" : "lib/DateTime/TimeZone/Zone/America/Coral_Harbour.pm6",
-    "DateTime::TimeZone::Zone::Australia::Lindeman" : "lib/DateTime/TimeZone/Zone/Australia/Lindeman.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_1" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_1.pm6",
-    "DateTime::TimeZone::Zone::US::Michigan" : "lib/DateTime/TimeZone/Zone/US/Michigan.pm6",
-    "DateTime::TimeZone::Zone::Asia::Karachi" : "lib/DateTime/TimeZone/Zone/Asia/Karachi.pm6",
-    "DateTime::TimeZone::Zone::Asia::Chongqing" : "lib/DateTime/TimeZone/Zone/Asia/Chongqing.pm6",
-    "DateTime::TimeZone::Zone::America::Chihuahua" : "lib/DateTime/TimeZone/Zone/America/Chihuahua.pm6",
-    "DateTime::TimeZone::Zone::Australia::Hobart" : "lib/DateTime/TimeZone/Zone/Australia/Hobart.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_9" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_9.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_plus_11" : "lib/DateTime/TimeZone/Zone/Etc/GMT_plus_11.pm6",
-    "DateTime::TimeZone::Zone::America::Jamaica" : "lib/DateTime/TimeZone/Zone/America/Jamaica.pm6",
-    "DateTime::TimeZone::Zone::EST" : "lib/DateTime/TimeZone/Zone/EST.pm6",
-    "DateTime::TimeZone::Zone::America::Noronha" : "lib/DateTime/TimeZone/Zone/America/Noronha.pm6",
-    "DateTime::TimeZone::Zone::Africa::Cairo" : "lib/DateTime/TimeZone/Zone/Africa/Cairo.pm6",
-    "DateTime::TimeZone::Zone::Asia::Samarkand" : "lib/DateTime/TimeZone/Zone/Asia/Samarkand.pm6",
-    "DateTime::TimeZone::Zone::Etc::GMT_minus_3" : "lib/DateTime/TimeZone/Zone/Etc/GMT_minus_3.pm6"
-  },
-  "test-depends" : [ ],
-  "license" : null,
-  "tags" : [ ],
-  "version" : "0.10.0",
-  "meta6" : "0",
-  "description" : "A library for working with Time Zones in Perl 6",
-  "authors" : [
-    "Timothy Totten"
-  ]
-}
-,
-{
   "name" : "Web",
   "source-url" : "git://github.com/supernovus/perl6-web.git",
   "perl" : "6.*",
@@ -4728,6 +4118,24 @@
 }
 ,
 {
+  "name" : "File::Find::Duplicates",
+  "source-url" : "git://github.com/labster/perl6-File-Find-Duplicates.git",
+  "perl" : "6.*",
+  "author" : "Brent Laabs",
+  "depends" : [
+    "File::Find",
+    "Digest",
+    "File::Compare"
+  ],
+  "provides" : {
+    "File::Find::Duplicates" : "lib/File/Find/Duplicates.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "*",
+  "description" : "Get a list of duplicate files in directories"
+}
+,
+{
   "name" : "PDF::Grammar",
   "api" : "PDF-1.7",
   "source-url" : "git://github.com/p6-pdf/PDF-Grammar-p6.git",
@@ -6005,6 +5413,35 @@
 }
 ,
 {
+  "name" : "SP6",
+  "support" : {
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "bugtracker" : "https://github.com/mj41/SP6/issues"
+  },
+  "source-url" : "git://github.com/mj41/SP6.git",
+  "perl" : "6",
+  "source-type" : "git",
+  "auth" : "github:mj41",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "template"
+  ],
+  "provides" : {
+    "SP6::ProcessMethods" : "lib/SP6/ProcessMethods.pm6",
+    "SP6" : "lib/SP6.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.1",
+  "authors" : [
+    "Michal Jurosz"
+  ],
+  "description" : "Simple templates for Perl 6"
+}
+,
+{
   "name" : "HTTP::Server::Async",
   "source-url" : "git://github.com/perl6/perl6-http-server-async.git",
   "perl" : "6.*",
@@ -6479,6 +5916,25 @@
 }
 ,
 {
+  "name" : "PerlMongers::Hannover",
+  "source-url" : "git://github.com/paultcochrane/Perl6Mongers-Hannover.git",
+  "perl" : "6.*",
+  "depends" : [
+    "IO::Capture::Simple"
+  ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "PerlMongers::Hannover" : "lib/PerlMongers/Hannover.pm"
+  },
+  "version" : "0.8.6",
+  "authors" : "Paul Cochrane",
+  "description" : "Hannover Perl Mongers."
+}
+,
+{
   "name" : "Operator::feq",
   "source-url" : "git://github.com/tony-o/perl6-operator-feq.git",
   "perl" : "6.*",
@@ -6686,6 +6142,20 @@
 }
 ,
 {
+  "name" : "Coro::Simple",
+  "source-url" : "git://github.com/marcoonroad/Coro-Simple.git",
+  "perl" : "6.*",
+  "author" : "Marco Aur\u00e9lio da Silva",
+  "depends" : [ ],
+  "provides" : {
+    "Coro::Simple" : "lib/Coro/Simple.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "*",
+  "description" : "Simple coroutines for Perl 6, inspired by the Lua coroutines."
+}
+,
+{
   "name" : "CSS::Writer",
   "source-url" : "git://github.com/p6-css/CSS-Writer-p6.git",
   "perl" : "6.*",
@@ -6748,6 +6218,30 @@
 }
 ,
 {
+  "name" : "C::Parser",
+  "source-url" : "https://github.com/andydude/p6-c-parser.git",
+  "perl" : "6.*",
+  "build-depends" : [ ],
+  "author" : "Andrew Robbins",
+  "depends" : [ ],
+  "provides" : {
+    "C::Parser::Utils" : "lib/C/Parser/Utils.pm6",
+    "C::Parser::Grammar" : "lib/C/Parser/Grammar.pm6",
+    "C::AST" : "lib/C/AST.pm6",
+    "C::Parser" : "lib/C/Parser.pm6",
+    "C::Parser::Actions" : "lib/C/Parser/Actions.pm6",
+    "C::AST::Utils" : "lib/C/AST/Utils.pm6",
+    "C::Parser::Lexer" : "lib/C/Parser/Lexer.pm6",
+    "C::AST::Ops" : "lib/C/AST/Ops.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "version" : "0.3.2",
+  "description" : "Grammar for Parsing C in Perl6"
+}
+,
+{
   "name" : "App::Pray",
   "source-url" : "git://github.com/raydiak/pray.git",
   "perl" : "6.*",
@@ -6787,6 +6281,25 @@
   "license" : "Artistic-2.0",
   "version" : "*",
   "description" : "Perl 6 Ray Tracing Engine"
+}
+,
+{
+  "api" : "css3-selectors-20110929",
+  "name" : "CSS::Module::CSS3::Selectors",
+  "source-url" : "git://github.com/p6-css/CSS-Module-CSS3-Selectors-p6.git",
+  "perl" : "6.*",
+  "auth" : "github:p6-css",
+  "depends" : [
+    "CSS::Grammar",
+    "JSON::Fast"
+  ],
+  "provides" : {
+    "CSS::Module::CSS3::Selectors::Actions" : "lib/CSS/Module/CSS3/Selectors/Actions.pm",
+    "CSS::Module::CSS3::Selectors" : "lib/CSS/Module/CSS3/Selectors.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "CSS3 Module Level 3 Selectors"
 }
 ,
 {
@@ -6910,6 +6423,55 @@
   "version" : "0.3",
   "meta-version" : 1,
   "description" : "Use Python code and libraries in a Perl 6 program"
+}
+,
+{
+  "name" : "Grammar::Highlighter",
+  "support" : {
+    "irc" : "irc://irc.freenode.org/#perl6"
+  },
+  "source-url" : "git://github.com/niner/Grammar-Highlighter.git",
+  "perl" : "v6.c",
+  "build-depends" : [
+    "panda"
+  ],
+  "author" : "github:niner",
+  "repo-type" : "git",
+  "depends" : [
+    "Terminal::ANSIColor"
+  ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "Grammar::Highlighter::Terminal" : "lib/Grammar/Highlighter/Terminal.pm",
+    "Grammar::Highlighter" : "lib/Grammar/Highlighter.pm",
+    "Grammar::Highlighter::HTML" : "lib/Grammar/Highlighter/HTML.pm"
+  },
+  "test-depends" : [ ],
+  "version" : "0.1",
+  "description" : "Automatic syntax highlighting for any grammar you provide.",
+  "authors" : [
+    "Stefan Seifert"
+  ]
+}
+,
+{
+  "name" : "CompUnit::Repository::Mask",
+  "source-url" : "https://github.com/niner/CompUnit-Repository-Mask.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "CompUnit::Repository::Mask" : "lib/CompUnit/Repository/Mask.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "hide installed modules for testing.",
+  "authors" : [
+    "Stefan Seifert"
+  ]
 }
 ,
 {
@@ -7778,6 +7340,24 @@
 }
 ,
 {
+  "name" : "HTTP::Server::Router",
+  "source-url" : "git://github.com/tony-o/perl6-http-server-router.git",
+  "perl" : "6.*",
+  "auth" : "github:tony-o",
+  "depends" : [
+    "HTTP::Server"
+  ],
+  "provides" : {
+    "HTTP::Server::Router" : "lib/HTTP/Server/Router.pm6"
+  },
+  "test-depends" : [
+    "HTTP::Server::Async"
+  ],
+  "version" : "0.1.7",
+  "description" : "Router for HTTP::Server based servers"
+}
+,
+{
   "name" : "X::Protocol",
   "support" : {
     "source" : "https://github.com/skids/perl6xproto.git"
@@ -7824,6 +7404,24 @@
   "license" : "Artistic-2.0",
   "version" : "v0.0.1",
   "description" : "Perl6 -- manage GNU screen sessions and use them for tests",
+  "authors" : [
+    "Brian S. Julin"
+  ]
+}
+,
+{
+  "name" : "Control::Bail",
+  "support" : {
+    "source" : "https://github.com/skids/perl6-Control-Bail.git"
+  },
+  "perl" : "6",
+  "depends" : [ ],
+  "provides" : {
+    "Control::Bail" : "lib/Control/Bail.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "v0.0.1",
+  "description" : "Perl6 module for deferred error handling",
   "authors" : [
     "Brian S. Julin"
   ]
@@ -7985,6 +7583,19 @@
   "authors" : [
     "Jeffrey Goff <drforr@pobox.com>"
   ]
+}
+,
+{
+  "name" : "Marpa",
+  "source-url" : "git://github.com/drforr/perl6-Marpa.git",
+  "perl" : "6.*",
+  "depends" : [ ],
+  "provides" : {
+    "Marpa" : "lib/Marpa.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "*",
+  "description" : "A Perl6 binding to libmarpa, the parser module"
 }
 ,
 {
@@ -8304,6 +7915,19 @@
   },
   "version" : "0.1.1",
   "description" : "Perl6 Avro Data Serialization"
+}
+,
+{
+  "name" : "Log::D",
+  "source-url" : "git://github.com/jaffa4/logd.git",
+  "perl" : "6.*",
+  "depends" : [ ],
+  "provides" : {
+    "Log::Empty" : "lib/Log/Empty.pm",
+    "Log::D" : "lib/Log/D.pm"
+  },
+  "version" : "0.8",
+  "description" : "Support for logging"
 }
 ,
 {
@@ -10177,6 +9801,31 @@
 }
 ,
 {
+  "name" : "Config::Simple",
+  "source-url" : "git://github.com/Skarsnik/perl6-config-simple.git",
+  "perl" : "6",
+  "author" : "Sylvain Colinet",
+  "depends" : [
+    "JSON::Pretty",
+    "Config::INI",
+    "Data::Dump"
+  ],
+  "tags" : [
+    "Config",
+    "INI"
+  ],
+  "provides" : {
+    "Config::Simple::ini" : "lib/Config/Simple/ini.pm6",
+    "Config::Simple::JSON" : "lib/Config/Simple/JSON.pm6",
+    "Config::Simple::Role" : "lib/Config/Simple/Role.pm6",
+    "Config::Simple" : "lib/Config/Simple.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "*",
+  "description" : "A simple module for your configuration file need"
+}
+,
+{
   "name" : "Hydrate",
   "source-url" : "git://github.com/vendethiel/hydrate6.git",
   "perl" : "v6",
@@ -10256,6 +9905,21 @@
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
+}
+,
+{
+  "name" : "NativeCall::TypeDiag",
+  "source-url" : "git://github.com/Skarsnik/nativecall-typediag.git",
+  "perl" : "v6",
+  "author" : "Sylvain Colinet",
+  "depends" : [
+    "File::Temp"
+  ],
+  "provides" : {
+    "NativeCall::TypeDiag" : "lib/NativeCall/TypeDiag.pm6"
+  },
+  "version" : "*",
+  "description" : "A module to look at your nativecall types, like class A is repr('CStruct')"
 }
 ,
 {
@@ -10505,6 +10169,42 @@
 }
 ,
 {
+  "name" : "Chronic",
+  "perl" : "6.c",
+  "support" : {
+    "irc" : "irc:// irc.freenode.net/#perl6",
+    "source" : "git://github.com/jonathanstowe/Chronic.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Chronic/issues"
+  },
+  "source-url" : "git://github.com/jonathanstowe/Chronic.git",
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "provides" : {
+    "Chronic" : "lib/Chronic.pm"
+  },
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "util",
+    "schedule",
+    "cron",
+    "event"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.6",
+  "description" : "Low-level Scheduling thingy for Perl6",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Acme::WTF",
   "source-url" : "git://github.com/Skarsnik/acme-wtf.git",
   "perl" : "6",
@@ -10554,6 +10254,27 @@
     "Zoffix Znet"
   ],
   "description" : "Extendable Internet Relay Chat client"
+}
+,
+{
+  "name" : "Lingua::Conjunction",
+  "support" : {
+    "source" : "git://github.com/zoffixznet/perl6-Lingua-Conjunction.git"
+  },
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Lingua::Conjunction" : "lib/Lingua/Conjunction.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001001",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Convert lists into linguistic conjunctions and fill them into a template"
 }
 ,
 {
@@ -10614,6 +10335,28 @@
   "description" : "Detect audio cue-in, cue-out using silan https://github.com/x42/silan",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Math::Matrix",
+  "source-url" : "git://github.com/pierre-vigier/Perl6-Math-Matrix.git",
+  "perl" : "6.c",
+  "depends" : [
+    "AttrX::Lazy"
+  ],
+  "provides" : {
+    "Math::Matrix" : "lib/Math/Matrix.pm6"
+  },
+  "tags" : [
+    "Math"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.2.0",
+  "description" : "create, compare, compute and measure matrices",
+  "authors" : [
+    "github:pierre-vigier",
+    "github:lichtkind"
   ]
 }
 ,
@@ -11099,6 +10842,23 @@
 }
 ,
 {
+  "name" : "CompUnit::Util",
+  "source-url" : "git://github.com/LLFourn/p6-CompUnit-Util",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "CompUnit::Util" : "lib/CompUnit/Util.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.6.0",
+  "authors" : [
+    "Lloyd Fournier"
+  ],
+  "description" : "Utilities for introspecting compunits and re-exporting"
+}
+,
+{
   "name" : "IRC::Client::Plugin::Factoid",
   "support" : {
     "source" : "git://github.com/zoffixznet/perl6-IRC-Client-Plugin-Factoid.git"
@@ -11136,6 +10896,31 @@
   },
   "version" : "0.1",
   "description" : "A test double for IO::Socket::Async"
+}
+,
+{
+  "name" : "AWS::Pricing",
+  "source-url" : "git://github.com/scmorrison/perl6-aws-pricing.git",
+  "perl" : "6.*",
+  "build-depends" : [ ],
+  "author" : "github:scmorrison",
+  "depends" : [
+    "HTTP::Tinyish",
+    "Test"
+  ],
+  "provides" : {
+    "AWS::Pricing" : "lib/AWS/Pricing.pm6",
+    "AWS::Pricing::CLI" : "lib/AWS/Pricing/CLI.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.2.3",
+  "authors" : [
+    "Sam Morrison"
+  ],
+  "description" : "AWS Price List API library"
 }
 ,
 {
@@ -11193,6 +10978,26 @@
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
+}
+,
+{
+  "name" : "Email::Notmuch",
+  "source-url" : "git://github.com/goneri/p6-Email-Notmuch.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "test-depends" : [
+    "File::Temp",
+    "Test"
+  ],
+  "provides" : {
+    "Email::Notmuch" : "lib/Email/Notmuch.pm6"
+  },
+  "license" : "GPL-3.0",
+  "version" : "0.6",
+  "authors" : [
+    "Gon\u00e9ri Le Bouder"
+  ],
+  "description" : "lib NotmuchMail binding"
 }
 ,
 {
@@ -11266,6 +11071,59 @@
 }
 ,
 {
+  "name" : "CompUnit::Repository::Tar",
+  "source-url" : "git://github.com/ugexe/Perl6-CompUnit--Repository--Tar.git",
+  "support" : {
+    "bugtracker" : "https://github.com/ugexe/Perl6-CompUnit--Repository--Tar/issues"
+  },
+  "perl" : "6",
+  "auth" : "github:ugexe",
+  "depends" : [
+    "Distribution::Common"
+  ],
+  "tags" : [
+    "CUR",
+    "Installable"
+  ],
+  "provides" : {
+    "CompUnit::Repository::Tar" : "lib/CompUnit/Repository/Tar.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Load modules directory from a .tar.gz archive",
+  "authors" : [
+    "ugexe"
+  ]
+}
+,
+{
+  "name" : "Distribution::Common",
+  "source-url" : "git://github.com/ugexe/Perl6-Distribution--Common.git",
+  "support" : {
+    "bugtracker" : "https://github.com/ugexe/Perl6-Distribution--Common/issues"
+  },
+  "perl" : "6",
+  "auth" : "github:ugexe",
+  "depends" : [ ],
+  "provides" : {
+    "Distribution::IO::Proc::Tar" : "lib/Distribution/IO/Proc/Tar.pm6",
+    "Distribution::IO" : "lib/Distribution/IO.pm6",
+    "Distribution::Common::Git" : "lib/Distribution/Common/Git.pm6",
+    "Distribution::Common::Tar" : "lib/Distribution/Common/Tar.pm6",
+    "Distribution::IO::Proc::Git" : "lib/Distribution/IO/Proc/Git.pm6",
+    "Distribution::Common::Directory" : "lib/Distribution/Common/Directory.pm6",
+    "Distribution::Common" : "lib/Distribution/Common.pm6",
+    "Distribution::IO::Directory" : "lib/Distribution/IO/Directory.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Create an installable Distribution from common sources",
+  "authors" : [
+    "ugexe"
+  ]
+}
+,
+{
   "name" : "Distribution::Common::Remote",
   "source-url" : "git://github.com/ugexe/Perl6-Distribution--Common--Remote.git",
   "support" : {
@@ -11288,6 +11146,19 @@
   "authors" : [
     "ugexe"
   ]
+}
+,
+{
+  "name" : "Foo",
+  "source-url" : "git://github.com/ugexe/Perl6-Foo.git",
+  "perl" : "6.*",
+  "auth" : "github:ugexe",
+  "depends" : [ ],
+  "provides" : {
+    "Foo" : "lib/Foo.pm6"
+  },
+  "version" : "1.2.0",
+  "description" : "Test for installation of same named dists"
 }
 ,
 {
@@ -11364,6 +11235,30 @@
 }
 ,
 {
+  "name" : "PathTools",
+  "source-url" : "git://github.com/ugexe/Perl6-PathTools.git",
+  "support" : {
+    "bugtracker" : "https://github.com/ugexe/Perl6-PathTools/issues"
+  },
+  "perl" : "6",
+  "auth" : "github:ugexe",
+  "depends" : [ ],
+  "tags" : [
+    "paths",
+    "tempfile"
+  ],
+  "provides" : {
+    "PathTools" : "lib/PathTools.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.1",
+  "description" : "General purpose file system utility routines",
+  "authors" : [
+    "ugexe"
+  ]
+}
+,
+{
   "name" : "Text::Levenshtein::Damerau",
   "source-url" : "git://github.com/ugexe/Perl6-Text--Levenshtein--Damerau.git",
   "perl" : "6",
@@ -11379,6 +11274,28 @@
   "license" : "Artistic-2.0",
   "version" : "0.1.7",
   "description" : "Calculate Levenshtein or Damerau Levenshtein edit distances for strings"
+}
+,
+{
+  "name" : "Text::Table::Simple",
+  "source-url" : "git://github.com/ugexe/Perl6-Text--Table--Simple.git",
+  "perl" : "6",
+  "auth" : "github:ugexe",
+  "depends" : [ ],
+  "tags" : [
+    "text",
+    "terminal",
+    "utils"
+  ],
+  "provides" : {
+    "Text::Table::Simple" : "lib/Text/Table/Simple.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "authors" : [
+    "Nick Logan"
+  ],
+  "description" : "Create basic tables from a two dimensional array"
 }
 ,
 {
@@ -11508,6 +11425,22 @@
 }
 ,
 {
+  "name" : "AttrX::InitArg",
+  "source-url" : "git://github.com/LLFourn/p6-AttrX-InitArg.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "AttrX::InitArg" : "lib/AttrX/InitArg.pm6"
+  },
+  "version" : "0.1.1",
+  "authors" : [
+    "Lloyd Fournier"
+  ],
+  "description" : "Moose-like init-arg attribute trait for Perl 6"
+}
+,
+{
   "name" : "XHTML::Writer",
   "source-url" : "git://github.com/gfldex/perl6-xhtml-writer.git",
   "perl" : "6.*",
@@ -11585,6 +11518,25 @@
     "Peter Pentchev"
   ],
   "description" : "Capture a command's output and exit code"
+}
+,
+{
+  "name" : "Compress::Bzip2::Raw",
+  "source-url" : "git://github.com/Altai-man/perl6-Compress-Bzip2-Raw.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "author" : "github:Altai-man",
+  "depends" : [ ],
+  "provides" : {
+    "Compress::Bzip2::Raw" : "lib/Compress/Bzip2/Raw.pm6"
+  },
+  "tags" : [
+    "Compression",
+    "NativeCall"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.2.0",
+  "description" : "Low-level bindings to libbzip2"
 }
 ,
 {
@@ -11678,6 +11630,21 @@
 }
 ,
 {
+  "name" : "AttrX::PrivateAccessor",
+  "source-url" : "git://github.com/pierre-vigier/Perl6-AttrX-PrivateAccessor.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "AttrX::PrivateAccessor" : "lib/AttrX/PrivateAccessor.pm6"
+  },
+  "version" : "0.0.2",
+  "description" : "Providing private accessors for private attributes",
+  "authors" : [
+    "github:pierre-vigier"
+  ]
+}
+,
+{
   "name" : "OO::Schema",
   "source-url" : "git://github.com/LLFourn/p6-OO-Schema.git",
   "perl" : "6.*",
@@ -11694,6 +11661,23 @@
     "Lloyd Fournier"
   ],
   "description" : "Declare class relationships in a single module"
+}
+,
+{
+  "name" : "Build::Graph",
+  "source-url" : "https://github.com/Leont/build-graph6.git",
+  "perl" : "6.*",
+  "author" : "Leon Timmermans",
+  "depends" : [ ],
+  "test-depends" : [
+    "Shell::Command",
+    "File::Temp"
+  ],
+  "provides" : {
+    "Build::Graph" : "lib/Build/Graph.pm"
+  },
+  "version" : "0.0.2",
+  "description" : "A flexible and serializable dependency graph"
 }
 ,
 {
@@ -11748,6 +11732,57 @@
     "Paul Marquess <pmqs@cpan.org>"
   ],
   "description" : "Write Zip Files."
+}
+,
+{
+  "name" : "Tinky",
+  "perl" : "6.c",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Tinky.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Tinky/issues"
+  },
+  "source-url" : "git://github.com/jonathanstowe/Tinky.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "provides" : {
+    "Tinky" : "lib/Tinky.pm"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "Workflow",
+    "toolkit",
+    "state machine"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.5",
+  "description" : "An Experimental Workflow / State Management toolit",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "WebService::AWS::Auth::V4",
+  "source-url" : "git://github.com/bradclawsie/WebService-AWS-V4.git",
+  "perl" : "6.*",
+  "author" : "Brad Clawsie",
+  "depends" : [
+    "URI",
+    "URI::Escape",
+    "Digest::SHA",
+    "Digest::HMAC"
+  ],
+  "provides" : {
+    "WebService::AWS::Auth::V4" : "lib/WebService/AWS/Auth/V4.pm6"
+  },
+  "version" : "0.0.3",
+  "description" : "A library of routines to create AWS V4 authentication strings"
 }
 ,
 {
@@ -11812,6 +11847,78 @@
 }
 ,
 {
+  "name" : "Attribute::Lazy",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/Attribute-Lazy.git"
+  },
+  "source-url" : "git://github.com/jonathanstowe/Attribute-Lazy.git",
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "provides" : {
+    "Attribute::Lazy" : "lib/Attribute/Lazy.pm"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "object",
+    "attribute",
+    "builder"
+  ],
+  "version" : "0.0.3",
+  "meta6" : "0",
+  "description" : "Trait to provide lazy initialisation of attributes",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "AttrX::Lazy",
+  "source-url" : "git://github.com/pierre-vigier/Perl6-AttrX-Lazy.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "AttrX::Lazy" : "lib/AttrX/Lazy.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "Moo similar Lazy attribute funtionality",
+  "authors" : [
+    "github:pierre-vigier"
+  ]
+}
+,
+{
+  "name" : "Inline::Brainfuck",
+  "support" : {
+    "source" : "git://github.com/zoffixznet/perl6-Inline-Brainfuck.git"
+  },
+  "perl" : "6.c",
+  "depends" : [
+    "Term::termios"
+  ],
+  "provides" : {
+    "Inline::Brainfuck" : "lib/Inline/Brainfuck.pm6"
+  },
+  "test-depends" : [
+    "Test",
+    "Test::Output"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001001",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Use Brainfuck language in your Perl 6 programs"
+}
+,
+{
   "name" : "Concurrent::BoundedChannel",
   "source-url" : "https://github.com/gotoexit/Concurrent-BoundedChannel.git",
   "perl" : "6.*",
@@ -11848,6 +11955,55 @@
 }
 ,
 {
+  "name" : "Acme::Mangle",
+  "source-url" : "git://github.com/madcapjake/Acme-Mangle",
+  "perl" : "6",
+  "depends" : [ ],
+  "provides" : {
+    "mangle" : "bin/mangle",
+    "Acme::Mangle" : "lib/Acme/Mangle.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "v0.1.0",
+  "authors" : [
+    "Jake Russo <madcap.russo@gmail.com>"
+  ],
+  "description" : "Mangle text via libtranslate."
+}
+,
+{
+  "name" : "Linux::Process::SignalInfo",
+  "source-url" : "https://github.com/Gnouc/p6-linux-process-signalinfo.git",
+  "support" : {
+    "source" : "https://github.com/Gnouc/p6-linux-process-signalinfo.git"
+  },
+  "perl" : "6.c",
+  "build-depends" : [
+    "panda"
+  ],
+  "author" : "Cuong Manh Le <cuong.manhle@gmail.com>",
+  "auth" : "github:Gnouc",
+  "depends" : [ ],
+  "provides" : {
+    "Linux::Process::SignalInfo" : "lib/Linux/Process/SignalInfo.pm"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "linux",
+    "utils",
+    "signal"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "v0.0.3",
+  "authors" : [
+    "Cuong Manh Le <cuong.manhle@gmail.com>"
+  ],
+  "description" : "Show process signal information on Linux"
+}
+,
+{
   "name" : "LendingClub",
   "source-url" : "git://github.com/peelle/LendingClub.git",
   "perl" : "6.*",
@@ -11870,6 +12026,26 @@
 }
 ,
 {
+  "name" : "Algorithm::Treap",
+  "source-url" : "git://github.com/titsuki/p6-Algorithm-Treap.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Algorithm::Treap" : "lib/Algorithm/Treap.pm6",
+    "Algorithm::Treap::Node" : "lib/Algorithm/Treap/Node.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.10.0",
+  "description" : "randomized search tree",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
   "name" : "Inline::Scheme::Gambit",
   "source-url" : "git://github.com/zhouzhen1/perl6-Inline-Scheme-Gambit.git",
   "perl" : "6.*",
@@ -11888,6 +12064,38 @@
 }
 ,
 {
+  "name" : "Term::Choose",
+  "source-url" : "git://github.com/kuerbis/Term-Choose-p6.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "NativeCall",
+    "NCurses",
+    "Terminal::WCWidth"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "cli",
+    "terminal",
+    "text"
+  ],
+  "provides" : {
+    "Term::Choose" : "lib/Term/Choose.pm6",
+    "Term::Choose::NCursesAdd" : "lib/Term/Choose/NCursesAdd.pm6",
+    "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.4.2",
+  "description" : "Choose items from a list interactively.",
+  "authors" : [
+    "kuerbis"
+  ]
+}
+,
+{
   "name" : "Acme::Cow",
   "source-url" : "git://github.com/hankache/Acme-Cow.git",
   "perl" : "6.c",
@@ -11903,6 +12111,41 @@
     "Naoum Hankache"
   ],
   "description" : "Perl 6 implementation of cowsay."
+}
+,
+{
+  "name" : "Oyatul",
+  "perl" : "6.c",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Oyatul.git",
+    "bugtracker" : "http://github.com/jonathanstowe/Oyatul/issues"
+  },
+  "source-url" : "git://github.com/jonathanstowe/Oyatul.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Fast"
+  ],
+  "provides" : {
+    "Oyatul" : "lib/Oyatul.pm"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "filesystem",
+    "layout",
+    "util"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.5",
+  "description" : "Abstract representation of a filesystem layout",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
 }
 ,
 {
@@ -12079,6 +12322,59 @@
 }
 ,
 {
+  "name" : "Test::Lab",
+  "source-url" : "git://github.com/MadcapJake/Test-Lab.git",
+  "source-type" : "git",
+  "depends" : [ ],
+  "provides" : {
+    "Test::Lab::Errors" : "lib/Test/Lab/Errors.pm6",
+    "Test::Lab::Observation" : "lib/Test/Lab/Observation.pm6",
+    "Test::Lab::Result" : "lib/Test/Lab/Result.pm6",
+    "Test::Lab" : "lib/Test/Lab.pm6",
+    "Test::Lab::Experiment" : "lib/Test/Lab/Experiment.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0.0",
+  "description" : "Test run refactored code against legacy code"
+}
+,
+{
+  "name" : "Audio::Playlist::JSPF",
+  "perl" : "6.c",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Audio-Playlist-JSPF.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Audio-Playlist-JSPF/issues"
+  },
+  "source-url" : "git://github.com/jonathanstowe/Audio-Playlist-JSPF.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Class"
+  ],
+  "provides" : {
+    "Audio::Playlist::JSPF" : "lib/Audio/Playlist/JSPF.pm"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "playlist",
+    "music",
+    "JSON",
+    "xiph"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.2",
+  "description" : "JSON representation of a 'playlist'",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "RPi::Device::PiFace",
   "perl" : "6.c",
   "source-url" : "git://github.com/garyaj/perl6-raspberry-pi-device-piface.git",
@@ -12112,6 +12408,27 @@
 }
 ,
 {
+  "name" : "RPi::Wiring::Pi",
+  "support" : {
+    "source" : "git://github.com/sufrostico/perl6-wiringpi.git"
+  },
+  "perl" : "6.c",
+  "provides" : {
+    "RPi::Wiring::Pi" : "lib/RPi/Wiring/Pi.pm6",
+    "RPi::Wiring::SPI" : "lib/RPi/Wiring/SPI.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "GPL-3.0",
+  "version" : "2.26.0",
+  "description" : "Perl 6 wrapper to the WiringPI, a wiring based Raspberry Pi library.",
+  "authors" : [
+    "Aurelio Sanabria (Sufrostico) <sufrostico at gmail dot com>"
+  ]
+}
+,
+{
   "name" : "Algorithm::ZobristHashing",
   "perl" : "6.c",
   "source-url" : "git://github.com/titsuki/p6-Algorithm-ZobristHashing.git",
@@ -12128,6 +12445,131 @@
     "titsuki"
   ],
   "description" : "a hash function for board games"
+}
+,
+{
+  "name" : "Getopt::Long",
+  "source-url" : "https://github.com/Leont/getopt-long6.git",
+  "perl" : "6.*",
+  "author" : "Leon Timmermans",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Getopt::Long" : "lib/Getopt/Long.pm"
+  },
+  "version" : "0.0.1",
+  "description" : "A powerful getopt implementation"
+}
+,
+{
+  "name" : "Algorithm::TernarySearchTree",
+  "source-url" : "git://github.com/titsuki/p6-Algorithm-TernarySearchTree.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::TernarySearchTree" : "lib/Algorithm/TernarySearchTree.pm6",
+    "Algorithm::TernarySearchTree::Node" : "lib/Algorithm/TernarySearchTree/Node.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.04",
+  "description" : "the algorithm which blends trie and binary search tree",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
+  "name" : "XML::Class",
+  "perl" : "6.c",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/XML-Class.git",
+    "bugtracker" : "https://github.com/jonathanstowe/XML-Class/issues"
+  },
+  "source-url" : "git://github.com/jonathanstowe/XML-Class.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "XML"
+  ],
+  "provides" : {
+    "XML::Class" : "lib/XML/Class.pm"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "XML",
+    "object",
+    "role",
+    "framework"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.5",
+  "description" : "Role to Serialize/De-Serialize a Perl 6 class to/from XML",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.com.uk>"
+  ]
+}
+,
+{
+  "name" : "Scientist",
+  "source-url" : "git://github.com/lancew/ScientistP6.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "tags" : [
+    "utils",
+    "devel"
+  ],
+  "provides" : {
+    "Scientist" : "lib/Scientist.pm"
+  },
+  "license" : "MIT",
+  "version" : "0.0.2",
+  "authors" : [
+    "Lance Wicks"
+  ],
+  "description" : "Perl 6 Scientist - Test new code against old."
+}
+,
+{
+  "name" : "Util::Bitfield",
+  "perl" : "6.c",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Util-Bitfield.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Util-Bitfield/issues"
+  },
+  "source-url" : "git://github.com/jonathanstowe/Util-Bitfield.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "provides" : {
+    "Util::Bitfield" : "lib/Util/Bitfield.pm"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "util",
+    "bit",
+    "bitfield"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.3",
+  "description" : "Utility subroutines for working with bitfields",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
 }
 ,
 {
@@ -12244,6 +12686,66 @@
 }
 ,
 {
+  "name" : "Audio::PortAudio",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "git://github.com/Perl6-Noise-Gang/Audio-PortAudio.git"
+  },
+  "source-url" : "git://github.com/Perl6-Noise-Gang/Audio-PortAudio.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:Perl6-Noise-Gang",
+  "depends" : [ ],
+  "provides" : {
+    "Audio::PortAudio" : "lib/Audio/PortAudio.pm"
+  },
+  "test-depends" : [
+    "LibraryCheck"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "audio",
+    "portaudio",
+    "input",
+    "output"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.3",
+  "description" : "Access to audio input and output devices",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Term::Choose::Util",
+  "source-url" : "git://github.com/kuerbis/Term-Choose-Util-p6.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Term::Choose",
+    "NCurses"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "cli",
+    "terminal"
+  ],
+  "provides" : {
+    "Term::Choose::Util" : "lib/Term/Choose/Util.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.1.1",
+  "description" : "CLI related functions.",
+  "authors" : [
+    "kuerbis"
+  ]
+}
+,
+{
   "name" : "Term::TablePrint",
   "source-url" : "git://github.com/kuerbis/Term-TablePrint-p6.git",
   "perl" : "6.c",
@@ -12272,6 +12774,162 @@
   "authors" : [
     "kuerbis"
   ]
+}
+,
+{
+  "name" : "DBDish::ODBC",
+  "support" : {
+    "email" : "sog@msg.com.mx",
+    "source" : "https://github.com/salortiz/DBDish-ODBC.git"
+  },
+  "source-url" : "git://github.com/salortiz/DBDish-ODBC.git",
+  "perl" : "6",
+  "licence" : "artistic_2",
+  "auth" : "github:salortiz",
+  "repo-type" : "git",
+  "depends" : [
+    "DBIish",
+    "NativeHelpers::Blob"
+  ],
+  "tags" : [
+    "DBIsh",
+    "DBDish",
+    "ODBC"
+  ],
+  "provides" : {
+    "DBDish::ODBC::StatementHandle" : "lib/DBDish/ODBC/StatementHandle.pm6",
+    "DBDish::ODBC::Native" : "lib/DBDish/ODBC/Native.pm6",
+    "DBDish::ODBC" : "lib/DBDish/ODBC.pm6",
+    "DBDish::ODBC::Connection" : "lib/DBDish/ODBC/Connection.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "authors" : "Salvador Ortiz <sortiz@cpan.com>",
+  "description" : "ODBC Database connectivity for Perl 6"
+}
+,
+{
+  "name" : "Acme::Skynet",
+  "source-url" : "git://github.com/kmwallio/Acme-Skynet.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [
+    "Lingua::EN::Stem::Porter"
+  ],
+  "provides" : {
+    "Acme::Skynet" : "lib/Acme/Skynet.pm6",
+    "Acme::Skynet::DumbDown" : "lib/Acme/Skynet/DumbDown.pm6",
+    "Acme::Skynet::ChainLabel" : "lib/Acme/Skynet/ChainLabel.pm6",
+    "Acme::Skynet::ID3" : "lib/Acme/Skynet/ID3.pm6"
+  },
+  "version" : "0.0.3",
+  "authors" : [
+    "KM Wallio"
+  ],
+  "description" : "Machine Learnings for your Perls6."
+}
+,
+{
+  "name" : "Audio::PortMIDI",
+  "perl" : "6.c",
+  "support" : {
+    "irc" : "irc://irc.freenode.net/perl6-noise-gang",
+    "source" : "git://github.com/Perl6-Noise-Gang/Audio-PortMIDI.git"
+  },
+  "source-url" : "git://github.com/Perl6-Noise-Gang/Audio-PortMIDI.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:Perl6-Noise-Gang",
+  "depends" : [
+    "Util::Bitfield"
+  ],
+  "provides" : {
+    "Audio::PortMIDI" : "lib/Audio/PortMIDI.pm"
+  },
+  "test-depends" : [
+    "LibraryCheck"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "MIDI",
+    "audio",
+    "music",
+    "sequencer",
+    "noise-gang"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.9",
+  "description" : "Perl6 MIDI access using the portmidi library",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>",
+    "Pepe Schwarz <peschwa@gmail.com>"
+  ]
+}
+,
+{
+  "name" : "Algorithm::Kruskal",
+  "source-url" : "git://github.com/titsuki/p6-Algorithm-Kruskal.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Algorithm::SetUnion",
+    "Algorithm::MinMaxHeap"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::Kruskal" : "lib/Algorithm/Kruskal.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "*",
+  "description" : "a perl6 implementation of Kruskal's Algorithm for constructing a spanning subtree of minimum length",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
+  "name" : "Perl6 Snowball Binding",
+  "source-url" : "git://github.com/sufrostico/perl6-snowball.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "author" : "Aurelio Sanabria (Sufrostico) <sufrostico at gmail dot com>",
+  "depends" : [ ],
+  "provides" : {
+    "Lingua::Stem::Snowball" : "lib/Lingua/Stem/Snowball.pm6"
+  },
+  "version" : "0.3",
+  "description" : "Perl 6 binding to the 'Snowball compiler and stemming algorithms' http://snowballstem.org/"
+}
+,
+{
+  "name" : "flow",
+  "source-url" : "git://github.com/tony-o/perl6-flow.git",
+  "perl" : "6.c",
+  "support" : {
+    "bugtracker" : "https://github.com/tony-o/perl6-flow/issues"
+  },
+  "auth" : "github:tony-o",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "Flow::Utils::Cursor" : "lib/Flow/Utils/Cursor.pm6",
+    "Flow::App" : "lib/Flow/App.pm6",
+    "Flow::Plugins::Interface" : "lib/Flow/Plugins/Interface.pm6",
+    "Flow::Test" : "lib/Flow/Test.pm6",
+    "Flow::Roles" : "lib/Flow/Roles.pm6",
+    "Flow::Plugins::TAP" : "lib/Flow/Plugins/TAP.pm6",
+    "Flow::Config" : "lib/Flow/Config.pm6",
+    "Flow" : "lib/Flow.pm6"
+  },
+  "version" : "v0.0.5",
+  "authors" : [
+    "Tony O'Dell"
+  ],
+  "description" : "a 'prove' replacement written entirely in the perl6 you know and love."
 }
 ,
 {
@@ -12312,6 +12970,24 @@
 }
 ,
 {
+  "name" : "Lingua::EN::Stopwords",
+  "source-url" : "git://github.com/kmwallio/p6-Lingua-EN-Stopwords.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "Lingua::EN::Stopwords::SQL" : "lib/Lingua/EN/Stopwords/SQL.pm6",
+    "Lingua::EN::Stopwords::Short" : "lib/Lingua/EN/Stopwords/Short.pm6",
+    "Lingua::EN::Stopwords::Long" : "lib/Lingua/EN/Stopwords/Long.pm6"
+  },
+  "version" : "0.0.2",
+  "authors" : [
+    "KM Wallio"
+  ],
+  "description" : "Provides lists and functions for common English stop words."
+}
+,
+{
   "name" : "Text::TFIdf",
   "source-url" : "git://github.com/kmwallio/p6-Text-TFIdf.git",
   "perl" : "6.*",
@@ -12327,6 +13003,29 @@
     "KM Wallio"
   ],
   "description" : "Helps calculate TF-IDF values from a given set of documents."
+}
+,
+{
+  "name" : "Docker::File",
+  "perl" : "6.c",
+  "source-url" : "git://github.com/jnthn/p6-docker-file.git",
+  "support" : {
+    "source" : "git://github.com/jnthn/p6-docker-file.git"
+  },
+  "build-depends" : [ ],
+  "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+  "auth" : "github:jnthn",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Docker::File" : "lib/Docker/File.pm6"
+  },
+  "tags" : [
+    "docker",
+    "dockerfile"
+  ],
+  "version" : "1.0",
+  "description" : "Parsing and generation of Dockerfiles."
 }
 ,
 {
@@ -12416,6 +13115,55 @@
   "description" : "Render text template with embedded variables and Perl6 code",
   "authors" : [
     "Nadim Khemir"
+  ]
+}
+,
+{
+  "name" : "wig",
+  "source-url" : "git://github.com/0racle/p6-wig.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "wig" : "lib/wig.pm"
+  },
+  "version" : "0.2.0",
+  "authors" : [
+    "Joshua Yeshouroun"
+  ],
+  "description" : "where is grep: Make grep prettier, put a wig on it!"
+}
+,
+{
+  "name" : "Time::Crontab",
+  "source-url" : "https://github.com/ufobat/p6-time-crontab.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Test::META"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Cron",
+    "Crontab",
+    "Time",
+    "Parsing",
+    "Linux",
+    "Unix",
+    "Date"
+  ],
+  "provides" : {
+    "Time::Crontab::Set" : "lib/Time/Crontab/Set.pm6",
+    "Time::Crontab::Actions" : "lib/Time/Crontab/Actions.pm6",
+    "Time::Crontab" : "lib/Time/Crontab.pm6",
+    "Time::Crontab::Grammar" : "lib/Time/Crontab/Grammar.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "Time::Crontab for Perl6 - Parses Crontab Specifications",
+  "authors" : [
+    "Martin Barth <martin@senfdax.de>"
   ]
 }
 ,
@@ -12565,6 +13313,102 @@
 }
 ,
 {
+  "name" : "Twitter",
+  "source-url" : "git://github.com/zoffixznet/perl6-Twitter.git",
+  "perl" : "6.c",
+  "depends" : [
+    "HTTP::Tinyish",
+    "JSON::Fast",
+    "URI::Escape",
+    "Base64",
+    "Digest::SHA",
+    "Digest::HMAC",
+    "URI",
+    "URI::Escape",
+    "Subset::Helper"
+  ],
+  "provides" : {
+    "Twitter::API::TrendsAvailable" : "lib/Twitter/API/TrendsAvailable.pm6",
+    "Twitter::API::Favorites" : "lib/Twitter/API/Favorites.pm6",
+    "Twitter::API::AccountCredentials" : "lib/Twitter/API/AccountCredentials.pm6",
+    "Twitter::UA" : "lib/Twitter/UA.pm6",
+    "Twitter::API::TrendsPlace" : "lib/Twitter/API/TrendsPlace.pm6",
+    "Twitter::API::DMReceived" : "lib/Twitter/API/DMReceived.pm6",
+    "Twitter::API::Search" : "lib/Twitter/API/Search.pm6",
+    "Twitter::API::DirectMessages" : "lib/Twitter/API/DirectMessages.pm6",
+    "Twitter::API::DMSent" : "lib/Twitter/API/DMSent.pm6",
+    "Twitter::API::Statuses" : "lib/Twitter/API/Statuses.pm6",
+    "Twitter" : "lib/Twitter.pm6",
+    "Twitter::API::ApplicationRateLimit" : "lib/Twitter/API/ApplicationRateLimit.pm6",
+    "Twitter::API::FavoritesList" : "lib/Twitter/API/FavoritesList.pm6",
+    "Twitter::OAuth" : "lib/Twitter/OAuth.pm6",
+    "Twitter::API::AccountSettings" : "lib/Twitter/API/AccountSettings.pm6",
+    "Twitter::API" : "lib/Twitter/API.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.004003",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Twitter API"
+}
+,
+{
+  "name" : "NASA",
+  "source-url" : "git://github.com/zoffixznet/perl6-NASA.git",
+  "perl" : "6.c",
+  "depends" : [
+    "HTTP::Tinyish",
+    "JSON::Fast",
+    "URI::Escape",
+    "Subset::Helper"
+  ],
+  "provides" : {
+    "NASA::UA" : "lib/NASA/UA.pm6",
+    "NASA::APOD" : "lib/NASA/APOD.pm6",
+    "NASA::MarsRovers" : "lib/NASA/MarsRovers.pm6",
+    "NASA" : "lib/NASA.pm6",
+    "NASA::MarsRovers::Rover" : "lib/NASA/MarsRovers/Rover.pm6"
+  },
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001002",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "use NASA's APIs via Perl 6"
+}
+,
+{
+  "name" : "Rabble",
+  "perl" : "6.c",
+  "source-url" : "git://github.com/madcapjake/rabble.git",
+  "provides" : {
+    "Rabble::Verbs::IO" : "lib/Rabble/Verbs/IO.pm6",
+    "Rabble::Verbs::Comparators" : "lib/Rabble/Verbs/Comparators.pm6",
+    "Rabble::Math::Arithmetic" : "lib/Rabble/Math/Arithmetic",
+    "Rabble::Verbs::StackOps" : "lib/Rabble/Verbs/StackOps.pm6",
+    "Rabble::Reader" : "lib/Rabble/Reader.pm6",
+    "Rabble::Lexicon" : "lib/Rabble/Lexicon.pm6",
+    "Rabble::Verbs::Shufflers" : "lib/Rabble/Verbs/Shufflers.pm6",
+    "Rabble::Compiler" : "lib/Rabble/Compiler.pm6",
+    "rabble" : "bin/rabble",
+    "Rabble" : "lib/Rabble.pm6"
+  },
+  "version" : "0.3.1",
+  "authors" : [
+    "Jake Russo <madcap.russo+rabble@gmail.com>"
+  ],
+  "description" : "A Forth written in Perl 6"
+}
+,
+{
   "name" : "Crypt::Random",
   "source-url" : "git://github.com/skinkade/crypt-random.git",
   "perl" : "6.*",
@@ -12634,6 +13478,27 @@
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ]
+}
+,
+{
+  "name" : "deredere",
+  "source-url" : "git://github.com/Altai-man/deredere.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "author" : "github:Altai-man",
+  "depends" : [
+    "HTTP::UserAgent",
+    "Gumbo"
+  ],
+  "provides" : {
+    "deredere" : "lib/deredere.pm6"
+  },
+  "tags" : [
+    "Web"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "Simple scraping framework"
 }
 ,
 {
@@ -12751,6 +13616,26 @@
 }
 ,
 {
+  "name" : "Subset::Helper",
+  "source-url" : "git://github.com/zoffixznet/perl6-Subset-Helper.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Subset::Helper" : "lib/Subset/Helper.pm6"
+  },
+  "test-depends" : [
+    "Test",
+    "Test::Output"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001001",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "create awesome subsets"
+}
+,
+{
   "name" : "Crypt::Argon2",
   "source-url" : "git://github.com/skinkade/p6-crypt-argon2.git",
   "perl" : "6.*",
@@ -12768,6 +13653,27 @@
   },
   "version" : "0.2.1",
   "description" : "Easy Argon2i password hashing"
+}
+,
+{
+  "name" : "App::Whiff",
+  "source-url" : "git://github.com/Altai-man/perl6-app-whiff.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "author" : "github:Altai-man",
+  "depends" : [
+    "File::Which"
+  ],
+  "provides" : {
+    "App::Whiff" : "lib/App/Whiff.pm6"
+  },
+  "tags" : [
+    "Utils",
+    "Admin"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "Port of perl whiff"
 }
 ,
 {
@@ -12796,6 +13702,76 @@
     "Jake Russo"
   ],
   "description" : "wrapper for MyHTML, a fast HTML parsing C library"
+}
+,
+{
+  "name" : "Module::Toolkit",
+  "support" : {
+    "source" : "git://github.com/tadzik/Module-Toolkit.git",
+    "bugtracker" : "https://github.com/tadzik/Module-Toolkit/issues"
+  },
+  "source-url" : "git://github.com/tadzik/Module-Toolkit.git",
+  "perl" : "6.c",
+  "depends" : [
+    "File::Find",
+    "Shell::Command",
+    "JSON::Fast",
+    "TAP::Harness"
+  ],
+  "provides" : {
+    "Module::Toolkit" : "lib/Module/Toolkit.pm",
+    "Module::Toolkit::Fetcher" : "lib/Module/Toolkit/Fetcher.pm",
+    "Module::Toolkit::Installer" : "lib/Module/Toolkit/Installer.pm",
+    "Module::Toolkit::Distribution" : "lib/Module/Toolkit/Distribution.pm",
+    "Module::Toolkit::Ecosystem" : "lib/Module/Toolkit/Ecosystem.pm"
+  },
+  "version" : "0.7",
+  "authors" : [
+    "Tadeusz \u201ctadzik\u201d So\u015bnierz"
+  ],
+  "description" : "Module management tools"
+}
+,
+{
+  "name" : "Getopt::Type",
+  "support" : {
+    "source" : "git://github.com/tadzik/Getopt-Type.git",
+    "bugtracker" : "https://github.com/tadzik/Getopt-Type/issues"
+  },
+  "source-url" : "git://github.com/tadzik/Getopt-Type.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Getopt::Type" : "lib/Getopt/Type.pm"
+  },
+  "version" : "0.1",
+  "authors" : [
+    "Tadeusz \u201ctadzik\u201d So\u015bnierz"
+  ],
+  "description" : "MAIN? Getopt semantics? Why not both?"
+}
+,
+{
+  "name" : "App::redpanda",
+  "support" : {
+    "source" : "git://github.com/tadzik/App-redpanda.git",
+    "bugtracker" : "https://github.com/tadzik/App-redpanda/issues"
+  },
+  "source-url" : "git://github.com/tadzik/App-redpanda.git",
+  "perl" : "6.c",
+  "depends" : [
+    "Module::Toolkit",
+    "Shell::Command",
+    "File::Temp",
+    "JSON::Fast",
+    "Getopt::Type"
+  ],
+  "provides" : { },
+  "version" : "0.1",
+  "authors" : [
+    "Tadeusz \u201ctadzik\u201d So\u015bnierz"
+  ],
+  "description" : "A tiny module installer"
 }
 ,
 {
@@ -12835,6 +13811,94 @@
   "license" : "Artistic-2.0",
   "version" : "0.1",
   "description" : "MoarVM heap snapshot analysis tool"
+}
+,
+{
+  "name" : "TXN::Parser",
+  "support" : {
+    "source" : "https://github.com/atweiden/txn-parser",
+    "bugtracker" : "https://github.com/atweiden/txn-parser/issues"
+  },
+  "source-url" : "git://github.com/atweiden/txn-parser.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "author" : "atweiden",
+  "depends" : [
+    "Digest::xxHash"
+  ],
+  "provides" : {
+    "TXN::Parser" : "lib/TXN/Parser.pm6",
+    "TXN::Parser::Actions" : "lib/TXN/Parser/Actions.pm6",
+    "X::TXN::Parser" : "lib/X/TXN/Parser.pm6",
+    "TXN::Parser::Types" : "lib/TXN/Parser/Types.pm6",
+    "TXN::Parser::ParseTree" : "lib/TXN/Parser/ParseTree.pm6",
+    "TXN::Parser::Grammar" : "lib/TXN/Parser/Grammar.pm6"
+  },
+  "license" : "Unlicense",
+  "version" : "0.1.0",
+  "description" : "Double-entry accounting ledger parser"
+}
+,
+{
+  "name" : "App::ModuleSnap",
+  "perl" : "6.c",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/App-ModuleSnap.git",
+    "bugtracker" : "https://github.com/jonathanstowe/App-ModuleSnap/issues"
+  },
+  "source-url" : "git://github.com/jonathanstowe/App-ModuleSnap.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Fast",
+    "META6"
+  ],
+  "provides" : {
+    "App::ModuleSnap" : "lib/App/ModuleSnap.pm"
+  },
+  "test-depends" : [
+    "JSON::Fast"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "package",
+    "snapshot",
+    "utility"
+  ],
+  "version" : "0.0.10",
+  "meta6" : "0",
+  "description" : "Take a snapshot of the installed modules for later reinstallation",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Audio::OggVorbis",
+  "source-url" : "git://github.com/Xliff/p6-audio-oggvorbis.git",
+  "perl" : "6.c",
+  "build-depends" : [ ],
+  "depends" : [
+    "ogg:from<native>",
+    "vorbis:from<native>",
+    "vorbisenc:from<native>"
+  ],
+  "provides" : {
+    "Audio::OggVorbis::Ogg" : "lib/Audio/OggVorbis/Ogg.pm",
+    "Audio::OggVorbis::Vorbis" : "lib/Audio/OggVorbis/Vorbis.pm",
+    "Audio::OggVorbis::VorbisEnc" : "lib/Audio/OggVorbis/VorbisEnc.pm"
+  },
+  "test-depends" : [
+    "Test::META"
+  ],
+  "version" : "0.0.1",
+  "description" : "Perl6 bindings for libogg, libvorbis and libvorbisenc",
+  "authors" : [
+    "github:Xliff",
+    "Clifton Wood"
+  ]
 }
 ,
 {
@@ -12878,6 +13942,122 @@
   ],
   "meta6" : "0",
   "description" : "META distribution to install all the noise related modules known to the Perl 6 Noise Gang"
+}
+,
+{
+  "name" : "JsonC",
+  "support" : {
+    "email" : "sog@msg.com.mx",
+    "source" : [
+      "git://github.com/salortiz/JsonC.git",
+      "https://github.com/salortiz/JsonC.git"
+    ]
+  },
+  "source-url" : "git://github.com/salortiz/JsonC.git",
+  "perl" : "6.c",
+  "licence" : "artistic_2",
+  "build-depends" : [ ],
+  "auth" : "github:salortiz",
+  "repo-type" : "git",
+  "depends" : [
+    "NativeLibs"
+  ],
+  "tags" : [
+    "kv",
+    "json-c"
+  ],
+  "provides" : {
+    "JsonC" : "lib/JsonC.pm6"
+  },
+  "test-depends" : [ ],
+  "version" : "0.0.3",
+  "authors" : "Salvador Ortiz <sortiz@cpan.com>",
+  "description" : "Native bindings for JSON-C library"
+}
+,
+{
+  "name" : "Audio::Fingerprint::Chromaprint",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git"
+  },
+  "source-url" : "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "NativeHelpers::Array"
+  ],
+  "provides" : {
+    "Audio::Fingerprint::Chromaprint" : "lib/Audio/Fingerprint/Chromaprint.pm"
+  },
+  "test-depends" : [
+    "Test::META",
+    "Audio::Sndfile"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "audio",
+    "fingerprint",
+    "acoustid",
+    "noise-gang"
+  ],
+  "version" : "0.0.1",
+  "meta6" : "0",
+  "description" : "Get audio fingerprint using the chromaprint / AcoustID library",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "App::AizuOnlineJudge",
+  "source-url" : "git://github.com/titsuki/p6-App-AizuOnlineJudge.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "URI",
+    "XML",
+    "HTTP::UserAgent"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "App::AizuOnlineJudge::Submittable" : "lib/App/AizuOnlineJudge/Submittable.pm6",
+    "App::AizuOnlineJudge::IntroductionCourse" : "lib/App/AizuOnlineJudge/IntroductionCourse.pm6",
+    "App::AizuOnlineJudge::BasicCourse" : "lib/App/AizuOnlineJudge/BasicCourse.pm6",
+    "App::AizuOnlineJudge" : "lib/App/AizuOnlineJudge.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.001001",
+  "description" : "a perl6 implementation of the unofficial code submitter for Aizu Online Judge( http://judge.u-aizu.ac.jp/onlinejudge/index.jsp ).",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
+  "name" : "Terminal::Readsecret",
+  "source-url" : "git://github.com/titsuki/p6-Terminal-Readsecret.git",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/readsecret"
+  ],
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Terminal::Readsecret" : "lib/Terminal/Readsecret.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "A perl6 binding of readsecret ( https://github.com/dmeranda/readsecret ) for reading secrets or passwords from a command line secretly (not being displayed)",
+  "authors" : [
+    "titsuki"
+  ]
 }
 ,
 {
@@ -12997,6 +14177,22 @@
 }
 ,
 {
+  "name" : "Text::Diff::Sift4",
+  "perl" : "6.c",
+  "source-url" : "git://github.com/masterduke17/text-diff-sift4.git",
+  "depends" : [ ],
+  "provides" : {
+    "Text::Diff::Sift4" : "lib/Text/Diff/Sift4.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.4.0",
+  "authors" : [
+    "Daniel Green"
+  ],
+  "description" : "A quick string distance algorithm"
+}
+,
+{
   "name" : "Acme::Anguish",
   "support" : {
     "source" : "git://github.com/zoffixznet/perl6-Acme-Anguish.git"
@@ -13056,6 +14252,35 @@
 }
 ,
 {
+  "name" : "Getopt::Kinoko",
+  "support" : {
+    "source" : "https://github.com/araraloren/Getopt-Kinoko/tree/v0.3.5",
+    "bugtracker" : "https://github.com/araraloren/Getopt-Kinoko/issues"
+  },
+  "source-url" : "https://github.com/araraloren/Getopt-Kinoko/archive/v0.3.5.zip",
+  "perl" : "6.c",
+  "auth" : "github:araraloren",
+  "depends" : [
+    "Terminal::Table"
+  ],
+  "provides" : {
+    "Getopt::Kinoko::NonOption" : "lib/Getopt/Kinoko/NonOption.pm6",
+    "Getopt::Kinoko::OptionSet" : "lib/Getopt/Kinoko/OptionSet.pm6",
+    "Getopt::Kinoko" : "lib/Getopt/Kinoko.pm6",
+    "Getopt::Kinoko::Group" : "lib/Getopt/Kinoko/Group.pm6",
+    "Getopt::Kinoko::DeepClone" : "lib/Getopt/Kinoko/DeepClone.pm6",
+    "Getopt::Kinoko::Option" : "lib/Getopt/Kinoko/Option.pm6",
+    "Getopt::Kinoko::Argument" : "lib/Getopt/Kinoko/Argument.pm6",
+    "Getopt::Kinoko::Parser" : "lib/Getopt/Kinoko/Parser.pm6",
+    "Getopt::Kinoko::Exception" : "lib/Getopt/Kinoko/Exception.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.3.5",
+  "authors" : "Loren",
+  "description" : "A command line parsing tool which written in Perl6"
+}
+,
+{
   "name" : "Test::When",
   "source-url" : "git://github.com/zoffixznet/perl6-Test-When.git",
   "perl" : "6.c",
@@ -13072,6 +14297,58 @@
     "Zoffix Znet"
   ],
   "description" : "Selectively run tests based on the environment and installed modules and libs"
+}
+,
+{
+  "name" : "Path::Map",
+  "source-url" : "git://github.com/fjwhittle/p6-Path-Map.git",
+  "perl" : "6.c",
+  "auth" : "github:fjwhittle",
+  "depends" : [ ],
+  "provides" : {
+    "Path::Map" : "lib/Path/Map.pm6"
+  },
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "version" : "0.3",
+  "description" : "Hash tree based path router"
+}
+,
+{
+  "name" : "Weather",
+  "source-url" : "git://github.com/palapitta/Weather",
+  "depends" : [
+    "JSON::Fast",
+    "Net::HTTP::GET"
+  ],
+  "provides" : {
+    "Weather" : "lib/Weather.pm6"
+  },
+  "version" : "0.2.1",
+  "authors" : [
+    "Rajkumar Reddy"
+  ],
+  "description" : "Get Weather info"
+}
+,
+{
+  "name" : "Terminal::Width",
+  "source-url" : "git://github.com/zoffixznet/perl6-Terminal-Width.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Terminal::Width" : "lib/Terminal/Width.pm6"
+  },
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001001",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Get the current width of the terminal"
 }
 ,
 {
@@ -13110,6 +14387,96 @@
 }
 ,
 {
+  "name" : "Algorithm::Tarjan",
+  "source-url" : "git://github.com/finanalyst/p6-Algorithm-Tarjan.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "license" : "Artistic",
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "Algorithm::Tarjan" : "lib/Algorithm/Tarjan.pm6"
+  },
+  "version" : "0.01",
+  "description" : "Find cycles in a directed graph using Tarjan's strongly connected component algorithm",
+  "authors" : [
+    "Richard Hainsworth aka finanalyst"
+  ]
+}
+,
+{
+  "name" : "Movieinfo",
+  "source-url" : "git://github.com/palapitta/Movieinfo",
+  "depends" : [
+    "JSON::Fast",
+    "Net::HTTP::GET"
+  ],
+  "provides" : {
+    "Movieinfo" : "lib/Movieinfo.pm6"
+  },
+  "version" : "0.1.2",
+  "authors" : [
+    "Rajkumar Reddy"
+  ],
+  "description" : "Get Movie Info"
+}
+,
+{
+  "name" : "IO::TailFile",
+  "source-url" : "git://github.com/skaji/perl6-tail.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "IO::TailFile" : "lib/IO/TailFile.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "*",
+  "description" : "emulation of tail -f",
+  "authors" : [
+    "Shoichi Kaji"
+  ]
+}
+,
+{
+  "name" : "Hashids",
+  "support" : {
+    "source" : "https://github.com/kalkin/perl6-hashids.git",
+    "license" : "http://www.opensource.org/licenses/mit-license.php",
+    "bugtracker" : "https://github.com/kalkin/perl6-hashids/issues"
+  },
+  "source-url" : "https://github.com/kalkin/perl6-hashids.git",
+  "perl" : "6.c",
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [
+    "hashids",
+    "hashid",
+    "hash",
+    "id",
+    "short hash",
+    "youtube hash",
+    "bitly hash"
+  ],
+  "provides" : {
+    "Hashids" : "lib/Hashids.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.1",
+  "description" : "Hashids \u2014 generate short and reversable hashes from numbers.",
+  "authors" : [
+    "Bahtiar `kalkin-` Gadimov"
+  ]
+}
+,
+{
   "name" : "WWW::DuckDuckGo",
   "source-url" : "git://github.com/Altai-man/p6-WWW-DuckDuckGo.git",
   "perl" : "6.*",
@@ -13133,6 +14500,54 @@
   "license" : "Artistic-2.0",
   "version" : "0.1.0",
   "description" : "Bindings to DuckDuckGo search API"
+}
+,
+{
+  "name" : "Bencode",
+  "source-url" : "git://github.com/palapitta/Bencode",
+  "provides" : {
+    "Bencode" : "lib/Bencode.pm6"
+  },
+  "version" : "0.1.1",
+  "authors" : [
+    "Rajkumar Reddy"
+  ],
+  "description" : "Encode and Decode Bencoding strings"
+}
+,
+{
+  "name" : "Config::Netrc",
+  "source-url" : "git://github.com/Altai-man/perl6-Config-Netrc.git",
+  "support" : {
+    "bugtracker" : "https://github.com/Altai-man/perl6-Config-Netrc/issues"
+  },
+  "perl" : "6.*",
+  "author" : "github:Altai-man",
+  "depends" : [ ],
+  "provides" : {
+    "Config::Netrc" : "lib/Config/Netrc.pm6",
+    "Config::Netrc::Writer" : "lib/Config/Netrc/Writer.pm6"
+  },
+  "tags" : [
+    "Grammar",
+    "Config"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.0",
+  "description" : ".netrc file parser module for Perl 6"
+}
+,
+{
+  "name" : "Slang::Mosdef",
+  "source-url" : "git://github.com/bduggan/mosdef.git",
+  "perl" : "6.*",
+  "author" : "github:bduggan",
+  "depends" : [ ],
+  "provides" : {
+    "Slang::Mosdef" : "lib/Slang/Mosdef.pm"
+  },
+  "version" : "0.0.1",
+  "description" : "Use def and \u03bb as declarators."
 }
 ,
 {
@@ -13167,6 +14582,21 @@
   "license" : "Artistic-2.0",
   "version" : "0.1",
   "description" : "Perl 6 port of Perl's Text::Tabs"
+}
+,
+{
+  "name" : "TinyID",
+  "source-url" : "git://github.com/bbkr/TinyID.git",
+  "perl" : "6.c",
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "TinyID" : "lib/TinyID.pm"
+  },
+  "version" : "1.0.0",
+  "authors" : [
+    "Pawe\u0142 bbkr Pabian"
+  ],
+  "description" : "Shorten and obfuscate IDs."
 }
 ,
 {
@@ -13215,6 +14645,82 @@
   "license" : "Unlicense",
   "version" : "0.2.0",
   "description" : "Check permissions of potentially nonexistent files"
+}
+,
+{
+  "name" : "Operator::defined-alternation",
+  "source-url" : "git://github.com/gfldex/perl6-operator-defined-alternation.git",
+  "support" : {
+    "source" : "https://github.com/gfldex/perl6-operator-defined-alternation"
+  },
+  "perl" : "6.*",
+  "source-type" : "git",
+  "depends" : [
+    "Test::META"
+  ],
+  "provides" : {
+    "Operator::defined-alternation" : "lib/Operator/defined-alternation.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Provides a ?? !! equivalent that tests for definedness instread of trueness.",
+  "authors" : [
+    "Wenzel P. P. Peppmeyer"
+  ]
+}
+,
+{
+  "name" : "Test::NoTabs",
+  "source-url" : "git://github.com/Altai-man/perl6-Test-NoTabs.git",
+  "support" : {
+    "bugtracker" : "https://github.com/Altai-man/perl6-Test-NoTabs/issues"
+  },
+  "perl" : "6.*",
+  "author" : "github:Altai-man",
+  "depends" : [
+    "File::Find"
+  ],
+  "provides" : {
+    "Test::NoTabs" : "lib/Test/NoTabs.pm6"
+  },
+  "tags" : [
+    "Testing"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.1",
+  "description" : "Test module for tabs checking"
+}
+,
+{
+  "name" : "RT::REST::Client",
+  "support" : {
+    "source" : "git://github.com/zoffixznet/perl6-RT-REST-Client.git"
+  },
+  "perl" : "6.c",
+  "depends" : [
+    "IO::Socket::SSL",
+    "HTTP::UserAgent",
+    "URI",
+    "URI::Escape"
+  ],
+  "provides" : {
+    "RT::REST::Client::Grammar" : "lib/RT/REST/Client/Grammar.pm6",
+    "RT::REST::Client::Grammar::Actions::Tickets" : "lib/RT/REST/Client/Grammar/Actions.pm6",
+    "RT::REST::Client::Grammar::Actions" : "lib/RT/REST/Client/Grammar/Actions.pm6",
+    "RT::REST::Client::Grammar::Tickets" : "lib/RT/REST/Client/Grammar.pm6",
+    "RT::REST::Client::Ticket" : "lib/RT/REST/Client/Grammar/Actions.pm6",
+    "RT::REST::Client" : "lib/RT/REST/Client.pm6"
+  },
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001003",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Use Request Tracker's (RT) REST client interface"
 }
 ,
 {
@@ -13291,6 +14797,47 @@
 }
 ,
 {
+  "name" : "Test::Deeply::Relaxed",
+  "source-url" : "https://github.com/ppentchev/perl6-Test-Deeply-Relaxed.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "provides" : {
+    "Test::Deeply::Relaxed" : "lib/Test/Deeply/Relaxed.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.1",
+  "authors" : [
+    "Peter Pentchev"
+  ],
+  "description" : "Compare two complex data structures loosely"
+}
+,
+{
+  "name" : "Getopt::Std",
+  "source-url" : "https://github.com/ppentchev/perl6-Getopt-Std.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::Deeply::Relaxed",
+    "Test::META"
+  ],
+  "provides" : {
+    "Getopt::Std" : "lib/Getopt/Std.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0.1",
+  "authors" : [
+    "Peter Pentchev"
+  ],
+  "description" : "Process single-character options with option clustering"
+}
+,
+{
   "name" : "Math::Arrow",
   "source-url" : "git://github.com/ajs/perl6-Math-Arrow",
   "perl" : "6.c",
@@ -13302,6 +14849,29 @@
   "license" : "Artistic-2.0",
   "version" : "0.1.0",
   "description" : "Knuth arrow notation in Perl 6"
+}
+,
+{
+  "name" : "CoreHackers::Sourcery",
+  "support" : {
+    "source" : "git://github.com/zoffixznet/perl6-CoreHackers-Sourcery.git"
+  },
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "CoreHackers::Sourcery" : "lib/CoreHackers/Sourcery.pm6"
+  },
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "2.001005",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Helper for showing actual source code locations of core subs and methods"
 }
 ,
 {
@@ -13341,6 +14911,48 @@
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ]
+}
+,
+{
+  "name" : "MetaCPAN::Favorite",
+  "source-url" : "git://github.com/skaji/perl6-MetaCPAN-Favorite.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "HTTP::Tinyish",
+    "JSON::Tiny"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "MetaCPAN::Favorite" : "lib/MetaCPAN/Favorite.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "*",
+  "description" : "consume MetaCPAN recent favorite",
+  "authors" : [
+    "Shoichi Kaji"
+  ]
+}
+,
+{
+  "name" : "HTTP::HPACK",
+  "support" : {
+    "source" : "git://github.com/jnthn/p6-http-hpack.git"
+  },
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "HTTP::HPACK" : "lib/HTTP/HPACK.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "version" : "0.9.2",
+  "authors" : [
+    "Jonathan Worthington"
+  ],
+  "description" : "Implementation of RFC 7541 HPACK: Header Compression for HTTP/2"
 }
 ,
 {
@@ -13404,6 +15016,65 @@
     "Alexey Melezhik"
   ],
   "description" : "Sparrowdo module to install Nginx web server"
+}
+,
+{
+  "name" : "Sparrowdo::Sparrow::Update",
+  "source-url" : "https://github.com/melezhik/sparrowdo-sparrow-update.git",
+  "support" : {
+    "source" : "https://github.com/melezhik/sparrowdo-sparrow-update.git",
+    "bugtracker" : "https://github.com/melezhik/sparrowdo-sparrow-update/issues"
+  },
+  "perl" : "6.*",
+  "source-type" : "git",
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "provides" : {
+    "Sparrowdo::Sparrow::Update" : "lib/Sparrowdo/Sparrow/Update.pm6"
+  },
+  "version" : "0.0.1",
+  "authors" : [
+    "Alexey Melezhik"
+  ],
+  "description" : "Sparrowdo module to install/update Sparrow toolchain on target host"
+}
+,
+{
+  "name" : "Printer::ESCPOS",
+  "perl" : "6",
+  "source-url" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS.git",
+  "support" : {
+    "source" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS.git",
+    "bugtracker" : "git://github.com/shantanubhadoria/p6-Printer-ESCPOS/issues"
+  },
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Shantanu Bhadoria <shantanu@cpan.org>",
+  "auth" : "github:shantanubhadoria",
+  "depends" : [ ],
+  "license" : "Artistic",
+  "tags" : [
+    "Printer",
+    "ESCPOS",
+    "Receipt",
+    "Thermal",
+    "ESC/P",
+    "EPSON"
+  ],
+  "provides" : {
+    "Printer::ESCPOS::Network" : "lib/Printer/ESCPOS/Network.pm6",
+    "Printer::ESCPOS::Network::Async" : "lib/Printer/ESCPOS/Network/Async.pm6",
+    "Printer::ESCPOS" : "lib/Printer/ESCPOS.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "version" : "1.0.1",
+  "authors" : [
+    "Shantanu Bhadoria <shantanu@cpan.org>"
+  ],
+  "description" : "Interface to ESCPOS printers"
 }
 ,
 {
@@ -13558,6 +15229,26 @@
 }
 ,
 {
+  "name" : "Math::Sequences",
+  "source-url" : "git@github.com:ajs/perl6-Math-Sequences.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "Test::META"
+  ],
+  "provides" : {
+    "Math::Sequences::Real" : "lib/Math/Sequences/Real.pm",
+    "Math::Sequences::Integer" : "lib/Math/Sequences/Integer.pm"
+  },
+  "version" : "0.0.3",
+  "authors" : [
+    "Aaron Sherman",
+    "JJ Merelo"
+  ],
+  "description" : "Various mathematical sequences of moderate use"
+}
+,
+{
   "name" : "Numeric::Pack",
   "source-url" : "git://github.com/samgwise/p6-Numeric-Pack.git",
   "perl" : "6.c",
@@ -13581,6 +15272,21 @@
   "authors" : [
     "Sam Gillespie"
   ]
+}
+,
+{
+  "name" : "Binary::Structured",
+  "source-url" : "git://github.com/avuserow/perl6-binary-structured.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Binary::Structured" : "lib/Binary/Structured.pm6"
+  },
+  "version" : "0.0.2",
+  "authors" : [
+    "Adrian Kreher"
+  ],
+  "description" : "Read and write binary formats defined by classes"
 }
 ,
 {
@@ -13608,6 +15314,112 @@
 }
 ,
 {
+  "name" : "HTTP::Request::Supply",
+  "source-url" : "git://github.com/zostay/HTTP-Request-Supply.git",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "git://github.com/zostay/HTTP-Request-Supply.git"
+  },
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "license" : "Artistic-2.0",
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6"
+  },
+  "version" : "0.1.1",
+  "description" : "A modern HTTP request parser",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "meta6" : "0"
+}
+,
+{
+  "name" : "DispatchMap",
+  "source-url" : "git://github.com/LLFourn/p6-DispatchMap.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "DispatchMap" : "lib/DispatchMap.pm6"
+  },
+  "version" : "0.2.3",
+  "authors" : [
+    "Lloyd Fournier"
+  ],
+  "description" : "A map that uses Perl 6 multi dispatch to link keys to values"
+}
+,
+{
+  "name" : "X11::Xlib::Raw",
+  "source-url" : "git://github.com/slobo/Perl6-X11-Xlib-Raw.git",
+  "perl" : "6.*",
+  "repo-type" : "git",
+  "depends" : [
+    "NativeHelpers::Blob"
+  ],
+  "provides" : {
+    "X11::Xlib::Raw::keysym" : "lib/X11/Xlib/Raw/keysym.pm6",
+    "X11::Xlib::Raw::Xproto" : "lib/X11/Xlib/Raw/Xproto.pm6",
+    "X11::Xlib::Raw::X" : "lib/X11/Xlib/Raw/X.pm6",
+    "X11::Xlib::Raw" : "lib/X11/Xlib/Raw.pm6"
+  },
+  "license" : "Artistic-2.0 AND X11",
+  "version" : "*",
+  "description" : "Xlib binding using NativeCall"
+}
+,
+{
+  "name" : "IRC::Client::Plugin::UserPoints",
+  "source-url" : "https://github.com/jsimonet/IRC-Client-Plugin-UserPoints.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "PerlStore::FileStore",
+    "IRC::Client"
+  ],
+  "provides" : {
+    "IRC::Client::Plugin::UserPoints" : "lib/IRC/Client/Plugin/UserPoints.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.3",
+  "authors" : [
+    "Julien Simonet"
+  ],
+  "description" : "Plugin for counting user points."
+}
+,
+{
+  "name" : "Heap",
+  "source-url" : "git://github.com/FCO/Heap.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "Heap" : "lib/Heap.pm6"
+  },
+  "tags" : [
+    "heap",
+    "struct",
+    "data"
+  ],
+  "version" : "0.0.1",
+  "authors" : [
+    "Fernando Correa de Oliveira"
+  ],
+  "description" : "Simple Heap implementation"
+}
+,
+{
   "name" : "FileSystem::Capacity",
   "source-url" : "git@github.com:ramiroencinas/perl6-FileSystem-Capacity.git",
   "perl" : "6.c",
@@ -13630,6 +15442,123 @@
 }
 ,
 {
+  "name" : "Data::MessagePack",
+  "source-url" : "git@github.com:pierre-vigier/Perl6-Data-MessagePack.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Data::MessagePack::StreamingUnpacker" : "lib/Data/MessagePack/StreamingUnpacker.pm6",
+    "Data::MessagePack::Unpacker" : "lib/Data/MessagePack/Unpacker.pm6",
+    "Data::MessagePack" : "lib/Data/MessagePack.pm6",
+    "Data::MessagePack::Packer" : "lib/Data/MessagePack/Packer.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.2",
+  "description" : "Data::MessagePack",
+  "authors" : [
+    "github:pierre-vigier",
+    "github:timo"
+  ]
+}
+,
+{
+  "name" : "Geo::IP2Location::Lite",
+  "source-url" : "git://github.com/leejo/geo-ip2location-lite-p6",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "NativeCall"
+  ],
+  "provides" : {
+    "Geo::IP2Location::Lite" : "lib/Geo/IP2Location/Lite.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.10.0",
+  "authors" : [
+    "github:leejo"
+  ],
+  "description" : "Lightweight lookup of IPv4 address details using BIN files from http://www.ip2location.com"
+}
+,
+{
+  "name" : "Getopt::ForClass",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "git://github.com/zostay/p6-Getopt-ForClass.git"
+  },
+  "source-url" : "git://github.com/zostay/p6-Getopt-ForClass.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "provides" : {
+    "Getopt::ForClass" : "lib/Getopt/ForClass.pm6"
+  },
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [ ],
+  "meta-version" : "0",
+  "version" : "0.2",
+  "description" : "Use MAIN to dispatch to a class.",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "ProblemSolver",
+  "source-url" : "git://github.com/FCO/ProblemSolver.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "ProblemSolver" : "lib/ProblemSolver.pm6",
+    "ProblemSolver::State" : "lib/ProblemSolver/State.pm6",
+    "ProblemSolver::Domain" : "lib/ProblemSolver/Domain.pm6"
+  },
+  "tags" : [
+    "solver",
+    "constraint",
+    "problem"
+  ],
+  "version" : "0.0.1",
+  "authors" : [
+    "Fernando Correa de Oliveira"
+  ],
+  "description" : "Simple Constraint Programming Problem Solver"
+}
+,
+{
+  "name" : "Unicode::PRECIS",
+  "source-url" : "git://github.com/MARTIMM/unicode-precis.git",
+  "perl" : "6.c",
+  "author" : "Marcel Timmerman",
+  "depends" : [ ],
+  "provides" : {
+    "Unicode::PRECIS" : "lib/Unicode/PRECIS.pm6",
+    "Unicode::PRECIS::Tables" : "lib/Unicode/PRECIS/Tables.pm6",
+    "Unicode::PRECIS::Identifier::UsernameCasePreserved" : "lib/Unicode/PRECIS/Identifier/UsernameCasePreserved.pm6",
+    "Unicode::PRECIS::Identifier" : "lib/Unicode/PRECIS/Identifier.pm6",
+    "Unicode::PRECIS::FreeForm::OpaqueString" : "lib/Unicode/PRECIS/FreeForm/OpaqueString.pm6",
+    "Unicode::PRECIS::Identifier::UsernameCaseMapped" : "lib/Unicode/PRECIS/Identifier/UsernameCaseMapped.pm6",
+    "Unicode::PRECIS::FreeForm" : "lib/Unicode/PRECIS/FreeForm.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "v0.5.1.1",
+  "description" : "Implements PRECIS framework, rfc7564 and others. Obsoletes stringprep and saslprep",
+  "authors" : [
+    "Marcel Timmerman"
+  ]
+}
+,
+{
   "name" : "JS::Minify",
   "source-url" : "https://github.com/scmorrison/JS-Minify.git",
   "perl" : "6.*",
@@ -13644,6 +15573,49 @@
   "license" : "Artistic-2.0",
   "version" : "0.0.2",
   "description" : "Perl 6 JavaScript minifier"
+}
+,
+{
+  "name" : "Concurrent::File::Find",
+  "perl" : "v6",
+  "source-url" : "git://github.com/gfldex/perl6-concurrent-file-find.git",
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Concurrent::File::Find" : "lib/Concurrent/File/Find.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.2",
+  "authors" : [
+    "Wenzel P. P. Peppmeyer"
+  ],
+  "description" : "Concurrently recurse into directories to find files, directories or symlinks"
+}
+,
+{
+  "name" : "Digest::SHA1::Native",
+  "perl" : "6.c",
+  "source-url" : "git://github.com/bduggan/p6-digest-sha1-native.git",
+  "build-depends" : [
+    "Shell::Command"
+  ],
+  "resources" : [
+    "libraries/sha1"
+  ],
+  "depends" : [
+    "LibraryMake"
+  ],
+  "license" : "Artistic-2.0",
+  "test-depends" : [ ],
+  "provides" : {
+    "Digest::SHA1::Native" : "lib/Digest/SHA1/Native.pm6"
+  },
+  "version" : "0.03",
+  "authors" : [
+    "Brian Duggan"
+  ],
+  "description" : "p6 bindings to C implementation of SHA1"
 }
 ,
 {
@@ -13666,6 +15638,59 @@
     "Alexey Melezhik"
   ],
   "description" : "Sparrowdo module to manage chef users"
+}
+,
+{
+  "name" : "Log::Async",
+  "perl" : "6.c",
+  "source-url" : "git://github.com/bduggan/p6-log-async.git",
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "license" : "Perl",
+  "test-depends" : [ ],
+  "tags" : [
+    "log",
+    "logging",
+    "logger",
+    "async",
+    "asynchronous"
+  ],
+  "provides" : {
+    "Log::Async::Context" : "lib/Log/Async/Context.pm6",
+    "Log::Async::CommandLine" : "lib/Log/Async/CommandLine.pm6",
+    "Log::Async" : "lib/Log/Async.pm6"
+  },
+  "version" : "0.0.6",
+  "authors" : [
+    "Brian Duggan"
+  ],
+  "description" : "Asynchronous logging with supplies and taps"
+}
+,
+{
+  "name" : "CompUnit::DynamicLib",
+  "source-url" : "git://github.com/zostay/p6-CompUnit-DynamicLib.git",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "git://github.com/zostay/p6-CompUnit-DynamicLib.git"
+  },
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "license" : "Artistic",
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "CompUnit::DynamicLib" : "lib/CompUnit/DynamicLib.pm6"
+  },
+  "version" : "0.2.1",
+  "description" : "Load modules from temporarily included locations",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "meta6" : "0"
 }
 ,
 {
@@ -13790,6 +15815,49 @@
 }
 ,
 {
+  "name" : "Pod::Render",
+  "source-url" : "git://github.com/MARTIMM/pod-render.git",
+  "perl" : "6",
+  "resources" : [
+    "pod6.css",
+    "google-code-prettify/desert.css",
+    "google-code-prettify/doxy.css",
+    "google-code-prettify/prettify.css",
+    "google-code-prettify/sons-of-obsidian.css",
+    "google-code-prettify/sunburst.css",
+    "google-code-prettify/prettify.js",
+    "google-code-prettify/run_prettify.js"
+  ],
+  "depends" : [
+    "Pod::To::HTML",
+    "Pod::To::Markdown"
+  ],
+  "provides" : {
+    "Pod::Render" : "lib/Pod/Render.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "v0.7.2.2",
+  "description" : "Render pod docs to html, pdf or md",
+  "authors" : [
+    "Marcel Timmerman"
+  ]
+}
+,
+{
+  "name" : "File::Ignore",
+  "source-url" : "https://github.com/jnthn/p6-file-ignore.git",
+  "perl" : "6.*",
+  "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+  "depends" : [ ],
+  "provides" : {
+    "File::Ignore" : "lib/File/Ignore.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.1",
+  "description" : "Parsing and application of .gitignore-style ignore files."
+}
+,
+{
   "name" : "Crust::Middleware::Session::Store::DBIish",
   "source-url" : "git://github.com/adaptiveoptics/Crust-Middleware-Session-Store-DBIish.git",
   "perl" : "6.c",
@@ -13809,6 +15877,28 @@
     "Mark Rushing"
   ],
   "description" : "Implements database storage role for Crust::Middleware::Session"
+}
+,
+{
+  "name" : "Statistics::LinearRegression",
+  "source-url" : "git://github.com/hipek8/p6-Statistics-LinearRegression.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "Statistics::LinearRegression" : "lib/Statistics/LinearRegression.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.1.1",
+  "description" : "simple linear regression",
+  "authors" : [
+    "Pawe\u0142 Szulc"
+  ]
 }
 ,
 {
@@ -13835,6 +15925,22 @@
 }
 ,
 {
+  "name" : "Net::Netmask",
+  "source-url" : "git://github.com/0racle/p6-Net-Netmask.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "Net::Netmask" : "lib/Net/Netmask.pm6"
+  },
+  "version" : "0.1.1",
+  "authors" : [
+    "Joshua Yeshouroun"
+  ],
+  "description" : "Parse, manipulate and lookup IP network blocks"
+}
+,
+{
   "name" : "Parser::FreeXL::Native",
   "source-url" : "git://github.com/spebern/Parser-FreeXL-Native.git",
   "perl" : "6.c",
@@ -13850,6 +15956,81 @@
   "description" : "wrapper for freexl parsing .xls files",
   "authors" : [
     "spebern"
+  ]
+}
+,
+{
+  "name" : "HTML::Tag",
+  "source-url" : "git://github.com/adaptiveoptics/HTML-Tag.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "HTML::Entity"
+  ],
+  "provides" : {
+    "HTML::Tag::Macro::List" : "lib/HTML/Tag/Macro/List.pm6",
+    "HTML::Tag" : "lib/HTML/Tag.pm6",
+    "HTML::Tag::Macro::Form" : "lib/HTML/Tag/Macro/Form.pm6",
+    "HTML::Tag::Tags" : "lib/HTML/Tag/Tags.pm6",
+    "HTML::Tag::Macro::Table" : "lib/HTML/Tag/Macro/Table.pm6",
+    "HTML::Tag::Macro" : "lib/HTML/Tag/Macro.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "authors" : [
+    "Mark Rushing"
+  ],
+  "description" : "Generate simple, interleafable, HTML tags."
+}
+,
+{
+  "name" : "CSS::Properties",
+  "source-url" : "git://github.com/p6-css/CSS-Properties-p6.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:p6-css",
+  "depends" : [
+    "CSS::Module",
+    "CSS::Writer",
+    "Color"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "css"
+  ],
+  "provides" : {
+    "CSS::Properties::Box" : "lib/CSS/Properties/Box.pm",
+    "CSS::Properties::Property" : "lib/CSS/Properties/Property.pm",
+    "CSS::Properties::Font" : "lib/CSS/Properties/Font.pm",
+    "CSS::Properties::Edges" : "lib/CSS/Properties/Edges.pm",
+    "CSS::Properties::Units" : "lib/CSS/Properties/Units.pm",
+    "CSS::Properties" : "lib/CSS/Properties.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.9",
+  "description" : "CSS property manipulation library",
+  "authors" : [
+    "David Warring"
+  ]
+}
+,
+{
+  "name" : "WaitGroup",
+  "source-url" : "git://github.com/skaji/perl6-WaitGroup.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "WaitGroup" : "lib/WaitGroup.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "*",
+  "description" : "sys.WaitGroup in perl6",
+  "authors" : [
+    "Shoichi Kaji"
   ]
 }
 ,
@@ -13909,6 +16090,29 @@
 }
 ,
 {
+  "name" : "Algorithm::Genetic",
+  "source-url" : "git://github.com/samgwise/p6-algorithm-genetic.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Algorithm::Genetic" : "lib/Algorithm/Genetic.pm6",
+    "Algorithm::Genetic::Crossoverable" : "lib/Algorithm/Genetic/Crossoverable.pm6",
+    "Algorithm::Genetic::Selection::Roulette" : "lib/Algorithm/Genetic/Selection/Roulette.pm6",
+    "Algorithm::Genetic::Genotype" : "lib/Algorithm/Genetic/Genotype.pm6",
+    "Algorithm::Genetic::Selection" : "lib/Algorithm/Genetic/Selection.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "A simple evolutionanry algorithm in Perl6",
+  "authors" : [
+    "Sam Gillespie"
+  ]
+}
+,
+{
   "name" : "UNIX::Daemonize",
   "source-url" : "git://github.com/hipek8/p6-UNIX-Daemonize.git",
   "perl" : "6.c",
@@ -13957,6 +16161,26 @@
   "description" : "Human JSON (Hjson) deserializer",
   "authors" : [
     "Takumi Akiyama"
+  ]
+}
+,
+{
+  "name" : "IRC::TextColor",
+  "support" : {
+    "source" : "git://github.com/samcv/IRC-TextColor.git",
+    "bugtracker" : "https://github.com/samcv/IRC-TextColor/issues"
+  },
+  "source-url" : "git://github.com/samcv/IRC-TextColor.git",
+  "perl" : "6.*",
+  "auth" : "github:samcv",
+  "provides" : {
+    "IRC::TextColor" : "IRC/TextColor.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.0",
+  "description" : "Color/Style text for IRC, and convert ANSI color from terminals into IRC coloring",
+  "authors" : [
+    "Samantha McVey"
   ]
 }
 ,
@@ -14080,6 +16304,28 @@
 }
 ,
 {
+  "name" : "Sparrowdo::Ruby::Bundler",
+  "source-url" : "https://github.com/melezhik/sparrowdo-ruby-bundler.git",
+  "support" : {
+    "source" : "https://github.com/melezhik/sparrowdo-ruby-bundler.git",
+    "bugtracker" : "https://github.com/melezhik/sparrowdo-ruby-bundler/issues"
+  },
+  "perl" : "6.*",
+  "source-type" : "git",
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "provides" : {
+    "Sparrowdo::Ruby::Bundler" : "lib/Sparrowdo/Ruby/Bundler.pm6"
+  },
+  "version" : "*",
+  "authors" : [
+    "Alexey Melezhik"
+  ],
+  "description" : "Sparrowdo module to manage Ruby gems via Ruby bundler."
+}
+,
+{
   "name" : "Tinky::Hash",
   "perl" : "6",
   "support" : {
@@ -14096,6 +16342,58 @@
   "version" : "0.4.2.7",
   "authors" : "Marcel Timmerman",
   "description" : "A Hash thingy using Tinky"
+}
+,
+{
+  "name" : "Net::IP::Parse",
+  "source-url" : "git://github.com/bradclawsie/Net-IP-Parse.git",
+  "perl" : "6.*",
+  "build-depends" : [
+    "Subsets::Common"
+  ],
+  "author" : "Brad Clawsie",
+  "depends" : [
+    "Subsets::Common"
+  ],
+  "test-depends" : [
+    "Subsets::Common"
+  ],
+  "provides" : {
+    "Net::IP::Parse" : "lib/Net/IP/Parse.pm6"
+  },
+  "version" : "0.0.3",
+  "description" : "Types for IP addresses and manipulation methods."
+}
+,
+{
+  "name" : "Test::Fuzz",
+  "source-url" : "git://github.com/FCO/Test-Fuzz.git",
+  "perl" : "6.*",
+  "resources" : [
+    "classes"
+  ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "Test::Fuzz::Generator" : "lib/Test/Fuzz/Generator.pm6",
+    "Test::Fuzz" : "lib/Test/Fuzz.pm6",
+    "Test::Fuzz::Fuzzed" : "lib/Test/Fuzz/Fuzzed.pm6",
+    "Test::Fuzz::AggGenerators" : "lib/Test/Fuzz/AggGenerators.pm6",
+    "Test::Fuzz::Generators" : "lib/Test/Fuzz/Generators.pm6"
+  },
+  "tags" : [
+    "test",
+    "fuzz",
+    "generative"
+  ],
+  "version" : "0.2.1",
+  "authors" : [
+    "Fernando Correa de Oliveira"
+  ],
+  "description" : "Generative Testing"
 }
 ,
 {
@@ -14191,6 +16489,86 @@
 }
 ,
 {
+  "name" : "DateTime::Extended",
+  "source-url" : "https://github.com/FCO/DateTime-Extended.git",
+  "perl" : "6.*",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "DateTime::Extended" : "lib/DateTime/Extended.pm6"
+  },
+  "version" : "0.1.0",
+  "authors" : [
+    "Fernando Correa de Oliveira"
+  ],
+  "description" : "Extends Date/DateTime features"
+}
+,
+{
+  "name" : "License::Software",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "https://github.com/kalkin/License-Software",
+    "bugtracker" : "https://github.com/kalkin/License-Software/issues"
+  },
+  "source-url" : "https://github.com/kalkin/License-Software.git",
+  "auth" : "kalkin",
+  "provides" : {
+    "License::Software" : "lib/License/Software.pm6",
+    "License::Software::Artistic2" : "lib/License/Software/Artistic2.pm6",
+    "License::Software::Holder" : "lib/License/Software/Holder.pm6",
+    "License::Software::LGPLv3" : "lib/License/Software/LGPLv3.pm6",
+    "License::Software::AGPLv3" : "lib/License/Software/AGPLv3.pm6",
+    "License::Software::Abstract" : "lib/License/Software/Abstract.pm6",
+    "License::Software::GPLv3" : "lib/License/Software/GPLv3.pm6",
+    "License::Software::Year" : "lib/License/Software/Year.pm6",
+    "License::Software::Apache2" : "lib/License/Software/Apache2.pm6"
+  },
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "license",
+    "template",
+    "automation"
+  ],
+  "version" : "0.1.1",
+  "production" : true,
+  "meta6" : "0",
+  "description" : "package for generating licenses from templates",
+  "authors" : [
+    "Bahtiar `kalkin-` Gadimov",
+    ""
+  ]
+}
+,
+{
+  "name" : "Pod::To::Latex",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "https://github.com/kalkin/Pod-To-Latex.git",
+    "bugtracker" : "https://github.com/kalkin/Pod-To-Latex/issues"
+  },
+  "source-url" : "https://github.com/kalkin/Pod-To-Latex.git",
+  "provides" : {
+    "Pod::To::Latex" : "lib/Pod/To/Latex.pm6"
+  },
+  "test-depends" : [
+    "Test::META"
+  ],
+  "license" : "GPL-3.0",
+  "meta-version" : "0",
+  "version" : "0.1.1",
+  "description" : "Convert pod to LaTeX.",
+  "authors" : [
+    "Bahtiar `kalkin-` Gadimov"
+  ]
+}
+,
+{
   "name" : "Ddt",
   "perl" : "6.c",
   "support" : {
@@ -14226,6 +16604,175 @@
 }
 ,
 {
+  "name" : "Ddt",
+  "perl" : "6.c",
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "https://github.com/kalkin/Ddt.git",
+  "auth" : "kalkin",
+  "depends" : [
+    "File::Find",
+    "File::Ignore",
+    "File::Temp",
+    "JSON::Pretty",
+    "License::Software",
+    "META6",
+    "Pod::To::Markdown",
+    "Test::META",
+    "Zef",
+    "Zef::Client",
+    "Zef::Config",
+    "Zef::Distribution",
+    "Zef::Identity"
+  ],
+  "test-depends" : [
+    "File::Temp",
+    "Test::META"
+  ],
+  "tags" : [
+    "authoring",
+    "command line",
+    "devel",
+    "development",
+    "generator",
+    "module",
+    "testing",
+    "utility"
+  ],
+  "provides" : {
+    "Ddt::Template" : "lib/Ddt/Template.pm6",
+    "Ddt::Distribution" : "lib/Ddt/Distribution.pm6",
+    "Ddt::Plugins::Deps" : "lib/Ddt/Plugins/Deps.pm6",
+    "Ddt::Plugins::Watch" : "lib/Ddt/Plugins/Watch.pm6",
+    "Ddt::Plugins::Unit-Generator" : "lib/Ddt/Plugins/Unit-Generator.pm6",
+    "Ddt::CLI" : "lib/Ddt/CLI.pm6",
+    "Ddt" : "lib/Ddt.pm6"
+  },
+  "version" : "0.4.0",
+  "authors" : [
+    "Shoichi Kaji",
+    "Bahtiar `kalkin-` Gadimov"
+  ],
+  "meta6" : "0",
+  "description" : "Distribution Development Tool"
+}
+,
+{
+  "name" : "Ddt",
+  "perl" : "6.c",
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "https://github.com/kalkin/Ddt.git",
+  "auth" : "kalkin",
+  "depends" : [
+    "File::Find",
+    "File::Ignore",
+    "File::Temp",
+    "JSON::Pretty",
+    "License::Software",
+    "META6",
+    "Pod::To::Markdown",
+    "Test::META",
+    "Zef",
+    "Zef::Client",
+    "Zef::Config",
+    "Zef::Distribution",
+    "Zef::Identity"
+  ],
+  "provides" : {
+    "Ddt::Template" : "lib/Ddt/Template.pm6",
+    "Ddt::Distribution" : "lib/Ddt/Distribution.pm6",
+    "Ddt::Plugins::Deps" : "lib/Ddt/Plugins/Deps.pm6",
+    "Ddt::Plugins::Watch" : "lib/Ddt/Plugins/Watch.pm6",
+    "Ddt::Plugins::Unit-Generator" : "lib/Ddt/Plugins/Unit-Generator.pm6",
+    "Ddt::CLI" : "lib/Ddt/CLI.pm6",
+    "Ddt" : "lib/Ddt.pm6"
+  },
+  "test-depends" : [
+    "File::Temp",
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "authoring",
+    "command line",
+    "devel",
+    "development",
+    "generator",
+    "module",
+    "testing",
+    "utility"
+  ],
+  "version" : "0.4.3",
+  "meta6" : "0",
+  "description" : "Distribution Development Tool",
+  "authors" : [
+    "Shoichi Kaji",
+    "Bahtiar `kalkin-` Gadimov",
+    ""
+  ]
+}
+,
+{
+  "name" : "Ddt",
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "https://github.com/kalkin/Ddt.git",
+  "perl" : "6.c",
+  "auth" : "kalkin",
+  "depends" : [
+    "File::Find",
+    "File::Ignore",
+    "File::Temp",
+    "JSON::Fast",
+    "License::Software",
+    "META6",
+    "Pod::To::Markdown",
+    "Test::META",
+    "Zef",
+    "Zef::Client",
+    "Zef::Config",
+    "Zef::Distribution",
+    "Zef::Identity"
+  ],
+  "test-depends" : [
+    "File::Temp",
+    "Test::META"
+  ],
+  "tags" : [
+    "authoring",
+    "command line",
+    "devel",
+    "development",
+    "generator",
+    "module",
+    "testing",
+    "utility"
+  ],
+  "provides" : {
+    "Ddt::Template" : "lib/Ddt/Template.pm6",
+    "Ddt::Plugins::Deps" : "lib/Ddt/Plugins/Deps.pm6",
+    "Ddt::JSON" : "lib/Ddt/JSON.pm6",
+    "Ddt::Distribution" : "lib/Ddt/Distribution.pm6",
+    "Ddt::Plugins::Watch" : "lib/Ddt/Plugins/Watch.pm6",
+    "Ddt::Plugins::Unit-Generator" : "lib/Ddt/Plugins/Unit-Generator.pm6",
+    "Ddt::CLI" : "lib/Ddt/CLI.pm6",
+    "Ddt" : "lib/Ddt.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.5.3",
+  "meta-version" : "0",
+  "description" : "Distribution Development Tool",
+  "authors" : [
+    "Bahtiar `kalkin-` Gadimov",
+    "Shoichi Kaji"
+  ]
+}
+,
+{
   "name" : "Data::TextOrBinary",
   "source-url" : "https://github.com/jnthn/p6-data-textorbinary.git",
   "perl" : "6.*",
@@ -14237,6 +16784,94 @@
   "license" : "Artistic-2.0",
   "version" : "1.0",
   "description" : "Heuristic detection of text vs. binary data."
+}
+,
+{
+  "name" : "Git::Config",
+  "perl" : "6",
+  "emulates" : { },
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "https://github.com/gfldex/perl6-git-config.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "superseded-by" : { },
+  "excludes" : { },
+  "auth" : "github:gfldex",
+  "depends" : [
+    "Test::META"
+  ],
+  "provides" : {
+    "Git::Config" : "lib/Git/Config.pm6"
+  },
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "tags" : [ ],
+  "version" : "0.1.5",
+  "meta6" : "0",
+  "description" : "Read and provide interface to git config.",
+  "authors" : [
+    "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
+  ],
+  "supersedes" : { }
+}
+,
+{
+  "name" : "Package::Updates",
+  "source-url" : "git@github.com:ramiroencinas/perl6-Package-Updates.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "tags" : [
+    "package-manager",
+    "utils"
+  ],
+  "provides" : {
+    "Package::Updates" : "lib/Package/Updates.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0.0",
+  "authors" : [
+    "Ramiro Encinas Alarza"
+  ],
+  "description" : "Provides package updates information."
+}
+,
+{
+  "name" : "META6::bin",
+  "perl" : "6.c",
+  "emulates" : { },
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "https://github.com/gfldex/perl6-meta6-bin.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "superseded-by" : { },
+  "excludes" : { },
+  "auth" : "github:gfldex",
+  "depends" : [
+    "META6",
+    "HTTP::Client",
+    "Git::Config:auth<github:gfldex>",
+    "JSON::Tiny",
+    "Test::META",
+    "Slippy::Semilist",
+    "MIME::Base64"
+  ],
+  "provides" : {
+    "META6::bin" : "lib/META6/bin.pm6"
+  },
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "tags" : [ ],
+  "version" : "0.15.3",
+  "meta6" : "0",
+  "description" : "Provide a binary to work with META6.json-files.",
+  "authors" : [
+    "Wenzel P. P. Peppmeyer"
+  ],
+  "supersedes" : { }
 }
 ,
 {
@@ -14288,6 +16923,134 @@
   ],
   "meta6" : "0",
   "description" : "Japanese numerals in your Perl 6"
+}
+,
+{
+  "name" : "XML::XPath",
+  "source-url" : "git://github.com/ufobat/p6-XML-XPath.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "XML",
+    "Test::META"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "XML",
+    "XPath",
+    "Parsing",
+    "W3C",
+    "Query Language"
+  ],
+  "provides" : {
+    "XML::XPath::Utils" : "lib/XML/XPath/Utils.pm6",
+    "XML::XPath::ExprOperator::UnaryMinus" : "lib/XML/XPath/ExprOperator/UnaryMinus.pm6",
+    "XML::XPath::Expr" : "lib/XML/XPath/Expr.pm6",
+    "XML::XPath::Predicates" : "lib/XML/XPath/Predicates.pm6",
+    "XML::XPath::FunctionCall::Number" : "lib/XML/XPath/FunctionCall/Number.pm6",
+    "XML::XPath::ExprOperator::GreaterThan" : "lib/XML/XPath/ExprOperator/GreaterThan.pm6",
+    "XML::XPath::InfixExprOperatorPerElement" : "lib/XML/XPath/InfixExprOperatorPerElement.pm6",
+    "XML::XPath::ExprOperator::Or" : "lib/XML/XPath/ExprOperator/Or.pm6",
+    "XML::XPath::Evaluable" : "lib/XML/XPath/Evaluable.pm6",
+    "XML::XPath" : "lib/XML/XPath.pm6",
+    "XML::XPath::FunctionCall::Node" : "lib/XML/XPath/FunctionCall/Node.pm6",
+    "XML::XPath::ExprOperator::And" : "lib/XML/XPath/ExprOperator/And.pm6",
+    "XML::XPath::ExprOperator::SmallerThan" : "lib/XML/XPath/ExprOperator/SmallerThan.pm6",
+    "XML::XPath::ExprOperator::Pipe" : "lib/XML/XPath/ExprOperator/Pipe.pm6",
+    "XML::XPath::ExprOperator::Equal" : "lib/XML/XPath/ExprOperator/Equal.pm6",
+    "XML::XPath::Actions" : "lib/XML/XPath/Actions.pm6",
+    "XML::XPath::FunctionCall::Boolean" : "lib/XML/XPath/FunctionCall/Boolean.pm6",
+    "XML::XPath::ExprOperator::Plus" : "lib/XML/XPath/ExprOperator/Plus.pm6",
+    "XML::XPath::Step" : "lib/XML/XPath/Step.pm6",
+    "XML::XPath::NodeTest" : "lib/XML/XPath/NodeTest.pm6",
+    "XML::XPath::FunctionCall" : "lib/XML/XPath/FunctionCall.pm6",
+    "XML::XPath::ExprOperator::Div" : "lib/XML/XPath/ExprOperator/Div.pm6",
+    "XML::XPath::Types" : "lib/XML/XPath/Types.pm6",
+    "XML::XPath::Grammar" : "lib/XML/XPath/Grammar.pm6",
+    "XML::XPath::FunctionCall::String" : "lib/XML/XPath/FunctionCall/String.pm6",
+    "XML::XPath::ExprOperator::Mod" : "lib/XML/XPath/ExprOperator/Mod.pm6",
+    "XML::XPath::ExprOperator::Minus" : "lib/XML/XPath/ExprOperator/Minus.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.9.1",
+  "description" : "XPath perl6 library",
+  "authors" : [
+    "Martin Barth (ufobat)"
+  ]
+}
+,
+{
+  "name" : "DB::Rscs",
+  "source-url" : "git://github.com/bradclawsie/DB-Rscs.git",
+  "perl" : "6.*",
+  "build-depends" : [
+    "HTTP::UserAgent",
+    "JSON::Tiny"
+  ],
+  "author" : "Brad Clawsie",
+  "depends" : [
+    "HTTP::UserAgent",
+    "JSON::Tiny"
+  ],
+  "test-depends" : [
+    "HTTP::UserAgent",
+    "JSON::Tiny"
+  ],
+  "provides" : {
+    "DB::RSCS" : "lib/DB/Rscs.pm6"
+  },
+  "version" : "0.0.2",
+  "description" : "A client library for the Ridiculously Simple Configuration System"
+}
+,
+{
+  "name" : "Punnable",
+  "source-url" : "https://github.com/FCO/Punnable.git",
+  "perl" : "6.*",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "Punnable" : "lib/Punnable.pm6"
+  },
+  "tags" : [
+    "pun",
+    "role",
+    "stub"
+  ],
+  "version" : "0.1.0",
+  "authors" : [
+    "Fernando Correa de Oliveira"
+  ],
+  "description" : "Make roles with stub-methods punnable"
+}
+,
+{
+  "name" : "SSH::LibSSH",
+  "source-url" : "https://github.com/jnthn/p6-ssh-libssh.git",
+  "perl" : "6.*",
+  "resources" : [
+    "ssh.dll",
+    "libeay32.dll",
+    "msvcr110.dll"
+  ],
+  "build-depends" : [
+    "LWP::Simple"
+  ],
+  "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+  "depends" : [
+    "Concurrent::Progress"
+  ],
+  "provides" : {
+    "SSH::LibSSH" : "lib/SSH/LibSSH.pm6",
+    "SSH::LibSSH::Raw" : "lib/SSH/LibSSH/Raw.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.9.1",
+  "description" : "Asynchronous binding for libssh; client-only and limited functionality so far."
 }
 ,
 {
@@ -14421,6 +17184,128 @@
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ]
+}
+,
+{
+  "name" : "Powerline::Prompt",
+  "source-url" : "https://github.com/7ojo/perl6-powerline-prompt.git",
+  "perl" : "6",
+  "auth" : "github:7ojo",
+  "depends" : [
+    "Git::Simple"
+  ],
+  "provides" : {
+    "Powerline::Prompt::Segment::Readonly" : "lib/Powerline/Prompt/Segment/Readonly.pm",
+    "Powerline::Prompt::Segment::Path" : "lib/Powerline/Prompt/Segment/Path.pm",
+    "Powerline::Prompt" : "lib/Powerline/Prompt.pm",
+    "Powerline::Prompt::Shell::Bash" : "lib/Powerline/Prompt/Shell/Bash.pm",
+    "Powerline::Prompt::Segment::Git" : "lib/Powerline/Prompt/Segment/Git.pm",
+    "Powerline::Prompt::Segment::Root" : "lib/Powerline/Prompt/Segment/Root.pm",
+    "Powerline::Prompt::Segment" : "lib/Powerline/Prompt/Segment.pm"
+  },
+  "license" : "MIT",
+  "version" : "0.0.4",
+  "authors" : [
+    "Jarkko Haapalainen <jarkko@viidakko.fi>"
+  ],
+  "description" : "Make a useful prompt for your shell"
+}
+,
+{
+  "name" : "Spit",
+  "support" : {
+    "email" : "lloyd.fourn@gmail.com",
+    "source" : "https://github.com/spitsh/spitsh.git",
+    "bugtracker" : "https://github.com/spitsh/spitsh/issues"
+  },
+  "source-url" : "https://github.com/spitsh/spitsh.git",
+  "perl" : "6.c",
+  "resources" : [
+    "reserved.txt",
+    "cat-names.txt",
+    "src/Any.sp",
+    "src/Bool.sp",
+    "src/Cmd.sp",
+    "src/EnumClass.sp",
+    "src/FD.sp",
+    "src/File.sp",
+    "src/Int.sp",
+    "src/List.sp",
+    "src/Locale.sp",
+    "src/Pkg.sp",
+    "src/Str.sp",
+    "src/base.sp",
+    "src/checks.sp",
+    "src/core-subs.sp",
+    "src/os.sp",
+    "src/Regex.sp",
+    "src/PID.sp",
+    "src/Git.sp",
+    "src/commands.sp",
+    "src/Docker.sp",
+    "src/HTTP.sp",
+    "src/Date.sp",
+    "src/JSON.sp",
+    "src/Pair.sp",
+    "src/Host.sp",
+    "src/Port.sp",
+    "src/Log.sp",
+    "src/env.sp",
+    "src/SSH.sp",
+    "src/Service.sp",
+    "core-lib/Test.sp",
+    "core-lib/DigitalOcean.sp",
+    "core-lib/Rakudo.sp",
+    "tools/harness.sp",
+    "tools/spit-helper.sp"
+  ],
+  "depends" : [
+    "DispatchMap",
+    "JSON::Tiny",
+    "YAMLish"
+  ],
+  "provides" : {
+    "Spit::Parser::Lang" : "lib/Spit/Parser/Lang.pm6",
+    "Spit::Parser::Actions" : "lib/Spit/Parser/Actions.pm6",
+    "Spit::PRECOMP::core-lib" : "lib/Spit/PRECOMP/core-lib.pm6",
+    "Spit::cli" : "lib/Spit/cli.pm6",
+    "Spit::Src" : "lib/Spit/Src.pm6",
+    "Spit::Sastify" : "lib/Spit/Sastify.pm6",
+    "Spit::Stage2-Util" : "lib/Spit/Stage2-Util.pm6",
+    "Spit::Metamodel" : "lib/Spit/Metamodel.pm6",
+    "Spit::DependencyList" : "lib/Spit/DependencyList.pm6",
+    "Spit::Parser::YAML" : "lib/Spit/Parser/YAML.pm6",
+    "Spit::Sh::Composer" : "lib/Spit/Sh/Composer.pm6",
+    "Spit::SAST" : "lib/Spit/SAST.pm6",
+    "Spit::Util" : "lib/Spit/Util.pm6",
+    "Spit::Constants" : "lib/Spit/Constants.pm6",
+    "Spit::Parser::Grammar" : "lib/Spit/Parser/Grammar.pm6",
+    "Spit::Sh::Compiler::Name-Generator" : "lib/Spit/Sh/Compiler/Name-Generator.pm6",
+    "Spit::Parser::Regex" : "lib/Spit/Parser/Regex.pm6",
+    "Spit::SpitDoc" : "lib/Spit/SpitDoc.pm6",
+    "Spit::Sh::ShellElement" : "lib/Spit/Sh/ShellElement.pm6",
+    "Spit::Parser::Quote" : "lib/Spit/Parser/Quote.pm6",
+    "Spit::Sh::Compiler::Compile-Statement-Control" : "lib/Spit/Sh/Compiler/Compile-Statement-Control.pm6",
+    "Spit::Sh::Compiler::Compile-Junction" : "lib/Spit/Sh/Compiler/Compile-Junction.pm6",
+    "Spit::Exceptions" : "lib/Spit/Exceptions.pm6",
+    "Spit::Repo" : "lib/Spit/Repo.pm6",
+    "Spit::Compile" : "lib/Spit/Compile.pm6",
+    "Spit::Parser::JSON" : "lib/Spit/Parser/JSON.pm6",
+    "Spit::Docker" : "lib/Spit/Docker.pm6",
+    "Getopt::Parse" : "lib/Getopt/Parse.pm6",
+    "Spit::Sh::Call-Inliner" : "lib/Spit/Sh/Call-Inliner.pm6",
+    "Spit::Sh::Compiler::Compile-Cmd-And-Call" : "lib/Spit/Sh/Compiler/Compile-Cmd-And-Call.pm6",
+    "Spit::Sh::Compiler" : "lib/Spit/Sh/Compiler.pm6",
+    "Spit::Doc::Markdown" : "lib/Spit/Doc/Markdown.pm6",
+    "Spit::Sh::Method-Optimizer" : "lib/Spit/Sh/Method-Optimizer.pm6",
+    "Spit::PRECOMP::SETTING" : "lib/Spit/PRECOMP/SETTING.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.31",
+  "authors" : [
+    "Lloyd Fournier lloyd.fourn@gmail.com"
+  ],
+  "description" : "The Spook in the Shell (Spit-sh) compiler"
 }
 ,
 {
@@ -14580,6 +17465,74 @@
     "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
   ],
   "supersedes" : { }
+}
+,
+{
+  "name" : "Sparrowdo::Cpanm::GitHub",
+  "emulates" : { },
+  "perl" : "6.c",
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "https://github.com/melezhik/sparrowdo-cpanm-github.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "superseded-by" : { },
+  "auth" : "github:",
+  "excludes" : { },
+  "depends" : [
+    "Test::META",
+    "Sparrowdo",
+    "Sparrowdo::RemoteFile",
+    "Sparrowdo::Archive"
+  ],
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::Cpanm::GitHub" : "lib/Sparrowdo/Cpanm/GitHub.pm6"
+  },
+  "production" : false,
+  "version" : "0.0.2",
+  "authors" : [
+    "'Alexey Melezhik' <melezhik@gmail.com>"
+  ],
+  "supersedes" : { },
+  "meta6" : "0",
+  "description" : "Installs CPAN modules fetched from remote GitHub repositories"
+}
+,
+{
+  "name" : "Sparrowdo::Rvm",
+  "emulates" : { },
+  "perl" : "6.c",
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "https://github.com/melezhik/perl6-sparrowdo-rvm.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "superseded-by" : { },
+  "auth" : "github:melezhik",
+  "excludes" : { },
+  "depends" : [
+    "Test::META",
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::Rvm" : "lib/Sparrowdo/Rvm.pm6"
+  },
+  "version" : "0.0.1",
+  "production" : false,
+  "authors" : [
+    "'Alexey Melezhik' <melezhik@gmail.com>"
+  ],
+  "supersedes" : { },
+  "meta6" : "0",
+  "description" : "Install RVM and Ruby"
 }
 ,
 {
@@ -14878,6 +17831,31 @@
 }
 ,
 {
+  "name" : "PostCocoon::Url",
+  "source-url" : "https://github.com/PostCocoon/P6-Url.git",
+  "perl" : "6",
+  "auth" : "github:PostCocoon",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "query string",
+    "url",
+    "http"
+  ],
+  "provides" : {
+    "PostCocoon::Url" : "lib/PostCocoon/Url.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0",
+  "authors" : [
+    "eater <perl6@eaterofco.de>"
+  ],
+  "description" : "Some simple but useful URL utils"
+}
+,
+{
   "name" : "TrigPi",
   "source-url" : "git://github.com/grondilu/trigpi.git",
   "perl" : "6.*",
@@ -14893,6 +17871,23 @@
   "license" : "MIT",
   "version" : "1.4.2",
   "description" : "accurate computation of sin(\u03c0*$x) and cos(\u03c0*$x)"
+}
+,
+{
+  "name" : "Concurrent::Progress",
+  "source-url" : "https://github.com/jnthn/p6-concurrent-progress.git",
+  "perl" : "6.*",
+  "author" : "Jonathan Worthington <jnthn@jnthn.net>",
+  "depends" : [ ],
+  "provides" : {
+    "Concurrent::Progress" : "lib/Concurrent/Progress.pm6"
+  },
+  "test-depends" : [
+    "Test::Scheduler"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.1",
+  "description" : "An object to help with reporting the progress of a concurrent operation."
 }
 ,
 {
@@ -14916,6 +17911,36 @@
     "Zoffix Znet"
   ],
   "description" : "Helper IO traits"
+}
+,
+{
+  "name" : "Math::Primesieve",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-primesieve.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-primesieve/issues"
+  },
+  "perl" : "6.c",
+  "source-url" : "https://github.com/CurtTilmes/perl6-primesieve.git",
+  "auth" : "github:CurtTilmes",
+  "depends" : [
+    "NativeCall"
+  ],
+  "license" : "BSD-2-Clause",
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "Math::Primesieve" : "lib/Math/Primesieve.pm6"
+  },
+  "tags" : [
+    "Math",
+    "Primes"
+  ],
+  "version" : "0.3",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
+  ],
+  "description" : "Perl 6 bindings for primesieve"
 }
 ,
 {
@@ -15006,6 +18031,43 @@
     "Zoffix Znet"
   ],
   "description" : "Index into strings like Pythonists do!"
+}
+,
+{
+  "name" : "LibCurl",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-libcurl.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-libcurl.git"
+  },
+  "perl" : "6.c",
+  "source-url" : "https://github.com/CurtTilmes/perl6-libcurl.git",
+  "depends" : [
+    "NativeCall",
+    "JSON::Fast"
+  ],
+  "license" : "NASA-1.3",
+  "test-depends" : [
+    "Test",
+    "Test::When"
+  ],
+  "provides" : {
+    "LibCurl::Multi" : "lib/LibCurl/Multi.pm6",
+    "LibCurl::EasyHandle" : "lib/LibCurl/EasyHandle.pm6",
+    "LibCurl::HTTP" : "lib/LibCurl/HTTP.pm6",
+    "LibCurl::MultiHandle" : "lib/LibCurl/MultiHandle.pm6",
+    "LibCurl::Easy" : "lib/LibCurl/Easy.pm6"
+  },
+  "tags" : [
+    "LibCurl",
+    "Curl",
+    "HTTP",
+    "FTP"
+  ],
+  "version" : "0.5.2",
+  "authors" : [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ],
+  "description" : "Perl6 bindings for LibCurl"
 }
 ,
 {
@@ -15164,6 +18226,28 @@
 }
 ,
 {
+  "name" : "API::USNavalObservatory",
+  "source-url" : "git://github.com/cbk/API-USNavalObservatory",
+  "perl" : "6.*",
+  "author" : "github:cbk",
+  "depends" : [
+    "HTTP::UserAgent",
+    "URI::Encode",
+    "WWW"
+  ],
+  "tags" : [
+    "WIP",
+    "api"
+  ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "API::USNavalObservatory" : "lib/API/USNavalObservatory.pm6"
+  },
+  "version" : "1.0.0",
+  "description" : "Simple Perl 6 interface to the U.S. Naval Observatory, Astronomical Applications API v2.0.1"
+}
+,
+{
   "name" : "Distribution::Builder::MakeFromJSON",
   "source-url" : "https://github.com/niner/Distribution-Builder-MakeFromJSON.git",
   "perl" : "6.c",
@@ -15183,6 +18267,46 @@
   "authors" : [
     "Stefan Seifert"
   ]
+}
+,
+{
+  "name" : "Terminal::Table",
+  "support" : {
+    "source" : "https://github.com/araraloren/perl6-terminal-table.git",
+    "bugtracker" : "https://github.com.araraloren/perl6-terminal-table/issues"
+  },
+  "source-url" : "https://github.com/araraloren/perl6-terminal-table.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:araraloren",
+  "depends" : [
+    "Terminal::ANSIColor",
+    "Terminal::WCWidth",
+    "Text::Tabs"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "terminal",
+    "table",
+    "text"
+  ],
+  "provides" : {
+    "Terminal::Table::Shader" : "lib/Terminal/Table/Shader.pm6",
+    "Terminal::Table::Generator" : "lib/Terminal/Table/Generator.pm6",
+    "Terminal::Table::Style" : "lib/Terminal/Table/Style.pm6",
+    "Terminal::Table::String" : "lib/Terminal/Table/String.pm6",
+    "Terminal::Table::LightWrap" : "lib/Terminal/Table/LightWrap.pm6",
+    "Terminal::Table" : "lib/Terminal/Table.pm6",
+    "Terminal::Table::Exception" : "lib/Terminal/Table/Exception.pm6",
+    "Terminal::Table::Settings" : "lib/Terminal/Table/Settings.pm6",
+    "Terminal::Table::Frame" : "lib/Terminal/Table/Frame.pm6",
+    "Terminal::Table::VisitorHelper" : "lib/Terminal/Table/VisitorHelper.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.7",
+  "description" : "Advanced table generate module for perl6",
+  "authors" : "Loren"
 }
 ,
 {
@@ -15272,6 +18396,115 @@
 }
 ,
 {
+  "name" : "Benchy",
+  "support" : {
+    "source" : "https://github.com/zoffixznet/perl6-Benchy.git"
+  },
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Benchy" : "lib/Benchy.pm6"
+  },
+  "test-depends" : [
+    "Testo",
+    "Test::META"
+  ],
+  "tags" : [
+    "benchmark",
+    "dev"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001001",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Benchmark some code"
+}
+,
+{
+  "name" : "Base64::Native",
+  "source-url" : "git://github.com/p6-pdf/Base64-Native-p6.git",
+  "perl" : "6.c",
+  "resources" : [
+    "lib/libbase64.so",
+    "lib/libbase64.dll",
+    "lib/libbase64.dylib"
+  ],
+  "build-depends" : [ ],
+  "auth" : "github:p6-pdf",
+  "depends" : [
+    "LibraryMake"
+  ],
+  "provides" : {
+    "Base64::Native" : "lib/Base64/Native.pm"
+  },
+  "test-depends" : [ ],
+  "tags" : [
+    "base64",
+    "encode"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Fast Base 64 encoding and decoding (eager)",
+  "authors" : [
+    "David Warring"
+  ]
+}
+,
+{
+  "name" : "LibUUID",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-libuuid.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-libuuid/issues"
+  },
+  "perl" : "6.c",
+  "source-url" : "https://github.com/CurtTilmes/perl6-libuuid.git",
+  "auth" : "github:CurtTilmes",
+  "depends" : [
+    "NativeCall"
+  ],
+  "license" : "Artistic-2.0",
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "provides" : {
+    "LibUUID" : "lib/LibUUID.pm6"
+  },
+  "tags" : [
+    "UUID"
+  ],
+  "version" : "0.1",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
+  ],
+  "description" : "Perl 6 bindings for libuuid, for UUID generation"
+}
+,
+{
+  "name" : "Log",
+  "support" : {
+    "source" : "https://github.com/whity/perl6-log.git"
+  },
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Log" : "lib/Log.pm6",
+    "Log::NDC" : "lib/Log/NDC.pm6",
+    "Log::Exceptions" : "lib/Log/Exceptions.pm6",
+    "Log::MDC" : "lib/Log/MDC.pm6"
+  },
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "version" : "0.2.0",
+  "authors" : [
+    "Andr\u00e9 Br\u00e1s"
+  ],
+  "description" : "A simple logging class"
+}
+,
+{
   "name" : "Proc::Q",
   "support" : {
     "source" : "https://github.com/zoffixznet/perl6-Proc-Q.git"
@@ -15298,6 +18531,31 @@
     "Zoffix Znet"
   ],
   "description" : "Queue up and run a herd of Procs"
+}
+,
+{
+  "name" : "WhereList",
+  "support" : {
+    "source" : "https://github.com/zoffixznet/perl6-WhereList.git"
+  },
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "WhereList" : "lib/WhereList.pm6"
+  },
+  "test-depends" : [
+    "Testo",
+    "Test::META"
+  ],
+  "tags" : [
+    "lists"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001002",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Simpler `where` constraints for items of lists"
 }
 ,
 {
@@ -15383,6 +18641,23 @@
 }
 ,
 {
+  "name" : "EC::Grammars::DIG",
+  "source-url" : "git://github.com/bioduds/EC-Grammars-DIG.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "EC::Grammars::DIG" : "lib/ec/grammars/DIG.pm6"
+  },
+  "license" : "GPL-3.0",
+  "version" : "1.0.0",
+  "authors" : [
+    "EDUARDO CAPANEMA"
+  ],
+  "description" : "A Grammar to parse dig results."
+}
+,
+{
   "name" : "Time::Duration::Parser",
   "support" : {
     "source" : "https://github.com/perlpilot/p6-Time-Duration-Parser.git",
@@ -15464,6 +18739,52 @@
 }
 ,
 {
+  "name" : "Dictionary::Create",
+  "source-url" : "git://github.com/prodotiscus/perl6-Dictionary-Create.git",
+  "perl" : "6.*",
+  "depends" : [ ],
+  "provides" : {
+    "Dictionary::Create::DSL" : "lib/Dictionary/Create/DSL.pm",
+    "Dictionary::Create" : "lib/Dictionary/Create.pm"
+  },
+  "license" : "Apache-License-2.0",
+  "version" : "*",
+  "description" : "Dictionaries creating module"
+}
+,
+{
+  "name" : "TCC",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-tcc.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-tcc/issues"
+  },
+  "perl" : "6.c",
+  "source-url" : "https://github.com/CurtTilmes/perl6-tcc.git",
+  "auth" : "github:CurtTilmes",
+  "depends" : [
+    "NativeCall"
+  ],
+  "license" : "Artistic-2.0",
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "TCC" : "lib/TCC.pm6"
+  },
+  "tags" : [
+    "inline",
+    "c",
+    "compiler",
+    "nativecall"
+  ],
+  "version" : "0.1",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
+  ],
+  "description" : "Perl 6 bindings for TCC, The Tiny C Compiler"
+}
+,
+{
   "name" : "HTTP::Server::Ogre",
   "source-url" : "git://github.com/ufobat/HTTP-Server-Ogre.git",
   "perl" : "6.c",
@@ -15524,6 +18845,51 @@
 }
 ,
 {
+  "name" : "Finance::GDAX::API",
+  "source-url" : "git://github.com/adaptiveoptics/P6-Finance-GDAX-API.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "JSON::Fast",
+    "LibCurl",
+    "Digest::HMAC",
+    "Digest::SHA",
+    "MIME::Base64"
+  ],
+  "test-depends" : [
+    "Test",
+    "File::Temp"
+  ],
+  "provides" : {
+    "Finance::GDAX::API::URL" : "lib/Finance/GDAX/API/URL.pm6",
+    "Finance::GDAX::API::UserAccount" : "lib/Finance/GDAX/API/UserAccount.pm6",
+    "Finance::GDAX::API::Order" : "lib/Finance/GDAX/API/Order.pm6",
+    "Finance::GDAX::API::Funding" : "lib/Finance/GDAX/API/Funding.pm6",
+    "Finance::GDAX::API::Report" : "lib/Finance/GDAX/API/Report.pm6",
+    "Finance::GDAX::API::Quote" : "lib/Finance/GDAX/API/Quote.pm6",
+    "Finance::GDAX::API::Currency" : "lib/Finance/GDAX/API/Currency.pm6",
+    "Finance::GDAX::API::Account" : "lib/Finance/GDAX/API/Account.pm6",
+    "Finance::GDAX::API::Deposit" : "lib/Finance/GDAX/API/Deposit.pm6",
+    "Finance::GDAX::API::Time" : "lib/Finance/GDAX/API/Time.pm6",
+    "Finance::GDAX::API::Position" : "lib/Finance/GDAX/API/Position.pm6",
+    "Finance::GDAX::API::Fill" : "lib/Finance/GDAX/API/Fill.pm6",
+    "Finance::GDAX::API::CoinbaseAccount" : "lib/Finance/GDAX/API/CoinbaseAccount.pm6",
+    "Finance::GDAX::API::PaymentMethod" : "lib/Finance/GDAX/API/PaymentMethod.pm6",
+    "Finance::GDAX::API::TypeConstraints" : "lib/Finance/GDAX/API/TypeConstraints.pm6",
+    "Finance::GDAX::API::MarginTransfer" : "lib/Finance/GDAX/API/MarginTransfer.pm6",
+    "Finance::GDAX::API" : "lib/Finance/GDAX/API.pm6",
+    "Finance::GDAX::API::Withdrawl" : "lib/Finance/GDAX/API/Withdrawl.pm6",
+    "Finance::GDAX::API::Product" : "lib/Finance/GDAX/API/Product.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "authors" : [
+    "Mark Rushing"
+  ],
+  "description" : "GDAX Crypto-currency Exchange low-level API implementation"
+}
+,
+{
   "name" : "Getopt::Advance",
   "support" : {
     "source" : "https://github.com/araraloren/perl6-getopt-advance.git",
@@ -15559,6 +18925,77 @@
   "version" : "0.3.5",
   "authors" : "Loren",
   "description" : "Advanced command line parse module for perl6"
+}
+,
+{
+  "name" : "Swedish::TextDates_sv",
+  "source-url" : "https://github.com/svekenfur/Swedish-TextDates_sv.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "Swedish::TextDates_sv" : "lib/Swedish/TextDates_sv.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.2",
+  "authors" : [
+    "Sverre Furberg"
+  ],
+  "description" : "Transforms a date or a day of week to the text equivalent in Swedish."
+}
+,
+{
+  "name" : "Text::MiscUtils",
+  "source-url" : "git://github.com/japhb/Text-MiscUtils.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Terminal::ANSIColor"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Text",
+    "MiscUtils"
+  ],
+  "provides" : {
+    "Text::MiscUtils" : "lib/Text/MiscUtils.pm6",
+    "Text::MiscUtils::Layout" : "lib/Text/MiscUtils/Layout.pm6",
+    "Text::MiscUtils::English" : "lib/Text/MiscUtils/English.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "A bag of small text processing tricks",
+  "authors" : [
+    "Geoffrey Broadwell"
+  ]
+}
+,
+{
+  "name" : "Grammar::Modelica",
+  "source-url" : "git://github.com/albastev/Grammar-Modelica.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "Grammar::Modelica::ComponentClause" : "lib/Grammar/Modelica/ComponentClause.pm6",
+    "Grammar::Modelica" : "lib/Grammar/Modelica.pm6",
+    "Grammar::Modelica::Extends" : "lib/Grammar/Modelica/Extends.pm6",
+    "Grammar::Modelica::Equations" : "lib/Grammar/Modelica/Equations.pm6",
+    "Grammar::Modelica::Modification" : "lib/Grammar/Modelica/Modification.pm6",
+    "Grammar::Modelica::LexicalConventions" : "lib/Grammar/Modelica/LexicalConventions.pm6",
+    "Grammar::Modelica::Expressions" : "lib/Grammar/Modelica/Expressions.pm6",
+    "Grammar::Modelica::ClassDefinition" : "lib/Grammar/Modelica/ClassDefinition.pm6"
+  },
+  "version" : "0.1.2",
+  "authors" : [
+    "Steven Albano"
+  ],
+  "description" : "A Grammar for the Modelica programming language."
 }
 ,
 {
@@ -15715,6 +19152,73 @@
 }
 ,
 {
+  "name" : "Algorithm::DawkinsWeasel",
+  "source-url" : "https://github.com/jaldhar/Algorithm-DawkinsWeasel.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::DawkinsWeasel" : "lib/Algorithm/DawkinsWeasel.pm6"
+  },
+  "license" : [
+    "Artistic-2.0",
+    "GPL-2.0+"
+  ],
+  "version" : "0.1.1",
+  "description" : "An Illustration of Cumulative Selection",
+  "authors" : [
+    "Jaldhar H. Vyas"
+  ]
+}
+,
+{
+  "name" : "Symbol",
+  "source-url" : "git://github.com/grondilu/symbol",
+  "perl" : "6",
+  "licence" : "MIT",
+  "auth" : "github:grondilu",
+  "depends" : [
+    "UUID"
+  ],
+  "provides" : {
+    "Symbol" : "lib/Symbol.pm6"
+  },
+  "version" : "0.0.4",
+  "description" : "EMACscript's Symbol for Perl 6"
+}
+,
+{
+  "name" : "GLFW",
+  "source-url" : "git://github.com/YellowApple/p6-GLFW.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "GLFW::Window::Attribute" : "lib/GLFW/Window/Attribute.pm6",
+    "GLFW::Version" : "lib/GLFW/Version.pm6",
+    "GLFW::ErrorCode" : "lib/GLFW/ErrorCode.pm6",
+    "GLFW::Cursor" : "lib/GLFW/Cursor.pm6",
+    "GLFW::Mouse" : "lib/GLFW/Mouse.pm6",
+    "GLFW::Window" : "lib/GLFW/Window.pm6",
+    "GLFW::Joystick" : "lib/GLFW/Joystick.pm6",
+    "GLFW::Image" : "lib/GLFW/Image.pm6",
+    "GLFW" : "lib/GLFW.pm6",
+    "GLFW::Key" : "lib/GLFW/Key.pm6",
+    "GLFW::Monitor" : "lib/GLFW/Monitor.pm6",
+    "GLFW::GammaRamp" : "lib/GLFW/GammaRamp.pm6"
+  },
+  "license" : "Zlib",
+  "version" : "0.1.0",
+  "authors" : [
+    "Ryan S. Northrup"
+  ],
+  "description" : "Perl 6 wrapper around GLFW3"
+}
+,
+{
   "name" : "PrettyDump",
   "source-url" : "git@github.com:briandfoy/perl6-PrettyDump.git",
   "perl" : "6.c",
@@ -15757,6 +19261,26 @@
     "Mike Doherty"
   ],
   "description" : "Flip text upside-down using Unicode. Perl 5 -> 6 port."
+}
+,
+{
+  "name" : "HTML::Escape",
+  "source-url" : "git://github.com/moznion/p6-HTML-Escape.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "HTML::Escape" : "lib/HTML/Escape.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Utility of HTML escaping",
+  "authors" : [
+    "moznion"
+  ]
 }
 ,
 {
@@ -15945,6 +19469,34 @@
   ],
   "version" : "0.0.4",
   "description" : "Minimal class for the creation and editing of PDF documents",
+  "authors" : [
+    "David Warring"
+  ]
+}
+,
+{
+  "name" : "PDF::API6",
+  "source-url" : "git://github.com/p6-pdf/PDF-API6.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:p6-pdf",
+  "depends" : [
+    "PDF",
+    "PDF::Class",
+    "PDF::Content"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "pdf"
+  ],
+  "provides" : {
+    "PDF::API6" : "lib/PDF/API6.pm",
+    "PDF::API6::Preferences" : "lib/PDF/API6/Preferences.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.1",
+  "description" : "Facilitates the creation and modification of PDF files",
   "authors" : [
     "David Warring"
   ]
@@ -16144,6 +19696,87 @@
 }
 ,
 {
+  "name" : "FastCGI::NativeCall::Async",
+  "perl" : "6.c",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "https://github.com/jonathanstowe/FastCGI-NativeCall-Async.git",
+    "bugtracker" : "https://github.com/jonathanstowe/FastCGI-NativeCall-Async/issues"
+  },
+  "source-url" : "https://github.com/jonathanstowe/FastCGI-NativeCall-Async.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "FastCGI::NativeCall"
+  ],
+  "provides" : {
+    "FastCGI::NativeCall::Async" : "lib/FastCGI/NativeCall/Async.pm"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "http",
+    "fastcgi",
+    "fcgi",
+    "async"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.1",
+  "description" : "A reactive wrapper for FastCGI::NatveCalll",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk"
+  ]
+}
+,
+{
+  "name" : "Net::ZMQ",
+  "perl" : "6.d",
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "https://github.com/gabrielash/perl6-zmq.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:gabrielash",
+  "depends" : [ ],
+  "provides" : {
+    "Net::ZMQ::V4::Constants" : "lib/Net/ZMQ/V4/Constants.pm",
+    "Net::ZMQ::EchoServer" : "lib/Net/ZMQ/EchoServer.pm",
+    "Net::ZMQ::Error" : "lib/Net/ZMQ/Error.pm",
+    "Net::ZMQ::Proxy" : "lib/Net/ZMQ/Proxy.pm",
+    "Net::ZMQ::Version" : "lib/Net/ZMQ/Version.pm",
+    "Net::ZMQ::ContextOptions" : "lib/Net/ZMQ/ContextOptions.pm",
+    "Net::ZMQ::Poll" : "lib/Net/ZMQ/Poll.pm",
+    "Net::ZMQ::Socket" : "lib/Net/ZMQ/Socket.pm",
+    "Net::ZMQ::V4::LowLevel" : "lib/Net/ZMQ/V4/LowLevel.pm",
+    "Net::ZMQ::SocketOptions" : "lib/Net/ZMQ/SocketOptions.pm",
+    "Net::ZMQ::Context" : "lib/Net/ZMQ/Context.pm",
+    "Net::ZMQ::Message" : "lib/Net/ZMQ/Message.pm",
+    "Net::ZMQ::Common" : "lib/Net/ZMQ/Common.pm"
+  },
+  "test-depends" : [
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "Net",
+    "Messaging",
+    "Native"
+  ],
+  "meta-version" : "0",
+  "version" : "0.1.2",
+  "production" : false,
+  "description" : "Perl6 interface for ZeroMQ",
+  "authors" : [
+    "Gabriel Ash",
+    "github:gabrielash"
+  ]
+}
+,
+{
   "name" : "NativeHelpers::CBuffer",
   "source-url" : "git://github.com/scovit/NativeHelpers-CBuffer.git",
   "perl" : "6.c",
@@ -16260,6 +19893,42 @@
 }
 ,
 {
+  "name" : "GDBM",
+  "perl" : "6.c",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "https://github.com/jonathanstowe/p6-GDBM.git",
+    "bugtracker" : "https://github.com/jonathanstowe/p6-GDBM/issues"
+  },
+  "source-url" : "https://github.com/jonathanstowe/p6-GDBM.git",
+  "build-depends" : [
+    "LibraryMake",
+    "Shell::Command"
+  ],
+  "resources" : [
+    "libraries/gdbmhelper"
+  ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "provides" : {
+    "GDBM" : "lib/GDBM.pm"
+  },
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "gdbm",
+    "dbm",
+    "hash"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.3",
+  "description" : "GNU dbm binding for Perl 6",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "CommandLine::Usage",
   "source-url" : "https://github.com/7ojo/p6-commandline-usage.git",
   "perl" : "6",
@@ -16309,6 +19978,63 @@
 }
 ,
 {
+  "name" : "Scheduler::DRMAA",
+  "source-url" : "git://github.com/scovit/Scheduler-DRMAA.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "File::Temp",
+    "NativeHelpers::CBuffer"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "DRMAA" : "lib/DRMAA.pm6",
+    "DRMAA::NativeCall" : "lib/DRMAA/NativeCall.pm6",
+    "DRMAA::Native-specification::Default" : "lib/DRMAA/Native-specification/Default.pm6",
+    "DRMAA::Session" : "lib/DRMAA/Session.pm6",
+    "DRMAA::Native-specification::SLURM" : "lib/DRMAA/Native-specification/SLURM.pm6",
+    "X::DRMAA" : "lib/X/DRMAA.pm6",
+    "Scheduler::DRMAA" : "lib/Scheduler/DRMAA.pm6",
+    "DRMAA::Submission" : "lib/DRMAA/Submission.pm6",
+    "DRMAA::Job-template" : "lib/DRMAA/Job-template.pm6",
+    "DRMAA::Submission::Status" : "lib/DRMAA/Submission/Status.pm6",
+    "DRMAA::Native-specification" : "lib/DRMAA/Native-specification.pm6"
+  },
+  "license" : "GPL-3.0",
+  "version" : "0.0.1",
+  "description" : "Bindings for the DRMAA cluster library",
+  "authors" : [
+    "Vittore F. Scolari"
+  ]
+}
+,
+{
+  "name" : "Reminders",
+  "support" : {
+    "source" : "https://github.com/zoffixznet/perl6-Reminders.git"
+  },
+  "perl" : "6.c",
+  "depends" : [
+    "OO::Monitors",
+    "DBIish"
+  ],
+  "provides" : {
+    "Reminders" : "lib/Reminders.pm6"
+  },
+  "test-depends" : [
+    "Test",
+    "Temp::Path"
+  ],
+  "version" : "1.001004",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Class for managing reminders about tasks and events"
+}
+,
+{
   "name" : "panda-stub",
   "source-url" : "git://github.com/stmuk/p6-panda-stub",
   "perl" : "6.c",
@@ -16347,6 +20073,67 @@
 }
 ,
 {
+  "name" : "Pastebin::Shadowcat",
+  "support" : {
+    "source" : "git://github.com/zoffixznet/perl6-Pastebin-Shadowcat.git"
+  },
+  "perl" : "6.c",
+  "depends" : [
+    "HTTP::UserAgent",
+    "URI::Encode",
+    "HTML::Entity"
+  ],
+  "provides" : {
+    "Pastebin::Shadowcat" : "lib/Pastebin/Shadowcat.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "pastebin"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "2.001003",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Use http://fpaste.scsys.co.uk/ pastebin from Perl 6"
+}
+,
+{
+  "name" : "Format::Lisp",
+  "source-url" : "https://github.com/drforr/perl6-Format-Lisp.git",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "https://github.com/drforr/perl6-Format-Lisp"
+  },
+  "build-depends" : [ ],
+  "auth" : "github:drforr",
+  "depends" : [ ],
+  "license" : "Artistic-2.0",
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "Format::Lisp" : "lib/Format/Lisp.pm6",
+    "Format::Lisp::Grammar" : "lib/Format/Lisp/Grammar.pm6",
+    "Format::Lisp::Actions" : "lib/Format/Lisp/Actions.pm6"
+  },
+  "tags" : [
+    "format",
+    "formatter",
+    "formatiing",
+    "Lisp"
+  ],
+  "version" : "0.0.1",
+  "description" : "Implement Common Lisp formatter for Perl 6",
+  "authors" : [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "meta6" : "0"
+}
+,
+{
   "name" : "Digest::FNV",
   "source-url" : "git://github.com/tony-o/perl6-digest-fnv.git",
   "perl" : "6.*",
@@ -16357,6 +20144,94 @@
   },
   "version" : "0.1.0",
   "description" : "FNV[1|0|1a] for the masses"
+}
+,
+{
+  "name" : "Acme::Advent::Highlighter",
+  "support" : {
+    "source" : "https://github.com/zoffixznet/perl6-Acme-Advent-Highlighter.git"
+  },
+  "perl" : "6.c",
+  "depends" : [
+    "Text::Markdown",
+    "DOM::Tiny",
+    "Pastebin::Gist",
+    "UUID",
+    "WWW"
+  ],
+  "provides" : {
+    "Acme::Advent::Highlighter::MultiMarkdown" : "lib/Acme/Advent/Highlighter/MultiMarkdown.pm6",
+    "Acme::Advent::Highlighter::HTMLParser" : "lib/Acme/Advent/Highlighter/HTMLParser.pm6",
+    "Acme::Advent::Highlighter" : "lib/Acme/Advent/Highlighter.pm6"
+  },
+  "test-depends" : [
+    "Test::When"
+  ],
+  "tags" : [
+    "utils"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.002002",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Preprocessor for Perl 6 Advent Articles"
+}
+,
+{
+  "name" : "Wikidata::API",
+  "source-url" : "https://github.com/JJ/p6-wikidata-API.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "URI::Encode",
+    "HTTP::Client",
+    "JSON::Tiny"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [
+    "wrapper",
+    "SPARQL",
+    "wikidata"
+  ],
+  "provides" : {
+    "Wikidata::API" : "lib/Wikidata/API.pm6"
+  },
+  "license" : "GPL-3.0",
+  "version" : "0.0.4",
+  "description" : "A thin wrapper for querying Wikidata using SPARQL",
+  "authors" : [
+    "JJ Merelo"
+  ]
+}
+,
+{
+  "name" : "Proxee",
+  "support" : {
+    "source" : "https://github.com/zoffixznet/perl6-Proxee.git"
+  },
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Proxee" : "lib/Proxee.pm6",
+    "Proxee::X::CannotBindStore" : "lib/Proxee.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "containers"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001004",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "A more usable Proxy with bells"
 }
 ,
 {
@@ -16574,6 +20449,32 @@
 }
 ,
 {
+  "name" : "CoreHackers::Q",
+  "support" : {
+    "source" : "https://github.com/zoffixznet/q.git"
+  },
+  "perl" : "6.c",
+  "depends" : [
+    "HTML::Escape"
+  ],
+  "provides" : {
+    "CoreHackers::Q::Parser::Actions" : "lib/CoreHackers/Q/Parser/Actions.pm6",
+    "CoreHackers::Q" : "lib/CoreHackers/Q.pm6",
+    "CoreHackers::Q::Parser" : "lib/CoreHackers/Q/Parser.pm6"
+  },
+  "test-depends" : [ ],
+  "tags" : [
+    "core dev"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001005",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Perl 6 QAST Visualizer"
+}
+,
+{
   "name" : "Subsets::IO",
   "support" : {
     "source" : "https://github.com/zoffixznet/perl6-Subsets-IO.git"
@@ -16714,6 +20615,35 @@
 }
 ,
 {
+  "name" : "Java::Generate",
+  "support" : {
+    "source" : "https://github.com/Altai-man/perl6-Java-Generate.git"
+  },
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "Java::Generate::CompUnit" : "lib/Java/Generate/CompUnit.pm6",
+    "Java::Generate::ASTNode" : "lib/Java/Generate/ASTNode.pm6",
+    "Java::Generate::JavaMethod" : "lib/Java/Generate/JavaMethod.pm6",
+    "Java::Generate::Class" : "lib/Java/Generate/Class.pm6",
+    "Java::Generate::Utils" : "lib/Java/Generate/Utils.pm6",
+    "Java::Generate::JavaSignature" : "lib/Java/Generate/JavaSignature.pm6",
+    "Java::Generate::Interface" : "lib/Java/Generate/Interface.pm6",
+    "Java::Generate::Variable" : "lib/Java/Generate/Variable.pm6",
+    "Java::Generate::JavaParameter" : "lib/Java/Generate/JavaParameter.pm6",
+    "Java::Generate::Expression" : "lib/Java/Generate/Expression.pm6",
+    "Java::Generate::Literal" : "lib/Java/Generate/Literal.pm6",
+    "Java::Generate::Argument" : "lib/Java/Generate/Argument.pm6",
+    "Java::Generate::Statement" : "lib/Java/Generate/Statement.pm6"
+  },
+  "tags" : [ ],
+  "version" : "1.0.0",
+  "meta-version" : 1,
+  "authors" : "Altai-man <altay-man@mail.ru>",
+  "description" : "Generates Java code from AST"
+}
+,
+{
   "name" : "App::FindSource",
   "support" : {
     "source" : "https://github.com/araraloren/perl6-app-findsource.git",
@@ -16798,6 +20728,30 @@
   "authors" : [
     "fernando"
   ]
+}
+,
+{
+  "api" : "1",
+  "name" : "CUID",
+  "source-url" : "git://github.com/marcoonroad/perl6-cuid.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:marcoonroad",
+  "depends" : [ ],
+  "tags" : [
+    "CUID"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "CUID" : "lib/CUID.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "authors" : [
+    "Marco Aur\u00e9lio da Silva"
+  ],
+  "description" : "CUID generator for Perl 6."
 }
 ,
 {
@@ -16958,6 +20912,37 @@
 }
 ,
 {
+  "name" : "Test::Declare",
+  "source-url" : "https://github.com/darrenf/p6-test-declare.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:darrenf",
+  "depends" : [
+    "IO::Capture::Simple",
+    "Test"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Testing"
+  ],
+  "provides" : {
+    "Test::Declare::Suite" : "lib/Test/Declare/Suite.pm6",
+    "Test::Declare::Result" : "lib/Test/Declare/Result.pm6",
+    "Test::Declare::Comparisons" : "lib/Test/Declare/Comparisons.pm6",
+    "Test::Declare::Callable" : "lib/Test/Declare/Callable.pm6",
+    "Test::Declare::Expectations" : "lib/Test/Declare/Expectations.pm6",
+    "Test::Declare" : "lib/Test/Declare.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Declare common test scenarios as data.",
+  "authors" : [
+    "Darren Foreman"
+  ]
+}
+,
+{
   "name" : "App::GymScheduler",
   "support" : {
     "source" : "https://github.com/zoffixznet/perl6-App-GymScheduler.git"
@@ -17000,6 +20985,58 @@
 }
 ,
 {
+  "name" : "WWW::vlc::Remote",
+  "source-url" : "https://github.com/zoffixznet/perl6-WWW-vlc-Remote.git",
+  "perl" : "6.c",
+  "depends" : [
+    "DOM::Tiny",
+    "HTTP::UserAgent",
+    "URI::Encode"
+  ],
+  "provides" : {
+    "WWW::vlc::Remote::Track" : "lib/WWW/vlc/Remote.pm6",
+    "WWW::vlc::Remote::X::Network" : "lib/WWW/vlc/Remote.pm6",
+    "WWW::vlc::Remote" : "lib/WWW/vlc/Remote.pm6",
+    "WWW::vlc::Remote::X" : "lib/WWW/vlc/Remote.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001008",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Control vlc media player via its Web interface"
+}
+,
+{
+  "name" : "Trie",
+  "source-url" : "https://github.com/FCO/Trie.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "OrderedHash"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "trie",
+    "data structures"
+  ],
+  "provides" : {
+    "Trie" : "lib/Trie.pm6",
+    "X::Trie::MultipleValues" : "lib/X/Trie/MultipleValues.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "A Trie implementation",
+  "authors" : [
+    "Fernando Correa de Oliveira"
+  ]
+}
+,
+{
   "name" : "OrderedHash",
   "source-url" : "git://github.com/FCO/OrderedHash.git",
   "perl" : "6.c",
@@ -17038,6 +21075,31 @@
 }
 ,
 {
+  "name" : "Sustenance",
+  "support" : {
+    "source" : "https://github.com/atweiden/sustenance",
+    "bugtracker" : "https://github.com/atweiden/sustenance/issues"
+  },
+  "source-url" : "git://github.com/atweiden/sustenance.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "author" : "atweiden",
+  "depends" : [
+    "Config::TOML"
+  ],
+  "provides" : {
+    "Sustenance::Parser" : "lib/Sustenance/Parser.pm6",
+    "X::Sustenance" : "lib/X/Sustenance.pm6",
+    "Sustenance" : "lib/Sustenance.pm6",
+    "Sustenance::Parser::ParseTree" : "lib/Sustenance/Parser/ParseTree.pm6",
+    "Sustenance::Types" : "lib/Sustenance/Types.pm6"
+  },
+  "license" : "Unlicense",
+  "version" : "0.0.1",
+  "description" : "Calorie tracker"
+}
+,
+{
   "name" : "Net::Ethereum",
   "source-url" : "git://gitlab.com/pheix/net-ethereum-perl6.git",
   "perl" : "6.*",
@@ -17048,6 +21110,26 @@
   "license" : "Artistic-2.0",
   "version" : "0.0.28",
   "description" : "A Perl6 interface for interacting with the Ethereum blockchain and ecosystem via JSON RPC API"
+}
+,
+{
+  "name" : "SeqSplitter",
+  "source-url" : "https://github.com/FCO/SeqSplitter.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "ChainableSeq" : "lib/SeqSplitter.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "SeqSplitter is a \"better solution\" for .toggle it was being discussed here https://github.com/rakudo/rakudo/issues/2089",
+  "authors" : [
+    "Fernando Correa de Oliveira"
+  ]
 }
 ,
 {
