@@ -8312,24 +8312,6 @@
 }
 ,
 {
-  "name" : "App::p6tags",
-  "source-url" : "git://github.com/stmuk/p6-app-p6tags.git",
-  "perl" : "6.c",
-  "depends" : [
-    "File::Find"
-  ],
-  "provides" : {
-    "App::p6tags" : "bin/p6tags"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.6",
-  "authors" : [
-    "Steve Mynott <steve.mynott@gmail.com>"
-  ],
-  "description" : "Generate editor tags for perl6. "
-}
-,
-{
   "name" : "Hiker",
   "source-url" : "git://github.com/tony-o/perl6-hiker.git",
   "perl" : "6.*",
