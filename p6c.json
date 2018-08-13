@@ -4700,19 +4700,6 @@
 }
 ,
 {
-  "name" : "Coroutines",
-  "source-url" : "git://github.com/tadzik/Coroutines.git",
-  "perl" : "6.*",
-  "depends" : [ ],
-  "provides" : {
-    "Coroutines" : "lib/Coroutines.pm"
-  },
-  "license" : "MIT",
-  "version" : "*",
-  "description" : "The only fake threads in Perl 6"
-}
-,
-{
   "name" : "Debugger::UI::CommandLine",
   "source-url" : "git://github.com/jnthn/rakudo-debugger.git",
   "perl" : "6.*",
