@@ -5465,46 +5465,6 @@
 }
 ,
 {
-  "name" : "Shell::Command",
-  "source-url" : "git://github.com/tadzik/Shell-Command.git",
-  "support" : {
-    "source" : "git://github.com/tadzik/Shell-Command.git",
-    "bugtracker" : "https://github.com/tadzik/Shell-Command/issues"
-  },
-  "perl" : "6.*",
-  "build-depends" : [
-    "File::Find"
-  ],
-  "depends" : [
-    "File::Which",
-    "File::Find"
-  ],
-  "provides" : {
-    "Shell::Command" : "lib/Shell/Command.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "version" : "*",
-  "authors" : [
-    "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-    "Dagur Valberg Johansson",
-    "Elizabeth Mattijsen",
-    "Filip Sergot",
-    "Geoffrey Broadwell",
-    "GlitchMr",
-    "Heather",
-    "Kamil Ku\u0142aga",
-    "Moritz Lenz",
-    "Steve Mynott",
-    "timo",
-    "Tobias Leich",
-    "Tim Smith"
-  ],
-  "description" : "Common shell command replacements"
-}
-,
-{
   "name" : "JSON::Unmarshal",
   "source-url" : "git://github.com/tadzik/JSON-Unmarshal.git",
   "perl" : "6.c",
