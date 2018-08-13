@@ -8114,37 +8114,6 @@
 }
 ,
 {
-  "name" : "LibraryCheck",
-  "perl" : "6.c",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/LibraryCheck.git"
-  },
-  "source-url" : "git://github.com/jonathanstowe/LibraryCheck.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "LibraryCheck" : "lib/LibraryCheck.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "build",
-    "utils"
-  ],
-  "version" : "0.0.6",
-  "meta6" : "0",
-  "description" : "Quick hack to determine whether a shared libray is present",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
-}
-,
-{
   "name" : "ANTLR4::Grammar",
   "support" : {
     "source" : "https://github.com/drforr/perl6-ANTLR4.git"
