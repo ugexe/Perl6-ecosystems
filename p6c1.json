@@ -11055,6 +11055,26 @@
 }
 ,
 {
+  "name" : "Haikunator",
+  "source-url" : "git://github.com/Atrox/haikunatorperl.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "provides" : {
+    "Haikunator" : "lib/Haikunator.pm6"
+  },
+  "license" : "BSD-3-Clause",
+  "version" : "0.1.0",
+  "authors" : [
+    "Atrox <mail@atrox.me>"
+  ],
+  "description" : "Generate Heroku-like random names to use in your perl 6 applications."
+}
+,
+{
   "name" : "StrictNamedArguments",
   "source-url" : "git://github.com/nxadm/StrictNamedArguments.git",
   "perl" : "6.*",
