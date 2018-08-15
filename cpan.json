@@ -12737,6 +12737,27 @@
 }
 ,
 {
+  "name" : "Range::SetOps",
+  "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Range-SetOps-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:SCIMON",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Range::SetOps" : "lib/Range/SetOps.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Provides set operators geared to work on ranges.",
+  "authors" : [
+    "Simon Proctor"
+  ]
+}
+,
+{
   "name" : "Test::HTTP::Server",
   "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Test-HTTP-Server-0.1.0.tar.gz",
   "perl" : "6.c",
