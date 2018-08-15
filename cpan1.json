@@ -1603,6 +1603,29 @@
 }
 ,
 {
+  "name" : "Array::Circular",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Array-Circular-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Array::Circular" : "lib/Array/Circular.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "add \"is circular\" trait to Arrays",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Attribute::Predicate",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Attribute-Predicate-0.0.1.tar.gz",
   "perl" : "6.c",
