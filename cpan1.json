@@ -10273,6 +10273,39 @@
 }
 ,
 {
+  "name" : "Sparrowdo::VSTS::YAML::Cordova",
+  "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Cordova-0.0.7.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "windows/npm-install.cmd",
+    "windows/npm-install-cordova.cmd",
+    "windows/prepare.cmd",
+    "windows/platform-add.cmd",
+    "windows/set-version.pl",
+    "windows/build.cmd",
+    "windows/build.yaml",
+    "windows/clean-build-dir.cmd"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::VSTS::YAML::Cordova" : "lib/Sparrowdo/VSTS/YAML/Cordova.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.7",
+  "description" : "Sparrowdo module to generate VSTS yaml build definition steps for Cordova build",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
   "name" : "Sparrowdo::VSTS::YAML::DotNet",
   "support" : { },
   "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-DotNet-0.0.1.tar.gz",
