@@ -9686,6 +9686,28 @@
 }
 ,
 {
+  "name" : "Digest::xxHash",
+  "support" : {
+    "source" : "https://github.com/atweiden/digest-xxhash",
+    "bugtracker" : "https://github.com/atweiden/digest-xxhash/issues"
+  },
+  "source-url" : "git://github.com/atweiden/digest-xxhash.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "provides" : {
+    "Digest::xxHash" : "lib/Digest/xxHash.pm6"
+  },
+  "license" : "Unlicense",
+  "version" : "1.0.1",
+  "description" : "xxHash bindings for Perl6",
+  "authors" : [
+    "Bart\u0142omiej Palmowski",
+    "atweiden",
+    "Steve Schulze (thundergnat)"
+  ]
+}
+,
+{
   "name" : "WebSocket",
   "source-url" : "git://github.com/tokuhirom/p6-Protocol-WebSocket.git",
   "perl" : "6.c",
@@ -9775,6 +9797,39 @@
   "license" : "Artistic-2.0",
   "version" : "*",
   "description" : "Binding of the gumbo C library, a html parser lib"
+}
+,
+{
+  "name" : "Object::Permission",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/Object-Permission.git"
+  },
+  "source-url" : "git://github.com/jonathanstowe/Object-Permission.git",
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "provides" : {
+    "Object::Permission" : "lib/Object/Permission.pm"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "devel",
+    "authorisation",
+    "object",
+    "user"
+  ],
+  "version" : "0.0.2",
+  "meta6" : "0",
+  "description" : "Experimental method (and public attribute accessor,) level authorisation",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
 }
 ,
 {
