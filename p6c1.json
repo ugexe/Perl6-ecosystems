@@ -4403,25 +4403,6 @@
 }
 ,
 {
-  "name" : "Parse::Selenese",
-  "source-url" : "git://github.com/azawawi/perl6-parse-selenese.git",
-  "perl" : "6.*",
-  "depends" : [ ],
-  "provides" : {
-    "Parse::Selenese::TestCaseDef" : "lib/Parse/Selenese/TestCaseDef.pm6",
-    "Parse::Selenese::TestCase" : "lib/Parse/Selenese/TestCase.pm6",
-    "Parse::Selenese::Grammar" : "lib/Parse/Selenese/Grammar.pm6",
-    "Parse::Selenese::Actions" : "lib/Parse/Selenese/Actions.pm6",
-    "Parse::Selenese" : "lib/Parse/Selenese.pm6",
-    "Parse::Selenese::TestSuite" : "lib/Parse/Selenese/TestSuite.pm6",
-    "Parse::Selenese::Command" : "lib/Parse/Selenese/Command.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "*",
-  "description" : "A Parser for Selenium Test Cases and Suites"
-}
-,
-{
   "name" : "Selenium::WebDriver",
   "source-url" : "git://github.com/azawawi/perl6-selenium-webdriver.git",
   "perl" : "6.c",
@@ -6437,30 +6418,6 @@
 }
 ,
 {
-  "name" : "Pluggable",
-  "source-url" : "https://github.com/tony-o/perl6-pluggable.git",
-  "perl" : "6.c",
-  "auth" : "github:tony-o",
-  "depends" : [
-    "Test::META"
-  ],
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "Pluggable" : "lib/Pluggable.pm6"
-  },
-  "test-depends" : [
-    "SVG::Plot::Pie",
-    "File::Find"
-  ],
-  "version" : "0.2",
-  "authors" : [
-    "Robert Lemmen",
-    "Tony ODell"
-  ],
-  "description" : "Find plugin classes or modules"
-}
-,
-{
   "name" : "DB::ORM::Quicky",
   "source-url" : "git://github.com/tony-o/perl6-db-orm-quicky.git",
   "perl" : "6.*",
@@ -6529,22 +6486,6 @@
   "version" : "0.8.6",
   "authors" : "Paul Cochrane",
   "description" : "Hannover Perl Mongers."
-}
-,
-{
-  "name" : "Operator::feq",
-  "source-url" : "git://github.com/tony-o/perl6-operator-feq.git",
-  "perl" : "6.*",
-  "auth" : "github:tony-o",
-  "depends" : [
-    "Text::Levenshtein::Damerau"
-  ],
-  "provides" : {
-    "Operator::feq" : "lib/Operator/feq.pm6",
-    "Operator::feq::Levenshtein" : "lib/Operator/feq/Levenshtein.pm6"
-  },
-  "version" : "0.1.1",
-  "description" : "Adds a fuzzy matching operator for clean and fuzzy string matching in 'if' statements"
 }
 ,
 {
@@ -8936,6 +8877,59 @@
 }
 ,
 {
+  "name" : "Green",
+  "source-url" : "git://github.com/tony-o/perl6-green.git",
+  "perl" : "6.*",
+  "auth" : "github:tony-o",
+  "depends" : [
+    "Terminal::ANSIColor"
+  ],
+  "provides" : {
+    "Green" : "lib/Green.pm6"
+  },
+  "version" : "0.1.3",
+  "authors" : [
+    "Tony O"
+  ],
+  "description" : "Parallel testing utility, it's really great"
+}
+,
+{
+  "name" : "UNIX::Privileges",
+  "perl" : "6.c",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/p6-unix-privileges.git"
+  },
+  "source-url" : "git://github.com/jonathanstowe/p6-unix-privileges.git",
+  "author" : "github:carbin",
+  "build-depends" : [
+    "LibraryMake",
+    "Shell::Command"
+  ],
+  "resources" : [
+    "libraries/unix_privileges"
+  ],
+  "auth" : "github:carbin",
+  "depends" : [ ],
+  "provides" : {
+    "UNIX::Privileges" : "lib/UNIX/Privileges.pm6"
+  },
+  "test-depends" : [ ],
+  "license" : "ISC",
+  "tags" : [
+    "unix",
+    "privileges",
+    "daemon"
+  ],
+  "meta-version" : "0",
+  "version" : "0.1.1",
+  "description" : "A module for handling UNIX Privileges",
+  "authors" : [
+    "carbin"
+  ]
+}
+,
+{
   "name" : "HTTP::MultiPartParser",
   "perl" : "6",
   "source-url" : "git://github.com/tokuhirom/p6-HTTP-MultiPartParser.git",
@@ -11043,50 +11037,6 @@
 }
 ,
 {
-  "name" : "Data::Dump::Tree",
-  "source-url" : "https://github.com/nkh/P6-Data-Dump-Tree.git",
-  "perl" : "6.c",
-  "auth" : "github:nkh",
-  "depends" : [ ],
-  "tags" : [
-    "data",
-    "dump",
-    "render",
-    "presentation",
-    "diff",
-    "HTML",
-    "Layout",
-    "dumper"
-  ],
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "provides" : {
-    "Data::Dump::Tree::Diff" : "lib/Data/Dump/Tree/Diff.pm",
-    "Data::Dump::Tree::Colorizer" : "lib/Data/Dump/Tree/Colorizer.pm",
-    "Data::Dump::Tree::DHTML" : "lib/Data/Dump/Tree/DHTML.pm",
-    "Data::Dump::Tree::Horizontal" : "lib/Data/Dump/Tree/Horizontal.pm",
-    "Data::Dump::Tree::Foldable" : "lib/Data/Dump/Tree/Foldable.pm",
-    "Data::Dump::Tree::ExtraRoles" : "lib/Data/Dump/Tree/ExtraRoles.pm",
-    "DDT" : "lib/Data/Dump/Tree.pm",
-    "Data::Dump::Tree::TerminalFoldable" : "lib/Data/Dump/Tree/TerminalFoldable.pm",
-    "Data::Dump::Tree::DescribeBaseObjects" : "lib/Data/Dump/Tree/DescribeBaseObjects.pm",
-    "Data::Dump::Tree::LayHorizontal" : "lib/Data/Dump/Tree/LayHorizontal.pm",
-    "Data::Dump::Tree" : "lib/Data/Dump/Tree.pm",
-    "Data::Dump::Tree::Ddt" : "lib/Data/Dump/Tree/Ddt.pm",
-    "Data::Dump::Tree::MultiColumns" : "lib/Data/Dump/Tree/MultiColumns.pm",
-    "Data::Dump::Tree::Enums" : "lib/Data/Dump/Tree/Enums.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "1.8.0",
-  "description" : "Render data structures as trees; user definable filters",
-  "authors" : [
-    "Nadim Khemir"
-  ]
-}
-,
-{
   "name" : "File::LibMagic",
   "source-url" : "git://github.com/autarch/perl6-File-LibMagic.git",
   "perl" : "6.*",
@@ -11136,65 +11086,6 @@
   "license" : "Artistic-2.0",
   "version" : "0.1.0",
   "description" : "A bloom filter implementation in Perl 6",
-  "authors" : [
-    "yowcow"
-  ]
-}
-,
-{
-  "name" : "Digest::MurmurHash3",
-  "source-url" : "https://github.com/yowcow/p6-Digest-MurmurHash3.git",
-  "perl" : "6.c",
-  "resources" : [
-    "libmurmurhash3.dylib",
-    "libmurmurhash3.dll",
-    "libmurmurhash3.so"
-  ],
-  "build-depends" : [
-    "LibraryMake"
-  ],
-  "depends" : [
-    "LibraryMake",
-    "NativeCall"
-  ],
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "tags" : [ ],
-  "provides" : {
-    "Digest::MurmurHash3" : "lib/Digest/MurmurHash3.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.1.5",
-  "description" : "MurmurHash3 implementation for Perl 6",
-  "authors" : [
-    "yowcow"
-  ]
-}
-,
-{
-  "name" : "String::CamelCase",
-  "source-url" : "https://github.com/yowcow/p6-String-CamelCase.git",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "tags" : [
-    "text",
-    "string",
-    "camelcase"
-  ],
-  "provides" : {
-    "String::CamelCase" : "lib/String/CamelCase.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "1.0.3",
-  "description" : "Camelizes and decamelizes given string",
   "authors" : [
     "yowcow"
   ]
@@ -11492,6 +11383,40 @@
     "Zoffix Znet"
   ],
   "description" : "Test the output to STDOUT and STDERR your program generates"
+}
+,
+{
+  "name" : "IO::Path::Mode",
+  "perl" : "6.c",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/IO-Path-Mode.git",
+    "bugtracker" : "https://github.com/jonathanstowe/IO-Path-Mode/issues"
+  },
+  "source-url" : "git://github.com/jonathanstowe/IO-Path-Mode.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "provides" : {
+    "IO::Path::Mode" : "lib/IO/Path/Mode.pm"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "IO",
+    "permissions",
+    "mode",
+    "utility"
+  ],
+  "version" : "0.0.6",
+  "meta6" : "0",
+  "description" : "Augment IO::Path with a .mode() method to get the file mode",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
 }
 ,
 {
