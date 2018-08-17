@@ -40,41 +40,6 @@
 }
 ,
 {
-  "name" : "Do123",
-  "source-url" : "git://github.com/nige123/app.123.do.git",
-  "support" : {
-    "bugtracker" : "https://github.com/nige123/app.123.do/issues"
-  },
-  "perl" : "6",
-  "resources" : [ ],
-  "auth" : "github:nige123",
-  "depends" : [
-    "Terminal::ANSIColor",
-    "jmp"
-  ],
-  "tags" : [
-    "todo",
-    "timeline"
-  ],
-  "provides" : {
-    "Do::Timeline::Grammar::Actions" : "lib/Do/Timeline/Grammar/Actions.pm",
-    "Do::Timeline" : "lib/Do/Timeline.pm",
-    "Do" : "lib/Do.pm",
-    "Do::Timeline::Viewport" : "lib/Do/Timeline/Viewport.pm",
-    "Do::CLI" : "lib/Do/CLI.pm",
-    "Do::Timeline::Entry" : "lib/Do/Timeline/Entry.pm",
-    "Do::Timeline::Grammar" : "lib/Do/Timeline/Grammar.pm",
-    "Do::Editor" : "lib/Do/Editor.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.2",
-  "authors" : [
-    "Nigel Hamilton"
-  ],
-  "description" : "a timeline to help your work flow: do, doing, done"
-}
-,
-{
   "name" : "Grammar::Tracer::Compact",
   "source-url" : "git://github.com/nkh/P6-Grammar-Tracer-Compact.git",
   "perl" : "6.c",
@@ -4403,6 +4368,25 @@
 }
 ,
 {
+  "name" : "Parse::Selenese",
+  "source-url" : "git://github.com/azawawi/perl6-parse-selenese.git",
+  "perl" : "6.*",
+  "depends" : [ ],
+  "provides" : {
+    "Parse::Selenese::TestCaseDef" : "lib/Parse/Selenese/TestCaseDef.pm6",
+    "Parse::Selenese::TestCase" : "lib/Parse/Selenese/TestCase.pm6",
+    "Parse::Selenese::Grammar" : "lib/Parse/Selenese/Grammar.pm6",
+    "Parse::Selenese::Actions" : "lib/Parse/Selenese/Actions.pm6",
+    "Parse::Selenese" : "lib/Parse/Selenese.pm6",
+    "Parse::Selenese::TestSuite" : "lib/Parse/Selenese/TestSuite.pm6",
+    "Parse::Selenese::Command" : "lib/Parse/Selenese/Command.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "*",
+  "description" : "A Parser for Selenium Test Cases and Suites"
+}
+,
+{
   "name" : "Selenium::WebDriver",
   "source-url" : "git://github.com/azawawi/perl6-selenium-webdriver.git",
   "perl" : "6.c",
@@ -6418,6 +6402,30 @@
 }
 ,
 {
+  "name" : "Pluggable",
+  "source-url" : "https://github.com/tony-o/perl6-pluggable.git",
+  "perl" : "6.c",
+  "auth" : "github:tony-o",
+  "depends" : [
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "Pluggable" : "lib/Pluggable.pm6"
+  },
+  "test-depends" : [
+    "SVG::Plot::Pie",
+    "File::Find"
+  ],
+  "version" : "0.2",
+  "authors" : [
+    "Robert Lemmen",
+    "Tony ODell"
+  ],
+  "description" : "Find plugin classes or modules"
+}
+,
+{
   "name" : "DB::ORM::Quicky",
   "source-url" : "git://github.com/tony-o/perl6-db-orm-quicky.git",
   "perl" : "6.*",
@@ -6486,6 +6494,22 @@
   "version" : "0.8.6",
   "authors" : "Paul Cochrane",
   "description" : "Hannover Perl Mongers."
+}
+,
+{
+  "name" : "Operator::feq",
+  "source-url" : "git://github.com/tony-o/perl6-operator-feq.git",
+  "perl" : "6.*",
+  "auth" : "github:tony-o",
+  "depends" : [
+    "Text::Levenshtein::Damerau"
+  ],
+  "provides" : {
+    "Operator::feq" : "lib/Operator/feq.pm6",
+    "Operator::feq::Levenshtein" : "lib/Operator/feq/Levenshtein.pm6"
+  },
+  "version" : "0.1.1",
+  "description" : "Adds a fuzzy matching operator for clean and fuzzy string matching in 'if' statements"
 }
 ,
 {
@@ -11027,6 +11051,50 @@
 }
 ,
 {
+  "name" : "Data::Dump::Tree",
+  "source-url" : "https://github.com/nkh/P6-Data-Dump-Tree.git",
+  "perl" : "6.c",
+  "auth" : "github:nkh",
+  "depends" : [ ],
+  "tags" : [
+    "data",
+    "dump",
+    "render",
+    "presentation",
+    "diff",
+    "HTML",
+    "Layout",
+    "dumper"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "provides" : {
+    "Data::Dump::Tree::Diff" : "lib/Data/Dump/Tree/Diff.pm",
+    "Data::Dump::Tree::Colorizer" : "lib/Data/Dump/Tree/Colorizer.pm",
+    "Data::Dump::Tree::DHTML" : "lib/Data/Dump/Tree/DHTML.pm",
+    "Data::Dump::Tree::Horizontal" : "lib/Data/Dump/Tree/Horizontal.pm",
+    "Data::Dump::Tree::Foldable" : "lib/Data/Dump/Tree/Foldable.pm",
+    "Data::Dump::Tree::ExtraRoles" : "lib/Data/Dump/Tree/ExtraRoles.pm",
+    "DDT" : "lib/Data/Dump/Tree.pm",
+    "Data::Dump::Tree::TerminalFoldable" : "lib/Data/Dump/Tree/TerminalFoldable.pm",
+    "Data::Dump::Tree::DescribeBaseObjects" : "lib/Data/Dump/Tree/DescribeBaseObjects.pm",
+    "Data::Dump::Tree::LayHorizontal" : "lib/Data/Dump/Tree/LayHorizontal.pm",
+    "Data::Dump::Tree" : "lib/Data/Dump/Tree.pm",
+    "Data::Dump::Tree::Ddt" : "lib/Data/Dump/Tree/Ddt.pm",
+    "Data::Dump::Tree::MultiColumns" : "lib/Data/Dump/Tree/MultiColumns.pm",
+    "Data::Dump::Tree::Enums" : "lib/Data/Dump/Tree/Enums.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.8.0",
+  "description" : "Render data structures as trees; user definable filters",
+  "authors" : [
+    "Nadim Khemir"
+  ]
+}
+,
+{
   "name" : "File::LibMagic",
   "source-url" : "git://github.com/autarch/perl6-File-LibMagic.git",
   "perl" : "6.*",
@@ -11076,6 +11144,65 @@
   "license" : "Artistic-2.0",
   "version" : "0.1.0",
   "description" : "A bloom filter implementation in Perl 6",
+  "authors" : [
+    "yowcow"
+  ]
+}
+,
+{
+  "name" : "Digest::MurmurHash3",
+  "source-url" : "https://github.com/yowcow/p6-Digest-MurmurHash3.git",
+  "perl" : "6.c",
+  "resources" : [
+    "libmurmurhash3.dylib",
+    "libmurmurhash3.dll",
+    "libmurmurhash3.so"
+  ],
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "depends" : [
+    "LibraryMake",
+    "NativeCall"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Digest::MurmurHash3" : "lib/Digest/MurmurHash3.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.5",
+  "description" : "MurmurHash3 implementation for Perl 6",
+  "authors" : [
+    "yowcow"
+  ]
+}
+,
+{
+  "name" : "String::CamelCase",
+  "source-url" : "https://github.com/yowcow/p6-String-CamelCase.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [
+    "text",
+    "string",
+    "camelcase"
+  ],
+  "provides" : {
+    "String::CamelCase" : "lib/String/CamelCase.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0.3",
+  "description" : "Camelizes and decamelizes given string",
   "authors" : [
     "yowcow"
   ]
@@ -13982,32 +14109,6 @@
 }
 ,
 {
-  "name" : "IRC::Async",
-  "support" : {
-    "source" : "git://github.com/scovit/perl6-IRC-Async.git"
-  },
-  "perl" : "6.c",
-  "depends" : [
-    "Readline"
-  ],
-  "provides" : {
-    "IRC::Async::Parser" : "lib/IRC/Async/Parser.pm6",
-    "IRC::Async::Grammar::Actions" : "lib/IRC/Async/Grammar/Actions.pm6",
-    "IRC::Async::Grammar" : "lib/IRC/Async/Grammar.pm6",
-    "IRC::Async" : "lib/IRC/Async.pm6"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "0.9",
-  "authors" : [
-    "Vittore F. Scolari"
-  ],
-  "description" : "IRC client in the reactive paradigm"
-}
-,
-{
   "name" : "Music::Helpers",
   "emulates" : { },
   "perl" : "6",
@@ -14062,26 +14163,6 @@
     "Zoffix Znet"
   ],
   "description" : "create awesome subsets"
-}
-,
-{
-  "name" : "Crypt::Argon2",
-  "source-url" : "git://github.com/skinkade/p6-crypt-argon2.git",
-  "perl" : "6.*",
-  "resources" : [
-    "libraries/argon2"
-  ],
-  "build-depends" : [
-    "Crypt::Random",
-    "LibraryMake"
-  ],
-  "author" : "github:skinkade",
-  "provides" : {
-    "Crypt::Argon2::Base" : "lib/Crypt/Argon2/Base.pm6",
-    "Crypt::Argon2" : "lib/Crypt/Argon2.pm6"
-  },
-  "version" : "0.2.1",
-  "description" : "Easy Argon2i password hashing"
 }
 ,
 {
