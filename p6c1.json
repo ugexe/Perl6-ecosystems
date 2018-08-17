@@ -40,6 +40,41 @@
 }
 ,
 {
+  "name" : "Do123",
+  "source-url" : "git://github.com/nige123/app.123.do.git",
+  "support" : {
+    "bugtracker" : "https://github.com/nige123/app.123.do/issues"
+  },
+  "perl" : "6",
+  "resources" : [ ],
+  "auth" : "github:nige123",
+  "depends" : [
+    "Terminal::ANSIColor",
+    "jmp"
+  ],
+  "tags" : [
+    "todo",
+    "timeline"
+  ],
+  "provides" : {
+    "Do::Timeline::Grammar::Actions" : "lib/Do/Timeline/Grammar/Actions.pm",
+    "Do::Timeline" : "lib/Do/Timeline.pm",
+    "Do" : "lib/Do.pm",
+    "Do::Timeline::Viewport" : "lib/Do/Timeline/Viewport.pm",
+    "Do::CLI" : "lib/Do/CLI.pm",
+    "Do::Timeline::Entry" : "lib/Do/Timeline/Entry.pm",
+    "Do::Timeline::Grammar" : "lib/Do/Timeline/Grammar.pm",
+    "Do::Editor" : "lib/Do/Editor.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2",
+  "authors" : [
+    "Nigel Hamilton"
+  ],
+  "description" : "a timeline to help your work flow: do, doing, done"
+}
+,
+{
   "name" : "Grammar::Tracer::Compact",
   "source-url" : "git://github.com/nkh/P6-Grammar-Tracer-Compact.git",
   "perl" : "6.c",
@@ -14119,6 +14154,32 @@
 }
 ,
 {
+  "name" : "IRC::Async",
+  "support" : {
+    "source" : "git://github.com/scovit/perl6-IRC-Async.git"
+  },
+  "perl" : "6.c",
+  "depends" : [
+    "Readline"
+  ],
+  "provides" : {
+    "IRC::Async::Parser" : "lib/IRC/Async/Parser.pm6",
+    "IRC::Async::Grammar::Actions" : "lib/IRC/Async/Grammar/Actions.pm6",
+    "IRC::Async::Grammar" : "lib/IRC/Async/Grammar.pm6",
+    "IRC::Async" : "lib/IRC/Async.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.9",
+  "authors" : [
+    "Vittore F. Scolari"
+  ],
+  "description" : "IRC client in the reactive paradigm"
+}
+,
+{
   "name" : "Music::Helpers",
   "emulates" : { },
   "perl" : "6",
@@ -14173,6 +14234,26 @@
     "Zoffix Znet"
   ],
   "description" : "create awesome subsets"
+}
+,
+{
+  "name" : "Crypt::Argon2",
+  "source-url" : "git://github.com/skinkade/p6-crypt-argon2.git",
+  "perl" : "6.*",
+  "resources" : [
+    "libraries/argon2"
+  ],
+  "build-depends" : [
+    "Crypt::Random",
+    "LibraryMake"
+  ],
+  "author" : "github:skinkade",
+  "provides" : {
+    "Crypt::Argon2::Base" : "lib/Crypt/Argon2/Base.pm6",
+    "Crypt::Argon2" : "lib/Crypt/Argon2.pm6"
+  },
+  "version" : "0.2.1",
+  "description" : "Easy Argon2i password hashing"
 }
 ,
 {
