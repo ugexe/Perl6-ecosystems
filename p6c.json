@@ -2320,6 +2320,82 @@
 }
 ,
 {
+  "name" : "panda",
+  "support" : {
+    "source" : "git://github.com/tadzik/panda.git",
+    "bugtracker" : "https://github.com/tadzik/panda/issues"
+  },
+  "source-url" : "git://github.com/tadzik/panda.git",
+  "perl" : "6.c",
+  "depends" : [
+    "File::Find",
+    "Shell::Command",
+    "JSON::Fast",
+    "File::Which"
+  ],
+  "provides" : {
+    "Panda::Tester" : "lib/Panda/Tester.pm",
+    "Panda::Fetcher" : "lib/Panda/Fetcher.pm",
+    "Panda::Reporter" : "lib/Panda/Reporter.pm",
+    "Panda::Installer" : "lib/Panda/Installer.pm",
+    "Panda::Ecosystem" : "lib/Panda/Ecosystem.pm",
+    "Panda::Builder" : "lib/Panda/Builder.pm",
+    "Panda::App" : "lib/Panda/App.pm",
+    "Panda::Bundler" : "lib/Panda/Bundler.pm",
+    "Panda" : "lib/Panda.pm",
+    "Panda::Common" : "lib/Panda/Common.pm",
+    "Panda::Project" : "lib/Panda/Project.pm"
+  },
+  "license" : "MIT",
+  "version" : "2016.02",
+  "authors" : [
+    "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+    "Ahmad M. Zawawi",
+    "Alex Kotov",
+    "Andrew Egeler",
+    "Bartlomiej Palmowski",
+    "Ben Tyler",
+    "Caleb Cushing",
+    "Carlin",
+    "Carl M\u00e4sak",
+    "Dagur",
+    "David Warring",
+    "Donald Hunter",
+    "Elizabeth Mattijsen",
+    "flussence",
+    "Geoffrey Broadwell",
+    "Heather",
+    "Ilya Chesnokov",
+    "jnthn",
+    "Jonathan \"Duke\" Leto",
+    "Jonathan Scott Duff",
+    "Jonathan Stowe",
+    "Jorn van Engelen",
+    "Kamil Ku\u0142aga",
+    "laben",
+    "Moritz Lenz",
+    "Mouq",
+    "nbrown",
+    "Nick Logan",
+    "Panu Ervamaa",
+    "Paul Cochrane",
+    "raydiak",
+    "Rob Hoelz",
+    "Shlomi Fish",
+    "Siddhant Saraf",
+    "Solomon Foster",
+    "Stefan Seifert",
+    "Steve Mynott",
+    "Tim Bunce",
+    "Timo Paulssen",
+    "Tim Smith",
+    "Tobias Leich",
+    "tony-o"
+  ],
+  "description" : "[DEPRECATED] A module manager"
+}
+,
+{
   "name" : "Cache::Memcached",
   "source-url" : "git://github.com/cosimo/perl6-cache-memcached.git",
   "support" : {
@@ -2347,6 +2423,20 @@
     "Cosimo Streppone"
   ],
   "description" : "Interface to memcached service"
+}
+,
+{
+  "name" : "Benchmark::Plot",
+  "source-url" : "git://github.com/colomon/Benchmark-Plot.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "depends" : [
+    "SVG",
+    "SVG::Plot"
+  ],
+  "provides" : { },
+  "version" : "*",
+  "description" : "Simple benchmark graphing script"
 }
 ,
 {
@@ -9586,28 +9676,6 @@
 }
 ,
 {
-  "name" : "Digest::xxHash",
-  "support" : {
-    "source" : "https://github.com/atweiden/digest-xxhash",
-    "bugtracker" : "https://github.com/atweiden/digest-xxhash/issues"
-  },
-  "source-url" : "git://github.com/atweiden/digest-xxhash.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "provides" : {
-    "Digest::xxHash" : "lib/Digest/xxHash.pm6"
-  },
-  "license" : "Unlicense",
-  "version" : "1.0.1",
-  "description" : "xxHash bindings for Perl6",
-  "authors" : [
-    "Bart\u0142omiej Palmowski",
-    "atweiden",
-    "Steve Schulze (thundergnat)"
-  ]
-}
-,
-{
   "name" : "WebSocket",
   "source-url" : "git://github.com/tokuhirom/p6-Protocol-WebSocket.git",
   "perl" : "6.c",
@@ -9697,39 +9765,6 @@
   "license" : "Artistic-2.0",
   "version" : "*",
   "description" : "Binding of the gumbo C library, a html parser lib"
-}
-,
-{
-  "name" : "Object::Permission",
-  "perl" : "6.c",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Object-Permission.git"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Object-Permission.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Object::Permission" : "lib/Object/Permission.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "devel",
-    "authorisation",
-    "object",
-    "user"
-  ],
-  "version" : "0.0.2",
-  "meta6" : "0",
-  "description" : "Experimental method (and public attribute accessor,) level authorisation",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
 }
 ,
 {
