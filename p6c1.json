@@ -2063,6 +2063,33 @@
 }
 ,
 {
+  "name" : "Timer",
+  "source-url" : "git://github.com/thundergnat/Timer.git",
+  "perl" : "6.c",
+  "source-type" : "git",
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "tags" : [
+    "Timer",
+    "Timing",
+    "Bench",
+    "Benchmark"
+  ],
+  "license" : "Artistic-2.0",
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "Timer" : "lib/Timer.pm6"
+  },
+  "version" : "0.0.1",
+  "authors" : [
+    "Steve Schulze (thundergnat)"
+  ],
+  "description" : "Simple timer for callable code blocks"
+}
+,
+{
   "name" : "App::jsonv",
   "source-url" : "git://github.com/Miniconf/App-jsonv.git",
   "perl" : "6.*",
