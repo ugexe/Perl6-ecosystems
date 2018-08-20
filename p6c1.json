@@ -1902,28 +1902,6 @@
 }
 ,
 {
-  "name" : "Hinges",
-  "source-url" : "git://github.com/supernovus/hinges.git",
-  "perl" : "6.*",
-  "depends" : [ ],
-  "provides" : {
-    "Hinges::Markup" : "lib/Hinges/Markup.pm",
-    "Hinges::Stream" : "lib/Hinges/Stream.pm",
-    "Hinges::Interpolation" : "lib/Hinges/Interpolation.pm",
-    "Hinges::HTMLParser" : "lib/Hinges/HTMLParser.pm",
-    "Hinges::XMLParser" : "lib/Hinges/XMLParser.pm",
-    "Hinges::Output" : "lib/Hinges/Output.pm",
-    "Hinges::Input" : "lib/Hinges/Input.pm",
-    "Hinges::StringIO" : "lib/Hinges/StringIO.pm",
-    "Hinges::Attrs" : "lib/Hinges/Attrs.pm",
-    "Hinges::StreamEventKind" : "lib/Hinges/StreamEventKind.pm",
-    "Hinges" : "lib/Hinges.pm"
-  },
-  "version" : "*",
-  "description" : "A Genshi-like template engine"
-}
-,
-{
   "name" : "PSGI",
   "source-url" : "git://github.com/supernovus/perl6-psgi.git",
   "perl" : "6.*",
@@ -2453,20 +2431,6 @@
 }
 ,
 {
-  "name" : "Benchmark::Plot",
-  "source-url" : "git://github.com/colomon/Benchmark-Plot.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "depends" : [
-    "SVG",
-    "SVG::Plot"
-  ],
-  "provides" : { },
-  "version" : "*",
-  "description" : "Simple benchmark graphing script"
-}
-,
-{
   "name" : "Net::IRC::Bot",
   "source-url" : "git://github.com/TiMBuS/Net--IRC.git",
   "perl" : "6.*",
@@ -2517,44 +2481,6 @@
   "description" : "Wire your application components together using inversion of control",
   "authors" : [
     "Jason May"
-  ]
-}
-,
-{
-  "name" : "Algorithm::Viterbi",
-  "source-url" : "git://github.com/arnsholt/Algorithm-Viterbi.git",
-  "source-type" : "git",
-  "depends" : [ ],
-  "version" : "*",
-  "description" : "HMM decoding with the Viterbi algorithm."
-}
-,
-{
-  "name" : "JSON::RPC",
-  "source-url" : "git://github.com/bbkr/jsonrpc.git",
-  "authority" : "bbkr",
-  "perl" : "6.c",
-  "repo-type" : "git",
-  "depends" : [
-    "JSON::Tiny",
-    "URI",
-    "HTTP::Easy",
-    "HTTP::UserAgent"
-  ],
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "X::JSON::RPC" : "lib/X/JSON/RPC.pm6",
-    "JSON::RPC::Client" : "lib/JSON/RPC/Client.pm6",
-    "JSON::RPC::Server" : "lib/JSON/RPC/Server.pm6"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "version" : "1.0.0",
-  "description" : "JSON-RPC 2.0 client and server.",
-  "authors" : [
-    "Pawel (bbkr) Pabian",
-    "Ahmad M. Zawawi (azawawi)"
   ]
 }
 ,
@@ -2672,23 +2598,6 @@
 }
 ,
 {
-  "name" : "Algorithm::Soundex",
-  "perl" : "6.*",
-  "source-url" : "git://github.com/leto/perl6-Algorithm-Soundex.git",
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [
-    "Test"
-  ],
-  "provides" : {
-    "Algorithm::Soundex" : "lib/Algorithm/Soundex.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "*",
-  "description" : "Soundex Algorithm in Perl 6"
-}
-,
-{
   "name" : "MongoDB",
   "source-url" : "git://github.com/MARTIMM/mongo-perl6-driver.git",
   "perl" : "6",
@@ -2772,25 +2681,6 @@
   "license" : "Artistic-2.0",
   "version" : "0.2.0",
   "description" : "A Perl 6 port of the IRC::Utils module"
-}
-,
-{
-  "name" : "Test::Builder",
-  "perl" : "6.*",
-  "authority" : "soh-cah-toa",
-  "source-url" : "git://github.com/perl6-community-modules/p6-test-builder.git",
-  "author" : "Kevin Polulak",
-  "source-type" : "git",
-  "depends" : [ ],
-  "provides" : {
-    "Test::Builder::Plan" : "lib/Test/Builder/Plan.pm",
-    "Test::Builder::Test" : "lib/Test/Builder/Test.pm",
-    "Test::Builder::Output" : "lib/Test/Builder/Output.pm",
-    "Test::Builder" : "lib/Test/Builder.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.3",
-  "description" : "Flexible framework for building TAP test libraries"
 }
 ,
 {
