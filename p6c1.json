@@ -16746,6 +16746,7 @@
   "build-depends" : [ ],
   "depends" : [ ],
   "test-depends" : [ ],
+  "tags" : [ ],
   "provides" : {
     "Algorithm::Genetic" : "lib/Algorithm/Genetic.pm6",
     "Algorithm::Genetic::Crossoverable" : "lib/Algorithm/Genetic/Crossoverable.pm6",
@@ -16754,8 +16755,8 @@
     "Algorithm::Genetic::Selection" : "lib/Algorithm/Genetic/Selection.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "A simple evolutionanry algorithm in Perl6",
+  "version" : "0.0.2",
+  "description" : "A basic genetic algorithm implementation for Perl6!",
   "authors" : [
     "Sam Gillespie"
   ]
