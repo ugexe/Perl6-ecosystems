@@ -5693,21 +5693,6 @@
 }
 ,
 {
-  "name" : "WebService::Justcoin",
-  "source-url" : "git://github.com/dagurval/p6-webservice-justcoin.git",
-  "perl" : "6.*",
-  "author" : "Dagur Valberg Johannsson",
-  "depends" : [
-    "JSON::Tiny"
-  ],
-  "provides" : {
-    "WebService::Justcoin" : "lib/WebService/Justcoin.pm6"
-  },
-  "version" : "0.0.1",
-  "description" : "Access to Justcoin trading API (Norwegian Bitcoin marketplace)"
-}
-,
-{
   "name" : "Web::Scraper",
   "source-url" : "git://github.com/tony-o/perl6-web-scraper.git",
   "perl" : "6.*",
