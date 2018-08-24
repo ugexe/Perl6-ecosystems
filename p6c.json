@@ -21819,4 +21819,28 @@
   ],
   "description" : "Dependency injector"
 }
+,
+{
+  "name" : "Git::Log",
+  "api" : "0",
+  "perl" : "6.c",
+  "source-url" : "https://github.com/samcv/perl6-Git-Log.git",
+  "support" : {
+    "bugtracker" : "https://github.com/samcv/perl6-Git-Log/issues",
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0"
+  },
+  "resources" : [ ],
+  "depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Git::Log" : "lib/Git/Log.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.1",
+  "meta-version" : 0,
+  "description" : "Gets the git log as a Perl 6 object",
+  "authors" : [
+    "Samantha McVey <samantham@posteo.net>"
+  ]
+}
 ]
