@@ -12688,38 +12688,6 @@
 }
 ,
 {
-  "name" : "Term::Choose",
-  "source-url" : "git://github.com/kuerbis/Term-Choose-p6.git",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [
-    "NativeCall",
-    "NCurses",
-    "Terminal::WCWidth"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "cli",
-    "terminal",
-    "text"
-  ],
-  "provides" : {
-    "Term::Choose" : "lib/Term/Choose.pm6",
-    "Term::Choose::NCursesAdd" : "lib/Term/Choose/NCursesAdd.pm6",
-    "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "1.4.4",
-  "description" : "Choose items from a list interactively.",
-  "authors" : [
-    "kuerbis"
-  ]
-}
-,
-{
   "name" : "Acme::Cow",
   "source-url" : "git://github.com/hankache/Acme-Cow.git",
   "perl" : "6.c",
@@ -13338,65 +13306,6 @@
   "description" : "Access to audio input and output devices",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
-}
-,
-{
-  "name" : "Term::Choose::Util",
-  "source-url" : "git://github.com/kuerbis/Term-Choose-Util-p6.git",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [
-    "Term::Choose",
-    "NCurses"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "cli",
-    "terminal"
-  ],
-  "provides" : {
-    "Term::Choose::Util" : "lib/Term/Choose/Util.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "1.1.2",
-  "description" : "CLI related functions.",
-  "authors" : [
-    "kuerbis"
-  ]
-}
-,
-{
-  "name" : "Term::TablePrint",
-  "source-url" : "git://github.com/kuerbis/Term-TablePrint-p6.git",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [
-    "NCurses",
-    "Term::Choose",
-    "Term::Choose::Util"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "cli",
-    "table",
-    "terminal",
-    "text"
-  ],
-  "provides" : {
-    "Term::TablePrint" : "lib/Term/TablePrint.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "1.3.1",
-  "description" : "Print a table to the terminal and browse it interactively.",
-  "authors" : [
-    "kuerbis"
   ]
 }
 ,
