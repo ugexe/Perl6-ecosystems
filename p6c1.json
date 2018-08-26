@@ -11933,20 +11933,24 @@
 }
 ,
 {
+  "api" : "0",
   "name" : "zef",
-  "source-url" : "git://github.com/ugexe/zef.git",
   "support" : {
+    "source" : "https://github.com/ugexe/zef.git",
     "bugtracker" : "https://github.com/ugexe/zef/issues"
   },
-  "perl" : "6",
+  "perl" : "6.c",
   "resources" : [
     "config.json",
     "scripts/perl5tar.pl",
     "scripts/win32http.ps1",
     "scripts/win32unzip.ps1"
   ],
+  "build-depends" : [ ],
   "auth" : "github:ugexe",
-  "depends" : [ ],
+  "depends" : [
+    "NativeCall"
+  ],
   "tags" : [
     "package-manager",
     "module-installer",
@@ -11995,8 +11999,12 @@
     "Zef::Service::P6CReporter" : "lib/Zef/Service/P6CReporter.pm6",
     "Zef::Fetch" : "lib/Zef/Fetch.pm6"
   },
+  "test-depends" : [
+    "Test"
+  ],
   "license" : "Artistic-2.0",
   "version" : "0.5.1",
+  "meta-version" : "0",
   "authors" : [
     "Nick Logan",
     "Tony O'Dell"
