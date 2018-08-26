@@ -12453,6 +12453,30 @@
 }
 ,
 {
+  "name" : "Git::Log",
+  "api" : "0",
+  "support" : {
+    "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+    "bugtracker" : "https://github.com/samcv/perl6-Git-Log/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMCV/Perl6/Git-Log-0.2.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Git::Log" : "lib/Git/Log.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.0",
+  "meta-version" : 0,
+  "description" : "Gets the git log as a Perl 6 object",
+  "authors" : [
+    "Samantha McVey <samantham@posteo.net>"
+  ]
+}
+,
+{
   "name" : "Math::Curves",
   "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Math-Curves-0.0.1.tar.gz",
   "perl" : "6.c",
