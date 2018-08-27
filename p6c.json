@@ -8701,19 +8701,6 @@
 }
 ,
 {
-  "name" : "Path::Iterator",
-  "source-url" : "git://github.com/leont/path-iterator.git",
-  "perl" : "6.*",
-  "author" : "Leon Timmermans",
-  "depends" : [ ],
-  "provides" : {
-    "Path::Iterator" : "lib/Path/Iterator.pm"
-  },
-  "version" : "0.0.1",
-  "description" : "Iterative, recursive file finder for Perl 6"
-}
-,
-{
   "name" : "FastCGI::NativeCall",
   "perl" : "6.c",
   "support" : {
