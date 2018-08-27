@@ -11836,13 +11836,12 @@
 }
 ,
 {
-  "api" : "0",
   "name" : "Net::HTTP",
+  "source-url" : "git://github.com/ugexe/Perl6-Net--HTTP.git",
   "support" : {
-    "source" : "https://github.com/ugexe/Perl6-Net--HTTP.git",
     "bugtracker" : "https://github.com/ugexe/Perl6-Net--HTTP/issues"
   },
-  "perl" : "6.c",
+  "perl" : "6",
   "auth" : "github:ugexe",
   "depends" : [ ],
   "tags" : [
@@ -11862,7 +11861,7 @@
     "Net::HTTP::Request" : "lib/Net/HTTP/Request.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.10",
+  "version" : "0.0.8",
   "description" : "Roll your own http client",
   "authors" : [
     "ugexe"
