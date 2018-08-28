@@ -11753,8 +11753,6 @@
   "perl" : "6",
   "auth" : "github:ugexe",
   "depends" : [
-    "IO::Socket::SSL",
-    "Net::HTTP",
     "Distribution::Common"
   ],
   "provides" : {
@@ -11762,7 +11760,7 @@
     "Distribution::IO::Remote::Github" : "lib/Distribution/IO/Remote/Github.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "description" : "Create an installable Distribution from common remote sources",
   "authors" : [
     "ugexe"
