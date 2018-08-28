@@ -11745,15 +11745,21 @@
 }
 ,
 {
+  "api" : "0",
   "name" : "Distribution::Common::Remote",
-  "source-url" : "git://github.com/ugexe/Perl6-Distribution--Common--Remote.git",
   "support" : {
+    "source" : "https://github.com/ugexe/Perl6-Distribution--Common--Remote.git",
     "bugtracker" : "https://github.com/ugexe/Perl6-Distribution--Common--Remote/issues"
   },
-  "perl" : "6",
+  "perl" : "6.c",
   "auth" : "github:ugexe",
   "depends" : [
     "Distribution::Common"
+  ],
+  "tags" : [
+    "Distribution",
+    "Remote",
+    "Github"
   ],
   "provides" : {
     "Distribution::Common::Remote::Github" : "lib/Distribution/Common/Remote/Github.pm6",
