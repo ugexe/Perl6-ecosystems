@@ -11708,12 +11708,13 @@
 }
 ,
 {
+  "api" : "0",
   "name" : "Distribution::Common",
-  "source-url" : "git://github.com/ugexe/Perl6-Distribution--Common.git",
   "support" : {
+    "source" : "https://github.com/ugexe/Perl6-Distribution--Common.git",
     "bugtracker" : "https://github.com/ugexe/Perl6-Distribution--Common/issues"
   },
-  "perl" : "6",
+  "perl" : "6.c",
   "auth" : "github:ugexe",
   "depends" : [ ],
   "provides" : {
@@ -11727,7 +11728,7 @@
     "Distribution::IO::Directory" : "lib/Distribution/IO/Directory.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "description" : "Create an installable Distribution from common sources",
   "authors" : [
     "ugexe"
