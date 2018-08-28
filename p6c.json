@@ -11640,6 +11640,39 @@
 }
 ,
 {
+  "api" : "0",
+  "name" : "CompUnit::Repository::Github",
+  "support" : {
+    "source" : "https://github.com/ugexe/Perl6-CompUnit--Repository--Github.git",
+    "bugtracker" : "https://github.com/ugexe/Perl6-CompUnit--Repository--Github/issues"
+  },
+  "perl" : "6.c",
+  "build-depends" : [ ],
+  "auth" : "github:ugexe",
+  "depends" : [
+    "Distribution::Common::Remote"
+  ],
+  "tags" : [
+    "CompUnit",
+    "Repository",
+    "Github"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "CompUnit::Repository::Github" : "lib/CompUnit/Repository/Github.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "meta-version" : "0",
+  "description" : "Load module code using the GitHub API as a remote file system",
+  "authors" : [
+    "ugexe"
+  ]
+}
+,
+{
   "name" : "App::ecogen",
   "source-url" : "git://github.com/ugexe/Perl6-App--ecogen.git",
   "support" : {
