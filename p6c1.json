@@ -1719,18 +1719,6 @@
 }
 ,
 {
-  "name" : "HTTP::Status",
-  "source-url" : "git://github.com/supernovus/perl6-http-status.git",
-  "perl" : "6.*",
-  "depends" : [ ],
-  "provides" : {
-    "HTTP::Status" : "lib/HTTP/Status.pm6"
-  },
-  "version" : "*",
-  "description" : "Get the text message associated with an HTTP status code"
-}
-,
-{
   "name" : "HTTP::Client",
   "source-url" : "git://github.com/supernovus/perl6-http-client.git",
   "depends" : [
@@ -11674,7 +11662,7 @@
     "CompUnit::Repository::Github" : "lib/CompUnit/Repository/Github.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "meta-version" : "0",
   "description" : "Load module code using the GitHub API as a remote file system",
   "authors" : [
@@ -11725,25 +11713,30 @@
 }
 ,
 {
+  "api" : "0",
   "name" : "CompUnit::Repository::Tar",
-  "source-url" : "git://github.com/ugexe/Perl6-CompUnit--Repository--Tar.git",
   "support" : {
+    "source" : "https://github.com/ugexe/Perl6-CompUnit--Repository--Tar.git",
     "bugtracker" : "https://github.com/ugexe/Perl6-CompUnit--Repository--Tar/issues"
   },
-  "perl" : "6",
+  "perl" : "6.c",
+  "resources" : [
+    "test-dists/zef.tar.gz"
+  ],
   "auth" : "github:ugexe",
   "depends" : [
     "Distribution::Common"
   ],
   "tags" : [
-    "CUR",
-    "Installable"
+    "CompUnit",
+    "Repository",
+    "Tar"
   ],
   "provides" : {
     "CompUnit::Repository::Tar" : "lib/CompUnit/Repository/Tar.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "description" : "Load modules directory from a .tar.gz archive",
   "authors" : [
     "ugexe"
