@@ -2078,6 +2078,34 @@
 }
 ,
 {
+  "name" : "Rat::Precise",
+  "source-url" : "git://github.com/thundergnat/Rat-Precise.git",
+  "perl" : "6.c",
+  "source-type" : "git",
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "tags" : [
+    "Rat",
+    "Rational",
+    "precision",
+    "precise",
+    "stringify"
+  ],
+  "license" : "Artistic-2.0",
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "Rat::Precise" : "lib/Rat/Precise.pm6"
+  },
+  "version" : "0.1.0",
+  "authors" : [
+    "Steve Schulze (thundergnat)"
+  ],
+  "description" : "Configurable stringification for Rational numbers"
+}
+,
+{
   "name" : "App::jsonv",
   "source-url" : "git://github.com/Miniconf/App-jsonv.git",
   "perl" : "6.*",
