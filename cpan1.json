@@ -13665,6 +13665,32 @@
 }
 ,
 {
+  "name" : "Trait::Env",
+  "source-url" : "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Trait-Env-0.4.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:SCIMON",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Trait"
+  ],
+  "provides" : {
+    "Trait::Env::Exceptions" : "lib/Trait/Env/Exceptions.pm6",
+    "Trait::Env::Variable" : "lib/Trait/Env/Variable.pm6",
+    "Trait::Env::Attribute" : "lib/Trait/Env/Attribute.pm6",
+    "Trait::Env" : "lib/Trait/Env.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.4.1",
+  "description" : "Trait to set an attribute from an environment variable.",
+  "authors" : [
+    "Simon Proctor"
+  ]
+}
+,
+{
   "name" : "Acme::Test::Module",
   "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/Acme-Test-Module-1.0.1.tar.gz",
   "perl" : "6.c",
