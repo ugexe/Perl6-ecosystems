@@ -17617,6 +17617,39 @@ null
 }
 ,
 {
+  "name" : "I18n::Simple",
+  "api" : "0",
+  "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/I18n-Simple-0.1.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "Hash::Merge",
+    "YAMLish"
+  ],
+  "tags" : [
+    "i18n",
+    "internationalisation",
+    "internationalization",
+    "l10n",
+    "localisation",
+    "localization",
+    "templates",
+    "text"
+  ],
+  "provides" : {
+    "I18n::Simple::Template" : "lib/I18n/Simple/Template.pm6",
+    "I18n::Simple" : "lib/I18n/Simple.pm6"
+  },
+  "license" : "AGPL-3.0",
+  "version" : "0.1.2",
+  "meta-version" : 0,
+  "description" : "A simple internationalisation module.",
+  "authors" : [
+    "Patrick Spek <p.spek@tyil.work>"
+  ]
+}
+,
+{
   "name" : "IO::Path::Dirstack",
   "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IO-Path-Dirstack-0.1.0.tar.gz",
   "perl" : "6.c",
