@@ -1243,6 +1243,37 @@
 }
 ,
 {
+  "name" : "Native::Exec",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-native-exec.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-native-exec/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/Native-Exec-0.1.tar.gz",
+  "perl" : "6.c",
+  "depends" : [
+    "NativeCall"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [
+    "EXEC",
+    "NATIVECALL"
+  ],
+  "provides" : {
+    "Native::Exec" : "lib/Native/Exec.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1",
+  "description" : "NativeCall bindings for Unix exec*() calls",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
+  ]
+}
+,
+{
   "name" : "epoll",
   "support" : {
     "source" : "https://github.com/CurtTilmes/perl6-epoll.git",
