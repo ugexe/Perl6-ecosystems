@@ -11031,6 +11031,35 @@
 }
 ,
 {
+  "name" : "Sparrowdo::VSTS::YAML::Update::Azure::SSL",
+  "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Update-Azure-SSL-0.0.1.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "build.yaml",
+    "inject-thumbprint.pl",
+    "create-cert.json",
+    "update-cert.json"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::VSTS::YAML::Update::Azure::SSL" : "lib/Sparrowdo/VSTS/YAML/Update/Azure/SSL.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.1",
+  "description" : "Sparrowdo module to generate VSTS yaml build definitions to update Azure ssl certs",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
   "name" : "Sparrowform",
   "support" : {
     "source" : "https://github.com/melezhik/sparrowform.git",
