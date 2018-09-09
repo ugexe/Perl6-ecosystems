@@ -21846,4 +21846,48 @@
     "Samantha McVey <samantham@posteo.net>"
   ]
 }
+,
+{
+  "api" : "1",
+  "name" : "Foo::Regressed",
+  "source-url" : "git://github.com/AlexDaniel/foo-regressed.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:AlexDaniel",
+  "depends" : [ ],
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Foo::Regressed" : "lib/Foo/Regressed.pm6"
+  },
+  "license" : "GPL-3.0-or-later",
+  "version" : "0.0.1",
+  "authors" : [
+    "Aleks-Daniel Jakimenko-Aleksejev"
+  ],
+  "description" : "A module that works on older Rakudo versions but not newer ones."
+}
+,
+{
+  "api" : "1",
+  "name" : "Foo::Regressed::Very",
+  "source-url" : "git://github.com/AlexDaniel/foo-regressed-very.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:AlexDaniel",
+  "depends" : [ ],
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Foo::Regressed::Very" : "lib/Foo/Regressed/Very.pm6"
+  },
+  "license" : "GPL-3.0-or-later",
+  "version" : "0.0.1",
+  "authors" : [
+    "Aleks-Daniel Jakimenko-Aleksejev"
+  ],
+  "description" : "A module that works on older Rakudo versions but segfaults on newer ones."
+}
 ]
