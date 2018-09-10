@@ -14800,6 +14800,33 @@
 }
 ,
 {
+  "name" : "Foo::Bar",
+  "support" : {
+    "bugtracker" : "https://github.com/tbrowder/Foo-Bar-Perl6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Foo-Bar-Perl6-72.0.1.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "CPAN",
+    "test"
+  ],
+  "provides" : {
+    "Foo::Bar" : "lib/Foo/Bar.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "72.0.1",
+  "description" : "Miscellaneous stuff for practicing module development",
+  "authors" : [
+    "Tom Browder <tom.browder@gmail.com>"
+  ]
+}
+,
+{
   "name" : "Geo::Ellipsoid",
   "support" : {
     "bugtracker" : "https://github.com/tbrowder/Geo-Ellipsoid-Perl6/issues"
