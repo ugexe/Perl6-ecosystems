@@ -15284,6 +15284,272 @@
 }
 ,
 {
+  "name" : "Test::NoTabs",
+  "source-url" : "git://github.com/Altai-man/perl6-Test-NoTabs.git",
+  "support" : {
+    "bugtracker" : "https://github.com/Altai-man/perl6-Test-NoTabs/issues"
+  },
+  "perl" : "6.*",
+  "author" : "github:Altai-man",
+  "depends" : [
+    "File::Find"
+  ],
+  "provides" : {
+    "Test::NoTabs" : "lib/Test/NoTabs.pm6"
+  },
+  "tags" : [
+    "Testing"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.1",
+  "description" : "Test module for tabs checking"
+}
+,
+{
+  "name" : "RT::REST::Client",
+  "support" : {
+    "source" : "git://github.com/zoffixznet/perl6-RT-REST-Client.git"
+  },
+  "perl" : "6.c",
+  "depends" : [
+    "IO::Socket::SSL",
+    "HTTP::UserAgent",
+    "URI",
+    "URI::Escape"
+  ],
+  "provides" : {
+    "RT::REST::Client::Grammar" : "lib/RT/REST/Client/Grammar.pm6",
+    "RT::REST::Client::Grammar::Actions::Tickets" : "lib/RT/REST/Client/Grammar/Actions.pm6",
+    "RT::REST::Client::Grammar::Actions" : "lib/RT/REST/Client/Grammar/Actions.pm6",
+    "RT::REST::Client::Grammar::Tickets" : "lib/RT/REST/Client/Grammar.pm6",
+    "RT::REST::Client::Ticket" : "lib/RT/REST/Client/Grammar/Actions.pm6",
+    "RT::REST::Client" : "lib/RT/REST/Client.pm6"
+  },
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.001003",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Use Request Tracker's (RT) REST client interface"
+}
+,
+{
+  "name" : "Uzu",
+  "source-url" : "https://github.com/scmorrison/uzu.git",
+  "perl" : "6.c",
+  "resources" : [
+    "mustache/pages/index.mustache",
+    "mustache/partials/footer.mustache",
+    "mustache/partials/head.mustache",
+    "mustache/themes/default/layout.mustache",
+    "tt/pages/index.tt",
+    "tt/partials/footer.tt",
+    "tt/partials/head.tt",
+    "tt/themes/default/layout.tt"
+  ],
+  "depends" : [
+    "File::Find",
+    "File::Temp",
+    "Terminal::ANSIColor",
+    "Template6",
+    "Template::Mustache",
+    "HTTP::Server::Tiny",
+    "YAMLish"
+  ],
+  "test-depends" : [
+    "Test::Output"
+  ],
+  "provides" : {
+    "Uzu::Logger" : "lib/Uzu/Logger.pm6",
+    "Uzu::LiveReload" : "lib/Uzu/LiveReload.pm6",
+    "Uzu::Config" : "lib/Uzu/Config.pm6",
+    "Uzu::Watch" : "lib/Uzu/Watch.pm6",
+    "Uzu::Utilities" : "lib/Uzu/Utilities.pm6",
+    "Uzu::Render" : "lib/Uzu/Render.pm6",
+    "Uzu::HTTP" : "lib/Uzu/HTTP.pm6",
+    "Uzu::CLI" : "lib/Uzu/CLI.pm6",
+    "Uzu" : "lib/Uzu.pm6"
+  },
+  "tags" : [
+    "web",
+    "static-site-generator"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "0.2.3",
+  "authors" : [
+    "Sam Morrison"
+  ],
+  "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, and multi-page support."
+}
+,
+{
+  "name" : "Pod::To::BigPage",
+  "source-url" : "git://github.com/perl6/perl6-pod-to-bigpage.git",
+  "support" : {
+    "source" : "https://github.com/perl6/perl6-pod-to-bigpage"
+  },
+  "perl" : "6.*",
+  "source-type" : "git",
+  "author" : "Wenzel P. P. Peppmeyer",
+  "depends" : [
+    "LWP::Simple"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::When"
+  ],
+  "provides" : {
+    "Pod::To::BigPage" : "lib/Pod/To/BigPage.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.4.0",
+  "description" : "Render many pod6-files into one (big) html-file."
+}
+,
+{
+  "name" : "Test::Deeply::Relaxed",
+  "source-url" : "https://github.com/ppentchev/perl6-Test-Deeply-Relaxed.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "provides" : {
+    "Test::Deeply::Relaxed" : "lib/Test/Deeply/Relaxed.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.1",
+  "authors" : [
+    "Peter Pentchev"
+  ],
+  "description" : "Compare two complex data structures loosely"
+}
+,
+{
+  "name" : "Getopt::Std",
+  "source-url" : "https://github.com/ppentchev/perl6-Getopt-Std.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::Deeply::Relaxed",
+    "Test::META"
+  ],
+  "provides" : {
+    "Getopt::Std" : "lib/Getopt/Std.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0.1",
+  "authors" : [
+    "Peter Pentchev"
+  ],
+  "description" : "Process single-character options with option clustering"
+}
+,
+{
+  "name" : "Math::Arrow",
+  "source-url" : "git://github.com/ajs/perl6-Math-Arrow",
+  "perl" : "6.c",
+  "source-type" : "git",
+  "depends" : [ ],
+  "provides" : {
+    "Math::Arrow" : "lib/Math/Arrow.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "Knuth arrow notation in Perl 6"
+}
+,
+{
+  "name" : "CoreHackers::Sourcery",
+  "support" : {
+    "source" : "git://github.com/zoffixznet/perl6-CoreHackers-Sourcery.git"
+  },
+  "perl" : "6.c",
+  "depends" : [ ],
+  "provides" : {
+    "CoreHackers::Sourcery" : "lib/CoreHackers/Sourcery.pm6"
+  },
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "2.001005",
+  "authors" : [
+    "Zoffix Znet"
+  ],
+  "description" : "Helper for showing actual source code locations of core subs and methods"
+}
+,
+{
+  "name" : "Doublephone",
+  "perl" : "6.c",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Doublephone.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Doublephone/issues"
+  },
+  "source-url" : "git://github.com/jonathanstowe/Doublephone.git",
+  "build-depends" : [
+    "Shell::Command",
+    "LibraryMake"
+  ],
+  "resources" : [
+    "libraries/double_metaphone"
+  ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "LibraryMake"
+  ],
+  "provides" : {
+    "Doublephone" : "lib/Doublephone.pm"
+  },
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "tags" : [
+    "search",
+    "phonetic",
+    "soundex",
+    "metaphone"
+  ],
+  "version" : "0.0.3",
+  "meta6" : "0",
+  "description" : "Implementation of the Double Metaphone phonetic encoding algorithm",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "MetaCPAN::Favorite",
+  "source-url" : "git://github.com/skaji/perl6-MetaCPAN-Favorite.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "HTTP::Tinyish",
+    "JSON::Tiny"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "MetaCPAN::Favorite" : "lib/MetaCPAN/Favorite.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "*",
+  "description" : "consume MetaCPAN recent favorite",
+  "authors" : [
+    "Shoichi Kaji"
+  ]
+}
+,
+{
   "name" : "HTTP::HPACK",
   "support" : {
     "source" : "git://github.com/jnthn/p6-http-hpack.git"
