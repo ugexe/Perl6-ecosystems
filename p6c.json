@@ -21880,4 +21880,20 @@
   ],
   "description" : "A module that works on older Rakudo versions but segfaults on newer ones."
 }
+,
+{
+  "name" : "Router::Right",
+  "source-url" : "git://gitlab.com:pheix/router-right-perl6.git",
+  "perl" : "6.*",
+  "depends" : [
+    "P5quotemeta"
+  ],
+  "provides" : {
+    "Router::Right::Submapper" : "lib/Router/Right/Submapper.pm6",
+    "Router::Right" : "lib/Router/Right.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.42",
+  "description" : "Perl6-based, framework-agnostic URL routing engine for web applications"
+}
 ]
