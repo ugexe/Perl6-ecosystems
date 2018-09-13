@@ -12799,6 +12799,28 @@
 }
 ,
 {
+  "name" : "Reaper::Control",
+  "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Reaper-Control-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Net::OSC"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Reaper::Control" : "lib/Reaper/Control.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "An OSC controller interface for Reaper",
+  "authors" : [
+    "Sam Gillespie"
+  ]
+}
+,
+{
   "name" : "Result",
   "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Result-0.1.0.tar.gz",
   "perl" : "6.c",
