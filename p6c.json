@@ -21297,35 +21297,6 @@
 }
 ,
 {
-  "name" : "App::OrgSleep",
-  "source-url" : "git://github.com/AlexDaniel/orgsleep.git",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "depends" : [
-    "Inline::Perl5",
-    "JSON::Fast"
-  ],
-  "provides" : {
-    "bdf2json" : "bin/bdf2json",
-    "orgsleep" : "bin/orgsleep"
-  },
-  "license" : "GPL-3.0-or-later",
-  "tags" : [
-    "emacs",
-    "org-mode",
-    "sleep",
-    "sleep-analysis",
-    "sleep-tracker",
-    "sleep-research"
-  ],
-  "version" : "0.0.8",
-  "authors" : [
-    "Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>"
-  ],
-  "description" : "Use Emacs Org-mode to graph your sleep pattern"
-}
-,
-{
   "name" : "SupplyTimeWindow",
   "source-url" : "git://github.com/FCO/SupplyTimeWindow.git",
   "perl" : "v6.*",
@@ -21838,6 +21809,35 @@
 }
 ,
 {
+  "name" : "App::OrgSleep",
+  "source-url" : "git://github.com/AlexDaniel/orgsleep.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "Inline::Perl5",
+    "JSON::Fast"
+  ],
+  "provides" : {
+    "bdf2json" : "bin/bdf2json",
+    "orgsleep" : "bin/orgsleep"
+  },
+  "license" : "GPL-3.0-or-later",
+  "tags" : [
+    "emacs",
+    "org-mode",
+    "sleep",
+    "sleep-analysis",
+    "sleep-tracker",
+    "sleep-research"
+  ],
+  "version" : "0.0.8",
+  "authors" : [
+    "Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>"
+  ],
+  "description" : "Use Emacs Org-mode to graph your sleep pattern"
+}
+,
+{
   "api" : "1",
   "name" : "Foo::Regressed",
   "source-url" : "git://github.com/AlexDaniel/foo-regressed.git",
@@ -21879,6 +21879,57 @@
     "Aleks-Daniel Jakimenko-Aleksejev"
   ],
   "description" : "A module that works on older Rakudo versions but segfaults on newer ones."
+}
+,
+{
+  "name" : "Whateverable",
+  "source-url" : "https://github.com/perl6/whateverable.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "App::GPTrixie",
+    "Config::INI",
+    "Cro",
+    "Digest",
+    "Digest::HMAC",
+    "Digest::SHA256::Native",
+    "File::Directory::Tree",
+    "File::Temp",
+    "HTTP::Server::Async",
+    "HTTP::UserAgent",
+    "IO::Socket::SSL",
+    "IRC::Client",
+    "IRC::TextColor",
+    "JSON::Fast",
+    "Number::Denominate",
+    "Pastebin::Gist",
+    "SVG::Plot",
+    "Sake",
+    "Stats",
+    "Terminal::ANSIColor",
+    "Text::Diff::Sift4"
+  ],
+  "provides" : {
+    "Whateverable::Running" : "lib/Whateverable/Running.pm6",
+    "Whateverable::Processing" : "lib/Whateverable/Processing.pm6",
+    "Whateverable::Replaceable" : "lib/Whateverable/Replaceable.pm6",
+    "Whateverable::Output" : "lib/Whateverable/Output.pm6",
+    "Whateverable::Bits" : "lib/Whateverable/Bits.pm6",
+    "Whateverable::Messages" : "lib/Whateverable/Messages.pm6",
+    "Whateverable::Heartbeat" : "lib/Whateverable/Heartbeat.pm6",
+    "Whateverable::Uniprops" : "lib/Whateverable/Uniprops.pm6",
+    "Whateverable::Configurable" : "lib/Whateverable/Configurable.pm6",
+    "Whateverable::Config" : "lib/Whateverable/Config.pm6",
+    "Whateverable::Builds" : "lib/Whateverable/Builds.pm6",
+    "Whateverable" : "lib/Whateverable.pm6"
+  },
+  "license" : "AGPL-3.0-or-later",
+  "version" : "1.0.1",
+  "authors" : [
+    "Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>",
+    "Daniel Green <ddgreen@gmail.com>"
+  ],
+  "description" : "Different IRC bots that operate on a bunch of prebuilt Rakudo versions"
 }
 ,
 {
