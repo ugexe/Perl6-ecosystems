@@ -3554,6 +3554,30 @@
 }
 ,
 {
+  "name" : "P5tie",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5tie-0.0.11.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5tie" : "lib/P5tie.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.11",
+  "description" : "Implement Perl 5's tie() built-in",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5times",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5times-0.0.5.tar.gz",
   "perl" : "6.c",
