@@ -13971,35 +13971,6 @@
 }
 ,
 {
-  "name" : "NASA",
-  "source-url" : "git://github.com/zoffixznet/perl6-NASA.git",
-  "perl" : "6.c",
-  "depends" : [
-    "HTTP::Tinyish",
-    "JSON::Fast",
-    "URI::Escape",
-    "Subset::Helper"
-  ],
-  "provides" : {
-    "NASA::UA" : "lib/NASA/UA.pm6",
-    "NASA::APOD" : "lib/NASA/APOD.pm6",
-    "NASA::MarsRovers" : "lib/NASA/MarsRovers.pm6",
-    "NASA" : "lib/NASA.pm6",
-    "NASA::MarsRovers::Rover" : "lib/NASA/MarsRovers/Rover.pm6"
-  },
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "1.001002",
-  "authors" : [
-    "Zoffix Znet"
-  ],
-  "description" : "use NASA's APIs via Perl 6"
-}
-,
-{
   "name" : "Rabble",
   "perl" : "6.c",
   "source-url" : "git://github.com/madcapjake/rabble.git",
