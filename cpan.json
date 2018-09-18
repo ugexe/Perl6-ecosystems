@@ -1171,6 +1171,40 @@
 }
 ,
 {
+  "name" : "CroX::HTTP::Auth::Munge",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-crox-http-auth-munge.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-crox-http-auth-munge/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/CroX-HTTP-Auth-Munge-0.1.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "Cro::HTTP",
+    "JSON::Fast",
+    "Munge"
+  ],
+  "test-depends" : [
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [
+    "CRO",
+    "MUNGE",
+    "AUTHENTICATION"
+  ],
+  "provides" : {
+    "CroX::HTTP::Auth::Munge::Header" : "lib/CroX/HTTP/Auth/Munge/Header.pm6",
+    "CroX::HTTP::Auth::Munge" : "lib/CroX/HTTP/Auth/Munge.pm6"
+  },
+  "license" : "NASA-1.3",
+  "version" : "0.1",
+  "description" : "MUNGE based authorization for Cro",
+  "authors" : [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ]
+}
+,
+{
   "name" : "DB::Pg",
   "support" : {
     "source" : "https://github.com/CurtTilmes/perl6-dbpg.git",
