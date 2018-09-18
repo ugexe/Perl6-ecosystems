@@ -1889,6 +1889,29 @@
 }
 ,
 {
+  "name" : "Array::Agnostic",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Array-Agnostic-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Array::Agnostic" : "lib/Array/Agnostic.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "description" : "be an array without knowing how",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Array::Circular",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Array-Circular-0.0.1.tar.gz",
   "perl" : "6.c",
