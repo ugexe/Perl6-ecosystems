@@ -5076,6 +5076,35 @@
 }
 ,
 {
+  "name" : "Image::Libexif",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Image-Libexif-0.1.0.tar.gz",
+  "perl" : "6.c",
+  "depends" : [
+    "NativeHelpers::Blob"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "image",
+    "exif",
+    "nativecall"
+  ],
+  "provides" : {
+    "Image::Libexif::Raw" : "lib/Image/Libexif/Raw.pm6",
+    "Image::Libexif" : "lib/Image/Libexif.pm6",
+    "Image::Libexif::Constants" : "lib/Image/Libexif/Constants.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "Manipulate image EXIF data",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
   "name" : "Image::QRCode",
   "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Image-QRCode-0.0.4.tar.gz",
   "perl" : "6.c",
