@@ -7811,23 +7811,6 @@
 }
 ,
 {
-  "name" : "HTTP::Server::Threaded",
-  "source-url" : "git://github.com/tony-o/perl6-http-server-threaded.git",
-  "perl" : "6.*",
-  "auth" : "github:tony-o",
-  "depends" : [
-    "HTTP::Server"
-  ],
-  "provides" : {
-    "HTTP::Server::Threaded::Request" : "lib/HTTP/Server/Threaded/Request.pm6",
-    "HTTP::Server::Threaded" : "lib/HTTP/Server/Threaded.pm6",
-    "HTTP::Server::Threaded::Response" : "lib/HTTP/Server/Threaded/Response.pm6"
-  },
-  "version" : "0.1.1",
-  "description" : "Threaded Base HTTP Server"
-}
-,
-{
   "name" : "Perl6::Parser",
   "source-url" : "https://github.com/drforr/perl6-Perl6-Parser.git",
   "perl" : "6.c",
