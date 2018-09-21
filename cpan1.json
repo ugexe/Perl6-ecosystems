@@ -601,6 +601,29 @@
 }
 ,
 {
+  "name" : "Wkhtmltox",
+  "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/Wkhtmltox-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "auth" : "github:azawawi",
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "Wkhtmltox::PDF" : "lib/Wkhtmltox/PDF.pm6",
+    "Wkhtmltox::Native" : "lib/Wkhtmltox/Native.pm6",
+    "Wkhtmltox::Image" : "lib/Wkhtmltox/Image.pm6",
+    "Wkhtmltox" : "lib/Wkhtmltox.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.1",
+  "description" : "Convert HTML to PDF / Image using libwkhtmltox.",
+  "authors" : [
+    "Ahmad M. Zawawi"
+  ]
+}
+,
+{
   "name" : "Crypt::RSA",
   "source-url" : "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Crypt-RSA-0.1.0.tar.gz",
   "perl" : "6.c",
