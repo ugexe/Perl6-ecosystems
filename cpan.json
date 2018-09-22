@@ -2862,6 +2862,31 @@
 }
 ,
 {
+  "name" : "Object::Delayed",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Object-Delayed-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "Object::Trampoline"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Object::Delayed" : "lib/Object/Delayed.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "export subs for lazy object creation",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Object::Trampoline",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Object-Trampoline-0.0.3.tar.gz",
   "perl" : "6.c",
@@ -2907,6 +2932,32 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.4",
+  "description" : "Port of Perl 5's Object::Trampoline 1.50.4",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "Object::Trampoline",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Object-Trampoline-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "InterceptAllMethods"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Object::Trampoline" : "lib/Object/Trampoline.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
   "description" : "Port of Perl 5's Object::Trampoline 1.50.4",
   "authors" : [
     "Elizabeth Mattijsen"
