@@ -21825,24 +21825,86 @@
 ,
 {
   "api" : "1",
-  "name" : "Foo::Regressed",
-  "source-url" : "git://github.com/AlexDaniel/foo-regressed.git",
+  "name" : "Foo::Dependencies::A-on-B",
+  "source-url" : "git://github.com/AlexDaniel/foo-dependencies-a-on-b.git",
   "perl" : "6.c",
   "resources" : [ ],
-  "build-depends" : [ ],
+  "build-depends" : [
+    "Foo::Dependencies::B-on-A"
+  ],
   "auth" : "github:AlexDaniel",
-  "depends" : [ ],
+  "depends" : [
+    "Foo::Dependencies::B-on-A"
+  ],
   "tags" : [ ],
-  "test-depends" : [ ],
+  "test-depends" : [
+    "Foo::Dependencies::B-on-A"
+  ],
   "provides" : {
-    "Foo::Regressed" : "lib/Foo/Regressed.pm6"
+    "Foo::Dependencies::A-on-B" : "lib/Foo/Dependencies/A-on-B.pm6"
   },
   "license" : "GPL-3.0-or-later",
   "version" : "0.0.1",
   "authors" : [
     "Aleks-Daniel Jakimenko-Aleksejev"
   ],
-  "description" : "A module that works on older Rakudo versions but not newer ones."
+  "description" : "A module that depends on another module that depends on this module."
+}
+,
+{
+  "api" : "1",
+  "name" : "Foo::Dependencies::B-on-A",
+  "source-url" : "git://github.com/AlexDaniel/foo-dependencies-b-on-a.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [
+    "Foo::Dependencies::A-on-B"
+  ],
+  "auth" : "github:AlexDaniel",
+  "depends" : [
+    "Foo::Dependencies::A-on-B"
+  ],
+  "tags" : [ ],
+  "test-depends" : [
+    "Foo::Dependencies::A-on-B"
+  ],
+  "provides" : {
+    "Foo::Dependencies::B-on-A" : "lib/Foo/Dependencies/B-on-A.pm6"
+  },
+  "license" : "GPL-3.0-or-later",
+  "version" : "0.0.1",
+  "authors" : [
+    "Aleks-Daniel Jakimenko-Aleksejev"
+  ],
+  "description" : "A module that depends on another module that depends on this module."
+}
+,
+{
+  "api" : "1",
+  "name" : "Foo::Dependencies::Self",
+  "source-url" : "git://github.com/AlexDaniel/foo-dependencies-self.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [
+    "Foo::Dependencies::Self"
+  ],
+  "auth" : "github:AlexDaniel",
+  "depends" : [
+    "Foo::Dependencies::Self"
+  ],
+  "tags" : [ ],
+  "test-depends" : [
+    "Foo::Dependencies::Self"
+  ],
+  "provides" : {
+    "Foo::Dependencies::Self" : "lib/Foo/Dependencies/Self.pm6"
+  },
+  "license" : "GPL-3.0-or-later",
+  "version" : "0.0.1",
+  "authors" : [
+    "Aleks-Daniel Jakimenko-Aleksejev"
+  ],
+  "description" : "A module that depends on itself."
 }
 ,
 {
@@ -21865,6 +21927,28 @@
     "Aleks-Daniel Jakimenko-Aleksejev"
   ],
   "description" : "A module that works on older Rakudo versions but segfaults on newer ones."
+}
+,
+{
+  "api" : "1",
+  "name" : "Foo::Regressed",
+  "source-url" : "git://github.com/AlexDaniel/foo-regressed.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:AlexDaniel",
+  "depends" : [ ],
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Foo::Regressed" : "lib/Foo/Regressed.pm6"
+  },
+  "license" : "GPL-3.0-or-later",
+  "version" : "0.0.1",
+  "authors" : [
+    "Aleks-Daniel Jakimenko-Aleksejev"
+  ],
+  "description" : "A module that works on older Rakudo versions but not newer ones."
 }
 ,
 {
