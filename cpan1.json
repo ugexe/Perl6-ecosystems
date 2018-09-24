@@ -20665,6 +20665,55 @@ null
 }
 ,
 {
+  "name" : "Cro::RPC::JSON",
+  "support" : {
+    "source" : "https://github.com/vrurg/Perl6-Cro-RPC-JSON.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/Cro-RPC-JSON-v0.0.3.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [
+    "META6",
+    "p6doc",
+    "Pod::To::Markdown"
+  ],
+  "auth" : "github:vrurg",
+  "depends" : [
+    "Cro::HTTP::Router",
+    "Cro::HTTP::Request",
+    "Cro::Transform",
+    "Cro::Message",
+    "JSON::Fast"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When",
+    "Cro::HTTP::Test"
+  ],
+  "tags" : [
+    "Cro",
+    "JSON-RPC"
+  ],
+  "provides" : {
+    "Cro::RPC::JSON::Message" : "lib/Cro/RPC/JSON/Message.pm6",
+    "Cro::RPC::JSON::RequestParser" : "lib/Cro/RPC/JSON/RequestParser.pm6",
+    "Cro::RPC::JSON::ResponseSerializer" : "lib/Cro/RPC/JSON/ResponseSerializer.pm6",
+    "Cro::RPC::JSON::Handler" : "lib/Cro/RPC/JSON/Handler.pm6",
+    "Cro::RPC::JSON::Exception" : "lib/Cro/RPC/JSON/Exception.pm6",
+    "Cro::RPC::JSON" : "lib/Cro/RPC/JSON.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "production" : true,
+  "meta-version" : "0",
+  "description" : "Cro JSON-RPC implementation",
+  "authors" : [
+    "Vadim Belman <vrurg@cpan.org>"
+  ]
+}
+,
+{
   "name" : "Font::AFM",
   "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-AFM-1.24.2.tar.gz",
   "perl" : "6",
