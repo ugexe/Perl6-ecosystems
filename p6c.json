@@ -19513,7 +19513,7 @@
     "Test::META"
   ],
   "license" : "MIT",
-  "version" : "1.0.3",
+  "version" : "1.0.4",
   "authors" : "Loren",
   "description" : "Advanced command line parse module for perl6"
 }
@@ -20830,6 +20830,10 @@
 {
   "name" : "Event::Emitter::Inter-Process",
   "source-url" : "git://github.com/tony-o/perl6-event-emitter-interprocess.git",
+  "support" : {
+    "source" : "git://github.com/tony-o/perl6-event-emitter-interprocess.git",
+    "bugtracker" : "https://github.com/tony-o/perl6-event-emitter-interprocess/issues"
+  },
   "perl" : "6.*",
   "auth" : "github:tony-o",
   "depends" : [
@@ -20838,11 +20842,11 @@
   "provides" : {
     "Event::Emitter::Inter-Process" : "lib/Event/Emitter/Inter-Process.pm6"
   },
-  "version" : "0.1.0",
+  "version" : "1.0.0",
   "authors" : [
     "Tony O'Dell"
   ],
-  "description" : "Event::Emitter plugin to assist in cross process communication"
+  "description" : "Inter-process event emitter for Event::Emitter."
 }
 ,
 {
@@ -22007,5 +22011,27 @@
   "license" : "Artistic-2.0",
   "version" : "0.0.43",
   "description" : "Perl6-based, framework-agnostic URL routing engine for web applications"
+}
+,
+{
+  "name" : "Event::Emitter::Inter-Process",
+  "source-url" : "git://github.com/tony-o/perl6-event-emitter-interprocess.git",
+  "support" : {
+    "source" : "git://github.com/tony-o/perl6-event-emitter-interprocess.git",
+    "bugtracker" : "https://github.com/tony-o/perl6-event-emitter-interprocess/issues"
+  },
+  "perl" : "6.*",
+  "auth" : "github:tony-o",
+  "depends" : [
+    "Event::Emitter"
+  ],
+  "provides" : {
+    "Event::Emitter::Inter-Process" : "lib/Event/Emitter/Inter-Process.pm6"
+  },
+  "version" : "1.0.0",
+  "authors" : [
+    "Tony O'Dell"
+  ],
+  "description" : "Inter-process event emitter for Event::Emitter."
 }
 ]
