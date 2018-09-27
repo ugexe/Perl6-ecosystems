@@ -11908,39 +11908,6 @@
 }
 ,
 {
-  "name" : "Net::HTTP",
-  "source-url" : "git://github.com/ugexe/Perl6-Net--HTTP.git",
-  "support" : {
-    "bugtracker" : "https://github.com/ugexe/Perl6-Net--HTTP/issues"
-  },
-  "perl" : "6",
-  "auth" : "github:ugexe",
-  "depends" : [ ],
-  "tags" : [
-    "HTTP",
-    "Client"
-  ],
-  "provides" : {
-    "Net::HTTP::POST" : "lib/Net/HTTP/POST.pm6",
-    "Net::HTTP::Response" : "lib/Net/HTTP/Response.pm6",
-    "Net::HTTP::GET" : "lib/Net/HTTP/GET.pm6",
-    "Net::HTTP::Utils" : "lib/Net/HTTP/Utils.pm6",
-    "Net::HTTP::Interfaces" : "lib/Net/HTTP/Interfaces.pm6",
-    "Net::HTTP::URL" : "lib/Net/HTTP/URL.pm6",
-    "Net::HTTP::Dialer" : "lib/Net/HTTP/Dialer.pm6",
-    "Net::HTTP::Client" : "lib/Net/HTTP/Client.pm6",
-    "Net::HTTP::Transport" : "lib/Net/HTTP/Transport.pm6",
-    "Net::HTTP::Request" : "lib/Net/HTTP/Request.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.8",
-  "description" : "Roll your own http client",
-  "authors" : [
-    "ugexe"
-  ]
-}
-,
-{
   "name" : "PathTools",
   "source-url" : "git://github.com/ugexe/Perl6-PathTools.git",
   "support" : {
