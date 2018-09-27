@@ -413,6 +413,47 @@
 }
 ,
 {
+  "name" : "Getopt::Advance",
+  "support" : {
+    "source" : "https://github.com/araraloren/perl6-getopt-advance.git",
+    "bugtracker" : "https://github.com.araraloren/perl6-getopt-advance/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/Getopt-Advance-1.0.6.tar.gz",
+  "perl" : "6.c",
+  "auth" : "github:araraloren",
+  "depends" : [
+    "Terminal::Table"
+  ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "getopt",
+    "unix",
+    "gnu",
+    "bsd"
+  ],
+  "provides" : {
+    "Getopt::Advance::Types" : "lib/Getopt/Advance/Types.pm6",
+    "Getopt::Advance::Helper" : "lib/Getopt/Advance/Helper.pm6",
+    "Getopt::Advance" : "lib/Getopt/Advance.pm6",
+    "Getopt::Advance::Utils" : "lib/Getopt/Advance/Utils.pm6",
+    "Getopt::Advance::Exception" : "lib/Getopt/Advance/Exception.pm6",
+    "Getopt::Advance::Context" : "lib/Getopt/Advance/Context.pm6",
+    "Getopt::Advance::Parser" : "lib/Getopt/Advance/Parser.pm6",
+    "Getopt::Advance::Option" : "lib/Getopt/Advance/Option.pm6",
+    "Getopt::Advance::NonOption" : "lib/Getopt/Advance/NonOption.pm6",
+    "Getopt::Advance::Group" : "lib/Getopt/Advance/Group.pm6",
+    "Getopt::Advance::Subs" : "lib/Getopt/Advance/Subs.pm6",
+    "Getopt::Advance::Argument" : "lib/Getopt/Advance/Argument.pm6"
+  },
+  "license" : "MIT",
+  "version" : "1.0.6",
+  "description" : "Advanced command line parse module for perl6",
+  "authors" : "Loren"
+}
+,
+{
   "name" : "IConv",
   "support" : {
     "source" : "https://github.com/araraloren/perl6-iconv",
