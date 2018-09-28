@@ -22034,4 +22034,24 @@
   ],
   "description" : "Inter-process event emitter for Event::Emitter."
 }
+,
+{
+  "name" : "ECMA262Regex",
+  "support" : {
+    "source" : "git://github.com/edumentab/p6-ecma262regex.git"
+  },
+  "source-url" : "git://github.com/edumentab/p6-ecma262regex.git",
+  "perl" : "6.c",
+  "provides" : {
+    "ECMA262Regex" : "lib/ECMA262Regex.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0",
+  "meta-version" : "0",
+  "authors" : [
+    "Jonathan Worthington <jnthn@jnthn.net>",
+    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com"
+  ],
+  "description" : "Module that provides support for ECMA262 regex notation"
+}
 ]
