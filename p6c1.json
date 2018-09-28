@@ -9388,31 +9388,6 @@
 }
 ,
 {
-  "name" : "Pastebin::Gist",
-  "support" : {
-    "source" : "git://github.com/zoffixznet/perl6-Pastebin-Gist.git"
-  },
-  "perl" : "6.c",
-  "depends" : [
-    "WWW",
-    "JSON::Fast"
-  ],
-  "provides" : {
-    "Pastebin::Gist" : "lib/Pastebin/Gist.pm6",
-    "Pastebin::Gist::X" : "lib/Pastebin/Gist.pm6"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "1.004002",
-  "authors" : [
-    "Zoffix Znet"
-  ],
-  "description" : "Use https://gist.github.com/ as a pastebin"
-}
-,
-{
   "name" : "App::Nopaste",
   "support" : {
     "source" : "git://github.com/zoffixznet/perl6-App-Nopaste.git"
@@ -9450,23 +9425,6 @@
     "Yasuhiro Matsumoto"
   ],
   "description" : "Simple utility to get canonical paths."
-}
-,
-{
-  "name" : "LREP",
-  "source-url" : "git://github.com/awwaiid/p6-lrep.git",
-  "perl" : "6.*",
-  "author" : "Brock Wilcox",
-  "depends" : [
-    "Linenoise",
-    "IO::String"
-  ],
-  "provides" : {
-    "LREP" : "lib/LREP.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.2.1",
-  "description" : "A fun little REPL inspired by Pry, nREPL, and others."
 }
 ,
 {
