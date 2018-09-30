@@ -2201,6 +2201,29 @@
 }
 ,
 {
+  "name" : "AccountableBagHash",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/AccountableBagHash-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "AccountableBagHash" : "lib/AccountableBagHash.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "be an accountable BagHash",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Acme::Don't",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Acme-Dont-0.0.2.tar.gz",
   "perl" : "6.c",
