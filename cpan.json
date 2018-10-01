@@ -14013,6 +14013,27 @@
 }
 ,
 {
+  "name" : "Terminal::Spinners",
+  "support" : {
+    "source" : "https://github.com/ryn1x/Terminal-Spinners"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/R/RY/RYNIX/Perl6/Terminal-Spinners-1.2.0.tar.gz",
+  "perl" : "6.c",
+  "auth" : "github:ryn1x",
+  "tags" : [
+    "CLI",
+    "Terminal"
+  ],
+  "provides" : {
+    "Terminal::Spinners" : "lib/Terminal/Spinners.pm6"
+  },
+  "license" : "Artistic License 2.0",
+  "version" : "1.2.0",
+  "meta-version" : 0,
+  "description" : "Simple spinners and progress bars for Perl 6."
+}
+,
+{
   "name" : "Magento",
   "source-url" : "http://www.cpan.org/authors/id/S/SA/SACOMO/Perl6/Magento-0.0.1.tar.gz",
   "perl" : "6.c",
