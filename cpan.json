@@ -8448,6 +8448,32 @@
 }
 ,
 {
+  "name" : "JSON::Schema",
+  "support" : {
+    "source" : "git://github.com/croservices/json-schema.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/JSON-Schema-0.9.tar.gz",
+  "perl" : "6.c",
+  "depends" : [
+    "Cro::Core",
+    "DateTime::Parse",
+    "JSON::Pointer",
+    "ECMA262Regex"
+  ],
+  "provides" : {
+    "JSON::Schema" : "lib/JSON/Schema.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.9",
+  "meta-version" : "0",
+  "description" : "JSON Schema specification implementation",
+  "authors" : [
+    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>",
+    "Jonathan Worthington <jonathan@edument.se>"
+  ]
+}
+,
+{
   "name" : "OpenAPI::Model",
   "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/OpenAPI-Model-1.0.tar.gz",
   "perl" : "6.c",
