@@ -16864,6 +16864,44 @@
 }
 ,
 {
+  "name" : "META6::To::Man",
+  "support" : {
+    "bugtracker" : "https://github.com/tbrowder/META6-To-Man-Perl6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/META6-To-Man-Perl6-0.2.0.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "author" : "github:tbrowder",
+  "auth" : "github:tbrowder",
+  "depends" : [
+    "Text::More",
+    "META6"
+  ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "META6",
+    "UNIX",
+    "man page",
+    "roff",
+    "troff",
+    "groff",
+    "Linux",
+    "man"
+  ],
+  "provides" : {
+    "META6::To::Man" : "lib/META6/To/Man.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.0",
+  "description" : "Produces a rudimentary man page from a Perl 6 META6.json (or META.json) file.",
+  "authors" : [
+    "Tom Browder <tom.browder@gmail.com>"
+  ]
+}
+,
+{
   "name" : "Net::IP",
   "support" : {
     "bugtracker" : "https://github.com/tbrowder/Net-IP-Perl6/issues"
