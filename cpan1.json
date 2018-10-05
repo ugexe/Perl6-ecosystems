@@ -11209,6 +11209,28 @@
 }
 ,
 {
+  "name" : "DB::Migration::Simple",
+  "support" : {
+    "source" : "https://github.com/maettu/db-migration-simple.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/M/MB/MBP/Perl6/DB-Migration-Simple-1.0.tar.gz",
+  "perl" : "6.c",
+  "depends" : [
+    "DBIish"
+  ],
+  "provides" : {
+    "DB::Migration::Simple" : "lib/DB/Migration/Simple.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0",
+  "meta-version" : "0",
+  "description" : "Simple DB Migration. Go up and down in versions.",
+  "authors" : [
+    "Matthias Bloch <matthias.bloch@puffin.ch>"
+  ]
+}
+,
+{
   "name" : "Sparky",
   "support" : {
     "source" : "https://github.com/melezhik/sparky.git",
