@@ -1002,6 +1002,28 @@
 }
 ,
 {
+  "name" : "SDL2",
+  "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/SDL2-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "auth" : "github:azawawi",
+  "test-depends" : [
+    "Test",
+    "SDL2::Raw"
+  ],
+  "provides" : {
+    "SDL2::Renderer" : "lib/SDL2/Renderer.pm6",
+    "SDL2::Window" : "lib/SDL2/Window.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.1",
+  "description" : "SDL2 with some OO-sugar.",
+  "authors" : [
+    "Ahmad M. Zawawi"
+  ]
+}
+,
+{
   "name" : "Wkhtmltox",
   "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/Wkhtmltox-0.0.1.tar.gz",
   "perl" : "6.c",
