@@ -5569,6 +5569,9 @@
   "perl" : "6.*",
   "author" : "Jonathan Scott Duff <duff@pobox.com>",
   "depends" : [ ],
+  "test-depends" : [
+    "File::Temp"
+  ],
   "provides" : {
     "Sake" : "lib/Sake.pm6"
   },
