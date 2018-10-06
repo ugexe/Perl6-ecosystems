@@ -3227,6 +3227,31 @@
 }
 ,
 {
+  "name" : "Map::Ordered",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Map-Ordered-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "Map::Agnostic:ver<0.0.1>:auth<cpan:ELIZABETH>"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Map::Ordered" : "lib/Map/Ordered.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "role for ordered Maps",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Memoize",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Memoize-0.0.3.tar.gz",
   "perl" : "6.c",
