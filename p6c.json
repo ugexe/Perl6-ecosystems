@@ -13896,7 +13896,7 @@
     "Template6",
     "Template::Mojo",
     "Terminal::ANSIColor",
-    "Test::Meta",
+    "Test::META",
     "Test::Mock",
     "URI",
     "URI::Encode",
@@ -16967,7 +16967,9 @@
   "source-url" : "git://github.com/FCO/Test-Fuzz.git",
   "perl" : "6.*",
   "resources" : [
-    "classes"
+    "classes",
+    "examples/test.p6",
+    "examples/test2.p6"
   ],
   "depends" : [ ],
   "test-depends" : [
