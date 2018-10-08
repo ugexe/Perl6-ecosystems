@@ -5573,7 +5573,10 @@
     "File::Temp"
   ],
   "provides" : {
-    "Sake" : "lib/Sake.pm6"
+    "Sake::TaskStore" : "lib/Sake/TaskStore.pm6",
+    "Sake::Task::IO" : "lib/Sake/Task/IO.pm6",
+    "Sake" : "lib/Sake.pm6",
+    "Sake::Task" : "lib/Sake/Task.pm6"
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.2",
