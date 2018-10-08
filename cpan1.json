@@ -20022,6 +20022,49 @@ null
 }
 ,
 {
+  "name" : "File::XML::DMARC::Google",
+  "api" : "0",
+  "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/File-XML-DMARC-Google-0.1.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "File::XML::DMARC::Google" : "lib/File/XML/DMARC/Google.pm6"
+  },
+  "license" : "AGPL-3.0",
+  "version" : "0.1.0",
+  "meta-version" : 0,
+  "description" : "Parser for XML-formatted DMARC reports from Google",
+  "authors" : [
+    "Patrick Spek <p.spek@tyil.work>"
+  ]
+}
+,
+{
+  "name" : "File::Zip",
+  "api" : "0",
+  "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/File-Zip-0.1.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "File::Temp",
+    "File::Which"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "File::Zip" : "lib/File/Zip.pm6"
+  },
+  "license" : "AGPL-3.0",
+  "version" : "0.1.1",
+  "meta-version" : 0,
+  "description" : "A wrapper around zip files, using zip/unzip commands",
+  "authors" : [
+    "Patrick Spek <p.spek@tyil.work>"
+  ]
+}
+,
+{
   "name" : "Hash::Merge",
   "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Hash-Merge-0.1.1.tar.gz",
   "perl" : "6",
