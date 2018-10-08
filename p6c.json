@@ -5911,78 +5911,6 @@
 }
 ,
 {
-  "name" : "Cairo",
-  "support" : {
-    "source" : "git://github.com/timo/cairo-p6.git"
-  },
-  "source-url" : "git://github.com/timo/cairo-p6.git",
-  "perl" : "v6",
-  "depends" : [ ],
-  "provides" : {
-    "Cairo::Pattern" : "lib/Cairo.pm6",
-    "Cairo::LineCap" : "lib/Cairo.pm6",
-    "Cairo::Surface" : "lib/Cairo.pm6",
-    "Cairo::Pattern::Solid" : "lib/Cairo.pm6",
-    "Cairo::FontSlant" : "lib/Cairo.pm6",
-    "Cairo" : "lib/Cairo.pm6",
-    "Cairo::Pattern::Gradient::Linear" : "lib/Cairo.pm6",
-    "Cairo::Pattern::Gradient" : "lib/Cairo.pm6",
-    "Cairo::Operator" : "lib/Cairo.pm6",
-    "Cairo::Image" : "lib/Cairo.pm6",
-    "Cairo::Format" : "lib/Cairo.pm6",
-    "Cairo::Context" : "lib/Cairo.pm6",
-    "Cairo::Extend" : "lib/Cairo.pm6",
-    "Cairo::RecordingSurface" : "lib/Cairo.pm6",
-    "Cairo::Surface::SVG" : "lib/Cairo.pm6",
-    "Cairo::FillRule" : "lib/Cairo.pm6",
-    "Cairo::Content" : "lib/Cairo.pm6",
-    "Cairo::Pattern::Surface" : "lib/Cairo.pm6",
-    "Cairo::Pattern::Gradient::Radial" : "lib/Cairo.pm6",
-    "Cairo::FontWeight" : "lib/Cairo.pm6",
-    "Cairo::Antialias" : "lib/Cairo.pm6",
-    "Cairo::Surface::PDF" : "lib/Cairo.pm6",
-    "Cairo::Matrix" : "lib/Cairo.pm6",
-    "Cairo::LineJoin" : "lib/Cairo.pm6"
-  },
-  "tags" : [
-    "png",
-    "pdf",
-    "svg"
-  ],
-  "version" : "0.2.3",
-  "description" : "Cairo 2D graphics library"
-}
-,
-{
-  "name" : "ClassX::StrictConstructor",
-  "source-url" : "git://github.com/tadzik/ClassX-StrictConstructor.git",
-  "perl" : "6.c",
-  "depends" : [ ],
-  "provides" : {
-    "ClassX::StrictConstructor" : "lib/ClassX/StrictConstructor.pm"
-  },
-  "license" : "MIT",
-  "version" : "0.1",
-  "description" : "Make your object constructors blow up on unknown attributes"
-}
-,
-{
-  "name" : "String::Koremutake",
-  "source-url" : "git://github.com/stmuk/p6-String-Koremutake.git",
-  "perl" : "6.c",
-  "depends" : [ ],
-  "provides" : {
-    "String::Koremutake" : "lib/String/Koremutake.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.2",
-  "authors" : [
-    "Steve Mynott <steve.mynott@gmail.com>"
-  ],
-  "description" : "Converts to and from Koremutake Memorable Random Strings. "
-}
-,
-{
   "name" : "Crypt::Bcrypt",
   "source-url" : "git://github.com/skinkade/p6-Crypt-Bcrypt.git",
   "perl" : "6.*",
@@ -6004,23 +5932,6 @@
     "github:carbin",
     "github:skinkade"
   ]
-}
-,
-{
-  "name" : "Acme::DSON",
-  "source-url" : "git://github.com/xfix/Acme-DSON.git",
-  "perl" : "6.*",
-  "author" : "Konrad Borowski <x.fix@o2.pl>",
-  "depends" : [
-    "JSON::Tiny"
-  ],
-  "provides" : {
-    "Acme::DSON" : "lib/Acme/DSON.pm",
-    "Acme::DSON::Grammar" : "lib/Acme/DSON/Grammar.pm",
-    "Acme::DSON::Actions" : "lib/Acme/DSON/Actions.pm"
-  },
-  "version" : "0.2.1",
-  "description" : "such \"foo\" is \"bar\" wow"
 }
 ,
 {
