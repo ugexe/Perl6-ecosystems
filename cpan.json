@@ -20042,6 +20042,28 @@ null
 }
 ,
 {
+  "name" : "File::XML::DMARC::Google",
+  "api" : "0",
+  "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/File-XML-DMARC-Google-0.1.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "XML::XPath"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "File::XML::DMARC::Google" : "lib/File/XML/DMARC/Google.pm6"
+  },
+  "license" : "AGPL-3.0",
+  "version" : "0.1.1",
+  "meta-version" : 0,
+  "description" : "Parser for XML-formatted DMARC reports from Google",
+  "authors" : [
+    "Patrick Spek <p.spek@tyil.work>"
+  ]
+}
+,
+{
   "name" : "File::Zip",
   "api" : "0",
   "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/File-Zip-0.1.1.tar.gz",
