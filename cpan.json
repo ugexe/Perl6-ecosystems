@@ -5907,6 +5907,32 @@
 }
 ,
 {
+  "name" : "Math::FFT::Libfftw3",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-FFT-Libfftw3-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "math",
+    "fft",
+    "nativecall"
+  ],
+  "provides" : {
+    "Math::FFT::Libfftw3::Constants" : "lib/Math/FFT/Libfftw3/Constants.pm6",
+    "Math::FFT::Libfftw3::Raw" : "lib/Math/FFT/Libfftw3/Raw.pm6",
+    "Math::FFT::Libfftw3" : "lib/Math/FFT/Libfftw3.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Interface to libfftw3",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
   "name" : "Inline",
   "support" : {
     "source" : "https://github.com/FROGGS/p6-Inline-C.git",
@@ -12722,6 +12748,41 @@
 {
   "name" : "Sparrowdo::VSTS::YAML::Cordova",
   "support" : { },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Cordova-0.0.15.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "windows/npm-install.cmd",
+    "windows/npm-install-ionic.cmd",
+    "windows/npm-install-cordova-set-version.cmd",
+    "windows/set-version.pl",
+    "windows/configure.pl",
+    "windows/remove-old-packages.pl",
+    "windows/gene-build-cmd.pl",
+    "windows/build.cmd.tmpl",
+    "windows/prepare.cmd",
+    "windows/build.yaml"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::VSTS::YAML::Cordova" : "lib/Sparrowdo/VSTS/YAML/Cordova.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.15",
+  "description" : "Sparrowdo module to generate VSTS yaml build definition steps for Cordova build",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Sparrowdo::VSTS::YAML::Cordova",
+  "support" : { },
   "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Cordova-0.0.2.tar.gz",
   "perl" : "6.*",
   "source-type" : "git",
@@ -15341,66 +15402,6 @@
   "description" : "A basic compilation checker",
   "authors" : [
     "Sam Gillespie"
-  ]
-}
-,
-{
-  "name" : "Oddmuse6",
-  "support" : {
-    "source" : "https://oddmuse.org/wiki/Oddmuse_6"
-  },
-  "source-url" : "http://www.cpan.org/authors/id/S/SC/SCHROEDER/Perl6/Oddmuse-0.0.1.tar.gz",
-  "perl" : "6.*",
-  "resources" : [
-    "templates/changes.sp6",
-    "templates/edit.sp6",
-    "templates/empty.sp6",
-    "templates/view.sp6",
-    "images/logo.png",
-    "css/default.css",
-    "wiki/page/Home.md"
-  ],
-  "build-depends" : [ ],
-  "auth" : "kensanata",
-  "depends" : [
-    "Cro::HTTP",
-    "Text::Markdown",
-    "Template::Mustache",
-    "Algorithm::Diff",
-    "HTML::Escape"
-  ],
-  "test-depends" : [
-    "Cro::HTTP::Test",
-    "File::Temp",
-    "DOM::Tiny"
-  ],
-  "tags" : [
-    "web",
-    "wiki"
-  ],
-  "provides" : {
-    "Oddmuse::View" : "lib/Oddmuse/View.pm6",
-    "Oddmuse::Filter" : "lib/Oddmuse/Filter.pm6",
-    "Oddmuse::Changes" : "lib/Oddmuse/Changes.pm6",
-    "Oddmuse::Storage" : "lib/Oddmuse/Storage.pm6",
-    "Oddmuse::Layout" : "lib/Oddmuse/Layout.pm6",
-    "Oddmuse::Save" : "lib/Oddmuse/Save.pm6",
-    "Oddmuse::Routes" : "lib/Oddmuse/Routes.pm6",
-    "Oddmuse::Change" : "lib/Oddmuse/Change.pm6",
-    "Oddmuse::Secret" : "lib/Oddmuse/Secret.pm6",
-    "Oddmuse::Page" : "lib/Oddmuse/Page.pm6",
-    "Oddmuse::Cookie" : "lib/Oddmuse/Cookie.pm6",
-    "Oddmuse::Storage::File" : "lib/Oddmuse/Storage/File.pm6",
-    "Oddmuse::Edit" : "lib/Oddmuse/Edit.pm6",
-    "Oddmuse::Storage::File::Lock" : "lib/Oddmuse/Storage/File/Lock.pm6",
-    "Oddmuse::Diff" : "lib/Oddmuse/Diff.pm6"
-  },
-  "license" : "AGPL-3.0-or-later",
-  "version" : "0.0.1",
-  "meta-version" : "0",
-  "description" : "",
-  "authors" : [
-    "Alex Schroeder <alex@gnu.org>"
   ]
 }
 ,
