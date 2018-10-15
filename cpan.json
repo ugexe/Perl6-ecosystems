@@ -9005,6 +9005,26 @@
 }
 ,
 {
+  "name" : "POFile",
+  "support" : {
+    "source" : "https://github.com/edumentab/p6-pofile.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/POFile-0.7.tar.gz",
+  "perl" : "6.c",
+  "provides" : {
+    "POFile" : "lib/POFile.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.7",
+  "meta-version" : "0",
+  "description" : "Module for interacting with gettext PO files",
+  "authors" : [
+    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>",
+    "Jonathan Worthington <jonathan@edument.se>"
+  ]
+}
+,
+{
   "name" : "cro",
   "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-0.7.1.tar.gz",
   "perl" : "6.*",
