@@ -6057,6 +6057,30 @@
 }
 ,
 {
+  "name" : "Cro::H",
+  "source-url" : "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Cro-H-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Cro::Core"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Cro"
+  ],
+  "provides" : {
+    "Cro::H" : "lib/Cro/H.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "A low-level component to interconnect two Cro pipelines",
+  "authors" : [
+    "Travis Gibson"
+  ]
+}
+,
+{
   "name" : "Libui",
   "source-url" : "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Libui-0.0.1.tar.gz",
   "perl" : "6.c",
