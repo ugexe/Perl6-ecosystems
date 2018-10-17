@@ -4304,24 +4304,6 @@
 }
 ,
 {
-  "name" : "JSON::Path",
-  "perl" : "6.*",
-  "source-url" : "git://github.com/jnthn/json-path.git",
-  "build-depends" : [ ],
-  "auth" : "Jonathan Worthington <jonathan@edument.se>",
-  "depends" : [
-    "JSON::Fast"
-  ],
-  "test-depends" : [ ],
-  "provides" : {
-    "JSON::Path" : "lib/JSON/Path.pm6"
-  },
-  "license" : "MIT",
-  "version" : "1.0",
-  "description" : "Implementation of the JSONPath data structure query language."
-}
-,
-{
   "name" : "NCurses",
   "source-url" : "git://github.com/azawawi/perl6-ncurses.git",
   "perl" : "6.c",
