@@ -21326,21 +21326,21 @@
 }
 ,
 {
-  "name" : "Koos",
-  "source-url" : "git://github.com/tony-o/perl6-koos.git",
+  "name" : "Xoo",
+  "source-url" : "git://github.com/tony-o/perl6-xoo.git",
   "perl" : "6",
   "auth" : "github:tony-o",
   "depends" : [
     "DBIish"
   ],
   "provides" : {
-    "Koos::Model" : "lib/Koos/Model.pm6",
-    "Koos::Searchable" : "lib/Koos/Searchable.pm6",
-    "Koos" : "lib/Koos.pm6",
-    "Koos::Row" : "lib/Koos/Row.pm6"
+    "Xoo::Model" : "lib/Xoo/Model.pm6",
+    "Xoo::Searchable" : "lib/Xoo/Searchable.pm6",
+    "Xoo::Row" : "lib/Xoo/Row.pm6",
+    "Xoo" : "lib/Xoo.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.4",
+  "version" : "0.0.6",
   "authors" : [
     "Tony O'Dell"
   ],
