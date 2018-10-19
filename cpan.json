@@ -22868,6 +22868,48 @@ null
 }
 ,
 {
+  "name" : "IP::Addr",
+  "support" : {
+    "source" : "https://github.com/vrurg/perl6-IP-Addr.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/IP-Addr-v0.0.1.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [
+    "META6",
+    "p6doc",
+    "Pod::To::Markdown"
+  ],
+  "auth" : "github:vrurg",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "IP",
+    "IPv4",
+    "IPv6"
+  ],
+  "provides" : {
+    "IP::Addr::v4" : "lib/IP/Addr/v4.pm6",
+    "IP::Addr::v6" : "lib/IP/Addr/v6.pm6",
+    "IP::Addr::Handler" : "lib/IP/Addr/Handler.pm6",
+    "IP::Addr::Common" : "lib/IP/Addr/Common.pm6",
+    "IP::Addr" : "lib/IP/Addr.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "production" : true,
+  "meta-version" : "0",
+  "description" : "IPv4/IPv6 manipulation",
+  "authors" : [
+    "Vadim Belman <vrurg@cpan.org>"
+  ]
+}
+,
+{
   "name" : "Font::AFM",
   "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-AFM-1.24.2.tar.gz",
   "perl" : "6",
