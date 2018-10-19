@@ -14359,29 +14359,6 @@
 }
 ,
 {
-  "name" : "Audio::MIDI::Note",
-  "source-url" : "git://github.com/Perl6-Noise-Gang/perl6-Audio-MIDI-Note.git",
-  "perl" : "6.c",
-  "depends" : [
-    "Audio::PortMIDI",
-    "Subset::Helper"
-  ],
-  "provides" : {
-    "Audio::MIDI::Note" : "lib/Audio/MIDI/Note.pm6"
-  },
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "1.001001",
-  "authors" : [
-    "Perl6 Noise Gang"
-  ],
-  "description" : "Playable MIDI note"
-}
-,
-{
   "name" : "App::MoarVM::HeapAnalyzer",
   "source-url" : "git://github.com/jnthn/p6-app-moarvm-heapanalyzer.git",
   "perl" : "6.*",
@@ -16948,39 +16925,6 @@
   },
   "version" : "0.0.3",
   "description" : "Types for IP addresses and manipulation methods."
-}
-,
-{
-  "name" : "Test::Fuzz",
-  "source-url" : "git://github.com/FCO/Test-Fuzz.git",
-  "perl" : "6.*",
-  "resources" : [
-    "classes",
-    "examples/test.p6",
-    "examples/test2.p6"
-  ],
-  "depends" : [ ],
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "provides" : {
-    "Test::Fuzz::Generator" : "lib/Test/Fuzz/Generator.pm6",
-    "Test::Fuzz" : "lib/Test/Fuzz.pm6",
-    "Test::Fuzz::Fuzzed" : "lib/Test/Fuzz/Fuzzed.pm6",
-    "Test::Fuzz::AggGenerators" : "lib/Test/Fuzz/AggGenerators.pm6",
-    "Test::Fuzz::Generators" : "lib/Test/Fuzz/Generators.pm6"
-  },
-  "tags" : [
-    "test",
-    "fuzz",
-    "generative"
-  ],
-  "version" : "0.2.1",
-  "authors" : [
-    "Fernando Correa de Oliveira"
-  ],
-  "description" : "Generative Testing"
 }
 ,
 {
