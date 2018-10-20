@@ -3073,6 +3073,29 @@
 }
 ,
 {
+  "name" : "Hash::Restricted",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Restricted-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Hash::Restricted" : "lib/Hash/Restricted.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "description" : "trait for restricting keys in hashes",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Hash::Util",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Util-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -5479,6 +5502,29 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.4",
+  "description" : "provide an immutable List value type",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "Tuple",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tuple-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Tuple" : "lib/Tuple.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
   "description" : "provide an immutable List value type",
   "authors" : [
     "Elizabeth Mattijsen"
