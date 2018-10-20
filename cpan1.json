@@ -1008,6 +1008,30 @@
 }
 ,
 {
+  "name" : "App::Perl6LangServer",
+  "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/App-Perl6LangServer-0.1.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "auth" : "github:azawawi",
+  "depends" : [
+    "File::Temp",
+    "JSON::Fast"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "App::Perl6LangServer" : "lib/App/Perl6LangServer.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.1.2",
+  "description" : "Perl 6 Language Server.",
+  "authors" : [
+    "Ahmad M. Zawawi"
+  ]
+}
+,
+{
   "name" : "Inline::Go",
   "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/Inline-Go-0.0.4.tar.gz",
   "perl" : "6.c",
