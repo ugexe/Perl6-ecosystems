@@ -21949,6 +21949,30 @@
 }
 ,
 {
+  "name" : "Blin",
+  "source-url" : "https://github.com/perl6/Blin.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [
+    "File::Directory::Tree",
+    "File::Temp",
+    "JSON::Fast",
+    "Whateverable",
+    "Zef"
+  ],
+  "provides" : {
+    "Blin::Processing" : "lib/Blin/Processing.pm6",
+    "Blin::Module" : "lib/Blin/Module.pm6"
+  },
+  "license" : "AGPL-3.0-or-later",
+  "version" : "1.0.0",
+  "authors" : [
+    "Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>"
+  ],
+  "description" : "Project Blin \u2013 Toasting Reinvented"
+}
+,
+{
   "name" : "Whateverable",
   "source-url" : "https://github.com/perl6/whateverable.git",
   "perl" : "6.c",
@@ -21992,7 +22016,7 @@
     "Whateverable" : "lib/Whateverable.pm6"
   },
   "license" : "AGPL-3.0-or-later",
-  "version" : "1.0.2",
+  "version" : "1.0.3",
   "authors" : [
     "Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>",
     "Daniel Green <ddgreen@gmail.com>"
