@@ -7579,6 +7579,30 @@
 }
 ,
 {
+  "name" : "Math::Vector3D",
+  "source-url" : "http://www.cpan.org/authors/id/J/JE/JEFFOBER/Perl6/Math-Vector3D-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "build-depends" : [ ],
+  "auth" : "github:sysread",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "math",
+    "vector",
+    "3d"
+  ],
+  "provides" : {
+    "Math::Vector3D" : "lib/Math/Vector3D.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "3-dimensional vector math",
+  "authors" : [
+    "Jeff Ober"
+  ]
+}
+,
+{
   "name" : "ANTLR4::Grammar",
   "support" : {
     "source" : "https://github.com/drforr/perl6-ANTLR4.git"
