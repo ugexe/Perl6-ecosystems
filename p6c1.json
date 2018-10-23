@@ -12760,24 +12760,6 @@
 }
 ,
 {
-  "name" : "Inline::Scheme::Gambit",
-  "source-url" : "git://github.com/zhouzhen1/perl6-Inline-Scheme-Gambit.git",
-  "perl" : "6.*",
-  "resources" : [
-    "libraries/gambithelper"
-  ],
-  "author" : "github:zhouzhen1",
-  "depends" : [
-    "LibraryMake"
-  ],
-  "provides" : {
-    "Inline::Scheme::Gambit" : "lib/Inline/Scheme/Gambit.pm6"
-  },
-  "version" : "0.01",
-  "description" : "Embedded Gambit-C for Perl 6"
-}
-,
-{
   "name" : "Acme::Cow",
   "source-url" : "git://github.com/hankache/Acme-Cow.git",
   "perl" : "6.c",
