@@ -2287,30 +2287,6 @@
 }
 ,
 {
-  "name" : "Facter",
-  "source-url" : "git://github.com/cosimo/perl6-facter.git",
-  "authority" : "cosimo",
-  "perl" : "6.*",
-  "author" : "Cosimo Streppone",
-  "depends" : [ ],
-  "provides" : {
-    "Facter::Util::Loader" : "lib/Facter/Util/Loader.pm",
-    "Facter::Util::Values" : "lib/Facter/Util/Values.pm",
-    "Facter::Util::Collection" : "lib/Facter/Util/Collection.pm",
-    "Facter::Util::Resolution" : "lib/Facter/Util/Resolution.pm",
-    "Facter" : "lib/Facter.pm",
-    "Facter::physicalprocessorcount" : "lib/Facter/physicalprocessorcount.pm",
-    "Facter::perl6os" : "lib/Facter/perl6os.pm",
-    "Facter::kernel" : "lib/Facter/kernel.pm",
-    "Facter::Debug" : "lib/Facter/Debug.pm",
-    "Facter::Util::Fact" : "lib/Facter/Util/Fact.pm",
-    "Facter::Util::Confine" : "lib/Facter/Util/Confine.pm"
-  },
-  "version" : "0.04",
-  "description" : "A port of puppetlabs facter to Perl 6"
-}
-,
-{
   "name" : "String::CRC32",
   "source-url" : "git://github.com/cosimo/perl6-string-crc32.git",
   "authority" : "cosimo",
