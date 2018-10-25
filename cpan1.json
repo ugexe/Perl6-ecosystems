@@ -7474,6 +7474,43 @@
 {
   "name" : "AI::Agent",
   "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/AI-Agent-0.1.17.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "AI",
+    "Agent"
+  ],
+  "provides" : {
+    "AI::Agent::NESROMAgent" : "lib/AI/Learn/NESROMAgent.pm6",
+    "AI::Agent::MusicAgent" : "lib/AI/Learn/MusicAgent.pm6",
+    "AI::Agent::NESMusicAgent" : "lib/AI/Learn/NESMusicAgent.pm6",
+    "AI::Agent::ROMDB" : "lib/AI/Learn/ROMDB.pm6",
+    "AI::Agent::NESMusicROMDB" : "lib/AI/Learn/NESMusicROMDB.pm6",
+    "AI::Agent::M68kasmDB" : "lib/AI/Learn/M68kasmDB.pm6",
+    "AI::Agent::DB" : "lib/AI/Learn/DB.pm6",
+    "AI::Agent::Actor" : "lib/AI/Learn/Actor.pm6",
+    "AI::Agent::M68kROMAgent" : "lib/AI/Learn/M68kROMAgent.pm6",
+    "AI::Agent::Agent" : "lib/AI/Learn/Agent.pm6",
+    "AI::Agent::NESasmDB" : "lib/AI/Learn/NESasmDB.pm6",
+    "AI::Agent::NESAgent" : "lib/AI/Learn/NESAgent.pm6",
+    "AI::Agent::MusicDB" : "lib/AI/Learn/MusicDB.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.17",
+  "description" : "AI network Agent system",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "AI::Agent",
+  "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/AI-Agent-0.1.2.tar.gz",
   "perl" : "6.c",
   "resources" : [ ],
