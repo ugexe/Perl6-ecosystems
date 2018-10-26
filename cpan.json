@@ -6619,6 +6619,37 @@
 }
 ,
 {
+  "name" : "DOM::Tiny",
+  "support" : {
+    "source" : "git://github.com/zostay/p6-DOM-Tiny.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/DOM-Tiny-0.5.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "DOM::Tiny::CSS" : "lib/DOM/Tiny/CSS.pm6",
+    "DOM::Tiny" : "lib/DOM/Tiny.pm6",
+    "DOM::Tiny::HTML" : "lib/DOM/Tiny/HTML.pm6",
+    "DOM::Tiny::Entities" : "lib/DOM/Tiny/Entities.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.5.0",
+  "meta-version" : "0",
+  "description" : "Very small, self-sufficient DOM parser manipulator",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
   "name" : "DateTime::DST",
   "support" : {
     "source" : "git://github.com/zostay/DateTime-DST.git"
