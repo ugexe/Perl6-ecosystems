@@ -22068,4 +22068,29 @@
   ],
   "description" : "Module that provides support for ECMA262 regex notation"
 }
+,
+{
+  "name" : "Zodiac::Chinese",
+  "source-url" : "https://github.com/tmtvl/Zodiac-Chinese.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:tmtvl",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Time",
+    "Date",
+    "Fun"
+  ],
+  "provides" : {
+    "Zodiac::Chinese" : "lib/Zodiac/Chinese.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Generate Chinese Zodiac",
+  "authors" : [
+    "Tim Van den Langenbergh"
+  ]
+}
 ]
