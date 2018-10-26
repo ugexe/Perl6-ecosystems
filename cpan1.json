@@ -20143,6 +20143,31 @@
 }
 ,
 {
+  "name" : "Zodiac::Chinese",
+  "source-url" : "http://www.cpan.org/authors/id/T/TM/TMTVL/Perl6/Zodiac-Chinese-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:tmtvl",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Time",
+    "Date",
+    "Fun"
+  ],
+  "provides" : {
+    "Zodiac::Chinese" : "lib/Zodiac/Chinese.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Generate Chinese Zodiac",
+  "authors" : [
+    "Tim Van den Langenbergh"
+  ]
+}
+,
+{
   "name" : "HTTP::Server::Tiny",
   "source-url" : "http://www.cpan.org/authors/id/T/TO/TOKUHIROM/Perl6/HTTP-Server-Tiny-0.0.1.tar.gz",
   "perl" : "6.c",
