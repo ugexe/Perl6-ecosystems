@@ -1084,6 +1084,34 @@
 }
 ,
 {
+  "name" : "Libclang",
+  "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/Libclang-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libclang-perl6.dll",
+    "libclang-perl6.dylib",
+    "libclang-perl6.so"
+  ],
+  "auth" : "github:azawawi",
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "libclang",
+    "NativeCall"
+  ],
+  "provides" : {
+    "Libclang" : "lib/Libclang.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.1",
+  "description" : "libclang bindings for Perl 6",
+  "authors" : [
+    "Ahmad M. Zawawi"
+  ]
+}
+,
+{
   "name" : "MsgPack",
   "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/MsgPack-0.0.7.tar.gz",
   "perl" : "6.c",
