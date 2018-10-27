@@ -21750,6 +21750,39 @@
 }
 ,
 {
+  "name" : "API::Discord",
+  "source-url" : "git@github.com:shuppet/p6-api-discord.git",
+  "perl" : "6.*",
+  "licence" : "BSD-3-Clause",
+  "repo-type" : "git",
+  "depends" : [
+    "Cro::WebSocket",
+    "URI::Encode"
+  ],
+  "provides" : {
+    "API::Discord::Message" : "lib/API/Discord/Message.pm6",
+    "API::Discord::JSONy" : "lib/API/Discord/HTTPResource.pm6",
+    "API::Discord::Guild" : "lib/API/Discord/Guild.pm6",
+    "API::Discord::Endpoints" : "lib/API/Discord/Endpoints.pm6",
+    "API::Discord" : "lib/API/Discord.pm6",
+    "API::Discord::User" : "lib/API/Discord/User.pm6",
+    "API::Discord::RESTy" : "lib/API/Discord/HTTPResource.pm6",
+    "API::Discord::Channel" : "lib/API/Discord/Channel.pm6",
+    "X::API::Discord::Endpoint::NotEnoughArguments" : "lib/API/Discord/Endpoints.pm6",
+    "API::Discord::HTTPResource" : "lib/API/Discord/HTTPResource.pm6",
+    "API::Discord::Object" : "lib/API/Discord/Object.pm6",
+    "API::Discord::Types" : "lib/API/Discord/Types.pm6",
+    "API::Discord::Connection" : "lib/API/Discord/Connection.pm6"
+  },
+  "version" : "0.0.1",
+  "description" : "Perl6 module for interacting with the Discord API.",
+  "authors" : [
+    "Alastair 'altreus' Douglas <altreus@altre.us>",
+    "Kane 'kawaii' Valentine <kane@cute.im>"
+  ]
+}
+,
+{
   "name" : "Git::Log",
   "api" : "0",
   "source-url" : "https://github.com/samcv/perl6-Git-Log.git",
