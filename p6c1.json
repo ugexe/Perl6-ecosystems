@@ -22137,4 +22137,20 @@
     "Tim Van den Langenbergh"
   ]
 }
+,
+{
+  "name" : "Exportable",
+  "source-url" : "git://github.com/0racle/p6-Exportable.git",
+  "perl" : "6.c",
+  "depends" : [ ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "Exportable" : "lib/Exportable.pm6"
+  },
+  "version" : "0.0.1",
+  "authors" : [
+    "Joshua Yeshouroun"
+  ],
+  "description" : "Simple function exporting"
+}
 ]
