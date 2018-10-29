@@ -222,18 +222,6 @@
 }
 ,
 {
-  "name" : "Math::ContinuedFractions",
-  "source-url" : "git://github.com/colomon/Math-ContinuedFractions.git",
-  "source-type" : "git",
-  "depends" : [ ],
-  "provides" : {
-    "Math::ContinuedFractions" : "lib/Math/ContinuedFraction.pm"
-  },
-  "version" : "*",
-  "description" : "Basic continued fraction arithmetic"
-}
-,
-{
   "name" : "Math::ChebyshevPolynomial",
   "source-url" : "git://github.com/colomon/Math-ChebyshevPolynomial.git",
   "source-type" : "git",
@@ -255,27 +243,6 @@
   },
   "version" : "*",
   "description" : "Standard math function odds and ends"
-}
-,
-{
-  "name" : "Config::INI",
-  "source-url" : "git://github.com/tadzik/perl6-Config-INI.git",
-  "support" : {
-    "source" : "git://github.com/tadzik/perl6-Config-INI.git",
-    "bugtracker" : "https://github.com/tadzik/perl6-Config-INI/issues"
-  },
-  "perl" : "6.*",
-  "depends" : [ ],
-  "provides" : {
-    "Config::INI::Writer" : "lib/Config/INI/Writer.pm",
-    "Config::INI" : "lib/Config/INI.pm"
-  },
-  "version" : "*",
-  "authors" : [
-    "Tadeusz \u201ctadzik\u201d So\u015bnierz",
-    "Nobuo Danjou"
-  ],
-  "description" : ".ini file parser and writer module for Perl 6"
 }
 ,
 {
