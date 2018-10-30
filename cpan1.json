@@ -7957,6 +7957,42 @@
 }
 ,
 {
+  "name" : "Game::Markov",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-Markov-0.1.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [
+    "Mathx::Stat"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Game",
+    "Markov"
+  ],
+  "provides" : {
+    "Game::Markov::TruncatedGaussian" : "lib/Game/Markov/TruncatedGaussian.pm6",
+    "Game::Markov::Tick" : "lib/Game/Markov/Tick.pm6",
+    "Game::Markov::SamplePopulation" : "lib/Game/Markov/SamplePopulation.pm6",
+    "Game::Markov::HMMMarkovChain" : "lib/Game/Markov/HMMMarkovChain.pm6",
+    "Game::Markov::AbstractMarkovChain" : "lib/Game/Markov/AbstractMarkovChain.pm6",
+    "Game::Markov::MarkovChain" : "lib/Game/Markov/MarkovChain.pm6",
+    "Game::Markov::Time" : "lib/Game/Markov/Time.pm6",
+    "Game::Markov::TimeChain" : "lib/Game/Markov/TimeChain.pm6",
+    "Game::Markov::MarkovTime" : "lib/Game/Markov/MarkovTime.pm6",
+    "Game::Markov::MarkovTick" : "lib/Game/Markov/MarkovTick.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.7",
+  "description" : "Markov Strategy kit for games",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
   "name" : "Mathx::Stat",
   "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Stat-0.1.5.tar.gz",
@@ -7981,6 +8017,37 @@
   },
   "license" : "General Public License 3, Artistic-2.0",
   "version" : "0.1.5",
+  "description" : "Statistics package unto Correlation Dimension.",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Mathx::Stat",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Stat-0.1.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Mathx",
+    "Stat"
+  ],
+  "provides" : {
+    "Mathx::Stat::Probablity" : "lib/Mathx/Stat/Probability.pm6",
+    "Mathx::Stat::Dimension" : "lib/Mathx/Stat/Dimension.pm6",
+    "Mathx::Stat::CorrelationDimension" : "lib/Mathx/Stat/CorrelationDimension.pm6",
+    "Mathx::Stat::DistributionPopulation" : "lib/Mathx/Stat/DistributionPopulation.pm6",
+    "Mathx::Stat::Correlation" : "lib/Mathx/Stat/Correlation.pm6",
+    "Mathx::Stat::Population" : "lib/Mathx/Stat/Population.pm6",
+    "Mathx::Stat::Covariance" : "lib/Mathx/Stat/Covariance.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.6",
   "description" : "Statistics package unto Correlation Dimension.",
   "authors" : [
     "The Holy Ghost"
