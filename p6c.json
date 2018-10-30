@@ -5637,6 +5637,20 @@
 }
 ,
 {
+  "name" : "Rakudo::Perl6::Format",
+  "source-url" : "git://github.com/jaffa4/perl6format.git",
+  "perl" : "6.*",
+  "depends" : [
+    "Rakudo::Perl6::Parsing"
+  ],
+  "provides" : {
+    "Rakudo::Perl6::Format" : "lib/Perl6/Format.pm"
+  },
+  "version" : "0.1",
+  "description" : "format Perl6"
+}
+,
+{
   "name" : "Rakudo::Perl6::Tracer",
   "source-url" : "git://github.com/jaffa4/perl6tracer.git",
   "perl" : "6.*",
@@ -5676,6 +5690,19 @@
   },
   "version" : "*",
   "description" : "Encode and decode HTML entities"
+}
+,
+{
+  "name" : "JSON5::Tiny",
+  "source-url" : "git://github.com/Mouq/json5.git",
+  "depends" : [ ],
+  "provides" : {
+    "JSON5::Tiny::Actions" : "lib/JSON5/Tiny/Actions.pm6",
+    "JSON5::Tiny" : "lib/JSON5/Tiny.pm6",
+    "JSON5::Tiny::Grammar" : "lib/JSON5/Tiny/Grammar.pm6"
+  },
+  "version" : "*",
+  "description" : "A JSON::Tiny fork for JSON5"
 }
 ,
 {
