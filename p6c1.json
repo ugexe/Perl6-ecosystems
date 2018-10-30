@@ -6268,18 +6268,6 @@
 }
 ,
 {
-  "name" : "colomon::App::TagTools",
-  "source-url" : "git://github.com/colomon/TagTools.git",
-  "source-type" : "git",
-  "depends" : [
-    "Audio::Taglib::Simple"
-  ],
-  "provides" : { },
-  "version" : "*",
-  "description" : "Scripts for manipulating MP3 tags"
-}
-,
-{
   "name" : "IO::String",
   "source-url" : "https://github.com/hoelzro/p6-io-string.git",
   "perl" : "6.*",
