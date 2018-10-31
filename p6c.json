@@ -22142,4 +22142,31 @@
   ],
   "description" : "Simple function exporting"
 }
+,
+{
+  "name" : "Pod::Cached",
+  "source-url" : "git://github.com/finanalyst/pod-cached.git",
+  "support" : {
+    "source" : "https://github.com/finanalyst/pod-cached"
+  },
+  "perl" : "6.*",
+  "source-type" : "git",
+  "author" : "Richard Hainsworth",
+  "depends" : [
+    "File::Directory::Tree",
+    "JSON::Fast"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::Output",
+    "JSON::Fast",
+    "File::Directory::Tree"
+  ],
+  "provides" : {
+    "Pod::Cached" : "lib/Pod/Cached.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "Precompile a collection of pod files into a cache."
+}
 ]
