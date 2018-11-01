@@ -22181,4 +22181,66 @@
   "version" : "0.1.0",
   "description" : "Precompile a collection of pod files into a cache."
 }
+,
+{
+  "api" : "*",
+  "name" : "CCLog",
+  "source-url" : "https://github.com/ccworld1000/CCLog.git",
+  "perl" : "6.*",
+  "resources" : [
+    "libCCLog.dylib",
+    "libCCLog.so"
+  ],
+  "build-depends" : [ ],
+  "auth" : "github:ccworld1000, ccworld1000@gmail.com, 2291108617@qq.com",
+  "depends" : [
+    "NativeCall"
+  ],
+  "tags" : [
+    "CCLog",
+    "CCLogFull",
+    "log",
+    "colorlog",
+    "debug",
+    "colordebug",
+    "C",
+    "C++",
+    "Perl 6",
+    "shell",
+    "Objective-C",
+    "NativeCall",
+    "ccnormal",
+    "CCLog_normal",
+    "ccwarning",
+    "CCLog_warning",
+    "ccerror",
+    "CCLog_error",
+    "cctimer",
+    "CCLog_timer",
+    "ccloop",
+    "CCLog_loop",
+    "ccthread",
+    "CCLog_thread",
+    "ccprint",
+    "CCLog_print",
+    "ccsay",
+    "CCLog_say",
+    "ccdie",
+    "CCLog_die",
+    "ccnetwork",
+    "CCLog_network",
+    "cross-platform"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "CCLogFull" : "CCLog/lib/CCLogFull.pm6",
+    "CCLog" : "CCLog/lib/CCLog.pm6"
+  },
+  "license" : "GPL-2.0",
+  "version" : "0.0.1",
+  "authors" : [
+    "youhua deng (deng you hua | CC)"
+  ],
+  "description" : "CCLog Simple and lightweight cross-platform logs, easy-to-use simple learning, and support for multiple languages, such as C, C++, Perl 6, shell, Objective-C ."
+}
 ]
