@@ -8033,6 +8033,36 @@
 }
 ,
 {
+  "name" : "Bayes::Learn",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Bayes-Learn-0.1.8.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [
+    "Mathx::Stat"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Bayes",
+    "Learn"
+  ],
+  "provides" : {
+    "Bayes::Learn::Action" : "lib/Bayes/Learn/Action.pm6",
+    "Bayes::Learn::Strategy" : "lib/Bayes/Learn/Strategy.pm6",
+    "Bayes::Learn::LossFunction" : "lib/Bayes/Learn/LossFunction.pm6",
+    "Bayes::Learn::Hypothesis" : "lib/Bayes/Learn/Hypothesis.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.8",
+  "description" : "Bayesian Inference based upon ditributions. Minimax",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
   "name" : "Game::Markov",
   "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-Markov-0.1.5.tar.gz",
@@ -8171,6 +8201,37 @@
   "license" : "General Public License 3, Artistic-2.0",
   "version" : "0.1.8",
   "description" : "Markov Strategy kit for games",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Mathx::Stat",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Stat-0.1.10.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Mathx",
+    "Stat"
+  ],
+  "provides" : {
+    "Mathx::Stat::Probablity" : "lib/Mathx/Stat/Probability.pm6",
+    "Mathx::Stat::Dimension" : "lib/Mathx/Stat/Dimension.pm6",
+    "Mathx::Stat::CorrelationDimension" : "lib/Mathx/Stat/CorrelationDimension.pm6",
+    "Mathx::Stat::DistributionPopulation" : "lib/Mathx/Stat/DistributionPopulation.pm6",
+    "Mathx::Stat::Correlation" : "lib/Mathx/Stat/Correlation.pm6",
+    "Mathx::Stat::Population" : "lib/Mathx/Stat/Population.pm6",
+    "Mathx::Stat::Covariance" : "lib/Mathx/Stat/Covariance.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.10",
+  "description" : "Statistics package unto Correlation Dimension.",
   "authors" : [
     "The Holy Ghost"
   ]
