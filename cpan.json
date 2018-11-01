@@ -8063,6 +8063,36 @@
 }
 ,
 {
+  "name" : "Bayes::Learn",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Bayes-Learn-0.1.9.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [
+    "Mathx::Stat"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Bayes",
+    "Learn"
+  ],
+  "provides" : {
+    "Bayes::Learn::Action" : "lib/Bayes/Learn/Action.pm6",
+    "Bayes::Learn::Strategy" : "lib/Bayes/Learn/Strategy.pm6",
+    "Bayes::Learn::LossFunction" : "lib/Bayes/Learn/LossFunction.pm6",
+    "Bayes::Learn::Hypothesis" : "lib/Bayes/Learn/Hypothesis.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.9",
+  "description" : "Bayesian Inference based upon ditributions. Minimax",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
   "name" : "Game::Markov",
   "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-Markov-0.1.5.tar.gz",
