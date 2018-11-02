@@ -21320,28 +21320,6 @@
 }
 ,
 {
-  "name" : "Xoo",
-  "source-url" : "git://github.com/tony-o/perl6-xoo.git",
-  "perl" : "6",
-  "auth" : "github:tony-o",
-  "depends" : [
-    "DBIish"
-  ],
-  "provides" : {
-    "Xoo::Model" : "lib/Xoo/Model.pm6",
-    "Xoo::Searchable" : "lib/Xoo/Searchable.pm6",
-    "Xoo::Row" : "lib/Xoo/Row.pm6",
-    "Xoo" : "lib/Xoo.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.6",
-  "authors" : [
-    "Tony O'Dell"
-  ],
-  "description" : "An ORM."
-}
-,
-{
   "name" : "Test::Time",
   "perl" : "6.*",
   "support" : {
