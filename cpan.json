@@ -23645,6 +23645,40 @@ null
 }
 ,
 {
+  "name" : "ENIGMA::Machine",
+  "source-url" : "http://www.cpan.org/authors/id/U/UZ/UZLUISF/Perl6/ENIGMA-Machine-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "gitlab:uzluisf",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "Enigma",
+    "Machine",
+    "Cryptography"
+  ],
+  "provides" : {
+    "ENIGMA::Machine" : "lib/ENIGMA/Machine.pm6",
+    "ENIGMA::Machine::Plugboard" : "lib/ENIGMA/Machine/Plugboard.pm6",
+    "ENIGMA::Machine::Factory" : "lib/ENIGMA/Machine/Factory.pm6",
+    "ENIGMA::Machine::Data" : "lib/ENIGMA/Machine/Data.pm6",
+    "ENIGMA::Machine::PlugGrammar" : "lib/ENIGMA/Machine/PlugGrammar.pm6",
+    "ENIGMA::Machine::Error" : "lib/ENIGMA/Machine/Error.pm6",
+    "ENIGMA::Machine::Keyfile" : "lib/ENIGMA/Machine/Keyfile.pm6",
+    "ENIGMA::Machine::Rotor" : "lib/ENIGMA/Machine/Rotor.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.2",
+  "description" : "A Perl 6 Implementation of an Enigma Machine",
+  "authors" : [
+    "Luis F. Uceta"
+  ]
+}
+,
+{
   "name" : "AttrX::Mooish",
   "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/AttrX-Mooish-v0.0.2.tar.gz",
   "perl" : "6.c",
