@@ -1078,6 +1078,39 @@
 }
 ,
 {
+  "name" : "MagickWand",
+  "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/MagickWand-0.1.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "auth" : "github:azawawi",
+  "test-depends" : [
+    "LibraryCheck",
+    "Test"
+  ],
+  "provides" : {
+    "MagickWand::NativeCall::Property" : "lib/MagickWand/NativeCall/Property.pm6",
+    "MagickWand::NativeCall::PixelIterator" : "lib/MagickWand/NativeCall/PixelIterator.pm6",
+    "MagickWand::NativeCall::Mogrify" : "lib/MagickWand/NativeCall/Mogrify.pm6",
+    "MagickWand::NativeCall::DrawingWand" : "lib/MagickWand/NativeCall/DrawingWand.pm6",
+    "MagickWand::NativeCall" : "lib/MagickWand/NativeCall.pm6",
+    "MagickWand::NativeCall::Image" : "lib/MagickWand/NativeCall/Image.pm6",
+    "MagickWand::NativeCall::Common" : "lib/MagickWand/NativeCall/Common.pm6",
+    "MagickWand::NativeCall::WandView" : "lib/MagickWand/NativeCall/WandView.pm6",
+    "MagickWand::NativeCall::Wand" : "lib/MagickWand/NativeCall/Wand.pm6",
+    "MagickWand::Enums" : "lib/MagickWand/Enums.pm6",
+    "MagickWand" : "lib/MagickWand.pm6",
+    "MagickWand::NativeCall::Deprecated" : "lib/MagickWand/NativeCall/Deprecated.pm6",
+    "MagickWand::NativeCall::PixelWand" : "lib/MagickWand/NativeCall/PixelWand.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.1.0",
+  "description" : "ImageMagick's MagickWand API Bindings for Perl6",
+  "authors" : [
+    "Ahmad M. Zawawi"
+  ]
+}
+,
+{
   "name" : "MsgPack",
   "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/MsgPack-0.0.7.tar.gz",
   "perl" : "6.c",
