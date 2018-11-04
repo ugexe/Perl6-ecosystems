@@ -16657,6 +16657,25 @@
 }
 ,
 {
+  "name" : "Math::Factorial::Operator",
+  "source-url" : "http://www.cpan.org/authors/id/R/RI/RIBNOTTER/Perl6/Math-Factorial-Operator-0.1.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Math::Factorial::Operator" : "lib/Factorial.pm6"
+  },
+  "license" : "Unlicense",
+  "version" : "0.1.1",
+  "meta-version" : 0,
+  "description" : "Supplies a factorial post-fix operator. Then 5!=120",
+  "authors" : [
+    "ribbon-otter"
+  ]
+}
+,
+{
   "name" : "Text::Names",
   "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/R/RI/RIBNOTTER/Perl6/Text-Names-0.0.1.tar.gz",
