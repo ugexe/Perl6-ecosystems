@@ -12398,6 +12398,28 @@
 }
 ,
 {
+  "name" : "Crypt::CAST5",
+  "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Crypt-CAST5-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Crypt"
+  ],
+  "provides" : {
+    "Crypt::CAST5" : "lib/Crypt/CAST5.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "CAST-128 encryption library",
+  "authors" : [
+    "Ben Davies"
+  ]
+}
+,
+{
   "name" : "Digest::BubbleBabble",
   "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Digest-BubbleBabble-0.0.2.tar.gz",
   "perl" : "6.c",
