@@ -8122,7 +8122,7 @@
     "build",
     "utils"
   ],
-  "version" : "0.0.6",
+  "version" : "0.0.7",
   "meta6" : "0",
   "description" : "Quick hack to determine whether a shared libray is present",
   "authors" : [
@@ -9967,7 +9967,7 @@
     "JSON"
   ],
   "meta-version" : "0",
-  "version" : "0.0.14",
+  "version" : "0.0.15",
   "description" : "Simple serialisation of objects to JSON",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -10271,8 +10271,13 @@
   ],
   "provides" : {
     "Pod::Coverage::Result" : "lib/Pod/Coverage/Result.pm6",
+    "Pod::Coverage::Anypod" : "lib/Pod/Coverage/Anypod.pm6",
     "Test::Coverage" : "lib/Test/Coverage.pm6",
-    "Pod::Coverage" : "lib/Pod/Coverage.pm6"
+    "Pod::Coverage::To::Keywords" : "lib/Pod/Coverage/To/Keywords.pm6",
+    "Pod::Coverage::Full" : "lib/Pod/Coverage/Full.pm6",
+    "Pod::Coverage" : "lib/Pod/Coverage.pm6",
+    "Pod::Coverage::PodEgg" : "lib/Pod/Coverage/PodEgg.pm6",
+    "Pod::Tester" : "lib/Pod/Tester.pm6"
   },
   "license" : "Artistic-2.0",
   "version" : "v0.1.1",
