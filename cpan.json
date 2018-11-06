@@ -6191,6 +6191,32 @@
 }
 ,
 {
+  "name" : "Math::FFT::Libfftw3",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-FFT-Libfftw3-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "math",
+    "fft",
+    "nativecall"
+  ],
+  "provides" : {
+    "Math::FFT::Libfftw3::Constants" : "lib/Math/FFT/Libfftw3/Constants.pm6",
+    "Math::FFT::Libfftw3::Raw" : "lib/Math/FFT/Libfftw3/Raw.pm6",
+    "Math::FFT::Libfftw3" : "lib/Math/FFT/Libfftw3.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Interface to libfftw3",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
   "name" : "Inline",
   "support" : {
     "source" : "https://github.com/FROGGS/p6-Inline-C.git",
