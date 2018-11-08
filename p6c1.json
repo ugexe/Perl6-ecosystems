@@ -15241,38 +15241,6 @@
 }
 ,
 {
-  "name" : "RT::REST::Client",
-  "support" : {
-    "source" : "git://github.com/zoffixznet/perl6-RT-REST-Client.git"
-  },
-  "perl" : "6.c",
-  "depends" : [
-    "IO::Socket::SSL",
-    "HTTP::UserAgent",
-    "URI",
-    "URI::Escape"
-  ],
-  "provides" : {
-    "RT::REST::Client::Grammar" : "lib/RT/REST/Client/Grammar.pm6",
-    "RT::REST::Client::Grammar::Actions::Tickets" : "lib/RT/REST/Client/Grammar/Actions.pm6",
-    "RT::REST::Client::Grammar::Actions" : "lib/RT/REST/Client/Grammar/Actions.pm6",
-    "RT::REST::Client::Grammar::Tickets" : "lib/RT/REST/Client/Grammar.pm6",
-    "RT::REST::Client::Ticket" : "lib/RT/REST/Client/Grammar/Actions.pm6",
-    "RT::REST::Client" : "lib/RT/REST/Client.pm6"
-  },
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "1.001003",
-  "authors" : [
-    "Zoffix Znet"
-  ],
-  "description" : "Use Request Tracker's (RT) REST client interface"
-}
-,
-{
   "name" : "Uzu",
   "source-url" : "https://github.com/scmorrison/uzu.git",
   "perl" : "6.c",
@@ -19012,7 +18980,7 @@
     "source" : "https://github.com/CurtTilmes/perl6-libuuid.git",
     "bugtracker" : "https://github.com/CurtTilmes/perl6-libuuid/issues"
   },
-  "perl" : "6.c",
+  "perl" : "6.*",
   "source-url" : "https://github.com/CurtTilmes/perl6-libuuid.git",
   "auth" : "github:CurtTilmes",
   "depends" : [
@@ -19030,7 +18998,7 @@
   "tags" : [
     "UUID"
   ],
-  "version" : "0.1",
+  "version" : "0.2",
   "authors" : [
     "Curt Tilmes <ctilmes@cpan.org>"
   ],
@@ -21480,33 +21448,6 @@
 }
 ,
 {
-  "name" : "App::GymScheduler",
-  "support" : {
-    "source" : "https://github.com/zoffixznet/perl6-App-GymScheduler.git"
-  },
-  "perl" : "6.c",
-  "depends" : [
-    "Config::JSON",
-    "Terminal::ANSIColor"
-  ],
-  "provides" : {
-    "App::GymScheduler" : "lib/App/GymScheduler.pm6"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "planning"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "1.001004",
-  "authors" : [
-    "Zoffix Znet"
-  ],
-  "description" : "Randomized schedule maker for your workouts"
-}
-,
-{
   "name" : "GeoIP2",
   "source-url" : "git://github.com/bbkr/GeoIP2.git",
   "perl" : "6.c",
@@ -22181,6 +22122,11 @@
     "shell",
     "Objective-C",
     "NativeCall",
+    "ios",
+    "osx",
+    "watchos",
+    "tvos",
+    "pod",
     "ccnormal",
     "CCLog_normal",
     "ccwarning",
@@ -22209,10 +22155,10 @@
     "CCLog" : "CCLog/lib/CCLog.pm6"
   },
   "license" : "GPL-2.0",
-  "version" : "0.0.3",
+  "version" : "0.0.4",
   "authors" : [
     "youhua deng (deng you hua | CC)"
   ],
-  "description" : "CCLog Simple and lightweight cross-platform logs, easy-to-use simple learning, and support for multiple languages, such as C, C++, Perl 6, shell, Objective-C ."
+  "description" : "CCLog Simple and lightweight cross-platform logs, easy-to-use simple learning, and support for multiple languages, such as C, C++, Perl 6, shell, Objective-C, support ios, osx, watchos, tvos, pod ."
 }
 ]
