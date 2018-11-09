@@ -1544,6 +1544,68 @@
 }
 ,
 {
+  "name" : "CCLog",
+  "api" : "*",
+  "source-url" : "http://www.cpan.org/authors/id/C/CC/CCWORLD/Perl6/CCLog-0.0.1.tar.gz",
+  "perl" : "6.*",
+  "resources" : [
+    "libCCLog.dylib",
+    "libCCLog.so"
+  ],
+  "build-depends" : [ ],
+  "auth" : "github:ccworld1000, ccworld1000@gmail.com, 2291108617@qq.com",
+  "depends" : [
+    "NativeCall"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "CCLog",
+    "CCLogFull",
+    "log",
+    "colorlog",
+    "debug",
+    "colordebug",
+    "C",
+    "C++",
+    "Perl 6",
+    "shell",
+    "Objective-C",
+    "NativeCall",
+    "ccnormal",
+    "CCLog_normal",
+    "ccwarning",
+    "CCLog_warning",
+    "ccerror",
+    "CCLog_error",
+    "cctimer",
+    "CCLog_timer",
+    "ccloop",
+    "CCLog_loop",
+    "ccthread",
+    "CCLog_thread",
+    "ccprint",
+    "CCLog_print",
+    "ccsay",
+    "CCLog_say",
+    "ccdie",
+    "CCLog_die",
+    "ccnetwork",
+    "CCLog_network",
+    "cross-platform"
+  ],
+  "provides" : {
+    "CCLogFull" : "CCLog/lib/CCLogFull.pm6",
+    "CCLog" : "CCLog/lib/CCLog.pm6"
+  },
+  "license" : "GPL-2.0",
+  "version" : "0.0.1",
+  "description" : "CCLog Simple and lightweight cross-platform logs, easy-to-use simple learning, and support for multiple languages, such as C, C++, Perl 6, shell, Objective-C .",
+  "authors" : [
+    "youhua deng (deng you hua | CC)"
+  ]
+}
+,
+{
   "name" : "Lingua::Stem::Es",
   "source-url" : "http://www.cpan.org/authors/id/C/CH/CHSANCH/Perl6/Lingua-Stem-Es-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -8251,6 +8313,64 @@
 }
 ,
 {
+  "name" : "AI::Agent",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/AI-Agent-Music-0.2.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [
+    "AI::Agent"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "AI",
+    "Agent",
+    "Music"
+  ],
+  "provides" : {
+    "AI::Agent::Music::MusicDB" : "lib/AI/Agent/Music/MusicDB.pm6",
+    "AI::Agent::Music::MusicAgent" : "lib/AI/Agent/Music/MusicAgent.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.2",
+  "description" : "AI network Agent system, Music Link Agent",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "AI::Agent",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/AI-Agent-Music-0.2.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [
+    "AI::Agent"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "AI",
+    "Agent",
+    "Music"
+  ],
+  "provides" : {
+    "AI::Agent::Music::MusicDB" : "lib/AI/Agent/Music/MusicDB.pm6",
+    "AI::Agent::Music::MusicAgent" : "lib/AI/Agent/Music/MusicAgent.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.3",
+  "description" : "AI network Agent system, Music Link Agent",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
   "name" : "Bayes::Learn",
   "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Bayes-Learn-0.1.7.tar.gz",
@@ -10782,6 +10902,42 @@
   },
   "license" : "MIT",
   "version" : "1.3",
+  "description" : "Implementation of the JSONPath data structure query language."
+}
+,
+{
+  "name" : "JSON::Path",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/JSON-Path-1.4.tar.gz",
+  "perl" : "6.*",
+  "build-depends" : [ ],
+  "auth" : "Jonathan Worthington <jonathan@edument.se>",
+  "depends" : [
+    "JSON::Fast"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "JSON::Path" : "lib/JSON/Path.pm6"
+  },
+  "license" : "MIT",
+  "version" : "1.4",
+  "description" : "Implementation of the JSONPath data structure query language."
+}
+,
+{
+  "name" : "JSON::Path",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/JSON-Path-1.5.tar.gz",
+  "perl" : "6.*",
+  "build-depends" : [ ],
+  "auth" : "Jonathan Worthington <jonathan@edument.se>",
+  "depends" : [
+    "JSON::Fast"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "JSON::Path" : "lib/JSON/Path.pm6"
+  },
+  "license" : "MIT",
+  "version" : "1.5",
   "description" : "Implementation of the JSONPath data structure query language."
 }
 ,
@@ -20557,6 +20713,29 @@
 }
 ,
 {
+  "name" : "Algorithm::MinMaxHeap",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-MinMaxHeap-0.13.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::MinMaxHeap::Comparable" : "lib/Algorithm/MinMaxHeap/Comparable.pm6",
+    "Algorithm::MinMaxHeap" : "lib/Algorithm/MinMaxHeap.pm6",
+    "Algorithm::MinMaxHeap::CmpOperator" : "lib/Algorithm/MinMaxHeap/CmpOperator.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.13.4",
+  "description" : "A Perl 6 implementation of double ended priority queue",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
   "name" : "Algorithm::NaiveBayes",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-NaiveBayes-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -24580,6 +24759,44 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.4.12",
+  "production" : false,
+  "meta-version" : "0",
+  "description" : "Extending attribute functionality with ideas from Moo/Moose",
+  "authors" : [
+    "Vadim Belman <vrurg@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "AttrX::Mooish",
+  "support" : {
+    "source" : "git://github.com/vrurg/Perl6-AttrX-Mooish.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/AttrX-Mooish-v0.4.13.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:vrurg",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "AttrX",
+    "Moo",
+    "Moose",
+    "Mooish",
+    "attribute",
+    "mooish",
+    "trait"
+  ],
+  "provides" : {
+    "AttrX::Mooish" : "lib/AttrX/Mooish.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.4.13",
   "production" : false,
   "meta-version" : "0",
   "description" : "Extending attribute functionality with ideas from Moo/Moose",
