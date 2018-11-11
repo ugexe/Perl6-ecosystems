@@ -22172,4 +22172,36 @@
   ],
   "description" : "CCLog Simple and lightweight cross-platform logs, easy-to-use simple learning, and support for multiple languages, such as C, C++, Perl 6, shell, Objective-C, support ios, osx, watchos, tvos, pod ."
 }
+,
+{
+  "api" : "*",
+  "name" : "CCChart",
+  "source-url" : "https://github.com/ccworld1000/CCChart.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:ccworld1000, ccworld1000@gmail.com, 2291108617@qq.com",
+  "depends" : [
+    "CCLog",
+    "Cairo"
+  ],
+  "tags" : [
+    "CCChart",
+    "chart",
+    "png",
+    "Perl 6",
+    "draw",
+    "pie"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "CCChart" : "lib/CCChart.pm6"
+  },
+  "license" : "GPL-2.0",
+  "version" : "0.0.1",
+  "authors" : [
+    "youhua deng (deng you hua | CC)"
+  ],
+  "description" : "Simple draw chart for Perl 6 , easy-to-use simple learning."
+}
 ]
