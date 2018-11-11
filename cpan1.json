@@ -995,38 +995,6 @@
 ,
 {
   "name" : "Libclang",
-  "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/Libclang-0.1.0.tar.gz",
-  "perl" : "6.c",
-  "resources" : [
-    "libclang-perl6.dll",
-    "libclang-perl6.dylib",
-    "libclang-perl6.so"
-  ],
-  "auth" : "github:azawawi",
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "libclang",
-    "NativeCall"
-  ],
-  "provides" : {
-    "Libclang::TranslationUnit" : "lib/Libclang/TranslationUnit.pm6",
-    "Libclang" : "lib/Libclang.pm6",
-    "Libclang::Cursor" : "lib/Libclang/Cursor.pm6",
-    "Libclang::Raw" : "lib/Libclang/Raw.pm6",
-    "Libclang::Index" : "lib/Libclang/Index.pm6"
-  },
-  "license" : "MIT",
-  "version" : "0.1.0",
-  "description" : "libclang bindings for Perl 6",
-  "authors" : [
-    "Ahmad M. Zawawi"
-  ]
-}
-,
-{
-  "name" : "Libclang",
   "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/Libclang-0.2.0.tar.gz",
   "perl" : "6.c",
   "resources" : [
@@ -6594,6 +6562,44 @@
 }
 ,
 {
+  "name" : "AWS::Session",
+  "support" : {
+    "source" : "git://github.com/zostay/AWS-Session.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/AWS-Session-0.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [
+    "Config::INI",
+    "DateTime::Format::W3CDTF"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "AWS::Session" : "lib/AWS/Session.pm6",
+    "AWS::Session::Default" : "lib/AWS/Session.pm6",
+    "AWS::Credentials::Provider" : "lib/AWS/Credentials.pm6",
+    "AWS::Credentials::Refreshable" : "lib/AWS/Credentials.pm6",
+    "AWS::Credentials::Provider::SharedCredentials" : "lib/AWS/Credentials.pm6",
+    "AWS::Credentials::Provider::Resolver" : "lib/AWS/Credentials.pm6",
+    "AWS::Credentials::Provider::FromEnv" : "lib/AWS/Credentials.pm6",
+    "AWS::Credentials" : "lib/AWS/Credentials.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.7",
+  "meta-version" : "0",
+  "description" : "Tools for managing AWS configuration and credentials",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
   "name" : "Amazon::DynamoDB",
   "support" : {
     "source" : "git://github.com/zostay/Amazon-DynamoDB.git"
@@ -6887,6 +6893,49 @@
 }
 ,
 {
+  "name" : "Email::Address",
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Email-Address-0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : null,
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "X::Email::Address::Syntax" : "lib/Email/Address.pm6",
+    "Email::Address::RFC5234-Parser" : "lib/Email/Address/Parser.pm6",
+    "Email::Address::Parser" : "lib/Email/Address/Parser.pm6",
+    "X::Email::Address::AdHoc" : "lib/Email/Address.pm6",
+    "Email::Address::RFC5322-Actions" : "lib/Email/Address/Parser.pm6",
+    "Email::Address::AddrSpec" : "lib/Email/Address/Mailbox.pm6",
+    "Email::Address" : "lib/Email/Address.pm6",
+    "Email::Address::RFC5322-Parser" : "lib/Email/Address/Parser.pm6",
+    "Email::Address::Mailbox::Parsed" : "lib/Email/Address/Mailbox.pm6",
+    "Email::Address::Group::Parsed" : "lib/Email/Address/Group.pm6",
+    "Email::Address::Group" : "lib/Email/Address/Group.pm6",
+    "Email::Address::Mailbox" : "lib/Email/Address/Mailbox.pm6",
+    "Email::Address::Format" : "lib/Email/Address/Format.pm6",
+    "Email::Address::AddrSpec::Parsed" : "lib/Email/Address/Mailbox.pm6",
+    "Email::Address::FormatHelpers" : "lib/Email/Address/Format.pm6",
+    "X::Email::Address" : "lib/Email/Address.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2",
+  "meta-version" : "0",
+  "description" : "parse and format RFC 5322 email addresses and groups",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
   "name" : "Future",
   "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Future-0.1.tar.gz",
   "perl" : "6.c",
@@ -7059,6 +7108,39 @@
   "license" : "Artistic-2.0",
   "version" : "0.6",
   "meta6" : "0",
+  "description" : "Store multiple values per key, but act like a regular hash",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkap@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "Hash::MultiValue",
+  "support" : {
+    "source" : "git://github.com/zostay/p6-Hash-MultiValue.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Hash-MultiValue-0.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Andrew Sterling Hanenkamp",
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [
+    "hash",
+    "data structure",
+    "array"
+  ],
+  "provides" : {
+    "Hash::MultiValue" : "lib/Hash/MultiValue.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.7",
+  "meta-version" : "0",
   "description" : "Store multiple values per key, but act like a regular hash",
   "authors" : [
     "Sterling Hanenkamp <hanenkap@cpan.org>"
@@ -17998,6 +18080,77 @@
   },
   "license" : "AGPL-3.0-or-later",
   "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "A wiki for Perl 6 using cro, markdown, and templates",
+  "authors" : [
+    "Alex Schroeder <alex@gnu.org>"
+  ]
+}
+,
+{
+  "name" : "Oddmuse6",
+  "support" : {
+    "source" : "https://oddmuse.org/wiki/Oddmuse_6"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/S/SC/SCHROEDER/Perl6/Oddmuse-0.0.4.tar.gz",
+  "perl" : "6.*",
+  "resources" : [
+    "css/default.css",
+    "images/logo.png",
+    "templates/changes.sp6",
+    "templates/diff.sp6",
+    "templates/edit.sp6",
+    "templates/empty.sp6",
+    "templates/history.sp6",
+    "templates/locked.sp6",
+    "templates/menu.sp6",
+    "templates/no-password.sp6",
+    "templates/password-save.sp6",
+    "templates/password.sp6",
+    "templates/secret.sp6",
+    "templates/view.sp6",
+    "wiki/page/Home.md"
+  ],
+  "build-depends" : [ ],
+  "auth" : "kensanata",
+  "depends" : [
+    "Cro::HTTP",
+    "Text::Markdown",
+    "Template::Mustache",
+    "Algorithm::Diff",
+    "HTML::Escape",
+    "URI::Encode"
+  ],
+  "test-depends" : [
+    "Cro::HTTP::Test",
+    "File::Temp",
+    "DOM::Tiny"
+  ],
+  "tags" : [
+    "web",
+    "wiki"
+  ],
+  "provides" : {
+    "Oddmuse::View" : "lib/Oddmuse/View.pm6",
+    "Oddmuse::Password" : "lib/Oddmuse/Password.pm6",
+    "Oddmuse::Lock" : "lib/Oddmuse/Lock.pm6",
+    "Oddmuse::Filter" : "lib/Oddmuse/Filter.pm6",
+    "Oddmuse::Changes" : "lib/Oddmuse/Changes.pm6",
+    "Oddmuse::Storage" : "lib/Oddmuse/Storage.pm6",
+    "Oddmuse::Layout" : "lib/Oddmuse/Layout.pm6",
+    "Oddmuse::Save" : "lib/Oddmuse/Save.pm6",
+    "Oddmuse::Routes" : "lib/Oddmuse/Routes.pm6",
+    "Oddmuse::Change" : "lib/Oddmuse/Change.pm6",
+    "Oddmuse::Secret" : "lib/Oddmuse/Secret.pm6",
+    "Oddmuse::Page" : "lib/Oddmuse/Page.pm6",
+    "Oddmuse::Cookie" : "lib/Oddmuse/Cookie.pm6",
+    "Oddmuse::Storage::File" : "lib/Oddmuse/Storage/File.pm6",
+    "Oddmuse::Edit" : "lib/Oddmuse/Edit.pm6",
+    "Oddmuse::Storage::File::Lock" : "lib/Oddmuse/Storage/File/Lock.pm6",
+    "Oddmuse::Diff" : "lib/Oddmuse/Diff.pm6"
+  },
+  "license" : "AGPL-3.0-or-later",
+  "version" : "0.0.4",
   "meta-version" : "0",
   "description" : "A wiki for Perl 6 using cro, markdown, and templates",
   "authors" : [
