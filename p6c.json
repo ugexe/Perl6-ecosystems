@@ -7920,12 +7920,19 @@
 ,
 {
   "name" : "Path::Router",
-  "source-url" : "git://github.com/zostay/p6-Path-Router.git",
+  "support" : {
+    "source" : null
+  },
   "perl" : "6.c",
+  "source-url" : "git://github.com/zostay/p6-Path-Router.git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : null,
   "depends" : [
     "IO::String",
     "Linenoise"
   ],
+  "test-depends" : [ ],
   "provides" : {
     "X::Path::Router::AmbiguousMatch::PathMatch" : "lib/X/Path/Router.pm6",
     "X::Path::Router::AmbiguousMatch::ReverseMatch" : "lib/X/Path/Router.pm6",
@@ -7933,14 +7940,16 @@
     "X::Path::Router::BadRoute" : "lib/X/Path/Router.pm6",
     "X::Path::Router::BadInclusion" : "lib/X/Path/Router.pm6",
     "X::Path::Router" : "lib/X/Path/Router.pm6",
-    "Test::Path::Router" : "lib/Test/Path/Router.pm6",
     "Path::Router::Shell" : "lib/Path/Router/Shell.pm6",
+    "Test::Path::Router" : "lib/Test/Path/Router.pm6",
     "Path::Router::Route::Match" : "lib/Path/Router/Route.pm6",
-    "Path::Router::Route" : "lib/Path/Router/Route.pm6",
-    "Path::Router" : "lib/Path/Router.pm6"
+    "Path::Router" : "lib/Path/Router.pm6",
+    "Path::Router::Route" : "lib/Path/Router/Route.pm6"
   },
+  "tags" : [ ],
   "license" : "Artistic-2.0",
-  "version" : "0.1",
+  "meta-version" : "0",
+  "version" : "0.2",
   "authors" : [
     "Sterling Hanenkamp (hanenkamp@cpan.org)"
   ],
@@ -15844,28 +15853,30 @@
 ,
 {
   "name" : "HTTP::Request::Supply",
-  "source-url" : "git://github.com/zostay/HTTP-Request-Supply.git",
   "perl" : "6.c",
   "support" : {
     "source" : "git://github.com/zostay/HTTP-Request-Supply.git"
   },
+  "source-url" : "git://github.com/zostay/HTTP-Request-Supply.git",
   "build-depends" : [ ],
+  "resources" : [ ],
   "auth" : "github:zostay",
   "depends" : [ ],
+  "provides" : {
+    "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6"
+  },
   "license" : "Artistic-2.0",
+  "tags" : [ ],
   "test-depends" : [
     "Test",
     "Test::META"
   ],
-  "provides" : {
-    "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6"
-  },
-  "version" : "0.1.1",
-  "description" : "A modern HTTP request parser",
+  "meta-version" : "0",
+  "version" : "0.1.2",
   "authors" : [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
   ],
-  "meta6" : "0"
+  "description" : "A modern HTTP request parser"
 }
 ,
 {
@@ -18960,9 +18971,7 @@
   "source-url" : "git://github.com/p6-pdf/Base64-Native-p6.git",
   "perl" : "6.c",
   "resources" : [
-    "lib/libbase64.so",
-    "lib/libbase64.dll",
-    "lib/libbase64.dylib"
+    "libraries/base64"
   ],
   "build-depends" : [ ],
   "auth" : "github:p6-pdf",
@@ -18978,7 +18987,7 @@
     "encode"
   ],
   "license" : "Artistic-2.0",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "description" : "Fast Base 64 encoding and decoding (eager)",
   "authors" : [
     "David Warring"
