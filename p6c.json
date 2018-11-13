@@ -10338,7 +10338,7 @@
 ,
 {
   "name" : "Crypt::RC4",
-  "source-url" : "git://github.com/p6-pdf/perl6-Crypt-RC4.git",
+  "source-url" : "git://github.com/p6-pdf/Crypt-RC4-p6.git",
   "perl" : "6",
   "auth" : "github:p6-pdf",
   "depends" : [ ],
@@ -16022,15 +16022,16 @@
 ,
 {
   "name" : "Getopt::ForClass",
-  "perl" : "6.c",
+  "source-url" : "git://github.com/zostay/p6-Getopt-ForClass.git",
   "support" : {
     "source" : "git://github.com/zostay/p6-Getopt-ForClass.git"
   },
-  "source-url" : "git://github.com/zostay/p6-Getopt-ForClass.git",
-  "build-depends" : [ ],
+  "perl" : "6.c",
   "resources" : [ ],
+  "build-depends" : [ ],
   "auth" : "github:zostay",
   "depends" : [ ],
+  "tags" : [ ],
   "provides" : {
     "Getopt::ForClass" : "lib/Getopt/ForClass.pm6"
   },
@@ -16039,9 +16040,8 @@
     "Test::META"
   ],
   "license" : "Artistic-2.0",
-  "tags" : [ ],
+  "version" : "0.3",
   "meta-version" : "0",
-  "version" : "0.2",
   "description" : "Use MAIN to dispatch to a class.",
   "authors" : [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
@@ -21280,7 +21280,7 @@
 }
 ,
 {
-  "name" : "Xoo",
+  "name" : "DB::Xoos",
   "source-url" : "git://github.com/tony-o/perl6-xoo.git",
   "perl" : "6",
   "auth" : "github:tony-o",
@@ -21288,17 +21288,26 @@
     "DBIish"
   ],
   "provides" : {
-    "Xoo::Model" : "lib/Xoo/Model.pm6",
-    "Xoo::Searchable" : "lib/Xoo/Searchable.pm6",
-    "Xoo::Row" : "lib/Xoo/Row.pm6",
-    "Xoo" : "lib/Xoo.pm6"
+    "DB::Xoos::DSN" : "lib/DB/Xoos/DSN.pm6",
+    "DB::Xoos::SQLite::Searchable" : "lib/DB/Xoos/SQLite/Searchable.pm6",
+    "DB::Xoos::SQLite" : "lib/DB/Xoos/SQLite.pm6",
+    "DB::Xoos::Row" : "lib/DB/Xoos/Row.pm6",
+    "DB::Xoos::Oracle::Searchable" : "lib/DB/Xoos/Oracle/Searchable.pm6",
+    "DB::Xoos::MySQL::Searchable" : "lib/DB/Xoos/MySQL/Searchable.pm6",
+    "DB::Xoos::Pg::Searchable" : "lib/DB/Xoos/Pg/Searchable.pm6",
+    "DB::Xoos::Pg" : "lib/DB/Xoos/Pg.pm6",
+    "DB::Xoos::Model" : "lib/DB/Xoos/Model.pm6",
+    "DB::Xoos::Searchable" : "lib/DB/Xoos/Searchable.pm6",
+    "DB::Xoos::MySQL" : "lib/DB/Xoos/MySQL.pm6",
+    "DB::Xoos::Oracle" : "lib/DB/Xoos/Oracle.pm6",
+    "DB::Xoos" : "lib/DB/Xoos.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.6",
+  "version" : "0.0.7",
   "authors" : [
     "Tony O'Dell"
   ],
-  "description" : "An ORM."
+  "description" : "An ORM, with support."
 }
 ,
 {
@@ -22197,17 +22206,21 @@
   "tags" : [
     "CCChart",
     "chart",
-    "png",
+    "Pie",
     "Perl 6",
     "draw",
-    "pie"
+    "line",
+    "graphics",
+    "Cairo",
+    "CCLog",
+    "png"
   ],
   "test-depends" : [ ],
   "provides" : {
     "CCChart" : "lib/CCChart.pm6"
   },
   "license" : "GPL-2.0",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "authors" : [
     "youhua deng (deng you hua | CC)"
   ],
