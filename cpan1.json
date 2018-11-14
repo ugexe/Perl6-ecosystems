@@ -1145,6 +1145,50 @@
 }
 ,
 {
+  "name" : "WebService::Discourse",
+  "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/WebService-Discourse-0.1.0.tar.gz",
+  "perl" : "6.c",
+  "auth" : "github:azawawi",
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "WebService",
+    "Discourse",
+    "REST",
+    "API"
+  ],
+  "provides" : {
+    "WebService::Discourse::Invite" : "lib/WebService/Discourse/Invite.pm6",
+    "WebService::Discourse::Email" : "lib/WebService/Discourse/Email.pm6",
+    "WebService::Discourse::SiteSettings" : "lib/WebService/Discourse/SiteSettings.pm6",
+    "WebService::Discourse::Users" : "lib/WebService/Discourse/Users.pm6",
+    "WebService::Discourse::Tags" : "lib/WebService/Discourse/Tags.pm6",
+    "WebService::Discourse::Notifications" : "lib/WebService/Discourse/Notifications.pm6",
+    "WebService::Discourse::Categories" : "lib/WebService/Discourse/Categories.pm6",
+    "WebService::Discourse::ApiKey" : "lib/WebService/Discourse/ApiKey.pm6",
+    "WebService::Discourse::Uploads" : "lib/WebService/Discourse/Uploads.pm6",
+    "WebService::Discourse::Search" : "lib/WebService/Discourse/Search.pm6",
+    "WebService::Discourse::Groups" : "lib/WebService/Discourse/Groups.pm6",
+    "WebService::Discourse::PrivateMessages" : "lib/WebService/Discourse/PrivateMessages.pm6",
+    "WebService::Discourse::Topics" : "lib/WebService/Discourse/Topics.pm6",
+    "WebService::Discourse::Dashboard" : "lib/WebService/Discourse/Dashboard.pm6",
+    "WebService::Discourse::Badges" : "lib/WebService/Discourse/Badges.pm6",
+    "WebService::Discourse::UserActions" : "lib/WebService/Discourse/UserActions.pm6",
+    "WebService::Discourse::SSO" : "lib/WebService/Discourse/SSO.pm6",
+    "WebService::Discourse::Posts" : "lib/WebService/Discourse/Posts.pm6",
+    "WebService::Discourse::Backups" : "lib/WebService/Discourse/Backups.pm6",
+    "WebService::Discourse" : "lib/WebService/Discourse.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.1.0",
+  "description" : "Use Discourse REST API in Perl 6",
+  "authors" : [
+    "Ahmad M. Zawawi"
+  ]
+}
+,
+{
   "name" : "Wkhtmltox",
   "source-url" : "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/Wkhtmltox-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -26145,6 +26189,46 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.1.0",
+  "description" : "read font files and render glyphs from Perl using FreeType2",
+  "authors" : [
+    "David Warring"
+  ]
+}
+,
+{
+  "name" : "Font::FreeType",
+  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.1.1.tar.gz",
+  "perl" : "6",
+  "resources" : [
+    "libraries/ft6"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Pod::To::Markdown"
+  ],
+  "auth" : "github:p6-pdf",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "font",
+    "freetype"
+  ],
+  "provides" : {
+    "Font::FreeType::BBox" : "lib/Font/FreeType/BBox.pm",
+    "Font::FreeType" : "lib/Font/FreeType.pm",
+    "Font::FreeType::Outline" : "lib/Font/FreeType/Outline.pm",
+    "Font::FreeType::GlyphImage" : "lib/Font/FreeType/GlyphImage.pm",
+    "Font::FreeType::Glyph" : "lib/Font/FreeType/Glyph.pm",
+    "Font::FreeType::NamedInfo" : "lib/Font/FreeType/NamedInfo.pm",
+    "Font::FreeType::Native::Types" : "lib/Font/FreeType/Native/Types.pm",
+    "Font::FreeType::Error" : "lib/Font/FreeType/Error.pm",
+    "Font::FreeType::CharMap" : "lib/Font/FreeType/CharMap.pm",
+    "Font::FreeType::Native" : "lib/Font/FreeType/Native.pm",
+    "Font::FreeType::BitMap" : "lib/Font/FreeType/BitMap.pm",
+    "Font::FreeType::Face" : "lib/Font/FreeType/Face.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.1",
   "description" : "read font files and render glyphs from Perl using FreeType2",
   "authors" : [
     "David Warring"
