@@ -22198,7 +22198,7 @@
     "CCLog" : "CCLog/lib/CCLog.pm6"
   },
   "license" : "GPL-2.0",
-  "version" : "0.0.4",
+  "version" : "0.0.5",
   "authors" : [
     "youhua deng (deng you hua | CC)"
   ],
@@ -22242,5 +22242,40 @@
     "youhua deng (deng you hua | CC)"
   ],
   "description" : "Simple draw chart for Perl 6 , easy-to-use simple learning."
+}
+,
+{
+  "api" : "*",
+  "name" : "CCColor",
+  "source-url" : "https://github.com/ccworld1000/CCColor.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:ccworld1000, ccworld1000@gmail.com, 2291108617@qq.com",
+  "depends" : [ ],
+  "tags" : [
+    "CCColor",
+    "chart",
+    "color",
+    "draw",
+    "line",
+    "graphics",
+    "hex",
+    "hex2rgba",
+    "rgb",
+    "rgba",
+    "color conversion",
+    "Perl 6"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "CCColor" : "lib/CCColor.pm6"
+  },
+  "license" : "GPL-2.0",
+  "version" : "0.0.1",
+  "authors" : [
+    "youhua deng (deng you hua | CC)"
+  ],
+  "description" : "Simple and flexible color color conversion module for Perl 6 , easy-to-use simple learning."
 }
 ]
