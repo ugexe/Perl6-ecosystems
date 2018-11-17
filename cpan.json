@@ -3770,6 +3770,31 @@
 }
 ,
 {
+  "name" : "Object::Delayed",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Object-Delayed-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "Object::Trampoline"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Object::Delayed" : "lib/Object/Delayed.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "export subs for lazy object creation",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Object::Trampoline",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Object-Trampoline-0.0.3.tar.gz",
   "perl" : "6.c",
@@ -7408,6 +7433,45 @@
   "authors" : [
     "Andrew Sterling Hanenkamp <hanenkamp@cpan.org>",
     "Peter Pentchev <roam@ringlet.net>"
+  ]
+}
+,
+{
+  "name" : "ModelDB",
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ModelDB-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : null,
+  "depends" : [
+    "DBIish"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "ModelDB::Table" : "lib/ModelDB/Table.pm6",
+    "ModelDB::Model" : "lib/ModelDB/Model.pm6",
+    "ModelDB::SchemaBuilder" : "lib/ModelDB/SchemaBuilder.pm6",
+    "ModelDB::RelationshipSetup" : "lib/ModelDB/RelationshipSetup.pm6",
+    "MetamodelX::DBModelHOW" : "lib/MetamodelX/DBModelHOW.pm6",
+    "ModelDB::Column" : "lib/ModelDB/Column.pm6",
+    "ModelDB::Collection" : "lib/ModelDB/Collection.pm6",
+    "ModelDB::TableBuilder" : "lib/ModelDB/TableBuilder.pm6",
+    "ModelDB::ModelBuilder" : "lib/ModelDB/ModelBuilder.pm6",
+    "ModelDB" : "lib/ModelDB.pm6",
+    "ModelDB::Schema" : "lib/ModelDB/Schema.pm6"
+  },
+  "license" : null,
+  "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "An ORM built on DBIish",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
   ]
 }
 ,
@@ -26053,88 +26117,6 @@ null
   "license" : "Artistic-2.0",
   "version" : "1.24.2",
   "description" : "Interface to Adobe Font Metrics files",
-  "authors" : [
-    "David Warring"
-  ]
-}
-,
-{
-  "name" : "Font::FreeType",
-  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.0.7.tar.gz",
-  "perl" : "6",
-  "resources" : [
-    "lib/libft6.so",
-    "lib/libft6.dll",
-    "lib/libft6.dylib"
-  ],
-  "build-depends" : [
-    "LibraryMake"
-  ],
-  "auth" : "github:p6-pdf",
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "font",
-    "freetype"
-  ],
-  "provides" : {
-    "Font::FreeType::BBox" : "lib/Font/FreeType/BBox.pm",
-    "Font::FreeType" : "lib/Font/FreeType.pm",
-    "Font::FreeType::Outline" : "lib/Font/FreeType/Outline.pm",
-    "Font::FreeType::GlyphImage" : "lib/Font/FreeType/GlyphImage.pm",
-    "Font::FreeType::Glyph" : "lib/Font/FreeType/Glyph.pm",
-    "Font::FreeType::NamedInfo" : "lib/Font/FreeType/NamedInfo.pm",
-    "Font::FreeType::Native::Types" : "lib/Font/FreeType/Native/Types.pm",
-    "Font::FreeType::Error" : "lib/Font/FreeType/Error.pm",
-    "Font::FreeType::CharMap" : "lib/Font/FreeType/CharMap.pm",
-    "Font::FreeType::Native" : "lib/Font/FreeType/Native.pm",
-    "Font::FreeType::BitMap" : "lib/Font/FreeType/BitMap.pm",
-    "Font::FreeType::Face" : "lib/Font/FreeType/Face.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.7",
-  "description" : "read font files and render glyphs from Perl using FreeType2",
-  "authors" : [
-    "David Warring"
-  ]
-}
-,
-{
-  "name" : "Font::FreeType",
-  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.0.8.tar.gz",
-  "perl" : "6",
-  "resources" : [
-    "lib/libft6.so",
-    "lib/libft6.dll",
-    "lib/libft6.dylib"
-  ],
-  "build-depends" : [
-    "LibraryMake"
-  ],
-  "auth" : "github:p6-pdf",
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "font",
-    "freetype"
-  ],
-  "provides" : {
-    "Font::FreeType::BBox" : "lib/Font/FreeType/BBox.pm",
-    "Font::FreeType" : "lib/Font/FreeType.pm",
-    "Font::FreeType::Outline" : "lib/Font/FreeType/Outline.pm",
-    "Font::FreeType::GlyphImage" : "lib/Font/FreeType/GlyphImage.pm",
-    "Font::FreeType::Glyph" : "lib/Font/FreeType/Glyph.pm",
-    "Font::FreeType::NamedInfo" : "lib/Font/FreeType/NamedInfo.pm",
-    "Font::FreeType::Native::Types" : "lib/Font/FreeType/Native/Types.pm",
-    "Font::FreeType::Error" : "lib/Font/FreeType/Error.pm",
-    "Font::FreeType::CharMap" : "lib/Font/FreeType/CharMap.pm",
-    "Font::FreeType::Native" : "lib/Font/FreeType/Native.pm",
-    "Font::FreeType::BitMap" : "lib/Font/FreeType/BitMap.pm",
-    "Font::FreeType::Face" : "lib/Font/FreeType/Face.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.8",
-  "description" : "read font files and render glyphs from Perl using FreeType2",
   "authors" : [
     "David Warring"
   ]
