@@ -8805,6 +8805,34 @@
 {
   "name" : "AI::Agent",
   "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/AI-Agent-0.2.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "AI",
+    "Agent"
+  ],
+  "provides" : {
+    "AI::Agent::DB" : "lib/AI/Agent/DB.pm6",
+    "AI::Agent::Actor" : "lib/AI/Agent/Actor.pm6",
+    "AI::Agent::Agent" : "lib/AI/Agent/Agent.pm6",
+    "AI::Agent::HashedAgent" : "lib/AI/Agent/HashedAgent.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.6",
+  "description" : "AI network Agent system",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "AI::Agent",
+  "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/AI-Agent-Music-0.2.1.tar.gz",
   "perl" : "6.c",
   "resources" : [ ],
@@ -9062,6 +9090,36 @@
   },
   "license" : "General Public License 3, Artistic-2.0",
   "version" : "0.1.9",
+  "description" : "Bayesian Inference based upon ditributions. Minimax",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Bayes::Learn",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Bayes-Learn-0.2.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [
+    "Mathx::Stat"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Bayes",
+    "Learn"
+  ],
+  "provides" : {
+    "Bayes::Learn::Action" : "lib/Bayes/Learn/Action.pm6",
+    "Bayes::Learn::Strategy" : "lib/Bayes/Learn/Strategy.pm6",
+    "Bayes::Learn::LossFunction" : "lib/Bayes/Learn/LossFunction.pm6",
+    "Bayes::Learn::Hypothesis" : "lib/Bayes/Learn/Hypothesis.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.1",
   "description" : "Bayesian Inference based upon ditributions. Minimax",
   "authors" : [
     "The Holy Ghost"
@@ -9579,6 +9637,126 @@
   "license" : "General Public License 3, Artistic-2.0",
   "version" : "0.1.9",
   "description" : "Statistics package unto Correlation Dimension.",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Mathx::Stat",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Stat-0.2.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Mathx",
+    "Stat"
+  ],
+  "provides" : {
+    "Mathx::Stat::Probablity" : "lib/Mathx/Stat/Probability.pm6",
+    "Mathx::Stat::Dimension" : "lib/Mathx/Stat/Dimension.pm6",
+    "Mathx::Stat::CorrelationDimension" : "lib/Mathx/Stat/CorrelationDimension.pm6",
+    "Mathx::Stat::DistributionPopulation" : "lib/Mathx/Stat/DistributionPopulation.pm6",
+    "Mathx::Stat::Correlation" : "lib/Mathx/Stat/Correlation.pm6",
+    "Mathx::Stat::Population" : "lib/Mathx/Stat/Population.pm6",
+    "Mathx::Stat::Covariance" : "lib/Mathx/Stat/Covariance.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.1",
+  "description" : "Statistics package unto Correlation Dimension.",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Mathx::Stat",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Stat-0.2.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Mathx",
+    "Stat"
+  ],
+  "provides" : {
+    "Mathx::Stat::Probablity" : "lib/Mathx/Stat/Probability.pm6",
+    "Mathx::Stat::Dimension" : "lib/Mathx/Stat/Dimension.pm6",
+    "Mathx::Stat::CorrelationDimension" : "lib/Mathx/Stat/CorrelationDimension.pm6",
+    "Mathx::Stat::DistributionPopulation" : "lib/Mathx/Stat/DistributionPopulation.pm6",
+    "Mathx::Stat::Correlation" : "lib/Mathx/Stat/Correlation.pm6",
+    "Mathx::Stat::Population" : "lib/Mathx/Stat/Population.pm6",
+    "Mathx::Stat::Covariance" : "lib/Mathx/Stat/Covariance.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.2",
+  "description" : "Statistics package unto Correlation Dimension.",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Mathx::Stat",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Stat-0.2.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Mathx",
+    "Stat"
+  ],
+  "provides" : {
+    "Mathx::Stat::Probablity" : "lib/Mathx/Stat/Probability.pm6",
+    "Mathx::Stat::DistributionPopulation" : "lib/Mathx/Stat/DistributionPopulation.pm6",
+    "Mathx::Stat::Correlation" : "lib/Mathx/Stat/Correlation.pm6",
+    "Mathx::Stat::Population" : "lib/Mathx/Stat/Population.pm6",
+    "Mathx::Stat::Covariance" : "lib/Mathx/Stat/Covariance.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.3",
+  "description" : "Statistics package unto Correlation Dimension.",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Mathx::Stat",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Stat-0.2.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Mathx",
+    "Stat"
+  ],
+  "provides" : {
+    "Mathx::Stat::Probablity" : "lib/Mathx/Stat/Probability.pm6",
+    "Mathx::Stat::DistributionPopulation" : "lib/Mathx/Stat/DistributionPopulation.pm6",
+    "Mathx::Stat::Correlation" : "lib/Mathx/Stat/Correlation.pm6",
+    "Mathx::Stat::Population" : "lib/Mathx/Stat/Population.pm6",
+    "Mathx::Stat::Covariance" : "lib/Mathx/Stat/Covariance.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.5",
+  "description" : "Minimal Statistics package.",
   "authors" : [
     "The Holy Ghost"
   ]
