@@ -516,10 +516,10 @@
     "OO::Monitors"
   ],
   "provides" : {
-    "Test::Mock" : "lib/Test/Mock.pm"
+    "Test::Mock" : "lib/Test/Mock.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "1.4",
+  "version" : "1.5",
   "description" : "Creation of stub objects using the Arrange, Act, Assert pattern.",
   "authors" : [
     "Jonathan Worthington <jnthn@jnthn.net>"
@@ -4085,7 +4085,7 @@
   "provides" : {
     "if" : "lib/if.pm"
   },
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "description" : "conditionally use packages"
 }
 ,
@@ -6816,6 +6816,7 @@
   "provides" : {
     "_007::Runtime" : "lib/_007/Runtime.pm6",
     "_007::Linter" : "lib/_007/Linter.pm6",
+    "_007::Equal" : "lib/_007/Equal.pm6",
     "_007::Q" : "lib/_007/Q.pm6",
     "_007::Val" : "lib/_007/Val.pm6",
     "_007::Test" : "lib/_007/Test.pm6",
@@ -22253,7 +22254,11 @@
     "hex2rgba",
     "rgb",
     "rgba",
+    "rgb32",
     "color conversion",
+    "color format",
+    "hex color",
+    "Raku",
     "Perl 6"
   ],
   "test-depends" : [ ],
@@ -22261,10 +22266,28 @@
     "CCColor" : "lib/CCColor.pm6"
   },
   "license" : "GPL-2.0",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "authors" : [
     "youhua deng (deng you hua | CC)"
   ],
-  "description" : "Simple and flexible color color conversion module for Perl 6 , easy-to-use simple learning."
+  "description" : "Simple and flexible color color conversion module for Raku Perl 6 , easy-to-use simple learning."
+}
+,
+{
+  "name" : "Acme::Gistribution",
+  "source-url" : "https://gist.github.com/64267c60b798047145c80561334c3cd5.git",
+  "perl" : "6.*",
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "Acme::Gistribution::Example" : "Example.pm",
+    "Acme::Gistribution" : "Gistribution.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "authors" : [
+    "Lucas Buchala"
+  ],
+  "description" : "A Perl 6 test distribution in a GitHub Gist"
 }
 ]
