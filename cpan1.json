@@ -702,6 +702,49 @@
 }
 ,
 {
+  "name" : "Getopt::Advance",
+  "support" : {
+    "source" : "https://github.com/araraloren/perl6-getopt-advance.git",
+    "bugtracker" : "https://github.com.araraloren/perl6-getopt-advance/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/Getopt-Advance-1.1.4.tar.gz",
+  "perl" : "6.c",
+  "auth" : "github:araraloren",
+  "depends" : [
+    "Terminal::Table"
+  ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "getopt",
+    "unix",
+    "gnu",
+    "bsd",
+    "main",
+    "command"
+  ],
+  "provides" : {
+    "Getopt::Advance::Types" : "lib/Getopt/Advance/Types.pm6",
+    "Getopt::Advance::Helper" : "lib/Getopt/Advance/Helper.pm6",
+    "Getopt::Advance" : "lib/Getopt/Advance.pm6",
+    "Getopt::Advance::Utils" : "lib/Getopt/Advance/Utils.pm6",
+    "Getopt::Advance::Exception" : "lib/Getopt/Advance/Exception.pm6",
+    "Getopt::Advance::Context" : "lib/Getopt/Advance/Context.pm6",
+    "Getopt::Advance::Parser" : "lib/Getopt/Advance/Parser.pm6",
+    "Getopt::Advance::Option" : "lib/Getopt/Advance/Option.pm6",
+    "Getopt::Advance::NonOption" : "lib/Getopt/Advance/NonOption.pm6",
+    "Getopt::Advance::Group" : "lib/Getopt/Advance/Group.pm6",
+    "Getopt::Advance::Subs" : "lib/Getopt/Advance/Subs.pm6",
+    "Getopt::Advance::Argument" : "lib/Getopt/Advance/Argument.pm6"
+  },
+  "license" : "MIT",
+  "version" : "1.1.4",
+  "description" : "Advanced command line parse module for perl6",
+  "authors" : "Loren"
+}
+,
+{
   "name" : "IConv",
   "support" : {
     "source" : "https://github.com/araraloren/perl6-iconv",
@@ -8833,6 +8876,34 @@
 {
   "name" : "AI::Agent",
   "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/AI-Agent-0.2.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "AI",
+    "Agent"
+  ],
+  "provides" : {
+    "AI::Agent::DB" : "lib/AI/Agent/DB.pm6",
+    "AI::Agent::Actor" : "lib/AI/Agent/Actor.pm6",
+    "AI::Agent::Agent" : "lib/AI/Agent/Agent.pm6",
+    "AI::Agent::HashedAgent" : "lib/AI/Agent/HashedAgent.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.7",
+  "description" : "AI network Agent system",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "AI::Agent",
+  "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/AI-Agent-Music-0.2.1.tar.gz",
   "perl" : "6.c",
   "resources" : [ ],
@@ -9127,6 +9198,36 @@
 }
 ,
 {
+  "name" : "Bayes::Learn",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Bayes-Learn-0.2.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [
+    "Mathx::Stat"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Bayes",
+    "Learn"
+  ],
+  "provides" : {
+    "Bayes::Learn::Action" : "lib/Bayes/Learn/Action.pm6",
+    "Bayes::Learn::Strategy" : "lib/Bayes/Learn/Strategy.pm6",
+    "Bayes::Learn::LossFunction" : "lib/Bayes/Learn/LossFunction.pm6",
+    "Bayes::Learn::Hypothesis" : "lib/Bayes/Learn/Hypothesis.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.2",
+  "description" : "Bayesian Inference based upon ditributions. Minimax",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
   "name" : "Game::Markov",
   "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-Markov-0.1.5.tar.gz",
@@ -9265,6 +9366,62 @@
   "license" : "General Public License 3, Artistic-2.0",
   "version" : "0.1.8",
   "description" : "Markov Strategy kit for games",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Mathx::Chaos",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Chaos-0.1.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [
+    "Mathx::Stat"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Mathx",
+    "Chaos"
+  ],
+  "provides" : {
+    "Mathx::Chaos::CorrelationDimension" : "lib/Mathx/Chaos/CorrelationDimension.pm6",
+    "Mathx::Chaos::Dimension" : "lib/Mathx/Chaos/Dimension.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.1",
+  "description" : "Chaos mathematics package",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Mathx::Chaos",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Chaos-0.1.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [
+    "Mathx::Stat"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Mathx",
+    "Chaos"
+  ],
+  "provides" : {
+    "Mathx::Chaos::CorrelationDimension" : "lib/Mathx/Chaos/CorrelationDimension.pm6",
+    "Mathx::Chaos::Dimension" : "lib/Mathx/Chaos/Dimension.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.2",
+  "description" : "Chaos mathematics package",
   "authors" : [
     "The Holy Ghost"
   ]
@@ -9756,6 +9913,64 @@
   },
   "license" : "General Public License 3, Artistic-2.0",
   "version" : "0.2.5",
+  "description" : "Minimal Statistics package.",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Mathx::Stat",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Stat-0.2.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Mathx",
+    "Stat"
+  ],
+  "provides" : {
+    "Mathx::Stat::Probablity" : "lib/Mathx/Stat/Probability.pm6",
+    "Mathx::Stat::DistributionPopulation" : "lib/Mathx/Stat/DistributionPopulation.pm6",
+    "Mathx::Stat::Correlation" : "lib/Mathx/Stat/Correlation.pm6",
+    "Mathx::Stat::Population" : "lib/Mathx/Stat/Population.pm6",
+    "Mathx::Stat::Covariance" : "lib/Mathx/Stat/Covariance.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.6",
+  "description" : "Minimal Statistics package.",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Mathx::Stat",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Stat-0.2.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Mathx",
+    "Stat"
+  ],
+  "provides" : {
+    "Mathx::Stat::Probablity" : "lib/Mathx/Stat/Probability.pm6",
+    "Mathx::Stat::DistributionPopulation" : "lib/Mathx/Stat/DistributionPopulation.pm6",
+    "Mathx::Stat::Correlation" : "lib/Mathx/Stat/Correlation.pm6",
+    "Mathx::Stat::Population" : "lib/Mathx/Stat/Population.pm6",
+    "Mathx::Stat::Covariance" : "lib/Mathx/Stat/Covariance.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.7",
   "description" : "Minimal Statistics package.",
   "authors" : [
     "The Holy Ghost"
