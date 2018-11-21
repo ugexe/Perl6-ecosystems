@@ -21318,7 +21318,7 @@
     "DB::Xoos" : "lib/DB/Xoos.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.7",
+  "version" : "0.0.8",
   "authors" : [
     "Tony O'Dell"
   ],
@@ -21930,6 +21930,28 @@
     "Aleks-Daniel Jakimenko-Aleksejev"
   ],
   "description" : "A module that works on older Rakudo versions but not newer ones."
+}
+,
+{
+  "api" : "1",
+  "name" : "../Foo",
+  "source-url" : "git://github.com/AlexDaniel/dotdotslashfoo.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:AlexDaniel",
+  "depends" : [ ],
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "../Foo" : "lib/DotDotSlashFoo.pm6"
+  },
+  "license" : "GPL-3.0-or-later",
+  "version" : "0.0.1",
+  "authors" : [
+    "Aleks-Daniel Jakimenko-Aleksejev"
+  ],
+  "description" : "A module with `../` in its name."
 }
 ,
 {
