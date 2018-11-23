@@ -9978,6 +9978,35 @@
 }
 ,
 {
+  "name" : "Mathx::Stat",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Stat-0.2.8.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Mathx",
+    "Stat"
+  ],
+  "provides" : {
+    "Mathx::Stat::Probablity" : "lib/Mathx/Stat/Probability.pm6",
+    "Mathx::Stat::DistributionPopulation" : "lib/Mathx/Stat/DistributionPopulation.pm6",
+    "Mathx::Stat::Correlation" : "lib/Mathx/Stat/Correlation.pm6",
+    "Mathx::Stat::Population" : "lib/Mathx/Stat/Population.pm6",
+    "Mathx::Stat::Covariance" : "lib/Mathx/Stat/Covariance.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.2.8",
+  "description" : "Minimal Statistics package.",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
   "name" : "Data::Selector",
   "support" : {
     "irc" : "irc://irc.freenode.net/perl6",
@@ -11253,6 +11282,42 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.12",
+  "description" : "Task Management CLI Appliication",
+  "authors" : [
+    "Joelle Maslak"
+  ]
+}
+,
+{
+  "name" : "App::Tasks",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/App-Tasks-0.0.13.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:JMASLAK",
+  "depends" : [
+    "Digest::SHA1::Native",
+    "File::Temp",
+    "NativeCall",
+    "P5getpriority",
+    "P5localtime",
+    "Term::termios",
+    "Term::ReadKey",
+    "Terminal::ANSIColor",
+    "YAMLish"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "App::Tasks::Lock" : "lib/App/Tasks/Lock.pm6",
+    "App::Tasks::Task" : "lib/App/Tasks/Task.pm6",
+    "App::Tasks::Config" : "lib/App/Tasks/Config.pm6",
+    "App::Tasks::TaskList" : "lib/App/Tasks/TaskList.pm6",
+    "App::Tasks" : "lib/App/Tasks.pm6",
+    "App::Tasks::TaskBody" : "lib/App/Tasks/TaskBody.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.13",
   "description" : "Task Management CLI Appliication",
   "authors" : [
     "Joelle Maslak"
@@ -18681,6 +18746,56 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.2.4",
+  "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, and multi-page support.",
+  "authors" : [
+    "Sam Morrison"
+  ]
+}
+,
+{
+  "name" : "Uzu",
+  "source-url" : "http://www.cpan.org/authors/id/S/SA/SACOMO/Perl6/Uzu-0.2.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "mustache/pages/index.mustache",
+    "mustache/partials/footer.mustache",
+    "mustache/partials/head.mustache",
+    "mustache/themes/default/layout.mustache",
+    "tt/pages/index.tt",
+    "tt/partials/footer.tt",
+    "tt/partials/head.tt",
+    "tt/themes/default/layout.tt"
+  ],
+  "depends" : [
+    "File::Find",
+    "File::Temp",
+    "Terminal::ANSIColor",
+    "Template6",
+    "Template::Mustache",
+    "Test::Output",
+    "HTTP::Server::Tiny",
+    "YAMLish"
+  ],
+  "test-depends" : [
+    "Test::Output"
+  ],
+  "tags" : [
+    "web",
+    "static-site-generator"
+  ],
+  "provides" : {
+    "Uzu::Logger" : "lib/Uzu/Logger.pm6",
+    "Uzu::LiveReload" : "lib/Uzu/LiveReload.pm6",
+    "Uzu::Config" : "lib/Uzu/Config.pm6",
+    "Uzu::Watch" : "lib/Uzu/Watch.pm6",
+    "Uzu::Utilities" : "lib/Uzu/Utilities.pm6",
+    "Uzu::Render" : "lib/Uzu/Render.pm6",
+    "Uzu::HTTP" : "lib/Uzu/HTTP.pm6",
+    "Uzu::CLI" : "lib/Uzu/CLI.pm6",
+    "Uzu" : "lib/Uzu.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.5",
   "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, and multi-page support.",
   "authors" : [
     "Sam Morrison"
