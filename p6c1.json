@@ -22257,6 +22257,25 @@
 }
 ,
 {
+  "name" : "Duo",
+  "source-url" : "https://github.com/lucasbuchala/p6pairs.git",
+  "perl" : "6.c",
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "Duo::Augment" : "lib/Duo/Augment.pm",
+    "Duo" : "lib/Duo.pm",
+    "Duo::Util" : "lib/Duo/Util.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "authors" : [
+    "Lucas Buchala"
+  ],
+  "description" : "A simple pair object for Perl 6"
+}
+,
+{
   "name" : "Acme::Gistribution",
   "source-url" : "https://gist.github.com/64267c60b798047145c80561334c3cd5.git",
   "perl" : "6.*",
@@ -22272,5 +22291,29 @@
     "Lucas Buchala"
   ],
   "description" : "A Perl 6 test distribution in a GitHub Gist"
+}
+,
+{
+  "name" : "Protocol",
+  "source-url" : "",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Protocol" : "lib/Protocol.pm6",
+    "X::Protocol::NonStubs" : "lib/X/Protocol/NonStubs.pm6",
+    "MetamodelX::Protocol" : "lib/MetamodelX/Protocol.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Protocol",
+  "authors" : [
+    "Fernando Correa de Oliveira"
+  ]
 }
 ]
