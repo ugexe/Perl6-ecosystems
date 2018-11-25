@@ -31,30 +31,29 @@
   "resources" : [ ],
   "auth" : "github:nige123",
   "depends" : [
-    "Terminal::ANSIColor",
+    "Terminal::Print",
     "Test::META"
   ],
   "tags" : [
     "invoke-editor",
-    "code-search"
+    "code-search",
+    "file-search"
   ],
   "provides" : {
-    "JMP::System" : "lib/JMP/System.pm",
-    "JMP::Finder::Hit" : "lib/JMP/Finder/Hit.pm",
-    "JMP::Screen::Action::EditFile" : "lib/JMP/Screen/Action/EditFile.pm",
-    "JMP::Finder" : "lib/JMP/Finder.pm",
+    "JMP::UI" : "lib/JMP/UI.pm",
+    "JMP::UI::Page" : "lib/JMP/UI/Page.pm",
     "JMP::Editor" : "lib/JMP/Editor.pm",
-    "JMP::Screen::Page" : "lib/JMP/Screen/Page.pm",
-    "JMP::Screen::Action" : "lib/JMP/Screen/Action.pm",
-    "JMP::Template" : "lib/JMP/Template.pm",
+    "JMP::UI::Pager" : "lib/JMP/UI/Pager.pm",
+    "JMP::UI::Cursor" : "lib/JMP/UI/Cursor.pm",
+    "JMP::Hit" : "lib/JMP/Hit.pm",
+    "JMP::Find" : "lib/JMP/Find.pm",
     "JMP::Config" : "lib/JMP/Config.pm",
     "JMP" : "lib/JMP.pm",
-    "JMP::Screen::Action::EditFileLine" : "lib/JMP/Screen/Action/EditFileLine.pm",
-    "JMP::Screen" : "lib/JMP/Screen.pm",
-    "JMP::CLI" : "lib/JMP/CLI.pm"
+    "JMP::CLI" : "lib/JMP/CLI.pm",
+    "JMP::File" : "lib/JMP/File.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.2",
+  "version" : "0.4",
   "authors" : [
     "Nigel Hamilton"
   ],
@@ -18196,7 +18195,7 @@
     "async",
     "asynchronous"
   ],
-  "version" : "0.9.4",
+  "version" : "0.9.5",
   "authors" : [
     "Julien Simonet"
   ],
