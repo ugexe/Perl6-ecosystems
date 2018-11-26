@@ -20836,15 +20836,15 @@
   "auth" : "github:dmaestro",
   "depends" : [ ],
   "provides" : {
-    "SQL::Keyword" : "lib/SQL/Lexer.pm",
-    "SQL::Lexer" : "lib/SQL/Lexer.pm",
-    "SQL::Basic" : "lib/SQL/Basic.pm"
+    "SQL::Keyword" : "lib/SQL/Lexer.pm6",
+    "SQL::Lexer" : "lib/SQL/Lexer.pm6",
+    "SQL::Basic" : "lib/SQL/Basic.pm6"
   },
   "test-depends" : [ ],
   "license" : "MIT",
   "tags" : [ ],
   "meta-version" : "0",
-  "version" : "0.2.1",
+  "version" : "0.2.2",
   "description" : "Grammar for lexical analysis of SQL",
   "authors" : [
     "Douglas L. Schrag <dmaestro@cpan.org>"
