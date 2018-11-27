@@ -53,7 +53,7 @@
     "JMP::File" : "lib/JMP/File.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.4",
+  "version" : "0.5",
   "authors" : [
     "Nigel Hamilton"
   ],
@@ -2260,7 +2260,7 @@
   "name" : "LWP::Simple",
   "source-url" : "https://github.com/perl6/perl6-lwp-simple.git",
   "perl" : "6.*",
-  "author" : "Cosimo Streppone",
+  "author" : "Perl 6 team",
   "auth" : "github:perl6",
   "depends" : [
     "MIME::Base64",
@@ -2272,7 +2272,7 @@
   "test-depends" : [
     "JSON::Tiny"
   ],
-  "version" : "0.104",
+  "version" : "0.105",
   "description" : "LWP::Simple quick & dirty implementation for Rakudo Perl 6"
 }
 ,
@@ -5926,7 +5926,7 @@
     "pdf",
     "svg"
   ],
-  "version" : "0.2.3",
+  "version" : "0.2.4",
   "description" : "Cairo 2D graphics library"
 }
 ,
@@ -10990,7 +10990,10 @@
   "depends" : [
     "AttrX::Lazy"
   ],
-  "test-depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
   "tags" : [
     "Math"
   ],
@@ -10999,7 +11002,7 @@
     "Math::Matrix::Util" : "lib/Math/Matrix/Util.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.3.7",
+  "version" : "0.3.8",
   "description" : "create, compare, compute and measure matrices",
   "authors" : [
     "github:pierre-vigier",
@@ -12469,7 +12472,7 @@
     "state machine"
   ],
   "meta-version" : "0",
-  "version" : "0.0.5",
+  "version" : "0.0.6",
   "description" : "An Experimental Workflow / State Management toolit",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -16709,7 +16712,7 @@
     "state machine",
     "JSON"
   ],
-  "version" : "0.0.2",
+  "version" : "0.0.4",
   "meta6" : "0",
   "description" : "Describe Tinky Workflows in JSON",
   "authors" : [
