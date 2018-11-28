@@ -2272,7 +2272,7 @@
   "test-depends" : [
     "JSON::Tiny"
   ],
-  "version" : "0.105",
+  "version" : "0.106",
   "description" : "LWP::Simple quick & dirty implementation for Rakudo Perl 6"
 }
 ,
@@ -14488,6 +14488,33 @@
 }
 ,
 {
+  "name" : "p6-RandomColor",
+  "support" : {
+    "source" : null
+  },
+  "perl" : "6.c",
+  "source-url" : "https://github.com/Xliff/p6-RandomColor",
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "tags" : [
+    "color"
+  ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "provides" : {
+    "RandomColor" : "lib/RandomColor.pm6"
+  },
+  "license" : "",
+  "meta-version" : "0",
+  "version" : "v0.1",
+  "authors" : [
+    "clifton.wood@gmail.com"
+  ],
+  "description" : "A port of the randomColor Javascript library for generating attractive random colors"
+}
+,
+{
   "name" : "Task::Noise",
   "perl" : "6.c",
   "support" : {
@@ -19960,7 +19987,7 @@
     "PDF::Content::Fontish" : "lib/PDF/Content/Fontish.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.2.4",
+  "version" : "0.2.5",
   "description" : "PDF content related classes; including text, images, fonts and graphics",
   "authors" : [
     "David Warring"
