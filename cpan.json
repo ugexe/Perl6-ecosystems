@@ -2555,6 +2555,35 @@
 }
 ,
 {
+  "name" : "SQL::Lexer",
+  "support" : {
+    "email" : "dmaestro@cpan.org",
+    "source" : "git://github.com/dmaestro/SQL-Lexer.git",
+    "bugtracker" : "https://github.com/dmaestro/SQL-Lexer/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/D/DM/DMAESTRO/Perl6/SQL-Lexer-0.2.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:dmaestro",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "SQL::Keyword" : "lib/SQL/Lexer.pm6",
+    "SQL::Lexer" : "lib/SQL/Lexer.pm6",
+    "SQL::Basic" : "lib/SQL/Basic.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.2.2",
+  "meta-version" : "0",
+  "description" : "Grammar for lexical analysis of SQL",
+  "authors" : [
+    "Douglas L. Schrag <dmaestro@cpan.org>"
+  ]
+}
+,
+{
   "name" : "CamelPub",
   "source-url" : "http://www.cpan.org/authors/id/D/DO/DONPDONP/Perl6/CamelPub-0.1.0.tar.gz",
   "perl" : "6.*",
@@ -11326,6 +11355,42 @@
 ,
 {
   "name" : "App::Tasks",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/App-Tasks-0.0.14.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:JMASLAK",
+  "depends" : [
+    "Digest::SHA1::Native",
+    "File::Temp",
+    "NativeCall",
+    "P5getpriority",
+    "P5localtime",
+    "Term::termios",
+    "Term::ReadKey",
+    "Terminal::ANSIColor",
+    "YAMLish"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "App::Tasks::Lock" : "lib/App/Tasks/Lock.pm6",
+    "App::Tasks::Task" : "lib/App/Tasks/Task.pm6",
+    "App::Tasks::Config" : "lib/App/Tasks/Config.pm6",
+    "App::Tasks::TaskList" : "lib/App/Tasks/TaskList.pm6",
+    "App::Tasks" : "lib/App/Tasks.pm6",
+    "App::Tasks::TaskBody" : "lib/App/Tasks/TaskBody.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.14",
+  "description" : "Task Management CLI Appliication",
+  "authors" : [
+    "Joelle Maslak"
+  ]
+}
+,
+{
+  "name" : "App::Tasks",
   "source-url" : "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/App-Tasks-0.0.2.tar.gz",
   "perl" : "6.c",
   "resources" : [ ],
@@ -18243,6 +18308,46 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.35",
+  "description" : "Use Perl 5 code in a Perl 6 program",
+  "authors" : [
+    "Stefan Seifert"
+  ]
+}
+,
+{
+  "name" : "Inline::Perl5",
+  "support" : {
+    "irc" : "irc://irc.freenode.org/#perl6"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.36.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/p5helper"
+  ],
+  "author" : "github:niner",
+  "repo-type" : "git",
+  "depends" : [
+    "LibraryMake"
+  ],
+  "test-depends" : [
+    "File::Temp"
+  ],
+  "provides" : {
+    "Inline::Perl5::Object" : "lib/Inline/Perl5/Object.pm6",
+    "Inline::Perl5" : "lib/Inline/Perl5.pm6",
+    "Inline::Perl5::Caller" : "lib/Inline/Perl5/Caller.pm6",
+    "Inline::Perl5::Callable" : "lib/Inline/Perl5/Callable.pm6",
+    "Inline::Perl5::Attributes" : "lib/Inline/Perl5/Attributes.pm6",
+    "Inline::Perl5::Array" : "lib/Inline/Perl5/Array.pm6",
+    "Inline::Language::ObjectKeeper" : "lib/Inline/Language/ObjectKeeper.pm6",
+    "Inline::Perl5::Extension" : "lib/Inline/Perl5/Extension.pm6",
+    "Inline::Perl5::Parent" : "lib/Inline/Perl5/Parent.pm6",
+    "Inline::Perl5::Hash" : "lib/Inline/Perl5/Hash.pm6",
+    "Inline::Perl5::Interpreter" : "lib/Inline/Perl5/Interpreter.pm6",
+    "Inline::Perl5::ClassHOW" : "lib/Inline/Perl5/ClassHOW.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.36",
   "description" : "Use Perl 5 code in a Perl 6 program",
   "authors" : [
     "Stefan Seifert"
