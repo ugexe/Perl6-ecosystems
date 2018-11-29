@@ -53,7 +53,7 @@
     "JMP::File" : "lib/JMP/File.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.5",
+  "version" : "2.0",
   "authors" : [
     "Nigel Hamilton"
   ],
@@ -672,19 +672,6 @@
   "version" : "0.7.3",
   "description" : "Refinements on use of configurations loaded with parsers such as found in Config::TOML",
   "authors" : "Marcel Timmerman"
-}
-,
-{
-  "name" : "IO::Capture::Simple",
-  "source-url" : "git://github.com/sergot/IO-Capture-Simple.git",
-  "perl" : "6.*",
-  "depends" : [ ],
-  "provides" : {
-    "Test::IO::Capture" : "lib/Test/IO/Capture.pm",
-    "IO::Capture::Simple" : "lib/IO/Capture/Simple.pm"
-  },
-  "version" : "*",
-  "description" : "IO can be captured"
 }
 ,
 {
@@ -3895,8 +3882,6 @@
     "File::Find"
   ],
   "depends" : [
-    "IO::Socket::SSL",
-    "LWP::Simple:ver<0.101+>",
     "URI",
     "File::Temp",
     "JSON::Fast",
@@ -22103,7 +22088,7 @@
 }
 ,
 {
-  "name" : "Pod::Cached",
+  "name" : "Pod::To::Cached",
   "source-url" : "git://github.com/finanalyst/pod-cached.git",
   "support" : {
     "source" : "https://github.com/finanalyst/pod-cached"
