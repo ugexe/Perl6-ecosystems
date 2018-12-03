@@ -46,6 +46,7 @@
     "JMP::UI::Pager" : "lib/JMP/UI/Pager.pm",
     "JMP::UI::Cursor" : "lib/JMP/UI/Cursor.pm",
     "JMP::Hit" : "lib/JMP/Hit.pm",
+    "JMP::Template" : "lib/JMP/Template.pm",
     "JMP::Find" : "lib/JMP/Find.pm",
     "JMP::Config" : "lib/JMP/Config.pm",
     "JMP" : "lib/JMP.pm",
@@ -53,7 +54,7 @@
     "JMP::File" : "lib/JMP/File.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "2.0",
+  "version" : "2.1",
   "authors" : [
     "Nigel Hamilton"
   ],
@@ -20137,7 +20138,7 @@
     "RPG::Base::ThingContainer" : "lib/RPG/Base/ThingContainer.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.7",
+  "version" : "0.0.8",
   "description" : "Common base components for RPGs",
   "authors" : [
     "Geoffrey Broadwell"
