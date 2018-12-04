@@ -676,6 +676,19 @@
 }
 ,
 {
+  "name" : "IO::Capture::Simple",
+  "source-url" : "git://github.com/sergot/IO-Capture-Simple.git",
+  "perl" : "6.*",
+  "depends" : [ ],
+  "provides" : {
+    "Test::IO::Capture" : "lib/Test/IO/Capture.pm",
+    "IO::Capture::Simple" : "lib/IO/Capture/Simple.pm"
+  },
+  "version" : "*",
+  "description" : "IO can be captured"
+}
+,
+{
   "name" : "Math::PascalTriangle",
   "source-url" : "https://github.com/FCO/Math-PascalTriangle.git",
   "perl" : "6.*",
@@ -2897,12 +2910,19 @@
   "name" : "Pod::To::HTML",
   "source-url" : "git://github.com/perl6/Pod-To-HTML.git",
   "perl" : "6.*",
+  "resources" : [
+    "templates/main.mustache"
+  ],
   "depends" : [
-    "URI"
+    "URI",
+    "Template::Mustache"
   ],
   "provides" : {
     "Pod::To::HTML" : "lib/Pod/To/HTML.pm"
   },
+  "test-depends" : [
+    "Test::Output"
+  ],
   "license" : "Artistic-2.0",
   "version" : "0.3.22",
   "description" : "Convert Perl 6 Pod to HTML"
