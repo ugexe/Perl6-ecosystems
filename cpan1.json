@@ -9482,6 +9482,34 @@
 }
 ,
 {
+  "name" : "Mathx::Chaos",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Chaos-0.1.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [
+    "Mathx::Stat"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Mathx",
+    "Chaos"
+  ],
+  "provides" : {
+    "Mathx::Chaos::CorrelationDimension" : "lib/Mathx/Chaos/CorrelationDimension.pm6",
+    "Mathx::Chaos::Dimension" : "lib/Mathx/Chaos/Dimension.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.3",
+  "description" : "Chaos mathematics package",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
   "name" : "Mathx::Stat",
   "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Mathx-Stat-0.1.10.tar.gz",
@@ -11675,6 +11703,27 @@
   "license" : "Artistic-2.0",
   "version" : "0.0.9",
   "description" : "Task Management CLI Appliication",
+  "authors" : [
+    "Joelle Maslak"
+  ]
+}
+,
+{
+  "name" : "DateTime::Monotonic",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/DateTime-Monotonic-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:JMASLAK",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "DateTime::Monotonic" : "lib/DateTime/Monotonic.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "is a Never-Decreasing Time-Elapsed Counter",
   "authors" : [
     "Joelle Maslak"
   ]
@@ -23068,6 +23117,45 @@
   },
   "license" : "GPL-3.0",
   "version" : "0.0.6",
+  "description" : "A Perl 6 bindings for gnuplot",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
+  "name" : "Chart::Gnuplot",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Chart-Gnuplot-0.0.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [
+    "zef"
+  ],
+  "author" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [
+    "IO::Capture::Simple"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Chart::Gnuplot::Subset" : "lib/Chart/Gnuplot/Subset.pm6",
+    "Chart::Gnuplot::Legend" : "lib/Chart/Gnuplot/Legend.pm6",
+    "Chart::Gnuplot::Label" : "lib/Chart/Gnuplot/Label.pm6",
+    "Chart::Gnuplot::Range" : "lib/Chart/Gnuplot/Range.pm6",
+    "Chart::Gnuplot::Timestamp" : "lib/Chart/Gnuplot/Timestamp.pm6",
+    "Chart::Gnuplot::Title" : "lib/Chart/Gnuplot/Title.pm6",
+    "Chart::Gnuplot::Tics" : "lib/Chart/Gnuplot/Tics.pm6",
+    "Chart::Gnuplot::Border" : "lib/Chart/Gnuplot/Border.pm6",
+    "Chart::Gnuplot::Arrow" : "lib/Chart/Gnuplot/Arrow.pm6",
+    "Chart::Gnuplot" : "lib/Chart/Gnuplot.pm6",
+    "Chart::Gnuplot::Util" : "lib/Chart/Gnuplot/Util.pm6",
+    "Chart::Gnuplot::Terminal" : "lib/Chart/Gnuplot/Terminal.pm6",
+    "Chart::Gnuplot::Output" : "lib/Chart/Gnuplot/Output.pm6",
+    "Chart::Gnuplot::Object" : "lib/Chart/Gnuplot/Object.pm6",
+    "Chart::Gnuplot::Grid" : "lib/Chart/Gnuplot/Grid.pm6"
+  },
+  "license" : "GPL-3.0",
+  "version" : "0.0.7",
   "description" : "A Perl 6 bindings for gnuplot",
   "authors" : [
     "Itsuki Toyota"
