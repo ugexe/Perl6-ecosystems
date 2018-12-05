@@ -6393,6 +6393,37 @@
 }
 ,
 {
+  "name" : "Math::FFT::Libfftw3",
+  "api" : "2",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-FFT-Libfftw3-0.1.1.tar.gz",
+  "perl" : "6",
+  "auth" : "github:frithnanth",
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "math",
+    "fft",
+    "nativecall"
+  ],
+  "provides" : {
+    "Math::FFT::Libfftw3::Constants" : "lib/Math/FFT/Libfftw3/Constants.pm6",
+    "Math::FFT::Libfftw3::Raw" : "lib/Math/FFT/Libfftw3/Raw.pm6",
+    "Math::FFT::Libfftw3::R2R" : "lib/Math/FFT/Libfftw3/R2R.pm6",
+    "Math::FFT::Libfftw3::C2R" : "lib/Math/FFT/Libfftw3/R2C.pm6",
+    "Math::FFT::Libfftw3::C2C" : "lib/Math/FFT/Libfftw3/C2C.pm6",
+    "Math::FFT::Libfftw3::Exception" : "lib/Math/FFT/Libfftw3/Exception.pm6",
+    "Math::FFT::Libfftw3::Common" : "lib/Math/FFT/Libfftw3/Common.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.1",
+  "description" : "Interface to libfftw3",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
   "name" : "Inline",
   "support" : {
     "source" : "https://github.com/FROGGS/p6-Inline-C.git",
@@ -11730,6 +11761,69 @@
 }
 ,
 {
+  "name" : "DateTime::Monotonic",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/DateTime-Monotonic-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:JMASLAK",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "DateTime::Monotonic" : "lib/DateTime/Monotonic.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "is a Never-Decreasing Time-Elapsed Counter",
+  "authors" : [
+    "Joelle Maslak"
+  ]
+}
+,
+{
+  "name" : "DateTime::Monotonic",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/DateTime-Monotonic-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:JMASLAK",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "DateTime::Monotonic" : "lib/DateTime/Monotonic.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "is a Never-Decreasing Time-Elapsed Counter",
+  "authors" : [
+    "Joelle Maslak"
+  ]
+}
+,
+{
+  "name" : "DateTime::Monotonic",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/DateTime-Monotonic-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:JMASLAK",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "DateTime::Monotonic" : "lib/DateTime/Monotonic.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "is a Never-Decreasing Time-Elapsed Counter",
+  "authors" : [
+    "Joelle Maslak"
+  ]
+}
+,
+{
   "name" : "IP::Random",
   "source-url" : "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/IP-Random-0.0.10.tar.gz",
   "perl" : "6.c",
@@ -15469,6 +15563,40 @@
 }
 ,
 {
+  "name" : "Sparky",
+  "support" : {
+    "source" : "https://github.com/melezhik/sparky.git",
+    "bugtracker" : "https://github.com/melezhik/sparky/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparky-0.0.25.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "YAMLish",
+    "DBIish",
+    "Sparrowdo",
+    "Time::Crontab",
+    "Bailador",
+    "Text::Markdown",
+    "Data::Dump",
+    "Number::Denominate"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparky" : "lib/Sparky.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.24",
+  "description" : "Sparky is a continues integration server based on Sparrow/Sparrowdo ecosystem",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
   "name" : "Sparky::Plugin::Hello",
   "support" : {
     "source" : "https://github.com/melezhik/sparky-plugin-hello.git",
@@ -15895,6 +16023,50 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.42",
+  "description" : "Configuration management tool based on sparrow plugins system",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Sparrowdo",
+  "support" : {
+    "source" : "https://github.com/melezhik/sparrowdo.git",
+    "bugtracker" : "https://github.com/melezhik/sparrowdo/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-0.0.43.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Terminal::ANSIColor",
+    "JSON::Tiny",
+    "Config::Simple",
+    "Data::Dump"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::Core::DSL::Service" : "lib/Sparrowdo/Core/DSL/Service.pm6",
+    "Sparrowdo::Core::DSL::CPAN::Package" : "lib/Sparrowdo/Core/DSL/CPAN/Package.pm6",
+    "Sparrowdo::Core::DSL::User" : "lib/Sparrowdo/Core/DSL/User.pm6",
+    "Sparrowdo::Core::DSL::Ssh" : "lib/Sparrowdo/Core/DSL/Ssh.pm6",
+    "Sparrowdo::Core::DSL::Package" : "lib/Sparrowdo/Core/DSL/Package.pm6",
+    "Sparrowdo::Core::DSL::Assert" : "lib/Sparrowdo/Core/DSL/Assert.pm6",
+    "Sparrowdo::Core::DSL::Template" : "lib/Sparrowdo/Core/DSL/Template.pm6",
+    "Sparrowdo" : "lib/Sparrowdo.pm6",
+    "Sparrowdo::Core::DSL::File" : "lib/Sparrowdo/Core/DSL/File.pm6",
+    "Sparrowdo::Core::DSL::Directory" : "lib/Sparrowdo/Core/DSL/Directory.pm6",
+    "Sparrowdo::Core::DSL::Zef" : "lib/Sparrowdo/Core/DSL/Zef.pm6",
+    "Sparrowdo::Core::DSL::Systemd" : "lib/Sparrowdo/Core/DSL/Systemd.pm6",
+    "Sparrowdo::Core::DSL::Group" : "lib/Sparrowdo/Core/DSL/Group.pm6",
+    "Sparrowdo::Core::DSL::Git" : "lib/Sparrowdo/Core/DSL/Git.pm6",
+    "Sparrowdo::Core::DSL::Bash" : "lib/Sparrowdo/Core/DSL/Bash.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.43",
   "description" : "Configuration management tool based on sparrow plugins system",
   "authors" : [
     "Alexey Melezhik"
@@ -23163,6 +23335,45 @@
 }
 ,
 {
+  "name" : "Chart::Gnuplot",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Chart-Gnuplot-0.0.8.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [
+    "zef"
+  ],
+  "author" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [
+    "IO::Capture::Simple"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Chart::Gnuplot::Subset" : "lib/Chart/Gnuplot/Subset.pm6",
+    "Chart::Gnuplot::Legend" : "lib/Chart/Gnuplot/Legend.pm6",
+    "Chart::Gnuplot::Label" : "lib/Chart/Gnuplot/Label.pm6",
+    "Chart::Gnuplot::Range" : "lib/Chart/Gnuplot/Range.pm6",
+    "Chart::Gnuplot::Timestamp" : "lib/Chart/Gnuplot/Timestamp.pm6",
+    "Chart::Gnuplot::Title" : "lib/Chart/Gnuplot/Title.pm6",
+    "Chart::Gnuplot::Tics" : "lib/Chart/Gnuplot/Tics.pm6",
+    "Chart::Gnuplot::Border" : "lib/Chart/Gnuplot/Border.pm6",
+    "Chart::Gnuplot::Arrow" : "lib/Chart/Gnuplot/Arrow.pm6",
+    "Chart::Gnuplot" : "lib/Chart/Gnuplot.pm6",
+    "Chart::Gnuplot::Util" : "lib/Chart/Gnuplot/Util.pm6",
+    "Chart::Gnuplot::Terminal" : "lib/Chart/Gnuplot/Terminal.pm6",
+    "Chart::Gnuplot::Output" : "lib/Chart/Gnuplot/Output.pm6",
+    "Chart::Gnuplot::Object" : "lib/Chart/Gnuplot/Object.pm6",
+    "Chart::Gnuplot::Grid" : "lib/Chart/Gnuplot/Grid.pm6"
+  },
+  "license" : "GPL-3.0",
+  "version" : "0.0.8",
+  "description" : "A Perl 6 bindings for gnuplot",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
   "name" : "Geo::Hash",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Geo-Hash-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -28393,6 +28604,142 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.3.0",
+  "description" : "PDF Document Object Model",
+  "authors" : [
+    "David Warring"
+  ]
+}
+,
+{
+  "name" : "PDF::Class",
+  "api" : "PDF-1.7",
+  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Class-0.3.1.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:p6-pdf",
+  "depends" : [
+    "PDF",
+    "PDF::Grammar",
+    "PDF::Content"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "pdf"
+  ],
+  "provides" : {
+    "PDF::Class::Util" : "lib/PDF/Class/Util.pm",
+    "PDF::Function::PostScript" : "lib/PDF/Function/PostScript.pm",
+    "PDF::Annot::Link" : "lib/PDF/Annot/Link.pm",
+    "PDF::ExData::Markup3D" : "lib/PDF/ExData/Markup3D.pm",
+    "PDF::Group::Transparency" : "lib/PDF/Group/Transparency.pm",
+    "PDF::Annot::ThreeD" : "lib/PDF/Annot/ThreeD.pm",
+    "PDF::Action::GoToR" : "lib/PDF/Action/GoToR.pm",
+    "PDF::Field::Button" : "lib/PDF/Field/Button.pm",
+    "PDF::ICCProfile" : "lib/PDF/ICCProfile.pm",
+    "PDF::ColorSpace::Separation" : "lib/PDF/ColorSpace/Separation.pm",
+    "PDF::OBJR" : "lib/PDF/OBJR.pm",
+    "PDF::Shading::Coons" : "lib/PDF/Shading/Coons.pm",
+    "PDF::XObject::PS" : "lib/PDF/XObject/PS.pm",
+    "PDF::Filespec" : "lib/PDF/Filespec.pm",
+    "PDF::Page" : "lib/PDF/Page.pm",
+    "PDF::Class::Type" : "lib/PDF/Class/Type.pm",
+    "PDF::Font::MMType1" : "lib/PDF/Font/MMType1.pm",
+    "PDF::FontFile" : "lib/PDF/FontFile.pm",
+    "PDF::Group" : "lib/PDF/Group.pm",
+    "PDF::Field::Choice" : "lib/PDF/Field/Choice.pm",
+    "PDF::Font" : "lib/PDF/Font.pm",
+    "PDF::Function::Stitching" : "lib/PDF/Function/Stitching.pm",
+    "PDF::Mask" : "lib/PDF/Mask.pm",
+    "PDF::Mask::Luminosity" : "lib/PDF/Mask/Luminosity.pm",
+    "PDF::ViewerPreferences" : "lib/PDF/ViewerPreferences.pm",
+    "PDF::FontStream" : "lib/PDF/FontStream.pm",
+    "PDF::OCG" : "lib/PDF/OCG.pm",
+    "PDF::Resources" : "lib/PDF/Resources.pm",
+    "PDF::Shading::Tensor" : "lib/PDF/Shading/Tensor.pm",
+    "PDF::CMap" : "lib/PDF/CMap.pm",
+    "PDF::Action::URI" : "lib/PDF/Action/URI.pm",
+    "PDF::ExtGState" : "lib/PDF/ExtGState.pm",
+    "PDF::Metadata::XML" : "lib/PDF/Metadata/XML.pm",
+    "PDF::ColorSpace::Indexed" : "lib/PDF/ColorSpace/Indexed.pm",
+    "PDF::ColorSpace::DeviceN" : "lib/PDF/ColorSpace/DeviceN.pm",
+    "PDF::ColorSpace::CalGray" : "lib/PDF/ColorSpace/CalGray.pm",
+    "PDF::Class::ThreeD" : "lib/PDF/Class/ThreeD.pm",
+    "PDF::Bead-Thread" : "lib/PDF/Bead-Thread.pm",
+    "PDF::Annot::Markup" : "lib/PDF/Annot/Markup.pm",
+    "PDF::Action::Thread" : "lib/PDF/Action/Thread.pm",
+    "PDF::AcroForm" : "lib/PDF/AcroForm.pm",
+    "PDF::Field" : "lib/PDF/Field.pm",
+    "PDF::Font::Type0" : "lib/PDF/Font/Type0.pm",
+    "PDF::Font::Type1" : "lib/PDF/Font/Type1.pm",
+    "PDF::Pattern::Tiling" : "lib/PDF/Pattern/Tiling.pm",
+    "PDF::ColorSpace::Lab" : "lib/PDF/ColorSpace/Lab.pm",
+    "PDF::Field::Text" : "lib/PDF/Field/Text.pm",
+    "PDF::Function::Sampled" : "lib/PDF/Function/Sampled.pm",
+    "PDF::Pattern" : "lib/PDF/Pattern.pm",
+    "PDF::Annot::FileAttachment" : "lib/PDF/Annot/FileAttachment.pm",
+    "PDF::Function::Exponential" : "lib/PDF/Function/Exponential.pm",
+    "PDF::Annot::Square" : "lib/PDF/Annot/Square.pm",
+    "PDF::Field::Signature" : "lib/PDF/Field/Signature.pm",
+    "PDF::Class::OutlineNode" : "lib/PDF/Class/OutlineNode.pm",
+    "PDF::Catalog" : "lib/PDF/Catalog.pm",
+    "PDF::MCR" : "lib/PDF/MCR.pm",
+    "PDF::ColorSpace" : "lib/PDF/ColorSpace.pm",
+    "PDF::Action" : "lib/PDF/Action.pm",
+    "PDF::Font::CIDFontType0" : "lib/PDF/Font/CIDFontType0.pm",
+    "PDF::Function" : "lib/PDF/Function.pm",
+    "PDF::Image" : "lib/PDF/Image.pm",
+    "PDF::Shading" : "lib/PDF/Shading.pm",
+    "PDF::Annot::Caret" : "lib/PDF/Annot/Caret.pm",
+    "PDF::Action::JavaScript" : "lib/PDF/Action/JavaScript.pm",
+    "PDF::Font::CIDFontType2" : "lib/PDF/Font/CIDFontType2.pm",
+    "PDF::ColorSpace::Pattern" : "lib/PDF/ColorSpace/Pattern.pm",
+    "PDF::ColorSpace::CalRGB" : "lib/PDF/ColorSpace/CalRGB.pm",
+    "PDF::Annot::Circle" : "lib/PDF/Annot/Circle.pm",
+    "PDF::OutputIntent" : "lib/PDF/OutputIntent.pm",
+    "PDF::XObject::Image" : "lib/PDF/XObject/Image.pm",
+    "PDF::Destination" : "lib/PDF/Destination.pm",
+    "PDF::OCMD" : "lib/PDF/OCMD.pm",
+    "PDF::Pattern::Shading" : "lib/PDF/Pattern/Shading.pm",
+    "PDF::ColorSpace::ICCBased" : "lib/PDF/ColorSpace/ICCBased.pm",
+    "PDF::Outline" : "lib/PDF/Outline.pm",
+    "PDF::StructTreeRoot" : "lib/PDF/StructTreeRoot.pm",
+    "PDF::XObject" : "lib/PDF/XObject.pm",
+    "PDF::Encoding" : "lib/PDF/Encoding.pm",
+    "PDF::Font::Type3" : "lib/PDF/Font/Type3.pm",
+    "PDF::Annot::Text" : "lib/PDF/Annot/Text.pm",
+    "PDF::Font::TrueType" : "lib/PDF/Font/TrueType.pm",
+    "PDF::Pages" : "lib/PDF/Pages.pm",
+    "PDF::Shading::Function" : "lib/PDF/Shading/Function.pm",
+    "PDF::Annot::Popup" : "lib/PDF/Annot/Popup.pm",
+    "PDF::Action::Named" : "lib/PDF/Action/Named.pm",
+    "PDF::Mask::Alpha" : "lib/PDF/Mask/Alpha.pm",
+    "PDF::NumberTree" : "lib/PDF/NumberTree.pm",
+    "PDF::Action::GoTo" : "lib/PDF/Action/GoTo.pm",
+    "PDF::NameTree" : "lib/PDF/NameTree.pm",
+    "PDF::Outlines" : "lib/PDF/Outlines.pm",
+    "PDF::Shading::Axial" : "lib/PDF/Shading/Axial.pm",
+    "PDF::Appearance" : "lib/PDF/Appearance.pm",
+    "PDF::Annot" : "lib/PDF/Annot.pm",
+    "PDF::FontDescriptor" : "lib/PDF/FontDescriptor.pm",
+    "PDF::CIDSystemInfo" : "lib/PDF/CIDSystemInfo.pm",
+    "PDF::Annot::Widget" : "lib/PDF/Annot/Widget.pm",
+    "PDF::Font::CIDFont" : "lib/PDF/Font/CIDFont.pm",
+    "PDF::Shading::FreeForm" : "lib/PDF/Shading/FreeForm.pm",
+    "PDF::XObject::Form" : "lib/PDF/XObject/Form.pm",
+    "PDF::Info" : "lib/PDF/Info.pm",
+    "PDF::StructElem" : "lib/PDF/StructElem.pm",
+    "PDF::Border" : "lib/PDF/Border.pm",
+    "PDF::FontDescriptor::CID" : "lib/PDF/FontDescriptor/CID.pm",
+    "PDF::Shading::Lattice" : "lib/PDF/Shading/Lattice.pm",
+    "PDF::Shading::Radial" : "lib/PDF/Shading/Radial.pm",
+    "PDF::Class::Loader" : "lib/PDF/Class/Loader.pm",
+    "PDF::Class" : "lib/PDF/Class.pm",
+    "PDF::Action::Launch" : "lib/PDF/Action/Launch.pm",
+    "PDF::Signature" : "lib/PDF/Signature.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.1",
   "description" : "PDF Document Object Model",
   "authors" : [
     "David Warring"
