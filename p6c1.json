@@ -20045,7 +20045,7 @@
     "PDF::API6::Preferences" : "lib/PDF/API6/Preferences.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "description" : "Facilitates the creation and modification of PDF files",
   "authors" : [
     "David Warring"
@@ -22353,6 +22353,29 @@
   "description" : "Protocol",
   "authors" : [
     "Fernando Correa de Oliveira"
+  ]
+}
+,
+{
+  "name" : "StrictClass",
+  "source-url" : "https://github.com/ufobat/p6-StrictClass.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "strict",
+    "constructors"
+  ],
+  "provides" : {
+    "StrictClass" : "lib/StrictClass.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Make your object constructors blow up on unknown attributes",
+  "authors" : [
+    "Martin Barth"
   ]
 }
 ]
