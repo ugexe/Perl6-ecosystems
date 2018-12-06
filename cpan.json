@@ -6424,6 +6424,37 @@
 }
 ,
 {
+  "name" : "Math::FFT::Libfftw3",
+  "api" : "2",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-FFT-Libfftw3-0.1.2.tar.gz",
+  "perl" : "6",
+  "auth" : "github:frithnanth",
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "math",
+    "fft",
+    "nativecall"
+  ],
+  "provides" : {
+    "Math::FFT::Libfftw3::R2C" : "lib/Math/FFT/Libfftw3/R2C.pm6",
+    "Math::FFT::Libfftw3::Constants" : "lib/Math/FFT/Libfftw3/Constants.pm6",
+    "Math::FFT::Libfftw3::Raw" : "lib/Math/FFT/Libfftw3/Raw.pm6",
+    "Math::FFT::Libfftw3::R2R" : "lib/Math/FFT/Libfftw3/R2R.pm6",
+    "Math::FFT::Libfftw3::C2C" : "lib/Math/FFT/Libfftw3/C2C.pm6",
+    "Math::FFT::Libfftw3::Exception" : "lib/Math/FFT/Libfftw3/Exception.pm6",
+    "Math::FFT::Libfftw3::Common" : "lib/Math/FFT/Libfftw3/Common.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.1",
+  "description" : "Interface to libfftw3",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
   "name" : "Inline",
   "support" : {
     "source" : "https://github.com/FROGGS/p6-Inline-C.git",
@@ -27862,6 +27893,46 @@ null
 }
 ,
 {
+  "name" : "Font::FreeType",
+  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.1.2.tar.gz",
+  "perl" : "6",
+  "resources" : [
+    "libraries/ft6"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Pod::To::Markdown"
+  ],
+  "auth" : "github:p6-pdf",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "font",
+    "freetype"
+  ],
+  "provides" : {
+    "Font::FreeType::BBox" : "lib/Font/FreeType/BBox.pm",
+    "Font::FreeType" : "lib/Font/FreeType.pm",
+    "Font::FreeType::Outline" : "lib/Font/FreeType/Outline.pm",
+    "Font::FreeType::GlyphImage" : "lib/Font/FreeType/GlyphImage.pm",
+    "Font::FreeType::Glyph" : "lib/Font/FreeType/Glyph.pm",
+    "Font::FreeType::NamedInfo" : "lib/Font/FreeType/NamedInfo.pm",
+    "Font::FreeType::Native::Types" : "lib/Font/FreeType/Native/Types.pm",
+    "Font::FreeType::Error" : "lib/Font/FreeType/Error.pm",
+    "Font::FreeType::CharMap" : "lib/Font/FreeType/CharMap.pm",
+    "Font::FreeType::Native" : "lib/Font/FreeType/Native.pm",
+    "Font::FreeType::BitMap" : "lib/Font/FreeType/BitMap.pm",
+    "Font::FreeType::Face" : "lib/Font/FreeType/Face.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.2",
+  "description" : "read font files and render glyphs from Perl using FreeType2",
+  "authors" : [
+    "David Warring"
+  ]
+}
+,
+{
   "name" : "HTML::Canvas",
   "api" : "2dcontext-20151119",
   "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-0.0.3.tar.gz",
@@ -27939,6 +28010,47 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.4",
+  "description" : "Construction and rendering of HTML-5 Canvases",
+  "authors" : [
+    "David Warring"
+  ]
+}
+,
+{
+  "name" : "HTML::Canvas",
+  "api" : "2dcontext-20151119",
+  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:p6-css",
+  "depends" : [
+    "Cairo",
+    "Color",
+    "CSS::Properties",
+    "JSON::Fast",
+    "Base64::Native",
+    "Font::FreeType"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "html",
+    "javascript",
+    "png",
+    "svg",
+    "pdf"
+  ],
+  "provides" : {
+    "HTML::Canvas::To::Cairo" : "lib/HTML/Canvas/To/Cairo.pm",
+    "HTML::Canvas" : "lib/HTML/Canvas.pm",
+    "HTML::Canvas::ImageData" : "lib/HTML/Canvas/ImageData.pm",
+    "HTML::Canvas::Tracer" : "lib/HTML/Canvas/Tracer.pm",
+    "HTML::Canvas::Image" : "lib/HTML/Canvas/Image.pm",
+    "HTML::Canvas::Gradient" : "lib/HTML/Canvas/Gradient.pm",
+    "HTML::Canvas::Pattern" : "lib/HTML/Canvas/Pattern.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
   "description" : "Construction and rendering of HTML-5 Canvases",
   "authors" : [
     "David Warring"
