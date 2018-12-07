@@ -3457,6 +3457,7 @@
     "Net::AMQP::Channel" : "lib/Net/AMQP/Channel.pm6",
     "Net::AMQP::Frame" : "lib/Net/AMQP/Frame.pm6",
     "Net::AMQP::Payload::ArgumentSerialization" : "lib/Net/AMQP/Payload/ArgumentSerialization.pm6",
+    "Net::AMQP::Payload" : "lib/Net/AMQP/Payload.pm6",
     "Net::AMQP::Payload::Body" : "lib/Net/AMQP/Payload/Body.pm6",
     "Net::AMQP::Exchange" : "lib/Net/AMQP/Exchange.pm6",
     "Net::AMQP" : "lib/Net/AMQP.pm6",
@@ -3465,7 +3466,7 @@
   },
   "license" : "MIT",
   "meta-version" : 0,
-  "version" : "0.1.11",
+  "version" : "0.1.13",
   "description" : "AMQP (RabbitMQ) 0.9.1 client",
   "authors" : [
     "Andrew Egeler"
@@ -12079,7 +12080,7 @@
     "Test"
   ],
   "license" : "Artistic-2.0",
-  "version" : "0.5.3",
+  "version" : "0.5.4",
   "meta-version" : "0",
   "authors" : [
     "Nick Logan",
@@ -15313,7 +15314,8 @@
   ],
   "test-depends" : [
     "Test",
-    "Test::When"
+    "Test::When",
+    "IO::Socket::SSL"
   ],
   "provides" : {
     "Pod::To::BigPage" : "lib/Pod/To/BigPage.pm6"
