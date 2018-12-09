@@ -41,20 +41,20 @@
   ],
   "provides" : {
     "JMP::UI" : "lib/JMP/UI.pm",
+    "JMP::File::Hit" : "lib/JMP/File/Hit.pm",
     "JMP::UI::Page" : "lib/JMP/UI/Page.pm",
+    "JMP::Finder" : "lib/JMP/Finder.pm",
     "JMP::Editor" : "lib/JMP/Editor.pm",
     "JMP::UI::Pager" : "lib/JMP/UI/Pager.pm",
     "JMP::UI::Cursor" : "lib/JMP/UI/Cursor.pm",
-    "JMP::Hit" : "lib/JMP/Hit.pm",
     "JMP::Template" : "lib/JMP/Template.pm",
-    "JMP::Find" : "lib/JMP/Find.pm",
     "JMP::Config" : "lib/JMP/Config.pm",
     "JMP" : "lib/JMP.pm",
     "JMP::CLI" : "lib/JMP/CLI.pm",
-    "JMP::File" : "lib/JMP/File.pm"
+    "JMP::File::HitLater" : "lib/JMP/File/HitLater.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "2.1",
+  "version" : "3",
   "authors" : [
     "Nigel Hamilton"
   ],
@@ -2925,7 +2925,7 @@
     "Test::Output"
   ],
   "license" : "Artistic-2.0",
-  "version" : "0.3.22",
+  "version" : "0.4.0",
   "description" : "Convert Perl 6 Pod to HTML"
 }
 ,
@@ -3909,7 +3909,7 @@
     "File::Temp",
     "JSON::Fast",
     "Pod::To::BigPage:ver<0.5.0+>",
-    "Pod::To::HTML:ver<0.3.19+>",
+    "Pod::To::HTML:ver<0.4+>",
     "OO::Monitors",
     "File::Find",
     "Test::META"
