@@ -3970,6 +3970,32 @@
 }
 ,
 {
+  "name" : "Object::Trampoline",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Object-Trampoline-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "InterceptAllMethods"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "Object::Trampoline" : "lib/Object/Trampoline.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
+  "description" : "Port of Perl 5's Object::Trampoline 1.50.4",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5-X",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5-X-0.0.2.tar.gz",
   "perl" : "6.c",
@@ -9255,6 +9281,42 @@
   "license" : "General Public License 3, Artistic-2.0",
   "version" : "0.2.2",
   "description" : "Bayesian Inference based upon ditributions. Minimax",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Game::Markov",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-Markov-0.1.10.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [
+    "Mathx::Stat"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Game",
+    "Markov"
+  ],
+  "provides" : {
+    "Game::Markov::TruncatedGaussian" : "lib/Game/Markov/TruncatedGaussian.pm6",
+    "Game::Markov::Tick" : "lib/Game/Markov/Tick.pm6",
+    "Game::Markov::SamplePopulation" : "lib/Game/Markov/SamplePopulation.pm6",
+    "Game::Markov::HMMMarkovChain" : "lib/Game/Markov/HMMMarkovChain.pm6",
+    "Game::Markov::AbstractMarkovChain" : "lib/Game/Markov/AbstractMarkovChain.pm6",
+    "Game::Markov::MarkovChain" : "lib/Game/Markov/MarkovChain.pm6",
+    "Game::Markov::Time" : "lib/Game/Markov/Time.pm6",
+    "Game::Markov::TimeChain" : "lib/Game/Markov/TimeChain.pm6",
+    "Game::Markov::MarkovTime" : "lib/Game/Markov/MarkovTime.pm6",
+    "Game::Markov::MarkovTick" : "lib/Game/Markov/MarkovTick.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.10",
+  "description" : "Markov Strategy kit for games",
   "authors" : [
     "The Holy Ghost"
   ]
@@ -22879,6 +22941,36 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.5",
+  "description" : "A Perl 6 Latent Dirichlet Allocation implementation.",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
+  "name" : "Algorithm::LDA",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LDA-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/lda"
+  ],
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "auth" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::LDA::Formatter" : "lib/Algorithm/LDA/Formatter.pm6",
+    "Algorithm::LDA::Document" : "lib/Algorithm/LDA/Document.pm6",
+    "Algorithm::LDA::Theta" : "lib/Algorithm/LDA/Theta.pm6",
+    "Algorithm::LDA::Phi" : "lib/Algorithm/LDA/Phi.pm6",
+    "Algorithm::LDA::LDAModel" : "lib/Algorithm/LDA/LDAModel.pm6",
+    "Algorithm::LDA" : "lib/Algorithm/LDA.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
   "description" : "A Perl 6 Latent Dirichlet Allocation implementation.",
   "authors" : [
     "titsuki"
