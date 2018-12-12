@@ -22105,10 +22105,11 @@
     "File::Directory::Tree"
   ],
   "provides" : {
-    "Pod::To::Cached" : "lib/Pod/To/Cached.pm6"
+    "CompUnit::PrecompilationRepository::Document" : "lib/PrecompilationDoc.pm6",
+    "Pod::To::Cached" : "lib/Cached.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "description" : "Precompile a collection of pod files into a cache."
 }
 ,
