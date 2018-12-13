@@ -2543,10 +2543,11 @@
 {
   "name" : "IoC",
   "source-url" : "git://github.com/jasonmay/perl6-ioc.git",
-  "perl" : "6.*",
+  "perl" : "6.c",
   "source-type" : "git",
   "resources" : [ ],
   "build-depends" : [ ],
+  "auth" : "github:jasonmay",
   "depends" : [ ],
   "test-depends" : [
     "Path::Iterator",
@@ -2564,10 +2565,11 @@
     "IoC::BlockInjection" : "lib/IoC/BlockInjection.pm6"
   },
   "license" : "NOASSERTION",
-  "version" : "0.0.1",
+  "version" : "0.0.2",
   "description" : "Wire your application components together using inversion of control",
   "authors" : [
-    "Jason May"
+    "Jason May",
+    "Martin Barth"
   ]
 }
 ,
@@ -4011,7 +4013,10 @@
     "Redis" : "lib/Redis.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.1.0",
+  "test-depends" : [
+    "File::Which"
+  ],
+  "version" : "0.1.1",
   "description" : "A Perl6 binding for Redis"
 }
 ,
@@ -16525,7 +16530,7 @@
     "CSS::Properties" : "lib/CSS/Properties.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.3.9",
+  "version" : "0.3.10",
   "description" : "CSS property manipulation library",
   "authors" : [
     "David Warring"
