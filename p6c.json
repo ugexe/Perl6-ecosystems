@@ -3018,7 +3018,7 @@
     "Bailador::Command::routes" : "lib/Bailador/Command/routes.pm"
   },
   "license" : "MIT",
-  "version" : "0.0.15",
+  "version" : "0.0.17",
   "description" : "A light-weight route-based web application framework for Perl 6",
   "authors" : [
     "Tadeusz \u201ctadzik\u201d So\u015bnierz",
@@ -10356,10 +10356,10 @@
   "auth" : "github:p6-pdf",
   "depends" : [ ],
   "provides" : {
-    "Crypt::RC4" : "lib/Crypt/RC4.pm"
+    "Crypt::RC4" : "lib/Crypt/RC4.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.2",
+  "version" : "0.0.4",
   "description" : "Perl 6 implementation of the RC4 encryption algorithm"
 }
 ,
@@ -19330,7 +19330,7 @@
     "HTTP::Server::Ogre" : "lib/HTTP/Server/Ogre.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.3",
+  "version" : "0.0.4",
   "description" : "he is not tiny nor easy to handle. He is rather a stupid ogre that handles paralell http requests",
   "authors" : [
     "Martin Barth (ufobat)"
@@ -19964,7 +19964,7 @@
     "PDF::Content::Fontish" : "lib/PDF/Content/Fontish.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.2.6",
+  "version" : "0.2.7",
   "description" : "PDF content related classes; including text, images, fonts and graphics",
   "authors" : [
     "David Warring"
