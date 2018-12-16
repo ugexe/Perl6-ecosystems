@@ -5174,14 +5174,20 @@
 ,
 {
   "name" : "Imlib2",
-  "source-url" : "git://github.com/mrhdias/perl6-Imlib2.git",
+  "source-url" : "git://github.com/hankache/perl6-Imlib2.git",
+  "perl" : "6.c",
   "source-type" : "git",
-  "author" : "Henrique Dias",
   "depends" : [
-    "NativeCall",
     "LibraryMake"
   ],
-  "version" : "0.0.1",
+  "provides" : {
+    "Imlib2" : "lib/Imlib2.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "authors" : [
+    "Henrique Dias"
+  ],
   "description" : "Perl 6 interface to the Imlib2 image library."
 }
 ,
@@ -10916,7 +10922,7 @@
     "IRC"
   ],
   "license" : "Artistic-2.0",
-  "version" : "3.007010",
+  "version" : "3.007011",
   "authors" : [
     "Zoffix Znet"
   ],
@@ -20143,7 +20149,7 @@
     "RPG::Base::ThingContainer" : "lib/RPG/Base/ThingContainer.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.8",
+  "version" : "0.0.9",
   "description" : "Common base components for RPGs",
   "authors" : [
     "Geoffrey Broadwell"
