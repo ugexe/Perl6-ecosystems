@@ -5341,13 +5341,21 @@
 ,
 {
   "name" : "IUP",
-  "source-url" : "git://github.com/mrhdias/perl6-IUP.git",
+  "source-url" : "git://github.com/hankache/perl6-IUP.git",
+  "perl" : "6.*",
   "source-type" : "git",
   "author" : "Henrique Dias",
-  "depends" : [
-    "NativeCall"
+  "resources" : [
+    "lib/IUP.so"
   ],
-  "version" : "0.0.1",
+  "depends" : [
+    "LibraryMake"
+  ],
+  "provides" : {
+    "IUP" : "lib/IUP.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
   "description" : "Perl 6 interface to the IUP toolkit for building GUI's"
 }
 ,
@@ -11422,23 +11430,6 @@
 }
 ,
 {
-  "name" : "Num::HexFloat",
-  "source-url" : "git://github.com/dankogai/p6-num-hexfloat.git",
-  "perl" : "6.*",
-  "resources" : [ ],
-  "depends" : [ ],
-  "provides" : {
-    "Num::HexFloat" : "lib/Num/HexFloat.pm"
-  },
-  "license" : "MIT",
-  "version" : "0.1.2",
-  "authors" : [
-    "Dan Kogai"
-  ],
-  "description" : "Rudimentary C99 Hexadecimal Floating Point Support in Perl6"
-}
-,
-{
   "name" : "RPi::Device::SMBus",
   "perl" : "6.c",
   "support" : {
@@ -12142,7 +12133,7 @@
 ,
 {
   "name" : "Text::Spintax",
-  "source-url" : "https://github.com/daleevans/perl6-Text-Spintax",
+  "source-url" : "https://github.com/daleevans/perl6-Text-Spintax.git",
   "perl" : "6.c",
   "depends" : [
     "Test::META"
