@@ -2140,6 +2140,33 @@
 }
 ,
 {
+  "name" : "X11::Xdo",
+  "source-url" : "git://github.com/thundergnat/X11-Xdo.git",
+  "perl" : "6",
+  "source-type" : "git",
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "tags" : [
+    "X11",
+    "automation",
+    "mouse",
+    "window"
+  ],
+  "license" : "Artistic-2.0",
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "X11::Xdo" : "lib/X11/Xdo.pm6"
+  },
+  "version" : "0.0.1",
+  "authors" : [
+    "Steve Schulze (thundergnat)"
+  ],
+  "description" : "libxdo automation for X11"
+}
+,
+{
   "name" : "App::jsonv",
   "source-url" : "git://github.com/Miniconf/App-jsonv.git",
   "perl" : "6.*",
@@ -2919,7 +2946,7 @@
   "depends" : [
     "URI",
     "Template::Mustache",
-    "Pod::Load"
+    "Pod::Load:ver<0.4.0+>"
   ],
   "provides" : {
     "Pod::To::HTML" : "lib/Pod/To/HTML.pm"
@@ -2928,7 +2955,7 @@
     "Test::Output"
   ],
   "license" : "Artistic-2.0",
-  "version" : "0.5.0",
+  "version" : "0.6.0",
   "description" : "Convert Perl 6 Pod to HTML"
 }
 ,
@@ -11430,6 +11457,23 @@
 }
 ,
 {
+  "name" : "Num::HexFloat",
+  "source-url" : "git://github.com/dankogai/p6-num-hexfloat.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "Num::HexFloat" : "lib/Num/HexFloat.pm"
+  },
+  "license" : "MIT",
+  "version" : "0.1.2",
+  "authors" : [
+    "Dan Kogai"
+  ],
+  "description" : "Rudimentary C99 Hexadecimal Floating Point Support in Perl6"
+}
+,
+{
   "name" : "RPi::Device::SMBus",
   "perl" : "6.c",
   "support" : {
@@ -15824,26 +15868,26 @@
 ,
 {
   "name" : "HTTP::Request::Supply",
-  "perl" : "6.c",
   "support" : {
     "source" : "git://github.com/zostay/HTTP-Request-Supply.git"
   },
   "source-url" : "git://github.com/zostay/HTTP-Request-Supply.git",
+  "perl" : "6.c",
   "build-depends" : [ ],
   "resources" : [ ],
   "auth" : "github:zostay",
   "depends" : [ ],
+  "license" : "Artistic-2.0",
   "provides" : {
     "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6"
   },
-  "license" : "Artistic-2.0",
-  "tags" : [ ],
   "test-depends" : [
     "Test",
     "Test::META"
   ],
+  "tags" : [ ],
+  "version" : "0.2.0",
   "meta-version" : "0",
-  "version" : "0.1.2",
   "authors" : [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
   ],
