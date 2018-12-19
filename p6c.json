@@ -2140,12 +2140,14 @@
 }
 ,
 {
-  "name" : "X11::Xdo",
+  "name" : "X11::libxdo",
   "source-url" : "git://github.com/thundergnat/X11-Xdo.git",
   "perl" : "6",
   "source-type" : "git",
   "build-depends" : [ ],
-  "depends" : [ ],
+  "depends" : [
+    "X11::Xlib::Raw"
+  ],
   "tags" : [
     "X11",
     "automation",
@@ -2157,9 +2159,9 @@
     "Test"
   ],
   "provides" : {
-    "X11::Xdo" : "lib/X11/Xdo.pm6"
+    "X11::libxdo" : "lib/X11/libxdo.pm6"
   },
-  "version" : "0.0.1",
+  "version" : "0.0.3",
   "authors" : [
     "Steve Schulze (thundergnat)"
   ],
@@ -10704,7 +10706,7 @@
     "PDF::COS::Loader" : "lib/PDF/COS/Loader.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.3.4",
+  "version" : "0.3.5",
   "description" : "Base classes for reading, manipulation and writing of PDF data",
   "authors" : [
     "David Warring"
@@ -22414,5 +22416,100 @@
     "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>"
   ],
   "description" : "ASN.1 BER encoding and decoding tool"
+}
+,
+{
+  "name" : "Net::LibIDN",
+  "source-url" : "git://github.com/Kaiepi/p6-Net-LibIDN.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "API",
+    "Net",
+    "DNS"
+  ],
+  "provides" : {
+    "Net::LibIDN::TLD" : "lib/Net/LibIDN/TLD.pm6",
+    "Net::LibIDN::Punycode" : "lib/Net/LibIDN/Punycode.pm6",
+    "Net::LibIDN::Native" : "lib/Net/LibIDN/Native.pm6",
+    "Net::LibIDN::Free" : "lib/Net/LibIDN/Free.pm6",
+    "Net::LibIDN" : "lib/Net/LibIDN.pm6",
+    "Net::LibIDN::StringPrep" : "lib/Net/LibIDN/StringPrep.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Perl 6 Bindings for GNU LibIDN",
+  "authors" : [
+    "Ben Davies"
+  ]
+}
+,
+{
+  "name" : "Net::LibIDN2",
+  "source-url" : "git://github.com/Kaiepi/p6-Net-LibIDN2.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "API",
+    "DNS",
+    "Net"
+  ],
+  "provides" : {
+    "Net::LibIDN2" : "lib/Net/LibIDN2.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "Perl 6 bindings for GNU LibIDN2",
+  "authors" : [
+    "Ben Davies"
+  ]
+}
+,
+{
+  "name" : "Digest::BubbleBabble",
+  "source-url" : "https://github.com/Kaiepi/p6-Digest-BubbleBabble.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Digest::BubbleBabble" : "lib/Digest/BubbleBabble.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Support for BubbleBabble string encoding and decoding",
+  "authors" : [
+    "Ben Davies"
+  ]
+}
+,
+{
+  "name" : "Crypt::CAST5",
+  "source-url" : "https://github.com/Kaiepi/p6-Crypt-CAST5",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Crypt"
+  ],
+  "provides" : {
+    "Crypt::CAST5" : "lib/Crypt/CAST5.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "CAST-128 encryption library",
+  "authors" : [
+    "Ben Davies"
+  ]
 }
 ]
