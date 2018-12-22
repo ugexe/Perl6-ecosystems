@@ -2161,7 +2161,7 @@
   "provides" : {
     "X11::libxdo" : "lib/X11/libxdo.pm6"
   },
-  "version" : "0.0.3",
+  "version" : "0.1.0",
   "authors" : [
     "Steve Schulze (thundergnat)"
   ],
@@ -15880,31 +15880,34 @@
 }
 ,
 {
-  "name" : "HTTP::Request::Supply",
+  "name" : "HTTP::Supply",
   "support" : {
-    "source" : "git://github.com/zostay/HTTP-Request-Supply.git"
+    "source" : "git://github.com/zostay/HTTP-Supply.git"
   },
-  "source-url" : "git://github.com/zostay/HTTP-Request-Supply.git",
+  "source-url" : "git://github.com/zostay/HTTP-Supply.git",
   "perl" : "6.c",
-  "build-depends" : [ ],
   "resources" : [ ],
+  "build-depends" : [ ],
   "auth" : "github:zostay",
   "depends" : [ ],
+  "tags" : [ ],
   "license" : "Artistic-2.0",
   "provides" : {
-    "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6"
+    "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6",
+    "HTTP::Supply::Response" : "lib/HTTP/Supply/Response.pm6",
+    "HTTP::Supply::Request" : "lib/HTTP/Supply/Request.pm6",
+    "HTTP::Supply" : "lib/HTTP/Supply.pm6"
   },
   "test-depends" : [
     "Test",
     "Test::META"
   ],
-  "tags" : [ ],
-  "version" : "0.2.0",
+  "version" : "0.3.1",
   "meta-version" : "0",
   "authors" : [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
   ],
-  "description" : "A modern HTTP request parser"
+  "description" : "A modern HTTP pipeline parser"
 }
 ,
 {
