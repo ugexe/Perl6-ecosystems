@@ -7396,6 +7396,37 @@
 }
 ,
 {
+  "name" : "HTTP::Supply",
+  "support" : {
+    "source" : "git://github.com/zostay/HTTP-Supply.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Supply-0.3.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6",
+    "HTTP::Supply::Response" : "lib/HTTP/Supply/Response.pm6",
+    "HTTP::Supply::Request" : "lib/HTTP/Supply/Request.pm6",
+    "HTTP::Supply" : "lib/HTTP/Supply.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.1",
+  "meta-version" : "0",
+  "description" : "A modern HTTP pipeline parser",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
   "name" : "Hash::MultiValue",
   "support" : {
     "source" : "git://github.com/zostay/p6-Hash-MultiValue.git"
@@ -19832,6 +19863,54 @@
 }
 ,
 {
+  "name" : "Graphics::TinyTIFF",
+  "source-url" : "http://www.cpan.org/authors/id/R/RY/RYNIX/Perl6/Graphics-TinyTIFF-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Graphics",
+    "Image",
+    "Tiff"
+  ],
+  "provides" : {
+    "Graphics::TinyTIFF" : "lib/Graphics/TinyTIFF.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "description" : "Perl6 bindings to TinyTIFF",
+  "authors" : [
+    "github:ryn1x"
+  ]
+}
+,
+{
+  "name" : "Graphics::TinyTIFF",
+  "source-url" : "http://www.cpan.org/authors/id/R/RY/RYNIX/Perl6/Graphics-TinyTIFF-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Graphics",
+    "Image",
+    "Tiff"
+  ],
+  "provides" : {
+    "Graphics::TinyTIFF" : "lib/Graphics/TinyTIFF.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
+  "description" : "Perl6 bindings to TinyTIFF",
+  "authors" : [
+    "github:ryn1x"
+  ]
+}
+,
+{
   "name" : "Terminal::Spinners",
   "support" : {
     "source" : "https://github.com/ryn1x/Terminal-Spinners"
@@ -23711,6 +23790,36 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.6",
+  "description" : "A Perl 6 Latent Dirichlet Allocation implementation.",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
+  "name" : "Algorithm::LDA",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LDA-0.0.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/lda"
+  ],
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "auth" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::LDA::Formatter" : "lib/Algorithm/LDA/Formatter.pm6",
+    "Algorithm::LDA::Document" : "lib/Algorithm/LDA/Document.pm6",
+    "Algorithm::LDA::Theta" : "lib/Algorithm/LDA/Theta.pm6",
+    "Algorithm::LDA::Phi" : "lib/Algorithm/LDA/Phi.pm6",
+    "Algorithm::LDA::LDAModel" : "lib/Algorithm/LDA/LDAModel.pm6",
+    "Algorithm::LDA" : "lib/Algorithm/LDA.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
   "description" : "A Perl 6 Latent Dirichlet Allocation implementation.",
   "authors" : [
     "titsuki"
