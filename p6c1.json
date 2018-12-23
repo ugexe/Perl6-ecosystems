@@ -11217,7 +11217,9 @@
   "source-url" : "https://github.com/nkh/P6-Data-Dump-Tree.git",
   "perl" : "6.c",
   "auth" : "github:nkh",
-  "depends" : [ ],
+  "depends" : [
+    "Terminal::Print"
+  ],
   "tags" : [
     "data",
     "dump",
