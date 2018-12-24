@@ -2583,7 +2583,9 @@
     "Test::META"
   ],
   "tags" : [
-    "Dependency Injection"
+    "Dependency Injection",
+    "Dependency",
+    "Inversion of Control"
   ],
   "provides" : {
     "IoC::ConstructorInjection" : "lib/IoC/ConstructorInjection.pm6",
@@ -2594,7 +2596,7 @@
     "IoC::BlockInjection" : "lib/IoC/BlockInjection.pm6"
   },
   "license" : "NOASSERTION",
-  "version" : "0.0.2",
+  "version" : "0.0.3",
   "description" : "Wire your application components together using inversion of control",
   "authors" : [
     "Jason May",
@@ -2957,7 +2959,7 @@
     "Test::Output"
   ],
   "license" : "Artistic-2.0",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "description" : "Convert Perl 6 Pod to HTML"
 }
 ,
@@ -3941,7 +3943,7 @@
     "File::Temp",
     "JSON::Fast",
     "Pod::To::BigPage:ver<0.5.0+>",
-    "Pod::To::HTML:ver<0.4.1+>",
+    "Pod::To::HTML:ver<0.6.1+>",
     "OO::Monitors",
     "File::Find",
     "Test::META"
@@ -15875,30 +15877,34 @@
   "support" : {
     "source" : "git://github.com/zostay/HTTP-Supply.git"
   },
-  "source-url" : "git://github.com/zostay/HTTP-Supply.git",
   "perl" : "6.c",
+  "source-url" : "git://github.com/zostay/HTTP-Supply.git",
   "resources" : [ ],
   "build-depends" : [ ],
   "auth" : "github:zostay",
   "depends" : [ ],
   "tags" : [ ],
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6",
-    "HTTP::Supply::Response" : "lib/HTTP/Supply/Response.pm6",
-    "HTTP::Supply::Request" : "lib/HTTP/Supply/Request.pm6",
-    "HTTP::Supply" : "lib/HTTP/Supply.pm6"
-  },
   "test-depends" : [
     "Test",
     "Test::META"
   ],
-  "version" : "0.3.1",
+  "provides" : {
+    "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6",
+    "HTTP::Supply::Body::ContentLength" : "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Body" : "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Tools" : "lib/HTTP/Supply/Tools.pm6",
+    "HTTP::Supply::Body::ChunkEncoding" : "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply" : "lib/HTTP/Supply.pm6",
+    "HTTP::Supply::Response" : "lib/HTTP/Supply/Response.pm6",
+    "HTTP::Supply::Request" : "lib/HTTP/Supply/Request.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.4",
   "meta-version" : "0",
+  "description" : "A modern HTTP pipeline parser",
   "authors" : [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
-  ],
-  "description" : "A modern HTTP pipeline parser"
+  ]
 }
 ,
 {
@@ -16567,10 +16573,11 @@
     "CSS::Properties::Font" : "lib/CSS/Properties/Font.pm",
     "CSS::Properties::Edges" : "lib/CSS/Properties/Edges.pm",
     "CSS::Properties::Units" : "lib/CSS/Properties/Units.pm",
+    "CSS::Properties::PageBox" : "lib/CSS/Properties/PageBox.pm",
     "CSS::Properties" : "lib/CSS/Properties.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.3.10",
+  "version" : "0.4.0",
   "description" : "CSS property manipulation library",
   "authors" : [
     "David Warring"
