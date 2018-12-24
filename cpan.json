@@ -7427,6 +7427,72 @@
 }
 ,
 {
+  "name" : "HTTP::Supply",
+  "support" : {
+    "source" : "git://github.com/zostay/HTTP-Supply.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Supply-0.3.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6",
+    "HTTP::Supply::Response" : "lib/HTTP/Supply/Response.pm6",
+    "HTTP::Supply::Request" : "lib/HTTP/Supply/Request.pm6",
+    "HTTP::Supply" : "lib/HTTP/Supply.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.2",
+  "meta-version" : "0",
+  "description" : "A modern HTTP pipeline parser",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "HTTP::Supply",
+  "support" : {
+    "source" : "git://github.com/zostay/HTTP-Supply.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Supply-0.3.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6",
+    "HTTP::Supply::Body::ContentLength" : "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Tools" : "lib/HTTP/Supply/Tools.pm6",
+    "HTTP::Supply::Body::ChunkEncoding" : "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Body" : "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Response" : "lib/HTTP/Supply/Response.pm6",
+    "HTTP::Supply::Request" : "lib/HTTP/Supply/Request.pm6",
+    "HTTP::Supply" : "lib/HTTP/Supply.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.4",
+  "meta-version" : "0",
+  "description" : "A modern HTTP pipeline parser",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
   "name" : "Hash::MultiValue",
   "support" : {
     "source" : "git://github.com/zostay/p6-Hash-MultiValue.git"
@@ -20385,6 +20451,108 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.2.8",
+  "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, multi-page support, inject external data via local Perl 6 module, and external pre/post command execution.",
+  "authors" : [
+    "Sam Morrison"
+  ]
+}
+,
+{
+  "name" : "Uzu",
+  "source-url" : "http://www.cpan.org/authors/id/S/SA/SACOMO/Perl6/Uzu-0.2.9.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "mustache/pages/index.mustache",
+    "mustache/partials/footer.mustache",
+    "mustache/partials/head.mustache",
+    "mustache/themes/default/layout.mustache",
+    "tt/pages/index.tt",
+    "tt/partials/footer.tt",
+    "tt/partials/head.tt",
+    "tt/themes/default/layout.tt"
+  ],
+  "depends" : [
+    "File::Directory::Tree",
+    "File::Find",
+    "File::Temp",
+    "Terminal::ANSIColor",
+    "Template6",
+    "Template::Mustache",
+    "Test::Output",
+    "HTTP::Server::Tiny",
+    "YAMLish"
+  ],
+  "test-depends" : [
+    "Test::Output"
+  ],
+  "tags" : [
+    "web",
+    "static-site-generator"
+  ],
+  "provides" : {
+    "Uzu::Logger" : "lib/Uzu/Logger.pm6",
+    "Uzu::LiveReload" : "lib/Uzu/LiveReload.pm6",
+    "Uzu::Config" : "lib/Uzu/Config.pm6",
+    "Uzu::Watch" : "lib/Uzu/Watch.pm6",
+    "Uzu::Utilities" : "lib/Uzu/Utilities.pm6",
+    "Uzu::Render" : "lib/Uzu/Render.pm6",
+    "Uzu::HTTP" : "lib/Uzu/HTTP.pm6",
+    "Uzu::CLI" : "lib/Uzu/CLI.pm6",
+    "Uzu" : "lib/Uzu.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.9",
+  "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, multi-page support, inject external data via local Perl 6 module, and external pre/post command execution.",
+  "authors" : [
+    "Sam Morrison"
+  ]
+}
+,
+{
+  "name" : "Uzu",
+  "source-url" : "http://www.cpan.org/authors/id/S/SA/SACOMO/Perl6/Uzu-0.3.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "mustache/pages/index.mustache",
+    "mustache/partials/footer.mustache",
+    "mustache/partials/head.mustache",
+    "mustache/themes/default/layout.mustache",
+    "tt/pages/index.tt",
+    "tt/partials/footer.tt",
+    "tt/partials/head.tt",
+    "tt/themes/default/layout.tt"
+  ],
+  "depends" : [
+    "File::Directory::Tree",
+    "File::Find",
+    "File::Temp",
+    "Terminal::ANSIColor",
+    "Template6",
+    "Template::Mustache",
+    "Test::Output",
+    "HTTP::Server::Tiny",
+    "YAMLish"
+  ],
+  "test-depends" : [
+    "Test::Output"
+  ],
+  "tags" : [
+    "web",
+    "static-site-generator"
+  ],
+  "provides" : {
+    "Uzu::Logger" : "lib/Uzu/Logger.pm6",
+    "Uzu::LiveReload" : "lib/Uzu/LiveReload.pm6",
+    "Uzu::Config" : "lib/Uzu/Config.pm6",
+    "Uzu::Watch" : "lib/Uzu/Watch.pm6",
+    "Uzu::Utilities" : "lib/Uzu/Utilities.pm6",
+    "Uzu::Render" : "lib/Uzu/Render.pm6",
+    "Uzu::HTTP" : "lib/Uzu/HTTP.pm6",
+    "Uzu::CLI" : "lib/Uzu/CLI.pm6",
+    "Uzu" : "lib/Uzu.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.0",
   "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, multi-page support, inject external data via local Perl 6 module, and external pre/post command execution.",
   "authors" : [
     "Sam Morrison"
