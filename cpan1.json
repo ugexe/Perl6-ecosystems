@@ -27924,6 +27924,29 @@ null
 }
 ,
 {
+  "name" : "StrictClass",
+  "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/StrictClass-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "strict",
+    "constructors"
+  ],
+  "provides" : {
+    "StrictClass" : "lib/StrictClass.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "Make your object constructors blow up on unknown attributes",
+  "authors" : [
+    "Martin Barth"
+  ]
+}
+,
+{
   "name" : "XML::XPath",
   "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/XML-XPath-0.9.1.tar.gz",
   "perl" : "6.c",
