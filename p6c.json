@@ -22547,4 +22547,43 @@
   "description" : "Generic SAT solver interface and testing",
   "authors" : "Tobias Boege"
 }
+,
+{
+  "name" : "PodCache::Module",
+  "source-url" : "git://github.com/finanalyst/pod-render.git",
+  "support" : {
+    "source" : "https://github.com/finanalyst/pod-render"
+  },
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "assets/pod.css"
+  ],
+  "author" : "Richard Hainsworth",
+  "depends" : [
+    "File::Directory::Tree",
+    "JSON::Fast",
+    "Pod::To::Cached",
+    "LibCurl::Easy",
+    "URI",
+    "Template::Mustache"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::Output",
+    "Pod::To::Cached",
+    "File::Directory::Tree",
+    "YAMLish",
+    "Data::Dump"
+  ],
+  "provides" : {
+    "Pod::To::HTML2" : "lib/PodCache/HTML2.pm6",
+    "PodCache::Processed" : "lib/PodCache/Processed.pm6",
+    "PodCache::Render" : "lib/PodCache/Render.pm6",
+    "PodCache::Engine" : "lib/PodCache/Engine.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.0",
+  "description" : "Render pod files from a cache."
+}
 ]
