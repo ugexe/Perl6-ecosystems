@@ -22549,6 +22549,33 @@
 }
 ,
 {
+  "name" : "SAT::Solver::MiniSAT",
+  "source-url" : "git://github.com/taboege/p6-SAT-Solver-MiniSAT.git",
+  "perl" : "6.c",
+  "resources" : [
+    "minisat"
+  ],
+  "build-depends" : [
+    "make:from<bin>",
+    "g++:from<bin>"
+  ],
+  "depends" : [
+    "SAT"
+  ],
+  "provides" : {
+    "SAT::Solver::MiniSAT" : "lib/SAT/Solver/MiniSAT.pm6"
+  },
+  "test-depends" : [
+    "Test::META"
+  ],
+  "license" : "Artistic-2.0",
+  "tags" : [ ],
+  "version" : "0.0.1",
+  "description" : "SAT solver MiniSAT",
+  "authors" : "Tobias Boege"
+}
+,
+{
   "name" : "PodCache::Module",
   "source-url" : "git://github.com/finanalyst/pod-render.git",
   "support" : {
