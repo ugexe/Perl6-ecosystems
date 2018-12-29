@@ -6290,6 +6290,74 @@
 }
 ,
 {
+  "name" : "Archive::Libarchive::Raw",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-Raw-0.0.8.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libarchive.dll"
+  ],
+  "build-depends" : [
+    "HTTP::UserAgent"
+  ],
+  "depends" : [
+    "NativeCall"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "archive",
+    "libarchive",
+    "compression",
+    "nativecall"
+  ],
+  "provides" : {
+    "Archive::Libarchive::Raw" : "lib/Archive/Libarchive/Raw.pm6",
+    "Archive::Libarchive::Constants" : "lib/Archive/Libarchive/Constants.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "description" : "Raw interface to libarchive",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
+  "name" : "Archive::Libarchive::Raw",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-Raw-0.0.9.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libarchive.dll"
+  ],
+  "build-depends" : [
+    "HTTP::UserAgent"
+  ],
+  "depends" : [
+    "NativeCall"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "archive",
+    "libarchive",
+    "compression",
+    "nativecall"
+  ],
+  "provides" : {
+    "Archive::Libarchive::Raw" : "lib/Archive/Libarchive/Raw.pm6",
+    "Archive::Libarchive::Constants" : "lib/Archive/Libarchive/Constants.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.8",
+  "description" : "Raw interface to libarchive",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
   "name" : "Desktop::Notify",
   "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-0.3.4.tar.gz",
   "perl" : "6.c",
@@ -6309,6 +6377,32 @@
   "license" : "Artistic-2.0",
   "version" : "0.3.2",
   "description" : "A simple interface to libnotify",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
+  "name" : "Hash::Timeout",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Hash-Timeout-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:FRITH",
+  "depends" : [
+    "Hash::Agnostic"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "hash",
+    "timeout"
+  ],
+  "provides" : {
+    "Hash::Timeout" : "lib/Hash/Timeout.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Role for hashes whose elements timeout and disappear",
   "authors" : [
     "Fernando Santagata"
   ]
