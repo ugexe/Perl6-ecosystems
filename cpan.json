@@ -3235,6 +3235,29 @@
 }
 ,
 {
+  "name" : "Hash::Agnostic",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Agnostic-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Hash::Agnostic" : "lib/Hash/Agnostic.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "be a hash without knowing how",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Hash::LRU",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-LRU-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -16694,6 +16717,50 @@
 }
 ,
 {
+  "name" : "Sparrowdo",
+  "support" : {
+    "source" : "https://github.com/melezhik/sparrowdo.git",
+    "bugtracker" : "https://github.com/melezhik/sparrowdo/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-0.0.44.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Terminal::ANSIColor",
+    "JSON::Tiny",
+    "Config::Simple",
+    "Data::Dump"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::Core::DSL::Service" : "lib/Sparrowdo/Core/DSL/Service.pm6",
+    "Sparrowdo::Core::DSL::CPAN::Package" : "lib/Sparrowdo/Core/DSL/CPAN/Package.pm6",
+    "Sparrowdo::Core::DSL::User" : "lib/Sparrowdo/Core/DSL/User.pm6",
+    "Sparrowdo::Core::DSL::Ssh" : "lib/Sparrowdo/Core/DSL/Ssh.pm6",
+    "Sparrowdo::Core::DSL::Package" : "lib/Sparrowdo/Core/DSL/Package.pm6",
+    "Sparrowdo::Core::DSL::Assert" : "lib/Sparrowdo/Core/DSL/Assert.pm6",
+    "Sparrowdo::Core::DSL::Template" : "lib/Sparrowdo/Core/DSL/Template.pm6",
+    "Sparrowdo" : "lib/Sparrowdo.pm6",
+    "Sparrowdo::Core::DSL::File" : "lib/Sparrowdo/Core/DSL/File.pm6",
+    "Sparrowdo::Core::DSL::Directory" : "lib/Sparrowdo/Core/DSL/Directory.pm6",
+    "Sparrowdo::Core::DSL::Zef" : "lib/Sparrowdo/Core/DSL/Zef.pm6",
+    "Sparrowdo::Core::DSL::Systemd" : "lib/Sparrowdo/Core/DSL/Systemd.pm6",
+    "Sparrowdo::Core::DSL::Group" : "lib/Sparrowdo/Core/DSL/Group.pm6",
+    "Sparrowdo::Core::DSL::Git" : "lib/Sparrowdo/Core/DSL/Git.pm6",
+    "Sparrowdo::Core::DSL::Bash" : "lib/Sparrowdo/Core/DSL/Bash.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.44",
+  "description" : "Configuration management tool based on sparrow plugins system",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
   "name" : "Sparrowdo::Azure::Web::Cert",
   "support" : { },
   "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-Azure-Web-Cert-0.0.1.tar.gz",
@@ -20995,6 +21062,57 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.3.0",
+  "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, multi-page support, inject external data via local Perl 6 module, and external pre/post command execution.",
+  "authors" : [
+    "Sam Morrison"
+  ]
+}
+,
+{
+  "name" : "Uzu",
+  "source-url" : "http://www.cpan.org/authors/id/S/SA/SACOMO/Perl6/Uzu-0.3.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "mustache/pages/index.mustache",
+    "mustache/partials/footer.mustache",
+    "mustache/partials/head.mustache",
+    "mustache/themes/default/layout.mustache",
+    "tt/pages/index.tt",
+    "tt/partials/footer.tt",
+    "tt/partials/head.tt",
+    "tt/themes/default/layout.tt"
+  ],
+  "depends" : [
+    "File::Directory::Tree",
+    "File::Find",
+    "File::Temp",
+    "Terminal::ANSIColor",
+    "Template6",
+    "Template::Mustache",
+    "Test::Output",
+    "HTTP::Server::Tiny",
+    "YAMLish"
+  ],
+  "test-depends" : [
+    "Test::Output"
+  ],
+  "tags" : [
+    "web",
+    "static-site-generator"
+  ],
+  "provides" : {
+    "Uzu::Logger" : "lib/Uzu/Logger.pm6",
+    "Uzu::LiveReload" : "lib/Uzu/LiveReload.pm6",
+    "Uzu::Config" : "lib/Uzu/Config.pm6",
+    "Uzu::Watch" : "lib/Uzu/Watch.pm6",
+    "Uzu::Utilities" : "lib/Uzu/Utilities.pm6",
+    "Uzu::Render" : "lib/Uzu/Render.pm6",
+    "Uzu::HTTP" : "lib/Uzu/HTTP.pm6",
+    "Uzu::CLI" : "lib/Uzu/CLI.pm6",
+    "Uzu" : "lib/Uzu.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.1",
   "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, multi-page support, inject external data via local Perl 6 module, and external pre/post command execution.",
   "authors" : [
     "Sam Morrison"
