@@ -7394,6 +7394,35 @@
 }
 ,
 {
+  "name" : "HTTP::Headers",
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Headers-0.3.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : null,
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "HTTP::Header::Standard" : "lib/HTTP/Headers.pm6",
+    "HTTP::Header" : "lib/HTTP/Headers.pm6",
+    "HTTP::Headers" : "lib/HTTP/Headers.pm6",
+    "HTTP::Header::Standard::Content-Type" : "lib/HTTP/Headers.pm6",
+    "HTTP::Header::Custom" : "lib/HTTP/Headers.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.0",
+  "meta-version" : "0",
+  "description" : "Tools for working with HTTP message headers",
+  "authors" : [
+    "Andrew Sterling Hanenkamp"
+  ]
+}
+,
+{
   "name" : "HTTP::Request::FormData",
   "support" : {
     "source" : "git://github.com/zostay/HTTP-Request-FormData.git"
@@ -20152,6 +20181,37 @@
   "description" : "Support for the ST7036 dot matrix display.",
   "authors" : [
     "Patrick Sebastian Zimmermann"
+  ]
+}
+,
+{
+  "name" : "Math::Polygons",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXSTEVE/Perl6/Math-Polygons-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:p6steve",
+  "depends" : [
+    "SVG",
+    "SVG::Plot"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Math",
+    "Polygons",
+    "Geometry",
+    "SVG"
+  ],
+  "provides" : {
+    "Math::Polygons" : "lib/Math/Polygons.pm6",
+    "Math::Polygons::Drawing" : "lib/Math/Polygons/Drawing.pm6"
+  },
+  "license" : "LGPL-3.0",
+  "version" : "0.0.1",
+  "description" : "Some perl6 polygon objects that draw using SVG.",
+  "authors" : [
+    "p6steve"
   ]
 }
 ,
