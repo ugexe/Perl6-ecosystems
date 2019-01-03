@@ -6385,6 +6385,9 @@
   "perl" : "6.c",
   "auth" : "github:grondilu",
   "depends" : [ ],
+  "tags" : [
+    "Math"
+  ],
   "provides" : {
     "MultiVector::BitEncoded::Default" : "lib/MultiVector/BitEncoded/Default.pm6",
     "MultiVector::BitEncoded::Optimized" : "lib/MultiVector/BitEncoded/Optimized.pm6",
@@ -10208,7 +10211,7 @@
   "support" : {
     "email" : "jns+git@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/Test-META.git",
-    "bugtracker" : "http://github.com/jonathanstowe/Test-META/issue"
+    "bugtracker" : "http://github.com/jonathanstowe/Test-META/issues"
   },
   "source-url" : "git://github.com/jonathanstowe/Test-META.git",
   "build-depends" : [ ],
