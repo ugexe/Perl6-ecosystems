@@ -19604,6 +19604,57 @@
     "source" : "https://github.com/melezhik/tomtit.git",
     "bugtracker" : "https://github.com/melezhik/tomtit/issues"
   },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomtit-0.0.17.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "profiles/perl6/install.pl6",
+    "profiles/perl6/test.pl6",
+    "profiles/perl6/release.pl6",
+    "profiles/perl6/set-pause.pl6",
+    "profiles/perl/set-pause.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/make-dist.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/release.pl6",
+    "profiles/perl/test.pl6",
+    "profiles/ruby/rvm.pl6",
+    "profiles/git/set-git.pl6",
+    "profiles/git/commit.pl6",
+    "profiles/git/push.pl6",
+    "profiles/git/pull.pl6",
+    "profiles/git/status.pl6",
+    "profiles/ado/build.pl6",
+    "profiles/ado/list.pl6",
+    "profiles/ado/az-account-set.pl6",
+    "profiles/ado/az-resources.pl6",
+    "profiles/hello/world.pl6",
+    "completion.sh"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo",
+    "File::Directory::Tree"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Tomtit" : "lib/Tomtit.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.17",
+  "description" : "Tomtit - Perl6 Makefile tool based on Sparrowdo plugins",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Tomtit",
+  "support" : {
+    "source" : "https://github.com/melezhik/tomtit.git",
+    "bugtracker" : "https://github.com/melezhik/tomtit/issues"
+  },
   "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomtit-0.0.2.tar.gz",
   "perl" : "6.*",
   "source-type" : "git",
