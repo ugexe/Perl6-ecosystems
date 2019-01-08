@@ -13247,6 +13247,32 @@
 }
 ,
 {
+  "name" : "Cro::HTTP::Test",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-HTTP-Test-0.8.0.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [
+    "Cro::HTTP"
+  ],
+  "tags" : [
+    "HTTP",
+    "Test",
+    "Testing",
+    "Web"
+  ],
+  "provides" : {
+    "Cro::HTTP::Test" : "lib/Cro/HTTP/Test.pm6",
+    "Cro::HTTP::Test::ChannelServer" : "lib/Cro/HTTP/Test/ChannelServer.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.8.0",
+  "description" : "Write tests for HTTP services (whether or not they are built with Cro).",
+  "authors" : [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ]
+}
+,
+{
   "name" : "Cro::OpenAPI::RoutesFromDefinition",
   "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-OpenAPI-RoutesFromDefinition-1.0.tar.gz",
   "perl" : "6.c",
@@ -15677,6 +15703,118 @@
 }
 ,
 {
+  "name" : "Igo",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Igo.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Igo-0.0.1.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "Archive::Libarchive",
+    "CPAN::Uploader::Tiny",
+    "META6",
+    "Oyatul",
+    "XDG::BaseDirectory"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "cpan6",
+    "packager",
+    "uploader"
+  ],
+  "provides" : {
+    "Igo" : "lib/Igo.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "meta-version" : "0",
+  "description" : "Expedient CPAN6 distribution packager and uploader",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Igo",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Igo.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Igo-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "Archive::Libarchive",
+    "CPAN::Uploader::Tiny",
+    "META6",
+    "Oyatul",
+    "XDG::BaseDirectory"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "cpan6",
+    "packager",
+    "uploader"
+  ],
+  "provides" : {
+    "Igo" : "lib/Igo.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "meta-version" : "0",
+  "description" : "Expedient CPAN6 distribution packager and uploader",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "META6",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/META6.git",
+    "bugtracker" : "https://github.com/jonathanstowe/META6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/META6-0.0.20.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Class:ver<0.0.5+>"
+  ],
+  "test-depends" : [
+    "JSON::Fast",
+    "Test"
+  ],
+  "tags" : [
+    "devel",
+    "meta",
+    "utils"
+  ],
+  "provides" : {
+    "META6" : "lib/META6.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.20",
+  "production" : true,
+  "meta-version" : "0",
+  "description" : "Work with Perl 6 META files",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Crypt::CAST5",
   "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Crypt-CAST5-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -17425,6 +17563,50 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.44",
+  "description" : "Configuration management tool based on sparrow plugins system",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Sparrowdo",
+  "support" : {
+    "source" : "https://github.com/melezhik/sparrowdo.git",
+    "bugtracker" : "https://github.com/melezhik/sparrowdo/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-0.0.45.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Terminal::ANSIColor",
+    "JSON::Tiny",
+    "Config::Simple",
+    "Data::Dump"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Sparrowdo::Core::DSL::Service" : "lib/Sparrowdo/Core/DSL/Service.pm6",
+    "Sparrowdo::Core::DSL::CPAN::Package" : "lib/Sparrowdo/Core/DSL/CPAN/Package.pm6",
+    "Sparrowdo::Core::DSL::User" : "lib/Sparrowdo/Core/DSL/User.pm6",
+    "Sparrowdo::Core::DSL::Ssh" : "lib/Sparrowdo/Core/DSL/Ssh.pm6",
+    "Sparrowdo::Core::DSL::Package" : "lib/Sparrowdo/Core/DSL/Package.pm6",
+    "Sparrowdo::Core::DSL::Assert" : "lib/Sparrowdo/Core/DSL/Assert.pm6",
+    "Sparrowdo::Core::DSL::Template" : "lib/Sparrowdo/Core/DSL/Template.pm6",
+    "Sparrowdo" : "lib/Sparrowdo.pm6",
+    "Sparrowdo::Core::DSL::File" : "lib/Sparrowdo/Core/DSL/File.pm6",
+    "Sparrowdo::Core::DSL::Directory" : "lib/Sparrowdo/Core/DSL/Directory.pm6",
+    "Sparrowdo::Core::DSL::Zef" : "lib/Sparrowdo/Core/DSL/Zef.pm6",
+    "Sparrowdo::Core::DSL::Systemd" : "lib/Sparrowdo/Core/DSL/Systemd.pm6",
+    "Sparrowdo::Core::DSL::Group" : "lib/Sparrowdo/Core/DSL/Group.pm6",
+    "Sparrowdo::Core::DSL::Git" : "lib/Sparrowdo/Core/DSL/Git.pm6",
+    "Sparrowdo::Core::DSL::Bash" : "lib/Sparrowdo/Core/DSL/Bash.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.45",
   "description" : "Configuration management tool based on sparrow plugins system",
   "authors" : [
     "Alexey Melezhik"
@@ -19996,6 +20178,112 @@
     "source" : "https://github.com/melezhik/tomtit.git",
     "bugtracker" : "https://github.com/melezhik/tomtit/issues"
   },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomtit-0.0.18.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "profiles/perl6/install.pl6",
+    "profiles/perl6/test.pl6",
+    "profiles/perl6/changes.pl6",
+    "profiles/perl6/release.pl6",
+    "profiles/perl6/set-pause.pl6",
+    "profiles/perl/set-pause.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/make-dist.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/changes.pl6",
+    "profiles/perl/release.pl6",
+    "profiles/perl/test.pl6",
+    "profiles/ruby/rvm.pl6",
+    "profiles/git/set-git.pl6",
+    "profiles/git/commit.pl6",
+    "profiles/git/push.pl6",
+    "profiles/git/pull.pl6",
+    "profiles/git/status.pl6",
+    "profiles/ado/build.pl6",
+    "profiles/ado/list.pl6",
+    "profiles/ado/az-account-set.pl6",
+    "profiles/ado/az-resources.pl6",
+    "profiles/hello/world.pl6",
+    "completion.sh"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo",
+    "File::Directory::Tree"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Tomtit" : "lib/Tomtit.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.18",
+  "description" : "Tomtit - Perl6 Makefile tool based on Sparrowdo plugins",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Tomtit",
+  "support" : {
+    "source" : "https://github.com/melezhik/tomtit.git",
+    "bugtracker" : "https://github.com/melezhik/tomtit/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomtit-0.0.19.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "profiles/perl6/install.pl6",
+    "profiles/perl6/test.pl6",
+    "profiles/perl6/changes.pl6",
+    "profiles/perl6/release.pl6",
+    "profiles/perl6/set-pause.pl6",
+    "profiles/perl/set-pause.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/make-dist.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/changes.pl6",
+    "profiles/perl/release.pl6",
+    "profiles/perl/test.pl6",
+    "profiles/ruby/rvm.pl6",
+    "profiles/git/set-git.pl6",
+    "profiles/git/commit.pl6",
+    "profiles/git/push.pl6",
+    "profiles/git/pull.pl6",
+    "profiles/git/status.pl6",
+    "profiles/ado/build.pl6",
+    "profiles/ado/list.pl6",
+    "profiles/ado/az-account-set.pl6",
+    "profiles/ado/az-resources.pl6",
+    "profiles/hello/world.pl6",
+    "completion.sh"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo",
+    "File::Directory::Tree"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Tomtit" : "lib/Tomtit.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.19",
+  "description" : "Tomtit - Perl6 Makefile tool based on Sparrowdo plugins",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Tomtit",
+  "support" : {
+    "source" : "https://github.com/melezhik/tomtit.git",
+    "bugtracker" : "https://github.com/melezhik/tomtit/issues"
+  },
   "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomtit-0.0.2.tar.gz",
   "perl" : "6.*",
   "source-type" : "git",
@@ -20013,6 +20301,59 @@
   "license" : "Artistic-2.0",
   "version" : "0.0.2",
   "description" : "Sparrowdo based makefile",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Tomtit",
+  "support" : {
+    "source" : "https://github.com/melezhik/tomtit.git",
+    "bugtracker" : "https://github.com/melezhik/tomtit/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomtit-0.0.20.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "profiles/perl6/install.pl6",
+    "profiles/perl6/test.pl6",
+    "profiles/perl6/changes.pl6",
+    "profiles/perl6/release.pl6",
+    "profiles/perl6/set-pause.pl6",
+    "profiles/perl/set-pause.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/make-dist.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/changes.pl6",
+    "profiles/perl/release.pl6",
+    "profiles/perl/test.pl6",
+    "profiles/ruby/rvm.pl6",
+    "profiles/git/set-git.pl6",
+    "profiles/git/commit.pl6",
+    "profiles/git/push.pl6",
+    "profiles/git/pull.pl6",
+    "profiles/git/status.pl6",
+    "profiles/ado/build.pl6",
+    "profiles/ado/list.pl6",
+    "profiles/ado/az-account-set.pl6",
+    "profiles/ado/az-resources.pl6",
+    "profiles/hello/world.pl6",
+    "completion.sh"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo",
+    "File::Directory::Tree"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Tomtit" : "lib/Tomtit.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.20",
+  "description" : "Tomtit - Perl6 Makefile tool based on Sparrowdo plugins",
   "authors" : [
     "Alexey Melezhik"
   ]
