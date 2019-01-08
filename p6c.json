@@ -8967,8 +8967,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "XDG::BaseDirectory",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "source" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git"
   },
@@ -8991,7 +8992,7 @@
     "desktop",
     "utils"
   ],
-  "version" : "0.0.7",
+  "version" : "0.0.8",
   "meta6" : "0",
   "description" : "Implementation of the freedesktop.org XDG BaseDirectory specifications",
   "authors" : [
@@ -10169,8 +10170,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "META6",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+git@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/META6.git",
@@ -10181,7 +10183,7 @@
   "resources" : [ ],
   "auth" : "github:jonathanstowe",
   "depends" : [
-    "JSON::Class"
+    "JSON::Class:ver<0.0.5+>"
   ],
   "provides" : {
     "META6" : "lib/META6.pm"
@@ -10197,7 +10199,7 @@
     "utils"
   ],
   "meta-version" : "0",
-  "version" : "0.0.19",
+  "version" : "0.0.20",
   "production" : true,
   "description" : "Work with Perl 6 META files",
   "authors" : [
@@ -15877,32 +15879,32 @@
 ,
 {
   "name" : "HTTP::Supply",
+  "perl" : "6.c",
+  "source-url" : "git://github.com/zostay/HTTP-Supply.git",
   "support" : {
     "source" : "git://github.com/zostay/HTTP-Supply.git"
   },
-  "perl" : "6.c",
-  "source-url" : "git://github.com/zostay/HTTP-Supply.git",
-  "resources" : [ ],
   "build-depends" : [ ],
+  "resources" : [ ],
   "auth" : "github:zostay",
   "depends" : [ ],
-  "tags" : [ ],
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
   "provides" : {
     "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6",
     "HTTP::Supply::Body::ContentLength" : "lib/HTTP/Supply/Body.pm6",
-    "HTTP::Supply::Body" : "lib/HTTP/Supply/Body.pm6",
-    "HTTP::Supply::Tools" : "lib/HTTP/Supply/Tools.pm6",
     "HTTP::Supply::Body::ChunkEncoding" : "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Tools" : "lib/HTTP/Supply/Tools.pm6",
+    "HTTP::Supply::Body" : "lib/HTTP/Supply/Body.pm6",
     "HTTP::Supply" : "lib/HTTP/Supply.pm6",
     "HTTP::Supply::Response" : "lib/HTTP/Supply/Response.pm6",
     "HTTP::Supply::Request" : "lib/HTTP/Supply/Request.pm6"
   },
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
   "license" : "Artistic-2.0",
-  "version" : "0.3.4",
+  "version" : "0.3.5",
   "meta-version" : "0",
   "description" : "A modern HTTP pipeline parser",
   "authors" : [
