@@ -7826,6 +7826,41 @@
 }
 ,
 {
+  "name" : "HTTP::Supply",
+  "support" : {
+    "source" : "git://github.com/zostay/HTTP-Supply.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Supply-0.3.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "HTTP::Request::Supply" : "lib/HTTP/Request/Supply.pm6",
+    "HTTP::Supply::Body::ContentLength" : "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Tools" : "lib/HTTP/Supply/Tools.pm6",
+    "HTTP::Supply::Body::ChunkEncoding" : "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Body" : "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Response" : "lib/HTTP/Supply/Response.pm6",
+    "HTTP::Supply::Request" : "lib/HTTP/Supply/Request.pm6",
+    "HTTP::Supply" : "lib/HTTP/Supply.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.5",
+  "meta-version" : "0",
+  "description" : "A modern HTTP pipeline parser",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
   "name" : "Hash::MultiValue",
   "support" : {
     "source" : "git://github.com/zostay/p6-Hash-MultiValue.git"
@@ -15777,6 +15812,120 @@
 }
 ,
 {
+  "name" : "Igo",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Igo.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Igo/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Igo-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "Archive::Libarchive",
+    "CPAN::Uploader::Tiny",
+    "META6",
+    "Oyatul",
+    "XDG::BaseDirectory"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "cpan6",
+    "packager",
+    "uploader"
+  ],
+  "provides" : {
+    "Igo" : "lib/Igo.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "Expedient CPAN6 distribution packager and uploader",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Igo",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Igo.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Igo/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Igo-0.0.4.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "Archive::Libarchive",
+    "CPAN::Uploader::Tiny",
+    "META6",
+    "Oyatul",
+    "XDG::BaseDirectory"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "cpan6",
+    "packager",
+    "uploader"
+  ],
+  "provides" : {
+    "Igo" : "lib/Igo.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "meta-version" : "0",
+  "description" : "Expedient CPAN6 distribution packager and uploader",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Igo",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Igo.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Igo/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Igo-0.0.5.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "Archive::Libarchive",
+    "CPAN::Uploader::Tiny",
+    "META6",
+    "Oyatul",
+    "XDG::BaseDirectory"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "cpan6",
+    "packager",
+    "uploader"
+  ],
+  "provides" : {
+    "Igo" : "lib/Igo.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "meta-version" : "0",
+  "description" : "Expedient CPAN6 distribution packager and uploader",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "META6",
   "api" : "1.0",
   "support" : {
@@ -20353,6 +20502,115 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.20",
+  "description" : "Tomtit - Perl6 Makefile tool based on Sparrowdo plugins",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Tomtit",
+  "support" : {
+    "source" : "https://github.com/melezhik/tomtit.git",
+    "bugtracker" : "https://github.com/melezhik/tomtit/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomtit-0.0.21.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "profiles/perl6/install.pl6",
+    "profiles/perl6/test.pl6",
+    "profiles/perl6/changes.pl6",
+    "profiles/perl6/release.pl6",
+    "profiles/perl6/set-pause.pl6",
+    "profiles/perl/set-pause.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/make-dist.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/changes.pl6",
+    "profiles/perl/release.pl6",
+    "profiles/perl/test.pl6",
+    "profiles/ruby/rvm.pl6",
+    "profiles/git/set-git.pl6",
+    "profiles/git/commit.pl6",
+    "profiles/git/push.pl6",
+    "profiles/git/pull.pl6",
+    "profiles/git/status.pl6",
+    "profiles/ado/build.pl6",
+    "profiles/ado/list.pl6",
+    "profiles/ado/az-account-set.pl6",
+    "profiles/ado/az-resources.pl6",
+    "profiles/hello/world.pl6",
+    "completion.sh"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo",
+    "File::Directory::Tree"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Tomtit" : "lib/Tomtit.pm6",
+    "Tomtit::Completion" : "lib/Tomtit/Completion.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.21",
+  "description" : "Tomtit - Perl6 Makefile tool based on Sparrowdo plugins",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Tomtit",
+  "support" : {
+    "source" : "https://github.com/melezhik/tomtit.git",
+    "bugtracker" : "https://github.com/melezhik/tomtit/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomtit-0.0.22.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "profiles/perl6/install.pl6",
+    "profiles/perl6/test.pl6",
+    "profiles/perl6/changes.pl6",
+    "profiles/perl6/release.pl6",
+    "profiles/perl6/set-pause.pl6",
+    "profiles/perl/set-pause.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/make-dist.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/changes.pl6",
+    "profiles/perl/release.pl6",
+    "profiles/perl/test.pl6",
+    "profiles/ruby/rvm.pl6",
+    "profiles/git/set-git.pl6",
+    "profiles/git/commit.pl6",
+    "profiles/git/push.pl6",
+    "profiles/git/pull.pl6",
+    "profiles/git/status.pl6",
+    "profiles/git/git-summary.pl6",
+    "profiles/ado/build.pl6",
+    "profiles/ado/list.pl6",
+    "profiles/ado/az-account-set.pl6",
+    "profiles/ado/az-resources.pl6",
+    "profiles/hello/world.pl6",
+    "completion.sh"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo:ver<0.0.45+>",
+    "File::Directory::Tree"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Tomtit" : "lib/Tomtit.pm6",
+    "Tomtit::Completion" : "lib/Tomtit/Completion.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.22",
   "description" : "Tomtit - Perl6 Makefile tool based on Sparrowdo plugins",
   "authors" : [
     "Alexey Melezhik"
