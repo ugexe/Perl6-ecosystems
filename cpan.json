@@ -6562,6 +6562,33 @@
 }
 ,
 {
+  "name" : "File::Metadata::Libextractor",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/File-Metadata-Libextractor-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:FRITH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "filesystem",
+    "metadata",
+    "nativecall"
+  ],
+  "provides" : {
+    "File::Metadata::Libextractor::Constants" : "lib/File/Metadata/Libextractor/Constants.pm6",
+    "File::Metadata::Libextractor::Raw" : "lib/File/Metadata/Libextractor/Raw.pm6",
+    "File::Metadata::Libextractor" : "lib/File/Metadata/Libextractor.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Use libextractor to read file metadata",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
   "name" : "Hash::Timeout",
   "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Hash-Timeout-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -7609,6 +7636,35 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.3.0",
+  "meta-version" : "0",
+  "description" : "Tools for working with HTTP message headers",
+  "authors" : [
+    "Andrew Sterling Hanenkamp"
+  ]
+}
+,
+{
+  "name" : "HTTP::Headers",
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Headers-0.4.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : null,
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "HTTP::Header::Standard" : "lib/HTTP/Headers.pm6",
+    "HTTP::Header" : "lib/HTTP/Headers.pm6",
+    "HTTP::Headers" : "lib/HTTP/Headers.pm6",
+    "HTTP::Header::Standard::Content-Type" : "lib/HTTP/Headers.pm6",
+    "HTTP::Header::Custom" : "lib/HTTP/Headers.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.4.0",
   "meta-version" : "0",
   "description" : "Tools for working with HTTP message headers",
   "authors" : [
@@ -12846,6 +12902,107 @@
 }
 ,
 {
+  "name" : "Net::BGP",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/Net-BGP-0.0.5.tar.gz",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:JMASLAK",
+  "depends" : [
+    "if",
+    "DateTime::Monotonic",
+    "NativeHelpers::Blob",
+    "OO::Monitors",
+    "StrictClass"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Net::BGP::Message" : "lib/Net/BGP/Message.pm6",
+    "Net::BGP::Message::Notify::Header::Generic" : "lib/Net/BGP/Message/Notify/Header/Generic.pm6",
+    "Net::BGP::Connection-List" : "lib/Net/BGP/Connection-List.pm6",
+    "Net::BGP::Error::Bad-Option-Length" : "lib/Net/BGP/Error/Bad-Option-Length.pm6",
+    "Net::BGP::Error::Length-Too-Long" : "lib/Net/BGP/Error/Length-Too-Long.pm6",
+    "Net::BGP::Error::Marker-Format" : "lib/Net/BGP/Error/Marker-Format.pm6",
+    "Net::BGP::Event::New-Connection" : "lib/Net/BGP/Event/New-Connection.pm6",
+    "Net::BGP::Message::Notify::Header" : "lib/Net/BGP/Message/Notify/Header.pm6",
+    "Net::BGP::Message::Notify::Open::Unsupported-Optional-Parameter" : "lib/Net/BGP/Message/Notify/Open/Unsupported-Optional-Parameter.pm6",
+    "Net::BGP::Message::Open" : "lib/Net/BGP/Message/Open.pm6",
+    "Net::BGP::Socket" : "lib/Net/BGP/Socket.pm6",
+    "Net::BGP::Peer" : "lib/Net/BGP/Peer.pm6",
+    "Net::BGP::AS-List" : "lib/Net/BGP/AS-List.pm6",
+    "Net::BGP::Capability::MPBGP" : "lib/Net/BGP/Capability/MPBGP.pm6",
+    "Net::BGP::Controller-Handle-BGP" : "lib/Net/BGP/Controller-Handle-BGP.pm6",
+    "Net::BGP::Error::Unknown-Version" : "lib/Net/BGP/Error/Unknown-Version.pm6",
+    "Net::BGP::Message::Notify" : "lib/Net/BGP/Message/Notify.pm6",
+    "Net::BGP::Path-Attribute::Generic" : "lib/Net/BGP/Path-Attribute/Generic.pm6",
+    "Net::BGP::Error::Hold-Time-Too-Short" : "lib/Net/BGP/Error/Hold-Time-Too-Short.pm6",
+    "Net::BGP::Path-Attribute::AS-Path" : "lib/Net/BGP/Path-Attribute/AS-Path.pm6",
+    "Net::BGP::Socket-Connection-Linux" : "lib/Net/BGP/Socket-Connection-Linux.pm6",
+    "Net::BGP::AFI-SAFI" : "lib/Net/BGP/AFI-SAFI.pm6",
+    "Net::BGP::Conversions-Post201812" : "lib/Net/BGP/Conversions-Post201812.pm6",
+    "Net::BGP::Message::Notify::Open" : "lib/Net/BGP/Message/Notify/Open.pm6",
+    "Net::BGP::SAFI" : "lib/Net/BGP/SAFI.pm6",
+    "Net::BGP::Path-Attribute::Origin" : "lib/Net/BGP/Path-Attribute/Origin.pm6",
+    "Net::BGP::Path-Attribute::MP-Unreachable" : "lib/Net/BGP/Path-Attribute/MP-Unreachable.pm6",
+    "Net::BGP::Path-Attribute::Atomic-Aggregate" : "lib/Net/BGP/Path-Attribute/Atomic-Aggregate.pm6",
+    "Net::BGP::Capability::Generic" : "lib/Net/BGP/Capability/Generic.pm6",
+    "Net::BGP::Command::BGP-Message" : "lib/Net/BGP/Command/BGP-Message.pm6",
+    "Net::BGP::Controller" : "lib/Net/BGP/Controller.pm6",
+    "Net::BGP::Message::Notify::Header::Connection-Not-Syncronized" : "lib/Net/BGP/Message/Notify/Header/Connection-Not-Syncronized.pm6",
+    "Net::BGP::Path-Attribute" : "lib/Net/BGP/Path-Attribute.pm6",
+    "Net::BGP::Path-Attribute::Next-Hop" : "lib/Net/BGP/Path-Attribute/Next-Hop.pm6",
+    "Net::BGP::Connection-Role" : "lib/Net/BGP/Connection-Role.pm6",
+    "Net::BGP::Event::BGP-Message" : "lib/Net/BGP/Event/BGP-Message.pm6",
+    "Net::BGP::Message::Keep-Alive" : "lib/Net/BGP/Message/Keep-Alive.pm6",
+    "Net::BGP" : "lib/Net/BGP.pm6",
+    "Net::BGP::Capability::Route-Refresh" : "lib/Net/BGP/Capability/Route-Refresh.pm6",
+    "Net::BGP::Message::Generic" : "lib/Net/BGP/Message/Generic.pm6",
+    "Net::BGP::Message::Notify::Open::Generic" : "lib/Net/BGP/Message/Notify/Open/Generic.pm6",
+    "Net::BGP::Parameter" : "lib/Net/BGP/Parameter.pm6",
+    "Net::BGP::Peer-List" : "lib/Net/BGP/Peer-List.pm6",
+    "Net::BGP::Path-Attribute::Originator-ID" : "lib/Net/BGP/Path-Attribute/Originator-ID.pm6",
+    "Net::BGP::Path-Attribute::MP-NLRI" : "lib/Net/BGP/Path-Attribute/MP-NLRI.pm6",
+    "Net::BGP::Path-Attribute::Cluster-List" : "lib/Net/BGP/Path-Attribute/Cluster-List.pm6",
+    "Net::BGP::AFI" : "lib/Net/BGP/AFI.pm6",
+    "Net::BGP::Error::Length-Too-Short" : "lib/Net/BGP/Error/Length-Too-Short.pm6",
+    "Net::BGP::IP" : "lib/Net/BGP/IP.pm6",
+    "Net::BGP::Message::Notify::Generic" : "lib/Net/BGP/Message/Notify/Generic.pm6",
+    "Net::BGP::Message::Notify::Hold-Timer-Expired" : "lib/Net/BGP/Message/Notify/Hold-Timer-Expired.pm6",
+    "Net::BGP::Socket-Linux" : "lib/Net/BGP/Socket-Linux.pm6",
+    "Net::BGP::Capability::ASN32" : "lib/Net/BGP/Capability/ASN32.pm6",
+    "Net::BGP::Error::Bad-Parameter-Length" : "lib/Net/BGP/Error/Bad-Parameter-Length.pm6",
+    "Net::BGP::Time" : "lib/Net/BGP/Time.pm6",
+    "Net::BGP::Path-Attribute::MED" : "lib/Net/BGP/Path-Attribute/MED.pm6",
+    "Net::BGP::Command::Dead-Child" : "lib/Net/BGP/Command/Dead-Child.pm6",
+    "Net::BGP::Command::Stop" : "lib/Net/BGP/Command/Stop.pm6",
+    "Net::BGP::Capability" : "lib/Net/BGP/Capability.pm6",
+    "Net::BGP::Error" : "lib/Net/BGP/Error.pm6",
+    "Net::BGP::Message::Notify::Open::Bad-Peer-AS" : "lib/Net/BGP/Message/Notify/Open/Bad-Peer-AS.pm6",
+    "Net::BGP::Path-Attribute::Local-Pref" : "lib/Net/BGP/Path-Attribute/Local-Pref.pm6",
+    "Net::BGP::CIDR" : "lib/Net/BGP/CIDR.pm6",
+    "Net::BGP::Connection" : "lib/Net/BGP/Connection.pm6",
+    "Net::BGP::Event::Closed-Connection" : "lib/Net/BGP/Event/Closed-Connection.pm6",
+    "Net::BGP::Parameter::Capabilities" : "lib/Net/BGP/Parameter/Capabilities.pm6",
+    "Net::BGP::Path-Attribute::Community" : "lib/Net/BGP/Path-Attribute/Community.pm6",
+    "Net::BGP::Command" : "lib/Net/BGP/Command.pm6",
+    "Net::BGP::Conversions-Pre201812" : "lib/Net/BGP/Conversions-Pre201812.pm6",
+    "Net::BGP::Event" : "lib/Net/BGP/Event.pm6",
+    "Net::BGP::Message::Update" : "lib/Net/BGP/Message/Update.pm6",
+    "Net::BGP::Path-Attribute::AS4-Path" : "lib/Net/BGP/Path-Attribute/AS4-Path.pm6",
+    "Net::BGP::Conversions" : "lib/Net/BGP/Conversions.pm6",
+    "Net::BGP::Message::Notify::Open::Unsupported-Version" : "lib/Net/BGP/Message/Notify/Open/Unsupported-Version.pm6",
+    "Net::BGP::Parameter::Generic" : "lib/Net/BGP/Parameter/Generic.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "description" : "BGP Server Support",
+  "authors" : [
+    "Joelle Maslak"
+  ]
+}
+,
+{
   "name" : "Algorithm::Evolutionary::Simple",
   "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.3.1.tar.gz",
   "perl" : "6.*",
@@ -15738,6 +15895,76 @@
 }
 ,
 {
+  "name" : "AccessorFacade",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/AccessorFacade.git",
+    "bugtracker" : "https://github.com/jonathanstowe/AccessorFacade/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/AccessorFacade-0.0.8.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "devel",
+    "utils",
+    "facade"
+  ],
+  "provides" : {
+    "AccessorFacade" : "lib/AccessorFacade.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.8",
+  "meta-version" : "0",
+  "description" : "Provides a method trait to turn indivdual get/set subroutines into a single attribute",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "App::ModuleSnap",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/App-ModuleSnap.git",
+    "bugtracker" : "https://github.com/jonathanstowe/App-ModuleSnap/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/App-ModuleSnap-0.0.11.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Fast",
+    "META6"
+  ],
+  "test-depends" : [
+    "JSON::Fast"
+  ],
+  "tags" : [
+    "package",
+    "snapshot",
+    "utility"
+  ],
+  "provides" : {
+    "App::ModuleSnap" : "lib/App/ModuleSnap.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.11",
+  "meta6" : "0",
+  "description" : "Take a snapshot of the installed modules for later reinstallation",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Igo",
   "api" : "1.0",
   "support" : {
@@ -16956,32 +17183,6 @@
   "license" : "Artistic-2.0",
   "version" : "v0.4.6.3",
   "description" : "Salted Challenge Response Authentication Mechanism (SCRAM)",
-  "authors" : [
-    "Marcel Timmerman"
-  ]
-}
-,
-{
-  "name" : "XML::Actions",
-  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/XML-Archive-0.3.0.tar.gz",
-  "perl" : "6",
-  "build-depends" : [ ],
-  "depends" : [
-    "XML"
-  ],
-  "test-depends" : [
-    "Test::META"
-  ],
-  "tags" : [
-    "XML",
-    "actions"
-  ],
-  "provides" : {
-    "XML::Actions" : "lib/XML/Actions.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.3.1.2",
-  "description" : "XML Actions",
   "authors" : [
     "Marcel Timmerman"
   ]
@@ -20623,6 +20824,61 @@
     "source" : "https://github.com/melezhik/tomtit.git",
     "bugtracker" : "https://github.com/melezhik/tomtit/issues"
   },
+  "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomtit-0.0.23.tar.gz",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "resources" : [
+    "profiles/perl6/install.pl6",
+    "profiles/perl6/test.pl6",
+    "profiles/perl6/changes.pl6",
+    "profiles/perl6/release.pl6",
+    "profiles/perl6/set-pause.pl6",
+    "profiles/perl/set-pause.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/make-dist.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/changes.pl6",
+    "profiles/perl/release.pl6",
+    "profiles/perl/test.pl6",
+    "profiles/ruby/rvm.pl6",
+    "profiles/git/set-git.pl6",
+    "profiles/git/commit.pl6",
+    "profiles/git/push.pl6",
+    "profiles/git/pull.pl6",
+    "profiles/git/status.pl6",
+    "profiles/git/git-summary.pl6",
+    "profiles/ado/build.pl6",
+    "profiles/ado/list.pl6",
+    "profiles/ado/az-account-set.pl6",
+    "profiles/ado/az-resources.pl6",
+    "profiles/hello/world.pl6",
+    "completion.sh"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Sparrowdo:ver<0.0.45+>",
+    "File::Directory::Tree"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Tomtit" : "lib/Tomtit.pm6",
+    "Tomtit::Completion" : "lib/Tomtit/Completion.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.23",
+  "description" : "Tomtit - Perl6 Makefile tool based on Sparrowdo plugins",
+  "authors" : [
+    "Alexey Melezhik"
+  ]
+}
+,
+{
+  "name" : "Tomtit",
+  "support" : {
+    "source" : "https://github.com/melezhik/tomtit.git",
+    "bugtracker" : "https://github.com/melezhik/tomtit/issues"
+  },
   "source-url" : "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomtit-0.0.3.tar.gz",
   "perl" : "6.*",
   "source-type" : "git",
@@ -22625,6 +22881,57 @@
 }
 ,
 {
+  "name" : "Uzu",
+  "source-url" : "http://www.cpan.org/authors/id/S/SA/SACOMO/Perl6/Uzu-0.3.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "mustache/pages/index.mustache",
+    "mustache/partials/footer.mustache",
+    "mustache/partials/head.mustache",
+    "mustache/themes/default/layout.mustache",
+    "tt/pages/index.tt",
+    "tt/partials/footer.tt",
+    "tt/partials/head.tt",
+    "tt/themes/default/layout.tt"
+  ],
+  "depends" : [
+    "File::Directory::Tree",
+    "File::Find",
+    "File::Temp",
+    "Terminal::ANSIColor",
+    "Template6",
+    "Template::Mustache",
+    "Test::Output",
+    "HTTP::Server::Tiny",
+    "YAMLish"
+  ],
+  "test-depends" : [
+    "Test::Output"
+  ],
+  "tags" : [
+    "web",
+    "static-site-generator"
+  ],
+  "provides" : {
+    "Uzu::Logger" : "lib/Uzu/Logger.pm6",
+    "Uzu::LiveReload" : "lib/Uzu/LiveReload.pm6",
+    "Uzu::Config" : "lib/Uzu/Config.pm6",
+    "Uzu::Watch" : "lib/Uzu/Watch.pm6",
+    "Uzu::Utilities" : "lib/Uzu/Utilities.pm6",
+    "Uzu::Render" : "lib/Uzu/Render.pm6",
+    "Uzu::HTTP" : "lib/Uzu/HTTP.pm6",
+    "Uzu::CLI" : "lib/Uzu/CLI.pm6",
+    "Uzu" : "lib/Uzu.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.2",
+  "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, multi-page support, inject external data via local Perl 6 module, and external pre/post command execution.",
+  "authors" : [
+    "Sam Morrison"
+  ]
+}
+,
+{
   "name" : "Git::Log",
   "api" : "0",
   "support" : {
@@ -22814,6 +23121,34 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.1",
+  "description" : "An OSC controller interface for Reaper",
+  "authors" : [
+    "Sam Gillespie"
+  ]
+}
+,
+{
+  "name" : "Reaper::Control",
+  "source-url" : "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Reaper-Control-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Net::OSC"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Music",
+    "Audio",
+    "Reaper",
+    "DAW",
+    "OSC"
+  ],
+  "provides" : {
+    "Reaper::Control" : "lib/Reaper/Control.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
   "description" : "An OSC controller interface for Reaper",
   "authors" : [
     "Sam Gillespie"
