@@ -8326,10 +8326,13 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "AccessorFacade",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git://github.com/jonathanstowe/AccessorFacade.git"
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/AccessorFacade.git",
+    "bugtracker" : "https://github.com/jonathanstowe/AccessorFacade/issues"
   },
   "source-url" : "git://github.com/jonathanstowe/AccessorFacade.git",
   "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
@@ -8347,8 +8350,8 @@
     "utils",
     "facade"
   ],
-  "version" : "0.0.7",
-  "meta6" : "0",
+  "meta-version" : "0",
+  "version" : "0.0.8",
   "description" : "Provides a method trait to turn indivdual get/set subroutines into a single attribute",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -13513,8 +13516,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Audio::PortMIDI",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "irc" : "irc://irc.freenode.net/perl6-noise-gang",
     "source" : "git://github.com/Perl6-Noise-Gang/Audio-PortMIDI.git"
@@ -13541,7 +13545,7 @@
     "noise-gang"
   ],
   "meta-version" : "0",
-  "version" : "0.0.9",
+  "version" : "0.0.10",
   "description" : "Perl6 MIDI access using the portmidi library",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>",
@@ -14494,8 +14498,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "App::ModuleSnap",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+gh@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/App-ModuleSnap.git",
@@ -14521,7 +14526,7 @@
     "snapshot",
     "utility"
   ],
-  "version" : "0.0.10",
+  "version" : "0.0.11",
   "meta6" : "0",
   "description" : "Take a snapshot of the installed modules for later reinstallation",
   "authors" : [
@@ -22430,6 +22435,7 @@
   "perl" : "6.c",
   "source-url" : "https://github.com/Altai-man/ASN-BER.git",
   "resources" : [ ],
+  "auth" : "github:Altai-man",
   "depends" : [ ],
   "provides" : {
     "ASN::Parser" : "lib/ASN/Parser.pm6",
