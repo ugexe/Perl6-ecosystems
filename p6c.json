@@ -12630,10 +12630,13 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Attribute::Lazy",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git://github.com/jonathanstowe/Attribute-Lazy.git"
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Attribute-Lazy.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Attribute-Lazy/issues"
   },
   "source-url" : "git://github.com/jonathanstowe/Attribute-Lazy.git",
   "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
@@ -12653,8 +12656,8 @@
     "attribute",
     "builder"
   ],
-  "version" : "0.0.3",
-  "meta6" : "0",
+  "meta-version" : "0",
+  "version" : "0.0.4",
   "description" : "Trait to provide lazy initialisation of attributes",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -14710,6 +14713,7 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Acme::Insult::Lala",
   "perl" : "6.c",
   "support" : {
@@ -14734,8 +14738,8 @@
     "acme",
     "fun"
   ],
-  "version" : "0.0.3",
-  "meta6" : "0",
+  "meta-version" : "0",
+  "version" : "0.0.4",
   "description" : "Construct an insulting epithet in the manner of an old IRC bot",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
