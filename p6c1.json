@@ -11021,8 +11021,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Audio::Silan",
-  "perl" : "6.c",
+  "perl" : "6.",
   "support" : {
     "irc" : "irc:// irc.freenode.net/#perl6",
     "source" : "git://github.com/jonathanstowe/Audio-Silan.git",
@@ -11051,7 +11052,7 @@
     "silence"
   ],
   "meta-version" : "0",
-  "version" : "0.0.4",
+  "version" : "0.0.5",
   "description" : "Detect audio cue-in, cue-out using silan https://github.com/x42/silan",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
