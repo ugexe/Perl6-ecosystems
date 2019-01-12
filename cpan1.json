@@ -3129,6 +3129,52 @@
 }
 ,
 {
+  "name" : "Bits",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Bits-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Bits" : "lib/Bits.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "provide bit related functions",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "Bits",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Bits-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Bits" : "lib/Bits.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "provide bit related functions",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "DirHandle",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/DirHandle-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -16261,6 +16307,45 @@
 }
 ,
 {
+  "name" : "Audio::Silan",
+  "api" : "1.0",
+  "support" : {
+    "irc" : "irc:// irc.freenode.net/#perl6",
+    "source" : "git://github.com/jonathanstowe/Audio-Silan.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Audio-Silan/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Silan-0.0.5.tar.gz",
+  "perl" : "6.",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "File::Which",
+    "JSON::Fast"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [
+    "audio",
+    "util",
+    "silence"
+  ],
+  "provides" : {
+    "Audio::Silan" : "lib/Audio/Silan.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "meta-version" : "0",
+  "description" : "Detect audio cue-in, cue-out using silan https://github.com/x42/silan",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Igo",
   "api" : "1.0",
   "support" : {
@@ -17479,6 +17564,32 @@
   "license" : "Artistic-2.0",
   "version" : "v0.4.6.3",
   "description" : "Salted Challenge Response Authentication Mechanism (SCRAM)",
+  "authors" : [
+    "Marcel Timmerman"
+  ]
+}
+,
+{
+  "name" : "XML::Actions",
+  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/XML-Actions-0.3.2.tar.gz",
+  "perl" : "6",
+  "build-depends" : [ ],
+  "depends" : [
+    "XML"
+  ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "XML",
+    "actions"
+  ],
+  "provides" : {
+    "XML::Actions" : "lib/XML/Actions.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.1.3",
+  "description" : "XML Actions",
   "authors" : [
     "Marcel Timmerman"
   ]
@@ -23335,6 +23446,57 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.3.2",
+  "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, multi-page support, inject external data via local Perl 6 module, and external pre/post command execution.",
+  "authors" : [
+    "Sam Morrison"
+  ]
+}
+,
+{
+  "name" : "Uzu",
+  "source-url" : "http://www.cpan.org/authors/id/S/SA/SACOMO/Perl6/Uzu-0.3.3.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "mustache/pages/index.mustache",
+    "mustache/partials/footer.mustache",
+    "mustache/partials/head.mustache",
+    "mustache/themes/default/layout.mustache",
+    "tt/pages/index.tt",
+    "tt/partials/footer.tt",
+    "tt/partials/head.tt",
+    "tt/themes/default/layout.tt"
+  ],
+  "depends" : [
+    "File::Directory::Tree",
+    "File::Find",
+    "File::Temp",
+    "Terminal::ANSIColor",
+    "Template6",
+    "Template::Mustache",
+    "Test::Output",
+    "HTTP::Server::Tiny",
+    "YAMLish"
+  ],
+  "test-depends" : [
+    "Test::Output"
+  ],
+  "tags" : [
+    "web",
+    "static-site-generator"
+  ],
+  "provides" : {
+    "Uzu::Logger" : "lib/Uzu/Logger.pm6",
+    "Uzu::LiveReload" : "lib/Uzu/LiveReload.pm6",
+    "Uzu::Config" : "lib/Uzu/Config.pm6",
+    "Uzu::Watch" : "lib/Uzu/Watch.pm6",
+    "Uzu::Utilities" : "lib/Uzu/Utilities.pm6",
+    "Uzu::Render" : "lib/Uzu/Render.pm6",
+    "Uzu::HTTP" : "lib/Uzu/HTTP.pm6",
+    "Uzu::CLI" : "lib/Uzu/CLI.pm6",
+    "Uzu" : "lib/Uzu.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.3",
   "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, multi-page support, inject external data via local Perl 6 module, and external pre/post command execution.",
   "authors" : [
     "Sam Morrison"
@@ -32205,6 +32367,54 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.1",
+  "production" : true,
+  "meta-version" : "0",
+  "description" : "Framework for working with OO application plugins",
+  "authors" : [
+    "Vadim Belman <vrurg@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "OO::Plugin",
+  "support" : {
+    "source" : "https://github.com/vrurg/Perl6-OO-Plugin.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/OO-Plugin-v0.0.2.tar.gz",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [
+    "META6",
+    "p6doc",
+    "Pod::To::Markdown"
+  ],
+  "auth" : "github:vrurg",
+  "depends" : [
+    "WhereList",
+    "File::Find"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "OO",
+    "Plugin",
+    "Plugins"
+  ],
+  "provides" : {
+    "OO::Plugin::Metamodel::PlugRoleHOW" : "lib/OO/Plugin/Metamodel/PlugRoleHOW.pm6",
+    "OO::Plugin::Exception" : "lib/OO/Plugin/Exception.pm6",
+    "OO::Plugin::Class" : "lib/OO/Plugin/Class.pm6",
+    "OO::Plugin" : "lib/OO/Plugin.pm6",
+    "OO::Plugin::Manager" : "lib/OO/Plugin/Manager.pm6",
+    "OO::Plugin::Metamodel::PluginHOW" : "lib/OO/Plugin/Metamodel/PluginHOW.pm6",
+    "OO::Plugin::Registry" : "lib/OO/Plugin/Registry.pm6",
+    "OO::Plugin::Declarations" : "lib/OO/Plugin/Declarations.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
   "production" : true,
   "meta-version" : "0",
   "description" : "Framework for working with OO application plugins",
