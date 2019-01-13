@@ -71,7 +71,7 @@
   "resources" : [ ],
   "auth" : "github:nige123",
   "depends" : [
-    "Terminal::ANSIColor",
+    "Terminal::Print",
     "jmp"
   ],
   "tags" : [
@@ -89,7 +89,7 @@
     "Do::Editor" : "lib/Do/Editor.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.2",
+  "version" : "0.3",
   "authors" : [
     "Nigel Hamilton"
   ],
@@ -7982,40 +7982,42 @@
 ,
 {
   "name" : "Path::Router",
+  "source-url" : "git://github.com/zostay/p6-Path-Router.git",
+  "perl" : "6.c",
   "support" : {
     "source" : null
   },
-  "perl" : "6.c",
-  "source-url" : "git://github.com/zostay/p6-Path-Router.git",
-  "resources" : [ ],
   "build-depends" : [ ],
+  "resources" : [ ],
   "auth" : null,
   "depends" : [
     "IO::String",
     "Linenoise"
   ],
-  "test-depends" : [ ],
+  "tags" : [ ],
   "provides" : {
+    "X::Path::Router::BadSlurpy" : "lib/X/Path/Router.pm6",
     "X::Path::Router::AmbiguousMatch::PathMatch" : "lib/X/Path/Router.pm6",
-    "X::Path::Router::AmbiguousMatch::ReverseMatch" : "lib/X/Path/Router.pm6",
     "X::Path::Router::AmbiguousMatch" : "lib/X/Path/Router.pm6",
+    "X::Path::Router::AmbiguousMatch::ReverseMatch" : "lib/X/Path/Router.pm6",
     "X::Path::Router::BadRoute" : "lib/X/Path/Router.pm6",
     "X::Path::Router::BadInclusion" : "lib/X/Path/Router.pm6",
     "X::Path::Router" : "lib/X/Path/Router.pm6",
     "Path::Router::Shell" : "lib/Path/Router/Shell.pm6",
     "Test::Path::Router" : "lib/Test/Path/Router.pm6",
+    "X::Path::Router::BadValidation" : "lib/X/Path/Router.pm6",
     "Path::Router::Route::Match" : "lib/Path/Router/Route.pm6",
-    "Path::Router" : "lib/Path/Router.pm6",
-    "Path::Router::Route" : "lib/Path/Router/Route.pm6"
+    "Path::Router::Route" : "lib/Path/Router/Route.pm6",
+    "Path::Router" : "lib/Path/Router.pm6"
   },
-  "tags" : [ ],
+  "test-depends" : [ ],
   "license" : "Artistic-2.0",
   "meta-version" : "0",
-  "version" : "0.2",
+  "version" : "0.3.0",
+  "description" : "A tool for routing paths",
   "authors" : [
     "Sterling Hanenkamp (hanenkamp@cpan.org)"
-  ],
-  "description" : "A tool for routing paths"
+  ]
 }
 ,
 {
@@ -8309,39 +8311,6 @@
   "meta-version" : "0",
   "version" : "0.0.12",
   "description" : "Binding for libsndfile - read/write multiple audio formats",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
-}
-,
-{
-  "api" : "1.0",
-  "name" : "AccessorFacade",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+git@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/AccessorFacade.git",
-    "bugtracker" : "https://github.com/jonathanstowe/AccessorFacade/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/AccessorFacade.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "AccessorFacade" : "lib/AccessorFacade.pm"
-  },
-  "test-depends" : [ ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "devel",
-    "utils",
-    "facade"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.8",
-  "description" : "Provides a method trait to turn indivdual get/set subroutines into a single attribute",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
@@ -8692,42 +8661,6 @@
     "Steve Mynott <steve.mynott@gmail.com>"
   ],
   "description" : "Delete specified HTML tags and attributes"
-}
-,
-{
-  "name" : "Audio::Convert::Samplerate",
-  "perl" : "6.c",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Audio-Convert-Samplerate.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "NativeHelpers::Array"
-  ],
-  "provides" : {
-    "Audio::Convert::Samplerate" : "lib/Audio/Convert/Samplerate.pm"
-  },
-  "test-depends" : [
-    "LibraryCheck",
-    "Audio::Sndfile",
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "audio",
-    "utils",
-    "comvert"
-  ],
-  "version" : "0.0.7",
-  "meta6" : "0",
-  "description" : "Convert the samplerate of PCM audio data using libsamplerate",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
 }
 ,
 {
@@ -10173,44 +10106,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "META6",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+git@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/META6.git",
-    "bugtracker" : "https://github.com/jonathanstowe/META6/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/META6.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "JSON::Class:ver<0.0.5+>"
-  ],
-  "provides" : {
-    "META6" : "lib/META6.pm"
-  },
-  "test-depends" : [
-    "JSON::Fast",
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "devel",
-    "meta",
-    "utils"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.20",
-  "production" : true,
-  "description" : "Work with Perl 6 META files",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
-}
-,
-{
   "name" : "Test::META",
   "perl" : "6.c",
   "support" : {
@@ -11007,45 +10902,6 @@
     "Zoffix Znet"
   ],
   "description" : "Break up numbers into preset or arbitrary denominations"
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Audio::Silan",
-  "perl" : "6.",
-  "support" : {
-    "irc" : "irc:// irc.freenode.net/#perl6",
-    "source" : "git://github.com/jonathanstowe/Audio-Silan.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Audio-Silan/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Audio-Silan.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "File::Which",
-    "JSON::Fast"
-  ],
-  "provides" : {
-    "Audio::Silan" : "lib/Audio/Silan.pm"
-  },
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "audio",
-    "util",
-    "silence"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.5",
-  "description" : "Detect audio cue-in, cue-out using silan https://github.com/x42/silan",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
 }
 ,
 {
@@ -12628,41 +12484,6 @@
     "Frank Hartmann"
   ],
   "description" : "tweetnacl p6 bindings - public/secret key encryption and signatures"
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Attribute::Lazy",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+git@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/Attribute-Lazy.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Attribute-Lazy/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Attribute-Lazy.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Attribute::Lazy" : "lib/Attribute/Lazy.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "object",
-    "attribute",
-    "builder"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.4",
-  "description" : "Trait to provide lazy initialisation of attributes",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
 }
 ,
 {
@@ -14491,43 +14312,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "App::ModuleSnap",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+gh@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/App-ModuleSnap.git",
-    "bugtracker" : "https://github.com/jonathanstowe/App-ModuleSnap/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/App-ModuleSnap.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "JSON::Fast",
-    "META6"
-  ],
-  "provides" : {
-    "App::ModuleSnap" : "lib/App/ModuleSnap.pm"
-  },
-  "test-depends" : [
-    "JSON::Fast"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "package",
-    "snapshot",
-    "utility"
-  ],
-  "version" : "0.0.11",
-  "meta6" : "0",
-  "description" : "Take a snapshot of the installed modules for later reinstallation",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
-}
-,
-{
   "name" : "p6-RandomColor",
   "support" : {
     "source" : null
@@ -14710,40 +14494,6 @@
   "description" : "A perl6 binding of readsecret ( https://github.com/dmeranda/readsecret ) for reading secrets or passwords from a command line secretly (not being displayed)",
   "authors" : [
     "titsuki"
-  ]
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Acme::Insult::Lala",
-  "perl" : "6.c",
-  "support" : {
-    "email" : "jns+gh@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/Acme-Insult-Lala.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Acme-Insult-Lala/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Acme-Insult-Lala.git",
-  "build-depends" : [ ],
-  "resources" : [
-    "lala.txt"
-  ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Acme::Insult::Lala" : "lib/Acme/Insult/Lala.pm"
-  },
-  "test-depends" : [ ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "insult",
-    "acme",
-    "fun"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.4",
-  "description" : "Construct an insulting epithet in the manner of an old IRC bot",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ]
 }
 ,
@@ -22628,5 +22378,27 @@
   "license" : "Artistic-2.0",
   "version" : "0.3.1",
   "description" : "Render pod files from a cache."
+}
+,
+{
+  "name" : "Hastebin",
+  "source-url" : "https://github.com/Kaiepi/p6-Hastebin.git",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "API"
+  ],
+  "provides" : {
+    "Hastebin" : "lib/Hastebin.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Hastebin client API",
+  "authors" : [
+    "Ben Davies"
+  ]
 }
 ]
