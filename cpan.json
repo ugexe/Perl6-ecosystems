@@ -16384,6 +16384,85 @@
 }
 ,
 {
+  "name" : "Audio::Encode::LameMP3",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/Audio-Encode-LameMP3.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Encode-LameMP3-0.0.11.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [
+    "LibraryCheck",
+    "AccessorFacade"
+  ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "AccessorFacade",
+    "NativeHelpers::Array"
+  ],
+  "test-depends" : [
+    "Test::META",
+    "Audio::Taglib::Simple",
+    "Audio::Sndfile"
+  ],
+  "tags" : [
+    "audio",
+    "codec",
+    "encode",
+    "mpeg",
+    "mp3"
+  ],
+  "provides" : {
+    "Audio::Encode::LameMP3" : "lib/Audio/Encode/LameMP3.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.11",
+  "meta-version" : "0",
+  "description" : "Encode PCM Audio data to MP3 in Perl 6 using a binding to liblame",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Audio::Fingerprint::Chromaprint",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Fingerprint-Chromaprint-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "NativeHelpers::Array"
+  ],
+  "test-depends" : [
+    "Audio::Sndfile"
+  ],
+  "tags" : [
+    "audio",
+    "fingerprint",
+    "acoustid",
+    "noise-gang"
+  ],
+  "provides" : {
+    "Audio::Fingerprint::Chromaprint" : "lib/Audio/Fingerprint/Chromaprint.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "meta-version" : "0",
+  "description" : "Get audio fingerprint using the chromaprint / AcoustID library",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Audio::Silan",
   "api" : "1.0",
   "support" : {
@@ -16455,6 +16534,40 @@
   "version" : "0.0.6",
   "meta-version" : "0",
   "description" : "Detect audio cue-in, cue-out using silan https://github.com/x42/silan",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "CheckSocket",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/CheckSocket.git",
+    "bugtracker" : "https://github.com/jonathanstowe/CheckSocket/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/CheckSocket-0.0.5.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "network",
+    "utils",
+    "test"
+  ],
+  "provides" : {
+    "CheckSocket" : "lib/CheckSocket.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "meta-version" : "0",
+  "description" : "very simple Perl 6 function to test if a TCP socket is listening on a given address",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
@@ -16645,6 +16758,115 @@
   "description" : "Expedient CPAN6 distribution packager and uploader",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Linux::Cpuinfo",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/p6-Linux-Cpuinfo.git",
+    "bugtracker" : "https://github.com/jonathanstowe/p6-Linux-Cpuinfo/issues/"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Linux-Cpuinfo-0.0.9.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "linux",
+    "system",
+    "utils",
+    "cpu"
+  ],
+  "provides" : {
+    "Linux::Cpuinfo" : "lib/Linux/Cpuinfo.pm",
+    "Linux::Cpuinfo::Cpu" : "lib/Linux/Cpuinfo/Cpu.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.9",
+  "meta-version" : "0",
+  "description" : "Get the kernel CPU information on Linux",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Linux::Fuser",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "https://github.com/jonathanstowe/p6-Linux-Fuser.git",
+    "bugtracker" : "https://github.com/jonathanstowe/p6-Linux-Fuser/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Linux-Fuser-0.0.11.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "System::Passwd"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "linux",
+    "system",
+    "utils",
+    "file"
+  ],
+  "provides" : {
+    "Linux::Fuser" : "lib/Linux/Fuser.pm",
+    "Linux::Fuser::FileDescriptor" : "lib/Linux/Fuser/FileDescriptor.pm",
+    "Linux::Fuser::Procinfo" : "lib/Linux/Fuser/Procinfo.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.11",
+  "meta-version" : "0",
+  "description" : "Discover which process has a file open, in pure Perl 6",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk"
+  ]
+}
+,
+{
+  "name" : "Log::Syslog::Native",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Log-Syslog-Native.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Log-Syslog-Native/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Log-Syslog-Native-0.0.8.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "syslog",
+    "log",
+    "unix"
+  ],
+  "provides" : {
+    "Log::Syslog::Native" : "lib/Log/Syslog/Native.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.8",
+  "meta-version" : "0",
+  "description" : "Provide logging to POSIX native syslog facility",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
 }
 ,
@@ -22477,6 +22699,46 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.36",
+  "description" : "Use Perl 5 code in a Perl 6 program",
+  "authors" : [
+    "Stefan Seifert"
+  ]
+}
+,
+{
+  "name" : "Inline::Perl5",
+  "support" : {
+    "irc" : "irc://irc.freenode.org/#perl6"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.37.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/p5helper"
+  ],
+  "author" : "github:niner",
+  "repo-type" : "git",
+  "depends" : [
+    "LibraryMake"
+  ],
+  "test-depends" : [
+    "File::Temp"
+  ],
+  "provides" : {
+    "Inline::Perl5::Object" : "lib/Inline/Perl5/Object.pm6",
+    "Inline::Perl5" : "lib/Inline/Perl5.pm6",
+    "Inline::Perl5::Caller" : "lib/Inline/Perl5/Caller.pm6",
+    "Inline::Perl5::Callable" : "lib/Inline/Perl5/Callable.pm6",
+    "Inline::Perl5::Attributes" : "lib/Inline/Perl5/Attributes.pm6",
+    "Inline::Perl5::Array" : "lib/Inline/Perl5/Array.pm6",
+    "Inline::Language::ObjectKeeper" : "lib/Inline/Language/ObjectKeeper.pm6",
+    "Inline::Perl5::Extension" : "lib/Inline/Perl5/Extension.pm6",
+    "Inline::Perl5::Parent" : "lib/Inline/Perl5/Parent.pm6",
+    "Inline::Perl5::Hash" : "lib/Inline/Perl5/Hash.pm6",
+    "Inline::Perl5::Interpreter" : "lib/Inline/Perl5/Interpreter.pm6",
+    "Inline::Perl5::ClassHOW" : "lib/Inline/Perl5/ClassHOW.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.37",
   "description" : "Use Perl 5 code in a Perl 6 program",
   "authors" : [
     "Stefan Seifert"
