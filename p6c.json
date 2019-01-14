@@ -3942,7 +3942,7 @@
     "URI",
     "File::Temp",
     "JSON::Fast",
-    "Pod::To::BigPage:ver<0.5.0+>",
+    "Pod::To::BigPage:ver<0.5.1+>",
     "Pod::To::HTML:ver<0.6.1+>",
     "OO::Monitors",
     "File::Find",
@@ -7211,8 +7211,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Linux::Fuser",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+git@gellyfish.co.uk",
     "source" : "https://github.com/jonathanstowe/p6-Linux-Fuser.git",
@@ -7238,8 +7239,8 @@
     "utils",
     "file"
   ],
-  "version" : "0.0.10",
-  "meta6" : "0",
+  "meta-version" : "0",
+  "version" : "0.0.11",
   "description" : "Discover which process has a file open, in pure Perl 6",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk"
@@ -7326,8 +7327,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Linux::Cpuinfo",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+git@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/p6-Linux-Cpuinfo.git",
@@ -7354,7 +7356,7 @@
     "cpu"
   ],
   "meta-version" : "0",
-  "version" : "0.0.8",
+  "version" : "0.0.9",
   "description" : "Get the kernel CPU information on Linux",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -8394,10 +8396,12 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "CheckSocket",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git://github.com/jonathanstowe/CheckSocket.git"
+    "source" : "git://github.com/jonathanstowe/CheckSocket.git",
+    "bugtracker" : "https://github.com/jonathanstowe/CheckSocket/issues"
   },
   "source-url" : "git://github.com/jonathanstowe/CheckSocket.git",
   "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
@@ -8417,8 +8421,8 @@
     "utils",
     "test"
   ],
-  "version" : "0.0.4",
-  "meta6" : "0",
+  "meta-version" : "0",
+  "version" : "0.0.5",
   "description" : "very simple Perl 6 function to test if a TCP socket is listening on a given address",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -8506,8 +8510,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Audio::Encode::LameMP3",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "source" : "git://github.com/jonathanstowe/Audio-Encode-LameMP3.git"
   },
@@ -8539,8 +8544,8 @@
     "mpeg",
     "mp3"
   ],
-  "version" : "0.0.10",
-  "meta6" : "0",
+  "meta-version" : "0",
+  "version" : "0.0.11",
   "description" : "Encode PCM Audio data to MP3 in Perl 6 using a binding to liblame",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -14413,10 +14418,12 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Audio::Fingerprint::Chromaprint",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git"
+    "source" : "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint/issues"
   },
   "source-url" : "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git",
   "build-depends" : [ ],
@@ -14429,7 +14436,6 @@
     "Audio::Fingerprint::Chromaprint" : "lib/Audio/Fingerprint/Chromaprint.pm"
   },
   "test-depends" : [
-    "Test::META",
     "Audio::Sndfile"
   ],
   "license" : "Artistic-2.0",
@@ -14439,8 +14445,8 @@
     "acoustid",
     "noise-gang"
   ],
-  "version" : "0.0.1",
-  "meta6" : "0",
+  "meta-version" : "0",
+  "version" : "0.0.2",
   "description" : "Get audio fingerprint using the chromaprint / AcoustID library",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
@@ -15116,7 +15122,7 @@
     "Pod::To::BigPage" : "lib/Pod/To/BigPage.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.5.0",
+  "version" : "0.5.1",
   "description" : "Render many pod6-files into one (big) html-file."
 }
 ,
