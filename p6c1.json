@@ -2670,7 +2670,7 @@
     "serialize"
   ],
   "test-depends" : [ ],
-  "version" : "0.11.5",
+  "version" : "0.11.5.1",
   "description" : "BSON encoding/decoding, used in MongoDB drivers",
   "authors" : [
     "Marcel Timmerman",
@@ -2819,7 +2819,7 @@
   "test-depends" : [
     "Test::META"
   ],
-  "version" : "0.43.2.2",
+  "version" : "0.43.3",
   "description" : "MongoDB driver",
   "authors" : [
     "Marcel Timmerman",
@@ -7423,8 +7423,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Log::Syslog::Native",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+gh@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/Log-Syslog-Native.git",
@@ -7439,21 +7440,21 @@
   "provides" : {
     "Log::Syslog::Native" : "lib/Log/Syslog/Native.pm"
   },
-  "test-depends" : [
-    "Test"
-  ],
   "license" : "Artistic-2.0",
   "tags" : [
     "syslog",
     "log",
     "unix"
   ],
-  "version" : "0.0.7",
-  "meta6" : "0",
-  "description" : "Provide logging to POSIX native syslog facility",
+  "test-depends" : [
+    "Test"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.8",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Provide logging to POSIX native syslog facility"
 }
 ,
 {
@@ -7477,8 +7478,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Crypt::Libcrypt",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "source" : "git://github.com/jonathanstowe/Crypt-Libcrypt.git"
   },
@@ -7499,12 +7501,12 @@
     "crypt",
     "password"
   ],
-  "version" : "0.0.8",
-  "meta6" : "0",
-  "description" : "Simple binding to crypt(3) from unix-like systems",
+  "meta-version" : "0",
+  "version" : "0.0.9",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Simple binding to crypt(3) from unix-like systems"
 }
 ,
 {
@@ -13115,8 +13117,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Util::Bitfield",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+gh@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/Util-Bitfield.git",
@@ -13130,21 +13133,21 @@
   "provides" : {
     "Util::Bitfield" : "lib/Util/Bitfield.pm"
   },
-  "test-depends" : [
-    "Test"
-  ],
   "license" : "Artistic-2.0",
   "tags" : [
     "util",
     "bit",
     "bitfield"
   ],
+  "test-depends" : [
+    "Test"
+  ],
   "meta-version" : "0",
-  "version" : "0.0.3",
-  "description" : "Utility subroutines for working with bitfields",
+  "version" : "0.0.4",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Utility subroutines for working with bitfields"
 }
 ,
 {
@@ -22412,7 +22415,7 @@
     "Hastebin" : "lib/Hastebin.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.2",
+  "version" : "0.0.3",
   "description" : "Hastebin client API",
   "authors" : [
     "Ben Davies"
