@@ -7225,43 +7225,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "Linux::Fuser",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+git@gellyfish.co.uk",
-    "source" : "https://github.com/jonathanstowe/p6-Linux-Fuser.git",
-    "bugtracker" : "https://github.com/jonathanstowe/p6-Linux-Fuser/issues"
-  },
-  "source-url" : "https://github.com/jonathanstowe/p6-Linux-Fuser.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "System::Passwd"
-  ],
-  "provides" : {
-    "Linux::Fuser" : "lib/Linux/Fuser.pm",
-    "Linux::Fuser::FileDescriptor" : "lib/Linux/Fuser/FileDescriptor.pm",
-    "Linux::Fuser::Procinfo" : "lib/Linux/Fuser/Procinfo.pm"
-  },
-  "test-depends" : [ ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "linux",
-    "system",
-    "utils",
-    "file"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.11",
-  "description" : "Discover which process has a file open, in pure Perl 6",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk"
-  ]
-}
-,
-{
   "name" : "Git::PurePerl",
   "source-url" : "git://github.com/raydiak/Git-PurePerl.git",
   "perl" : "6.*",
@@ -7341,43 +7304,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "Linux::Cpuinfo",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+git@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/p6-Linux-Cpuinfo.git",
-    "bugtracker" : "https://github.com/jonathanstowe/p6-Linux-Cpuinfo/issues/"
-  },
-  "source-url" : "https://github.com/jonathanstowe/p6-Linux-Cpuinfo.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Linux::Cpuinfo" : "lib/Linux/Cpuinfo.pm",
-    "Linux::Cpuinfo::Cpu" : "lib/Linux/Cpuinfo/Cpu.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "linux",
-    "system",
-    "utils",
-    "cpu"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.9",
-  "description" : "Get the kernel CPU information on Linux",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
-}
-,
-{
   "name" : "Event::Emitter",
   "source-url" : "git://github.com/tony-o/perl6-event-emitter.git",
   "support" : {
@@ -7426,41 +7352,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "Log::Syslog::Native",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+gh@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/Log-Syslog-Native.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Log-Syslog-Native/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Log-Syslog-Native.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Log::Syslog::Native" : "lib/Log/Syslog/Native.pm"
-  },
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "syslog",
-    "log",
-    "unix"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.8",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "Provide logging to POSIX native syslog facility"
-}
-,
-{
   "name" : "Template::Protone",
   "source-url" : "git://github.com/tony-o/perl6-template-protone.git",
   "support" : {
@@ -7478,38 +7369,6 @@
     "Tony O'Dell"
   ],
   "description" : "Perl6 embedded templates"
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Crypt::Libcrypt",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Crypt-Libcrypt.git"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Crypt-Libcrypt.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Crypt::Libcrypt" : "lib/Crypt/Libcrypt.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "crypt",
-    "password"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.9",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "Simple binding to crypt(3) from unix-like systems"
 }
 ,
 {
@@ -8412,40 +8271,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "CheckSocket",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/CheckSocket.git",
-    "bugtracker" : "https://github.com/jonathanstowe/CheckSocket/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/CheckSocket.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "CheckSocket" : "lib/CheckSocket.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "network",
-    "utils",
-    "test"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.5",
-  "description" : "very simple Perl 6 function to test if a TCP socket is listening on a given address",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
-}
-,
-{
   "name" : "Audio::Libshout",
   "perl" : "6.c",
   "support" : {
@@ -8526,49 +8351,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "Audio::Encode::LameMP3",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Audio-Encode-LameMP3.git"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Audio-Encode-LameMP3.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [
-    "LibraryCheck",
-    "AccessorFacade"
-  ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "AccessorFacade",
-    "NativeHelpers::Array"
-  ],
-  "provides" : {
-    "Audio::Encode::LameMP3" : "lib/Audio/Encode/LameMP3.pm"
-  },
-  "test-depends" : [
-    "Test::META",
-    "Audio::Taglib::Simple",
-    "Audio::Sndfile"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "audio",
-    "codec",
-    "encode",
-    "mpeg",
-    "mp3"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.11",
-  "description" : "Encode PCM Audio data to MP3 in Perl 6 using a binding to liblame",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
-}
-,
-{
   "name" : "Avro",
   "source-url" : "git://github.com/sylvarant/Avro.git",
   "perl" : "6.*",
@@ -8612,36 +8394,6 @@
   },
   "version" : "0.8",
   "description" : "Stream into a string and from a string"
-}
-,
-{
-  "name" : "NativeHelpers::Array",
-  "perl" : "6.c",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/NativeHelpers-Array.git"
-  },
-  "source-url" : "git://github.com/jonathanstowe/NativeHelpers-Array.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "NativeHelpers::Array" : "lib/NativeHelpers/Array.pm"
-  },
-  "test-depends" : [ ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "utils",
-    "native",
-    "array"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.2",
-  "description" : "Helper subroutines for working with Perl6 Native Arrays (CArray)",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
 }
 ,
 {
@@ -9836,115 +9588,6 @@
   "license" : "Artistic-2.0",
   "version" : "*",
   "description" : "Binding of the gumbo C library, a html parser lib"
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Object::Permission",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Object-Permission.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Object-Permission/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Object-Permission.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Object::Permission" : "lib/Object/Permission.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "devel",
-    "authorisation",
-    "object",
-    "user"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.3",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "Experimental method (and public attribute accessor,) level authorisation"
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Unix::Groups",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Unix-Groups.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Unix-Groups/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Unix-Groups.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Unix::Groups" : "lib/Unix/Groups.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "devel",
-    "authorisation",
-    "system",
-    "user"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.4",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "Access to the Unix group file in Perl 6"
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Object::Permission::Group",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Object-Permission-Group.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Object-Permission-Group/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Object-Permission-Group.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "Object::Permission",
-    "Unix::Groups"
-  ],
-  "provides" : {
-    "Object::Permission::Group" : "lib/Object/Permission/Group.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "devel",
-    "authorisation",
-    "object",
-    "user",
-    "unix"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.3",
-  "description" : "Object helper for Object::Permission using unix groups.",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
 }
 ,
 {
@@ -13126,40 +12769,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "Util::Bitfield",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+gh@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/Util-Bitfield.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Util-Bitfield/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Util-Bitfield.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Util::Bitfield" : "lib/Util/Bitfield.pm"
-  },
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "util",
-    "bit",
-    "bitfield"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.4",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ],
-  "description" : "Utility subroutines for working with bitfields"
-}
-,
-{
   "name" : "Crane",
   "support" : {
     "source" : "https://github.com/atweiden/crane",
@@ -13462,12 +13071,13 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Audio::Icecast",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git@github.com:jonathanstowe/Audio-Icecast.git"
+    "source" : "git://github.com/jonathanstowe/Audio-Icecast.git"
   },
-  "source-url" : "git@github.com:jonathanstowe/Audio-Icecast.git",
+  "source-url" : "git://github.com/jonathanstowe/Audio-Icecast.git",
   "build-depends" : [ ],
   "resources" : [ ],
   "auth" : "github:jonathanstowe",
@@ -13490,12 +13100,12 @@
     "icecast",
     "admin"
   ],
-  "version" : "0.0.2",
-  "meta6" : "0",
-  "description" : "Administrative helpers for an icecast server",
+  "meta-version" : "0",
+  "version" : "0.0.3",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Administrative helpers for an icecast server"
 }
 ,
 {
@@ -13947,37 +13557,6 @@
     "Zoffix Znet"
   ],
   "description" : "Use glot.io API: pastebin allowing execution of code"
-}
-,
-{
-  "name" : "EuclideanRhythm",
-  "perl" : "6.c",
-  "support" : {
-    "email" : "jns+gh@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/EuclideanRhythm.git",
-    "bugtracker" : "https://github.com/jonathanstowe/EuclideanRhythm/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/EuclideanRhythm.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "EuclideanRhythm" : "lib/EuclideanRhythm.pm"
-  },
-  "test-depends" : [ ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "rhythm",
-    "algorithm",
-    "euclid"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.2",
-  "description" : "create rhythmic patterns based on the Euclidean algorithm",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
 }
 ,
 {
@@ -14438,42 +14017,6 @@
   "version" : "0.0.3",
   "authors" : "Salvador Ortiz <sortiz@cpan.com>",
   "description" : "Native bindings for JSON-C library"
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Audio::Fingerprint::Chromaprint",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "NativeHelpers::Array"
-  ],
-  "provides" : {
-    "Audio::Fingerprint::Chromaprint" : "lib/Audio/Fingerprint/Chromaprint.pm"
-  },
-  "test-depends" : [
-    "Audio::Sndfile"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "audio",
-    "fingerprint",
-    "acoustid",
-    "noise-gang"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.2",
-  "description" : "Get audio fingerprint using the chromaprint / AcoustID library",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
 }
 ,
 {
@@ -15225,45 +14768,6 @@
     "Zoffix Znet"
   ],
   "description" : "Helper for showing actual source code locations of core subs and methods"
-}
-,
-{
-  "name" : "Doublephone",
-  "perl" : "6.c",
-  "support" : {
-    "email" : "jns+gh@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/Doublephone.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Doublephone/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Doublephone.git",
-  "build-depends" : [
-    "Shell::Command",
-    "LibraryMake"
-  ],
-  "resources" : [
-    "libraries/double_metaphone"
-  ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "LibraryMake"
-  ],
-  "provides" : {
-    "Doublephone" : "lib/Doublephone.pm"
-  },
-  "test-depends" : [ ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "search",
-    "phonetic",
-    "soundex",
-    "metaphone"
-  ],
-  "version" : "0.0.3",
-  "meta6" : "0",
-  "description" : "Implementation of the Double Metaphone phonetic encoding algorithm",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
 }
 ,
 {
@@ -16394,39 +15898,6 @@
   "description" : "sys.WaitGroup in perl6",
   "authors" : [
     "Shoichi Kaji"
-  ]
-}
-,
-{
-  "name" : "Manifesto",
-  "perl" : "6.c",
-  "support" : {
-    "email" : "jns+gh@gellyfish.co.uk",
-    "source" : "https://github.com/jonathanstowe/Manifesto.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Manifesto/issues"
-  },
-  "source-url" : "https://github.com/jonathanstowe/Manifesto.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Manifesto" : "lib/Manifesto.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "async",
-    "util",
-    "promise"
-  ],
-  "version" : "0.0.3",
-  "meta6" : "0",
-  "description" : "Make a supply of the results of Promises",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ]
 }
 ,
