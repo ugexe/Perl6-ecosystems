@@ -16944,6 +16944,117 @@
 }
 ,
 {
+  "name" : "JSON::Class",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/JSON-Class.git",
+    "bugtracker" : "https://github.com/jonathanstowe/JSON-Class/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Class-0.0.11.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Marshal",
+    "JSON::Unmarshal"
+  ],
+  "test-depends" : [
+    "JSON::Fast",
+    "Test"
+  ],
+  "tags" : [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "provides" : {
+    "JSON::Class" : "lib/JSON/Class.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.11",
+  "meta-version" : "0",
+  "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "JSON::Marshal",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/JSON-Marshal.git",
+    "bugtracker" : "https://github.com/jonathanstowe/JSON-Marshal/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Marshal-0.0.16.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Fast",
+    "JSON::Name"
+  ],
+  "test-depends" : [
+    "Test",
+    "JSON::Fast"
+  ],
+  "tags" : [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "provides" : {
+    "JSON::Marshal" : "lib/JSON/Marshal.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.16",
+  "meta-version" : "0",
+  "description" : "Simple serialisation of objects to JSON",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "JSON::Name",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/JSON-Name.git",
+    "bugtracker" : "https://github.com/jonathanstowe/JSON-Name/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Name-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "provides" : {
+    "JSON::Name" : "lib/JSON/Name.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "Provides a trait to store an alternative JSON Name",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Linux::Cpuinfo",
   "api" : "1.0",
   "support" : {
@@ -17082,6 +17193,44 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.20",
+  "production" : true,
+  "meta-version" : "0",
+  "description" : "Work with Perl 6 META files",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "META6",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/META6.git",
+    "bugtracker" : "https://github.com/jonathanstowe/META6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/META6-0.0.21.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Class:ver<0.0.5+>"
+  ],
+  "test-depends" : [
+    "JSON::Fast",
+    "Test"
+  ],
+  "tags" : [
+    "devel",
+    "meta",
+    "utils"
+  ],
+  "provides" : {
+    "META6" : "lib/META6.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.21",
   "production" : true,
   "meta-version" : "0",
   "description" : "Work with Perl 6 META files",
@@ -17336,28 +17485,6 @@
   "license" : "Artistic-2.0",
   "version" : "0.0.2",
   "description" : "Support for BubbleBabble string encoding and decoding",
-  "authors" : [
-    "Ben Davies"
-  ]
-}
-,
-{
-  "name" : "Hastebin",
-  "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Hastebin-0.0.2.tar.gz",
-  "perl" : "6.d",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "API"
-  ],
-  "provides" : {
-    "Hastebin" : "lib/Hastebin.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.2",
-  "description" : "Hastebin client API",
   "authors" : [
     "Ben Davies"
   ]
@@ -33751,6 +33878,54 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.4",
+  "production" : true,
+  "meta-version" : "0",
+  "description" : "Framework for working with OO application plugins",
+  "authors" : [
+    "Vadim Belman <vrurg@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "OO::Plugin",
+  "support" : {
+    "source" : "https://github.com/vrurg/Perl6-OO-Plugin.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/OO-Plugin-v0.0.5.tar.gz",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [
+    "META6",
+    "p6doc",
+    "Pod::To::Markdown"
+  ],
+  "auth" : "github:vrurg",
+  "depends" : [
+    "WhereList",
+    "File::Find"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "OO",
+    "Plugin",
+    "Plugins"
+  ],
+  "provides" : {
+    "OO::Plugin::Metamodel::PlugRoleHOW" : "lib/OO/Plugin/Metamodel/PlugRoleHOW.pm6",
+    "OO::Plugin::Exception" : "lib/OO/Plugin/Exception.pm6",
+    "OO::Plugin::Class" : "lib/OO/Plugin/Class.pm6",
+    "OO::Plugin" : "lib/OO/Plugin.pm6",
+    "OO::Plugin::Manager" : "lib/OO/Plugin/Manager.pm6",
+    "OO::Plugin::Metamodel::PluginHOW" : "lib/OO/Plugin/Metamodel/PluginHOW.pm6",
+    "OO::Plugin::Registry" : "lib/OO/Plugin/Registry.pm6",
+    "OO::Plugin::Declarations" : "lib/OO/Plugin/Declarations.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
   "production" : true,
   "meta-version" : "0",
   "description" : "Framework for working with OO application plugins",
