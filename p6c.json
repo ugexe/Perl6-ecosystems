@@ -9626,8 +9626,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "JSON::Marshal",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+git@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/JSON-Marshal.git",
@@ -9645,22 +9646,22 @@
   "provides" : {
     "JSON::Marshal" : "lib/JSON/Marshal.pm"
   },
-  "test-depends" : [
-    "Test",
-    "JSON::Fast"
-  ],
   "license" : "Artistic-2.0",
   "tags" : [
     "object",
     "serialisation",
     "JSON"
   ],
+  "test-depends" : [
+    "Test",
+    "JSON::Fast"
+  ],
   "meta-version" : "0",
-  "version" : "0.0.15",
-  "description" : "Simple serialisation of objects to JSON",
+  "version" : "0.0.16",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Simple serialisation of objects to JSON"
 }
 ,
 {
@@ -9701,10 +9702,12 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "JSON::Class",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git://github.com/jonathanstowe/JSON-Class.git"
+    "source" : "git://github.com/jonathanstowe/JSON-Class.git",
+    "bugtracker" : "https://github.com/jonathanstowe/JSON-Class/issues"
   },
   "source-url" : "git://github.com/jonathanstowe/JSON-Class.git",
   "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
@@ -9718,22 +9721,22 @@
   "provides" : {
     "JSON::Class" : "lib/JSON/Class.pm"
   },
-  "test-depends" : [
-    "JSON::Fast",
-    "Test"
-  ],
   "license" : "Artistic-2.0",
   "tags" : [
     "object",
     "serialisation",
     "JSON"
   ],
+  "test-depends" : [
+    "JSON::Fast",
+    "Test"
+  ],
   "meta-version" : "0",
-  "version" : "0.0.10",
-  "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON",
+  "version" : "0.0.11",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON"
 }
 ,
 {
@@ -9858,10 +9861,12 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "JSON::Name",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git://github.com/jonathanstowe/JSON-Name.git"
+    "source" : "git://github.com/jonathanstowe/JSON-Name.git",
+    "bugtracker" : "https://github.com/jonathanstowe/JSON-Name/issues"
   },
   "source-url" : "git://github.com/jonathanstowe/JSON-Name.git",
   "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
@@ -9872,21 +9877,21 @@
   "provides" : {
     "JSON::Name" : "lib/JSON/Name.pm"
   },
-  "test-depends" : [
-    "Test"
-  ],
   "license" : "Artistic-2.0",
   "tags" : [
     "object",
     "serialisation",
     "JSON"
   ],
-  "version" : "0.0.2",
-  "meta6" : "0",
-  "description" : "Provides a trait to store an alternative JSON Name",
+  "test-depends" : [
+    "Test"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.3",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Provides a trait to store an alternative JSON Name"
 }
 ,
 {
@@ -11660,7 +11665,7 @@
     "Test"
   ],
   "license" : "Artistic-2.0",
-  "version" : "0.6.2",
+  "version" : "0.6.4",
   "meta-version" : "0",
   "authors" : [
     "Nick Logan",
