@@ -6408,11 +6408,14 @@
 }
 ,
 {
-  "name" : "TAP::Harness",
+  "name" : "TAP",
   "source-url" : "git://github.com/perl6/tap-harness6.git",
   "perl" : "6.*",
-  "author" : "Leon Timmermans",
+  "resources" : [ ],
+  "build-depends" : [ ],
   "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
   "provides" : {
     "TAP::Source::String" : "lib/TAP.pm",
     "TAP::Source::File" : "lib/TAP.pm",
@@ -6441,8 +6444,11 @@
     "TAP" : "lib/TAP.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.4",
-  "description" : "TAP harness for perl6"
+  "version" : "0.0.6",
+  "description" : "TAP harness for perl6",
+  "authors" : [
+    "Leon Timmermans"
+  ]
 }
 ,
 {
@@ -11665,7 +11671,7 @@
     "Test"
   ],
   "license" : "Artistic-2.0",
-  "version" : "0.6.4",
+  "version" : "0.6.5",
   "meta-version" : "0",
   "authors" : [
     "Nick Logan",
