@@ -1921,6 +1921,76 @@
 }
 ,
 {
+  "name" : "DB",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-db.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-db/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/DB-0.1.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "Concurrent::Stack"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [
+    "DATABASE"
+  ],
+  "provides" : {
+    "DB::Result" : "lib/DB/Result.pm6",
+    "DB::Mock" : "lib/DB/Mock.pm6",
+    "DB::Connection" : "lib/DB/Connection.pm6",
+    "DB" : "lib/DB.pm6",
+    "DB::Statement" : "lib/DB/Statement.pm6"
+  },
+  "license" : "BSD-2-Clause",
+  "version" : "0.1",
+  "description" : "Base roles for DB::* family of SQL Database modules",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "DB::MySQL",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-dbmysql.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-dbmysql/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/DB-MySQL-0.1.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "DB",
+    "NativeCall"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [
+    "DATABASE",
+    "MYSQL"
+  ],
+  "provides" : {
+    "DB::MySQL::Statement" : "lib/DB/MySQL/Statement.pm6",
+    "DB::MySQL::Converter" : "lib/DB/MySQL/Converter.pm6",
+    "DB::MySQL" : "lib/DB/MySQL.pm6",
+    "DB::MySQL::Native" : "lib/DB/MySQL/Native.pm6",
+    "DB::MySQL::Result" : "lib/DB/MySQL/Result.pm6",
+    "DB::MySQL::Connection" : "lib/DB/MySQL/Connection.pm6"
+  },
+  "license" : "BSD-2-Clause",
+  "version" : "0.1",
+  "description" : "MySQL access for Perl6",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
+  ]
+}
+,
+{
   "name" : "DB::Pg",
   "support" : {
     "source" : "https://github.com/CurtTilmes/perl6-dbpg.git",
@@ -2088,6 +2158,42 @@
   "description" : "Perl6 bindings for PostgreSQL",
   "authors" : [
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ]
+}
+,
+{
+  "name" : "DB::SQLite",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-dbsqlite.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-dbsqlite/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/DB-SQLite-0.1.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "DB",
+    "NativeCall"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [
+    "DATABASE",
+    "SQLITE"
+  ],
+  "provides" : {
+    "DB::SQLite::Result" : "lib/DB/SQLite/Result.pm6",
+    "DB::SQLite" : "lib/DB/SQLite.pm6",
+    "DB::SQLite::Connection" : "lib/DB/SQLite/Connection.pm6",
+    "DB::SQLite::Statement" : "lib/DB/SQLite/Statement.pm6",
+    "DB::SQLite::Native" : "lib/DB/SQLite/Native.pm6"
+  },
+  "license" : "BSD-2-Clause",
+  "version" : "0.1",
+  "description" : "SQLite access for Perl6",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
   ]
 }
 ,
@@ -27212,6 +27318,51 @@
 }
 ,
 {
+  "name" : "App::Mi6",
+  "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/App-Mi6-0.2.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:SKAJI",
+  "depends" : [
+    "JSON::Pretty",
+    "Pod::To::Markdown:ver<0.1.4+>",
+    "Shell::Command",
+    "CPAN::Uploader::Tiny:ver<0.0.4+>"
+  ],
+  "test-depends" : [
+    "File::Temp"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "App::Mi6::Release::RegenerateFiles" : "lib/App/Mi6/Release/RegenerateFiles.pm6",
+    "App::Mi6::Release::CleanDist" : "lib/App/Mi6/Release/CleanDist.pm6",
+    "App::Mi6" : "lib/App/Mi6.pm6",
+    "App::Mi6::Release::BumpVersion" : "lib/App/Mi6/Release/BumpVersion.pm6",
+    "App::Mi6::Release::RewriteChanges" : "lib/App/Mi6/Release/RewriteChanges.pm6",
+    "App::Mi6::JSON" : "lib/App/Mi6/JSON.pm6",
+    "App::Mi6::Template" : "lib/App/Mi6/Template.pm6",
+    "App::Mi6::Release::MakeDist" : "lib/App/Mi6/Release/MakeDist.pm6",
+    "App::Mi6::INI" : "lib/App/Mi6/INI.pm6",
+    "App::Mi6::Release::GitCommit" : "lib/App/Mi6/Release/GitCommit.pm6",
+    "App::Mi6::Release::CreateGitTag" : "lib/App/Mi6/Release/CreateGitTag.pm6",
+    "App::Mi6::Release" : "lib/App/Mi6/Release.pm6",
+    "App::Mi6::Release::DistTest" : "lib/App/Mi6/Release/DistTest.pm6",
+    "App::Mi6::Util" : "lib/App/Mi6/Util.pm6",
+    "App::Mi6::Release::UploadToCPAN" : "lib/App/Mi6/Release/UploadToCPAN.pm6",
+    "App::Mi6::Release::CheckUntrackedFiles" : "lib/App/Mi6/Release/CheckUntrackedFiles.pm6",
+    "App::Mi6::Release::CheckOrigin" : "lib/App/Mi6/Release/CheckOrigin.pm6",
+    "App::Mi6::Release::CheckChanges" : "lib/App/Mi6/Release/CheckChanges.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.6",
+  "description" : "minimal authoring tool for Perl6",
+  "authors" : [
+    "Shoichi Kaji"
+  ]
+}
+,
+{
   "name" : "CPAN::Uploader::Tiny",
   "source-url" : "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/CPAN-Uploader-Tiny-0.0.3.tar.gz",
   "perl" : "6.c",
@@ -34087,6 +34238,46 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.1.2",
+  "description" : "read font files and render glyphs from Perl using FreeType2",
+  "authors" : [
+    "David Warring"
+  ]
+}
+,
+{
+  "name" : "Font::FreeType",
+  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.1.3.tar.gz",
+  "perl" : "6",
+  "resources" : [
+    "libraries/ft6"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Pod::To::Markdown"
+  ],
+  "auth" : "github:p6-pdf",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "font",
+    "freetype"
+  ],
+  "provides" : {
+    "Font::FreeType::BBox" : "lib/Font/FreeType/BBox.pm",
+    "Font::FreeType" : "lib/Font/FreeType.pm",
+    "Font::FreeType::Outline" : "lib/Font/FreeType/Outline.pm",
+    "Font::FreeType::GlyphImage" : "lib/Font/FreeType/GlyphImage.pm",
+    "Font::FreeType::Glyph" : "lib/Font/FreeType/Glyph.pm",
+    "Font::FreeType::NamedInfo" : "lib/Font/FreeType/NamedInfo.pm",
+    "Font::FreeType::Native::Types" : "lib/Font/FreeType/Native/Types.pm",
+    "Font::FreeType::Error" : "lib/Font/FreeType/Error.pm",
+    "Font::FreeType::CharMap" : "lib/Font/FreeType/CharMap.pm",
+    "Font::FreeType::Native" : "lib/Font/FreeType/Native.pm",
+    "Font::FreeType::BitMap" : "lib/Font/FreeType/BitMap.pm",
+    "Font::FreeType::Face" : "lib/Font/FreeType/Face.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.3",
   "description" : "read font files and render glyphs from Perl using FreeType2",
   "authors" : [
     "David Warring"
