@@ -8478,10 +8478,12 @@
   "name" : "YAMLish",
   "source-url" : "git://github.com/leont/yamlish.git",
   "perl" : "6.*",
-  "author" : "Leon Timmermans",
+  "resources" : [ ],
+  "build-depends" : [ ],
   "depends" : [
     "MIME::Base64"
   ],
+  "test-depends" : [ ],
   "tags" : [
     "YAML",
     "format",
@@ -8491,8 +8493,12 @@
   "provides" : {
     "YAMLish" : "lib/YAMLish.pm6"
   },
+  "license" : "NOASSERTION",
   "version" : "0.0.5",
-  "description" : "A pure perl6 implementation of YAML"
+  "description" : "a YAML parser/emitter written in pure perl6",
+  "authors" : [
+    "Leon Timmermans"
+  ]
 }
 ,
 {
@@ -12388,8 +12394,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Test::Util::ServerPort",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "source" : "git://github.com/jonathanstowe/Test-Util-ServerPort.git"
   },
@@ -12411,12 +12418,12 @@
     "test",
     "util"
   ],
-  "version" : "0.0.1",
-  "meta6" : "0",
-  "description" : "Get a free server port for testing with",
+  "meta-version" : "0",
+  "version" : "0.0.2",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Get a free server port for testing with"
 }
 ,
 {
@@ -17592,8 +17599,9 @@
 }
 ,
 {
+  "api" : "1.9",
   "name" : "MessagePack::Class",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+gh@gellyfish.co.uk",
     "source" : "https://github.com/jonathanstowe/MessagePack-Class.git",
@@ -17609,7 +17617,6 @@
   "provides" : {
     "MessagePack::Class" : "lib/MessagePack/Class.pm"
   },
-  "test-depends" : [ ],
   "license" : "Artistic-2.0",
   "tags" : [
     "messagepack",
@@ -17617,12 +17624,13 @@
     "serialization",
     "data"
   ],
-  "version" : "0.0.1",
-  "meta6" : "0",
-  "description" : "Serialize/Deserialize Perl 6 classes to/from MessagePack blobs",
+  "test-depends" : [ ],
+  "meta-version" : "0",
+  "version" : "0.0.2",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Serialize/Deserialize Perl 6 classes to/from MessagePack blobs"
 }
 ,
 {
