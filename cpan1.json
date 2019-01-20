@@ -17380,6 +17380,41 @@
 }
 ,
 {
+  "name" : "MessagePack::Class",
+  "api" : "1.9",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "https://github.com/jonathanstowe/MessagePack-Class.git",
+    "bugtracker" : "https://github.com/jonathanstowe/MessagePack-Class/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/MessagePack-Class-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "Data::MessagePack"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "messagepack",
+    "message",
+    "serialization",
+    "data"
+  ],
+  "provides" : {
+    "MessagePack::Class" : "lib/MessagePack/Class.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "meta-version" : "0",
+  "description" : "Serialize/Deserialize Perl 6 classes to/from MessagePack blobs",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "NativeHelpers::Array",
   "api" : "1.0",
   "support" : {
@@ -17480,6 +17515,39 @@
   "version" : "0.0.3",
   "meta-version" : "0",
   "description" : "Object helper for Object::Permission using unix groups.",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Test::Util::ServerPort",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/Test-Util-ServerPort.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Test-Util-ServerPort-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "network",
+    "server",
+    "test",
+    "util"
+  ],
+  "provides" : {
+    "Test::Util::ServerPort" : "lib/Test/Util/ServerPort.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "meta-version" : "0",
+  "description" : "Get a free server port for testing with",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
