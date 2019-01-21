@@ -16607,6 +16607,85 @@
 }
 ,
 {
+  "name" : "Audio::Libshout",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/Audio-Libshout.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Audio-Libshout/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Libshout-0.0.11.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [
+    "LibraryCheck"
+  ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "AccessorFacade"
+  ],
+  "test-depends" : [
+    "Test",
+    "File::Find",
+    "Shell::Command",
+    "CheckSocket"
+  ],
+  "tags" : [
+    "audio",
+    "streaming",
+    "utils"
+  ],
+  "provides" : {
+    "Audio::Libshout" : "lib/Audio/Libshout.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.11",
+  "meta-version" : "0",
+  "description" : "Binding for libshout - source streaming client library for icecast",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Audio::Playlist::JSPF",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Audio-Playlist-JSPF.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Audio-Playlist-JSPF/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Playlist-JSPF-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Class",
+    "JSON::Name"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "playlist",
+    "music",
+    "JSON",
+    "xiph"
+  ],
+  "provides" : {
+    "Audio::Playlist::JSPF" : "lib/Audio/Playlist/JSPF.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "JSON representation of a 'playlist'",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Audio::Silan",
   "api" : "1.0",
   "support" : {
@@ -16712,6 +16791,42 @@
   "version" : "0.0.5",
   "meta-version" : "0",
   "description" : "very simple Perl 6 function to test if a TCP socket is listening on a given address",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Chronic",
+  "api" : "1.0",
+  "support" : {
+    "irc" : "irc:// irc.freenode.net/#perl6",
+    "source" : "git://github.com/jonathanstowe/Chronic.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Chronic/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Chronic-0.0.7.tar.gz",
+  "perl" : "6.^",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "util",
+    "schedule",
+    "cron",
+    "event"
+  ],
+  "provides" : {
+    "Chronic" : "lib/Chronic.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "meta-version" : "0",
+  "description" : "Low-level Scheduling thingy for Perl6",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
@@ -16858,6 +16973,43 @@
   "description" : "create rhythmic patterns based on the Euclidean algorithm",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "FastCGI::NativeCall::Async",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "https://github.com/jonathanstowe/FastCGI-NativeCall-Async.git",
+    "bugtracker" : "https://github.com/jonathanstowe/FastCGI-NativeCall-Async/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/FastCGI-NativeCall-Async-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "FastCGI::NativeCall"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "http",
+    "fastcgi",
+    "fcgi",
+    "async"
+  ],
+  "provides" : {
+    "FastCGI::NativeCall::Async" : "lib/FastCGI/NativeCall/Async.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "meta-version" : "0",
+  "description" : "A reactive wrapper for FastCGI::NatveCalll",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk"
   ]
 }
 ,
@@ -17082,6 +17234,48 @@
   "version" : "0.0.11",
   "meta-version" : "0",
   "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "JSON::Infer",
+  "api" : "1.0",
+  "support" : {
+    "irc" : "irc:// irc.freenode.net/#perl6",
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/JSON-Infer.git",
+    "bugtracker" : "https://github.com/jonathanstowe/JSON-Infer/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Infer-0.0.16.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Fast",
+    "HTTP::UserAgent",
+    "JSON::Class",
+    "JSON::Name"
+  ],
+  "test-depends" : [
+    "JSON::Fast",
+    "Test"
+  ],
+  "tags" : [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "provides" : {
+    "JSON::Infer" : "lib/JSON/Infer.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.16",
+  "meta-version" : "0",
+  "description" : "Infer Perl 6 Classes from JSON input",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
@@ -17346,6 +17540,41 @@
 }
 ,
 {
+  "name" : "MQ::Posix",
+  "api" : "1.0",
+  "support" : {
+    "source" : "https://github.com/jonathanstowe/MQ-Posix.git",
+    "bugtracker" : "https://github.com/jonathanstowe/MQ-Posix/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/MQ-Posix-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "NativeHelpers::Array"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "posix",
+    "IPC",
+    "MQ"
+  ],
+  "provides" : {
+    "MQ::Posix" : "lib/MQ/Posix.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "meta-version" : "0",
+  "description" : "binding for POSIX message queues",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Manifesto",
   "api" : "1.0",
   "support" : {
@@ -17515,6 +17744,91 @@
   "version" : "0.0.3",
   "meta-version" : "0",
   "description" : "Object helper for Object::Permission using unix groups.",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Sys::Lastlog",
+  "api" : "1.0",
+  "support" : {
+    "irc" : "irc://irc.freenode.net/#perl6",
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/p6-Sys-Lastlog.git",
+    "bugtracker" : "https://github.com/jonathanstowe/p6-Sys-Lastlog/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Sys-Lastlog-0.0.10.tar.gz",
+  "perl" : "6.*",
+  "resources" : [
+    "libraries/lastloghelper"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Shell::Command"
+  ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "System::Passwd"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "unix",
+    "audit",
+    "lastlog"
+  ],
+  "provides" : {
+    "Sys::Lastlog" : "lib/Sys/Lastlog.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.10",
+  "meta-version" : "0",
+  "description" : "Perl 6 access to Lastlog information on Unix-like systems",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.com>"
+  ]
+}
+,
+{
+  "name" : "Sys::Utmp",
+  "api" : "1.0",
+  "support" : {
+    "irc" : "irc:// irc.freenode.net/#perl6",
+    "source" : "git://github.com/jonathanstowe/p6-Sys-Utmp.git",
+    "bugtracker" : "https://github.com/jonathanstowe/p6-Sys-Utmp/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Sys-Utmp-0.0.12.tar.gz",
+  "perl" : "6.*",
+  "resources" : [
+    "libraries/utmphelper"
+  ],
+  "build-depends" : [
+    "Shell::Command",
+    "LibraryMake"
+  ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "LibraryMake"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "unix",
+    "users",
+    "utility"
+  ],
+  "provides" : {
+    "Sys::Utmp" : "lib/Sys/Utmp.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.12",
+  "meta-version" : "0",
+  "description" : "Perl 6 access to Utmp entries on Unix-like systems",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
