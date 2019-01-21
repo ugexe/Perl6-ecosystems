@@ -7367,8 +7367,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Sys::Utmp",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "irc" : "irc:// irc.freenode.net/#perl6",
     "source" : "git://github.com/jonathanstowe/p6-Sys-Utmp.git",
@@ -7400,11 +7401,11 @@
     "utility"
   ],
   "meta-version" : "0",
-  "version" : "0.0.11",
-  "description" : "Perl 6 access to Utmp entries on Unix-like systems",
+  "version" : "0.0.12",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Perl 6 access to Utmp entries on Unix-like systems"
 }
 ,
 {
@@ -7667,8 +7668,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Sys::Lastlog",
-  "perl" : "6",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+git@gellyfish.co.uk",
     "irc" : "irc://irc.freenode.net/#perl6",
@@ -7700,12 +7702,12 @@
     "audit",
     "lastlog"
   ],
-  "version" : "0.0.9",
-  "meta6" : "0",
-  "description" : "Perl 6 access to Lastlog information on Unix-like systems",
+  "meta-version" : "0",
+  "version" : "0.0.10",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.com>"
-  ]
+  ],
+  "description" : "Perl 6 access to Lastlog information on Unix-like systems"
 }
 ,
 {
@@ -8266,10 +8268,12 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Audio::Libshout",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git://github.com/jonathanstowe/Audio-Libshout.git"
+    "source" : "git://github.com/jonathanstowe/Audio-Libshout.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Audio-Libshout/issues"
   },
   "source-url" : "git://github.com/jonathanstowe/Audio-Libshout.git",
   "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
@@ -8286,7 +8290,6 @@
   },
   "test-depends" : [
     "Test",
-    "Test::META",
     "File::Find",
     "Shell::Command",
     "CheckSocket"
@@ -8297,12 +8300,12 @@
     "streaming",
     "utils"
   ],
-  "version" : "0.0.10",
-  "meta6" : "0",
-  "description" : "Binding for libshout - source streaming client library for icecast",
+  "meta-version" : "0",
+  "version" : "0.0.11",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Binding for libshout - source streaming client library for icecast"
 }
 ,
 {
@@ -10005,8 +10008,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "JSON::Infer",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+git@gellyfish.co.uk",
     "irc" : "irc:// irc.freenode.net/#perl6",
@@ -10029,8 +10033,7 @@
   },
   "test-depends" : [
     "JSON::Fast",
-    "Test",
-    "Test::META"
+    "Test"
   ],
   "license" : "Artistic-2.0",
   "tags" : [
@@ -10038,12 +10041,12 @@
     "serialisation",
     "JSON"
   ],
-  "version" : "0.0.15",
-  "meta6" : "0",
-  "description" : "Infer Perl 6 Classes from JSON input",
+  "meta-version" : "0",
+  "version" : "0.0.16",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Infer Perl 6 Classes from JSON input"
 }
 ,
 {
@@ -10449,8 +10452,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Chronic",
-  "perl" : "6.c",
+  "perl" : "6.^",
   "support" : {
     "irc" : "irc:// irc.freenode.net/#perl6",
     "source" : "git://github.com/jonathanstowe/Chronic.git",
@@ -10466,8 +10470,7 @@
     "Chronic" : "lib/Chronic.pm"
   },
   "test-depends" : [
-    "Test",
-    "Test::META"
+    "Test"
   ],
   "license" : "Artistic-2.0",
   "tags" : [
@@ -10477,7 +10480,7 @@
     "event"
   ],
   "meta-version" : "0",
-  "version" : "0.0.6",
+  "version" : "0.0.7",
   "description" : "Low-level Scheduling thingy for Perl6",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -12574,8 +12577,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Audio::Playlist::JSPF",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+gh@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/Audio-Playlist-JSPF.git",
@@ -12586,14 +12590,12 @@
   "resources" : [ ],
   "auth" : "github:jonathanstowe",
   "depends" : [
-    "JSON::Class"
+    "JSON::Class",
+    "JSON::Name"
   ],
   "provides" : {
     "Audio::Playlist::JSPF" : "lib/Audio/Playlist/JSPF.pm"
   },
-  "test-depends" : [
-    "Test"
-  ],
   "license" : "Artistic-2.0",
   "tags" : [
     "playlist",
@@ -12601,12 +12603,15 @@
     "JSON",
     "xiph"
   ],
+  "test-depends" : [
+    "Test"
+  ],
   "meta-version" : "0",
-  "version" : "0.0.2",
-  "description" : "JSON representation of a 'playlist'",
+  "version" : "0.0.3",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "JSON representation of a 'playlist'"
 }
 ,
 {
@@ -19548,8 +19553,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "FastCGI::NativeCall::Async",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+gh@gellyfish.co.uk",
     "source" : "https://github.com/jonathanstowe/FastCGI-NativeCall-Async.git",
@@ -19576,11 +19582,11 @@
     "async"
   ],
   "meta-version" : "0",
-  "version" : "0.0.1",
-  "description" : "A reactive wrapper for FastCGI::NatveCalll",
+  "version" : "0.0.2",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk"
-  ]
+  ],
+  "description" : "A reactive wrapper for FastCGI::NatveCalll"
 }
 ,
 {
@@ -19711,8 +19717,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "MQ::Posix",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "source" : "https://github.com/jonathanstowe/MQ-Posix.git",
     "bugtracker" : "https://github.com/jonathanstowe/MQ-Posix/issues"
@@ -19737,11 +19744,11 @@
     "MQ"
   ],
   "meta-version" : "0",
-  "version" : "0.0.1",
-  "description" : "binding for POSIX message queues",
+  "version" : "0.0.2",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "binding for POSIX message queues"
 }
 ,
 {
