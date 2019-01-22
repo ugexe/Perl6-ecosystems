@@ -8412,6 +8412,46 @@
 }
 ,
 {
+  "name" : "Path::Router",
+  "support" : {
+    "source" : null
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Path-Router-0.4.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : null,
+  "depends" : [
+    "IO::String",
+    "Linenoise"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "X::Path::Router::BadSlurpy" : "lib/X/Path/Router.pm6",
+    "X::Path::Router::AmbiguousMatch::PathMatch" : "lib/X/Path/Router.pm6",
+    "X::Path::Router::AmbiguousMatch::ReverseMatch" : "lib/X/Path/Router.pm6",
+    "X::Path::Router::AmbiguousMatch" : "lib/X/Path/Router.pm6",
+    "X::Path::Router::BadRoute" : "lib/X/Path/Router.pm6",
+    "X::Path::Router::BadInclusion" : "lib/X/Path/Router.pm6",
+    "X::Path::Router" : "lib/X/Path/Router.pm6",
+    "Test::Path::Router" : "lib/Test/Path/Router.pm6",
+    "Path::Router::Shell" : "lib/Path/Router/Shell.pm6",
+    "X::Path::Router::BadValidation" : "lib/X/Path/Router.pm6",
+    "Path::Router::Route::Match" : "lib/Path/Router/Route.pm6",
+    "Path::Router::Route" : "lib/Path/Router/Route.pm6",
+    "Path::Router" : "lib/Path/Router.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.4.0",
+  "meta-version" : "0",
+  "description" : "A tool for routing paths",
+  "authors" : [
+    "Sterling Hanenkamp (hanenkamp@cpan.org)"
+  ]
+}
+,
+{
   "name" : "Template::Anti",
   "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Template-Anti-0.4.3.tar.gz",
   "perl" : "6.c",
@@ -17014,6 +17054,43 @@
 }
 ,
 {
+  "name" : "GDBM",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "https://github.com/jonathanstowe/p6-GDBM.git",
+    "bugtracker" : "https://github.com/jonathanstowe/p6-GDBM/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/GDBM-0.0.4.tar.gz",
+  "perl" : "6.*",
+  "resources" : [
+    "libraries/gdbmhelper"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Shell::Command"
+  ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "gdbm",
+    "dbm",
+    "hash"
+  ],
+  "provides" : {
+    "GDBM" : "lib/GDBM.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "meta-version" : "0",
+  "description" : "GNU dbm binding for Perl 6",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Igo",
   "api" : "1.0",
   "support" : {
@@ -17868,6 +17945,44 @@
 }
 ,
 {
+  "name" : "URI::Template",
+  "support" : {
+    "irc" : "irc:// irc.freenode.net/#perl6",
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/URI-Template.git",
+    "bugtracker" : "https://github.com/jonathanstowe/URI-Template/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/URI-Template-0.0.7.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "aoi" : "1.0",
+  "test-depends" : [
+    "JSON::Fast",
+    "Test"
+  ],
+  "tags" : [
+    "URI",
+    "URL",
+    "Template",
+    "RFC"
+  ],
+  "provides" : {
+    "URI::Template" : "lib/URI/Template.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "meta-version" : "0",
+  "description" : "URI Templates as per https://tools.ietf.org/html/rfc6570",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Unix::Groups",
   "api" : "1.0",
   "support" : {
@@ -17933,6 +18048,41 @@
   "description" : "Utility subroutines for working with bitfields",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "XDG::BaseDirectory",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git",
+    "bugtracker" : "https://github.com/jonathanstowe/XDG-BaseDirectory/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/XDG-BaseDirectory-0.0.9.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "File::Find",
+    "Shell::Command"
+  ],
+  "tags" : [
+    "xdg",
+    "desktop",
+    "utils"
+  ],
+  "provides" : {
+    "XDG::BaseDirectory" : "lib/XDG/BaseDirectory.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.9",
+  "meta-version" : "0",
+  "description" : "Implementation of the freedesktop.org XDG BaseDirectory specifications",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk"
   ]
 }
 ,
@@ -18933,6 +19083,50 @@
 }
 ,
 {
+  "name" : "TAP",
+  "source-url" : "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/TAP-0.0.7.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "TAP::Source::String" : "lib/TAP.pm",
+    "TAP::Source::File" : "lib/TAP.pm",
+    "TAP::Session" : "lib/TAP.pm",
+    "TAP::Reporter" : "lib/TAP.pm",
+    "TAP::Harness::SourceHandler::Exec" : "lib/TAP.pm",
+    "TAP::Formatter" : "lib/TAP.pm",
+    "TAP::Entry::Version" : "lib/TAP.pm",
+    "TAP::Result" : "lib/TAP.pm",
+    "TAP::Entry::Unknown" : "lib/TAP.pm",
+    "TAP::Source::Proc" : "lib/TAP.pm",
+    "TAP::Reporter::Text" : "lib/TAP.pm",
+    "TAP::Entry::Test" : "lib/TAP.pm",
+    "TAP::Async" : "lib/TAP.pm",
+    "TAP::Aggregator" : "lib/TAP.pm",
+    "TAP::Entry::Plan" : "lib/TAP.pm",
+    "TAP::Entry" : "lib/TAP.pm",
+    "TAP::Source::Supply" : "lib/TAP.pm",
+    "TAP::Reporter::Console" : "lib/TAP.pm",
+    "TAP::Harness::SourceHandler::Perl6" : "lib/TAP.pm",
+    "TAP::Entry::YAML" : "lib/TAP.pm",
+    "TAP::Entry::Sub-Test" : "lib/TAP.pm",
+    "TAP::Entry::Comment" : "lib/TAP.pm",
+    "TAP::Entry::Bailout" : "lib/TAP.pm",
+    "TAP::Harness" : "lib/TAP.pm",
+    "TAP" : "lib/TAP.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "description" : "TAP harness for perl6",
+  "authors" : [
+    "Leon Timmermans"
+  ]
+}
+,
+{
   "name" : "Auth::SCRAM",
   "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Auth-SCRAM-0.4.6.3.tar.gz",
   "perl" : "6",
@@ -19096,6 +19290,39 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.3.0.1",
+  "description" : "Interfacing Glade XML to Perl6",
+  "authors" : [
+    "Marcel Timmerman"
+  ]
+}
+,
+{
+  "name" : "GTK::Glade",
+  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-glade-0.6.2.tar.gz",
+  "perl" : "6",
+  "build-depends" : [ ],
+  "depends" : [
+    "XML::Actions"
+  ],
+  "X-test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "XML",
+    "Glade",
+    "Gtk"
+  ],
+  "provides" : {
+    "GTK::Glade::NativeLib" : "lib/GTK/Glade/NativeLib.pm6",
+    "GTK::Glade::Engine::Work" : "lib/GTK/Glade/Engine/Work.pm6",
+    "GTK::Glade::Engine::Test" : "lib/GTK/Glade/Engine/Test.pm6",
+    "GTK::Glade::NativeGtk" : "lib/GTK/Glade/NativeGtk.pm6",
+    "GTK::Glade::Engine::PreProcess" : "lib/GTK/Glade/Engine/PreProcess.pm6",
+    "GTK::Glade" : "lib/GTK/Glade.pm6",
+    "GTK::Glade::Engine" : "lib/GTK/Glade/Engine.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.6.2",
   "description" : "Interfacing Glade XML to Perl6",
   "authors" : [
     "Marcel Timmerman"
