@@ -6444,7 +6444,7 @@
     "TAP" : "lib/TAP.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.6",
+  "version" : "0.0.7",
   "description" : "TAP harness for perl6",
   "authors" : [
     "Leon Timmermans"
@@ -6691,7 +6691,7 @@
   "test-depends" : [
     "Test"
   ],
-  "version" : "0.07",
+  "version" : "0.08",
   "authors" : [
     "David Farrell"
   ],
@@ -7856,11 +7856,11 @@
 ,
 {
   "name" : "Path::Router",
-  "source-url" : "git://github.com/zostay/p6-Path-Router.git",
-  "perl" : "6.c",
   "support" : {
     "source" : null
   },
+  "perl" : "6.c",
+  "source-url" : "git://github.com/zostay/p6-Path-Router.git",
   "build-depends" : [ ],
   "resources" : [ ],
   "auth" : null,
@@ -7868,7 +7868,9 @@
     "IO::String",
     "Linenoise"
   ],
+  "test-depends" : [ ],
   "tags" : [ ],
+  "license" : "Artistic-2.0",
   "provides" : {
     "X::Path::Router::BadSlurpy" : "lib/X/Path/Router.pm6",
     "X::Path::Router::AmbiguousMatch::PathMatch" : "lib/X/Path/Router.pm6",
@@ -7877,17 +7879,15 @@
     "X::Path::Router::BadRoute" : "lib/X/Path/Router.pm6",
     "X::Path::Router::BadInclusion" : "lib/X/Path/Router.pm6",
     "X::Path::Router" : "lib/X/Path/Router.pm6",
-    "Path::Router::Shell" : "lib/Path/Router/Shell.pm6",
     "Test::Path::Router" : "lib/Test/Path/Router.pm6",
-    "X::Path::Router::BadValidation" : "lib/X/Path/Router.pm6",
+    "Path::Router::Shell" : "lib/Path/Router/Shell.pm6",
     "Path::Router::Route::Match" : "lib/Path/Router/Route.pm6",
-    "Path::Router::Route" : "lib/Path/Router/Route.pm6",
-    "Path::Router" : "lib/Path/Router.pm6"
+    "X::Path::Router::BadValidation" : "lib/X/Path/Router.pm6",
+    "Path::Router" : "lib/Path/Router.pm6",
+    "Path::Router::Route" : "lib/Path/Router/Route.pm6"
   },
-  "test-depends" : [ ],
-  "license" : "Artistic-2.0",
   "meta-version" : "0",
-  "version" : "0.3.0",
+  "version" : "0.4.0",
   "description" : "A tool for routing paths",
   "authors" : [
     "Sterling Hanenkamp (hanenkamp@cpan.org)"
@@ -8684,7 +8684,8 @@
   "name" : "XDG::BaseDirectory",
   "perl" : "6.*",
   "support" : {
-    "source" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git"
+    "source" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git",
+    "bugtracker" : "https://github.com/jonathanstowe/XDG-BaseDirectory/issues"
   },
   "source-url" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git",
   "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk",
@@ -8705,12 +8706,12 @@
     "desktop",
     "utils"
   ],
-  "version" : "0.0.8",
-  "meta6" : "0",
-  "description" : "Implementation of the freedesktop.org XDG BaseDirectory specifications",
+  "meta-version" : "0",
+  "version" : "0.0.9",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk"
-  ]
+  ],
+  "description" : "Implementation of the freedesktop.org XDG BaseDirectory specifications"
 }
 ,
 {
@@ -10133,7 +10134,7 @@
 ,
 {
   "name" : "URI::Template",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "irc" : "irc:// irc.freenode.net/#perl6",
     "email" : "jns+git@gellyfish.co.uk",
@@ -10146,13 +10147,13 @@
   "resources" : [ ],
   "auth" : "github:jonathanstowe",
   "depends" : [ ],
+  "aoi" : "1.0",
   "provides" : {
     "URI::Template" : "lib/URI/Template.pm"
   },
   "test-depends" : [
     "JSON::Fast",
-    "Test",
-    "Test::META"
+    "Test"
   ],
   "license" : "Artistic-2.0",
   "tags" : [
@@ -10162,11 +10163,11 @@
     "RFC"
   ],
   "meta-version" : "0",
-  "version" : "0.0.6",
-  "description" : "URI Templates as per https://tools.ietf.org/html/rfc6570",
+  "version" : "0.0.7",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "URI Templates as per https://tools.ietf.org/html/rfc6570"
 }
 ,
 {
@@ -18429,7 +18430,7 @@
     "filesystem"
   ],
   "license" : "Artistic-2.0",
-  "version" : "1.001003",
+  "version" : "1.001004",
   "authors" : [
     "Zoffix Znet"
   ],
@@ -19752,8 +19753,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "GDBM",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+gh@gellyfish.co.uk",
     "source" : "https://github.com/jonathanstowe/p6-GDBM.git",
@@ -19780,11 +19782,11 @@
     "hash"
   ],
   "meta-version" : "0",
-  "version" : "0.0.3",
-  "description" : "GNU dbm binding for Perl 6",
+  "version" : "0.0.4",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "GNU dbm binding for Perl 6"
 }
 ,
 {
