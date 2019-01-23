@@ -8080,10 +8080,12 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "LibraryCheck",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git://github.com/jonathanstowe/LibraryCheck.git"
+    "source" : "git://github.com/jonathanstowe/LibraryCheck.git",
+    "bugtracker" : "https://github.com/jonathanstowe/LibraryCheck/issues"
   },
   "source-url" : "git://github.com/jonathanstowe/LibraryCheck.git",
   "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
@@ -8094,20 +8096,20 @@
   "provides" : {
     "LibraryCheck" : "lib/LibraryCheck.pm"
   },
-  "test-depends" : [
-    "Test"
-  ],
   "license" : "Artistic-2.0",
   "tags" : [
     "build",
     "utils"
   ],
-  "version" : "0.0.7",
-  "meta6" : "0",
-  "description" : "Quick hack to determine whether a shared libray is present",
+  "test-depends" : [
+    "Test"
+  ],
+  "meta-version" : "0",
+  "version" : "0.0.8",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Quick hack to determine whether a shared libray is present"
 }
 ,
 {
@@ -13229,12 +13231,14 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Lumberjack::Dispatcher::Syslog",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git@github.com:jonathanstowe/Lumberjack-Dispatcher-Syslog.git"
+    "source" : "git://github.com/jonathanstowe/Lumberjack-Dispatcher-Syslog.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Lumberjack-Dispatcher-Syslog/issues"
   },
-  "source-url" : "git@github.com:jonathanstowe/Lumberjack-Dispatcher-Syslog.git",
+  "source-url" : "git://github.com/jonathanstowe/Lumberjack-Dispatcher-Syslog.git",
   "build-depends" : [ ],
   "resources" : [ ],
   "auth" : "github:jonathanstowe",
@@ -13253,12 +13257,12 @@
     "syslog",
     "lumberjack"
   ],
-  "version" : "0.0.2",
-  "meta6" : "0",
-  "description" : "A Syslog dispatcher for the Lumberjack logger",
+  "meta-version" : "0",
+  "version" : "0.0.3",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "A Syslog dispatcher for the Lumberjack logger"
 }
 ,
 {
@@ -15636,8 +15640,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "URI::FetchFile",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "source" : "git://github.com/jonathanstowe/URI-FetchFile.git"
   },
@@ -15661,11 +15666,11 @@
     "http"
   ],
   "meta-version" : "0",
-  "version" : "0.0.2",
-  "description" : "retrieve a file from the internet by the best available method",
+  "version" : "0.0.3",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "retrieve a file from the internet by the best available method"
 }
 ,
 {
@@ -18441,7 +18446,7 @@
     "filesystem"
   ],
   "license" : "Artistic-2.0",
-  "version" : "1.001004",
+  "version" : "1.001005",
   "authors" : [
     "Zoffix Znet"
   ],
@@ -21800,9 +21805,14 @@
 {
   "name" : "Crypt::CAST5",
   "source-url" : "https://github.com/Kaiepi/p6-Crypt-CAST5",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
+  "perl" : "6.d",
+  "resources" : [
+    "libraries/cast5"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Shell::Command"
+  ],
   "depends" : [ ],
   "test-depends" : [ ],
   "tags" : [
@@ -21812,8 +21822,8 @@
     "Crypt::CAST5" : "lib/Crypt/CAST5.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "CAST-128 encryption library",
+  "version" : "0.1.0",
+  "description" : "CAST5 encryption library",
   "authors" : [
     "Ben Davies"
   ]
