@@ -17432,6 +17432,39 @@
 }
 ,
 {
+  "name" : "LibraryCheck",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/LibraryCheck.git",
+    "bugtracker" : "https://github.com/jonathanstowe/LibraryCheck/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/LibraryCheck-0.0.8.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "build",
+    "utils"
+  ],
+  "provides" : {
+    "LibraryCheck" : "lib/LibraryCheck.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.8",
+  "meta-version" : "0",
+  "description" : "Quick hack to determine whether a shared libray is present",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Linux::Cpuinfo",
   "api" : "1.0",
   "support" : {
@@ -17537,6 +17570,41 @@
   "description" : "Provide logging to POSIX native syslog facility",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Lumberjack::Dispatcher::Syslog",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/Lumberjack-Dispatcher-Syslog.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Lumberjack-Dispatcher-Syslog/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-Dispatcher-Syslog-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "Lumberjack",
+    "Log::Syslog::Native"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "logger",
+    "log",
+    "syslog",
+    "lumberjack"
+  ],
+  "provides" : {
+    "Lumberjack::Dispatcher::Syslog" : "lib/Lumberjack/Dispatcher/Syslog.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "A Syslog dispatcher for the Lumberjack logger",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ]
 }
 ,
@@ -17945,6 +18013,40 @@
 }
 ,
 {
+  "name" : "URI::FetchFile",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/URI-FetchFile.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/URI-FetchFile-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "File::Which"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "download",
+    "utility",
+    "http"
+  ],
+  "provides" : {
+    "URI::FetchFile" : "lib/URI/FetchFile.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "retrieve a file from the internet by the best available method",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "URI::Template",
   "support" : {
     "irc" : "irc:// irc.freenode.net/#perl6",
@@ -18103,6 +18205,33 @@
   "license" : "Artistic-2.0",
   "version" : "0.0.1",
   "description" : "CAST-128 encryption library",
+  "authors" : [
+    "Ben Davies"
+  ]
+}
+,
+{
+  "name" : "Crypt::CAST5",
+  "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Crypt-CAST5-0.1.0.tar.gz",
+  "perl" : "6.d",
+  "resources" : [
+    "libraries/cast5"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Shell::Command"
+  ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Crypt"
+  ],
+  "provides" : {
+    "Crypt::CAST5" : "lib/Crypt/CAST5.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "CAST5 encryption library",
   "authors" : [
     "Ben Davies"
   ]
@@ -34223,6 +34352,44 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.4.9",
+  "production" : false,
+  "meta-version" : "0",
+  "description" : "Extending attribute functionality with ideas from Moo/Moose",
+  "authors" : [
+    "Vadim Belman <vrurg@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "AttrX::Mooish",
+  "support" : {
+    "source" : "git://github.com/vrurg/Perl6-AttrX-Mooish.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/AttrX-Mooish-v0.5.0.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:vrurg",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "AttrX",
+    "Moo",
+    "Moose",
+    "Mooish",
+    "attribute",
+    "mooish",
+    "trait"
+  ],
+  "provides" : {
+    "AttrX::Mooish" : "lib/AttrX/Mooish.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.5.0",
   "production" : false,
   "meta-version" : "0",
   "description" : "Extending attribute functionality with ideas from Moo/Moose",
