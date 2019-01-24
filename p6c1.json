@@ -16820,9 +16820,12 @@
     "XML::XPath::ExprOperator::GreaterThan" : "lib/XML/XPath/ExprOperator/GreaterThan.pm6",
     "XML::XPath::InfixExprOperatorPerElement" : "lib/XML/XPath/InfixExprOperatorPerElement.pm6",
     "XML::XPath::ExprOperator::Or" : "lib/XML/XPath/ExprOperator/Or.pm6",
+    "XML::XPath::ExprOperator::NotEqual" : "lib/XML/XPath/ExprOperator/NotEqual.pm6",
+    "XML::XPath::ExprOperator::Multiply" : "lib/XML/XPath/ExprOperator/Multiply.pm6",
     "XML::XPath::Evaluable" : "lib/XML/XPath/Evaluable.pm6",
     "XML::XPath" : "lib/XML/XPath.pm6",
     "XML::XPath::FunctionCall::Node" : "lib/XML/XPath/FunctionCall/Node.pm6",
+    "XML::XPath::ExprOperator::GreaterEqual" : "lib/XML/XPath/ExprOperator/GreaterEqual.pm6",
     "XML::XPath::ExprOperator::And" : "lib/XML/XPath/ExprOperator/And.pm6",
     "XML::XPath::ExprOperator::SmallerThan" : "lib/XML/XPath/ExprOperator/SmallerThan.pm6",
     "XML::XPath::ExprOperator::Pipe" : "lib/XML/XPath/ExprOperator/Pipe.pm6",
@@ -16833,6 +16836,7 @@
     "XML::XPath::Step" : "lib/XML/XPath/Step.pm6",
     "XML::XPath::NodeTest" : "lib/XML/XPath/NodeTest.pm6",
     "XML::XPath::FunctionCall" : "lib/XML/XPath/FunctionCall.pm6",
+    "XML::XPath::ExprOperator::SmallerEqual" : "lib/XML/XPath/ExprOperator/SmallerEqual.pm6",
     "XML::XPath::ExprOperator::Div" : "lib/XML/XPath/ExprOperator/Div.pm6",
     "XML::XPath::Types" : "lib/XML/XPath/Types.pm6",
     "XML::XPath::Grammar" : "lib/XML/XPath/Grammar.pm6",
@@ -16841,7 +16845,7 @@
     "XML::XPath::ExprOperator::Minus" : "lib/XML/XPath/ExprOperator/Minus.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.9.1",
+  "version" : "0.9.2",
   "description" : "XPath perl6 library",
   "authors" : [
     "Martin Barth (ufobat)"
@@ -16938,8 +16942,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "EventSource::Server",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+evensourceserver@gellyfish.co.uk",
     "source" : "https://github.com/jonathanstowe/EventSource-Server.git",
@@ -16963,11 +16968,11 @@
     "web"
   ],
   "meta-version" : "0",
-  "version" : "0.0.3",
-  "description" : "A simple handler to provide Server Sent Events from a PSGI app",
+  "version" : "0.0.4",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "A simple handler to provide Server Sent Events from a PSGI app"
 }
 ,
 {
@@ -18446,7 +18451,7 @@
     "filesystem"
   ],
   "license" : "Artistic-2.0",
-  "version" : "1.001005",
+  "version" : "1.001006",
   "authors" : [
     "Zoffix Znet"
   ],
