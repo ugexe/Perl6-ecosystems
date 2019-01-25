@@ -15663,10 +15663,12 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Monitor::Monit",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git://github.com/jonathanstowe/Monitor-Monit.git"
+    "source" : "git://github.com/jonathanstowe/Monitor-Monit.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Monitor-Monit/issues"
   },
   "source-url" : "git://github.com/jonathanstowe/Monitor-Monit.git",
   "build-depends" : [ ],
@@ -15690,12 +15692,12 @@
     "api",
     "system"
   ],
-  "version" : "0.0.1",
-  "meta6" : "0",
-  "description" : "Provide an interface to the monit monitoring daemon",
+  "meta-version" : "0",
+  "version" : "0.0.2",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Provide an interface to the monit monitoring daemon"
 }
 ,
 {
