@@ -17823,6 +17823,44 @@
 }
 ,
 {
+  "name" : "Monitor::Monit",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/Monitor-Monit.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Monitor-Monit/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Monitor-Monit-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "HTTP::UserAgent",
+    "URI::Template",
+    "XML::Class"
+  ],
+  "test-depends" : [
+    "Test",
+    "CheckSocket"
+  ],
+  "tags" : [
+    "monitor",
+    "api",
+    "system"
+  ],
+  "provides" : {
+    "Monitor::Monit" : "lib/Monitor/Monit.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "meta-version" : "0",
+  "description" : "Provide an interface to the monit monitoring daemon",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "NativeHelpers::Array",
   "api" : "1.0",
   "support" : {
@@ -19486,6 +19524,67 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.6.2",
+  "description" : "Interfacing Glade XML to Perl6",
+  "authors" : [
+    "Marcel Timmerman"
+  ]
+}
+,
+{
+  "name" : "GTK::Glade",
+  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-glade-0.7.0.tar.gz",
+  "perl" : "6",
+  "resources" : [
+    "library-logo.png",
+    "library.glade",
+    "mimetypes"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "XML::Actions"
+  ],
+  "X-test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "XML",
+    "Glade",
+    "Gtk"
+  ],
+  "provides" : {
+    "GTK::Glade::NativeLib" : "lib/GTK/Glade/NativeLib.pm6",
+    "GTK::Glade::Native::Gtk::Range" : "lib/GTK/Glade/Native/Gtk/Range.pm6",
+    "GTK::Glade::Native::Gtk::Frame" : "lib/GTK/Glade/Native/Gtk/Frame.pm6",
+    "GTK::Glade::Native::Gtk::Container" : "lib/GTK/Glade/Native/Gtk/Container.pm6",
+    "GTK::Glade::Engine::Work" : "lib/GTK/Glade/Engine/Work.pm6",
+    "GTK::Glade::Engine::Test" : "lib/GTK/Glade/Engine/Test.pm6",
+    "GTK::Glade::NativeGtk" : "lib/GTK/Glade/NativeGtk.pm6",
+    "GTK::Glade::Native::Gtk::Dialog" : "lib/GTK/Glade/Native/Gtk/Dialog.pm6",
+    "GTK::Glade::Native::Gtk::Actionbar" : "lib/GTK/Glade/Native/Gtk/Actionbar.pm6",
+    "GTK::Glade::Native::Gtk::Listbox" : "lib/GTK/Glade/Native/Gtk/Listbox.pm6",
+    "GTK::Glade::Native::Gtk" : "lib/GTK/Glade/Native/Gtk.pm6",
+    "GTK::Glade::Native::Gtk::Widget" : "lib/GTK/Glade/Native/Gtk/Widget.pm6",
+    "GTK::Glade::Native::Gtk::Entry" : "lib/GTK/Glade/Native/Gtk/Entry.pm6",
+    "GTK::Glade::Engine::PreProcess" : "lib/GTK/Glade/Engine/PreProcess.pm6",
+    "GTK::Glade::Native::Gtk::Separator" : "lib/GTK/Glade/Native/Gtk/Separator.pm6",
+    "GTK::Glade::Native::Gtk::Checkbutton" : "lib/GTK/Glade/Native/Gtk/Checkbutton.pm6",
+    "GTK::Glade::Native::Gtk::Button" : "lib/GTK/Glade/Native/Gtk/Button.pm6",
+    "GTK::Glade::Native::Gtk::Builder" : "lib/GTK/Glade/Native/Gtk/Builder.pm6",
+    "GTK::Glade::Native::Gdk" : "lib/GTK/Glade/Native/Gdk.pm6",
+    "GTK::Glade::Native::Gtk::Window" : "lib/GTK/Glade/Native/Gtk/Window.pm6",
+    "GTK::Glade::Native::Gtk::Togglebutton" : "lib/GTK/Glade/Native/Gtk/Togglebutton.pm6",
+    "GTK::Glade::Native::Gtk::Grid" : "lib/GTK/Glade/Native/Gtk/Grid.pm6",
+    "GTK::Glade::Native::Gtk::Enums" : "lib/GTK/Glade/Native/Gtk/Enums.pm6",
+    "GTK::Glade::Native::Gtk::Box" : "lib/GTK/Glade/Native/Gtk/Box.pm6",
+    "GTK::Glade" : "lib/GTK/Glade.pm6",
+    "GTK::Glade::Native::Gtk::Scale" : "lib/GTK/Glade/Native/Gtk/Scale.pm6",
+    "GTK::Glade::Native::Gtk::Main" : "lib/GTK/Glade/Native/Gtk/Main.pm6",
+    "GTK::Glade::Native::Gtk::Label" : "lib/GTK/Glade/Native/Gtk/Label.pm6",
+    "GTK::Glade::Native::Gtk::Comboboxtext" : "lib/GTK/Glade/Native/Gtk/Comboboxtext.pm6",
+    "GTK::Glade::Engine" : "lib/GTK/Glade/Engine.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.7.0",
   "description" : "Interfacing Glade XML to Perl6",
   "authors" : [
     "Marcel Timmerman"
