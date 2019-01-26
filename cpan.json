@@ -17051,6 +17051,44 @@
 }
 ,
 {
+  "name" : "FastCGI::NativeCall",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/p6-fcgi.git",
+    "bugtracker" : "https://github.com/jonathanstowe/p6-fcgi/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/FastCGI-NativeCall-0.0.6.tar.gz",
+  "perl" : "6.*",
+  "resources" : [
+    "libraries/fcgi"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Shell::Command"
+  ],
+  "author" : "github:carbin",
+  "auth" : "github:carbin",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "fcgi",
+    "fastcgi",
+    "http"
+  ],
+  "provides" : {
+    "FastCGI::NativeCall" : "lib/FastCGI/NativeCall.pm6"
+  },
+  "license" : "ISC",
+  "version" : "0.0.6",
+  "meta-version" : "0",
+  "description" : "An implementation of FastCGI using NativeCall",
+  "authors" : [
+    "carbin",
+    "Jonathan Stowe"
+  ]
+}
+,
+{
   "name" : "FastCGI::NativeCall::Async",
   "api" : "1.0",
   "support" : {
@@ -18257,28 +18295,6 @@
   "description" : "Implementation of the freedesktop.org XDG BaseDirectory specifications",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk"
-  ]
-}
-,
-{
-  "name" : "Crypt::CAST5",
-  "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Crypt-CAST5-0.0.1.tar.gz",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "Crypt"
-  ],
-  "provides" : {
-    "Crypt::CAST5" : "lib/Crypt/CAST5.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "CAST-128 encryption library",
-  "authors" : [
-    "Ben Davies"
   ]
 }
 ,
@@ -34583,6 +34599,44 @@ null
   "license" : "Artistic-2.0",
   "version" : "0.5.0",
   "production" : false,
+  "meta-version" : "0",
+  "description" : "Extending attribute functionality with ideas from Moo/Moose",
+  "authors" : [
+    "Vadim Belman <vrurg@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "AttrX::Mooish",
+  "support" : {
+    "source" : "git://github.com/vrurg/Perl6-AttrX-Mooish.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/AttrX-Mooish-v0.6.0.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:vrurg",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "AttrX",
+    "Moo",
+    "Moose",
+    "Mooish",
+    "attribute",
+    "mooish",
+    "trait"
+  ],
+  "provides" : {
+    "AttrX::Mooish" : "lib/AttrX/Mooish.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.6.0",
+  "production" : true,
   "meta-version" : "0",
   "description" : "Extending attribute functionality with ideas from Moo/Moose",
   "authors" : [
