@@ -6408,50 +6408,6 @@
 }
 ,
 {
-  "name" : "TAP",
-  "source-url" : "git://github.com/perl6/tap-harness6.git",
-  "perl" : "6.*",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [ ],
-  "provides" : {
-    "TAP::Source::String" : "lib/TAP.pm",
-    "TAP::Source::File" : "lib/TAP.pm",
-    "TAP::Session" : "lib/TAP.pm",
-    "TAP::Harness::SourceHandler::Exec" : "lib/TAP.pm",
-    "TAP::Reporter" : "lib/TAP.pm",
-    "TAP::Formatter" : "lib/TAP.pm",
-    "TAP::Entry::Version" : "lib/TAP.pm",
-    "TAP::Result" : "lib/TAP.pm",
-    "TAP::Entry::Unknown" : "lib/TAP.pm",
-    "TAP::Async" : "lib/TAP.pm",
-    "TAP::Source::Proc" : "lib/TAP.pm",
-    "TAP::Reporter::Text" : "lib/TAP.pm",
-    "TAP::Aggregator" : "lib/TAP.pm",
-    "TAP::Entry::Test" : "lib/TAP.pm",
-    "TAP::Entry::Plan" : "lib/TAP.pm",
-    "TAP::Entry" : "lib/TAP.pm",
-    "TAP::Harness::SourceHandler::Perl6" : "lib/TAP.pm",
-    "TAP::Source::Supply" : "lib/TAP.pm",
-    "TAP::Reporter::Console" : "lib/TAP.pm",
-    "TAP::Entry::YAML" : "lib/TAP.pm",
-    "TAP::Entry::Comment" : "lib/TAP.pm",
-    "TAP::Entry::Bailout" : "lib/TAP.pm",
-    "TAP::Entry::Sub-Test" : "lib/TAP.pm",
-    "TAP::Harness" : "lib/TAP.pm",
-    "TAP" : "lib/TAP.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.7",
-  "description" : "TAP harness for perl6",
-  "authors" : [
-    "Leon Timmermans"
-  ]
-}
-,
-{
   "name" : "Inline::Perl5",
   "support" : {
     "irc" : "irc://irc.freenode.org/#perl6"
@@ -8504,19 +8460,6 @@
   "authors" : [
     "Leon Timmermans"
   ]
-}
-,
-{
-  "name" : "Path::Iterator",
-  "source-url" : "git://github.com/leont/path-iterator.git",
-  "perl" : "6.*",
-  "author" : "Leon Timmermans",
-  "depends" : [ ],
-  "provides" : {
-    "Path::Iterator" : "lib/Path/Iterator.pm"
-  },
-  "version" : "0.0.1",
-  "description" : "Iterative, recursive file finder for Perl 6"
 }
 ,
 {
@@ -12702,21 +12645,6 @@
     "titsuki"
   ],
   "description" : "a hash function for board games"
-}
-,
-{
-  "name" : "Getopt::Long",
-  "source-url" : "https://github.com/Leont/getopt-long6.git",
-  "perl" : "6.*",
-  "author" : "Leon Timmermans",
-  "depends" : [ ],
-  "license" : "Artistic-2.0",
-  "test-depends" : [ ],
-  "provides" : {
-    "Getopt::Long" : "lib/Getopt/Long.pm"
-  },
-  "version" : "0.0.2",
-  "description" : "A powerful getopt implementation"
 }
 ,
 {
