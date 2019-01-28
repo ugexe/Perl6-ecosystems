@@ -7334,48 +7334,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "Sys::Utmp",
-  "perl" : "6.*",
-  "support" : {
-    "irc" : "irc:// irc.freenode.net/#perl6",
-    "source" : "git://github.com/jonathanstowe/p6-Sys-Utmp.git",
-    "bugtracker" : "https://github.com/jonathanstowe/p6-Sys-Utmp/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/p6-Sys-Utmp.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [
-    "Shell::Command",
-    "LibraryMake"
-  ],
-  "resources" : [
-    "libraries/utmphelper"
-  ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "LibraryMake"
-  ],
-  "provides" : {
-    "Sys::Utmp" : "lib/Sys/Utmp.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "unix",
-    "users",
-    "utility"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.12",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "Perl 6 access to Utmp entries on Unix-like systems"
-}
-,
-{
   "name" : "DEBUG",
   "source-url" : "git://github.com/cygx/p6-debug.git",
   "perl" : "6.*",
@@ -7632,49 +7590,6 @@
   "license" : "BSL-1.0",
   "version" : "0.2.1",
   "description" : "Unicode grapheme cluster boundary detection"
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Sys::Lastlog",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+git@gellyfish.co.uk",
-    "irc" : "irc://irc.freenode.net/#perl6",
-    "source" : "git://github.com/jonathanstowe/p6-Sys-Lastlog.git",
-    "bugtracker" : "https://github.com/jonathanstowe/p6-Sys-Lastlog/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/p6-Sys-Lastlog.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [
-    "LibraryMake",
-    "Shell::Command"
-  ],
-  "resources" : [
-    "libraries/lastloghelper"
-  ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "System::Passwd"
-  ],
-  "provides" : {
-    "Sys::Lastlog" : "lib/Sys/Lastlog.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "unix",
-    "audit",
-    "lastlog"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.10",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.com>"
-  ],
-  "description" : "Perl 6 access to Lastlog information on Unix-like systems"
 }
 ,
 {
@@ -8036,39 +7951,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "LibraryCheck",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/LibraryCheck.git",
-    "bugtracker" : "https://github.com/jonathanstowe/LibraryCheck/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/LibraryCheck.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "LibraryCheck" : "lib/LibraryCheck.pm"
-  },
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "build",
-    "utils"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.8",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "Quick hack to determine whether a shared libray is present"
-}
-,
-{
   "name" : "ANTLR4::Grammar",
   "support" : {
     "source" : "https://github.com/drforr/perl6-ANTLR4.git"
@@ -8123,8 +8005,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Audio::Sndfile",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+git@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/Audio-Sndfile.git",
@@ -8141,7 +8024,6 @@
   },
   "test-depends" : [
     "Test",
-    "Test::META",
     "LibraryCheck",
     "File::Find",
     "Shell::Command"
@@ -8149,14 +8031,15 @@
   "license" : "Artistic-2.0",
   "tags" : [
     "audio",
-    "utils"
+    "utils",
+    "convert"
   ],
   "meta-version" : "0",
-  "version" : "0.0.12",
-  "description" : "Binding for libsndfile - read/write multiple audio formats",
+  "version" : "0.0.13",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Binding for libsndfile - read/write multiple audio formats"
 }
 ,
 {
@@ -8234,47 +8117,6 @@
   "authors" : [
     "tony-o"
   ]
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Audio::Libshout",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Audio-Libshout.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Audio-Libshout/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Audio-Libshout.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [
-    "LibraryCheck"
-  ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "AccessorFacade"
-  ],
-  "provides" : {
-    "Audio::Libshout" : "lib/Audio/Libshout.pm"
-  },
-  "test-depends" : [
-    "Test",
-    "File::Find",
-    "Shell::Command",
-    "CheckSocket"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "audio",
-    "streaming",
-    "utils"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.11",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "Binding for libshout - source streaming client library for icecast"
 }
 ,
 {
@@ -8463,46 +8305,9 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "FastCGI::NativeCall",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/p6-fcgi.git",
-    "bugtracker" : "https://github.com/jonathanstowe/p6-fcgi/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/p6-fcgi.git",
-  "author" : "github:carbin",
-  "build-depends" : [
-    "LibraryMake",
-    "Shell::Command"
-  ],
-  "resources" : [
-    "libraries/fcgi"
-  ],
-  "auth" : "github:carbin",
-  "depends" : [ ],
-  "provides" : {
-    "FastCGI::NativeCall" : "lib/FastCGI/NativeCall.pm6"
-  },
-  "test-depends" : [ ],
-  "license" : "ISC",
-  "tags" : [
-    "fcgi",
-    "fastcgi",
-    "http"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.6",
-  "authors" : [
-    "carbin",
-    "Jonathan Stowe"
-  ],
-  "description" : "An implementation of FastCGI using NativeCall"
-}
-,
-{
+  "api" : "1,0",
   "name" : "FastCGI::NativeCall::PSGI",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "source" : "git://github.com/jonathanstowe/p6-fcgi-psgi.git",
     "bugtracker" : "https://github.com/jonathanstowe/p6-fcgi-psgi/issues"
@@ -8528,11 +8333,12 @@
     "psgi"
   ],
   "meta-version" : "0",
-  "version" : "0.0.3",
-  "description" : "A PSGI interface for FastCGI::NativeCall",
+  "version" : "0.0.4",
   "authors" : [
-    "carbin"
-  ]
+    "carbin",
+    "jonathanstowe"
+  ],
+  "description" : "A PSGI interface for FastCGI::NativeCall"
 }
 ,
 {
@@ -8639,41 +8445,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "XDG::BaseDirectory",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git",
-    "bugtracker" : "https://github.com/jonathanstowe/XDG-BaseDirectory/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "XDG::BaseDirectory" : "lib/XDG/BaseDirectory.pm"
-  },
-  "test-depends" : [
-    "File::Find",
-    "Shell::Command"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "xdg",
-    "desktop",
-    "utils"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.9",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk"
-  ],
-  "description" : "Implementation of the freedesktop.org XDG BaseDirectory specifications"
-}
-,
-{
   "name" : "Pekyll",
   "source-url" : "git://github.com/nunorc/p6-Pekyll.git",
   "perl" : "6.*",
@@ -8707,41 +8478,6 @@
     "Tony O"
   ],
   "description" : "Parallel testing utility, it's really great"
-}
-,
-{
-  "name" : "UNIX::Privileges",
-  "perl" : "6.c",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/p6-unix-privileges.git"
-  },
-  "source-url" : "git://github.com/jonathanstowe/p6-unix-privileges.git",
-  "author" : "github:carbin",
-  "build-depends" : [
-    "LibraryMake",
-    "Shell::Command"
-  ],
-  "resources" : [
-    "libraries/unix_privileges"
-  ],
-  "auth" : "github:carbin",
-  "depends" : [ ],
-  "provides" : {
-    "UNIX::Privileges" : "lib/UNIX/Privileges.pm6"
-  },
-  "test-depends" : [ ],
-  "license" : "ISC",
-  "tags" : [
-    "unix",
-    "privileges",
-    "daemon"
-  ],
-  "meta-version" : "0",
-  "version" : "0.1.1",
-  "description" : "A module for handling UNIX Privileges",
-  "authors" : [
-    "carbin"
-  ]
 }
 ,
 {
@@ -8945,7 +8681,9 @@
     "Backtrace::AsHTML",
     "Apache::LogFormat"
   ],
-  "test-depends" : [ ],
+  "test-depends" : [
+    "HTTP::Tinyish"
+  ],
   "tags" : [ ],
   "provides" : {
     "Crust::Utils" : "lib/Crust/Utils.pm6",
@@ -9601,45 +9339,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "JSON::Marshal",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+git@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/JSON-Marshal.git",
-    "bugtracker" : "https://github.com/jonathanstowe/JSON-Marshal/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/JSON-Marshal.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "JSON::Fast",
-    "JSON::Name"
-  ],
-  "provides" : {
-    "JSON::Marshal" : "lib/JSON/Marshal.pm"
-  },
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "object",
-    "serialisation",
-    "JSON"
-  ],
-  "test-depends" : [
-    "Test",
-    "JSON::Fast"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.16",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "Simple serialisation of objects to JSON"
-}
-,
-{
   "name" : "Crust::Middleware::Session",
   "perl" : "v6",
   "source-url" : "git://github.com/lestrrat/p6-Crust-Middleware-Session.git",
@@ -9674,44 +9373,6 @@
   "authors" : [
     "github:fayland"
   ]
-}
-,
-{
-  "api" : "1.0",
-  "name" : "JSON::Class",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/JSON-Class.git",
-    "bugtracker" : "https://github.com/jonathanstowe/JSON-Class/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/JSON-Class.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "JSON::Marshal",
-    "JSON::Unmarshal"
-  ],
-  "provides" : {
-    "JSON::Class" : "lib/JSON/Class.pm"
-  },
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "object",
-    "serialisation",
-    "JSON"
-  ],
-  "test-depends" : [
-    "JSON::Fast",
-    "Test"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.11",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON"
 }
 ,
 {
@@ -9836,40 +9497,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "JSON::Name",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/JSON-Name.git",
-    "bugtracker" : "https://github.com/jonathanstowe/JSON-Name/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/JSON-Name.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "JSON::Name" : "lib/JSON/Name.pm"
-  },
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "object",
-    "serialisation",
-    "JSON"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.3",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "Provides a trait to store an alternative JSON Name"
-}
-,
-{
   "name" : "Search::Dict",
   "source-url" : "git://github.com/zengargoyle/p6-Search-Dict.git",
   "perl" : "6.c",
@@ -9968,48 +9595,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "JSON::Infer",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+git@gellyfish.co.uk",
-    "irc" : "irc:// irc.freenode.net/#perl6",
-    "source" : "git://github.com/jonathanstowe/JSON-Infer.git",
-    "bugtracker" : "https://github.com/jonathanstowe/JSON-Infer/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/JSON-Infer.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "JSON::Fast",
-    "HTTP::UserAgent",
-    "JSON::Class",
-    "JSON::Name"
-  ],
-  "provides" : {
-    "JSON::Infer" : "lib/JSON/Infer.pm"
-  },
-  "test-depends" : [
-    "JSON::Fast",
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "object",
-    "serialisation",
-    "JSON"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.16",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "Infer Perl 6 Classes from JSON input"
-}
-,
-{
   "name" : "Lingua::EN::Conjugate",
   "source-url" : "https://github.com/kolikov/perl6-Lingua-EN-Conjugate.git",
   "perl" : "6.*",
@@ -10089,44 +9674,6 @@
   },
   "version" : "0.1.0",
   "description" : "Brotli compression using NativeCall"
-}
-,
-{
-  "name" : "URI::Template",
-  "perl" : "6.*",
-  "support" : {
-    "irc" : "irc:// irc.freenode.net/#perl6",
-    "email" : "jns+git@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/URI-Template.git",
-    "bugtracker" : "https://github.com/jonathanstowe/URI-Template/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/URI-Template.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "aoi" : "1.0",
-  "provides" : {
-    "URI::Template" : "lib/URI/Template.pm"
-  },
-  "test-depends" : [
-    "JSON::Fast",
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "URI",
-    "URL",
-    "Template",
-    "RFC"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.7",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "URI Templates as per https://tools.ietf.org/html/rfc6570"
 }
 ,
 {
@@ -10279,8 +9826,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "WebService::Soundcloud",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "irc" : "irc:// irc.freenode.net/#perl6",
     "source" : "git://github.com/jonathanstowe/WebService-Soundcloud.git",
@@ -10304,8 +9852,7 @@
     "WebService::Soundcloud" : "lib/WebService/Soundcloud.pm"
   },
   "test-depends" : [
-    "Test",
-    "Test::META"
+    "Test"
   ],
   "license" : "Artistic-2.0",
   "tags" : [
@@ -10314,12 +9861,12 @@
     "REST",
     "Soundcloud"
   ],
-  "version" : "0.0.6",
-  "meta6" : "0",
-  "description" : "Provide a Perl 6 interface to the Soundcloud REST API",
+  "meta-version" : "0",
+  "version" : "0.0.7",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Provide a Perl 6 interface to the Soundcloud REST API"
 }
 ,
 {
@@ -10409,42 +9956,6 @@
   },
   "version" : "1.0.0",
   "description" : "Simple web service used to update an IP address on domains.google.com if the current one has changed. "
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Chronic",
-  "perl" : "6.^",
-  "support" : {
-    "irc" : "irc:// irc.freenode.net/#perl6",
-    "source" : "git://github.com/jonathanstowe/Chronic.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Chronic/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Chronic.git",
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Chronic" : "lib/Chronic.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "util",
-    "schedule",
-    "cron",
-    "event"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.7",
-  "description" : "Low-level Scheduling thingy for Perl6",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
 }
 ,
 {
@@ -12346,39 +11857,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "Test::Util::ServerPort",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Test-Util-ServerPort.git"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Test-Util-ServerPort.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "Test::Util::ServerPort" : "lib/Test/Util/ServerPort.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "network",
-    "server",
-    "test",
-    "util"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.2",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "description" : "Get a free server port for testing with"
-}
-,
-{
   "name" : "Algorithm::BinaryIndexedTree",
   "perl" : "6.c",
   "source-url" : "git://github.com/titsuki/p6-Algorithm-BinaryIndexedTree.git",
@@ -12534,44 +12012,6 @@
   "license" : "Artistic-2.0",
   "version" : "1.0.0",
   "description" : "Test run refactored code against legacy code"
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Audio::Playlist::JSPF",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+gh@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/Audio-Playlist-JSPF.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Audio-Playlist-JSPF/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Audio-Playlist-JSPF.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "JSON::Class",
-    "JSON::Name"
-  ],
-  "provides" : {
-    "Audio::Playlist::JSPF" : "lib/Audio/Playlist/JSPF.pm"
-  },
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "playlist",
-    "music",
-    "JSON",
-    "xiph"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.3",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ],
-  "description" : "JSON representation of a 'playlist'"
 }
 ,
 {
@@ -13025,44 +12465,6 @@
     "Tony O'Dell"
   ],
   "description" : "a 'prove' replacement written entirely in the perl6 you know and love."
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Audio::Icecast",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Audio-Icecast.git"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Audio-Icecast.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "XML::Class",
-    "URI::Template",
-    "HTTP::UserAgent"
-  ],
-  "provides" : {
-    "Audio::Icecast" : "lib/Audio/Icecast.pm"
-  },
-  "test-depends" : [
-    "CheckSocket",
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "audio",
-    "util",
-    "icecast",
-    "admin"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.3",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ],
-  "description" : "Administrative helpers for an icecast server"
 }
 ,
 {
@@ -15571,78 +14973,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "URI::FetchFile",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/URI-FetchFile.git"
-  },
-  "source-url" : "git://github.com/jonathanstowe/URI-FetchFile.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "File::Which"
-  ],
-  "provides" : {
-    "URI::FetchFile" : "lib/URI/FetchFile.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "download",
-    "utility",
-    "http"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.3",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ],
-  "description" : "retrieve a file from the internet by the best available method"
-}
-,
-{
-  "api" : "1.0",
-  "name" : "Monitor::Monit",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "git://github.com/jonathanstowe/Monitor-Monit.git",
-    "bugtracker" : "https://github.com/jonathanstowe/Monitor-Monit/issues"
-  },
-  "source-url" : "git://github.com/jonathanstowe/Monitor-Monit.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "HTTP::UserAgent",
-    "URI::Template",
-    "XML::Class"
-  ],
-  "provides" : {
-    "Monitor::Monit" : "lib/Monitor/Monit.pm"
-  },
-  "test-depends" : [
-    "Test",
-    "CheckSocket"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "monitor",
-    "api",
-    "system"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.2",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ],
-  "description" : "Provide an interface to the monit monitoring daemon"
-}
-,
-{
   "name" : "Pod::Render",
   "source-url" : "git://github.com/MARTIMM/pod-render.git",
   "perl" : "6",
@@ -15982,8 +15312,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Tinky::JSON",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+gh@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/Tinky-JSON.git",
@@ -16012,12 +15343,12 @@
     "state machine",
     "JSON"
   ],
-  "version" : "0.0.4",
-  "meta6" : "0",
-  "description" : "Describe Tinky Workflows in JSON",
+  "meta-version" : "0",
+  "version" : "0.0.5",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Describe Tinky Workflows in JSON"
 }
 ,
 {
@@ -16875,40 +16206,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "EventSource::Server",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+evensourceserver@gellyfish.co.uk",
-    "source" : "https://github.com/jonathanstowe/EventSource-Server.git",
-    "bugtracker" : "https://github.com/jonathanstowe/EventSource-Server/issues"
-  },
-  "source-url" : "https://github.com/jonathanstowe/EventSource-Server.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "EventSource::Server" : "lib/EventSource/Server.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "async",
-    "event",
-    "web"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.4",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ],
-  "description" : "A simple handler to provide Server Sent Events from a PSGI app"
-}
-,
-{
   "name" : "XML::Rabbit",
   "source-url" : "git://github.com/ufobat/p6-XML-Rabbit.git",
   "perl" : "6.c",
@@ -16957,8 +16254,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Pg::Notify",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+gh@gellyfish.co.uk",
     "source" : "https://github.com/jonathanstowe/Pg-Notify.git",
@@ -16984,12 +16282,12 @@
     "postgres",
     "notification"
   ],
-  "version" : "0.0.2",
-  "meta6" : "0",
-  "description" : "Reactive interface to PostgreSQL notifies",
+  "meta-version" : "0",
+  "version" : "0.0.3",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Reactive interface to PostgreSQL notifies"
 }
 ,
 {
@@ -17545,41 +16843,6 @@
     "Matias Linares"
   ],
   "description" : "Matrix client for Perl 6"
-}
-,
-{
-  "api" : "1.9",
-  "name" : "MessagePack::Class",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+gh@gellyfish.co.uk",
-    "source" : "https://github.com/jonathanstowe/MessagePack-Class.git",
-    "bugtracker" : "https://github.com/jonathanstowe/MessagePack-Class/issues"
-  },
-  "source-url" : "https://github.com/jonathanstowe/MessagePack-Class.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "Data::MessagePack"
-  ],
-  "provides" : {
-    "MessagePack::Class" : "lib/MessagePack/Class.pm"
-  },
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "messagepack",
-    "message",
-    "serialization",
-    "data"
-  ],
-  "test-depends" : [ ],
-  "meta-version" : "0",
-  "version" : "0.0.2",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ],
-  "description" : "Serialize/Deserialize Perl 6 classes to/from MessagePack blobs"
 }
 ,
 {
@@ -19508,43 +18771,6 @@
 }
 ,
 {
-  "api" : "1.0",
-  "name" : "FastCGI::NativeCall::Async",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+gh@gellyfish.co.uk",
-    "source" : "https://github.com/jonathanstowe/FastCGI-NativeCall-Async.git",
-    "bugtracker" : "https://github.com/jonathanstowe/FastCGI-NativeCall-Async/issues"
-  },
-  "source-url" : "https://github.com/jonathanstowe/FastCGI-NativeCall-Async.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "FastCGI::NativeCall"
-  ],
-  "provides" : {
-    "FastCGI::NativeCall::Async" : "lib/FastCGI/NativeCall/Async.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "http",
-    "fastcgi",
-    "fcgi",
-    "async"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.2",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk"
-  ],
-  "description" : "A reactive wrapper for FastCGI::NatveCalll"
-}
-,
-{
   "name" : "Net::ZMQ",
   "perl" : "6.d",
   "support" : {
@@ -19669,78 +18895,6 @@
     "Gabriel Ash",
     "github:gabrielash"
   ]
-}
-,
-{
-  "api" : "1.0",
-  "name" : "MQ::Posix",
-  "perl" : "6.*",
-  "support" : {
-    "source" : "https://github.com/jonathanstowe/MQ-Posix.git",
-    "bugtracker" : "https://github.com/jonathanstowe/MQ-Posix/issues"
-  },
-  "source-url" : "https://github.com/jonathanstowe/MQ-Posix.git",
-  "build-depends" : [ ],
-  "resources" : [ ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "NativeHelpers::Array"
-  ],
-  "provides" : {
-    "MQ::Posix" : "lib/MQ/Posix.pm"
-  },
-  "test-depends" : [
-    "Test"
-  ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "posix",
-    "IPC",
-    "MQ"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.2",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ],
-  "description" : "binding for POSIX message queues"
-}
-,
-{
-  "api" : "1.0",
-  "name" : "GDBM",
-  "perl" : "6.*",
-  "support" : {
-    "email" : "jns+gh@gellyfish.co.uk",
-    "source" : "https://github.com/jonathanstowe/p6-GDBM.git",
-    "bugtracker" : "https://github.com/jonathanstowe/p6-GDBM/issues"
-  },
-  "source-url" : "https://github.com/jonathanstowe/p6-GDBM.git",
-  "build-depends" : [
-    "LibraryMake",
-    "Shell::Command"
-  ],
-  "resources" : [
-    "libraries/gdbmhelper"
-  ],
-  "auth" : "github:jonathanstowe",
-  "depends" : [ ],
-  "provides" : {
-    "GDBM" : "lib/GDBM.pm"
-  },
-  "test-depends" : [ ],
-  "license" : "Artistic-2.0",
-  "tags" : [
-    "gdbm",
-    "dbm",
-    "hash"
-  ],
-  "meta-version" : "0",
-  "version" : "0.0.4",
-  "authors" : [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ],
-  "description" : "GNU dbm binding for Perl 6"
 }
 ,
 {
@@ -21408,7 +20562,7 @@
     "Pod::To::Cached" : "lib/Cached.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.2.0",
+  "version" : "0.3.0",
   "description" : "Precompile a collection of pod files into a cache."
 }
 ,
@@ -21852,7 +21006,7 @@
     "PodCache::Engine" : "lib/PodCache/Engine.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.3.1",
+  "version" : "0.4.0",
   "description" : "Render pod files from a cache."
 }
 ,
