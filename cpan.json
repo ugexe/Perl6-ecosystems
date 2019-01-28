@@ -13563,6 +13563,109 @@
 }
 ,
 {
+  "name" : "Net::BGP",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/Net-BGP-0.0.9.tar.gz",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:JMASLAK",
+  "depends" : [
+    "if",
+    "DateTime::Monotonic",
+    "NativeHelpers::Blob",
+    "OO::Monitors",
+    "StrictClass"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Net::BGP::Message" : "lib/Net/BGP/Message.pm6",
+    "Net::BGP::Message::Notify::Header::Generic" : "lib/Net/BGP/Message/Notify/Header/Generic.pm6",
+    "Net::BGP::Connection-List" : "lib/Net/BGP/Connection-List.pm6",
+    "Net::BGP::Error::Bad-Option-Length" : "lib/Net/BGP/Error/Bad-Option-Length.pm6",
+    "Net::BGP::Error::Length-Too-Long" : "lib/Net/BGP/Error/Length-Too-Long.pm6",
+    "Net::BGP::Error::Marker-Format" : "lib/Net/BGP/Error/Marker-Format.pm6",
+    "Net::BGP::Event::New-Connection" : "lib/Net/BGP/Event/New-Connection.pm6",
+    "Net::BGP::Message::Notify::Header" : "lib/Net/BGP/Message/Notify/Header.pm6",
+    "Net::BGP::Message::Notify::Open::Unsupported-Optional-Parameter" : "lib/Net/BGP/Message/Notify/Open/Unsupported-Optional-Parameter.pm6",
+    "Net::BGP::Message::Open" : "lib/Net/BGP/Message/Open.pm6",
+    "Net::BGP::Socket" : "lib/Net/BGP/Socket.pm6",
+    "Net::BGP::Peer" : "lib/Net/BGP/Peer.pm6",
+    "Net::BGP::AS-List" : "lib/Net/BGP/AS-List.pm6",
+    "Net::BGP::Capability::MPBGP" : "lib/Net/BGP/Capability/MPBGP.pm6",
+    "Net::BGP::Controller-Handle-BGP" : "lib/Net/BGP/Controller-Handle-BGP.pm6",
+    "Net::BGP::Error::Unknown-Version" : "lib/Net/BGP/Error/Unknown-Version.pm6",
+    "Net::BGP::Message::Notify" : "lib/Net/BGP/Message/Notify.pm6",
+    "Net::BGP::Path-Attribute::AS4-Aggregator" : "lib/Net/BGP/Path-Attribute/AS4-Aggregator.pm6",
+    "Net::BGP::Path-Attribute::Generic" : "lib/Net/BGP/Path-Attribute/Generic.pm6",
+    "Net::BGP::Error::Hold-Time-Too-Short" : "lib/Net/BGP/Error/Hold-Time-Too-Short.pm6",
+    "Net::BGP::Path-Attribute::AS-Path" : "lib/Net/BGP/Path-Attribute/AS-Path.pm6",
+    "Net::BGP::Socket-Connection-Linux" : "lib/Net/BGP/Socket-Connection-Linux.pm6",
+    "Net::BGP::AFI-SAFI" : "lib/Net/BGP/AFI-SAFI.pm6",
+    "Net::BGP::Conversions-Post201812" : "lib/Net/BGP/Conversions-Post201812.pm6",
+    "Net::BGP::Message::Notify::Open" : "lib/Net/BGP/Message/Notify/Open.pm6",
+    "Net::BGP::SAFI" : "lib/Net/BGP/SAFI.pm6",
+    "Net::BGP::Path-Attribute::Origin" : "lib/Net/BGP/Path-Attribute/Origin.pm6",
+    "Net::BGP::Path-Attribute::MP-Unreachable" : "lib/Net/BGP/Path-Attribute/MP-Unreachable.pm6",
+    "Net::BGP::Path-Attribute::Atomic-Aggregate" : "lib/Net/BGP/Path-Attribute/Atomic-Aggregate.pm6",
+    "Net::BGP::Capability::Generic" : "lib/Net/BGP/Capability/Generic.pm6",
+    "Net::BGP::Command::BGP-Message" : "lib/Net/BGP/Command/BGP-Message.pm6",
+    "Net::BGP::Controller" : "lib/Net/BGP/Controller.pm6",
+    "Net::BGP::Message::Notify::Header::Connection-Not-Syncronized" : "lib/Net/BGP/Message/Notify/Header/Connection-Not-Syncronized.pm6",
+    "Net::BGP::Path-Attribute" : "lib/Net/BGP/Path-Attribute.pm6",
+    "Net::BGP::Path-Attribute::Next-Hop" : "lib/Net/BGP/Path-Attribute/Next-Hop.pm6",
+    "Net::BGP::Connection-Role" : "lib/Net/BGP/Connection-Role.pm6",
+    "Net::BGP::Event::BGP-Message" : "lib/Net/BGP/Event/BGP-Message.pm6",
+    "Net::BGP::Message::Keep-Alive" : "lib/Net/BGP/Message/Keep-Alive.pm6",
+    "Net::BGP" : "lib/Net/BGP.pm6",
+    "Net::BGP::Capability::Route-Refresh" : "lib/Net/BGP/Capability/Route-Refresh.pm6",
+    "Net::BGP::Message::Generic" : "lib/Net/BGP/Message/Generic.pm6",
+    "Net::BGP::Message::Notify::Open::Generic" : "lib/Net/BGP/Message/Notify/Open/Generic.pm6",
+    "Net::BGP::Parameter" : "lib/Net/BGP/Parameter.pm6",
+    "Net::BGP::Peer-List" : "lib/Net/BGP/Peer-List.pm6",
+    "Net::BGP::Path-Attribute::Originator-ID" : "lib/Net/BGP/Path-Attribute/Originator-ID.pm6",
+    "Net::BGP::Path-Attribute::MP-NLRI" : "lib/Net/BGP/Path-Attribute/MP-NLRI.pm6",
+    "Net::BGP::Path-Attribute::Cluster-List" : "lib/Net/BGP/Path-Attribute/Cluster-List.pm6",
+    "Net::BGP::AFI" : "lib/Net/BGP/AFI.pm6",
+    "Net::BGP::Error::Length-Too-Short" : "lib/Net/BGP/Error/Length-Too-Short.pm6",
+    "Net::BGP::IP" : "lib/Net/BGP/IP.pm6",
+    "Net::BGP::Message::Notify::Generic" : "lib/Net/BGP/Message/Notify/Generic.pm6",
+    "Net::BGP::Message::Notify::Hold-Timer-Expired" : "lib/Net/BGP/Message/Notify/Hold-Timer-Expired.pm6",
+    "Net::BGP::Socket-Linux" : "lib/Net/BGP/Socket-Linux.pm6",
+    "Net::BGP::Capability::ASN32" : "lib/Net/BGP/Capability/ASN32.pm6",
+    "Net::BGP::Error::Bad-Parameter-Length" : "lib/Net/BGP/Error/Bad-Parameter-Length.pm6",
+    "Net::BGP::Time" : "lib/Net/BGP/Time.pm6",
+    "Net::BGP::Path-Attribute::MED" : "lib/Net/BGP/Path-Attribute/MED.pm6",
+    "Net::BGP::Command::Dead-Child" : "lib/Net/BGP/Command/Dead-Child.pm6",
+    "Net::BGP::Command::Stop" : "lib/Net/BGP/Command/Stop.pm6",
+    "Net::BGP::Path-Attribute::Aggregator" : "lib/Net/BGP/Path-Attribute/Aggregator.pm6",
+    "Net::BGP::Capability" : "lib/Net/BGP/Capability.pm6",
+    "Net::BGP::Error" : "lib/Net/BGP/Error.pm6",
+    "Net::BGP::Message::Notify::Open::Bad-Peer-AS" : "lib/Net/BGP/Message/Notify/Open/Bad-Peer-AS.pm6",
+    "Net::BGP::Path-Attribute::Local-Pref" : "lib/Net/BGP/Path-Attribute/Local-Pref.pm6",
+    "Net::BGP::CIDR" : "lib/Net/BGP/CIDR.pm6",
+    "Net::BGP::Connection" : "lib/Net/BGP/Connection.pm6",
+    "Net::BGP::Event::Closed-Connection" : "lib/Net/BGP/Event/Closed-Connection.pm6",
+    "Net::BGP::Parameter::Capabilities" : "lib/Net/BGP/Parameter/Capabilities.pm6",
+    "Net::BGP::Path-Attribute::Community" : "lib/Net/BGP/Path-Attribute/Community.pm6",
+    "Net::BGP::Command" : "lib/Net/BGP/Command.pm6",
+    "Net::BGP::Conversions-Pre201812" : "lib/Net/BGP/Conversions-Pre201812.pm6",
+    "Net::BGP::Event" : "lib/Net/BGP/Event.pm6",
+    "Net::BGP::Message::Update" : "lib/Net/BGP/Message/Update.pm6",
+    "Net::BGP::Path-Attribute::AS4-Path" : "lib/Net/BGP/Path-Attribute/AS4-Path.pm6",
+    "Net::BGP::Conversions" : "lib/Net/BGP/Conversions.pm6",
+    "Net::BGP::Message::Notify::Open::Unsupported-Version" : "lib/Net/BGP/Message/Notify/Open/Unsupported-Version.pm6",
+    "Net::BGP::Parameter::Generic" : "lib/Net/BGP/Parameter/Generic.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.9",
+  "description" : "BGP Server Support",
+  "authors" : [
+    "Joelle Maslak"
+  ]
+}
+,
+{
   "name" : "Algorithm::Evolutionary::Simple",
   "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.3.1.tar.gz",
   "perl" : "6.*",
@@ -16904,6 +17007,44 @@
 }
 ,
 {
+  "name" : "Audio::Sndfile",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Audio-Sndfile.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Audio-Sndfile/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Sndfile-0.0.13.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "LibraryCheck",
+    "File::Find",
+    "Shell::Command"
+  ],
+  "tags" : [
+    "audio",
+    "utils",
+    "convert"
+  ],
+  "provides" : {
+    "Audio::Sndfile" : "lib/Audio/Sndfile.pm",
+    "Audio::Sndfile::Info" : "lib/Audio/Sndfile/Info.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.13",
+  "meta-version" : "0",
+  "description" : "Binding for libsndfile - read/write multiple audio formats",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "CheckSocket",
   "api" : "1.0",
   "support" : {
@@ -17223,6 +17364,43 @@
   "description" : "A reactive wrapper for FastCGI::NatveCalll",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk"
+  ]
+}
+,
+{
+  "name" : "FastCGI::NativeCall::PSGI",
+  "api" : "1,0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/p6-fcgi-psgi.git",
+    "bugtracker" : "https://github.com/jonathanstowe/p6-fcgi-psgi/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/FastCGI-NativeCall-PSGI-0.0.4.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "github:carbin",
+  "auth" : "github:carbin",
+  "depends" : [
+    "PSGI",
+    "FastCGI::NativeCall"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "http",
+    "fastcgi",
+    "fcgi",
+    "psgi"
+  ],
+  "provides" : {
+    "FastCGI::NativeCall::PSGI" : "lib/FastCGI/NativeCall/PSGI.pm6"
+  },
+  "license" : "ISC",
+  "version" : "0.0.4",
+  "meta-version" : "0",
+  "description" : "A PSGI interface for FastCGI::NativeCall",
+  "authors" : [
+    "carbin",
+    "jonathanstowe"
   ]
 }
 ,
@@ -18000,6 +18178,44 @@
 }
 ,
 {
+  "name" : "Monitor::Monit",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/Monitor-Monit.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Monitor-Monit/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Monitor-Monit-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "HTTP::UserAgent",
+    "URI::Template",
+    "XML::Class"
+  ],
+  "test-depends" : [
+    "Test",
+    "CheckSocket"
+  ],
+  "tags" : [
+    "monitor",
+    "api",
+    "system"
+  ],
+  "provides" : {
+    "Monitor::Monit" : "lib/Monitor/Monit.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "Provide an interface to the monit monitoring daemon",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "NativeHelpers::Array",
   "api" : "1.0",
   "support" : {
@@ -18102,6 +18318,43 @@
   "description" : "Object helper for Object::Permission using unix groups.",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Pg::Notify",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "https://github.com/jonathanstowe/Pg-Notify.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Pg-Notify/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Pg-Notify-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "DBIish",
+    "NativeHelpers::CStruct"
+  ],
+  "test-depends" : [
+    "DBIish"
+  ],
+  "tags" : [
+    "database",
+    "postgres",
+    "notification"
+  ],
+  "provides" : {
+    "Pg::Notify" : "lib/Pg/Notify.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "Reactive interface to PostgreSQL notifies",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ]
 }
 ,
@@ -18218,6 +18471,46 @@
   "version" : "0.0.2",
   "meta-version" : "0",
   "description" : "Get a free server port for testing with",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Tinky::JSON",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Tinky-JSON.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Tinky-JSON/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Tinky-JSON-0.0.5.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "Tinky",
+    "JSON::Name",
+    "JSON::Unmarshal",
+    "JSON::Class"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "Workflow",
+    "toolkit",
+    "state machine",
+    "JSON"
+  ],
+  "provides" : {
+    "Tinky::JSON" : "lib/Tinky/JSON.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "meta-version" : "0",
+  "description" : "Describe Tinky Workflows in JSON",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
@@ -18361,6 +18654,50 @@
   "description" : "Utility subroutines for working with bitfields",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "WebService::Soundcloud",
+  "api" : "1.0",
+  "support" : {
+    "irc" : "irc:// irc.freenode.net/#perl6",
+    "source" : "git://github.com/jonathanstowe/WebService-Soundcloud.git",
+    "bugtracker" : "https://github.com/jonathanstowe/WebService-Soundcloud/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/WebService-Soundcloud-0.0.7.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Fast",
+    "URI",
+    "URI::Template",
+    "HTTP::UserAgent",
+    "IO::Socket::SSL",
+    "JSON::Class",
+    "JSON::Name"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "API",
+    "Webservice",
+    "REST",
+    "Soundcloud"
+  ],
+  "provides" : {
+    "WebService::Soundcloud" : "lib/WebService/Soundcloud.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "meta-version" : "0",
+  "description" : "Provide a Perl 6 interface to the Soundcloud REST API",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
 }
 ,
@@ -19692,68 +20029,6 @@
   "license" : "Artistic-2.0",
   "version" : "0.3.1.3",
   "description" : "XML Actions",
-  "authors" : [
-    "Marcel Timmerman"
-  ]
-}
-,
-{
-  "name" : "GTK::Glade",
-  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-glade-0.3.0.tar.gz",
-  "perl" : "6",
-  "build-depends" : [ ],
-  "depends" : [
-    "XML::Actions",
-    "GTK::Simple"
-  ],
-  "test-depends" : [
-    "Test::META"
-  ],
-  "tags" : [
-    "XML",
-    "Glade",
-    "Gtk",
-    "Gtk+"
-  ],
-  "provides" : {
-    "GTK::Glade" : "lib/GTK/Glade.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.3.0.1",
-  "description" : "Interfacing Glade XML to Perl6",
-  "authors" : [
-    "Marcel Timmerman"
-  ]
-}
-,
-{
-  "name" : "GTK::Glade",
-  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-glade-0.6.2.tar.gz",
-  "perl" : "6",
-  "build-depends" : [ ],
-  "depends" : [
-    "XML::Actions"
-  ],
-  "X-test-depends" : [
-    "Test::META"
-  ],
-  "tags" : [
-    "XML",
-    "Glade",
-    "Gtk"
-  ],
-  "provides" : {
-    "GTK::Glade::NativeLib" : "lib/GTK/Glade/NativeLib.pm6",
-    "GTK::Glade::Engine::Work" : "lib/GTK/Glade/Engine/Work.pm6",
-    "GTK::Glade::Engine::Test" : "lib/GTK/Glade/Engine/Test.pm6",
-    "GTK::Glade::NativeGtk" : "lib/GTK/Glade/NativeGtk.pm6",
-    "GTK::Glade::Engine::PreProcess" : "lib/GTK/Glade/Engine/PreProcess.pm6",
-    "GTK::Glade" : "lib/GTK/Glade.pm6",
-    "GTK::Glade::Engine" : "lib/GTK/Glade/Engine.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.6.2",
-  "description" : "Interfacing Glade XML to Perl6",
   "authors" : [
     "Marcel Timmerman"
   ]
