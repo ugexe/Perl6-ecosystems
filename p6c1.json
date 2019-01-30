@@ -11525,8 +11525,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Tinky",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+git@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/Tinky.git",
@@ -11550,11 +11551,11 @@
     "state machine"
   ],
   "meta-version" : "0",
-  "version" : "0.0.6",
-  "description" : "An Experimental Workflow / State Management toolit",
+  "version" : "0.0.7",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "An Experimental Workflow / State Management toolit"
 }
 ,
 {
@@ -12109,8 +12110,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "XML::Class",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+gh@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/XML-Class.git",
@@ -12137,11 +12139,11 @@
     "framework"
   ],
   "meta-version" : "0",
-  "version" : "0.0.5",
-  "description" : "Role to Serialize/De-Serialize a Perl 6 class to/from XML",
+  "version" : "0.0.6",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.com.uk>"
-  ]
+  ],
+  "description" : "Role to Serialize/De-Serialize a Perl 6 class to/from XML"
 }
 ,
 {
@@ -12242,8 +12244,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Audio::Hydrogen",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "source" : "https://github.com/jonathanstowe/Audio-Hydrogen.git"
   },
@@ -12270,12 +12273,12 @@
     "drumkit",
     "xml"
   ],
-  "version" : "0.0.3",
-  "meta6" : "0",
-  "description" : "Work with Hydrogen songs and drumkits",
+  "meta-version" : "0",
+  "version" : "0.0.4",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Work with Hydrogen songs and drumkits"
 }
 ,
 {
@@ -19468,7 +19471,7 @@
     "IO"
   ],
   "license" : "Artistic-2.0",
-  "version" : "1.001002",
+  "version" : "1.001003",
   "authors" : [
     "Zoffix Znet"
   ],
@@ -21007,7 +21010,7 @@
     "PodCache::Engine" : "lib/PodCache/Engine.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.4.0",
+  "version" : "0.3.1",
   "description" : "Render pod files from a cache."
 }
 ,
