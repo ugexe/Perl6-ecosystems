@@ -167,6 +167,31 @@
 }
 ,
 {
+  "name" : "Canoe",
+  "support" : {
+    "source" : "https://github.com/perl6-song/canoe.git",
+    "bugtracker" : "https://github.com/perl6-song/canoe/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/Canoe-0.0.1.tar.gz",
+  "perl" : "6.*",
+  "auth" : "github:araraloren",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "plug",
+    "plug-in",
+    "pluggable"
+  ],
+  "provides" : {
+    "Canoe" : "lib/Canoe.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.1",
+  "description" : "An simple thread-safe plug-in framework for Perl 6",
+  "authors" : "Loren"
+}
+,
+{
   "name" : "Getopt::Advance",
   "support" : {
     "source" : "https://github.com/araraloren/perl6-getopt-advance.git",
@@ -16917,6 +16942,44 @@
 }
 ,
 {
+  "name" : "Audio::Hydrogen",
+  "api" : "1.0",
+  "support" : {
+    "source" : "https://github.com/jonathanstowe/Audio-Hydrogen.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Hydrogen-0.0.4.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "XML::Class"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "audio",
+    "drumkit",
+    "xml"
+  ],
+  "provides" : {
+    "Audio::Hydrogen::Pattern" : "lib/Audio/Hydrogen/Pattern.pm",
+    "Audio::Hydrogen::Drumkit" : "lib/Audio/Hydrogen/Drumkit.pm",
+    "Audio::Hydrogen" : "lib/Audio/Hydrogen.pm",
+    "Audio::Hydrogen::Song" : "lib/Audio/Hydrogen/Song.pm",
+    "Audio::Hydrogen::Instrument" : "lib/Audio/Hydrogen/Instrument.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "meta-version" : "0",
+  "description" : "Work with Hydrogen songs and drumkits",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Audio::Icecast",
   "api" : "1.0",
   "support" : {
@@ -18581,6 +18644,40 @@
 }
 ,
 {
+  "name" : "Tinky",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Tinky.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Tinky/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Tinky-0.0.7.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "Workflow",
+    "toolkit",
+    "state machine"
+  ],
+  "provides" : {
+    "Tinky" : "lib/Tinky.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "meta-version" : "0",
+  "description" : "An Experimental Workflow / State Management toolit",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Tinky::JSON",
   "api" : "1.0",
   "support" : {
@@ -18875,6 +18972,43 @@
   "description" : "Implementation of the freedesktop.org XDG BaseDirectory specifications",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk"
+  ]
+}
+,
+{
+  "name" : "XML::Class",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/XML-Class.git",
+    "bugtracker" : "https://github.com/jonathanstowe/XML-Class/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/XML-Class-0.0.6.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "XML"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "XML",
+    "object",
+    "role",
+    "framework"
+  ],
+  "provides" : {
+    "XML::Class" : "lib/XML/Class.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
+  "meta-version" : "0",
+  "description" : "Role to Serialize/De-Serialize a Perl 6 class to/from XML",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.com.uk>"
   ]
 }
 ,
