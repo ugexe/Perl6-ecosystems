@@ -12934,8 +12934,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Lumberjack::Application",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+gh@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/Lumberjack-Application.git",
@@ -12977,11 +12978,11 @@
     "p6sgi"
   ],
   "meta-version" : "0",
-  "version" : "0.0.6",
-  "description" : "A web facility for the Lumberjack logging framework",
+  "version" : "0.0.7",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "A web facility for the Lumberjack logging framework"
 }
 ,
 {
@@ -17622,16 +17623,16 @@
 {
   "name" : "Temp::Path",
   "support" : {
-    "source" : "https://github.com/zoffixznet/perl6-Temp-Path.git"
+    "source" : "https://github.com/ufobat/perl6-Temp-Path.git"
   },
+  "source-url" : "https://github.com/ufobat/perl6-Temp-Path.git",
   "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
   "depends" : [
     "Digest::SHA",
     "File::Directory::Tree"
   ],
-  "provides" : {
-    "Temp::Path" : "lib/Temp/Path.pm6"
-  },
   "test-depends" : [
     "Testo",
     "Test::META"
@@ -17639,12 +17640,16 @@
   "tags" : [
     "filesystem"
   ],
+  "provides" : {
+    "Temp::Path" : "lib/Temp/Path.pm6"
+  },
   "license" : "Artistic-2.0",
-  "version" : "1.001006",
+  "version" : "1.001007",
+  "description" : "Make a temporary path, file, or directory",
   "authors" : [
-    "Zoffix Znet"
-  ],
-  "description" : "Make a temporary path, file, or directory"
+    "Zoffix Znet",
+    "Martin Barth (ufobat)"
+  ]
 }
 ,
 {
