@@ -14293,6 +14293,47 @@
 }
 ,
 {
+  "name" : "Cro::WebSocket",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-WebSocket-0.8.0.1.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [
+    "Cro::HTTP",
+    "Base64",
+    "Digest::SHA1::Native",
+    "Crypt::Random",
+    "JSON::Fast"
+  ],
+  "tags" : [
+    "WebSocket",
+    "Client",
+    "Server"
+  ],
+  "provides" : {
+    "Cro::WebSocket::Message::Opcode" : "lib/Cro/WebSocket/Message/Opcode.pm6",
+    "Cro::WebSocket::FrameSerializer" : "lib/Cro/WebSocket/FrameSerializer.pm6",
+    "Cro::HTTP::Router::WebSocket" : "lib/Cro/HTTP/Router/WebSocket.pm6",
+    "Cro::WebSocket::Handler" : "lib/Cro/WebSocket/Handler.pm6",
+    "Cro::WebSocket::FrameParser" : "lib/Cro/WebSocket/FrameParser.pm6",
+    "Cro::WebSocket::Frame" : "lib/Cro/WebSocket/Frame.pm6",
+    "Cro::WebSocket::MessageParser" : "lib/Cro/WebSocket/MessageParser.pm6",
+    "Cro::WebSocket::Internal" : "lib/Cro/WebSocket/Internal.pm6",
+    "Cro::WebSocket::BodySerializers" : "lib/Cro/WebSocket/BodySerializers.pm6",
+    "Cro::WebSocket::MessageSerializer" : "lib/Cro/WebSocket/MessageSerializer.pm6",
+    "Cro::WebSocket::Client::Connection" : "lib/Cro/WebSocket/Client/Connection.pm6",
+    "Cro::WebSocket::Client" : "lib/Cro/WebSocket/Client.pm6",
+    "Cro::WebSocket::BodyParsers" : "lib/Cro/WebSocket/BodyParsers.pm6",
+    "Cro::WebSocket::Message" : "lib/Cro/WebSocket/Message.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.8.0.1",
+  "description" : "WebSocket client, and WebSocket support in the Cro HTTP router.",
+  "authors" : [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ]
+}
+,
+{
   "name" : "IO::Socket::Async::SSL",
   "support" : {
     "source" : "https://github.com/jnthn/p6-io-socket-async-ssl.git"
@@ -18092,6 +18133,58 @@
 }
 ,
 {
+  "name" : "Lumberjack::Application",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Lumberjack-Application.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Lumberjack-Application/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-Application-0.0.7.tar.gz",
+  "perl" : "6.*",
+  "resources" : [
+    "templates/index.tt"
+  ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "Lumberjack",
+    "HTTP::UserAgent",
+    "HTTP::Server::Tiny",
+    "Crust",
+    "WebSocket",
+    "JSON::Class",
+    "Template6"
+  ],
+  "test-depends" : [
+    "Test::Util::ServerPort"
+  ],
+  "tags" : [
+    "logging",
+    "lumberjack",
+    "websocket",
+    "p6sgi"
+  ],
+  "provides" : {
+    "Lumberjack::Dispatcher::Supply" : "lib/Lumberjack/Dispatcher/Supply.pm",
+    "Lumberjack::Dispatcher::Proxy" : "lib/Lumberjack/Dispatcher/Proxy.pm",
+    "Lumberjack::Application::PSGI" : "lib/Lumberjack/Application/PSGI.pm",
+    "Lumberjack::Template::Provider" : "lib/Lumberjack/Template/Provider.pm",
+    "Lumberjack::Application" : "lib/Lumberjack/Application.pm",
+    "Lumberjack::Message::JSON" : "lib/Lumberjack/Message/JSON.pm",
+    "Lumberjack::Application::Index" : "lib/Lumberjack/Application/Index.pm",
+    "Lumberjack::Application::WebSocket" : "lib/Lumberjack/Application/WebSocket.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "meta-version" : "0",
+  "description" : "A web facility for the Lumberjack logging framework",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Lumberjack::Dispatcher::Syslog",
   "api" : "1.0",
   "support" : {
@@ -19416,6 +19509,63 @@
 {
   "name" : "App::Platform",
   "source-url" : "http://www.cpan.org/authors/id/K/KA/KAJI/Perl6/App-Platform-0.4.2.tar.gz",
+  "perl" : "6",
+  "auth" : "github:7ojo",
+  "depends" : [
+    "Text::Wrap",
+    "YAMLish",
+    "JSON::Tiny",
+    "Terminal::ANSIColor",
+    "CommandLine::Usage",
+    "Template::Mustache"
+  ],
+  "tags" : [
+    "Platform",
+    "Docker",
+    "Tool",
+    "Development"
+  ],
+  "provides" : {
+    "App::Platform::Environment" : "lib/App/Platform/Environment.pm6",
+    "App::Platform::Docker::DNS::Linux" : "lib/App/Platform/Docker/DNS/Linux.pm6",
+    "App::Platform::CLI::Create" : "lib/App/Platform/CLI/Create.pm6",
+    "App::Platform::Util::OS" : "lib/App/Platform/Util/OS.pm6",
+    "App::Platform::Git" : "lib/App/Platform/Git.pm6",
+    "App::Platform::Docker::Proxy" : "lib/App/Platform/Docker/Proxy.pm6",
+    "App::Platform::Docker::DNS::MacOS" : "lib/App/Platform/Docker/DNS/MacOS.pm6",
+    "App::Platform::CLI::Attach" : "lib/App/Platform/CLI/Attach.pm6",
+    "App::Platform" : "lib/App/Platform.pm6",
+    "App::Platform::Project" : "lib/App/Platform/Project.pm6",
+    "App::Platform::Docker::DNS::Windows" : "lib/App/Platform/Docker/DNS/Windows.pm6",
+    "App::Platform::Container" : "lib/App/Platform/Container.pm6",
+    "App::Platform::CLI::Stop" : "lib/App/Platform/CLI/Stop.pm6",
+    "App::Platform::CLI::SSL" : "lib/App/Platform/CLI/SSL.pm6",
+    "App::Platform::CLI::Run" : "lib/App/Platform/CLI/Run.pm6",
+    "App::Platform::CLI::Rm" : "lib/App/Platform/CLI/Rm.pm6",
+    "App::Platform::Output" : "lib/App/Platform/Output.pm6",
+    "App::Platform::CLI::SSH" : "lib/App/Platform/CLI/SSH.pm6",
+    "App::Platform::CLI::Destroy" : "lib/App/Platform/CLI/Destroy.pm6",
+    "App::Platform::Docker::DNS" : "lib/App/Platform/Docker/DNS.pm6",
+    "App::Platform::CLI::Start" : "lib/App/Platform/CLI/Start.pm6",
+    "App::Platform::CLI" : "lib/App/Platform/CLI.pm6",
+    "App::Platform::Docker::Command" : "lib/App/Platform/Docker/Command.pm6",
+    "App::Platform::CLI::Remove" : "lib/App/Platform/CLI/Remove.pm6",
+    "App::Platform::CLI::Info" : "lib/App/Platform/CLI/Info.pm6",
+    "App::Platform::Git::Command" : "lib/App/Platform/Git/Command.pm6",
+    "App::Platform::Docker::Container" : "lib/App/Platform/Docker/Container.pm6",
+    "App::Platform::Command" : "lib/App/Platform/Command.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.4.2",
+  "description" : "Tool for constructing development environments",
+  "authors" : [
+    "Jarkko Haapalainen <jarkko@viidakko.fi>"
+  ]
+}
+,
+{
+  "name" : "App::Platform",
+  "source-url" : "http://www.cpan.org/authors/id/K/KA/KAJI/Perl6/App-Platform-0.4.3.tar.gz",
   "perl" : "6",
   "auth" : "github:7ojo",
   "depends" : [
@@ -34130,6 +34280,38 @@ null
   "description" : "Make your object constructors blow up on unknown attributes",
   "authors" : [
     "Martin Barth"
+  ]
+}
+,
+{
+  "name" : "Temp::Path",
+  "support" : {
+    "source" : "https://github.com/ufobat/perl6-Temp-Path.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/Temp-Path-1.001007.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Digest::SHA",
+    "File::Directory::Tree"
+  ],
+  "test-depends" : [
+    "Testo",
+    "Test::META"
+  ],
+  "tags" : [
+    "filesystem"
+  ],
+  "provides" : {
+    "Temp::Path" : "lib/Temp/Path.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.001007",
+  "description" : "Make a temporary path, file, or directory",
+  "authors" : [
+    "Zoffix Znet",
+    "Martin Barth (ufobat)"
   ]
 }
 ,
