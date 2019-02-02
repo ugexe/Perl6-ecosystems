@@ -1979,6 +1979,74 @@
 }
 ,
 {
+  "name" : "DB",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-db.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-db/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/DB-0.2.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "Concurrent::Stack"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "DATABASE"
+  ],
+  "provides" : {
+    "DB::Result" : "lib/DB/Result.pm6",
+    "DB::Mock" : "lib/DB/Mock.pm6",
+    "DB::Connection" : "lib/DB/Connection.pm6",
+    "DB" : "lib/DB.pm6",
+    "DB::Statement" : "lib/DB/Statement.pm6"
+  },
+  "license" : "BSD-2-Clause",
+  "version" : "0.2",
+  "description" : "Base roles for DB::* family of SQL Database modules",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "DB",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-db.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-db/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/DB-0.3.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "Concurrent::Stack:ver<1.0>"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "DATABASE"
+  ],
+  "provides" : {
+    "DB::Result" : "lib/DB/Result.pm6",
+    "DB::Mock" : "lib/DB/Mock.pm6",
+    "DB::Connection" : "lib/DB/Connection.pm6",
+    "DB" : "lib/DB.pm6",
+    "DB::Statement" : "lib/DB/Statement.pm6"
+  },
+  "license" : "BSD-2-Clause",
+  "version" : "0.3",
+  "description" : "Base roles for DB::* family of SQL Database modules",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
+  ]
+}
+,
+{
   "name" : "DB::MySQL",
   "support" : {
     "source" : "https://github.com/CurtTilmes/perl6-dbmysql.git",
