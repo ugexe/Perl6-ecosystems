@@ -20813,11 +20813,50 @@
     "ASN::Types" : "lib/ASN/Types.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.5",
+  "version" : "0.5.1",
   "authors" : [
     "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>"
   ],
   "description" : "ASN.1 BER encoding and decoding tool"
+}
+,
+{
+  "name" : "ASN::Grammar",
+  "perl" : "6.c",
+  "source-url" : "https://github.com/Altai-man/ASN-Grammar.git",
+  "resources" : [ ],
+  "auth" : "github:Altai-man",
+  "depends" : [ ],
+  "provides" : {
+    "ASN::Grammar" : "lib/ASN/Grammar.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2",
+  "authors" : [
+    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>"
+  ],
+  "description" : "A grammar to parse subset of ASN.1"
+}
+,
+{
+  "name" : "ASN::META",
+  "source-url" : "https://github.com/Altai-man/ASN-META.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "auth" : "github:Altai-man",
+  "depends" : [
+    "ASN::Grammar",
+    "ASN::BER"
+  ],
+  "provides" : {
+    "ASN::META" : "lib/ASN/META.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1",
+  "authors" : [
+    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>"
+  ],
+  "description" : "A MOP-based compile-time ASN.1 spec evaluator"
 }
 ,
 {
