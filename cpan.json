@@ -13863,6 +13863,110 @@
 }
 ,
 {
+  "name" : "Net::BGP",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/Net-BGP-0.1.1.tar.gz",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:JMASLAK",
+  "depends" : [
+    "if",
+    "DateTime::Monotonic",
+    "NativeHelpers::Blob",
+    "OO::Monitors",
+    "StrictClass"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Net::BGP::Message" : "lib/Net/BGP/Message.pm6",
+    "Net::BGP::Message::Notify::Header::Generic" : "lib/Net/BGP/Message/Notify/Header/Generic.pm6",
+    "Net::BGP::Connection-List" : "lib/Net/BGP/Connection-List.pm6",
+    "Net::BGP::Error::Bad-Option-Length" : "lib/Net/BGP/Error/Bad-Option-Length.pm6",
+    "Net::BGP::Error::Length-Too-Long" : "lib/Net/BGP/Error/Length-Too-Long.pm6",
+    "Net::BGP::Error::Marker-Format" : "lib/Net/BGP/Error/Marker-Format.pm6",
+    "Net::BGP::Event::New-Connection" : "lib/Net/BGP/Event/New-Connection.pm6",
+    "Net::BGP::Message::Notify::Header" : "lib/Net/BGP/Message/Notify/Header.pm6",
+    "Net::BGP::Message::Notify::Open::Unsupported-Optional-Parameter" : "lib/Net/BGP/Message/Notify/Open/Unsupported-Optional-Parameter.pm6",
+    "Net::BGP::Message::Open" : "lib/Net/BGP/Message/Open.pm6",
+    "Net::BGP::Socket" : "lib/Net/BGP/Socket.pm6",
+    "Net::BGP::Peer" : "lib/Net/BGP/Peer.pm6",
+    "Net::BGP::AS-List" : "lib/Net/BGP/AS-List.pm6",
+    "Net::BGP::Capability::MPBGP" : "lib/Net/BGP/Capability/MPBGP.pm6",
+    "Net::BGP::Controller-Handle-BGP" : "lib/Net/BGP/Controller-Handle-BGP.pm6",
+    "Net::BGP::Error::Unknown-Version" : "lib/Net/BGP/Error/Unknown-Version.pm6",
+    "Net::BGP::Message::Notify" : "lib/Net/BGP/Message/Notify.pm6",
+    "Net::BGP::Path-Attribute::AS4-Aggregator" : "lib/Net/BGP/Path-Attribute/AS4-Aggregator.pm6",
+    "Net::BGP::Path-Attribute::Generic" : "lib/Net/BGP/Path-Attribute/Generic.pm6",
+    "Net::BGP::Error::Hold-Time-Too-Short" : "lib/Net/BGP/Error/Hold-Time-Too-Short.pm6",
+    "Net::BGP::Path-Attribute::AS-Path" : "lib/Net/BGP/Path-Attribute/AS-Path.pm6",
+    "Net::BGP::Validation" : "lib/Net/BGP/Validation.pm6",
+    "Net::BGP::Socket-Connection-Linux" : "lib/Net/BGP/Socket-Connection-Linux.pm6",
+    "Net::BGP::AFI-SAFI" : "lib/Net/BGP/AFI-SAFI.pm6",
+    "Net::BGP::Conversions-Post201812" : "lib/Net/BGP/Conversions-Post201812.pm6",
+    "Net::BGP::Message::Notify::Open" : "lib/Net/BGP/Message/Notify/Open.pm6",
+    "Net::BGP::SAFI" : "lib/Net/BGP/SAFI.pm6",
+    "Net::BGP::Path-Attribute::Origin" : "lib/Net/BGP/Path-Attribute/Origin.pm6",
+    "Net::BGP::Path-Attribute::MP-Unreachable" : "lib/Net/BGP/Path-Attribute/MP-Unreachable.pm6",
+    "Net::BGP::Path-Attribute::Atomic-Aggregate" : "lib/Net/BGP/Path-Attribute/Atomic-Aggregate.pm6",
+    "Net::BGP::Capability::Generic" : "lib/Net/BGP/Capability/Generic.pm6",
+    "Net::BGP::Command::BGP-Message" : "lib/Net/BGP/Command/BGP-Message.pm6",
+    "Net::BGP::Controller" : "lib/Net/BGP/Controller.pm6",
+    "Net::BGP::Message::Notify::Header::Connection-Not-Syncronized" : "lib/Net/BGP/Message/Notify/Header/Connection-Not-Syncronized.pm6",
+    "Net::BGP::Path-Attribute" : "lib/Net/BGP/Path-Attribute.pm6",
+    "Net::BGP::Path-Attribute::Next-Hop" : "lib/Net/BGP/Path-Attribute/Next-Hop.pm6",
+    "Net::BGP::Connection-Role" : "lib/Net/BGP/Connection-Role.pm6",
+    "Net::BGP::Event::BGP-Message" : "lib/Net/BGP/Event/BGP-Message.pm6",
+    "Net::BGP::Message::Keep-Alive" : "lib/Net/BGP/Message/Keep-Alive.pm6",
+    "Net::BGP" : "lib/Net/BGP.pm6",
+    "Net::BGP::Capability::Route-Refresh" : "lib/Net/BGP/Capability/Route-Refresh.pm6",
+    "Net::BGP::Message::Generic" : "lib/Net/BGP/Message/Generic.pm6",
+    "Net::BGP::Message::Notify::Open::Generic" : "lib/Net/BGP/Message/Notify/Open/Generic.pm6",
+    "Net::BGP::Parameter" : "lib/Net/BGP/Parameter.pm6",
+    "Net::BGP::Peer-List" : "lib/Net/BGP/Peer-List.pm6",
+    "Net::BGP::Path-Attribute::Originator-ID" : "lib/Net/BGP/Path-Attribute/Originator-ID.pm6",
+    "Net::BGP::Path-Attribute::MP-NLRI" : "lib/Net/BGP/Path-Attribute/MP-NLRI.pm6",
+    "Net::BGP::Path-Attribute::Cluster-List" : "lib/Net/BGP/Path-Attribute/Cluster-List.pm6",
+    "Net::BGP::AFI" : "lib/Net/BGP/AFI.pm6",
+    "Net::BGP::Error::Length-Too-Short" : "lib/Net/BGP/Error/Length-Too-Short.pm6",
+    "Net::BGP::IP" : "lib/Net/BGP/IP.pm6",
+    "Net::BGP::Message::Notify::Generic" : "lib/Net/BGP/Message/Notify/Generic.pm6",
+    "Net::BGP::Message::Notify::Hold-Timer-Expired" : "lib/Net/BGP/Message/Notify/Hold-Timer-Expired.pm6",
+    "Net::BGP::Socket-Linux" : "lib/Net/BGP/Socket-Linux.pm6",
+    "Net::BGP::Capability::ASN32" : "lib/Net/BGP/Capability/ASN32.pm6",
+    "Net::BGP::Error::Bad-Parameter-Length" : "lib/Net/BGP/Error/Bad-Parameter-Length.pm6",
+    "Net::BGP::Time" : "lib/Net/BGP/Time.pm6",
+    "Net::BGP::Path-Attribute::MED" : "lib/Net/BGP/Path-Attribute/MED.pm6",
+    "Net::BGP::Command::Dead-Child" : "lib/Net/BGP/Command/Dead-Child.pm6",
+    "Net::BGP::Command::Stop" : "lib/Net/BGP/Command/Stop.pm6",
+    "Net::BGP::Path-Attribute::Aggregator" : "lib/Net/BGP/Path-Attribute/Aggregator.pm6",
+    "Net::BGP::Capability" : "lib/Net/BGP/Capability.pm6",
+    "Net::BGP::Error" : "lib/Net/BGP/Error.pm6",
+    "Net::BGP::Message::Notify::Open::Bad-Peer-AS" : "lib/Net/BGP/Message/Notify/Open/Bad-Peer-AS.pm6",
+    "Net::BGP::Path-Attribute::Local-Pref" : "lib/Net/BGP/Path-Attribute/Local-Pref.pm6",
+    "Net::BGP::CIDR" : "lib/Net/BGP/CIDR.pm6",
+    "Net::BGP::Connection" : "lib/Net/BGP/Connection.pm6",
+    "Net::BGP::Event::Closed-Connection" : "lib/Net/BGP/Event/Closed-Connection.pm6",
+    "Net::BGP::Parameter::Capabilities" : "lib/Net/BGP/Parameter/Capabilities.pm6",
+    "Net::BGP::Path-Attribute::Community" : "lib/Net/BGP/Path-Attribute/Community.pm6",
+    "Net::BGP::Command" : "lib/Net/BGP/Command.pm6",
+    "Net::BGP::Conversions-Pre201812" : "lib/Net/BGP/Conversions-Pre201812.pm6",
+    "Net::BGP::Event" : "lib/Net/BGP/Event.pm6",
+    "Net::BGP::Message::Update" : "lib/Net/BGP/Message/Update.pm6",
+    "Net::BGP::Path-Attribute::AS4-Path" : "lib/Net/BGP/Path-Attribute/AS4-Path.pm6",
+    "Net::BGP::Conversions" : "lib/Net/BGP/Conversions.pm6",
+    "Net::BGP::Message::Notify::Open::Unsupported-Version" : "lib/Net/BGP/Message/Notify/Open/Unsupported-Version.pm6",
+    "Net::BGP::Parameter::Generic" : "lib/Net/BGP/Parameter/Generic.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.1",
+  "description" : "BGP Server Support",
+  "authors" : [
+    "Joelle Maslak"
+  ]
+}
+,
+{
   "name" : "Algorithm::Evolutionary::Simple",
   "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.3.1.tar.gz",
   "perl" : "6.*",
@@ -17168,6 +17272,44 @@
 }
 ,
 {
+  "name" : "Audio::Liquidsoap",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Audio-Liquidsoap.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Audio-Liquidsoap/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Liquidsoap-0.0.7.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "File::Which"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::Util::ServerPort",
+    "CheckSocket"
+  ],
+  "tags" : [
+    "audio",
+    "integration",
+    "streaming"
+  ],
+  "provides" : {
+    "Audio::Liquidsoap" : "lib/Audio/Liquidsoap.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "meta-version" : "0",
+  "description" : "Interact with the Liquidsoap command server",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Audio::Playlist::JSPF",
   "api" : "1.0",
   "support" : {
@@ -17347,6 +17489,40 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.5",
+  "meta-version" : "0",
+  "description" : "very simple Perl 6 function to test if a TCP socket is listening on a given address",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "CheckSocket",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/CheckSocket.git",
+    "bugtracker" : "https://github.com/jonathanstowe/CheckSocket/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/CheckSocket-0.0.6.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "network",
+    "utils",
+    "test"
+  ],
+  "provides" : {
+    "CheckSocket" : "lib/CheckSocket.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
   "meta-version" : "0",
   "description" : "very simple Perl 6 function to test if a TCP socket is listening on a given address",
   "authors" : [
@@ -20222,6 +20398,26 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.3",
+  "description" : "A powerful getopt implementation",
+  "authors" : [
+    "Leon Timmermans"
+  ]
+}
+,
+{
+  "name" : "Getopt::Long",
+  "source-url" : "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Getopt-Long-0.1.0.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Getopt::Long" : "lib/Getopt/Long.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
   "description" : "A powerful getopt implementation",
   "authors" : [
     "Leon Timmermans"
