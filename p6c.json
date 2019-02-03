@@ -11921,8 +11921,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Audio::Liquidsoap",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+git@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/Audio-Liquidsoap.git",
@@ -11940,7 +11941,8 @@
   },
   "test-depends" : [
     "Test",
-    "Test::Util::ServerPort"
+    "Test::Util::ServerPort",
+    "CheckSocket"
   ],
   "license" : "Artistic-2.0",
   "tags" : [
@@ -11948,12 +11950,12 @@
     "integration",
     "streaming"
   ],
-  "version" : "0.0.6",
-  "meta6" : "0",
-  "description" : "Interact with the Liquidsoap command server",
+  "meta-version" : "0",
+  "version" : "0.0.7",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Interact with the Liquidsoap command server"
 }
 ,
 {
