@@ -20385,6 +20385,30 @@
 }
 ,
 {
+  "name" : "App::Prove6",
+  "source-url" : "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/App-Prove6-0.0.9.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:LEONT",
+  "depends" : [
+    "TAP:ver<0.0.8>",
+    "Getopt::Long"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "App::Prove6" : "lib/App/Prove6.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.9",
+  "description" : "Run tests through a TAP harness.",
+  "authors" : [
+    "Leon Timmermans"
+  ]
+}
+,
+{
   "name" : "Getopt::Long",
   "source-url" : "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Getopt-Long-0.0.3.tar.gz",
   "perl" : "6.*",
@@ -20442,6 +20466,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.1.0",
+  "description" : "Iterative, recursive file finder for Perl 6",
+  "authors" : [
+    "Leon Timmermans"
+  ]
+}
+,
+{
+  "name" : "Path::Finder",
+  "source-url" : "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Path-Finder-0.2.0.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "IO::Glob"
+  ],
+  "test-depends" : [
+    "File::Temp"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Path::Finder" : "lib/Path/Finder.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.0",
   "description" : "Iterative, recursive file finder for Perl 6",
   "authors" : [
     "Leon Timmermans"
@@ -30269,6 +30317,33 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.1",
+  "description" : "Sugar-free NativeCall binding for libSDL2",
+  "authors" : [
+    "Timo Paulssen"
+  ]
+}
+,
+{
+  "name" : "SDL2::Raw",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TIMOTIMO/Perl6/SDL2-Raw-0.3.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "input",
+    "windowing",
+    "graphics",
+    "media",
+    "sdl",
+    "interactive"
+  ],
+  "provides" : {
+    "SDL2::Raw" : "lib/SDL2/Raw.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3",
   "description" : "Sugar-free NativeCall binding for libSDL2",
   "authors" : [
     "Timo Paulssen"
