@@ -17599,6 +17599,41 @@
 }
 ,
 {
+  "name" : "Device::Velleman::K8055",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/Device-Velleman-K8055.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Device-Velleman-K8055-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "resources" : [
+    "libraries/k8055"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Shell::Command"
+  ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "USB",
+    "device",
+    "experimental"
+  ],
+  "provides" : {
+    "Device::Velleman::K8055" : "lib/Device/Velleman/K8055.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "A Perl 6 interface to the Velleman USB Experiment Kit",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Doublephone",
   "api" : "1.0",
   "support" : {
