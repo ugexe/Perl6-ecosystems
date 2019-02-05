@@ -1898,20 +1898,6 @@
 }
 ,
 {
-  "name" : "Method::Modifiers",
-  "source-url" : "git://github.com/supernovus/perl6-method-modifiers.git",
-  "perl" : "6.*",
-  "depends" : [ ],
-  "provides" : {
-    "Method::Modifiers::Role" : "lib/Method/Modifiers/Role.pm6",
-    "Method::Modifiers::Augment" : "lib/Method/Modifiers/Augment.pm6",
-    "Method::Modifiers" : "lib/Method/Modifiers.pm6"
-  },
-  "version" : "*",
-  "description" : "Adds before, after and around functions to make wrapping method calls easier."
-}
-,
-{
   "name" : "Text::Table::List",
   "source-url" : "git://github.com/supernovus/perl6-text-table-list.git",
   "perl" : "6.*",
@@ -13562,8 +13548,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Device::Velleman::K8055",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "source" : "git://github.com/jonathanstowe/Device-Velleman-K8055.git"
   },
@@ -13587,12 +13574,12 @@
     "device",
     "experimental"
   ],
-  "version" : "0.0.2",
-  "meta6" : "0",
-  "description" : "A Perl 6 interface to the Velleman USB Experiment Kit",
+  "meta-version" : "0",
+  "version" : "0.0.3",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "A Perl 6 interface to the Velleman USB Experiment Kit"
 }
 ,
 {
@@ -17259,6 +17246,7 @@
   ],
   "provides" : {
     "Testo::Test::IsRun" : "lib/Testo/Test.pm6",
+    "Testo::Test::IsFalse" : "lib/Testo/Test.pm6",
     "Testo::Test::Group" : "lib/Testo/Test.pm6",
     "Testo::Test::Result" : "lib/Testo/Test/Result.pm6",
     "Testo::Test::Skip" : "lib/Testo/Test.pm6",
@@ -17266,12 +17254,13 @@
     "Testo::Out" : "lib/Testo/Out.pm6",
     "Testo::Test" : "lib/Testo/Test.pm6",
     "Testo" : "lib/Testo.pm6",
+    "Testo::Test::IsTrue" : "lib/Testo/Test.pm6",
     "Testo::Test::IsEqv" : "lib/Testo/Test.pm6",
     "Testo::Out::TAP" : "lib/Testo/Out/TAP.pm6",
     "Testo::Tester" : "lib/Testo/Tester.pm6"
   },
   "test-depends" : [ ],
-  "version" : "1.003005",
+  "version" : "1.003006",
   "authors" : [
     "Zoffix Znet"
   ],
