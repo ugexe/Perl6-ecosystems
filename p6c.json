@@ -6607,13 +6607,13 @@
   "perl" : "6.*",
   "auth" : "github:tony-o",
   "depends" : [
-    "Text::Table::Simple"
+    ""
   ],
   "provides" : {
     "Bench" : "lib/Bench.pm6"
   },
-  "version" : "0.1.7",
-  "description" : "More complete port of p5's benchmark, including cmpthese, timethese, timethis, etc."
+  "version" : "0.2.0",
+  "description" : "Perl6's premier benchmarking utility"
 }
 ,
 {
@@ -8221,10 +8221,12 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Staticish",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git://github.com/jonathanstowe/Staticish.git"
+    "source" : "git://github.com/jonathanstowe/Staticish.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Staticish/issues"
   },
   "source-url" : "git://github.com/jonathanstowe/Staticish.git",
   "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
@@ -8244,12 +8246,12 @@
     "utils",
     "object"
   ],
-  "version" : "0.0.6",
-  "meta6" : "0",
-  "description" : "Make a singleton class that wraps the methods so they appear like class methods",
+  "meta-version" : "0",
+  "version" : "0.0.7",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Make a singleton class that wraps the methods so they appear like class methods"
 }
 ,
 {
@@ -12508,8 +12510,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Lumberjack",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+gh@gellyfish.co.uk",
     "source" : "git://github.com/jonathanstowe/Lumberjack.git",
@@ -12520,7 +12523,8 @@
   "resources" : [ ],
   "auth" : "github:jonathanstowe",
   "depends" : [
-    "DateTime::Format"
+    "DateTime::Format",
+    "Staticish"
   ],
   "provides" : {
     "Lumberjack" : "lib/Lumberjack.pm"
@@ -12537,11 +12541,11 @@
     "framework"
   ],
   "meta-version" : "0",
-  "version" : "0.0.6",
-  "description" : "A simple logging framework.",
+  "version" : "0.0.7",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "A simple logging framework."
 }
 ,
 {
