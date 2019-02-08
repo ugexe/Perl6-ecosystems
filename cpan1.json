@@ -17011,6 +17011,45 @@
 }
 ,
 {
+  "name" : "Lumberjack",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Lumberjack.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Lumberjack/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-0.0.7.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "DateTime::Format",
+    "Staticish"
+  ],
+  "test-depends" : [
+    "Test",
+    "IO::MiddleMan"
+  ],
+  "tags" : [
+    "logger",
+    "log",
+    "logging",
+    "framework"
+  ],
+  "provides" : {
+    "Lumberjack" : "lib/Lumberjack.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "meta-version" : "0",
+  "description" : "A simple logging framework.",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Lumberjack::Application",
   "api" : "1.0",
   "support" : {
@@ -17493,6 +17532,40 @@
   "description" : "Reactive interface to PostgreSQL notifies",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Staticish",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/Staticish.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Staticish/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Staticish-0.0.7.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "devel",
+    "utils",
+    "object"
+  ],
+  "provides" : {
+    "Staticish" : "lib/Staticish.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "meta-version" : "0",
+  "description" : "Make a singleton class that wraps the methods so they appear like class methods",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
 }
 ,
