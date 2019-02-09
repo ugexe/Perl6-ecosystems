@@ -2148,7 +2148,7 @@
   "provides" : {
     "X11::libxdo" : "lib/X11/libxdo.pm6"
   },
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "authors" : [
     "Steve Schulze (thundergnat)"
   ],
@@ -5146,49 +5146,49 @@
   "provides" : {
     "CSS::Module::CSS3::PagedMedia::Actions" : "lib/CSS/Module/CSS3/PagedMedia.pm",
     "CSS::Module::CSS3::MediaQueries" : "lib/CSS/Module/CSS3/MediaQueries.pm",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Spec::Interface" : "gen/lib/CSS/Module/CSS3/Fonts/AtFontFace/Spec/Interface.pm",
-    "CSS::Module::CSS3::Fonts::Spec::Actions" : "gen/lib/CSS/Module/CSS3/Fonts/Spec/Actions.pm",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Metadata" : "gen/lib/CSS/Module/CSS3/Fonts/AtFontFace/Metadata.pm",
-    "CSS::Module::CSS21::Spec::Actions" : "gen/lib/CSS/Module/CSS21/Spec/Actions.pm",
+    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Actions" : "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Actions.pm",
+    "CSS::Module::CSS21::Gen::Interface" : "lib/CSS/Module/CSS21/Gen/Interface.pm",
+    "CSS::Module::CSS3::Fonts::Gen::Interface" : "lib/CSS/Module/CSS3/Fonts/Gen/Interface.pm",
+    "CSS::Module::CSS3::Fonts::Gen::Actions" : "lib/CSS/Module/CSS3/Fonts/Gen/Actions.pm",
+    "CSS::Module::CSS3::Fonts::AtFontFace::Metadata" : "lib/CSS/Module/CSS3/Fonts/AtFontFace/Metadata.pm",
     "CSS::Module::CSS21::Actions" : "lib/CSS/Module/CSS21/Actions.pm",
     "CSS::Module::CSS21" : "lib/CSS/Module/CSS21.pm",
+    "CSS::Module::CSS3::PagedMedia::Gen::Grammar" : "lib/CSS/Module/CSS3/PagedMedia/Gen/Grammar.pm",
     "CSS::Module::CSS3::Namespaces::Actions" : "lib/CSS/Module/CSS3/Namespaces.pm",
     "CSS::Module::CSS3::Fonts::AtFontFace::Actions" : "lib/CSS/Module/CSS3/Fonts/AtFontFace.pm",
     "CSS::Module::CSS3::Colors" : "lib/CSS/Module/CSS3/Colors.pm",
     "CSS::Module::CSS3::_Base::Actions" : "lib/CSS/Module/CSS3/_Base/Actions.pm",
     "CSS::Module::CSS3" : "lib/CSS/Module/CSS3.pm",
-    "CSS::Module::CSS21::Spec::Interface" : "gen/lib/CSS/Module/CSS21/Spec/Interface.pm",
-    "CSS::Module::CSS1::Spec::Actions" : "gen/lib/CSS/Module/CSS1/Spec/Actions.pm",
     "CSS::Module::CSS1::Actions" : "lib/CSS/Module/CSS1/Actions.pm",
     "CSS::Module" : "lib/CSS/Module.pm",
-    "CSS::Module::CSS3::PagedMedia::Spec::Grammar" : "gen/lib/CSS/Module/CSS3/PagedMedia/Spec/Grammar.pm",
     "CSS::Module::CSS3::Fonts::Variants::Actions" : "lib/CSS/Module/CSS3/Fonts/Variants.pm",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Spec::Grammar" : "gen/lib/CSS/Module/CSS3/Fonts/AtFontFace/Spec/Grammar.pm",
-    "CSS::Module::CSS3::Fonts::Spec::Grammar" : "gen/lib/CSS/Module/CSS3/Fonts/Spec/Grammar.pm",
-    "CSS::Module::CSS21::Spec::Grammar" : "gen/lib/CSS/Module/CSS21/Spec/Grammar.pm",
+    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Interface" : "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Interface.pm",
+    "CSS::Module::CSS1::Gen::Actions" : "lib/CSS/Module/CSS1/Gen/Actions.pm",
     "CSS::Module::CSS3::PagedMedia" : "lib/CSS/Module/CSS3/PagedMedia.pm",
-    "CSS::Module::CSS3::Fonts::Spec::Interface" : "gen/lib/CSS/Module/CSS3/Fonts/Spec/Interface.pm",
     "CSS::Module::CSS3::Colors::Actions" : "lib/CSS/Module/CSS3/Colors.pm",
     "CSS::Module::CSS3::Actions" : "lib/CSS/Module/CSS3/Actions.pm",
-    "CSS::Module::CSS21::Metadata" : "gen/lib/CSS/Module/CSS21/Metadata.pm",
-    "CSS::Module::CSS1::Spec::Interface" : "gen/lib/CSS/Module/CSS1/Spec/Interface.pm",
-    "CSS::Module::CSS1::Metadata" : "gen/lib/CSS/Module/CSS1/Metadata.pm",
-    "CSS::Module::CSS3::PagedMedia::Spec::Interface" : "gen/lib/CSS/Module/CSS3/PagedMedia/Spec/Interface.pm",
-    "CSS::Module::CSS3::PagedMedia::Spec::Actions" : "gen/lib/CSS/Module/CSS3/PagedMedia/Spec/Actions.pm",
+    "CSS::Module::CSS21::Gen::Actions" : "lib/CSS/Module/CSS21/Gen/Actions.pm",
+    "CSS::Module::CSS21::Metadata" : "lib/CSS/Module/CSS21/Metadata.pm",
+    "CSS::Module::CSS1::Metadata" : "lib/CSS/Module/CSS1/Metadata.pm",
+    "CSS::Module::CSS3::PagedMedia::Gen::Interface" : "lib/CSS/Module/CSS3/PagedMedia/Gen/Interface.pm",
     "CSS::Module::CSS3::MediaQueries::Actions" : "lib/CSS/Module/CSS3/MediaQueries.pm",
     "CSS::Module::CSS3::Fonts::Variants" : "lib/CSS/Module/CSS3/Fonts/Variants.pm",
+    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Grammar" : "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Grammar.pm",
     "CSS::Module::CSS3::Fonts::AtFontFace" : "lib/CSS/Module/CSS3/Fonts/AtFontFace.pm",
     "CSS::Module::CSS3::Fonts" : "lib/CSS/Module/CSS3/Fonts.pm",
+    "CSS::Module::CSS21::Gen::Grammar" : "lib/CSS/Module/CSS21/Gen/Grammar.pm",
     "CSS::Module::CSS1" : "lib/CSS/Module/CSS1.pm",
-    "CSS::Module::CSS3::Metadata" : "gen/lib/CSS/Module/CSS3/Metadata.pm",
+    "CSS::Module::CSS3::Metadata" : "lib/CSS/Module/CSS3/Metadata.pm",
+    "CSS::Module::CSS3::PagedMedia::Gen::Actions" : "lib/CSS/Module/CSS3/PagedMedia/Gen/Actions.pm",
     "CSS::Module::CSS3::Namespaces" : "lib/CSS/Module/CSS3/Namespaces.pm",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Spec::Actions" : "gen/lib/CSS/Module/CSS3/Fonts/AtFontFace/Spec/Actions.pm",
+    "CSS::Module::CSS3::Fonts::Gen::Grammar" : "lib/CSS/Module/CSS3/Fonts/Gen/Grammar.pm",
     "CSS::Module::CSS3::Fonts::Actions" : "lib/CSS/Module/CSS3/Fonts/Actions.pm",
     "CSS::Module::CSS3::_Base" : "lib/CSS/Module/CSS3/_Base.pm",
-    "CSS::Module::CSS1::Spec::Grammar" : "gen/lib/CSS/Module/CSS1/Spec/Grammar.pm"
+    "CSS::Module::CSS1::Gen::Interface" : "lib/CSS/Module/CSS1/Gen/Interface.pm",
+    "CSS::Module::CSS1::Gen::Grammar" : "lib/CSS/Module/CSS1/Gen/Grammar.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.4.9",
+  "version" : "0.5.0",
   "description" : "Perl 6 CSS extended and property-specific grammars"
 }
 ,
@@ -6606,9 +6606,7 @@
   "source-url" : "git://github.com/tony-o/perl6-bench.git",
   "perl" : "6.*",
   "auth" : "github:tony-o",
-  "depends" : [
-    ""
-  ],
+  "depends" : [ ],
   "provides" : {
     "Bench" : "lib/Bench.pm6"
   },
@@ -7553,7 +7551,7 @@
 {
   "name" : "Unicode::GCB",
   "support" : {
-    "source" : "https://github.com/cygx/p6-unicode-gcb/tree/v0.2.1",
+    "source" : "https://github.com/cygx/p6-unicode-gcb/tree/v0.3.0",
     "bugtracker" : "https://github.com/cygx/p6-unicode-gcb/issues"
   },
   "source-url" : "git://github.com/cygx/p6-unicode-gcb.git",
@@ -7563,7 +7561,7 @@
     "Unicode::GCB" : "lib/Unicode/GCB.pm6"
   },
   "license" : "BSL-1.0",
-  "version" : "0.2.1",
+  "version" : "0.3.0",
   "description" : "Unicode grapheme cluster boundary detection"
 }
 ,
@@ -8372,6 +8370,46 @@
 }
 ,
 {
+  "name" : "Terminal::Print",
+  "perl" : "6.d",
+  "source-url" : "git://github.com/ab5tract/Terminal-Print.git",
+  "build-depends" : [ ],
+  "resources" : [ ],
+  "auth" : "github:JJ",
+  "depends" : [
+    "OO::Monitors",
+    "Terminal::ANSIColor",
+    "Term::termios",
+    "File::Which"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Terminal"
+  ],
+  "provides" : {
+    "Terminal::Print::Widget" : "lib/Terminal/Print/Widget.pm6",
+    "Terminal::Print::Commands" : "lib/Terminal/Print/Commands.pm6",
+    "Terminal::Print" : "lib/Terminal/Print.pm6",
+    "Terminal::Print::Pixelated" : "lib/Terminal/Print/Pixelated.pm6",
+    "Terminal::Print::BoxDrawing" : "lib/Terminal/Print/BoxDrawing.pm6",
+    "Terminal::Print::Util::Timing" : "lib/Terminal/Print/Util/Timing.pm6",
+    "Terminal::Print::ParticleEffect" : "lib/Terminal/Print/ParticleEffect.pm6",
+    "Terminal::Print::RawInput" : "lib/Terminal/Print/RawInput.pm6",
+    "Terminal::Print::DecodedInput" : "lib/Terminal/Print/DecodedInput.pm6",
+    "Terminal::Print::Animated" : "lib/Terminal/Print/Animated.pm6",
+    "Terminal::Print::Util::Text" : "lib/Terminal/Print/Util/Text.pm6",
+    "Terminal::Print::Grid" : "lib/Terminal/Print/Grid.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.95",
+  "authors" : [
+    "John Haltiwanger",
+    "japhb"
+  ],
+  "description" : "Asynchronous printing to your terminal -- as a simple grid"
+}
+,
+{
   "name" : "IO::Notification::Recursive",
   "support" : {
     "email" : "duff@pobox.com",
@@ -9169,7 +9207,7 @@
   },
   "license" : "Unlicense",
   "version" : "1.0.1",
-  "description" : "xxHash bindings for Perl6",
+  "description" : "xxHash bindings for Perl 6",
   "authors" : [
     "Bart\u0142omiej Palmowski",
     "atweiden",
@@ -10059,36 +10097,6 @@
     "github:pierre-vigier",
     "github:lichtkind"
   ]
-}
-,
-{
-  "name" : "Discord",
-  "perl" : "6",
-  "source-url" : "git://github.com/Skarsnik/perl6-discord.git",
-  "support" : {
-    "source" : "git://github.com/Skarsnik/perl6-discord.git"
-  },
-  "author" : "Sylvain Colinet <scolinet@gmail.com>",
-  "depends" : [
-    "JSON::Tiny",
-    "JSON::Name",
-    "JSON::Unmarshal",
-    "HTTP::UserAgent"
-  ],
-  "provides" : {
-    "Discord::Channel" : "lib/Discord/Channel.pm6",
-    "Discord::User" : "lib/Discord/User.pm6",
-    "Discord::Api_ref" : "lib/Discord/Api_ref.pm6",
-    "Discord::Guild" : "lib/Discord/Guild.pm6",
-    "Discord" : "lib/Discord.pm6",
-    "Discord::Message" : "lib/Discord/Message.pm6"
-  },
-  "tags" : [
-    "Webservice"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "Client for the Discord application"
 }
 ,
 {
@@ -12179,7 +12187,7 @@
   },
   "license" : "Unlicense",
   "version" : "0.1.0",
-  "description" : "Navigate Perl6 containers and perform tasks"
+  "description" : "Navigate Perl 6 containers and perform tasks"
 }
 ,
 {
@@ -12523,8 +12531,7 @@
   "resources" : [ ],
   "auth" : "github:jonathanstowe",
   "depends" : [
-    "DateTime::Format",
-    "Staticish"
+    "DateTime::Format"
   ],
   "provides" : {
     "Lumberjack" : "lib/Lumberjack.pm"
@@ -12541,7 +12548,7 @@
     "framework"
   ],
   "meta-version" : "0",
-  "version" : "0.0.7",
+  "version" : "0.0.8",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
@@ -13293,49 +13300,6 @@
 }
 ,
 {
-  "name" : "Task::Noise",
-  "perl" : "6.c",
-  "support" : {
-    "source" : "git@github.com:Perl6-Noise-Gang/Task-Noise.git"
-  },
-  "source-url" : "git@github.com:Perl6-Noise-Gang/Task-Noise.git",
-  "auth" : "github:perl6-noise-gang",
-  "depends" : [
-    "ABC",
-    "Music::Helpers",
-    "Audio::Taglib::Simple",
-    "Audio::Sndfile",
-    "Audio::Libshout",
-    "Audio::Encode::LameMP3",
-    "Audio::Convert::Samplerate",
-    "Audio::Silan",
-    "Audio::Liquidsoap",
-    "Audio::Playlist::JSPF",
-    "Audio::Hydrogen",
-    "Audio::PortAudio",
-    "Audio::PortMIDI",
-    "Audio::Icecast",
-    "EuclideanRhythm",
-    "Audio::OggVorbis",
-    "Audio::MIDI::Note"
-  ],
-  "test-depends" : [ ],
-  "license" : "Artistic",
-  "tags" : [
-    "audio",
-    "noise",
-    "sound"
-  ],
-  "provides" : { },
-  "version" : "0.0.1",
-  "authors" : [
-    "Perl6 Noise Gang"
-  ],
-  "meta6" : "0",
-  "description" : "META distribution to install all the noise related modules known to the Perl 6 Noise Gang"
-}
-,
-{
   "name" : "JsonC",
   "support" : {
     "email" : "sog@msg.com.mx",
@@ -13375,7 +13339,8 @@
   "depends" : [
     "URI",
     "XML",
-    "HTTP::UserAgent"
+    "HTTP::UserAgent",
+    "Terminal::Getpass"
   ],
   "test-depends" : [ ],
   "tags" : [ ],
@@ -17858,7 +17823,7 @@
     "HTTP::HPACK"
   ],
   "test-depends" : [
-    "Path::Iterator",
+    "Path::Finder",
     "Test::META"
   ],
   "tags" : [
@@ -20353,6 +20318,28 @@
 }
 ,
 {
+  "api" : "1",
+  "name" : "",
+  "source-url" : "https://github.com/AlexDaniel/foo-emptystring.git",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:AlexDaniel",
+  "depends" : [ ],
+  "tags" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "" : "lib/EmptyString.pm6"
+  },
+  "license" : "GPL-3.0-or-later",
+  "version" : "0.0.1",
+  "authors" : [
+    "Aleks-Daniel Jakimenko-Aleksejev"
+  ],
+  "description" : "A module to end the naming debate."
+}
+,
+{
   "name" : "Blin",
   "source-url" : "https://github.com/perl6/Blin.git",
   "perl" : "6.c",
@@ -21049,7 +21036,9 @@
   "perl" : "6.d",
   "resources" : [ ],
   "build-depends" : [ ],
-  "depends" : [ ],
+  "depends" : [
+    "Cro::HTTP"
+  ],
   "test-depends" : [ ],
   "tags" : [
     "API"
@@ -21058,7 +21047,7 @@
     "Hastebin" : "lib/Hastebin.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.3",
+  "version" : "0.0.4",
   "description" : "Hastebin client API",
   "authors" : [
     "Ben Davies"
