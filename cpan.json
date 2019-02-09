@@ -2607,6 +2607,40 @@
 }
 ,
 {
+  "name" : "epoll",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-epoll.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-epoll/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/epoll-0.3.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "NativeCall"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [
+    "IO",
+    "NET",
+    "ASYNC",
+    "LINUX",
+    "NATIVECALL"
+  ],
+  "provides" : {
+    "epoll" : "lib/epoll.pm6"
+  },
+  "license" : "NASA-1.3",
+  "version" : "0.3",
+  "description" : "Perl 6 bindings for epoll(7), async IO event notification",
+  "authors" : [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ]
+}
+,
+{
   "name" : "Test::Declare",
   "source-url" : "http://www.cpan.org/authors/id/D/DA/DARRENF/Perl6/Test-Declare-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -3921,6 +3955,31 @@
 }
 ,
 {
+  "name" : "Map::Agnostic",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Map-Agnostic-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "Hash::Agnostic:ver<0.0.4>:auth<cpan:ELIZABETH>"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Map::Agnostic" : "lib/Map/Agnostic.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "be a map without knowing how",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Map::Ordered",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Map-Ordered-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -3939,6 +3998,31 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.1",
+  "description" : "role for ordered Maps",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "Map::Ordered",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Map-Ordered-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "Map::Agnostic:ver<0.0.2>:auth<cpan:ELIZABETH>"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS"
+  ],
+  "provides" : {
+    "Map::Ordered" : "lib/Map/Ordered.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
   "description" : "role for ordered Maps",
   "authors" : [
     "Elizabeth Mattijsen"
@@ -17050,6 +17134,44 @@
 }
 ,
 {
+  "name" : "Lumberjack",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Lumberjack.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Lumberjack/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-0.0.8.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "DateTime::Format"
+  ],
+  "test-depends" : [
+    "Test",
+    "IO::MiddleMan"
+  ],
+  "tags" : [
+    "logger",
+    "log",
+    "logging",
+    "framework"
+  ],
+  "provides" : {
+    "Lumberjack" : "lib/Lumberjack.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.8",
+  "meta-version" : "0",
+  "description" : "A simple logging framework.",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Lumberjack::Application",
   "api" : "1.0",
   "support" : {
@@ -18119,6 +18241,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.3",
+  "description" : "Hastebin client API",
+  "authors" : [
+    "Ben Davies"
+  ]
+}
+,
+{
+  "name" : "Hastebin",
+  "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Hastebin-0.0.4.tar.gz",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Cro::HTTP"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "API"
+  ],
+  "provides" : {
+    "Hastebin" : "lib/Hastebin.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
   "description" : "Hastebin client API",
   "authors" : [
     "Ben Davies"
@@ -30065,6 +30211,62 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.6",
+  "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
+  "name" : "MeCab",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/MeCab-0.0.8.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/mecab"
+  ],
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "MeCab::DictionaryInfo" : "lib/MeCab/DictionaryInfo.pm6",
+    "MeCab::Tagger" : "lib/MeCab/Tagger.pm6",
+    "MeCab::Lattice" : "lib/MeCab/Lattice.pm6",
+    "MeCab" : "lib/MeCab.pm6",
+    "MeCab::Model" : "lib/MeCab/Model.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
+  "name" : "MeCab",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/MeCab-0.0.9.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/mecab"
+  ],
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "MeCab::DictionaryInfo" : "lib/MeCab/DictionaryInfo.pm6",
+    "MeCab::Tagger" : "lib/MeCab/Tagger.pm6",
+    "MeCab::Lattice" : "lib/MeCab/Lattice.pm6",
+    "MeCab" : "lib/MeCab.pm6",
+    "MeCab::Model" : "lib/MeCab/Model.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.9",
   "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
   "authors" : [
     "titsuki"
