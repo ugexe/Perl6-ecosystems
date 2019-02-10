@@ -7536,6 +7536,45 @@
 }
 ,
 {
+  "name" : "Amazon::DynamoDB",
+  "support" : {
+    "source" : "git://github.com/zostay/Amazon-DynamoDB.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Amazon-DynamoDB-0.4.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [
+    "AWS::Session",
+    "Cro::HTTP",
+    "HTTP::UserAgent",
+    "JSON::Fast",
+    "WebService::AWS::Auth::V4",
+    "String::CRC32"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Amazon::DynamoDB" : "lib/Amazon/DynamoDB.pm6",
+    "Amazon::DynamoDB::UA::HTTP::UserAgent" : "lib/Amazon/DynamoDB/UA/HTTP/UserAgent.pm6",
+    "Amazon::DynamoDB::UA" : "lib/Amazon/DynamoDB/UA.pm6",
+    "Amazon::DynamoDB::UA::Cro" : "lib/Amazon/DynamoDB/UA/Cro.pm6",
+    "Amazon::DynamoDB::UA::AutoUA" : "lib/Amazon/DynamoDB/UA.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.4.0",
+  "meta-version" : "0",
+  "description" : "Low-level access to the DynamoDB API",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
   "name" : "ArrayHash",
   "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ArrayHash-0.3.tar.gz",
   "perl" : "6.c",
@@ -25848,6 +25887,57 @@
 }
 ,
 {
+  "name" : "Uzu",
+  "source-url" : "http://www.cpan.org/authors/id/S/SA/SACOMO/Perl6/Uzu-0.3.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "mustache/pages/index.mustache",
+    "mustache/partials/footer.mustache",
+    "mustache/partials/head.mustache",
+    "mustache/themes/default/layout.mustache",
+    "tt/pages/index.tt",
+    "tt/partials/footer.tt",
+    "tt/partials/head.tt",
+    "tt/themes/default/layout.tt"
+  ],
+  "depends" : [
+    "File::Directory::Tree",
+    "File::Find",
+    "File::Temp",
+    "Terminal::ANSIColor",
+    "Template6",
+    "Template::Mustache",
+    "Test::Output",
+    "HTTP::Server::Tiny",
+    "YAMLish"
+  ],
+  "test-depends" : [
+    "Test::Output"
+  ],
+  "tags" : [
+    "web",
+    "static-site-generator"
+  ],
+  "provides" : {
+    "Uzu::Logger" : "lib/Uzu/Logger.pm6",
+    "Uzu::LiveReload" : "lib/Uzu/LiveReload.pm6",
+    "Uzu::Config" : "lib/Uzu/Config.pm6",
+    "Uzu::Watch" : "lib/Uzu/Watch.pm6",
+    "Uzu::Utilities" : "lib/Uzu/Utilities.pm6",
+    "Uzu::Render" : "lib/Uzu/Render.pm6",
+    "Uzu::HTTP" : "lib/Uzu/HTTP.pm6",
+    "Uzu::CLI" : "lib/Uzu/CLI.pm6",
+    "Uzu" : "lib/Uzu.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.4",
+  "description" : "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, multi-page support, inject external data via local Perl 6 module, and external pre/post command execution.",
+  "authors" : [
+    "Sam Morrison"
+  ]
+}
+,
+{
   "name" : "Git::Log",
   "api" : "0",
   "support" : {
@@ -28643,6 +28733,38 @@
 }
 ,
 {
+  "name" : "Date::Names",
+  "support" : {
+    "bugtracker" : "https://github.com/tbrowder/Date-Names-Perl6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Date-Names-Perl6-1.0.0.tar.gz",
+  "perl" : "6.c",
+  "source-type" : "git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "github:tbrowder",
+  "auth" : "github:tbrowder",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "date",
+    "names",
+    "dow"
+  ],
+  "provides" : {
+    "Date::Names" : "lib/Date/Names.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0.0",
+  "description" : "Provides names for month and day-o-week numbers (multilingual).",
+  "authors" : [
+    "Tom Browder <tom.browder@gmail.com>"
+  ]
+}
+,
+{
   "name" : "Foo::Bar",
   "support" : {
     "bugtracker" : "https://github.com/tbrowder/Foo-Bar-Perl6/issues"
@@ -30156,6 +30278,65 @@
   "license" : "BSD-3-Clause",
   "version" : "0.0.1",
   "description" : "A Perl 6 bindings for libgeohash",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
+  "name" : "MeCab",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/MeCab-0.0.10.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/mecab"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Zef::Fetch"
+  ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "MeCab::DictionaryInfo" : "lib/MeCab/DictionaryInfo.pm6",
+    "MeCab::Tagger" : "lib/MeCab/Tagger.pm6",
+    "MeCab::Lattice" : "lib/MeCab/Lattice.pm6",
+    "MeCab" : "lib/MeCab.pm6",
+    "MeCab::Model" : "lib/MeCab/Model.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.9",
+  "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
+  "name" : "MeCab",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/MeCab-0.0.11.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/mecab"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Zef::Fetch"
+  ],
+  "auth" : "titsuki",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "MeCab::DictionaryInfo" : "lib/MeCab/DictionaryInfo.pm6",
+    "MeCab::Tagger" : "lib/MeCab/Tagger.pm6",
+    "MeCab::Lattice" : "lib/MeCab/Lattice.pm6",
+    "MeCab" : "lib/MeCab.pm6",
+    "MeCab::Model" : "lib/MeCab/Model.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.11",
+  "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
   "authors" : [
     "titsuki"
   ]
