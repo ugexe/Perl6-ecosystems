@@ -2868,7 +2868,6 @@
   "name" : "YAML",
   "source-url" : "git://github.com/perl6-community-modules/yaml-pm6.git",
   "perl" : "6.*",
-  "author" : "Ingy d\u00f6t Net <ingy@cpan.org>",
   "depends" : [
     "TestML"
   ],
@@ -2877,21 +2876,17 @@
     "YAML" : "lib/YAML.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "*",
-  "description" : "YAML Ain\u2019t Markup Language"
+  "version" : "0.1",
+  "description" : "YAML Ain\u2019t Markup Language",
+  "authors" : [
+    "Ingy d\u00f6t Net <ingy@cpan.org>"
+  ]
 }
 ,
 {
   "name" : "TestML",
-  "source-url" : "git://github.com/ingydotnet/testml-pm6/archive/0.2.0.zip",
-  "support" : {
-    "source" : "https://github.com/ingydotnet/testml-pm6/tree/0.2.0",
-    "bugtracker" : "https://github.com/ingydotnet/testml-pm6/issues"
-  },
+  "source-url" : "git://github.com/perl6-community-modules/testml-pm6.git",
   "perl" : "6.*",
-  "build-depends" : [ ],
-  "author" : "Ingy d\u00f6t Net <ingy@cpan.org>",
-  "auth" : "github:ingydotnet",
   "depends" : [ ],
   "provides" : {
     "TestML::Runner::TAP" : "lib/TestML/Runner/TAP.pm",
@@ -2902,14 +2897,11 @@
     "TestML::Parser" : "lib/TestML/Parser.pm",
     "TestML::Document" : "lib/TestML/Document.pm"
   },
-  "test-depends" : [ ],
-  "tags" : [
-    "test",
-    "languages",
-    "framework"
-  ],
-  "version" : "0.2.0",
-  "description" : "A Generic Software Testing Meta Language"
+  "version" : "0.1",
+  "description" : "A Generic Software Testing Meta Language",
+  "authors" : [
+    "Ingy d\u00f6t Net <ingy@cpan.org>"
+  ]
 }
 ,
 {
@@ -7343,14 +7335,13 @@
   },
   "source-url" : "git://github.com/cygx/p6-image-png-inflated.git",
   "perl" : "6.*",
-  "author" : "cygx <cygx@cpan.org>",
-  "depends" : [ ],
+  "auth" : "github:cygx",
   "provides" : {
     "Image::PNG::Inflated" : "lib/Image/PNG/Inflated.pm"
   },
   "license" : "BSL-1.0",
   "version" : "*",
-  "description" : "Creates uncompressed PNG images"
+  "description" : "Create non-compressed PNG images"
 }
 ,
 {
@@ -13174,6 +13165,26 @@
     "Tadeusz \u201ctadzik\u201d So\u015bnierz"
   ],
   "description" : "Module management tools"
+}
+,
+{
+  "name" : "Getopt::Type",
+  "support" : {
+    "source" : "git://github.com/tadzik/Getopt-Type.git",
+    "bugtracker" : "https://github.com/tadzik/Getopt-Type/issues"
+  },
+  "source-url" : "https://github.com/JJ/Getopt-Type.git",
+  "perl" : "6.d",
+  "auth" : "github:JJ",
+  "depends" : [ ],
+  "provides" : {
+    "Getopt::Type" : "lib/Getopt/Type.pm"
+  },
+  "version" : "0.1.1",
+  "authors" : [
+    "Tadeusz \u201ctadzik\u201d So\u015bnierz"
+  ],
+  "description" : "MAIN? Getopt semantics? Why not both?"
 }
 ,
 {
@@ -19312,7 +19323,7 @@
   "support" : {
     "source" : "https://github.com/zoffixznet/perl6-p6lert.git"
   },
-  "perl" : "6.c",
+  "perl" : "6.*",
   "depends" : [
     "JSON::Fast",
     "WWW::P6lert"
@@ -20746,7 +20757,7 @@
 ,
 {
   "name" : "Protocol",
-  "source-url" : "",
+  "source-url" : "https://github.com/FCO/Protocol.git",
   "perl" : "6.d",
   "resources" : [ ],
   "build-depends" : [ ],
