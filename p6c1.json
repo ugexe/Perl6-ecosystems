@@ -2666,22 +2666,6 @@
 }
 ,
 {
-  "name" : "GeoIP::City",
-  "source-url" : "git://github.com/bbkr/GeoIPerl6.git",
-  "perl" : "6.c",
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "GeoIP::City" : "lib/GeoIP/City.pm",
-    "GeoIP" : "lib/GeoIP.pm"
-  },
-  "version" : "1.0.2",
-  "authors" : [
-    "Pawe\u0142 bbkr Pabian"
-  ],
-  "description" : "MaxMind GeoIP City library interface."
-}
-,
-{
   "name" : "Benchmark",
   "source-url" : "git://github.com/perlpilot/benchmark.git",
   "build-depends" : [ ],
@@ -5800,7 +5784,7 @@
   "author" : "Adrian Kreher",
   "depends" : [ ],
   "provides" : {
-    "Compress::Snappy" : "lib/Compress/Snappy.pm"
+    "Compress::Snappy" : "lib/Compress/Snappy.pm6"
   },
   "license" : "MIT",
   "version" : "0.0.3",
@@ -5930,9 +5914,9 @@
 {
   "name" : "Cairo",
   "support" : {
-    "source" : "git://github.com/timo/cairo-p6.git"
+    "source" : "https://github.com/timo/cairo-p6.git"
   },
-  "source-url" : "git://github.com/timo/cairo-p6.git",
+  "source-url" : "https://github.com/timo/cairo-p6.git",
   "perl" : "v6",
   "depends" : [ ],
   "provides" : {
@@ -6097,26 +6081,6 @@
     "Michal Jurosz"
   ],
   "description" : "Simple templates for Perl 6"
-}
-,
-{
-  "name" : "HTTP::Server::Async",
-  "source-url" : "git://github.com/perl6/perl6-http-server-async.git",
-  "perl" : "6.*",
-  "auth" : "github:tony-o",
-  "depends" : [
-    "HTTP::Server"
-  ],
-  "provides" : {
-    "HTTP::Server::Async::Response" : "lib/HTTP/Server/Async/Response.pm6",
-    "HTTP::Server::Async" : "lib/HTTP/Server/Async.pm6",
-    "HTTP::Server::Async::Request" : "lib/HTTP/Server/Async/Request.pm6"
-  },
-  "version" : "0.1.8",
-  "authors" : [
-    "tony-o"
-  ],
-  "description" : "Asynchronous Base HTTP Server"
 }
 ,
 {
@@ -6645,23 +6609,6 @@
 }
 ,
 {
-  "name" : "Pod::Perl5",
-  "source-url" : "git://github.com/dnmfarrell/Pod-Perl5.git",
-  "perl" : "6.*",
-  "source-type" : "git",
-  "author" : "David Farrell",
-  "depends" : [ ],
-  "provides" : {
-    "Pod::Perl5" : "lib/Pod/Perl5.pm6",
-    "Pod::Perl5::ToMarkdown" : "lib/Pod/Perl5/ToMarkdown.pm6",
-    "Pod::Perl5::Grammar" : "lib/Pod/Perl5/Grammar.pm6",
-    "Pod::Perl5::ToHTML" : "lib/Pod/Perl5/ToHTML.pm6"
-  },
-  "version" : "0.18",
-  "description" : "Parser and grammar for Perl 5 pod, with an HTML and Markdown converter"
-}
-,
-{
   "name" : "Pod::PerlTricks",
   "source-url" : "git://github.com/dnmfarrell/Pod-PerlTricks.git",
   "perl" : "6.*",
@@ -6804,7 +6751,7 @@
   "provides" : {
     "HTTP::Server::Async::Plugins::Router::Simple" : "lib/HTTP/Server/Async/Plugins/Router/Simple.pm6"
   },
-  "version" : "0.1.1",
+  "version" : "0.1.2",
   "description" : "Basic routing for http server"
 }
 ,
@@ -7340,8 +7287,28 @@
     "Image::PNG::Inflated" : "lib/Image/PNG/Inflated.pm"
   },
   "license" : "BSL-1.0",
-  "version" : "*",
+  "version" : "0.1.0",
   "description" : "Create non-compressed PNG images"
+}
+,
+{
+  "name" : "Image::RGBA",
+  "support" : {
+    "source" : "https://github.com/cygx/p6-image-rgba",
+    "bugtracker" : "https://github.com/cygx/p6-image-rgba/issues"
+  },
+  "source-url" : "git://github.com/cygx/p6-image-rgba.git",
+  "perl" : "6.*",
+  "author" : "cygx",
+  "auth" : "github:cygx",
+  "provides" : {
+    "Image::RGBA" : "lib/Image/RGBA.pm6",
+    "Image::RGBA::Text" : "lib/Image/RGBA/Text.pm6",
+    "Image::RGBA::Fun" : "lib/Image/RGBA/Fun.pm6"
+  },
+  "license" : "BSL-1.0",
+  "version" : "0.2.1",
+  "description" : "Create and manipulate 32-bit RGBA images"
 }
 ,
 {
@@ -7840,19 +7807,22 @@
 }
 ,
 {
-  "name" : "HTTP::Server",
-  "source-url" : "git://github.com/perl6/perl6-http-server.git",
+  "name" : "HTTP::Roles",
+  "source-url" : "git://github.com/perl6-community-modules/perl6-http-server.git",
   "perl" : "6.*",
-  "author" : "tony-o",
   "auth" : "github:tony-o",
   "depends" : [ ],
   "provides" : {
-    "HTTP::Server" : "lib/HTTP/Server.pm6",
-    "HTTP::Request" : "lib/HTTP/Request.pm6",
-    "HTTP::Response" : "lib/HTTP/Response.pm6"
+    "HTTP::Server::Role" : "lib/HTTP/Server/Role.pm6",
+    "HTTP::Request::Role" : "lib/HTTP/Request/Role.pm6",
+    "HTTP::Response::Role" : "lib/HTTP/Response/Role.pm6"
   },
-  "version" : "0.1.1",
-  "description" : "role for HTTP::Server so we can have start building out some servers with interchangeable backends"
+  "meta-version" : "0",
+  "version" : "0.2.0",
+  "description" : "role for HTTP::Server so we can have start building out some servers with interchangeable backends",
+  "authors" : [
+    "tony-o"
+  ]
 }
 ,
 {
@@ -13360,7 +13330,7 @@
   "build-depends" : [ ],
   "depends" : [
     "URI",
-    "XML",
+    "cro",
     "HTTP::UserAgent",
     "Terminal::Getpass"
   ],
@@ -13373,8 +13343,8 @@
     "App::AizuOnlineJudge" : "lib/App/AizuOnlineJudge.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "1.001001",
-  "description" : "a perl6 implementation of the unofficial code submitter for Aizu Online Judge( http://judge.u-aizu.ac.jp/onlinejudge/index.jsp ).",
+  "version" : "0.0.1",
+  "description" : "A Perl 6 implementation of the unofficial code submitter for Aizu Online Judge( http://judge.u-aizu.ac.jp/onlinejudge/index.jsp ).",
   "authors" : [
     "titsuki"
   ]
@@ -15141,7 +15111,7 @@
     "CSS::Properties" : "lib/CSS/Properties.pm"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.4.1",
+  "version" : "0.4.2",
   "description" : "CSS property manipulation library",
   "authors" : [
     "David Warring"
@@ -21073,6 +21043,34 @@
   "description" : "Hastebin client API",
   "authors" : [
     "Ben Davies"
+  ]
+}
+,
+{
+  "name" : "App::Squashathons",
+  "source-url" : "https://github.com/JJ/p6-app-squashathons.git",
+  "perl" : "6.c",
+  "resources" : [
+    "script/squashalyzer"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "IO::Socket::SSL",
+    "LWP::Simple"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "squashathons",
+    "utilities"
+  ],
+  "provides" : {
+    "App::Squashathons" : "lib/App/Squashathons.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "blah blah blah",
+  "authors" : [
+    "JJ Merelo"
   ]
 }
 ]
