@@ -28765,6 +28765,70 @@
 }
 ,
 {
+  "name" : "Date::Names",
+  "support" : {
+    "bugtracker" : "https://github.com/tbrowder/Date-Names-Perl6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Date-Names-Perl6-1.0.2.tar.gz",
+  "perl" : "6.c",
+  "source-type" : "git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "github:tbrowder",
+  "auth" : "github:tbrowder",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "date",
+    "names",
+    "dow"
+  ],
+  "provides" : {
+    "Date::Names" : "lib/Date/Names.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0.2",
+  "description" : "Provides names for month and day-o-week numbers (multilingual).",
+  "authors" : [
+    "Tom Browder <tom.browder@gmail.com>"
+  ]
+}
+,
+{
+  "name" : "Date::Names",
+  "support" : {
+    "bugtracker" : "https://github.com/tbrowder/Date-Names-Perl6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Date-Names-Perl6-1.0.3.tar.gz",
+  "perl" : "6.c",
+  "source-type" : "git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "github:tbrowder",
+  "auth" : "github:tbrowder",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "date",
+    "names",
+    "dow"
+  ],
+  "provides" : {
+    "Date::Names" : "lib/Date/Names.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.0.3",
+  "description" : "Provides names for month and day-o-week numbers (multilingual).",
+  "authors" : [
+    "Tom Browder <tom.browder@gmail.com>"
+  ]
+}
+,
+{
   "name" : "Foo::Bar",
   "support" : {
     "bugtracker" : "https://github.com/tbrowder/Foo-Bar-Perl6/issues"
@@ -29908,6 +29972,34 @@
 }
 ,
 {
+  "name" : "App::AizuOnlineJudge",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/App-AizuOnlineJudge-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "URI",
+    "cro",
+    "HTTP::UserAgent",
+    "Terminal::Getpass"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "App::AizuOnlineJudge::Submittable" : "lib/App/AizuOnlineJudge/Submittable.pm6",
+    "App::AizuOnlineJudge::IntroductionCourse" : "lib/App/AizuOnlineJudge/IntroductionCourse.pm6",
+    "App::AizuOnlineJudge::BasicCourse" : "lib/App/AizuOnlineJudge/BasicCourse.pm6",
+    "App::AizuOnlineJudge" : "lib/App/AizuOnlineJudge.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "a perl6 implementation of the unofficial code submitter for Aizu Online Judge( http://judge.u-aizu.ac.jp/onlinejudge/index.jsp ).",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
   "name" : "Chart::Gnuplot",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Chart-Gnuplot-0.0.10.tar.gz",
   "perl" : "6.c",
@@ -30336,6 +30428,41 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.11",
+  "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
+  "name" : "MeCab",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/MeCab-0.0.12.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/mecab"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Zef::Fetch",
+    "Zef::Extract",
+    "Zef::Service::Shell::wget",
+    "Zef::Service::Shell::curl",
+    "Zef::Service::Shell::tar",
+    "Zef::Service::Shell::p5tar"
+  ],
+  "auth" : "titsuki",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "MeCab::DictionaryInfo" : "lib/MeCab/DictionaryInfo.pm6",
+    "MeCab::Tagger" : "lib/MeCab/Tagger.pm6",
+    "MeCab::Lattice" : "lib/MeCab/Lattice.pm6",
+    "MeCab" : "lib/MeCab.pm6",
+    "MeCab::Model" : "lib/MeCab/Model.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.12",
   "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
   "authors" : [
     "titsuki"
@@ -33667,6 +33794,41 @@ null
 }
 ,
 {
+  "name" : "IoC",
+  "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/IoC-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "source-type" : "git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jasonmay",
+  "depends" : [ ],
+  "test-depends" : [
+    "Path::Finder",
+    "Test::META"
+  ],
+  "tags" : [
+    "Dependency Injection",
+    "Dependency",
+    "Inversion of Control"
+  ],
+  "provides" : {
+    "IoC::ConstructorInjection" : "lib/IoC/ConstructorInjection.pm6",
+    "IoC::Literal" : "lib/IoC/Literal.pm6",
+    "IoC" : "lib/IoC.pm6",
+    "IoC::Service" : "lib/IoC/Service.pm6",
+    "IoC::Container" : "lib/IoC/Container.pm6",
+    "IoC::BlockInjection" : "lib/IoC/BlockInjection.pm6"
+  },
+  "license" : "NOASSERTION",
+  "version" : "0.0.4",
+  "description" : "Wire your application components together using inversion of control",
+  "authors" : [
+    "Jason May",
+    "Martin Barth"
+  ]
+}
+,
+{
   "name" : "StrictClass",
   "source-url" : "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/StrictClass-0.0.2.tar.gz",
   "perl" : "6.c",
@@ -35800,6 +35962,49 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.5",
+  "description" : "Construction and rendering of HTML-5 Canvases",
+  "authors" : [
+    "David Warring"
+  ]
+}
+,
+{
+  "name" : "HTML::Canvas",
+  "api" : "2dcontext-20151119",
+  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "font/FreeMono.ttf"
+  ],
+  "build-depends" : [ ],
+  "auth" : "github:p6-css",
+  "depends" : [
+    "Cairo",
+    "Color",
+    "CSS::Properties",
+    "JSON::Fast",
+    "Base64::Native",
+    "Font::FreeType"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "html",
+    "javascript",
+    "png",
+    "svg",
+    "pdf"
+  ],
+  "provides" : {
+    "HTML::Canvas::To::Cairo" : "lib/HTML/Canvas/To/Cairo.pm",
+    "HTML::Canvas" : "lib/HTML/Canvas.pm",
+    "HTML::Canvas::ImageData" : "lib/HTML/Canvas/ImageData.pm",
+    "HTML::Canvas::Tracer" : "lib/HTML/Canvas/Tracer.pm",
+    "HTML::Canvas::Image" : "lib/HTML/Canvas/Image.pm",
+    "HTML::Canvas::Gradient" : "lib/HTML/Canvas/Gradient.pm",
+    "HTML::Canvas::Pattern" : "lib/HTML/Canvas/Pattern.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
   "description" : "Construction and rendering of HTML-5 Canvases",
   "authors" : [
     "David Warring"
