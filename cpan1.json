@@ -1946,6 +1946,39 @@
 }
 ,
 {
+  "name" : "CroX::HTTP::Transform::GraphQL",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-graphql-cro.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-graphql-cro/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/CroX-HTTP-Transform-GraphQL-0.1.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "GraphQL",
+    "Cro::HTTP::Router",
+    "Cro::Transform",
+    "Cro::HTTP::Request",
+    "Cro::HTTP::Response"
+  ],
+  "test-depends" : [
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "GraphQL"
+  ],
+  "provides" : {
+    "CroX::HTTP::Transform::GraphQL" : "lib/CroX/HTTP/Transform/GraphQL.pm6"
+  },
+  "license" : "NASA-1.3",
+  "version" : "0.1",
+  "description" : "Perl6 GraphQL Cro helpers",
+  "authors" : [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ]
+}
+,
+{
   "name" : "DB",
   "support" : {
     "source" : "https://github.com/CurtTilmes/perl6-db.git",
@@ -2328,6 +2361,75 @@
   "license" : "NASA-1.3",
   "version" : "0.5.8",
   "description" : "Perl6 implementation of GraphQL",
+  "authors" : [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ]
+}
+,
+{
+  "name" : "GraphQL",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/Perl6-GraphQL.git",
+    "bugtracker" : "https://github.com/CurtTilmes/Perl6-GraphQL/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/GraphQL-0.6.1.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "JSON::Fast",
+    "Text::Wrap"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "GraphQL"
+  ],
+  "provides" : {
+    "GraphQL::Actions" : "lib/GraphQL/Actions.pm",
+    "GraphQL::Introspection" : "lib/GraphQL/Introspection.pm",
+    "GraphQL" : "lib/GraphQL.pm",
+    "GraphQL::Compare" : "lib/GraphQL/Compare.pm",
+    "GraphQL::Execution" : "lib/GraphQL/Execution.pm",
+    "GraphQL::Response" : "lib/GraphQL/Response.pm",
+    "GraphQL::Grammar" : "lib/GraphQL/Grammar.pm",
+    "GraphQL::Types" : "lib/GraphQL/Types.pm",
+    "GraphQL::Validation" : "lib/GraphQL/Validation.pm",
+    "GraphQL::GraphiQL" : "lib/GraphQL/GraphiQL.pm"
+  },
+  "license" : "NASA-1.3",
+  "version" : "0.6.1",
+  "description" : "Perl6 implementation of GraphQL",
+  "authors" : [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ]
+}
+,
+{
+  "name" : "GraphQL::Server",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-graphql-server.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-graphql-server/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/GraphQL-Server-0.1.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "GraphQL",
+    "JSON::Fast",
+    "Bailador"
+  ],
+  "test-depends" : [
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "GraphQL"
+  ],
+  "provides" : {
+    "GraphQL::Server" : "lib/GraphQL/Server.pm6"
+  },
+  "license" : "NASA-1.3",
+  "version" : "0.1",
+  "description" : "Perl6 Server for GraphQL on top of Bailador",
   "authors" : [
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
   ]
@@ -17660,6 +17762,42 @@
 }
 ,
 {
+  "name" : "Oyatul",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/Oyatul.git",
+    "bugtracker" : "http://github.com/jonathanstowe/Oyatul/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Oyatul-0.0.6.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Fast"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "filesystem",
+    "layout",
+    "util"
+  ],
+  "provides" : {
+    "Oyatul" : "lib/Oyatul.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
+  "meta-version" : "0",
+  "description" : "Abstract representation of a filesystem layout",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Pg::Notify",
   "api" : "1.0",
   "support" : {
@@ -18259,28 +18397,6 @@
   "license" : "Artistic-2.0",
   "version" : "0.0.2",
   "description" : "Support for BubbleBabble string encoding and decoding",
-  "authors" : [
-    "Ben Davies"
-  ]
-}
-,
-{
-  "name" : "Hastebin",
-  "source-url" : "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Hastebin-0.0.3.tar.gz",
-  "perl" : "6.d",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "API"
-  ],
-  "provides" : {
-    "Hastebin" : "lib/Hastebin.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.3",
-  "description" : "Hastebin client API",
   "authors" : [
     "Ben Davies"
   ]
@@ -24775,6 +24891,52 @@
 }
 ,
 {
+  "name" : "Math::Factorial::Operator",
+  "source-url" : "http://www.cpan.org/authors/id/R/RI/RIBNOTTER/Perl6/Math-Factorial-Operator-0.1.2.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Math::Factorial::Operator" : "lib/Factorial.pm6"
+  },
+  "license" : "Unlicense",
+  "version" : "0.1.2",
+  "meta-version" : 0,
+  "description" : "Supplies a factorial post-fix operator. Then 5!=120",
+  "authors" : [
+    "ribbon-otter"
+  ]
+}
+,
+{
+  "name" : "Math::Factorial::Operator",
+  "source-url" : "http://www.cpan.org/authors/id/R/RI/RIBNOTTER/Perl6/Math-Factorial-Operator-0.1.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Math::Factorial::Operator" : "lib/Factorial.pm6"
+  },
+  "license" : "Unlicense",
+  "version" : "0.1.2",
+  "meta-version" : 0,
+  "description" : "Supplies a factorial post-fix operator. Then 5!=120",
+  "authors" : [
+    "ribbon-otter"
+  ]
+}
+,
+{
   "name" : "Text::Names",
   "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/R/RI/RIBNOTTER/Perl6/Text-Names-0.0.1.tar.gz",
@@ -24796,6 +24958,39 @@
   },
   "license" : "MIT",
   "version" : "0.0.1",
+  "description" : "A module that can generate full American English names of either gender, as well as single first names and last names if that is desired. It generates names in roughly the same popularity as they were in 1990 USA",
+  "authors" : [
+    "ribbon-otter"
+  ]
+}
+,
+{
+  "name" : "Text::Names",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/R/RI/RIBNOTTER/Perl6/Text-Names-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "dist.all.last",
+    "dist.female.first",
+    "dist.male.first"
+  ],
+  "build-depends" : [ ],
+  "auth" : "github:ribbon-otter",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "NPL",
+    "Natural Language",
+    "Names",
+    "Dummy Data"
+  ],
+  "provides" : {
+    "Text::Names" : "lib/Text/Names.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.2",
   "description" : "A module that can generate full American English names of either gender, as well as single first names and last names if that is desired. It generates names in roughly the same popularity as they were in 1990 USA",
   "authors" : [
     "ribbon-otter"
@@ -28829,6 +29024,38 @@
 }
 ,
 {
+  "name" : "Date::Names",
+  "support" : {
+    "bugtracker" : "https://github.com/tbrowder/Date-Names-Perl6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Date-Names-Perl6-1.1.0.tar.gz",
+  "perl" : "6.c",
+  "source-type" : "git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "github:tbrowder",
+  "auth" : "github:tbrowder",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "date",
+    "names",
+    "dow"
+  ],
+  "provides" : {
+    "Date::Names" : "lib/Date/Names.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.1.0",
+  "description" : "Provides names for month and weekday numbers (multilingual).",
+  "authors" : [
+    "Tom Browder <tom.browder@gmail.com>"
+  ]
+}
+,
+{
   "name" : "Foo::Bar",
   "support" : {
     "bugtracker" : "https://github.com/tbrowder/Foo-Bar-Perl6/issues"
@@ -29465,6 +29692,35 @@
   },
   "license" : "MIT",
   "version" : "0.0.3",
+  "description" : "A Perl6 bindings for libLBFGS",
+  "authors" : [
+    "Itsuki Toyota"
+  ]
+}
+,
+{
+  "name" : "Algorithm::LBFGS",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LBFGS-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/lbfgs"
+  ],
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "auth" : "titsuki",
+  "depends" : [
+    "NativeHelpers::Array"
+  ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::LBFGS" : "lib/Algorithm/LBFGS.pm6",
+    "Algorithm::LBFGS::Status" : "lib/Algorithm/LBFGS/Status.pm6",
+    "Algorithm::LBFGS::Parameter" : "lib/Algorithm/LBFGS/Parameter.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.4",
   "description" : "A Perl6 bindings for libLBFGS",
   "authors" : [
     "Itsuki Toyota"
@@ -30463,6 +30719,36 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.12",
+  "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
+  "name" : "MeCab",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/MeCab-0.0.13.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/mecab"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Zef"
+  ],
+  "auth" : "titsuki",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "MeCab::DictionaryInfo" : "lib/MeCab/DictionaryInfo.pm6",
+    "MeCab::Tagger" : "lib/MeCab/Tagger.pm6",
+    "MeCab::Lattice" : "lib/MeCab/Lattice.pm6",
+    "MeCab" : "lib/MeCab.pm6",
+    "MeCab::Model" : "lib/MeCab/Model.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.13",
   "description" : "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
   "authors" : [
     "titsuki"
