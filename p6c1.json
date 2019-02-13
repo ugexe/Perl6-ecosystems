@@ -6084,6 +6084,31 @@
 }
 ,
 {
+  "name" : "HTTP::Server::Async",
+  "source-url" : "git://github.com/perl6-community-modules/perl6-http-server-async.git",
+  "support" : {
+    "source" : "git://github.com/perl6-community-modules/perl6-http-server-async.git",
+    "bugtracker" : "https://github.com/perl6-community-modules/perl6-http-server-async/issues"
+  },
+  "perl" : "6.*",
+  "auth" : "github:tony-o",
+  "depends" : [
+    "HTTP::Roles"
+  ],
+  "provides" : {
+    "HTTP::Server::Async::Response" : "lib/HTTP/Server/Async/Response.pm6",
+    "HTTP::Server::Async" : "lib/HTTP/Server/Async.pm6",
+    "HTTP::Server::Async::Request" : "lib/HTTP/Server/Async/Request.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.9",
+  "authors" : [
+    "tony-o"
+  ],
+  "description" : "Asynchronous Base HTTP Server"
+}
+,
+{
   "name" : "Template::Mustache",
   "support" : {
     "bugtracker" : "https://github.com/softmoth/p6-Template-Mustache/issues"
