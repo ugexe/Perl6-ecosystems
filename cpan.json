@@ -2324,6 +2324,43 @@
 }
 ,
 {
+  "name" : "DB::SQLite",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-dbsqlite.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-dbsqlite/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/DB-SQLite-0.3.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "DB",
+    "NativeLibs",
+    "NativeCall"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [
+    "DATABASE",
+    "SQLITE"
+  ],
+  "provides" : {
+    "DB::SQLite::Result" : "lib/DB/SQLite/Result.pm6",
+    "DB::SQLite" : "lib/DB/SQLite.pm6",
+    "DB::SQLite::Connection" : "lib/DB/SQLite/Connection.pm6",
+    "DB::SQLite::Statement" : "lib/DB/SQLite/Statement.pm6",
+    "DB::SQLite::Native" : "lib/DB/SQLite/Native.pm6"
+  },
+  "license" : "BSD-2-Clause",
+  "version" : "0.3",
+  "description" : "SQLite access for Perl6",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
+  ]
+}
+,
+{
   "name" : "GraphQL",
   "support" : {
     "source" : "https://github.com/CurtTilmes/Perl6-GraphQL.git",
@@ -8888,6 +8925,35 @@
   "version" : "0.5.2",
   "meta-version" : "0",
   "description" : "The anti-template templating tool.",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "ULID",
+  "support" : {
+    "source" : "git://github.com/zostay/p6-ULID.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ULID-0.1.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "ULID" : "lib/ULID.pm6",
+    "X::ULID" : "lib/ULID.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "meta-version" : "0",
+  "description" : "Universally Unique Lexicoraphically Sortable Identifiers for Perl 6",
   "authors" : [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
   ]
@@ -15669,23 +15735,6 @@
   "authors" : [
     "Jonathan Worthington <jnthn@jnthn.net>"
   ]
-}
-,
-{
-  "name" : "NativeCall",
-  "support" : {
-    "source" : "https://github.com/jnthn/zavolaj.git",
-    "bugtracker" : "https://github.com/jnthn/zavolaj/issues"
-  },
-  "perl" : "v6",
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "provides" : {
-    "NativeCall" : "lib/NativeCall.pm6"
-  },
-  "test-depends" : [ ],
-  "version" : "v1",
-  "description" : "Native call interface for Rakudo"
 }
 ,
 {
