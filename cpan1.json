@@ -192,6 +192,31 @@
 }
 ,
 {
+  "name" : "Canoe",
+  "support" : {
+    "source" : "https://github.com/perl6-song/canoe.git",
+    "bugtracker" : "https://github.com/perl6-song/canoe/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/Canoe-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "auth" : "github:araraloren",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "plug",
+    "plug-in",
+    "pluggable"
+  ],
+  "provides" : {
+    "Canoe" : "lib/Canoe.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.3",
+  "description" : "An simple thread-safe plug-in framework for Perl 6",
+  "authors" : "Loren"
+}
+,
+{
   "name" : "Getopt::Advance",
   "support" : {
     "source" : "https://github.com/araraloren/perl6-getopt-advance.git",
@@ -17880,6 +17905,38 @@
   "description" : "Reactive interface to PostgreSQL notifies",
   "authors" : [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Printing::Jdf",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/p6-jdf.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Printing-Jdf-0.1.1.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:carbin",
+  "depends" : [
+    "XML"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "printing",
+    "jdf"
+  ],
+  "provides" : {
+    "Printing::Jdf" : "lib/Printing/Jdf.pm6"
+  },
+  "license" : "ISC",
+  "version" : "0.1.1",
+  "meta-version" : "0",
+  "description" : "Parse JDF files",
+  "authors" : [
+    "carbin",
+    "Jonathan Stowe"
   ]
 }
 ,
@@ -36173,48 +36230,6 @@ null
   "license" : "Artistic-2.0",
   "version" : "0.1.3",
   "description" : "read font files and render glyphs from Perl using FreeType2",
-  "authors" : [
-    "David Warring"
-  ]
-}
-,
-{
-  "name" : "HTML::Canvas",
-  "api" : "2dcontext-20151119",
-  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-0.0.3.tar.gz",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "auth" : "github:p6-css",
-  "depends" : [
-    "Cairo",
-    "Color",
-    "HTML::Entity",
-    "CSS::Declarations",
-    "JSON::Fast",
-    "Base64::Native",
-    "Font::FreeType"
-  ],
-  "test-depends" : [ ],
-  "tags" : [
-    "html",
-    "javascript",
-    "png",
-    "svg",
-    "pdf"
-  ],
-  "provides" : {
-    "HTML::Canvas::To::Cairo" : "lib/HTML/Canvas/To/Cairo.pm",
-    "HTML::Canvas" : "lib/HTML/Canvas.pm",
-    "HTML::Canvas::ImageData" : "lib/HTML/Canvas/ImageData.pm",
-    "HTML::Canvas::Tracer" : "lib/HTML/Canvas/Tracer.pm",
-    "HTML::Canvas::Image" : "lib/HTML/Canvas/Image.pm",
-    "HTML::Canvas::Gradient" : "lib/HTML/Canvas/Gradient.pm",
-    "HTML::Canvas::Pattern" : "lib/HTML/Canvas/Pattern.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.3",
-  "description" : "Construction and rendering of HTML-5 Canvases",
   "authors" : [
     "David Warring"
   ]
