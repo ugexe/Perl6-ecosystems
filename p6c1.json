@@ -6269,10 +6269,15 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Printing::Jdf",
+  "perl" : "6.*",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/p6-jdf.git"
+  },
   "source-url" : "git://github.com/jonathanstowe/p6-jdf.git",
-  "perl" : "6.c",
-  "author" : "github:carbin",
+  "resources" : [ ],
+  "build-depends" : [ ],
   "auth" : "github:carbin",
   "depends" : [
     "XML"
@@ -6280,8 +6285,19 @@
   "provides" : {
     "Printing::Jdf" : "lib/Printing/Jdf.pm6"
   },
-  "version" : "0.1.0",
-  "description" : "Parse JDF files"
+  "license" : "ISC",
+  "test-depends" : [ ],
+  "tags" : [
+    "printing",
+    "jdf"
+  ],
+  "meta-version" : "0",
+  "version" : "0.1.1",
+  "description" : "Parse JDF files",
+  "authors" : [
+    "carbin",
+    "Jonathan Stowe"
+  ]
 }
 ,
 {
@@ -7279,6 +7295,24 @@
     "Tony O'Dell"
   ],
   "description" : "Perl6 embedded templates"
+}
+,
+{
+  "name" : "App::SixLib",
+  "support" : {
+    "source" : "https://github.com/cygx/6lib",
+    "bugtracker" : "https://github.com/cygx/6lib/issues"
+  },
+  "source-url" : "git://github.com/cygx/6lib.git",
+  "perl" : "6.*",
+  "auth" : "github:cygx",
+  "provides" : { },
+  "license" : "BSL-1.0",
+  "version" : "0.0.1",
+  "authors" : [
+    "cygx"
+  ],
+  "description" : "Manage symlink-based repositories of local Perl6 modules"
 }
 ,
 {
@@ -8312,10 +8346,10 @@
 ,
 {
   "name" : "Terminal::Print",
-  "perl" : "6.d.PREVIEW",
   "source-url" : "git://github.com/ab5tract/Terminal-Print.git",
-  "build-depends" : [ ],
+  "perl" : "6.d.PREVIEW",
   "resources" : [ ],
+  "build-depends" : [ ],
   "depends" : [
     "OO::Monitors",
     "Terminal::ANSIColor",
@@ -8341,12 +8375,12 @@
     "Terminal::Print::Grid" : "lib/Terminal/Print/Grid.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.94",
+  "version" : "0.97",
+  "description" : "Asynchronous printing to your terminal -- as a simple grid",
   "authors" : [
     "John Haltiwanger",
     "japhb"
-  ],
-  "description" : "Asynchronous printing to your terminal -- as a simple grid"
+  ]
 }
 ,
 {
@@ -18184,6 +18218,7 @@
   "depends" : [ ],
   "provides" : {
     "GLFW::Window::Attribute" : "lib/GLFW/Window/Attribute.pm6",
+    "GLFW::VidMode" : "lib/GLFW/VidMode.pm6",
     "GLFW::Version" : "lib/GLFW/Version.pm6",
     "GLFW::ErrorCode" : "lib/GLFW/ErrorCode.pm6",
     "GLFW::Cursor" : "lib/GLFW/Cursor.pm6",
