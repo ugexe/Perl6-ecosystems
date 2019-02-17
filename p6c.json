@@ -2566,7 +2566,7 @@
   "auth" : "github:jasonmay",
   "depends" : [ ],
   "test-depends" : [
-    "Path::Iterator",
+    "Path::Finder",
     "Test::META"
   ],
   "tags" : [
@@ -2583,7 +2583,7 @@
     "IoC::BlockInjection" : "lib/IoC/BlockInjection.pm6"
   },
   "license" : "NOASSERTION",
-  "version" : "0.0.3",
+  "version" : "0.0.4",
   "description" : "Wire your application components together using inversion of control",
   "authors" : [
     "Jason May",
