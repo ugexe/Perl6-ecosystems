@@ -3125,6 +3125,21 @@
 }
 ,
 {
+  "name" : "Numeric::Nearest",
+  "source-url" : "http://www.cpan.org/authors/id/D/DR/DRCLAW/Perl6/Numeric-Nearest-0.5.0.tar.gz",
+  "perl" : "6.c",
+  "provides" : {
+    "Numeric::Nearest" : "lib/Numeric/Nearest.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.5.0",
+  "description" : "Finds nearest item/index in a sorted list for a given key",
+  "authors" : [
+    "Ruben Westerberg <drclaw@mac.com>"
+  ]
+}
+,
+{
   "name" : "AccountableBagHash",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/AccountableBagHash-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -18011,6 +18026,46 @@
   "authors" : [
     "carbin",
     "Jonathan Stowe"
+  ]
+}
+,
+{
+  "name" : "RPi::Device::SMBus",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/RPi-Device-SMBus.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/RPi-Device-SMBus-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "resources" : [
+    "libraries/i2chelper"
+  ],
+  "build-depends" : [
+    "Shell::Command",
+    "LibraryMake"
+  ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "NativeHelpers::Array"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "RPi",
+    "Raspberry Pi",
+    "i2c",
+    "SMBus"
+  ],
+  "provides" : {
+    "RPi::Device::SMBus" : "lib/RPi/Device/SMBus.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "SMBus/i2c interface on the Raspberry Pi",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
 }
 ,
@@ -35744,6 +35799,48 @@ null
 }
 ,
 {
+  "name" : "Cro::RPC::JSON",
+  "support" : {
+    "source" : "https://github.com/vrurg/Perl6-Cro-RPC-JSON.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/Cro-RPC-JSON-v0.0.5.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:vrurg",
+  "depends" : [
+    "Cro::HTTP",
+    "JSON::Fast"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When",
+    "Cro::HTTP::Test"
+  ],
+  "tags" : [
+    "Cro",
+    "JSON-RPC"
+  ],
+  "provides" : {
+    "Cro::RPC::JSON::Message" : "lib/Cro/RPC/JSON/Message.pm6",
+    "Cro::RPC::JSON::RequestParser" : "lib/Cro/RPC/JSON/RequestParser.pm6",
+    "Cro::RPC::JSON::ResponseSerializer" : "lib/Cro/RPC/JSON/ResponseSerializer.pm6",
+    "Cro::RPC::JSON::Handler" : "lib/Cro/RPC/JSON/Handler.pm6",
+    "Cro::RPC::JSON::Exception" : "lib/Cro/RPC/JSON/Exception.pm6",
+    "Cro::RPC::JSON" : "lib/Cro/RPC/JSON.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "production" : true,
+  "meta-version" : "0",
+  "description" : "Cro JSON-RPC implementation",
+  "authors" : [
+    "Vadim Belman <vrurg@cpan.org>"
+  ]
+}
+,
+{
   "name" : "IP::Addr",
   "support" : {
     "source" : "https://github.com/vrurg/perl6-IP-Addr.git"
@@ -36059,6 +36156,55 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.5",
+  "production" : true,
+  "meta-version" : "0",
+  "description" : "Framework for working with OO application plugins",
+  "authors" : [
+    "Vadim Belman <vrurg@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "OO::Plugin",
+  "support" : {
+    "source" : "https://github.com/vrurg/Perl6-OO-Plugin.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/OO-Plugin-v0.0.6.tar.gz",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [
+    "META6",
+    "p6doc",
+    "Pod::To::Markdown"
+  ],
+  "auth" : "github:vrurg",
+  "depends" : [
+    "WhereList",
+    "File::Find",
+    "WhereList"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "OO",
+    "Plugin",
+    "Plugins"
+  ],
+  "provides" : {
+    "OO::Plugin::Metamodel::PlugRoleHOW" : "lib/OO/Plugin/Metamodel/PlugRoleHOW.pm6",
+    "OO::Plugin::Exception" : "lib/OO/Plugin/Exception.pm6",
+    "OO::Plugin::Class" : "lib/OO/Plugin/Class.pm6",
+    "OO::Plugin" : "lib/OO/Plugin.pm6",
+    "OO::Plugin::Manager" : "lib/OO/Plugin/Manager.pm6",
+    "OO::Plugin::Metamodel::PluginHOW" : "lib/OO/Plugin/Metamodel/PluginHOW.pm6",
+    "OO::Plugin::Registry" : "lib/OO/Plugin/Registry.pm6",
+    "OO::Plugin::Declarations" : "lib/OO/Plugin/Declarations.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
   "production" : true,
   "meta-version" : "0",
   "description" : "Framework for working with OO application plugins",
@@ -36386,6 +36532,49 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.6",
+  "description" : "Construction and rendering of HTML-5 Canvases",
+  "authors" : [
+    "David Warring"
+  ]
+}
+,
+{
+  "name" : "HTML::Canvas",
+  "api" : "2dcontext-20151119",
+  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-0.0.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "font/FreeMono.ttf"
+  ],
+  "build-depends" : [ ],
+  "auth" : "github:p6-css",
+  "depends" : [
+    "Cairo",
+    "Color",
+    "CSS::Properties",
+    "JSON::Fast",
+    "Base64::Native",
+    "Font::FreeType"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "html",
+    "javascript",
+    "png",
+    "svg",
+    "pdf"
+  ],
+  "provides" : {
+    "HTML::Canvas::To::Cairo" : "lib/HTML/Canvas/To/Cairo.pm",
+    "HTML::Canvas" : "lib/HTML/Canvas.pm",
+    "HTML::Canvas::ImageData" : "lib/HTML/Canvas/ImageData.pm",
+    "HTML::Canvas::Tracer" : "lib/HTML/Canvas/Tracer.pm",
+    "HTML::Canvas::Image" : "lib/HTML/Canvas/Image.pm",
+    "HTML::Canvas::Gradient" : "lib/HTML/Canvas/Gradient.pm",
+    "HTML::Canvas::Pattern" : "lib/HTML/Canvas/Pattern.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
   "description" : "Construction and rendering of HTML-5 Canvases",
   "authors" : [
     "David Warring"
