@@ -10454,8 +10454,9 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "RPi::Device::SMBus",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "source" : "git://github.com/jonathanstowe/RPi-Device-SMBus.git"
   },
@@ -10484,12 +10485,12 @@
     "i2c",
     "SMBus"
   ],
-  "version" : "0.0.2",
-  "meta6" : "0",
-  "description" : "SMBus/i2c interface on the Raspberry Pi",
+  "meta-version" : "0",
+  "version" : "0.0.3",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "SMBus/i2c interface on the Raspberry Pi"
 }
 ,
 {
