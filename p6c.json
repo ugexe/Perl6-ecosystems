@@ -2722,7 +2722,8 @@
     "IETF::RFC_Grammar" : "lib/IETF/RFC_Grammar.pm",
     "URI::Escape" : "lib/URI/Escape.pm"
   },
-  "version" : "v0.1.4",
+  "meta-version" : 0,
+  "version" : "0.1.5",
   "description" : "A URI implementation using Perl 6 grammars to implement RFC 3986 BNF"
 }
 ,
@@ -10483,12 +10484,13 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "RPi::Device::PiGlow",
-  "perl" : "6",
+  "perl" : "6.*",
   "support" : {
-    "source" : "git://github.com/jonathanstowe/RPi-Device-PiGlow.git"
+    "source" : "https://github.com/jonathanstowe/RPi-Device-PiGlow.git"
   },
-  "source-url" : "git://github.com/jonathanstowe/RPi-Device-PiGlow.git",
+  "source-url" : "https://github.com/jonathanstowe/RPi-Device-PiGlow.git",
   "build-depends" : [ ],
   "resources" : [ ],
   "auth" : "github:jonathanstowe",
@@ -10508,12 +10510,12 @@
     "i2c",
     "PiGlow"
   ],
-  "version" : "0.0.1",
-  "meta6" : "0",
-  "description" : "Interface for the Pimoroni PiGlow on the Raspberry Pi",
+  "meta-version" : "0",
+  "version" : "0.0.3",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
+  ],
+  "description" : "Interface for the Pimoroni PiGlow on the Raspberry Pi"
 }
 ,
 {
@@ -11101,7 +11103,7 @@
     "Test"
   ],
   "license" : "Artistic-2.0",
-  "version" : "0.6.6",
+  "version" : "0.6.7",
   "meta-version" : "0",
   "authors" : [
     "Nick Logan",
@@ -21060,5 +21062,27 @@
   "authors" : [
     "JJ Merelo"
   ]
+}
+,
+{
+  "name" : "Bio::ViennaNGS",
+  "source-url" : "git://github.com/mtw/Perl6-Bio-ViennaNGS.git",
+  "support" : {
+    "source" : "git://github.com/mtw/Perl6-Bio-ViennaNGS.git"
+  },
+  "perl" : "6.c",
+  "source-type" : "git",
+  "depends" : [ ],
+  "provides" : {
+    "Bio::ViennaNGS::GenomicIntervals" : "lib/Bio/ViennaNGS/GenomicIntervals.pm6"
+  },
+  "test-depends" : [
+    "Test"
+  ],
+  "version" : "0.0.1",
+  "authors" : [
+    "Michael T. Wolfinger"
+  ],
+  "description" : "A port of Bio::ViennaNGS to Perl6"
 }
 ]
