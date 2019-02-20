@@ -18067,6 +18067,76 @@
 }
 ,
 {
+  "name" : "RPi::Device::PiGlow",
+  "api" : "1.0",
+  "support" : {
+    "source" : "https://github.com/jonathanstowe/RPi-Device-PiGlow.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/RPi-Device-PiGlow-0.0.2.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "RPi::Device::SMBus"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "RPi",
+    "Raspberry Pi",
+    "i2c",
+    "PiGlow"
+  ],
+  "provides" : {
+    "RPi::Device::PiGlow" : "lib/RPi/Device/PiGlow.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "meta-version" : "0",
+  "description" : "Interface for the Pimoroni PiGlow on the Raspberry Pi",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "RPi::Device::PiGlow",
+  "api" : "1.0",
+  "support" : {
+    "source" : "https://github.com/jonathanstowe/RPi-Device-PiGlow.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/RPi-Device-PiGlow-0.0.3.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "RPi::Device::SMBus"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "RPi",
+    "Raspberry Pi",
+    "i2c",
+    "PiGlow"
+  ],
+  "provides" : {
+    "RPi::Device::PiGlow" : "lib/RPi/Device/PiGlow.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "Interface for the Pimoroni PiGlow on the Raspberry Pi",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "RPi::Device::SMBus",
   "api" : "1.0",
   "support" : {
