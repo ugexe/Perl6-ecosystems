@@ -11924,7 +11924,7 @@
 {
   "name" : "NativeHelpers::Blob",
   "support" : {
-    "email" : "sog@msg.com.mx",
+    "email" : "sog@msg.mx",
     "source" : "https://github.com/salortiz/NativeHelpers-Blob.git"
   },
   "source-url" : "git://github.com/salortiz/NativeHelpers-Blob.git",
@@ -11948,7 +11948,7 @@
     "NativeHelpers::Pointer" : "lib/NativeHelpers/Pointer.pm6",
     "NativeHelpers::Blob" : "lib/NativeHelpers/Blob.pm6"
   },
-  "version" : "0.1.10",
+  "version" : "0.1.11",
   "authors" : "Salvador Ortiz <sortiz@cpan.com>",
   "description" : "NativeCall utilities for work with Blob and CArray"
 }
@@ -13455,6 +13455,12 @@
   "perl" : "6.c",
   "source-url" : "git://github.com/masterduke17/text-diff-sift4.git",
   "depends" : [ ],
+  "tags" : [
+    "Text",
+    "Difference",
+    "Diff",
+    "Typos"
+  ],
   "provides" : {
     "Text::Diff::Sift4" : "lib/Text/Diff/Sift4.pm6"
   },
@@ -14776,7 +14782,7 @@
   "provides" : {
     "Digest::SHA1::Native" : "lib/Digest/SHA1/Native.pm6"
   },
-  "version" : "0.03",
+  "version" : "0.04",
   "authors" : [
     "Brian Duggan"
   ],
@@ -21084,5 +21090,28 @@
     "Michael T. Wolfinger"
   ],
   "description" : "A port of Bio::ViennaNGS to Perl6"
+}
+,
+{
+  "name" : "Avolution::Emoji",
+  "source-url" : "git://github.com/XiKuuKy/Avolution-Emoji.git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "tags" : [
+    "emoji",
+    "fun",
+    "avolution"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Avolution::Emoji" : "lib/Avolution/Emoji.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.1.0",
+  "authors" : [
+    "XiKuuKy/choiboi"
+  ],
+  "description" : "Allows simplified usage of emoji in code"
 }
 ]
