@@ -13949,6 +13949,30 @@
   "support" : {
     "source" : "https://github.com/edumentab/p6-pofile.git"
   },
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/POFile-0.7.2.tar.gz",
+  "perl" : "6.c",
+  "tags" : [
+    "gettext",
+    "i18n"
+  ],
+  "provides" : {
+    "POFile" : "lib/POFile.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.7.2",
+  "meta-version" : "0",
+  "description" : "Module for interacting with gettext PO files",
+  "authors" : [
+    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>",
+    "Jonathan Worthington <jonathan@edument.se>"
+  ]
+}
+,
+{
+  "name" : "POFile",
+  "support" : {
+    "source" : "https://github.com/edumentab/p6-pofile.git"
+  },
   "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/POFile-0.7.tar.gz",
   "perl" : "6.c",
   "provides" : {
@@ -17289,6 +17313,41 @@
 }
 ,
 {
+  "name" : "License::SPDX",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+gh@gellyfish.co.uk",
+    "source" : "https://github.com/jonathanstowe/License-SPDX.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/License-SPDX-3.4.0.tar.gz",
+  "perl" : "6.d",
+  "resources" : [
+    "data/licenses.json"
+  ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Class"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "licence",
+    "license",
+    "SPDX"
+  ],
+  "provides" : {
+    "License::SPDX" : "lib/License/SPDX.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "3.4.0",
+  "meta-version" : "0",
+  "description" : "The SPDX licence list",
+  "authors" : [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Linux::Cpuinfo",
   "api" : "1.0",
   "support" : {
@@ -20374,6 +20433,64 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.4.3",
+  "description" : "Interfacing Glade XML to Perl6",
+  "authors" : [
+    "Marcel Timmerman"
+  ]
+}
+,
+{
+  "name" : "GTK::V3",
+  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-v3-0.5.0.tar.gz",
+  "perl" : "6",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Gui",
+    "Gtk"
+  ],
+  "provides" : {
+    "GTK::V3::X" : "lib/GTK/V3/X.pm6",
+    "GTK::V3::Gtk::GtkWidget" : "lib/GTK/V3/Gtk/GtkWidget.pm6",
+    "GTK::V3::Gtk::GtkTextView" : "lib/GTK/V3/Gtk/GtkTextView.pm6",
+    "GTK::V3::Gtk::GtkMenuItem" : "lib/GTK/V3/Gtk/GtkMenuItem.pm6",
+    "GTK::V3::Gtk::GtkCheckButton" : "lib/GTK/V3/Gtk/GtkCheckButton.pm6",
+    "GTK::V3::Glib::GObject" : "lib/GTK/V3/Glib/GObject.pm6",
+    "GTK::V3::Gdk::GdkWindow" : "lib/GTK/V3/Gdk/GdkWindow.pm6",
+    "GTK::V3::Gtk::GtkToggleButton" : "lib/GTK/V3/Gtk/GtkToggleButton.pm6",
+    "GTK::V3::Gtk::GtkRadioButton" : "lib/GTK/V3/Gtk/GtkRadioButton.pm6",
+    "GTK::V3::Gtk::GtkCssProvider" : "lib/GTK/V3/Gtk/GtkCssProvider.pm6",
+    "GTK::V3::Glib::GSList" : "lib/GTK/V3/Glib/GSList.pm6",
+    "GTK::V3::Glib::GMain" : "lib/GTK/V3/Glib/GMain.pm6",
+    "GTK::V3::N::NativeLib" : "lib/GTK/V3/N/NativeLib.pm6",
+    "GTK::V3::Gtk::GtkWindow" : "lib/GTK/V3/Gtk/GtkWindow.pm6",
+    "GTK::V3::Gtk::GtkStyleContext" : "lib/GTK/V3/Gtk/GtkStyleContext.pm6",
+    "GTK::V3::Gtk::GtkListBox" : "lib/GTK/V3/Gtk/GtkListBox.pm6",
+    "GTK::V3::Gtk::GtkImageMenuItem" : "lib/GTK/V3/Gtk/GtkImageMenuItem.pm6",
+    "GTK::V3::Glib::GList" : "lib/GTK/V3/Glib/GList.pm6",
+    "GTK::V3::Gdk::GdkScreen" : "lib/GTK/V3/Gdk/GdkScreen.pm6",
+    "GTK::V3::Gtk::GtkBuilder" : "lib/GTK/V3/Gtk/GtkBuilder.pm6",
+    "GTK::V3::Gtk::GtkAboutDialog" : "lib/GTK/V3/Gtk/GtkAboutDialog.pm6",
+    "GTK::V3::Gtk::GtkTextBuffer" : "lib/GTK/V3/Gtk/GtkTextBuffer.pm6",
+    "GTK::V3::Gdk::GdkDisplay" : "lib/GTK/V3/Gdk/GdkDisplay.pm6",
+    "GTK::V3::Gtk::GtkLabel" : "lib/GTK/V3/Gtk/GtkLabel.pm6",
+    "GTK::V3::Gtk::GtkEntry" : "lib/GTK/V3/Gtk/GtkEntry.pm6",
+    "GTK::V3::Gtk::GtkButton" : "lib/GTK/V3/Gtk/GtkButton.pm6",
+    "GTK::V3::Glib::GType" : "lib/GTK/V3/Glib/GType.pm6",
+    "GTK::V3::Gtk::GtkTextTagTable" : "lib/GTK/V3/Gtk/GtkTextTagTable.pm6",
+    "GTK::V3::Gtk::GtkImage" : "lib/GTK/V3/Gtk/GtkImage.pm6",
+    "GTK::V3::Gtk::GtkBin" : "lib/GTK/V3/Gtk/GtkBin.pm6",
+    "GTK::V3::Glib::GError" : "lib/GTK/V3/Glib/GError.pm6",
+    "GTK::V3::Gtk::GtkMain" : "lib/GTK/V3/Gtk/GtkMain.pm6",
+    "GTK::V3::Gtk::GtkGrid" : "lib/GTK/V3/Gtk/GtkGrid.pm6",
+    "GTK::V3::Gtk::GtkDialog" : "lib/GTK/V3/Gtk/GtkDialog.pm6",
+    "GTK::V3::Gtk::GtkContainer" : "lib/GTK/V3/Gtk/GtkContainer.pm6",
+    "GTK::V3::Gdk::GdkTypes" : "lib/GTK/V3/Gdk/GdkTypes.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.5.0",
   "description" : "Interfacing Glade XML to Perl6",
   "authors" : [
     "Marcel Timmerman"
@@ -36791,48 +36908,6 @@ null
   "license" : "Artistic-2.0",
   "version" : "0.1.5",
   "description" : "read font files and render glyphs from Perl using FreeType2",
-  "authors" : [
-    "David Warring"
-  ]
-}
-,
-{
-  "name" : "HTML::Canvas",
-  "api" : "2dcontext-20151119",
-  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-0.0.4.tar.gz",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "auth" : "github:p6-css",
-  "depends" : [
-    "Cairo",
-    "Color",
-    "HTML::Entity",
-    "CSS::Properties",
-    "JSON::Fast",
-    "Base64::Native",
-    "Font::FreeType"
-  ],
-  "test-depends" : [ ],
-  "tags" : [
-    "html",
-    "javascript",
-    "png",
-    "svg",
-    "pdf"
-  ],
-  "provides" : {
-    "HTML::Canvas::To::Cairo" : "lib/HTML/Canvas/To/Cairo.pm",
-    "HTML::Canvas" : "lib/HTML/Canvas.pm",
-    "HTML::Canvas::ImageData" : "lib/HTML/Canvas/ImageData.pm",
-    "HTML::Canvas::Tracer" : "lib/HTML/Canvas/Tracer.pm",
-    "HTML::Canvas::Image" : "lib/HTML/Canvas/Image.pm",
-    "HTML::Canvas::Gradient" : "lib/HTML/Canvas/Gradient.pm",
-    "HTML::Canvas::Pattern" : "lib/HTML/Canvas/Pattern.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.4",
-  "description" : "Construction and rendering of HTML-5 Canvases",
   "authors" : [
     "David Warring"
   ]
