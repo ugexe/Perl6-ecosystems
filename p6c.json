@@ -9383,24 +9383,25 @@
 }
 ,
 {
+  "api" : "1.0",
   "name" : "Test::META",
-  "perl" : "6.c",
+  "perl" : "6.*",
   "support" : {
     "email" : "jns+git@gellyfish.co.uk",
-    "source" : "git://github.com/jonathanstowe/Test-META.git",
+    "source" : "https://github.com/jonathanstowe/Test-META.git",
     "bugtracker" : "http://github.com/jonathanstowe/Test-META/issues"
   },
-  "source-url" : "git://github.com/jonathanstowe/Test-META.git",
+  "source-url" : "https://github.com/jonathanstowe/Test-META.git",
   "build-depends" : [ ],
   "resources" : [ ],
   "auth" : "github:jonathanstowe",
   "depends" : [
     "Test",
     "META6",
-    "URI"
+    "URI",
+    "License::SPDX"
   ],
   "provides" : {
-    "Test::META::LicenseList" : "lib/Test/META/LicenseList.pm",
     "Test::META" : "lib/Test/META.pm"
   },
   "test-depends" : [
@@ -9413,8 +9414,8 @@
     "utils",
     "testing"
   ],
-  "meta-version" : "0",
-  "version" : "0.0.14",
+  "meta-version" : 0,
+  "version" : "0.0.15",
   "description" : "Test a distributions META file",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
