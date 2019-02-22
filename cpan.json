@@ -17207,6 +17207,48 @@
 }
 ,
 {
+  "name" : "JSON::Infer",
+  "api" : "1.0",
+  "support" : {
+    "irc" : "irc:// irc.freenode.net/#perl6",
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/JSON-Infer.git",
+    "bugtracker" : "https://github.com/jonathanstowe/JSON-Infer/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Infer-0.0.17.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Fast",
+    "HTTP::UserAgent",
+    "JSON::Class",
+    "JSON::Name"
+  ],
+  "test-depends" : [
+    "JSON::Fast",
+    "Test"
+  ],
+  "tags" : [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "provides" : {
+    "JSON::Infer" : "lib/JSON/Infer.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.17",
+  "meta-version" : "0",
+  "description" : "Infer Perl 6 Classes from JSON input",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "JSON::Marshal",
   "api" : "1.0",
   "support" : {
@@ -18349,6 +18391,46 @@
   "version" : "0.0.12",
   "meta-version" : "0",
   "description" : "Perl 6 access to Utmp entries on Unix-like systems",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Test::META",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "https://github.com/jonathanstowe/Test-META.git",
+    "bugtracker" : "http://github.com/jonathanstowe/Test-META/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Test-META-0.0.15.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "Test",
+    "META6",
+    "URI",
+    "License::SPDX"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "devel",
+    "meta",
+    "utils",
+    "testing"
+  ],
+  "provides" : {
+    "Test::META" : "lib/Test/META.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.15",
+  "meta-version" : 0,
+  "description" : "Test a distributions META file",
   "authors" : [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ]
@@ -20183,67 +20265,6 @@
 ,
 {
   "name" : "GTK::Glade",
-  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-glade-0.7.0.tar.gz",
-  "perl" : "6",
-  "resources" : [
-    "library-logo.png",
-    "library.glade",
-    "mimetypes"
-  ],
-  "build-depends" : [ ],
-  "depends" : [
-    "XML::Actions"
-  ],
-  "X-test-depends" : [
-    "Test::META"
-  ],
-  "tags" : [
-    "XML",
-    "Glade",
-    "Gtk"
-  ],
-  "provides" : {
-    "GTK::Glade::NativeLib" : "lib/GTK/Glade/NativeLib.pm6",
-    "GTK::Glade::Native::Gtk::Range" : "lib/GTK/Glade/Native/Gtk/Range.pm6",
-    "GTK::Glade::Native::Gtk::Frame" : "lib/GTK/Glade/Native/Gtk/Frame.pm6",
-    "GTK::Glade::Native::Gtk::Container" : "lib/GTK/Glade/Native/Gtk/Container.pm6",
-    "GTK::Glade::Engine::Work" : "lib/GTK/Glade/Engine/Work.pm6",
-    "GTK::Glade::Engine::Test" : "lib/GTK/Glade/Engine/Test.pm6",
-    "GTK::Glade::NativeGtk" : "lib/GTK/Glade/NativeGtk.pm6",
-    "GTK::Glade::Native::Gtk::Dialog" : "lib/GTK/Glade/Native/Gtk/Dialog.pm6",
-    "GTK::Glade::Native::Gtk::Actionbar" : "lib/GTK/Glade/Native/Gtk/Actionbar.pm6",
-    "GTK::Glade::Native::Gtk::Listbox" : "lib/GTK/Glade/Native/Gtk/Listbox.pm6",
-    "GTK::Glade::Native::Gtk" : "lib/GTK/Glade/Native/Gtk.pm6",
-    "GTK::Glade::Native::Gtk::Widget" : "lib/GTK/Glade/Native/Gtk/Widget.pm6",
-    "GTK::Glade::Native::Gtk::Entry" : "lib/GTK/Glade/Native/Gtk/Entry.pm6",
-    "GTK::Glade::Engine::PreProcess" : "lib/GTK/Glade/Engine/PreProcess.pm6",
-    "GTK::Glade::Native::Gtk::Separator" : "lib/GTK/Glade/Native/Gtk/Separator.pm6",
-    "GTK::Glade::Native::Gtk::Checkbutton" : "lib/GTK/Glade/Native/Gtk/Checkbutton.pm6",
-    "GTK::Glade::Native::Gtk::Button" : "lib/GTK/Glade/Native/Gtk/Button.pm6",
-    "GTK::Glade::Native::Gtk::Builder" : "lib/GTK/Glade/Native/Gtk/Builder.pm6",
-    "GTK::Glade::Native::Gdk" : "lib/GTK/Glade/Native/Gdk.pm6",
-    "GTK::Glade::Native::Gtk::Window" : "lib/GTK/Glade/Native/Gtk/Window.pm6",
-    "GTK::Glade::Native::Gtk::Togglebutton" : "lib/GTK/Glade/Native/Gtk/Togglebutton.pm6",
-    "GTK::Glade::Native::Gtk::Grid" : "lib/GTK/Glade/Native/Gtk/Grid.pm6",
-    "GTK::Glade::Native::Gtk::Enums" : "lib/GTK/Glade/Native/Gtk/Enums.pm6",
-    "GTK::Glade::Native::Gtk::Box" : "lib/GTK/Glade/Native/Gtk/Box.pm6",
-    "GTK::Glade" : "lib/GTK/Glade.pm6",
-    "GTK::Glade::Native::Gtk::Scale" : "lib/GTK/Glade/Native/Gtk/Scale.pm6",
-    "GTK::Glade::Native::Gtk::Main" : "lib/GTK/Glade/Native/Gtk/Main.pm6",
-    "GTK::Glade::Native::Gtk::Label" : "lib/GTK/Glade/Native/Gtk/Label.pm6",
-    "GTK::Glade::Native::Gtk::Comboboxtext" : "lib/GTK/Glade/Native/Gtk/Comboboxtext.pm6",
-    "GTK::Glade::Engine" : "lib/GTK/Glade/Engine.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.7.0",
-  "description" : "Interfacing Glade XML to Perl6",
-  "authors" : [
-    "Marcel Timmerman"
-  ]
-}
-,
-{
-  "name" : "GTK::Glade",
   "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-glade-0.7.2.1.tar.gz",
   "perl" : "6",
   "resources" : [ ],
@@ -20267,116 +20288,6 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.7.2.1",
-  "description" : "Interfacing Glade XML to Perl6",
-  "authors" : [
-    "Marcel Timmerman"
-  ]
-}
-,
-{
-  "name" : "GTK::V3",
-  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-v3-0.4.2.1.tar.gz",
-  "perl" : "6",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "Gui",
-    "Gtk"
-  ],
-  "provides" : {
-    "GTK::V3::Gtk::GtkWidget" : "lib/GTK/V3/Gtk/GtkWidget.pm6",
-    "GTK::V3::Gtk::GtkTextView" : "lib/GTK/V3/Gtk/GtkTextView.pm6",
-    "GTK::V3::Gtk::GtkMenuItem" : "lib/GTK/V3/Gtk/GtkMenuItem.pm6",
-    "GTK::V3::Gtk::GtkCheckButton" : "lib/GTK/V3/Gtk/GtkCheckButton.pm6",
-    "GTK::V3::Glib::GObject" : "lib/GTK/V3/Glib/GObject.pm6",
-    "GTK::V3::Gdk::GdkWindow" : "lib/GTK/V3/Gdk/GdkWindow.pm6",
-    "GTK::V3::Gtk::GtkToggleButton" : "lib/GTK/V3/Gtk/GtkToggleButton.pm6",
-    "GTK::V3::Gtk::GtkCssProvider" : "lib/GTK/V3/Gtk/GtkCssProvider.pm6",
-    "GTK::V3::Glib::GMain" : "lib/GTK/V3/Glib/GMain.pm6",
-    "GTK::V3::N::NativeLib" : "lib/GTK/V3/N/NativeLib.pm6",
-    "GTK::V3::Gtk::GtkWindow" : "lib/GTK/V3/Gtk/GtkWindow.pm6",
-    "GTK::V3::Gtk::GtkStyleContext" : "lib/GTK/V3/Gtk/GtkStyleContext.pm6",
-    "GTK::V3::Gtk::GtkListBox" : "lib/GTK/V3/Gtk/GtkListBox.pm6",
-    "GTK::V3::Gtk::GtkImageMenuItem" : "lib/GTK/V3/Gtk/GtkImageMenuItem.pm6",
-    "GTK::V3::Glib::GList" : "lib/GTK/V3/Glib/GList.pm6",
-    "GTK::V3::Gdk::GdkScreen" : "lib/GTK/V3/Gdk/GdkScreen.pm6",
-    "X::GTK::V3" : "lib/GTK/V3/X.pm6",
-    "GTK::V3::Gtk::GtkBuilder" : "lib/GTK/V3/Gtk/GtkBuilder.pm6",
-    "GTK::V3::Gtk::GtkAboutDialog" : "lib/GTK/V3/Gtk/GtkAboutDialog.pm6",
-    "GTK::V3::Gtk::GtkTextBuffer" : "lib/GTK/V3/Gtk/GtkTextBuffer.pm6",
-    "GTK::V3::Gdk::GdkDisplay" : "lib/GTK/V3/Gdk/GdkDisplay.pm6",
-    "GTK::V3::Gtk::GtkLabel" : "lib/GTK/V3/Gtk/GtkLabel.pm6",
-    "GTK::V3::Gtk::GtkEntry" : "lib/GTK/V3/Gtk/GtkEntry.pm6",
-    "GTK::V3::Gtk::GtkButton" : "lib/GTK/V3/Gtk/GtkButton.pm6",
-    "GTK::V3::Glib::GType" : "lib/GTK/V3/Glib/GType.pm6",
-    "GTK::V3::Gtk::GtkTextTagTable" : "lib/GTK/V3/Gtk/GtkTextTagTable.pm6",
-    "GTK::V3::Gtk::GtkImage" : "lib/GTK/V3/Gtk/GtkImage.pm6",
-    "GTK::V3::Gtk::GtkBin" : "lib/GTK/V3/Gtk/GtkBin.pm6",
-    "GTK::V3::Glib::GError" : "lib/GTK/V3/Glib/GError.pm6",
-    "GTK::V3::Gtk::GtkMain" : "lib/GTK/V3/Gtk/GtkMain.pm6",
-    "GTK::V3::Gtk::GtkGrid" : "lib/GTK/V3/Gtk/GtkGrid.pm6",
-    "GTK::V3::Gtk::GtkDialog" : "lib/GTK/V3/Gtk/GtkDialog.pm6",
-    "GTK::V3::Gtk::GtkContainer" : "lib/GTK/V3/Gtk/GtkContainer.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.4.2",
-  "description" : "Interfacing Glade XML to Perl6",
-  "authors" : [
-    "Marcel Timmerman"
-  ]
-}
-,
-{
-  "name" : "GTK::V3",
-  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-v3-0.4.2.tar.gz",
-  "perl" : "6",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "Gui",
-    "Gtk"
-  ],
-  "provides" : {
-    "GTK::V3::Gtk::GtkWidget" : "lib/GTK/V3/Gtk/GtkWidget.pm6",
-    "GTK::V3::Gtk::GtkTextView" : "lib/GTK/V3/Gtk/GtkTextView.pm6",
-    "GTK::V3::Gtk::GtkMenuItem" : "lib/GTK/V3/Gtk/GtkMenuItem.pm6",
-    "GTK::V3::Gtk::GtkCheckButton" : "lib/GTK/V3/Gtk/GtkCheckButton.pm6",
-    "GTK::V3::Glib::GObject" : "lib/GTK/V3/Glib/GObject.pm6",
-    "GTK::V3::Gdk::GdkWindow" : "lib/GTK/V3/Gdk/GdkWindow.pm6",
-    "GTK::V3::Gtk::GtkToggleButton" : "lib/GTK/V3/Gtk/GtkToggleButton.pm6",
-    "GTK::V3::Gtk::GtkCssProvider" : "lib/GTK/V3/Gtk/GtkCssProvider.pm6",
-    "GTK::V3::Glib::GMain" : "lib/GTK/V3/Glib/GMain.pm6",
-    "GTK::V3::N::NativeLib" : "lib/GTK/V3/N/NativeLib.pm6",
-    "GTK::V3::Gtk::GtkWindow" : "lib/GTK/V3/Gtk/GtkWindow.pm6",
-    "GTK::V3::Gtk::GtkStyleContext" : "lib/GTK/V3/Gtk/GtkStyleContext.pm6",
-    "GTK::V3::Gtk::GtkListBox" : "lib/GTK/V3/Gtk/GtkListBox.pm6",
-    "GTK::V3::Gtk::GtkImageMenuItem" : "lib/GTK/V3/Gtk/GtkImageMenuItem.pm6",
-    "GTK::V3::Glib::GList" : "lib/GTK/V3/Glib/GList.pm6",
-    "GTK::V3::Gdk::GdkScreen" : "lib/GTK/V3/Gdk/GdkScreen.pm6",
-    "X::GTK::V3" : "lib/GTK/V3/X.pm6",
-    "GTK::V3::Gtk::GtkBuilder" : "lib/GTK/V3/Gtk/GtkBuilder.pm6",
-    "GTK::V3::Gtk::GtkAboutDialog" : "lib/GTK/V3/Gtk/GtkAboutDialog.pm6",
-    "GTK::V3::Gtk::GtkTextBuffer" : "lib/GTK/V3/Gtk/GtkTextBuffer.pm6",
-    "GTK::V3::Gdk::GdkDisplay" : "lib/GTK/V3/Gdk/GdkDisplay.pm6",
-    "GTK::V3::Gtk::GtkLabel" : "lib/GTK/V3/Gtk/GtkLabel.pm6",
-    "GTK::V3::Gtk::GtkEntry" : "lib/GTK/V3/Gtk/GtkEntry.pm6",
-    "GTK::V3::Gtk::GtkButton" : "lib/GTK/V3/Gtk/GtkButton.pm6",
-    "GTK::V3::Glib::GType" : "lib/GTK/V3/Glib/GType.pm6",
-    "GTK::V3::Gtk::GtkTextTagTable" : "lib/GTK/V3/Gtk/GtkTextTagTable.pm6",
-    "GTK::V3::Gtk::GtkImage" : "lib/GTK/V3/Gtk/GtkImage.pm6",
-    "GTK::V3::Gtk::GtkBin" : "lib/GTK/V3/Gtk/GtkBin.pm6",
-    "GTK::V3::Glib::GError" : "lib/GTK/V3/Glib/GError.pm6",
-    "GTK::V3::Gtk::GtkMain" : "lib/GTK/V3/Gtk/GtkMain.pm6",
-    "GTK::V3::Gtk::GtkGrid" : "lib/GTK/V3/Gtk/GtkGrid.pm6",
-    "GTK::V3::Gtk::GtkDialog" : "lib/GTK/V3/Gtk/GtkDialog.pm6",
-    "GTK::V3::Gtk::GtkContainer" : "lib/GTK/V3/Gtk/GtkContainer.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.4.2",
   "description" : "Interfacing Glade XML to Perl6",
   "authors" : [
     "Marcel Timmerman"
@@ -29642,6 +29553,38 @@
 }
 ,
 {
+  "name" : "Date::Names",
+  "support" : {
+    "bugtracker" : "https://github.com/tbrowder/Date-Names-Perl6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Date-Names-Perl6-2.0.0.tar.gz",
+  "perl" : "6.c",
+  "source-type" : "git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "github:tbrowder",
+  "auth" : "github:tbrowder",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "date",
+    "names",
+    "dow"
+  ],
+  "provides" : {
+    "Date::Names" : "lib/Date/Names.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "2.0.0",
+  "description" : "Provides names for month and weekday numbers (multilingual).",
+  "authors" : [
+    "Tom Browder <tom.browder@gmail.com>"
+  ]
+}
+,
+{
   "name" : "Foo::Bar",
   "support" : {
     "bugtracker" : "https://github.com/tbrowder/Foo-Bar-Perl6/issues"
@@ -36827,46 +36770,6 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.1.3",
-  "description" : "read font files and render glyphs from Perl using FreeType2",
-  "authors" : [
-    "David Warring"
-  ]
-}
-,
-{
-  "name" : "Font::FreeType",
-  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.1.4.tar.gz",
-  "perl" : "6",
-  "resources" : [
-    "libraries/ft6"
-  ],
-  "build-depends" : [
-    "LibraryMake",
-    "Pod::To::Markdown"
-  ],
-  "auth" : "github:p6-pdf",
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "font",
-    "freetype"
-  ],
-  "provides" : {
-    "Font::FreeType::BBox" : "lib/Font/FreeType/BBox.pm",
-    "Font::FreeType" : "lib/Font/FreeType.pm",
-    "Font::FreeType::Outline" : "lib/Font/FreeType/Outline.pm",
-    "Font::FreeType::GlyphImage" : "lib/Font/FreeType/GlyphImage.pm",
-    "Font::FreeType::Glyph" : "lib/Font/FreeType/Glyph.pm",
-    "Font::FreeType::NamedInfo" : "lib/Font/FreeType/NamedInfo.pm",
-    "Font::FreeType::Native::Types" : "lib/Font/FreeType/Native/Types.pm",
-    "Font::FreeType::Error" : "lib/Font/FreeType/Error.pm",
-    "Font::FreeType::CharMap" : "lib/Font/FreeType/CharMap.pm",
-    "Font::FreeType::Native" : "lib/Font/FreeType/Native.pm",
-    "Font::FreeType::BitMap" : "lib/Font/FreeType/BitMap.pm",
-    "Font::FreeType::Face" : "lib/Font/FreeType/Face.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.1.4",
   "description" : "read font files and render glyphs from Perl using FreeType2",
   "authors" : [
     "David Warring"
