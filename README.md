@@ -1,2 +1,2 @@
 # ecosystems
-META.list package indexes for Perl6 ecosystems. Updates once a day.
+META.list package indexes for Perl6 ecosystems. Updates approximately every two hours..
