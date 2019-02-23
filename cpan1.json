@@ -20433,6 +20433,70 @@
 }
 ,
 {
+  "name" : "GTK::V3",
+  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-v3-0.6.1.tar.gz",
+  "perl" : "6",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Gui",
+    "Gtk"
+  ],
+  "provides" : {
+    "GTK::V3::X" : "lib/GTK/V3/X.pm6",
+    "GTK::V3::Gtk::GtkWidget" : "lib/GTK/V3/Gtk/GtkWidget.pm6",
+    "GTK::V3::Gtk::GtkTextView" : "lib/GTK/V3/Gtk/GtkTextView.pm6",
+    "GTK::V3::Gtk::GtkMenuItem" : "lib/GTK/V3/Gtk/GtkMenuItem.pm6",
+    "GTK::V3::Gtk::GtkCheckButton" : "lib/GTK/V3/Gtk/GtkCheckButton.pm6",
+    "GTK::V3::Glib::GObject" : "lib/GTK/V3/Glib/GObject.pm6",
+    "GTK::V3::Gdk::GdkWindow" : "lib/GTK/V3/Gdk/GdkWindow.pm6",
+    "GTK::V3::Gtk::GtkToggleButton" : "lib/GTK/V3/Gtk/GtkToggleButton.pm6",
+    "GTK::V3::Gtk::GtkRadioButton" : "lib/GTK/V3/Gtk/GtkRadioButton.pm6",
+    "GTK::V3::Gtk::GtkCssProvider" : "lib/GTK/V3/Gtk/GtkCssProvider.pm6",
+    "GTK::V3::Glib::GSList" : "lib/GTK/V3/Glib/GSList.pm6",
+    "GTK::V3::Glib::GMain" : "lib/GTK/V3/Glib/GMain.pm6",
+    "GTK::V3::N::NativeLib" : "lib/GTK/V3/N/NativeLib.pm6",
+    "GTK::V3::Gtk::GtkWindow" : "lib/GTK/V3/Gtk/GtkWindow.pm6",
+    "GTK::V3::Gtk::GtkStyleContext" : "lib/GTK/V3/Gtk/GtkStyleContext.pm6",
+    "GTK::V3::Gtk::GtkListBox" : "lib/GTK/V3/Gtk/GtkListBox.pm6",
+    "GTK::V3::Gtk::GtkImageMenuItem" : "lib/GTK/V3/Gtk/GtkImageMenuItem.pm6",
+    "GTK::V3::Glib::GList" : "lib/GTK/V3/Glib/GList.pm6",
+    "GTK::V3::Gdk::GdkScreen" : "lib/GTK/V3/Gdk/GdkScreen.pm6",
+    "GTK::V3::Gtk::GtkFileChooserDialog" : "lib/GTK/V3/Gtk/GtkFileChooserDialog.pm6",
+    "GTK::V3::Gtk::GtkBuilder" : "lib/GTK/V3/Gtk/GtkBuilder.pm6",
+    "GTK::V3::Gtk::GtkAboutDialog" : "lib/GTK/V3/Gtk/GtkAboutDialog.pm6",
+    "GTK::V3::Gtk::GtkTextBuffer" : "lib/GTK/V3/Gtk/GtkTextBuffer.pm6",
+    "GTK::V3::Gdk::GdkDisplay" : "lib/GTK/V3/Gdk/GdkDisplay.pm6",
+    "GTK::V3::Gtk::GtkLabel" : "lib/GTK/V3/Gtk/GtkLabel.pm6",
+    "GTK::V3::Gtk::GtkFileFilter" : "lib/GTK/V3/Gtk/GtkFileFilter.pm6",
+    "GTK::V3::Gtk::GtkEntry" : "lib/GTK/V3/Gtk/GtkEntry.pm6",
+    "GTK::V3::Gtk::GtkButton" : "lib/GTK/V3/Gtk/GtkButton.pm6",
+    "GTK::V3::Glib::GType" : "lib/GTK/V3/Glib/GType.pm6",
+    "GTK::V3::Glib::GInitiallyUnowned" : "lib/GTK/V3/Glib/GInitiallyUnowned.pm6",
+    "GTK::V3::Glib::GFile" : "lib/GTK/V3/Glib/GFile.pm6",
+    "GTK::V3::Gtk::GtkTextTagTable" : "lib/GTK/V3/Gtk/GtkTextTagTable.pm6",
+    "GTK::V3::Gtk::GtkImage" : "lib/GTK/V3/Gtk/GtkImage.pm6",
+    "GTK::V3::Gtk::GtkFileChooser" : "lib/GTK/V3/Gtk/GtkFileChooser.pm6",
+    "GTK::V3::Gtk::GtkBin" : "lib/GTK/V3/Gtk/GtkBin.pm6",
+    "GTK::V3::Glib::GError" : "lib/GTK/V3/Glib/GError.pm6",
+    "GTK::V3::Gtk::GtkMain" : "lib/GTK/V3/Gtk/GtkMain.pm6",
+    "GTK::V3::Gtk::GtkGrid" : "lib/GTK/V3/Gtk/GtkGrid.pm6",
+    "GTK::V3::Gtk::GtkDialog" : "lib/GTK/V3/Gtk/GtkDialog.pm6",
+    "GTK::V3::Gtk::GtkContainer" : "lib/GTK/V3/Gtk/GtkContainer.pm6",
+    "GTK::V3::Glib::GInterface" : "lib/GTK/V3/Glib/GInterface.pm6",
+    "GTK::V3::Gdk::GdkTypes" : "lib/GTK/V3/Gdk/GdkTypes.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.6.1",
+  "description" : "Interfacing Glade XML to Perl6",
+  "authors" : [
+    "Marcel Timmerman"
+  ]
+}
+,
+{
   "name" : "DB::Migration::Simple",
   "support" : {
     "source" : "https://github.com/maettu/db-migration-simple.git"
@@ -36834,6 +36898,46 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.1.5",
+  "description" : "read font files and render glyphs from Perl using FreeType2",
+  "authors" : [
+    "David Warring"
+  ]
+}
+,
+{
+  "name" : "Font::FreeType",
+  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.1.6.tar.gz",
+  "perl" : "6",
+  "resources" : [
+    "libraries/ft6"
+  ],
+  "build-depends" : [
+    "LibraryMake",
+    "Pod::To::Markdown"
+  ],
+  "auth" : "github:p6-pdf",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "font",
+    "freetype"
+  ],
+  "provides" : {
+    "Font::FreeType::BBox" : "lib/Font/FreeType/BBox.pm",
+    "Font::FreeType" : "lib/Font/FreeType.pm",
+    "Font::FreeType::Outline" : "lib/Font/FreeType/Outline.pm",
+    "Font::FreeType::GlyphImage" : "lib/Font/FreeType/GlyphImage.pm",
+    "Font::FreeType::Glyph" : "lib/Font/FreeType/Glyph.pm",
+    "Font::FreeType::NamedInfo" : "lib/Font/FreeType/NamedInfo.pm",
+    "Font::FreeType::Native::Types" : "lib/Font/FreeType/Native/Types.pm",
+    "Font::FreeType::Error" : "lib/Font/FreeType/Error.pm",
+    "Font::FreeType::CharMap" : "lib/Font/FreeType/CharMap.pm",
+    "Font::FreeType::Native" : "lib/Font/FreeType/Native.pm",
+    "Font::FreeType::BitMap" : "lib/Font/FreeType/BitMap.pm",
+    "Font::FreeType::Face" : "lib/Font/FreeType/Face.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.6",
   "description" : "read font files and render glyphs from Perl using FreeType2",
   "authors" : [
     "David Warring"
