@@ -21109,10 +21109,31 @@
     "Avolution::Emoji" : "lib/Avolution/Emoji.pm6"
   },
   "license" : "MIT",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "authors" : [
     "XiKuuKy/choiboi"
   ],
   "description" : "Allows simplified usage of emoji in code"
+}
+,
+{
+  "name" : "Calculator",
+  "source-url" : "git://github.com/manwar/p6-Calculator.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:manwar",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Calculator" : "lib/Calculator.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "My first Perl6 sample distriubtion.",
+  "authors" : [
+    "Mohammad S Anwar"
+  ]
 }
 ]
