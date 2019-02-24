@@ -7068,6 +7068,33 @@
 }
 ,
 {
+  "name" : "Desktop::Notify::Progress",
+  "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-Progress-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:FRITH",
+  "depends" : [
+    "Desktop::Notify"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "desktop",
+    "notification",
+    "logger"
+  ],
+  "provides" : {
+    "Desktop::Notify::Progress" : "lib/Desktop/Notify/Progress.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Show the progress of processing in a notification popup",
+  "authors" : [
+    "Fernando Santagata"
+  ]
+}
+,
+{
   "name" : "File::Metadata::Libextractor",
   "source-url" : "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/File-Metadata-Libextractor-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -12166,6 +12193,43 @@
   "version" : "0.0.5",
   "meta6" : "0",
   "description" : "Interface to the CommonMark library",
+  "authors" : [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ]
+}
+,
+{
+  "name" : "Grammar::Common",
+  "support" : {
+    "source" : "https://github.com/drforr/perl6-Grammar-Common.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Grammar-Common-0.2.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:drforr",
+  "depends" : [
+    "Test::META"
+  ],
+  "test-depends" : [
+    "JSON::Tiny"
+  ],
+  "tags" : [
+    "Grammar",
+    "Utilities",
+    "Utils"
+  ],
+  "provides" : {
+    "Grammar::Common::Expression::Prefix::Actions" : "lib/Grammar/Common/Expression/Prefix/Actions.pm6",
+    "Grammar::Common" : "lib/Grammar/Common.pm6",
+    "Grammar::Common::Expression::Prefix" : "lib/Grammar/Common/Expression/Prefix.pm6",
+    "Grammar::Common::Expression::Infix" : "lib/Grammar/Common/Expression/Infix.pm6",
+    "Grammar::Common::Expression::Infix::Actions" : "lib/Grammar/Common/Expression/Infix/Actions.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.0",
+  "meta6" : "0",
+  "description" : "Common grammar patterns codified for ease of use",
   "authors" : [
     "Jeffrey Goff <drforr@pobox.com>"
   ]
