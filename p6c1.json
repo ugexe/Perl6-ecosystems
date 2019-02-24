@@ -7581,33 +7581,34 @@
 ,
 {
   "name" : "Perl6::Parser",
-  "source-url" : "https://github.com/drforr/perl6-Perl6-Parser.git",
-  "perl" : "6.c",
   "support" : {
     "source" : "https://github.com/drforr/perl6-Perl6-Parser"
   },
+  "source-url" : "https://github.com/drforr/perl6-Perl6-Parser.git",
+  "perl" : "6.c",
+  "resources" : [ ],
   "build-depends" : [ ],
   "auth" : "github:drforr",
   "depends" : [ ],
-  "license" : "Artistic-2.0",
   "test-depends" : [
     "Test"
   ],
-  "provides" : {
-    "Perl6::Parser::Factory" : "lib/Perl6/Parser/Factory.pm6",
-    "Perl6::Parser" : "lib/Perl6/Parser.pm6"
-  },
   "tags" : [
     "parse",
     "parser",
     "parsing"
   ],
-  "version" : "0.0.5",
+  "provides" : {
+    "Perl6::Parser::Factory" : "lib/Perl6/Parser/Factory.pm6",
+    "Perl6::Parser" : "lib/Perl6/Parser.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.0",
+  "meta6" : "0",
   "description" : "Parse Perl 6 from within Perl 6",
   "authors" : [
     "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "meta6" : "0"
+  ]
 }
 ,
 {
