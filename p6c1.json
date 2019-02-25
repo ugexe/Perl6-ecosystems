@@ -20428,4 +20428,31 @@
   ],
   "description" : "A parser for language tags in accordance with BCP-47"
 }
+,
+{
+  "name" : "Test::Script::Output",
+  "source-url" : "https://github.com/JJ/perl6-test-script-output.git",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Pod::Load",
+    "IO::Capture::Simple"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Test",
+    "App",
+    "Script"
+  ],
+  "provides" : {
+    "Test::Script::Output" : "lib/Test/Script/Output.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "blah blah blah",
+  "authors" : [
+    "JJ Merelo"
+  ]
+}
 ]
