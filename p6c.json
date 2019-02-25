@@ -20382,4 +20382,39 @@
     "Mohammad S Anwar"
   ]
 }
+,
+{
+  "api" : 1,
+  "name" : "Intl::BCP47",
+  "source-url" : "git://github.com/alabamenhu/bcp47.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:alabamenhu",
+  "depends" : [ ],
+  "tags" : [
+    "BCP47",
+    "Language",
+    "Tag",
+    "Localization",
+    "Locale",
+    "International",
+    "Internationalization"
+  ],
+  "provides" : {
+    "Intl::BCP47::Classes" : "lib/Intl/BCP47/Classes.pm6",
+    "Intl::BCP47::Grammar" : "lib/Intl/BCP47/Grammar.pm6",
+    "Intl::BCP47::Filter-Actions" : "lib/Intl/BCP47/Filter-Actions.pm6",
+    "Intl::BCP47::Actions" : "lib/Intl/BCP47/Actions.pm6",
+    "Intl::BCP47::FilterGrammar" : "lib/Intl/BCP47/Classes.pm6",
+    "Intl::BCP47" : "lib/Intl/BCP47.pm6"
+  },
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "version" : "0.8.2",
+  "authors" : [
+    "Matthew \u2018Mat\u00e9u\u2019 Stephen STUCKWISCH <mateu@softastur.com>"
+  ],
+  "description" : "A parser for language tags in accordance with BCP-47"
+}
 ]
