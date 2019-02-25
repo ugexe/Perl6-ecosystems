@@ -20434,12 +20434,11 @@
   "source-url" : "https://github.com/JJ/perl6-test-script-output.git",
   "perl" : "6.c",
   "resources" : [ ],
-  "build-depends" : [ ],
+  "auth" : "github:JJ",
   "depends" : [
     "Pod::Load",
     "IO::Capture::Simple"
   ],
-  "test-depends" : [ ],
   "tags" : [
     "Test",
     "App",
@@ -20450,7 +20449,7 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.1",
-  "description" : "blah blah blah",
+  "description" : "Test the output of scripts",
   "authors" : [
     "JJ Merelo"
   ]
