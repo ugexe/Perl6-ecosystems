@@ -18900,6 +18900,16 @@
   "depends" : [
     "DBIish"
   ],
+  "tags" : [
+    "ORM",
+    "DB",
+    "database",
+    "model",
+    "relational",
+    "object",
+    "relationship",
+    "mapping"
+  ],
   "provides" : {
     "DB::Xoos::DSN" : "lib/DB/Xoos/DSN.pm6",
     "DB::Xoos::SQLite::Searchable" : "lib/DB/Xoos/SQLite/Searchable.pm6",
@@ -18916,7 +18926,7 @@
     "DB::Xoos" : "lib/DB/Xoos.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.9",
+  "version" : "0.0.10",
   "authors" : [
     "Tony O'Dell"
   ],
