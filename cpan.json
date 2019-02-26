@@ -36405,6 +36405,44 @@ null
 }
 ,
 {
+  "name" : "AttrX::Mooish",
+  "support" : {
+    "source" : "git://github.com/vrurg/Perl6-AttrX-Mooish.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/AttrX-Mooish-v0.6.1.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:vrurg",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "AttrX",
+    "Moo",
+    "Moose",
+    "Mooish",
+    "attribute",
+    "mooish",
+    "trait"
+  ],
+  "provides" : {
+    "AttrX::Mooish" : "lib/AttrX/Mooish.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.6.1",
+  "production" : true,
+  "meta-version" : "0",
+  "description" : "Extending attribute functionality with ideas from Moo/Moose",
+  "authors" : [
+    "Vadim Belman <vrurg@cpan.org>"
+  ]
+}
+,
+{
   "name" : "Cro::RPC::JSON",
   "support" : {
     "source" : "https://github.com/vrurg/Perl6-Cro-RPC-JSON.git"
