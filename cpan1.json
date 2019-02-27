@@ -29984,6 +29984,47 @@
 }
 ,
 {
+  "name" : "Date::Names",
+  "support" : {
+    "bugtracker" : "https://github.com/tbrowder/Date-Names-Perl6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Date-Names-Perl6-2.0.1.tar.gz",
+  "perl" : "6.c",
+  "source-type" : "git",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "github:tbrowder",
+  "auth" : "github:tbrowder",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [
+    "date",
+    "names",
+    "dow"
+  ],
+  "provides" : {
+    "Date::Names::nl" : "lib/Date/Names/nl.pm6",
+    "Date::Names::it" : "lib/Date/Names/it.pm6",
+    "Date::Names::fr" : "lib/Date/Names/fr.pm6",
+    "Date::Names" : "lib/Date/Names.pm6",
+    "Date::Names::id" : "lib/Date/Names/id.pm6",
+    "Date::Names::ru" : "lib/Date/Names/ru.pm6",
+    "Date::Names::en" : "lib/Date/Names/en.pm6",
+    "Date::Names::de" : "lib/Date/Names/de.pm6",
+    "Date::Names::nb" : "lib/Date/Names/nb.pm6",
+    "Date::Names::es" : "lib/Date/Names/es.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "2.0.1",
+  "description" : "Provides names for month and weekday numbers (multilingual).",
+  "authors" : [
+    "Tom Browder <tom.browder@gmail.com>"
+  ]
+}
+,
+{
   "name" : "Foo::Bar",
   "support" : {
     "bugtracker" : "https://github.com/tbrowder/Foo-Bar-Perl6/issues"
