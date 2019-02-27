@@ -3140,6 +3140,24 @@
 }
 ,
 {
+  "name" : "Numeric::Nearest",
+  "source-url" : "http://www.cpan.org/authors/id/D/DR/DRCLAW/Perl6/Numeric-Nearest-0.5.1.tar.gz",
+  "perl" : "6.c",
+  "test-depends" : [
+    "Test::META"
+  ],
+  "provides" : {
+    "Numeric::Nearest" : "lib/Numeric/Nearest.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.5.1",
+  "description" : "Finds nearest item/index in a sorted list for a given key",
+  "authors" : [
+    "Ruben Westerberg <drclaw@mac.com>"
+  ]
+}
+,
+{
   "name" : "AccountableBagHash",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/AccountableBagHash-0.0.1.tar.gz",
   "perl" : "6.c",
