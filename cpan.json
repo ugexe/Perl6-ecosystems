@@ -2535,6 +2535,82 @@
 }
 ,
 {
+  "name" : "LibCurl",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-libcurl.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-libcurl.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/LibCurl-0.6.1.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "NativeCall",
+    "JSON::Fast"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [
+    "LibCurl",
+    "Curl",
+    "HTTP",
+    "FTP"
+  ],
+  "provides" : {
+    "LibCurl::Multi" : "lib/LibCurl/Multi.pm6",
+    "LibCurl::EasyHandle" : "lib/LibCurl/EasyHandle.pm6",
+    "LibCurl::HTTP" : "lib/LibCurl/HTTP.pm6",
+    "LibCurl::MultiHandle" : "lib/LibCurl/MultiHandle.pm6",
+    "LibCurl::Easy" : "lib/LibCurl/Easy.pm6"
+  },
+  "license" : "NASA-1.3",
+  "version" : "0.6.1",
+  "description" : "Perl6 bindings for LibCurl",
+  "authors" : [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ]
+}
+,
+{
+  "name" : "LibCurl",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-libcurl.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-libcurl.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/LibCurl-0.6.tar.gz",
+  "perl" : "6.c",
+  "depends" : [
+    "NativeCall",
+    "JSON::Fast"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [
+    "LibCurl",
+    "Curl",
+    "HTTP",
+    "FTP"
+  ],
+  "provides" : {
+    "LibCurl::Multi" : "lib/LibCurl/Multi.pm6",
+    "LibCurl::EasyHandle" : "lib/LibCurl/EasyHandle.pm6",
+    "LibCurl::HTTP" : "lib/LibCurl/HTTP.pm6",
+    "LibCurl::MultiHandle" : "lib/LibCurl/MultiHandle.pm6",
+    "LibCurl::Easy" : "lib/LibCurl/Easy.pm6"
+  },
+  "license" : "NASA-1.3",
+  "version" : "0.6",
+  "description" : "Perl6 bindings for LibCurl",
+  "authors" : [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ]
+}
+,
+{
   "name" : "LibGit2",
   "support" : {
     "source" : "https://github.com/CurtTilmes/perl6-libgit2.git",
