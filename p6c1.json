@@ -2711,6 +2711,9 @@
 ,
 {
   "name" : "URI",
+  "support" : {
+    "source" : "https://github.com/perl6-community-modules/uri.git"
+  },
   "source-url" : "git://github.com/perl6-community-modules/uri.git",
   "perl" : "6.*",
   "depends" : [ ],
@@ -2722,8 +2725,12 @@
     "IETF::RFC_Grammar" : "lib/IETF/RFC_Grammar.pm",
     "URI::Escape" : "lib/URI/Escape.pm"
   },
+  "license" : "Artistic-2.0",
   "meta-version" : 1,
-  "version" : "0.1.6",
+  "version" : "0.2.0",
+  "authors" : [
+    "Perl 6 community"
+  ],
   "description" : "A URI implementation using Perl 6 grammars to implement RFC 3986 BNF"
 }
 ,
