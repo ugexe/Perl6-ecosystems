@@ -16303,7 +16303,7 @@
     "source" : "https://github.com/CurtTilmes/perl6-libcurl.git",
     "bugtracker" : "https://github.com/CurtTilmes/perl6-libcurl.git"
   },
-  "perl" : "6.c",
+  "perl" : "6.*",
   "source-url" : "https://github.com/CurtTilmes/perl6-libcurl.git",
   "depends" : [
     "NativeCall",
@@ -16312,7 +16312,8 @@
   "license" : "NASA-1.3",
   "test-depends" : [
     "Test",
-    "Test::When"
+    "Test::When",
+    "Test::META"
   ],
   "provides" : {
     "LibCurl::Multi" : "lib/LibCurl/Multi.pm6",
@@ -16327,7 +16328,7 @@
     "HTTP",
     "FTP"
   ],
-  "version" : "0.5.3",
+  "version" : "0.6.1",
   "authors" : [
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
   ],
