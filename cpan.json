@@ -37345,46 +37345,6 @@ null
 ,
 {
   "name" : "Font::FreeType",
-  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.1.3.tar.gz",
-  "perl" : "6",
-  "resources" : [
-    "libraries/ft6"
-  ],
-  "build-depends" : [
-    "LibraryMake",
-    "Pod::To::Markdown"
-  ],
-  "auth" : "github:p6-pdf",
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [
-    "font",
-    "freetype"
-  ],
-  "provides" : {
-    "Font::FreeType::BBox" : "lib/Font/FreeType/BBox.pm",
-    "Font::FreeType" : "lib/Font/FreeType.pm",
-    "Font::FreeType::Outline" : "lib/Font/FreeType/Outline.pm",
-    "Font::FreeType::GlyphImage" : "lib/Font/FreeType/GlyphImage.pm",
-    "Font::FreeType::Glyph" : "lib/Font/FreeType/Glyph.pm",
-    "Font::FreeType::NamedInfo" : "lib/Font/FreeType/NamedInfo.pm",
-    "Font::FreeType::Native::Types" : "lib/Font/FreeType/Native/Types.pm",
-    "Font::FreeType::Error" : "lib/Font/FreeType/Error.pm",
-    "Font::FreeType::CharMap" : "lib/Font/FreeType/CharMap.pm",
-    "Font::FreeType::Native" : "lib/Font/FreeType/Native.pm",
-    "Font::FreeType::BitMap" : "lib/Font/FreeType/BitMap.pm",
-    "Font::FreeType::Face" : "lib/Font/FreeType/Face.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.1.3",
-  "description" : "read font files and render glyphs from Perl using FreeType2",
-  "authors" : [
-    "David Warring"
-  ]
-}
-,
-{
-  "name" : "Font::FreeType",
   "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.1.5.tar.gz",
   "perl" : "6",
   "resources" : [
@@ -38087,45 +38047,6 @@ null
   "license" : "Artistic-2.0",
   "version" : "0.3.5",
   "description" : "PDF Document Object Model",
-  "authors" : [
-    "David Warring"
-  ]
-}
-,
-{
-  "name" : "PDF::Font::Loader",
-  "api" : "PDF-1.7",
-  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.2.2.tar.gz",
-  "perl" : "6.*",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "auth" : "github:p6-pdf",
-  "depends" : [
-    "PDF::Lite",
-    "PDF::Content",
-    "Font::FreeType",
-    "PDF",
-    "Native::Packing"
-  ],
-  "test-depends" : [ ],
-  "tags" : [
-    "pdf",
-    "font"
-  ],
-  "provides" : {
-    "PDF::Font::Loader::Enc::Identity" : "lib/PDF/Font/Loader/Enc/Identity.pm",
-    "PDF::Font::Loader::Enc" : "lib/PDF/Font/Loader/Enc.pm",
-    "PDF::Font::Loader::Type1" : "lib/PDF/Font/Loader/Type1.pm",
-    "PDF::Font::Loader::Enc::CMap" : "lib/PDF/Font/Loader/Enc/CMap.pm",
-    "PDF::Font::Loader" : "lib/PDF/Font/Loader.pm",
-    "PDF::Font::Loader::Type1::Stream" : "lib/PDF/Font/Loader/Type1/Stream.pm",
-    "PDF::Font::Loader::FreeType" : "lib/PDF/Font/Loader/FreeType.pm",
-    "PDF::Font::Loader::Enc::Type1" : "lib/PDF/Font/Loader/Enc/Type1.pm",
-    "PDF::Font::Loader::Enc::Identity-H" : "lib/PDF/Font/Loader/Enc/Identity-H.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.2.2",
-  "description" : "Font classes for the PDF Tool-chain",
   "authors" : [
     "David Warring"
   ]
