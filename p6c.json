@@ -11762,12 +11762,11 @@
 {
   "name" : "DBDish::ODBC",
   "support" : {
-    "email" : "sog@msg.com.mx",
+    "email" : "sog@msg.mx",
     "source" : "https://github.com/salortiz/DBDish-ODBC.git"
   },
   "source-url" : "git://github.com/salortiz/DBDish-ODBC.git",
   "perl" : "6",
-  "licence" : "artistic_2",
   "auth" : "github:salortiz",
   "repo-type" : "git",
   "depends" : [
@@ -11786,7 +11785,7 @@
     "DBDish::ODBC::Connection" : "lib/DBDish/ODBC/Connection.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.7",
+  "version" : "0.0.8",
   "authors" : "Salvador Ortiz <sortiz@cpan.com>",
   "description" : "ODBC Database connectivity for Perl 6"
 }
