@@ -7701,25 +7701,25 @@
     "Linenoise"
   ],
   "test-depends" : [ ],
-  "tags" : [ ],
   "license" : "Artistic-2.0",
   "provides" : {
     "X::Path::Router::BadSlurpy" : "lib/X/Path/Router.pm6",
     "X::Path::Router::AmbiguousMatch::PathMatch" : "lib/X/Path/Router.pm6",
-    "X::Path::Router::AmbiguousMatch" : "lib/X/Path/Router.pm6",
     "X::Path::Router::AmbiguousMatch::ReverseMatch" : "lib/X/Path/Router.pm6",
+    "X::Path::Router::AmbiguousMatch" : "lib/X/Path/Router.pm6",
     "X::Path::Router::BadRoute" : "lib/X/Path/Router.pm6",
     "X::Path::Router::BadInclusion" : "lib/X/Path/Router.pm6",
     "X::Path::Router" : "lib/X/Path/Router.pm6",
     "Test::Path::Router" : "lib/Test/Path/Router.pm6",
     "Path::Router::Shell" : "lib/Path/Router/Shell.pm6",
-    "Path::Router::Route::Match" : "lib/Path/Router/Route.pm6",
     "X::Path::Router::BadValidation" : "lib/X/Path/Router.pm6",
-    "Path::Router" : "lib/Path/Router.pm6",
-    "Path::Router::Route" : "lib/Path/Router/Route.pm6"
+    "Path::Router::Route::Match" : "lib/Path/Router/Route.pm6",
+    "Path::Router::Route" : "lib/Path/Router/Route.pm6",
+    "Path::Router" : "lib/Path/Router.pm6"
   },
+  "tags" : [ ],
   "meta-version" : "0",
-  "version" : "0.4.0",
+  "version" : "0.5.0",
   "description" : "A tool for routing paths",
   "authors" : [
     "Sterling Hanenkamp (hanenkamp@cpan.org)"
