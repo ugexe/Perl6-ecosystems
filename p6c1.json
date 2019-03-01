@@ -20471,4 +20471,34 @@
     "JJ Merelo"
   ]
 }
+,
+{
+  "name" : "NativeLibs",
+  "support" : {
+    "email" : "sog@msg.mx",
+    "source" : [
+      "git://github.com/salortiz/NativeLibs.git",
+      "https://github.com/salortiz/NativeLibs.git"
+    ]
+  },
+  "source-url" : "git://github.com/salortiz/NativeLibs.git",
+  "perl" : "6.c",
+  "licence" : "Artistic-2.0",
+  "build-depends" : [ ],
+  "auth" : "github:salortiz",
+  "repo-type" : "git",
+  "depends" : [ ],
+  "tags" : [
+    "NativeCall",
+    "MoarVM",
+    "Utilities"
+  ],
+  "provides" : {
+    "NativeLibs" : "lib/NativeLibs.pm6"
+  },
+  "test-depends" : [ ],
+  "version" : "0.0.5",
+  "authors" : "Salvador Ortiz <sortiz@cpan.com>",
+  "description" : "Native libraries utilities"
+}
 ]
