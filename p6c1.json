@@ -11183,10 +11183,7 @@
   "name" : "LMDB",
   "support" : {
     "email" : "sog@msg.com.mx",
-    "source" : [
-      "git://github.com/salortiz/p6-LMDB.git",
-      "https://github.com/salortiz/p6-LMDB.git"
-    ]
+    "source" : "https://github.com/salortiz/p6-LMDB.git"
   },
   "source-url" : "git://github.com/salortiz/p6-LMDB.git",
   "perl" : "6.c",
@@ -12665,15 +12662,12 @@
 {
   "name" : "JsonC",
   "support" : {
-    "email" : "sog@msg.com.mx",
-    "source" : [
-      "git://github.com/salortiz/JsonC.git",
-      "https://github.com/salortiz/JsonC.git"
-    ]
+    "email" : "sog@msg.mx",
+    "source" : "https://github.com/salortiz/JsonC.git"
   },
   "source-url" : "git://github.com/salortiz/JsonC.git",
   "perl" : "6.c",
-  "licence" : "artistic_2",
+  "licence" : "Artistic-2.0",
   "build-depends" : [ ],
   "auth" : "github:salortiz",
   "repo-type" : "git",
@@ -12682,13 +12676,14 @@
   ],
   "tags" : [
     "kv",
-    "json-c"
+    "json-c",
+    "JSON"
   ],
   "provides" : {
     "JsonC" : "lib/JsonC.pm6"
   },
   "test-depends" : [ ],
-  "version" : "0.0.3",
+  "version" : "0.0.4",
   "authors" : "Salvador Ortiz <sortiz@cpan.com>",
   "description" : "Native bindings for JSON-C library"
 }
@@ -20476,10 +20471,7 @@
   "name" : "NativeLibs",
   "support" : {
     "email" : "sog@msg.mx",
-    "source" : [
-      "git://github.com/salortiz/NativeLibs.git",
-      "https://github.com/salortiz/NativeLibs.git"
-    ]
+    "source" : "https://github.com/salortiz/NativeLibs.git"
   },
   "source-url" : "git://github.com/salortiz/NativeLibs.git",
   "perl" : "6.c",
