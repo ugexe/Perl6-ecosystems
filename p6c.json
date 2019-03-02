@@ -7599,7 +7599,7 @@
     "Perl6::Parser" : "lib/Perl6/Parser.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.2.0",
+  "version" : "0.2.1",
   "meta6" : "0",
   "description" : "Parse Perl 6 from within Perl 6",
   "authors" : [
@@ -20400,7 +20400,17 @@
   "name" : "Intl::BCP47",
   "source-url" : "git://github.com/alabamenhu/bcp47.git",
   "perl" : "6.*",
-  "resources" : [ ],
+  "resources" : [
+    "extlangs.bcp47data",
+    "grandfathered.bcp47data",
+    "languages.bcp47data",
+    "extension-t.bcp47data",
+    "extension-u.bcp47data",
+    "redundancies.bcp47data",
+    "regions.bcp47data",
+    "scripts.bcp47data",
+    "variants.bcp47data"
+  ],
   "build-depends" : [ ],
   "auth" : "github:alabamenhu",
   "depends" : [ ],
@@ -20418,12 +20428,14 @@
     "Intl::BCP47::Grammar" : "lib/Intl/BCP47/Grammar.pm6",
     "Intl::BCP47::Filter-Actions" : "lib/Intl/BCP47/Filter-Actions.pm6",
     "Intl::BCP47::Actions" : "lib/Intl/BCP47/Actions.pm6",
-    "Intl::BCP47::FilterGrammar" : "lib/Intl/BCP47/Classes.pm6",
-    "Intl::BCP47" : "lib/Intl/BCP47.pm6"
+    "Intl::BCP47::Filter-Grammar" : "lib/Intl/BCP47/Filter-Grammar.pm6",
+    "Intl::BCP47::Extension-Registry" : "lib/Intl/BCP47/Extension-Registry.pm6",
+    "Intl::BCP47" : "lib/Intl/BCP47.pm6",
+    "Intl::BCP47::Subtag-Registry" : "lib/Intl/BCP47/Subtag-Registry.pm6"
   },
   "test-depends" : [ ],
   "license" : "Artistic-2.0",
-  "version" : "0.8.2",
+  "version" : "0.8.3",
   "authors" : [
     "Matthew \u2018Mat\u00e9u\u2019 Stephen STUCKWISCH <mateu@softastur.com>"
   ],
