@@ -6626,6 +6626,23 @@
 }
 ,
 {
+  "name" : "Pod::Perl5",
+  "source-url" : "git://github.com/dnmfarrell/Pod-Perl5.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "author" : "David Farrell",
+  "depends" : [ ],
+  "provides" : {
+    "Pod::Perl5" : "lib/Pod/Perl5.pm6",
+    "Pod::Perl5::ToMarkdown" : "lib/Pod/Perl5/ToMarkdown.pm6",
+    "Pod::Perl5::Grammar" : "lib/Pod/Perl5/Grammar.pm6",
+    "Pod::Perl5::ToHTML" : "lib/Pod/Perl5/ToHTML.pm6"
+  },
+  "version" : "0.18",
+  "description" : "Parser and grammar for Perl 5 pod, with an HTML and Markdown converter"
+}
+,
+{
   "name" : "Pod::PerlTricks",
   "source-url" : "git://github.com/dnmfarrell/Pod-PerlTricks.git",
   "perl" : "6.*",
@@ -8493,9 +8510,7 @@
   "name" : "Growl::GNTP",
   "perl" : "v6",
   "source-url" : "git://github.com/mattn/p6-Growl-GNTP.git",
-  "depends" : [
-    "IO::Socket::INET"
-  ],
+  "depends" : [ ],
   "provides" : {
     "Growl::GNTP" : "lib/Growl/GNTP.pm6"
   },
