@@ -2520,6 +2520,20 @@
 }
 ,
 {
+  "name" : "Benchmark::Plot",
+  "source-url" : "git://github.com/colomon/Benchmark-Plot.git",
+  "perl" : "6.*",
+  "source-type" : "git",
+  "depends" : [
+    "SVG",
+    "SVG::Plot"
+  ],
+  "provides" : { },
+  "version" : "*",
+  "description" : "Simple benchmark graphing script"
+}
+,
+{
   "name" : "Net::IRC::Bot",
   "source-url" : "git://github.com/TiMBuS/Net--IRC.git",
   "perl" : "6.*",
