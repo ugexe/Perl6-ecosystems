@@ -18719,6 +18719,41 @@
   "name" : "XDG::BaseDirectory",
   "api" : "1.0",
   "support" : {
+    "source" : "https://github.com/jonathanstowe/XDG-BaseDirectory.git",
+    "bugtracker" : "https://github.com/jonathanstowe/XDG-BaseDirectory/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/XDG-BaseDirectory-0.0.10.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "File::Find",
+    "Shell::Command"
+  ],
+  "tags" : [
+    "xdg",
+    "desktop",
+    "utils"
+  ],
+  "provides" : {
+    "XDG::BaseDirectory" : "lib/XDG/BaseDirectory.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.10",
+  "meta-version" : "1",
+  "description" : "Implementation of the freedesktop.org XDG BaseDirectory specifications",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk"
+  ]
+}
+,
+{
+  "name" : "XDG::BaseDirectory",
+  "api" : "1.0",
+  "support" : {
     "source" : "git://github.com/jonathanstowe/XDG-BaseDirectory.git",
     "bugtracker" : "https://github.com/jonathanstowe/XDG-BaseDirectory/issues"
   },
