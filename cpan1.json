@@ -37182,6 +37182,33 @@ null
 }
 ,
 {
+  "name" : "HTML::Canvas::To::PDF",
+  "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-To-PDF-0.0.3.tar.gz",
+  "perl" : "6.c",
+  "auth" : "github:p6-pdf",
+  "depends" : [
+    "HTML::Canvas",
+    "JSON::Fast",
+    "PDF::Lite",
+    "PDF::Content",
+    "Color",
+    "PDF::Font::Loader",
+    "CSS::Properties"
+  ],
+  "tags" : [
+    "html",
+    "javascript",
+    "pdf"
+  ],
+  "provides" : {
+    "HTML::Canvas::To::PDF" : "lib/HTML/Canvas/To/PDF.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.3",
+  "description" : "PDF Rendering backend for the HTML Canvas (2D) API"
+}
+,
+{
   "name" : "PDF::Class",
   "api" : "PDF-1.7",
   "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Class-0.3.3.tar.gz",
