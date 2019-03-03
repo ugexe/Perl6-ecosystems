@@ -11124,6 +11124,29 @@
 }
 ,
 {
+  "name" : "Grid",
+  "source-url" : "http://www.cpan.org/authors/id/H/HY/HYTHM/Perl6/Grid-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Grid",
+    "Array"
+  ],
+  "provides" : {
+    "Grid" : "lib/Grid.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Grid Role for Arrays",
+  "authors" : [
+    "Haytham Elganiny"
+  ]
+}
+,
+{
   "name" : "Data::Selector",
   "support" : {
     "irc" : "irc://irc.freenode.net/perl6",
