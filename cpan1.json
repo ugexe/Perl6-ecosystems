@@ -7322,6 +7322,75 @@
 }
 ,
 {
+  "name" : "Cofra",
+  "support" : {
+    "source" : "git://github.com/zostay/Cofra.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Cofra-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [
+    "HTTP::Headers",
+    "HTTP::Status",
+    "JSON::Fast",
+    "Path::Router",
+    "Smack"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "X::Cofra::Web::Error" : "lib/X/Cofra/Web/Error.pm6",
+    "Cofra::Web::Match" : "lib/Cofra/Web/Match.pm6",
+    "X::Cofra::Web::Error::Forbidden" : "lib/X/Cofra/Web/Error.pm6",
+    "X::Cofra::Web::Error::BadRequest" : "lib/X/Cofra/Web/Error.pm6",
+    "Cofra::Web::Response::P6WAPI" : "lib/Cofra/Web/Response/P6WAPI.pm6",
+    "Cofra::Web::Request::P6WAPI" : "lib/Cofra/Web/Request/P6WAPI.pm6",
+    "Cofra::Web::Request" : "lib/Cofra/Web/Request.pm6",
+    "Cofra::Web" : "lib/Cofra/Web.pm6",
+    "Cofra::App" : "lib/Cofra/App.pm6",
+    "Cofra::WebObject" : "lib/Cofra/WebObject.pm6",
+    "Cofra::Web::Match::PathRouterRouteMatch" : "lib/Cofra/Web/Match/PathRouterRouteMatch.pm6",
+    "Cofra::Web::Godly" : "lib/Cofra/Web/Godly.pm6",
+    "Cofra::Logger" : "lib/Cofra/Logger.pm6",
+    "Cofra::Web::View::JSON::Instance" : "lib/Cofra/Web/View/JSON.pm6",
+    "Cofra::Web::P6WAPI" : "lib/Cofra/Web/P6WAPI.pm6",
+    "Cofra::Singleton" : "lib/Cofra/Singleton.pm6",
+    "Cofra::IOC" : "lib/Cofra/IOC.pm6",
+    "Cofra::AppObject" : "lib/Cofra/AppObject.pm6",
+    "Cofra::Web::View::JSON" : "lib/Cofra/Web/View/JSON.pm6",
+    "Cofra::Web::View::Instance" : "lib/Cofra/Web/View.pm6",
+    "Cofra::Web::Router" : "lib/Cofra/Web/Router.pm6",
+    "Cofra::Web::Request::Match" : "lib/Cofra/Web/Request/Match.pm6",
+    "Cofra::App::Godly" : "lib/Cofra/App/Godly.pm6",
+    "X::Cofra::Web::Error::Unauthorized" : "lib/X/Cofra/Web/Error.pm6",
+    "Cofra::Web::View" : "lib/Cofra/Web/View.pm6",
+    "Cofra::Web::Response" : "lib/Cofra/Web/Response.pm6",
+    "Cofra::Web::Controller::Error" : "lib/Cofra/Web/Controller/Error.pm6",
+    "Cofra::Web::Controller" : "lib/Cofra/Web/Controller.pm6",
+    "Cofra::AccessController" : "lib/Cofra/AccessController.pm6",
+    "Cofra" : "lib/Cofra.pm6",
+    "X::Cofra::Web::Error::NotFound" : "lib/X/Cofra/Web/Error.pm6",
+    "X::Cofra::Error" : "lib/X/Cofra/Error.pm6",
+    "Cofra::Web::Router::PathRouter" : "lib/Cofra/Web/Router/PathRouter.pm6",
+    "Cofra::Logger::Screen" : "lib/Cofra/Logger/Screen.pm6",
+    "Cofra::Context" : "lib/Cofra/Context.pm6",
+    "Cofra::Biz" : "lib/Cofra/Biz.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "meta-version" : "0",
+  "description" : "Common objects framework for Perl 6",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
   "name" : "CroX::HTTP::FallbackPassthru",
   "support" : {
     "source" : "git://github.com/zostay/p6-CroX-HTTP-FallbackPassthru.git"
@@ -8484,6 +8553,91 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.2",
+  "meta-version" : "0",
+  "description" : "P6WAPI Reference Implementation",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "Smack",
+  "support" : {
+    "source" : "git://github.com/zostay/Smack.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Smack-0.1.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Andrew Sterling Hanenkamp",
+  "auth" : "github.zostay",
+  "depends" : [
+    "Apache::LogFormat::Compiler",
+    "DateTime::Format",
+    "Digest::MD5",
+    "Hash::MultiValue",
+    "HTTP::UserAgent",
+    "HTTP::Easy",
+    "HTTP::Headers",
+    "HTTP::Supply",
+    "HTTP::Status"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Smack::Test::Server" : "lib/Smack/Test/Server.pm6",
+    "Smack::Request" : "lib/Smack/Request.pm6",
+    "Smack::Middleware::XFramework" : "lib/Smack/Middleware/XFramework.pm6",
+    "Smack::Middleware::Static" : "lib/Smack/Middleware/Static.pm6",
+    "Smack::Loader::Basic" : "lib/Smack/Loader/Basic.pm6",
+    "Smack::Client::Request" : "lib/Smack/Client/Request.pm6",
+    "Smack::App::Directory" : "lib/Smack/App/Directory.pm6",
+    "HTTP::Server::Smack" : "lib/HTTP/Server/Smack.pm6",
+    "Smack::Util" : "lib/Smack/Util.pm6",
+    "Smack::Middleware::ContentMD5" : "lib/Smack/Middleware/ContentMD5.pm6",
+    "Smack::Middleware::ConditionalGET" : "lib/Smack/Middleware/ConditionalGET.pm6",
+    "Smack::Handler::HTTP::Easy" : "lib/Smack/Handler/HTTP/Easy.pm6",
+    "Smack::Test::Smackup" : "lib/Smack/Test/Smackup.pm6",
+    "Smack::Response" : "lib/Smack/Response.pm6",
+    "Smack::Middleware::Runtime" : "lib/Smack/Middleware/Runtime.pm6",
+    "Smack::Client::Request::Common" : "lib/Smack/Client/Request/Common.pm6",
+    "Smack" : "lib/Smack.pm6",
+    "HTTP::Message::P6WAPI" : "lib/HTTP/Message/P6WAPI.pm6",
+    "Smack::Runner" : "lib/Smack/Runner.pm6",
+    "Smack::Middleware::Protocol::HTTP1" : "lib/Smack/Middleware/Protocol/HTTP1.pm6",
+    "Smack::Client::Response" : "lib/Smack/Client/Response.pm6",
+    "Smack::Client::Message" : "lib/Smack/Client/Message.pm6",
+    "Smack::Client" : "lib/Smack/Client.pm6",
+    "Smack::App::URLMap" : "lib/Smack/App/URLMap.pm6",
+    "Smack::App::File" : "lib/Smack/App/File.pm6",
+    "Smack::URI" : "lib/Smack/URI.pm6",
+    "Smack::Test" : "lib/Smack/Test.pm6",
+    "Smack::Middleware::ContentLength" : "lib/Smack/Middleware/ContentLength.pm6",
+    "Smack::Loader" : "lib/Smack/Loader.pm6",
+    "Smack::Handler::Standalone" : "lib/Smack/Handler/Standalone.pm6",
+    "Smack::Middleware" : "lib/Smack/Middleware.pm6",
+    "Smack::Handler" : "lib/Smack/Handler.pm6",
+    "Smack::Exception" : "lib/Smack/Exception.pm6",
+    "Smack::App::Cascade" : "lib/Smack/App/Cascade.pm6",
+    "Smack::Test::MockHTTP" : "lib/Smack/Test/MockHTTP.pm6",
+    "Smack::Middleware::HTTP11" : "lib/Smack/Middleware/HTTP11.pm6",
+    "Smack::Middleware::ErrorDocument" : "lib/Smack/Middleware/ErrorDocument.pm6",
+    "Smack::Middleware::Conditional" : "lib/Smack/Middleware/Conditional.pm6",
+    "Smack::Middleware::AccessLog" : "lib/Smack/Middleware/AccessLog.pm6",
+    "Smack::Middleware::PSGI" : "lib/Smack/Middleware/PSGI.pm6",
+    "Smack::Middleware::Head" : "lib/Smack/Middleware/Head.pm6",
+    "Smack::Middleware::Chunked" : "lib/Smack/Middleware/Chunked.pm6",
+    "Smack::MIME" : "lib/Smack/MIME.pm6",
+    "Smack::Handler::CGI" : "lib/Smack/Handler/CGI.pm6",
+    "Smack::Date" : "lib/Smack/Date.pm6",
+    "Smack::Component" : "lib/Smack/Component.pm6",
+    "Smack::Builder" : "lib/Smack/Builder.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
   "meta-version" : "0",
   "description" : "P6WAPI Reference Implementation",
   "authors" : [
