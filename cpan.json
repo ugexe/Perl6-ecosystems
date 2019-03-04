@@ -12118,6 +12118,38 @@
 }
 ,
 {
+  "name" : "Perl6::Parser",
+  "support" : {
+    "source" : "https://github.com/drforr/perl6-Perl6-Parser"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Perl6-Parser-0.3.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:drforr",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "parse",
+    "parser",
+    "parsing"
+  ],
+  "provides" : {
+    "Perl6::Parser::Factory" : "lib/Perl6/Parser/Factory.pm6",
+    "Perl6::Parser" : "lib/Perl6/Parser.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.3.0",
+  "meta6" : "0",
+  "description" : "Parse Perl 6 from within Perl 6",
+  "authors" : [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ]
+}
+,
+{
   "name" : "Perl6::Tidy",
   "support" : {
     "source" : "https://github.com/drforr/perl6-Perl6-Tidy.git"
