@@ -17300,6 +17300,44 @@
 }
 ,
 {
+  "name" : "JSON::Class",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/JSON-Class.git",
+    "bugtracker" : "https://github.com/jonathanstowe/JSON-Class/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Class-0.0.12.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Marshal",
+    "JSON::Unmarshal"
+  ],
+  "test-depends" : [
+    "JSON::Fast",
+    "Test"
+  ],
+  "tags" : [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "provides" : {
+    "JSON::Class" : "lib/JSON/Class.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.12",
+  "meta-version" : "0",
+  "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "JSON::Infer",
   "api" : "1.0",
   "support" : {
@@ -17423,6 +17461,45 @@
 }
 ,
 {
+  "name" : "JSON::Marshal",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/JSON-Marshal.git",
+    "bugtracker" : "https://github.com/jonathanstowe/JSON-Marshal/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Marshal-0.0.17.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Fast",
+    "JSON::Name"
+  ],
+  "test-depends" : [
+    "Test",
+    "JSON::Fast"
+  ],
+  "tags" : [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "provides" : {
+    "JSON::Marshal" : "lib/JSON/Marshal.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.17",
+  "meta-version" : "0",
+  "description" : "Simple serialisation of objects to JSON",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "JSON::Name",
   "api" : "1.0",
   "support" : {
@@ -17449,6 +17526,40 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.3",
+  "meta-version" : "0",
+  "description" : "Provides a trait to store an alternative JSON Name",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "JSON::Name",
+  "api" : "1.0",
+  "support" : {
+    "source" : "git://github.com/jonathanstowe/JSON-Name.git",
+    "bugtracker" : "https://github.com/jonathanstowe/JSON-Name/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Name-0.0.4.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "provides" : {
+    "JSON::Name" : "lib/JSON/Name.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
   "meta-version" : "0",
   "description" : "Provides a trait to store an alternative JSON Name",
   "authors" : [
@@ -17903,6 +18014,44 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.22",
+  "production" : true,
+  "meta-version" : "0",
+  "description" : "Work with Perl 6 META files",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "META6",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "https://github.com/jonathanstowe/META6.git",
+    "bugtracker" : "https://github.com/jonathanstowe/META6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/META6-0.0.23.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Class:ver<0.0.5+>"
+  ],
+  "test-depends" : [
+    "JSON::Fast",
+    "Test"
+  ],
+  "tags" : [
+    "devel",
+    "meta",
+    "utils"
+  ],
+  "provides" : {
+    "META6" : "lib/META6.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.23",
   "production" : true,
   "meta-version" : "0",
   "description" : "Work with Perl 6 META files",
@@ -18564,6 +18713,46 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.15",
+  "meta-version" : 0,
+  "description" : "Test a distributions META file",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "Test::META",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "https://github.com/jonathanstowe/Test-META.git",
+    "bugtracker" : "http://github.com/jonathanstowe/Test-META/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Test-META-0.0.16.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "Test",
+    "META6",
+    "URI",
+    "License::SPDX"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "devel",
+    "meta",
+    "utils",
+    "testing"
+  ],
+  "provides" : {
+    "Test::META" : "lib/Test/META.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.16",
   "meta-version" : 0,
   "description" : "Test a distributions META file",
   "authors" : [
