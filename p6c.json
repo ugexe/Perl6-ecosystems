@@ -12676,7 +12676,7 @@
   "auth" : "github:salortiz",
   "repo-type" : "git",
   "depends" : [
-    "NativeLibs"
+    "NativeLibs:ver<0.0.5+>"
   ],
   "tags" : [
     "kv",
@@ -12687,7 +12687,7 @@
     "JsonC" : "lib/JsonC.pm6"
   },
   "test-depends" : [ ],
-  "version" : "0.0.4",
+  "version" : "0.0.5",
   "authors" : "Salvador Ortiz <sortiz@cpan.com>",
   "description" : "Native bindings for JSON-C library"
 }
