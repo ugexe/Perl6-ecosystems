@@ -20520,4 +20520,34 @@
   "authors" : "Salvador Ortiz <sortiz@cpan.com>",
   "description" : "Native libraries utilities"
 }
+,
+{
+  "api" : 1,
+  "name" : "Intl::UserLanguage",
+  "source-url" : "git://github.com/alabamenhu/UserLanguage.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:alabamenhu",
+  "depends" : [
+    "Intl::BCP47"
+  ],
+  "tags" : [
+    "Language",
+    "Tag",
+    "Preferences",
+    "Locale",
+    "International"
+  ],
+  "provides" : {
+    "Intl::UserLanguage" : "lib/Intl/UserLanguage.pm6"
+  },
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "version" : "0.2",
+  "authors" : [
+    "Matthew \u2018Mat\u00e9u\u2019 Stephen STUCKWISCH <mateu@softastur.com>"
+  ],
+  "description" : "A simple module for obtaining the user\u2019s preferred language(s)"
+}
 ]
