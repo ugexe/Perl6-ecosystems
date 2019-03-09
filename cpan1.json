@@ -8813,6 +8813,88 @@
 }
 ,
 {
+  "name" : "Smack",
+  "support" : {
+    "source" : "git://github.com/zostay/Smack.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Smack-0.2.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Andrew Sterling Hanenkamp",
+  "auth" : "github.zostay",
+  "depends" : [
+    "Apache::LogFormat::Compiler",
+    "DateTime::Format",
+    "Digest::MD5",
+    "Hash::MultiValue",
+    "HTTP::UserAgent",
+    "HTTP::Easy",
+    "HTTP::Headers",
+    "HTTP::Supply",
+    "HTTP::Status"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Smack::Test::Server" : "lib/Smack/Test/Server.pm6",
+    "Smack::Request" : "lib/Smack/Request.pm6",
+    "Smack::Middleware::XFramework" : "lib/Smack/Middleware/XFramework.pm6",
+    "Smack::Middleware::Static" : "lib/Smack/Middleware/Static.pm6",
+    "Smack::Loader::Basic" : "lib/Smack/Loader/Basic.pm6",
+    "Smack::Client::Request" : "lib/Smack/Client/Request.pm6",
+    "Smack::App::Directory" : "lib/Smack/App/Directory.pm6",
+    "HTTP::Server::Smack" : "lib/HTTP/Server/Smack.pm6",
+    "Smack::Util" : "lib/Smack/Util.pm6",
+    "Smack::Middleware::ContentMD5" : "lib/Smack/Middleware/ContentMD5.pm6",
+    "Smack::Middleware::ConditionalGET" : "lib/Smack/Middleware/ConditionalGET.pm6",
+    "Smack::Handler::HTTP::Easy" : "lib/Smack/Handler/HTTP/Easy.pm6",
+    "Smack::Test::Smackup" : "lib/Smack/Test/Smackup.pm6",
+    "Smack::Response" : "lib/Smack/Response.pm6",
+    "Smack::Middleware::Runtime" : "lib/Smack/Middleware/Runtime.pm6",
+    "Smack::Client::Request::Common" : "lib/Smack/Client/Request/Common.pm6",
+    "Smack" : "lib/Smack.pm6",
+    "HTTP::Message::P6WAPI" : "lib/HTTP/Message/P6WAPI.pm6",
+    "Smack::Runner" : "lib/Smack/Runner.pm6",
+    "Smack::Client::Response" : "lib/Smack/Client/Response.pm6",
+    "Smack::Client::Message" : "lib/Smack/Client/Message.pm6",
+    "Smack::Client" : "lib/Smack/Client.pm6",
+    "Smack::App::URLMap" : "lib/Smack/App/URLMap.pm6",
+    "Smack::App::File" : "lib/Smack/App/File.pm6",
+    "Smack::URI" : "lib/Smack/URI.pm6",
+    "Smack::Test" : "lib/Smack/Test.pm6",
+    "Smack::Middleware::ContentLength" : "lib/Smack/Middleware/ContentLength.pm6",
+    "Smack::Loader" : "lib/Smack/Loader.pm6",
+    "Smack::Handler::Standalone" : "lib/Smack/Handler/Standalone.pm6",
+    "Smack::Middleware" : "lib/Smack/Middleware.pm6",
+    "Smack::Handler" : "lib/Smack/Handler.pm6",
+    "Smack::Exception" : "lib/Smack/Exception.pm6",
+    "Smack::App::Cascade" : "lib/Smack/App/Cascade.pm6",
+    "Smack::Test::MockHTTP" : "lib/Smack/Test/MockHTTP.pm6",
+    "Smack::Middleware::ErrorDocument" : "lib/Smack/Middleware/ErrorDocument.pm6",
+    "Smack::Middleware::Conditional" : "lib/Smack/Middleware/Conditional.pm6",
+    "Smack::Middleware::AccessLog" : "lib/Smack/Middleware/AccessLog.pm6",
+    "Smack::Middleware::PSGI" : "lib/Smack/Middleware/PSGI.pm6",
+    "Smack::Middleware::Head" : "lib/Smack/Middleware/Head.pm6",
+    "Smack::MIME" : "lib/Smack/MIME.pm6",
+    "Smack::Handler::CGI" : "lib/Smack/Handler/CGI.pm6",
+    "Smack::Date" : "lib/Smack/Date.pm6",
+    "Smack::Component" : "lib/Smack/Component.pm6",
+    "Smack::Builder" : "lib/Smack/Builder.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.0",
+  "meta-version" : "0",
+  "description" : "P6WAPI Reference Implementation",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
   "name" : "Template::Anti",
   "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Template-Anti-0.4.3.tar.gz",
   "perl" : "6.c",
@@ -13554,6 +13636,23 @@
   },
   "license" : "Artistic-2.0",
   "version" : "1.0",
+  "description" : "A lock-free concurrent stack data structure.",
+  "authors" : [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ]
+}
+,
+{
+  "name" : "Concurrent::Stack",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Concurrent-Stack-1.1.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [ ],
+  "provides" : {
+    "Concurrent::Stack" : "lib/Concurrent/Stack.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.1",
   "description" : "A lock-free concurrent stack data structure.",
   "authors" : [
     "Jonathan Worthington <jnthn@jnthn.net>"
@@ -21324,6 +21423,75 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.8.2",
+  "description" : "Perl6 GTK Api Version 3",
+  "authors" : [
+    "Marcel Timmerman"
+  ]
+}
+,
+{
+  "name" : "GTK::V3",
+  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-v3-0.8.3.tar.gz",
+  "perl" : "6",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Gui",
+    "Gtk"
+  ],
+  "provides" : {
+    "GTK::V3::X" : "lib/GTK/V3/X.pm6",
+    "GTK::V3::Gtk::GtkWidget" : "lib/GTK/V3/Gtk/GtkWidget.pm6",
+    "GTK::V3::Gtk::GtkTextView" : "lib/GTK/V3/Gtk/GtkTextView.pm6",
+    "GTK::V3::Gtk::GtkMenuItem" : "lib/GTK/V3/Gtk/GtkMenuItem.pm6",
+    "GTK::V3::Gtk::GtkComboBoxText" : "lib/GTK/V3/Gtk/GtkComboBoxText.pm6",
+    "GTK::V3::Gtk::GtkCheckButton" : "lib/GTK/V3/Gtk/GtkCheckButton.pm6",
+    "GTK::V3::Glib::GObject" : "lib/GTK/V3/Glib/GObject.pm6",
+    "GTK::V3::Gdk::GdkWindow" : "lib/GTK/V3/Gdk/GdkWindow.pm6",
+    "GTK::V3::Gtk::GtkToggleButton" : "lib/GTK/V3/Gtk/GtkToggleButton.pm6",
+    "GTK::V3::Gtk::GtkRadioButton" : "lib/GTK/V3/Gtk/GtkRadioButton.pm6",
+    "GTK::V3::Gtk::GtkCssProvider" : "lib/GTK/V3/Gtk/GtkCssProvider.pm6",
+    "GTK::V3::Glib::GSignal" : "lib/GTK/V3/Glib/GSignal.pm6",
+    "GTK::V3::Glib::GSList" : "lib/GTK/V3/Glib/GSList.pm6",
+    "GTK::V3::Glib::GMain" : "lib/GTK/V3/Glib/GMain.pm6",
+    "GTK::V3::N::NativeLib" : "lib/GTK/V3/N/NativeLib.pm6",
+    "GTK::V3::Gtk::GtkWindow" : "lib/GTK/V3/Gtk/GtkWindow.pm6",
+    "GTK::V3::Gtk::GtkStyleContext" : "lib/GTK/V3/Gtk/GtkStyleContext.pm6",
+    "GTK::V3::Gtk::GtkListBox" : "lib/GTK/V3/Gtk/GtkListBox.pm6",
+    "GTK::V3::Gtk::GtkImageMenuItem" : "lib/GTK/V3/Gtk/GtkImageMenuItem.pm6",
+    "GTK::V3::Glib::GList" : "lib/GTK/V3/Glib/GList.pm6",
+    "GTK::V3::Gdk::GdkScreen" : "lib/GTK/V3/Gdk/GdkScreen.pm6",
+    "GTK::V3::Gtk::GtkFileChooserDialog" : "lib/GTK/V3/Gtk/GtkFileChooserDialog.pm6",
+    "GTK::V3::Gtk::GtkBuilder" : "lib/GTK/V3/Gtk/GtkBuilder.pm6",
+    "GTK::V3::Gtk::GtkAboutDialog" : "lib/GTK/V3/Gtk/GtkAboutDialog.pm6",
+    "GTK::V3::Gtk::GtkTextBuffer" : "lib/GTK/V3/Gtk/GtkTextBuffer.pm6",
+    "GTK::V3::Gdk::GdkDisplay" : "lib/GTK/V3/Gdk/GdkDisplay.pm6",
+    "GTK::V3::Gtk::GtkLabel" : "lib/GTK/V3/Gtk/GtkLabel.pm6",
+    "GTK::V3::Gtk::GtkFileFilter" : "lib/GTK/V3/Gtk/GtkFileFilter.pm6",
+    "GTK::V3::Gtk::GtkEntry" : "lib/GTK/V3/Gtk/GtkEntry.pm6",
+    "GTK::V3::Gtk::GtkButton" : "lib/GTK/V3/Gtk/GtkButton.pm6",
+    "GTK::V3::Glib::GValue" : "lib/GTK/V3/Glib/GValue.pm6",
+    "GTK::V3::Glib::GType" : "lib/GTK/V3/Glib/GType.pm6",
+    "GTK::V3::Glib::GInitiallyUnowned" : "lib/GTK/V3/Glib/GInitiallyUnowned.pm6",
+    "GTK::V3::Glib::GFile" : "lib/GTK/V3/Glib/GFile.pm6",
+    "GTK::V3::Gtk::GtkTextTagTable" : "lib/GTK/V3/Gtk/GtkTextTagTable.pm6",
+    "GTK::V3::Gtk::GtkImage" : "lib/GTK/V3/Gtk/GtkImage.pm6",
+    "GTK::V3::Gtk::GtkFileChooser" : "lib/GTK/V3/Gtk/GtkFileChooser.pm6",
+    "GTK::V3::Gtk::GtkComboBox" : "lib/GTK/V3/Gtk/GtkComboBox.pm6",
+    "GTK::V3::Gtk::GtkBin" : "lib/GTK/V3/Gtk/GtkBin.pm6",
+    "GTK::V3::Glib::GError" : "lib/GTK/V3/Glib/GError.pm6",
+    "GTK::V3::N::N-GObject" : "lib/GTK/V3/N/N-GObject.pm6",
+    "GTK::V3::Gtk::GtkMain" : "lib/GTK/V3/Gtk/GtkMain.pm6",
+    "GTK::V3::Gtk::GtkGrid" : "lib/GTK/V3/Gtk/GtkGrid.pm6",
+    "GTK::V3::Gtk::GtkDialog" : "lib/GTK/V3/Gtk/GtkDialog.pm6",
+    "GTK::V3::Gtk::GtkContainer" : "lib/GTK/V3/Gtk/GtkContainer.pm6",
+    "GTK::V3::Glib::GInterface" : "lib/GTK/V3/Glib/GInterface.pm6",
+    "GTK::V3::Gdk::GdkTypes" : "lib/GTK/V3/Gdk/GdkTypes.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.8.3",
   "description" : "Perl6 GTK Api Version 3",
   "authors" : [
     "Marcel Timmerman"
