@@ -3109,7 +3109,7 @@
   "provides" : {
     "Compress::Zlib" : "lib/Compress/Zlib.pm6"
   },
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "description" : "Nicer zlib interface"
 }
 ,
@@ -20409,5 +20409,22 @@
     "Matthew \u2018Mat\u00e9u\u2019 Stephen STUCKWISCH <mateu@softastur.com>"
   ],
   "description" : "A simple module for obtaining the user\u2019s preferred language(s)"
+}
+,
+{
+  "name" : "Net::RCON",
+  "perl" : "6.c",
+  "source-url" : "git://github.com/shuppet/p6-net-rcon.git",
+  "auth" : "github:shuppet",
+  "repo-type" : "git",
+  "provides" : {
+    "Net::RCON" : "lib/Net/RCON.pm6"
+  },
+  "license" : "BSD-3-Clause",
+  "version" : "0.0.1",
+  "authors" : [
+    "Kane 'kawaii' Valentine <kane@cute.im>"
+  ],
+  "description" : "Perl 6 module for interacting with the Source RCON (remote console) protocol."
 }
 ]
