@@ -1529,6 +1529,45 @@
 }
 ,
 {
+  "name" : "DB::MySQL",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-dbmysql.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-dbmysql/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/DB-MySQL-0.4.tar.gz",
+  "perl" : "6.*",
+  "depends" : [
+    "DB",
+    "NativeLibs",
+    "NativeCall",
+    "JSON::Fast"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [
+    "DATABASE",
+    "MYSQL"
+  ],
+  "provides" : {
+    "DB::MySQL::Statement" : "lib/DB/MySQL/Statement.pm6",
+    "DB::MySQL::Converter" : "lib/DB/MySQL/Converter.pm6",
+    "DB::MySQL" : "lib/DB/MySQL.pm6",
+    "DB::MySQL::Native" : "lib/DB/MySQL/Native.pm6",
+    "DB::MySQL::Result" : "lib/DB/MySQL/Result.pm6",
+    "DB::MySQL::Connection" : "lib/DB/MySQL/Connection.pm6"
+  },
+  "license" : "BSD-2-Clause",
+  "version" : "0.4",
+  "description" : "MySQL access for Perl6",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
+  ]
+}
+,
+{
   "name" : "DB::Pg",
   "support" : {
     "source" : "https://github.com/CurtTilmes/perl6-dbpg.git",
