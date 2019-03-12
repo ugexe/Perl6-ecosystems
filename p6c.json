@@ -281,6 +281,27 @@
 }
 ,
 {
+  "name" : "Config::INI",
+  "source-url" : "git://github.com/tadzik/perl6-Config-INI.git",
+  "support" : {
+    "source" : "git://github.com/tadzik/perl6-Config-INI.git",
+    "bugtracker" : "https://github.com/tadzik/perl6-Config-INI/issues"
+  },
+  "perl" : "6.*",
+  "depends" : [ ],
+  "provides" : {
+    "Config::INI::Writer" : "lib/Config/INI/Writer.pm",
+    "Config::INI" : "lib/Config/INI.pm"
+  },
+  "version" : "*",
+  "authors" : [
+    "Tadeusz \u201ctadzik\u201d So\u015bnierz",
+    "Nobuo Danjou"
+  ],
+  "description" : ".ini file parser and writer module for Perl 6"
+}
+,
+{
   "name" : "Term::ANSIColor",
   "source-url" : "git://github.com/tadzik/perl6-Term-ANSIColor.git",
   "support" : {
