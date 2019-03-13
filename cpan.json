@@ -19170,6 +19170,40 @@
 }
 ,
 {
+  "name" : "Tinky",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "https://github.com/jonathanstowe/Tinky.git",
+    "bugtracker" : "https://github.com/jonathanstowe/Tinky/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Tinky-0.0.8.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:jonathanstowe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "Workflow",
+    "toolkit",
+    "state machine"
+  ],
+  "provides" : {
+    "Tinky" : "lib/Tinky.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.8",
+  "meta-version" : "0",
+  "description" : "An Experimental Workflow / State Management toolit",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "Tinky::JSON",
   "api" : "1.0",
   "support" : {
