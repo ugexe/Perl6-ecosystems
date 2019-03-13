@@ -7410,6 +7410,34 @@
   "support" : {
     "source" : null
   },
+  "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ArrayHash-0.4.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:zostay",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "ArrayHash" : "lib/ArrayHash.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.4.1",
+  "meta-version" : "0",
+  "description" : "An array in a hash in an array... like a turducken",
+  "authors" : [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "ArrayHash",
+  "support" : {
+    "source" : null
+  },
   "source-url" : "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ArrayHash-0.4.tar.gz",
   "perl" : "6.c",
   "resources" : [ ],
