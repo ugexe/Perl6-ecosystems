@@ -18806,7 +18806,7 @@
   "perl" : "6",
   "auth" : "github:tony-o",
   "depends" : [
-    "DBIish"
+    "DB"
   ],
   "tags" : [
     "ORM",
@@ -18834,7 +18834,11 @@
     "DB::Xoos" : "lib/DB/Xoos.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.10",
+  "test-depends" : [
+    "DB::SQLite",
+    "DBIish"
+  ],
+  "version" : "0.0.11",
   "authors" : [
     "Tony O'Dell"
   ],
