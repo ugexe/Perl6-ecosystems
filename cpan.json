@@ -189,6 +189,36 @@
 }
 ,
 {
+  "name" : "pack6",
+  "support" : {
+    "source" : "https://github.com/araraloren/perl6-pack6",
+    "bugtracker" : "https://github.com/araraloren/perl6-pack6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/pack6-0.1.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:araraloren",
+  "depends" : [
+    "JSON::Fast",
+    "Compress::Zlib",
+    "Getopt::Advance",
+    "File::Directory::Tree",
+    "File::Which"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "CPAN::Convert" : "lib/CPAN/Convert.pm6",
+    "CPAN::Pack6" : "lib/CPAN/Pack6.pm6",
+    "CPAN::Tar" : "lib/CPAN/Tar.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.1",
+  "description" : "An tools can easily create CPAN tarball for you!",
+  "authors" : "Loren"
+}
+,
+{
   "name" : "Time::Repeat",
   "source-url" : "http://www.cpan.org/authors/id/A/AR/ARNE/Perl6/p6-time-repeat-0.0101.tar.gz",
   "perl" : "6.c",
