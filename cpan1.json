@@ -3237,6 +3237,32 @@
 }
 ,
 {
+  "name" : "DirHandle",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/DirHandle-0.0.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "P5opendir:ver<0.0.4>:auth<cpan:ELIZABETH>"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "DirHandle" : "lib/DirHandle.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.2",
+  "description" : "Port of Perl 5's DirHandle",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "Env",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Env-0.0.2.tar.gz",
   "perl" : "6.c",
@@ -4521,6 +4547,30 @@
 }
 ,
 {
+  "name" : "P5caller",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5caller-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5caller" : "lib/P5caller.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
+  "description" : "Implement Perl 5's caller() built-in",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "P5chdir",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5chdir-0.0.5.tar.gz",
   "perl" : "6.c",
@@ -4779,6 +4829,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.5",
+  "description" : "Implement Perl 5's getgrnam() and associated built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5getgrnam",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5getgrnam-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5getgrnam" : "lib/P5getgrnam.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
   "description" : "Implement Perl 5's getgrnam() and associated built-ins",
   "authors" : [
     "Elizabeth Mattijsen"
