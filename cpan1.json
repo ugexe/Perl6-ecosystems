@@ -219,6 +219,36 @@
 }
 ,
 {
+  "name" : "pack6",
+  "support" : {
+    "source" : "https://github.com/araraloren/perl6-pack6",
+    "bugtracker" : "https://github.com/araraloren/perl6-pack6/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/pack6-0.2.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:araraloren",
+  "depends" : [
+    "JSON::Fast",
+    "Compress::Zlib",
+    "Getopt::Advance",
+    "File::Directory::Tree",
+    "File::Which"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "CPAN::Convert" : "lib/CPAN/Convert.pm6",
+    "CPAN::Pack6" : "lib/CPAN/Pack6.pm6",
+    "CPAN::Tar" : "lib/CPAN/Tar.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.2",
+  "description" : "An tools can easily create CPAN tarball for you!",
+  "authors" : "Loren"
+}
+,
+{
   "name" : "Time::Repeat",
   "source-url" : "http://www.cpan.org/authors/id/A/AR/ARNE/Perl6/p6-time-repeat-0.0101.tar.gz",
   "perl" : "6.c",
@@ -3605,6 +3635,34 @@
 }
 ,
 {
+  "name" : "List::AllUtils",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-AllUtils-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "List::Util:ver<0.0.7>:auth<cpan:ELIZABETH>",
+    "List::MoreUtils:ver<0.0.5>:auth<cpan:ELIZABETH>",
+    "List::UtilsBy:ver<0.0.4>:auth<cpan:ELIZABETH>"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "List::AllUtils" : "lib/List/AllUtils.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
+  "description" : "Port of Perl 5's List::AllUtils 0.14",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "List::MoreUtils",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-MoreUtils-0.0.4.tar.gz",
   "perl" : "6.c",
@@ -3622,6 +3680,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.4",
+  "description" : "Port of Perl 5's List::MoreUtils 0.428",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "List::MoreUtils",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-MoreUtils-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "List::MoreUtils" : "lib/List/MoreUtils.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
   "description" : "Port of Perl 5's List::MoreUtils 0.428",
   "authors" : [
     "Elizabeth Mattijsen"
@@ -3655,6 +3737,32 @@
 }
 ,
 {
+  "name" : "List::SomeUtils",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-SomeUtils-0.0.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [
+    "List::MoreUtils:ver<0.0.5>:auth<cpan:ELIZABETH>"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "List::SomeUtils" : "lib/List/SomeUtils.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.5",
+  "description" : "Port of Perl 5's List::SomeUtils 0.56",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
   "name" : "List::Util",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-Util-0.0.6.tar.gz",
   "perl" : "6.c",
@@ -3672,6 +3780,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.6",
+  "description" : "Port of Perl 5's List::Util 1.49",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "List::Util",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-Util-0.0.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "UTILS",
+    "CPAN5"
+  ],
+  "provides" : {
+    "List::Util" : "lib/List/Util.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
   "description" : "Port of Perl 5's List::Util 1.49",
   "authors" : [
     "Elizabeth Mattijsen"
@@ -5033,6 +5165,30 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.3",
+  "description" : "Implement Perl 5's opendir() and related built-ins",
+  "authors" : [
+    "Elizabeth Mattijsen"
+  ]
+}
+,
+{
+  "name" : "P5opendir",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5opendir-0.0.4.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:ELIZABETH",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "PERL5",
+    "CPAN5"
+  ],
+  "provides" : {
+    "P5opendir" : "lib/P5opendir.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.4",
   "description" : "Implement Perl 5's opendir() and related built-ins",
   "authors" : [
     "Elizabeth Mattijsen"
