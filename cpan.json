@@ -1311,6 +1311,35 @@
 }
 ,
 {
+  "name" : "BitEnum",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-bitenum.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-bitenum/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/BitEnum-0.1.tar.gz",
+  "perl" : "6.*",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [
+    "BITFIELDS",
+    "ENUM"
+  ],
+  "provides" : {
+    "BitEnum" : "lib/BitEnum.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1",
+  "description" : "Wrapper for Bitfields stored in an integer",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
+  ]
+}
+,
+{
   "name" : "CroX::HTTP::Auth::Munge",
   "support" : {
     "source" : "https://github.com/CurtTilmes/perl6-crox-http-auth-munge.git",
