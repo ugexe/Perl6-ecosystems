@@ -20453,4 +20453,24 @@
   ],
   "description" : "Perl 6 module for interacting with the Source RCON (remote console) protocol."
 }
+,
+{
+  "name" : "API::Perspective",
+  "perl" : "6.c",
+  "source-url" : "git://github.com/shuppet/p6-api-perspective.git",
+  "auth" : "github:shuppet",
+  "depends" : [
+    "Cro::HTTP::Client"
+  ],
+  "repo-type" : "git",
+  "provides" : {
+    "API::Perspective" : "lib/API/Perspective.pm6"
+  },
+  "license" : "BSD-3-Clause",
+  "version" : "0.0.1",
+  "authors" : [
+    "Kane 'kawaii' Valentine <kane@cute.im>"
+  ],
+  "description" : "Perl 6 module for interacting with the Google Perspective API."
+}
 ]
