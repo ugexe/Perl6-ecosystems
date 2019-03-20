@@ -16407,22 +16407,22 @@
 ,
 {
   "name" : "API::USNavalObservatory",
-  "source-url" : "git://github.com/cbk/API-USNavalObservatory",
   "perl" : "6.*",
+  "source-url" : "git://github.com/cbk/API-USNavalObservatory",
   "author" : "github:cbk",
   "depends" : [
-    "HTTP::UserAgent",
-    "URI::Encode",
-    "WWW"
+    "URI",
+    "Cro::HTTP::Client",
+    "JSON::Pretty"
   ],
   "tags" : [
     "api"
   ],
-  "license" : "Artistic-2.0",
   "provides" : {
     "API::USNavalObservatory" : "lib/API/USNavalObservatory.pm6"
   },
-  "version" : "1.0.0",
+  "license" : "Artistic-2.0",
+  "version" : "1.1.0",
   "description" : "Simple Perl 6 interface to the U.S. Naval Observatory, Astronomical Applications API v2.0.1"
 }
 ,
@@ -20370,11 +20370,13 @@
   "source-url" : "https://github.com/JJ/perl6-test-script-output.git",
   "perl" : "6.c",
   "resources" : [ ],
+  "build-depends" : [ ],
   "auth" : "github:JJ",
   "depends" : [
     "Pod::Load",
     "IO::Capture::Simple"
   ],
+  "test-depends" : [ ],
   "tags" : [
     "Test",
     "App",
@@ -20384,8 +20386,8 @@
     "Test::Script::Output" : "lib/Test/Script/Output.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.0.2",
-  "description" : "Test the output of scripts",
+  "version" : "0.0.3.1",
+  "description" : "Tests the output of scripts with special comments",
   "authors" : [
     "JJ Merelo"
   ]
