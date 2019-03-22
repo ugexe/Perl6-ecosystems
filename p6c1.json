@@ -20495,4 +20495,35 @@
   ],
   "description" : "Perl 6 module for interacting with the Google Perspective API."
 }
+,
+{
+  "name" : "Text::CSV::LibCSV",
+  "source-url" : "git://github.com/tony-o/perl6-libcsv.git",
+  "perl" : "6.*",
+  "resources" : [
+    "lib/libcsvwrap.so",
+    "lib/libcsvwrap.dll",
+    "lib/libcsvwrap.dylib"
+  ],
+  "build-depends" : [
+    "LibraryMake"
+  ],
+  "auth" : "github:tony-o",
+  "depends" : [ ],
+  "provides" : {
+    "Text::CSV::LibCSV::Native" : "lib/Text/CSV/LibCSV/Native.pm6",
+    "Text::CSV::LibCSV" : "lib/Text/CSV/LibCSV.pm6"
+  },
+  "test-depends" : [ ],
+  "tags" : [
+    "csv",
+    "parser",
+    "native"
+  ],
+  "version" : "0.0.1",
+  "description" : "libcsv wrapper + Parser",
+  "authors" : [
+    "tony-o"
+  ]
+}
 ]
