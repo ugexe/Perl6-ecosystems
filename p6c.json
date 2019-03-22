@@ -971,6 +971,22 @@
 }
 ,
 {
+  "name" : "XML::Entity::HTML",
+  "source-url" : "git://github.com/supernovus/xml-entity-html.git",
+  "perl" : "6.*",
+  "author" : "Timothy Totten",
+  "depends" : [
+    "XML"
+  ],
+  "provides" : {
+    "XML::Entity::XML" : "lib/XML/Entity/HTML.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1.0",
+  "description" : "XML::Entity extension for HTML 5 entities."
+}
+,
+{
   "name" : "XML::Query",
   "source-url" : "git://github.com/supernovus/perl6-xml-query.git",
   "perl" : "6.*",
