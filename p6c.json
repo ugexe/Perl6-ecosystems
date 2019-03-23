@@ -819,7 +819,7 @@
     "client"
   ],
   "meta-version" : "0",
-  "version" : "1.1.47",
+  "version" : "1.1.48",
   "description" : "Web user agent",
   "authors" : [
     "sergot"
@@ -13051,28 +13051,6 @@
     "Rajkumar Reddy"
   ],
   "description" : "Encode and Decode Bencoding strings"
-}
-,
-{
-  "name" : "Config::Netrc",
-  "source-url" : "git://github.com/Altai-man/perl6-Config-Netrc.git",
-  "support" : {
-    "bugtracker" : "https://github.com/Altai-man/perl6-Config-Netrc/issues"
-  },
-  "perl" : "6.*",
-  "author" : "github:Altai-man",
-  "depends" : [ ],
-  "provides" : {
-    "Config::Netrc" : "lib/Config/Netrc.pm6",
-    "Config::Netrc::Writer" : "lib/Config/Netrc/Writer.pm6"
-  },
-  "tags" : [
-    "Grammar",
-    "Config"
-  ],
-  "license" : "Artistic-2.0",
-  "version" : "1.0",
-  "description" : ".netrc file parser module for Perl 6"
 }
 ,
 {
