@@ -8391,31 +8391,6 @@
 }
 ,
 {
-  "name" : "Log::Minimal",
-  "source-url" : "git://github.com/moznion/p6-Log-Minimal.git",
-  "perl" : "6.c",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "depends" : [
-    "Terminal::ANSIColor",
-    "Grammar::Tracer"
-  ],
-  "test-depends" : [
-    "IO::Capture::Simple"
-  ],
-  "tags" : [ ],
-  "provides" : {
-    "Log::Minimal" : "lib/Log/Minimal.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "Minimal and customizable logger for perl6",
-  "authors" : [
-    "moznion"
-  ]
-}
-,
-{
   "name" : "App::ecoreadme",
   "source-url" : "git://github.com/stmuk/p6-eco-readme.git",
   "perl" : "6.c",
