@@ -13065,6 +13065,28 @@
 }
 ,
 {
+  "name" : "Config::Netrc",
+  "source-url" : "git://github.com/Altai-man/perl6-Config-Netrc.git",
+  "support" : {
+    "bugtracker" : "https://github.com/Altai-man/perl6-Config-Netrc/issues"
+  },
+  "perl" : "6.*",
+  "author" : "github:Altai-man",
+  "depends" : [ ],
+  "provides" : {
+    "Config::Netrc" : "lib/Config/Netrc.pm6",
+    "Config::Netrc::Writer" : "lib/Config/Netrc/Writer.pm6"
+  },
+  "tags" : [
+    "Grammar",
+    "Config"
+  ],
+  "license" : "Artistic-2.0",
+  "version" : "1.0",
+  "description" : ".netrc file parser module for Perl 6"
+}
+,
+{
   "name" : "Slang::Mosdef",
   "source-url" : "git://github.com/bduggan/mosdef.git",
   "perl" : "6.*",
@@ -13104,7 +13126,7 @@
     "Text::Tabs" : "lib/Text/Tabs.pm6"
   },
   "tags" : [
-    ""
+    "CPAN5"
   ],
   "license" : "Artistic-2.0",
   "version" : "0.1",
@@ -20519,5 +20541,41 @@
   "authors" : [
     "tony-o"
   ]
+}
+,
+{
+  "api" : 1,
+  "name" : "Intl::Fluent",
+  "source-url" : "git://github.com/alabamenhu/bcp47.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:alabamenhu",
+  "depends" : [
+    "Intl::BCP47"
+  ],
+  "tags" : [
+    "Language",
+    "Tag",
+    "Localization",
+    "Locale",
+    "International",
+    "Internationalization",
+    "RF"
+  ],
+  "provides" : {
+    "Fluent::Actions" : "lib/Fluent/Actions.pm6",
+    "Fluent::Grammar" : "lib/Fluent/Grammar.pm6",
+    "Fluent::Number" : "lib/Fluent/Number.pm6",
+    "Fluent::Classes" : "lib/Fluent/Classes.pm6",
+    "Fluent" : "lib/Fluent.pm6"
+  },
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "version" : "0.6",
+  "authors" : [
+    "Matthew \u2018Mat\u00e9u\u2019 Stephen STUCKWISCH <mateu@softastur.com>"
+  ],
+  "description" : "A localization framework implementing Mozilla\u2019s project Fluent"
 }
 ]
