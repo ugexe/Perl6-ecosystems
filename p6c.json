@@ -20567,4 +20567,27 @@
   ],
   "description" : "A localization framework implementing Mozilla\u2019s project Fluent"
 }
+,
+{
+  "name" : "Grammar::PrettyErrors",
+  "perl" : "6.*",
+  "source-url" : "git://github.com/bduggan/p6-grammar-prettyerrors.git",
+  "build-depends" : [ ],
+  "depends" : [
+    "Terminal::ANSIColor"
+  ],
+  "license" : "Artistic-2.0",
+  "test-depends" : [ ],
+  "tags" : [
+    "parsing"
+  ],
+  "provides" : {
+    "Grammar::PrettyErrors" : "lib/Grammar/PrettyErrors.pm6"
+  },
+  "version" : "0.0.1",
+  "authors" : [
+    "Brian Duggan"
+  ],
+  "description" : "Generate pretty errors when your parse fails"
+}
 ]
