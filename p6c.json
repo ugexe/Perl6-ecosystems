@@ -20590,4 +20590,41 @@
   ],
   "description" : "Generate pretty errors when your parse fails"
 }
+,
+{
+  "name" : "P6TK",
+  "perl" : "6.*",
+  "source-url" : "git://github.com/ALANVF/P6TK.git",
+  "auth" : "github:ALANVF",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "windowing",
+    "graphics",
+    "gui",
+    "tk"
+  ],
+  "provides" : {
+    "Tk::Widget" : "lib/Tk/Widget.pm6",
+    "Tk" : "lib/Tk.pm6",
+    "Tcl::Stream" : "lib/Tcl/Stream.pm6",
+    "Tk::Label" : "lib/Tk/Label.pm6",
+    "Tcl" : "lib/Tcl.pm6",
+    "Tk::Window" : "lib/Tk/Window.pm6",
+    "Tk::Button" : "lib/Tk/Button.pm6",
+    "Tcl::Interp" : "lib/Tcl/Interp.pm6",
+    "Tk::Root" : "lib/Tk/Root.pm6",
+    "Tcl::OptionParser" : "lib/Tcl/OptionParser.pm6",
+    "Tk::WidgetAttrs" : "lib/Tk/WidgetAttrs.pm6",
+    "Tk::Frame" : "lib/Tk/Frame.pm6"
+  },
+  "license" : "MIT",
+  "version" : "0.0.1",
+  "description" : "A library that lets you use Tk in Perl 6. Still a work in progress.",
+  "authors" : [
+    "theangryepicbanana"
+  ]
+}
 ]
