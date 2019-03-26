@@ -21219,6 +21219,33 @@
 }
 ,
 {
+  "name" : "Term::Choose::Util",
+  "source-url" : "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-Util-p6-1.2.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Term::Choose"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "cli",
+    "terminal"
+  ],
+  "provides" : {
+    "Term::Choose::Util" : "lib/Term/Choose/Util.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.2.0",
+  "description" : "CLI related functions.",
+  "authors" : [
+    "kuerbis"
+  ]
+}
+,
+{
   "name" : "Term::Choose",
   "source-url" : "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-p6-1.4.5.tar.gz",
   "perl" : "6.c",
@@ -21315,6 +21342,36 @@
 }
 ,
 {
+  "name" : "Term::Choose",
+  "source-url" : "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-p6-1.5.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Term::termios"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "cli",
+    "terminal",
+    "text"
+  ],
+  "provides" : {
+    "Term::Choose" : "lib/Term/Choose.pm6",
+    "Term::Choose::NCursesAdd" : "lib/Term/Choose/NCursesAdd.pm6",
+    "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.5.0",
+  "description" : "Choose items from a list interactively.",
+  "authors" : [
+    "kuerbis"
+  ]
+}
+,
+{
   "name" : "Term::TablePrint",
   "source-url" : "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-TablePrint-1.3.1.tar.gz",
   "perl" : "6.c",
@@ -21370,6 +21427,36 @@
   },
   "license" : "Artistic-2.0",
   "version" : "1.3.2",
+  "description" : "Print a table to the terminal and browse it interactively.",
+  "authors" : [
+    "kuerbis"
+  ]
+}
+,
+{
+  "name" : "Term::TablePrint",
+  "source-url" : "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-TablePrint-p6-1.4.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Term::Choose",
+    "Term::Choose::Util"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "cli",
+    "table",
+    "terminal",
+    "text"
+  ],
+  "provides" : {
+    "Term::TablePrint" : "lib/Term/TablePrint.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.4.0",
   "description" : "Print a table to the terminal and browse it interactively.",
   "authors" : [
     "kuerbis"
