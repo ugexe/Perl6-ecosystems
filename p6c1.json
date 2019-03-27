@@ -7710,6 +7710,38 @@
 }
 ,
 {
+  "name" : "Proc::Screen",
+  "support" : {
+    "source" : "https://github.com/skids/perl6-Proc-Screen.git",
+    "bugtracker" : "https://github.com/skids/perl6-Proc-Screen/issues"
+  },
+  "source-url" : "https://github.com/skids/perl6-Proc-Screen.git",
+  "perl" : "6",
+  "build-depends" : [
+    "File::Temp",
+    "Test"
+  ],
+  "depends" : [
+    "File::Temp",
+    "Test"
+  ],
+  "test-depends" : [
+    "File::Temp",
+    "Test"
+  ],
+  "provides" : {
+    "Proc::Screen" : "lib/Proc/Screen.pm6",
+    "Test::Screen" : "lib/Test/Screen.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "v0.0.1",
+  "description" : "Perl6 -- manage GNU screen sessions and use them for tests",
+  "authors" : [
+    "Brian S. Julin"
+  ]
+}
+,
+{
   "name" : "Control::Bail",
   "support" : {
     "source" : "https://github.com/skids/perl6-Control-Bail.git"
@@ -7724,6 +7756,25 @@
   "description" : "Perl6 module for deferred error handling",
   "authors" : [
     "Brian S. Julin"
+  ]
+}
+,
+{
+  "name" : "HTTP::Roles",
+  "source-url" : "git://github.com/perl6-community-modules/perl6-http-server.git",
+  "perl" : "6.*",
+  "auth" : "github:tony-o",
+  "depends" : [ ],
+  "provides" : {
+    "HTTP::Server::Role" : "lib/HTTP/Server/Role.pm6",
+    "HTTP::Request::Role" : "lib/HTTP/Request/Role.pm6",
+    "HTTP::Response::Role" : "lib/HTTP/Response/Role.pm6"
+  },
+  "meta-version" : "0",
+  "version" : "0.2.0",
+  "description" : "role for HTTP::Server so we can have start building out some servers with interchangeable backends",
+  "authors" : [
+    "tony-o"
   ]
 }
 ,
