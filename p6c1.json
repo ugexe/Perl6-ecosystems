@@ -15169,7 +15169,7 @@
   "test-depends" : [ ],
   "license" : "Artistic-2.0",
   "tags" : [ ],
-  "version" : "0.16.5",
+  "version" : "0.16.6",
   "meta6" : "0",
   "description" : "Provide a binary to work with META6.json-files.",
   "authors" : [
@@ -20595,11 +20595,11 @@
   "provides" : {
     "Grammar::PrettyErrors" : "lib/Grammar/PrettyErrors.pm6"
   },
-  "version" : "0.0.2",
+  "version" : "0.0.3",
   "authors" : [
     "Brian Duggan"
   ],
-  "description" : "Generate pretty errors when your parse fails"
+  "description" : "Make grammars fail parsing with a pretty error instead of returning nil"
 }
 ,
 {
