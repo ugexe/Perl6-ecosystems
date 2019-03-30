@@ -2769,9 +2769,6 @@
 }
 ,
 {
-  "X-resources" : [
-    "linux/mongod"
-  ],
   "api" : "0",
   "name" : "MongoDB",
   "perl" : "6",
@@ -2784,17 +2781,14 @@
     "BSON",
     "Semaphore::ReadersWriters",
     "Config::DataLang::Refine",
-    "Auth::SCRAM",
     "Base64",
+    "Digest::MD5",
     "OpenSSL",
     "URI::Escape",
+    "Auth::SCRAM",
     "Unicode::PRECIS",
     "Terminal::ANSIColor",
     "Log::Async"
-  ],
-  "X-Mongo-Sources" : [
-    "only oldest server version in resources, no mongos",
-    "https://fastdl.mongodb.org/linux/mongodb-linux-x86_64-3.6.9.tgz"
   ],
   "provides" : {
     "MongoDB::Header" : "lib/MongoDB/Header.pm6",
@@ -2824,7 +2818,7 @@
     "mongodb",
     "driver"
   ],
-  "version" : "0.43.6",
+  "version" : "0.43.7",
   "authors" : [
     "Marcel Timmerman",
     "Pawe\u0142 Pabian"
@@ -13618,7 +13612,7 @@
     "Auth::SCRAM::Client" : "lib/Auth/SCRAM/Client.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "v0.4.6.3",
+  "version" : "v0.4.7",
   "description" : "Salted Challenge Response Authentication Mechanism (SCRAM)",
   "authors" : [
     "Marcel Timmerman"
@@ -14287,16 +14281,20 @@
   "name" : "Net::Netmask",
   "source-url" : "git://github.com/0racle/p6-Net-Netmask.git",
   "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
   "depends" : [ ],
-  "license" : "Artistic-2.0",
+  "test-depends" : [ ],
+  "tags" : [ ],
   "provides" : {
     "Net::Netmask" : "lib/Net/Netmask.pm6"
   },
-  "version" : "0.1.1",
+  "license" : "Artistic-2.0",
+  "version" : "0.2.0",
+  "description" : "Parse, manipulate and lookup IPv4 network blocks",
   "authors" : [
     "Joshua Yeshouroun"
-  ],
-  "description" : "Parse, manipulate and lookup IP network blocks"
+  ]
 }
 ,
 {
