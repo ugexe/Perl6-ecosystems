@@ -27739,6 +27739,44 @@
 }
 ,
 {
+  "name" : "Archive::SimpleZip",
+  "support" : {
+    "source" : "git://github.com/pmqs/Archive-SimpleZip.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/P/PM/PMQS/Perl6/Archive-SimpleZip-0.2.0.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "depends" : [
+    "Compress::Zlib::Raw",
+    "Compress::Zlib",
+    "Compress::Bzip2",
+    "CompUnit::Util",
+    "IO::Blob"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "File::Temp",
+    "File::Which"
+  ],
+  "tags" : [
+    "archive",
+    "compression"
+  ],
+  "provides" : {
+    "Archive::SimpleZip::Utils" : "lib/Archive/SimpleZip/Utils.pm6",
+    "Archive::SimpleZip::Headers" : "lib/Archive/SimpleZip/Headers.pm6",
+    "Archive::SimpleZip" : "lib/Archive/SimpleZip.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.3",
+  "description" : "Write Zip Files.",
+  "authors" : [
+    "Paul Marquess <pmqs@cpan.org>"
+  ]
+}
+,
+{
   "name" : "Math::Polygons",
   "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/P/PS/PSIXSTEVE/Perl6/Math-Polygons-0.0.1.tar.gz",
