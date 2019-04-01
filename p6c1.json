@@ -18841,7 +18841,12 @@
   "perl" : "6",
   "auth" : "github:tony-o",
   "depends" : [
-    "DB"
+    "DB",
+    "DB::MySQL",
+    "DB::Pg",
+    "DBIish",
+    "DB::Oracle",
+    "DB::SQLite"
   ],
   "tags" : [
     "ORM",
@@ -18864,6 +18869,7 @@
     "DB::Xoos::Pg" : "lib/DB/Xoos/Pg.pm6",
     "DB::Xoos::Model" : "lib/DB/Xoos/Model.pm6",
     "DB::Xoos::Searchable" : "lib/DB/Xoos/Searchable.pm6",
+    "DB::Xoos::Pg::Dynamic" : "lib/DB/Xoos/Pg/Dynamic.pm6",
     "DB::Xoos::MySQL" : "lib/DB/Xoos/MySQL.pm6",
     "DB::Xoos::Oracle" : "lib/DB/Xoos/Oracle.pm6",
     "DB::Xoos" : "lib/DB/Xoos.pm6"
@@ -18872,7 +18878,9 @@
   "test-depends" : [
     "DB::SQLite",
     "DB::MySQL",
-    "DBIish"
+    "DBIish",
+    "DB::Pg",
+    "DB::Oracle"
   ],
   "version" : "0.0.13",
   "authors" : [
