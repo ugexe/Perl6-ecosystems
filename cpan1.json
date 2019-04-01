@@ -32922,6 +32922,34 @@
 }
 ,
 {
+  "name" : "Algorithm::HierarchicalPAM",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-HierarchicalPAM-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "libraries/hpam"
+  ],
+  "build-depends" : [ ],
+  "auth" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Algorithm::HierarchicalPAM::Formatter" : "lib/Algorithm/HierarchicalPAM/Formatter.pm6",
+    "Algorithm::HierarchicalPAM" : "lib/Algorithm/HierarchicalPAM.pm6",
+    "Algorithm::HierarchicalPAM::Theta" : "lib/Algorithm/HierarchicalPAM/Theta.pm6",
+    "Algorithm::HierarchicalPAM::Phi" : "lib/Algorithm/HierarchicalPAM/Phi.pm6",
+    "Algorithm::HierarchicalPAM::Document" : "lib/Algorithm/HierarchicalPAM/Document.pm6",
+    "Algorithm::HierarchicalPAM::HierarchicalPAMModel" : "lib/Algorithm/HierarchicalPAM/HierarchicalPAMModel.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "A Perl 6 Hierarchical PAM (model 2) implementation.",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
   "name" : "Algorithm::LBFGS",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LBFGS-0.0.3.tar.gz",
   "perl" : "6.c",
