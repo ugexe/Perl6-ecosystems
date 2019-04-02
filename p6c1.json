@@ -950,9 +950,6 @@
   "source-url" : "git://github.com/supernovus/exemel.git",
   "perl" : "6.*",
   "author" : "Timothy Totten",
-  "depends" : [
-    "HTML::Escape"
-  ],
   "provides" : {
     "XML::Comment" : "lib/XML/Comment.pm6",
     "XML::Document" : "lib/XML/Document.pm6",
@@ -966,7 +963,7 @@
     "XML::Entity" : "lib/XML/Entity.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.2.1",
+  "version" : "0.3.0",
   "description" : "A full-featured, pure-perl XML library (parsing, manipulation, emitting, queries, etc.)"
 }
 ,
@@ -982,7 +979,7 @@
     "XML::Entity::XML" : "lib/XML/Entity/HTML.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "description" : "XML::Entity extension for HTML 5 entities."
 }
 ,
