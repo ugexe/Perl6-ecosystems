@@ -21844,6 +21844,64 @@
 }
 ,
 {
+  "name" : "Term::Choose",
+  "source-url" : "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-p6-1.5.2.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Term::termios"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "cli",
+    "terminal",
+    "text"
+  ],
+  "provides" : {
+    "Term::Choose::Screen" : "lib/Term/Choose/Screen.pm6",
+    "Term::Choose" : "lib/Term/Choose.pm6",
+    "Term::Choose::LineFold::CharWidthDefault" : "lib/Term/Choose/LineFold/CharWidthDefault.pm6",
+    "Term::Choose::ReadKey" : "lib/Term/Choose/ReadKey.pm6",
+    "Term::Choose::LineFold::CharWidthAmbiguousWide" : "lib/Term/Choose/LineFold/CharWidthAmbiguousWide.pm6",
+    "Term::Choose::LineFold" : "lib/Term/Choose/LineFold.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.5.2",
+  "description" : "Choose items from a list interactively.",
+  "authors" : [
+    "kuerbis"
+  ]
+}
+,
+{
+  "name" : "Term::Form",
+  "source-url" : "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Form-p6-1.2.0.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Term::termios",
+    "Term::Choose:ver<1.5.2+>"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Term::Form" : "lib/Term/Form.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.2.0",
+  "description" : "Read lines from STDIN.",
+  "authors" : [
+    "kuerbis"
+  ]
+}
+,
+{
   "name" : "Term::TablePrint",
   "source-url" : "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-TablePrint-p6-1.3.2.tar.gz",
   "perl" : "6.c",
