@@ -11255,16 +11255,16 @@
 ,
 {
   "name" : "Linux::Process::SignalInfo",
-  "source-url" : "https://github.com/Gnouc/p6-linux-process-signalinfo.git",
+  "source-url" : "https://github.com/cuonglm/p6-linux-process-signalinfo.git",
   "support" : {
-    "source" : "https://github.com/Gnouc/p6-linux-process-signalinfo.git"
+    "source" : "https://github.com/cuonglm/p6-linux-process-signalinfo.git"
   },
   "perl" : "6.c",
   "build-depends" : [
     "panda"
   ],
   "author" : "Cuong Manh Le <cuong.manhle@gmail.com>",
-  "auth" : "github:Gnouc",
+  "auth" : "github:cuonglm",
   "depends" : [ ],
   "provides" : {
     "Linux::Process::SignalInfo" : "lib/Linux/Process/SignalInfo.pm"
