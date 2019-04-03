@@ -18838,11 +18838,9 @@
   "perl" : "6",
   "auth" : "github:tony-o",
   "depends" : [
-    "DB",
     "DB::MySQL",
     "DB::Pg",
     "DBIish",
-    "DB::Oracle",
     "DB::SQLite"
   ],
   "tags" : [
@@ -18872,13 +18870,7 @@
     "DB::Xoos" : "lib/DB/Xoos.pm6"
   },
   "license" : "Artistic-2.0",
-  "test-depends" : [
-    "DB::SQLite",
-    "DB::MySQL",
-    "DBIish",
-    "DB::Pg",
-    "DB::Oracle"
-  ],
+  "test-depends" : [ ],
   "version" : "0.0.13",
   "authors" : [
     "Tony O'Dell"
