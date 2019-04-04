@@ -20665,4 +20665,39 @@
   ],
   "description" : "Perl 6 convergence methods to solve lineal and non lineal equations"
 }
+,
+{
+  "api" : 1,
+  "name" : "Intl::CLDR",
+  "source-url" : "git://github.com/alabamenhu/Intl-CLDR.git",
+  "perl" : "6.*",
+  "resources" : [
+    "ListFormatting.data"
+  ],
+  "build-depends" : [ ],
+  "auth" : "github:alabamenhu",
+  "depends" : [
+    "Intl::BCP47",
+    "Intl::UserLanguage"
+  ],
+  "tags" : [
+    "Formatting",
+    "Language",
+    "Lists",
+    "Localization",
+    "Locale",
+    "International",
+    "Internationalization"
+  ],
+  "provides" : {
+    "Intl::CLDR::Lists" : "lib/Intl/CLDR/Lists.pm6"
+  },
+  "test-depends" : [ ],
+  "license" : "Artistic-2.0",
+  "version" : "0.1",
+  "authors" : [
+    "Matthew \u2018Mat\u00e9u\u2019 Stephen STUCKWISCH <mateu@softastur.com>"
+  ],
+  "description" : "A module for all the international stuff you could ever need in Perl 6, via the Unicode CLDR"
+}
 ]
