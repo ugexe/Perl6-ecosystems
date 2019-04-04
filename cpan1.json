@@ -2407,6 +2407,34 @@
 }
 ,
 {
+  "name" : "NativeHelpers::Callback",
+  "support" : {
+    "source" : "https://github.com/CurtTilmes/perl6-nativehelpers-callback.git",
+    "bugtracker" : "https://github.com/CurtTilmes/perl6-nativehelpers-callback/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/NativeHelpers-Callback-0.1.tar.gz",
+  "perl" : "6.*",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "tags" : [
+    "NATIVECALL"
+  ],
+  "provides" : {
+    "NativeHelpers::Callback" : "lib/NativeHelpers/Callback.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1",
+  "description" : "Helper for looking up perl objects from C callbacks",
+  "authors" : [
+    "Curt Tilmes <ctilmes@cpan.org>"
+  ]
+}
+,
+{
   "name" : "epoll",
   "support" : {
     "source" : "https://github.com/CurtTilmes/perl6-epoll.git",
