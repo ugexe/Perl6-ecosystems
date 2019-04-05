@@ -20537,7 +20537,8 @@
   "build-depends" : [ ],
   "auth" : "github:alabamenhu",
   "depends" : [
-    "Intl::BCP47"
+    "Intl::BCP47",
+    "Intl::CLDR::Plurals"
   ],
   "tags" : [
     "Language",
@@ -20551,7 +20552,6 @@
   "provides" : {
     "Fluent::Actions" : "lib/Fluent/Actions.pm6",
     "Fluent::Grammar" : "lib/Fluent/Grammar.pm6",
-    "Fluent::Number" : "lib/Fluent/Number.pm6",
     "Fluent::Classes" : "lib/Fluent/Classes.pm6",
     "Fluent" : "lib/Fluent.pm6"
   },
@@ -20661,7 +20661,8 @@
   "source-url" : "git://github.com/alabamenhu/Intl-CLDR.git",
   "perl" : "6.*",
   "resources" : [
-    "ListFormatting.data"
+    "ListFormatting.data",
+    "PluralLogic.data"
   ],
   "build-depends" : [ ],
   "auth" : "github:alabamenhu",
@@ -20679,11 +20680,13 @@
     "Internationalization"
   ],
   "provides" : {
-    "Intl::CLDR::Lists" : "lib/Intl/CLDR/Lists.pm6"
+    "Intl::CLDR::Lists" : "lib/Intl/CLDR/Lists.pm6",
+    "Intl::CLDR::Plurals::Classes" : "lib/Intl/CLDR/Plurals/Classes.pm6",
+    "Intl::CLDR::Plurals" : "lib/Intl/CLDR/Plurals.pm6"
   },
   "test-depends" : [ ],
   "license" : "Artistic-2.0",
-  "version" : "0.1",
+  "version" : "0.2",
   "authors" : [
     "Matthew \u2018Mat\u00e9u\u2019 Stephen STUCKWISCH <mateu@softastur.com>"
   ],
