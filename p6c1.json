@@ -20704,4 +20704,24 @@
   ],
   "description" : "A module for all the international stuff you could ever need in Perl 6, via the Unicode CLDR"
 }
+,
+{
+  "name" : "Text::LDIF",
+  "source-url" : "git://github.com/slunski/perl6-text-ldif.git",
+  "perl" : "6.c",
+  "author" : "Sylwester Lunski",
+  "repo-type" : "git",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "provides" : {
+    "Text::LDIF" : "lib/Text/LDIF.pm6",
+    "Text::LDIF::Actions" : "lib/Text/LDIF/Actions.pm6",
+    "Text::LDIF::Grammar" : "lib/Text/LDIF/Grammar.pm6"
+  },
+  "license" : "http://www.perlfoundation.org/artistic_license_2_0",
+  "version" : "0.1",
+  "description" : "Pure Perl6 LDIF file parser"
+}
 ]
