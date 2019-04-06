@@ -22124,6 +22124,27 @@
 }
 ,
 {
+  "name" : "FindBin",
+  "source-url" : "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-0.2.5.tar.gz",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:lembark",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "FindBin" : "lib/FindBin.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.2.5",
+  "description" : "Locate execution directory and basename.",
+  "authors" : [
+    "lembark"
+  ]
+}
+,
+{
   "name" : "App::Prove6",
   "source-url" : "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/App-Prove6-0.0.10.tar.gz",
   "perl" : "6.*",
