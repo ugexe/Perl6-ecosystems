@@ -38236,6 +38236,27 @@ null
 }
 ,
 {
+  "name" : "Acme::Polyglot::Levenshtein::Damerau",
+  "source-url" : "http://www.cpan.org/authors/id/U/UG/UGEXE/Perl6/Acme-Polyglot-Levenshtein-Damerau-0.1.tar.gz",
+  "perl" : "6.*",
+  "auth" : "github:ugexe",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "levenshtein",
+    "damerau"
+  ],
+  "provides" : {
+    "Acme::Polyglot::Levenshtein::Damerau" : "lib/Acme/Polyglot/Levenshtein/Damerau.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1",
+  "description" : "Polyglot Perl 5/6 damerau levenshtein algorithm module"
+}
+,
+{
   "name" : "zef",
   "support" : {
     "bugtracker" : "https://github.com/ugexe/zef/issues"
