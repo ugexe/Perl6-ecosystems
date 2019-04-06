@@ -20692,13 +20692,15 @@
     "Internationalization"
   ],
   "provides" : {
+    "Intl::CLDR::NumberSystems::Roman" : "lib/Intl/CLDR/NumberSystems/Roman.pm6",
     "Intl::CLDR::Lists" : "lib/Intl/CLDR/Lists.pm6",
+    "Intl::CLDR::NumberSystems::Ge'ez" : "lib/Intl/CLDR/NumberSystems/Ge'ez.pm6",
     "Intl::CLDR::Plurals::Classes" : "lib/Intl/CLDR/Plurals/Classes.pm6",
     "Intl::CLDR::Plurals" : "lib/Intl/CLDR/Plurals.pm6"
   },
   "test-depends" : [ ],
   "license" : "Artistic-2.0",
-  "version" : "0.2",
+  "version" : "0.2.1",
   "authors" : [
     "Matthew \u2018Mat\u00e9u\u2019 Stephen STUCKWISCH <mateu@softastur.com>"
   ],
