@@ -37520,6 +37520,28 @@ null
 }
 ,
 {
+  "name" : "URL",
+  "api" : "0",
+  "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/URL-0.2.0.tar.gz",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "URL" : "lib/URL.pm6",
+    "URL::Grammar::Actions" : "lib/URL/Grammar/Actions.pm6",
+    "URL::Grammar" : "lib/URL/Grammar.pm6"
+  },
+  "license" : "AGPL-3.0",
+  "version" : "0.2.0",
+  "meta-version" : 0,
+  "description" : "A Perl 6 library to handle URLs",
+  "authors" : [
+    "Patrick Spek <p.spek@tyil.work>"
+  ]
+}
+,
+{
   "name" : "Version::Semantic",
   "api" : "*",
   "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Version-Semantic-0.1.0.tar.gz",
