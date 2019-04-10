@@ -36766,6 +36766,29 @@ null
 }
 ,
 {
+  "name" : "HTTP::API::Pingdom",
+  "api" : "0",
+  "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/HTTP-API-Pingdom-0.1.0.tar.gz",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "depends" : [
+    "Base64",
+    "LibCurl"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "HTTP::API::Pingdom" : "lib/HTTP/API/Pingdom.pm6"
+  },
+  "license" : "EUPL-1.2",
+  "version" : "0.1.0",
+  "meta-version" : 0,
+  "description" : "A Perl 6 library to interact with the Pingdom API",
+  "authors" : [
+    "Patrick Spek <p.spek@tyil.work>"
+  ]
+}
+,
+{
   "name" : "Hash::Merge",
   "source-url" : "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Hash-Merge-0.1.1.tar.gz",
   "perl" : "6",
