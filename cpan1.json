@@ -496,6 +496,36 @@
 }
 ,
 {
+  "name" : "LogP6-Writer-Journald",
+  "source-url" : "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/LogP6-Writer-Journald-1.3.1.tar.gz",
+  "perl" : "6.d",
+  "auth" : "github:atroxaper",
+  "depends" : [
+    "LogP6"
+  ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "LOG",
+    "LOGGING",
+    "LOGGER",
+    "SYSTEMD",
+    "JOURNALD"
+  ],
+  "provides" : {
+    "LogP6::WriterConf::Journald" : "lib/LogP6/WriterConf/Journald.pm6",
+    "LogP6::Writer::Journald" : "lib/LogP6/Writer/Journald.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.3.1",
+  "description" : "LogP6 writer for systemd's journald service.",
+  "authors" : [
+    "Mikhail Khorkov"
+  ]
+}
+,
+{
   "name" : "Propius",
   "source-url" : "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/Propius-0.1.0.tar.gz",
   "perl" : "6.*",
