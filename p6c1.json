@@ -20023,10 +20023,11 @@
     "ASN::BER"
   ],
   "provides" : {
+    "ASN::META::Types" : "lib/ASN/META/Types.pm6",
     "ASN::META" : "lib/ASN/META.pm6"
   },
   "license" : "Artistic-2.0",
-  "version" : "0.2",
+  "version" : "0.3",
   "authors" : [
     "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>"
   ],
@@ -20725,5 +20726,35 @@
   "license" : "http://www.perlfoundation.org/artistic_license_2_0",
   "version" : "0.1",
   "description" : "Pure Perl6 LDIF file parser"
+}
+,
+{
+  "name" : "vCard::Parser",
+  "source-url" : "https://github.com/petrkol72/vCard-Parser.git",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [
+    "Test::META",
+    "JSON::Tiny"
+  ],
+  "tags" : [
+    "Grammar",
+    "Parse",
+    "Parsing",
+    "Parser"
+  ],
+  "provides" : {
+    "vCard::Parser::Actions" : "lib/vCard/Parser/Actions.pm6",
+    "vCard::Parser::Grammar" : "lib/vCard/Parser/Grammar.pm6",
+    "vCard::Parser" : "lib/vCard/Parser.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "a basic parser of vCard",
+  "authors" : [
+    "Petr Kol\u00e1\u0159"
+  ]
 }
 ]
