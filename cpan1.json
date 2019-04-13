@@ -15315,6 +15315,29 @@
 }
 ,
 {
+  "name" : "Pod::Load",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Pod-Load-0.5.2.tgz",
+  "perl" : "6.c",
+  "resources" : [
+    "examples/pod-load-clean.pod6",
+    "examples/README.md"
+  ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Pod::Load" : "lib/Pod/Load.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.5.2",
+  "description" : "Loads and compiles the Pod documentation of an external file",
+  "authors" : [
+    "JJ Merelo"
+  ]
+}
+,
+{
   "name" : "Wikidata::API",
   "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Wikidata-API-0.0.3.tar.gz",
   "perl" : "6.*",
@@ -15348,6 +15371,29 @@
 {
   "name" : "Pod::Load",
   "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/pod-load-0.5.1.tgz",
+  "perl" : "6.c",
+  "resources" : [
+    "examples/pod-load-clean.pod6",
+    "examples/README.md"
+  ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Pod::Load" : "lib/Pod/Load.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.5.1",
+  "description" : "Loads and compiles the Pod documentation of an external file",
+  "authors" : [
+    "JJ Merelo"
+  ]
+}
+,
+{
+  "name" : "Pod::Load",
+  "source-url" : "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/pod-load-0.5.2.tgz",
   "perl" : "6.c",
   "resources" : [
     "examples/pod-load-clean.pod6",
@@ -39727,6 +39773,44 @@ null
   },
   "license" : "Artistic-2.0",
   "version" : "0.6.1",
+  "production" : true,
+  "meta-version" : "0",
+  "description" : "Extending attribute functionality with ideas from Moo/Moose",
+  "authors" : [
+    "Vadim Belman <vrurg@cpan.org>"
+  ]
+}
+,
+{
+  "name" : "AttrX::Mooish",
+  "support" : {
+    "source" : "git://github.com/vrurg/Perl6-AttrX-Mooish.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/AttrX-Mooish-v0.6.2.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:vrurg",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "AttrX",
+    "Moo",
+    "Moose",
+    "Mooish",
+    "attribute",
+    "mooish",
+    "trait"
+  ],
+  "provides" : {
+    "AttrX::Mooish" : "lib/AttrX/Mooish.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.6.2",
   "production" : true,
   "meta-version" : "0",
   "description" : "Extending attribute functionality with ideas from Moo/Moose",
