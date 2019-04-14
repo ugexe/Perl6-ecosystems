@@ -34936,6 +34936,27 @@
 }
 ,
 {
+  "name" : "Random::Choice",
+  "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Random-Choice-0.0.6.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "cpan:TITSUKI",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [ ],
+  "provides" : {
+    "Random::Choice" : "lib/Random/Choice.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.6",
+  "description" : "A Perl 6 alias method implementation",
+  "authors" : [
+    "titsuki"
+  ]
+}
+,
+{
   "name" : "Terminal::Getpass",
   "source-url" : "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Terminal-Getpass-0.0.1.tar.gz",
   "perl" : "6.c",
