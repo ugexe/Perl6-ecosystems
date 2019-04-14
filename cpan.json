@@ -23302,6 +23302,32 @@
 }
 ,
 {
+  "name" : "Pygments",
+  "source-url" : "http://www.cpan.org/authors/id/M/MA/MATIASL/Perl6/Pygments-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "resources" : [
+    "perl.py"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "Inline::Python"
+  ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "tags" : [ ],
+  "provides" : {
+    "Pygments" : "lib/Pygments.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Wrapper to python pygments library.",
+  "authors" : [
+    "Matias Linares"
+  ]
+}
+,
+{
   "name" : "DB::Migration::Simple",
   "support" : {
     "source" : "https://github.com/maettu/db-migration-simple.git"
