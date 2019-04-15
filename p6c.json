@@ -20938,4 +20938,24 @@
     "Petr Kol\u00e1\u0159"
   ]
 }
+,
+{
+  "name" : "Command::Despatch",
+  "perl" : "6.d",
+  "source-url" : "git://github.com/shuppet/p6-command-despatch.git",
+  "auth" : "github:shuppet",
+  "repo-type" : "git",
+  "provides" : {
+    "X::Command::Despatch::InvalidCommand" : "lib/Command/Despatch/Command.pm6",
+    "Command::Despatch" : "lib/Command/Despatch.pm6",
+    "Command::Despatch::Command" : "lib/Command/Despatch/Command.pm6"
+  },
+  "license" : "BSD-3-Clause",
+  "version" : "0.0.1",
+  "authors" : [
+    "Alastair 'altreus' Douglas <altreus@altre.us>",
+    "Kane 'kawaii' Valentine <kane@cute.im>"
+  ],
+  "description" : "Perl 6 module for parsing generic commands and arguments from a hash table."
+}
 ]
