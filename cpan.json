@@ -40472,6 +40472,55 @@ null
 }
 ,
 {
+  "name" : "OO::Plugin",
+  "support" : {
+    "source" : "https://github.com/vrurg/Perl6-OO-Plugin.git"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/OO-Plugin-v0.0.7.tar.gz",
+  "perl" : "6.d",
+  "resources" : [ ],
+  "build-depends" : [
+    "META6",
+    "p6doc",
+    "Pod::To::Markdown"
+  ],
+  "auth" : "github:vrurg",
+  "depends" : [
+    "WhereList",
+    "File::Find",
+    "WhereList"
+  ],
+  "test-depends" : [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "tags" : [
+    "OO",
+    "Plugin",
+    "Plugins"
+  ],
+  "provides" : {
+    "OO::Plugin::Metamodel::PlugRoleHOW" : "lib/OO/Plugin/Metamodel/PlugRoleHOW.pm6",
+    "OO::Plugin::Exception" : "lib/OO/Plugin/Exception.pm6",
+    "OO::Plugin::Class" : "lib/OO/Plugin/Class.pm6",
+    "OO::Plugin" : "lib/OO/Plugin.pm6",
+    "OO::Plugin::Manager" : "lib/OO/Plugin/Manager.pm6",
+    "OO::Plugin::Metamodel::PluginHOW" : "lib/OO/Plugin/Metamodel/PluginHOW.pm6",
+    "OO::Plugin::Registry" : "lib/OO/Plugin/Registry.pm6",
+    "OO::Plugin::Declarations" : "lib/OO/Plugin/Declarations.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.7",
+  "production" : true,
+  "meta-version" : "0",
+  "description" : "Framework for working with OO application plugins",
+  "authors" : [
+    "Vadim Belman <vrurg@cpan.org>"
+  ]
+}
+,
+{
   "name" : "Font::AFM",
   "source-url" : "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-AFM-1.24.2.tar.gz",
   "perl" : "6",
