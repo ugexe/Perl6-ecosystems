@@ -3137,6 +3137,21 @@
 }
 ,
 {
+  "name" : "Compress::Zlib",
+  "source-url" : "git://github.com/retupmoca/P6-Compress-Zlib.git",
+  "perl" : "6.*",
+  "author" : "github:retupmoca",
+  "depends" : [
+    "Compress::Zlib::Raw"
+  ],
+  "provides" : {
+    "Compress::Zlib" : "lib/Compress/Zlib.pm6"
+  },
+  "version" : "1.1.0",
+  "description" : "Nicer zlib interface"
+}
+,
+{
   "name" : "Auth::PAM::Simple",
   "source-url" : "git://github.com/retupmoca/P6-Auth-PAM-Simple.git",
   "perl" : "6.*",
