@@ -19416,6 +19416,44 @@
 }
 ,
 {
+  "name" : "JSON::Class",
+  "api" : "1.0",
+  "support" : {
+    "source" : "https://github.com/jonathanstowe/JSON-Class.git",
+    "bugtracker" : "https://github.com/jonathanstowe/JSON-Class/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Class-0.0.13.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Marshal",
+    "JSON::Unmarshal"
+  ],
+  "test-depends" : [
+    "JSON::Fast",
+    "Test"
+  ],
+  "tags" : [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "provides" : {
+    "JSON::Class" : "lib/JSON/Class.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.13",
+  "meta-version" : "0",
+  "description" : "role to provide simple serialisation/deserialisation of objects to/from JSON",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
   "name" : "JSON::Infer",
   "api" : "1.0",
   "support" : {
@@ -19570,6 +19608,45 @@
   },
   "license" : "Artistic-2.0",
   "version" : "0.0.17",
+  "meta-version" : "0",
+  "description" : "Simple serialisation of objects to JSON",
+  "authors" : [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ]
+}
+,
+{
+  "name" : "JSON::Marshal",
+  "api" : "1.0",
+  "support" : {
+    "email" : "jns+git@gellyfish.co.uk",
+    "source" : "git://github.com/jonathanstowe/JSON-Marshal.git",
+    "bugtracker" : "https://github.com/jonathanstowe/JSON-Marshal/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Marshal-0.0.18.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "auth" : "github:jonathanstowe",
+  "depends" : [
+    "JSON::Fast",
+    "JSON::Name"
+  ],
+  "test-depends" : [
+    "Test",
+    "JSON::Fast"
+  ],
+  "tags" : [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "provides" : {
+    "JSON::Marshal" : "lib/JSON/Marshal.pm"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.18",
   "meta-version" : "0",
   "description" : "Simple serialisation of objects to JSON",
   "authors" : [
