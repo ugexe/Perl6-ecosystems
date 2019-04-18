@@ -6703,6 +6703,7 @@
     "source" : "git://github.com/masak/007.git"
   },
   "perl" : "6.c",
+  "auth" : "github:masak",
   "depends" : [ ],
   "provides" : {
     "_007::Runtime" : "lib/_007/Runtime.pm6",
@@ -6722,10 +6723,7 @@
   },
   "license" : "Artistic-2.0",
   "version" : "*",
-  "description" : "Small experimental language with a license to macro",
-  "authors" : [
-    "github:masak"
-  ]
+  "description" : "Small experimental language with a license to macro"
 }
 ,
 {
@@ -20626,12 +20624,13 @@
   "provides" : {
     "Fluent::Actions" : "lib/Fluent/Actions.pm6",
     "Fluent::Grammar" : "lib/Fluent/Grammar.pm6",
+    "Fluent::Functions" : "lib/Fluent/Functions.pm6",
     "Fluent::Classes" : "lib/Fluent/Classes.pm6",
     "Fluent" : "lib/Fluent.pm6"
   },
   "test-depends" : [ ],
   "license" : "Artistic-2.0",
-  "version" : "0.7",
+  "version" : "0.8",
   "authors" : [
     "Matthew \u2018Mat\u00e9u\u2019 Stephen STUCKWISCH <mateu@softastur.com>"
   ],
