@@ -15962,6 +15962,24 @@
 }
 ,
 {
+  "name" : "JSON::Path",
+  "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/JSON-Path-1.7.tar.gz",
+  "perl" : "6.*",
+  "build-depends" : [ ],
+  "auth" : "Jonathan Worthington <jonathan@edument.se>",
+  "depends" : [
+    "JSON::Fast"
+  ],
+  "test-depends" : [ ],
+  "provides" : {
+    "JSON::Path" : "lib/JSON/Path.pm6"
+  },
+  "license" : "MIT",
+  "version" : "1.7",
+  "description" : "Implementation of the JSONPath data structure query language."
+}
+,
+{
   "name" : "JSON::Pointer",
   "source-url" : "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/JSON-Pointer-1.0.tar.gz",
   "perl" : "6.c",
