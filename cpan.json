@@ -23258,6 +23258,38 @@
 }
 ,
 {
+  "name" : "GTK::Glade",
+  "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-glade-0.8.3.tar.gz",
+  "perl" : "6",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "depends" : [
+    "XML::Actions",
+    "GTK::V3"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "XML",
+    "Glade",
+    "Gtk"
+  ],
+  "provides" : {
+    "GTK::Glade::Engine::Work" : "lib/GTK/Glade/Engine/Work.pm6",
+    "GTK::Glade::Engine::Test" : "lib/GTK/Glade/Engine/Test.pm6",
+    "GTK::Glade::X" : "lib/GTK/Glade/X.pm6",
+    "GTK::Glade::Engine::PreProcess" : "lib/GTK/Glade/Engine/PreProcess.pm6",
+    "GTK::Glade" : "lib/GTK/Glade.pm6",
+    "GTK::Glade::Engine" : "lib/GTK/Glade/Engine.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.8.3",
+  "description" : "Interfacing Glade XML to Perl6",
+  "authors" : [
+    "Marcel Timmerman"
+  ]
+}
+,
+{
   "name" : "GTK::V3",
   "source-url" : "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-v3-0.10.0.tar.gz",
   "perl" : "6",
