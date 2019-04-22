@@ -8889,25 +8889,6 @@
 }
 ,
 {
-  "name" : "Text::LTSV",
-  "perl" : "v6",
-  "source-url" : "git://github.com/moznion/p6-Text-LTSV.git",
-  "build-depends" : [ ],
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "provides" : {
-    "Text::LTSV::Parser" : "lib/Text/LTSV/Parser.pm6",
-    "Text::LTSV" : "lib/Text/LTSV.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "*",
-  "authors" : [
-    "moznion"
-  ],
-  "description" : "LTSV (Labeled Tab Separated Value) toolkit"
-}
-,
-{
   "name" : "Test::Base",
   "perl" : "v6",
   "source-url" : "git://github.com/tokuhirom/p6-Test-Base.git",
