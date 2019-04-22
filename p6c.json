@@ -2133,7 +2133,7 @@
   "provides" : {
     "Rat::Precise" : "lib/Rat/Precise.pm6"
   },
-  "version" : "0.1.0",
+  "version" : "0.1.1",
   "authors" : [
     "Steve Schulze (thundergnat)"
   ],
@@ -8886,6 +8886,25 @@
     "Shoichi Kaji"
   ],
   "description" : "minimal sinatra"
+}
+,
+{
+  "name" : "Text::LTSV",
+  "perl" : "v6",
+  "source-url" : "git://github.com/moznion/p6-Text-LTSV.git",
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "provides" : {
+    "Text::LTSV::Parser" : "lib/Text/LTSV/Parser.pm6",
+    "Text::LTSV" : "lib/Text/LTSV.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "*",
+  "authors" : [
+    "moznion"
+  ],
+  "description" : "LTSV (Labeled Tab Separated Value) toolkit"
 }
 ,
 {
