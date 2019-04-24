@@ -14597,38 +14597,6 @@
 }
 ,
 {
-  "name" : "Unicode::Security",
-  "source-url" : "https://github.com/JJ/perl6-unicode-security.git",
-  "perl" : "6.d",
-  "resources" : [
-    "data/confusables.json",
-    "data/confusables-ws.json",
-    "data/iso15924-utf8-20180827.txt",
-    "scripts/generate-map-confusables.p6",
-    "scripts/generate-map-ws.p6",
-    "scripts/README.md"
-  ],
-  "build-depends" : [ ],
-  "depends" : [
-    "JSON::Fast"
-  ],
-  "test-depends" : [ ],
-  "tags" : [
-    "unicode",
-    "security"
-  ],
-  "provides" : {
-    "Unicode::Security" : "lib/Unicode/Security.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.1",
-  "description" : "Check scripts for confusables and mixed script",
-  "authors" : [
-    "JJ Merelo"
-  ]
-}
-,
-{
   "name" : "Sparrowdo::Ruby::Bundler",
   "source-url" : "https://github.com/melezhik/sparrowdo-ruby-bundler.git",
   "support" : {
@@ -21060,5 +21028,37 @@
     "Kane 'kawaii' Valentine <kane@cute.im>"
   ],
   "description" : "Perl 6 module for parsing generic commands and arguments from a hash table."
+}
+,
+{
+  "name" : "Unicode::Security",
+  "source-url" : "https://github.com/JJ/perl6-unicode-security.git",
+  "perl" : "6.d",
+  "resources" : [
+    "data/confusables.json",
+    "data/confusables-ws.json",
+    "data/iso15924-utf8-20180827.txt",
+    "scripts/generate-map-confusables.p6",
+    "scripts/generate-map-ws.p6",
+    "scripts/README.md"
+  ],
+  "build-depends" : [ ],
+  "depends" : [
+    "JSON::Fast"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "unicode",
+    "security"
+  ],
+  "provides" : {
+    "Unicode::Security" : "lib/Unicode/Security.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Check scripts for confusables and mixed script",
+  "authors" : [
+    "JJ Merelo"
+  ]
 }
 ]
