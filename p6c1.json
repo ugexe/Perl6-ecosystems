@@ -6352,30 +6352,6 @@
 }
 ,
 {
-  "name" : "Pluggable",
-  "source-url" : "https://github.com/tony-o/perl6-pluggable.git",
-  "perl" : "6.c",
-  "auth" : "github:tony-o",
-  "depends" : [
-    "Test::META"
-  ],
-  "license" : "Artistic-2.0",
-  "provides" : {
-    "Pluggable" : "lib/Pluggable.pm6"
-  },
-  "test-depends" : [
-    "SVG::Plot::Pie",
-    "File::Find"
-  ],
-  "version" : "0.3",
-  "authors" : [
-    "Robert Lemmen",
-    "Tony ODell"
-  ],
-  "description" : "Find plugin classes or modules"
-}
-,
-{
   "name" : "DB::ORM::Quicky",
   "source-url" : "git://github.com/tony-o/perl6-db-orm-quicky.git",
   "perl" : "6.*",
@@ -13934,33 +13910,6 @@
   "authors" : [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
   ]
-}
-,
-{
-  "name" : "ProblemSolver",
-  "source-url" : "git://github.com/FCO/ProblemSolver.git",
-  "perl" : "6.*",
-  "resources" : [ ],
-  "depends" : [ ],
-  "test-depends" : [
-    "Test",
-    "Test::META"
-  ],
-  "provides" : {
-    "ProblemSolver" : "lib/ProblemSolver.pm6",
-    "ProblemSolver::State" : "lib/ProblemSolver/State.pm6",
-    "ProblemSolver::Domain" : "lib/ProblemSolver/Domain.pm6"
-  },
-  "tags" : [
-    "solver",
-    "constraint",
-    "problem"
-  ],
-  "version" : "0.0.1",
-  "authors" : [
-    "Fernando Correa de Oliveira"
-  ],
-  "description" : "Simple Constraint Programming Problem Solver"
 }
 ,
 {
