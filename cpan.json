@@ -711,6 +711,28 @@
 }
 ,
 {
+  "name" : "Scheduler::DelayBetween",
+  "source-url" : "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/Scheduler-DelayBetween-1.3.1.tar.gz",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:atroxaper",
+  "depends" : [ ],
+  "test-depends" : [
+    "Test"
+  ],
+  "tags" : [
+    "SCHEDULER"
+  ],
+  "provides" : {
+    "Scheduler::DelayBetween" : "lib/Scheduler/DelayBetween.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "1.3.1",
+  "description" : "Standard Scheduler cue() sub with possibility to set a delay between each code execution"
+}
+,
+{
   "name" : "TimeUnit",
   "source-url" : "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/TimeUnit-0.1.2.tar.gz",
   "perl" : "6.*",
