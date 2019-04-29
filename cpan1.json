@@ -4187,79 +4187,6 @@
 }
 ,
 {
-  "name" : "Acme::Cow6",
-  "api" : "perl6",
-  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Cow6-0.0.2.tar.gz",
-  "perl" : "6.d",
-  "resources" : [
-    "cows/bong.cow",
-    "cows/bunny.cow",
-    "cows/cheese.cow",
-    "cows/cower.cow",
-    "cows/daemon.cow",
-    "cows/default.cow",
-    "cows/dragon.cow",
-    "cows/elephant-in-snake.cow",
-    "cows/elephant.cow",
-    "cows/eyes.cow",
-    "cows/flaming-sheep.cow",
-    "cows/ghostbusters.cow",
-    "cows/head-in.cow",
-    "cows/hellokitty.cow",
-    "cows/jkh.cow",
-    "cows/kiss.cow",
-    "cows/kitty.cow",
-    "cows/koala.cow",
-    "cows/kosh.cow",
-    "cows/luke-koala.cow",
-    "cows/meow.cow",
-    "cows/milk.cow",
-    "cows/moofasa.cow",
-    "cows/moose.cow",
-    "cows/mutilated.cow",
-    "cows/ren.cow",
-    "cows/satanic.cow",
-    "cows/sheep.cow",
-    "cows/skeleton.cow",
-    "cows/small.cow",
-    "cows/sodomized.cow",
-    "cows/stimpy.cow",
-    "cows/supermilker.cow",
-    "cows/surgery.cow",
-    "cows/telebears.cow",
-    "cows/three-eyes.cow",
-    "cows/turkey.cow",
-    "cows/turtle.cow",
-    "cows/tux.cow",
-    "cows/udder.cow",
-    "cows/vader-koala.cow",
-    "cows/vader.cow",
-    "cows/www.cow",
-    "cows/zen-beavis.cow"
-  ],
-  "build-depends" : [ ],
-  "auth" : "cpan:ELIZABETH",
-  "depends" : [ ],
-  "test-depends" : [ ],
-  "tags" : [ ],
-  "provides" : {
-    "Acme::Cow" : "lib/Acme/Cow.pm6",
-    "Acme::Cow::Frogs" : "lib/Acme/Cow/Frogs.pm6",
-    "Acme::Cow::MechAndCow" : "lib/Acme/Cow/MechAndCow.pm6",
-    "Acme::Cow::Stegosaurus" : "lib/Acme/Cow/Stegosaurus.pm6",
-    "Acme::Cow::Example" : "lib/Acme/Cow/Example.pm6",
-    "Acme::Cow::TuxStab" : "lib/Acme/Cow/TuxStab.pm6",
-    "Acme::Cow::DragonAndCow" : "lib/Acme/Cow/DragonAndCow.pm6"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.2",
-  "description" : "Talking barnyard animals (or ASCII art in general)",
-  "authors" : [
-    "Elizabeth Mattijsen"
-  ]
-}
-,
-{
   "name" : "DirHandle",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/DirHandle-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -12605,6 +12532,46 @@
   },
   "license" : "General Public License 3, Artistic-2.0",
   "version" : "0.1.12",
+  "description" : "Markov Strategy kit for games",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Game::Markov",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-Markov-0.1.13.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [
+    "Mathx::Stat"
+  ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Game",
+    "Markov"
+  ],
+  "provides" : {
+    "Game::Markov::TruncatedGaussian" : "lib/Game/Markov/TruncatedGaussian.pm6",
+    "Game::Markov::TransitionProbabilities" : "lib/Game/Markov/TransitionProbabilities.pm6",
+    "Game::Markov::Tick" : "lib/Game/Markov/Tick.pm6",
+    "Game::Markov::SamplePopulation" : "lib/Game/Markov/SamplePopulation.pm6",
+    "Game::Markov::HMMMarkovChain" : "lib/Game/Markov/HMMMarkovChain.pm6",
+    "Game::Markov::AbstractMarkovChain" : "lib/Game/Markov/AbstractMarkovChain.pm6",
+    "Game::Markov::MarkovChain" : "lib/Game/Markov/MarkovChain.pm6",
+    "Game::Markov::Time" : "lib/Game/Markov/Time.pm6",
+    "Game::Markov::TransitionProbabilityVector" : "lib/Game/Markov/TransitionProbabilityVector.pm6",
+    "Game::Markov::TransitionProbabilityMatrix" : "lib/Game/Markov/TransitionProbabilityMatrix.pm6",
+    "Game::Markov::TimeChain" : "lib/Game/Markov/TimeChain.pm6",
+    "Game::Markov::MarkovTime" : "lib/Game/Markov/MarkovTime.pm6",
+    "Game::Markov::MarkovTick" : "lib/Game/Markov/MarkovTick.pm6",
+    "Game::Markov::TransitionStates" : "lib/Game/Markov/TransitionStates.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.13",
   "description" : "Markov Strategy kit for games",
   "authors" : [
     "The Holy Ghost"
