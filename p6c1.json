@@ -21062,4 +21062,38 @@
     "JJ Merelo"
   ]
 }
+,
+{
+  "name" : "JSON::Path",
+  "support" : {
+    "source" : "https://github.com/tony-o/perl6-json-path.git",
+    "bugtracker" : "https://github.com/tony-o/perl6-json-path/issues"
+  },
+  "perl" : "6.*",
+  "source-url" : "git://github.com/tonyo/p6-json-path.git",
+  "build-depends" : [ ],
+  "auth" : "tonyo",
+  "depends" : [ ],
+  "provides" : {
+    "JSON::Path::Grammar" : "lib/JSON/Path/Grammar.pm6",
+    "JSON::Path" : "lib/JSON/Path.pm6"
+  },
+  "tags" : [
+    "json",
+    "path",
+    "json::path",
+    "xpath",
+    "jpath"
+  ],
+  "license" : "Artistic-2.0",
+  "test-depends" : [
+    "JSON::Fast"
+  ],
+  "meta-version" : "0",
+  "version" : "0.1",
+  "authors" : [
+    "Tony O'Dell"
+  ],
+  "description" : "Implementation of the jsonpath for perl6"
+}
 ]
