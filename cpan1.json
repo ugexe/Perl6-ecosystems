@@ -42596,4 +42596,72 @@ null
     "Tony O'Dell"
   ]
 }
+,
+{
+  "name" : "JSON::Path",
+  "support" : {
+    "source" : "https://github.com/tony-o/perl6-json-path.git",
+    "bugtracker" : "https://github.com/tony-o/perl6-json-path/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/Y/YN/YNOTO/Perl6/json-path-0.1.tar.gz",
+  "perl" : "6.*",
+  "build-depends" : [ ],
+  "auth" : "tonyo",
+  "depends" : [ ],
+  "test-depends" : [
+    "JSON::Fast"
+  ],
+  "tags" : [
+    "json",
+    "path",
+    "json::path",
+    "xpath",
+    "jpath"
+  ],
+  "provides" : {
+    "JSON::Path::Grammar" : "lib/JSON/Path/Grammar.pm6",
+    "JSON::Path" : "lib/JSON/Path.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1",
+  "meta-version" : "0",
+  "description" : "Implementation of the jsonpath for perl6",
+  "authors" : [
+    "Tony O'Dell"
+  ]
+}
+,
+{
+  "name" : "JSON::Path",
+  "support" : {
+    "source" : "https://github.com/tony-o/perl6-json-path.git",
+    "bugtracker" : "https://github.com/tony-o/perl6-json-path/issues"
+  },
+  "source-url" : "http://www.cpan.org/authors/id/Y/YN/YNOTO/Perl6/perl6-json-path-0.1.tar.gz",
+  "perl" : "6.*",
+  "build-depends" : [ ],
+  "auth" : "tonyo",
+  "depends" : [ ],
+  "test-depends" : [
+    "JSON::Fast"
+  ],
+  "tags" : [
+    "json",
+    "path",
+    "json::path",
+    "xpath",
+    "jpath"
+  ],
+  "provides" : {
+    "JSON::Path::Grammar" : "lib/JSON/Path/Grammar.pm6",
+    "JSON::Path" : "lib/JSON/Path.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.1",
+  "meta-version" : "0",
+  "description" : "Implementation of the jsonpath for perl6",
+  "authors" : [
+    "Tony O'Dell"
+  ]
+}
 ]
