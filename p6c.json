@@ -15663,9 +15663,9 @@
 {
   "name" : "WWW",
   "support" : {
-    "source" : "https://github.com/zoffixznet/perl6-WWW.git"
+    "source" : "https://github.com/perl6-community-modules/perl6-WWW.git"
   },
-  "perl" : "6.c",
+  "perl" : "6.*",
   "depends" : [
     "HTTP::UserAgent",
     "JSON::Fast",
@@ -15683,7 +15683,7 @@
     "HTTP"
   ],
   "license" : "Artistic-2.0",
-  "version" : "1.005003",
+  "version" : "1.005004",
   "authors" : [
     "Zoffix Znet"
   ],
