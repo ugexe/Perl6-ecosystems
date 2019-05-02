@@ -12349,6 +12349,62 @@
 }
 ,
 {
+  "name" : "Game::AI::Messaging",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-AI-Messaging-0.1.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Game",
+    "AI",
+    "Messaging"
+  ],
+  "provides" : {
+    "Game::AI::Messaging::Message" : "lib/Game/AI/Messaging/Message.pm6",
+    "Game::AI::Messaging::AIMessage" : "lib/Game/AI/Messaging/AIMessage.pm6",
+    "Game::AI::Messaging::AI" : "lib/Game/AI/Messaging/AI.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.7",
+  "description" : "AI messaging system",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Game::AI::Messaging",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-AI-Messaging-0.1.8.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Game",
+    "AI",
+    "Messaging"
+  ],
+  "provides" : {
+    "Game::AI::Messaging::Message" : "lib/Game/AI/Messaging/Message.pm6",
+    "Game::AI::Messaging::AIMessage" : "lib/Game/AI/Messaging/AIMessage.pm6",
+    "Game::AI::Messaging::AI" : "lib/Game/AI/Messaging/AI.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.8",
+  "description" : "AI messaging system",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
   "name" : "Game::Markov",
   "api" : "1",
   "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-Markov-0.1.10.tar.gz",
@@ -12841,6 +12897,86 @@
   },
   "license" : "General Public License 3, Artistic-2.0",
   "version" : "0.1.6",
+  "description" : "Adaptive Quest For Glory game system (from Sierra-On-Line.)",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Game::QFG",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-QFG-0.1.7.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Game",
+    "QFG"
+  ],
+  "provides" : {
+    "Game::QFG::Hero" : "lib/Game/QFG/Hero.pm6",
+    "Game::QFG::Healershouse" : "lib/Game/QFG/Healershouse.pm6",
+    "Game::QFG::Erasmus" : "lib/Game/QFG/Erasmus.pm6",
+    "Game::QFG::AIMessage" : "lib/Game/QFG/AIMessage.pm6",
+    "Game::QFG::Keeponlaffinsstore" : "lib/Game/QFG/Keeponlaffinsstore.pm6",
+    "Game::QFG::Erasmuspalace" : "lib/Game/QFG/Erasmuspalace.pm6",
+    "Game::QFG::AI" : "lib/Game/QFG/AI.pm6",
+    "Game::QFG::Room" : "lib/Game/QFG/Room.pm6",
+    "Game::QFG::Message" : "lib/Game/QFG/Message.pm6",
+    "Game::QFG::Healer" : "lib/Game/QFG/Healer.pm6",
+    "Game::QFG::Keeponlaffin" : "lib/Game/QFG/Keeponlaffin.pm6",
+    "Game::QFG::Baron" : "lib/Game/QFG/Baron.pm6",
+    "Game::QFG::QFGView" : "lib/Game/QFG/QFGView.pm6",
+    "Game::QFG::QFGMain" : "lib/Game/QFG/QFGMain.pm6",
+    "Game::QFG::Entity" : "lib/Game/QFG/Entity.pm6",
+    "Game::QFG::Baronscastle" : "lib/Game/QFG/Baronscastle.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.7",
+  "description" : "Adaptive Quest For Glory game system (from Sierra-On-Line.)",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Game::QFG",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-QFG-0.1.8.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Game",
+    "QFG"
+  ],
+  "provides" : {
+    "Game::QFG::Hero" : "lib/Game/QFG/Hero.pm6",
+    "Game::QFG::Healershouse" : "lib/Game/QFG/Healershouse.pm6",
+    "Game::QFG::Erasmus" : "lib/Game/QFG/Erasmus.pm6",
+    "Game::QFG::AIMessage" : "lib/Game/QFG/AIMessage.pm6",
+    "Game::QFG::Keeponlaffinsstore" : "lib/Game/QFG/Keeponlaffinsstore.pm6",
+    "Game::QFG::Erasmuspalace" : "lib/Game/QFG/Erasmuspalace.pm6",
+    "Game::QFG::AI" : "lib/Game/QFG/AI.pm6",
+    "Game::QFG::Room" : "lib/Game/QFG/Room.pm6",
+    "Game::QFG::Message" : "lib/Game/QFG/Message.pm6",
+    "Game::QFG::Healer" : "lib/Game/QFG/Healer.pm6",
+    "Game::QFG::Keeponlaffin" : "lib/Game/QFG/Keeponlaffin.pm6",
+    "Game::QFG::Baron" : "lib/Game/QFG/Baron.pm6",
+    "Game::QFG::QFGView" : "lib/Game/QFG/QFGView.pm6",
+    "Game::QFG::QFGMain" : "lib/Game/QFG/QFGMain.pm6",
+    "Game::QFG::Entity" : "lib/Game/QFG/Entity.pm6",
+    "Game::QFG::Baronscastle" : "lib/Game/QFG/Baronscastle.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.7",
   "description" : "Adaptive Quest For Glory game system (from Sierra-On-Line.)",
   "authors" : [
     "The Holy Ghost"
