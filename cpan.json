@@ -3210,6 +3210,24 @@
 }
 ,
 {
+  "name" : "File::Stat",
+  "source-url" : "http://www.cpan.org/authors/id/E/EL/ELCARO/Perl6/File-Stat-0.0.1.tar.gz",
+  "perl" : "6.c",
+  "depends" : [
+    "Exportable"
+  ],
+  "provides" : {
+    "File::Stat" : "lib/File/Stat.pm6"
+  },
+  "license" : "Artistic-2.0",
+  "version" : "0.0.1",
+  "description" : "Get file status",
+  "authors" : [
+    "Joshua Yeshouroun"
+  ]
+}
+,
+{
   "name" : "AccountableBagHash",
   "source-url" : "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/AccountableBagHash-0.0.1.tar.gz",
   "perl" : "6.c",
@@ -12269,6 +12287,34 @@
   "license" : "General Public License 3, Artistic-2.0",
   "version" : "0.2.3",
   "description" : "Bayesian Inference based upon ditributions. Minimax",
+  "authors" : [
+    "The Holy Ghost"
+  ]
+}
+,
+{
+  "name" : "Game::AI::Messaging",
+  "api" : "1",
+  "source-url" : "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-AI-Messaging-0.1.5.tar.gz",
+  "perl" : "6.c",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "CPAN:HOLYGHOST",
+  "depends" : [ ],
+  "test-depends" : [ ],
+  "tags" : [
+    "Game",
+    "AI",
+    "Messaging"
+  ],
+  "provides" : {
+    "Game::AI::Messaging::Message" : "lib/Game/AI/Messaging/Message.pm6",
+    "Game::AI::Messaging::AIMessage" : "lib/Game/AI/Messaging/AIMessage.pm6",
+    "Game::AI::Messaging::AI" : "lib/Game/AI/Messaging/AI.pm6"
+  },
+  "license" : "General Public License 3, Artistic-2.0",
+  "version" : "0.1.5",
+  "description" : "AI messaging system",
   "authors" : [
     "The Holy Ghost"
   ]
