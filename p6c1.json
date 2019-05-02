@@ -21094,4 +21094,22 @@
   ],
   "description" : "Implementation of the jsonpath for perl6"
 }
+,
+{
+  "name" : "File::Stat",
+  "source-url" : "git://github.com/0racle/p6-File-Stat.git",
+  "perl" : "6.c",
+  "depends" : [
+    "Exportable"
+  ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "File::Stat" : "lib/File/Stat.pm6"
+  },
+  "version" : "0.0.1",
+  "authors" : [
+    "Joshua Yeshouroun"
+  ],
+  "description" : "Get file status"
+}
 ]
