@@ -20723,6 +20723,8 @@
   "source-url" : "git://github.com/alabamenhu/Intl-CLDR.git",
   "perl" : "6.*",
   "resources" : [
+    "languages/root.data",
+    "languages/en.data",
     "ListFormatting.data",
     "NumberFormatting.data",
     "NumberPatterns.data",
@@ -20931,17 +20933,21 @@
   "provides" : {
     "Intl::CLDR::NumberSystems::Roman" : "lib/Intl/CLDR/NumberSystems/Roman.pm6",
     "Intl::CLDR::Lists" : "lib/Intl/CLDR/Lists.pm6",
+    "Intl::CLDR::Classes::Base" : "lib/Intl/CLDR/Classes/Base.pm6",
+    "Intl::CLDR::Classes::Calendar" : "lib/Intl/CLDR/Classes/Calendar.pm6",
     "Intl::CLDR::NumberSystems::Ge'ez" : "lib/Intl/CLDR/NumberSystems/Ge'ez.pm6",
     "Intl::CLDR::Plurals::Classes" : "lib/Intl/CLDR/Plurals/Classes.pm6",
     "Intl::CLDR::Numbers" : "lib/Intl/CLDR/Numbers.pm6",
     "Intl::CLDR::Plurals" : "lib/Intl/CLDR/Plurals.pm6",
+    "Intl::CLDR::Immutability" : "lib/Intl/CLDR/Immutability.pm6",
     "Intl::CLDR::Numbers::Enums" : "lib/Intl/CLDR/Numbers/Enums.pm6",
     "Intl::CLDR::Numbers::Classes" : "lib/Intl/CLDR/Numbers/Classes.pm6",
+    "Intl::CLDR" : "lib/Intl/CLDR.pm6",
     "Intl::CLDR::Numbers::PatternParser" : "lib/Intl/CLDR/Numbers/PatternParser.pm6"
   },
   "test-depends" : [ ],
   "license" : "Artistic-2.0",
-  "version" : "0.3",
+  "version" : "0.4.0",
   "authors" : [
     "Matthew \u2018Mat\u00e9u\u2019 Stephen STUCKWISCH <mateu@softastur.com>"
   ],
