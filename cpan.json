@@ -21873,50 +21873,6 @@
 }
 ,
 {
-  "name" : "WebService::Soundcloud",
-  "api" : "1.0",
-  "support" : {
-    "irc" : "irc:// irc.freenode.net/#perl6",
-    "source" : "git://github.com/jonathanstowe/WebService-Soundcloud.git",
-    "bugtracker" : "https://github.com/jonathanstowe/WebService-Soundcloud/issues"
-  },
-  "source-url" : "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/WebService-Soundcloud-0.0.7.tar.gz",
-  "perl" : "6.*",
-  "resources" : [ ],
-  "build-depends" : [ ],
-  "author" : "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "auth" : "github:jonathanstowe",
-  "depends" : [
-    "JSON::Fast",
-    "URI",
-    "URI::Template",
-    "HTTP::UserAgent",
-    "IO::Socket::SSL",
-    "JSON::Class",
-    "JSON::Name"
-  ],
-  "test-depends" : [
-    "Test"
-  ],
-  "tags" : [
-    "API",
-    "Webservice",
-    "REST",
-    "Soundcloud"
-  ],
-  "provides" : {
-    "WebService::Soundcloud" : "lib/WebService/Soundcloud.pm"
-  },
-  "license" : "Artistic-2.0",
-  "version" : "0.0.7",
-  "meta-version" : "0",
-  "description" : "Provide a Perl 6 interface to the Soundcloud REST API",
-  "authors" : [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ]
-}
-,
-{
   "name" : "XDG::BaseDirectory",
   "api" : "1.0",
   "support" : {
