@@ -20122,6 +20122,25 @@
 }
 ,
 {
+  "name" : "Cro::LDAP::ASN::Plugin",
+  "source-url" : "https://github.com/Altai-man/cro-ldap-asn-plugin.git",
+  "perl" : "6.*",
+  "resources" : [ ],
+  "build-depends" : [ ],
+  "auth" : "github:Altai-man",
+  "depends" : [
+    "ASN::BER"
+  ],
+  "license" : "Artistic-2.0",
+  "provides" : {
+    "Cro::LDAP::ASN::Plugin" : "lib/Cro/LDAP/ASN/Plugin.pm6"
+  },
+  "test-depends" : [ ],
+  "version" : "0.1",
+  "description" : "An ASN::META plugin that temporarily takes care of \"unusual\" LDAP types"
+}
+,
+{
   "name" : "Net::LibIDN2",
   "source-url" : "git://github.com/Kaiepi/p6-Net-LibIDN2.git",
   "perl" : "6.c",
