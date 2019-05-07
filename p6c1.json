@@ -3433,6 +3433,26 @@
 }
 ,
 {
+  "name" : "XML::Signature",
+  "source-url" : "git://github.com/retupmoca/P6-XML-Signature.git",
+  "perl" : "6.*",
+  "author" : "github:retupmoca",
+  "depends" : [
+    "XML",
+    "XML::Canonical",
+    "Digest",
+    "MIME::Base64",
+    "OpenSSL",
+    "UUID"
+  ],
+  "provides" : {
+    "XML::Signature" : "lib/XML/Signature.pm6"
+  },
+  "version" : "1.0.0",
+  "description" : "XML Signature"
+}
+,
+{
   "name" : "Auth::SAML2",
   "source-url" : "git://github.com/retupmoca/P6-SAML.git",
   "perl" : "6.*",
