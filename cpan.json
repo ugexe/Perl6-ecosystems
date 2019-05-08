@@ -27535,72 +27535,8 @@
     "Auth::SCRAM::Client": "lib/Auth/SCRAM/Client.pm6",
     "Auth::SCRAM::Server": "lib/Auth/SCRAM/Server.pm6"
   },
-  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Auth-SCRAM-0.4.6.3.tar.gz",
-  "version": "v0.4.6.3"
-}
-,
-{
-  "authors": [
-    "Marcel Timmerman"
-  ],
-  "depends": [
-    "Digest::HMAC",
-    "OpenSSL",
-    "Base64",
-    "PKCS5",
-    "Unicode::PRECIS"
-  ],
-  "description": "Salted Challenge Response Authentication Mechanism (SCRAM)",
-  "license": "Artistic-2.0",
-  "name": "Auth::SCRAM",
-  "perl": "6",
-  "provides": {
-    "Auth::SCRAM": "lib/Auth/SCRAM.pm6",
-    "Auth::SCRAM::Client": "lib/Auth/SCRAM/Client.pm6",
-    "Auth::SCRAM::Server": "lib/Auth/SCRAM/Server.pm6"
-  },
   "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Auth-SCRAM-0.4.7.1.tar.gz",
   "version": "0.4.7.1"
-}
-,
-{
-  "authors": [
-    "Marcel Timmerman",
-    "Paweł Pabian"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "OpenSSL",
-    "UUID"
-  ],
-  "description": "BSON encoding/decoding, used in MongoDB drivers",
-  "history": [
-    "Paweł Pabian worked on it from 2011 until January 2015",
-    "Marcel Timmerman took over in Januari 2015 and is working on it until the present day"
-  ],
-  "license": "Artistic-2.0",
-  "name": "BSON",
-  "perl": "6",
-  "provides": {
-    "BSON": "lib/BSON.pm6",
-    "BSON::Binary": "lib/BSON/Binary.pm6",
-    "BSON::Document": "lib/BSON/Document.pm6",
-    "BSON::Javascript": "lib/BSON/Javascript.pm6",
-    "BSON::ObjectId": "lib/BSON/ObjectId.pm6",
-    "BSON::Regex": "lib/BSON/Regex.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/BSON-0.11.5.tar.gz",
-  "tags": [
-    "bson",
-    "mongodb",
-    "serialize"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.11.5"
 }
 ,
 {
@@ -27754,44 +27690,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-glade-0.8.3.tar.gz",
-  "tags": [
-    "XML",
-    "Glade",
-    "Gtk"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.8.3"
-}
-,
-{
-  "authors": [
-    "Marcel Timmerman"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "XML::Actions",
-    "GTK::V3"
-  ],
-  "description": "Interfacing Glade XML to Perl6",
-  "license": "Artistic-2.0",
-  "name": "GTK::Glade",
-  "perl": "6",
-  "provides": {
-    "GTK::Glade": "lib/GTK/Glade.pm6",
-    "GTK::Glade::Engine": "lib/GTK/Glade/Engine.pm6",
-    "GTK::Glade::Engine::PreProcess": "lib/GTK/Glade/Engine/PreProcess.pm6",
-    "GTK::Glade::Engine::Test": "lib/GTK/Glade/Engine/Test.pm6",
-    "GTK::Glade::Engine::Work": "lib/GTK/Glade/Engine/Work.pm6",
-    "GTK::Glade::X": "lib/GTK/Glade/X.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-glade-0.8.4.tar.gz",
   "tags": [
     "XML",
@@ -27802,87 +27700,6 @@
     
   ],
   "version": "0.8.4"
-}
-,
-{
-  "authors": [
-    "Marcel Timmerman"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Perl6 GTK Api Version 3",
-  "license": "Artistic-2.0",
-  "name": "GTK::V3",
-  "perl": "6",
-  "provides": {
-    "GTK::V3::Gdk::GdkDevice": "lib/GTK/V3/Gdk/GdkDevice.pm6",
-    "GTK::V3::Gdk::GdkDisplay": "lib/GTK/V3/Gdk/GdkDisplay.pm6",
-    "GTK::V3::Gdk::GdkEventTypes": "lib/GTK/V3/Gdk/GdkEventTypes.pm6",
-    "GTK::V3::Gdk::GdkScreen": "lib/GTK/V3/Gdk/GdkScreen.pm6",
-    "GTK::V3::Gdk::GdkTypes": "lib/GTK/V3/Gdk/GdkTypes.pm6",
-    "GTK::V3::Gdk::GdkWindow": "lib/GTK/V3/Gdk/GdkWindow.pm6",
-    "GTK::V3::Glib::GBoxed": "lib/GTK/V3/Glib/GBoxed.pm6",
-    "GTK::V3::Glib::GError": "lib/GTK/V3/Glib/GError.pm6",
-    "GTK::V3::Glib::GInitiallyUnowned": "lib/GTK/V3/Glib/GInitiallyUnowned.pm6",
-    "GTK::V3::Glib::GInterface": "lib/GTK/V3/Glib/GInterface.pm6",
-    "GTK::V3::Glib::GList": "lib/GTK/V3/Glib/GList.pm6",
-    "GTK::V3::Glib::GMain": "lib/GTK/V3/Glib/GMain.pm6",
-    "GTK::V3::Glib::GObject": "lib/GTK/V3/Glib/GObject.pm6",
-    "GTK::V3::Glib::GSList": "lib/GTK/V3/Glib/GSList.pm6",
-    "GTK::V3::Glib::GSignal": "lib/GTK/V3/Glib/GSignal.pm6",
-    "GTK::V3::Glib::GType": "lib/GTK/V3/Glib/GType.pm6",
-    "GTK::V3::Glib::GValue": "lib/GTK/V3/Glib/GValue.pm6",
-    "GTK::V3::Gtk::GtkAboutDialog": "lib/GTK/V3/Gtk/GtkAboutDialog.pm6",
-    "GTK::V3::Gtk::GtkBin": "lib/GTK/V3/Gtk/GtkBin.pm6",
-    "GTK::V3::Gtk::GtkBuilder": "lib/GTK/V3/Gtk/GtkBuilder.pm6",
-    "GTK::V3::Gtk::GtkButton": "lib/GTK/V3/Gtk/GtkButton.pm6",
-    "GTK::V3::Gtk::GtkCheckButton": "lib/GTK/V3/Gtk/GtkCheckButton.pm6",
-    "GTK::V3::Gtk::GtkComboBox": "lib/GTK/V3/Gtk/GtkComboBox.pm6",
-    "GTK::V3::Gtk::GtkComboBoxText": "lib/GTK/V3/Gtk/GtkComboBoxText.pm6",
-    "GTK::V3::Gtk::GtkContainer": "lib/GTK/V3/Gtk/GtkContainer.pm6",
-    "GTK::V3::Gtk::GtkCssProvider": "lib/GTK/V3/Gtk/GtkCssProvider.pm6",
-    "GTK::V3::Gtk::GtkDialog": "lib/GTK/V3/Gtk/GtkDialog.pm6",
-    "GTK::V3::Gtk::GtkEntry": "lib/GTK/V3/Gtk/GtkEntry.pm6",
-    "GTK::V3::Gtk::GtkFileChooser": "lib/GTK/V3/Gtk/GtkFileChooser.pm6",
-    "GTK::V3::Gtk::GtkFileChooserDialog": "lib/GTK/V3/Gtk/GtkFileChooserDialog.pm6",
-    "GTK::V3::Gtk::GtkFileFilter": "lib/GTK/V3/Gtk/GtkFileFilter.pm6",
-    "GTK::V3::Gtk::GtkGrid": "lib/GTK/V3/Gtk/GtkGrid.pm6",
-    "GTK::V3::Gtk::GtkImage": "lib/GTK/V3/Gtk/GtkImage.pm6",
-    "GTK::V3::Gtk::GtkImageMenuItem": "lib/GTK/V3/Gtk/GtkImageMenuItem.pm6",
-    "GTK::V3::Gtk::GtkLabel": "lib/GTK/V3/Gtk/GtkLabel.pm6",
-    "GTK::V3::Gtk::GtkListBox": "lib/GTK/V3/Gtk/GtkListBox.pm6",
-    "GTK::V3::Gtk::GtkMain": "lib/GTK/V3/Gtk/GtkMain.pm6",
-    "GTK::V3::Gtk::GtkMenuItem": "lib/GTK/V3/Gtk/GtkMenuItem.pm6",
-    "GTK::V3::Gtk::GtkMisc": "lib/GTK/V3/Gtk/GtkMisc.pm6",
-    "GTK::V3::Gtk::GtkRadioButton": "lib/GTK/V3/Gtk/GtkRadioButton.pm6",
-    "GTK::V3::Gtk::GtkStyleContext": "lib/GTK/V3/Gtk/GtkStyleContext.pm6",
-    "GTK::V3::Gtk::GtkTextBuffer": "lib/GTK/V3/Gtk/GtkTextBuffer.pm6",
-    "GTK::V3::Gtk::GtkTextIter": "lib/GTK/V3/Gtk/GtkTextIter.pm6",
-    "GTK::V3::Gtk::GtkTextTagTable": "lib/GTK/V3/Gtk/GtkTextTagTable.pm6",
-    "GTK::V3::Gtk::GtkTextView": "lib/GTK/V3/Gtk/GtkTextView.pm6",
-    "GTK::V3::Gtk::GtkToggleButton": "lib/GTK/V3/Gtk/GtkToggleButton.pm6",
-    "GTK::V3::Gtk::GtkWidget": "lib/GTK/V3/Gtk/GtkWidget.pm6",
-    "GTK::V3::Gtk::GtkWindow": "lib/GTK/V3/Gtk/GtkWindow.pm6",
-    "GTK::V3::N::N-GObject": "lib/GTK/V3/N/N-GObject.pm6",
-    "GTK::V3::N::NativeLib": "lib/GTK/V3/N/NativeLib.pm6",
-    "GTK::V3::X": "lib/GTK/V3/X.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gtk-v3-0.10.0.tar.gz",
-  "tags": [
-    "Gui",
-    "Gtk"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.10.0"
 }
 ,
 {
@@ -28047,35 +27864,6 @@
     
   ],
   "version": "0.10.4"
-}
-,
-{
-  "authors": [
-    "Marcel Timmerman"
-  ],
-  "depends": [
-    "Pod::To::HTML",
-    "Pod::To::Markdown"
-  ],
-  "description": "Render pod docs to html, pdf or md",
-  "license": "Artistic-2.0",
-  "name": "Pod::Render",
-  "perl": "6",
-  "provides": {
-    "Pod::Render": "lib/Pod/Render.pm6"
-  },
-  "resources": [
-    "pod6.css",
-    "google-code-prettify/desert.css",
-    "google-code-prettify/doxy.css",
-    "google-code-prettify/prettify.css",
-    "google-code-prettify/sons-of-obsidian.css",
-    "google-code-prettify/sunburst.css",
-    "google-code-prettify/prettify.js",
-    "google-code-prettify/run_prettify.js"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/pod-render-0.7.4.tar.gz",
-  "version": "v0.7.4"
 }
 ,
 {
