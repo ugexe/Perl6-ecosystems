@@ -26951,6 +26951,37 @@
 }
 ,
 {
+  "auth": "CPAN:lembark",
+  "authors": [
+    "lembark"
+  ],
+  "build-depends": [
+    "FindBin"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Locate [sub]dirs above a given starting point.",
+  "license": "Artistic-2.0",
+  "name": "FindBin::Dirs",
+  "perl": "6.d",
+  "provides": {
+    "FindBin::Dirs": "lib/FindBin/Dirs.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-Dirs-0.1.0.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.0"
+}
+,
+{
   "auth": "cpan:LEONT",
   "authors": [
     "Leon Timmermans"
