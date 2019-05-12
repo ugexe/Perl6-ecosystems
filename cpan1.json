@@ -34039,6 +34039,42 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:p6steve",
+  "authors": [
+    "p6steve"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "SVG",
+    "SVG::Plot"
+  ],
+  "description": "Some perl6 polygon objects that draw using SVG.",
+  "license": "Artistic-2.0",
+  "name": "Math::Polygons",
+  "perl": "6.d",
+  "provides": {
+    "Math::Polygons": "lib/Math/Polygons.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/P/PS/PSIXSTEVE/Perl6/Math-Polygons-0.0.4.tar.gz",
+  "tags": [
+    "Math",
+    "Polygons",
+    "Geometry",
+    "SVG"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "authors": [
     "ribbon-otter"
   ],
