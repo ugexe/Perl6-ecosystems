@@ -46111,6 +46111,40 @@
 }
 ,
 {
+  "auth": "gitlab:uzluisf",
+  "authors": [
+    "Luis F. Uceta"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Pod::To::HTML"
+  ],
+  "description": "A simple GUI application for previewing Pod files",
+  "license": "Artistic-2.0",
+  "name": "Podviewer",
+  "perl": "6.c",
+  "provides": {
+    "App::Podviewer": "lib/App/Podviewer.pm6",
+    "podviewer": "bin/podviewer"
+  },
+  "resources": [
+    "css/github.css"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/U/UZ/UZLUISF/Perl6/Podviewer-0.0.1.tar.gz",
+  "tags": [
+    "Pod",
+    "Previewer",
+    "HTML"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "auth": "github:vrurg",
   "authors": [
     "Vadim Belman <vrurg@cpan.org>"
