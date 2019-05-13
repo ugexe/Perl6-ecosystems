@@ -3317,22 +3317,6 @@
   "depends": [
     
   ],
-  "description": "quoted-printable mime encode/decode",
-  "license": "CC0-1.0",
-  "name": "MIME::QuotedPrint",
-  "perl": "6.*",
-  "provides": {
-    "MIME::QuotedPrint": "lib/MIME/QuotedPrint.pm6"
-  },
-  "source-url": "git://github.com/retupmoca/p6-MIME-QuotedPrint.git",
-  "version": "1.0.0"
-}
-,
-{
-  "author": "github:retupmoca",
-  "depends": [
-    
-  ],
   "description": "Low-level bindings to zlib",
   "name": "Compress::Zlib::Raw",
   "perl": "6.c",
@@ -6659,21 +6643,6 @@
 }
 ,
 {
-  "author": "vendethiel",
-  "depends": [
-    
-  ],
-  "description": "A very simple `serialize` sub to get public attribute values",
-  "name": "Serialize::Tiny",
-  "perl": "6.*",
-  "provides": {
-    "Serialize::Tiny": "lib/Serialize/Tiny.pm"
-  },
-  "source-url": "git://github.com/vendethiel/Serialize-Tiny.pm6.git",
-  "version": "1"
-}
-,
-{
   "auth": "github:grondilu",
   "authors": [
     "Lucien Grondin"
@@ -7568,33 +7537,6 @@
   },
   "source-url": "git://github.com/tony-o/perl6-overwatch.git",
   "version": "0.1.6"
-}
-,
-{
-  "build-depends": [
-    "NativeCall"
-  ],
-  "depends": [
-    "NativeCall"
-  ],
-  "description": "Container tool based on Linux namespaces",
-  "name": "Kains",
-  "perl": "v6",
-  "provides": {
-    "App::Kains": "lib/App/Kains.pm6",
-    "App::Kains::Commandline": "lib/App/Kains/Commandline.pm6",
-    "App::Kains::Config": "lib/App/Kains/Config.pm6",
-    "App::Kains::Core": "lib/App/Kains/Core.pm6",
-    "App::Kains::Core::Chrooted": "lib/App/Kains/Core/Chrooted.pm6",
-    "App::Kains::Native": "lib/App/Kains/Native.pm6",
-    "App::Kains::Parameters": "lib/App/Kains/Parameters.pm6",
-    "App::Kains::X": "lib/App/Kains/X.pm6"
-  },
-  "source-url": "git://github.com/cedric-vincent/kains.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "v0.0.2"
 }
 ,
 {
@@ -17879,24 +17821,6 @@
 }
 ,
 {
-  "auth": "github:tony-o",
-  "depends": [
-    
-  ],
-  "description": "A utility for collapsing JSON dependent upon certain environmental information",
-  "name": "System::Query",
-  "perl": "6.*",
-  "provides": {
-    "System::Query": "lib/System/Query.pm6"
-  },
-  "source-url": "git://github.com/tony-o/p6-warthog.git",
-  "test-depends": [
-    "JSON::Fast"
-  ],
-  "version": "0.1.4"
-}
-,
-{
   "authors": [
     "Zoffix Znet"
   ],
@@ -21880,28 +21804,6 @@
     "Duo::Util": "lib/Duo/Util.pm"
   },
   "source-url": "https://github.com/lucasbuchala/p6pairs.git",
-  "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "Lucas Buchala"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "A Perl 6 test distribution in a GitHub Gist",
-  "license": "Artistic-2.0",
-  "name": "Acme::Gistribution",
-  "perl": "6.*",
-  "provides": {
-    "Acme::Gistribution": "Gistribution.pm",
-    "Acme::Gistribution::Example": "Example.pm"
-  },
-  "source-url": "https://gist.github.com/64267c60b798047145c80561334c3cd5.git",
   "version": "0.0.1"
 }
 ,
