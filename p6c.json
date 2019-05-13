@@ -141,37 +141,6 @@
 }
 ,
 {
-  "authors": [
-    "Tadeusz “tadzik” Sośnierz",
-    "Paul Cochrane",
-    "GlithMr",
-    "Ethan House",
-    "Tobias Leich"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "The kitty you always wanted, now in Perl 6",
-  "name": "Acme::Meow",
-  "perl": "6.*",
-  "provides": {
-    "Acme::Meow": "lib/Acme/Meow.pm"
-  },
-  "source-url": "git://github.com/tadzik/perl6-Acme-Meow.git",
-  "support": {
-    "bugtracker": "https://github.com/tadzik/perl6-Acme-Meow/issues",
-    "source": "git://github.com/tadzik/perl6-Acme-Meow.git"
-  },
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.1"
-}
-,
-{
   "depends": [
     
   ],
@@ -1041,6 +1010,22 @@
   },
   "source-url": "git://github.com/supernovus/exemel.git",
   "version": "0.3.0"
+}
+,
+{
+  "author": "Timothy Totten",
+  "depends": [
+    "XML"
+  ],
+  "description": "XML::Entity extension for HTML 5 entities.",
+  "license": "Artistic-2.0",
+  "name": "XML::Entity::HTML",
+  "perl": "6.*",
+  "provides": {
+    "XML::Entity::XML": "lib/XML/Entity/HTML.pm6"
+  },
+  "source-url": "git://github.com/supernovus/xml-entity-html.git",
+  "version": "0.1.1"
 }
 ,
 {
@@ -3030,27 +3015,6 @@
   "source-type": "git",
   "source-url": "git://github.com/perl6-community-modules/p6-irc-utils.git",
   "version": "0.2.0"
-}
-,
-{
-  "author": "Kevin Polulak",
-  "authority": "soh-cah-toa",
-  "depends": [
-    
-  ],
-  "description": "Flexible framework for building TAP test libraries",
-  "license": "Artistic-2.0",
-  "name": "Test::Builder",
-  "perl": "6.*",
-  "provides": {
-    "Test::Builder": "lib/Test/Builder.pm",
-    "Test::Builder::Output": "lib/Test/Builder/Output.pm",
-    "Test::Builder::Plan": "lib/Test/Builder/Plan.pm",
-    "Test::Builder::Test": "lib/Test/Builder/Test.pm"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/perl6-community-modules/p6-test-builder.git",
-  "version": "0.0.3"
 }
 ,
 {
@@ -7732,26 +7696,6 @@
     "source": "https://github.com/cygx/p6-image-rgba"
   },
   "version": "0.2.1"
-}
-,
-{
-  "author": "cygx <cygx@cpan.org>",
-  "depends": [
-    
-  ],
-  "description": "Reads RGBA image data from text files",
-  "license": "BSL-1.0",
-  "name": "Image::RGBA::Text",
-  "perl": "6.*",
-  "provides": {
-    "Image::RGBA::Text": "lib/Image/RGBA/Text.pm6"
-  },
-  "source-url": "git://github.com/cygx/p6-image-rgba-text.git",
-  "support": {
-    "bugtracker": "https://github.com/cygx/p6-image-rgba-text/issues",
-    "source": "https://github.com/cygx/p6-image-rgba-text"
-  },
-  "version": "*"
 }
 ,
 {
@@ -12784,6 +12728,28 @@
     "KM Wallio"
   ],
   "depends": [
+    
+  ],
+  "description": "Provides lists and functions for common English stop words.",
+  "name": "Lingua::EN::Stopwords",
+  "perl": "6.*",
+  "provides": {
+    "Lingua::EN::Stopwords::Long": "lib/Lingua/EN/Stopwords/Long.pm6",
+    "Lingua::EN::Stopwords::SQL": "lib/Lingua/EN/Stopwords/SQL.pm6",
+    "Lingua::EN::Stopwords::Short": "lib/Lingua/EN/Stopwords/Short.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/kmwallio/p6-Lingua-EN-Stopwords.git",
+  "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "KM Wallio"
+  ],
+  "depends": [
     "Lingua::EN::Stem::Porter"
   ],
   "description": "Helps calculate TF-IDF values from a given set of documents.",
@@ -14923,35 +14889,6 @@
   ],
   "source-url": "https://github.com/jsimonet/IRC-Client-Plugin-UserPoints.git",
   "version": "0.1.3"
-}
-,
-{
-  "authors": [
-    "Fernando Correa de Oliveira"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Simple Heap implementation",
-  "name": "Heap",
-  "perl": "6.*",
-  "provides": {
-    "Heap": "lib/Heap.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/FCO/Heap.git",
-  "tags": [
-    "heap",
-    "struct",
-    "data"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.0.1"
 }
 ,
 {
@@ -19690,6 +19627,27 @@
 }
 ,
 {
+  "authors": [
+    "Paulo Henrique Rodrigues Pinheiro"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Module for brazilian federal documents validations.",
+  "license": "MIT",
+  "name": "Brazilian::FederalDocuments",
+  "perl": "6.c",
+  "provides": {
+    "Brazilian::FederalDocuments": "lib/Brazilian/FederalDocuments.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/paulohrpinheiro/Brazilian-FederalDocuments.git",
+  "version": "0.1.0"
+}
+,
+{
   "auth": "github:gabrielash",
   "authors": [
     "Gabriel Ash",
@@ -23145,24 +23103,6 @@
     "JSON::Fast"
   ],
   "version": "0.1"
-}
-,
-{
-  "authors": [
-    "Joshua Yeshouroun"
-  ],
-  "depends": [
-    "Exportable"
-  ],
-  "description": "Get file status",
-  "license": "Artistic-2.0",
-  "name": "File::Stat",
-  "perl": "6.c",
-  "provides": {
-    "File::Stat": "lib/File/Stat.pm6"
-  },
-  "source-url": "git://github.com/0racle/p6-File-Stat.git",
-  "version": "0.0.1"
 }
 ,
 {
