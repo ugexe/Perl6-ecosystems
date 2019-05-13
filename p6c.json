@@ -23221,4 +23221,46 @@
   "source-url": "git://github.com/0racle/p6-File-Stat.git",
   "version": "0.0.1"
 }
+,
+{
+  "authors": [
+    "Ben Davies"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Telnet library for clients and servers",
+  "license": "Artistic-2.0",
+  "name": "Net::Telnet",
+  "perl": "6.d",
+  "provides": {
+    "Net::Telnet": "lib/Net/Telnet.pm6",
+    "Net::Telnet::Chunk": "lib/Net/Telnet/Chunk.pm6",
+    "Net::Telnet::Client": "lib/Net/Telnet/Client.pm6",
+    "Net::Telnet::Command": "lib/Net/Telnet/Command.pm6",
+    "Net::Telnet::Connection": "lib/Net/Telnet/Connection.pm6",
+    "Net::Telnet::Constants": "lib/Net/Telnet/Constants.pm6",
+    "Net::Telnet::Exceptions": "lib/Net/Telnet/Exceptions.pm6",
+    "Net::Telnet::Negotiation": "lib/Net/Telnet/Negotiation.pm6",
+    "Net::Telnet::Option": "lib/Net/Telnet/Option.pm6",
+    "Net::Telnet::Pending": "lib/Net/Telnet/Pending.pm6",
+    "Net::Telnet::Server": "lib/Net/Telnet/Server.pm6",
+    "Net::Telnet::Subnegotiation": "lib/Net/Telnet/Subnegotiation.pm6",
+    "Net::Telnet::Terminal": "lib/Net/Telnet/Terminal.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/Kaiepi/p6-Net-Telnet.git",
+  "tags": [
+    "Net"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
 ]
