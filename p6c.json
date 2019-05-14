@@ -6934,6 +6934,34 @@
 }
 ,
 {
+  "authors": [
+    "David Farrell"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Encode and decode URIs according to RFC 3986",
+  "name": "URI::Encode",
+  "perl": "6.*",
+  "provides": {
+    "URI::Encode": "lib/URI/Encode.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/perl6-community-modules/URI-Encode.git",
+  "support": {
+    "bugtracker": "https://github.com/perl6-community-modules/URI-Encode/issues",
+    "source": "git@github.com:perl6-community-modules/URI-Encode.git"
+  },
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.08"
+}
+,
+{
   "author": "David Farrell",
   "depends": [
     
