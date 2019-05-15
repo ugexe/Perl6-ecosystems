@@ -27131,6 +27131,37 @@
 }
 ,
 {
+  "auth": "CPAN:lembark",
+  "authors": [
+    "lembark"
+  ],
+  "build-depends": [
+    "FindBin"
+  ],
+  "depends": [
+    "FindBin"
+  ],
+  "description": "Locate [sub]dirs above a given starting point.",
+  "license": "Artistic-2.0",
+  "name": "FindBin::Dirs",
+  "perl": "6.d",
+  "provides": {
+    "FindBin::Dirs": "lib/FindBin/Dirs.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-Dirs-1.0.0.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "FindBin"
+  ],
+  "version": "1.0.0"
+}
+,
+{
   "auth": "cpan:LEONT",
   "authors": [
     "Leon Timmermans"
@@ -46595,6 +46626,48 @@
     "Test::When"
   ],
   "version": "0.0.4"
+}
+,
+{
+  "auth": "github:vrurg",
+  "authors": [
+    "Vadim Belman <vrurg@cpan.org>"
+  ],
+  "build-depends": [
+    "META6",
+    "p6doc",
+    "Pod::To::Markdown"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Asynchronous threaded workers",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Async::Workers",
+  "perl": "6.d",
+  "production": true,
+  "provides": {
+    "Async::Msg": "lib/Async/Msg.pm6",
+    "Async::Workers": "lib/Async/Workers.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/Async-Workers-v0.0.5.tar.gz",
+  "support": {
+    "source": "https://github.com/vrurg/Perl6-Async-Workers.git"
+  },
+  "tags": [
+    "threads",
+    "async"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "version": "0.0.5"
 }
 ,
 {
