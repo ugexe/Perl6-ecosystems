@@ -10677,7 +10677,7 @@
     "Test",
     "Test::META"
   ],
-  "version": "2.0.0"
+  "version": "2.1.0"
 }
 ,
 {
@@ -15802,6 +15802,21 @@
     "source": "https://github.com/melezhik/sparrowdo-chef-client.git"
   },
   "version": "0.0.3"
+}
+,
+{
+  "depends": [
+    
+  ],
+  "description": "An implementation of the Perl 6 Scheduler role with virtualized time.",
+  "license": "Artistic-2.0",
+  "name": "Test::Scheduler",
+  "perl": "6.c",
+  "provides": {
+    "Test::Scheduler": "lib/Test/Scheduler.pm6"
+  },
+  "source-url": "git://github.com/jnthn/p6-test-scheduler.git",
+  "version": "1.1"
 }
 ,
 {
