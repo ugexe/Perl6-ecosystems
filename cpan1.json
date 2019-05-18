@@ -27187,122 +27187,29 @@
     "lembark"
   ],
   "build-depends": [
-    "FindBin"
+    
   ],
   "depends": [
     
   ],
-  "description": "Locate [sub]dirs above a given starting point.",
+  "description": "Locate execution directory and basename.",
   "license": "Artistic-2.0",
-  "name": "FindBin::Dirs",
+  "name": "FindBin",
   "perl": "6.d",
   "provides": {
-    "FindBin::Dirs": "lib/FindBin/Dirs.pm6"
+    "FindBin": "lib/FindBin.pm6"
   },
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-Dirs-0.1.0.tar.gz",
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-0.3.2.tar.gz",
   "tags": [
     
   ],
   "test-depends": [
     
   ],
-  "version": "0.1.0"
-}
-,
-{
-  "auth": "CPAN:lembark",
-  "authors": [
-    "lembark"
-  ],
-  "build-depends": [
-    "FindBin"
-  ],
-  "depends": [
-    "FindBin"
-  ],
-  "description": "Locate [sub]dirs above a given starting point.",
-  "license": "Artistic-2.0",
-  "name": "FindBin::Dirs",
-  "perl": "6.d",
-  "provides": {
-    "FindBin::Dirs": "lib/FindBin/Dirs.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-Dirs-0.1.1.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "FindBin"
-  ],
-  "version": "0.1.1"
-}
-,
-{
-  "auth": "CPAN:lembark",
-  "authors": [
-    "lembark"
-  ],
-  "build-depends": [
-    "FindBin"
-  ],
-  "depends": [
-    "FindBin"
-  ],
-  "description": "Locate [sub]dirs above a given starting point.",
-  "license": "Artistic-2.0",
-  "name": "FindBin::Dirs",
-  "perl": "6.d",
-  "provides": {
-    "FindBin::Dirs": "lib/FindBin/Dirs.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-Dirs-0.1.2.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "FindBin"
-  ],
-  "version": "0.1.2"
-}
-,
-{
-  "auth": "CPAN:lembark",
-  "authors": [
-    "lembark"
-  ],
-  "build-depends": [
-    "FindBin"
-  ],
-  "depends": [
-    "FindBin"
-  ],
-  "description": "Locate [sub]dirs above a given starting point.",
-  "license": "Artistic-2.0",
-  "name": "FindBin::Dirs",
-  "perl": "6.d",
-  "provides": {
-    "FindBin::Dirs": "lib/FindBin/Dirs.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-Dirs-1.0.0.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "FindBin"
-  ],
-  "version": "1.0.0"
+  "version": "0.3.2"
 }
 ,
 {
