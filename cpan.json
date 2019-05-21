@@ -14690,6 +14690,44 @@
     
   ],
   "depends": [
+    "Mathx::Stat"
+  ],
+  "description": "Bayesian Inference based upon ditributions. Minimax",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Bayes::Learn",
+  "perl": "6.c",
+  "provides": {
+    "Bayes::Learn::Action": "lib/Bayes/Learn/Action.pm6",
+    "Bayes::Learn::DecisionRule": "lib/Bayes/Learn/DecisionRule.pm6",
+    "Bayes::Learn::Hypothesis": "lib/Bayes/Learn/Hypothesis.pm6",
+    "Bayes::Learn::LossFunction": "lib/Bayes/Learn/LossFunction.pm6",
+    "Bayes::Learn::RiskFunction": "lib/Bayes/Learn/RiskFunction.pm6",
+    "Bayes::Learn::Strategy": "lib/Bayes/Learn/Strategy.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Bayes-Learn-0.2.5.tar.gz",
+  "tags": [
+    "Bayes",
+    "Learn"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.5"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "AI messaging system",
