@@ -9763,6 +9763,28 @@
 }
 ,
 {
+  "author": "Jonathan Scott Duff",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Generate hexadecimal dump of scalar values",
+  "name": "HexDump::Tiny",
+  "perl": "6.*",
+  "provides": {
+    "HexDump::Tiny": "lib/HexDump/Tiny.pm"
+  },
+  "repo-type": "git",
+  "source-url": "git://github.com/perlpilot/p6-HexDump-Tiny.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.01"
+}
+,
+{
   "auth": "github:tony-o",
   "depends": [
     
