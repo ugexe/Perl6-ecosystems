@@ -3321,6 +3321,42 @@
 }
 ,
 {
+  "auth": "github:dmaestro",
+  "authors": [
+    "dmaestro <dmaestro@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Role to apply bounds to a potentially infinite Seq",
+  "license": "Artistic",
+  "meta-version": "0",
+  "name": "Seq::Bounded",
+  "perl": "6.*",
+  "production": true,
+  "provides": {
+    "Seq::Bounded": "lib/Seq/Bounded.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/D/DM/DMAESTRO/Perl6/Seq-Bounded-1.0.0.tar.gz",
+  "support": {
+    "source": "git://github.com/dmaestro/Seq-Bounded.git"
+  },
+  "tags": [
+    "role seq"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.0"
+}
+,
+{
   "depends": [
     "Digest::SHA256::Native"
   ],
@@ -15551,6 +15587,54 @@
     
   ],
   "version": "0.1.7"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Adaptive (rule-based) Quest For Glory game system (from Sierra.)",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Game::QFG",
+  "perl": "6.c",
+  "provides": {
+    "Game::QFG::AI": "lib/Game/QFG/AI.pm6",
+    "Game::QFG::AIMessage": "lib/Game/QFG/AIMessage.pm6",
+    "Game::QFG::Baron": "lib/Game/QFG/Baron.pm6",
+    "Game::QFG::Baronscastle": "lib/Game/QFG/Baronscastle.pm6",
+    "Game::QFG::Entity": "lib/Game/QFG/Entity.pm6",
+    "Game::QFG::Erasmus": "lib/Game/QFG/Erasmus.pm6",
+    "Game::QFG::Erasmuspalace": "lib/Game/QFG/Erasmuspalace.pm6",
+    "Game::QFG::Healer": "lib/Game/QFG/Healer.pm6",
+    "Game::QFG::Healershouse": "lib/Game/QFG/Healershouse.pm6",
+    "Game::QFG::Hero": "lib/Game/QFG/Hero.pm6",
+    "Game::QFG::Keeponlaffin": "lib/Game/QFG/Keeponlaffin.pm6",
+    "Game::QFG::Keeponlaffinsstore": "lib/Game/QFG/Keeponlaffinsstore.pm6",
+    "Game::QFG::Message": "lib/Game/QFG/Message.pm6",
+    "Game::QFG::QFGMain": "lib/Game/QFG/QFGMain.pm6",
+    "Game::QFG::QFGView": "lib/Game/QFG/QFGView.pm6",
+    "Game::QFG::Room": "lib/Game/QFG/Room.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-QFG-0.1.9.tar.gz",
+  "tags": [
+    "Game",
+    "QFG"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.9"
 }
 ,
 {
