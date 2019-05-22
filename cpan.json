@@ -3357,6 +3357,43 @@
 }
 ,
 {
+  "auth": "github:dmaestro",
+  "authors": [
+    "dmaestro <dmaestro@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Role to apply bounds to a potentially infinite Seq",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Seq::Bounded",
+  "perl": "6.*",
+  "production": true,
+  "provides": {
+    "Seq::Bounded": "lib/Seq/Bounded.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/D/DM/DMAESTRO/Perl6/Seq-Bounded-1.0.1.tar.gz",
+  "support": {
+    "source": "git://github.com/dmaestro/Seq-Bounded.git"
+  },
+  "tags": [
+    "role seq"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "1.0.1"
+}
+,
+{
   "depends": [
     "Digest::SHA256::Native"
   ],
