@@ -23308,13 +23308,13 @@
     
   ],
   "description": "Role to apply bounds to a potentially infinite Seq",
-  "license": "Artistic",
+  "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "Seq::Bounded",
   "perl": "6.*",
   "production": true,
   "provides": {
-    "Seq::Bounded": "lib/Seq/Bounded.pm"
+    "Seq::Bounded": "lib/Seq/Bounded.pm6"
   },
   "resources": [
     
@@ -23327,8 +23327,9 @@
     "role seq"
   ],
   "test-depends": [
-    "Test"
+    "Test",
+    "Test::META"
   ],
-  "version": "1.0"
+  "version": "1.0.1"
 }
 ]
