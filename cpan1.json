@@ -14945,6 +14945,42 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "AI messaging system",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Game::AI::Messaging",
+  "perl": "6.c",
+  "provides": {
+    "Game::AI::Messaging::AI": "lib/Game/AI/Messaging/AI.pm6",
+    "Game::AI::Messaging::AIMessage": "lib/Game/AI/Messaging/AIMessage.pm6",
+    "Game::AI::Messaging::Message": "lib/Game/AI/Messaging/Message.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HO/HOLYGHOST/Perl6/Game-AI-Messaging-0.1.9.tar.gz",
+  "tags": [
+    "Game",
+    "AI",
+    "Messaging"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.9"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Mathx::Stat"
   ],
   "description": "Markov Strategy kit for games",
@@ -26968,37 +27004,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-Util-p6-1.2.4.tar.gz",
-  "tags": [
-    "cli",
-    "terminal"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.2.4"
-}
-,
-{
-  "authors": [
-    "kuerbis"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Term::Choose:ver<1.5.1+>"
-  ],
-  "description": "CLI related functions.",
-  "license": "Artistic-2.0",
-  "name": "Term::Choose::Util",
-  "perl": "6.c",
-  "provides": {
-    "Term::Choose::Util": "lib/Term/Choose/Util.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-Util-p6-1.2.5.tar.gz",
   "tags": [
     "cli",
@@ -27070,43 +27075,6 @@
     "Test"
   ],
   "version": "1.2.7"
-}
-,
-{
-  "authors": [
-    "kuerbis"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Term::termios"
-  ],
-  "description": "Choose items from a list interactively.",
-  "license": "Artistic-2.0",
-  "name": "Term::Choose",
-  "perl": "6.c",
-  "provides": {
-    "Term::Choose": "lib/Term/Choose.pm6",
-    "Term::Choose::LineFold": "lib/Term/Choose/LineFold.pm6",
-    "Term::Choose::LineFold::CharWidthAmbiguousWide": "lib/Term/Choose/LineFold/CharWidthAmbiguousWide.pm6",
-    "Term::Choose::LineFold::CharWidthDefault": "lib/Term/Choose/LineFold/CharWidthDefault.pm6",
-    "Term::Choose::ReadKey": "lib/Term/Choose/ReadKey.pm6",
-    "Term::Choose::Screen": "lib/Term/Choose/Screen.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-p6-1.5.3.tar.gz",
-  "tags": [
-    "cli",
-    "terminal",
-    "text"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.5.3"
 }
 ,
 {
@@ -27241,37 +27209,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Form-p6-1.2.0.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.2.0"
-}
-,
-{
-  "authors": [
-    "kuerbis"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Term::termios",
-    "Term::Choose:ver<1.5.2+>"
-  ],
-  "description": "Read lines from STDIN.",
-  "license": "Artistic-2.0",
-  "name": "Term::Form",
-  "perl": "6.c",
-  "provides": {
-    "Term::Form": "lib/Term/Form.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Form-p6-1.2.1.tar.gz",
   "tags": [
     
@@ -27373,40 +27310,6 @@
     "Test"
   ],
   "version": "1.2.4"
-}
-,
-{
-  "authors": [
-    "kuerbis"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Term::Choose:ver<1.5.3+>",
-    "Term::Choose::Util"
-  ],
-  "description": "Print a table to the terminal and browse it interactively.",
-  "license": "Artistic-2.0",
-  "name": "Term::TablePrint",
-  "perl": "6.c",
-  "provides": {
-    "Term::TablePrint": "lib/Term/TablePrint.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-TablePrint-p6-1.4.4.tar.gz",
-  "tags": [
-    "cli",
-    "table",
-    "terminal",
-    "text"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.4.4"
 }
 ,
 {
