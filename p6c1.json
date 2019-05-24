@@ -13346,7 +13346,8 @@
   "perl": "6.*",
   "provides": {
     "Crypt::Argon2": "lib/Crypt/Argon2.pm6",
-    "Crypt::Argon2::Base": "lib/Crypt/Argon2/Base.pm6"
+    "Crypt::Argon2::Base": "lib/Crypt/Argon2/Base.pm6",
+    "Crypt::Argon2::DeriveKey": "lib/Crypt/Argon2/DeriveKey.pm6"
   },
   "resources": [
     "libraries/argon2"
