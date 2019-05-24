@@ -7490,6 +7490,22 @@
 }
 ,
 {
+  "author": "github:teodozjan",
+  "depends": [
+    
+  ],
+  "description": "Mortgage calculation library",
+  "license": "Artistic-2.0",
+  "name": "Mortgage",
+  "perl": "6.*",
+  "provides": {
+    "Mortgage": "lib/Mortgage.pm6"
+  },
+  "source-url": "git://github.com/teodozjan/mortage6.git",
+  "version": "*"
+}
+,
+{
   "author": "Rob Hoelz",
   "build-depends": [
     "LibraryMake"
