@@ -4459,6 +4459,21 @@
 }
 ,
 {
+  "author": "Sir Robert Burbridge",
+  "depends": [
+    
+  ],
+  "description": "Semantic versioning for objects",
+  "name": "Semantic::Versioning",
+  "perl": "6.*",
+  "provides": {
+    "Semantic::Versioning": "lib/Semantic/Versioning.pm"
+  },
+  "source-url": "git://github.com/sirrobert/Semantic-Versioning.git",
+  "version": "*"
+}
+,
+{
   "author": "Lucien Grondin <grondilu@yahoo.fr>",
   "build-depends": [
     "NativeCall"
