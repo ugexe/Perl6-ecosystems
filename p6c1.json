@@ -2661,6 +2661,37 @@
 }
 ,
 {
+  "auth": "cosimo",
+  "authors": [
+    "Cosimo Streppone"
+  ],
+  "depends": [
+    "String::CRC32"
+  ],
+  "description": "Interface to memcached service",
+  "meta-version": 0,
+  "name": "Cache::Memcached",
+  "perl": "6.c",
+  "provides": {
+    "Cache::Memcached": "lib/Cache/Memcached.pm"
+  },
+  "source-url": "git://github.com/cosimo/perl6-cache-memcached.git",
+  "support": {
+    "bugtracker": "https://github.com/cosimo/perl6-cache-memcached/issues",
+    "source": "git://github.com/cosimo/perl6-cache-memcached.git"
+  },
+  "tags": [
+    "cache",
+    "memcached",
+    "CPAN5"
+  ],
+  "test-depends": [
+    "CheckSocket"
+  ],
+  "version": "0.0.11"
+}
+,
+{
   "depends": [
     "SVG",
     "SVG::Plot"
