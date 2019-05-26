@@ -27762,6 +27762,36 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "A powerful getopt implementation",
+  "license": "Artistic-2.0",
+  "name": "Getopt::Long",
+  "perl": "6.*",
+  "provides": {
+    "Getopt::Long": "lib/Getopt/Long.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Getopt-Long-0.1.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "IO::Glob"
   ],
   "description": "Iterative, recursive file finder for Perl 6",
