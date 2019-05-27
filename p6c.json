@@ -10119,22 +10119,6 @@
 }
 ,
 {
-  "author": "sylvarant",
-  "depends": [
-    "NativeCall",
-    "LibraryMake"
-  ],
-  "description": "Brotli compression using NativeCall",
-  "name": "Compress::Brotli",
-  "perl": "6.*",
-  "provides": {
-    "Compress::Brotli": "lib/Compress/Brotli.pm"
-  },
-  "source-url": "git://github.com/sylvarant/Compress-Brotli.git",
-  "version": "0.1.0"
-}
-,
-{
   "author": "Sylvain Colinet",
   "depends": [
     "File::Temp"
