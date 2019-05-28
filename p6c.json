@@ -23056,28 +23056,6 @@
 }
 ,
 {
-  "author": "Sylwester Lunski",
-  "depends": [
-    
-  ],
-  "description": "Pure Perl6 LDIF file parser",
-  "license": "http://www.perlfoundation.org/artistic_license_2_0",
-  "name": "Text::LDIF",
-  "perl": "6.c",
-  "provides": {
-    "Text::LDIF": "lib/Text/LDIF.pm6",
-    "Text::LDIF::Actions": "lib/Text/LDIF/Actions.pm6",
-    "Text::LDIF::Grammar": "lib/Text/LDIF/Grammar.pm6"
-  },
-  "repo-type": "git",
-  "source-url": "git://github.com/slunski/perl6-text-ldif.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.1"
-}
-,
-{
   "authors": [
     "Petr Kolář"
   ],
