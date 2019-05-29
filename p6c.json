@@ -10373,6 +10373,22 @@
 }
 ,
 {
+  "author": "Michael",
+  "depends": [
+    "WebService::HazIP",
+    "HTTP::UserAgent"
+  ],
+  "description": "Simple web service used to update an IP address on domains.google.com if the current one has changed. ",
+  "license": "Artistic-2.0",
+  "name": "WebService::GoogleDyDNS",
+  "provides": {
+    "WebService::GoogleDyDNS": "lib/WebService/GoogleDyDNS.pm6"
+  },
+  "source-url": "git://github.com/cbk/WebService-GoogleDyDNS.git",
+  "version": "1.0.0"
+}
+,
+{
   "authors": [
     "Sylvain Colinet <scolinet@gmail.com>"
   ],
