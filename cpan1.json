@@ -43543,6 +43543,37 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:taboege",
+  "authors": [
+    "Tobias Boege"
+  ],
+  "depends": [
+    "WWW"
+  ],
+  "description": "Look up sequences on the On-Line Encyclopedia of Integer Sequences®",
+  "license": "Artistic-2.0",
+  "name": "OEIS",
+  "perl": "6.c",
+  "provides": {
+    "OEIS": "lib/OEIS.pm6",
+    "OEIS::Entry": "lib/OEIS/Entry.pm6",
+    "OEIS::Keywords": "lib/OEIS/Keywords.pm6",
+    "X::OEIS": "lib/X/OEIS.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TO/TOBS/Perl6/OEIS-1.0.0.tar.gz",
+  "tags": [
+    "OEIS",
+    "API",
+    "sequence"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "1.0.0"
+}
+,
+{
   "authors": [
     "Tokuhiro Matsuno"
   ],
