@@ -36612,6 +36612,41 @@
 ,
 {
   "authors": [
+    "="
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "HTML::Escape"
+  ],
+  "description": "Declarative HTML generation",
+  "license": "Artistic-2.0",
+  "name": "HTML::Lazy",
+  "perl": "6.c",
+  "provides": {
+    "HTML::Lazy": "lib/HTML/Lazy.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/HTML-Lazy-0.0.1.tar.gz",
+  "tags": [
+    "Web",
+    "Content",
+    "Generation",
+    "Template",
+    "FP",
+    "Functional"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
     "Sam Gillespie"
   ],
   "build-depends": [
@@ -36883,6 +36918,43 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Encapsulate the results of a computation.",
+  "license": "Artistic-2.0",
+  "name": "Result",
+  "perl": "6.c",
+  "provides": {
+    "Result": "lib/Result.pm6",
+    "Result::Any": "lib/Result/Any.pm6",
+    "Result::Err": "lib/Result/Err.pm6",
+    "Result::Ok": "lib/Result/Ok.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Result-0.2.3.tar.gz",
+  "tags": [
+    "Failure",
+    "Functional",
+    "Error",
+    "FP",
+    "Exception"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.3"
+}
+,
+{
+  "authors": [
+    "Sam Gillespie"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Serialise::Map",
     "Result",
     "JSON::Tiny"
@@ -37073,6 +37145,36 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Sam Gillespie"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Result:ver<0.2.0+>"
+  ],
+  "description": "Runtime validation of associative datastructures",
+  "license": "Artistic-2.0",
+  "name": "Structable",
+  "perl": "6.c",
+  "provides": {
+    "Structable": "lib/Structable.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Structable-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
