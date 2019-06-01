@@ -33602,6 +33602,43 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Encapsulate the results of a computation.",
+  "license": "Artistic-2.0",
+  "name": "Result",
+  "perl": "6.c",
+  "provides": {
+    "Result": "lib/Result.pm6",
+    "Result::Any": "lib/Result/Any.pm6",
+    "Result::Err": "lib/Result/Err.pm6",
+    "Result::Ok": "lib/Result/Ok.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/Result-0.2.4.tar.gz",
+  "tags": [
+    "Failure",
+    "Functional",
+    "Error",
+    "FP",
+    "Exception"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.4"
+}
+,
+{
+  "authors": [
+    "Sam Gillespie"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Serialise::Map",
     "Result",
     "JSON::Tiny"
