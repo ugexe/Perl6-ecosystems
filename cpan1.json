@@ -24044,6 +24044,37 @@
     
   ],
   "depends": [
+    "Term::Choose:ver<1.5.7+>"
+  ],
+  "description": "CLI related functions.",
+  "license": "Artistic-2.0",
+  "name": "Term::Choose::Util",
+  "perl": "6.d",
+  "provides": {
+    "Term::Choose::Util": "lib/Term/Choose/Util.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-Util-p6-1.2.8.tar.gz",
+  "tags": [
+    "cli",
+    "terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.2.8"
+}
+,
+{
+  "authors": [
+    "kuerbis"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Term::termios"
   ],
   "description": "Choose items from a list interactively.",
@@ -24155,6 +24186,43 @@
     
   ],
   "depends": [
+    "Term::termios"
+  ],
+  "description": "Choose items from a list interactively.",
+  "license": "Artistic-2.0",
+  "name": "Term::Choose",
+  "perl": "6.d",
+  "provides": {
+    "Term::Choose": "lib/Term/Choose.pm6",
+    "Term::Choose::LineFold": "lib/Term/Choose/LineFold.pm6",
+    "Term::Choose::LineFold::CharWidthAmbiguousWide": "lib/Term/Choose/LineFold/CharWidthAmbiguousWide.pm6",
+    "Term::Choose::LineFold::CharWidthDefault": "lib/Term/Choose/LineFold/CharWidthDefault.pm6",
+    "Term::Choose::ReadKey": "lib/Term/Choose/ReadKey.pm6",
+    "Term::Choose::Screen": "lib/Term/Choose/Screen.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-p6-1.5.7.tar.gz",
+  "tags": [
+    "cli",
+    "terminal",
+    "text"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.5.7"
+}
+,
+{
+  "authors": [
+    "kuerbis"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Term::termios",
     "Term::Choose:ver<1.5.3+>"
   ],
@@ -24238,6 +24306,37 @@
     "Test"
   ],
   "version": "1.2.4"
+}
+,
+{
+  "authors": [
+    "kuerbis"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Term::termios",
+    "Term::Choose:ver<1.5.7+>"
+  ],
+  "description": "Read lines from STDIN.",
+  "license": "Artistic-2.0",
+  "name": "Term::Form",
+  "perl": "6.d",
+  "provides": {
+    "Term::Form": "lib/Term/Form.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Form-p6-1.2.5.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.2.5"
 }
 ,
 {
@@ -24340,6 +24439,40 @@
     "Test"
   ],
   "version": "1.4.7"
+}
+,
+{
+  "authors": [
+    "kuerbis"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Term::Choose:ver<1.5.7+>",
+    "Term::Choose::Util:ver<1.2.8+>"
+  ],
+  "description": "Print a table to the terminal and browse it interactively.",
+  "license": "Artistic-2.0",
+  "name": "Term::TablePrint",
+  "perl": "6.d",
+  "provides": {
+    "Term::TablePrint": "lib/Term/TablePrint.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-TablePrint-p6-1.4.8.tar.gz",
+  "tags": [
+    "cli",
+    "table",
+    "terminal",
+    "text"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.4.8"
 }
 ,
 {
