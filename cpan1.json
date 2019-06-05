@@ -25280,6 +25280,34 @@
     
   ],
   "depends": [
+    "XML"
+  ],
+  "description": "XML Actions",
+  "license": "Artistic-2.0",
+  "name": "XML::Actions",
+  "perl": "6",
+  "provides": {
+    "XML::Actions": "lib/XML/Actions.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/XML-Actions-0.3.2.tar.gz",
+  "tags": [
+    "XML",
+    "actions"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.3.1.3"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "XML::Actions",
     "GTK::V3"
   ],
