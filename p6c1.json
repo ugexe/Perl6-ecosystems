@@ -2187,20 +2187,20 @@
   "depends": [
     
   ],
-  "description": "Convert integer numbers to their cardinal or ordinal representation",
+  "description": "Various number-string conversion utilities",
   "license": "Artistic-2.0",
-  "name": "Lingua::EN::Numbers::Cardinal",
+  "name": "Lingua::EN::Numbers",
   "perl": "6.*",
   "provides": {
-    "Lingua::EN::Numbers::Cardinal": "lib/Lingua/EN/Numbers/Cardinal.pm6"
+    "Lingua::EN::Numbers": "lib/Lingua/EN/Numbers.pm6"
   },
   "source-type": "git",
-  "source-url": "git://github.com/thundergnat/Lingua-EN-Numbers-Cardinal.git",
+  "source-url": "git://github.com/thundergnat/Lingua-EN-Numbers.git",
   "tags": [
     "Number",
     "Convert"
   ],
-  "version": "2.2.0"
+  "version": "2.4.0"
 }
 ,
 {
