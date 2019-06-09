@@ -1619,6 +1619,21 @@
 }
 ,
 {
+  "author": "Mike Clarke <clarkema@clarkema.org>",
+  "depends": [
+    
+  ],
+  "description": "Render Perl6 Pod as Roff for man(1)",
+  "license": "Artistic-2.0",
+  "name": "Pod::To::Man",
+  "provides": {
+    "Pod::To::Man": "lib/Pod/To/Man.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CL/CLARKEMA/Perl6/Pod-To-Man-0.1.0.tar.gz",
+  "version": "0.1.0"
+}
+,
+{
   "authors": [
     "Will 'Coke' Coleda"
   ],
