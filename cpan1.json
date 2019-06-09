@@ -24718,6 +24718,71 @@
 }
 ,
 {
+  "auth": "CPAN:lembark",
+  "authors": [
+    "Steven Lembark"
+  ],
+  "build-depends": [
+    "FileSystem::Parent"
+  ],
+  "depends": [
+    "FileSystem::Parent"
+  ],
+  "description": "Scan up ",
+  "license": "Artistic-2.0",
+  "name": "FindBin::libs",
+  "perl": "6.c",
+  "provides": {
+    "FindBin::libs": "lib/FindBin/libs.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-libs-0.1.0.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "FileSystem::Parent"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "auth": "CPAN:lembark",
+  "authors": [
+    "Steven Lembark"
+  ],
+  "build-depends": [
+    "FileSystem::Parent"
+  ],
+  "depends": [
+    "FileSystem::Parent"
+  ],
+  "description": "Scan up ",
+  "license": "Artistic-2.0",
+  "name": "FindBin::libs",
+  "perl": "6.c",
+  "provides": {
+    "FindBin::Frobnicate": "lib/FindBin/Frobnicate.pm6",
+    "FindBin::libs": "lib/FindBin/libs.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-libs-0.1.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "FileSystem::Parent"
+  ],
+  "version": "0.1.1"
+}
+,
+{
   "auth": "cpan:LEONT",
   "authors": [
     "Leon Timmermans"
