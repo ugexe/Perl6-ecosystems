@@ -24678,6 +24678,37 @@
     
   ],
   "depends": [
+    "FindBin"
+  ],
+  "description": "Locate [sub]dirs above a given starting point.",
+  "license": "Artistic-2.0",
+  "name": "FileSystem::Parent",
+  "perl": "6.d",
+  "provides": {
+    "FileSystem::Parent": "lib/FileSystem/Parent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FileSystem-Parent-0.3.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.1"
+}
+,
+{
+  "auth": "CPAN:lembark",
+  "authors": [
+    "lembark"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Locate execution directory and basename.",
@@ -24760,6 +24791,37 @@
     
   ],
   "version": "0.4.0"
+}
+,
+{
+  "auth": "CPAN:lembark",
+  "authors": [
+    "lembark"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Locate execution directory and basename.",
+  "license": "Artistic-2.0",
+  "name": "FindBin",
+  "perl": "6.d",
+  "provides": {
+    "FindBin": "lib/FindBin.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-0.4.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.4.1"
 }
 ,
 {
@@ -24857,6 +24919,39 @@
     "FileSystem::Parent"
   ],
   "version": "0.1.1"
+}
+,
+{
+  "auth": "CPAN:lembark",
+  "authors": [
+    "Steven Lembark"
+  ],
+  "build-depends": [
+    "FileSystem::Parent"
+  ],
+  "depends": [
+    "FileSystem::Parent"
+  ],
+  "description": "Scan up ",
+  "license": "Artistic-2.0",
+  "name": "FindBin::libs",
+  "perl": "6.c",
+  "provides": {
+    "FindBin::Frobnicate": "lib/FindBin/Frobnicate.pm6",
+    "FindBin::libs": "lib/FindBin/libs.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-libs-0.1.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "FileSystem::Parent"
+  ],
+  "version": "0.1.2"
 }
 ,
 {
