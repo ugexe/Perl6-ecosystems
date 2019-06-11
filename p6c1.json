@@ -252,24 +252,6 @@
   "depends": [
     
   ],
-  "description": "Vector math class",
-  "name": "Math::Vector",
-  "perl": "6.*",
-  "provides": {
-    "Math::Vector": "lib/Math/Vector.pm"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/colomon/Math-Vector.git",
-  "tags": [
-    "Math"
-  ],
-  "version": "0.5.1"
-}
-,
-{
-  "depends": [
-    
-  ],
   "description": "Basic continued fraction arithmetic",
   "name": "Math::ContinuedFractions",
   "provides": {
@@ -3990,6 +3972,20 @@
     "Test"
   ],
   "version": "0.0.6"
+}
+,
+{
+  "depends": [
+    
+  ],
+  "description": "Better type checking for first-class functions",
+  "name": "Typed::Subroutines",
+  "perl": "6.*",
+  "provides": {
+    "Typed::Subroutines": "lib/Typed/Subroutines.pm"
+  },
+  "source-url": "git://github.com/tadzik/Typed-Subroutines.git",
+  "version": "*"
 }
 ,
 {
