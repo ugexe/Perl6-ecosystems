@@ -22219,6 +22219,35 @@
 {
   "authors": "Tobias Boege",
   "build-depends": [
+    
+  ],
+  "depends": [
+    "Compress::Zlib"
+  ],
+  "description": "Generic SAT solver interface and testing",
+  "license": "Artistic-2.0",
+  "name": "SAT",
+  "perl": "6.c",
+  "provides": {
+    "SAT": "lib/SAT.pm6",
+    "Test::SAT": "lib/Test/SAT.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/taboege/p6-SAT.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "authors": "Tobias Boege",
+  "build-depends": [
     "make:from<bin>",
     "g++:from<bin>"
   ],
