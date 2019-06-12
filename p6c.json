@@ -2932,7 +2932,7 @@
   "support": {
     "source": "https://github.com/perl6-community-modules/uri.git"
   },
-  "version": "0.2.0"
+  "version": "0.2.1"
 }
 ,
 {
@@ -10321,6 +10321,25 @@
     "Validator"
   ],
   "version": "1.0.3"
+}
+,
+{
+  "author": "Carsten Hartenfels",
+  "depends": [
+    
+  ],
+  "description": "Glue for Mozilla's JavaScript interpreter.",
+  "license": "Artistic-2.0",
+  "name": "JavaScript::SpiderMonkey",
+  "provides": {
+    "JavaScript::SpiderMonkey": "lib/JavaScript/SpiderMonkey.pm6",
+    "JavaScript::SpiderMonkey::Context": "lib/JavaScript/SpiderMonkey/Context.pm6",
+    "JavaScript::SpiderMonkey::Error": "lib/JavaScript/SpiderMonkey/Error.pm6",
+    "JavaScript::SpiderMonkey::Runtime": "lib/JavaScript/SpiderMonkey/Runtime.pm6",
+    "JavaScript::SpiderMonkey::Value": "lib/JavaScript/SpiderMonkey/Value.pm6"
+  },
+  "source-url": "git://github.com/hartenfels/JavaScript-SpiderMonkey.git",
+  "version": "0.0.1"
 }
 ,
 {
