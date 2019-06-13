@@ -44902,6 +44902,42 @@
     
   ],
   "depends": [
+    "Terminal::Table"
+  ],
+  "description": "A module that implements the Quine–McCluskey (QM) algorithm for simplifying Boolean functions",
+  "license": "Artistic-2.0",
+  "name": "QM",
+  "perl": "6.c",
+  "provides": {
+    "QM": "lib/QM.pm6",
+    "Utils": "lib/Utils.pm6",
+    "qm": "bin/qm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/U/UZ/UZLUISF/Perl6/QM-0.0.2.tar.gz",
+  "tags": [
+    "Quine-McCluskey",
+    "Boolean algebra",
+    "Minterms",
+    "Prime implicants"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "gitlab:uzluisf",
+  "authors": [
+    "Luis F. Uceta"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "A module for ranking scorable types using various ranking strategies",
