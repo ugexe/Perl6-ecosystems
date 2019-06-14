@@ -2696,22 +2696,6 @@
 ,
 {
   "depends": [
-    "SVG",
-    "SVG::Plot"
-  ],
-  "description": "Simple benchmark graphing script",
-  "name": "Benchmark::Plot",
-  "perl": "6.*",
-  "provides": {
-    
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/colomon/Benchmark-Plot.git",
-  "version": "*"
-}
-,
-{
-  "depends": [
     
   ],
   "description": "An IRC bot framework",
@@ -22043,7 +22027,8 @@
   ],
   "depends": [
     "ASN::Grammar",
-    "ASN::BER"
+    "ASN::BER",
+    "Type::EnumHOW"
   ],
   "description": "A MOP-based compile-time ASN.1 spec evaluator",
   "license": "Artistic-2.0",
@@ -22057,7 +22042,7 @@
     
   ],
   "source-url": "https://github.com/Altai-man/ASN-META.git",
-  "version": "0.4.1"
+  "version": "0.4.2"
 }
 ,
 {
