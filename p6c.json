@@ -2696,6 +2696,22 @@
 ,
 {
   "depends": [
+    "SVG",
+    "SVG::Plot"
+  ],
+  "description": "Simple benchmark graphing script",
+  "name": "Benchmark::Plot",
+  "perl": "6.*",
+  "provides": {
+    
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/colomon/Benchmark-Plot.git",
+  "version": "*"
+}
+,
+{
+  "depends": [
     
   ],
   "description": "An IRC bot framework",
@@ -22008,7 +22024,7 @@
     
   ],
   "source-url": "https://github.com/Altai-man/ASN-Grammar.git",
-  "version": "0.3"
+  "version": "0.3.5"
 }
 ,
 {
