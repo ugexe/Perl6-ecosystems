@@ -11993,55 +11993,6 @@
 ,
 {
   "authors": [
-    "Frank Hartmann"
-  ],
-  "build-depends": [
-    "Shell::Command"
-  ],
-  "depends": [
-    "LibraryMake"
-  ],
-  "description": "tweetnacl p6 bindings - public/secret key encryption and signatures",
-  "license": "Public Domain",
-  "name": "Crypt::TweetNacl",
-  "perl": "v6.c",
-  "provides": {
-    "Crypt::TweetNacl::Basics": "lib/Crypt/TweetNacl/Basics.pm6",
-    "Crypt::TweetNacl::Constants": "lib/Crypt/TweetNacl/Constants.pm6",
-    "Crypt::TweetNacl::PublicKey": "lib/Crypt/TweetNacl/PublicKey.pm6",
-    "Crypt::TweetNacl::SecretKey": "lib/Crypt/TweetNacl/SecretKey.pm6",
-    "Crypt::TweetNacl::Sign": "lib/Crypt/TweetNacl/Sign.pm6"
-  },
-  "resources": [
-    "libraries/tweetnacl"
-  ],
-  "source-url": "git://github.com/soundart/perl6-tweetnacl.git",
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "authors": [
-    "github:pierre-vigier"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Moo similar Lazy attribute funtionality",
-  "license": "Artistic-2.0",
-  "name": "AttrX::Lazy",
-  "perl": "6.c",
-  "provides": {
-    "AttrX::Lazy": "lib/AttrX/Lazy.pm6"
-  },
-  "source-url": "git://github.com/pierre-vigier/Perl6-AttrX-Lazy.git",
-  "version": "0.0.3"
-}
-,
-{
-  "authors": [
     "Zoffix Znet"
   ],
   "depends": [
