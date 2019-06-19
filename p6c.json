@@ -4960,21 +4960,6 @@
 }
 ,
 {
-  "depends": [
-    "Terminal::ANSIColor"
-  ],
-  "description": "Command-line debugger frontend for Rakudo",
-  "license": "Artistic-2.0",
-  "name": "Debugger::UI::CommandLine",
-  "perl": "6.*",
-  "provides": {
-    "Debugger::UI::CommandLine": "lib/Debugger/UI/CommandLine.pm"
-  },
-  "source-url": "git://github.com/jnthn/rakudo-debugger.git",
-  "version": "*"
-}
-,
-{
   "author": "Brent Laabs",
   "depends": [
     "File::Find",
