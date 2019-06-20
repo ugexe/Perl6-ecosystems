@@ -25156,6 +25156,68 @@
     "Steven Lembark"
   ],
   "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "dump rusage process statistics with optional label.",
+  "license": "Artistic-2.0",
+  "name": "ProcStats",
+  "perl": "6.d",
+  "provides": {
+    "ProcStats": "lib/ProcStats.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/ProcStats-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "FindBin::libs"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "CPAN:lembark",
+  "authors": [
+    "Steven Lembark"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "dump rusage process statistics with optional label.",
+  "license": "Artistic-2.0",
+  "name": "ProcStats",
+  "perl": "6.d",
+  "provides": {
+    "ProcStats": "lib/ProcStats.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/ProcStats-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "FindBin::libs"
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "CPAN:lembark",
+  "authors": [
+    "Steven Lembark"
+  ],
+  "build-depends": [
     "nqp"
   ],
   "depends": [
