@@ -19958,6 +19958,48 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Which",
+    "JSON::Fast"
+  ],
+  "description": "Detect audio cue-in, cue-out using silan https://github.com/x42/silan",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Audio::Silan",
+  "perl": "6.",
+  "provides": {
+    "Audio::Silan": "lib/Audio/Silan.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Silan-0.0.7.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Audio-Silan/issues",
+    "irc": "irc:// irc.freenode.net/#perl6",
+    "source": "git://github.com/jonathanstowe/Audio-Silan.git"
+  },
+  "tags": [
+    "audio",
+    "util",
+    "silence"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
@@ -21583,6 +21625,48 @@
     "IO::MiddleMan"
   ],
   "version": "0.0.8"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "DateTime::Format"
+  ],
+  "description": "A simple logging framework.",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Lumberjack",
+  "perl": "6.*",
+  "provides": {
+    "Lumberjack": "lib/Lumberjack.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-0.0.9.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Lumberjack/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Lumberjack.git"
+  },
+  "tags": [
+    "logger",
+    "log",
+    "logging",
+    "framework"
+  ],
+  "test-depends": [
+    "Test",
+    "IO::MiddleMan"
+  ],
+  "version": "0.0.9"
 }
 ,
 {
@@ -24516,40 +24600,6 @@
     "Test"
   ],
   "version": "1.2.5"
-}
-,
-{
-  "authors": [
-    "kuerbis"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Term::Choose:ver<1.5.3+>",
-    "Term::Choose::Util"
-  ],
-  "description": "Print a table to the terminal and browse it interactively.",
-  "license": "Artistic-2.0",
-  "name": "Term::TablePrint",
-  "perl": "6.c",
-  "provides": {
-    "Term::TablePrint": "lib/Term/TablePrint.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-TablePrint-p6-1.4.6.tar.gz",
-  "tags": [
-    "cli",
-    "table",
-    "terminal",
-    "text"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.4.6"
 }
 ,
 {
