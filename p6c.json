@@ -10613,6 +10613,7 @@
   "perl": "6.c",
   "provides": {
     "DDT": "lib/Data/Dump/Tree.pm6",
+    "DDTR::ColorBlobLevel": "lib/Data/Dump/Tree/ColorBlobLevel.pm6",
     "Data::Dump::Tree": "lib/Data/Dump/Tree.pm6",
     "Data::Dump::Tree::Colorizer": "lib/Data/Dump/Tree/Colorizer.pm6",
     "Data::Dump::Tree::DHTML": "lib/Data/Dump/Tree/DHTML.pm6",
@@ -10644,7 +10645,7 @@
     "Test",
     "Test::META"
   ],
-  "version": "2.6.0"
+  "version": "2.7.0"
 }
 ,
 {
