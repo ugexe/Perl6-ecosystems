@@ -4159,6 +4159,21 @@
 }
 ,
 {
+  "depends": [
+    
+  ],
+  "description": "A Perl 6 module to deal with W3CDTF dates",
+  "name": "DateTime::Format::W3CDTF",
+  "perl": "6.*",
+  "provides": {
+    "DateTime::Format::W3CDTF": "lib/DateTime/Format/W3CDTF.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/afiskon/p6-datetime-format-w3cdtf.git",
+  "version": "*"
+}
+,
+{
   "author": "Yecheng Fu",
   "depends": [
     
@@ -6881,6 +6896,28 @@
   },
   "source-url": "git://github.com/tony-o/perl6-operator-feq.git",
   "version": "0.1.1"
+}
+,
+{
+  "author": "raydiak",
+  "depends": [
+    
+  ],
+  "description": "Symbolic math for Perl 6",
+  "license": "Artistic-2.0",
+  "name": "Math::Symbolic",
+  "perl": "6.*",
+  "provides": {
+    "Math::Symbolic": "lib/Math/Symbolic.pm6",
+    "Math::Symbolic::Constants": "lib/Math/Symbolic/Constants.pm6",
+    "Math::Symbolic::Grammar": "lib/Math/Symbolic/Grammar.pm6",
+    "Math::Symbolic::Language": "lib/Math/Symbolic/Language.pm6",
+    "Math::Symbolic::MultiHash": "lib/Math/Symbolic/MultiHash.pm6",
+    "Math::Symbolic::Operation": "lib/Math/Symbolic/Operation.pm6",
+    "Math::Symbolic::Tree": "lib/Math/Symbolic/Tree.pm6"
+  },
+  "source-url": "git://github.com/raydiak/Math-Symbolic.git",
+  "version": "*"
 }
 ,
 {
