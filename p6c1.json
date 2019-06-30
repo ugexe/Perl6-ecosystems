@@ -13114,6 +13114,50 @@
 ,
 {
   "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "HTTP::Tinyish",
+    "JSON::Fast",
+    "URI::Escape",
+    "Base64",
+    "Digest::SHA",
+    "Digest::HMAC",
+    "URI",
+    "URI::Escape",
+    "Subset::Helper"
+  ],
+  "description": "Twitter API",
+  "license": "Artistic-2.0",
+  "name": "Twitter",
+  "perl": "6.c",
+  "provides": {
+    "Twitter": "lib/Twitter.pm6",
+    "Twitter::API": "lib/Twitter/API.pm6",
+    "Twitter::API::AccountCredentials": "lib/Twitter/API/AccountCredentials.pm6",
+    "Twitter::API::AccountSettings": "lib/Twitter/API/AccountSettings.pm6",
+    "Twitter::API::ApplicationRateLimit": "lib/Twitter/API/ApplicationRateLimit.pm6",
+    "Twitter::API::DMReceived": "lib/Twitter/API/DMReceived.pm6",
+    "Twitter::API::DMSent": "lib/Twitter/API/DMSent.pm6",
+    "Twitter::API::DirectMessages": "lib/Twitter/API/DirectMessages.pm6",
+    "Twitter::API::Favorites": "lib/Twitter/API/Favorites.pm6",
+    "Twitter::API::FavoritesList": "lib/Twitter/API/FavoritesList.pm6",
+    "Twitter::API::Search": "lib/Twitter/API/Search.pm6",
+    "Twitter::API::Statuses": "lib/Twitter/API/Statuses.pm6",
+    "Twitter::API::TrendsAvailable": "lib/Twitter/API/TrendsAvailable.pm6",
+    "Twitter::API::TrendsPlace": "lib/Twitter/API/TrendsPlace.pm6",
+    "Twitter::OAuth": "lib/Twitter/OAuth.pm6",
+    "Twitter::UA": "lib/Twitter/UA.pm6"
+  },
+  "source-url": "git://github.com/zoffixznet/perl6-Twitter.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.004003"
+}
+,
+{
+  "authors": [
     "Jake Russo <madcap.russo+rabble@gmail.com>"
   ],
   "description": "A Forth written in Perl 6",
