@@ -19645,6 +19645,47 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides a method trait to turn indivdual get/set subroutines into a single attribute",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "AccessorFacade",
+  "perl": "6.*",
+  "provides": {
+    "AccessorFacade": "lib/AccessorFacade.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/AccessorFacade-0.0.9.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/AccessorFacade/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/AccessorFacade.git"
+  },
+  "tags": [
+    "devel",
+    "utils",
+    "facade"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
