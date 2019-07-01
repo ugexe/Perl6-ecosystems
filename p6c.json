@@ -6223,30 +6223,7 @@
   "name": "Cairo",
   "perl": "v6",
   "provides": {
-    "Cairo": "lib/Cairo.pm6",
-    "Cairo::Antialias": "lib/Cairo.pm6",
-    "Cairo::Content": "lib/Cairo.pm6",
-    "Cairo::Context": "lib/Cairo.pm6",
-    "Cairo::Extend": "lib/Cairo.pm6",
-    "Cairo::FillRule": "lib/Cairo.pm6",
-    "Cairo::FontSlant": "lib/Cairo.pm6",
-    "Cairo::FontWeight": "lib/Cairo.pm6",
-    "Cairo::Format": "lib/Cairo.pm6",
-    "Cairo::Image": "lib/Cairo.pm6",
-    "Cairo::LineCap": "lib/Cairo.pm6",
-    "Cairo::LineJoin": "lib/Cairo.pm6",
-    "Cairo::Matrix": "lib/Cairo.pm6",
-    "Cairo::Operator": "lib/Cairo.pm6",
-    "Cairo::Pattern": "lib/Cairo.pm6",
-    "Cairo::Pattern::Gradient": "lib/Cairo.pm6",
-    "Cairo::Pattern::Gradient::Linear": "lib/Cairo.pm6",
-    "Cairo::Pattern::Gradient::Radial": "lib/Cairo.pm6",
-    "Cairo::Pattern::Solid": "lib/Cairo.pm6",
-    "Cairo::Pattern::Surface": "lib/Cairo.pm6",
-    "Cairo::RecordingSurface": "lib/Cairo.pm6",
-    "Cairo::Surface": "lib/Cairo.pm6",
-    "Cairo::Surface::PDF": "lib/Cairo.pm6",
-    "Cairo::Surface::SVG": "lib/Cairo.pm6"
+    "Cairo": "lib/Cairo.pm6"
   },
   "source-url": "https://github.com/timo/cairo-p6.git",
   "support": {
@@ -6257,7 +6234,7 @@
     "pdf",
     "svg"
   ],
-  "version": "0.2.5"
+  "version": "0.2.6"
 }
 ,
 {
@@ -23268,7 +23245,13 @@
     "Net::Telnet::Pending": "lib/Net/Telnet/Pending.pm6",
     "Net::Telnet::Server": "lib/Net/Telnet/Server.pm6",
     "Net::Telnet::Subnegotiation": "lib/Net/Telnet/Subnegotiation.pm6",
-    "Net::Telnet::Terminal": "lib/Net/Telnet/Terminal.pm6"
+    "Net::Telnet::Terminal": "lib/Net/Telnet/Terminal.pm6",
+    "Net::Telnet::Terminal::Client": "lib/Net/Telnet/Terminal/Client.pm6",
+    "Net::Telnet::Terminal::Server": "lib/Net/Telnet/Terminal/Server.pm6",
+    "Net::Telnet::Terminal::UNIX::Client": "lib/Net/Telnet/Terminal/UNIX/Client.pm6",
+    "Net::Telnet::Terminal::UNIX::Server": "lib/Net/Telnet/Terminal/UNIX/Server.pm6",
+    "Net::Telnet::Terminal::Win32::Client": "lib/Net/Telnet/Terminal/Win32/Client.pm6",
+    "Net::Telnet::Terminal::Win32::Server": "lib/Net/Telnet/Terminal/Win32/Server.pm6"
   },
   "resources": [
     
