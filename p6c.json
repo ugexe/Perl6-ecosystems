@@ -21660,7 +21660,7 @@
 }
 ,
 {
-  "author": "Richard Hainsworth",
+  "authors": "Richard Hainsworth",
   "depends": [
     "File::Directory::Tree",
     "JSON::Fast"
@@ -21670,13 +21670,13 @@
   "name": "Pod::To::Cached",
   "perl": "6.*",
   "provides": {
-    "CompUnit::PrecompilationRepository::Document": "lib/PrecompilationDoc.pm6",
-    "Pod::To::Cached": "lib/Cached.pm6"
+    "CompUnit::PrecompilationRepository::Document": "lib/CompUnit/PrecompilationRepository/Document.pm6",
+    "Pod::To::Cached": "lib/Pod/To/Cached.pm6"
   },
   "source-type": "git",
-  "source-url": "git://github.com/finanalyst/pod-cached.git",
+  "source-url": "https://github.com/finanalyst/pod-cached.git",
   "support": {
-    "source": "https://github.com/finanalyst/pod-cached"
+    "source": "https://github.com/finanalyst/pod-cached/issues"
   },
   "test-depends": [
     "Test",
