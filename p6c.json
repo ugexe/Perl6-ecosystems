@@ -23413,7 +23413,8 @@
     "Perl6::Type": "lib/Perl6/Type.pm6",
     "Perl6::TypeGraph": "lib/Perl6/TypeGraph.pm6",
     "Perl6::TypeGraph::Decl": "lib/Perl6/TypeGraph/Decl.pm6",
-    "Perl6::TypeGraph::DeclActions": "lib/Perl6/TypeGraph/DeclActions.pm6"
+    "Perl6::TypeGraph::DeclActions": "lib/Perl6/TypeGraph/DeclActions.pm6",
+    "Perl6::TypeGraph::Viz": "lib/Perl6/TypeGraph/Viz.pm6"
   },
   "resources": [
     "data/type-graph.txt"
@@ -23427,7 +23428,7 @@
   "test-depends": [
     "Test::META"
   ],
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
 ,
 {
