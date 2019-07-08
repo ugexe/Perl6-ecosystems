@@ -2931,6 +2931,76 @@
 }
 ,
 {
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ],
+  "depends": [
+    "Archive::Libarchive::Raw",
+    "Archive::Libarchive::Constants",
+    "NativeHelpers::Callback",
+    "Number::Bytes::Human",
+    "BitEnum"
+  ],
+  "description": "General support for various archive and compress libraries",
+  "license": "NASA-1.3",
+  "name": "Libarchive",
+  "perl": "6.*",
+  "provides": {
+    "Libarchive": "lib/Libarchive.pm6",
+    "Libarchive::Archive": "lib/Libarchive/Archive.pm6",
+    "Libarchive::Entry": "lib/Libarchive/Entry.pm6",
+    "Libarchive::Entry::Data": "lib/Libarchive/Entry/Data.pm6",
+    "Libarchive::Entry::Read": "lib/Libarchive/Entry/Read.pm6",
+    "Libarchive::Filter": "lib/Libarchive/Filter.pm6",
+    "Libarchive::Read": "lib/Libarchive/Read.pm6",
+    "Libarchive::Simple": "lib/Libarchive/Simple.pm6",
+    "Libarchive::Write": "lib/Libarchive/Write.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/Libarchive-0.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/perl6-libarchive/issues",
+    "source": "https://github.com/CurtTilmes/perl6-libarchive.git"
+  },
+  "tags": [
+    "ARCHIVE",
+    "LIBARCHIVE",
+    "TAR",
+    "ZIP",
+    "CPIO",
+    "ISO",
+    "CDROM",
+    "DVD",
+    "GZIP",
+    "COMPRESS",
+    "COMPRESSION",
+    "BZIP2",
+    "LZ4",
+    "UUENCODE",
+    "UUDECODE",
+    "LZMA",
+    "AR",
+    "CAB",
+    "LHA",
+    "MTREE",
+    "RAR",
+    "WARC",
+    "XAR",
+    "GRZIP",
+    "LRZIP",
+    "LZIP",
+    "ZSTD"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When",
+    "Test::META",
+    "File::Temp"
+  ],
+  "version": "0.1"
+}
+,
+{
   "authors": [
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
   ],
