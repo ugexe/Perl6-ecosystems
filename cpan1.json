@@ -22183,6 +22183,45 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Class"
+  ],
+  "description": "The SPDX licence list",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "License::SPDX",
+  "perl": "6.d",
+  "provides": {
+    "License::SPDX": "lib/License/SPDX.pm"
+  },
+  "resources": [
+    "data/licenses.json"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/License-SPDX-3.6.0.tar.gz",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/License-SPDX.git"
+  },
+  "tags": [
+    "licence",
+    "license",
+    "SPDX"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "3.6.0"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
