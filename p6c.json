@@ -8056,6 +8056,20 @@
 }
 ,
 {
+  "depends": [
+    
+  ],
+  "description": "A slang to allow Roman numerals",
+  "name": "Slang::Roman",
+  "perl": "6.*",
+  "provides": {
+    "Slang::Roman": "lib/Slang/Roman.pm6"
+  },
+  "source-url": "git://github.com/drforr/perl6-slang-roman.git",
+  "version": "0.1"
+}
+,
+{
   "auth": "github:drforr",
   "authors": [
     "Jeffrey Goff <drforr@pobox.com>"
@@ -14761,6 +14775,38 @@
 ,
 {
   "authors": [
+    "Sam Gillespie"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "NativeCall"
+  ],
+  "description": "Convert perl6 Numerics to Bufs and back again!",
+  "license": "Artistic-2.0",
+  "name": "Numeric::Pack",
+  "perl": "6.c",
+  "provides": {
+    "Numeric::Pack": "lib/Numeric/Pack.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/samgwise/p6-Numeric-Pack.git",
+  "tags": [
+    "Binary",
+    "Buf",
+    "Native"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.0"
+}
+,
+{
+  "authors": [
     "Adrian Kreher"
   ],
   "depends": [
@@ -14880,6 +14926,28 @@
   "repo-type": "git",
   "source-url": "git://github.com/slobo/Perl6-X11-Xlib-Raw.git",
   "version": "*"
+}
+,
+{
+  "authors": [
+    "Julien Simonet"
+  ],
+  "depends": [
+    "PerlStore::FileStore",
+    "IRC::Client"
+  ],
+  "description": "Plugin for counting user points.",
+  "license": "Artistic-2.0",
+  "name": "IRC::Client::Plugin::UserPoints",
+  "perl": "6.c",
+  "provides": {
+    "IRC::Client::Plugin::UserPoints": "lib/IRC/Client/Plugin/UserPoints.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/jsimonet/IRC-Client-Plugin-UserPoints.git",
+  "version": "0.1.3"
 }
 ,
 {
@@ -23388,6 +23456,9 @@
   "perl": "6.c",
   "provides": {
     "Perl6::Documentable": "lib/Perl6/Documentable.pm6",
+    "Perl6::Documentable::Processing": "lib/Perl6/Documentable/Processing.pm6",
+    "Perl6::Documentable::Processing::Actions": "lib/Perl6/Documentable/Processing/Actions.pm6",
+    "Perl6::Documentable::Processing::Grammar": "lib/Perl6/Documentable/Processing/Grammar.pm6",
     "Perl6::Documentable::Registry": "lib/Perl6/Documentable/Registry.pm6",
     "Perl6::Documentable::To::HTML": "lib/Perl6/Documentable/To/HTML.pm6"
   },
