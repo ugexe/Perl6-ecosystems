@@ -12993,6 +12993,78 @@
 }
 ,
 {
+  "authors": [
+    "Steve Mynott <steve.mynott@gmail.com>"
+  ],
+  "depends": [
+    "007",
+    "Bailador",
+    "Base64",
+    "BioInfo",
+    "BioPerl6",
+    "CSS::Grammar",
+    "CSV::Parser",
+    "CompUnit::Util",
+    "Compress::Zlib",
+    "Crust",
+    "DBIish",
+    "DateTime::Format",
+    "Debugger::UI::CommandLine",
+    "Digest",
+    "Digest::HMAC",
+    "Digest::MD5",
+    "Email::Simple",
+    "File::Find",
+    "File::Temp",
+    "File::Which",
+    "Grammar::BNF",
+    "Grammar::Debugger",
+    "Grammar::Profiler::Simple",
+    "HTTP::Easy",
+    "HTTP::Status",
+    "HTTP::UserAgent",
+    "JSON::RPC",
+    "JSON::Tiny",
+    "LWP::Simple",
+    "LibraryMake",
+    "Linenoise",
+    "MIME::Base64",
+    "OpenSSL",
+    "P6TCI",
+    "PSGI",
+    "Pod::To::HTML",
+    "Pod::To::Markdown",
+    "SCGI",
+    "SVG",
+    "SVG::Plot",
+    "Shell::Command",
+    "Sparrowdo",
+    "Template6",
+    "Template::Mojo",
+    "Terminal::ANSIColor",
+    "Test::META",
+    "Test::Mock",
+    "URI",
+    "URI::Encode",
+    "UUID",
+    "XML",
+    "XML::Writer",
+    "YAMLish",
+    "p6doc",
+    "panda",
+    "Zef"
+  ],
+  "description": "Another meta-package for modules (with tests), fatter than Task::Star and more test orientated.",
+  "name": "Task::Galaxy",
+  "perl": "6.c",
+  "provides": {
+    
+  },
+  "source-url": "https://gitlab.com/stmuk/p6-task-galaxy.git",
+  "version": "0.1"
+}
+,
+{
   "author": "Emeric Fischer <fischer.emeric@gmail.com>",
   "authors": [
     "Emeric Fischer"
@@ -21974,136 +22046,6 @@
 }
 ,
 {
-  "authors": [
-    "Ben Davies"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Perl 6 Bindings for GNU LibIDN",
-  "license": "Artistic-2.0",
-  "name": "Net::LibIDN",
-  "perl": "6.c",
-  "provides": {
-    "Net::LibIDN": "lib/Net/LibIDN.pm6",
-    "Net::LibIDN::Free": "lib/Net/LibIDN/Free.pm6",
-    "Net::LibIDN::Native": "lib/Net/LibIDN/Native.pm6",
-    "Net::LibIDN::Punycode": "lib/Net/LibIDN/Punycode.pm6",
-    "Net::LibIDN::StringPrep": "lib/Net/LibIDN/StringPrep.pm6",
-    "Net::LibIDN::TLD": "lib/Net/LibIDN/TLD.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/Kaiepi/p6-Net-LibIDN.git",
-  "tags": [
-    "API",
-    "Net",
-    "DNS"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "authors": [
-    "Ben Davies"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Perl 6 bindings for GNU LibIDN2",
-  "license": "Artistic-2.0",
-  "name": "Net::LibIDN2",
-  "perl": "6.c",
-  "provides": {
-    "Net::LibIDN2": "lib/Net/LibIDN2.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/Kaiepi/p6-Net-LibIDN2.git",
-  "tags": [
-    "API",
-    "DNS",
-    "Net"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.0"
-}
-,
-{
-  "authors": [
-    "Ben Davies"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Support for BubbleBabble string encoding and decoding",
-  "license": "Artistic-2.0",
-  "name": "Digest::BubbleBabble",
-  "perl": "6.c",
-  "provides": {
-    "Digest::BubbleBabble": "lib/Digest/BubbleBabble.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/Kaiepi/p6-Digest-BubbleBabble.git",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "authors": [
-    "Ben Davies"
-  ],
-  "build-depends": [
-    "LibraryMake",
-    "Shell::Command"
-  ],
-  "depends": [
-    
-  ],
-  "description": "CAST5 encryption library",
-  "license": "Artistic-2.0",
-  "name": "Crypt::CAST5",
-  "perl": "6.d",
-  "provides": {
-    "Crypt::CAST5": "lib/Crypt/CAST5.pm6"
-  },
-  "resources": [
-    "libraries/cast5"
-  ],
-  "source-url": "https://github.com/Kaiepi/p6-Crypt-CAST5",
-  "tags": [
-    "Crypt"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.0"
-}
-,
-{
   "authors": "Tobias Boege",
   "build-depends": [
     
@@ -22198,36 +22140,6 @@
     "Data::Dump"
   ],
   "version": "0.3.1"
-}
-,
-{
-  "authors": [
-    "Ben Davies"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Cro::HTTP"
-  ],
-  "description": "Hastebin client API",
-  "license": "Artistic-2.0",
-  "name": "Hastebin",
-  "perl": "6.d",
-  "provides": {
-    "Hastebin": "lib/Hastebin.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/Kaiepi/p6-Hastebin.git",
-  "tags": [
-    "API"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
 }
 ,
 {
@@ -23132,84 +23044,6 @@
 }
 ,
 {
-  "authors": [
-    "Ben Davies"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Telnet library for clients and servers",
-  "license": "Artistic-2.0",
-  "name": "Net::Telnet",
-  "perl": "6.d",
-  "provides": {
-    "Net::Telnet": "lib/Net/Telnet.pm6",
-    "Net::Telnet::Chunk": "lib/Net/Telnet/Chunk.pm6",
-    "Net::Telnet::Client": "lib/Net/Telnet/Client.pm6",
-    "Net::Telnet::Command": "lib/Net/Telnet/Command.pm6",
-    "Net::Telnet::Connection": "lib/Net/Telnet/Connection.pm6",
-    "Net::Telnet::Constants": "lib/Net/Telnet/Constants.pm6",
-    "Net::Telnet::Exceptions": "lib/Net/Telnet/Exceptions.pm6",
-    "Net::Telnet::Negotiation": "lib/Net/Telnet/Negotiation.pm6",
-    "Net::Telnet::Option": "lib/Net/Telnet/Option.pm6",
-    "Net::Telnet::Pending": "lib/Net/Telnet/Pending.pm6",
-    "Net::Telnet::Server": "lib/Net/Telnet/Server.pm6",
-    "Net::Telnet::Subnegotiation": "lib/Net/Telnet/Subnegotiation.pm6",
-    "Net::Telnet::Terminal": "lib/Net/Telnet/Terminal.pm6",
-    "Net::Telnet::Terminal::Client": "lib/Net/Telnet/Terminal/Client.pm6",
-    "Net::Telnet::Terminal::Server": "lib/Net/Telnet/Terminal/Server.pm6",
-    "Net::Telnet::Terminal::UNIX::Client": "lib/Net/Telnet/Terminal/UNIX/Client.pm6",
-    "Net::Telnet::Terminal::UNIX::Server": "lib/Net/Telnet/Terminal/UNIX/Server.pm6",
-    "Net::Telnet::Terminal::Win32::Client": "lib/Net/Telnet/Terminal/Win32/Client.pm6",
-    "Net::Telnet::Terminal::Win32::Server": "lib/Net/Telnet/Terminal/Win32/Server.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/Kaiepi/p6-Net-Telnet.git",
-  "tags": [
-    "Net"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "Ben Davies"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Sugar for enum's meta-object protocol",
-  "license": "Artistic-2.0",
-  "name": "Type::EnumHOW",
-  "perl": "6.d",
-  "provides": {
-    "Type::EnumHOW": "lib/Type/EnumHOW.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/Kaiepi/p6-Type-EnumHOW.git",
-  "tags": [
-    "Type"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
   "auth": "github:dmaestro",
   "authors": [
     "dmaestro <dmaestro@cpan.org>"
@@ -23496,5 +23330,36 @@
     
   ],
   "version": "1.0.2"
+}
+,
+{
+  "auth": "github:Kaiepi",
+  "authors": [
+    "Ben Davies <kaiepi@outlook.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Failure sum type",
+  "license": "Artistic-2.0",
+  "name": "Failable",
+  "perl": "6.d",
+  "provides": {
+    "Failable": "lib/Failable.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/Kaiepi/p6-Failable.git",
+  "tags": [
+    "Type"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.1"
 }
 ]
