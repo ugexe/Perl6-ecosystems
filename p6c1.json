@@ -23229,6 +23229,7 @@
   "perl": "6.c",
   "provides": {
     "Perl6::Documentable": "lib/Perl6/Documentable.pm6",
+    "Perl6::Documentable::CLI": "lib/Perl6/Documentable/CLI.pm6",
     "Perl6::Documentable::Processing": "lib/Perl6/Documentable/Processing.pm6",
     "Perl6::Documentable::Processing::Actions": "lib/Perl6/Documentable/Processing/Actions.pm6",
     "Perl6::Documentable::Processing::Grammar": "lib/Perl6/Documentable/Processing/Grammar.pm6",
@@ -23237,6 +23238,7 @@
     "Perl6::Utils": "lib/Perl6/Utils.pm6"
   },
   "resources": [
+    "html/images/pencil.svg",
     "template/head.html",
     "template/header.html",
     "template/footer.html",
