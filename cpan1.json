@@ -45266,6 +45266,36 @@
 }
 ,
 {
+  "api": "0",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "LogP6",
+    "Matrix::Client"
+  ],
+  "description": "A framework for writing Matrix bots",
+  "license": "AGPL-3.0",
+  "meta-version": 0,
+  "name": "Matrix::Bot",
+  "perl": "6.d",
+  "provides": {
+    "Matrix::Bot": "lib/Matrix/Bot.pm6",
+    "Matrix::Bot::EventWrapper::RoomTextMessage": "lib/Matrix/Bot/EventWrapper/RoomTextMessage.pm6",
+    "Matrix::Bot::Plugin": "lib/Matrix/Bot/Plugin.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Matrix-Bot-0.1.0.tar.gz",
+  "tags": [
+    "bot",
+    "matrix"
+  ],
+  "version": "0.1.0"
+}
+,
+{
   "authors": "Patrick Spek <p.spek@tyil.work>",
   "depends": [
     
