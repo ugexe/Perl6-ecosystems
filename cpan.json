@@ -27373,45 +27373,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-gobject-0.13.6.tar.gz",
-  "tags": [
-    "gnome",
-    "glib"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.13.6"
-}
-,
-{
-  "X-Notes": "There is a dependency on Gnome::Gtk3. The module will be required() and works when Gtk3 is installed too",
-  "authors": [
-    "Marcel Timmerman"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Gnome::N",
-    "Gnome::Glib"
-  ],
-  "description": "Perl6 Gnome gobject api, Please install Gnome::Gtk3",
-  "license": "Artistic-2.0",
-  "name": "Gnome::GObject",
-  "perl": "6",
-  "provides": {
-    "Gnome::GObject::Boxed": "lib/Gnome/GObject/Boxed.pm6",
-    "Gnome::GObject::InitiallyUnowned": "lib/Gnome/GObject/InitiallyUnowned.pm6",
-    "Gnome::GObject::Interface": "lib/Gnome/GObject/Interface.pm6",
-    "Gnome::GObject::Object": "lib/Gnome/GObject/Object.pm6",
-    "Gnome::GObject::Signal": "lib/Gnome/GObject/Signal.pm6",
-    "Gnome::GObject::Type": "lib/Gnome/GObject/Type.pm6",
-    "Gnome::GObject::Value": "lib/Gnome/GObject/Value.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-gobject-0.13.7.tar.gz",
   "tags": [
     "gnome",
@@ -27579,38 +27540,6 @@
     
   ],
   "version": "0.17.0"
-}
-,
-{
-  "authors": [
-    "Marcel Timmerman"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Perl6 Gnome native interface support",
-  "license": "Artistic-2.0",
-  "name": "Gnome::N",
-  "perl": "6",
-  "provides": {
-    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
-    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
-    "Gnome::N::X": "lib/Gnome/N/X.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-native-0.13.4.tar.gz",
-  "tags": [
-    "gnome"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.13.3"
 }
 ,
 {
@@ -45291,6 +45220,32 @@
   "tags": [
     "bot",
     "matrix"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "api": "0",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "Matrix::Bot"
+  ],
+  "description": "A plugin for Matrix::Bot to automatically accept all room invites",
+  "license": "AGPL-3.0",
+  "meta-version": 0,
+  "name": "Matrix::Bot::Plugin::AutoAcceptInvites",
+  "perl": "6.d",
+  "provides": {
+    "Matrix::Bot::Plugin::AutoAcceptInvites": "lib/Matrix/Bot/Plugin/AutoAcceptInvites.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Matrix-Bot-Plugin-AutoAcceptInvites-0.1.0.tar.gz",
+  "tags": [
+    
   ],
   "version": "0.1.0"
 }
