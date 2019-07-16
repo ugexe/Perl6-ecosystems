@@ -39875,6 +39875,45 @@
   "depends": [
     
   ],
+  "description": "Compiler for MoarVM's confprog subsystem",
+  "license": "Artistic-2.0",
+  "name": "App::MoarVM::ConfprogCompiler",
+  "perl": "6.c",
+  "provides": {
+    "App::MoarVM::ConfprogCompiler": "lib/App/MoarVM/ConfprogCompiler.pm6",
+    "App::MoarVM::ConfprogCompiler::Compiler": "lib/App/MoarVM/ConfprogCompiler/Compiler.pm6",
+    "App::MoarVM::ConfprogCompiler::Nodes": "lib/App/MoarVM/ConfprogCompiler/Nodes.pm6",
+    "App::MoarVM::ConfprogCompiler::Parser": "lib/App/MoarVM/ConfprogCompiler/Parser.pm6",
+    "App::MoarVM::ConfprogCompiler::Parser::Actions": "lib/App/MoarVM/ConfprogCompiler/Parser/Actions.pm6",
+    "App::MoarVM::ConfprogCompiler::Parser::Grammar": "lib/App/MoarVM/ConfprogCompiler/Parser/Grammar.pm6",
+    "App::MoarVM::ConfprogCompiler::Serializer": "lib/App/MoarVM/ConfprogCompiler/Serializer.pm6",
+    "App::MoarVM::ConfprogCompiler::Typesystem": "lib/App/MoarVM/ConfprogCompiler/Typesystem.pm6",
+    "App::MoarVM::ConfprogCompiler::Typesystem::Unifier": "lib/App/MoarVM/ConfprogCompiler/Typesystem/Unifier.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TIMOTIMO/Perl6/App-MoarVM-ConfprogCompiler-0.0.6.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:TIMOTIMO",
+  "authors": [
+    "Timo Paulssen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Native binding to Facebook's Zstd compression library",
   "license": "Artistic-2.0",
   "name": "Compress::Zstd",
@@ -45261,6 +45300,40 @@
     "matrix"
   ],
   "version": "0.1.0"
+}
+,
+{
+  "api": "0",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "LogP6",
+    "Matrix::Client",
+    "Text::Markdown"
+  ],
+  "description": "A framework for writing Matrix bots",
+  "license": "AGPL-3.0",
+  "meta-version": 0,
+  "name": "Matrix::Bot",
+  "perl": "6.d",
+  "provides": {
+    "Matrix::Bot": "lib/Matrix/Bot.pm6",
+    "Matrix::Bot::EventWrapper::InitialSync": "lib/Matrix/Bot/EventWrapper/InitialSync.pm6",
+    "Matrix::Bot::EventWrapper::RoomInvite": "lib/Matrix/Bot/EventWrapper/RoomInvite.pm6",
+    "Matrix::Bot::EventWrapper::RoomTextMessage": "lib/Matrix/Bot/EventWrapper/RoomTextMessage.pm6",
+    "Matrix::Bot::Plugin": "lib/Matrix/Bot/Plugin.pm6",
+    "Matrix::Bot::Subsets": "lib/Matrix/Bot/Subsets.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Matrix-Bot-0.2.0.tar.gz",
+  "tags": [
+    "bot",
+    "matrix"
+  ],
+  "version": "0.2.0"
 }
 ,
 {
