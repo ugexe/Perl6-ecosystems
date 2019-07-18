@@ -21682,10 +21682,10 @@
   "test-depends": [
     "Test",
     "Test::Output",
-    "JSON::Fast",
+    "JSON::Fast:ver<0.9.18+>",
     "File::Directory::Tree"
   ],
-  "version": "0.3.0"
+  "version": "0.3.1"
 }
 ,
 {
