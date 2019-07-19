@@ -40689,6 +40689,45 @@
   "depends": [
     
   ],
+  "description": "Compiler for MoarVM's confprog subsystem",
+  "license": "Artistic-2.0",
+  "name": "App::MoarVM::ConfprogCompiler",
+  "perl": "6.c",
+  "provides": {
+    "App::MoarVM::ConfprogCompiler": "lib/App/MoarVM/ConfprogCompiler.pm6",
+    "App::MoarVM::ConfprogCompiler::Compiler": "lib/App/MoarVM/ConfprogCompiler/Compiler.pm6",
+    "App::MoarVM::ConfprogCompiler::Nodes": "lib/App/MoarVM/ConfprogCompiler/Nodes.pm6",
+    "App::MoarVM::ConfprogCompiler::Parser": "lib/App/MoarVM/ConfprogCompiler/Parser.pm6",
+    "App::MoarVM::ConfprogCompiler::Parser::Actions": "lib/App/MoarVM/ConfprogCompiler/Parser/Actions.pm6",
+    "App::MoarVM::ConfprogCompiler::Parser::Grammar": "lib/App/MoarVM/ConfprogCompiler/Parser/Grammar.pm6",
+    "App::MoarVM::ConfprogCompiler::Serializer": "lib/App/MoarVM/ConfprogCompiler/Serializer.pm6",
+    "App::MoarVM::ConfprogCompiler::Typesystem": "lib/App/MoarVM/ConfprogCompiler/Typesystem.pm6",
+    "App::MoarVM::ConfprogCompiler::Typesystem::Unifier": "lib/App/MoarVM/ConfprogCompiler/Typesystem/Unifier.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TIMOTIMO/Perl6/App-MoarVM-ConfprogCompiler-0.0.7.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:TIMOTIMO",
+  "authors": [
+    "Timo Paulssen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Native binding to Facebook's Zstd compression library",
   "license": "Artistic-2.0",
   "name": "Compress::Zstd",
