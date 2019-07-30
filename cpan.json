@@ -10473,6 +10473,81 @@
 }
 ,
 {
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Color"
+  ],
+  "description": "NativeCall binding to libui",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Libui",
+  "perl": "6.c",
+  "provides": {
+    "Libui": "lib/Libui.pm6",
+    "Libui::App": "lib/Libui/App.pm6",
+    "Libui::Area": "lib/Libui/Area.pm6",
+    "Libui::Attribute": "lib/Libui/Attribute.pm6",
+    "Libui::AttributedString": "lib/Libui/AttributedString.pm6",
+    "Libui::Box": "lib/Libui/Box.pm6",
+    "Libui::Button": "lib/Libui/Button.pm6",
+    "Libui::Checkbox": "lib/Libui/Checkbox.pm6",
+    "Libui::ColorButton": "lib/Libui/ColorButton.pm6",
+    "Libui::Combobox": "lib/Libui/Combobox.pm6",
+    "Libui::Constants": "lib/Libui/Constants.pm6",
+    "Libui::Container": "lib/Libui/Container.pm6",
+    "Libui::Control": "lib/Libui/Control.pm6",
+    "Libui::Draw": "lib/Libui/Draw.pm6",
+    "Libui::EditableCombobox": "lib/Libui/EditableCombobox.pm6",
+    "Libui::Entry": "lib/Libui/Entry.pm6",
+    "Libui::FontButton": "lib/Libui/FontButton.pm6",
+    "Libui::Form": "lib/Libui/Form.pm6",
+    "Libui::Grid": "lib/Libui/Grid.pm6",
+    "Libui::Group": "lib/Libui/Group.pm6",
+    "Libui::Image": "lib/Libui/Image.pm6",
+    "Libui::Label": "lib/Libui/Label.pm6",
+    "Libui::Main": "lib/Libui/Main.pm6",
+    "Libui::Menu": "lib/Libui/Menu.pm6",
+    "Libui::MenuItem": "lib/Libui/MenuItem.pm6",
+    "Libui::MultilineEntry": "lib/Libui/MultilineEntry.pm6",
+    "Libui::OpenTypeFeatures": "lib/Libui/OpenTypeFeatures.pm6",
+    "Libui::Picker": "lib/Libui/Picker.pm6",
+    "Libui::ProgressBar": "lib/Libui/ProgressBar.pm6",
+    "Libui::RadioButton": "lib/Libui/RadioButton.pm6",
+    "Libui::Raw": "lib/Libui/Raw.pm6",
+    "Libui::Separator": "lib/Libui/Separator.pm6",
+    "Libui::Slider": "lib/Libui/Slider.pm6",
+    "Libui::Spinbox": "lib/Libui/Spinbox.pm6",
+    "Libui::Style": "lib/Libui/Style.pm6",
+    "Libui::Tab": "lib/Libui/Tab.pm6",
+    "Libui::Table": "lib/Libui/Table.pm6",
+    "Libui::Text": "lib/Libui/Text.pm6",
+    "Libui::Time": "lib/Libui/Time.pm6",
+    "Libui::Types": "lib/Libui/Types.pm6",
+    "Libui::Window": "lib/Libui/Window.pm6"
+  },
+  "resources": [
+    "libraries/ui"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Libui-0.0.3.tar.gz",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Color",
+    "Test::META"
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "auth": "github:zostay",
   "authors": [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
@@ -30099,6 +30174,88 @@
     
   ],
   "version": "0.0.6"
+}
+,
+{
+  "authors": [
+    "Alexey Melezhik"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Directory::Tree",
+    "Hash::Merge",
+    "YAMLish",
+    "JSON::Tiny"
+  ],
+  "description": "Sparrow6 - Perl6 Automation Framework",
+  "license": "Artistic-2.0",
+  "name": "Sparrow6",
+  "perl": "6.*",
+  "provides": {
+    "Sparrow6": "lib/Sparrow6.pm6",
+    "Sparrow6::Common::Config": "lib/Sparrow6/Common/Config.pm6",
+    "Sparrow6::Common::Helpers": "lib/Sparrow6/Common/Helpers.pm6",
+    "Sparrow6::DSL": "lib/Sparrow6/DSL.pm6",
+    "Sparrow6::DSL::Assert": "lib/Sparrow6/DSL/Assert.pm6",
+    "Sparrow6::DSL::Bash": "lib/Sparrow6/DSL/Bash.pm6",
+    "Sparrow6::DSL::CPAN::Package": "lib/Sparrow6/DSL/CPAN/Package.pm6",
+    "Sparrow6::DSL::Common": "lib/Sparrow6/DSL/Common.pm6",
+    "Sparrow6::DSL::Directory": "lib/Sparrow6/DSL/Directory.pm6",
+    "Sparrow6::DSL::File": "lib/Sparrow6/DSL/File.pm6",
+    "Sparrow6::DSL::Git": "lib/Sparrow6/DSL/Git.pm6",
+    "Sparrow6::DSL::Group": "lib/Sparrow6/DSL/Group.pm6",
+    "Sparrow6::DSL::Package": "lib/Sparrow6/DSL/Package.pm6",
+    "Sparrow6::DSL::Service": "lib/Sparrow6/DSL/Service.pm6",
+    "Sparrow6::DSL::Ssh": "lib/Sparrow6/DSL/Ssh.pm6",
+    "Sparrow6::DSL::Systemd": "lib/Sparrow6/DSL/Systemd.pm6",
+    "Sparrow6::DSL::Template": "lib/Sparrow6/DSL/Template.pm6",
+    "Sparrow6::DSL::User": "lib/Sparrow6/DSL/User.pm6",
+    "Sparrow6::DSL::Zef": "lib/Sparrow6/DSL/Zef.pm6",
+    "Sparrow6::Task": "lib/Sparrow6/Task.pm6",
+    "Sparrow6::Task::Check": "lib/Sparrow6/Task/Check.pm6",
+    "Sparrow6::Task::Check::Context": "lib/Sparrow6/Task/Check/Context.pm6",
+    "Sparrow6::Task::Check::Context::Common": "lib/Sparrow6/Task/Check/Context/Common.pm6",
+    "Sparrow6::Task::Repository": "lib/Sparrow6/Task/Repository.pm6",
+    "Sparrow6::Task::Repository::Helpers::Common": "lib/Sparrow6/Task/Repository/Helpers/Common.pm6",
+    "Sparrow6::Task::Repository::Helpers::Index": "lib/Sparrow6/Task/Repository/Helpers/Index.pm6",
+    "Sparrow6::Task::Repository::Helpers::Init": "lib/Sparrow6/Task/Repository/Helpers/Init.pm6",
+    "Sparrow6::Task::Repository::Helpers::Plugin": "lib/Sparrow6/Task/Repository/Helpers/Plugin.pm6",
+    "Sparrow6::Task::Runner": "lib/Sparrow6/Task/Runner.pm6",
+    "Sparrow6::Task::Runner::Helpers::Bash": "lib/Sparrow6/Task/Runner/Helpers/Bash.pm6",
+    "Sparrow6::Task::Runner::Helpers::Check": "lib/Sparrow6/Task/Runner/Helpers/Check.pm6",
+    "Sparrow6::Task::Runner::Helpers::Common": "lib/Sparrow6/Task/Runner/Helpers/Common.pm6",
+    "Sparrow6::Task::Runner::Helpers::Perl": "lib/Sparrow6/Task/Runner/Helpers/Perl.pm6",
+    "Sparrow6::Task::Runner::Helpers::Perl6": "lib/Sparrow6/Task/Runner/Helpers/Perl6.pm6",
+    "Sparrow6::Task::Runner::Helpers::Powershell": "lib/Sparrow6/Task/Runner/Helpers/Powershell.pm6",
+    "Sparrow6::Task::Runner::Helpers::Python": "lib/Sparrow6/Task/Runner/Helpers/Python.pm6",
+    "Sparrow6::Task::Runner::Helpers::Ruby": "lib/Sparrow6/Task/Runner/Helpers/Ruby.pm6",
+    "Sparrow6::Task::Runner::Helpers::Test": "lib/Sparrow6/Task/Runner/Helpers/Test.pm6"
+  },
+  "resources": [
+    "sparrow6lib.bash",
+    "sparrow6lib.pm6",
+    "sparrow6lib.pm",
+    "sparrow6lib.rb",
+    "sparrow6lib.py",
+    "sparrow6lib.ps1",
+    "sparrow6common.pm6",
+    "os-resolver.sh"
+  ],
+  "source-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrow6-0.0.7.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/melezhik/Sparrow6/issues",
+    "source": "https://github.com/melezhik/Sparrow6.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
 }
 ,
 {
