@@ -27314,6 +27314,30 @@
 ,
 {
   "authors": [
+    "Marcel Timmerman"
+  ],
+  "depends": [
+    "Digest::HMAC",
+    "OpenSSL",
+    "Base64",
+    "PKCS5",
+    "Unicode::PRECIS"
+  ],
+  "description": "Salted Challenge Response Authentication Mechanism (SCRAM)",
+  "license": "Artistic-2.0",
+  "name": "Auth::SCRAM",
+  "perl": "6",
+  "provides": {
+    "Auth::SCRAM": "lib/Auth/SCRAM.pm6",
+    "Auth::SCRAM::Client": "lib/Auth/SCRAM/Client.pm6",
+    "Auth::SCRAM::Server": "lib/Auth/SCRAM/Server.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Auth-SCRAM-0.4.7.tar.gz",
+  "version": "0.4.7.1"
+}
+,
+{
+  "authors": [
     "Marcel Timmerman",
     "Paweł Pabian"
   ],
@@ -27350,6 +27374,129 @@
     
   ],
   "version": "0.11.6"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "depends": [
+    
+  ],
+  "description": "vCard manipulation",
+  "license": "Artistic-2.0",
+  "name": "VCard",
+  "perl": "6",
+  "provides": {
+    "XCard::VCard": "lib/XCard/VCard.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Contacts-0.0.1.tar.gz",
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Decimal encoding as densely packed decimal",
+  "license": "Artistic-2.0",
+  "name": "Decimal",
+  "perl": "6",
+  "provides": {
+    "Decimal": "lib/Decimal.pm6",
+    "Decimal::Actions": "lib/Decimal/Actions.pm6",
+    "Decimal::D128": "lib/Decimal/D128.pm6",
+    "Decimal::Dxxx": "lib/Decimal/Dxxx.pm6",
+    "Decimal::Grammar": "lib/Decimal/Grammar.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Decimal-0.3.1.tar.gz",
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.3.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "depends": [
+    "GraphQL",
+    "HTTP::UserAgent",
+    "HTML::Parser::XML",
+    "XML",
+    "XML::XPath"
+  ],
+  "description": "Query html web pages",
+  "license": "Artistic-2.0",
+  "name": "GraphQL::Html",
+  "perl": "6",
+  "provides": {
+    "GraphQL::Html": "lib/GraphQL/Html.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/GraphQL-Html-0.7.0.tar.gz",
+  "tags": [
+    "GraphQL",
+    "Html"
+  ],
+  "version": "0.7.0"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "IO::Notification::Recursive",
+    "Config::TOML",
+    "MongoDB",
+    "GTK::Glade",
+    "GTK::V3",
+    "MIME::Base64",
+    "Config::DataLang::Refine"
+  ],
+  "description": "Metadata library",
+  "license": "Artistic-2.0",
+  "name": "Library",
+  "perl": "6",
+  "provides": {
+    "Library": "lib/Library.pm6",
+    "Library::Configuration": "lib/Library/Configuration.pm6",
+    "Library::Gui::FilterList": "lib/Library/Gui/FilterList.pm6",
+    "Library::Gui::Main": "lib/Library/Gui/Main.pm6",
+    "Library::MetaConfig": "lib/Library/MetaConfig.pm6",
+    "Library::MetaConfig::Mimetype": "lib/Library/MetaConfig/Mimetype.pm6",
+    "Library::MetaConfig::SkipDataList": "lib/Library/MetaConfig/SkipDataList.pm6",
+    "Library::MetaConfig::TagFilterList": "lib/Library/MetaConfig/TagFilterList.pm6",
+    "Library::MetaData": "lib/Library/MetaData.pm6",
+    "Library::MetaData::Directory": "lib/Library/MetaData/Directory.pm6",
+    "Library::MetaData::File": "lib/Library/MetaData/File.pm6",
+    "Library::Storage": "lib/Library/Storage.pm6",
+    "Library::Tools": "lib/Library/Tools.pm6"
+  },
+  "resources": [
+    "mimetypes",
+    "library.glade",
+    "library-logo.png"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Library-0.13.5.tar.gz",
+  "tags": [
+    "metadata",
+    "library",
+    "mongodb",
+    "database",
+    "NoSQL"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.13.4"
 }
 ,
 {
@@ -27413,6 +27560,194 @@
   "authors": [
     "Marcel Timmerman"
   ],
+  "depends": [
+    "XML",
+    "Semi-xml"
+  ],
+  "description": "Web Ontology Language 2.0",
+  "license": "Artistic-2.0",
+  "name": "TMap",
+  "perl": "6",
+  "provides": {
+    
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/OWL-0.1.0.tar.gz",
+  "version": "0.1.0.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "depends": [
+    "Digest::HMAC",
+    "OpenSSL"
+  ],
+  "description": "PKCS #5 with PBKDF2",
+  "license": "Artistic-2.0",
+  "name": "PKCS5",
+  "perl": "6",
+  "provides": {
+    "PKCS5::PBKDF2": "lib/PKCS5/PBKDF2.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/PKCS5-0.1.6.tar.gz",
+  "version": "v0.1.6.2"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "depends": [
+    "File::HomeDir",
+    "HTTP::UserAgent"
+  ],
+  "description": "Resource description framework",
+  "license": "Artistic-2.0",
+  "name": "Rdf",
+  "perl": "6",
+  "provides": {
+    "Rdf": "lib/Rdf.pm6",
+    "Rdf::Blank": "lib/Rdf/Blank.pm6",
+    "Rdf::Graph": "lib/Rdf/Graph.pm6",
+    "Rdf::IRI": "lib/Rdf/IRI.pm6",
+    "Rdf::Literal": "lib/Rdf/Literal.pm6",
+    "Rdf::Node": "lib/Rdf/Node.pm6",
+    "Rdf::Triple": "lib/Rdf/Triple.pm6",
+    "Rdf::Turtle": "lib/Rdf/Turtle.pm6",
+    "Rdf::Turtle::Actions": "lib/Rdf/Turtle/Actions.pm6",
+    "Rdf::Turtle::Grammar": "lib/Rdf/Turtle/Grammar.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Rdf-0.3.3.tar.gz",
+  "version": "0.3.3.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "depends": [
+    "Config::TOML",
+    "Config::DataLang::Refine",
+    "Terminal::ANSIColor",
+    "Color",
+    "XML",
+    "XML::XPath"
+  ],
+  "description": "Semi XML parser and XML generator",
+  "license": "Artistic-2.0",
+  "name": "SemiXML",
+  "perl": "6",
+  "provides": {
+    "SemiXML": "lib/SemiXML.pm6",
+    "SemiXML::Actions": "lib/SemiXML/Actions.pm6",
+    "SemiXML::Document": "lib/SemiXML/Document.pm6",
+    "SemiXML::Element": "lib/SemiXML/Element.pm6",
+    "SemiXML::Globals": "lib/SemiXML/Globals.pm6",
+    "SemiXML::Grammar": "lib/SemiXML/Grammar.pm6",
+    "SemiXML::Node": "lib/SemiXML/Node.pm6",
+    "SemiXML::StringList": "lib/SemiXML/StringList.pm6",
+    "SemiXML::Sxml": "lib/SemiXML/Sxml.pm6",
+    "SemiXML::Text": "lib/SemiXML/Text.pm6",
+    "SemiXML::Xml": "lib/SemiXML/Xml.pm6",
+    "SxmlLib::Colors": "lib/SxmlLib/Colors.pm6",
+    "SxmlLib::Docbook5::Basic": "lib/SxmlLib/Docbook5/Basic.pm6",
+    "SxmlLib::File": "lib/SxmlLib/File.pm6",
+    "SxmlLib::Html::Css": "lib/SxmlLib/Html/Css.pm6",
+    "SxmlLib::Html::List": "lib/SxmlLib/Html/List.pm6",
+    "SxmlLib::Html::Menu": "lib/SxmlLib/Html/Menu.pm6",
+    "SxmlLib::LoremIpsum": "lib/SxmlLib/LoremIpsum.pm6",
+    "SxmlLib::SxmlCore": "lib/SxmlLib/SxmlCore.pm6",
+    "SxmlLib::Testing::Summary": "lib/SxmlLib/Testing/Summary.pm6",
+    "SxmlLib::Testing::Test": "lib/SxmlLib/Testing/Test.pm6"
+  },
+  "provides-original": {
+    "SxmlLib::Docbook5::FixedLayout": "lib/SxmlLib/Docbook5/FixedLayout.pm6",
+    "SxmlLib::EPub": "lib/SxmlLib/EPub.pm6",
+    "SxmlLib::EPub::EPub2Builder": "lib/SxmlLib/EPub/EPub2Builder.pm6",
+    "SxmlLib::EPub::EPub3Builder": "lib/SxmlLib/EPub/EPub3Builder.pm6",
+    "SxmlLib::Html::FixedLayout": "lib/SxmlLib/Html/FixedLayout.pm6"
+  },
+  "resources": [
+    "SemiXML.toml",
+    "test-report-style.sxml",
+    "google-code-prettify/desert.css",
+    "google-code-prettify/doxy.css",
+    "google-code-prettify/prettify.css",
+    "google-code-prettify/sons-of-obsidian.css",
+    "google-code-prettify/sunburst.css",
+    "google-code-prettify/prettify.js",
+    "google-code-prettify/run_prettify.js"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Semi-xml-0.48.1.tar.gz",
+  "tags": [
+    "xml",
+    "generator"
+  ],
+  "version": "v0.48.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "depends": [
+    "XML",
+    "Semi-xml"
+  ],
+  "description": "Topic maps based on version 2.0",
+  "license": "Artistic-2.0",
+  "name": "TMap",
+  "perl": "6",
+  "provides": {
+    "TMap::Association": "lib/TMap/Association.pm6",
+    "TMap::Occurrence": "lib/TMap/Occurrence.pm6",
+    "TMap::Reifiable": "lib/TMap/Reifiable.pm6",
+    "TMap::Role": "lib/TMap/Role.pm6",
+    "TMap::Topic": "lib/TMap/Topic.pm6",
+    "TMap::TopicMap": "lib/TMap/TopicMap.pm6",
+    "TMap::TopicMapConstruct": "lib/TMap/TopicMapConstruct.pm6",
+    "TMap::TopicName": "lib/TMap/TopicName.pm6",
+    "TMap::Variant": "lib/TMap/Variant.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Topicmap-0.2.0.tar.gz",
+  "version": "0.2.0"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Universal encoder/decoder",
+  "license": "Artistic-2.0",
+  "name": "UEncoding",
+  "perl": "6",
+  "provides": {
+    "UEncoding": "lib/UEncoding.pm6",
+    "UEncoding::Engine": "lib/UEncoding/Engine.pm6",
+    "UEncoding::Types::CString": "lib/UEncoding/Types/CString.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Universal-encoding-0.1.0.tar.gz",
+  "tags": [
+    "encoding",
+    "decoding"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
   "build-depends": [
     
   ],
@@ -27435,6 +27770,139 @@
     "Test::META"
   ],
   "version": "0.3.1.3"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "XML"
+  ],
+  "description": "Perform actions on all XML nodes",
+  "license": "Artistic-2.0",
+  "name": "XML::Actions",
+  "perl": "6",
+  "provides": {
+    "XML::Actions": "lib/XML/Actions.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/XmlActions-0.3.2.tar.gz",
+  "tags": [
+    "XML",
+    "actions"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.3.2"
+}
+,
+{
+  "authors": "Marcel Timmerman",
+  "depends": [
+    "Config::TOML",
+    "JSON::Fast"
+  ],
+  "description": "Refinements on use of configurations loaded with parsers such as found in Config::TOML",
+  "license": "Artistic-2.0",
+  "name": "Config::DataLang::Refine",
+  "perl": "6",
+  "provides": {
+    "Config::DataLang::Refine": "lib/Config/DataLang/Refine.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/config-datalang-refine-0.7.3.tar.gz",
+  "tags": [
+    "config"
+  ],
+  "version": "0.7.3"
+}
+,
+{
+  "api": "0",
+  "authors": [
+    "Marcel Timmerman",
+    "Paweł Pabian"
+  ],
+  "build-depends": [
+    "HTTP::UserAgent",
+    "Config::TOML"
+  ],
+  "depends": [
+    "BSON",
+    "Semaphore::ReadersWriters",
+    "Config::DataLang::Refine",
+    "Base64",
+    "Digest::MD5",
+    "OpenSSL",
+    "URI::Escape",
+    "Auth::SCRAM",
+    "Unicode::PRECIS",
+    "Terminal::ANSIColor",
+    "Log::Async"
+  ],
+  "description": "MongoDB driver",
+  "license": "Artistic-2.0",
+  "name": "MongoDB",
+  "perl": "6",
+  "provides": {
+    "MongoDB": "lib/MongoDB.pm6",
+    "MongoDB::Authenticate::Credential": "lib/MongoDB/Authenticate/Credential.pm6",
+    "MongoDB::Authenticate::Scram": "lib/MongoDB/Authenticate/Scram.pm6",
+    "MongoDB::Client": "lib/MongoDB/Client.pm6",
+    "MongoDB::Collection": "lib/MongoDB/Collection.pm6",
+    "MongoDB::Cursor": "lib/MongoDB/Cursor.pm6",
+    "MongoDB::Database": "lib/MongoDB/Database.pm6",
+    "MongoDB::HL::Collection": "lib/MongoDB/HL/Collection.pm6",
+    "MongoDB::HL::Users": "lib/MongoDB/HL/Users.pm6",
+    "MongoDB::Header": "lib/MongoDB/Header.pm6",
+    "MongoDB::Log": "lib/MongoDB/Log.pm6",
+    "MongoDB::MDBConfig": "lib/MongoDB/MDBConfig.pm6",
+    "MongoDB::Server": "lib/MongoDB/Server.pm6",
+    "MongoDB::Server::Control": "lib/MongoDB/Server/Control.pm6",
+    "MongoDB::Server::Monitor": "lib/MongoDB/Server/Monitor.pm6",
+    "MongoDB::Server::Socket": "lib/MongoDB/Server/Socket.pm6",
+    "MongoDB::Uri": "lib/MongoDB/Uri.pm6",
+    "MongoDB::Wire": "lib/MongoDB/Wire.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/mongo-perl6-driver-0.43.8.tar.gz",
+  "tags": [
+    "NoSQL",
+    "database",
+    "mongodb",
+    "driver"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.43.8"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Neo4j driver",
+  "license": "Artistic-2.0",
+  "name": "Neo4j",
+  "perl": "6",
+  "provides": {
+    "Neo4j": "lib/Neo4j.pm6",
+    "Neo4j::Command": "lib/Neo4j/Command.pm6",
+    "Neo4j::Command::Create": "lib/Neo4j/Command/Create.pm6",
+    "Neo4j::Connection": "lib/Neo4j/Connection.pm6",
+    "Neo4j::Database": "lib/Neo4j/Database.pm6",
+    "Neo4j::Header": "lib/Neo4j/Header.pm6",
+    "Neo4j::Rest": "lib/Neo4j/Rest.pm6",
+    "Neo4j::User": "lib/Neo4j/User.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/neo4j-perl6-driver-0.1.0.tar.gz",
+  "version": "0.1.0.1"
 }
 ,
 {
@@ -27595,6 +28063,46 @@
     
   ],
   "version": "0.8.5"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "XML::Actions",
+    "Gnome::Gtk3"
+  ],
+  "description": "Interfacing Glade XML to Perl6",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gtk3::Glade",
+  "perl": "6",
+  "provides": {
+    "Gnome::Gtk3::Glade": "lib/Gnome/Gtk3/Glade.pm6",
+    "Gnome::Gtk3::Glade::Engine": "lib/Gnome/Gtk3/Glade/Engine.pm6",
+    "Gnome::Gtk3::Glade::Engine::PreProcess": "lib/Gnome/Gtk3/Glade/Engine/PreProcess.pm6",
+    "Gnome::Gtk3::Glade::Engine::Test": "lib/Gnome/Gtk3/Glade/Engine/Test.pm6",
+    "Gnome::Gtk3::Glade::Engine::Work": "lib/Gnome/Gtk3/Glade/Engine/Work.pm6",
+    "Gnome::Gtk3::Glade::X": "lib/Gnome/Gtk3/Glade/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-glade3-0.8.6.tar.gz",
+  "tags": [
+    "XML",
+    "Glade",
+    "GTK+",
+    "Gtk",
+    "Gtk3"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.8.6"
 }
 ,
 {
@@ -28709,6 +29217,74 @@
   ],
   "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/pod-render-0.8.0.tar.gz",
   "version": "0.8.0"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Semaphore Readers Writers Pattern",
+  "license": "Artistic-2.0",
+  "name": "Semaphore::ReadersWriters",
+  "perl": "6",
+  "provides": {
+    "Semaphore::ReadersWriters": "lib/Semaphore/ReadersWriters.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/semaphore-readerswriters-0.2.6.tar.gz",
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.2.6.1"
+}
+,
+{
+  "authors": "Marcel Timmerman",
+  "depends": [
+    "Tinky"
+  ],
+  "description": "A Hash thingy using Tinky",
+  "license": "Artistic-2.0",
+  "name": "Tinky::Hash",
+  "perl": "6",
+  "provides": {
+    "Tinky::Hash": "lib/Tinky/Hash.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/tinky-hash-0.4.2.tar.gz",
+  "support": {
+    "email": "mt1957@gmail.com"
+  },
+  "version": "0.4.2.7"
+}
+,
+{
+  "author": "Marcel Timmerman",
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Implements PRECIS framework, rfc7564 and others. Obsoletes stringprep and saslprep",
+  "license": "Artistic-2.0",
+  "name": "Unicode::PRECIS",
+  "perl": "6.c",
+  "provides": {
+    "Unicode::PRECIS": "lib/Unicode/PRECIS.pm6",
+    "Unicode::PRECIS::FreeForm": "lib/Unicode/PRECIS/FreeForm.pm6",
+    "Unicode::PRECIS::FreeForm::OpaqueString": "lib/Unicode/PRECIS/FreeForm/OpaqueString.pm6",
+    "Unicode::PRECIS::Identifier": "lib/Unicode/PRECIS/Identifier.pm6",
+    "Unicode::PRECIS::Identifier::UsernameCaseMapped": "lib/Unicode/PRECIS/Identifier/UsernameCaseMapped.pm6",
+    "Unicode::PRECIS::Identifier::UsernameCasePreserved": "lib/Unicode/PRECIS/Identifier/UsernameCasePreserved.pm6",
+    "Unicode::PRECIS::Tables": "lib/Unicode/PRECIS/Tables.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/unicode-precis-0.5.1.tar.gz",
+  "version": "v0.5.1.1"
 }
 ,
 {
