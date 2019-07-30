@@ -36379,6 +36379,43 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:p6steve",
+  "authors": [
+    "p6steve"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "SVG",
+    "SVG::Plot",
+    "Math::Polygons"
+  ],
+  "description": "Some support for physical units.",
+  "license": "Artistic-2.0",
+  "name": "Physics::Measure",
+  "perl": "6.d",
+  "provides": {
+    "Physics::Measure": "lib/Physics/Measure.pm6",
+    "Physics::Measure::Unit": "lib/Physics/Measure/Unit.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/P/PS/PSIXSTEVE/Perl6/perl6-Physics-Measure-0.0.2.tar.gz",
+  "tags": [
+    "Physics",
+    "Measure",
+    "Units"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "authors": [
     "ribbon-otter"
   ],
