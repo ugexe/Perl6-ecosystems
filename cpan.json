@@ -28063,6 +28063,41 @@
     
   ],
   "depends": [
+    "Gnome::N"
+  ],
+  "description": "Perl6 Gnome glib api, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Glib",
+  "perl": "6",
+  "provides": {
+    "Gnome::Glib::Error": "lib/Gnome/Glib/Error.pm6",
+    "Gnome::Glib::List": "lib/Gnome/Glib/List.pm6",
+    "Gnome::Glib::Main": "lib/Gnome/Glib/Main.pm6",
+    "Gnome::Glib::Quark": "lib/Gnome/Glib/Quark.pm6",
+    "Gnome::Glib::SList": "lib/Gnome/Glib/SList.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-glib-0.14.1.tar.gz",
+  "tags": [
+    "gnome",
+    "glib"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.14.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Gnome::N",
     "Gnome::Glib"
   ],
@@ -47176,6 +47211,32 @@
     
   ],
   "version": "0.1.2"
+}
+,
+{
+  "api": "0",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Fold strings to a certain length",
+  "license": "AGPL-3.0",
+  "meta-version": 0,
+  "name": "String::Fold",
+  "perl": "6.c",
+  "provides": {
+    "String::Fold": "lib/String/Fold.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/String-Fold-0.2.0.tar.gz",
+  "tags": [
+    
+  ],
+  "version": "0.2.0"
 }
 ,
 {
