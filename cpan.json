@@ -2466,6 +2466,42 @@
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
   ],
   "depends": [
+    "LibCurl::Easy",
+    "URI::Template",
+    "JSON::Fast",
+    "Base64"
+  ],
+  "description": "Docker API for Perl 6",
+  "license": "NASA-1.3",
+  "name": "Docker::API",
+  "perl": "6.*",
+  "provides": {
+    "Docker::API": "lib/Docker/API.pm6",
+    "Docker::Container": "lib/Docker/Container.pm6",
+    "Docker::Stream": "lib/Docker/Stream.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/Docker-API-0.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/perl6-docker-api.git",
+    "source": "https://github.com/CurtTilmes/perl6-docker-api.git"
+  },
+  "tags": [
+    "Docker"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When",
+    "Test::META",
+    "Libarchive"
+  ],
+  "version": "0.1"
+}
+,
+{
+  "authors": [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ],
+  "depends": [
     "JSON::Fast",
     "Text::Wrap",
     "Bailador",
