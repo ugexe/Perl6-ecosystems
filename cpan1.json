@@ -3361,6 +3361,46 @@
 {
   "auth": "github:dmaestro",
   "authors": [
+    "dmaestro <dmaestro@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Get $=pod from an external module",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Module::Pod",
+  "perl": "6.*",
+  "production": false,
+  "provides": {
+    "Module::Loader": "lib/Module/Loader.pm6",
+    "Module::Pod": "lib/Module/Pod.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/D/DM/DMAESTRO/Perl6/Module-Pod-0.9.1.tar.gz",
+  "support": {
+    "source": "git://github.com/dmaestro/Module-Pod.git"
+  },
+  "tags": [
+    "Pod",
+    "Pod6",
+    "CompUnit"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.9.1"
+}
+,
+{
+  "auth": "github:dmaestro",
+  "authors": [
     "Douglas L. Schrag <dmaestro@cpan.org>"
   ],
   "build-depends": [
