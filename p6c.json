@@ -3737,21 +3737,6 @@
 {
   "author": "github:retupmoca",
   "depends": [
-    "XML"
-  ],
-  "description": "Syndication feed parser/generator (RSS / Atom)",
-  "name": "Syndication",
-  "perl": "6.*",
-  "provides": {
-    "Syndication": "lib/Syndication.pm6"
-  },
-  "source-url": "git://github.com/retupmoca/p6-syndication.git",
-  "version": "1.0.0"
-}
-,
-{
-  "author": "github:retupmoca",
-  "depends": [
     "HTML::Escape"
   ],
   "description": "Markdown parser / HTML generator",
