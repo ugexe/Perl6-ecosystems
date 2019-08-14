@@ -28193,6 +28193,41 @@
     
   ],
   "depends": [
+    "Gnome::N"
+  ],
+  "description": "Perl6 Gnome glib api, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Glib",
+  "perl": "6",
+  "provides": {
+    "Gnome::Glib::Error": "lib/Gnome/Glib/Error.pm6",
+    "Gnome::Glib::List": "lib/Gnome/Glib/List.pm6",
+    "Gnome::Glib::Main": "lib/Gnome/Glib/Main.pm6",
+    "Gnome::Glib::Quark": "lib/Gnome/Glib/Quark.pm6",
+    "Gnome::Glib::SList": "lib/Gnome/Glib/SList.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-glib-0.14.3.tar.gz",
+  "tags": [
+    "gnome",
+    "glib"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.14.3"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Gnome::N",
     "Gnome::Glib"
   ],
