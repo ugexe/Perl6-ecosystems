@@ -22983,4 +22983,408 @@
   ],
   "version": "0.0.2"
 }
+,
+{
+  "auth": "tonyo",
+  "authors": [
+    "Tony O'Dell"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Implementation of the jsonpath for perl6",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "JSON::Path",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Path": "lib/JSON/Path.pm6",
+    "JSON::Path::Grammar": "lib/JSON/Path/Grammar.pm6"
+  },
+  "source-url": "git://github.com/tonyo/p6-json-path.git",
+  "support": {
+    "bugtracker": "https://github.com/tony-o/perl6-json-path/issues",
+    "source": "https://github.com/tony-o/perl6-json-path.git"
+  },
+  "tags": [
+    "json",
+    "path",
+    "json::path",
+    "xpath",
+    "jpath"
+  ],
+  "test-depends": [
+    "JSON::Fast"
+  ],
+  "version": "0.1"
+}
+,
+{
+  "authors": [
+    "Joshua Yeshouroun"
+  ],
+  "depends": [
+    "Exportable"
+  ],
+  "description": "Get file status",
+  "license": "Artistic-2.0",
+  "name": "File::Stat",
+  "perl": "6.c",
+  "provides": {
+    "File::Stat": "lib/File/Stat.pm6"
+  },
+  "source-url": "git://github.com/0racle/p6-File-Stat.git",
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:dmaestro",
+  "authors": [
+    "dmaestro <dmaestro@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Role to apply bounds to a potentially infinite Seq",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Seq::Bounded",
+  "perl": "6.*",
+  "production": true,
+  "provides": {
+    "Seq::Bounded": "lib/Seq/Bounded.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/dmaestro/Seq-Bounded.git",
+  "support": {
+    "source": "git://github.com/dmaestro/Seq-Bounded.git"
+  },
+  "tags": [
+    "role seq"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "1.0.1"
+}
+,
+{
+  "auth": "github:allsopp",
+  "authors": [
+    "Owen Allsopp"
+  ],
+  "description": "Operator to support decibel (dB) arithmetic",
+  "license": "Artistic-2.0",
+  "name": "Operator::dB",
+  "perl": "6.c",
+  "provides": {
+    "Operator::dB": "lib/Operator/dB.pm6"
+  },
+  "source-url": "git://github.com/allsopp/p6-Operator-dB.git",
+  "tags": [
+    "operator",
+    "math"
+  ],
+  "version": "0.0.93"
+}
+,
+{
+  "authors": [
+    "Denis Kanchev <denis@demayl.com>"
+  ],
+  "description": "Get host IP / Interfaces",
+  "license": "Artistic-2.0",
+  "name": "Sys::IP",
+  "perl": "6.*",
+  "provides": {
+    "Sys::IP": "lib/Sys/IP.pm6",
+    "Sys::IP::RAW": "lib/Sys/IP/RAW.pm6",
+    "Sys::IP::Routes": "lib/Sys/IP/Routes.pm6"
+  },
+  "source-url": "git://github.com/Demayl/perl6-Sys-IP.git",
+  "support": {
+    "bugtracker": "https://github.com/Demayl/perl6-Sys-IP/issues",
+    "source": "git://github.com/Demayl/perl6-Sys-IP.git"
+  },
+  "tags": [
+    "Sys",
+    "System",
+    "IP",
+    "Host",
+    "Interface",
+    "Iface"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:tmtvl",
+  "authors": [
+    "Tim Van den Langenbergh"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Neural Network in Perl 6.",
+  "license": "Artistic-2.0",
+  "name": "Neural::Net",
+  "perl": "6.d",
+  "provides": {
+    "Neural::Net": "lib/Neural/Net.pm6",
+    "Neural::Net::Function": "lib/Neural/Net/Function.pm6",
+    "Neural::Net::Layer": "lib/Neural/Net/Layer.pm6",
+    "Neural::Net::Neuron": "lib/Neural/Net/Neuron.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/tmtvl/Neural-Net.git",
+  "tags": [
+    "Machine Learning",
+    "Neural Networks",
+    "Artificial Intelligence"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.0"
+}
+,
+{
+  "api": "2",
+  "auth": "github:antoniogamiz",
+  "authors": [
+    "AntonioGamiz",
+    "moritz",
+    "Perl6"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Parse a type graph description file",
+  "license": "Artistic-2.0",
+  "name": "Perl6::TypeGraph",
+  "perl": "6.d",
+  "provides": {
+    "Perl6::Type": "lib/Perl6/Type.pm6",
+    "Perl6::TypeGraph": "lib/Perl6/TypeGraph.pm6",
+    "Perl6::TypeGraph::Decl": "lib/Perl6/TypeGraph/Decl.pm6",
+    "Perl6::TypeGraph::DeclActions": "lib/Perl6/TypeGraph/DeclActions.pm6",
+    "Perl6::TypeGraph::Viz": "lib/Perl6/TypeGraph/Viz.pm6"
+  },
+  "resources": [
+    "data/type-graph.txt"
+  ],
+  "source-url": "https://github.com/antoniogamiz/Perl6-TypeGraph.git",
+  "tags": [
+    "documentation",
+    "configuration",
+    "introspection"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "2.1.1"
+}
+,
+{
+  "api": 2,
+  "auth": "github:perl6",
+  "authors": [
+    "@moritz",
+    "@finanalyst",
+    "@tbrowder",
+    "@AlexDaniel",
+    "@antoniogamiz"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Pod::Load:ver<0.5.4>",
+    "Pod::To::HTML:ver<0.6.1>",
+    "Pod::To::Cached:ver<0.3.3+>",
+    "Perl6::TypeGraph:ver<2.1.1+>:auth<github:antoniogamiz>:api<2>",
+    "Pod::Utilities:ver<0.0.1>",
+    "URI:ver<0.2.2>",
+    "File::Temp:ver<0.0.6>",
+    "Log::Timeline:ver<0.3>",
+    "JSON::Fast:ver<0.9.18>"
+  ],
+  "description": "Represents a piece of Perl 6 that is documented.",
+  "license": "Artistic-2.0",
+  "name": "Perl6::Documentable",
+  "perl": "6.d",
+  "provides": {
+    "Perl6::Documentable": "lib/Perl6/Documentable.pm6",
+    "Perl6::Documentable::CLI": "lib/Perl6/Documentable/CLI.pm6",
+    "Perl6::Documentable::Config": "lib/Perl6/Documentable/Config.pm6",
+    "Perl6::Documentable::DocPage::Factory": "lib/Perl6/Documentable/DocPage/Factory.pm6",
+    "Perl6::Documentable::DocPage::Index": "lib/Perl6/Documentable/DocPage/Index.pm6",
+    "Perl6::Documentable::DocPage::Primary": "lib/Perl6/Documentable/DocPage/Primary.pm6",
+    "Perl6::Documentable::DocPage::Secondary": "lib/Perl6/Documentable/DocPage/Secondary.pm6",
+    "Perl6::Documentable::Heading::Actions": "lib/Perl6/Documentable/Heading/Actions.pm6",
+    "Perl6::Documentable::Heading::Grammar": "lib/Perl6/Documentable/Heading/Grammar.pm6",
+    "Perl6::Documentable::Index": "lib/Perl6/Documentable/Index.pm6",
+    "Perl6::Documentable::LogTimelineSchema": "lib/Perl6/Documentable/LogTimelineSchema.pm6",
+    "Perl6::Documentable::Primary": "lib/Perl6/Documentable/Primary.pm6",
+    "Perl6::Documentable::Registry": "lib/Perl6/Documentable/Registry.pm6",
+    "Perl6::Documentable::Search": "lib/Perl6/Documentable/Search.pm6",
+    "Perl6::Documentable::Secondary": "lib/Perl6/Documentable/Secondary.pm6",
+    "Perl6::Documentable::To::HTML::Wrapper": "lib/Perl6/Documentable/To/HTML/Wrapper.pm6",
+    "Perl6::Documentable::Utils::IO": "lib/Perl6/Documentable/Utils/IO.pm6"
+  },
+  "resources": [
+    "html/images/pencil.svg",
+    "template/head.html",
+    "template/header.html",
+    "template/footer.html",
+    "template/tg-fragment.html",
+    "template/search_template.js",
+    "config.json"
+  ],
+  "source-url": "https://github.com/antoniogamiz/Perl6-Documentable.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test::META:ver<0.0.16>",
+    "Pod::Utilities:ver<0.0.1>",
+    "Perl6::TypeGraph:ver<2.1.1+>:auth<github:antoniogamiz>:api<2>",
+    "Pod::To::HTML:ver<0.6.1>",
+    "Pod::To::Cached:ver<0.3.3+>",
+    "URI:ver<0.2.2>",
+    "JSON::Fast:ver<0.9.18>"
+  ],
+  "version": "2.3.1"
+}
+,
+{
+  "authors": [
+    "@Mouq",
+    "@coke",
+    "@hoelzro",
+    "@timo",
+    "@moritz",
+    "@JJ",
+    "@MasterDuke17",
+    "@zoffixznet",
+    "@antoniogamiz"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Set of helper functions to ease working with Pods!",
+  "license": "Artistic-2.0",
+  "name": "Pod::Utilities",
+  "perl": "6.c",
+  "provides": {
+    "Pod::Utilities": "lib/Pod/Utilities.pm6",
+    "Pod::Utilities::Build": "lib/Pod/Utilities/Build.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/antoniogamiz/Pod-Utilities.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "api": "1",
+  "auth": "github:kjkuan",
+  "authors": [
+    "Jack Kuan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Convenient Proc::Async wrappers that work with the Perl 6 feed operators.",
+  "license": "Artistic-2.0",
+  "name": "Proc::Feed",
+  "perl": "6.d",
+  "provides": {
+    "Proc::Feed": "lib/Proc/Feed.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/kjkuan/Proc-Feed.git",
+  "tags": [
+    "Unix",
+    "Shell",
+    "Run",
+    "Proc::Async"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.2"
+}
+,
+{
+  "auth": "github:dmaestro",
+  "authors": [
+    "dmaestro <dmaestro@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Get $=pod from an external module",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Module::Pod",
+  "perl": "6.*",
+  "production": false,
+  "provides": {
+    "Module::Loader": "lib/Module/Loader.pm6",
+    "Module::Pod": "lib/Module/Pod.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/dmaestro/Module-Pod.git",
+  "support": {
+    "source": "git://github.com/dmaestro/Module-Pod.git"
+  },
+  "tags": [
+    "Pod",
+    "Pod6",
+    "CompUnit"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.9.2"
+}
 ]
