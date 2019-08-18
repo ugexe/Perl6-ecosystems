@@ -23396,4 +23396,42 @@
   ],
   "version": "0.9.2"
 }
+,
+{
+  "auth": "Oetiker+Partner",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast",
+    "Log::Syslog::Native",
+    "Terminal::ANSIColor",
+    "JSON::Path"
+  ],
+  "description": "Identifies anomalies in JSON data structures",
+  "license": "MIT",
+  "name": "JSONHound",
+  "perl": "6.*",
+  "provides": {
+    "Either": "lib/Either.pm6",
+    "JsonHound": "lib/JsonHound.pm6",
+    "JsonHound::DebugMessage": "lib/JsonHound/DebugMessage.pm6",
+    "JsonHound::DebugMode": "lib/JsonHound/DebugMode.pm6",
+    "JsonHound::PathMixin": "lib/JsonHound/PathMixin.pm6",
+    "JsonHound::Reporter": "lib/JsonHound/Reporter.pm6",
+    "JsonHound::Reporter::CLI": "lib/JsonHound/Reporter/CLI.pm6",
+    "JsonHound::Reporter::Compound": "lib/JsonHound/Reporter/Compound.pm6",
+    "JsonHound::Reporter::Nagios": "lib/JsonHound/Reporter/Nagios.pm6",
+    "JsonHound::Reporter::Syslog": "lib/JsonHound/Reporter/Syslog.pm6",
+    "JsonHound::RuleFeedback": "lib/JsonHound/RuleFeedback.pm6",
+    "JsonHound::RuleSet": "lib/JsonHound/RuleSet.pm6",
+    "JsonHound::ValidationResult": "lib/JsonHound/ValidationResult.pm6",
+    "JsonHound::Violation": "lib/JsonHound/Violation.pm6"
+  },
+  "source-url": "git://github.com/oposs/jsonhound.git",
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
 ]
