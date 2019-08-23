@@ -22265,59 +22265,6 @@
 }
 ,
 {
-  "api": 1,
-  "auth": "github:alabamenhu",
-  "authors": [
-    "Matthew ‘Matéu’ Stephen STUCKWISCH <mateu@softastur.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "A parser for language tags in accordance with BCP-47",
-  "license": "Artistic-2.0",
-  "name": "Intl::BCP47",
-  "perl": "6.*",
-  "provides": {
-    "Intl::BCP47": "lib/Intl/BCP47.pm6",
-    "Intl::BCP47::Actions": "lib/Intl/BCP47/Actions.pm6",
-    "Intl::BCP47::Classes": "lib/Intl/BCP47/Classes.pm6",
-    "Intl::BCP47::Extension-Registry": "lib/Intl/BCP47/Extension-Registry.pm6",
-    "Intl::BCP47::Filter-Actions": "lib/Intl/BCP47/Filter-Actions.pm6",
-    "Intl::BCP47::Filter-Grammar": "lib/Intl/BCP47/Filter-Grammar.pm6",
-    "Intl::BCP47::Grammar": "lib/Intl/BCP47/Grammar.pm6",
-    "Intl::BCP47::Subtag-Registry": "lib/Intl/BCP47/Subtag-Registry.pm6"
-  },
-  "resources": [
-    "extlangs.bcp47data",
-    "grandfathered.bcp47data",
-    "languages.bcp47data",
-    "extension-t.bcp47data",
-    "extension-u.bcp47data",
-    "redundancies.bcp47data",
-    "regions.bcp47data",
-    "scripts.bcp47data",
-    "variants.bcp47data"
-  ],
-  "source-url": "git://github.com/alabamenhu/bcp47.git",
-  "tags": [
-    "BCP47",
-    "Language",
-    "Tag",
-    "Localization",
-    "Locale",
-    "International",
-    "Internationalization"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.8.5"
-}
-,
-{
   "auth": "github:JJ",
   "authors": [
     "JJ Merelo"
