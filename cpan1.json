@@ -24861,6 +24861,54 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast",
+    "URI",
+    "URI::Template",
+    "HTTP::UserAgent",
+    "IO::Socket::SSL",
+    "JSON::Class",
+    "JSON::Name"
+  ],
+  "description": "Provide a Perl 6 interface to the Soundcloud REST API",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "WebService::Soundcloud",
+  "perl": "6.*",
+  "provides": {
+    "WebService::Soundcloud": "lib/WebService/Soundcloud.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/WebService-Soundcloud-0.0.8.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/WebService-Soundcloud/issues",
+    "irc": "irc:// irc.freenode.net/#perl6",
+    "source": "git://github.com/jonathanstowe/WebService-Soundcloud.git"
+  },
+  "tags": [
+    "API",
+    "Webservice",
+    "REST",
+    "Soundcloud"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk"
