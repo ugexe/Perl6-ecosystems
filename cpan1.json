@@ -10829,6 +10829,57 @@
   "depends": [
     
   ],
+  "description": "Behavior driven development framework",
+  "license": "Artistic-2.0",
+  "name": "BDD::Behave",
+  "perl": "6.d",
+  "provides": {
+    "BDD::Behave": "lib/BDD/Behave.pm6",
+    "BDD::Behave::Actions": "lib/BDD/Behave/Actions.pm6",
+    "BDD::Behave::Colors": "lib/BDD/Behave/Colors.pm6",
+    "BDD::Behave::Expectation": "lib/BDD/Behave/Expectation.pm6",
+    "BDD::Behave::Failure": "lib/BDD/Behave/Failure.pm6",
+    "BDD::Behave::Failures": "lib/BDD/Behave/Failures.pm6",
+    "BDD::Behave::Files": "lib/BDD/Behave/Files.pm6",
+    "BDD::Behave::Grammar": "lib/BDD/Behave/Grammar.pm6",
+    "BDD::Behave::Indent": "lib/BDD/Behave/Indent.pm6",
+    "BDD::Behave::Klass": "lib/BDD/Behave/Klass.pm6",
+    "BDD::Behave::Klasses": "lib/BDD/Behave/Klasses.pm6",
+    "BDD::Behave::Let": "lib/BDD/Behave/Let.pm6",
+    "BDD::Behave::Lets": "lib/BDD/Behave/Lets.pm6",
+    "BDD::Behave::Value": "lib/BDD/Behave/Value.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GD/GDONALD/Perl6/BDD-Behave-0.0.1.tar.gz",
+  "tags": [
+    "BDD",
+    "Behavior",
+    "Driven",
+    "Development",
+    "Test",
+    "Testing",
+    "Spec"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:gdonald",
+  "authors": [
+    "Greg Donald"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Console Blackjack",
   "license": "Artistic-2.0",
   "name": "Console::Blackjack",
@@ -42726,6 +42777,37 @@
     "Test::META"
   ],
   "version": "0.1.8"
+}
+,
+{
+  "auth": "github:spidererrol",
+  "authors": [
+    "Timothy Hinchcliffe"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A Channel which can be paused and more",
+  "license": "Artistic-2.0",
+  "name": "Channel::Pauseable",
+  "perl": "6.c",
+  "provides": {
+    "Channel::Pauseable": "lib/Channel/Pauseable.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TH/THINCH/Perl6/Channel-Pauseable-1.0.0.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.0"
 }
 ,
 {
