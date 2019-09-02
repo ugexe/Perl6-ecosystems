@@ -19598,7 +19598,7 @@
   "description": "Perl 6 Kernel for Jupyter Notebooks",
   "license": "Artistic-2.0",
   "name": "Jupyter::Kernel",
-  "perl": "6.c",
+  "perl": "6.*",
   "provides": {
     "Jupyter::Kernel": "lib/Jupyter/Kernel.pm6",
     "Jupyter::Kernel::Comm": "lib/Jupyter/Kernel/Comm.pm6",
@@ -19621,7 +19621,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.9"
+  "version": "0.0.10"
 }
 ,
 {
