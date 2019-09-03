@@ -21734,10 +21734,11 @@
 }
 ,
 {
+  "auth": "finanalyst",
   "authors": "Richard Hainsworth",
   "depends": [
     "File::Directory::Tree",
-    "JSON::Fast"
+    "JSON::Fast:ver<0.9.18+>"
   ],
   "description": "Precompile a collection of pod files into a cache.",
   "license": "Artistic-2.0",
@@ -21753,12 +21754,9 @@
     "source": "https://github.com/finanalyst/pod-cached/issues"
   },
   "test-depends": [
-    "Test",
-    "Test::Output",
-    "JSON::Fast:ver<0.9.18+>",
-    "File::Directory::Tree"
+    "Test::Output"
   ],
-  "version": "0.3.3"
+  "version": "0.3.5"
 }
 ,
 {
