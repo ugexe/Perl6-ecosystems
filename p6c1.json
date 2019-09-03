@@ -16558,34 +16558,6 @@
 ,
 {
   "authors": [
-    "Yann Büchau"
-  ],
-  "depends": [
-    
-  ],
-  "description": "grammar to parse FORTRAN source code",
-  "license": "GPL-3.0",
-  "name": "Fortran::Grammar",
-  "perl": "6",
-  "provides": {
-    "Fortran::Grammar": "lib/Fortran/Grammar.pm6",
-    "Fortran::Grammar::Test": "lib/Fortran/Grammar/Test.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/nobodyinperson/perl6-fortran-grammar.git",
-  "test-depends": [
-    "Test",
-    "Test::META",
-    "JSON::Fast",
-    "IO::Glob"
-  ],
-  "version": "0.0.6"
-}
-,
-{
-  "authors": [
     "github:Altai-man",
     ""
   ],
