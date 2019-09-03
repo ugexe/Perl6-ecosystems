@@ -23434,17 +23434,23 @@
 }
 ,
 {
+  "authors": [
+    "Konstantin Narkhov"
+  ],
   "depends": [
     
   ],
   "description": "Lempel–Ziv–Welch (LZW) algorithm implementation in Perl 6",
   "license": "Artistic-2.0",
   "name": "LZW::Revolunet",
-  "perl": "6.*",
+  "perl": "6.c",
   "provides": {
     "LZW::Revolunet": "lib/LZW/Revolunet.pm6"
   },
   "source-url": "https://gitlab.com/pheix/lzw-revolunet-perl6.git",
-  "version": "0.0.9"
+  "tags": [
+    "COMPRESSION"
+  ],
+  "version": "0.0.11"
 }
 ]
