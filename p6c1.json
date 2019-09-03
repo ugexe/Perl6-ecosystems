@@ -21578,7 +21578,7 @@
   "depends": [
     "Pod::Load:ver<0.5.4+>",
     "Pod::To::HTML:ver<0.6.2+>",
-    "Pod::To::Cached:ver<0.3.3+>",
+    "Pod::To::Cached:ver<0.3.5+>",
     "Perl6::TypeGraph:ver<2.1.1+>:auth<github:antoniogamiz>:api<2>",
     "Pod::Utilities:ver<0.0.1+>",
     "URI:ver<0.3+>",
@@ -21587,7 +21587,7 @@
     "Terminal::Spinners",
     "Test::Output"
   ],
-  "description": "Represents a piece of Perl 6 that is documented.",
+  "description": "An API for Perl 6 documentation",
   "license": "Artistic-2.0",
   "name": "Documentable",
   "perl": "6.d",
@@ -21743,7 +21743,6 @@
 }
 ,
 {
-  "auth": "finanalyst",
   "authors": "Richard Hainsworth",
   "depends": [
     "File::Directory::Tree",
@@ -21758,9 +21757,9 @@
     "Pod::To::Cached": "lib/Pod/To/Cached.pm6"
   },
   "source-type": "git",
-  "source-url": "https://github.com/finanalyst/pod-cached.git",
+  "source-url": "https://github.com/perl6/Pod-To-Cached.git",
   "support": {
-    "source": "https://github.com/finanalyst/pod-cached/issues"
+    "source": "https://github.com/perl6/Pod-To-Cached/issues"
   },
   "test-depends": [
     "Test::Output"
