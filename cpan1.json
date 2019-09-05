@@ -35900,6 +35900,34 @@
     "Mark Devine <mark@markdevine.com>"
   ],
   "depends": [
+    "JSON::Marshal",
+    "JSON::Unmarshal"
+  ],
+  "description": "Message handling to multiple destinations",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "MessageStream",
+  "perl": "6.d",
+  "provides": {
+    "MessageStream": "lib/MessageStream.pm6",
+    "MessageStream::Message": "lib/MessageStream/Message.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/MessageStream-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:markldevine",
+  "authors": [
+    "Mark Devine <mark@markdevine.com>"
+  ],
+  "depends": [
     
   ],
   "description": "POSIX getaddrinfo with added interfaces",
