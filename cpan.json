@@ -12664,6 +12664,49 @@
 ,
 {
   "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A modern HTTP pipeline parser",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "HTTP::Supply",
+  "perl": "6.c",
+  "provides": {
+    "HTTP::Request::Supply": "lib/HTTP/Request/Supply.pm6",
+    "HTTP::Supply": "lib/HTTP/Supply.pm6",
+    "HTTP::Supply::Body": "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Body::ChunkEncoding": "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Body::ContentLength": "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Request": "lib/HTTP/Supply/Request.pm6",
+    "HTTP::Supply::Response": "lib/HTTP/Supply/Response.pm6",
+    "HTTP::Supply::Tools": "lib/HTTP/Supply/Tools.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Supply-0.4.1.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/HTTP-Supply.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.4.1"
+}
+,
+{
+  "auth": "github:zostay",
   "author": "Andrew Sterling Hanenkamp",
   "authors": [
     "Sterling Hanenkamp <hanenkap@cpan.org>"
