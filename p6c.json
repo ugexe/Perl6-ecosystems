@@ -11236,35 +11236,6 @@
 }
 ,
 {
-  "api": "0",
-  "auth": "github:ugexe",
-  "authors": [
-    "ugexe"
-  ],
-  "depends": [
-    "Distribution::Common"
-  ],
-  "description": "Create an installable Distribution from common remote sources",
-  "license": "Artistic-2.0",
-  "name": "Distribution::Common::Remote",
-  "perl": "6.c",
-  "provides": {
-    "Distribution::Common::Remote::Github": "lib/Distribution/Common/Remote/Github.pm6",
-    "Distribution::IO::Remote::Github": "lib/Distribution/IO/Remote/Github.pm6"
-  },
-  "support": {
-    "bugtracker": "https://github.com/ugexe/Perl6-Distribution--Common--Remote/issues",
-    "source": "https://github.com/ugexe/Perl6-Distribution--Common--Remote.git"
-  },
-  "tags": [
-    "Distribution",
-    "Remote",
-    "Github"
-  ],
-  "version": "0.0.2"
-}
-,
-{
   "auth": "github:ugexe",
   "depends": [
     
