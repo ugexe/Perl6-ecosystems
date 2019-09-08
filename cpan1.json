@@ -10990,6 +10990,46 @@
 }
 ,
 {
+  "auth": "github:gdonald",
+  "authors": [
+    "Greg Donald"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Object-relational mapping",
+  "license": "Artistic-2.0",
+  "name": "ORM::ActiveRecord",
+  "perl": "6.d",
+  "provides": {
+    "ORM::ActiveRecord": "lib/ORM/ActiveRecord.pm6",
+    "ORM::ActiveRecord::DB": "lib/ORM/ActiveRecord/DB.pm6",
+    "ORM::ActiveRecord::Error": "lib/ORM/ActiveRecord/Error.pm6",
+    "ORM::ActiveRecord::Errors": "lib/ORM/ActiveRecord/Errors.pm6",
+    "ORM::ActiveRecord::Spell": "lib/ORM/ActiveRecord/Spell.pm6",
+    "ORM::ActiveRecord::Validator": "lib/ORM/ActiveRecord/Validator.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GD/GDONALD/Perl6/ORM-ActiveRecord-0.0.1.tar.gz",
+  "tags": [
+    "ORM",
+    "ActiveRecord"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META",
+    "JSON::Tiny",
+    "DBIish"
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "auth": "github:zostay",
   "authors": [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
@@ -36277,34 +36317,6 @@
     "OBFUSCATE"
   ],
   "version": "0.0.9"
-}
-,
-{
-  "auth": "github:markldevine",
-  "authors": [
-    "Mark Devine <mark@markdevine.com>"
-  ],
-  "depends": [
-    "JSON::Marshal",
-    "JSON::Unmarshal"
-  ],
-  "description": "Message handling to multiple destinations",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "MessageStream",
-  "perl": "6.d",
-  "provides": {
-    "MessageStream": "lib/MessageStream.pm6",
-    "MessageStream::Message": "lib/MessageStream/Message.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/MessageStream-0.0.1.tar.gz",
-  "tags": [
-    
-  ],
-  "version": "0.0.1"
 }
 ,
 {
