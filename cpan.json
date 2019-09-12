@@ -29073,6 +29073,46 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-gdk3-0.14.10.tar.gz",
+  "tags": [
+    "gnome",
+    "gdk"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.14.10"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib",
+    "Gnome::GObject"
+  ],
+  "description": "Perl6 Gnome gdk api, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gdk3",
+  "perl": "6",
+  "provides": {
+    "Gnome::Gdk3::Device": "lib/Gnome/Gdk3/Device.pm6",
+    "Gnome::Gdk3::Display": "lib/Gnome/Gdk3/Display.pm6",
+    "Gnome::Gdk3::Events": "lib/Gnome/Gdk3/Events.pm6",
+    "Gnome::Gdk3::Keysyms": "lib/Gnome/Gdk3/Keysyms.pm6",
+    "Gnome::Gdk3::RGBA": "lib/Gnome/Gdk3/RGBA.pm6",
+    "Gnome::Gdk3::Screen": "lib/Gnome/Gdk3/Screen.pm6",
+    "Gnome::Gdk3::Types": "lib/Gnome/Gdk3/Types.pm6",
+    "Gnome::Gdk3::Window": "lib/Gnome/Gdk3/Window.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-gdk3-0.14.9.tar.gz",
   "tags": [
     "gnome",
