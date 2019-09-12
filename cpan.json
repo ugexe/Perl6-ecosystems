@@ -44008,6 +44008,41 @@
 }
 ,
 {
+  "auth": "cpan:TIMOTIMO",
+  "authors": [
+    "Timo Paulssen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Native binding to Facebook's Zstd compression library",
+  "license": "Artistic-2.0",
+  "name": "Compress::Zstd",
+  "perl": "6.c",
+  "provides": {
+    "Compress::Zstd": "lib/Compress/Zstd.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TIMOTIMO/Perl6/Compress-Zstd-0.0.3.tar.gz",
+  "tags": [
+    "Compression",
+    "Decompress",
+    "Compress",
+    "ZSTD",
+    "Native"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "auth": null,
   "authors": [
     "Timo Paulssen",
