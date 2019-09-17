@@ -5951,20 +5951,6 @@
 }
 ,
 {
-  "depends": [
-    "Rakudo::Perl6::Parsing"
-  ],
-  "description": "trace Perl6",
-  "name": "Rakudo::Perl6::Tracer",
-  "perl": "6.*",
-  "provides": {
-    "Rakudo::Perl6::Tracer": "lib/Rakudo/Perl6/Tracer.pm"
-  },
-  "source-url": "git://github.com/jaffa4/perl6tracer.git",
-  "version": "0.1.1"
-}
-,
-{
   "author": "raydiak",
   "depends": [
     
