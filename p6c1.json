@@ -2422,6 +2422,19 @@
 }
 ,
 {
+  "depends": [
+    
+  ],
+  "description": "Literate programming (à la Haskell) in Perl 6",
+  "name": "Perl6::Literate",
+  "provides": {
+    "Perl6::Literate": "lib/Perl6/Literate.pm"
+  },
+  "source-url": "git://github.com/masak/perl6-literate.git",
+  "version": "*"
+}
+,
+{
   "auth": "github:perl6",
   "author": "Perl 6 team",
   "depends": [
@@ -5058,6 +5071,21 @@
   },
   "source-url": "git://github.com/dagurval/HTML-Strip.git",
   "version": "0.1.0"
+}
+,
+{
+  "author": "Lucien Grondin",
+  "depends": [
+    
+  ],
+  "description": "Modular arithmetics in Perl6",
+  "license": "Artistic-2.0",
+  "name": "Modular",
+  "provides": {
+    "Modular": "lib/Modular.pm"
+  },
+  "source-url": "git://github.com/grondilu/p6-modular.git",
+  "version": "0.1.2"
 }
 ,
 {
