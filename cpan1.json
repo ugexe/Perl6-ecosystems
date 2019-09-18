@@ -11043,50 +11043,6 @@
     
   ],
   "depends": [
-    
-  ],
-  "description": "Object-relational mapping",
-  "license": "Artistic-2.0",
-  "name": "ORM::ActiveRecord",
-  "perl": "6.d",
-  "provides": {
-    "ORM::ActiveRecord": "lib/ORM/ActiveRecord.pm6",
-    "ORM::ActiveRecord::DB": "lib/ORM/ActiveRecord/DB.pm6",
-    "ORM::ActiveRecord::Error": "lib/ORM/ActiveRecord/Error.pm6",
-    "ORM::ActiveRecord::Errors": "lib/ORM/ActiveRecord/Errors.pm6",
-    "ORM::ActiveRecord::Migrate": "lib/ORM/ActiveRecord/Migrate.pm6",
-    "ORM::ActiveRecord::Migration": "lib/ORM/ActiveRecord/Migration.pm6",
-    "ORM::ActiveRecord::Spell": "lib/ORM/ActiveRecord/Spell.pm6",
-    "ORM::ActiveRecord::Utils": "lib/ORM/ActiveRecord/Utils.pm6",
-    "ORM::ActiveRecord::Validator": "lib/ORM/ActiveRecord/Validator.pm6",
-    "ORM::ActiveRecord::Validators": "lib/ORM/ActiveRecord/Validators.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/G/GD/GDONALD/Perl6/ORM-ActiveRecord-0.0.3.tar.gz",
-  "tags": [
-    "ORM",
-    "ActiveRecord"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META",
-    "JSON::Tiny",
-    "DBIish"
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "auth": "github:gdonald",
-  "authors": [
-    "Greg Donald"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "DBIish",
     "JSON::Tiny"
   ],
