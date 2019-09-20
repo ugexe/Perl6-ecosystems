@@ -23424,4 +23424,40 @@
   ],
   "version": "0.0.11"
 }
+,
+{
+  "auth": "github:mj41",
+  "authors": [
+    "Michal Jurosz"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Various Perl 6 Sequences for spirals in matrix (two-dimensional arrays).",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::SpiralMatrix",
+  "perl": "6.*",
+  "provides": {
+    "Algorithm::SpiralMatrix": "lib/Algorithm/SpiralMatrix.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/mj41/Algorithm-SpiralMatrix.git",
+  "support": {
+    "bugtracker": "https://github.com/mj41/Algorithm-SpiralMatrix/issues",
+    "license": "http://www.perlfoundation.org/artistic_license_2_0"
+  },
+  "tags": [
+    "algorithm",
+    "bidimensional",
+    "sequence",
+    "array"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.2"
+}
 ]
