@@ -9288,6 +9288,24 @@
 }
 ,
 {
+  "authors": [
+    "Yasuhiro Matsumoto"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Simple utility to get canonical paths.",
+  "license": "Artistic-2.0",
+  "name": "Path::Canonical",
+  "perl": "v6",
+  "provides": {
+    "Path::Canonical": "lib/Path/Canonical.pm6"
+  },
+  "source-url": "git://github.com/mattn/p6-Path-Canonical.git",
+  "version": "*"
+}
+,
+{
   "author": "Brock Wilcox",
   "depends": [
     "Linenoise",
