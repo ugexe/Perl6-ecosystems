@@ -3338,6 +3338,24 @@
 {
   "author": "github:retupmoca",
   "depends": [
+    
+  ],
+  "description": "Low-level bindings to zlib",
+  "name": "Compress::Zlib::Raw",
+  "perl": "6.c",
+  "provides": {
+    "Compress::Zlib::Raw": "lib/Compress/Zlib/Raw.pm6"
+  },
+  "resources": [
+    "zlib1.dll"
+  ],
+  "source-url": "git://github.com/retupmoca/P6-Compress-Zlib-Raw.git",
+  "version": "1.0.1"
+}
+,
+{
+  "author": "github:retupmoca",
+  "depends": [
     "Compress::Zlib::Raw"
   ],
   "description": "Nicer zlib interface",
@@ -9258,24 +9276,6 @@
     "Test"
   ],
   "version": "1.001001"
-}
-,
-{
-  "authors": [
-    "Yasuhiro Matsumoto"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Simple utility to get canonical paths.",
-  "license": "Artistic-2.0",
-  "name": "Path::Canonical",
-  "perl": "v6",
-  "provides": {
-    "Path::Canonical": "lib/Path/Canonical.pm6"
-  },
-  "source-url": "git://github.com/mattn/p6-Path-Canonical.git",
-  "version": "*"
 }
 ,
 {
