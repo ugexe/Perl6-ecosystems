@@ -49008,6 +49008,56 @@
 }
 ,
 {
+  "api": "0",
+  "authors": "Patrick Spek <p.spek@tyil.work>",
+  "depends": [
+    "Config",
+    "IRC::Client"
+  ],
+  "description": "Nondescript",
+  "license": "GPL-3.0",
+  "meta-version": 0,
+  "name": "IRC::Client::Plugin::NickServ",
+  "perl": "6.c",
+  "provides": {
+    "IRC::Client::Plugin::NickServ": "lib/IRC/Client/Plugin/NickServ.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IRC-Client-Plugin-NickServ-0.2.0.tar.gz",
+  "tags": [
+    
+  ],
+  "version": "0.2.0"
+}
+,
+{
+  "api": "0",
+  "authors": "Patrick Spek <p.spek@tyil.work>",
+  "depends": [
+    "Config",
+    "IRC::Client"
+  ],
+  "description": "Nondescript",
+  "license": "GPL-3.0",
+  "meta-version": 0,
+  "name": "IRC::Client::Plugin::NickServ",
+  "perl": "6.c",
+  "provides": {
+    "IRC::Client::Plugin::NickServ": "lib/IRC/Client/Plugin/NickServ.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IRC-Client-Plugin-NickServ-0.2.1.tar.gz",
+  "tags": [
+    
+  ],
+  "version": "0.2.1"
+}
+,
+{
   "authors": "Patrick Spek <p.spek@tyil.work>",
   "depends": [
     "HTML::Parser::XML",
