@@ -16069,6 +16069,27 @@
 }
 ,
 {
+  "authors": [
+    "Fernando Correa de Oliveira"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Extends Date/DateTime features",
+  "name": "DateTime::Extended",
+  "perl": "6.*",
+  "provides": {
+    "DateTime::Extended": "lib/DateTime/Extended.pm6"
+  },
+  "source-url": "https://github.com/FCO/DateTime-Extended.git",
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.1.0"
+}
+,
+{
   "auth": "kalkin",
   "authors": [
     "Bahtiar `kalkin-` Gadimov"
