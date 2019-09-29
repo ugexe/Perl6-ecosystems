@@ -4823,7 +4823,8 @@
   "name": "LibZip",
   "perl": "6.c",
   "provides": {
-    "LibZip": "lib/LibZip.pm6"
+    "LibZip": "lib/LibZip.pm6",
+    "LibZip::NativeCall": "lib/LibZip/NativeCall.pm6"
   },
   "source-url": "git://github.com/azawawi/perl6-libzip.git",
   "version": "*"
