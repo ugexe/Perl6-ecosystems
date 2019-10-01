@@ -1164,38 +1164,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/OAuth2-Client-Google-0.1.0.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.0"
-}
-,
-{
-  "authors": [
-    "Brian Duggan"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "HTTP::UserAgent",
-    "IO::Socket::SSL",
-    "JSON::Fast"
-  ],
-  "description": "Authenticate against Google's OAuth2 API.",
-  "license": "Artistic-2.0",
-  "name": "OAuth2::Client::Google",
-  "perl": "6.c",
-  "provides": {
-    "OAuth2::Client::Google": "lib/OAuth2/Client/Google.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/OAuth2-Client-Google-0.1.1.tar.gz",
   "tags": [
     
@@ -8718,6 +8686,37 @@
     
   ],
   "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Allow subscripts at the end of identifiers",
+  "license": "Artistic-2.0",
+  "name": "Slang::Subscripts",
+  "perl": "6.c",
+  "provides": {
+    "Slang::Subscripts": "lib/Slang/Subscripts.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Slang-Subscripts-0.0.1.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
 }
 ,
 {
