@@ -22718,6 +22718,7 @@
     "Intl::CLDR": "lib/Intl/CLDR.pm6",
     "Intl::CLDR::Classes::Base": "lib/Intl/CLDR/Classes/Base.pm6",
     "Intl::CLDR::Classes::Calendar": "lib/Intl/CLDR/Classes/Calendar.pm6",
+    "Intl::CLDR::Genders": "lib/Intl/CLDR/Genders.pm6",
     "Intl::CLDR::Immutability": "lib/Intl/CLDR/Immutability.pm6",
     "Intl::CLDR::Lists": "lib/Intl/CLDR/Lists.pm6",
     "Intl::CLDR::NumberSystems::Ge'ez": "lib/Intl/CLDR/NumberSystems/Ge'ez.pm6",
@@ -22725,6 +22726,7 @@
     "Intl::CLDR::Numbers": "lib/Intl/CLDR/Numbers.pm6",
     "Intl::CLDR::Numbers::Classes": "lib/Intl/CLDR/Numbers/Classes.pm6",
     "Intl::CLDR::Numbers::Enums": "lib/Intl/CLDR/Numbers/Enums.pm6",
+    "Intl::CLDR::Numbers::Finder": "lib/Intl/CLDR/Numbers/Finder.pm6",
     "Intl::CLDR::Numbers::PatternParser": "lib/Intl/CLDR/Numbers/PatternParser.pm6",
     "Intl::CLDR::Plurals": "lib/Intl/CLDR/Plurals.pm6",
     "Intl::CLDR::Plurals::Classes": "lib/Intl/CLDR/Plurals/Classes.pm6"
@@ -22935,7 +22937,7 @@
   "test-depends": [
     
   ],
-  "version": "0.4.0"
+  "version": "0.4.1"
 }
 ,
 {
