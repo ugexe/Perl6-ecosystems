@@ -2301,6 +2301,37 @@
 }
 ,
 {
+  "authors": [
+    "Steve Schulze (thundergnat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "guess file type using the libmagic heuristic library",
+  "license": "Artistic-2.0",
+  "name": "Filetype::Magic",
+  "perl": "6",
+  "provides": {
+    "Filetype::Magic": "lib/Filetype/Magic.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/Filetype-Magic.git",
+  "tags": [
+    "file",
+    "file type",
+    "filetype",
+    "magic"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "author": [
     "David Farrell",
     "Dmitry Yaskolko"
