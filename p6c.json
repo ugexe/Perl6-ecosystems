@@ -16527,6 +16527,59 @@
 }
 ,
 {
+  "auth": "github:gfldex",
+  "authors": [
+    "Wenzel P. P. Peppmeyer"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "META6",
+    "HTTP::Client",
+    "Git::Config:auth<github:gfldex>",
+    "JSON::Tiny",
+    "Test::META",
+    "Slippy::Semilist",
+    "MIME::Base64"
+  ],
+  "description": "Provide a binary to work with META6.json-files.",
+  "emulates": {
+    
+  },
+  "excludes": {
+    
+  },
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "META6::bin",
+  "perl": "6.c",
+  "provides": {
+    "META6::bin": "lib/META6/bin.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/gfldex/perl6-meta6-bin.git",
+  "superseded-by": {
+    
+  },
+  "supersedes": {
+    
+  },
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.16.6"
+}
+,
+{
   "authors": [
     "Yann Büchau"
   ],
