@@ -31561,58 +31561,6 @@
     
   ],
   "source-type": "git",
-  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-0.0.44.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/melezhik/sparrowdo/issues",
-    "source": "https://github.com/melezhik/sparrowdo.git"
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.44"
-}
-,
-{
-  "authors": [
-    "Alexey Melezhik"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Terminal::ANSIColor",
-    "JSON::Tiny",
-    "Config::Simple",
-    "Data::Dump"
-  ],
-  "description": "Configuration management tool based on sparrow plugins system",
-  "license": "Artistic-2.0",
-  "name": "Sparrowdo",
-  "perl": "6.*",
-  "provides": {
-    "Sparrowdo": "lib/Sparrowdo.pm6",
-    "Sparrowdo::Core::DSL::Assert": "lib/Sparrowdo/Core/DSL/Assert.pm6",
-    "Sparrowdo::Core::DSL::Bash": "lib/Sparrowdo/Core/DSL/Bash.pm6",
-    "Sparrowdo::Core::DSL::CPAN::Package": "lib/Sparrowdo/Core/DSL/CPAN/Package.pm6",
-    "Sparrowdo::Core::DSL::Directory": "lib/Sparrowdo/Core/DSL/Directory.pm6",
-    "Sparrowdo::Core::DSL::File": "lib/Sparrowdo/Core/DSL/File.pm6",
-    "Sparrowdo::Core::DSL::Git": "lib/Sparrowdo/Core/DSL/Git.pm6",
-    "Sparrowdo::Core::DSL::Group": "lib/Sparrowdo/Core/DSL/Group.pm6",
-    "Sparrowdo::Core::DSL::Package": "lib/Sparrowdo/Core/DSL/Package.pm6",
-    "Sparrowdo::Core::DSL::Service": "lib/Sparrowdo/Core/DSL/Service.pm6",
-    "Sparrowdo::Core::DSL::Ssh": "lib/Sparrowdo/Core/DSL/Ssh.pm6",
-    "Sparrowdo::Core::DSL::Systemd": "lib/Sparrowdo/Core/DSL/Systemd.pm6",
-    "Sparrowdo::Core::DSL::Template": "lib/Sparrowdo/Core/DSL/Template.pm6",
-    "Sparrowdo::Core::DSL::User": "lib/Sparrowdo/Core/DSL/User.pm6",
-    "Sparrowdo::Core::DSL::Zef": "lib/Sparrowdo/Core/DSL/Zef.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-type": "git",
   "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-0.0.45.tar.gz",
   "support": {
     "bugtracker": "https://github.com/melezhik/sparrowdo/issues",
