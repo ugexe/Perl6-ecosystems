@@ -20691,30 +20691,20 @@
     "Tony O'Dell"
   ],
   "depends": [
-    "DB::MySQL",
-    "DB::Pg",
-    "DBIish",
-    "DB::SQLite"
+    
   ],
-  "description": "An ORM, with support.",
+  "description": "An ORM, with support (and no meta model syntax).",
   "license": "Artistic-2.0",
   "name": "DB::Xoos",
   "perl": "6",
   "provides": {
     "DB::Xoos": "lib/DB/Xoos.pm6",
-    "DB::Xoos::DSN": "lib/DB/Xoos/DSN.pm6",
-    "DB::Xoos::Model": "lib/DB/Xoos/Model.pm6",
-    "DB::Xoos::MySQL": "lib/DB/Xoos/MySQL.pm6",
-    "DB::Xoos::MySQL::Searchable": "lib/DB/Xoos/MySQL/Searchable.pm6",
-    "DB::Xoos::Oracle": "lib/DB/Xoos/Oracle.pm6",
-    "DB::Xoos::Oracle::Searchable": "lib/DB/Xoos/Oracle/Searchable.pm6",
-    "DB::Xoos::Pg": "lib/DB/Xoos/Pg.pm6",
-    "DB::Xoos::Pg::Dynamic": "lib/DB/Xoos/Pg/Dynamic.pm6",
-    "DB::Xoos::Pg::Searchable": "lib/DB/Xoos/Pg/Searchable.pm6",
-    "DB::Xoos::Row": "lib/DB/Xoos/Row.pm6",
-    "DB::Xoos::SQLite": "lib/DB/Xoos/SQLite.pm6",
-    "DB::Xoos::SQLite::Searchable": "lib/DB/Xoos/SQLite/Searchable.pm6",
-    "DB::Xoos::Searchable": "lib/DB/Xoos/Searchable.pm6"
+    "DB::Xoos::Role::Cache": "lib/DB/Xoos/Role/Cache.pm6",
+    "DB::Xoos::Role::DynamicLoader": "lib/DB/Xoos/Role/DynamicLoader.pm6",
+    "DB::Xoos::Role::Model": "lib/DB/Xoos/Role/Model.pm6",
+    "DB::Xoos::Role::Row": "lib/DB/Xoos/Role/Row.pm6",
+    "DB::Xoos::Role::Searchable": "lib/DB/Xoos/Role/Searchable.pm6",
+    "DB::Xoos::Util::DSN": "lib/DB/Xoos/Util/DSN.pm6"
   },
   "source-url": "git://github.com/tony-o/perl6-xoo.git",
   "tags": [
@@ -20730,7 +20720,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.14"
+  "version": "0.1.0"
 }
 ,
 {
