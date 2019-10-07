@@ -1,5 +1,37 @@
 [
 {
+  "auth": "threadless-screw",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Fuzzy index routine based on Smith-Waterman algorithm",
+  "license": "Artistic-2.0",
+  "name": "String::FuzzyIndex",
+  "perl": "6.d",
+  "provides": {
+    "String::FuzzyIndex": "lib/String/FuzzyIndex.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/threadless-screw/String-FuzzyIndex",
+  "tags": [
+    "string",
+    "fuzzy",
+    "index",
+    "fzindex",
+    "smith-waterman"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1"
+}
+,
+{
   "api": "1",
   "auth": "github:shintakezou",
   "authors": [
