@@ -51806,6 +51806,38 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "A module to convert Markdown into HTML",
+  "license": "Artistic-2.0",
+  "name": "Markit",
+  "perl": "6.c",
+  "provides": {
+    "Markit": "lib/Markit.pm6",
+    "Markit::Document": "lib/Markit/Document.pm6",
+    "Markit::Elements": "lib/Markit/Elements.pm6",
+    "Markit::Utility": "lib/Markit/Utility.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/U/UZ/UZLUISF/Perl6/Markit-0.0.1.tar.gz",
+  "tags": [
+    "Markdown",
+    "HTML"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "gitlab:uzluisf",
+  "authors": [
+    "Luis F. Uceta"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Pod::To::HTML"
   ],
   "description": "A simple GUI application for previewing Pod files",
