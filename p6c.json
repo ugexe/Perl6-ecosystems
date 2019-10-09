@@ -319,6 +319,20 @@
   "depends": [
     
   ],
+  "description": "Simple Chebyshev polynomial class",
+  "name": "Math::ChebyshevPolynomial",
+  "provides": {
+    "Math::ChebyshevPolynomial": "lib/Math/ChebyshevPolynomial.pm"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/colomon/Math-ChebyshevPolynomial.git",
+  "version": "*"
+}
+,
+{
+  "depends": [
+    
+  ],
   "description": "Standard math function odds and ends",
   "name": "Math::OddFunctions",
   "provides": {
