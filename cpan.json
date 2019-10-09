@@ -1150,6 +1150,33 @@
     
   ],
   "depends": [
+    "Terminal::ANSIColor"
+  ],
+  "description": "Make grammars fail parsing with a pretty error instead of returning nil",
+  "license": "Artistic-2.0",
+  "name": "Grammar::PrettyErrors",
+  "perl": "6.*",
+  "provides": {
+    "Grammar::PrettyErrors": "lib/Grammar/PrettyErrors.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Grammar-PrettyErrors-0.0.4.tar.gz",
+  "tags": [
+    "parsing"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "authors": [
+    "Brian Duggan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "HTTP::UserAgent",
     "IO::Socket::SSL",
     "JSON::Fast"
@@ -29136,6 +29163,36 @@
     
   ],
   "version": "0.1.2"
+}
+,
+{
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A powerful getopt implementation",
+  "license": "Artistic-2.0",
+  "name": "Getopt::Long",
+  "perl": "6.*",
+  "provides": {
+    "Getopt::Long": "lib/Getopt/Long.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Getopt-Long-0.1.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.3"
 }
 ,
 {
