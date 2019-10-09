@@ -1,6 +1,9 @@
 [
 {
-  "auth": "threadless-screw",
+  "auth": "github:threadless-screw",
+  "authors": [
+    "threadless-screw"
+  ],
   "build-depends": [
     
   ],
@@ -17,7 +20,7 @@
   "resources": [
     
   ],
-  "source-url": "https://github.com/threadless-screw/String-FuzzyIndex",
+  "source-url": "https://github.com/threadless-screw/String-FuzzyIndex.git",
   "tags": [
     "string",
     "fuzzy",
@@ -28,7 +31,7 @@
   "test-depends": [
     
   ],
-  "version": "0.1"
+  "version": "0.2"
 }
 ,
 {
@@ -309,20 +312,6 @@
   },
   "source-type": "git",
   "source-url": "git://github.com/colomon/Math-ContinuedFractions.git",
-  "version": "*"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "Simple Chebyshev polynomial class",
-  "name": "Math::ChebyshevPolynomial",
-  "provides": {
-    "Math::ChebyshevPolynomial": "lib/Math/ChebyshevPolynomial.pm"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/colomon/Math-ChebyshevPolynomial.git",
   "version": "*"
 }
 ,
