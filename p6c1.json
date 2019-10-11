@@ -23567,4 +23567,41 @@
   ],
   "version": "0.1.0"
 }
+,
+{
+  "auth": "github:tony-o",
+  "authors": [
+    "Tony O'Dell"
+  ],
+  "depends": [
+    "DB::Xoos:ver<0.1.0+>",
+    "DB::MySQL"
+  ],
+  "description": "An ORM, with support (and no meta model syntax). mysql",
+  "license": "Artistic-2.0",
+  "name": "DB::Xoos::MySQL",
+  "perl": "6",
+  "provides": {
+    "DB::Xoos::MySQL": "lib/DB/Xoos/MySQL.pm6",
+    "DB::Xoos::MySQL::Row": "lib/DB/Xoos/MySQL/Row.pm6",
+    "DB::Xoos::MySQL::Searchable": "lib/DB/Xoos/MySQL/Searchable.pm6",
+    "DB::Xoos::MySQL::Util::Dynamic": "lib/DB/Xoos/MySQL/Util/Dynamic.pm6"
+  },
+  "source-url": "git://github.com/tony-o/p6-db-xoos-mysql.git",
+  "tags": [
+    "ORM",
+    "DB",
+    "database",
+    "model",
+    "relational",
+    "object",
+    "relationship",
+    "mapping",
+    "mysql"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.0"
+}
 ]
