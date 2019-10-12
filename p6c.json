@@ -2367,6 +2367,37 @@
 }
 ,
 {
+  "authors": [
+    "Steve Schulze (thundergnat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Given a list of factors, return a smooth number iterator",
+  "license": "Artistic-2.0",
+  "name": "Smooth::Numbers",
+  "perl": "6",
+  "provides": {
+    "Smooth::Numbers": "lib/Smooth/Numbers.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/smooth-numbers.git",
+  "tags": [
+    "Smooth numbers",
+    "Pierpont",
+    "Hamming",
+    "Humble"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "author": [
     "David Farrell",
     "Dmitry Yaskolko"
