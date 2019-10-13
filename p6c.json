@@ -5444,7 +5444,7 @@
   "api": "css-snapshot-2010",
   "auth": "github:p6-css",
   "depends": [
-    "CSS::Grammar",
+    "CSS::Grammar:ver(0.3.3+)",
     "CSS::Module::CSS3::Selectors",
     "CSS::Specification",
     "CSS::Writer",
@@ -7335,7 +7335,7 @@
   "api": "css3-selectors-20110929",
   "auth": "github:p6-css",
   "depends": [
-    "CSS::Grammar",
+    "CSS::Grammar:ver<0.3.3+>",
     "JSON::Fast"
   ],
   "description": "CSS3 Module Level 3 Selectors",
@@ -7347,7 +7347,7 @@
     "CSS::Module::CSS3::Selectors::Actions": "lib/CSS/Module/CSS3/Selectors/Actions.pm"
   },
   "source-url": "git://github.com/p6-css/CSS-Module-CSS3-Selectors-p6.git",
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
 ,
 {
