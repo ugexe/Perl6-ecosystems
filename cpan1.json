@@ -29074,6 +29074,70 @@
     
   ],
   "depends": [
+    "TAP:ver<0.0.8+>",
+    "Getopt::Long"
+  ],
+  "description": "Run tests through a TAP harness.",
+  "license": "Artistic-2.0",
+  "name": "App::Prove6",
+  "perl": "6.*",
+  "provides": {
+    "App::Prove6": "lib/App/Prove6.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/App-Prove6-0.0.11.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.11"
+}
+,
+{
+  "auth": "cpan:LEONT",
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "TAP:ver<0.1.0+>",
+    "Getopt::Long"
+  ],
+  "description": "Run tests through a TAP harness.",
+  "license": "Artistic-2.0",
+  "name": "App::Prove6",
+  "perl": "6.*",
+  "provides": {
+    "App::Prove6": "lib/App/Prove6.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/App-Prove6-0.0.12.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.12"
+}
+,
+{
+  "auth": "cpan:LEONT",
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "TAP:ver<0.0.8>",
     "Getopt::Long"
   ],
