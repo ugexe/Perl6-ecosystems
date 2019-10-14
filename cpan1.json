@@ -18189,6 +18189,120 @@
   ],
   "depends": [
     "if",
+    "DateTime::Monotonic",
+    "NativeHelpers::Blob",
+    "OO::Monitors",
+    "StrictClass",
+    "TCP::LowLevel",
+    "Terminal::ANSIColor"
+  ],
+  "description": "BGP Server Support",
+  "license": "Artistic-2.0",
+  "name": "Net::BGP",
+  "perl": "6.d",
+  "provides": {
+    "Net::BGP": "lib/Net/BGP.pm6",
+    "Net::BGP::AFI": "lib/Net/BGP/AFI.pm6",
+    "Net::BGP::AFI-SAFI": "lib/Net/BGP/AFI-SAFI.pm6",
+    "Net::BGP::AS-List": "lib/Net/BGP/AS-List.pm6",
+    "Net::BGP::CIDR": "lib/Net/BGP/CIDR.pm6",
+    "Net::BGP::Capability": "lib/Net/BGP/Capability.pm6",
+    "Net::BGP::Capability::ASN32": "lib/Net/BGP/Capability/ASN32.pm6",
+    "Net::BGP::Capability::Deprecated-Dynamic-Capability": "lib/Net/BGP/Capability/Deprecated-Dynamic-Capability.pm6",
+    "Net::BGP::Capability::Generic": "lib/Net/BGP/Capability/Generic.pm6",
+    "Net::BGP::Capability::MPBGP": "lib/Net/BGP/Capability/MPBGP.pm6",
+    "Net::BGP::Capability::Route-Refresh": "lib/Net/BGP/Capability/Route-Refresh.pm6",
+    "Net::BGP::Capability::Route-Refresh-Cisco": "lib/Net/BGP/Capability/Route-Refresh-Cisco.pm6",
+    "Net::BGP::Command": "lib/Net/BGP/Command.pm6",
+    "Net::BGP::Command::BGP-Message": "lib/Net/BGP/Command/BGP-Message.pm6",
+    "Net::BGP::Command::Dead-Child": "lib/Net/BGP/Command/Dead-Child.pm6",
+    "Net::BGP::Command::Stop": "lib/Net/BGP/Command/Stop.pm6",
+    "Net::BGP::Connection": "lib/Net/BGP/Connection.pm6",
+    "Net::BGP::Connection-List": "lib/Net/BGP/Connection-List.pm6",
+    "Net::BGP::Connection-Role": "lib/Net/BGP/Connection-Role.pm6",
+    "Net::BGP::Controller": "lib/Net/BGP/Controller.pm6",
+    "Net::BGP::Controller-Handle-BGP": "lib/Net/BGP/Controller-Handle-BGP.pm6",
+    "Net::BGP::Conversions": "lib/Net/BGP/Conversions.pm6",
+    "Net::BGP::Conversions-Post201812": "lib/Net/BGP/Conversions-Post201812.pm6",
+    "Net::BGP::Conversions-Pre201812": "lib/Net/BGP/Conversions-Pre201812.pm6",
+    "Net::BGP::Error": "lib/Net/BGP/Error.pm6",
+    "Net::BGP::Error::Bad-Option-Length": "lib/Net/BGP/Error/Bad-Option-Length.pm6",
+    "Net::BGP::Error::Bad-Parameter-Length": "lib/Net/BGP/Error/Bad-Parameter-Length.pm6",
+    "Net::BGP::Error::Hold-Time-Too-Short": "lib/Net/BGP/Error/Hold-Time-Too-Short.pm6",
+    "Net::BGP::Error::Length-Too-Long": "lib/Net/BGP/Error/Length-Too-Long.pm6",
+    "Net::BGP::Error::Length-Too-Short": "lib/Net/BGP/Error/Length-Too-Short.pm6",
+    "Net::BGP::Error::Marker-Format": "lib/Net/BGP/Error/Marker-Format.pm6",
+    "Net::BGP::Error::Unknown-Version": "lib/Net/BGP/Error/Unknown-Version.pm6",
+    "Net::BGP::Event": "lib/Net/BGP/Event.pm6",
+    "Net::BGP::Event::BGP-Message": "lib/Net/BGP/Event/BGP-Message.pm6",
+    "Net::BGP::Event::Closed-Connection": "lib/Net/BGP/Event/Closed-Connection.pm6",
+    "Net::BGP::Event::New-Connection": "lib/Net/BGP/Event/New-Connection.pm6",
+    "Net::BGP::IP": "lib/Net/BGP/IP.pm6",
+    "Net::BGP::Message": "lib/Net/BGP/Message.pm6",
+    "Net::BGP::Message::Generic": "lib/Net/BGP/Message/Generic.pm6",
+    "Net::BGP::Message::Keep-Alive": "lib/Net/BGP/Message/Keep-Alive.pm6",
+    "Net::BGP::Message::Notify": "lib/Net/BGP/Message/Notify.pm6",
+    "Net::BGP::Message::Notify::Generic": "lib/Net/BGP/Message/Notify/Generic.pm6",
+    "Net::BGP::Message::Notify::Header": "lib/Net/BGP/Message/Notify/Header.pm6",
+    "Net::BGP::Message::Notify::Header::Connection-Not-Syncronized": "lib/Net/BGP/Message/Notify/Header/Connection-Not-Syncronized.pm6",
+    "Net::BGP::Message::Notify::Header::Generic": "lib/Net/BGP/Message/Notify/Header/Generic.pm6",
+    "Net::BGP::Message::Notify::Hold-Timer-Expired": "lib/Net/BGP/Message/Notify/Hold-Timer-Expired.pm6",
+    "Net::BGP::Message::Notify::Open": "lib/Net/BGP/Message/Notify/Open.pm6",
+    "Net::BGP::Message::Notify::Open::Bad-Peer-AS": "lib/Net/BGP/Message/Notify/Open/Bad-Peer-AS.pm6",
+    "Net::BGP::Message::Notify::Open::Generic": "lib/Net/BGP/Message/Notify/Open/Generic.pm6",
+    "Net::BGP::Message::Notify::Open::Unsupported-Optional-Parameter": "lib/Net/BGP/Message/Notify/Open/Unsupported-Optional-Parameter.pm6",
+    "Net::BGP::Message::Notify::Open::Unsupported-Version": "lib/Net/BGP/Message/Notify/Open/Unsupported-Version.pm6",
+    "Net::BGP::Message::Open": "lib/Net/BGP/Message/Open.pm6",
+    "Net::BGP::Message::Update": "lib/Net/BGP/Message/Update.pm6",
+    "Net::BGP::Parameter": "lib/Net/BGP/Parameter.pm6",
+    "Net::BGP::Parameter::Capabilities": "lib/Net/BGP/Parameter/Capabilities.pm6",
+    "Net::BGP::Parameter::Generic": "lib/Net/BGP/Parameter/Generic.pm6",
+    "Net::BGP::Path-Attribute": "lib/Net/BGP/Path-Attribute.pm6",
+    "Net::BGP::Path-Attribute::AS-Path": "lib/Net/BGP/Path-Attribute/AS-Path.pm6",
+    "Net::BGP::Path-Attribute::AS4-Aggregator": "lib/Net/BGP/Path-Attribute/AS4-Aggregator.pm6",
+    "Net::BGP::Path-Attribute::AS4-Path": "lib/Net/BGP/Path-Attribute/AS4-Path.pm6",
+    "Net::BGP::Path-Attribute::Aggregator": "lib/Net/BGP/Path-Attribute/Aggregator.pm6",
+    "Net::BGP::Path-Attribute::Atomic-Aggregate": "lib/Net/BGP/Path-Attribute/Atomic-Aggregate.pm6",
+    "Net::BGP::Path-Attribute::Cluster-List": "lib/Net/BGP/Path-Attribute/Cluster-List.pm6",
+    "Net::BGP::Path-Attribute::Community": "lib/Net/BGP/Path-Attribute/Community.pm6",
+    "Net::BGP::Path-Attribute::Generic": "lib/Net/BGP/Path-Attribute/Generic.pm6",
+    "Net::BGP::Path-Attribute::Local-Pref": "lib/Net/BGP/Path-Attribute/Local-Pref.pm6",
+    "Net::BGP::Path-Attribute::Long-Community": "lib/Net/BGP/Path-Attribute/Long-Community.pm6",
+    "Net::BGP::Path-Attribute::MED": "lib/Net/BGP/Path-Attribute/MED.pm6",
+    "Net::BGP::Path-Attribute::MP-NLRI": "lib/Net/BGP/Path-Attribute/MP-NLRI.pm6",
+    "Net::BGP::Path-Attribute::MP-Unreachable": "lib/Net/BGP/Path-Attribute/MP-Unreachable.pm6",
+    "Net::BGP::Path-Attribute::Next-Hop": "lib/Net/BGP/Path-Attribute/Next-Hop.pm6",
+    "Net::BGP::Path-Attribute::Origin": "lib/Net/BGP/Path-Attribute/Origin.pm6",
+    "Net::BGP::Path-Attribute::Originator-ID": "lib/Net/BGP/Path-Attribute/Originator-ID.pm6",
+    "Net::BGP::Peer": "lib/Net/BGP/Peer.pm6",
+    "Net::BGP::Peer-List": "lib/Net/BGP/Peer-List.pm6",
+    "Net::BGP::SAFI": "lib/Net/BGP/SAFI.pm6",
+    "Net::BGP::Time": "lib/Net/BGP/Time.pm6",
+    "Net::BGP::Validation": "lib/Net/BGP/Validation.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/Net-BGP-0.1.7.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.7"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "if",
     "NativeHelpers::Blob",
     "StrictClass"
   ],
@@ -18247,6 +18361,41 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "if",
+    "NativeHelpers::Blob",
+    "StrictClass"
+  ],
+  "description": "Raku bindings for NativeCall TCP on Linux w/ Non-NativeCall Fallback`",
+  "license": "Artistic-2.0",
+  "name": "TCP::LowLevel",
+  "perl": "6.c",
+  "provides": {
+    "TCP::LowLevel": "lib/TCP/LowLevel.pm6",
+    "TCP::LowLevel::Socket-Connection-Linux": "lib/TCP/LowLevel/Socket-Connection-Linux.pm6",
+    "TCP::LowLevel::Socket-Linux": "lib/TCP/LowLevel/Socket-Linux.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/TCP-LowLevel-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
@@ -46283,6 +46432,45 @@
 }
 ,
 {
+  "authors": [
+    "titsuki"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON"
+  ],
+  "builder": "Algorithm::LibSVM::CustomBuilder",
+  "depends": [
+    
+  ],
+  "description": "A Perl 6 bindings for libsvm",
+  "license": "MIT",
+  "name": "Algorithm::LibSVM",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::LibSVM": "lib/Algorithm/LibSVM.pm6",
+    "Algorithm::LibSVM::Actions": "lib/Algorithm/LibSVM/Actions.pm6",
+    "Algorithm::LibSVM::CustomBuilder": "lib/Algorithm/LibSVM/CustomBuilder.pm6",
+    "Algorithm::LibSVM::Grammar": "lib/Algorithm/LibSVM/Grammar.pm6",
+    "Algorithm::LibSVM::Model": "lib/Algorithm/LibSVM/Model.pm6",
+    "Algorithm::LibSVM::Node": "lib/Algorithm/LibSVM/Node.pm6",
+    "Algorithm::LibSVM::Parameter": "lib/Algorithm/LibSVM/Parameter.pm6",
+    "Algorithm::LibSVM::Problem": "lib/Algorithm/LibSVM/Problem.pm6"
+  },
+  "resources": [
+    "libraries/svm"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LibSVM-0.0.7.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
   "author": "cpan:TITSUKI",
   "authors": [
     "Itsuki Toyota"
@@ -54947,98 +55135,6 @@
     "pdf"
   ],
   "version": "0.0.3"
-}
-,
-{
-  "auth": "github:p6-xml",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake",
-    "Pod::To::Markdown"
-  ],
-  "depends": [
-    "XML",
-    "Method::Also",
-    "File::Temp"
-  ],
-  "description": "Perl 6 bindings to the libxml2 native library",
-  "license": "Artistic-2.0",
-  "name": "LibXML",
-  "perl": "6",
-  "provides": {
-    "LibXML": "lib/LibXML.pm6",
-    "LibXML::Attr": "lib/LibXML/Attr.pm6",
-    "LibXML::Attr::Map": "lib/LibXML/Attr/Map.pm6",
-    "LibXML::AttrDecl": "lib/LibXML/AttrDecl.pm6",
-    "LibXML::CDATA": "lib/LibXML/CDATA.pm6",
-    "LibXML::Comment": "lib/LibXML/Comment.pm6",
-    "LibXML::Config": "lib/LibXML/Config.pm6",
-    "LibXML::Dict": "lib/LibXML/Dict.pm6",
-    "LibXML::Document": "lib/LibXML/Document.pm6",
-    "LibXML::DocumentFragment": "lib/LibXML/DocumentFragment.pm6",
-    "LibXML::Dtd": "lib/LibXML/Dtd.pm6",
-    "LibXML::Element": "lib/LibXML/Element.pm6",
-    "LibXML::ElementDecl": "lib/LibXML/ElementDecl.pm6",
-    "LibXML::Entity": "lib/LibXML/Entity.pm6",
-    "LibXML::EntityRef": "lib/LibXML/EntityRef.pm6",
-    "LibXML::Enums": "lib/LibXML/Enums.pm6",
-    "LibXML::ErrorHandler": "lib/LibXML/ErrorHandler.pm6",
-    "LibXML::InputCallback": "lib/LibXML/InputCallback.pm6",
-    "LibXML::Item": "lib/LibXML/Item.pm6",
-    "LibXML::Namespace": "lib/LibXML/Namespace.pm6",
-    "LibXML::Native": "lib/LibXML/Native.pm6",
-    "LibXML::Native::DOM::Attr": "lib/LibXML/Native/DOM/Attr.pm6",
-    "LibXML::Native::DOM::Document": "lib/LibXML/Native/DOM/Document.pm6",
-    "LibXML::Native::DOM::Element": "lib/LibXML/Native/DOM/Element.pm6",
-    "LibXML::Native::DOM::Node": "lib/LibXML/Native/DOM/Node.pm6",
-    "LibXML::Native::Defs": "lib/LibXML/Native/Defs.pm6",
-    "LibXML::Native::Dict": "lib/LibXML/Native/Dict.pm6",
-    "LibXML::Native::HashTable": "lib/LibXML/Native/HashTable.pm6",
-    "LibXML::Native::RelaxNG": "lib/LibXML/Native/RelaxNG.pm6",
-    "LibXML::Native::Schema": "lib/LibXML/Native/Schema.pm6",
-    "LibXML::Native::TextReader": "lib/LibXML/Native/TextReader.pm6",
-    "LibXML::Node": "lib/LibXML/Node.pm6",
-    "LibXML::Node::List": "lib/LibXML/Node/List.pm6",
-    "LibXML::Node::Set": "lib/LibXML/Node/Set.pm6",
-    "LibXML::PI": "lib/LibXML/PI.pm6",
-    "LibXML::Parser": "lib/LibXML/Parser.pm6",
-    "LibXML::Parser::Context": "lib/LibXML/Parser/Context.pm6",
-    "LibXML::Pattern": "lib/LibXML/Pattern.pm6",
-    "LibXML::PushParser": "lib/LibXML/PushParser.pm6",
-    "LibXML::Reader": "lib/LibXML/Reader.pm6",
-    "LibXML::RegExp": "lib/LibXML/RegExp.pm6",
-    "LibXML::RelaxNG": "lib/LibXML/RelaxNG.pm6",
-    "LibXML::SAX": "lib/LibXML/SAX.pm6",
-    "LibXML::SAX::Builder": "lib/LibXML/SAX/Builder.pm6",
-    "LibXML::SAX::Handler": "lib/LibXML/SAX/Handler.pm6",
-    "LibXML::SAX::Handler::SAX2": "lib/LibXML/SAX/Handler/SAX2.pm6",
-    "LibXML::SAX::Handler::SAX2::Locator": "lib/LibXML/SAX/Handler/SAX2/Locator.pm6",
-    "LibXML::SAX::Handler::XML": "lib/LibXML/SAX/Handler/XML.pm6",
-    "LibXML::Schema": "lib/LibXML/Schema.pm6",
-    "LibXML::Text": "lib/LibXML/Text.pm6",
-    "LibXML::Types": "lib/LibXML/Types.pm6",
-    "LibXML::XPath::Context": "lib/LibXML/XPath/Context.pm6",
-    "LibXML::XPath::Expression": "lib/LibXML/XPath/Expression.pm6",
-    "LibXML::XPath::Object": "lib/LibXML/XPath/Object.pm6",
-    "LibXML::_DOMNode": "lib/LibXML/_DOMNode.pm6",
-    "LibXML::_Options": "lib/LibXML/_Options.pm6",
-    "LibXML::_StringyNode": "lib/LibXML/_StringyNode.pm6"
-  },
-  "resources": [
-    "libraries/xml6"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/LibXML-0.0.9.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.9"
 }
 ,
 {
