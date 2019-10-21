@@ -56570,6 +56570,49 @@
 }
 ,
 {
+  "auth": "github:p6-xml",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Pod::To::Markdown"
+  ],
+  "depends": [
+    "LibXML:ver<0.1.6+>",
+    "Method::Also"
+  ],
+  "description": "LibXSLT - Interface to the GNOME libxslt library",
+  "license": "Artistic-2.0",
+  "name": "LibXSLT",
+  "perl": "6",
+  "provides": {
+    "LibXSLT": "lib/LibXSLT.pm6",
+    "LibXSLT::Config": "lib/LibXSLT/Config.pm6",
+    "LibXSLT::Document": "lib/LibXSLT/Document.pm6",
+    "LibXSLT::Enums": "lib/LibXSLT/Enums.pm6",
+    "LibXSLT::ExtensionContext": "lib/LibXSLT/ExtensionContext.pm6",
+    "LibXSLT::Native": "lib/LibXSLT/Native.pm6",
+    "LibXSLT::Native::Defs": "lib/LibXSLT/Native/Defs.pm6",
+    "LibXSLT::Security": "lib/LibXSLT/Security.pm6",
+    "LibXSLT::Stylesheet": "lib/LibXSLT/Stylesheet.pm6",
+    "LibXSLT::TransformContext": "lib/LibXSLT/TransformContext.pm6"
+  },
+  "resources": [
+    "libraries/xslt6"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/LibXSLT-0.0.3.tar.gz",
+  "tags": [
+    "xml",
+    "xslt"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "api": "PDF-1.7",
   "auth": "github:p6-pdf",
   "authors": [
