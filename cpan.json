@@ -14579,6 +14579,62 @@
 }
 ,
 {
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Prometheus instrumentation client for Perl 6",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Prometheus::Client",
+  "perl": "6.c",
+  "provides": {
+    "Prometheus::Client": "lib/Prometheus/Client.pm6",
+    "Prometheus::Client::CollectorRegistry": "lib/Prometheus/Client.pm6",
+    "Prometheus::Client::Exporter": "lib/Prometheus/Client/Exporter.pm6",
+    "Prometheus::Client::Exposition": "lib/Prometheus/Client/Exposition.pm6",
+    "Prometheus::Client::Instrument": "lib/Prometheus/Client.pm6",
+    "Prometheus::Client::Instrument::Timed": "lib/Prometheus/Client.pm6",
+    "Prometheus::Client::Instrument::TrackInProgress": "lib/Prometheus/Client.pm6",
+    "Prometheus::Client::Metrics": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Base": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Collector": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Counter": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Descriptor": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Factory": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Gauge": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Group": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Histogram": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Info": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Metric": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Sample": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::StateSet": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Summary": "lib/Prometheus/Client/Metrics.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Prometheus-Client-0.1.1.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/p6-Prometheus-Client.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.1.1"
+}
+,
+{
   "auth": "github.zostay",
   "author": "Andrew Sterling Hanenkamp",
   "authors": [
