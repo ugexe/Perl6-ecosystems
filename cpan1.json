@@ -28025,6 +28025,41 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/K/KJ/KJK/Perl6/P6Repl-Helper-0.0.1.tar.gz",
+  "tags": [
+    "PERL6",
+    "REPL",
+    "INTROSPECTION",
+    "TOOL",
+    "HELP"
+  ],
+  "test-depends": [
+    "Test::Output"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:kjkuan",
+  "authors": [
+    "Jack Kuan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Browser::Open"
+  ],
+  "description": "Convenience functions to help with introspecting objects from Perl6 REPL.",
+  "license": "Artistic-2.0",
+  "name": "P6Repl::Helper",
+  "perl": "6.c",
+  "provides": {
+    "P6Repl::Helper": "lib/P6Repl/Helper.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/K/KJ/KJK/Perl6/P6Repl-Helper-0.0.2.tar.gz",
   "tags": [
     "PERL6",
