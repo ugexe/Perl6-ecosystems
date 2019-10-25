@@ -11584,7 +11584,7 @@
   "depends": [
     "NativeCall"
   ],
-  "description": "A Perl 6 module manager",
+  "description": "A Raku / Perl 6 module manager",
   "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "zef",
@@ -11606,7 +11606,6 @@
     "Zef::Repository": "lib/Zef/Repository.pm6",
     "Zef::Repository::Ecosystems": "lib/Zef/Repository/Ecosystems.pm6",
     "Zef::Repository::LocalCache": "lib/Zef/Repository/LocalCache.pm6",
-    "Zef::Repository::MetaCPAN": "lib/Zef/Repository/MetaCPAN.pm6",
     "Zef::Service::FetchPath": "lib/Zef/Service/FetchPath.pm6",
     "Zef::Service::InstallPM6": "lib/Zef/Service/InstallPM6.pm6",
     "Zef::Service::P6CReporter": "lib/Zef/Service/P6CReporter.pm6",
@@ -11652,7 +11651,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "0.7.4"
+  "version": "0.8.0"
 }
 ,
 {
