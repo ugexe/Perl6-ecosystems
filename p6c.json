@@ -1,5 +1,40 @@
 [
 {
+  "auth": "github:tony-o",
+  "authors": [
+    "Tony O'Dell"
+  ],
+  "depends": [
+    
+  ],
+  "description": "An ORM, with support.",
+  "license": "Artistic-2.0",
+  "name": "DB::Xoos::SQLite",
+  "perl": "6",
+  "provides": {
+    "DB::Xoos::Sqlite": "lib/DB/Xoos/Sqlite.pm6",
+    "DB::Xoos::Sqlite::Result": "lib/DB/Xoos/Sqlite/Result.pm6"
+  },
+  "source-url": "git://github.com/tony-o/p6-db-xoos-sqlite.git",
+  "tags": [
+    "ORM",
+    "DB",
+    "database",
+    "model",
+    "relational",
+    "object",
+    "relationship",
+    "mapping",
+    "sqlite"
+  ],
+  "test-depends": [
+    "DB::SQLite",
+    "DB::Xoos"
+  ],
+  "version": "0.1.1"
+}
+,
+{
   "api": "*",
   "auth": "github:hythm7",
   "authors": [
@@ -20812,18 +20847,18 @@
   "depends": [
     
   ],
-  "description": "An ORM, with support (and no meta model syntax).",
+  "description": "An ORM, with support.",
   "license": "Artistic-2.0",
   "name": "DB::Xoos",
   "perl": "6",
   "provides": {
     "DB::Xoos": "lib/DB/Xoos.pm6",
-    "DB::Xoos::Role::Cache": "lib/DB/Xoos/Role/Cache.pm6",
-    "DB::Xoos::Role::DynamicLoader": "lib/DB/Xoos/Role/DynamicLoader.pm6",
-    "DB::Xoos::Role::Model": "lib/DB/Xoos/Role/Model.pm6",
-    "DB::Xoos::Role::Row": "lib/DB/Xoos/Role/Row.pm6",
-    "DB::Xoos::Role::Searchable": "lib/DB/Xoos/Role/Searchable.pm6",
-    "DB::Xoos::Util::DSN": "lib/DB/Xoos/Util/DSN.pm6"
+    "DB::Xoos::DSN": "lib/DB/Xoos/DSN.pm6",
+    "DB::Xoos::Model": "lib/DB/Xoos/Model.pm6",
+    "DB::Xoos::Result": "lib/DB/Xoos/Result.pm6",
+    "DB::Xoos::Row": "lib/DB/Xoos/Row.pm6",
+    "DB::Xoos::RowInflator": "lib/DB/Xoos/RowInflator.pm6",
+    "DB::Xoos::SQL": "lib/DB/Xoos/SQL.pm6"
   },
   "source-url": "git://github.com/tony-o/perl6-xoo.git",
   "tags": [
@@ -20837,9 +20872,9 @@
     "mapping"
   ],
   "test-depends": [
-    
+    "DB::SQLite"
   ],
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
 ,
 {
