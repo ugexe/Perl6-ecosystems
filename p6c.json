@@ -17800,14 +17800,14 @@
   "description": "Perl 6 bindings for primesieve",
   "license": "BSD-2-Clause",
   "name": "Math::Primesieve",
-  "perl": "6.c",
+  "perl": "6.*",
   "provides": {
     "Math::Primesieve": "lib/Math/Primesieve.pm6"
   },
-  "source-url": "https://github.com/CurtTilmes/perl6-primesieve.git",
+  "source-url": "https://github.com/CurtTilmes/raku-primesieve.git",
   "support": {
-    "bugtracker": "https://github.com/CurtTilmes/perl6-primesieve/issues",
-    "source": "https://github.com/CurtTilmes/perl6-primesieve.git"
+    "bugtracker": "https://github.com/CurtTilmes/raku-primesieve/issues",
+    "source": "https://github.com/CurtTilmes/raku-primesieve.git"
   },
   "tags": [
     "Math",
@@ -17816,7 +17816,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "0.3"
+  "version": "0.4"
 }
 ,
 {
