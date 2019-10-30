@@ -11349,15 +11349,15 @@
   "description": "Lazy base64 encoding and decoding routines",
   "license": "Artistic-2.0",
   "name": "Base64",
-  "perl": "6",
+  "perl": "6.c",
   "provides": {
     "Base64": "lib/Base64.pm6"
   },
-  "source-url": "git://github.com/ugexe/Perl6-Base64.git",
   "support": {
-    "bugtracker": "https://github.com/ugexe/Perl6-Base64/issues"
+    "bugtracker": "https://github.com/ugexe/Perl6-Base64/issues",
+    "source": "https://github.com/ugexe/Perl6-Base64.git"
   },
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
 ,
 {
@@ -21831,7 +21831,7 @@
     
   ],
   "source-url": "https://github.com/perl6/whateverable.git",
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
 ,
 {
