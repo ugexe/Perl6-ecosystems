@@ -23819,4 +23819,35 @@
   ],
   "version": "0.1.1"
 }
+,
+{
+  "auth": "github:tony-o",
+  "authors": [
+    "Tony O'Dell"
+  ],
+  "depends": [
+    
+  ],
+  "description": "parallel worker queue, designed to mux your work and demux your life",
+  "license": "Artistic-2.0",
+  "name": "Mux",
+  "perl": "6",
+  "provides": {
+    "Mux": "lib/Mux.pm6"
+  },
+  "source-url": "git://github.com/tony-o/perl6-mux.git",
+  "tags": [
+    "parallel",
+    "worker",
+    "queue",
+    "mux",
+    "multiplex",
+    "demux",
+    "demultiplex"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
 ]
