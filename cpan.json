@@ -28658,6 +28658,37 @@
     
   ],
   "depends": [
+    "Term::Choose:ver<1.5.7+>"
+  ],
+  "description": "CLI related functions.",
+  "license": "Artistic-2.0",
+  "name": "Term::Choose::Util",
+  "perl": "6.d",
+  "provides": {
+    "Term::Choose::Util": "lib/Term/Choose/Util.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-Util-p6-1.2.8.tar.gz",
+  "tags": [
+    "cli",
+    "terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.2.8"
+}
+,
+{
+  "authors": [
+    "kuerbis"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Term::Choose:ver<1.5.8+>"
   ],
   "description": "CLI related functions.",
