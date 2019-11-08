@@ -4527,6 +4527,38 @@
 }
 ,
 {
+  "api": "perl6",
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "provide logic to turn ASCII text upside-down",
+  "license": "Artistic-2.0",
+  "name": "Acme::Text::UpsideDown",
+  "perl": "6.c",
+  "provides": {
+    "Acme::Text::UpsideDown": "lib/Acme/Text/UpsideDown.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Acme-Text-UpsideDown-0.0.4.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "auth": "cpan:ELIZABETH",
   "authors": [
     "Elizabeth Mattijsen"
@@ -5148,6 +5180,37 @@
     
   ],
   "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "dynamic finalizing for objects that need finalizing",
+  "license": "Artistic-2.0",
+  "name": "FINALIZER",
+  "perl": "6.c",
+  "provides": {
+    "FINALIZER": "lib/FINALIZER.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/FINALIZER-0.0.6.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
 }
 ,
 {
@@ -9586,6 +9649,37 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Provide transparent access to errno",
+  "license": "Artistic-2.0",
+  "name": "Unix::errno",
+  "perl": "6.c",
+  "provides": {
+    "Unix::errno": "lib/Unix/errno.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Unix-errno-0.0.3.tar.gz",
+  "tags": [
+    "UNIX"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "P5getgrnam"
   ],
   "description": "Port of Perl 5's User::grent",
@@ -9795,6 +9889,38 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Port of Perl's pragma to predeclare variables to Raku",
+  "license": "Artistic-2.0",
+  "name": "vars",
+  "perl": "6.c",
+  "provides": {
+    "vars": "lib/vars.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/vars-0.0.4.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
