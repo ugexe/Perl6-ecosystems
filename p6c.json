@@ -21214,10 +21214,13 @@
 }
 ,
 {
+  "authors": [
+    "Konstantin Narkhov"
+  ],
   "depends": [
     
   ],
-  "description": "A Perl6 interface for interacting with the Ethereum blockchain and ecosystem via JSON RPC API",
+  "description": "A Raku interface for interacting with the Ethereum blockchain and ecosystem via JSON RPC API",
   "license": "Artistic-2.0",
   "name": "Net::Ethereum",
   "perl": "6.*",
@@ -21225,7 +21228,12 @@
     "Net::Ethereum": "lib/Net/Ethereum.pm6"
   },
   "source-url": "git://gitlab.com/pheix/net-ethereum-perl6.git",
-  "version": "0.0.49"
+  "tags": [
+    "BLOCKCHAIN",
+    "ETHEREUM",
+    "NET"
+  ],
+  "version": "0.0.51"
 }
 ,
 {
