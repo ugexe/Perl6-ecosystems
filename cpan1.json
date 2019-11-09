@@ -7419,6 +7419,38 @@
   "depends": [
     
   ],
+  "description": "Implement Perl's getgrnam() and associated built-ins",
+  "license": "Artistic-2.0",
+  "name": "P5getgrnam",
+  "perl": "6.c",
+  "provides": {
+    "P5getgrnam": "lib/P5getgrnam.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5getgrnam-0.0.7.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's getnetbyname() and associated built-ins",
   "license": "Artistic-2.0",
   "name": "P5getnetbyname",
@@ -7662,6 +7694,38 @@
     
   ],
   "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Implement Perl's getpwnam() and associated built-ins",
+  "license": "Artistic-2.0",
+  "name": "P5getpwnam",
+  "perl": "6.c",
+  "provides": {
+    "P5getpwnam": "lib/P5getpwnam.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5getpwnam-0.0.6.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
 }
 ,
 {
@@ -9207,6 +9271,38 @@
   "depends": [
     
   ],
+  "description": "Port of Perl's Sub::Util 1.49",
+  "license": "Artistic-2.0",
+  "name": "Sub::Util",
+  "perl": "6.c",
+  "provides": {
+    "Sub::Util": "lib/Sub/Util.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sub-Util-0.0.4.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's Sys::Hostname core module",
   "license": "Artistic-2.0",
   "name": "Sys::Hostname",
@@ -9226,6 +9322,38 @@
     
   ],
   "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Implement Perl's Sys::Hostname core module",
+  "license": "Artistic-2.0",
+  "name": "Sys::Hostname",
+  "perl": "6.c",
+  "provides": {
+    "Sys::Hostname": "lib/Sys/Hostname.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sys-Hostname-0.0.8.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
 }
 ,
 {
@@ -9712,6 +9840,38 @@
     
   ],
   "depends": [
+    "P5getgrnam:ver<0.0.7>"
+  ],
+  "description": "Port of Perl's User::grent",
+  "license": "Artistic-2.0",
+  "name": "User::grent",
+  "perl": "6.c",
+  "provides": {
+    "User::grent": "lib/User/grent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/User-grent-0.0.2.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "P5getpwnam"
   ],
   "description": "Port of Perl 5's User::pwent",
@@ -9733,6 +9893,38 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5getpwnam:ver<0.0.6>"
+  ],
+  "description": "Port of Perl's User::pwent",
+  "license": "Artistic-2.0",
+  "name": "User::pwent",
+  "perl": "6.c",
+  "provides": {
+    "User::pwent": "lib/User/pwent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/User-pwent-0.0.2.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
@@ -9826,6 +10018,38 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Port of Perl's pragma to predeclare sub names to Raku",
+  "license": "Artistic-2.0",
+  "name": "subs",
+  "perl": "6.c",
+  "provides": {
+    "subs": "lib/subs.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/subs-0.0.2.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
