@@ -5004,6 +5004,37 @@
   "depends": [
     
   ],
+  "description": "add \"is predicate\" trait to Attributes",
+  "license": "Artistic-2.0",
+  "name": "Attribute::Predicate",
+  "perl": "6.c",
+  "provides": {
+    "Attribute::Predicate": "lib/Attribute/Predicate.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Attribute-Predicate-0.0.2.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "provide bit related functions",
   "license": "Artistic-2.0",
   "name": "Bits",
@@ -7074,6 +7105,38 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Implement Perl's -X built-ins",
+  "license": "Artistic-2.0",
+  "name": "P5-X",
+  "perl": "6.c",
+  "provides": {
+    "P5-X": "lib/P5-X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5-X-0.0.4.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
@@ -9678,6 +9741,38 @@
     
   ],
   "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Implement Perl's readlink() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5readlink",
+  "perl": "6.c",
+  "provides": {
+    "P5readlink": "lib/P5readlink.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5readlink-0.0.7.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
 }
 ,
 {
