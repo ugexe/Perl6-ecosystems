@@ -7672,38 +7672,6 @@
     
   ],
   "depends": [
-    "P5chomp"
-  ],
-  "description": "Implement Perl 5's chop() built-in [DEPRECATED]",
-  "license": "Artistic-2.0",
-  "name": "P5chop",
-  "perl": "6.c",
-  "provides": {
-    "P5chop": "lib/P5chop.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5chop-0.0.4.tar.gz",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     
   ],
   "description": "Implement Perl 5's chr() / ord() built-ins",
@@ -9175,38 +9143,6 @@
     
   ],
   "depends": [
-    "P5hex"
-  ],
-  "description": "Implement Perl 5's oct() built-in [DEPRECATED]",
-  "license": "Artistic-2.0",
-  "name": "P5oct",
-  "perl": "6.c",
-  "provides": {
-    "P5oct": "lib/P5oct.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5oct-0.0.4.tar.gz",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     
   ],
   "description": "Implement Perl 5's opendir() and related built-ins",
@@ -9284,38 +9220,6 @@
     
   ],
   "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5opendir-0.0.5.tar.gz",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.5"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "P5chr"
-  ],
-  "description": "Implement Perl 5's ord() built-in [DEPRECATED]",
-  "license": "Artistic-2.0",
-  "name": "P5ord",
-  "perl": "6.c",
-  "provides": {
-    "P5ord": "lib/P5ord.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5ord-0.0.5.tar.gz",
   "tags": [
     "PERL5",
     "CPAN5"
@@ -9420,38 +9324,6 @@
     
   ],
   "version": "0.0.9"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Implement Perl 5's print() and associated built-ins",
-  "license": "Artistic-2.0",
-  "name": "P5print",
-  "perl": "6.c",
-  "provides": {
-    "P5print": "lib/P5print.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5print-0.0.3.tar.gz",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
 }
 ,
 {
@@ -9623,39 +9495,6 @@
     
   ],
   "depends": [
-    "P5math"
-  ],
-  "description": "Implement Perl 5's rand() built-ins [DEPRECATED]",
-  "license": "Artistic-2.0",
-  "name": "P5rand",
-  "perl": "6.c",
-  "provides": {
-    "P5rand": "lib/P5rand.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5rand-0.0.5.tar.gz",
-  "tags": [
-    "DEPRECATED",
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.5"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     
   ],
   "description": "Implement Perl 5's readlink() built-in",
@@ -9741,70 +9580,6 @@
     
   ],
   "version": "0.0.4"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Implement Perl's readlink() built-in",
-  "license": "Artistic-2.0",
-  "name": "P5readlink",
-  "perl": "6.c",
-  "provides": {
-    "P5readlink": "lib/P5readlink.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5readlink-0.0.5.tar.gz",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.5"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Implement Perl's readlink() built-in",
-  "license": "Artistic-2.0",
-  "name": "P5readlink",
-  "perl": "6.c",
-  "provides": {
-    "P5readlink": "lib/P5readlink.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5readlink-0.0.6.tar.gz",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.6"
 }
 ,
 {
@@ -10029,38 +9804,6 @@
     
   ],
   "version": "0.0.6"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "P5index"
-  ],
-  "description": "Implement Perl 5's rindex() built-in [DEPRECATED]",
-  "license": "Artistic-2.0",
-  "name": "P5rindex",
-  "perl": "6.c",
-  "provides": {
-    "P5rindex": "lib/P5rindex.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5rindex-0.0.3.tar.gz",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
 }
 ,
 {
@@ -10605,70 +10348,6 @@
     
   ],
   "version": "0.0.7"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "P5lc"
-  ],
-  "description": "Implement Perl 5's uc() built-in [DEPRECATED]",
-  "license": "Artistic-2.0",
-  "name": "P5uc",
-  "perl": "6.c",
-  "provides": {
-    "P5uc": "lib/P5uc.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5uc-0.0.3.tar.gz",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "P5lcfirst"
-  ],
-  "description": "Implement Perl 5's ucfirst() built-in [DEPRECATED]",
-  "license": "Artistic-2.0",
-  "name": "P5ucfirst",
-  "perl": "6.c",
-  "provides": {
-    "P5ucfirst": "lib/P5ucfirst.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5ucfirst-0.0.4.tar.gz",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
 }
 ,
 {
