@@ -5577,7 +5577,8 @@
     "CSS::Module::CSS3::PagedMedia::Gen::Grammar": "lib/CSS/Module/CSS3/PagedMedia/Gen/Grammar.pm",
     "CSS::Module::CSS3::PagedMedia::Gen::Interface": "lib/CSS/Module/CSS3/PagedMedia/Gen/Interface.pm",
     "CSS::Module::CSS3::_Base": "lib/CSS/Module/CSS3/_Base.pm",
-    "CSS::Module::CSS3::_Base::Actions": "lib/CSS/Module/CSS3/_Base/Actions.pm"
+    "CSS::Module::CSS3::_Base::Actions": "lib/CSS/Module/CSS3/_Base/Actions.pm",
+    "CSS::Module::Property": "lib/CSS/Module/Property.pm"
   },
   "source-url": "git://github.com/p6-css/CSS-Module-p6.git",
   "version": "0.5.0"
@@ -15747,7 +15748,8 @@
   "depends": [
     "CSS::Module",
     "CSS::Writer",
-    "Color"
+    "Color",
+    "Method::Also"
   ],
   "description": "CSS property manipulation library",
   "license": "Artistic-2.0",
