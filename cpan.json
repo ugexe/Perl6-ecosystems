@@ -27336,6 +27336,52 @@
   ],
   "depends": [
     "JSON::Fast",
+    "HTTP::UserAgent",
+    "JSON::Class",
+    "JSON::Name"
+  ],
+  "description": "Infer Perl 6 Classes from JSON input",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "JSON::Infer",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Infer": "lib/JSON/Infer.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Infer-0.0.17.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/JSON-Infer/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "irc": "irc:// irc.freenode.net/#perl6",
+    "source": "git://github.com/jonathanstowe/JSON-Infer.git"
+  },
+  "tags": [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Test"
+  ],
+  "version": "0.0.17"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast",
     "JSON::Name"
   ],
   "description": "Simple serialisation of objects to JSON",
@@ -47432,6 +47478,45 @@
     "Test"
   ],
   "version": "1.0"
+}
+,
+{
+  "auth": "github:tbrowder",
+  "author": "github:tbrowder",
+  "authors": [
+    "Tom Browder <tom.browder@gmail.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides an implementation of an AVL tree.",
+  "license": "Artistic-2.0",
+  "name": "AVL-Tree",
+  "perl": "6.*",
+  "provides": {
+    "AVL-Tree": "lib/AVL-Tree.pm6"
+  },
+  "resources": [
+    "demo-avl-tree.p6"
+  ],
+  "source-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/AVL-Tree-0.0.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/tbrowder/AVL-Tree/issues"
+  },
+  "tags": [
+    "tree",
+    "BST",
+    "set",
+    "AVL"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.1"
 }
 ,
 {
