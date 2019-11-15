@@ -18070,6 +18070,24 @@
 }
 ,
 {
+  "auth": "github:tony-o",
+  "depends": [
+    
+  ],
+  "description": "A utility for collapsing JSON dependent upon certain environmental information",
+  "name": "System::Query",
+  "perl": "6.*",
+  "provides": {
+    "System::Query": "lib/System/Query.pm6"
+  },
+  "source-url": "git://github.com/tony-o/p6-warthog.git",
+  "test-depends": [
+    "JSON::Fast"
+  ],
+  "version": "0.1.4"
+}
+,
+{
   "authors": [
     "Zoffix Znet"
   ],
