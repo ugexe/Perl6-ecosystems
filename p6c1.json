@@ -21171,13 +21171,13 @@
   "depends": [
     "Config::TOML"
   ],
-  "description": "Calorie tracker and target macros generator",
+  "description": "Calorie tracker and diet planner",
   "license": "Unlicense",
   "name": "Sustenance",
   "perl": "6.*",
   "provides": {
-    "Concentric": "lib/Concentric.pm6",
     "Sustenance": "lib/Sustenance.pm6",
+    "Sustenance::DietPlan": "lib/Sustenance/DietPlan.pm6",
     "Sustenance::Parser": "lib/Sustenance/Parser.pm6",
     "Sustenance::Parser::ParseTree": "lib/Sustenance/Parser/ParseTree.pm6",
     "Sustenance::Types": "lib/Sustenance/Types.pm6",
