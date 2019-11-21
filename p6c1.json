@@ -6777,24 +6777,6 @@
 }
 ,
 {
-  "author": "github:sergot",
-  "depends": [
-    
-  ],
-  "description": "Character encodings in Perl 6",
-  "name": "Encode",
-  "perl": "6.*",
-  "provides": {
-    "Encode": "lib/Encode.pm6",
-    "Encode::Latin2": "lib/Encode/Latin2.pm6",
-    "Encode::Windows1251": "lib/Encode/Windows1251.pm6",
-    "Encode::Windows1252": "lib/Encode/Windows1252.pm6"
-  },
-  "source-url": "git://github.com/sergot/perl6-encode.git",
-  "version": "0.0.2"
-}
-,
-{
   "depends": [
     "Audio::Taglib::Simple"
   ],
