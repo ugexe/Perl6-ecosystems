@@ -33925,6 +33925,47 @@
   ],
   "depends": [
     "Gnome::N",
+    "Gnome::Glib"
+  ],
+  "description": "Perl6 Gnome gobject api, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::GObject",
+  "perl": "6",
+  "provides": {
+    "Gnome::GObject::Boxed": "lib/Gnome/GObject/Boxed.pm6",
+    "Gnome::GObject::Enums": "lib/Gnome/GObject/Enums.pm6",
+    "Gnome::GObject::InitiallyUnowned": "lib/Gnome/GObject/InitiallyUnowned.pm6",
+    "Gnome::GObject::Object": "lib/Gnome/GObject/Object.pm6",
+    "Gnome::GObject::Param": "lib/Gnome/GObject/Param.pm6",
+    "Gnome::GObject::Signal": "lib/Gnome/GObject/Signal.pm6",
+    "Gnome::GObject::Type": "lib/Gnome/GObject/Type.pm6",
+    "Gnome::GObject::Value": "lib/Gnome/GObject/Value.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-gobject-0.15.4.tar.gz",
+  "tags": [
+    "gnome",
+    "glib",
+    "gobject",
+    "GTK"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.15.4"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
     "Gnome::Glib",
     "Gnome::GObject",
     "Gnome::Gdk3"
@@ -34183,6 +34224,104 @@
     
   ],
   "version": "0.19.2"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib",
+    "Gnome::GObject",
+    "Gnome::Gdk3",
+    "Method::Also"
+  ],
+  "description": "Perl6 Gnome gtk api",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gtk3",
+  "perl": "6.d",
+  "provides": {
+    "Gnome::Gtk3::AboutDialog": "lib/Gnome/Gtk3/AboutDialog.pm6",
+    "Gnome::Gtk3::Bin": "lib/Gnome/Gtk3/Bin.pm6",
+    "Gnome::Gtk3::Border": "lib/Gnome/Gtk3/Border.pm6",
+    "Gnome::Gtk3::Box": "lib/Gnome/Gtk3/Box.pm6",
+    "Gnome::Gtk3::Buildable": "lib/Gnome/Gtk3/Buildable.pm6",
+    "Gnome::Gtk3::Builder": "lib/Gnome/Gtk3/Builder.pm6",
+    "Gnome::Gtk3::Button": "lib/Gnome/Gtk3/Button.pm6",
+    "Gnome::Gtk3::CellRenderer": "lib/Gnome/Gtk3/CellRenderer.pm6",
+    "Gnome::Gtk3::CellRendererText": "lib/Gnome/Gtk3/CellRendererText.pm6",
+    "Gnome::Gtk3::CheckButton": "lib/Gnome/Gtk3/CheckButton.pm6",
+    "Gnome::Gtk3::ColorButton": "lib/Gnome/Gtk3/ColorButton.pm6",
+    "Gnome::Gtk3::ColorChooser": "lib/Gnome/Gtk3/ColorChooser.pm6",
+    "Gnome::Gtk3::ColorChooserDialog": "lib/Gnome/Gtk3/ColorChooserDialog.pm6",
+    "Gnome::Gtk3::ColorChooserWidget": "lib/Gnome/Gtk3/ColorChooserWidget.pm6",
+    "Gnome::Gtk3::ComboBox": "lib/Gnome/Gtk3/ComboBox.pm6",
+    "Gnome::Gtk3::ComboBoxText": "lib/Gnome/Gtk3/ComboBoxText.pm6",
+    "Gnome::Gtk3::Container": "lib/Gnome/Gtk3/Container.pm6",
+    "Gnome::Gtk3::CssProvider": "lib/Gnome/Gtk3/CssProvider.pm6",
+    "Gnome::Gtk3::Dialog": "lib/Gnome/Gtk3/Dialog.pm6",
+    "Gnome::Gtk3::Entry": "lib/Gnome/Gtk3/Entry.pm6",
+    "Gnome::Gtk3::Enums": "lib/Gnome/Gtk3/Enums.pm6",
+    "Gnome::Gtk3::FileChooser": "lib/Gnome/Gtk3/FileChooser.pm6",
+    "Gnome::Gtk3::FileChooserDialog": "lib/Gnome/Gtk3/FileChooserDialog.pm6",
+    "Gnome::Gtk3::FileFilter": "lib/Gnome/Gtk3/FileFilter.pm6",
+    "Gnome::Gtk3::Grid": "lib/Gnome/Gtk3/Grid.pm6",
+    "Gnome::Gtk3::Image": "lib/Gnome/Gtk3/Image.pm6",
+    "Gnome::Gtk3::Label": "lib/Gnome/Gtk3/Label.pm6",
+    "Gnome::Gtk3::LevelBar": "lib/Gnome/Gtk3/LevelBar.pm6",
+    "Gnome::Gtk3::ListBox": "lib/Gnome/Gtk3/ListBox.pm6",
+    "Gnome::Gtk3::ListBoxRow": "lib/Gnome/Gtk3/ListBoxRow.pm6",
+    "Gnome::Gtk3::ListStore": "lib/Gnome/Gtk3/ListStore.pm6",
+    "Gnome::Gtk3::Main": "lib/Gnome/Gtk3/Main.pm6",
+    "Gnome::Gtk3::Menu": "lib/Gnome/Gtk3/Menu.pm6",
+    "Gnome::Gtk3::MenuBar": "lib/Gnome/Gtk3/MenuBar.pm6",
+    "Gnome::Gtk3::MenuButton": "lib/Gnome/Gtk3/MenuButton.pm6",
+    "Gnome::Gtk3::MenuItem": "lib/Gnome/Gtk3/MenuItem.pm6",
+    "Gnome::Gtk3::MenuShell": "lib/Gnome/Gtk3/MenuShell.pm6",
+    "Gnome::Gtk3::Misc": "lib/Gnome/Gtk3/Misc.pm6",
+    "Gnome::Gtk3::Orientable": "lib/Gnome/Gtk3/Orientable.pm6",
+    "Gnome::Gtk3::Paned": "lib/Gnome/Gtk3/Paned.pm6",
+    "Gnome::Gtk3::RadioButton": "lib/Gnome/Gtk3/RadioButton.pm6",
+    "Gnome::Gtk3::Range": "lib/Gnome/Gtk3/Range.pm6",
+    "Gnome::Gtk3::Scale": "lib/Gnome/Gtk3/Scale.pm6",
+    "Gnome::Gtk3::SearchEntry": "lib/Gnome/Gtk3/SearchEntry.pm6",
+    "Gnome::Gtk3::StyleContext": "lib/Gnome/Gtk3/StyleContext.pm6",
+    "Gnome::Gtk3::StyleProvider": "lib/Gnome/Gtk3/StyleProvider.pm6",
+    "Gnome::Gtk3::TextBuffer": "lib/Gnome/Gtk3/TextBuffer.pm6",
+    "Gnome::Gtk3::TextIter": "lib/Gnome/Gtk3/TextIter.pm6",
+    "Gnome::Gtk3::TextTag": "lib/Gnome/Gtk3/TextTag.pm6",
+    "Gnome::Gtk3::TextTagTable": "lib/Gnome/Gtk3/TextTagTable.pm6",
+    "Gnome::Gtk3::TextView": "lib/Gnome/Gtk3/TextView.pm6",
+    "Gnome::Gtk3::ToggleButton": "lib/Gnome/Gtk3/ToggleButton.pm6",
+    "Gnome::Gtk3::TreeIter": "lib/Gnome/Gtk3/TreeIter.pm6",
+    "Gnome::Gtk3::TreeModel": "lib/Gnome/Gtk3/TreeModel.pm6",
+    "Gnome::Gtk3::TreePath": "lib/Gnome/Gtk3/TreePath.pm6",
+    "Gnome::Gtk3::TreeRowReference": "lib/Gnome/Gtk3/TreeRowReference.pm6",
+    "Gnome::Gtk3::TreeView": "lib/Gnome/Gtk3/TreeView.pm6",
+    "Gnome::Gtk3::TreeViewColumn": "lib/Gnome/Gtk3/TreeViewColumn.pm6",
+    "Gnome::Gtk3::Widget": "lib/Gnome/Gtk3/Widget.pm6",
+    "Gnome::Gtk3::WidgetPath": "lib/Gnome/Gtk3/WidgetPath.pm6",
+    "Gnome::Gtk3::Window": "lib/Gnome/Gtk3/Window.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-gtk3-0.19.3.tar.gz",
+  "tags": [
+    "gnome",
+    "gtk",
+    "gdk",
+    "glib",
+    "gobject"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.19.3"
 }
 ,
 {
@@ -59354,99 +59493,6 @@
     "pdf"
   ],
   "version": "0.0.3"
-}
-,
-{
-  "auth": "github:p6-xml",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake",
-    "Pod::To::Markdown"
-  ],
-  "depends": [
-    "XML",
-    "Method::Also",
-    "File::Temp"
-  ],
-  "description": "Perl 6 bindings to the libxml2 native library",
-  "license": "Artistic-2.0",
-  "name": "LibXML",
-  "perl": "6",
-  "provides": {
-    "LibXML": "lib/LibXML.pm6",
-    "LibXML::Attr": "lib/LibXML/Attr.pm6",
-    "LibXML::Attr::Map": "lib/LibXML/Attr/Map.pm6",
-    "LibXML::AttrDecl": "lib/LibXML/AttrDecl.pm6",
-    "LibXML::CDATA": "lib/LibXML/CDATA.pm6",
-    "LibXML::Comment": "lib/LibXML/Comment.pm6",
-    "LibXML::Config": "lib/LibXML/Config.pm6",
-    "LibXML::Dict": "lib/LibXML/Dict.pm6",
-    "LibXML::Document": "lib/LibXML/Document.pm6",
-    "LibXML::DocumentFragment": "lib/LibXML/DocumentFragment.pm6",
-    "LibXML::Dtd": "lib/LibXML/Dtd.pm6",
-    "LibXML::Element": "lib/LibXML/Element.pm6",
-    "LibXML::ElementDecl": "lib/LibXML/ElementDecl.pm6",
-    "LibXML::Entity": "lib/LibXML/Entity.pm6",
-    "LibXML::EntityRef": "lib/LibXML/EntityRef.pm6",
-    "LibXML::Enums": "lib/LibXML/Enums.pm6",
-    "LibXML::ErrorHandling": "lib/LibXML/ErrorHandling.pm6",
-    "LibXML::InputCallback": "lib/LibXML/InputCallback.pm6",
-    "LibXML::Item": "lib/LibXML/Item.pm6",
-    "LibXML::Namespace": "lib/LibXML/Namespace.pm6",
-    "LibXML::Native": "lib/LibXML/Native.pm6",
-    "LibXML::Native::DOM::Attr": "lib/LibXML/Native/DOM/Attr.pm6",
-    "LibXML::Native::DOM::Document": "lib/LibXML/Native/DOM/Document.pm6",
-    "LibXML::Native::DOM::Element": "lib/LibXML/Native/DOM/Element.pm6",
-    "LibXML::Native::DOM::Node": "lib/LibXML/Native/DOM/Node.pm6",
-    "LibXML::Native::Defs": "lib/LibXML/Native/Defs.pm6",
-    "LibXML::Native::Dict": "lib/LibXML/Native/Dict.pm6",
-    "LibXML::Native::HashTable": "lib/LibXML/Native/HashTable.pm6",
-    "LibXML::Native::RelaxNG": "lib/LibXML/Native/RelaxNG.pm6",
-    "LibXML::Native::Schema": "lib/LibXML/Native/Schema.pm6",
-    "LibXML::Native::TextReader": "lib/LibXML/Native/TextReader.pm6",
-    "LibXML::Node": "lib/LibXML/Node.pm6",
-    "LibXML::Node::List": "lib/LibXML/Node/List.pm6",
-    "LibXML::Node::Set": "lib/LibXML/Node/Set.pm6",
-    "LibXML::PI": "lib/LibXML/PI.pm6",
-    "LibXML::Parser": "lib/LibXML/Parser.pm6",
-    "LibXML::Parser::Context": "lib/LibXML/Parser/Context.pm6",
-    "LibXML::Pattern": "lib/LibXML/Pattern.pm6",
-    "LibXML::PushParser": "lib/LibXML/PushParser.pm6",
-    "LibXML::Reader": "lib/LibXML/Reader.pm6",
-    "LibXML::RegExp": "lib/LibXML/RegExp.pm6",
-    "LibXML::RelaxNG": "lib/LibXML/RelaxNG.pm6",
-    "LibXML::SAX": "lib/LibXML/SAX.pm6",
-    "LibXML::SAX::Builder": "lib/LibXML/SAX/Builder.pm6",
-    "LibXML::SAX::Handler": "lib/LibXML/SAX/Handler.pm6",
-    "LibXML::SAX::Handler::SAX2": "lib/LibXML/SAX/Handler/SAX2.pm6",
-    "LibXML::SAX::Handler::SAX2::Locator": "lib/LibXML/SAX/Handler/SAX2/Locator.pm6",
-    "LibXML::SAX::Handler::XML": "lib/LibXML/SAX/Handler/XML.pm6",
-    "LibXML::Schema": "lib/LibXML/Schema.pm6",
-    "LibXML::Text": "lib/LibXML/Text.pm6",
-    "LibXML::Types": "lib/LibXML/Types.pm6",
-    "LibXML::XPath::Context": "lib/LibXML/XPath/Context.pm6",
-    "LibXML::XPath::Expression": "lib/LibXML/XPath/Expression.pm6",
-    "LibXML::XPath::Object": "lib/LibXML/XPath/Object.pm6",
-    "LibXML::_DOMNode": "lib/LibXML/_DOMNode.pm6",
-    "LibXML::_Options": "lib/LibXML/_Options.pm6",
-    "LibXML::_StringyNode": "lib/LibXML/_StringyNode.pm6"
-  },
-  "resources": [
-    "libraries/xml6"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/LibXML-0.1.10.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath",
-    "dom"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.10"
 }
 ,
 {
