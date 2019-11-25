@@ -13852,6 +13852,33 @@
 ,
 {
   "authors": [
+    "titsuki"
+  ],
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
+    
+  ],
+  "description": "A perl6 binding of readsecret ( https://github.com/dmeranda/readsecret ) for reading secrets or passwords from a command line secretly (not being displayed)",
+  "license": "Artistic-2.0",
+  "name": "Terminal::Readsecret",
+  "perl": "6.c",
+  "provides": {
+    "Terminal::Readsecret": "lib/Terminal/Readsecret.pm6"
+  },
+  "resources": [
+    "libraries/readsecret"
+  ],
+  "source-url": "git://github.com/titsuki/p6-Terminal-Readsecret.git",
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "authors": [
     "Siavash Askari Nasr"
   ],
   "depends": [
