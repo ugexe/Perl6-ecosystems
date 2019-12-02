@@ -15281,6 +15281,45 @@
 }
 ,
 {
+  "auth": null,
+  "authors": [
+    "Andrew Sterling Hanenkamp"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Tools for working with HTTP message headers",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "HTTP::Headers",
+  "perl": "6.c",
+  "provides": {
+    "HTTP::Header": "lib/HTTP/Headers.pm6",
+    "HTTP::Header::Custom": "lib/HTTP/Headers.pm6",
+    "HTTP::Header::Standard": "lib/HTTP/Headers.pm6",
+    "HTTP::Header::Standard::Content-Type": "lib/HTTP/Headers.pm6",
+    "HTTP::Headers": "lib/HTTP/Headers.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Headers-0.5.0.tar.gz",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.5.0"
+}
+,
+{
   "auth": "github:zostay",
   "authors": [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
@@ -15625,6 +15664,49 @@
     "Test::META"
   ],
   "version": "0.4.1"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A modern HTTP pipeline parser",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "HTTP::Supply",
+  "perl": "6.c",
+  "provides": {
+    "HTTP::Request::Supply": "lib/HTTP/Request/Supply.pm6",
+    "HTTP::Supply": "lib/HTTP/Supply.pm6",
+    "HTTP::Supply::Body": "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Body::ChunkEncoding": "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Body::ContentLength": "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Request": "lib/HTTP/Supply/Request.pm6",
+    "HTTP::Supply::Response": "lib/HTTP/Supply/Response.pm6",
+    "HTTP::Supply::Tools": "lib/HTTP/Supply/Tools.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Supply-0.5.0.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/HTTP-Supply.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.5.0"
 }
 ,
 {
