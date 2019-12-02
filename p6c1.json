@@ -22628,7 +22628,7 @@
 }
 ,
 {
-  "api": 1,
+  "api": 2,
   "auth": "github:alabamenhu",
   "authors": [
     "Matthew ‘Matéu’ Stephen STUCKWISCH <mateu@softastur.com>"
@@ -22639,31 +22639,33 @@
   "depends": [
     
   ],
-  "description": "A parser for language tags in accordance with BCP-47",
+  "description": "A module for working with BCP-47 type language tags",
   "license": "Artistic-2.0",
-  "name": "Intl::BCP47",
+  "name": "Intl::LanguageTag",
   "perl": "6.*",
   "provides": {
-    "Intl::BCP47": "lib/Intl/BCP47.pm6",
-    "Intl::BCP47::Actions": "lib/Intl/BCP47/Actions.pm6",
-    "Intl::BCP47::Classes": "lib/Intl/BCP47/Classes.pm6",
-    "Intl::BCP47::Extension-Registry": "lib/Intl/BCP47/Extension-Registry.pm6",
-    "Intl::BCP47::Filter-Actions": "lib/Intl/BCP47/Filter-Actions.pm6",
-    "Intl::BCP47::Filter-Grammar": "lib/Intl/BCP47/Filter-Grammar.pm6",
-    "Intl::BCP47::Grammar": "lib/Intl/BCP47/Grammar.pm6",
-    "Intl::BCP47::Subtag-Registry": "lib/Intl/BCP47/Subtag-Registry.pm6"
+    "Intl::BCP47": "lib/Intl/LanguageTag.pm6",
+    "Intl::LanguageTag": "lib/Intl/LanguageTag.pm6",
+    "Intl::LanguageTag::ExtensionRegistry": "lib/Intl/LanguageTag/ExtensionRegistry.pm6",
+    "Intl::LanguageTag::Filter-Grammar": "lib/Intl/LanguageTag/Filter-Grammar.pm6",
+    "Intl::LanguageTag::Grammar": "lib/Intl/LanguageTag/Grammar.pm6",
+    "Intl::LanguageTag::Subtag-Registry": "lib/Intl/LanguageTag/Subtag-Registry.pm6"
   },
   "raku": "6.*",
   "resources": [
-    "extlangs.bcp47data",
-    "grandfathered.bcp47data",
-    "languages.bcp47data",
+    "enum/languages.data",
+    "enum/regions.data",
+    "enum/scripts.data",
+    "enum/variants.data",
+    "extlangs.data",
+    "grandfathered.data",
+    "languages.data",
     "extension-t.bcp47data",
     "extension-u.bcp47data",
-    "redundancies.bcp47data",
-    "regions.bcp47data",
-    "scripts.bcp47data",
-    "variants.bcp47data"
+    "redundancies.data",
+    "regions.data",
+    "scripts.data",
+    "variants.data"
   ],
   "source-url": "git://github.com/alabamenhu/bcp47.git",
   "tags": [
@@ -22678,7 +22680,7 @@
   "test-depends": [
     
   ],
-  "version": "0.8.5"
+  "version": "0.9.0"
 }
 ,
 {
