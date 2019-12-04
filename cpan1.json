@@ -3976,6 +3976,24 @@
     "Joshua Yeshouroun"
   ],
   "depends": [
+    "Exportable"
+  ],
+  "description": "Get file status",
+  "license": "Artistic-2.0",
+  "name": "File::Stat",
+  "perl": "6.c",
+  "provides": {
+    "File::Stat": "lib/File/Stat.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELCARO/Perl6/File-Stat-0.0.2.tar.gz",
+  "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "Joshua Yeshouroun"
+  ],
+  "depends": [
     
   ],
   "description": "Point class",
@@ -4005,6 +4023,24 @@
   },
   "source-url": "http://www.cpan.org/authors/id/E/EL/ELCARO/Perl6/Point-0.0.2.tar.gz",
   "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "Joshua Yeshouroun"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Point class",
+  "license": "Artistic-2.0",
+  "name": "Point",
+  "perl": "6.c",
+  "provides": {
+    "Point": "lib/Point.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELCARO/Perl6/Point-0.0.3.tar.gz",
+  "version": "0.0.3"
 }
 ,
 {
