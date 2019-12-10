@@ -27286,6 +27286,49 @@
 }
 ,
 {
+  "api": "1,0",
+  "auth": "github:carbin",
+  "author": "github:carbin",
+  "authors": [
+    "carbin",
+    "jonathanstowe"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PSGI",
+    "FastCGI::NativeCall"
+  ],
+  "description": "A PSGI interface for FastCGI::NativeCall",
+  "license": "ISC",
+  "meta-version": "0",
+  "name": "FastCGI::NativeCall::PSGI",
+  "perl": "6.*",
+  "provides": {
+    "FastCGI::NativeCall::PSGI": "lib/FastCGI/NativeCall/PSGI.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/FastCGI-NativeCall-PSGI-0.0.4.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/p6-fcgi-psgi/issues",
+    "source": "git://github.com/jonathanstowe/p6-fcgi-psgi.git"
+  },
+  "tags": [
+    "http",
+    "fastcgi",
+    "fcgi",
+    "psgi"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
