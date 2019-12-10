@@ -34413,6 +34413,38 @@
   "perl": "6",
   "provides": {
     "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
+    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
+    "Gnome::N::X": "lib/Gnome/N/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/perl6-gnome-native-0.15.1.1.tar.gz",
+  "tags": [
+    "gnome"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.15.1.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Perl6 Gnome native interface support, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::N",
+  "perl": "6",
+  "provides": {
+    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
     "Gnome::N::NativeLib": "lib/Gnome/N/NativeLibGdkPixbuf.pm6",
     "Gnome::N::X": "lib/Gnome/N/X.pm6"
   },
