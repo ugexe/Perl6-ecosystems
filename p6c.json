@@ -19559,13 +19559,14 @@
     
   ],
   "depends": [
-    "PDF",
-    "PDF::Grammar",
-    "Color",
-    "Font::AFM",
     "Base64::Native",
+    "Color",
+    "Compress::Zlib::Raw",
+    "Font::AFM",
     "Native::Packing",
-    "Compress::Zlib::Raw"
+    "JSON::Fast",
+    "PDF",
+    "PDF::Grammar"
   ],
   "description": "PDF content related classes; including text, images, fonts and graphics",
   "license": "Artistic-2.0",
@@ -19610,7 +19611,7 @@
   "test-depends": [
     
   ],
-  "version": "0.2.9"
+  "version": "0.3.0"
 }
 ,
 {
