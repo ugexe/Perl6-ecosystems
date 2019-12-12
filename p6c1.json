@@ -856,50 +856,6 @@
 }
 ,
 {
-  "authors": [
-    "Marcel Timmerman"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Semaphore Readers Writers Pattern",
-  "license": "Artistic-2.0",
-  "name": "Semaphore::ReadersWriters",
-  "perl": "6",
-  "provides": {
-    "Semaphore::ReadersWriters": "lib/Semaphore/ReadersWriters.pm6"
-  },
-  "source-url": "git://github.com/MARTIMM/semaphore-readerswriters.git",
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.2.6.1"
-}
-,
-{
-  "authors": "Marcel Timmerman",
-  "depends": [
-    "Config::TOML",
-    "JSON::Fast"
-  ],
-  "description": "Refinements on use of configurations loaded with parsers such as found in Config::TOML",
-  "license": "Artistic-2.0",
-  "name": "Config::DataLang::Refine",
-  "perl": "6",
-  "provides": {
-    "Config::DataLang::Refine": "lib/Config/DataLang/Refine.pm6"
-  },
-  "source-url": "git://github.com/MARTIMM/config-datalang-refine.git",
-  "tags": [
-    "config"
-  ],
-  "version": "0.7.3"
-}
-,
-{
   "depends": [
     
   ],
@@ -3061,46 +3017,6 @@
 }
 ,
 {
-  "authors": [
-    "Marcel Timmerman",
-    "Paweł Pabian"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "OpenSSL",
-    "UUID"
-  ],
-  "description": "BSON encoding/decoding, used in MongoDB drivers",
-  "history": [
-    "Paweł Pabian worked on it from 2011 until January 2015",
-    "Marcel Timmerman took over in Januari 2015 and is working on it until the present day"
-  ],
-  "license": "Artistic-2.0",
-  "name": "BSON",
-  "perl": "6",
-  "provides": {
-    "BSON": "lib/BSON.pm6",
-    "BSON::Binary": "lib/BSON/Binary.pm6",
-    "BSON::Document": "lib/BSON/Document.pm6",
-    "BSON::Javascript": "lib/BSON/Javascript.pm6",
-    "BSON::ObjectId": "lib/BSON/ObjectId.pm6",
-    "BSON::Regex": "lib/BSON/Regex.pm6"
-  },
-  "source-url": "git://github.com/MARTIMM/BSON.git",
-  "tags": [
-    "bson",
-    "mongodb",
-    "serialize"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.11.6"
-}
-,
-{
   "build-depends": [
     
   ],
@@ -3202,66 +3118,6 @@
     "Test"
   ],
   "version": "*"
-}
-,
-{
-  "api": "0",
-  "authors": [
-    "Marcel Timmerman",
-    "Paweł Pabian"
-  ],
-  "build-depends": [
-    "HTTP::UserAgent",
-    "Config::TOML"
-  ],
-  "depends": [
-    "BSON",
-    "Semaphore::ReadersWriters",
-    "Config::DataLang::Refine",
-    "Base64",
-    "Digest::MD5",
-    "OpenSSL",
-    "URI::Escape",
-    "Auth::SCRAM",
-    "Unicode::PRECIS",
-    "Terminal::ANSIColor",
-    "Log::Async"
-  ],
-  "description": "MongoDB driver",
-  "license": "Artistic-2.0",
-  "name": "MongoDB",
-  "perl": "6",
-  "provides": {
-    "MongoDB": "lib/MongoDB.pm6",
-    "MongoDB::Authenticate::Credential": "lib/MongoDB/Authenticate/Credential.pm6",
-    "MongoDB::Authenticate::Scram": "lib/MongoDB/Authenticate/Scram.pm6",
-    "MongoDB::Client": "lib/MongoDB/Client.pm6",
-    "MongoDB::Collection": "lib/MongoDB/Collection.pm6",
-    "MongoDB::Cursor": "lib/MongoDB/Cursor.pm6",
-    "MongoDB::Database": "lib/MongoDB/Database.pm6",
-    "MongoDB::HL::Collection": "lib/MongoDB/HL/Collection.pm6",
-    "MongoDB::HL::Users": "lib/MongoDB/HL/Users.pm6",
-    "MongoDB::Header": "lib/MongoDB/Header.pm6",
-    "MongoDB::Log": "lib/MongoDB/Log.pm6",
-    "MongoDB::MDBConfig": "lib/MongoDB/MDBConfig.pm6",
-    "MongoDB::Server": "lib/MongoDB/Server.pm6",
-    "MongoDB::Server::Control": "lib/MongoDB/Server/Control.pm6",
-    "MongoDB::Server::Monitor": "lib/MongoDB/Server/Monitor.pm6",
-    "MongoDB::Server::Socket": "lib/MongoDB/Server/Socket.pm6",
-    "MongoDB::Uri": "lib/MongoDB/Uri.pm6",
-    "MongoDB::Wire": "lib/MongoDB/Wire.pm6"
-  },
-  "source-url": "https://github.com/MARTIMM/mongo-perl6-driver.git",
-  "tags": [
-    "NoSQL",
-    "database",
-    "mongodb",
-    "driver"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.43.8"
 }
 ,
 {
@@ -14885,22 +14741,43 @@
 }
 ,
 {
+  "auth": "github:shantanubhadoria",
+  "author": "Shantanu Bhadoria <shantanu@cpan.org>",
   "authors": [
-    "Marcel Timmerman"
+    "Shantanu Bhadoria <shantanu@cpan.org>"
+  ],
+  "build-depends": [
+    
   ],
   "depends": [
-    "Digest::HMAC",
-    "OpenSSL"
+    
   ],
-  "description": "PKCS #5 with PBKDF2",
-  "license": "Artistic-2.0",
-  "name": "PKCS5",
+  "description": "Search compunits, modules and classes in installed repositories",
+  "license": "Artistic",
+  "name": "CompUnit::Search",
   "perl": "6",
   "provides": {
-    "PKCS5::PBKDF2": "lib/PKCS5/PBKDF2.pm6"
+    "CompUnit::Search": "lib/CompUnit/Search.pm6"
   },
-  "source-url": "git://github.com/MARTIMM/PKCS5",
-  "version": "v0.1.6.2"
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/shantanubhadoria/p6-CompUnit-Search.git",
+  "support": {
+    "bugtracker": "git://github.com/shantanubhadoria/p6-CompUnit-Search/issues",
+    "source": "git://github.com/shantanubhadoria/p6-CompUnit-Search.git"
+  },
+  "tags": [
+    "CompUnit",
+    "Search",
+    "Puggable",
+    "Module",
+    "Class"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "2.0.0"
 }
 ,
 {
@@ -14955,30 +14832,6 @@
   },
   "source-url": "git://github.com/ahalbert/perl6-itertools.git",
   "version": "0.9"
-}
-,
-{
-  "authors": [
-    "Marcel Timmerman"
-  ],
-  "depends": [
-    "Digest::HMAC",
-    "OpenSSL",
-    "Base64",
-    "PKCS5",
-    "Unicode::PRECIS"
-  ],
-  "description": "Salted Challenge Response Authentication Mechanism (SCRAM)",
-  "license": "Artistic-2.0",
-  "name": "Auth::SCRAM",
-  "perl": "6",
-  "provides": {
-    "Auth::SCRAM": "lib/Auth/SCRAM.pm6",
-    "Auth::SCRAM::Client": "lib/Auth/SCRAM/Client.pm6",
-    "Auth::SCRAM::Server": "lib/Auth/SCRAM/Server.pm6"
-  },
-  "source-url": "git://github.com/MARTIMM/Auth-SCRAM.git",
-  "version": "0.4.7.1"
 }
 ,
 {
@@ -15370,31 +15223,6 @@
 }
 ,
 {
-  "author": "Marcel Timmerman",
-  "authors": [
-    "Marcel Timmerman"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Implements PRECIS framework, rfc7564 and others. Obsoletes stringprep and saslprep",
-  "license": "Artistic-2.0",
-  "name": "Unicode::PRECIS",
-  "perl": "6.c",
-  "provides": {
-    "Unicode::PRECIS": "lib/Unicode/PRECIS.pm6",
-    "Unicode::PRECIS::FreeForm": "lib/Unicode/PRECIS/FreeForm.pm6",
-    "Unicode::PRECIS::FreeForm::OpaqueString": "lib/Unicode/PRECIS/FreeForm/OpaqueString.pm6",
-    "Unicode::PRECIS::Identifier": "lib/Unicode/PRECIS/Identifier.pm6",
-    "Unicode::PRECIS::Identifier::UsernameCaseMapped": "lib/Unicode/PRECIS/Identifier/UsernameCaseMapped.pm6",
-    "Unicode::PRECIS::Identifier::UsernameCasePreserved": "lib/Unicode/PRECIS/Identifier/UsernameCasePreserved.pm6",
-    "Unicode::PRECIS::Tables": "lib/Unicode/PRECIS/Tables.pm6"
-  },
-  "source-url": "git://github.com/MARTIMM/unicode-precis.git",
-  "version": "v0.5.1.1"
-}
-,
-{
   "author": "Sam Morrison <sam@samcm.com>",
   "depends": [
     
@@ -15605,29 +15433,6 @@
   },
   "source-url": "https://github.com/jsimonet/dns-zone.git",
   "version": "0.1.2"
-}
-,
-{
-  "authors": [
-    "Marcel Timmerman"
-  ],
-  "depends": [
-    "Pod::To::HTML",
-    "Pod::To::Markdown"
-  ],
-  "description": "Render pod docs to html, pdf or md",
-  "license": "Artistic-2.0",
-  "name": "Pod::Render",
-  "perl": "6",
-  "provides": {
-    "Pod::Render": "lib/Pod/Render.pm6"
-  },
-  "resources": [
-    "Camelia.svg",
-    "pod6.css"
-  ],
-  "source-url": "git://github.com/MARTIMM/pod-render.git",
-  "version": "0.8.0"
 }
 ,
 {
@@ -16137,25 +15942,6 @@
     "source": "https://github.com/melezhik/sparrowdo-ruby-bundler.git"
   },
   "version": "*"
-}
-,
-{
-  "authors": "Marcel Timmerman",
-  "depends": [
-    "Tinky"
-  ],
-  "description": "A Hash thingy using Tinky",
-  "license": "Artistic-2.0",
-  "name": "Tinky::Hash",
-  "perl": "6",
-  "provides": {
-    "Tinky::Hash": "lib/Tinky/Hash.pm6"
-  },
-  "source-url": "git://github.com/MARTIMM/tinky-hash.git",
-  "support": {
-    "email": "mt1957@gmail.com"
-  },
-  "version": "0.4.2.7"
 }
 ,
 {
