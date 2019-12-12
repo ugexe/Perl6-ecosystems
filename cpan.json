@@ -59688,6 +59688,53 @@
 }
 ,
 {
+  "api": "2dcontext-20151119",
+  "auth": "github:p6-css",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cairo",
+    "Color",
+    "CSS::Properties",
+    "JSON::Fast",
+    "Base64::Native",
+    "Font::FreeType"
+  ],
+  "description": "Construction and rendering of HTML-5 Canvases",
+  "license": "Artistic-2.0",
+  "name": "HTML::Canvas",
+  "perl": "6.c",
+  "provides": {
+    "HTML::Canvas": "lib/HTML/Canvas.pm",
+    "HTML::Canvas::Gradient": "lib/HTML/Canvas/Gradient.pm",
+    "HTML::Canvas::Image": "lib/HTML/Canvas/Image.pm",
+    "HTML::Canvas::ImageData": "lib/HTML/Canvas/ImageData.pm",
+    "HTML::Canvas::Pattern": "lib/HTML/Canvas/Pattern.pm",
+    "HTML::Canvas::To::Cairo": "lib/HTML/Canvas/To/Cairo.pm",
+    "HTML::Canvas::Tracer": "lib/HTML/Canvas/Tracer.pm"
+  },
+  "resources": [
+    "font/FreeMono.ttf"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-0.0.8.tar.gz",
+  "tags": [
+    "html",
+    "javascript",
+    "png",
+    "svg",
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
   "auth": "github:p6-pdf",
   "depends": [
     "HTML::Canvas",
@@ -60694,6 +60741,53 @@
     
   ],
   "version": "0.2.5"
+}
+,
+{
+  "api": "PDF-1.7",
+  "auth": "github:p6-pdf",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF::Lite",
+    "PDF::Content",
+    "Font::FreeType",
+    "PDF",
+    "Native::Packing"
+  ],
+  "description": "Font classes for the PDF Tool-chain",
+  "license": "Artistic-2.0",
+  "name": "PDF::Font::Loader",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Font::Loader": "lib/PDF/Font/Loader.pm",
+    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.pm",
+    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.pm",
+    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.pm",
+    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.pm",
+    "PDF::Font::Loader::Enc::Identity": "lib/PDF/Font/Loader/Enc/Identity.pm",
+    "PDF::Font::Loader::Enc::Identity-H": "lib/PDF/Font/Loader/Enc/Identity-H.pm",
+    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.pm",
+    "PDF::Font::Loader::FreeType": "lib/PDF/Font/Loader/FreeType.pm",
+    "PDF::Font::Loader::Type1": "lib/PDF/Font/Loader/Type1.pm",
+    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.2.7.tar.gz",
+  "tags": [
+    "pdf",
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.7"
 }
 ,
 {
