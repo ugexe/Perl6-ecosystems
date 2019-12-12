@@ -27006,45 +27006,6 @@
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
   "build-depends": [
-    "LibraryMake",
-    "Shell::Command"
-  ],
-  "depends": [
-    
-  ],
-  "description": "A Perl 6 interface to the Velleman USB Experiment Kit",
-  "license": "Artistic-2.0",
-  "meta-version": "0",
-  "name": "Device::Velleman::K8055",
-  "perl": "6.*",
-  "provides": {
-    "Device::Velleman::K8055": "lib/Device/Velleman/K8055.pm"
-  },
-  "resources": [
-    "libraries/k8055"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Device-Velleman-K8055-0.0.3.tar.gz",
-  "support": {
-    "source": "git://github.com/jonathanstowe/Device-Velleman-K8055.git"
-  },
-  "tags": [
-    "USB",
-    "device",
-    "experimental"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "api": "1.0",
-  "auth": "github:jonathanstowe",
-  "authors": [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ],
-  "build-depends": [
     "Shell::Command",
     "LibraryMake"
   ],
@@ -33615,6 +33576,46 @@
   },
   "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Auth-SCRAM-0.4.7.tar.gz",
   "version": "0.4.7.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman",
+    "Paweł Pabian"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "OpenSSL",
+    "UUID"
+  ],
+  "description": "BSON encoding/decoding, used in MongoDB drivers",
+  "history": [
+    "Paweł Pabian worked on it from 2011 until January 2015",
+    "Marcel Timmerman took over in Januari 2015 and is working on it until the present day"
+  ],
+  "license": "Artistic-2.0",
+  "name": "BSON",
+  "perl": "6",
+  "provides": {
+    "BSON": "lib/BSON.pm6",
+    "BSON::Binary": "lib/BSON/Binary.pm6",
+    "BSON::Document": "lib/BSON/Document.pm6",
+    "BSON::Javascript": "lib/BSON/Javascript.pm6",
+    "BSON::ObjectId": "lib/BSON/ObjectId.pm6",
+    "BSON::Regex": "lib/BSON/Regex.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/BSON-0.11.6.1.tar.gz",
+  "tags": [
+    "bson",
+    "mongodb",
+    "serialize"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.11.6.1"
 }
 ,
 {
