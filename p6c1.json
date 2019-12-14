@@ -707,7 +707,7 @@
   },
   "source-type": "git",
   "source-url": "git://github.com/colomon/ABC.git",
-  "version": "0.6.6"
+  "version": "0.6.7"
 }
 ,
 {
@@ -23704,5 +23704,30 @@
   },
   "source-url": "git://github.com/0racle/raku-Point.git",
   "version": "1.0.1"
+}
+,
+{
+  "auth": "Matthew ‘Matéu’ Stephen Stuckwisch",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A token enabling fuzzy matching token in regexes and grammars",
+  "license": "Artistic-2.0",
+  "name": "Regex::FuzzyToken",
+  "perl": "6.*",
+  "provides": {
+    "Regex::FuzzyToken": "lib/Regex/FuzzyToken.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/alabamenhu/RegexFuzzyToken.git",
+  "test-depends": [
+    
+  ],
+  "version": "0.5"
 }
 ]
