@@ -29536,6 +29536,48 @@
 }
 ,
 {
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Red",
+    "Crypt::Libcrypt:ver<0.1.0+>"
+  ],
+  "description": "A facility to allow the Red ORM to store and use hashed passwords in the database",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "RedX::HashedPassword",
+  "perl": "6.d",
+  "provides": {
+    "RedX::HashedPassword": "lib/RedX/HashedPassword.pm"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/RedX-HashedPassword-0.0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/RedX-HashedPassword/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/RedX-HashedPassword.git"
+  },
+  "tags": [
+    "password",
+    "hash",
+    "red",
+    "database"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
@@ -49162,6 +49204,42 @@
     "Test::META"
   ],
   "version": "0.1.8"
+}
+,
+{
+  "api": "1",
+  "auth": "github:tbrowder",
+  "author": "github:tbrowder",
+  "authors": [
+    "Tom Browder <tom.browder@gmail.com>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides some additional text functions (replaces module Text::More)",
+  "license": "Artistic-2.0",
+  "name": "Text::Utils",
+  "perl": "6.*",
+  "provides": {
+    "Text::Utils": "lib/Text/Utils.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Text-Utils-Raku-1.0.0.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/tbrowder/Text-Utils-Raku/issues"
+  },
+  "tags": [
+    "string functions",
+    "text wrap",
+    "normalize string",
+    "CPAN5"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "1.0.0"
 }
 ,
 {
