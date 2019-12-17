@@ -30609,6 +30609,37 @@
     
   ],
   "depends": [
+    "Kind"
+  ],
+  "description": "Support for parametric subsets",
+  "license": "Artistic-2.0",
+  "name": "Kind::Subset::Parametric",
+  "perl": "6",
+  "provides": {
+    "Kind::Subset::Parametric": "lib/Kind/Subset/Parametric.pm6",
+    "MetamodelX::ParametricSubset": "lib/MetamodelX/ParametricSubset.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Kind-Subset-Parametric-0.0.3.tar.gz",
+  "tags": [
+    "kind"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Ben Davies"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Perl 6 Bindings for GNU LibIDN",
