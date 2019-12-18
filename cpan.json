@@ -27444,6 +27444,48 @@
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Shell::Command"
+  ],
+  "depends": [
+    
+  ],
+  "description": "GNU dbm binding for Raku",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "GDBM",
+  "perl": "6.*",
+  "provides": {
+    "GDBM": "lib/GDBM.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/gdbmhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/GDBM-0.0.5.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Raku-GDBM/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Raku-GDBM.git"
+  },
+  "tags": [
+    "gdbm",
+    "dbm",
+    "hash"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
   "build-depends": [
@@ -28617,6 +28659,50 @@
     
   ],
   "version": "0.0.12"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "System::Passwd"
+  ],
+  "description": "Discover which process has a file open, in pure Raku",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Linux::Fuser",
+  "perl": "6.*",
+  "provides": {
+    "Linux::Fuser": "lib/Linux/Fuser.pm",
+    "Linux::Fuser::FileDescriptor": "lib/Linux/Fuser/FileDescriptor.pm",
+    "Linux::Fuser::Procinfo": "lib/Linux/Fuser/Procinfo.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Linux-Fuser-0.0.13.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Raku-Linux-Fuser/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Raku-Linux-Fuser.git"
+  },
+  "tags": [
+    "linux",
+    "system",
+    "utils",
+    "file"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.13"
 }
 ,
 {
