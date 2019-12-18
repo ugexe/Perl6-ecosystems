@@ -28460,6 +28460,50 @@
   ],
   "description": "Get the kernel CPU information on Linux",
   "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Linux::Cpuinfo",
+  "perl": "6.*",
+  "provides": {
+    "Linux::Cpuinfo": "lib/Linux/Cpuinfo.pm",
+    "Linux::Cpuinfo::Cpu": "lib/Linux/Cpuinfo/Cpu.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Linux-Cpuinfo-0.0.10.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Raku-Linux-Cpuinfo/issues/",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Raku-Linux-Cpuinfo.git"
+  },
+  "tags": [
+    "linux",
+    "system",
+    "utils",
+    "cpu"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.10"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Get the kernel CPU information on Linux",
+  "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "Linux::Cpuinfo",
   "perl": "6.*",
@@ -28529,6 +28573,50 @@
     
   ],
   "version": "0.0.11"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "System::Passwd"
+  ],
+  "description": "Discover which process has a file open, in pure Raku",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Linux::Fuser",
+  "perl": "6.*",
+  "provides": {
+    "Linux::Fuser": "lib/Linux/Fuser.pm",
+    "Linux::Fuser::FileDescriptor": "lib/Linux/Fuser/FileDescriptor.pm",
+    "Linux::Fuser::Procinfo": "lib/Linux/Fuser/Procinfo.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Linux-Fuser-0.0.12.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Raku-Linux-Fuser/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Raku-Linux-Fuser.git"
+  },
+  "tags": [
+    "linux",
+    "system",
+    "utils",
+    "file"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.12"
 }
 ,
 {
@@ -29780,6 +29868,50 @@
   "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.com>"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Shell::Command"
+  ],
+  "depends": [
+    "System::Passwd"
+  ],
+  "description": "Raku access to Lastlog information on Unix-like systems",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Sys::Lastlog",
+  "perl": "6.*",
+  "provides": {
+    "Sys::Lastlog": "lib/Sys/Lastlog.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/lastloghelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Sys-Lastlog-0.0.11.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Raku-Sys-Lastlog/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "irc": "irc://irc.freenode.net/#perl6",
+    "source": "git://github.com/jonathanstowe/Raku-Sys-Lastlog.git"
+  },
+  "tags": [
+    "unix",
+    "audit",
+    "lastlog"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.11"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
   "build-depends": [
@@ -29815,6 +29947,49 @@
     "Test"
   ],
   "version": "0.0.12"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    "Shell::Command",
+    "LibraryMake"
+  ],
+  "depends": [
+    "LibraryMake"
+  ],
+  "description": "Raku access to Utmp entries on Unix-like systems",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Sys::Utmp",
+  "perl": "6.*",
+  "provides": {
+    "Sys::Utmp": "lib/Sys/Utmp.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/utmphelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Sys-Utmp-0.0.13.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Raku-Sys-Utmp/issues",
+    "irc": "irc:// irc.freenode.net/#perl6",
+    "source": "git://github.com/jonathanstowe/Raku-Sys-Utmp.git"
+  },
+  "tags": [
+    "unix",
+    "users",
+    "utility"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.13"
 }
 ,
 {
