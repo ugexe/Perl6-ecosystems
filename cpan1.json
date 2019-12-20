@@ -27032,6 +27032,44 @@
 }
 ,
 {
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Crypt::Libcrypt"
+  ],
+  "description": "Hash and verify a password using the best available means",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Crypt::AnyPasswordHash",
+  "perl": "6.d",
+  "provides": {
+    "Crypt::AnyPasswordHash": "lib/Crypt/AnyPasswordHash.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Crypt-AnyPasswordHash-0.0.2.tar.gz",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Crypt-AnyPasswordHash.git"
+  },
+  "tags": [
+    "password",
+    "hash",
+    "crypt"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
@@ -27148,6 +27186,48 @@
     "LibraryCheck"
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stpwe <jns+gh@gellyfish.co.uk"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibraryCheck",
+    "NativeHelpers::Array"
+  ],
+  "description": "Binding for libsodium password hashing",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Crypt::SodiumScrypt",
+  "perl": "6.*",
+  "provides": {
+    "Crypt::SodiumScrypt": "lib/Crypt/SodiumScrypt.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Crypt-SodiumScrypt-0.0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Crypt-SodiumScrypt/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Crypt-SodiumScrypt.git"
+  },
+  "tags": [
+    "crypto",
+    "libsodium",
+    "password",
+    "scrypt"
+  ],
+  "test-depends": [
+    "LibraryCheck"
+  ],
+  "version": "0.0.2"
 }
 ,
 {
