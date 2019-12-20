@@ -28264,6 +28264,46 @@
   "depends": [
     
   ],
+  "description": "Provides a trait to store an alternative JSON Name",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "JSON::Name",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Name": "lib/JSON/Name.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Name-0.0.4.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/JSON-Name/issues",
+    "source": "git://github.com/jonathanstowe/JSON-Name.git"
+  },
+  "tags": [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Quick hack to determine whether a shared libray is present",
   "license": "Artistic-2.0",
   "meta-version": "0",
@@ -44146,6 +44186,27 @@
     "Terminal"
   ],
   "version": "1.4.0"
+}
+,
+{
+  "auth": "github:ryn1x",
+  "description": "Simple spinners and progress bars for Perl 6.",
+  "license": "Artistic License 2.0",
+  "meta-version": 1,
+  "name": "Terminal::Spinners",
+  "perl": "6.c",
+  "provides": {
+    "Terminal::Spinners": "lib/Terminal/Spinners.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/R/RY/RYNIX/Perl6/Terminal-Spinners-1.5.0.tar.gz",
+  "support": {
+    "source": "https://github.com/ryn1x/Terminal-Spinners"
+  },
+  "tags": [
+    "CLI",
+    "Terminal"
+  ],
+  "version": "1.5.0"
 }
 ,
 {
