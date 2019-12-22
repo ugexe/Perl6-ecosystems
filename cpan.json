@@ -50010,6 +50010,44 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:tbrowder",
+  "author": "github:tbrowder",
+  "authors": [
+    "Tom Browder <tom.browder@gmail.com>"
+  ],
+  "depends": [
+    "Text::Utils"
+  ],
+  "description": "Provides tools to assist Raku Advent WordPress authors",
+  "license": "Artistic-2.0",
+  "name": "RakuAdvent::WordPress",
+  "perl": "6.*",
+  "provides": {
+    "RakuAdvent::WPTag": "lib/RakuAdvent/WPTag.pm6",
+    "RakuAdvent::WordPress": "lib/RakuAdvent/WordPress.pm6",
+    "make-wp-input": "bin/make-wp-input"
+  },
+  "resources": [
+    "examples/advent-example.html"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/RakuAdvent-WordPress-0.0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/tbrowder/RakuAdvent-WordPress/issues"
+  },
+  "tags": [
+    "html",
+    "markdown",
+    "WordPress",
+    "Advent"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "auth": "github:tbrowder",
   "author": "github:tbrowder",
   "authors": [
