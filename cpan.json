@@ -34065,6 +34065,38 @@
 }
 ,
 {
+  "auth": "cpan:LEONT",
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Getopt::Long:ver<0.1.3+>",
+    "Text::Levenshtein::Damerau"
+  ],
+  "description": "A Getopt::Long extension for subcommands",
+  "license": "Artistic-2.0",
+  "name": "Getopt::Subcommands",
+  "perl": "6.c",
+  "provides": {
+    "Getopt::Subcommands": "lib/Getopt/Subcommands.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Getopt-Subcommands-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "authors": [
     "Leon Timmermans"
   ],
