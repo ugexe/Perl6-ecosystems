@@ -51738,6 +51738,46 @@
     "titsuki"
   ],
   "build-depends": [
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
+    "Algorithm::LibSVM::CustomBuilder"
+  ],
+  "builder": "Algorithm::LibSVM::CustomBuilder",
+  "depends": [
+    
+  ],
+  "description": "A Raku bindings for libsvm",
+  "license": "MIT",
+  "name": "Algorithm::LibSVM",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::LibSVM": "lib/Algorithm/LibSVM.pm6",
+    "Algorithm::LibSVM::Actions": "lib/Algorithm/LibSVM/Actions.pm6",
+    "Algorithm::LibSVM::CustomBuilder": "lib/Algorithm/LibSVM/CustomBuilder.pm6",
+    "Algorithm::LibSVM::Grammar": "lib/Algorithm/LibSVM/Grammar.pm6",
+    "Algorithm::LibSVM::Model": "lib/Algorithm/LibSVM/Model.pm6",
+    "Algorithm::LibSVM::Node": "lib/Algorithm/LibSVM/Node.pm6",
+    "Algorithm::LibSVM::Parameter": "lib/Algorithm/LibSVM/Parameter.pm6",
+    "Algorithm::LibSVM::Problem": "lib/Algorithm/LibSVM/Problem.pm6"
+  },
+  "resources": [
+    "libraries/svm"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LibSVM-0.0.11.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.11"
+}
+,
+{
+  "authors": [
+    "titsuki"
+  ],
+  "build-depends": [
     "LibraryMake"
   ],
   "depends": [
@@ -52706,6 +52746,55 @@
     "Itsuki Toyota"
   ],
   "build-depends": [
+    "zef",
+    "Distribution::Builder::MakeFromJSON",
+    "Chart::Gnuplot::CustomBuilder"
+  ],
+  "builder": "Chart::Gnuplot::CustomBuilder",
+  "depends": [
+    
+  ],
+  "description": "A Raku bindings for gnuplot",
+  "license": "GPL-3.0",
+  "name": "Chart::Gnuplot",
+  "perl": "6.c",
+  "provides": {
+    "Chart::Gnuplot": "lib/Chart/Gnuplot.pm6",
+    "Chart::Gnuplot::Arrow": "lib/Chart/Gnuplot/Arrow.pm6",
+    "Chart::Gnuplot::Border": "lib/Chart/Gnuplot/Border.pm6",
+    "Chart::Gnuplot::CustomBuilder": "lib/Chart/Gnuplot/CustomBuilder.pm6",
+    "Chart::Gnuplot::Grid": "lib/Chart/Gnuplot/Grid.pm6",
+    "Chart::Gnuplot::Label": "lib/Chart/Gnuplot/Label.pm6",
+    "Chart::Gnuplot::Legend": "lib/Chart/Gnuplot/Legend.pm6",
+    "Chart::Gnuplot::Object": "lib/Chart/Gnuplot/Object.pm6",
+    "Chart::Gnuplot::Output": "lib/Chart/Gnuplot/Output.pm6",
+    "Chart::Gnuplot::Range": "lib/Chart/Gnuplot/Range.pm6",
+    "Chart::Gnuplot::Subset": "lib/Chart/Gnuplot/Subset.pm6",
+    "Chart::Gnuplot::Terminal": "lib/Chart/Gnuplot/Terminal.pm6",
+    "Chart::Gnuplot::Tics": "lib/Chart/Gnuplot/Tics.pm6",
+    "Chart::Gnuplot::Timestamp": "lib/Chart/Gnuplot/Timestamp.pm6",
+    "Chart::Gnuplot::Title": "lib/Chart/Gnuplot/Title.pm6",
+    "Chart::Gnuplot::Util": "lib/Chart/Gnuplot/Util.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Chart-Gnuplot-0.0.16.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "IO::Capture::Simple"
+  ],
+  "version": "0.0.16"
+}
+,
+{
+  "author": "cpan:TITSUKI",
+  "authors": [
+    "Itsuki Toyota"
+  ],
+  "build-depends": [
     "zef"
   ],
   "depends": [
@@ -53274,6 +53363,86 @@
 }
 ,
 {
+  "auth": "titsuki",
+  "authors": [
+    "titsuki"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
+    "Zef",
+    "MeCab::CustomBuilder"
+  ],
+  "builder": "MeCab::CustomBuilder",
+  "depends": [
+    
+  ],
+  "description": "A Raku bindings for libmecab ( http://taku910.github.io/mecab/ )",
+  "license": "Artistic-2.0",
+  "name": "MeCab",
+  "perl": "6.c",
+  "provides": {
+    "MeCab": "lib/MeCab.pm6",
+    "MeCab::CustomBuilder": "lib/MeCab/CustomBuilder.pm6",
+    "MeCab::DictionaryInfo": "lib/MeCab/DictionaryInfo.pm6",
+    "MeCab::Lattice": "lib/MeCab/Lattice.pm6",
+    "MeCab::Model": "lib/MeCab/Model.pm6",
+    "MeCab::Tagger": "lib/MeCab/Tagger.pm6"
+  },
+  "resources": [
+    "libraries/mecab"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/MeCab-0.0.16.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.16"
+}
+,
+{
+  "auth": "titsuki",
+  "authors": [
+    "titsuki"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
+    "Zef",
+    "MeCab::CustomBuilder"
+  ],
+  "builder": "MeCab::CustomBuilder",
+  "depends": [
+    
+  ],
+  "description": "A Raku bindings for libmecab ( http://taku910.github.io/mecab/ )",
+  "license": "Artistic-2.0",
+  "name": "MeCab",
+  "perl": "6.c",
+  "provides": {
+    "MeCab": "lib/MeCab.pm6",
+    "MeCab::CustomBuilder": "lib/MeCab/CustomBuilder.pm6",
+    "MeCab::DictionaryInfo": "lib/MeCab/DictionaryInfo.pm6",
+    "MeCab::Lattice": "lib/MeCab/Lattice.pm6",
+    "MeCab::Model": "lib/MeCab/Model.pm6",
+    "MeCab::Tagger": "lib/MeCab/Tagger.pm6"
+  },
+  "resources": [
+    "libraries/mecab"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/MeCab-0.0.17.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.17"
+}
+,
+{
   "authors": [
     "titsuki"
   ],
@@ -53593,6 +53762,37 @@
     
   ],
   "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:TITSUKI",
+  "authors": [
+    "titsuki"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A Raku alias method implementation",
+  "license": "Artistic-2.0",
+  "name": "Random::Choice",
+  "perl": "6.c",
+  "provides": {
+    "Random::Choice": "lib/Random/Choice.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Random-Choice-0.0.7.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
 }
 ,
 {
