@@ -4029,17 +4029,22 @@
 }
 ,
 {
-  "author": "github:shinobi",
+  "api": "1.0",
+  "auth": "github:shinobi",
+  "authors": [
+    "github:shinobi"
+  ],
   "depends": [
     
   ],
   "description": "Calendar and Date objects to handle business days, holidays and weekends",
   "license": "Artistic-2.0",
+  "meta-version": 0,
   "name": "Date::WorkdayCalendar",
   "perl": "6.*",
   "provides": {
-    "Workdate": "lib/Date/WorkdayCalendar.pm",
-    "WorkdayCalendar": "lib/Date/WorkdayCalendar.pm"
+    "Date::Workdate": "lib/Date/WorkdayCalendar.pm",
+    "Date::WorkdayCalendar": "lib/Date/WorkdayCalendar.pm"
   },
   "source-url": "git://github.com/perl6-community-modules/Date-WorkdayCalendar.git",
   "tags": [
@@ -4047,7 +4052,7 @@
     "workday",
     "calendar"
   ],
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
 ,
 {
