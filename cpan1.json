@@ -6572,6 +6572,37 @@
     
   ],
   "depends": [
+    "Map::Agnostic:ver<0.0.3>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "role for ordered Maps",
+  "license": "Artistic-2.0",
+  "name": "Map::Ordered",
+  "perl": "6.c",
+  "provides": {
+    "Map::Ordered": "lib/Map/Ordered.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Map-Ordered-0.0.3.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Port of Perl 5's Memoize 1.03",
