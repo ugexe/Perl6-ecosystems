@@ -1420,6 +1420,47 @@
 }
 ,
 {
+  "auth": "github:bduggan",
+  "authors": [
+    "Brian Duggan <bduggan@matatu.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test",
+    "XML::Class",
+    "URI::Encode",
+    "IO::Socket::SSL",
+    "HTTP::UserAgent",
+    "Digest",
+    "Digest::HMAC",
+    "JSON::Fast",
+    "URI"
+  ],
+  "description": "AWS S3 Client",
+  "license": "MIT",
+  "name": "WebService::AWS::S3",
+  "perl": "6.c",
+  "provides": {
+    "WebService::AWS::S3": "lib/WebService/AWS/S3.pm6",
+    "WebService::AWS::S3::Request": "lib/WebService/AWS/S3/Request.pm6",
+    "WebService::AWS::S3::Resources": "lib/WebService/AWS/S3/Resources.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/WebService-AWS-S3-0.0.3.tar.gz",
+  "support": {
+    "source": "git://github.com/bduggan/aws-s3-perl6.git"
+  },
+  "tags": [
+    "aws"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "authors": [
     "Harris Brakmic"
   ],
