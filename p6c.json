@@ -3858,11 +3858,16 @@
 }
 ,
 {
-  "author": "github:retupmoca",
+  "auth": "github:retupmoca",
+  "authors": [
+    "Andrew Egeler",
+    "JJ Merelo"
+  ],
   "depends": [
     "HTML::Escape"
   ],
   "description": "Markdown parser / HTML generator",
+  "license": "MIT",
   "name": "Text::Markdown",
   "perl": "6.*",
   "provides": {
@@ -3871,7 +3876,7 @@
     "Text::Markdown::to::HTML": "lib/Text/Markdown/to/HTML.pm6"
   },
   "source-url": "git://github.com/retupmoca/p6-markdown.git",
-  "version": "1.0.2"
+  "version": "1.1.0"
 }
 ,
 {
