@@ -13521,47 +13521,6 @@
   "name": "Math::Libgsl",
   "perl": "6.c",
   "provides": {
-    "Math::Libgsl": "lib/Math/Libgsl.pm6",
-    "Math::Libgsl::Constants": "lib/Math/Libgsl/Constants.pm6",
-    "Math::Libgsl::Elementary": "lib/Math/Libgsl/Elementary.pm6",
-    "Math::Libgsl::Exception": "lib/Math/Libgsl/Exception.pm6",
-    "Math::Libgsl::Function": "lib/Math/Libgsl/Function.pm6",
-    "Math::Libgsl::Polynomial": "lib/Math/Libgsl/Polynomial.pm6",
-    "Math::Libgsl::Raw::Complex": "lib/Math/Libgsl/Raw/Complex.pm6",
-    "Math::Libgsl::Raw::Elementary": "lib/Math/Libgsl/Raw/Elementary.pm6",
-    "Math::Libgsl::Raw::Function": "lib/Math/Libgsl/Raw/Function.pm6",
-    "Math::Libgsl::Raw::Polynomial": "lib/Math/Libgsl/Raw/Polynomial.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-0.0.1.tar.gz",
-  "tags": [
-    "math",
-    "nativacall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl",
-  "perl": "6.c",
-  "provides": {
     "Math::Libgsl::Constants": "lib/Math/Libgsl/Constants.rakumod",
     "Math::Libgsl::Elementary": "lib/Math/Libgsl/Elementary.rakumod",
     "Math::Libgsl::Exception": "lib/Math/Libgsl/Exception.rakumod",
