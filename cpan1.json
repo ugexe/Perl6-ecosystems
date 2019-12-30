@@ -51866,6 +51866,46 @@
 }
 ,
 {
+  "auth": "cpan:TITSUKI",
+  "authors": [
+    "titsuki"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
+    "Algorithm::HierarchicalPAM::CustomBuilder"
+  ],
+  "builder": "Algorithm::HierarchicalPAM::CustomBuilder",
+  "depends": [
+    
+  ],
+  "description": "A Perl 6 Hierarchical PAM (model 2) implementation.",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::HierarchicalPAM",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::HierarchicalPAM": "lib/Algorithm/HierarchicalPAM.pm6",
+    "Algorithm::HierarchicalPAM::CustomBuilder": "lib/Algorithm/HierarchicalPAM/CustomBuilder.pm6",
+    "Algorithm::HierarchicalPAM::Document": "lib/Algorithm/HierarchicalPAM/Document.pm6",
+    "Algorithm::HierarchicalPAM::Formatter": "lib/Algorithm/HierarchicalPAM/Formatter.pm6",
+    "Algorithm::HierarchicalPAM::HierarchicalPAMModel": "lib/Algorithm/HierarchicalPAM/HierarchicalPAMModel.pm6",
+    "Algorithm::HierarchicalPAM::Phi": "lib/Algorithm/HierarchicalPAM/Phi.pm6",
+    "Algorithm::HierarchicalPAM::Theta": "lib/Algorithm/HierarchicalPAM/Theta.pm6"
+  },
+  "resources": [
+    "libraries/hpam"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-HierarchicalPAM-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "auth": "titsuki",
   "authors": [
     "Itsuki Toyota"
