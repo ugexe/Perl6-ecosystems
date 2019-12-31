@@ -580,6 +580,7 @@
   "name": "Text::CSV",
   "perl": "6.c",
   "provides": {
+    "IO::String": "lib/IO/String.pm6",
     "Text::CSV": "lib/Text/CSV.pm"
   },
   "repo-type": "git",
