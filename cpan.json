@@ -28545,6 +28545,47 @@
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Augment IO::Path with a .mode() method to get the file mode",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "IO::Path::Mode",
+  "perl": "6.*",
+  "provides": {
+    "IO::Path::Mode": "lib/IO/Path/Mode.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/IO-Path-Mode-0.0.7.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/IO-Path-Mode/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/IO-Path-Mode.git"
+  },
+  "tags": [
+    "IO",
+    "permissions",
+    "mode",
+    "utility"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
   "build-depends": [
