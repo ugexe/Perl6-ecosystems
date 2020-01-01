@@ -28695,6 +28695,50 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Igo-0.0.3.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Igo/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Igo.git"
+  },
+  "tags": [
+    "cpan6",
+    "packager",
+    "uploader"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Archive::Libarchive",
+    "CPAN::Uploader::Tiny",
+    "META6",
+    "Oyatul",
+    "XDG::BaseDirectory"
+  ],
+  "description": "Expedient CPAN6 distribution packager and uploader",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Igo",
+  "perl": "6.*",
+  "provides": {
+    "Igo": "lib/Igo.pm"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Igo-0.0.4.tar.gz",
   "support": {
     "bugtracker": "https://github.com/jonathanstowe/Igo/issues",
