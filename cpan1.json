@@ -28391,45 +28391,6 @@
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
   "build-depends": [
-    "LibraryMake",
-    "Shell::Command"
-  ],
-  "depends": [
-    
-  ],
-  "description": "A Perl 6 interface to the Velleman USB Experiment Kit",
-  "license": "Artistic-2.0",
-  "meta-version": "0",
-  "name": "Device::Velleman::K8055",
-  "perl": "6.*",
-  "provides": {
-    "Device::Velleman::K8055": "lib/Device/Velleman/K8055.pm"
-  },
-  "resources": [
-    "libraries/k8055"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Device-Velleman-K8055-0.0.3.tar.gz",
-  "support": {
-    "source": "git://github.com/jonathanstowe/Device-Velleman-K8055.git"
-  },
-  "tags": [
-    "USB",
-    "device",
-    "experimental"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "api": "1.0",
-  "auth": "github:jonathanstowe",
-  "authors": [
-    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ],
-  "build-depends": [
     "Shell::Command",
     "LibraryMake"
   ],
