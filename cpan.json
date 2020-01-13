@@ -46186,6 +46186,37 @@
 ,
 {
   "authors": [
+    "Jonathan Scott Duff <duff@pobox.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Directory::Tree"
+  ],
+  "description": "Create temporary files & directories",
+  "license": "Artistic-2.0",
+  "name": "File::Temp",
+  "perl": "6.*",
+  "provides": {
+    "File::Temp": "lib/File/Temp.pm"
+  },
+  "repo-type": "git",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/R/RB/RBT/Perl6/File-Temp-0.0.8.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "authors": [
     "ribbon-otter"
   ],
   "build-depends": [
