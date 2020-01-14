@@ -48187,6 +48187,60 @@
     
   ],
   "depends": [
+    "Serialise::Map",
+    "Result:ver<0.2.0+>",
+    "JSON::Tiny"
+  ],
+  "description": "A flexible yet accurate music representation system.",
+  "license": "Artistic-2.0",
+  "name": "ScaleVec",
+  "perl": "6.c",
+  "provides": {
+    "ScaleVec": "lib/ScaleVec.pm6",
+    "ScaleVec::Chord::Graph": "lib/ScaleVec/Chord/Graph.pm6",
+    "ScaleVec::Chord::Map": "lib/ScaleVec/Chord/Map.pm6",
+    "ScaleVec::Chord::Set": "lib/ScaleVec/Chord/Set.pm6",
+    "ScaleVec::Chord::Set::Major": "lib/ScaleVec/Chord/Set/Major.pm6",
+    "ScaleVec::Chord::Set::Minor::Harm": "lib/ScaleVec/Chord/Set/Minor/Harm.pm6",
+    "ScaleVec::Chord::Set::Minor::Nat": "lib/ScaleVec/Chord/Set/Minor/Nat.pm6",
+    "ScaleVec::Chord::System": "lib/ScaleVec/Chord/System.pm6",
+    "ScaleVec::Chord::System::Foundation": "lib/ScaleVec/Chord/System/Foundation.pm6",
+    "ScaleVec::Chord::System::Foundation::Element": "lib/ScaleVec/Chord/System/Foundation/Element.pm6",
+    "ScaleVec::Chord::Voicer": "lib/ScaleVec/Chord/Voicer.pm6",
+    "ScaleVec::Network": "lib/ScaleVec/Network.pm6",
+    "ScaleVec::Scale": "lib/ScaleVec/Scale.pm6",
+    "ScaleVec::Scale::EqualTemperment": "lib/ScaleVec/Scale/EqualTemperment.pm6",
+    "ScaleVec::Scale::Fence": "lib/ScaleVec/Scale/Fence.pm6",
+    "ScaleVec::Scale::Intervalic": "lib/ScaleVec/Scale/Intervalic.pm6",
+    "ScaleVec::Scale::Stack": "lib/ScaleVec/Scale/Stack.pm6",
+    "ScaleVec::Vector": "lib/ScaleVec/Vector.pm6",
+    "ScaleVec::Vectorable": "lib/ScaleVec/Vectorable.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SA/SAMGWISE/Perl6/ScaleVec-0.0.6.tar.gz",
+  "tags": [
+    "Music",
+    "Scale",
+    "Chord",
+    "Rhythmn",
+    "Transposition"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "authors": [
+    "Sam Gillespie"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Asynchronously pre-fetch the next item of a Seq",
@@ -51939,6 +51993,54 @@
     "Test::META"
   ],
   "version": "2.0.2"
+}
+,
+{
+  "auth": "github:tbrowder",
+  "author": "github:tbrowder",
+  "authors": [
+    "Tom Browder <tom.browder@gmail.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides names for month and weekday numbers (multilingual).",
+  "license": "Artistic-2.0",
+  "name": "Date::Names",
+  "perl": "6.c",
+  "provides": {
+    "Date::Names": "lib/Date/Names.pm6",
+    "Date::Names::de": "lib/Date/Names/de.pm6",
+    "Date::Names::en": "lib/Date/Names/en.pm6",
+    "Date::Names::es": "lib/Date/Names/es.pm6",
+    "Date::Names::fr": "lib/Date/Names/fr.pm6",
+    "Date::Names::id": "lib/Date/Names/id.pm6",
+    "Date::Names::it": "lib/Date/Names/it.pm6",
+    "Date::Names::nb": "lib/Date/Names/nb.pm6",
+    "Date::Names::nl": "lib/Date/Names/nl.pm6",
+    "Date::Names::pl": "lib/Date/Names/pl.pm6",
+    "Date::Names::ru": "lib/Date/Names/ru.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Date-Names-Perl6-2.0.4.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/tbrowder/Date-Names-Perl6/issues"
+  },
+  "tags": [
+    "date",
+    "names",
+    "dow"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "2.0.4"
 }
 ,
 {
