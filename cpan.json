@@ -29795,6 +29795,53 @@
   ],
   "depends": [
     "JSON::Fast",
+    "HTTP::UserAgent",
+    "JSON::Class",
+    "JSON::Name"
+  ],
+  "description": "Infer Raku Classes from JSON input",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "JSON::Infer",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Infer": "lib/JSON/Infer.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Infer-0.0.18.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/JSON-Infer/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "irc": "irc:// irc.freenode.net/#perl6",
+    "source": "https://github.com/jonathanstowe/JSON-Infer.git"
+  },
+  "tags": [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Test"
+  ],
+  "version": "0.0.18"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast",
     "JSON::Name"
   ],
   "description": "Simple serialisation of objects to JSON",
