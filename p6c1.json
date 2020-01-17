@@ -6758,7 +6758,11 @@
   "name": "Sprockets",
   "perl": "6.*",
   "provides": {
-    "Sprockets": "lib/Sprockets.pm6"
+    "Sprockets": "lib/Sprockets.pm6",
+    "Sprockets::File": "lib/Sprockets/File.pm6",
+    "Sprockets::Filter": "lib/Sprockets/Filter.pm6",
+    "Sprockets::Locator": "lib/Sprockets/Locator.pm6",
+    "Sprockets::Pipeline": "lib/Sprockets/Pipeline.pm6"
   },
   "source-url": "git://github.com/vendethiel/Sprockets.pl.git",
   "version": "*"
