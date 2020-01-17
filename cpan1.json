@@ -36779,6 +36779,46 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gobject-0.15.10.tar.gz",
+  "tags": [
+    "gnome",
+    "glib",
+    "gobject"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.15.10"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib"
+  ],
+  "description": "Raku - Gnome GObject Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::GObject",
+  "perl": "6",
+  "provides": {
+    "Gnome::GObject::Boxed": "lib/Gnome/GObject/Boxed.pm6",
+    "Gnome::GObject::Enums": "lib/Gnome/GObject/Enums.pm6",
+    "Gnome::GObject::InitiallyUnowned": "lib/Gnome/GObject/InitiallyUnowned.pm6",
+    "Gnome::GObject::Object": "lib/Gnome/GObject/Object.pm6",
+    "Gnome::GObject::Param": "lib/Gnome/GObject/Param.pm6",
+    "Gnome::GObject::Signal": "lib/Gnome/GObject/Signal.pm6",
+    "Gnome::GObject::Type": "lib/Gnome/GObject/Type.pm6",
+    "Gnome::GObject::Value": "lib/Gnome/GObject/Value.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gobject-0.15.9.tar.gz",
   "tags": [
     "gnome",
@@ -57972,6 +58012,51 @@
 }
 ,
 {
+  "api": "0",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "Config",
+    "Config::Parser::toml",
+    "Data::Dump",
+    "Grammar::TodoTxt",
+    "IO::Path::XDG",
+    "JSON::Fast"
+  ],
+  "description": "Nondescript",
+  "license": "AGPL-3.0",
+  "meta-version": 0,
+  "name": "App::GTD",
+  "perl": "6.d",
+  "provides": {
+    "App::GTD": "lib/App/GTD.pm6",
+    "App::GTD::Bin::Add": "lib/App/GTD/Bin/Add.pm6",
+    "App::GTD::Bin::Clean": "lib/App/GTD/Bin/Clean.pm6",
+    "App::GTD::Bin::Config": "lib/App/GTD/Bin/Config.pm6",
+    "App::GTD::Bin::Done": "lib/App/GTD/Bin/Done.pm6",
+    "App::GTD::Bin::Grep": "lib/App/GTD/Bin/Grep.pm6",
+    "App::GTD::Bin::ListInbox": "lib/App/GTD/Bin/ListInbox.pm6",
+    "App::GTD::Bin::ListNext": "lib/App/GTD/Bin/ListNext.pm6",
+    "App::GTD::Bin::ListSomeday": "lib/App/GTD/Bin/ListSomeday.pm6",
+    "App::GTD::Bin::ToNext": "lib/App/GTD/Bin/ToNext.pm6",
+    "App::GTD::Bin::ToSomeday": "lib/App/GTD/Bin/ToSomeday.pm6",
+    "App::GTD::Bin::Trash": "lib/App/GTD/Bin/Trash.pm6",
+    "App::GTD::GrammarActions": "lib/App/GTD/GrammarActions.pm6",
+    "App::GTD::Record": "lib/App/GTD/Record.pm6",
+    "gtd": "bin/gtd"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-GTD-0.1.0.tar.gz",
+  "tags": [
+    
+  ],
+  "version": "0.1.0"
+}
+,
+{
   "auth": "github:scriptkitties",
   "authors": [
     "Patrick Spek <p.spek@tyil.work>"
@@ -58957,6 +59042,32 @@
     "Patrick Spek <p.spek@tyil.work>"
   ],
   "depends": [
+    
+  ],
+  "description": "A grammar to parse todo.txt",
+  "license": "AGPL-3.0",
+  "meta-version": 0,
+  "name": "Grammar::TodoTxt",
+  "perl": "6.d",
+  "provides": {
+    "Grammar::TodoTxt": "lib/Grammar/TodoTxt.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Grammar-TodoTxt-0.1.0.tar.gz",
+  "tags": [
+    
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "api": "0",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
     "Base64",
     "LibCurl"
   ],
@@ -59823,6 +59934,60 @@
     
   ],
   "version": "0.1.1"
+}
+,
+{
+  "api": "0",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "A base class to easily build Perl 6 Pod converters with",
+  "license": "AGPL-3.0",
+  "meta-version": 0,
+  "name": "Pod::To::Anything",
+  "perl": "6.c",
+  "provides": {
+    "Pod::To::Anything": "lib/Pod/To/Anything.pm6",
+    "Pod::To::Anything::Subsets": "lib/Pod/To/Anything/Subsets.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Pod-To-Anything-0.1.0.tar.gz",
+  "tags": [
+    
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "api": "0",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "HTML::Escape",
+    "Pod::To::Anything"
+  ],
+  "description": "Convert a Pod6 document to HTML",
+  "license": "AGPL-3.0",
+  "meta-version": 0,
+  "name": "Pod::To::HTML::Section",
+  "perl": "6.d",
+  "provides": {
+    "Pod::To::HTML::Section": "lib/Pod/To/HTML/Section.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Pod-To-HTML-Section-0.1.0.tar.gz",
+  "tags": [
+    
+  ],
+  "version": "0.1.0"
 }
 ,
 {
