@@ -19357,7 +19357,6 @@
     "PDF::Content::Image::PDF": "lib/PDF/Content/Image/PDF.pm",
     "PDF::Content::Image::PNG": "lib/PDF/Content/Image/PNG.pm",
     "PDF::Content::Interface": "lib/PDF/Content/Interface.pm",
-    "PDF::Content::Marked": "lib/PDF/Content/Marked.pm",
     "PDF::Content::Matrix": "lib/PDF/Content/Matrix.pm",
     "PDF::Content::Ops": "lib/PDF/Content/Ops.pm",
     "PDF::Content::Page": "lib/PDF/Content/Page.pm",
@@ -19366,7 +19365,8 @@
     "PDF::Content::ResourceDict": "lib/PDF/Content/ResourceDict.pm",
     "PDF::Content::Resourced": "lib/PDF/Content/Resourced.pm",
     "PDF::Content::Tag": "lib/PDF/Content/Tag.pm",
-    "PDF::Content::Tags": "lib/PDF/Content/Tags.pm",
+    "PDF::Content::Tag::Elem": "lib/PDF/Content/Tag/Elem.pm",
+    "PDF::Content::Tag::Marked": "lib/PDF/Content/Tag/Marked.pm",
     "PDF::Content::Text::Block": "lib/PDF/Content/Text/Block.pm",
     "PDF::Content::Text::Line": "lib/PDF/Content/Text/Line.pm",
     "PDF::Content::Text::Style": "lib/PDF/Content/Text/Style.pm",
@@ -19382,7 +19382,7 @@
   "test-depends": [
     
   ],
-  "version": "0.3.1"
+  "version": "0.3.2"
 }
 ,
 {
