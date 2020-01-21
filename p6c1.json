@@ -1017,7 +1017,7 @@
     "IO::Capture::Simple",
     "Test::Util::ServerPort"
   ],
-  "version": "1.1.48"
+  "version": "1.1.49"
 }
 ,
 {
@@ -23765,5 +23765,31 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "Matthew ‘Matéu’ Stephen Stuckwisch",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "An implementation of Carp in Raku",
+  "license": "Artistic-2.0",
+  "name": "Carp",
+  "perl": "6.*",
+  "provides": {
+    "Carp": "lib/Carp.pm6"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/alabamenhu/Carp.git",
+  "test-depends": [
+    
+  ],
+  "version": "0.1"
 }
 ]
