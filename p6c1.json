@@ -14502,6 +14502,8 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:ppentchev",
   "authors": [
     "Peter Pentchev"
   ],
@@ -14512,18 +14514,24 @@
   "license": "Artistic-2.0",
   "name": "Getopt::Std",
   "perl": "6.c",
+  "production": true,
   "provides": {
-    "Getopt::Std": "lib/Getopt/Std.pm6"
+    "Getopt::Std": "lib/Getopt/Std.rakumod"
   },
   "resources": [
     
   ],
   "source-url": "https://github.com/ppentchev/perl6-Getopt-Std.git",
+  "support": {
+    "bugtracker": "https://github.com/ppentchev/perl6-Getopt-Std/issues",
+    "email": "roam@ringlet.net",
+    "source": "https://github.com/ppentchev/perl6-Getopt-Std.git"
+  },
   "test-depends": [
     "Test::Deeply::Relaxed",
     "Test::META"
   ],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
 ,
 {
