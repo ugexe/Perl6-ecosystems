@@ -11810,6 +11810,8 @@
 }
 ,
 {
+  "api": "0",
+  "auth": "github:ppentchev",
   "authors": [
     "Peter Pentchev"
   ],
@@ -11820,14 +11822,23 @@
   "license": "Artistic-2.0",
   "name": "Shell::Capture",
   "perl": "6.c",
+  "production": true,
   "provides": {
-    "Shell::Capture": "lib/Shell/Capture.pm6"
+    "Shell::Capture": "lib/Shell/Capture.rakumod"
   },
   "resources": [
     
   ],
   "source-url": "https://github.com/ppentchev/Shell-Capture.git",
-  "version": "0.2.3"
+  "support": {
+    "bugtracker": "https://github.com/ppentchev/Shell-Capture/issues",
+    "email": "roam@ringlet.net",
+    "source": "https://github.com/ppentchev/Shell-Capture.git"
+  },
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.2.4"
 }
 ,
 {
