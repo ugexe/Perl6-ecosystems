@@ -14461,6 +14461,8 @@
 }
 ,
 {
+  "api": "0",
+  "auth": "github:ppentchev",
   "authors": [
     "Peter Pentchev"
   ],
@@ -14471,17 +14473,23 @@
   "license": "Artistic-2.0",
   "name": "Test::Deeply::Relaxed",
   "perl": "6.c",
+  "production": true,
   "provides": {
-    "Test::Deeply::Relaxed": "lib/Test/Deeply/Relaxed.pm6"
+    "Test::Deeply::Relaxed": "lib/Test/Deeply/Relaxed.rakumod"
   },
   "resources": [
     
   ],
   "source-url": "https://github.com/ppentchev/perl6-Test-Deeply-Relaxed.git",
+  "support": {
+    "bugtracker": "https://github.com/ppentchev/perl6-Test-Deeply-Relaxed/issues",
+    "email": "roam@ringlet.net",
+    "source": "https://github.com/ppentchev/perl6-Test-Deeply-Relaxed"
+  },
   "test-depends": [
     "Test::META"
   ],
-  "version": "0.1.1"
+  "version": "0.1.3"
 }
 ,
 {
