@@ -417,24 +417,6 @@
   "depends": [
     
   ],
-  "description": "Vector math class",
-  "name": "Math::Vector",
-  "perl": "6.*",
-  "provides": {
-    "Math::Vector": "lib/Math/Vector.pm"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/colomon/Math-Vector.git",
-  "tags": [
-    "Math"
-  ],
-  "version": "0.5.1"
-}
-,
-{
-  "depends": [
-    
-  ],
   "description": "Basic continued fraction arithmetic",
   "name": "Math::ContinuedFractions",
   "provides": {
@@ -861,21 +843,6 @@
 }
 ,
 {
-  "depends": [
-    
-  ],
-  "description": "IO can be captured",
-  "name": "IO::Capture::Simple",
-  "perl": "6.*",
-  "provides": {
-    "IO::Capture::Simple": "lib/IO/Capture/Simple.pm",
-    "Test::IO::Capture": "lib/Test/IO/Capture.pm"
-  },
-  "source-url": "git://github.com/sergot/IO-Capture-Simple.git",
-  "version": "*"
-}
-,
-{
   "authors": [
     "Fernando Correa de Oliveira"
   ],
@@ -1038,43 +1005,6 @@
     "Test"
   ],
   "version": "0.9.1"
-}
-,
-{
-  "author": "github:sergot",
-  "depends": [
-    
-  ],
-  "description": "OpenSSL bindings",
-  "name": "OpenSSL",
-  "perl": "6.*",
-  "provides": {
-    "OpenSSL": "lib/OpenSSL.pm6",
-    "OpenSSL::Bio": "lib/OpenSSL/Bio.pm6",
-    "OpenSSL::Cipher": "lib/OpenSSL/Cipher.pm6",
-    "OpenSSL::CryptTools": "lib/OpenSSL/CryptTools.pm6",
-    "OpenSSL::Ctx": "lib/OpenSSL/Ctx.pm6",
-    "OpenSSL::Digest": "lib/OpenSSL/Digest.pm6",
-    "OpenSSL::Digest::MD5": "lib/OpenSSL/Digest/MD5.pm6",
-    "OpenSSL::EVP": "lib/OpenSSL/EVP.pm6",
-    "OpenSSL::Err": "lib/OpenSSL/Err.pm6",
-    "OpenSSL::Method": "lib/OpenSSL/Method.pm6",
-    "OpenSSL::NativeLib": "lib/OpenSSL/NativeLib.pm6",
-    "OpenSSL::PEM": "lib/OpenSSL/PEM.pm6",
-    "OpenSSL::RSA": "lib/OpenSSL/RSA.pm6",
-    "OpenSSL::RSATools": "lib/OpenSSL/RSATools.pm6",
-    "OpenSSL::SSL": "lib/OpenSSL/SSL.pm6",
-    "OpenSSL::Session": "lib/OpenSSL/Session.pm6",
-    "OpenSSL::Stack": "lib/OpenSSL/Stack.pm6",
-    "OpenSSL::Version": "lib/OpenSSL/Version.pm6",
-    "OpenSSL::X509": "lib/OpenSSL/X509.pm6"
-  },
-  "resources": [
-    "ssleay32.dll",
-    "libeay32.dll"
-  ],
-  "source-url": "git://github.com/sergot/openssl.git",
-  "version": "0.1.22"
 }
 ,
 {
