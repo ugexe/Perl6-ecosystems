@@ -48021,6 +48021,39 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:ppentchev",
+  "authors": [
+    "Peter Pentchev"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Process single-character options with option clustering",
+  "license": "Artistic-2.0",
+  "name": "Getopt::Std",
+  "perl": "6.c",
+  "production": true,
+  "provides": {
+    "Getopt::Std": "lib/Getopt/Std.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/R/RO/ROAM/Perl6/Getopt-Std-1.0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/ppentchev/perl6-Getopt-Std/issues",
+    "email": "roam@ringlet.net",
+    "source": "https://github.com/ppentchev/perl6-Getopt-Std.git"
+  },
+  "test-depends": [
+    "Test::Deeply::Relaxed",
+    "Test::META"
+  ],
+  "version": "1.0.2"
+}
+,
+{
   "api": "0",
   "auth": "github:ppentchev",
   "authors": [
