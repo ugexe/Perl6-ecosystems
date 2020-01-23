@@ -67137,6 +67137,53 @@
     "David Warring"
   ],
   "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF::Lite",
+    "PDF::Content",
+    "Font::FreeType:ver<0.2.1>",
+    "PDF",
+    "Native::Packing"
+  ],
+  "description": "Font loading and embedding for the PDF tool-chain",
+  "license": "Artistic-2.0",
+  "name": "PDF::Font::Loader",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Font::Loader": "lib/PDF/Font/Loader.pm",
+    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.pm",
+    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.pm",
+    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.pm",
+    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.pm",
+    "PDF::Font::Loader::Enc::Identity": "lib/PDF/Font/Loader/Enc/Identity.pm",
+    "PDF::Font::Loader::Enc::Identity-H": "lib/PDF/Font/Loader/Enc/Identity-H.pm",
+    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.pm",
+    "PDF::Font::Loader::FreeType": "lib/PDF/Font/Loader/FreeType.pm",
+    "PDF::Font::Loader::Type1": "lib/PDF/Font/Loader/Type1.pm",
+    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.2.8.tar.gz",
+  "tags": [
+    "pdf",
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.8"
+}
+,
+{
+  "api": "PDF-1.7",
+  "auth": "github:p6-pdf",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
     "JSON::Fast",
     "LibXML",
     "PDF::Font::Loader"
