@@ -26588,47 +26588,6 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
-  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "authors": [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Provides a method trait to turn indivdual get/set subroutines into a single attribute",
-  "license": "Artistic-2.0",
-  "meta-version": "0",
-  "name": "AccessorFacade",
-  "perl": "6.*",
-  "provides": {
-    "AccessorFacade": "lib/AccessorFacade.pm"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/AccessorFacade-0.0.9.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/jonathanstowe/AccessorFacade/issues",
-    "email": "jns+git@gellyfish.co.uk",
-    "source": "git://github.com/jonathanstowe/AccessorFacade.git"
-  },
-  "tags": [
-    "devel",
-    "utils",
-    "facade"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.9"
-}
-,
-{
-  "api": "1.0",
-  "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
@@ -33194,6 +33153,43 @@
     "Test"
   ],
   "version": "1.6.0"
+}
+,
+{
+  "authors": [
+    "kuerbis"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Term::termios"
+  ],
+  "description": "Choose items from a list interactively.",
+  "license": "Artistic-2.0",
+  "name": "Term::Choose",
+  "perl": "6.d",
+  "provides": {
+    "Term::Choose": "lib/Term/Choose.pm6",
+    "Term::Choose::LineFold": "lib/Term/Choose/LineFold.pm6",
+    "Term::Choose::LineFold::CharWidthAmbiguousWide": "lib/Term/Choose/LineFold/CharWidthAmbiguousWide.pm6",
+    "Term::Choose::LineFold::CharWidthDefault": "lib/Term/Choose/LineFold/CharWidthDefault.pm6",
+    "Term::Choose::ReadKey": "lib/Term/Choose/ReadKey.pm6",
+    "Term::Choose::Screen": "lib/Term/Choose/Screen.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-p6-1.6.1.tar.gz",
+  "tags": [
+    "cli",
+    "terminal",
+    "text"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.6.1"
 }
 ,
 {
