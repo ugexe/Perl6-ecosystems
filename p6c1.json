@@ -3403,7 +3403,13 @@
 }
 ,
 {
-  "author": "github:retupmoca",
+  "auth": "github:retupmoca",
+  "authors": [
+    "github:retupmoca"
+  ],
+  "build-depends": [
+    
+  ],
   "depends": [
     "Email::Simple",
     "MIME::QuotedPrint",
@@ -3411,6 +3417,7 @@
   ],
   "description": "Simple MIME email parsing module",
   "license": "CC0-1.0",
+  "meta-version": "0",
   "name": "Email::MIME",
   "perl": "6.*",
   "provides": {
@@ -3420,8 +3427,20 @@
     "Email::MIME::Header": "lib/Email/MIME/Header.pm6",
     "Email::MIME::ParseContentType": "lib/Email/MIME/ParseContentType.pm6"
   },
+  "resources": [
+    
+  ],
   "source-url": "git://github.com/retupmoca/p6-Email-MIME.git",
-  "version": "2.0.0"
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "2.0.1"
 }
 ,
 {
@@ -3525,11 +3544,19 @@
 }
 ,
 {
-  "author": "github:retupmoca",
+  "auth": "github:retupmoca",
+  "authors": [
+    "github:retupmoca"
+  ],
+  "build-depends": [
+    
+  ],
   "depends": [
     
   ],
   "description": "Simple DNS Resolver",
+  "license": null,
+  "meta-version": "0",
   "name": "Net::DNS",
   "perl": "6.*",
   "provides": {
@@ -3550,8 +3577,20 @@
     "Net::DNS::Message::Resource::SRV": "lib/Net/DNS/Message/Resource/SRV.pm6",
     "Net::DNS::Message::Resource::TXT": "lib/Net/DNS/Message/Resource/TXT.pm6"
   },
+  "resources": [
+    
+  ],
   "source-url": "git://github.com/retupmoca/P6-Net-DNS.git",
-  "version": "1.1.0"
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.1.1"
 }
 ,
 {
