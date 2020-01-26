@@ -33631,6 +33631,40 @@
 }
 ,
 {
+  "authors": [
+    "kuerbis"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Term::Choose:ver<1.6.1+>",
+    "Term::Choose::Util:ver<1.3.1+>"
+  ],
+  "description": "Print a table to the terminal and browse it interactively.",
+  "license": "Artistic-2.0",
+  "name": "Term::TablePrint",
+  "perl": "6.d",
+  "provides": {
+    "Term::TablePrint": "lib/Term/TablePrint.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-TablePrint-p6-1.5.1.tar.gz",
+  "tags": [
+    "cli",
+    "table",
+    "terminal",
+    "text"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.5.1"
+}
+,
+{
   "auth": "CPAN:lembark",
   "authors": [
     "lembark"
