@@ -19393,6 +19393,37 @@
 }
 ,
 {
+  "auth": "github:",
+  "authors": [
+    "Markus 'Holli' Holzer"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A personal history for any scalar",
+  "license": "BSD-3",
+  "name": "Scalar::History",
+  "perl": "6.c",
+  "provides": {
+    "Scalar::History": "lib/Scalar/History.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HO/HOLLI/Perl6/Scalar-History-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "authors": [
     "Markus 'Holli' Holzer",
     ""
@@ -45151,6 +45182,46 @@
 }
 ,
 {
+  "auth": "github:rbt",
+  "authors": [
+    "Rod Taylor <rbt@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LogP6",
+    "JSON::Fast"
+  ],
+  "description": "LogP6 writer for StackDriver service.",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "LogP6::Writer::StackDriver",
+  "perl": "6.d",
+  "provides": {
+    "LogP6::Writer::StackDriver": "lib/LogP6/Writer/StackDriver.pm6",
+    "LogP6::WriterConf::StackDriver": "lib/LogP6/WriterConf/StackDriver.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/R/RB/RBT/Perl6/LogP6-Writer-StackDriver-1.0.0.tar.gz",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    "LOG",
+    "LOGGING",
+    "LOGGER",
+    "STACKDRIVER"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.0.0"
+}
+,
+{
   "auth": null,
   "authors": [
     "github:retupmoca"
@@ -62736,50 +62807,6 @@
   "resources": [
     "libraries/ft6"
   ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.1.8.tar.gz",
-  "tags": [
-    "font",
-    "freetype"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.8"
-}
-,
-{
-  "auth": "github:p6-pdf",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake",
-    "Pod::To::Markdown"
-  ],
-  "depends": [
-    
-  ],
-  "description": "read font files and render glyphs from Perl using FreeType2",
-  "license": "Artistic-2.0",
-  "name": "Font::FreeType",
-  "perl": "6",
-  "provides": {
-    "Font::FreeType": "lib/Font/FreeType.pm",
-    "Font::FreeType::BBox": "lib/Font/FreeType/BBox.pm",
-    "Font::FreeType::BitMap": "lib/Font/FreeType/BitMap.pm",
-    "Font::FreeType::CharMap": "lib/Font/FreeType/CharMap.pm",
-    "Font::FreeType::Error": "lib/Font/FreeType/Error.pm",
-    "Font::FreeType::Face": "lib/Font/FreeType/Face.pm",
-    "Font::FreeType::Glyph": "lib/Font/FreeType/Glyph.pm",
-    "Font::FreeType::GlyphImage": "lib/Font/FreeType/GlyphImage.pm",
-    "Font::FreeType::NamedInfo": "lib/Font/FreeType/NamedInfo.pm",
-    "Font::FreeType::Native": "lib/Font/FreeType/Native.pm",
-    "Font::FreeType::Native::Types": "lib/Font/FreeType/Native/Types.pm",
-    "Font::FreeType::Outline": "lib/Font/FreeType/Outline.pm"
-  },
-  "resources": [
-    "libraries/ft6"
-  ],
   "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.1.9.tar.gz",
   "tags": [
     "font",
@@ -64264,53 +64291,6 @@
     
   ],
   "version": "0.3.9"
-}
-,
-{
-  "api": "PDF-1.7",
-  "auth": "github:p6-pdf",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "PDF::Lite",
-    "PDF::Content",
-    "Font::FreeType",
-    "PDF",
-    "Native::Packing"
-  ],
-  "description": "Font classes for the PDF Tool-chain",
-  "license": "Artistic-2.0",
-  "name": "PDF::Font::Loader",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Font::Loader": "lib/PDF/Font/Loader.pm",
-    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.pm",
-    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.pm",
-    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.pm",
-    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.pm",
-    "PDF::Font::Loader::Enc::Identity": "lib/PDF/Font/Loader/Enc/Identity.pm",
-    "PDF::Font::Loader::Enc::Identity-H": "lib/PDF/Font/Loader/Enc/Identity-H.pm",
-    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.pm",
-    "PDF::Font::Loader::FreeType": "lib/PDF/Font/Loader/FreeType.pm",
-    "PDF::Font::Loader::Type1": "lib/PDF/Font/Loader/Type1.pm",
-    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.pm"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.2.4.tar.gz",
-  "tags": [
-    "pdf",
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.2.4"
 }
 ,
 {
