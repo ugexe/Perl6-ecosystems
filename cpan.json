@@ -33233,6 +33233,37 @@
     
   ],
   "depends": [
+    "Term::Choose:ver<1.6.1+>"
+  ],
+  "description": "TUI-related functions for selecting directories, files, numbers and subsets of lists.",
+  "license": "Artistic-2.0",
+  "name": "Term::Choose::Util",
+  "perl": "6.d",
+  "provides": {
+    "Term::Choose::Util": "lib/Term/Choose/Util.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-Util-p6-1.3.1.tar.gz",
+  "tags": [
+    "cli",
+    "terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.3.1"
+}
+,
+{
+  "authors": [
+    "kuerbis"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Term::termios"
   ],
   "description": "Choose items from a list interactively.",
