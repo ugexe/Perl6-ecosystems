@@ -32341,82 +32341,6 @@
   "name": "Trait::Traced",
   "perl": "6.d",
   "provides": {
-    "MetamodelX::Traced::MethodContainer": "lib/MetamodelX/Traced/MethodContainer.pm6",
-    "MetamodelX::Traced::MultiMethodContainer": "lib/MetamodelX/Traced/MultiMethodContainer.pm6",
-    "Traced": "lib/Traced.pm6",
-    "Traced::Routine": "lib/Traced/Routine.pm6",
-    "Trait::Traced": "lib/Trait/Traced.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Trait-Traced-0.1.2.tar.gz",
-  "tags": [
-    "trace",
-    "traced",
-    "metamodel"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.2"
-}
-,
-{
-  "authors": [
-    "Ben Davies"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Kind"
-  ],
-  "description": "Automagic tracing",
-  "license": "Artistic-2.0",
-  "name": "Trait::Traced",
-  "perl": "6.d",
-  "provides": {
-    "MetamodelX::Traced::AdHocMethod": "lib/MetamodelX/Traced/AdHocMethod.pm6",
-    "MetamodelX::Traced::MetaMethodContainer": "lib/MetamodelX/Traced/MetaMethodContainer.pm6",
-    "MetamodelX::Traced::MethodContainer": "lib/MetamodelX/Traced/MethodContainer.pm6",
-    "MetamodelX::Traced::MultiMethodContainer": "lib/MetamodelX/Traced/MultiMethodContainer.pm6",
-    "MetamodelX::Traced::PrivateMethodContainer": "lib/MetamodelX/Traced/PrivateMethodContainer.pm6",
-    "Traced": "lib/Traced.pm6",
-    "Traced::Routine": "lib/Traced/Routine.pm6",
-    "Traced::Stash": "lib/Traced/Stash.pm6",
-    "Trait::Traced": "lib/Trait/Traced.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Trait-Traced-0.2.0.tar.gz",
-  "tags": [
-    "trace",
-    "traced",
-    "metamodel"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.2.0"
-}
-,
-{
-  "authors": [
-    "Ben Davies"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Kind"
-  ],
-  "description": "Automagic tracing",
-  "license": "Artistic-2.0",
-  "name": "Trait::Traced",
-  "perl": "6.d",
-  "provides": {
     "MetamodelX::Traced::AdHocMethod": "lib/MetamodelX/Traced/AdHocMethod.pm6",
     "MetamodelX::Traced::MetaMethodContainer": "lib/MetamodelX/Traced/MetaMethodContainer.pm6",
     "MetamodelX::Traced::MethodContainer": "lib/MetamodelX/Traced/MethodContainer.pm6",
@@ -36648,6 +36572,38 @@
     
   ],
   "version": "0.15.3"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku - Gnome native interface support, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::N",
+  "perl": "6",
+  "provides": {
+    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
+    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
+    "Gnome::N::X": "lib/Gnome/N/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-native-0.15.4.tar.gz",
+  "tags": [
+    "gnome"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.15.4"
 }
 ,
 {
