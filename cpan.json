@@ -14289,6 +14289,104 @@
 }
 ,
 {
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibraryMake"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - complex numbers.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Complex",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Complex": "lib/Math/Libgsl/Complex.rakumod",
+    "Math::Libgsl::Raw::Complex": "lib/Math/Libgsl/Raw/Complex.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Complex-0.0.1.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - constants and exceptions.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Constants",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Constants": "lib/Math/Libgsl/Constants.rakumod",
+    "Math::Libgsl::Exception": "lib/Math/Libgsl/Exception.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Constants-0.0.1.tar.gz",
+  "tags": [
+    "math"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - elementary functions.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Elementary",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Elementary": "lib/Math/Libgsl/Elementary.rakumod",
+    "Math::Libgsl::Raw::Elementary": "lib/Math/Libgsl/Raw/Elementary.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Elementary-0.0.1.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "build-depends": [
     
   ],
@@ -36603,6 +36701,38 @@
     
   ],
   "version": "0.15.3"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku - Gnome native interface support, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::N",
+  "perl": "6",
+  "provides": {
+    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
+    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
+    "Gnome::N::X": "lib/Gnome/N/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-native-0.15.4.1.tar.gz",
+  "tags": [
+    "gnome"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.15.4.1"
 }
 ,
 {
