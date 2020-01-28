@@ -560,6 +560,36 @@
 }
 ,
 {
+  "auth": "github:atroxaper",
+  "authors": [
+    "Mikhail Khorkov"
+  ],
+  "depends": [
+    "LogP6"
+  ],
+  "description": "LogP6 writer for systemd's journald service.",
+  "license": "Artistic-2.0",
+  "name": "LogP6-Writer-Journald",
+  "perl": "6.d",
+  "provides": {
+    "LogP6::Writer::Journald": "lib/LogP6/Writer/Journald.pm6",
+    "LogP6::WriterConf::Journald": "lib/LogP6/WriterConf/Journald.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/LogP6-Writer-Journald-1.3.3.tar.gz",
+  "tags": [
+    "LOG",
+    "LOGGING",
+    "LOGGER",
+    "SYSTEMD",
+    "JOURNALD"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.3.3"
+}
+,
+{
   "api": "1",
   "auth": "github:atroxaper",
   "authors": [
