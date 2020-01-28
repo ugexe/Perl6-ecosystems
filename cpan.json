@@ -27074,6 +27074,46 @@
     
   ],
   "depends": [
+    "NativeHelpers::Array"
+  ],
+  "description": "Get audio fingerprint using the chromaprint / AcoustID library",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Audio::Fingerprint::Chromaprint",
+  "perl": "6.*",
+  "provides": {
+    "Audio::Fingerprint::Chromaprint": "lib/Audio/Fingerprint/Chromaprint.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Fingerprint-Chromaprint-0.0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint/issues",
+    "source": "git://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git"
+  },
+  "tags": [
+    "audio",
+    "fingerprint",
+    "acoustid",
+    "noise-gang"
+  ],
+  "test-depends": [
+    "Audio::Sndfile"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "XML::Class"
   ],
   "description": "Work with Hydrogen songs and drumkits",
