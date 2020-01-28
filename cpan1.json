@@ -62405,6 +62405,52 @@
     "Pod::To::Markdown"
   ],
   "depends": [
+    
+  ],
+  "description": "IPv4/IPv6 manipulation",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "IP::Addr",
+  "perl": "6.*",
+  "production": true,
+  "provides": {
+    "IP::Addr": "lib/IP/Addr.pm6",
+    "IP::Addr::Common": "lib/IP/Addr/Common.pm6",
+    "IP::Addr::Handler": "lib/IP/Addr/Handler.pm6",
+    "IP::Addr::v4": "lib/IP/Addr/v4.pm6",
+    "IP::Addr::v6": "lib/IP/Addr/v6.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/IP-Addr-v0.0.3.tar.gz",
+  "support": {
+    "source": "https://github.com/vrurg/raku-IP-Addr.git"
+  },
+  "tags": [
+    "IP",
+    "IPv4",
+    "IPv6"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "github:vrurg",
+  "authors": [
+    "Vadim Belman <vrurg@cpan.org>"
+  ],
+  "build-depends": [
+    "META6",
+    "p6doc",
+    "Pod::To::Markdown"
+  ],
+  "depends": [
     "WhereList",
     "File::Find"
   ],
