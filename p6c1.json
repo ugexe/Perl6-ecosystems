@@ -3403,47 +3403,6 @@
 }
 ,
 {
-  "auth": "github:retupmoca",
-  "authors": [
-    "github:retupmoca"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Email::Simple",
-    "MIME::QuotedPrint",
-    "MIME::Base64"
-  ],
-  "description": "Simple MIME email parsing module",
-  "license": "CC0-1.0",
-  "meta-version": "0",
-  "name": "Email::MIME",
-  "perl": "6.*",
-  "provides": {
-    "Email::MIME": "lib/Email/MIME.pm6",
-    "Email::MIME::Encoder::Base64": "lib/Email/MIME/Encoder/Base64.pm6",
-    "Email::MIME::Exceptions": "lib/Email/MIME/Exceptions.pm6",
-    "Email::MIME::Header": "lib/Email/MIME/Header.pm6",
-    "Email::MIME::ParseContentType": "lib/Email/MIME/ParseContentType.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/retupmoca/p6-Email-MIME.git",
-  "support": {
-    "source": null
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "2.0.1"
-}
-,
-{
   "author": "github:retupmoca",
   "depends": [
     
@@ -3541,56 +3500,6 @@
   },
   "source-url": "git://github.com/retupmoca/P6-Find-Bundled.git",
   "version": "1.0.0"
-}
-,
-{
-  "auth": "github:retupmoca",
-  "authors": [
-    "github:retupmoca"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Simple DNS Resolver",
-  "license": null,
-  "meta-version": "0",
-  "name": "Net::DNS",
-  "perl": "6.*",
-  "provides": {
-    "Net::DNS": "lib/Net/DNS.pm6",
-    "Net::DNS::Message": "lib/Net/DNS/Message.pm6",
-    "Net::DNS::Message::DomainName": "lib/Net/DNS/Message/DomainName.pm6",
-    "Net::DNS::Message::Header": "lib/Net/DNS/Message/Header.pm6",
-    "Net::DNS::Message::Question": "lib/Net/DNS/Message/Question.pm6",
-    "Net::DNS::Message::Resource": "lib/Net/DNS/Message/Resource.pm6",
-    "Net::DNS::Message::Resource::A": "lib/Net/DNS/Message/Resource/A.pm6",
-    "Net::DNS::Message::Resource::AAAA": "lib/Net/DNS/Message/Resource/AAAA.pm6",
-    "Net::DNS::Message::Resource::CNAME": "lib/Net/DNS/Message/Resource/CNAME.pm6",
-    "Net::DNS::Message::Resource::MX": "lib/Net/DNS/Message/Resource/MX.pm6",
-    "Net::DNS::Message::Resource::NS": "lib/Net/DNS/Message/Resource/NS.pm6",
-    "Net::DNS::Message::Resource::PTR": "lib/Net/DNS/Message/Resource/PTR.pm6",
-    "Net::DNS::Message::Resource::SOA": "lib/Net/DNS/Message/Resource/SOA.pm6",
-    "Net::DNS::Message::Resource::SPF": "lib/Net/DNS/Message/Resource/SPF.pm6",
-    "Net::DNS::Message::Resource::SRV": "lib/Net/DNS/Message/Resource/SRV.pm6",
-    "Net::DNS::Message::Resource::TXT": "lib/Net/DNS/Message/Resource/TXT.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/retupmoca/P6-Net-DNS.git",
-  "support": {
-    "source": null
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "1.1.1"
 }
 ,
 {
@@ -4125,37 +4034,6 @@
     "Test"
   ],
   "version": "0.1.2"
-}
-,
-{
-  "authors": [
-    "Jonathan Scott Duff <duff@pobox.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "File::Directory::Tree"
-  ],
-  "description": "Create temporary files & directories",
-  "license": "Artistic-2.0",
-  "name": "File::Temp",
-  "perl": "6.*",
-  "provides": {
-    "File::Temp": "lib/File/Temp.pm"
-  },
-  "repo-type": "git",
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/perlpilot/p6-File-Temp.git",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.6"
 }
 ,
 {
