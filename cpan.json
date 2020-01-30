@@ -27096,46 +27096,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-zeromq-0.7.6.tar.gz",
-  "tags": [
-    "ZeroMQ"
-  ],
-  "version": "0.7.6"
-}
-,
-{
-  "authors": [
-    "Jonathan Worthington <jnthn@jnthn.net>"
-  ],
-  "depends": [
-    "Net::ZMQ",
-    "Cro::Core",
-    "Cro"
-  ],
-  "description": "Support for building ZeroMQ services with Cro.",
-  "license": "Artistic-2.0",
-  "name": "Cro::ZeroMQ",
-  "perl": "6.*",
-  "provides": {
-    "Cro::ZeroMQ::Client": "lib/Cro/ZeroMQ/Client.pm6",
-    "Cro::ZeroMQ::Collector": "lib/Cro/ZeroMQ/Collector.pm6",
-    "Cro::ZeroMQ::Component": "lib/Cro/ZeroMQ/Component.pm6",
-    "Cro::ZeroMQ::Distributor": "lib/Cro/ZeroMQ/Distributor.pm6",
-    "Cro::ZeroMQ::Internal": "lib/Cro/ZeroMQ/Internal.pm6",
-    "Cro::ZeroMQ::Message": "lib/Cro/ZeroMQ/Message.pm6",
-    "Cro::ZeroMQ::Service": "lib/Cro/ZeroMQ/Service.pm6",
-    "Cro::ZeroMQ::Socket::Dealer": "lib/Cro/ZeroMQ/Socket/Dealer.pm6",
-    "Cro::ZeroMQ::Socket::Pub": "lib/Cro/ZeroMQ/Socket/Pub.pm6",
-    "Cro::ZeroMQ::Socket::Pull": "lib/Cro/ZeroMQ/Socket/Pull.pm6",
-    "Cro::ZeroMQ::Socket::Push": "lib/Cro/ZeroMQ/Socket/Push.pm6",
-    "Cro::ZeroMQ::Socket::Rep": "lib/Cro/ZeroMQ/Socket/Rep.pm6",
-    "Cro::ZeroMQ::Socket::Req": "lib/Cro/ZeroMQ/Socket/Req.pm6",
-    "Cro::ZeroMQ::Socket::Router": "lib/Cro/ZeroMQ/Socket/Router.pm6",
-    "Cro::ZeroMQ::Socket::Sub": "lib/Cro/ZeroMQ/Socket/Sub.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-zeromq-0.8.0.tar.gz",
   "tags": [
     "ZeroMQ"
@@ -32817,6 +32777,50 @@
     
   ],
   "version": "0.3.0"
+}
+,
+{
+  "api": "1",
+  "auth": "github:Kaiepi",
+  "authors": [
+    "Ben Davies"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Kind"
+  ],
+  "description": "Automagic tracing",
+  "license": "Artistic-2.0",
+  "name": "Trait::Traced",
+  "perl": "6.d",
+  "provides": {
+    "MetamodelX::Traced::AdHocMethod": "lib/MetamodelX/Traced/AdHocMethod.pm6",
+    "MetamodelX::Traced::MetaMethodContainer": "lib/MetamodelX/Traced/MetaMethodContainer.pm6",
+    "MetamodelX::Traced::MethodContainer": "lib/MetamodelX/Traced/MethodContainer.pm6",
+    "MetamodelX::Traced::MultiMethodContainer": "lib/MetamodelX/Traced/MultiMethodContainer.pm6",
+    "MetamodelX::Traced::PrivateMethodContainer": "lib/MetamodelX/Traced/PrivateMethodContainer.pm6",
+    "Traced": "lib/Traced.pm6",
+    "Traced::Routine": "lib/Traced/Routine.pm6",
+    "Traced::Stash": "lib/Traced/Stash.pm6",
+    "Tracer": "lib/Tracer.pm6",
+    "Tracer::Default": "lib/Tracer/Default.pm6",
+    "Trait::Traced": "lib/Trait/Traced.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Trait-Traced-0.3.1.tar.gz",
+  "tags": [
+    "trace",
+    "traced",
+    "metamodel"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.1"
 }
 ,
 {
