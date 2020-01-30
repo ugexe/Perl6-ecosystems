@@ -27096,6 +27096,46 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-zeromq-0.7.6.tar.gz",
+  "tags": [
+    "ZeroMQ"
+  ],
+  "version": "0.7.6"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "Net::ZMQ",
+    "Cro::Core",
+    "Cro"
+  ],
+  "description": "Support for building ZeroMQ services with Cro.",
+  "license": "Artistic-2.0",
+  "name": "Cro::ZeroMQ",
+  "perl": "6.*",
+  "provides": {
+    "Cro::ZeroMQ::Client": "lib/Cro/ZeroMQ/Client.pm6",
+    "Cro::ZeroMQ::Collector": "lib/Cro/ZeroMQ/Collector.pm6",
+    "Cro::ZeroMQ::Component": "lib/Cro/ZeroMQ/Component.pm6",
+    "Cro::ZeroMQ::Distributor": "lib/Cro/ZeroMQ/Distributor.pm6",
+    "Cro::ZeroMQ::Internal": "lib/Cro/ZeroMQ/Internal.pm6",
+    "Cro::ZeroMQ::Message": "lib/Cro/ZeroMQ/Message.pm6",
+    "Cro::ZeroMQ::Service": "lib/Cro/ZeroMQ/Service.pm6",
+    "Cro::ZeroMQ::Socket::Dealer": "lib/Cro/ZeroMQ/Socket/Dealer.pm6",
+    "Cro::ZeroMQ::Socket::Pub": "lib/Cro/ZeroMQ/Socket/Pub.pm6",
+    "Cro::ZeroMQ::Socket::Pull": "lib/Cro/ZeroMQ/Socket/Pull.pm6",
+    "Cro::ZeroMQ::Socket::Push": "lib/Cro/ZeroMQ/Socket/Push.pm6",
+    "Cro::ZeroMQ::Socket::Rep": "lib/Cro/ZeroMQ/Socket/Rep.pm6",
+    "Cro::ZeroMQ::Socket::Req": "lib/Cro/ZeroMQ/Socket/Req.pm6",
+    "Cro::ZeroMQ::Socket::Router": "lib/Cro/ZeroMQ/Socket/Router.pm6",
+    "Cro::ZeroMQ::Socket::Sub": "lib/Cro/ZeroMQ/Socket/Sub.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-zeromq-0.8.0.tar.gz",
   "tags": [
     "ZeroMQ"
