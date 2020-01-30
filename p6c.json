@@ -5904,21 +5904,6 @@
 }
 ,
 {
-  "authors": [
-    "Paweł bbkr Pabian"
-  ],
-  "description": "Generate superficially real-looking text.",
-  "license": "Artistic-2.0",
-  "name": "Text::Markov",
-  "perl": "6.c",
-  "provides": {
-    "Text::Markov": "lib/Text/Markov.pm"
-  },
-  "source-url": "git://github.com/bbkr/text_markov.git",
-  "version": "1.0.1"
-}
-,
-{
   "depends": [
     
   ],
@@ -8413,21 +8398,6 @@
     "JSON::Tiny"
   ],
   "version": "0.6.2"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "A Perl6 binding to libmarpa, the parser module",
-  "license": "Artistic-2.0",
-  "name": "Marpa",
-  "perl": "6.*",
-  "provides": {
-    "Marpa": "lib/Marpa.pm"
-  },
-  "source-url": "git://github.com/drforr/perl6-Marpa.git",
-  "version": "*"
 }
 ,
 {
@@ -12675,37 +12645,6 @@
     "LibraryCheck"
   ],
   "version": "0.0.3"
-}
-,
-{
-  "auth": "github:salortiz",
-  "authors": "Salvador Ortiz <sortiz@cpan.com>",
-  "depends": [
-    "DBIish",
-    "NativeHelpers::Blob"
-  ],
-  "description": "ODBC Database connectivity for Perl 6",
-  "license": "Artistic-2.0",
-  "name": "DBDish::ODBC",
-  "perl": "6",
-  "provides": {
-    "DBDish::ODBC": "lib/DBDish/ODBC.pm6",
-    "DBDish::ODBC::Connection": "lib/DBDish/ODBC/Connection.pm6",
-    "DBDish::ODBC::Native": "lib/DBDish/ODBC/Native.pm6",
-    "DBDish::ODBC::StatementHandle": "lib/DBDish/ODBC/StatementHandle.pm6"
-  },
-  "repo-type": "git",
-  "source-url": "git://github.com/salortiz/DBDish-ODBC.git",
-  "support": {
-    "email": "sog@msg.mx",
-    "source": "https://github.com/salortiz/DBDish-ODBC.git"
-  },
-  "tags": [
-    "DBIsh",
-    "DBDish",
-    "ODBC"
-  ],
-  "version": "0.0.8"
 }
 ,
 {
@@ -19368,7 +19307,7 @@
   ],
   "depends": [
     "PDF:ver<0.3.5+>",
-    "PDF::Class:ver<0.3.3+>",
+    "PDF::Class:ver<0.4.0+>",
     "PDF::Content:ver<0.3.1+>"
   ],
   "description": "Facilitates the creation and modification of PDF files",
@@ -21851,79 +21790,6 @@
     "Test::Output"
   ],
   "version": "0.4.0"
-}
-,
-{
-  "api": "*",
-  "auth": "github:ccworld1000, ccworld1000@gmail.com, 2291108617@qq.com",
-  "authors": [
-    "youhua deng (deng you hua | CC)"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "NativeCall"
-  ],
-  "description": "CCLog Simple and lightweight cross-platform logs, easy-to-use simple learning, and support for multiple languages, such as C, C++, Perl 6, shell, Objective-C, support ios, osx, watchos, tvos, pod .",
-  "license": "GPL-2.0",
-  "name": "CCLog",
-  "perl": "6.*",
-  "provides": {
-    "CCLog": "CCLog/lib/CCLog.pm6",
-    "CCLogFull": "CCLog/lib/CCLogFull.pm6"
-  },
-  "resources": [
-    "libCCLog.dylib",
-    "libCCLog.so"
-  ],
-  "source-url": "https://github.com/ccworld1000/CCLog.git",
-  "tags": [
-    "CCLog",
-    "CCLogFull",
-    "log",
-    "colorlog",
-    "debug",
-    "colordebug",
-    "C",
-    "C++",
-    "Perl 6",
-    "shell",
-    "Objective-C",
-    "NativeCall",
-    "ios",
-    "osx",
-    "watchos",
-    "tvos",
-    "pod",
-    "Raku",
-    "Perl 6",
-    "ccnormal",
-    "CCLog_normal",
-    "ccwarning",
-    "CCLog_warning",
-    "ccerror",
-    "CCLog_error",
-    "cctimer",
-    "CCLog_timer",
-    "ccloop",
-    "CCLog_loop",
-    "ccthread",
-    "CCLog_thread",
-    "ccprint",
-    "CCLog_print",
-    "ccsay",
-    "CCLog_say",
-    "ccdie",
-    "CCLog_die",
-    "ccnetwork",
-    "CCLog_network",
-    "cross-platform"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.6"
 }
 ,
 {
