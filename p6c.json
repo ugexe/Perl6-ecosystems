@@ -17987,17 +17987,19 @@
 }
 ,
 {
+  "auth": "github:niner",
   "authors": [
     "Stefan Seifert"
   ],
   "build-depends": [
-    
+    "System::Query"
   ],
   "depends": [
     "System::Query"
   ],
   "description": "Makefile based distribution builder",
   "license": "Artistic-2.0",
+  "meta-version": 0,
   "name": "Distribution::Builder::MakeFromJSON",
   "perl": "6.c",
   "provides": {
@@ -18013,7 +18015,7 @@
   "test-depends": [
     
   ],
-  "version": "0.5"
+  "version": "0.6"
 }
 ,
 {
