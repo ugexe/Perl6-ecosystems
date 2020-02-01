@@ -14075,39 +14075,6 @@
   "name": "Desktop::Notify::Progress",
   "perl": "6.c",
   "provides": {
-    "Desktop::Notify::Progress": "lib/Desktop/Notify/Progress.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-Progress-0.0.1.tar.gz",
-  "tags": [
-    "desktop",
-    "notification",
-    "logger"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Desktop::Notify"
-  ],
-  "description": "Show the progress of processing in a notification popup",
-  "license": "Artistic-2.0",
-  "name": "Desktop::Notify::Progress",
-  "perl": "6.c",
-  "provides": {
     "Desktop::Notify::Progress": "lib/Desktop/Notify/Progress.rakumod"
   },
   "resources": [
