@@ -14285,49 +14285,6 @@
     
   ],
   "depends": [
-    "LibraryMake"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::Constants": "lib/Math/Libgsl/Constants.rakumod",
-    "Math::Libgsl::Elementary": "lib/Math/Libgsl/Elementary.rakumod",
-    "Math::Libgsl::Exception": "lib/Math/Libgsl/Exception.rakumod",
-    "Math::Libgsl::Function": "lib/Math/Libgsl/Function.rakumod",
-    "Math::Libgsl::Permutation": "lib/Math/Libgsl/Permutation.rakumod",
-    "Math::Libgsl::Polynomial": "lib/Math/Libgsl/Polynomial.rakumod",
-    "Math::Libgsl::Raw::Complex": "lib/Math/Libgsl/Raw/Complex.rakumod",
-    "Math::Libgsl::Raw::Elementary": "lib/Math/Libgsl/Raw/Elementary.rakumod",
-    "Math::Libgsl::Raw::Function": "lib/Math/Libgsl/Raw/Function.rakumod",
-    "Math::Libgsl::Raw::Matrix": "lib/Math/Libgsl/Raw/Matrix.rakumod",
-    "Math::Libgsl::Raw::Permutation": "lib/Math/Libgsl/Raw/Permutation.rakumod",
-    "Math::Libgsl::Raw::Polynomial": "lib/Math/Libgsl/Raw/Polynomial.rakumod"
-  },
-  "resources": [
-    "libraries/gslhelper"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-0.0.3.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "LibraryMake",
     "Math::Libgsl::Constants"
   ],
