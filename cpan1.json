@@ -20096,6 +20096,45 @@
 }
 ,
 {
+  "auth": "cpan:JFORGET",
+  "authors": [
+    "Jean Forget"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Date::Calendar::Strftime"
+  ],
+  "description": "conversions from / to the Coptic calendar and from / to the Ethiopic calendar",
+  "license": "Artistic-2.0",
+  "name": "Date::Calendar::CopticEthiopic",
+  "perl": "6.c",
+  "provides": {
+    "Date::Calendar::Coptic": "lib/Date/Calendar/Coptic.pm6",
+    "Date::Calendar::Coptic::Names": "lib/Date/Calendar/Coptic/Names.pm6",
+    "Date::Calendar::CopticEthiopic": "lib/Date/Calendar/CopticEthiopic.pm6",
+    "Date::Calendar::Ethiopic": "lib/Date/Calendar/Ethiopic.pm6",
+    "Date::Calendar::Ethiopic::Names": "lib/Date/Calendar/Ethiopic/Names.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-CopticEthiopic-0.0.2.tar.gz",
+  "support": {
+    "email": "JFORGET@cpan.org"
+  },
+  "tags": [
+    "date",
+    "calendar"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "auth": "github:JFORGET",
   "authors": [
     "Jean Forget"
@@ -57718,6 +57757,53 @@
 }
 ,
 {
+  "api": "0",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "Config",
+    "Config::Parser::toml",
+    "Data::Dump",
+    "Grammar::TodoTxt",
+    "IO::Path::XDG",
+    "JSON::Fast"
+  ],
+  "description": "Nondescript",
+  "license": "AGPL-3.0",
+  "meta-version": 0,
+  "name": "App::GTD",
+  "perl": "6.d",
+  "provides": {
+    "App::GTD": "lib/App/GTD.pm6",
+    "App::GTD::Bin::Add": "lib/App/GTD/Bin/Add.pm6",
+    "App::GTD::Bin::Clean": "lib/App/GTD/Bin/Clean.pm6",
+    "App::GTD::Bin::Config": "lib/App/GTD/Bin/Config.pm6",
+    "App::GTD::Bin::Done": "lib/App/GTD/Bin/Done.pm6",
+    "App::GTD::Bin::Grep": "lib/App/GTD/Bin/Grep.pm6",
+    "App::GTD::Bin::ListInbox": "lib/App/GTD/Bin/ListInbox.pm6",
+    "App::GTD::Bin::ListNext": "lib/App/GTD/Bin/ListNext.pm6",
+    "App::GTD::Bin::ListSomeday": "lib/App/GTD/Bin/ListSomeday.pm6",
+    "App::GTD::Bin::ToNext": "lib/App/GTD/Bin/ToNext.pm6",
+    "App::GTD::Bin::ToSomeday": "lib/App/GTD/Bin/ToSomeday.pm6",
+    "App::GTD::Bin::Trash": "lib/App/GTD/Bin/Trash.pm6",
+    "App::GTD::Config": "lib/App/GTD/Config.pm6",
+    "App::GTD::GrammarActions": "lib/App/GTD/GrammarActions.pm6",
+    "App::GTD::Record": "lib/App/GTD/Record.pm6",
+    "App::GTD::Types": "lib/App/GTD/Types.pm6",
+    "gtd": "bin/gtd"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-GTD-0.2.0.tar.gz",
+  "tags": [
+    
+  ],
+  "version": "0.2.0"
+}
+,
+{
   "auth": "github:scriptkitties",
   "authors": [
     "Patrick Spek <p.spek@tyil.work>"
@@ -57805,6 +57891,41 @@
   ],
   "test-depends": [
     "Test::META"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "api": "0",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "File::Temp",
+    "File::Which",
+    "JSON::Fast",
+    "Pod::To::Anything",
+    "String::Fold",
+    "Terminal::ANSIColor",
+    "Text::BorderedBlock"
+  ],
+  "description": "A program to read the main Pod6 document of Raku modules",
+  "license": "AGPL-3.0",
+  "meta-version": 0,
+  "name": "App::Rakuman",
+  "perl": "6.d",
+  "provides": {
+    "App::Rakuman": "lib/App/Rakuman.pm6",
+    "App::Rakuman::Bin": "lib/App/Rakuman/Bin.pm6",
+    "Pod::To::Rakuman": "lib/Pod/To/Rakuman.pm6",
+    "rakuman": "bin/rakuman"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-Rakuman-0.1.0.tar.gz",
+  "tags": [
+    
   ],
   "version": "0.1.0"
 }
