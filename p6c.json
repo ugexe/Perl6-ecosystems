@@ -23742,4 +23742,29 @@
   ],
   "version": "0.1"
 }
+,
+{
+  "auth": "github:ALANVF",
+  "authors": [
+    "theangryepicbanana"
+  ],
+  "depends": [
+    "NativeHelpers::Blob"
+  ],
+  "description": "LLVM bindings for Raku that go beyond the C API",
+  "license": "BSD-2-Clause",
+  "name": "LLVM",
+  "perl": "6.d",
+  "provides": {
+    "LLVM": "lib/LLVM.pm6",
+    "LLVMC": "lib/LLVMC.pm6"
+  },
+  "source-url": "https://github.com/ALANVF/Raku-LLVM.git",
+  "tags": [
+    "llvm",
+    "clang",
+    "nativecall"
+  ],
+  "version": "0.1.0"
+}
 ]
