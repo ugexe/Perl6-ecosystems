@@ -22792,6 +22792,39 @@
     
   ],
   "depends": [
+    "Cro::HTTP::Client",
+    "Net::Netmask"
+  ],
+  "description": "Get IP address information about this host",
+  "license": "Artistic-2.0",
+  "name": "Sys::HostAddr",
+  "perl": "6.c",
+  "provides": {
+    "Sys::HostAddr": "lib/Sys/HostAddr.pm6",
+    "X::Sys::HostAddr::WebServiceError": "lib/X/Sys/HostAddr/WebServiceError.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/Sys-HostAddr-0.1.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.2"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "if",
     "NativeHelpers::Blob",
     "StrictClass"
@@ -57801,6 +57834,54 @@
     
   ],
   "version": "0.2.0"
+}
+,
+{
+  "api": "0",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "Config",
+    "Config::Parser::toml",
+    "Data::Dump",
+    "Grammar::TodoTxt",
+    "IO::Path::XDG",
+    "JSON::Fast",
+    "Terminal::ANSIColor"
+  ],
+  "description": "Nondescript",
+  "license": "AGPL-3.0",
+  "meta-version": 0,
+  "name": "App::GTD",
+  "perl": "6.d",
+  "provides": {
+    "App::GTD": "lib/App/GTD.pm6",
+    "App::GTD::Bin::Add": "lib/App/GTD/Bin/Add.pm6",
+    "App::GTD::Bin::Clean": "lib/App/GTD/Bin/Clean.pm6",
+    "App::GTD::Bin::Config": "lib/App/GTD/Bin/Config.pm6",
+    "App::GTD::Bin::Done": "lib/App/GTD/Bin/Done.pm6",
+    "App::GTD::Bin::Grep": "lib/App/GTD/Bin/Grep.pm6",
+    "App::GTD::Bin::ListInbox": "lib/App/GTD/Bin/ListInbox.pm6",
+    "App::GTD::Bin::ListNext": "lib/App/GTD/Bin/ListNext.pm6",
+    "App::GTD::Bin::ListSomeday": "lib/App/GTD/Bin/ListSomeday.pm6",
+    "App::GTD::Bin::ToNext": "lib/App/GTD/Bin/ToNext.pm6",
+    "App::GTD::Bin::ToSomeday": "lib/App/GTD/Bin/ToSomeday.pm6",
+    "App::GTD::Bin::Trash": "lib/App/GTD/Bin/Trash.pm6",
+    "App::GTD::Config": "lib/App/GTD/Config.pm6",
+    "App::GTD::GrammarActions": "lib/App/GTD/GrammarActions.pm6",
+    "App::GTD::Record": "lib/App/GTD/Record.pm6",
+    "App::GTD::Types": "lib/App/GTD/Types.pm6",
+    "gtd": "bin/gtd"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/App-GTD-0.2.1.tar.gz",
+  "tags": [
+    
+  ],
+  "version": "0.2.1"
 }
 ,
 {
