@@ -34323,6 +34323,43 @@
     
   ],
   "depends": [
+    "Term::termios"
+  ],
+  "description": "Choose items from a list interactively.",
+  "license": "Artistic-2.0",
+  "name": "Term::Choose",
+  "perl": "6.d",
+  "provides": {
+    "Term::Choose": "lib/Term/Choose.pm6",
+    "Term::Choose::LineFold": "lib/Term/Choose/LineFold.pm6",
+    "Term::Choose::LineFold::CharWidthAmbiguousWide": "lib/Term/Choose/LineFold/CharWidthAmbiguousWide.pm6",
+    "Term::Choose::LineFold::CharWidthDefault": "lib/Term/Choose/LineFold/CharWidthDefault.pm6",
+    "Term::Choose::ReadKey": "lib/Term/Choose/ReadKey.pm6",
+    "Term::Choose::Screen": "lib/Term/Choose/Screen.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-p6-1.6.2.tar.gz",
+  "tags": [
+    "cli",
+    "terminal",
+    "text"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.6.2"
+}
+,
+{
+  "authors": [
+    "kuerbis"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Term::termios",
     "Term::Choose:ver<1.5.7+>"
   ],
@@ -59184,6 +59221,35 @@
     "Test::META"
   ],
   "version": "1.0.0"
+}
+,
+{
+  "api": "1",
+  "auth": "github:scriptkitties",
+  "authors": [
+    "Samantha McVey <samantham@posteo.net>",
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Module to add deep merge functionality to Hashes",
+  "license": "Artistic-2.0",
+  "name": "Hash::Merge",
+  "perl": "6.c",
+  "provides": {
+    "Hash::Merge": "lib/Hash/Merge.pm6",
+    "Hash::Merge::Augment": "lib/Hash/Merge/Augment.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Hash-Merge-1.0.1.tar.gz",
+  "tags": [
+    "hash",
+    "utils"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "1.0.1"
 }
 ,
 {
