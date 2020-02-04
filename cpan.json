@@ -24165,6 +24165,31 @@
 }
 ,
 {
+  "auth": "Jonathan Worthington <jonathan@edument.cz>",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP"
+  ],
+  "description": "Basic email sending via the SendGrid API.",
+  "license": "Artistic-2.0",
+  "name": "Email::SendGrid",
+  "perl": "6.*",
+  "provides": {
+    "Email::SendGrid": "lib/Email/SendGrid.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Email-SendGrid-0.1.tar.gz",
+  "test-depends": [
+    "Test::Mock"
+  ],
+  "version": "0.1"
+}
+,
+{
   "authors": [
     "Jonathan Worthington <jnthn@jnthn.net>"
   ],
