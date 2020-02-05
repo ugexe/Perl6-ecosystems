@@ -39847,6 +39847,47 @@
     
   ],
   "depends": [
+    "Config::Simple",
+    "Sparrow6"
+  ],
+  "description": "Perl6 Configuration Management Tool",
+  "license": "Artistic-2.0",
+  "name": "Sparrowdo",
+  "perl": "6.*",
+  "provides": {
+    "Sparrowdo": "lib/Sparrowdo.pm6",
+    "Sparrowdo::Bootstrap": "lib/Sparrowdo/Bootstrap.pm6",
+    "Sparrowdo::Docker": "lib/Sparrowdo/Docker.pm6",
+    "Sparrowdo::Localhost": "lib/Sparrowdo/Localhost.pm6",
+    "Sparrowdo::Ssh": "lib/Sparrowdo/Ssh.pm6",
+    "Sparrowdo::Utils": "lib/Sparrowdo/Utils.pm6"
+  },
+  "resources": [
+    "bootstrap.sh"
+  ],
+  "source-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-0.1.4.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/melezhik/sparrowdo/issues",
+    "source": "https://github.com/melezhik/sparrowdo.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.4"
+}
+,
+{
+  "authors": [
+    "Alexey Melezhik"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Sparrowdo"
   ],
   "description": "Create SSL certificate  and bind domain for Azure web application",
