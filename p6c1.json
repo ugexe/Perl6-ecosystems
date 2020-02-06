@@ -2506,6 +2506,39 @@
 }
 ,
 {
+  "authors": [
+    "thundergnat"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Read a stream of joystick events",
+  "license": "Artistic-2.0",
+  "name": "Linux-Joystick",
+  "perl": "6.c",
+  "provides": {
+    "Linux::Joystick": "lib/Linux/Joystick.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/Linux-Joystick.git",
+  "tags": [
+    "joystick",
+    "game controller",
+    "event stream"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "author": [
     "David Farrell",
     "Dmitry Yaskolko"
