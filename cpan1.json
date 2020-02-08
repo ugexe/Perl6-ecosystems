@@ -62099,6 +62099,42 @@
     
   ],
   "depends": [
+    "Text::Wrap"
+  ],
+  "description": "A simple Raku module to make it quick and easy to represent tabular data in visually appealing ASCII tables.",
+  "license": "MIT",
+  "name": "Pretty::Table",
+  "perl": "6.c",
+  "provides": {
+    "Pretty::Table": "lib/Pretty/Table.rakumod",
+    "Pretty::Table::Constrains": "lib/Pretty/Table/Constrains.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/U/UZ/UZLUISF/Perl6/Pretty-Table-0.0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://gitlab.com/uzluisf/raku-pretty-table/issues"
+  },
+  "tags": [
+    "table",
+    "data"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "gitlab:uzluisf",
+  "authors": [
+    "Luis F. Uceta"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Terminal::Table"
   ],
   "description": "A module that implements the Quine–McCluskey (QM) algorithm for simplifying Boolean functions",
