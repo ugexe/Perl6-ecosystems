@@ -5403,14 +5403,14 @@
   "name": "CSS::Grammar",
   "perl": "6c",
   "provides": {
-    "CSS::Grammar": "lib/CSS/Grammar.pm",
-    "CSS::Grammar::AST": "lib/CSS/Grammar/AST.pm",
-    "CSS::Grammar::Actions": "lib/CSS/Grammar/Actions.pm",
-    "CSS::Grammar::CSS1": "lib/CSS/Grammar/CSS1.pm",
-    "CSS::Grammar::CSS21": "lib/CSS/Grammar/CSS21.pm",
-    "CSS::Grammar::CSS3": "lib/CSS/Grammar/CSS3.pm",
-    "CSS::Grammar::Core": "lib/CSS/Grammar.pm",
-    "CSS::Grammar::Test": "lib/CSS/Grammar/Test.pm"
+    "CSS::Grammar": "lib/CSS/Grammar.rakumod",
+    "CSS::Grammar::AST": "lib/CSS/Grammar/AST.rakumod",
+    "CSS::Grammar::Actions": "lib/CSS/Grammar/Actions.rakumod",
+    "CSS::Grammar::CSS1": "lib/CSS/Grammar/CSS1.rakumod",
+    "CSS::Grammar::CSS21": "lib/CSS/Grammar/CSS21.rakumod",
+    "CSS::Grammar::CSS3": "lib/CSS/Grammar/CSS3.rakumod",
+    "CSS::Grammar::Core": "lib/CSS/Grammar.rakumod",
+    "CSS::Grammar::Test": "lib/CSS/Grammar/Test.rakumod"
   },
   "source-url": "git://github.com/p6-css/CSS-Grammar-p6.git",
   "version": "0.3.4"
@@ -15615,16 +15615,16 @@
   "name": "CSS::Properties",
   "perl": "6.*",
   "provides": {
-    "CSS::Box": "lib/CSS/Box.pm",
-    "CSS::PageBox": "lib/CSS/PageBox.pm",
-    "CSS::Properties": "lib/CSS/Properties.pm",
-    "CSS::Properties::Box": "lib/CSS/Properties/Box.pm",
-    "CSS::Properties::Edges": "lib/CSS/Properties/Edges.pm",
-    "CSS::Properties::Font": "lib/CSS/Properties/Font.pm",
-    "CSS::Properties::PageBox": "lib/CSS/Properties/PageBox.pm",
-    "CSS::Properties::Property": "lib/CSS/Properties/Property.pm",
-    "CSS::Properties::Units": "lib/CSS/Properties/Units.pm",
-    "CSS::Units": "lib/CSS/Units.pm"
+    "CSS::Box": "lib/CSS/Box.rakumod",
+    "CSS::PageBox": "lib/CSS/PageBox.rakumod",
+    "CSS::Properties": "lib/CSS/Properties.rakumod",
+    "CSS::Properties::Box": "lib/CSS/Properties/Box.rakumod",
+    "CSS::Properties::Edges": "lib/CSS/Properties/Edges.rakumod",
+    "CSS::Properties::Font": "lib/CSS/Properties/Font.rakumod",
+    "CSS::Properties::PageBox": "lib/CSS/Properties/PageBox.rakumod",
+    "CSS::Properties::Property": "lib/CSS/Properties/Property.rakumod",
+    "CSS::Properties::Units": "lib/CSS/Properties/Units.rakumod",
+    "CSS::Units": "lib/CSS/Units.rakumod"
   },
   "resources": [
     
@@ -15636,7 +15636,7 @@
   "test-depends": [
     
   ],
-  "version": "0.5.0"
+  "version": "0.5.1"
 }
 ,
 {
