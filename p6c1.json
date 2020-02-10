@@ -5431,52 +5431,52 @@
   "name": "CSS::Module",
   "perl": "6.c",
   "provides": {
-    "CSS::Module": "lib/CSS/Module.pm",
-    "CSS::Module::CSS1": "lib/CSS/Module/CSS1.pm",
-    "CSS::Module::CSS1::Actions": "lib/CSS/Module/CSS1/Actions.pm",
-    "CSS::Module::CSS1::Gen::Actions": "lib/CSS/Module/CSS1/Gen/Actions.pm",
-    "CSS::Module::CSS1::Gen::Grammar": "lib/CSS/Module/CSS1/Gen/Grammar.pm",
-    "CSS::Module::CSS1::Gen::Interface": "lib/CSS/Module/CSS1/Gen/Interface.pm",
-    "CSS::Module::CSS1::Metadata": "lib/CSS/Module/CSS1/Metadata.pm",
-    "CSS::Module::CSS21": "lib/CSS/Module/CSS21.pm",
-    "CSS::Module::CSS21::Actions": "lib/CSS/Module/CSS21/Actions.pm",
-    "CSS::Module::CSS21::Gen::Actions": "lib/CSS/Module/CSS21/Gen/Actions.pm",
-    "CSS::Module::CSS21::Gen::Grammar": "lib/CSS/Module/CSS21/Gen/Grammar.pm",
-    "CSS::Module::CSS21::Gen::Interface": "lib/CSS/Module/CSS21/Gen/Interface.pm",
-    "CSS::Module::CSS21::Metadata": "lib/CSS/Module/CSS21/Metadata.pm",
-    "CSS::Module::CSS3": "lib/CSS/Module/CSS3.pm",
-    "CSS::Module::CSS3::Actions": "lib/CSS/Module/CSS3/Actions.pm",
-    "CSS::Module::CSS3::Colors": "lib/CSS/Module/CSS3/Colors.pm",
-    "CSS::Module::CSS3::Colors::Actions": "lib/CSS/Module/CSS3/Colors.pm",
-    "CSS::Module::CSS3::Fonts": "lib/CSS/Module/CSS3/Fonts.pm",
-    "CSS::Module::CSS3::Fonts::Actions": "lib/CSS/Module/CSS3/Fonts/Actions.pm",
-    "CSS::Module::CSS3::Fonts::AtFontFace": "lib/CSS/Module/CSS3/Fonts/AtFontFace.pm",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Actions": "lib/CSS/Module/CSS3/Fonts/AtFontFace.pm",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Actions": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Actions.pm",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Grammar": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Grammar.pm",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Interface": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Interface.pm",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Metadata": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Metadata.pm",
-    "CSS::Module::CSS3::Fonts::Gen::Actions": "lib/CSS/Module/CSS3/Fonts/Gen/Actions.pm",
-    "CSS::Module::CSS3::Fonts::Gen::Grammar": "lib/CSS/Module/CSS3/Fonts/Gen/Grammar.pm",
-    "CSS::Module::CSS3::Fonts::Gen::Interface": "lib/CSS/Module/CSS3/Fonts/Gen/Interface.pm",
-    "CSS::Module::CSS3::Fonts::Variants": "lib/CSS/Module/CSS3/Fonts/Variants.pm",
-    "CSS::Module::CSS3::Fonts::Variants::Actions": "lib/CSS/Module/CSS3/Fonts/Variants.pm",
-    "CSS::Module::CSS3::MediaQueries": "lib/CSS/Module/CSS3/MediaQueries.pm",
-    "CSS::Module::CSS3::MediaQueries::Actions": "lib/CSS/Module/CSS3/MediaQueries.pm",
-    "CSS::Module::CSS3::Metadata": "lib/CSS/Module/CSS3/Metadata.pm",
-    "CSS::Module::CSS3::Namespaces": "lib/CSS/Module/CSS3/Namespaces.pm",
-    "CSS::Module::CSS3::Namespaces::Actions": "lib/CSS/Module/CSS3/Namespaces.pm",
-    "CSS::Module::CSS3::PagedMedia": "lib/CSS/Module/CSS3/PagedMedia.pm",
-    "CSS::Module::CSS3::PagedMedia::Actions": "lib/CSS/Module/CSS3/PagedMedia.pm",
-    "CSS::Module::CSS3::PagedMedia::Gen::Actions": "lib/CSS/Module/CSS3/PagedMedia/Gen/Actions.pm",
-    "CSS::Module::CSS3::PagedMedia::Gen::Grammar": "lib/CSS/Module/CSS3/PagedMedia/Gen/Grammar.pm",
-    "CSS::Module::CSS3::PagedMedia::Gen::Interface": "lib/CSS/Module/CSS3/PagedMedia/Gen/Interface.pm",
-    "CSS::Module::CSS3::_Base": "lib/CSS/Module/CSS3/_Base.pm",
-    "CSS::Module::CSS3::_Base::Actions": "lib/CSS/Module/CSS3/_Base/Actions.pm",
-    "CSS::Module::Property": "lib/CSS/Module/Property.pm"
+    "CSS::Module": "lib/CSS/Module.rakumod",
+    "CSS::Module::CSS1": "lib/CSS/Module/CSS1.rakumod",
+    "CSS::Module::CSS1::Actions": "lib/CSS/Module/CSS1/Actions.rakumod",
+    "CSS::Module::CSS1::Gen::Actions": "lib/CSS/Module/CSS1/Gen/Actions.rakumod",
+    "CSS::Module::CSS1::Gen::Grammar": "lib/CSS/Module/CSS1/Gen/Grammar.rakumod",
+    "CSS::Module::CSS1::Gen::Interface": "lib/CSS/Module/CSS1/Gen/Interface.rakumod",
+    "CSS::Module::CSS1::Metadata": "lib/CSS/Module/CSS1/Metadata.rakumod",
+    "CSS::Module::CSS21": "lib/CSS/Module/CSS21.rakumod",
+    "CSS::Module::CSS21::Actions": "lib/CSS/Module/CSS21/Actions.rakumod",
+    "CSS::Module::CSS21::Gen::Actions": "lib/CSS/Module/CSS21/Gen/Actions.rakumod",
+    "CSS::Module::CSS21::Gen::Grammar": "lib/CSS/Module/CSS21/Gen/Grammar.rakumod",
+    "CSS::Module::CSS21::Gen::Interface": "lib/CSS/Module/CSS21/Gen/Interface.rakumod",
+    "CSS::Module::CSS21::Metadata": "lib/CSS/Module/CSS21/Metadata.rakumod",
+    "CSS::Module::CSS3": "lib/CSS/Module/CSS3.rakumod",
+    "CSS::Module::CSS3::Actions": "lib/CSS/Module/CSS3/Actions.rakumod",
+    "CSS::Module::CSS3::Colors": "lib/CSS/Module/CSS3/Colors.rakumod",
+    "CSS::Module::CSS3::Colors::Actions": "lib/CSS/Module/CSS3/Colors.rakumod",
+    "CSS::Module::CSS3::Fonts": "lib/CSS/Module/CSS3/Fonts.rakumod",
+    "CSS::Module::CSS3::Fonts::Actions": "lib/CSS/Module/CSS3/Fonts/Actions.rakumod",
+    "CSS::Module::CSS3::Fonts::AtFontFace": "lib/CSS/Module/CSS3/Fonts/AtFontFace.rakumod",
+    "CSS::Module::CSS3::Fonts::AtFontFace::Actions": "lib/CSS/Module/CSS3/Fonts/AtFontFace.rakumod",
+    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Actions": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Actions.rakumod",
+    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Grammar": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Grammar.rakumod",
+    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Interface": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Interface.rakumod",
+    "CSS::Module::CSS3::Fonts::AtFontFace::Metadata": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Metadata.rakumod",
+    "CSS::Module::CSS3::Fonts::Gen::Actions": "lib/CSS/Module/CSS3/Fonts/Gen/Actions.rakumod",
+    "CSS::Module::CSS3::Fonts::Gen::Grammar": "lib/CSS/Module/CSS3/Fonts/Gen/Grammar.rakumod",
+    "CSS::Module::CSS3::Fonts::Gen::Interface": "lib/CSS/Module/CSS3/Fonts/Gen/Interface.rakumod",
+    "CSS::Module::CSS3::Fonts::Variants": "lib/CSS/Module/CSS3/Fonts/Variants.rakumod",
+    "CSS::Module::CSS3::Fonts::Variants::Actions": "lib/CSS/Module/CSS3/Fonts/Variants.rakumod",
+    "CSS::Module::CSS3::MediaQueries": "lib/CSS/Module/CSS3/MediaQueries.rakumod",
+    "CSS::Module::CSS3::MediaQueries::Actions": "lib/CSS/Module/CSS3/MediaQueries.rakumod",
+    "CSS::Module::CSS3::Metadata": "lib/CSS/Module/CSS3/Metadata.rakumod",
+    "CSS::Module::CSS3::Namespaces": "lib/CSS/Module/CSS3/Namespaces.rakumod",
+    "CSS::Module::CSS3::Namespaces::Actions": "lib/CSS/Module/CSS3/Namespaces.rakumod",
+    "CSS::Module::CSS3::PagedMedia": "lib/CSS/Module/CSS3/PagedMedia.rakumod",
+    "CSS::Module::CSS3::PagedMedia::Actions": "lib/CSS/Module/CSS3/PagedMedia.rakumod",
+    "CSS::Module::CSS3::PagedMedia::Gen::Actions": "lib/CSS/Module/CSS3/PagedMedia/Gen/Actions.rakumod",
+    "CSS::Module::CSS3::PagedMedia::Gen::Grammar": "lib/CSS/Module/CSS3/PagedMedia/Gen/Grammar.rakumod",
+    "CSS::Module::CSS3::PagedMedia::Gen::Interface": "lib/CSS/Module/CSS3/PagedMedia/Gen/Interface.rakumod",
+    "CSS::Module::CSS3::_Base": "lib/CSS/Module/CSS3/_Base.rakumod",
+    "CSS::Module::CSS3::_Base::Actions": "lib/CSS/Module/CSS3/_Base/Actions.rakumod",
+    "CSS::Module::Property": "lib/CSS/Module/Property.rakumod"
   },
   "source-url": "git://github.com/p6-css/CSS-Module-p6.git",
-  "version": "0.5.1"
+  "version": "0.5.2"
 }
 ,
 {
@@ -6538,14 +6538,14 @@
   "name": "CSS::Specification",
   "perl": "6.c",
   "provides": {
-    "CSS::Specification": "lib/CSS/Specification.pm",
-    "CSS::Specification::Actions": "lib/CSS/Specification/Actions.pm",
-    "CSS::Specification::Build": "lib/CSS/Specification/Build.pm",
-    "CSS::Specification::Terms": "lib/CSS/Specification/Terms.pm",
-    "CSS::Specification::Terms::Actions": "lib/CSS/Specification/Terms/Actions.pm"
+    "CSS::Specification": "lib/CSS/Specification.rakumod",
+    "CSS::Specification::Actions": "lib/CSS/Specification/Actions.rakumod",
+    "CSS::Specification::Build": "lib/CSS/Specification/Build.rakumod",
+    "CSS::Specification::Terms": "lib/CSS/Specification/Terms.rakumod",
+    "CSS::Specification::Terms::Actions": "lib/CSS/Specification/Terms/Actions.rakumod"
   },
   "source-url": "git://github.com/p6-css/CSS-Specification-p6.git",
-  "version": "0.4.5"
+  "version": "0.4.6"
 }
 ,
 {
@@ -7171,10 +7171,10 @@
   "name": "CSS::Writer",
   "perl": "6.*",
   "provides": {
-    "CSS::Writer": "lib/CSS/Writer.pm"
+    "CSS::Writer": "lib/CSS/Writer.rakumod"
   },
   "source-url": "git://github.com/p6-css/CSS-Writer-p6.git",
-  "version": "0.2.4"
+  "version": "0.2.5"
 }
 ,
 {
@@ -7305,11 +7305,11 @@
   "name": "CSS::Module::CSS3::Selectors",
   "perl": "6.*",
   "provides": {
-    "CSS::Module::CSS3::Selectors": "lib/CSS/Module/CSS3/Selectors.pm",
-    "CSS::Module::CSS3::Selectors::Actions": "lib/CSS/Module/CSS3/Selectors/Actions.pm"
+    "CSS::Module::CSS3::Selectors": "lib/CSS/Module/CSS3/Selectors.rakumod",
+    "CSS::Module::CSS3::Selectors::Actions": "lib/CSS/Module/CSS3/Selectors/Actions.rakumod"
   },
   "source-url": "git://github.com/p6-css/CSS-Module-CSS3-Selectors-p6.git",
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
 ,
 {
