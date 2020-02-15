@@ -32321,6 +32321,50 @@
   "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.com>"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Shell::Command"
+  ],
+  "depends": [
+    "System::Passwd:ver<0.05+>"
+  ],
+  "description": "Raku access to Lastlog information on Unix-like systems",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Sys::Lastlog",
+  "perl": "6.*",
+  "provides": {
+    "Sys::Lastlog": "lib/Sys/Lastlog.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/lastloghelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Sys-Lastlog-0.0.12.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Raku-Sys-Lastlog/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "irc": "irc://irc.freenode.net/#perl6",
+    "source": "git://github.com/jonathanstowe/Raku-Sys-Lastlog.git"
+  },
+  "tags": [
+    "unix",
+    "audit",
+    "lastlog"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.12"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
   "build-depends": [
