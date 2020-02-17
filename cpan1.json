@@ -14492,6 +14492,40 @@
     
   ],
   "depends": [
+    "LibraryMake",
+    "Math::Libgsl::Constants"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Combinations.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Combination",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Combination": "lib/Math/Libgsl/Combination.rakumod",
+    "Math::Libgsl::Raw::Combination": "lib/Math/Libgsl/Raw/Combination.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Combination-0.0.2.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "LibraryMake"
   ],
   "description": "An interface to libgsl, the Gnu Scientific Library - complex numbers.",
@@ -14506,6 +14540,39 @@
     "libraries/gslhelper"
   ],
   "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Complex-0.0.3.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibraryMake"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - complex numbers.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Complex",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Complex": "lib/Math/Libgsl/Complex.rakumod",
+    "Math::Libgsl::Raw::Complex": "lib/Math/Libgsl/Raw/Complex.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Complex-0.0.4.tar.gz",
   "tags": [
     "math",
     "nativecall"
@@ -14579,6 +14646,39 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - elementary functions.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Elementary",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Elementary": "lib/Math/Libgsl/Elementary.rakumod",
+    "Math::Libgsl::Raw::Elementary": "lib/Math/Libgsl/Raw/Elementary.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Elementary-0.0.2.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
@@ -14705,6 +14805,87 @@
   ],
   "depends": [
     "LibraryMake",
+    "Math::Libgsl::Complex",
+    "Math::Libgsl::Constants"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Vectors and Matrices.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Matrix",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Block": "lib/Math/Libgsl/Block.rakumod",
+    "Math::Libgsl::Block::Complex32": "lib/Math/Libgsl/Block/Complex32.rakumod",
+    "Math::Libgsl::Block::Complex64": "lib/Math/Libgsl/Block/Complex64.rakumod",
+    "Math::Libgsl::Block::Int16": "lib/Math/Libgsl/Block/Int16.rakumod",
+    "Math::Libgsl::Block::Int32": "lib/Math/Libgsl/Block/Int32.rakumod",
+    "Math::Libgsl::Block::Int64": "lib/Math/Libgsl/Block/Int64.rakumod",
+    "Math::Libgsl::Block::Int8": "lib/Math/Libgsl/Block/Int8.rakumod",
+    "Math::Libgsl::Block::Num32": "lib/Math/Libgsl/Block/Num32.rakumod",
+    "Math::Libgsl::Block::UInt16": "lib/Math/Libgsl/Block/UInt16.rakumod",
+    "Math::Libgsl::Block::UInt32": "lib/Math/Libgsl/Block/UInt32.rakumod",
+    "Math::Libgsl::Block::UInt64": "lib/Math/Libgsl/Block/UInt64.rakumod",
+    "Math::Libgsl::Block::UInt8": "lib/Math/Libgsl/Block/UInt8.rakumod",
+    "Math::Libgsl::Matrix": "lib/Math/Libgsl/Matrix.rakumod",
+    "Math::Libgsl::Matrix::Complex32": "lib/Math/Libgsl/Matrix/Complex32.rakumod",
+    "Math::Libgsl::Matrix::Complex64": "lib/Math/Libgsl/Matrix/Complex64.rakumod",
+    "Math::Libgsl::Matrix::Int16": "lib/Math/Libgsl/Matrix/Int16.rakumod",
+    "Math::Libgsl::Matrix::Int32": "lib/Math/Libgsl/Matrix/Int32.rakumod",
+    "Math::Libgsl::Matrix::Int64": "lib/Math/Libgsl/Matrix/Int64.rakumod",
+    "Math::Libgsl::Matrix::Int8": "lib/Math/Libgsl/Matrix/Int8.rakumod",
+    "Math::Libgsl::Matrix::Num32": "lib/Math/Libgsl/Matrix/Num32.rakumod",
+    "Math::Libgsl::Matrix::UInt16": "lib/Math/Libgsl/Matrix/UInt16.rakumod",
+    "Math::Libgsl::Matrix::UInt32": "lib/Math/Libgsl/Matrix/UInt32.rakumod",
+    "Math::Libgsl::Matrix::UInt64": "lib/Math/Libgsl/Matrix/UInt64.rakumod",
+    "Math::Libgsl::Matrix::UInt8": "lib/Math/Libgsl/Matrix/UInt8.rakumod",
+    "Math::Libgsl::Raw::Matrix": "lib/Math/Libgsl/Raw/Matrix.rakumod",
+    "Math::Libgsl::Raw::Matrix::Complex32": "lib/Math/Libgsl/Raw/Matrix/Complex32.rakumod",
+    "Math::Libgsl::Raw::Matrix::Complex64": "lib/Math/Libgsl/Raw/Matrix/Complex64.rakumod",
+    "Math::Libgsl::Raw::Matrix::Int16": "lib/Math/Libgsl/Raw/Matrix/Int16.rakumod",
+    "Math::Libgsl::Raw::Matrix::Int32": "lib/Math/Libgsl/Raw/Matrix/Int32.rakumod",
+    "Math::Libgsl::Raw::Matrix::Int64": "lib/Math/Libgsl/Raw/Matrix/Int64.rakumod",
+    "Math::Libgsl::Raw::Matrix::Int8": "lib/Math/Libgsl/Raw/Matrix/Int8.rakumod",
+    "Math::Libgsl::Raw::Matrix::Num32": "lib/Math/Libgsl/Raw/Matrix/Num32.rakumod",
+    "Math::Libgsl::Raw::Matrix::UInt16": "lib/Math/Libgsl/Raw/Matrix/UInt16.rakumod",
+    "Math::Libgsl::Raw::Matrix::UInt32": "lib/Math/Libgsl/Raw/Matrix/UInt32.rakumod",
+    "Math::Libgsl::Raw::Matrix::UInt64": "lib/Math/Libgsl/Raw/Matrix/UInt64.rakumod",
+    "Math::Libgsl::Raw::Matrix::UInt8": "lib/Math/Libgsl/Raw/Matrix/UInt8.rakumod",
+    "Math::Libgsl::Vector": "lib/Math/Libgsl/Vector.rakumod",
+    "Math::Libgsl::Vector::Complex32": "lib/Math/Libgsl/Vector/Complex32.rakumod",
+    "Math::Libgsl::Vector::Complex64": "lib/Math/Libgsl/Vector/Complex64.rakumod",
+    "Math::Libgsl::Vector::Int16": "lib/Math/Libgsl/Vector/Int16.rakumod",
+    "Math::Libgsl::Vector::Int32": "lib/Math/Libgsl/Vector/Int32.rakumod",
+    "Math::Libgsl::Vector::Int64": "lib/Math/Libgsl/Vector/Int64.rakumod",
+    "Math::Libgsl::Vector::Int8": "lib/Math/Libgsl/Vector/Int8.rakumod",
+    "Math::Libgsl::Vector::Num32": "lib/Math/Libgsl/Vector/Num32.rakumod",
+    "Math::Libgsl::Vector::UInt16": "lib/Math/Libgsl/Vector/UInt16.rakumod",
+    "Math::Libgsl::Vector::UInt32": "lib/Math/Libgsl/Vector/UInt32.rakumod",
+    "Math::Libgsl::Vector::UInt64": "lib/Math/Libgsl/Vector/UInt64.rakumod",
+    "Math::Libgsl::Vector::UInt8": "lib/Math/Libgsl/Vector/UInt8.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Matrix-0.0.7.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibraryMake",
     "Math::Libgsl::Constants"
   ],
   "description": "An interface to libgsl, the Gnu Scientific Library - Multisets.",
@@ -14719,6 +14900,40 @@
     "libraries/gslhelper"
   ],
   "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Multiset-0.0.1.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibraryMake",
+    "Math::Libgsl::Constants"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Multisets.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Multiset",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Multiset": "lib/Math/Libgsl/Multiset.rakumod",
+    "Math::Libgsl::Raw::Multiset": "lib/Math/Libgsl/Raw/Multiset.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Multiset-0.0.2.tar.gz",
   "tags": [
     "math",
     "nativecall"
@@ -14754,6 +14969,76 @@
     "libraries/gslhelper"
   ],
   "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Permutation-0.0.1.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibraryMake",
+    "Math::Libgsl::Constants",
+    "Math::Libgsl::Matrix"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Permutations.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Permutation",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Permutation": "lib/Math/Libgsl/Permutation.rakumod",
+    "Math::Libgsl::Raw::Permutation": "lib/Math/Libgsl/Raw/Permutation.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Permutation-0.0.2.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibraryMake",
+    "Math::Libgsl::Complex",
+    "Math::Libgsl::Constants"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Polynomials.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Polynomial",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Polynomial": "lib/Math/Libgsl/Polynomial.rakumod",
+    "Math::Libgsl::Raw::Polynomial": "lib/Math/Libgsl/Raw/Polynomial.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Polynomial-0.0.1.tar.gz",
   "tags": [
     "math",
     "nativecall"
@@ -14815,6 +15100,59 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Math::Libgsl::Constants",
+    "Math::Libgsl::Matrix",
+    "Math::Libgsl::Permutation"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Sort.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Sort",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Raw::Sort": "lib/Math/Libgsl/Raw/Sort.rakumod",
+    "Math::Libgsl::Raw::Sort::Int16": "lib/Math/Libgsl/Raw/Sort/Int16.rakumod",
+    "Math::Libgsl::Raw::Sort::Int32": "lib/Math/Libgsl/Raw/Sort/Int32.rakumod",
+    "Math::Libgsl::Raw::Sort::Int64": "lib/Math/Libgsl/Raw/Sort/Int64.rakumod",
+    "Math::Libgsl::Raw::Sort::Int8": "lib/Math/Libgsl/Raw/Sort/Int8.rakumod",
+    "Math::Libgsl::Raw::Sort::Num32": "lib/Math/Libgsl/Raw/Sort/Num32.rakumod",
+    "Math::Libgsl::Raw::Sort::UInt16": "lib/Math/Libgsl/Raw/Sort/UInt16.rakumod",
+    "Math::Libgsl::Raw::Sort::UInt32": "lib/Math/Libgsl/Raw/Sort/UInt32.rakumod",
+    "Math::Libgsl::Raw::Sort::UInt64": "lib/Math/Libgsl/Raw/Sort/UInt64.rakumod",
+    "Math::Libgsl::Raw::Sort::UInt8": "lib/Math/Libgsl/Raw/Sort/UInt8.rakumod",
+    "Math::Libgsl::Sort": "lib/Math/Libgsl/Sort.rakumod",
+    "Math::Libgsl::Sort::Int16": "lib/Math/Libgsl/Sort/Int16.rakumod",
+    "Math::Libgsl::Sort::Int32": "lib/Math/Libgsl/Sort/Int32.rakumod",
+    "Math::Libgsl::Sort::Int64": "lib/Math/Libgsl/Sort/Int64.rakumod",
+    "Math::Libgsl::Sort::Int8": "lib/Math/Libgsl/Sort/Int8.rakumod",
+    "Math::Libgsl::Sort::Num32": "lib/Math/Libgsl/Sort/Num32.rakumod",
+    "Math::Libgsl::Sort::UInt16": "lib/Math/Libgsl/Sort/UInt16.rakumod",
+    "Math::Libgsl::Sort::UInt32": "lib/Math/Libgsl/Sort/UInt32.rakumod",
+    "Math::Libgsl::Sort::UInt64": "lib/Math/Libgsl/Sort/UInt64.rakumod",
+    "Math::Libgsl::Sort::UInt8": "lib/Math/Libgsl/Sort/UInt8.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Sort-0.0.2.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
