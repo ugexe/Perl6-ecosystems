@@ -12370,6 +12370,37 @@
   "depends": [
     
   ],
+  "description": "provide fast print / say / put",
+  "license": "Artistic-2.0",
+  "name": "unprint",
+  "perl": "6.c",
+  "provides": {
+    "unprint": "lib/unprint.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/unprint-0.0.3.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Port of Perl 5's pragma to predeclare variables to Perl 6",
   "license": "Artistic-2.0",
   "name": "vars",
@@ -34605,6 +34636,37 @@
     "Development"
   ],
   "version": "0.4"
+}
+,
+{
+  "authors": [
+    "Konrad Bucheli <konrad.bucheli@gmx.ch>",
+    "Steve Mynott <steve.mynott@gmail.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Temp"
+  ],
+  "description": "Converts scripts into colour syntax HTML using vim. ",
+  "license": "Artistic-2.0",
+  "name": "Text::VimColour",
+  "perl": "6.c",
+  "provides": {
+    "Text::VimColour": "lib/Text/VimColour.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KB/KBUCHELI/Perl6/Text-VimColour-0.5.0.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.5.0"
 }
 ,
 {
