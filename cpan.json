@@ -14118,6 +14118,40 @@
 }
 ,
 {
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    "HTTP::UserAgent"
+  ],
+  "depends": [
+    "NativeCall"
+  ],
+  "description": "Raw interface to libarchive",
+  "license": "Artistic-2.0",
+  "name": "Archive::Libarchive::Raw",
+  "perl": "6.c",
+  "provides": {
+    "Archive::Libarchive::Constants": "lib/Archive/Libarchive/Constants.rakumod",
+    "Archive::Libarchive::Raw": "lib/Archive/Libarchive/Raw.rakumod"
+  },
+  "resources": [
+    "libarchive.dll"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-Raw-0.1.0.tar.gz",
+  "tags": [
+    "archive",
+    "libarchive",
+    "compression",
+    "nativecall"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.0"
+}
+,
+{
   "auth": "cpan:FRITH",
   "authors": [
     "Fernando Santagata"
