@@ -60173,6 +60173,27 @@
 {
   "api": "0",
   "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "depends": [
+    "HTTP::UserAgent",
+    "JSON::Fast",
+    "URL"
+  ],
+  "description": "A Raku library to interact with the MusicBrainz API",
+  "license": "AGPL-3.0",
+  "name": "HTTP::API::MusicBrainz",
+  "perl": "6.d",
+  "provides": {
+    "HTTP::API::MusicBrainz": "lib/HTTP/API/MusicBrainz.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/HTTP-API-MusicBrainz-0.0.1.tar.gz",
+  "version": "0.0.1"
+}
+,
+{
+  "api": "0",
+  "authors": [
     "Patrick Spek <p.spek@tyil.work>"
   ],
   "depends": [
