@@ -2335,37 +2335,6 @@
   "depends": [
     
   ],
-  "description": "Simple timer for callable code blocks",
-  "license": "Artistic-2.0",
-  "name": "Timer",
-  "perl": "6.c",
-  "provides": {
-    "Timer": "lib/Timer.pm6"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/thundergnat/Timer.git",
-  "tags": [
-    "Timer",
-    "Timing",
-    "Bench",
-    "Benchmark"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "Steve Schulze (thundergnat)"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
   "description": "Configurable stringification for Rational numbers",
   "license": "Artistic-2.0",
   "name": "Rat::Precise",
