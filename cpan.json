@@ -24127,6 +24127,43 @@
 }
 ,
 {
+  "auth": "cpan:JMERELO",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Creates a supply out of syslog entries",
+  "license": "Artistic-2.0",
+  "name": "Syslog::Parse",
+  "perl": "6.c",
+  "provides": {
+    "Syslog::Grammar": "lib/Syslog/Grammar.pm6",
+    "Syslog::Grammar::Actions": "lib/Syslog/Grammar/Actions.pm6",
+    "Syslog::Message::Action": "lib/Syslog/Message/Action.pm6",
+    "Syslog::Message::Grammar": "lib/Syslog/Message/Grammar.pm6",
+    "Syslog::Parse": "lib/Syslog/Parse.pm6",
+    "Syslog::Who::Action": "lib/Syslog/Who/Action.pm6",
+    "Syslog::Who::Grammar": "lib/Syslog/Who/Grammar.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Syslog-Parse-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "auth": "github:JJ",
   "authors": [
     "JJ Merelo"
