@@ -13889,6 +13889,34 @@
 ,
 {
   "authors": [
+    "Siavash Askari Nasr"
+  ],
+  "depends": [
+    "WebService::FootballData",
+    "Text::Table::Simple"
+  ],
+  "description": "Command line app for accessing football(soccer) data",
+  "name": "App::Football",
+  "perl": "6.c",
+  "provides": {
+    "App::Football": "lib/App/Football.pm6"
+  },
+  "source-url": "https://gitlab.com/CIAvash/App-Football.git",
+  "tags": [
+    "football",
+    "soccer",
+    "cli",
+    "command line"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::Output"
+  ],
+  "version": "0.1.5"
+}
+,
+{
+  "authors": [
     "Daniel Green"
   ],
   "depends": [
