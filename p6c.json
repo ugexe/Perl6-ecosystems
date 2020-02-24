@@ -20598,6 +20598,81 @@
 }
 ,
 {
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>",
+    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com"
+  ],
+  "description": "Module that provides support for ECMA262 regex notation",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "ECMA262Regex",
+  "perl": "6.c",
+  "provides": {
+    "ECMA262Regex": "lib/ECMA262Regex.pm6"
+  },
+  "source-url": "git://github.com/edumentab/p6-ecma262regex.git",
+  "support": {
+    "source": "git://github.com/edumentab/p6-ecma262regex.git"
+  },
+  "tags": [
+    "regex",
+    "regular expressions",
+    "javascript"
+  ],
+  "version": "1.1"
+}
+,
+{
+  "auth": "edument",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "JSON filtering",
+  "license": "Artistic-2.0",
+  "name": "JSON::Mask",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Mask": "lib/JSON/Mask.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/edumentab/JSONMask",
+  "test-depends": [
+    
+  ],
+  "version": "1.0"
+}
+,
+{
+  "auth": "edument",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "SQL in Raku",
+  "license": "Artistic-2.0",
+  "name": "Badger",
+  "perl": "6.*",
+  "provides": {
+    "Badger": "lib/Badger.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://github.com/edumentab/badger",
+  "test-depends": [
+    
+  ],
+  "version": "1.0"
+}
+,
+{
   "authors": "Altai-man <altay-man@mail.ru>",
   "depends": [
     
@@ -21829,31 +21904,6 @@
     "source": "git://github.com/tony-o/perl6-event-emitter-interprocess.git"
   },
   "version": "1.0.0"
-}
-,
-{
-  "authors": [
-    "Jonathan Worthington <jnthn@jnthn.net>",
-    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com"
-  ],
-  "description": "Module that provides support for ECMA262 regex notation",
-  "license": "Artistic-2.0",
-  "meta-version": "0",
-  "name": "ECMA262Regex",
-  "perl": "6.c",
-  "provides": {
-    "ECMA262Regex": "lib/ECMA262Regex.pm6"
-  },
-  "source-url": "git://github.com/edumentab/p6-ecma262regex.git",
-  "support": {
-    "source": "git://github.com/edumentab/p6-ecma262regex.git"
-  },
-  "tags": [
-    "regex",
-    "regular expressions",
-    "javascript"
-  ],
-  "version": "1.1"
 }
 ,
 {
