@@ -34976,37 +34976,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-Util-p6-1.3.1.tar.gz",
-  "tags": [
-    "cli",
-    "terminal"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.3.1"
-}
-,
-{
-  "authors": [
-    "kuerbis"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Term::Choose:ver<1.6.1+>"
-  ],
-  "description": "TUI-related functions for selecting directories, files, numbers and subsets of lists.",
-  "license": "Artistic-2.0",
-  "name": "Term::Choose::Util",
-  "perl": "6.d",
-  "provides": {
-    "Term::Choose::Util": "lib/Term/Choose/Util.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-Util-p6-1.3.2.tar.gz",
   "tags": [
     "cli",
@@ -49804,6 +49773,38 @@
 }
 ,
 {
+  "auth": "simon.proctor@gmail.com",
+  "authors": [
+    "Simon Proctor"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Encode and Decode lat/lon polygons using Google Maps string encoding.",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::GooglePolylineEncoding",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::GooglePolylineEncoding": "lib/Algorithm/GooglePolylineEncoding.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Algorithm-GooglePolylineEncoding-1.0.3.tar.gz",
+  "tags": [
+    "geo",
+    "google"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.3"
+}
+,
+{
   "authors": [
     "Simon Proctor"
   ],
@@ -50591,6 +50592,43 @@
 }
 ,
 {
+  "auth": "github:scimon",
+  "authors": [
+    "Simon Proctor"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "HTTP::Server::Async:ver<0.1.9+>",
+    "Test::Util::ServerPort",
+    "File::Temp",
+    "HTTP::UserAgent",
+    "YAMLish"
+  ],
+  "description": "Simple to use wrapper around HTTP::Server::Async designed for tests",
+  "license": "Artistic-2.0",
+  "name": "Test::HTTP::Server",
+  "perl": "6.c",
+  "provides": {
+    "Test::HTTP::Server": "lib/Test/HTTP/Server.rakumod",
+    "Test::HTTP::Server::Event": "lib/Test/HTTP/Server/Event.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Test-HTTP-Server-0.5.1.tar.gz",
+  "tags": [
+    "test"
+  ],
+  "test-depends": [
+    "File::Temp",
+    "HTTP::UserAgent"
+  ],
+  "version": "0.5.1"
+}
+,
+{
   "authors": [
     "Simon Proctor"
   ],
@@ -51171,6 +51209,41 @@
     
   ],
   "version": "1.0.1"
+}
+,
+{
+  "auth": "cpan:SCIMON",
+  "authors": [
+    "Simon Proctor"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Trait to set an attribute from an environment variable.",
+  "license": "Artistic-2.0",
+  "name": "Trait::Env",
+  "perl": "6.c",
+  "provides": {
+    "Trait::Env": "lib/Trait/Env.rakumod",
+    "Trait::Env::Attribute": "lib/Trait/Env/Attribute.rakumod",
+    "Trait::Env::Exceptions": "lib/Trait/Env/Exceptions.rakumod",
+    "Trait::Env::Shared": "lib/Trait/Env/Shared.rakumod",
+    "Trait::Env::Variable": "lib/Trait/Env/Variable.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Trait-Env-1.0.2.tar.gz",
+  "tags": [
+    "Trait"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.2"
 }
 ,
 {
