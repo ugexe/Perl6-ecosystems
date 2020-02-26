@@ -21822,7 +21822,8 @@
     "JSON::Fast:ver<0.9.18+>",
     "Terminal::Spinners",
     "Test::Output",
-    "Terminal::ANSIColor"
+    "Terminal::ANSIColor",
+    "File::Directory::Tree"
   ],
   "description": "An API for Raku documentation",
   "license": "Artistic-2.0",
@@ -21863,7 +21864,8 @@
     "perl6"
   ],
   "test-depends": [
-    "Test::META:ver<0.0.16+>"
+    "Test::META:ver<0.0.16+>",
+    "Temp::Path"
   ],
   "version": "1.2.5"
 }
