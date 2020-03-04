@@ -41919,6 +41919,56 @@
 }
 ,
 {
+  "auth": "github:melezhik",
+  "authors": [
+    "'Alexey Melezhik' <melezhik@gmail.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test::META",
+    "Sparrow6"
+  ],
+  "description": "Install RVM and Ruby",
+  "emulates": {
+    
+  },
+  "excludes": {
+    
+  },
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Sparrowdo::Rvm",
+  "perl": "6.c",
+  "production": false,
+  "provides": {
+    "Sparrow6::Rvm": "lib/Sparrow6/Rvm.pm6",
+    "Sparrowdo::Rvm": "lib/Sparrowdo/Rvm.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-Rvm-0.0.2.tar.gz",
+  "superseded-by": {
+    
+  },
+  "supersedes": {
+    
+  },
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "authors": [
     "Alexey Melezhik"
   ],
