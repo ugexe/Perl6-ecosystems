@@ -52298,41 +52298,6 @@
     
   ],
   "depends": [
-    
-  ],
-  "description": "Trait to set an attribute from an environment variable.",
-  "license": "Artistic-2.0",
-  "name": "Trait::Env",
-  "perl": "6.c",
-  "provides": {
-    "Trait::Env": "lib/Trait/Env.rakumod",
-    "Trait::Env::Attribute": "lib/Trait/Env/Attribute.rakumod",
-    "Trait::Env::Exceptions": "lib/Trait/Env/Exceptions.rakumod",
-    "Trait::Env::Shared": "lib/Trait/Env/Shared.rakumod",
-    "Trait::Env::Variable": "lib/Trait/Env/Variable.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Trait-Env-1.0.3.tar.gz",
-  "tags": [
-    "Trait"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "1.0.3"
-}
-,
-{
-  "auth": "cpan:SCIMON",
-  "authors": [
-    "Simon Proctor"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "JSON::Tiny"
   ],
   "description": "Trait to set an attribute from an environment variable.",
