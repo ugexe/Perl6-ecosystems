@@ -2220,7 +2220,8 @@
   "tags": [
     "Sort",
     "Comparitor",
-    "Number String"
+    "Number String",
+    "Order"
   ],
   "version": "0.2.2"
 }
@@ -2253,13 +2254,16 @@
   "authors": [
     "Steve Schulze (thundergnat)"
   ],
+  "build-depends": [
+    
+  ],
   "depends": [
     
   ],
   "description": "Calculate Levenshtein edit distance for strings. Perl 5 -> 6 port.",
   "license": "Artistic-2.0",
   "name": "Text::Levenshtein",
-  "perl": "6.*",
+  "perl": "6",
   "provides": {
     "Text::Levenshtein": "lib/Text/Levenshtein.pm6"
   },
@@ -2271,7 +2275,10 @@
     "Diff",
     "CPAN5"
   ],
-  "version": "0.2.2"
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.2.3"
 }
 ,
 {
@@ -2447,7 +2454,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
 ,
 {
@@ -21115,7 +21122,7 @@
     "ETHEREUM",
     "NET"
   ],
-  "version": "0.0.83"
+  "version": "0.0.84"
 }
 ,
 {
