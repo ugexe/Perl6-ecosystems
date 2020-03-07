@@ -2360,7 +2360,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
 ,
 {
@@ -2578,6 +2578,39 @@
   "tags": [
     "Text",
     "Center"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "Steve Schulze (thundergnat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Splice, but on strings rather than arrays",
+  "license": "Artistic-2.0",
+  "name": "String::Splice",
+  "perl": "6.c",
+  "provides": {
+    "String::Splice": "lib/String/Splice.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/String-Splice.git",
+  "tags": [
+    "String",
+    "Strings",
+    "Text wrangling"
   ],
   "test-depends": [
     
