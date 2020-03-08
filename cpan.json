@@ -29299,6 +29299,47 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    "LibraryCheck"
+  ],
+  "depends": [
+    "AccessorFacade"
+  ],
+  "description": "Binding for libshout - source streaming client library for icecast",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Audio::Libshout",
+  "perl": "6.*",
+  "provides": {
+    "Audio::Libshout": "lib/Audio/Libshout.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Libshout-0.0.12.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Audio-Libshout/issues",
+    "source": "https://github.com/jonathanstowe/Audio-Libshout.git"
+  },
+  "tags": [
+    "audio",
+    "streaming",
+    "utils"
+  ],
+  "test-depends": [
+    "Test",
+    "CheckSocket"
+  ],
+  "version": "0.0.12"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
