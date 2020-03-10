@@ -47435,34 +47435,6 @@
 }
 ,
 {
-  "auth": "github:markldevine",
-  "authors": [
-    "Mark Devine <mark@markdevine.com>"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Async::Command - Run external command(s) asynchronously",
-  "license": "GPL-3.0",
-  "meta-version": 0,
-  "name": "Async::Command",
-  "perl": "6.c",
-  "provides": {
-    "Async::Command": "lib/Async/Command.pm6",
-    "Async::Command::Multi": "lib/Async/Command/Multi.pm6",
-    "Async::Command::Result": "lib/Async/Command/Result.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/Async-Command-0.0.3.tar.gz",
-  "tags": [
-    "Async"
-  ],
-  "version": "0.0.3"
-}
-,
-{
   "api": "0.1.0",
   "auth": "github:markldevine",
   "authors": [
@@ -47516,35 +47488,6 @@
     "Async"
   ],
   "version": "0.1.1"
-}
-,
-{
-  "auth": "github:markldevine",
-  "authors": [
-    "Mark Devine <mark@markdevine.com>"
-  ],
-  "depends": [
-    "Base64::Native",
-    "Compress::Bzip2",
-    "Terminal::Readsecret"
-  ],
-  "description": "Keep Honest People Honest - String Obfuscation, Storage, & Retrieval",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "KHPH",
-  "perl": "6",
-  "provides": {
-    "KHPH": "lib/KHPH.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/KHPH-0.0.9.tar.gz",
-  "tags": [
-    "SECURITY",
-    "OBFUSCATE"
-  ],
-  "version": "0.0.9"
 }
 ,
 {
@@ -47603,34 +47546,6 @@
     "SECURITY"
   ],
   "version": "0.1.1"
-}
-,
-{
-  "auth": "github:markldevine",
-  "authors": [
-    "Mark Devine <mark@markdevine.com>"
-  ],
-  "depends": [
-    "JSON::Marshal",
-    "JSON::Unmarshal"
-  ],
-  "description": "Message handling to multiple destinations",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "MessageStream",
-  "perl": "6.d",
-  "provides": {
-    "MessageStream": "lib/MessageStream.pm6",
-    "MessageStream::Message": "lib/MessageStream/Message.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/M/ML/MLDEVINE/Perl6/MessageStream-0.0.2.tar.gz",
-  "tags": [
-    
-  ],
-  "version": "0.0.2"
 }
 ,
 {
