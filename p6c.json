@@ -19368,6 +19368,7 @@
     "PDF::Content::Tag::Elem": "lib/PDF/Content/Tag/Elem.rakumod",
     "PDF::Content::Tag::Mark": "lib/PDF/Content/Tag/Mark.rakumod",
     "PDF::Content::Tag::Object": "lib/PDF/Content/Tag/Object.rakumod",
+    "PDF::Content::Tag::Root": "lib/PDF/Content/Tag/Root.rakumod",
     "PDF::Content::Text::Block": "lib/PDF/Content/Text/Block.rakumod",
     "PDF::Content::Text::Line": "lib/PDF/Content/Text/Line.rakumod",
     "PDF::Content::Text::Style": "lib/PDF/Content/Text/Style.rakumod",
@@ -19421,7 +19422,7 @@
   "depends": [
     "PDF:ver<0.3.5+>",
     "PDF::Class:ver<0.4.0+>",
-    "PDF::Content:ver<0.3.1+>"
+    "PDF::Content:ver<0.4.3+>"
   ],
   "description": "Facilitates the creation and modification of PDF files",
   "license": "Artistic-2.0",
