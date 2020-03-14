@@ -18464,10 +18464,12 @@
 ,
 {
   "authors": [
-    "Zoffix Znet"
+    "Zoffix Znet",
+    "Elizabeth Mattijsen",
+    "JJ Merelo"
   ],
   "depends": [
-    "IO::CatHandle::AutoLines"
+    "IO::CatHandle::AutoLines:ver<1.001004+>"
   ],
   "description": "Get $*ARGFILES with line numbers via $*LN",
   "license": "Artistic-2.0",
@@ -18477,7 +18479,7 @@
     "LN": "lib/LN.pm6"
   },
   "support": {
-    "source": "https://github.com/zoffixznet/perl6-LN.git"
+    "source": "https://github.com/raku-community-modules/perl6-LN.git"
   },
   "tags": [
     "IO"
@@ -18487,7 +18489,7 @@
     "Temp::Path",
     "Test::META"
   ],
-  "version": "1.001001"
+  "version": "1.001002"
 }
 ,
 {
