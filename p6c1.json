@@ -19631,21 +19631,22 @@
     "Digest::HMAC",
     "Digest::SHA256::Native"
   ],
-  "description": "Perl 6 Kernel for Jupyter Notebooks",
+  "description": "Raku Kernel for Jupyter Notebooks",
   "license": "Artistic-2.0",
   "name": "Jupyter::Kernel",
   "perl": "6.*",
   "provides": {
-    "Jupyter::Kernel": "lib/Jupyter/Kernel.pm6",
-    "Jupyter::Kernel::Comm": "lib/Jupyter/Kernel/Comm.pm6",
-    "Jupyter::Kernel::Comms": "lib/Jupyter/Kernel/Comms.pm6",
-    "Jupyter::Kernel::Handler": "lib/Jupyter/Kernel/Handler.pm6",
-    "Jupyter::Kernel::History": "lib/Jupyter/Kernel/History.pm6",
-    "Jupyter::Kernel::Magics": "lib/Jupyter/Kernel/Magics.pm6",
-    "Jupyter::Kernel::Response": "lib/Jupyter/Kernel/Response.pm6",
-    "Jupyter::Kernel::Sandbox": "lib/Jupyter/Kernel/Sandbox.pm6",
-    "Jupyter::Kernel::Sandbox::Autocomplete": "lib/Jupyter/Kernel/Sandbox/Autocomplete.pm6",
-    "Jupyter::Kernel::Service": "lib/Jupyter/Kernel/Service.pm6"
+    "Jupyter::Kernel": "lib/Jupyter/Kernel.rakumod",
+    "Jupyter::Kernel::Comm": "lib/Jupyter/Kernel/Comm.rakumod",
+    "Jupyter::Kernel::Comms": "lib/Jupyter/Kernel/Comms.rakumod",
+    "Jupyter::Kernel::Handler": "lib/Jupyter/Kernel/Handler.rakumod",
+    "Jupyter::Kernel::History": "lib/Jupyter/Kernel/History.rakumod",
+    "Jupyter::Kernel::Magics": "lib/Jupyter/Kernel/Magics.rakumod",
+    "Jupyter::Kernel::Paths": "lib/Jupyter/Kernel/Paths.rakumod",
+    "Jupyter::Kernel::Response": "lib/Jupyter/Kernel/Response.rakumod",
+    "Jupyter::Kernel::Sandbox": "lib/Jupyter/Kernel/Sandbox.rakumod",
+    "Jupyter::Kernel::Sandbox::Autocomplete": "lib/Jupyter/Kernel/Sandbox/Autocomplete.rakumod",
+    "Jupyter::Kernel::Service": "lib/Jupyter/Kernel/Service.rakumod"
   },
   "resources": [
     "logo-32x32.png",
@@ -19658,7 +19659,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.12"
+  "version": "0.0.14"
 }
 ,
 {
