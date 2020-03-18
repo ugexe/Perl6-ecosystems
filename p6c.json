@@ -10664,21 +10664,6 @@
 }
 ,
 {
-  "depends": [
-    
-  ],
-  "description": "Simple Test::Class similar to Perl 5's",
-  "name": "Test::Class",
-  "perl": "6.*",
-  "provides": {
-    "Test::Class": "lib/Test/Class.pm6"
-  },
-  "repo-type": "git",
-  "source-url": "git://github.com/perlpilot/p6-Test-Class.git",
-  "version": "*"
-}
-,
-{
   "author": "Dave Rolsky <autarch@urth.org>",
   "description": "Walk a Pod tree and generate an event for each node",
   "license": "Artistic-2.0",
