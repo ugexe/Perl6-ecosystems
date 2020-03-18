@@ -32299,6 +32299,61 @@
   ],
   "depends": [
     "Lumberjack",
+    "HTTP::UserAgent",
+    "HTTP::Server::Tiny",
+    "Crust",
+    "WebSocket",
+    "JSON::Class",
+    "Template6"
+  ],
+  "description": "A web facility for the Lumberjack logging framework",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Lumberjack::Application",
+  "perl": "6.*",
+  "provides": {
+    "Lumberjack::Application": "lib/Lumberjack/Application.pm",
+    "Lumberjack::Application::Index": "lib/Lumberjack/Application/Index.pm",
+    "Lumberjack::Application::PSGI": "lib/Lumberjack/Application/PSGI.pm",
+    "Lumberjack::Application::WebSocket": "lib/Lumberjack/Application/WebSocket.pm",
+    "Lumberjack::Dispatcher::Proxy": "lib/Lumberjack/Dispatcher/Proxy.pm",
+    "Lumberjack::Dispatcher::Supply": "lib/Lumberjack/Dispatcher/Supply.pm",
+    "Lumberjack::Message::JSON": "lib/Lumberjack/Message/JSON.pm",
+    "Lumberjack::Template::Provider": "lib/Lumberjack/Template/Provider.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    "templates/index.tt"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-Application-0.0.8.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Lumberjack-Application/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Lumberjack-Application.git"
+  },
+  "tags": [
+    "logging",
+    "lumberjack",
+    "websocket",
+    "p6sgi"
+  ],
+  "test-depends": [
+    "Test::Util::ServerPort"
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Lumberjack",
     "Log::Syslog::Native"
   ],
   "description": "A Syslog dispatcher for the Lumberjack logger",
