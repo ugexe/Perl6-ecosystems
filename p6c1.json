@@ -13189,6 +13189,78 @@
 }
 ,
 {
+  "authors": [
+    "Steve Mynott <steve.mynott@gmail.com>"
+  ],
+  "depends": [
+    "007",
+    "Bailador",
+    "Base64",
+    "BioInfo",
+    "BioPerl6",
+    "CSS::Grammar",
+    "CSV::Parser",
+    "CompUnit::Util",
+    "Compress::Zlib",
+    "Crust",
+    "DBIish",
+    "DateTime::Format",
+    "Debugger::UI::CommandLine",
+    "Digest",
+    "Digest::HMAC",
+    "Digest::MD5",
+    "Email::Simple",
+    "File::Find",
+    "File::Temp",
+    "File::Which",
+    "Grammar::BNF",
+    "Grammar::Debugger",
+    "Grammar::Profiler::Simple",
+    "HTTP::Easy",
+    "HTTP::Status",
+    "HTTP::UserAgent",
+    "JSON::RPC",
+    "JSON::Tiny",
+    "LWP::Simple",
+    "LibraryMake",
+    "Linenoise",
+    "MIME::Base64",
+    "OpenSSL",
+    "P6TCI",
+    "PSGI",
+    "Pod::To::HTML",
+    "Pod::To::Markdown",
+    "SCGI",
+    "SVG",
+    "SVG::Plot",
+    "Shell::Command",
+    "Sparrowdo",
+    "Template6",
+    "Template::Mojo",
+    "Terminal::ANSIColor",
+    "Test::META",
+    "Test::Mock",
+    "URI",
+    "URI::Encode",
+    "UUID",
+    "XML",
+    "XML::Writer",
+    "YAMLish",
+    "p6doc",
+    "panda",
+    "Zef"
+  ],
+  "description": "Another meta-package for modules (with tests), fatter than Task::Star and more test orientated.",
+  "name": "Task::Galaxy",
+  "perl": "6.c",
+  "provides": {
+    
+  },
+  "source-url": "https://gitlab.com/stmuk/p6-task-galaxy.git",
+  "version": "0.1"
+}
+,
+{
   "author": "Emeric Fischer <fischer.emeric@gmail.com>",
   "authors": [
     "Emeric Fischer"
@@ -13808,6 +13880,89 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "authors": [
+    "Siavash Askari Nasr"
+  ],
+  "depends": [
+    "HTTP::UserAgent",
+    "JSON::Fast",
+    "URI"
+  ],
+  "description": "An interface to football-data.org API",
+  "name": "WebService::FootballData",
+  "perl": "6.c",
+  "provides": {
+    "WebService::FootballData": "lib/WebService/FootballData.pm6",
+    "WebService::FootballData::Facade::UserAgent": "lib/WebService/FootballData/Facade/UserAgent.pm6",
+    "WebService::FootballData::Fixtures::AllFixtures": "lib/WebService/FootballData/Fixtures/AllFixtures.pm6",
+    "WebService::FootballData::Fixtures::Fixture": "lib/WebService/FootballData/Fixtures/Fixture.pm6",
+    "WebService::FootballData::Fixtures::Fixture::Result": "lib/WebService/FootballData/Fixtures/Fixture/Result.pm6",
+    "WebService::FootballData::Fixtures::FixtureDetails": "lib/WebService/FootballData/Fixtures/FixtureDetails.pm6",
+    "WebService::FootballData::Fixtures::Head2Head": "lib/WebService/FootballData/Fixtures/Head2Head.pm6",
+    "WebService::FootballData::League": "lib/WebService/FootballData/League.pm6",
+    "WebService::FootballData::League::Table": "lib/WebService/FootballData/League/Table.pm6",
+    "WebService::FootballData::League::Table::Row": "lib/WebService/FootballData/League/Table/Row.pm6",
+    "WebService::FootballData::Request": "lib/WebService/FootballData/Request.pm6",
+    "WebService::FootballData::Role::CommonTableStats": "lib/WebService/FootballData/Role/CommonTableStats.pm6",
+    "WebService::FootballData::Role::Factory::MakeFixture": "lib/WebService/FootballData/Role/Factory/MakeFixture.pm6",
+    "WebService::FootballData::Role::Factory::MakeLeague": "lib/WebService/FootballData/Role/Factory/MakeLeague.pm6",
+    "WebService::FootballData::Role::Factory::MakePlayer": "lib/WebService/FootballData/Role/Factory/MakePlayer.pm6",
+    "WebService::FootballData::Role::Factory::MakeTable": "lib/WebService/FootballData/Role/Factory/MakeTable.pm6",
+    "WebService::FootballData::Role::Factory::MakeTeam": "lib/WebService/FootballData/Role/Factory/MakeTeam.pm6",
+    "WebService::FootballData::Role::Factory::MakeTeamSearchResult": "lib/WebService/FootballData/Role/Factory/MakeTeamSearchResult.pm6",
+    "WebService::FootballData::Role::HasFixtures": "lib/WebService/FootballData/Role/HasFixtures.pm6",
+    "WebService::FootballData::Role::HasRequest": "lib/WebService/FootballData/Role/HasRequest.pm6",
+    "WebService::FootballData::Role::ID": "lib/WebService/FootballData/Role/ID.pm6",
+    "WebService::FootballData::Role::Request": "lib/WebService/FootballData/Role/Request.pm6",
+    "WebService::FootballData::Role::UserAgent": "lib/WebService/FootballData/Role/UserAgent.pm6",
+    "WebService::FootballData::Team": "lib/WebService/FootballData/Team.pm6",
+    "WebService::FootballData::Team::Player": "lib/WebService/FootballData/Team/Player.pm6",
+    "WebService::FootballData::TeamSearchResult": "lib/WebService/FootballData/TeamSearchResult.pm6"
+  },
+  "source-url": "https://gitlab.com/CIAvash/WebService-FootballData.git",
+  "tags": [
+    "football",
+    "soccer",
+    "web service",
+    "football-data.org"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::Mock",
+    "JSON::Fast"
+  ],
+  "version": "0.1.4"
+}
+,
+{
+  "authors": [
+    "Siavash Askari Nasr"
+  ],
+  "depends": [
+    "WebService::FootballData",
+    "Text::Table::Simple"
+  ],
+  "description": "Command line app for accessing football(soccer) data",
+  "name": "App::Football",
+  "perl": "6.c",
+  "provides": {
+    "App::Football": "lib/App/Football.pm6"
+  },
+  "source-url": "https://gitlab.com/CIAvash/App-Football.git",
+  "tags": [
+    "football",
+    "soccer",
+    "cli",
+    "command line"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::Output"
+  ],
+  "version": "0.1.5"
 }
 ,
 {
