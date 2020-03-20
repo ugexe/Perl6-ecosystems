@@ -12427,11 +12427,11 @@
     
   ],
   "depends": [
-    "Numeric::Pack"
+    "Numeric::Pack:ver<0.3.0+>"
   ],
   "description": "Open Sound Control for Perl6",
   "license": "Artistic-2.0",
-  "name": "Net::OSC",
+  "name": "Net::Osc",
   "perl": "6.c",
   "provides": {
     "Net::OSC": "lib/Net/OSC.pm6",
@@ -12454,7 +12454,7 @@
   "test-depends": [
     
   ],
-  "version": "0.2.3"
+  "version": "0.2.4"
 }
 ,
 {
