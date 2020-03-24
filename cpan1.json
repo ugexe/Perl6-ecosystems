@@ -9762,6 +9762,38 @@
   "depends": [
     
   ],
+  "description": "Implement Perl's pack()/unpack() built-ins",
+  "license": "Artistic-2.0",
+  "name": "P5pack",
+  "perl": "6.c",
+  "provides": {
+    "P5pack": "lib/P5pack.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5pack-0.0.11.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.11"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's pack()/unpack() built-ins",
   "license": "Artistic-2.0",
   "name": "P5pack",
