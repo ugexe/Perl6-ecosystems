@@ -12151,6 +12151,37 @@
   "depends": [
     
   ],
+  "description": "provide a 'today' term",
+  "license": "Artistic-2.0",
+  "name": "Today",
+  "perl": "6.c",
+  "provides": {
+    "Today": "lib/Today.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Today-0.0.2.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "provide an immutable List value type",
   "license": "Artistic-2.0",
   "name": "Tuple",
@@ -67447,6 +67478,37 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "github:vrurg",
+  "authors": [
+    "Vadim Belman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "prioritized channel",
+  "license": "Artistic-2.0",
+  "name": "Concurrent::PChannel",
+  "perl": "6.c",
+  "provides": {
+    "Concurrent::PChannel": "lib/Concurrent/PChannel.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/Concurrent-PChannel-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
