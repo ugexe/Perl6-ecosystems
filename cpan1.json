@@ -12120,6 +12120,37 @@
   "depends": [
     
   ],
+  "description": "provide a 'today' term",
+  "license": "Artistic-2.0",
+  "name": "Today",
+  "perl": "6.c",
+  "provides": {
+    "Today": "lib/Today.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Today-0.0.1.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "provide an immutable List value type",
   "license": "Artistic-2.0",
   "name": "Tuple",
