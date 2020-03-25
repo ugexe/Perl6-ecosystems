@@ -15010,6 +15010,95 @@
   "authors": [
     "Fernando Santagata"
   ],
+  "build": {
+    "makefile-variables": {
+      "gslhelper": {
+        "resource": "libraries/gslhelper"
+      }
+    }
+  },
+  "build-depends": [
+    "Distribution::Builder::MakeFromJSON"
+  ],
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": [
+    "Distribution::Builder::MakeFromJSON",
+    "Math::Libgsl::Complex",
+    "Math::Libgsl::Constants"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Vectors and Matrices.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Matrix",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Block": "lib/Math/Libgsl/Block.rakumod",
+    "Math::Libgsl::Block::Complex32": "lib/Math/Libgsl/Block/Complex32.rakumod",
+    "Math::Libgsl::Block::Complex64": "lib/Math/Libgsl/Block/Complex64.rakumod",
+    "Math::Libgsl::Block::Int16": "lib/Math/Libgsl/Block/Int16.rakumod",
+    "Math::Libgsl::Block::Int32": "lib/Math/Libgsl/Block/Int32.rakumod",
+    "Math::Libgsl::Block::Int64": "lib/Math/Libgsl/Block/Int64.rakumod",
+    "Math::Libgsl::Block::Int8": "lib/Math/Libgsl/Block/Int8.rakumod",
+    "Math::Libgsl::Block::Num32": "lib/Math/Libgsl/Block/Num32.rakumod",
+    "Math::Libgsl::Block::UInt16": "lib/Math/Libgsl/Block/UInt16.rakumod",
+    "Math::Libgsl::Block::UInt32": "lib/Math/Libgsl/Block/UInt32.rakumod",
+    "Math::Libgsl::Block::UInt64": "lib/Math/Libgsl/Block/UInt64.rakumod",
+    "Math::Libgsl::Block::UInt8": "lib/Math/Libgsl/Block/UInt8.rakumod",
+    "Math::Libgsl::Matrix": "lib/Math/Libgsl/Matrix.rakumod",
+    "Math::Libgsl::Matrix::Complex32": "lib/Math/Libgsl/Matrix/Complex32.rakumod",
+    "Math::Libgsl::Matrix::Complex64": "lib/Math/Libgsl/Matrix/Complex64.rakumod",
+    "Math::Libgsl::Matrix::Int16": "lib/Math/Libgsl/Matrix/Int16.rakumod",
+    "Math::Libgsl::Matrix::Int32": "lib/Math/Libgsl/Matrix/Int32.rakumod",
+    "Math::Libgsl::Matrix::Int64": "lib/Math/Libgsl/Matrix/Int64.rakumod",
+    "Math::Libgsl::Matrix::Int8": "lib/Math/Libgsl/Matrix/Int8.rakumod",
+    "Math::Libgsl::Matrix::Num32": "lib/Math/Libgsl/Matrix/Num32.rakumod",
+    "Math::Libgsl::Matrix::UInt16": "lib/Math/Libgsl/Matrix/UInt16.rakumod",
+    "Math::Libgsl::Matrix::UInt32": "lib/Math/Libgsl/Matrix/UInt32.rakumod",
+    "Math::Libgsl::Matrix::UInt64": "lib/Math/Libgsl/Matrix/UInt64.rakumod",
+    "Math::Libgsl::Matrix::UInt8": "lib/Math/Libgsl/Matrix/UInt8.rakumod",
+    "Math::Libgsl::Raw::Matrix": "lib/Math/Libgsl/Raw/Matrix.rakumod",
+    "Math::Libgsl::Raw::Matrix::Complex32": "lib/Math/Libgsl/Raw/Matrix/Complex32.rakumod",
+    "Math::Libgsl::Raw::Matrix::Complex64": "lib/Math/Libgsl/Raw/Matrix/Complex64.rakumod",
+    "Math::Libgsl::Raw::Matrix::Int16": "lib/Math/Libgsl/Raw/Matrix/Int16.rakumod",
+    "Math::Libgsl::Raw::Matrix::Int32": "lib/Math/Libgsl/Raw/Matrix/Int32.rakumod",
+    "Math::Libgsl::Raw::Matrix::Int64": "lib/Math/Libgsl/Raw/Matrix/Int64.rakumod",
+    "Math::Libgsl::Raw::Matrix::Int8": "lib/Math/Libgsl/Raw/Matrix/Int8.rakumod",
+    "Math::Libgsl::Raw::Matrix::Num32": "lib/Math/Libgsl/Raw/Matrix/Num32.rakumod",
+    "Math::Libgsl::Raw::Matrix::UInt16": "lib/Math/Libgsl/Raw/Matrix/UInt16.rakumod",
+    "Math::Libgsl::Raw::Matrix::UInt32": "lib/Math/Libgsl/Raw/Matrix/UInt32.rakumod",
+    "Math::Libgsl::Raw::Matrix::UInt64": "lib/Math/Libgsl/Raw/Matrix/UInt64.rakumod",
+    "Math::Libgsl::Raw::Matrix::UInt8": "lib/Math/Libgsl/Raw/Matrix/UInt8.rakumod",
+    "Math::Libgsl::Vector": "lib/Math/Libgsl/Vector.rakumod",
+    "Math::Libgsl::Vector::Complex32": "lib/Math/Libgsl/Vector/Complex32.rakumod",
+    "Math::Libgsl::Vector::Complex64": "lib/Math/Libgsl/Vector/Complex64.rakumod",
+    "Math::Libgsl::Vector::Int16": "lib/Math/Libgsl/Vector/Int16.rakumod",
+    "Math::Libgsl::Vector::Int32": "lib/Math/Libgsl/Vector/Int32.rakumod",
+    "Math::Libgsl::Vector::Int64": "lib/Math/Libgsl/Vector/Int64.rakumod",
+    "Math::Libgsl::Vector::Int8": "lib/Math/Libgsl/Vector/Int8.rakumod",
+    "Math::Libgsl::Vector::Num32": "lib/Math/Libgsl/Vector/Num32.rakumod",
+    "Math::Libgsl::Vector::UInt16": "lib/Math/Libgsl/Vector/UInt16.rakumod",
+    "Math::Libgsl::Vector::UInt32": "lib/Math/Libgsl/Vector/UInt32.rakumod",
+    "Math::Libgsl::Vector::UInt64": "lib/Math/Libgsl/Vector/UInt64.rakumod",
+    "Math::Libgsl::Vector::UInt8": "lib/Math/Libgsl/Vector/UInt8.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Matrix-0.1.3.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.3"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
   "build-depends": [
     
   ],
