@@ -2619,6 +2619,36 @@
 }
 ,
 {
+  "authors": [
+    "Steve Schulze (thundergnat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Lingua::EN::Numbers"
+  ],
+  "description": "Convert Gregorian to Discordian dates",
+  "license": "Artistic-2.0",
+  "name": "Date::Discordian",
+  "perl": "6",
+  "provides": {
+    "Date::Discordian": "lib/Date/Discordian.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/date-discordian.git",
+  "tags": [
+    "Date",
+    "Discordian",
+    "Silly"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "author": [
     "David Farrell",
     "Dmitry Yaskolko"
