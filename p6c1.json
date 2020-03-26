@@ -8293,6 +8293,45 @@
 }
 ,
 {
+  "auth": null,
+  "authors": [
+    "Sterling Hanenkamp (hanenkamp@cpan.org)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Linenoise"
+  ],
+  "description": "A tool for routing paths",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Path::Router",
+  "perl": "6.c",
+  "provides": {
+    "Path::Router": "lib/Path/Router.pm6",
+    "Path::Router::Route": "lib/Path/Router/Route.pm6",
+    "Path::Router::Shell": "lib/Path/Router/Shell.pm6",
+    "Test::Path::Router": "lib/Test/Path/Router.pm6",
+    "X::Path::Router": "lib/X/Path/Router.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/zostay/p6-Path-Router.git",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.5.1"
+}
+,
+{
   "auth": "github:tony-o",
   "depends": [
     "HTTP::Server"
