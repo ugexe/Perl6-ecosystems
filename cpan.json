@@ -35151,6 +35151,47 @@
 }
 ,
 {
+  "auth": "github:Kaiepi",
+  "authors": [
+    "Ben Davies"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Record types!",
+  "license": "Artistic-2.0",
+  "name": "Data::Record",
+  "perl": "6.d",
+  "provides": {
+    "Data::Record": "lib/Data/Record.pm6",
+    "Data::Record::Exceptions": "lib/Data/Record/Exceptions.pm6",
+    "Data::Record::Instance": "lib/Data/Record/Instance.pm6",
+    "Data::Record::List": "lib/Data/Record/List.pm6",
+    "Data::Record::Map": "lib/Data/Record/Map.pm6",
+    "Data::Record::Operators": "lib/Data/Record/Operators.pm6",
+    "Data::Record::Tuple": "lib/Data/Record/Tuple.pm6",
+    "MetamodelX::RecordHOW": "lib/MetamodelX/RecordHOW.pm6",
+    "MetamodelX::RecordTemplateHOW": "lib/MetamodelX/RecordTemplateHOW.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Data-Record-0.0.6.tar.gz",
+  "tags": [
+    "data",
+    "type",
+    "record"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
   "authors": [
     "Ben Davies"
   ],
