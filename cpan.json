@@ -11042,6 +11042,38 @@
   "depends": [
     
   ],
+  "description": "Port of Perl's Scalar::Util 1.49",
+  "license": "Artistic-2.0",
+  "name": "Scalar::Util",
+  "perl": "6.c",
+  "provides": {
+    "Scalar::Util": "lib/Scalar/Util.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Scalar-Util-0.0.8.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Allow subscripts at the end of identifiers",
   "license": "Artistic-2.0",
   "name": "Slang::Subscripts",
@@ -21196,6 +21228,50 @@
     
   ],
   "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-Julian-0.0.1.tar.gz",
+  "support": {
+    "email": "JFORGET@cpan.org"
+  },
+  "tags": [
+    "date",
+    "calendar"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:JFORGET",
+  "authors": [
+    "Jean Forget"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Date::Calendar::Strftime"
+  ],
+  "description": "conversions from/to the Maya calendar and conversions to the Aztec calendar",
+  "license": "Artistic-2.0",
+  "name": "Date::Calendar::MayaAztec",
+  "perl": "6.c",
+  "provides": {
+    "Date::Calendar::Aztec": "lib/Date/Calendar/Aztec.pm6",
+    "Date::Calendar::Aztec::Common": "lib/Date/Calendar/Aztec/Common.pm6",
+    "Date::Calendar::Aztec::Cortes": "lib/Date/Calendar/Aztec/Cortes.pm6",
+    "Date::Calendar::Aztec::Names": "lib/Date/Calendar/Aztec/Names.pm6",
+    "Date::Calendar::Maya": "lib/Date/Calendar/Maya.pm6",
+    "Date::Calendar::Maya::Astronomical": "lib/Date/Calendar/Maya/Astronomical.pm6",
+    "Date::Calendar::Maya::Common": "lib/Date/Calendar/Maya/Common.pm6",
+    "Date::Calendar::Maya::Names": "lib/Date/Calendar/Maya/Names.pm6",
+    "Date::Calendar::Maya::Spinden": "lib/Date/Calendar/Maya/Spinden.pm6",
+    "Date::Calendar::MayaAztec": "lib/Date/Calendar/MayaAztec.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-MayaAztec-0.0.1.tar.gz",
   "support": {
     "email": "JFORGET@cpan.org"
   },
