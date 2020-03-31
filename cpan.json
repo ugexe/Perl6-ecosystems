@@ -65670,6 +65670,42 @@
   "depends": [
     
   ],
+  "description": "A Raku module for colorizing text using ANSI escape codes.",
+  "license": "Artistic License 2.0",
+  "name": "Colorizable",
+  "perl": "6.c",
+  "provides": {
+    "Colorizable": "lib/Colorizable.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/U/UZ/UZLUISF/Perl6/Colorizable-0.1.1.tar.gz",
+  "support": {
+    "bugtracker": "https://gitlab.com/uzluisf/raku-colorizable/issues"
+  },
+  "tags": [
+    "ANSI",
+    "color",
+    "string"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "auth": "gitlab:uzluisf",
+  "authors": [
+    "Luis F. Uceta"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "A Perl 6 Implementation of an Enigma Machine",
   "license": "MIT",
   "name": "ENIGMA::Machine",
