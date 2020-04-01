@@ -13909,61 +13909,6 @@
     "Siavash Askari Nasr"
   ],
   "depends": [
-    "HTTP::UserAgent",
-    "JSON::Fast",
-    "URI"
-  ],
-  "description": "An interface to football-data.org API",
-  "name": "WebService::FootballData",
-  "perl": "6.c",
-  "provides": {
-    "WebService::FootballData": "lib/WebService/FootballData.pm6",
-    "WebService::FootballData::Facade::UserAgent": "lib/WebService/FootballData/Facade/UserAgent.pm6",
-    "WebService::FootballData::Fixtures::AllFixtures": "lib/WebService/FootballData/Fixtures/AllFixtures.pm6",
-    "WebService::FootballData::Fixtures::Fixture": "lib/WebService/FootballData/Fixtures/Fixture.pm6",
-    "WebService::FootballData::Fixtures::Fixture::Result": "lib/WebService/FootballData/Fixtures/Fixture/Result.pm6",
-    "WebService::FootballData::Fixtures::FixtureDetails": "lib/WebService/FootballData/Fixtures/FixtureDetails.pm6",
-    "WebService::FootballData::Fixtures::Head2Head": "lib/WebService/FootballData/Fixtures/Head2Head.pm6",
-    "WebService::FootballData::League": "lib/WebService/FootballData/League.pm6",
-    "WebService::FootballData::League::Table": "lib/WebService/FootballData/League/Table.pm6",
-    "WebService::FootballData::League::Table::Row": "lib/WebService/FootballData/League/Table/Row.pm6",
-    "WebService::FootballData::Request": "lib/WebService/FootballData/Request.pm6",
-    "WebService::FootballData::Role::CommonTableStats": "lib/WebService/FootballData/Role/CommonTableStats.pm6",
-    "WebService::FootballData::Role::Factory::MakeFixture": "lib/WebService/FootballData/Role/Factory/MakeFixture.pm6",
-    "WebService::FootballData::Role::Factory::MakeLeague": "lib/WebService/FootballData/Role/Factory/MakeLeague.pm6",
-    "WebService::FootballData::Role::Factory::MakePlayer": "lib/WebService/FootballData/Role/Factory/MakePlayer.pm6",
-    "WebService::FootballData::Role::Factory::MakeTable": "lib/WebService/FootballData/Role/Factory/MakeTable.pm6",
-    "WebService::FootballData::Role::Factory::MakeTeam": "lib/WebService/FootballData/Role/Factory/MakeTeam.pm6",
-    "WebService::FootballData::Role::Factory::MakeTeamSearchResult": "lib/WebService/FootballData/Role/Factory/MakeTeamSearchResult.pm6",
-    "WebService::FootballData::Role::HasFixtures": "lib/WebService/FootballData/Role/HasFixtures.pm6",
-    "WebService::FootballData::Role::HasRequest": "lib/WebService/FootballData/Role/HasRequest.pm6",
-    "WebService::FootballData::Role::ID": "lib/WebService/FootballData/Role/ID.pm6",
-    "WebService::FootballData::Role::Request": "lib/WebService/FootballData/Role/Request.pm6",
-    "WebService::FootballData::Role::UserAgent": "lib/WebService/FootballData/Role/UserAgent.pm6",
-    "WebService::FootballData::Team": "lib/WebService/FootballData/Team.pm6",
-    "WebService::FootballData::Team::Player": "lib/WebService/FootballData/Team/Player.pm6",
-    "WebService::FootballData::TeamSearchResult": "lib/WebService/FootballData/TeamSearchResult.pm6"
-  },
-  "source-url": "https://gitlab.com/CIAvash/WebService-FootballData.git",
-  "tags": [
-    "football",
-    "soccer",
-    "web service",
-    "football-data.org"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::Mock",
-    "JSON::Fast"
-  ],
-  "version": "0.1.4"
-}
-,
-{
-  "authors": [
-    "Siavash Askari Nasr"
-  ],
-  "depends": [
     "WebService::FootballData",
     "Text::Table::Simple"
   ],
