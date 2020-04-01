@@ -12406,12 +12406,12 @@
   "depends": [
     
   ],
-  "description": "Perl 6 implementation of cowsay.",
+  "description": "Raku implementation of cowsay.",
   "license": "Artistic-2.0",
   "name": "Acme::Cow",
-  "perl": "6.c",
+  "perl": "6.d",
   "provides": {
-    "Acme::Cow": "lib/Acme/Cow.pm6",
+    "Acme::Cow": "lib/Acme/Cow.rakumod",
     "cow-say": "bin/cow-say"
   },
   "source-type": "git",
@@ -12420,7 +12420,7 @@
     "ACME",
     "FUN"
   ],
-  "version": "0.1"
+  "version": "0.2"
 }
 ,
 {
