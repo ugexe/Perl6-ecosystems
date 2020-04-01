@@ -50531,6 +50531,46 @@
 {
   "auth": null,
   "authors": [
+    "Rod Taylor <rbt@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "DBIish"
+  ],
+  "description": "Wrapper to enforce Database Transactions",
+  "license": "CC0-1.0",
+  "meta-version": 0,
+  "name": "DBIish::Transaction",
+  "perl": "6.d",
+  "provides": {
+    "DBIish::Savepoint": "lib/DBIish/Savepoint.pm6",
+    "DBIish::Transaction": "lib/DBIish/Transaction.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/R/RB/RBT/Perl6/DBIish-Transaction-1.0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/rbt/DBIish-Transaction/issues",
+    "email": "rbt@cpan.org",
+    "source": "https://github.com/rbt/DBIish-Transaction.git"
+  },
+  "tags": [
+    "database",
+    "mysql",
+    "postgres"
+  ],
+  "test-depends": [
+    "DBIish"
+  ],
+  "version": "1.0.2"
+}
+,
+{
+  "auth": null,
+  "authors": [
     "github:retupmoca"
   ],
   "build-depends": [
