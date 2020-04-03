@@ -5222,7 +5222,7 @@
   "test-depends": [
     
   ],
-  "version": "0.2.0"
+  "version": "0.2.1"
 }
 ,
 {
@@ -10360,7 +10360,7 @@
   ],
   "depends": [
     "Compress::Zlib",
-    "PDF::Grammar",
+    "PDF::Grammar:ver<0.2.1+>",
     "JSON::Fast",
     "OpenSSL"
   ],
