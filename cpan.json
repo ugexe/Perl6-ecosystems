@@ -5866,6 +5866,37 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "a DateTime that has intervals",
+  "license": "Artistic-2.0",
+  "name": "Interval",
+  "perl": "6.c",
+  "provides": {
+    "Interval": "lib/Interval.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Interval-0.0.1.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "List::Util",
     "List::MoreUtils",
     "List::UtilsBy"
