@@ -27122,45 +27122,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-core-0.8.1.tar.gz",
-  "version": "0.8.1"
-}
-,
-{
-  "authors": [
-    "Jonathan Worthington <jnthn@jnthn.net>"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Implements the asynchronous pipeline at the heart of all Cro libraries.",
-  "license": "Artistic-2.0",
-  "name": "Cro::Core",
-  "perl": "6.*",
-  "provides": {
-    "Cro": "lib/Cro.pm6",
-    "Cro::BodyParser": "lib/Cro/BodyParser.pm6",
-    "Cro::BodyParserSelector": "lib/Cro/BodyParserSelector.pm6",
-    "Cro::BodySerializer": "lib/Cro/BodySerializer.pm6",
-    "Cro::BodySerializerSelector": "lib/Cro/BodySerializerSelector.pm6",
-    "Cro::Connection": "lib/Cro/Connection.pm6",
-    "Cro::Connector": "lib/Cro/Connector.pm6",
-    "Cro::Iri": "lib/Cro/Iri.pm6",
-    "Cro::MediaType": "lib/Cro/MediaType.pm6",
-    "Cro::Message": "lib/Cro/Message.pm6",
-    "Cro::MessageWithBody": "lib/Cro/MessageWithBody.pm6",
-    "Cro::Replyable": "lib/Cro/Replyable.pm6",
-    "Cro::Service": "lib/Cro/Service.pm6",
-    "Cro::Sink": "lib/Cro/Sink.pm6",
-    "Cro::Source": "lib/Cro/Source.pm6",
-    "Cro::TCP": "lib/Cro/TCP.pm6",
-    "Cro::Transform": "lib/Cro/Transform.pm6",
-    "Cro::Types": "lib/Cro/Types.pm6",
-    "Cro::Uri": "lib/Cro/Uri.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-core-0.8.2.tar.gz",
   "version": "0.8.2"
 }
@@ -36240,37 +36201,6 @@
     
   ],
   "version": "2.1.0"
-}
-,
-{
-  "authors": [
-    "kuerbis"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Term::Choose:ver<1.6.1+>"
-  ],
-  "description": "TUI-related functions for selecting directories, files, numbers and subsets of lists.",
-  "license": "Artistic-2.0",
-  "name": "Term::Choose::Util",
-  "perl": "6.d",
-  "provides": {
-    "Term::Choose::Util": "lib/Term/Choose/Util.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-Util-p6-1.3.2.tar.gz",
-  "tags": [
-    "cli",
-    "terminal"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.3.2"
 }
 ,
 {
