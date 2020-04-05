@@ -23898,4 +23898,26 @@
   ],
   "version": "0.3.0"
 }
+,
+{
+  "api": "1",
+  "auth": "github:tinmarino",
+  "authors": [
+    "Tinmarino"
+  ],
+  "description": "Si - No - Si - gil, Raku slang permitting scalars with or without sigils",
+  "license": "Artistic-2.0",
+  "name": "Slang::Nogil",
+  "perl": "6.*",
+  "provides": {
+    "Slang::Nogil": "lib/Slang/Nogil.rakumod",
+    "Slang::Nogil::Util": "lib/Slang/Nogil/Util.rakumod"
+  },
+  "source-url": "git://github.com/tinmarino/nogil.git",
+  "tags": [
+    "Slang",
+    "Grammar"
+  ],
+  "version": "0.05"
+}
 ]
