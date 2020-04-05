@@ -41896,6 +41896,49 @@
     
   ],
   "depends": [
+    "JSON::Fast",
+    "HTTP::UserAgent",
+    "URI::Encode",
+    "IO::Socket::SSL"
+  ],
+  "description": "Matrix client for Perl 6",
+  "license": "Artistic-2.0",
+  "name": "Matrix::Client",
+  "perl": "6.c",
+  "provides": {
+    "Matrix::Client": "lib/Matrix/Client.pm6",
+    "Matrix::Client::Common": "lib/Matrix/Client/Common.pm6",
+    "Matrix::Client::Exception": "lib/Matrix/Client/Exception.pm6",
+    "Matrix::Client::Requester": "lib/Matrix/Client/Requester.pm6",
+    "Matrix::Client::Room": "lib/Matrix/Client/Room.pm6",
+    "Matrix::Response": "lib/Matrix/Response.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MATIASL/Perl6/Matrix-Client-0.5.1.tar.gz",
+  "support": {
+    "source": "git://github.com/matiaslina/perl6-matrix-client.git"
+  },
+  "tags": [
+    "Net",
+    "Matrix"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.5.1"
+}
+,
+{
+  "authors": [
+    "Matias Linares"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Inline::Python"
   ],
   "description": "Wrapper to python pygments library.",
