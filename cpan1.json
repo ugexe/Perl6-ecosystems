@@ -57943,6 +57943,42 @@
 }
 ,
 {
+  "api": "2",
+  "auth": "github:tbrowder",
+  "author": "github:tbrowder",
+  "authors": [
+    "Tom Browder <tom.browder@gmail.com>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides some additional text functions (replaces module Text::More)",
+  "license": "Artistic-2.0",
+  "name": "Text::Utils",
+  "perl": "6.*",
+  "provides": {
+    "Text::Utils": "lib/Text/Utils.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Text-Utils-Raku-2.1.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/tbrowder/Text-Utils-Raku/issues"
+  },
+  "tags": [
+    "string functions",
+    "text wrap",
+    "normalize string",
+    "CPAN5"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "2.1.1"
+}
+,
+{
   "auth": "github:spidererrol",
   "authors": [
     "Timothy Hinchcliffe"
