@@ -22682,7 +22682,7 @@
     
   ],
   "depends": [
-    "Intl::BCP47"
+    "Intl::LanguageTag"
   ],
   "description": "A simple module for obtaining the user’s preferred language(s)",
   "license": "Artistic-2.0",
@@ -22791,7 +22791,8 @@
     
   ],
   "depends": [
-    "Intl::BCP47",
+    "Intl::LanguageTag",
+    "Intl::UserLanguage",
     "Intl::CLDR::Plurals"
   ],
   "description": "A localization framework implementing Mozilla’s project Fluent",
