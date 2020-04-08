@@ -21734,6 +21734,70 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:AlexDaniel",
+  "authors": [
+    "Aleks-Daniel Jakimenko-Aleksejev"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A module with `--` in its name.",
+  "license": "GPL-3.0-or-later",
+  "name": "--Foo::--Foo",
+  "perl": "6.c",
+  "provides": {
+    "--Foo::--Foo": "--Foo/--Foo.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/AlexDaniel/--foo---foo.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "api": "1",
+  "auth": "github:AlexDaniel",
+  "authors": [
+    "Aleks-Daniel Jakimenko-Aleksejev"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A module with `*` in its name.",
+  "license": "GPL-3.0-or-later",
+  "name": " * Foo:: * ",
+  "perl": "6.c",
+  "provides": {
+    " * Foo:: * ": " * Foo/ * "
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/AlexDaniel/-asterisk--foo-asterisk-.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "authors": [
     "Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>"
   ],
