@@ -56384,6 +56384,37 @@
 ,
 {
   "auth": "github:tbrowder",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Inline::Perl5"
+  ],
+  "description": "Provides ability to create an Excel file from a text template",
+  "license": "Artistic-2.0",
+  "name": "Excel::Text::Template",
+  "perl": "6.c",
+  "provides": {
+    "Excel::Text::Template": "lib/Excel/Text/Template.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Excel-Text-Template-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:tbrowder",
   "author": "github:tbrowder",
   "authors": [
     "Tom Browder <tom.browder@gmail.com>"
