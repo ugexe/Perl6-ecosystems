@@ -22654,7 +22654,8 @@
     "Intl::LanguageTag::ExtensionRegistry": "lib/Intl/LanguageTag/ExtensionRegistry.pm6",
     "Intl::LanguageTag::Filter-Grammar": "lib/Intl/LanguageTag/Filter-Grammar.pm6",
     "Intl::LanguageTag::Grammar": "lib/Intl/LanguageTag/Grammar.pm6",
-    "Intl::LanguageTag::Subtag-Registry": "lib/Intl/LanguageTag/Subtag-Registry.pm6"
+    "Intl::LanguageTag::Subtag-Registry": "lib/Intl/LanguageTag/Subtag-Registry.pm6",
+    "Intl::LanguageTag::X": "lib/Intl/LanguageTag/X.pm6"
   },
   "raku": "6.*",
   "resources": [
@@ -22665,8 +22666,8 @@
     "extlangs.data",
     "grandfathered.data",
     "languages.data",
-    "extension-t.bcp47data",
-    "extension-u.bcp47data",
+    "extension-t.data",
+    "extension-u.data",
     "redundancies.data",
     "regions.data",
     "scripts.data",
