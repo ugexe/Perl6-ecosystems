@@ -39555,6 +39555,44 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-glade3-0.8.9.1.tar.gz",
+  "tags": [
+    "XML",
+    "Glade",
+    "GTK+"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.8.9.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "XML::Actions",
+    "Gnome::Gtk3"
+  ],
+  "description": "Interfacing Glade XML to Raku",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gtk3::Glade",
+  "perl": "6.d",
+  "provides": {
+    "Gnome::Gtk3::Glade": "lib/Gnome/Gtk3/Glade.pm6",
+    "Gnome::Gtk3::Glade::Engine": "lib/Gnome/Gtk3/Glade/Engine.pm6",
+    "Gnome::Gtk3::Glade::Engine::PreProcess": "lib/Gnome/Gtk3/Glade/Engine/PreProcess.pm6",
+    "Gnome::Gtk3::Glade::Engine::Test": "lib/Gnome/Gtk3/Glade/Engine/Test.pm6",
+    "Gnome::Gtk3::Glade::Engine::Work": "lib/Gnome/Gtk3/Glade/Engine/Work.pm6",
+    "Gnome::Gtk3::Glade::X": "lib/Gnome/Gtk3/Glade/X.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-glade3-0.8.9.tar.gz",
   "tags": [
     "XML",
