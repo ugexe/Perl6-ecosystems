@@ -56603,6 +56603,37 @@
   "depends": [
     "Inline::Perl5"
   ],
+  "description": "Provides ability to work with Excel workbooks",
+  "license": "Artistic-2.0",
+  "name": "Excel",
+  "perl": "6*",
+  "provides": {
+    "Excel": "lib/Excel.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Excel-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:tbrowder",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Inline::Perl5"
+  ],
   "description": "Provides ability to create an Excel file from a text template",
   "license": "Artistic-2.0",
   "name": "Excel::Text::Template",
@@ -56621,6 +56652,37 @@
     "Test::META"
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "github:tbrowder",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Inline::Perl5"
+  ],
+  "description": "Provides ability to create an Excel file from a text template",
+  "license": "Artistic-2.0",
+  "name": "Excel::Text::Template",
+  "perl": "6.c",
+  "provides": {
+    "Excel::Text::Template": "lib/Excel/Text/Template.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Excel-Text-Template-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.2"
 }
 ,
 {
@@ -60322,6 +60384,42 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "/home/itoyota/Programs/raku-Geo-Hash/resources/libraries/libgeohash.so\n",
+  "authors": [
+    "titsuki"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
+    "Geo::Hash::CustomBuilder"
+  ],
+  "builder": "Geo::Hash::CustomBuilder",
+  "depends": [
+    
+  ],
+  "description": "A Raku bindings for libgeohash",
+  "license": "BSD-3-Clause",
+  "name": "Geo::Hash",
+  "perl": "6.c",
+  "provides": {
+    "Geo::Hash": "lib/Geo/Hash.pm6",
+    "Geo::Hash::Coord": "lib/Geo/Hash/Coord.pm6",
+    "Geo::Hash::CustomBuilder": "lib/Geo/Hash/CustomBuilder.pm6"
+  },
+  "resources": [
+    "libraries/geohash"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Geo-Hash-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
