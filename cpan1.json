@@ -35276,7 +35276,7 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Data-Record-0.2.0.tar.gz",
+  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Data-Record-0.2.1.tar.gz",
   "tags": [
     "data",
     "type",
@@ -35285,7 +35285,7 @@
   "test-depends": [
     
   ],
-  "version": "0.2.0"
+  "version": "0.2.1"
 }
 ,
 {
@@ -35317,7 +35317,7 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Data-Record-0.2.1.tar.gz",
+  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Data-Record-0.2.2.tar.gz",
   "tags": [
     "data",
     "type",
@@ -35326,7 +35326,7 @@
   "test-depends": [
     
   ],
-  "version": "0.2.1"
+  "version": "0.2.2"
 }
 ,
 {
@@ -60420,6 +60420,42 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:TITSUKI",
+  "authors": [
+    "titsuki"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
+    "Geo::Hash::CustomBuilder"
+  ],
+  "builder": "Geo::Hash::CustomBuilder",
+  "depends": [
+    
+  ],
+  "description": "A Raku bindings for libgeohash",
+  "license": "BSD-3-Clause",
+  "name": "Geo::Hash",
+  "perl": "6.c",
+  "provides": {
+    "Geo::Hash": "lib/Geo/Hash.pm6",
+    "Geo::Hash::Coord": "lib/Geo/Hash/Coord.pm6",
+    "Geo::Hash::CustomBuilder": "lib/Geo/Hash/CustomBuilder.pm6"
+  },
+  "resources": [
+    "libraries/geohash"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Geo-Hash-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
