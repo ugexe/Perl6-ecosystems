@@ -5592,21 +5592,22 @@
 ,
 {
   "authors": [
+    "Naoum Hankache",
     "Henrique Dias"
   ],
   "depends": [
     "LibraryMake"
   ],
-  "description": "Perl 6 interface to the Imlib2 image library.",
+  "description": "Raku interface to the Imlib2 image library.",
   "license": "Artistic-2.0",
   "name": "Imlib2",
-  "perl": "6.c",
+  "perl": "6.d",
   "provides": {
-    "Imlib2": "lib/Imlib2.pm6"
+    "Imlib2": "lib/Imlib2.rakumod"
   },
   "source-type": "git",
   "source-url": "git://github.com/hankache/perl6-Imlib2.git",
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
 ,
 {
