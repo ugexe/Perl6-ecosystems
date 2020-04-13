@@ -6083,6 +6083,38 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Port of Perl's List::MoreUtils 0.428",
+  "license": "Artistic-2.0",
+  "name": "List::MoreUtils",
+  "perl": "6.c",
+  "provides": {
+    "List::MoreUtils": "lib/List/MoreUtils.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-MoreUtils-0.0.7.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "List::MoreUtils"
   ],
   "description": "Port of Perl 5's List::SomeUtils 0.56",
