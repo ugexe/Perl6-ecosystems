@@ -2858,6 +2858,87 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "NativeCall",
+    "NativeLibs:ver<0.0.7>:auth<github:salortiz>"
+  ],
+  "description": "Raku Bindings for GNU libgcrypt",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Gcrypt",
+  "perl": "6.*",
+  "provides": {
+    "Gcrypt": "lib/Gcrypt.rakumod",
+    "Gcrypt::Cipher": "lib/Gcrypt/Cipher.rakumod",
+    "Gcrypt::CipherHandle": "lib/Gcrypt/CipherHandle.rakumod",
+    "Gcrypt::Constants": "lib/Gcrypt/Constants.rakumod",
+    "Gcrypt::Hash": "lib/Gcrypt/Hash.rakumod",
+    "Gcrypt::HashHandle": "lib/Gcrypt/HashHandle.rakumod",
+    "Gcrypt::MAC": "lib/Gcrypt/MAC.rakumod",
+    "Gcrypt::MACHandle": "lib/Gcrypt/MACHandle.rakumod",
+    "Gcrypt::Passphrase": "lib/Gcrypt/Passphrase.rakumod",
+    "Gcrypt::Random": "lib/Gcrypt/Random.rakumod",
+    "Gcrypt::Simple": "lib/Gcrypt/Simple.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/Gcrypt-0.5.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-libgcrypt/issues",
+    "source": "https://github.com/CurtTilmes/raku-libgcrypt.git"
+  },
+  "tags": [
+    "AES",
+    "BLAKE",
+    "Blowfish",
+    "CASE5",
+    "CMAC",
+    "CRC",
+    "Camellia",
+    "ChaCha20",
+    "Cipher",
+    "DES",
+    "DES3",
+    "Digest",
+    "GMAC",
+    "GOST28147",
+    "HMAC",
+    "IDEA",
+    "MAC",
+    "MD4",
+    "MD5",
+    "RC4",
+    "RIPEMD160",
+    "SEED",
+    "SHA",
+    "SHA1",
+    "SHA3",
+    "SHAKE",
+    "Salsa20",
+    "Serpent",
+    "TIGER",
+    "Twofish",
+    "crypt",
+    "gcrypt",
+    "libgcrypt",
+    "nonce",
+    "passphrase",
+    "random"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When"
+  ],
+  "version": "0.5"
+}
+,
+{
   "authors": [
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
   ],
