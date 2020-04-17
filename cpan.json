@@ -1935,6 +1935,42 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku Wrapper for Bitfields stored in an integer",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "BitEnum",
+  "perl": "6.*",
+  "provides": {
+    "BitEnum": "lib/BitEnum.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/BitEnum-0.3.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-bitenum/issues",
+    "source": "https://github.com/CurtTilmes/raku-bitenum.git"
+  },
+  "tags": [
+    "BITFIELDS",
+    "ENUM"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When"
+  ],
+  "version": "0.3"
+}
+,
+{
   "authors": [
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
   ],
