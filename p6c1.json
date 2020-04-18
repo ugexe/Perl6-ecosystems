@@ -9615,6 +9615,29 @@
 }
 ,
 {
+  "author": "github:fayland",
+  "depends": [
+    
+  ],
+  "description": "Locale codes - Country, Currency, Langauge",
+  "name": "Locale::Codes",
+  "perl": "6.*",
+  "provides": {
+    "Locale::Codes": "lib/Locale/Codes.pm",
+    "Locale::Codes::Country_Codes": "lib/Locale/Codes/Country_Codes.pm",
+    "Locale::Codes::Currency_Codes": "lib/Locale/Codes/Currency_Codes.pm",
+    "Locale::Codes::Language_Codes": "lib/Locale/Codes/Language_Codes.pm",
+    "Locale::Codes::Script_Codes": "lib/Locale/Codes/Script_Codes.pm",
+    "Locale::Country": "lib/Locale/Country.pm",
+    "Locale::Currency": "lib/Locale/Currency.pm",
+    "Locale::Language": "lib/Locale/Language.pm",
+    "Locale::Script": "lib/Locale/Script.pm"
+  },
+  "source-url": "git://github.com/fayland/perl6-Locale-Codes.git",
+  "version": "0.1.0"
+}
+,
+{
   "description": "A framework-agnostic HTTP Router",
   "license": "MIT",
   "name": "HTTP::Router::Blind",
