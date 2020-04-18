@@ -38529,6 +38529,38 @@
 }
 ,
 {
+  "auth": "CPAN:lembark",
+  "authors": [
+    "Steven Lembark"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "dump rusage process statistics with optional label.",
+  "license": "Artistic-2.0",
+  "name": "ProcStats",
+  "perl": "6.d",
+  "provides": {
+    "ProcStats": "lib/ProcStats.rakumod",
+    "ProcStats::Handlers": "lib/ProcStats/Handlers.rakumod"
+  },
+  "resources": [
+    "pod/ProcStats.rakudoc"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/ProcStats-0.3.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "FindBin::libs"
+  ],
+  "version": "0.3.1"
+}
+,
+{
   "auth": "cpan:LEONT",
   "authors": [
     "Leon Timmermans"
