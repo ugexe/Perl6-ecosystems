@@ -18732,6 +18732,31 @@
     "Mark Rushing"
   ],
   "depends": [
+    
+  ],
+  "description": "Uncomplicated yet functional and terse user input",
+  "license": "Artistic-2.0",
+  "name": "Prompt::Gruff",
+  "perl": "6.c",
+  "provides": {
+    "Prompt::Gruff": "lib/Prompt/Gruff.pm6",
+    "Prompt::Gruff::Export": "lib/Prompt/Gruff/Export.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/adaptiveoptics/P6-Prompt-Gruff.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Mark Rushing"
+  ],
+  "depends": [
     "JSON::Fast",
     "LibCurl",
     "Digest::HMAC",
