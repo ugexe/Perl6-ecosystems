@@ -2649,6 +2649,67 @@
 }
 ,
 {
+  "authors": [
+    "Steve Schulze (thundergnat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Rotate, but for strings rather than arrays",
+  "license": "Artistic-2.0",
+  "name": "String::Rotate",
+  "perl": "6.c",
+  "provides": {
+    "String::Rotate": "lib/String/Rotate.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/String-Rotate.git",
+  "tags": [
+    "String",
+    "Strings",
+    "Text wrangling",
+    "Rotate"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Steve Schulze (thundergnat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "description": "Convert numbers to and from nearly any base",
+  "license": "Artistic-2.0",
+  "name": "Base::Any",
+  "perl": "6",
+  "provides": {
+    "Base::Any": "lib/Base/Any.pm6",
+    "Base::Any::Digits": "lib/Base/Any/Digits.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/base-any.git",
+  "tags": [
+    "Base",
+    "Radix"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "author": [
     "David Farrell",
     "Dmitry Yaskolko"
