@@ -64801,6 +64801,32 @@
 }
 ,
 {
+  "api": "0",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Convenience functions for working with the XDG Base Directory Specification",
+  "license": "AGPL-3.0",
+  "meta-version": 0,
+  "name": "IO::Path::XDG",
+  "perl": "6.d",
+  "provides": {
+    "IO::Path::XDG": "lib/IO/Path/XDG.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IO-Path-XDG-0.2.0.tar.gz",
+  "tags": [
+    
+  ],
+  "version": "0.2.0"
+}
+,
+{
   "auth": "github:scriptkitties",
   "authors": [
     "Patrick Spek <p.spek@tyil.work>"
