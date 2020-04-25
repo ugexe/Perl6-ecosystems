@@ -17499,6 +17499,30 @@
 }
 ,
 {
+  "auth": "github:pdf-raku",
+  "depends": [
+    
+  ],
+  "description": "Endian safe Binary Struct packing and unpacking",
+  "license": "Artistic-2.0",
+  "name": "Native::Packing",
+  "perl": "6.c",
+  "provides": {
+    "Native::Packing": "lib/Native/Packing.rakumod"
+  },
+  "source-url": "git://github.com/pdf-raku/Native-Packing-raku.git",
+  "tags": [
+    "binary",
+    "endian",
+    "native",
+    "struct",
+    "pack",
+    "unpack"
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "authors": [
     "Julien Simonet"
   ],
