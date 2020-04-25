@@ -5242,7 +5242,7 @@
 ,
 {
   "api": "PDF-1.7",
-  "auth": "github:p6-pdf",
+  "auth": "github:pdf-raku",
   "authors": [
     "David Warring"
   ],
@@ -5252,7 +5252,7 @@
   "depends": [
     "JSON::Fast"
   ],
-  "description": "Perl 6 grammars for parsing PDF Content Streams and File Structure",
+  "description": "Raku grammars for parsing PDF Content Streams and File Structure",
   "license": "Artistic-2.0",
   "name": "PDF::Grammar",
   "perl": "6.*",
@@ -5276,7 +5276,7 @@
   "resources": [
     
   ],
-  "source-url": "git://github.com/p6-pdf/PDF-Grammar-p6.git",
+  "source-url": "git://github.com/pdf-raku/PDF-Grammar-raku.git",
   "tags": [
     "pdf"
   ],
@@ -10224,18 +10224,18 @@
 }
 ,
 {
-  "auth": "github:p6-pdf",
+  "auth": "github:pdf-raku",
   "depends": [
     
   ],
-  "description": "Perl 6 implementation of the RC4 encryption algorithm",
+  "description": "Raku implementation of the RC4 encryption algorithm",
   "license": "Artistic-2.0",
   "name": "Crypt::RC4",
   "perl": "6",
   "provides": {
     "Crypt::RC4": "lib/Crypt/RC4.rakumod"
   },
-  "source-url": "git://github.com/p6-pdf/Crypt-RC4-p6.git",
+  "source-url": "git://github.com/pdf-raku/Crypt-RC4-raku.git",
   "version": "0.0.4"
 }
 ,
@@ -10471,7 +10471,7 @@
   "resources": [
     
   ],
-  "source-url": "git://github.com/p6-pdf/PDF-p6.git",
+  "source-url": "git://github.com/pdf-raku/PDF-raku.git",
   "tags": [
     "pdf"
   ],
@@ -17490,30 +17490,6 @@
 }
 ,
 {
-  "auth": "github:p6-pdf",
-  "depends": [
-    
-  ],
-  "description": "Endian safe Binary Struct packing and unpacking",
-  "license": "Artistic-2.0",
-  "name": "Native::Packing",
-  "perl": "6.c",
-  "provides": {
-    "Native::Packing": "lib/Native/Packing.pm"
-  },
-  "source-url": "git://github.com/p6-pdf/Native-Packing-p6.git",
-  "tags": [
-    "binary",
-    "endian",
-    "native",
-    "struct",
-    "pack",
-    "unpack"
-  ],
-  "version": "0.0.3"
-}
-,
-{
   "authors": [
     "Julien Simonet"
   ],
@@ -18338,7 +18314,7 @@
   "resources": [
     "libraries/base64"
   ],
-  "source-url": "git://github.com/p6-pdf/Base64-Native-p6.git",
+  "source-url": "git://github.com/pdf-raku/Base64-Native-raku.git",
   "tags": [
     "base64",
     "encode"
@@ -19408,7 +19384,7 @@
 ,
 {
   "api": "PDF-1.7",
-  "auth": "github:p6-pdf",
+  "auth": "github:pdf-raku",
   "authors": [
     "David Warring"
   ],
@@ -19462,7 +19438,7 @@
   "resources": [
     
   ],
-  "source-url": "git://github.com/p6-pdf/PDF-Content-p6.git",
+  "source-url": "git://github.com/pdf-raku/PDF-Content-raku.git",
   "tags": [
     "pdf"
   ],
@@ -19474,7 +19450,7 @@
 ,
 {
   "api": "PDF-1.7",
-  "auth": "github:p6-pdf",
+  "auth": "github:pdf-raku",
   "authors": [
     "David Warring"
   ],
@@ -19489,7 +19465,7 @@
   "provides": {
     "PDF::Lite": "lib/PDF/Lite.rakumod"
   },
-  "source-url": "git://github.com/p6-pdf/PDF-Lite-p6.git",
+  "source-url": "git://github.com/pdf-raku/PDF-Lite-raku.git",
   "tags": [
     "pdf"
   ],
@@ -19497,7 +19473,7 @@
 }
 ,
 {
-  "auth": "github:p6-pdf",
+  "auth": "github:pdf-raku",
   "authors": [
     "David Warring"
   ],
@@ -19520,7 +19496,7 @@
   "resources": [
     
   ],
-  "source-url": "git://github.com/p6-pdf/PDF-API6.git",
+  "source-url": "git://github.com/pdf-raku/PDF-API6.git",
   "tags": [
     "pdf"
   ],
