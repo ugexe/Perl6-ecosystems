@@ -45095,6 +45095,58 @@
 }
 ,
 {
+  "auth": "github:",
+  "authors": [
+    "'Alexey Melezhik' <melezhik@gmail.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test::META",
+    "Sparrow6",
+    "Sparrowdo::RemoteFile",
+    "Sparrowdo::Archive"
+  ],
+  "description": "Installs CPAN modules fetched from remote GitHub repositories",
+  "emulates": {
+    
+  },
+  "excludes": {
+    
+  },
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Sparrowdo::Cpanm::GitHub",
+  "perl": "6.c",
+  "production": false,
+  "provides": {
+    "Sparrow6::Cpanm::GitHub": "lib/Sparrow6/Cpanm/GitHub.pm6",
+    "Sparrowdo::Cpanm::GitHub": "lib/Sparrowdo/Cpanm/GitHub.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-Cpanm-GitHub-0.0.4.tar.gz",
+  "superseded-by": {
+    
+  },
+  "supersedes": {
+    
+  },
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "authors": [
     "Alexey Melezhik"
   ],
@@ -45235,6 +45287,42 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "authors": [
+    "Alexey Melezhik"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Sparrow6"
+  ],
+  "description": "Fetch remote file using http",
+  "license": "NOASSERTION",
+  "name": "Sparrowdo::RemoteFile",
+  "perl": "6.*",
+  "provides": {
+    "Sparrow6::RemoteFile": "lib/Sparrow6/RemoteFile.pm6",
+    "Sparrowdo::RemoteFile": "lib/Sparrowdo/RemoteFile.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-RemoteFile-0.0.4.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/melezhik/remote-file/issues",
+    "source": "https://github.com/melezhik/remote-file.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
