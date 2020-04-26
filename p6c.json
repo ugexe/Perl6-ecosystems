@@ -5567,11 +5567,11 @@
 }
 ,
 {
-  "auth": "github:p6-css",
+  "auth": "github:css-raku",
   "depends": [
     "JSON::Fast"
   ],
-  "description": "Perl 6 core CSS grammars",
+  "description": "Raku core CSS grammars",
   "license": "Artistic-2.0",
   "name": "CSS::Grammar",
   "perl": "6c",
@@ -5585,13 +5585,13 @@
     "CSS::Grammar::Core": "lib/CSS/Grammar.rakumod",
     "CSS::Grammar::Test": "lib/CSS/Grammar/Test.rakumod"
   },
-  "source-url": "git://github.com/p6-css/CSS-Grammar-p6.git",
+  "source-url": "git://github.com/css-raku/CSS-Grammar-raku.git",
   "version": "0.3.4"
 }
 ,
 {
   "api": "css-snapshot-2010",
-  "auth": "github:p6-css",
+  "auth": "github:css-raku",
   "depends": [
     "CSS::Grammar:ver(0.3.3+)",
     "CSS::Module::CSS3::Selectors",
@@ -5648,7 +5648,7 @@
     "CSS::Module::CSS3::_Base::Actions": "lib/CSS/Module/CSS3/_Base/Actions.rakumod",
     "CSS::Module::Property": "lib/CSS/Module/Property.rakumod"
   },
-  "source-url": "git://github.com/p6-css/CSS-Module-p6.git",
+  "source-url": "git://github.com/css-raku/CSS-Module-raku.git",
   "version": "0.5.2"
 }
 ,
@@ -6659,6 +6659,9 @@
     "Tim Smith",
     "Richard Hainsworth"
   ],
+  "build-depends": [
+    
+  ],
   "depends": [
     
   ],
@@ -6670,7 +6673,10 @@
   "provides": {
     "Template::Mustache": "lib/Template/Mustache.rakumod"
   },
-  "source-url": "git://github.com/softmoth/p6-Template-Mustache.git",
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/softmoth/p6-Template-Mustache.git",
   "support": {
     "bugtracker": "https://github.com/softmoth/p6-Template-Mustache/issues"
   },
@@ -6720,7 +6726,7 @@
     "CSS::Specification::Terms": "lib/CSS/Specification/Terms.rakumod",
     "CSS::Specification::Terms::Actions": "lib/CSS/Specification/Terms/Actions.rakumod"
   },
-  "source-url": "git://github.com/p6-css/CSS-Specification-p6.git",
+  "source-url": "git://github.com/css-raku/CSS-Specification-raku.git",
   "version": "0.4.6"
 }
 ,
@@ -7350,7 +7356,7 @@
   "provides": {
     "CSS::Writer": "lib/CSS/Writer.rakumod"
   },
-  "source-url": "git://github.com/p6-css/CSS-Writer-p6.git",
+  "source-url": "git://github.com/css-raku/CSS-Writer-p6.git",
   "version": "0.2.5"
 }
 ,
@@ -7485,7 +7491,7 @@
     "CSS::Module::CSS3::Selectors": "lib/CSS/Module/CSS3/Selectors.rakumod",
     "CSS::Module::CSS3::Selectors::Actions": "lib/CSS/Module/CSS3/Selectors/Actions.rakumod"
   },
-  "source-url": "git://github.com/p6-css/CSS-Module-CSS3-Selectors-p6.git",
+  "source-url": "git://github.com/css-raku/CSS-Module-CSS3-Selectors-raku.git",
   "version": "0.0.3"
 }
 ,
@@ -17199,6 +17205,7 @@
 }
 ,
 {
+  "auth": "github:perl6-community-modules",
   "authors": [
     "Zoffix Znet"
   ],
