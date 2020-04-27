@@ -45154,6 +45154,42 @@
     
   ],
   "depends": [
+    "Sparrow6"
+  ],
+  "description": "Sparrowdo module to run goss scenarios",
+  "license": "NOASSERTION",
+  "name": "Sparrowdo::Goss",
+  "perl": "6.*",
+  "provides": {
+    "Sparrow6::Goss": "lib/Sparrow6/Goss.pm6",
+    "Sparrowdo::Goss": "lib/Sparrowdo/Goss.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-Goss-0.0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/melezhik/sparrowdo-goss/issues",
+    "source": "https://github.com/melezhik/sparrowdo-goss.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "Alexey Melezhik"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Sparrowdo",
     "Sparrowdo::Archive",
     "Sparrowdo::RemoteFile"
