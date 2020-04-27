@@ -15031,7 +15031,7 @@
   "depends": [
     "NativeCall"
   ],
-  "description": "Convert perl6 Numerics to Bufs and back again!",
+  "description": "Convert Raku Numerics to Bufs and back again!",
   "license": "Artistic-2.0",
   "name": "Numeric::Pack",
   "perl": "6.c",
@@ -15045,12 +15045,17 @@
   "tags": [
     "Binary",
     "Buf",
-    "Native"
+    "Native",
+    "Pack",
+    "Endian",
+    "Byte-Order",
+    "Float",
+    "Double"
   ],
   "test-depends": [
     
   ],
-  "version": "0.3.0"
+  "version": "0.4.0"
 }
 ,
 {
