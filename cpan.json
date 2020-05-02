@@ -52789,6 +52789,24 @@
 ,
 {
   "authors": [
+    "Robert Lemmen <robertle@semistable.com>"
+  ],
+  "description": "A lock with shared/exclusive access modes",
+  "license": "Artistic-2.0",
+  "name": "ReadWriteLock",
+  "perl": "6.c",
+  "provides": {
+    "ReadWriteLock": "lib/ReadWriteLock.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/R/RO/ROBERTLE/Perl6/raku-readwritelock_0.1.tar.gz",
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.1"
+}
+,
+{
+  "authors": [
     "Ron Schmidt"
   ],
   "depends": [
