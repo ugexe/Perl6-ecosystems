@@ -24073,4 +24073,42 @@
   ],
   "version": "0.1.3"
 }
+,
+{
+  "api": "1",
+  "auth": "github:p6steve",
+  "authors": [
+    "p6steve"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "SVG",
+    "SVG::Plot",
+    "Math::Polygons"
+  ],
+  "description": "Some support for physical units.",
+  "license": "Artistic-2.0",
+  "name": "Physics::Measure",
+  "perl": "6.d",
+  "provides": {
+    "Physics::Measure": "lib/Physics/Measure.rakumod",
+    "Physics::Unit": "lib/Physics/Unit.rakumod",
+    "Physics::UnitPostfix": "lib/Physics/UnitPostfix.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/p6steve/raku-Physics-Measure.git",
+  "tags": [
+    "Physics",
+    "Measure",
+    "Units"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
 ]
