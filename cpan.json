@@ -52884,7 +52884,43 @@
   "provides": {
     "Cache::Async": "lib/Cache/Async.rakumod"
   },
+  "source-url": "http://www.cpan.org/authors/id/R/RO/ROBERTLE/Perl6/raku-cache-async-0.2.tar.gz",
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.2"
+}
+,
+{
+  "authors": [
+    "Robert Lemmen <robertle@semistable.com>"
+  ],
+  "description": "Concurrent and async cache implementation",
+  "license": "Artistic-2.0",
+  "name": "Cache::Async",
+  "perl": "6.c",
+  "provides": {
+    "Cache::Async": "lib/Cache/Async.rakumod"
+  },
   "source-url": "http://www.cpan.org/authors/id/R/RO/ROBERTLE/Perl6/raku-cache-async_0.2.tar.gz",
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.2"
+}
+,
+{
+  "authors": [
+    "Robert Lemmen <robertle@semistable.com>"
+  ],
+  "description": "A lock with shared/exclusive access modes",
+  "license": "Artistic-2.0",
+  "name": "ReadWriteLock",
+  "perl": "6.c",
+  "provides": {
+    "ReadWriteLock": "lib/ReadWriteLock.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/R/RO/ROBERTLE/Perl6/raku-readwritelock-0.2.tar.gz",
   "test-depends": [
     "Test::META"
   ],
@@ -61319,6 +61355,74 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:TITSUKI",
+  "authors": [
+    "Itsuki Toyota"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Tree edit distance between trees",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::ZhangShasha",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::ZhangShasha": "lib/Algorithm/ZhangShasha.pm6",
+    "Algorithm::ZhangShasha::Helpable": "lib/Algorithm/ZhangShasha/Helpable.pm6",
+    "Algorithm::ZhangShasha::Node": "lib/Algorithm/ZhangShasha/Node.pm6",
+    "Algorithm::ZhangShasha::Tree": "lib/Algorithm/ZhangShasha/Tree.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-ZhangShasha-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:TITSUKI",
+  "authors": [
+    "Itsuki Toyota"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Tree edit distance between trees",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::ZhangShasha",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::ZhangShasha": "lib/Algorithm/ZhangShasha.pm6",
+    "Algorithm::ZhangShasha::Helpable": "lib/Algorithm/ZhangShasha/Helpable.pm6",
+    "Algorithm::ZhangShasha::Node": "lib/Algorithm/ZhangShasha/Node.pm6",
+    "Algorithm::ZhangShasha::Tree": "lib/Algorithm/ZhangShasha/Tree.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-ZhangShasha-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
