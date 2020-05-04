@@ -24055,22 +24055,4 @@
   ],
   "version": "0.1.3"
 }
-,
-{
-  "authors": [
-    "Robert Lemmen <robertle@semistable.com>"
-  ],
-  "description": "A lock with shared/exclusive access modes",
-  "license": "Artistic-2.0",
-  "name": "ReadWriteLock",
-  "perl": "6.c",
-  "provides": {
-    "ReadWriteLock": "lib/ReadWriteLock.rakumod"
-  },
-  "source-url": "git://github.com/robertlemmen/raku-readwritelock.git",
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.2"
-}
 ]
