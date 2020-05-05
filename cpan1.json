@@ -61466,6 +61466,40 @@
 }
 ,
 {
+  "auth": "cpan:TITSUKI",
+  "authors": [
+    "Itsuki Toyota"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Tree edit distance between trees",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::ZhangShasha",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::ZhangShasha": "lib/Algorithm/ZhangShasha.pm6",
+    "Algorithm::ZhangShasha::Helpable": "lib/Algorithm/ZhangShasha/Helpable.pm6",
+    "Algorithm::ZhangShasha::Node": "lib/Algorithm/ZhangShasha/Node.pm6",
+    "Algorithm::ZhangShasha::Tree": "lib/Algorithm/ZhangShasha/Tree.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-ZhangShasha-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "DOM::Tiny"
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "authors": [
     "titsuki"
   ],
