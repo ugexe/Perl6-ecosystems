@@ -13854,6 +13854,34 @@
 ,
 {
   "authors": [
+    "github:Xliff",
+    "Clifton Wood"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "ogg:from<native>",
+    "vorbis:from<native>",
+    "vorbisenc:from<native>"
+  ],
+  "description": "Perl6 bindings for libogg, libvorbis and libvorbisenc",
+  "name": "Audio::OggVorbis",
+  "perl": "6.c",
+  "provides": {
+    "Audio::OggVorbis::Ogg": "lib/Audio/OggVorbis/Ogg.pm",
+    "Audio::OggVorbis::Vorbis": "lib/Audio/OggVorbis/Vorbis.pm",
+    "Audio::OggVorbis::VorbisEnc": "lib/Audio/OggVorbis/VorbisEnc.pm"
+  },
+  "source-url": "git://github.com/Xliff/p6-audio-oggvorbis.git",
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
     "clifton.wood@gmail.com"
   ],
   "build-depends": [
