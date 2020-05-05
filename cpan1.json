@@ -2723,6 +2723,82 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "BitEnum",
+        "NativeCall",
+        "NativeHelpers::Callback",
+        "NativeLibs:ver<0.0.7>:auth<github:salortiz>",
+        "gpgme:from<native>"
+      ]
+    },
+    "test": {
+      "requires": [
+        "Test",
+        "Test::When",
+        "Temp::Path"
+      ]
+    }
+  },
+  "description": "Raku Bindings for Gnu Privacy Guard (GPG) Made Easy",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "GPGME",
+  "perl": "6.d",
+  "provides": {
+    "GPGME": "lib/GPGME.rakumod",
+    "GPGME::Check": "lib/GPGME/Check.rakumod",
+    "GPGME::Constants": "lib/GPGME/Constants.rakumod",
+    "GPGME::Context": "lib/GPGME/Context.rakumod",
+    "GPGME::Data": "lib/GPGME/Data.rakumod",
+    "GPGME::DataHandle": "lib/GPGME/DataHandle.rakumod",
+    "GPGME::DecryptResult": "lib/GPGME/DecryptResult.rakumod",
+    "GPGME::EncryptResult": "lib/GPGME/EncryptResult.rakumod",
+    "GPGME::EngineInfo": "lib/GPGME/EngineInfo.rakumod",
+    "GPGME::GenKeyResult": "lib/GPGME/GenKeyResult.rakumod",
+    "GPGME::ImportResult": "lib/GPGME/ImportResult.rakumod",
+    "GPGME::ImportStatus": "lib/GPGME/ImportStatus.rakumod",
+    "GPGME::InvalidKey": "lib/GPGME/InvalidKey.rakumod",
+    "GPGME::Key": "lib/GPGME/Key.rakumod",
+    "GPGME::KeySig": "lib/GPGME/KeySig.rakumod",
+    "GPGME::LinkedList": "lib/GPGME/LinkedList.rakumod",
+    "GPGME::NewSignature": "lib/GPGME/NewSignature.rakumod",
+    "GPGME::Recipient": "lib/GPGME/Recipient.rakumod",
+    "GPGME::SigNotation": "lib/GPGME/SigNotation.rakumod",
+    "GPGME::SignResult": "lib/GPGME/SignResult.rakumod",
+    "GPGME::Signature": "lib/GPGME/Signature.rakumod",
+    "GPGME::SubKey": "lib/GPGME/SubKey.rakumod",
+    "GPGME::TOFU": "lib/GPGME/TOFU.rakumod",
+    "GPGME::UserID": "lib/GPGME/UserID.rakumod",
+    "GPGME::VerifyResult": "lib/GPGME/VerifyResult.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/GPGME-0.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-gpgme/issues",
+    "email": "curt@tilmes.org",
+    "source": "https://github.com/CurtTilmes/raku-gpgme.git"
+  },
+  "tags": [
+    "GPGME",
+    "GPG",
+    "CRYPT",
+    "SIGNATURE"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When",
+    "Temp::Path"
+  ],
+  "version": "0.1"
+}
+,
+{
   "api": "0",
   "auth": "github:CurtTilmes",
   "authors": [
@@ -70826,6 +70902,61 @@
     "Test::When"
   ],
   "version": "0.0.7"
+}
+,
+{
+  "auth": "github:vrurg",
+  "authors": [
+    "Vadim Belman <vrurg@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Thread-safe testing framework",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Test::Async",
+  "perl": "6.d",
+  "production": true,
+  "provides": {
+    "Test::Async": "lib/Test/Async.rakumod",
+    "Test::Async::Aggregator": "lib/Test/Async/Aggregator.rakumod",
+    "Test::Async::Base": "lib/Test/Async/Base.rakumod",
+    "Test::Async::Decl": "lib/Test/Async/Decl.rakumod",
+    "Test::Async::Event": "lib/Test/Async/Event.rakumod",
+    "Test::Async::Hub": "lib/Test/Async/Hub.rakumod",
+    "Test::Async::Job": "lib/Test/Async/Job.rakumod",
+    "Test::Async::JobMgr": "lib/Test/Async/JobMgr.rakumod",
+    "Test::Async::Metamodel::BundleClassHOW": "lib/Test/Async/Metamodel/BundleClassHOW.rakumod",
+    "Test::Async::Metamodel::BundleHOW": "lib/Test/Async/Metamodel/BundleHOW.rakumod",
+    "Test::Async::Metamodel::HubHOW": "lib/Test/Async/Metamodel/HubHOW.rakumod",
+    "Test::Async::Metamodel::ReporterHOW": "lib/Test/Async/Metamodel/ReporterHOW.rakumod",
+    "Test::Async::Reporter": "lib/Test/Async/Reporter.rakumod",
+    "Test::Async::Reporter::TAP": "lib/Test/Async/Reporter/TAP.rakumod",
+    "Test::Async::Result": "lib/Test/Async/Result.rakumod",
+    "Test::Async::TestTool": "lib/Test/Async/TestTool.rakumod",
+    "Test::Async::Utils": "lib/Test/Async/Utils.rakumod",
+    "Test::Async::When": "lib/Test/Async/When.rakumod",
+    "Test::Async::X": "lib/Test/Async/X.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/Test-Async-v0.0.10.tar.gz",
+  "support": {
+    "source": "https://github.com/vrurg/raku-Test-Async.git"
+  },
+  "tags": [
+    "TESTING",
+    "ASYNC"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.10"
 }
 ,
 {
