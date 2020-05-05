@@ -3443,13 +3443,16 @@
 }
 ,
 {
-  "author": "Perl 6",
+  "auth": "Raku",
+  "authors": [
+    "Raku"
+  ],
   "depends": [
     "URI",
     "Template::Mustache",
     "Pod::Load:ver<0.4.0+>"
   ],
-  "description": "Convert Perl 6 Pod to HTML",
+  "description": "Convert Raku Pod to HTML",
   "license": "Artistic-2.0",
   "name": "Pod::To::HTML",
   "perl": "6.*",
@@ -3457,7 +3460,8 @@
     "Pod::To::HTML": "lib/Pod/To/HTML.pm"
   },
   "resources": [
-    "templates/main.mustache"
+    "templates/main.mustache",
+    "css/github.css"
   ],
   "source-url": "git://github.com/perl6/Pod-To-HTML.git",
   "test-depends": [
