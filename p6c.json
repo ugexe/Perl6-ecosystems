@@ -15429,115 +15429,6 @@
 ,
 {
   "authors": [
-    "Alexey Melezhik"
-  ],
-  "depends": [
-    "Sparrowdo"
-  ],
-  "description": "Sparrowdo module to manage chef users",
-  "name": "Sparrowdo::Chef::Manager",
-  "perl": "6.*",
-  "provides": {
-    "Sparrowdo::Chef::Manager": "lib/Sparrowdo/Chef/Manager.pm6"
-  },
-  "source-type": "git",
-  "source-url": "https://github.com/melezhik/sparrowdo-chef-manager.git",
-  "support": {
-    "bugtracker": "https://github.com/melezhik/sparrowdo-chef-manager/issues",
-    "source": "https://github.com/melezhik/sparrowdo-chef-manager.git"
-  },
-  "version": "*"
-}
-,
-{
-  "authors": [
-    "Brian Duggan"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Asynchronous logging with supplies and taps",
-  "license": "Perl",
-  "name": "Log::Async",
-  "perl": "6.c",
-  "provides": {
-    "Log::Async": "lib/Log/Async.pm6",
-    "Log::Async::CommandLine": "lib/Log/Async/CommandLine.pm6",
-    "Log::Async::Context": "lib/Log/Async/Context.pm6"
-  },
-  "source-url": "git://github.com/bduggan/p6-log-async.git",
-  "tags": [
-    "log",
-    "logging",
-    "logger",
-    "async",
-    "asynchronous"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.6"
-}
-,
-{
-  "auth": "github:zostay",
-  "authors": [
-    "Sterling Hanenkamp <hanenkamp@cpan.org>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Load modules from temporarily included locations",
-  "license": "Artistic",
-  "meta6": "0",
-  "name": "CompUnit::DynamicLib",
-  "perl": "6.c",
-  "provides": {
-    "CompUnit::DynamicLib": "lib/CompUnit/DynamicLib.pm6"
-  },
-  "source-url": "git://github.com/zostay/p6-CompUnit-DynamicLib.git",
-  "support": {
-    "source": "git://github.com/zostay/p6-CompUnit-DynamicLib.git"
-  },
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.2.1"
-}
-,
-{
-  "authors": [
-    "Wenzel P. P. Peppmeyer"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "turn a lazy list into an auto-threading lazy list",
-  "license": "Artistic-2.0",
-  "name": "Concurrent::Channelify",
-  "perl": "v6",
-  "provides": {
-    "Concurrent::Channelify": "lib/Concurrent/Channelify.pm6"
-  },
-  "source-url": "git://github.com/gfldex/perl6-concurrent-channelify.git",
-  "test-depends": [
-    
-  ],
-  "version": "0.1.0"
-}
-,
-{
-  "authors": [
     "Julien Simonet"
   ],
   "depends": [
@@ -15724,32 +15615,6 @@
     "Test"
   ],
   "version": "0.0.3"
-}
-,
-{
-  "authors": [
-    "Mark Rushing"
-  ],
-  "depends": [
-    "HTML::Entity"
-  ],
-  "description": "Generate simple, interleafable, HTML tags.",
-  "license": "Artistic-2.0",
-  "name": "HTML::Tag",
-  "perl": "6.c",
-  "provides": {
-    "HTML::Tag": "lib/HTML/Tag.pm6",
-    "HTML::Tag::Macro": "lib/HTML/Tag/Macro.pm6",
-    "HTML::Tag::Macro::Form": "lib/HTML/Tag/Macro/Form.pm6",
-    "HTML::Tag::Macro::List": "lib/HTML/Tag/Macro/List.pm6",
-    "HTML::Tag::Macro::Table": "lib/HTML/Tag/Macro/Table.pm6",
-    "HTML::Tag::Tags": "lib/HTML/Tag/Tags.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/adaptiveoptics/HTML-Tag.git",
-  "version": "0.0.1"
 }
 ,
 {
@@ -20622,31 +20487,6 @@
     
   ],
   "version": "0.0.2"
-}
-,
-{
-  "authors": [
-    "Jonathan Worthington <jnthn@jnthn.net>",
-    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com"
-  ],
-  "description": "Module that provides support for ECMA262 regex notation",
-  "license": "Artistic-2.0",
-  "meta-version": "0",
-  "name": "ECMA262Regex",
-  "perl": "6.c",
-  "provides": {
-    "ECMA262Regex": "lib/ECMA262Regex.pm6"
-  },
-  "source-url": "git://github.com/edumentab/p6-ecma262regex.git",
-  "support": {
-    "source": "git://github.com/edumentab/p6-ecma262regex.git"
-  },
-  "tags": [
-    "regex",
-    "regular expressions",
-    "javascript"
-  ],
-  "version": "1.1"
 }
 ,
 {
