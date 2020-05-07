@@ -26970,46 +26970,6 @@
 ,
 {
   "authors": [
-    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "JSON::Pointer",
-    "JSON::Fast",
-    "YAMLish"
-  ],
-  "description": "Work with OpenAPI documents in terms of a set of Perl 6 objects.",
-  "license": "Artistic-2.0",
-  "name": "OpenAPI::Model",
-  "perl": "6.c",
-  "provides": {
-    "OpenAPI::Model": "lib/OpenAPI/Model.pm6",
-    "OpenAPI::Model::Element": "lib/OpenAPI/Model/Element.pm6",
-    "OpenAPI::Model::OpenAPI": "lib/OpenAPI/Model/OpenAPI.pm6",
-    "OpenAPI::Model::PatternedObject": "lib/OpenAPI/Model/PatternedObject.pm6",
-    "OpenAPI::Model::Reference": "lib/OpenAPI/Model/Reference.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/OpenAPI-Model-1.0.tar.gz",
-  "tags": [
-    "openapi",
-    "oas",
-    "swagger",
-    "parsing",
-    "generation"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "1.0"
-}
-,
-{
-  "authors": [
     "Jonathan Worthington <jonathan@edument.se>"
   ],
   "build-depends": [
