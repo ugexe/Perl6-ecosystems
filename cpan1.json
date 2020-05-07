@@ -36351,53 +36351,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Trait-Traced-0.4.1.tar.gz",
-  "tags": [
-    "trace",
-    "traced",
-    "metamodel"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.4.1"
-}
-,
-{
-  "api": "1",
-  "auth": "github:Kaiepi",
-  "authors": [
-    "Ben Davies"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Kind"
-  ],
-  "description": "Automagic tracing",
-  "license": "Artistic-2.0",
-  "name": "Trait::Traced",
-  "perl": "6.d",
-  "provides": {
-    "MetamodelX::Traced::AdHocMethod": "lib/MetamodelX/Traced/AdHocMethod.pm6",
-    "MetamodelX::Traced::AttributeContainer": "lib/MetamodelX/Traced/AttributeContainer.pm6",
-    "MetamodelX::Traced::MetaMethodContainer": "lib/MetamodelX/Traced/MetaMethodContainer.pm6",
-    "MetamodelX::Traced::MethodContainer": "lib/MetamodelX/Traced/MethodContainer.pm6",
-    "MetamodelX::Traced::MultiMethodContainer": "lib/MetamodelX/Traced/MultiMethodContainer.pm6",
-    "MetamodelX::Traced::PrivateMethodContainer": "lib/MetamodelX/Traced/PrivateMethodContainer.pm6",
-    "Traced": "lib/Traced.pm6",
-    "Traced::Attribute": "lib/Traced/Attribute.pm6",
-    "Traced::Routine": "lib/Traced/Routine.pm6",
-    "Traced::Stash": "lib/Traced/Stash.pm6",
-    "Traced::Variable": "lib/Traced/Variable.pm6",
-    "Tracer": "lib/Tracer.pm6",
-    "Tracer::Default": "lib/Tracer/Default.pm6",
-    "Trait::Traced": "lib/Trait/Traced.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Trait-Traced-0.4.2.tar.gz",
   "tags": [
     "trace",
@@ -51930,6 +51883,83 @@
     "irc": "irc://irc.freenode.org/#raku"
   },
   "version": "0.48"
+}
+,
+{
+  "auth": "github:niner",
+  "authors": [
+    "Stefan Seifert"
+  ],
+  "build": {
+    "makefile-variables": {
+      "p5helper": {
+        "resource": "libraries/p5helper"
+      },
+      "perlopts": {
+        "run": [
+          "perl",
+          "-MExtUtils::Embed",
+          "-e",
+          "ccopts",
+          "-e",
+          "ldopts"
+        ]
+      }
+    }
+  },
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": {
+    "build": {
+      "requires": [
+        "Distribution::Builder::MakeFromJSON:ver<0.6+>",
+        {
+          "from": "bin",
+          "name": "perl"
+        }
+      ]
+    },
+    "runtime": {
+      "requires": [
+        "perl:from<native>"
+      ]
+    },
+    "test": {
+      "requires": [
+        "File::Temp"
+      ]
+    }
+  },
+  "description": "Use Perl 5 code in a Raku program",
+  "license": "Artistic-2.0",
+  "meta-version": 1,
+  "name": "Inline::Perl5",
+  "perl": "6.c",
+  "provides": {
+    "Inline::Language::ObjectKeeper": "lib/Inline/Language/ObjectKeeper.pm6",
+    "Inline::Perl5": "lib/Inline/Perl5.pm6",
+    "Inline::Perl5::Array": "lib/Inline/Perl5/Array.pm6",
+    "Inline::Perl5::Attributes": "lib/Inline/Perl5/Attributes.pm6",
+    "Inline::Perl5::Callable": "lib/Inline/Perl5/Callable.pm6",
+    "Inline::Perl5::Caller": "lib/Inline/Perl5/Caller.pm6",
+    "Inline::Perl5::ClassHOW": "lib/Inline/Perl5/ClassHOW.pm6",
+    "Inline::Perl5::FindBestDispatchee::Full": "lib/Inline/Perl5/FindBestDispatchee/Full.pm6",
+    "Inline::Perl5::FindBestDispatchee::Light": "lib/Inline/Perl5/FindBestDispatchee/Light.pm6",
+    "Inline::Perl5::FindBestDispatchee::Medium": "lib/Inline/Perl5/FindBestDispatchee/Medium.pm6",
+    "Inline::Perl5::Hash": "lib/Inline/Perl5/Hash.pm6",
+    "Inline::Perl5::Interpreter": "lib/Inline/Perl5/Interpreter.pm6",
+    "Inline::Perl5::Perl5Class": "lib/Inline/Perl5/Perl5Class.rakumod",
+    "Inline::Perl5::TypeGlob": "lib/Inline/Perl5/TypeGlob.pm6",
+    "v5-inline": "lib/v5-inline.pm6"
+  },
+  "repo-type": "git",
+  "resources": [
+    "libraries/p5helper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.49.tar.gz",
+  "support": {
+    "irc": "irc://irc.freenode.org/#raku"
+  },
+  "version": "0.49"
 }
 ,
 {
