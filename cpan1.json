@@ -27030,6 +27030,43 @@
   "depends": [
     "Cro::Core",
     "JSON::Pointer",
+    "DateTime::Parse",
+    "ECMA262Regex"
+  ],
+  "description": "Validate a value or data structure against an OpenAPI schema.",
+  "license": "Artistic-2.0",
+  "name": "OpenAPI::Schema::Validate",
+  "perl": "6.c",
+  "provides": {
+    "OpenAPI::Schema::Validate": "lib/OpenAPI/Schema/Validate.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/OpenAPI-Schema-Validate-1.0.7.tar.gz",
+  "tags": [
+    "openapi",
+    "oas",
+    "swagger",
+    "schema",
+    "validation"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.7"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jonathan@edument.se>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::Core",
+    "JSON::Pointer",
     "DateTime::Parse"
   ],
   "description": "Validate a value or data structure against an OpenAPI schema.",
