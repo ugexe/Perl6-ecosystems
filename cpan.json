@@ -68924,6 +68924,47 @@
 {
   "auth": "github:vrurg",
   "authors": [
+    "Vadim Belman <vrurg@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "AttrX::Mooish"
+  ],
+  "description": "Asynchronous threaded workers",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Async::Workers",
+  "perl": "6.d",
+  "production": true,
+  "provides": {
+    "Async::Msg": "lib/Async/Msg.pm6",
+    "Async::Workers": "lib/Async/Workers.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/Async-Workers-v0.1.0.tar.gz",
+  "support": {
+    "source": "https://github.com/vrurg/raku-Async-Workers.git"
+  },
+  "tags": [
+    "threads",
+    "async"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::Async",
+    "Test::META",
+    "Test::When"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "auth": "github:vrurg",
+  "authors": [
     "Vadim Belman"
   ],
   "description": "Extending attribute functionality with ideas from Moo/Moose",
