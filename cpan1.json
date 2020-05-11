@@ -3876,6 +3876,45 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "depends": {
+    "test": {
+      "requires": [
+        "Test",
+        "Test::When"
+      ]
+    }
+  },
+  "description": "Raku 'is enum' trait for enumerated types in CStruct classes",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Trait::Enum",
+  "perl": "6.c",
+  "provides": {
+    "Trait::Enum": "lib/Trait/Enum.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/Trait-Enum-0.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-trait-enum/issues",
+    "email": "curt@tilmes.org",
+    "source": "https://github.com/CurtTilmes/raku-trait-enum.git"
+  },
+  "tags": [
+    "TRAIT",
+    "ENUM"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When"
+  ],
+  "version": "0.1"
+}
+,
+{
   "authors": [
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
   ],
