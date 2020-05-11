@@ -22117,6 +22117,46 @@
     
   ],
   "depends": [
+    "Date::Calendar::Strftime"
+  ],
+  "description": "Conversions from / to the French Revolutionary calendar",
+  "license": "Artistic-2.0",
+  "name": "Date::Calendar::FrenchRevolutionary",
+  "perl": "6.c",
+  "provides": {
+    "Date::Calendar::FrenchRevolutionary": "lib/Date/Calendar/FrenchRevolutionary.pm6",
+    "Date::Calendar::FrenchRevolutionary::Arithmetic": "lib/Date/Calendar/FrenchRevolutionary/Arithmetic.pm6",
+    "Date::Calendar::FrenchRevolutionary::Astronomical": "lib/Date/Calendar/FrenchRevolutionary/Astronomical.pm6",
+    "Date::Calendar::FrenchRevolutionary::Common": "lib/Date/Calendar/FrenchRevolutionary/Common.pm6",
+    "Date::Calendar::FrenchRevolutionary::Names": "lib/Date/Calendar/FrenchRevolutionary/Names.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-FrenchRevolutionary-0.0.5.tar.gz",
+  "support": {
+    "email": "JFORGET@cpan.org"
+  },
+  "tags": [
+    "date",
+    "calendar",
+    "fun"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:JFORGET",
+  "authors": [
+    "Jean Forget"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Date::Names",
     "Date::Calendar::Strftime"
   ],
@@ -26652,6 +26692,34 @@
     "Server"
   ],
   "version": "0.8.2.2"
+}
+,
+{
+  "auth": "Edument",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP",
+    "DB::Pg",
+    "JSON::Fast"
+  ],
+  "description": "Cro session storage middleware using Postgres.",
+  "license": "Artistic-2.0",
+  "name": "Cro::HTTP::Session::Pg",
+  "perl": "6.*",
+  "provides": {
+    "Cro::HTTP::Session::Pg": "lib/Cro/HTTP/Session/Pg.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-HTTP-Session-Pg-0.1.tar.gz",
+  "test-depends": [
+    "Cro::HTTP::Test",
+    "Test::Mock"
+  ],
+  "version": "0.1"
 }
 ,
 {
