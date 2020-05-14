@@ -22042,46 +22042,6 @@
 }
 ,
 {
-  "auth": "github:JFORGET",
-  "authors": [
-    "Jean Forget"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Conversions from / to the French Revolutionary calendar",
-  "license": "Artistic-2.0",
-  "name": "Date::Calendar::FrenchRevolutionary",
-  "perl": "6.c",
-  "provides": {
-    "Date::Calendar::FrenchRevolutionary": "lib/Date/Calendar/FrenchRevolutionary.pm6",
-    "Date::Calendar::FrenchRevolutionary::Arithmetic": "lib/Date/Calendar/FrenchRevolutionary/Arithmetic.pm6",
-    "Date::Calendar::FrenchRevolutionary::Astronomical": "lib/Date/Calendar/FrenchRevolutionary/Astronomical.pm6",
-    "Date::Calendar::FrenchRevolutionary::Common": "lib/Date/Calendar/FrenchRevolutionary/Common.pm6",
-    "Date::Calendar::FrenchRevolutionary::Names": "lib/Date/Calendar/FrenchRevolutionary/Names.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-FrenchRevolutionary-0.0.1.tar.gz",
-  "support": {
-    "email": "JFORGET@cpan.org"
-  },
-  "tags": [
-    "date",
-    "calendar",
-    "fun"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
   "auth": "cpan:JFORGET",
   "authors": [
     "Jean Forget"
@@ -52920,138 +52880,6 @@
   "resources": [
     "libraries/p5helper"
   ],
-  "source-url": "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.48.tar.gz",
-  "support": {
-    "irc": "irc://irc.freenode.org/#raku"
-  },
-  "test-depends": [
-    "File::Temp"
-  ],
-  "version": "0.48"
-}
-,
-{
-  "auth": "github:niner",
-  "authors": [
-    "Stefan Seifert"
-  ],
-  "build": {
-    "makefile-variables": {
-      "p5helper": {
-        "resource": "libraries/p5helper"
-      },
-      "perlopts": {
-        "run": [
-          "perl",
-          "-MExtUtils::Embed",
-          "-e",
-          "ccopts",
-          "-e",
-          "ldopts"
-        ]
-      }
-    }
-  },
-  "build-depends": [
-    "Distribution::Builder::MakeFromJSON:ver<0.6+>",
-    "perl"
-  ],
-  "builder": "Distribution::Builder::MakeFromJSON",
-  "depends": [
-    
-  ],
-  "description": "Use Perl 5 code in a Raku program",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "Inline::Perl5",
-  "perl": "6.c",
-  "provides": {
-    "Inline::Language::ObjectKeeper": "lib/Inline/Language/ObjectKeeper.pm6",
-    "Inline::Perl5": "lib/Inline/Perl5.pm6",
-    "Inline::Perl5::Array": "lib/Inline/Perl5/Array.pm6",
-    "Inline::Perl5::Attributes": "lib/Inline/Perl5/Attributes.pm6",
-    "Inline::Perl5::Callable": "lib/Inline/Perl5/Callable.pm6",
-    "Inline::Perl5::Caller": "lib/Inline/Perl5/Caller.pm6",
-    "Inline::Perl5::ClassHOW": "lib/Inline/Perl5/ClassHOW.pm6",
-    "Inline::Perl5::FindBestDispatchee::Full": "lib/Inline/Perl5/FindBestDispatchee/Full.pm6",
-    "Inline::Perl5::FindBestDispatchee::Light": "lib/Inline/Perl5/FindBestDispatchee/Light.pm6",
-    "Inline::Perl5::FindBestDispatchee::Medium": "lib/Inline/Perl5/FindBestDispatchee/Medium.pm6",
-    "Inline::Perl5::Hash": "lib/Inline/Perl5/Hash.pm6",
-    "Inline::Perl5::Interpreter": "lib/Inline/Perl5/Interpreter.pm6",
-    "Inline::Perl5::Perl5Class": "lib/Inline/Perl5/Perl5Class.rakumod",
-    "Inline::Perl5::TypeGlob": "lib/Inline/Perl5/TypeGlob.pm6",
-    "v5-inline": "lib/v5-inline.pm6"
-  },
-  "repo-type": "git",
-  "resources": [
-    "libraries/p5helper"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.49.tar.gz",
-  "support": {
-    "irc": "irc://irc.freenode.org/#raku"
-  },
-  "test-depends": [
-    "File::Temp"
-  ],
-  "version": "0.49"
-}
-,
-{
-  "auth": "github:niner",
-  "authors": [
-    "Stefan Seifert"
-  ],
-  "build": {
-    "makefile-variables": {
-      "p5helper": {
-        "resource": "libraries/p5helper"
-      },
-      "perlopts": {
-        "run": [
-          "perl",
-          "-MExtUtils::Embed",
-          "-e",
-          "ccopts",
-          "-e",
-          "ldopts"
-        ]
-      }
-    }
-  },
-  "build-depends": [
-    "Distribution::Builder::MakeFromJSON:ver<0.6+>",
-    "perl"
-  ],
-  "builder": "Distribution::Builder::MakeFromJSON",
-  "depends": [
-    
-  ],
-  "description": "Use Perl 5 code in a Raku program",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "Inline::Perl5",
-  "perl": "6.c",
-  "provides": {
-    "Inline::Language::ObjectKeeper": "lib/Inline/Language/ObjectKeeper.pm6",
-    "Inline::Perl5": "lib/Inline/Perl5.pm6",
-    "Inline::Perl5::Array": "lib/Inline/Perl5/Array.pm6",
-    "Inline::Perl5::Attributes": "lib/Inline/Perl5/Attributes.pm6",
-    "Inline::Perl5::Callable": "lib/Inline/Perl5/Callable.pm6",
-    "Inline::Perl5::Caller": "lib/Inline/Perl5/Caller.pm6",
-    "Inline::Perl5::ClassHOW": "lib/Inline/Perl5/ClassHOW.pm6",
-    "Inline::Perl5::FindBestDispatchee::Full": "lib/Inline/Perl5/FindBestDispatchee/Full.pm6",
-    "Inline::Perl5::FindBestDispatchee::Light": "lib/Inline/Perl5/FindBestDispatchee/Light.pm6",
-    "Inline::Perl5::FindBestDispatchee::Medium": "lib/Inline/Perl5/FindBestDispatchee/Medium.pm6",
-    "Inline::Perl5::Hash": "lib/Inline/Perl5/Hash.pm6",
-    "Inline::Perl5::Interpreter": "lib/Inline/Perl5/Interpreter.pm6",
-    "Inline::Perl5::Perl5Class": "lib/Inline/Perl5/Perl5Class.rakumod",
-    "Inline::Perl5::TypeGlob": "lib/Inline/Perl5/TypeGlob.pm6",
-    "v5-inline": "lib/v5-inline.pm6"
-  },
-  "repo-type": "git",
-  "resources": [
-    "libraries/p5helper"
-  ],
   "source-url": "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Perl5-0.50.tar.gz",
   "support": {
     "irc": "irc://irc.freenode.org/#raku"
@@ -72236,6 +72064,61 @@
     
   ],
   "version": "0.0.11"
+}
+,
+{
+  "auth": "github:vrurg",
+  "authors": [
+    "Vadim Belman <vrurg@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Thread-safe testing framework",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Test::Async",
+  "perl": "6.d",
+  "production": true,
+  "provides": {
+    "Test::Async": "lib/Test/Async.rakumod",
+    "Test::Async::Aggregator": "lib/Test/Async/Aggregator.rakumod",
+    "Test::Async::Base": "lib/Test/Async/Base.rakumod",
+    "Test::Async::Decl": "lib/Test/Async/Decl.rakumod",
+    "Test::Async::Event": "lib/Test/Async/Event.rakumod",
+    "Test::Async::Hub": "lib/Test/Async/Hub.rakumod",
+    "Test::Async::Job": "lib/Test/Async/Job.rakumod",
+    "Test::Async::JobMgr": "lib/Test/Async/JobMgr.rakumod",
+    "Test::Async::Metamodel::BundleClassHOW": "lib/Test/Async/Metamodel/BundleClassHOW.rakumod",
+    "Test::Async::Metamodel::BundleHOW": "lib/Test/Async/Metamodel/BundleHOW.rakumod",
+    "Test::Async::Metamodel::HubHOW": "lib/Test/Async/Metamodel/HubHOW.rakumod",
+    "Test::Async::Metamodel::ReporterHOW": "lib/Test/Async/Metamodel/ReporterHOW.rakumod",
+    "Test::Async::Reporter": "lib/Test/Async/Reporter.rakumod",
+    "Test::Async::Reporter::TAP": "lib/Test/Async/Reporter/TAP.rakumod",
+    "Test::Async::Result": "lib/Test/Async/Result.rakumod",
+    "Test::Async::TestTool": "lib/Test/Async/TestTool.rakumod",
+    "Test::Async::Utils": "lib/Test/Async/Utils.rakumod",
+    "Test::Async::When": "lib/Test/Async/When.rakumod",
+    "Test::Async::X": "lib/Test/Async/X.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/Test-Async-v0.0.12.tar.gz",
+  "support": {
+    "source": "https://github.com/vrurg/raku-Test-Async.git"
+  },
+  "tags": [
+    "TESTING",
+    "ASYNC"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.12"
 }
 ,
 {
