@@ -72189,6 +72189,61 @@
     "Vadim Belman <vrurg@cpan.org>"
   ],
   "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Thread-safe testing framework",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Test::Async",
+  "perl": "6.d",
+  "production": true,
+  "provides": {
+    "Test::Async": "lib/Test/Async.rakumod",
+    "Test::Async::Aggregator": "lib/Test/Async/Aggregator.rakumod",
+    "Test::Async::Base": "lib/Test/Async/Base.rakumod",
+    "Test::Async::Decl": "lib/Test/Async/Decl.rakumod",
+    "Test::Async::Event": "lib/Test/Async/Event.rakumod",
+    "Test::Async::Hub": "lib/Test/Async/Hub.rakumod",
+    "Test::Async::Job": "lib/Test/Async/Job.rakumod",
+    "Test::Async::JobMgr": "lib/Test/Async/JobMgr.rakumod",
+    "Test::Async::Metamodel::BundleClassHOW": "lib/Test/Async/Metamodel/BundleClassHOW.rakumod",
+    "Test::Async::Metamodel::BundleHOW": "lib/Test/Async/Metamodel/BundleHOW.rakumod",
+    "Test::Async::Metamodel::HubHOW": "lib/Test/Async/Metamodel/HubHOW.rakumod",
+    "Test::Async::Metamodel::ReporterHOW": "lib/Test/Async/Metamodel/ReporterHOW.rakumod",
+    "Test::Async::Reporter": "lib/Test/Async/Reporter.rakumod",
+    "Test::Async::Reporter::TAP": "lib/Test/Async/Reporter/TAP.rakumod",
+    "Test::Async::Result": "lib/Test/Async/Result.rakumod",
+    "Test::Async::TestTool": "lib/Test/Async/TestTool.rakumod",
+    "Test::Async::Utils": "lib/Test/Async/Utils.rakumod",
+    "Test::Async::When": "lib/Test/Async/When.rakumod",
+    "Test::Async::X": "lib/Test/Async/X.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/Test-Async-v0.0.11.tar.gz",
+  "support": {
+    "source": "https://github.com/vrurg/raku-Test-Async.git"
+  },
+  "tags": [
+    "TESTING",
+    "ASYNC"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.11"
+}
+,
+{
+  "auth": "github:vrurg",
+  "authors": [
+    "Vadim Belman <vrurg@cpan.org>"
+  ],
+  "build-depends": [
     "META6",
     "p6doc",
     "Pod::To::Markdown"
