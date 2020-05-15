@@ -1,5 +1,41 @@
 [
 {
+  "auth": "github:khalidelboray",
+  "authors": [
+    "Khalid Elboray"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP"
+  ],
+  "description": "A Raku module for the OWASP ZAP API.",
+  "license": "Artistic-2.0",
+  "name": "Zap",
+  "perl": "6.*",
+  "provides": {
+    "Zap": "lib/Zap.pm6",
+    "Zap::Client": "lib/Zap/Client.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/khalidelboray/zap-api-raku.git",
+  "tags": [
+    "proxy",
+    "OWASP",
+    "API",
+    "security",
+    "web"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1"
+}
+,
+{
   "api": "*",
   "auth": "github:hythm7",
   "authors": [
