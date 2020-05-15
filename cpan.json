@@ -66486,6 +66486,24 @@
 ,
 {
   "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "description": "A Raku Grammar to parse D&D style dice rolls",
+  "license": "AGPL-3.0-or-later",
+  "name": "Grammar::DiceRolls",
+  "perl": "6.d",
+  "provides": {
+    "Grammar::DiceRolls": "lib/Grammar/DiceRolls.rakumod",
+    "Grammar::DiceRolls::CountActions": "lib/Grammar/DiceRolls/CountActions.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Grammar-DiceRolls-0.1.0.tar.gz",
+  "version": "0.1.0"
+}
+,
+{
+  "api": "0",
   "authors": [
     "Patrick Spek <p.spek@tyil.work>"
   ],
@@ -66905,6 +66923,23 @@
 }
 ,
 {
+  "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "description": "A plugin for IRC::Client to do D&D-style dice rolls",
+  "license": "AGPL-3.0-or-later",
+  "name": "IRC::Client::Plugin::DiceRolls",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Client::Plugin::DiceRolls": "lib/IRC/Client/Plugin/DiceRolls.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IRC-Client-Plugin-DiceRolls-0.0.0.tar.gz",
+  "version": "0.0.0"
+}
+,
+{
   "auth": "github:scriptkitties",
   "authors": [
     "Patrick Spek <p.spek@tyil.work>"
@@ -67086,6 +67121,31 @@
     
   ],
   "version": "0.2.1"
+}
+,
+{
+  "api": "0",
+  "authors": "Patrick Spek <p.spek@tyil.work>",
+  "depends": [
+    "Config",
+    "IRC::Client"
+  ],
+  "description": "Nondescript",
+  "license": "GPL-3.0",
+  "meta-version": 0,
+  "name": "IRC::Client::Plugin::NickServ",
+  "perl": "6.c",
+  "provides": {
+    "IRC::Client::Plugin::NickServ": "lib/IRC/Client/Plugin/NickServ.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IRC-Client-Plugin-NickServ-0.3.0.tar.gz",
+  "tags": [
+    
+  ],
+  "version": "0.3.0"
 }
 ,
 {
@@ -67271,6 +67331,86 @@
     
   ],
   "version": "1.1.3"
+}
+,
+{
+  "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "description": "An interface for logging mechanisms to adhere to",
+  "license": "LGPL-3.0-only",
+  "name": "Log",
+  "perl": "6.d",
+  "provides": {
+    "Log": "lib/Log.rakumod",
+    "Log::Level": "lib/Log/Level.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Log-0.1.0.tar.gz",
+  "version": "0.1.0"
+}
+,
+{
+  "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "depends": [
+    "Log",
+    "Terminal::ANSIColor"
+  ],
+  "description": "A Log implementation with colored output",
+  "license": "LGPL-3.0-only",
+  "name": "Log::Colored",
+  "perl": "6.d",
+  "provides": {
+    "Log::Colored": "lib/Log/Colored.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Log-Colored-0.1.0.tar.gz",
+  "version": "0.1.0"
+}
+,
+{
+  "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "depends": [
+    "JSON::Fast",
+    "Log"
+  ],
+  "description": "A Log implementation with JSON formatted output",
+  "license": "LGPL-3.0-only",
+  "name": "Log::JSON",
+  "perl": "6.d",
+  "provides": {
+    "Log::JSON": "lib/Log/JSON.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Log-JSON-0.1.0.tar.gz",
+  "version": "0.1.0"
+}
+,
+{
+  "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "depends": [
+    "Log"
+  ],
+  "description": "A simple logging library for Raku",
+  "license": "AGPL-3.0",
+  "name": "Log::Simple",
+  "perl": "6.d",
+  "provides": {
+    "Log::Simple": "lib/Log/Simple.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Log-Simple-0.1.0.tar.gz",
+  "version": "0.1.0"
 }
 ,
 {
