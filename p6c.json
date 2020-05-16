@@ -906,18 +906,22 @@
 }
 ,
 {
+  "authors": [
+    "Filip Sergot"
+  ],
   "depends": [
     
   ],
-  "description": "IO can be captured",
+  "description": "IO can be captured and tested",
+  "license": "Artistic-2.0",
   "name": "IO::Capture::Simple",
-  "perl": "6.*",
+  "perl": "6.c",
   "provides": {
-    "IO::Capture::Simple": "lib/IO/Capture/Simple.pm",
-    "Test::IO::Capture": "lib/Test/IO/Capture.pm"
+    "IO::Capture::Simple": "lib/IO/Capture/Simple.pm6",
+    "Test::IO::Capture": "lib/Test/IO/Capture.pm6"
   },
-  "source-url": "git://github.com/sergot/IO-Capture-Simple.git",
-  "version": "*"
+  "source-url": "git://github.com/JJ/raku-io-capture-simple.git",
+  "version": "v0.0.1"
 }
 ,
 {
