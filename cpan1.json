@@ -54316,6 +54316,36 @@
   "authors": [
     "Robert Lemmen <robertle@semistable.com>"
   ],
+  "depends": [
+    "Terminal::ANSIColor"
+  ],
+  "description": "Cucumber-like Behavior-Driven Development (BDD) Test Framework",
+  "license": "Artistic-2.0",
+  "name": "CucumisSextus",
+  "perl": "6.c",
+  "provides": {
+    "CucumisSextus::Core": "lib/CucumisSextus/Core.rakumod",
+    "CucumisSextus::Gherkin": "lib/CucumisSextus/Gherkin.rakumod",
+    "CucumisSextus::Glue": "lib/CucumisSextus/Glue.rakumod",
+    "CucumisSextus::I18n": "lib/CucumisSextus/I18n.rakumod",
+    "CucumisSextus::Reporter": "lib/CucumisSextus/Reporter.rakumod",
+    "CucumisSextus::Reporter::Null": "lib/CucumisSextus/Reporter/Null.rakumod",
+    "CucumisSextus::Reporter::Simple": "lib/CucumisSextus/Reporter/Simple.rakumod",
+    "CucumisSextus::Tags": "lib/CucumisSextus/Tags.rakumod",
+    "X::CucumisSextus::FeatureExecFailure": "lib/X/CucumisSextus/FeatureExecFailure.rakumod",
+    "X::CucumisSextus::FeatureParseFailure": "lib/X/CucumisSextus/FeatureParseFailure.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/R/RO/ROBERTLE/Perl6/raku-cucumis-sextus-0.2.tar.gz",
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.2"
+}
+,
+{
+  "authors": [
+    "Robert Lemmen <robertle@semistable.com>"
+  ],
   "description": "A lock with shared/exclusive access modes",
   "license": "Artistic-2.0",
   "name": "ReadWriteLock",
