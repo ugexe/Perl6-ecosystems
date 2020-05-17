@@ -19828,7 +19828,7 @@
     
   ],
   "depends": [
-    "Net::ZMQ:auth('github:gabrielash')",
+    "Net::ZMQ:auth<github:gabrielash>",
     "JSON::Tiny"
   ],
   "description": "Perl6 zmq-based logging",
@@ -20260,7 +20260,7 @@
     "Test::META"
   ],
   "depends": [
-    "Net::ZMQ:auth('github:gabrielash')",
+    "Net::ZMQ:auth<github:gabrielash>",
     "Log::ZMQ",
     "JSON::Tiny",
     "MIME::Base64",
