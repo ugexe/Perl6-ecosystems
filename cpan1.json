@@ -54427,6 +54427,29 @@
 ,
 {
   "authors": [
+    "Robert Lemmen <robertle@semistable.com>"
+  ],
+  "depends": [
+    "Cro::HTTP",
+    "JSON::Fast",
+    "YAMLish"
+  ],
+  "description": "Artifact repository for Perl 6 and friends",
+  "license": "Artistic-2.0",
+  "name": "Shelve6",
+  "perl": "6.c",
+  "provides": {
+    
+  },
+  "source-url": "http://www.cpan.org/authors/id/R/RO/ROBERTLE/Perl6/svc-shelve6-0.2.tar.gz",
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.2"
+}
+,
+{
+  "authors": [
     "Ron Schmidt"
   ],
   "depends": [
