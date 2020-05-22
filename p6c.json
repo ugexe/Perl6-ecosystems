@@ -2118,62 +2118,6 @@
 ,
 {
   "depends": [
-    "PSGI"
-  ],
-  "description": "A FastCGI library for Perl 6",
-  "name": "FastCGI",
-  "perl": "6.*",
-  "provides": {
-    "FastCGI": "lib/FastCGI.pm6",
-    "FastCGI::Connection": "lib/FastCGI/Connection.pm6",
-    "FastCGI::Constants": "lib/FastCGI/Constants.pm6",
-    "FastCGI::Errors": "lib/FastCGI/Errors.pm6",
-    "FastCGI::Logger": "lib/FastCGI/Logger.pm6",
-    "FastCGI::Protocol": "lib/FastCGI/Protocol.pm6",
-    "FastCGI::Protocol::Constants": "lib/FastCGI/Protocol/Constants.pm6",
-    "FastCGI::Request": "lib/FastCGI/Request.pm6"
-  },
-  "source-url": "git://github.com/supernovus/perl6-fastcgi.git",
-  "version": "0.9.0"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "Parse a mime.types file, and query the results",
-  "name": "MIME::Types",
-  "perl": "6.*",
-  "provides": {
-    "MIME::Types": "lib/MIME/Types.pm6"
-  },
-  "source-url": "git://github.com/supernovus/perl6-mime-types.git",
-  "version": "*"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "A template engine inspired by TT.",
-  "name": "Template6",
-  "perl": "6.*",
-  "provides": {
-    "Template6": "lib/Template6.pm6",
-    "Template6::Context": "lib/Template6/Context.pm6",
-    "Template6::Parser": "lib/Template6/Parser.pm6",
-    "Template6::Provider": "lib/Template6/Provider.pm6",
-    "Template6::Provider::File": "lib/Template6/Provider/File.pm6",
-    "Template6::Provider::String": "lib/Template6/Provider/String.pm6",
-    "Template6::Service": "lib/Template6/Service.pm6",
-    "Template6::Stash": "lib/Template6/Stash.pm6"
-  },
-  "source-url": "git://github.com/supernovus/template6.git",
-  "version": "0.10.0"
-}
-,
-{
-  "depends": [
     
   ],
   "description": "Build simple text-based tables for field listings.",
@@ -18706,31 +18650,6 @@
     "Mark Rushing"
   ],
   "depends": [
-    
-  ],
-  "description": "Uncomplicated yet functional and terse user input",
-  "license": "Artistic-2.0",
-  "name": "Prompt::Gruff",
-  "perl": "6.c",
-  "provides": {
-    "Prompt::Gruff": "lib/Prompt/Gruff.pm6",
-    "Prompt::Gruff::Export": "lib/Prompt/Gruff/Export.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/adaptiveoptics/P6-Prompt-Gruff.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "Mark Rushing"
-  ],
-  "depends": [
     "JSON::Fast",
     "LibCurl",
     "Digest::HMAC",
@@ -18868,37 +18787,6 @@
     
   ],
   "version": "0.0.4"
-}
-,
-{
-  "authors": [
-    "Steven Albano"
-  ],
-  "depends": [
-    
-  ],
-  "description": "A Grammar for the Modelica programming language.",
-  "name": "Grammar::Modelica",
-  "perl": "6.c",
-  "provides": {
-    "Grammar::Modelica": "lib/Grammar/Modelica.pm6",
-    "Grammar::Modelica::ClassDefinition": "lib/Grammar/Modelica/ClassDefinition.pm6",
-    "Grammar::Modelica::ComponentClause": "lib/Grammar/Modelica/ComponentClause.pm6",
-    "Grammar::Modelica::Equations": "lib/Grammar/Modelica/Equations.pm6",
-    "Grammar::Modelica::Expressions": "lib/Grammar/Modelica/Expressions.pm6",
-    "Grammar::Modelica::Extends": "lib/Grammar/Modelica/Extends.pm6",
-    "Grammar::Modelica::LexicalConventions": "lib/Grammar/Modelica/LexicalConventions.pm6",
-    "Grammar::Modelica::Modification": "lib/Grammar/Modelica/Modification.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/albastev/Grammar-Modelica.git",
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.1.2"
 }
 ,
 {
