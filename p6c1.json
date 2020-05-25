@@ -23972,6 +23972,34 @@
 }
 ,
 {
+  "auth": "github:JJ",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "depends": [
+    
+  ],
+  "description": "A set of white-box tests for scripts",
+  "license": "Artistic-2.0",
+  "meta-version": 1,
+  "name": "Test::Script",
+  "perl": "6.d",
+  "provides": {
+    "Test::Script": "lib/Test/Script.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/JJ/raku-test-script.git",
+  "tags": [
+    "modules",
+    "Test",
+    "script"
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "auth": "Matthew ‘Matéu’ Stephen Stuckwisch",
   "build-depends": [
     
