@@ -67208,6 +67208,24 @@
 ,
 {
   "api": "0",
+  "auth": "cpan:TYIL",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "description": "An interface for logging mechanisms to adhere to",
+  "license": "LGPL-3.0-only",
+  "name": "Log",
+  "perl": "6.d",
+  "provides": {
+    "Log": "lib/Log.rakumod",
+    "Log::Level": "lib/Log/Level.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Log-0.1.1.tar.gz",
+  "version": "0.1.1"
+}
+,
+{
+  "api": "0",
   "auth": "",
   "authors": [
     "Patrick Spek <p.spek@tyil.nl>"
