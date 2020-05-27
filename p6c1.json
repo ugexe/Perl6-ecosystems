@@ -24147,4 +24147,28 @@
   ],
   "version": "0.0.3"
 }
+,
+{
+  "authors": [
+    "Dave Lewis <lewisd@protonmail.com>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Bindings for radamsa, a general-purpose fuzzer https://gitlab.com/akihe/radamsa",
+  "license": "Artistic-2.0",
+  "name": "Radamsa",
+  "perl": "6.c",
+  "provides": {
+    "Radamsa": "lib/radamsa.pm6"
+  },
+  "resources": [
+    "lib/libradamsa.so"
+  ],
+  "source-url": "https://github.com/ddlws/radamsa-raku.git",
+  "tags": [
+    "fuzz"
+  ],
+  "version": "0.0.1"
+}
 ]
