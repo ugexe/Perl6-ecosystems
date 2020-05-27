@@ -53136,6 +53136,50 @@
 }
 ,
 {
+  "auth": "github:retupmoca",
+  "authors": [
+    "github:retupmoca",
+    "Rod Taylor <rbt@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Email::Simple",
+    "MIME::QuotedPrint",
+    "MIME::Base64"
+  ],
+  "description": "Simple MIME email parsing module",
+  "license": "CC0-1.0",
+  "meta-version": "0",
+  "name": "Email::MIME",
+  "perl": "6.*",
+  "provides": {
+    "Email::MIME": "lib/Email/MIME.pm6",
+    "Email::MIME::Encoder::Base64": "lib/Email/MIME/Encoder/Base64.pm6",
+    "Email::MIME::Exceptions": "lib/Email/MIME/Exceptions.pm6",
+    "Email::MIME::Header": "lib/Email/MIME/Header.pm6",
+    "Email::MIME::ParseContentType": "lib/Email/MIME/ParseContentType.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/R/RB/RBT/Perl6/Email-MIME-2.0.3.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/retupmoca/p6-Email-MIME/issues",
+    "email": "rbt@cpan.org",
+    "source": "https://github.com/retupmoca/p6-Email-MIME.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "2.0.3"
+}
+,
+{
   "authors": [
     "Jonathan Scott Duff <duff@pobox.com>"
   ],
