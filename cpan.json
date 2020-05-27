@@ -67355,6 +67355,27 @@
     "Patrick Spek <p.spek@tyil.nl>"
   ],
   "depends": [
+    "JSON::Fast",
+    "Log:auth<cpan:TYIL>"
+  ],
+  "description": "A Log implementation with JSON formatted output",
+  "license": "LGPL-3.0-only",
+  "name": "Log::JSON",
+  "perl": "6.d",
+  "provides": {
+    "Log::JSON": "lib/Log/JSON.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Log-JSON-0.2.0.tar.gz",
+  "version": "0.2.0"
+}
+,
+{
+  "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "depends": [
     "Log"
   ],
   "description": "A simple logging library for Raku",
