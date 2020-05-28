@@ -3803,6 +3803,74 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "depends": [
+    "HTTP::UserAgent"
+  ],
+  "description": "Native Compiling for Raku Modules",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Native::Compile",
+  "perl": "6.c",
+  "provides": {
+    "Native::Compile": "lib/Native/Compile.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/Native-Compile-0.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-native-compile/issues",
+    "email": "curt@tilmes.org",
+    "source": "https://github.com/CurtTilmes/raku-native-compile.git"
+  },
+  "tags": [
+    "COMPILING",
+    "BUILD"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When"
+  ],
+  "version": "0.1"
+}
+,
+{
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "depends": [
+    "HTTP::UserAgent"
+  ],
+  "description": "Native Compiling for Raku Modules",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Native::Compile",
+  "perl": "6.c",
+  "provides": {
+    "Native::Compile": "lib/Native/Compile.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/Native-Compile-0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-native-compile/issues",
+    "email": "curt@tilmes.org",
+    "source": "https://github.com/CurtTilmes/raku-native-compile.git"
+  },
+  "tags": [
+    "COMPILING",
+    "BUILD"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When"
+  ],
+  "version": "0.2"
+}
+,
+{
   "authors": [
     "Curt Tilmes <ctilmes@cpan.org>"
   ],
@@ -73200,6 +73268,50 @@
     
   ],
   "version": "0.2.1"
+}
+,
+{
+  "auth": "github:pdf-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Pod::To::Markdown"
+  ],
+  "depends": [
+    
+  ],
+  "description": "read font files and render glyphs from Raku using FreeType2",
+  "license": "Artistic-2.0",
+  "name": "Font::FreeType",
+  "perl": "6",
+  "provides": {
+    "Font::FreeType": "lib/Font/FreeType.rakumod",
+    "Font::FreeType::BBox": "lib/Font/FreeType/BBox.rakumod",
+    "Font::FreeType::BitMap": "lib/Font/FreeType/BitMap.rakumod",
+    "Font::FreeType::CharMap": "lib/Font/FreeType/CharMap.rakumod",
+    "Font::FreeType::Error": "lib/Font/FreeType/Error.rakumod",
+    "Font::FreeType::Face": "lib/Font/FreeType/Face.rakumod",
+    "Font::FreeType::Glyph": "lib/Font/FreeType/Glyph.rakumod",
+    "Font::FreeType::GlyphImage": "lib/Font/FreeType/GlyphImage.rakumod",
+    "Font::FreeType::NamedInfo": "lib/Font/FreeType/NamedInfo.rakumod",
+    "Font::FreeType::Native": "lib/Font/FreeType/Native.rakumod",
+    "Font::FreeType::Native::Defs": "lib/Font/FreeType/Native/Defs.rakumod",
+    "Font::FreeType::Outline": "lib/Font/FreeType/Outline.rakumod"
+  },
+  "resources": [
+    "libraries/ft6"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.2.3.tar.gz",
+  "tags": [
+    "font",
+    "freetype"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.3"
 }
 ,
 {
