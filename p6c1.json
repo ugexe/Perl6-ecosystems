@@ -8,6 +8,39 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "A module to slugify strings.",
+  "license": "Artistic-2.0",
+  "name": "Text::Slugify",
+  "perl": "6.c",
+  "provides": {
+    "Text::Slugify": "lib/Text/Slugify.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/khalidelboray/raku-text-slugify.git",
+  "tags": [
+    "slug",
+    "text",
+    "slugify"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:khalidelboray",
+  "authors": [
+    "Khalid Elboray"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Cro::HTTP"
   ],
   "description": "A Raku module for the OWASP ZAP API.",
