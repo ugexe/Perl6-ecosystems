@@ -72781,6 +72781,102 @@
 }
 ,
 {
+  "auth": "github:vrurg",
+  "authors": [
+    "Vadim Belman <vrurg@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Template::Mustache",
+    "DB::SQLite",
+    "Terminal::Print",
+    "AttrX::Mooish:ver<0.7.3+>",
+    "Color",
+    "Color::Names",
+    "Cache::Async",
+    "Concurrent::PChannel",
+    "Hash::Merge"
+  ],
+  "description": "Console UI toolkit",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Vikna",
+  "perl": "6.e",
+  "production": true,
+  "provides": {
+    "Vikna": "lib/Vikna.rakumod",
+    "Vikna::App": "lib/Vikna/App.rakumod",
+    "Vikna::Border": "lib/Vikna/Border.rakumod",
+    "Vikna::Button": "lib/Vikna/Button.rakumod",
+    "Vikna::CAttr": "lib/Vikna/CAttr.rakumod",
+    "Vikna::Canvas": "lib/Vikna/Canvas.rakumod",
+    "Vikna::Child": "lib/Vikna/Child.rakumod",
+    "Vikna::Color": "lib/Vikna/Color.rakumod",
+    "Vikna::Color::Index": "lib/Vikna/Color/Index.rakumod",
+    "Vikna::Color::Named": "lib/Vikna/Color/Named.rakumod",
+    "Vikna::Color::RGB": "lib/Vikna/Color/RGB.rakumod",
+    "Vikna::Color::RGBA": "lib/Vikna/Color/RGBA.rakumod",
+    "Vikna::CommandHandling": "lib/Vikna/CommandHandling.rakumod",
+    "Vikna::Coord": "lib/Vikna/Coord.rakumod",
+    "Vikna::Desktop": "lib/Vikna/Desktop.rakumod",
+    "Vikna::Dev::Kbd": "lib/Vikna/Dev/Kbd.rakumod",
+    "Vikna::Dev::Mouse": "lib/Vikna/Dev/Mouse.rakumod",
+    "Vikna::Elevatable": "lib/Vikna/Elevatable.rakumod",
+    "Vikna::EventEmitter": "lib/Vikna/EventEmitter.rakumod",
+    "Vikna::EventHandling": "lib/Vikna/EventHandling.rakumod",
+    "Vikna::Events": "lib/Vikna/Events.rakumod",
+    "Vikna::Focusable": "lib/Vikna/Focusable.rakumod",
+    "Vikna::InputLine": "lib/Vikna/InputLine.rakumod",
+    "Vikna::Label": "lib/Vikna/Label.rakumod",
+    "Vikna::OS": "lib/Vikna/OS.rakumod",
+    "Vikna::OS::unix": "lib/Vikna/OS/unix.rakumod",
+    "Vikna::Object": "lib/Vikna/Object.rakumod",
+    "Vikna::Parent": "lib/Vikna/Parent.rakumod",
+    "Vikna::Point": "lib/Vikna/Point.rakumod",
+    "Vikna::PointerTarget": "lib/Vikna/PointerTarget.rakumod",
+    "Vikna::Rect": "lib/Vikna/Rect.rakumod",
+    "Vikna::Screen": "lib/Vikna/Screen.rakumod",
+    "Vikna::Screen::ANSI": "lib/Vikna/Screen/ANSI.rakumod",
+    "Vikna::Scrollable": "lib/Vikna/Scrollable.rakumod",
+    "Vikna::Test": "lib/Vikna/Test.rakumod",
+    "Vikna::Test::App": "lib/Vikna/Test/App.rakumod",
+    "Vikna::Test::OS": "lib/Vikna/Test/OS.rakumod",
+    "Vikna::Test::Screen": "lib/Vikna/Test/Screen.rakumod",
+    "Vikna::TextScroll": "lib/Vikna/TextScroll.rakumod",
+    "Vikna::Tracer": "lib/Vikna/Tracer.rakumod",
+    "Vikna::Utils": "lib/Vikna/Utils.rakumod",
+    "Vikna::WAttr": "lib/Vikna/WAttr.rakumod",
+    "Vikna::Widget": "lib/Vikna/Widget.rakumod",
+    "Vikna::Widget::Group": "lib/Vikna/Widget/Group.rakumod",
+    "Vikna::Widget::GroupMember": "lib/Vikna/Widget/GroupMember.rakumod",
+    "Vikna::Window": "lib/Vikna/Window.rakumod",
+    "Vikna::X": "lib/Vikna/X.rakumod"
+  },
+  "resources": [
+    "tracer/html.tmpl",
+    "tracer/txt.tmpl",
+    "color-index.json"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/Vikna-v0.0.2.tar.gz",
+  "support": {
+    "source": "https://github.com/vrurg/raku-Vikna"
+  },
+  "tags": [
+    "Vikna",
+    "UI",
+    "console"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::Async",
+    "Test::META"
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "depends": [
     "LibXML",
     "CSS::Module",
