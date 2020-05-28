@@ -67394,6 +67394,27 @@
     "Patrick Spek <p.spek@tyil.nl>"
   ],
   "depends": [
+    "Log:auth<cpan:TYIL>",
+    "Terminal::ANSIColor"
+  ],
+  "description": "A Log implementation with colored output",
+  "license": "LGPL-3.0-only",
+  "name": "Log::Colored",
+  "perl": "6.d",
+  "provides": {
+    "Log::Colored": "lib/Log/Colored.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Log-Colored-0.1.1.tar.gz",
+  "version": "0.1.1"
+}
+,
+{
+  "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "depends": [
     "JSON::Fast",
     "Log"
   ],
@@ -67447,6 +67468,26 @@
   },
   "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Log-Simple-0.1.0.tar.gz",
   "version": "0.1.0"
+}
+,
+{
+  "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "depends": [
+    "Log:auth<cpan:TYIL>"
+  ],
+  "description": "A simple logging library for Raku",
+  "license": "AGPL-3.0",
+  "name": "Log::Simple",
+  "perl": "6.d",
+  "provides": {
+    "Log::Simple": "lib/Log/Simple.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Log-Simple-0.1.1.tar.gz",
+  "version": "0.1.1"
 }
 ,
 {
