@@ -12030,6 +12030,37 @@
   "depends": [
     
   ],
+  "description": "Implement (==) for older Raku versions",
+  "license": "Artistic-2.0",
+  "name": "Set::Equality",
+  "perl": "6.c",
+  "provides": {
+    "Set::Equality": "lib/Set/Equality.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Set-Equality-0.0.1.tar.gz",
+  "tags": [
+    "CORE"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Allow subscripts at the end of identifiers",
   "license": "Artistic-2.0",
   "name": "Slang::Subscripts",
