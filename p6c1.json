@@ -2570,7 +2570,8 @@
     
   ],
   "depends": [
-    "X11::libxdo"
+    "X11::libxdo",
+    "Color::Names"
   ],
   "description": "Get the color of any screen pixel in an X11 environment",
   "license": "Artistic-2.0",
@@ -2591,7 +2592,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "0.5"
+  "version": "0.6"
 }
 ,
 {
