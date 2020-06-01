@@ -11950,6 +11950,21 @@
 {
   "author": "Helmut Wollmersdorfer",
   "depends": [
+    
+  ],
+  "description": "Calculate all Longest Common Subsequences",
+  "name": "LCS::All",
+  "perl": "6.*",
+  "provides": {
+    "LCS::All": "lib/LCS/All.pm"
+  },
+  "source-url": "git://github.com/wollmers/P6-LCS-All.git",
+  "version": "0.2.0"
+}
+,
+{
+  "author": "Helmut Wollmersdorfer",
+  "depends": [
     "LCS::All"
   ],
   "description": "Bit Vector implementation of the Longest Common Subsequence Algorithm",
