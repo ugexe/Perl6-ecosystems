@@ -2245,6 +2245,54 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "Concurrent::Stack"
+      ]
+    },
+    "test": {
+      "requires": [
+        "Test",
+        "Test::When"
+      ]
+    }
+  },
+  "description": "Base roles for DB::* family of SQL Database modules",
+  "license": "BSD-2-Clause",
+  "meta-version": "1",
+  "name": "DB",
+  "perl": "6.c",
+  "provides": {
+    "DB": "lib/DB.rakumod",
+    "DB::Connection": "lib/DB/Connection.rakumod",
+    "DB::Mock": "lib/DB/Mock.rakumod",
+    "DB::Result": "lib/DB/Result.rakumod",
+    "DB::Statement": "lib/DB/Statement.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/DB-0.5.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-db/issues",
+    "email": "curt@tilmes.org",
+    "source": "https://github.com/CurtTilmes/raku-db.git"
+  },
+  "tags": [
+    "DATABASE"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META",
+    "Test::When"
+  ],
+  "version": "0.5"
+}
+,
+{
   "authors": [
     "Curt Tilmes <ctilmes@cpan.org>"
   ],
@@ -2684,6 +2732,56 @@
     "Test::META"
   ],
   "version": "0.3"
+}
+,
+{
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "DB",
+        "NativeLibs:ver<0.0.7>:auth<github:salortiz>",
+        "sqlite:from<native>"
+      ]
+    },
+    "test": {
+      "requires": [
+        "Test",
+        "Test::When"
+      ]
+    }
+  },
+  "description": "SQLite access for Raku",
+  "license": "BSD-2-Clause",
+  "meta-version": "1",
+  "name": "DB::SQLite",
+  "perl": "6.c",
+  "provides": {
+    "DB::SQLite": "lib/DB/SQLite.rakumod",
+    "DB::SQLite::Connection": "lib/DB/SQLite/Connection.rakumod",
+    "DB::SQLite::Native": "lib/DB/SQLite/Native.rakumod",
+    "DB::SQLite::Result": "lib/DB/SQLite/Result.rakumod",
+    "DB::SQLite::Statement": "lib/DB/SQLite/Statement.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/DB-SQLite-0.4.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-dbsqlite/issues",
+    "email": "curt@tilmes.org",
+    "source": "https://github.com/CurtTilmes/raku-dbsqlite.git"
+  },
+  "tags": [
+    "DATABASE",
+    "SQLITE"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When"
+  ],
+  "version": "0.4"
 }
 ,
 {
