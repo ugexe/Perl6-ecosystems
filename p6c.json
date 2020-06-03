@@ -10,6 +10,35 @@
   "depends": [
     
   ],
+  "description": "A Raku binding to the C lib cmark",
+  "license": "Artistic-2.0",
+  "name": "Cmark",
+  "perl": "6.*",
+  "provides": {
+    "Cmark": "lib/Cmark.pm6",
+    "Cmark::Raw": "lib/Cmark/Raw.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/khalidelboray/raku-cmark.git",
+  "test-depends": [
+    
+  ],
+  "version": "0.1"
+}
+,
+{
+  "auth": "github:khalidelboray",
+  "authors": [
+    "Khalid Elboray"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "A module to slugify strings.",
   "license": "Artistic-2.0",
   "name": "Text::Slugify",
