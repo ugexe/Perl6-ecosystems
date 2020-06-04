@@ -66902,6 +66902,25 @@
 ,
 {
   "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "description": "A Raku Grammar to parse D&D style dice rolls",
+  "license": "AGPL-3.0-or-later",
+  "name": "Grammar::DiceRolls",
+  "perl": "6.d",
+  "provides": {
+    "Grammar::DiceRolls": "lib/Grammar/DiceRolls.rakumod",
+    "Grammar::DiceRolls::CountActions": "lib/Grammar/DiceRolls/CountActions.rakumod",
+    "Grammar::DiceRolls::ListActions": "lib/Grammar/DiceRolls/ListActions.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Grammar-DiceRolls-0.2.0.tar.gz",
+  "version": "0.2.0"
+}
+,
+{
+  "api": "0",
   "authors": [
     "Patrick Spek <p.spek@tyil.work>"
   ],
