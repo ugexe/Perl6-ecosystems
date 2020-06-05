@@ -51477,6 +51477,73 @@
     "File::Directory::Tree",
     "YAMLish"
   ],
+  "description": "Tomtit - Raku Task Runner",
+  "license": "Artistic-2.0",
+  "name": "Tomtit",
+  "perl": "6.*",
+  "provides": {
+    "Tomtit": "lib/Tomtit.pm6",
+    "Tomtit::Completion": "lib/Tomtit/Completion.pm6"
+  },
+  "resources": [
+    "profiles/perl6/install.pl6",
+    "profiles/perl6/test.pl6",
+    "profiles/perl6/changes.pl6",
+    "profiles/perl6/release.pl6",
+    "profiles/perl6/set-pause.pl6",
+    "profiles/perl/set-pause.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/make-dist.pl6",
+    "profiles/perl/install.pl6",
+    "profiles/perl/changes.pl6",
+    "profiles/perl/release.pl6",
+    "profiles/perl/test.pl6",
+    "profiles/ruby/rvm.pl6",
+    "profiles/git/set-git.pl6",
+    "profiles/git/commit.pl6",
+    "profiles/git/push.pl6",
+    "profiles/git/pull.pl6",
+    "profiles/git/status.pl6",
+    "profiles/git/git-summary.pl6",
+    "profiles/git/git-publish.pl6",
+    "profiles/git/update-branch-list.pl6",
+    "profiles/ado/ado-pipeline-build-list.pl6",
+    "profiles/ado/ado-pipeline-build-run.pl6",
+    "profiles/azure/az-account-set.pl6",
+    "profiles/azure/az-resources.pl6",
+    "profiles/azure/az-kv-show.pl6",
+    "profiles/azure/az-sql-server-check-fw.pl6",
+    "profiles/hello/world.pl6",
+    "profiles/yaml/yaml-lint.pl6",
+    "completion.sh"
+  ],
+  "source-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Tomtit-0.1.7.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/melezhik/tomtit/issues",
+    "source": "https://github.com/melezhik/tomtit.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.7"
+}
+,
+{
+  "authors": [
+    "Alexey Melezhik"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Sparrow6",
+    "File::Directory::Tree",
+    "YAMLish"
+  ],
   "description": "Tomty - Simple Perl6 Test Runner",
   "license": "Artistic-2.0",
   "name": "Tomty",
