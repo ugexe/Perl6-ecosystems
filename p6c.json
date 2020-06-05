@@ -1,5 +1,32 @@
 [
 {
+  "authors": [
+    "John Spurr"
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Implementation of the Porter stemming algorithm",
+  "license": "MIT",
+  "name": "Lingua::EN::Stem::Porter",
+  "perl": "6.c",
+  "provides": {
+    "Lingua::EN::Stem::Porter": "lib/Lingua/EN/Stem/Porter.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/lingua-en-stem-porter.git",
+  "support": {
+    "source": "https://github.com/raku-community-modules/lingua-en-stem-porter.git"
+  },
+  "tags": [
+    "NLP",
+    "raku",
+    "stem",
+    "porter"
+  ],
+  "version": "v1.0"
+}
+,
+{
   "auth": "github:khalidelboray",
   "authors": [
     "Khalid Elboray"
