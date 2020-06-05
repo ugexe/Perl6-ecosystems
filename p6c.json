@@ -21293,7 +21293,8 @@
     "Konstantin Narkhov"
   ],
   "depends": [
-    
+    "JSON::Fast",
+    "HTTP::UserAgent"
   ],
   "description": "A Raku interface for interacting with the Ethereum blockchain and ecosystem via JSON RPC API",
   "license": "Artistic-2.0",
@@ -21308,7 +21309,7 @@
     "ETHEREUM",
     "NET"
   ],
-  "version": "0.0.94"
+  "version": "0.0.95"
 }
 ,
 {
