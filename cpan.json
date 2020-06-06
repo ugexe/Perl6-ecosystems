@@ -73430,39 +73430,6 @@
   "depends": [
     "LibXML",
     "CSS::Module",
-    "CSS::Properties",
-    "CSS::Selector::To::XPath"
-  ],
-  "description": "CSS Stylesheet processing",
-  "license": "Artistic-2.0",
-  "name": "CSS",
-  "perl": "6.c",
-  "provides": {
-    "CSS": "lib/CSS.pm6",
-    "CSS::Media": "lib/CSS/Media.pm6",
-    "CSS::Ruleset": "lib/CSS/Ruleset.pm6",
-    "CSS::Selectors": "lib/CSS/Selectors.pm6",
-    "CSS::Stylesheet": "lib/CSS/Stylesheet.pm6",
-    "CSS::TagSet": "lib/CSS/TagSet.pm6",
-    "CSS::TagSet::XHTML": "lib/CSS/TagSet/XHTML.pm6"
-  },
-  "resources": [
-    "xhtml.css"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.2.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath",
-    "css"
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "depends": [
-    "LibXML",
-    "CSS::Module",
     "CSS::Properties:ver<0.5.0+>",
     "CSS::Selector::To::XPath"
   ],
