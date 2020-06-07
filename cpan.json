@@ -67121,6 +67121,27 @@
 ,
 {
   "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "description": "A Raku Grammar to parse D&D style dice rolls",
+  "license": "AGPL-3.0-or-later",
+  "name": "Grammar::DiceRolls",
+  "perl": "6.d",
+  "provides": {
+    "Grammar::DiceRolls": "lib/Grammar/DiceRolls.rakumod",
+    "Grammar::DiceRolls::CountActions": "lib/Grammar/DiceRolls/CountActions.rakumod",
+    "Grammar::DiceRolls::ListActions": "lib/Grammar/DiceRolls/ListActions.rakumod",
+    "X::Grammar::DiceRolls::TooManyDice": "lib/X/Grammar/DiceRolls/TooManyDice.rakumod",
+    "X::Grammar::DiceRolls::TooManySides": "lib/X/Grammar/DiceRolls/TooManySides.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Grammar-DiceRolls-0.3.0.tar.gz",
+  "version": "0.3.0"
+}
+,
+{
+  "api": "0",
   "authors": [
     "Patrick Spek <p.spek@tyil.work>"
   ],
@@ -67576,6 +67597,28 @@
   },
   "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IRC-Client-Plugin-DiceRolls-0.1.0.tar.gz",
   "version": "0.1.0"
+}
+,
+{
+  "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "depends": [
+    "Config",
+    "Grammar::DiceRolls:ver<0.3.0>",
+    "IRC::Client"
+  ],
+  "description": "A plugin for IRC::Client to do D&D-style dice rolls",
+  "license": "AGPL-3.0-or-later",
+  "name": "IRC::Client::Plugin::DiceRolls",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Client::Plugin::DiceRolls": "lib/IRC/Client/Plugin/DiceRolls.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IRC-Client-Plugin-DiceRolls-0.2.0.tar.gz",
+  "version": "0.2.0"
 }
 ,
 {
