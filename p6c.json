@@ -16321,6 +16321,7 @@
 }
 ,
 {
+  "auth": "github:finanalyst",
   "authors": "Richard Hainsworth, aka finanalyst",
   "build-depends": [
     "LWP::Simple",
@@ -16329,7 +16330,7 @@
   "description": "Easy to use GUI Dialog box using GTK3 label, button, entry widgets",
   "license": "Artistic-2.0",
   "name": "Inform",
-  "perl": "6.c",
+  "perl": "6.d",
   "provides": {
     "Informative": "lib/Informative.pm6"
   },
@@ -16361,7 +16362,7 @@
     "blib/lib/GTK/zlib1.dll"
   ],
   "source-url": "git://github.com/finanalyst/p6-inform.git",
-  "version": "0.1"
+  "version": "0.2"
 }
 ,
 {
