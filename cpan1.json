@@ -68127,6 +68127,26 @@
 }
 ,
 {
+  "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "description": "Set reminders for yourself on IRC",
+  "license": "AGPL-3.0-or-later",
+  "name": "IRC::Client::Plugin::Reminders",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Client::Plugin::Reminders": "lib/IRC/Client/Plugin/Reminders.rakumod",
+    "IRC::Client::Plugin::Reminders::Actions": "lib/IRC/Client/Plugin/Reminders/Actions.rakumod",
+    "IRC::Client::Plugin::Reminders::Delay": "lib/IRC/Client/Plugin/Reminders/Delay.rakumod",
+    "IRC::Client::Plugin::Reminders::Grammar": "lib/IRC/Client/Plugin/Reminders/Grammar.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IRC-Client-Plugin-Reminders-0.1.0.tar.gz",
+  "version": "0.1.0"
+}
+,
+{
   "authors": "Patrick Spek <p.spek@tyil.work>",
   "depends": [
     "HTML::Parser::XML",
