@@ -20746,6 +20746,45 @@
 }
 ,
 {
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Prometheus instrumentation client for Perl 6",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Prometheus::Client",
+  "perl": "6.c",
+  "provides": {
+    "Prometheus::Client": "lib/Prometheus/Client.pm6",
+    "Prometheus::Client::Exporter": "lib/Prometheus/Client/Exporter.pm6",
+    "Prometheus::Client::Exposition": "lib/Prometheus/Client/Exposition.pm6",
+    "Prometheus::Client::Metrics": "lib/Prometheus/Client/Metrics.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Prometheus-Client-0.2.0.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/p6-Prometheus-Client.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.2.0"
+}
+,
+{
   "auth": "github.zostay",
   "author": "Andrew Sterling Hanenkamp",
   "authors": [
