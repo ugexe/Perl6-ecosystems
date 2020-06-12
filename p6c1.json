@@ -43,7 +43,7 @@
   "perl": "6.*",
   "provides": {
     "Cmark": "lib/Cmark.pm6",
-    "Cmark::Raw": "lib/Cmark/Raw.pm6"
+    "Cmark::Native": "lib/Cmark/Native.pm6"
   },
   "resources": [
     
@@ -999,6 +999,34 @@
   },
   "source-url": "git://github.com/sergot/Term--ProgressBar.git",
   "version": "*"
+}
+,
+{
+  "auth": "github:JJ",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Native port of the CommonMark library",
+  "license": "Artistic-2.0",
+  "meta-version": 1,
+  "name": "cmark::Simple",
+  "perl": "6.d",
+  "provides": {
+    "cmark::Simple": "lib/cmark/Simple.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/JJ/raku-cmark.git",
+  "tags": [
+    "modules",
+    "markdown",
+    "commonmark"
+  ],
+  "version": "0.0.1"
 }
 ,
 {
@@ -16365,7 +16393,7 @@
     "NativeCall"
   ],
   "description": "Easy to use GUI Dialog box using GTK3 label, button, entry widgets",
-  "license": "Artistic-2.0",
+  "license": "MIT",
   "name": "Inform",
   "perl": "6.d",
   "provides": {
@@ -16399,7 +16427,7 @@
     "blib/lib/GTK/zlib1.dll"
   ],
   "source-url": "git://github.com/finanalyst/p6-inform.git",
-  "version": "1.2"
+  "version": "1.3.1"
 }
 ,
 {
