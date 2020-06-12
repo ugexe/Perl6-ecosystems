@@ -7863,6 +7863,37 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "mapping of old RT tickets to GitHub issues",
+  "license": "Artistic-2.0",
+  "name": "Migration::RTtoGithub",
+  "perl": "6.c",
+  "provides": {
+    "Migration::RTtoGithub": "lib/Migration/RTtoGithub.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Migration-RTtoGithub-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "P5getnetbyname"
   ],
   "description": "Port of Perl 5's Net::netent",
