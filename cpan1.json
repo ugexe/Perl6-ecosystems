@@ -13508,6 +13508,37 @@
   "depends": [
     
   ],
+  "description": "provide an immutable List value type",
+  "license": "Artistic-2.0",
+  "name": "Tuple",
+  "perl": "6.c",
+  "provides": {
+    "Tuple": "lib/Tuple.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tuple-0.0.6.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Provide transparent access to errno",
   "license": "Artistic-2.0",
   "name": "Unix::errno",
@@ -24544,41 +24575,6 @@
     
   ],
   "version": "0.0.1"
-}
-,
-{
-  "api": "2",
-  "auth": "cpan:JJATRIA",
-  "authors": [
-    "José Joaquín Atria"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "NativeCall",
-    "LibraryMake"
-  ],
-  "description": "Raku bindings to the Termbox library",
-  "license": "Artistic-2.0",
-  "name": "Termbox",
-  "perl": "6.d",
-  "provides": {
-    "Termbox": "lib/Termbox.pm6"
-  },
-  "resources": [
-    "libraries/termbox"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/Termbox-0.0.2.tar.gz",
-  "tags": [
-    "Termbox",
-    "CLI",
-    "TUI"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
 }
 ,
 {
