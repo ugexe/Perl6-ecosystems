@@ -6331,15 +6331,16 @@
   ],
   "description": "A make-a-like implemented in Raku",
   "license": "Artistic-2.0",
-  "name": "sake",
+  "name": "ake",
   "perl": "6.c",
   "provides": {
-    "Sake": "lib/Sake.pm6",
-    "Sake::Task": "lib/Sake/Task.pm6",
-    "Sake::Task::IO": "lib/Sake/Task/IO.pm6",
-    "Sake::TaskStore": "lib/Sake/TaskStore.pm6"
+    "Ake": "lib/Ake.rakumod",
+    "Ake::Task": "lib/Ake/Task.rakumod",
+    "Ake::Task::IO": "lib/Ake/Task/IO.rakumod",
+    "Ake::TaskStore": "lib/Ake/TaskStore.rakumod",
+    "Sake": "lib/Sake.rakumod"
   },
-  "source-url": "git://github.com/perl6/p6-sake.git",
+  "source-url": "git://github.com/Raku/raku-ake.git",
   "test-depends": [
     "File::Temp"
   ],
