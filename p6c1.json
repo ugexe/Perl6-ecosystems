@@ -6329,7 +6329,7 @@
   "depends": [
     
   ],
-  "description": "A make-a-like implemented in Perl 6",
+  "description": "A make-a-like implemented in Raku",
   "license": "Artistic-2.0",
   "name": "sake",
   "perl": "6.c",
@@ -12357,46 +12357,6 @@
     "Shell::Command"
   ],
   "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "Paul Marquess <pmqs@cpan.org>"
-  ],
-  "depends": [
-    "Compress::Zlib::Raw",
-    "Compress::Zlib",
-    "Compress::Bzip2",
-    "CompUnit::Util",
-    "IO::Blob"
-  ],
-  "description": "Write Zip Files.",
-  "license": "Artistic-2.0",
-  "name": "Archive::SimpleZip",
-  "perl": "6.*",
-  "provides": {
-    "Archive::SimpleZip": "lib/Archive/SimpleZip.pm6",
-    "Archive::SimpleZip::Headers": "lib/Archive/SimpleZip/Headers.pm6",
-    "Archive::SimpleZip::Utils": "lib/Archive/SimpleZip/Utils.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/pmqs/Archive-SimpleZip.git",
-  "support": {
-    "source": "git://github.com/pmqs/Archive-SimpleZip.git"
-  },
-  "tags": [
-    "archive",
-    "compression"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META",
-    "File::Temp",
-    "File::Which"
-  ],
-  "version": "0.2.3"
 }
 ,
 {
