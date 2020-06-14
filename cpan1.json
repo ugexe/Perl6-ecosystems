@@ -1725,6 +1725,73 @@
 }
 ,
 {
+  "auth": "cpan:CIAVASH",
+  "authors": [
+    "Siavash Askari Nasr"
+  ],
+  "depends": [
+    "HTTP::UserAgent",
+    "JSON::Unmarshal",
+    "JSON::Fast",
+    "URI"
+  ],
+  "description": "A module for interfacing with TMDB API",
+  "license": "LGPL-3.0-or-later",
+  "name": "WebService::TMDB",
+  "perl": "6.c",
+  "provides": {
+    "WebService::TMDB": "lib/WebService/TMDB.rakumod",
+    "WebService::TMDB::Cast": "lib/WebService/TMDB/Cast.rakumod",
+    "WebService::TMDB::CertificationList": "lib/WebService/TMDB/CertificationList.rakumod",
+    "WebService::TMDB::Company": "lib/WebService/TMDB/Company.rakumod",
+    "WebService::TMDB::Configuration": "lib/WebService/TMDB/Configuration.rakumod",
+    "WebService::TMDB::Country": "lib/WebService/TMDB/Country.rakumod",
+    "WebService::TMDB::Credits": "lib/WebService/TMDB/Credits.rakumod",
+    "WebService::TMDB::Crew": "lib/WebService/TMDB/Crew.rakumod",
+    "WebService::TMDB::ExternalID": "lib/WebService/TMDB/ExternalID.rakumod",
+    "WebService::TMDB::Facade::UserAgent": "lib/WebService/TMDB/Facade/UserAgent.rakumod",
+    "WebService::TMDB::Genre": "lib/WebService/TMDB/Genre.rakumod",
+    "WebService::TMDB::Genre::List": "lib/WebService/TMDB/Genre/List.rakumod",
+    "WebService::TMDB::Movie": "lib/WebService/TMDB/Movie.rakumod",
+    "WebService::TMDB::Movie::Search": "lib/WebService/TMDB/Movie/Search.rakumod",
+    "WebService::TMDB::Movie::Upcoming": "lib/WebService/TMDB/Movie/Upcoming.rakumod",
+    "WebService::TMDB::Person": "lib/WebService/TMDB/Person.rakumod",
+    "WebService::TMDB::Person::MovieCast": "lib/WebService/TMDB/Person/MovieCast.rakumod",
+    "WebService::TMDB::Person::MovieCredits": "lib/WebService/TMDB/Person/MovieCredits.rakumod",
+    "WebService::TMDB::Person::MovieCrew": "lib/WebService/TMDB/Person/MovieCrew.rakumod",
+    "WebService::TMDB::Person::Search": "lib/WebService/TMDB/Person/Search.rakumod",
+    "WebService::TMDB::Person::TVCast": "lib/WebService/TMDB/Person/TVCast.rakumod",
+    "WebService::TMDB::Person::TVCredits": "lib/WebService/TMDB/Person/TVCredits.rakumod",
+    "WebService::TMDB::Person::TVCrew": "lib/WebService/TMDB/Person/TVCrew.rakumod",
+    "WebService::TMDB::Request": "lib/WebService/TMDB/Request.rakumod",
+    "WebService::TMDB::Role::HasRequest": "lib/WebService/TMDB/Role/HasRequest.rakumod",
+    "WebService::TMDB::Role::Request": "lib/WebService/TMDB/Role/Request.rakumod",
+    "WebService::TMDB::Role::Search": "lib/WebService/TMDB/Role/Search.rakumod",
+    "WebService::TMDB::Role::UserAgent": "lib/WebService/TMDB/Role/UserAgent.rakumod",
+    "WebService::TMDB::SpokenLanguage": "lib/WebService/TMDB/SpokenLanguage.rakumod",
+    "WebService::TMDB::TV": "lib/WebService/TMDB/TV.rakumod",
+    "WebService::TMDB::TV::Episode": "lib/WebService/TMDB/TV/Episode.rakumod",
+    "WebService::TMDB::TV::Search": "lib/WebService/TMDB/TV/Search.rakumod",
+    "WebService::TMDB::TV::Season": "lib/WebService/TMDB/TV/Season.rakumod",
+    "WebService::TMDB::Utility": "lib/WebService/TMDB/Utility.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CI/CIAVASH/Perl6/WebService-TMDB-0.1.0.tar.gz",
+  "tags": [
+    "TMDB",
+    "The Movie Database",
+    "Web Service",
+    "themoviedb.org",
+    "Movie",
+    "TV"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::Mock"
+  ],
+  "version": "0.1.0"
+}
+,
+{
   "author": "Mike Clarke <clarkema@clarkema.org>",
   "depends": [
     
