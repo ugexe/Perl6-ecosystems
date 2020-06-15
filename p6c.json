@@ -1009,6 +1009,34 @@
   "depends": [
     
   ],
+  "description": "Raku bindings for the kazmath library",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "kazmath",
+  "perl": "6.d",
+  "provides": {
+    "kazmath": "lib/kazmath.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/JJ/raku-kazmath.git",
+  "tags": [
+    "modules",
+    "math",
+    "graphics"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:JJ",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "depends": [
+    
+  ],
   "description": "Native port of the CommonMark library",
   "license": "Artistic-2.0",
   "meta-version": 0,
