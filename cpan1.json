@@ -75430,6 +75430,100 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Pod::To::Markdown"
+  ],
+  "depends": [
+    "XML",
+    "Method::Also",
+    "File::Temp"
+  ],
+  "description": "Raku bindings to the libxml2 native library",
+  "license": "Artistic-2.0",
+  "name": "LibXML",
+  "perl": "6",
+  "provides": {
+    "LibXML": "lib/LibXML.rakumod",
+    "LibXML::Attr": "lib/LibXML/Attr.rakumod",
+    "LibXML::Attr::Map": "lib/LibXML/Attr/Map.rakumod",
+    "LibXML::CDATA": "lib/LibXML/CDATA.rakumod",
+    "LibXML::Comment": "lib/LibXML/Comment.rakumod",
+    "LibXML::Config": "lib/LibXML/Config.rakumod",
+    "LibXML::Dict": "lib/LibXML/Dict.rakumod",
+    "LibXML::Document": "lib/LibXML/Document.rakumod",
+    "LibXML::DocumentFragment": "lib/LibXML/DocumentFragment.rakumod",
+    "LibXML::Dtd": "lib/LibXML/Dtd.rakumod",
+    "LibXML::Dtd::Attr": "lib/LibXML/Dtd/Attr.rakumod",
+    "LibXML::Dtd::Element": "lib/LibXML/Dtd/Element.rakumod",
+    "LibXML::Element": "lib/LibXML/Element.rakumod",
+    "LibXML::Entity": "lib/LibXML/Entity.rakumod",
+    "LibXML::EntityRef": "lib/LibXML/EntityRef.rakumod",
+    "LibXML::Enums": "lib/LibXML/Enums.rakumod",
+    "LibXML::ErrorHandling": "lib/LibXML/ErrorHandling.rakumod",
+    "LibXML::InputCallback": "lib/LibXML/InputCallback.rakumod",
+    "LibXML::Item": "lib/LibXML/Item.rakumod",
+    "LibXML::Namespace": "lib/LibXML/Namespace.rakumod",
+    "LibXML::Node": "lib/LibXML/Node.rakumod",
+    "LibXML::Node::List": "lib/LibXML/Node/List.rakumod",
+    "LibXML::Node::Set": "lib/LibXML/Node/Set.rakumod",
+    "LibXML::PI": "lib/LibXML/PI.rakumod",
+    "LibXML::Parser": "lib/LibXML/Parser.rakumod",
+    "LibXML::Parser::Context": "lib/LibXML/Parser/Context.rakumod",
+    "LibXML::Pattern": "lib/LibXML/Pattern.rakumod",
+    "LibXML::PushParser": "lib/LibXML/PushParser.rakumod",
+    "LibXML::Raw": "lib/LibXML/Raw.rakumod",
+    "LibXML::Raw::DOM::Attr": "lib/LibXML/Raw/DOM/Attr.rakumod",
+    "LibXML::Raw::DOM::Document": "lib/LibXML/Raw/DOM/Document.rakumod",
+    "LibXML::Raw::DOM::Element": "lib/LibXML/Raw/DOM/Element.rakumod",
+    "LibXML::Raw::DOM::Node": "lib/LibXML/Raw/DOM/Node.rakumod",
+    "LibXML::Raw::Defs": "lib/LibXML/Raw/Defs.rakumod",
+    "LibXML::Raw::Dict": "lib/LibXML/Raw/Dict.rakumod",
+    "LibXML::Raw::HashTable": "lib/LibXML/Raw/HashTable.rakumod",
+    "LibXML::Raw::RelaxNG": "lib/LibXML/Raw/RelaxNG.rakumod",
+    "LibXML::Raw::Schema": "lib/LibXML/Raw/Schema.rakumod",
+    "LibXML::Raw::TextReader": "lib/LibXML/Raw/TextReader.rakumod",
+    "LibXML::Reader": "lib/LibXML/Reader.rakumod",
+    "LibXML::RegExp": "lib/LibXML/RegExp.rakumod",
+    "LibXML::RelaxNG": "lib/LibXML/RelaxNG.rakumod",
+    "LibXML::SAX": "lib/LibXML/SAX.rakumod",
+    "LibXML::SAX::Builder": "lib/LibXML/SAX/Builder.rakumod",
+    "LibXML::SAX::Handler": "lib/LibXML/SAX/Handler.rakumod",
+    "LibXML::SAX::Handler::SAX2": "lib/LibXML/SAX/Handler/SAX2.rakumod",
+    "LibXML::SAX::Handler::SAX2::Locator": "lib/LibXML/SAX/Handler/SAX2/Locator.rakumod",
+    "LibXML::SAX::Handler::XML": "lib/LibXML/SAX/Handler/XML.rakumod",
+    "LibXML::Schema": "lib/LibXML/Schema.rakumod",
+    "LibXML::Text": "lib/LibXML/Text.rakumod",
+    "LibXML::Types": "lib/LibXML/Types.rakumod",
+    "LibXML::XPath::Context": "lib/LibXML/XPath/Context.rakumod",
+    "LibXML::XPath::Expression": "lib/LibXML/XPath/Expression.rakumod",
+    "LibXML::XPath::Object": "lib/LibXML/XPath/Object.rakumod",
+    "LibXML::_DomNode": "lib/LibXML/_DomNode.rakumod",
+    "LibXML::_Options": "lib/LibXML/_Options.rakumod",
+    "LibXML::_ParentNode": "lib/LibXML/_ParentNode.rakumod",
+    "LibXML::_StringyNode": "lib/LibXML/_StringyNode.rakumod"
+  },
+  "resources": [
+    "libraries/xml6"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/LibXML-0.5.2.tar.gz",
+  "tags": [
+    "xml",
+    "html",
+    "xpath",
+    "dom"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.5.2"
+}
+,
+{
   "auth": "github:p6-xml",
   "authors": [
     "David Warring"
