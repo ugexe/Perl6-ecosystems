@@ -1,5 +1,37 @@
 [
 {
+  "auth": "github:arjancwidlak",
+  "authors": "Arjan Widlak <acw@cpan.org",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Config::Parser",
+    "JSON::Fast"
+  ],
+  "description": "JSON parser for Config",
+  "license": [
+    "GPL",
+    "Artistic-2.0"
+  ],
+  "name": "Config::Parser::json",
+  "perl": "6.*",
+  "provides": {
+    "Config::Parser::json": "lib/Config/Parser/json.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/A/AC/ACW/Perl6/Config-Parser-json-1.0.0.tar.gz",
+  "tags": [
+    "config",
+    "configuration"
+  ],
+  "test-depends": [
+    "File::Temp",
+    "Test::META"
+  ],
+  "version": "1.0.0"
+}
+,
+{
   "authors": [
     "Takumi Akiyama"
   ],
