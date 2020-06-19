@@ -54169,6 +54169,44 @@
 }
 ,
 {
+  "auth": "Rod Taylor <rbt@cpan.org>",
+  "authors": [
+    "Rod Taylor <rbt@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "DBIish<0.6.0+>"
+  ],
+  "description": "Database connection pooling",
+  "license": "CC0-1.0",
+  "meta-version": 0,
+  "name": "DBIish::Pool",
+  "perl": "6.d",
+  "provides": {
+    "DBIish::Pool": "lib/DBIish/Pool.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/R/RB/RBT/Perl6/DBIish-Pool-1.0.0.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/rbt/DBIish-Pool/issues",
+    "email": "rbt@cpan.org",
+    "source": "https://github.com/rbt/DBIish-Pool.git"
+  },
+  "tags": [
+    "database",
+    "postgres"
+  ],
+  "test-depends": [
+    "DBIish"
+  ],
+  "version": "1.0.0"
+}
+,
+{
   "auth": null,
   "authors": [
     "Rod Taylor <rbt@cpan.org>"
