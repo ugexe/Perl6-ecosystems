@@ -63638,6 +63638,39 @@
   "depends": [
     
   ],
+  "description": "A Raku implementation of double ended priority queue",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::MinMaxHeap",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::MinMaxHeap": "lib/Algorithm/MinMaxHeap.pm6",
+    "Algorithm::MinMaxHeap::CmpOperator": "lib/Algorithm/MinMaxHeap/CmpOperator.pm6",
+    "Algorithm::MinMaxHeap::Comparable": "lib/Algorithm/MinMaxHeap/Comparable.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-MinMaxHeap-0.13.5.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.13.5"
+}
+,
+{
+  "author": "cpan:TITSUKI",
+  "authors": [
+    "Itsuki Toyota"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "A Perl 6 Naive Bayes classifier implementation",
   "license": "Artistic-2.0",
   "name": "Algorithm::NaiveBayes",
