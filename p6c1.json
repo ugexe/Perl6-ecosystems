@@ -1009,7 +1009,7 @@
   "depends": [
     "P5getpwnam",
     "P5getgrnam",
-    "UNIX::Privileges",
+    "UNIX::Privileges:ver<0.1.4+>",
     "File::Stat"
   ],
   "description": "Better chown, ported from Perl's File::Chown",
