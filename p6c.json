@@ -20323,20 +20323,18 @@
   "authors": [
     "JJ Merelo"
   ],
-  "build-depends": [
-    
-  ],
   "depends": [
     "URI::Encode",
     "HTTP::Client",
     "JSON::Tiny"
   ],
-  "description": "A thin wrapper for querying Wikidata using SPARQL",
+  "description": "A thin wrapper for querying the Wikidata API using SPARQL",
   "license": "GPL-3.0",
   "name": "Wikidata::API",
   "perl": "6.*",
   "provides": {
-    "Wikidata::API": "lib/Wikidata/API.pm6"
+    "Wikidata::API": "lib/Wikidata/API.pm6",
+    "X::Wikidata::API": "lib/X/Wikidata/API.pm6"
   },
   "resources": [
     
@@ -20351,7 +20349,7 @@
     "Test",
     "Test::META"
   ],
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
 ,
 {
