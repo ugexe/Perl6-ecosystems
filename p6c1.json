@@ -4054,18 +4054,21 @@
 }
 ,
 {
-  "author": "github:retupmoca",
+  "auth": "github:retupmoca",
+  "authors": [
+    "Andrew Egeler"
+  ],
   "depends": [
     "Digest"
   ],
   "description": "Generic HMAC implementation",
   "name": "Digest::HMAC",
-  "perl": "6.*",
+  "perl": "6.c",
   "provides": {
     "Digest::HMAC": "lib/Digest/HMAC.pm6"
   },
-  "source-url": "git://github.com/retupmoca/P6-Digest-HMAC.git",
-  "version": "1.0.0"
+  "source-url": "git://github.com/JJ/Raku-Digest-HMAC.git",
+  "version": "1.0.2"
 }
 ,
 {
