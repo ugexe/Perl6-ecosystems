@@ -22150,7 +22150,10 @@
     "Terminal::Spinners",
     "Test::Output",
     "Terminal::ANSIColor",
-    "File::Directory::Tree"
+    "File::Directory::Tree",
+    "node:from<bin>",
+    "dot:from<bin>",
+    "sass:from<bin>"
   ],
   "description": "An API for Raku documentation",
   "license": "Artistic-2.0",
@@ -22194,7 +22197,7 @@
     "Test::META:ver<0.0.16+>",
     "Temp::Path"
   ],
-  "version": "1.2.5"
+  "version": "1.2.6"
 }
 ,
 {
