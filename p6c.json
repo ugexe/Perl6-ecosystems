@@ -1485,6 +1485,7 @@
 }
 ,
 {
+  "auth": "github:raku-community-modules",
   "authors": [
     "Timothy Totten"
   ],
@@ -1493,12 +1494,13 @@
   ],
   "description": "Add common math operations to DateTime objects.",
   "license": "Artistic-2.0",
+  "meta-version": 0,
   "name": "DateTime::Math",
-  "perl": "6.*",
+  "perl": "6.c",
   "provides": {
     "DateTime::Math": "lib/DateTime/Math.pm6"
   },
-  "source-url": "git://github.com/supernovus/perl6-datetime-math.git",
+  "source-url": "git://github.com/raku-community-modules/raku-datetime-math.git",
   "version": "0.6.0"
 }
 ,
