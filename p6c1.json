@@ -23234,11 +23234,14 @@
     "Intl::CLDR::Numbers": "lib/Intl/CLDR/Numbers.pm6",
     "Intl::CLDR::Numbers::Classes": "lib/Intl/CLDR/Numbers/Classes.pm6",
     "Intl::CLDR::Numbers::Enums": "lib/Intl/CLDR/Numbers/Enums.pm6",
-    "Intl::CLDR::Numbers::Finder": "lib/Intl/CLDR/Numbers/Finder.pm6",
+    "Intl::CLDR::Numbers::NumberFinder": "lib/Intl/Token/Number.pm6",
     "Intl::CLDR::Numbers::PatternParser": "lib/Intl/CLDR/Numbers/PatternParser.pm6",
     "Intl::CLDR::Plurals": "lib/Intl/CLDR/Plurals.pm6",
     "Intl::CLDR::Plurals::Classes": "lib/Intl/CLDR/Plurals/Classes.pm6",
-    "Intl::Format::DateTime": "lib/Intl/Format/DateTime.pm6"
+    "Intl::Format::DateTime": "lib/Intl/Format/DateTime.pm6",
+    "Intl::Token::Alpha": "lib/Intl/Token/Alpha.pm6",
+    "Intl::Token::Number": "lib/Intl/Token/Number.pm6",
+    "Intl::Token::Punct": "lib/Intl/Token/Punct.pm6"
   },
   "resources": [
     "languages/root.data",
@@ -23447,7 +23450,7 @@
   "test-depends": [
     
   ],
-  "version": "0.4.1"
+  "version": "0.4.2"
 }
 ,
 {
