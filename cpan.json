@@ -4898,6 +4898,29 @@
   "depends": [
     
   ],
+  "description": "Combinatoric functions",
+  "license": "Artistic-2.0",
+  "name": "Math::Combinatorics",
+  "perl": "6.c",
+  "provides": {
+    "Math::Combinatorics": "lib/Math/Combinatorics.rakumod",
+    "Math::Combinatorics::Derangements": "lib/Math/Combinatorics/Derangements.rakumod",
+    "Math::Combinatorics::Multicombinations": "lib/Math/Combinatorics/Multicombinations.rakumod",
+    "Math::Combinatorics::Partitions": "lib/Math/Combinatorics/Partitions.rakumod",
+    "Math::Combinatorics::Utils": "lib/Math/Combinatorics/Utils.rakumod",
+    "Math::Combinatorics::Variations": "lib/Math/Combinatorics/Variations.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELCARO/Perl6/Math-Combinatorics-0.0.1.tar.gz",
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Joshua Yeshouroun"
+  ],
+  "depends": [
+    
+  ],
   "description": "Point class",
   "license": "Artistic-2.0",
   "name": "Point",
