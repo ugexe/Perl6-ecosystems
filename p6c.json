@@ -24340,4 +24340,40 @@
   ],
   "version": "0.1"
 }
+,
+{
+  "auth": "github:finanalyst",
+  "authors": [
+    "Richard Hainsworth, aka finanalyst"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Looks for POD6 files recursively under a root directory, returns POD for recompiled or specified file.",
+  "license": "Artistic-2.0",
+  "name": "Pod::From::Cache",
+  "perl": "6.d",
+  "provides": {
+    "Pod::From::Cache": "lib/Pod/From/Cache.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "https://github.com/finanalyst/raku-pod-from-cache.git",
+  "support": {
+    "bugtracker": "http://github.com/finanalyst/raku-pod-from-cache/issues",
+    "email": "rnhainsworth@gmail.com",
+    "source": "https://github.com/finanalyst/raku-pod-from-cache.git"
+  },
+  "test-depends": [
+    "File::Directory::Tree",
+    "File::Temp",
+    "Test::META"
+  ],
+  "version": "0.2"
+}
 ]
