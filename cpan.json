@@ -54557,6 +54557,46 @@
 }
 ,
 {
+  "authors": [
+    "Paul Marquess <pmqs@cpan.org>"
+  ],
+  "depends": [
+    "Compress::Zlib::Raw",
+    "Compress::Zlib",
+    "CompUnit::Util",
+    "IO::Blob",
+    "IO::Glob"
+  ],
+  "description": "Write Zip Files.",
+  "license": "Artistic-2.0",
+  "name": "Archive::SimpleZip",
+  "perl": "6.*",
+  "provides": {
+    "Archive::SimpleZip": "lib/Archive/SimpleZip.pm6",
+    "Archive::SimpleZip::Headers": "lib/Archive/SimpleZip/Headers.pm6",
+    "Archive::SimpleZip::Utils": "lib/Archive/SimpleZip/Utils.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/P/PM/PMQS/Perl6/Archive-SimpleZip-0.4.0.tar.gz",
+  "support": {
+    "source": "git://github.com/pmqs/Archive-SimpleZip.git"
+  },
+  "tags": [
+    "archive",
+    "compression"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META",
+    "File::Temp",
+    "File::Which"
+  ],
+  "version": "0.4.0"
+}
+,
+{
   "api": "1",
   "auth": "github:p6steve",
   "authors": [
