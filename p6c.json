@@ -1007,6 +1007,29 @@
     "JJ Merelo"
   ],
   "depends": [
+    "P5getpwnam",
+    "P5getgrnam",
+    "UNIX::Privileges:ver<0.1.4+>",
+    "File::Stat"
+  ],
+  "description": "Better chown, ported from Perl's File::Chown",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Sys::Chown",
+  "perl": "6.d",
+  "provides": {
+    "Sys::Chown": "lib/Sys/Chown.pm6"
+  },
+  "source-url": "https://github.com/JJ/raku-sys-chown.git",
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:JJ",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "depends": [
     
   ],
   "description": "Raku bindings for the kazmath library",
