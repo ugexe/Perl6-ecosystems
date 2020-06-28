@@ -15698,7 +15698,7 @@
   "description": "Asynchronous logging with supplies and taps",
   "license": "Perl",
   "name": "Log::Async",
-  "perl": "6.c",
+  "perl": "6.*",
   "provides": {
     "Log::Async": "lib/Log/Async.pm6",
     "Log::Async::CommandLine": "lib/Log/Async/CommandLine.pm6",
@@ -15715,7 +15715,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.6"
+  "version": "0.0.7"
 }
 ,
 {
