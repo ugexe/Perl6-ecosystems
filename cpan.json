@@ -17365,6 +17365,54 @@
   "builder": "Distribution::Builder::MakeFromJSON",
   "depends": [
     "Distribution::Builder::MakeFromJSON",
+    "Math::Libgsl::Constants",
+    "Math::Libgsl::Matrix",
+    "Math::Libgsl::Permutation",
+    "Math::Libgsl::BLAS",
+    "Math::Libgsl::Random"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Linear Algebra.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::LinearAlgebra",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::LinearAlgebra": "lib/Math/Libgsl/LinearAlgebra.rakumod",
+    "Math::Libgsl::LinearAlgebra::Complex64": "lib/Math/Libgsl/LinearAlgebra/Complex64.rakumod",
+    "Math::Libgsl::Raw::LinearAlgebra": "lib/Math/Libgsl/Raw/LinearAlgebra.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-LinearAlgebra-0.0.1.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    "Math::Libgsl::BLAS",
+    "Math::Libgsl::Random"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build": {
+    "makefile-variables": {
+      "gslhelper": {
+        "resource": "libraries/gslhelper"
+      }
+    }
+  },
+  "build-depends": [
+    "Distribution::Builder::MakeFromJSON"
+  ],
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": [
+    "Distribution::Builder::MakeFromJSON",
     "Math::Libgsl::Complex",
     "Math::Libgsl::Constants"
   ],
@@ -71536,6 +71584,45 @@
     "Test::META"
   ],
   "version": "1.001007"
+}
+,
+{
+  "authors": [
+    "Martin Barth <martin@senfdax.de>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Time::Crontab for Raku - Parses Crontab Specifications",
+  "license": "Artistic-2.0",
+  "name": "Time::Crontab",
+  "perl": "6.c",
+  "provides": {
+    "Time::Crontab": "lib/Time/Crontab.pm6",
+    "Time::Crontab::Actions": "lib/Time/Crontab/Actions.pm6",
+    "Time::Crontab::Grammar": "lib/Time/Crontab/Grammar.pm6",
+    "Time::Crontab::Set": "lib/Time/Crontab/Set.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/U/UF/UFOBAT/Perl6/Time-Crontab-1.0.0.tar.gz",
+  "tags": [
+    "Cron",
+    "Crontab",
+    "Time",
+    "Parsing",
+    "Linux",
+    "Unix",
+    "Date"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.0"
 }
 ,
 {
