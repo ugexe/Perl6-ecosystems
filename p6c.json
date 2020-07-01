@@ -22121,7 +22121,7 @@
 ,
 {
   "api": 1,
-  "auth": "github:perl6",
+  "auth": "github:Raku",
   "authors": [
     "@moritz",
     "@finanalyst",
@@ -22137,7 +22137,7 @@
     "Pod::Load:ver<0.5.4+>",
     "Pod::To::HTML:ver<0.6.2+>",
     "Pod::To::Cached:ver<0.3.5+>",
-    "Perl6::TypeGraph:ver<2.1.1+>:auth<github:antoniogamiz>:api<2>",
+    "Perl6::TypeGraph:ver<2.1.3+>:auth<github:antoniogamiz>:api<2>",
     "Pod::Utilities:ver<0.0.1+>",
     "URI:ver<0.3+>",
     "File::Temp:ver<0.0.6+>",
@@ -22174,25 +22174,22 @@
     "Documentable::Utils::Text": "lib/Documentable/Utils/Text.pm6"
   },
   "resources": [
-    "html/images/pencil.svg",
-    "template/head.html",
-    "template/header.html",
-    "template/footer.html",
-    "template/tg-fragment.html",
-    "template/search_template.js",
+    "templates/main.mustache",
+    "templates/tg-fragment.html",
+    "templates/search_template.js",
     "config.json"
   ],
-  "source-url": "https://github.com/perl6/Documentable.git",
+  "source-url": "https://github.com/Raku/Documentable.git",
   "tags": [
     "documentation",
     "text",
-    "perl6"
+    "raku"
   ],
   "test-depends": [
     "Test::META:ver<0.0.16+>",
     "Temp::Path"
   ],
-  "version": "1.2.7"
+  "version": "1.3.0"
 }
 ,
 {
