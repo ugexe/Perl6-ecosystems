@@ -22875,6 +22875,63 @@
 }
 ,
 {
+  "api": 1,
+  "auth": "github:alabamenhu",
+  "authors": [
+    "Matthew ‘Matéu’ Stephen STUCKWISCH <mateu@softastur.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A module for working with BCP-47 type language tags",
+  "license": "Artistic-2.0",
+  "name": "Intl::LanguageTag",
+  "perl": "6.*",
+  "provides": {
+    "Intl::BCP47": "lib/Intl/LanguageTag.pm6",
+    "Intl::LanguageTag": "lib/Intl/LanguageTag.pm6",
+    "Intl::LanguageTag::ExtensionRegistry": "lib/Intl/LanguageTag/ExtensionRegistry.pm6",
+    "Intl::LanguageTag::Filter-Grammar": "lib/Intl/LanguageTag/Filter-Grammar.pm6",
+    "Intl::LanguageTag::Grammar": "lib/Intl/LanguageTag/Grammar.pm6",
+    "Intl::LanguageTag::Subtag-Registry": "lib/Intl/LanguageTag/Subtag-Registry.pm6",
+    "Intl::LanguageTag::X": "lib/Intl/LanguageTag/X.pm6"
+  },
+  "raku": "6.*",
+  "resources": [
+    "enum/languages.data",
+    "enum/regions.data",
+    "enum/scripts.data",
+    "enum/variants.data",
+    "extlangs.data",
+    "grandfathered.data",
+    "languages.data",
+    "extension-t.data",
+    "extension-u.data",
+    "redundancies.data",
+    "regions.data",
+    "scripts.data",
+    "variants.data"
+  ],
+  "source-url": "git://github.com/alabamenhu/bcp47.git",
+  "tags": [
+    "BCP47",
+    "Language",
+    "Tag",
+    "Localization",
+    "Locale",
+    "International",
+    "Internationalization"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.9.1"
+}
+,
+{
   "auth": "github:JJ",
   "authors": [
     "JJ Merelo"
