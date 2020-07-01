@@ -57187,6 +57187,57 @@
 }
 ,
 {
+  "authors": [
+    "Sam Morrison"
+  ],
+  "depends": [
+    "File::Directory::Tree",
+    "File::Find",
+    "File::Temp",
+    "Terminal::ANSIColor",
+    "Template6",
+    "Template::Mustache",
+    "Test::Output",
+    "HTTP::Server::Tiny",
+    "YAMLish"
+  ],
+  "description": "Uzu is a static site generator with built-in web server, file modification watcher, live reload, i18n, themes, multi-page support, inject external data via local Perl 6 module, and external pre/post command execution.",
+  "license": "Artistic-2.0",
+  "name": "Uzu",
+  "perl": "6.d",
+  "provides": {
+    "Uzu": "lib/Uzu.pm6",
+    "Uzu::CLI": "lib/Uzu/CLI.pm6",
+    "Uzu::Config": "lib/Uzu/Config.pm6",
+    "Uzu::HTTP": "lib/Uzu/HTTP.pm6",
+    "Uzu::LiveReload": "lib/Uzu/LiveReload.pm6",
+    "Uzu::Logger": "lib/Uzu/Logger.pm6",
+    "Uzu::Render": "lib/Uzu/Render.pm6",
+    "Uzu::Utilities": "lib/Uzu/Utilities.pm6",
+    "Uzu::Watch": "lib/Uzu/Watch.pm6"
+  },
+  "resources": [
+    "mustache/pages/index.mustache",
+    "mustache/partials/footer.mustache",
+    "mustache/partials/head.mustache",
+    "mustache/themes/default/layout.mustache",
+    "tt/pages/index.tt",
+    "tt/partials/footer.tt",
+    "tt/partials/head.tt",
+    "tt/themes/default/layout.tt"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SA/SACOMO/Perl6/Uzu-0.3.6.tar.gz",
+  "tags": [
+    "web",
+    "static-site-generator"
+  ],
+  "test-depends": [
+    "Test::Output"
+  ],
+  "version": "0.3.6"
+}
+,
+{
   "api": "0",
   "authors": [
     "Samantha McVey <samantham@posteo.net>"
