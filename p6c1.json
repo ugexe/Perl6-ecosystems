@@ -13988,6 +13988,31 @@
 ,
 {
   "authors": [
+    "Tadeusz “tadzik” Sośnierz"
+  ],
+  "depends": [
+    "Module::Toolkit",
+    "Shell::Command",
+    "File::Temp",
+    "JSON::Fast",
+    "Getopt::Type"
+  ],
+  "description": "A tiny module installer",
+  "name": "App::redpanda",
+  "perl": "6.c",
+  "provides": {
+    
+  },
+  "source-url": "git://github.com/tadzik/App-redpanda.git",
+  "support": {
+    "bugtracker": "https://github.com/tadzik/App-redpanda/issues",
+    "source": "git://github.com/tadzik/App-redpanda.git"
+  },
+  "version": "0.1"
+}
+,
+{
+  "authors": [
     "Perl6 Noise Gang"
   ],
   "depends": [
