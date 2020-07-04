@@ -2996,6 +2996,37 @@
 }
 ,
 {
+  "auth": "github:thundergnat",
+  "authors": [
+    "Steve Schulze"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    ""
+  ],
+  "description": "Generate 'boxed' tables in a terminal",
+  "license": "Artistic-2.0",
+  "name": "Terminal::Boxer",
+  "perl": "6.c",
+  "provides": {
+    "Terminal::Boxer": "lib/Terminal/Boxer.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/Terminal-Boxer.git",
+  "tags": [
+    "termianl",
+    "table",
+    "box"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1"
+}
+,
+{
   "author": [
     "David Farrell",
     "Dmitry Yaskolko"
