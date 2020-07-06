@@ -27854,6 +27854,40 @@
 }
 ,
 {
+  "auth": "github:JJ",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Pod::Load",
+    "IO::Capture::Simple"
+  ],
+  "description": "Tests the output of scripts using special comments",
+  "license": "Artistic-2.0",
+  "name": "Test::Script::Output",
+  "perl": "6.c",
+  "provides": {
+    "Test::Script::Output": "lib/Test/Script/Output.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Test-Script-Output-0.0.4.tar.gz",
+  "tags": [
+    "Test",
+    "App",
+    "Script"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "authors": [
     "JJ Merelo"
   ],
