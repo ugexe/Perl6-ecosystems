@@ -63693,6 +63693,44 @@
   "authors": [
     "Timo Paulssen",
     "Tony O'Dell",
+    "Wenzel P. P. Peppmeyer",
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A naive, fast json parser and serializer; drop-in replacement for JSON::Tiny",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "JSON::Fast",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Fast": "lib/JSON/Fast.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TIMOTIMO/Perl6/JSON-Fast-0.12.tar.gz",
+  "support": {
+    "source": "git://github.com/timo/json_fast.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.12"
+}
+,
+{
+  "auth": null,
+  "authors": [
+    "Timo Paulssen",
+    "Tony O'Dell",
     "Wenzel P. P. Peppmeyer"
   ],
   "build-depends": [
