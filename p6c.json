@@ -27,6 +27,42 @@
 }
 ,
 {
+  "auth": "github:drforr",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "depends": [
+    "Test::META",
+    "JSON::Tiny"
+  ],
+  "description": "Common grammar patterns codified for ease of use",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Grammar::Common",
+  "perl": "6.c",
+  "provides": {
+    "Grammar::Common": "lib//Grammar/Common.pm6",
+    "Grammar::Common::Expression::Infix": "lib//Grammar/Common/Expression/Infix.pm6",
+    "Grammar::Common::Expression::Infix::Actions": "lib//Grammar/Common/Expression/Infix/Actions.pm6",
+    "Grammar::Common::Expression::Prefix": "lib//Grammar/Common/Expression/Prefix.pm6",
+    "Grammar::Common::Expression::Prefix::Actions": "lib//Grammar/Common/Expression/Prefix/Actions.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/raku-Grammar-Common.git",
+  "support": {
+    "source": "https://github.com/raku-community-modules/raku-Grammar-Common.git"
+  },
+  "tags": [
+    "Grammar",
+    "Utilities",
+    "Utils"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.2.1"
+}
+,
+{
   "auth": "github:khalidelboray",
   "authors": [
     "Khalid Elboray"
