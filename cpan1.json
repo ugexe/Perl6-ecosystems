@@ -28132,6 +28132,38 @@
   "depends": [
     
   ],
+  "description": "Implementation of the game of Concentration",
+  "license": "Artistic-2.0",
+  "name": "App::Game::Concentration",
+  "perl": "6.c",
+  "provides": {
+    "App::Game::Concentration": "lib/App/Game/Concentration.pm6",
+    "Game::Concentration::Role": "lib/Game/Concentration/Role.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/App-Game-Concentration-0.0.2.tar.gz",
+  "tags": [
+    "games",
+    "cards"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Examine who's worked on a file",
   "license": "Artistic-2.0",
   "name": "Git::Blame",
