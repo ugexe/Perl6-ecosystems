@@ -62862,6 +62862,44 @@
 }
 ,
 {
+  "auth": "github:softmoth",
+  "authors": [
+    "Tim Siegel"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Split a string into words like a command-line shell",
+  "license": "Artistic-2.0",
+  "name": "Text::ShellWords",
+  "perl": "6.c",
+  "provides": {
+    "Text::ShellWords": "lib/Text/ShellWords.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SO/SOFTMOTH/Perl6/Text-ShellWords-0.1.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/softmoth/raku-Text-ShellWords/issues",
+    "source": "https://github.com/softmoth/raku-Text-ShellWords.git"
+  },
+  "tags": [
+    "text",
+    "shell",
+    "parse",
+    "split"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
   "authors": [
     "Spigell"
   ],
