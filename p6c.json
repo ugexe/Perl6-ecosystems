@@ -14288,32 +14288,6 @@
 }
 ,
 {
-  "authors": [
-    "Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>"
-  ],
-  "depends": [
-    "File::Directory::Tree",
-    "File::Temp",
-    "JSON::Fast",
-    "Whateverable",
-    "Zef"
-  ],
-  "description": "Project Blin – Toasting Reinvented",
-  "license": "AGPL-3.0-or-later",
-  "name": "Blin",
-  "perl": "6.c",
-  "provides": {
-    "Blin::Module": "lib/Blin/Module.pm6",
-    "Blin::Processing": "lib/Blin/Processing.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/Raku/Blin.git",
-  "version": "1.0.1"
-}
-,
-{
   "auth": "github:raku-community-modules",
   "depends": [
     "NativeHelpers::Blob"
@@ -14705,6 +14679,32 @@
   ],
   "source-url": "https://github.com/Raku/whateverable.git",
   "version": "1.0.10"
+}
+,
+{
+  "authors": [
+    "Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>"
+  ],
+  "depends": [
+    "File::Directory::Tree",
+    "File::Temp",
+    "JSON::Fast",
+    "Whateverable",
+    "Zef"
+  ],
+  "description": "Project Blin – Toasting Reinvented",
+  "license": "AGPL-3.0-or-later",
+  "name": "Blin",
+  "perl": "6.c",
+  "provides": {
+    "Blin::Module": "lib/Blin/Module.pm6",
+    "Blin::Processing": "lib/Blin/Processing.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/Raku/Blin.git",
+  "version": "1.0.1"
 }
 ,
 {
