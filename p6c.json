@@ -4527,11 +4527,13 @@
 }
 ,
 {
+  "auth": "github:raku-community-modules",
   "depends": [
     "NativeHelpers::Blob"
   ],
   "description": "Database connectivity for Raku",
   "license": "BSD-2-Clause",
+  "meta-version": 0,
   "name": "DBIish",
   "perl": "6.c",
   "provides": {
@@ -4564,7 +4566,10 @@
     "DBIish::CommonTesting": "lib/DBIish/CommonTesting.pm6",
     "NativeLibs": "lib/NativeLibs.pm6"
   },
-  "source-url": "git://github.com/perl6/DBIish.git",
+  "support": {
+    "bugtracker": "https://github.com/raku-community-modules/DBIish/issues",
+    "source": "https://github.com/raku-community-modules/DBIish.git"
+  },
   "tags": [
     "database",
     "mariadb",
@@ -4576,7 +4581,7 @@
   "test-depends": [
     
   ],
-  "version": "0.6.1"
+  "version": "0.6.2"
 }
 ,
 {
