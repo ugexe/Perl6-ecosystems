@@ -56587,6 +56587,37 @@
 }
 ,
 {
+  "authors": [
+    "Paul Marquess <pmqs@cpan.org>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Dummy Module",
+  "license": "Artistic-2.0",
+  "name": "HelloWorld",
+  "perl": "6.*",
+  "provides": {
+    "HelloWorld": "lib/HelloWorld.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/P/PM/PMQS/Perl6/Raku-GitHub-Workflows-1.0.2.tar.gz",
+  "support": {
+    "source": "https://github.com/pmqs/Raku-GitHub-Workflows.git"
+  },
+  "tags": [
+    "github",
+    "workflow"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.2"
+}
+,
+{
   "api": "1",
   "auth": "github:p6steve",
   "authors": [
