@@ -28335,6 +28335,43 @@
     "Perl6::Ecosystem": "lib/Perl6/Ecosystem.pm6"
   },
   "resources": [
+    "resources/scripts/count-dependencies.p6",
+    "resources/scripts/dep-to-dot.p6",
+    "resources/scripts/draw.R",
+    "resources/scripts/find-dependencies.p6"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Perl6-Ecosystem-0.0.2.tar.gz",
+  "tags": [
+    "API",
+    "modules"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "github:JJ",
+  "authors": [
+    "Alex Daniel",
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Obtains information from Perl6 modules in the ecosystem",
+  "license": "gpl-3.0",
+  "name": "Perl6::Ecosystem",
+  "perl": "6.*",
+  "provides": {
+    "Perl6::Ecosystem": "lib/Perl6/Ecosystem.pm6"
+  },
+  "resources": [
     "resources/scripts/show-river-score.p6",
     "resources/scripts/count-dependencies.p6",
     "resources/scripts/dep-to-dot.p6",
