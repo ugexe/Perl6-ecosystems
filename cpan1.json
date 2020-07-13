@@ -56587,6 +56587,318 @@
 }
 ,
 {
+  "abstract": "Install Compress::Zlib and dependencies",
+  "author": [
+    "Kevin W. Henwood <Khen1950fx@aol.com> and Paul Marquess <pmqs@cpan.org>"
+  ],
+  "dynamic_config": 1,
+  "generated_by": "ExtUtils::MakeMaker version 7.34, CPAN::Meta::Converter version 2.150010",
+  "license": [
+    "perl_5"
+  ],
+  "meta-spec": {
+    "url": "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+    "version": 2
+  },
+  "name": "Bundle-Compress-Zlib",
+  "no_index": {
+    "directory": [
+      "t",
+      "inc"
+    ]
+  },
+  "prereqs": {
+    "build": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    },
+    "configure": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    }
+  },
+  "release_status": "stable",
+  "version": "2.094",
+  "x_serialization_backend": "JSON::PP version 4.02"
+}
+,
+{
+  "abstract": "Install IO::Compress::Bzip2 and dependencies",
+  "author": [
+    "Paul Marquess <pmqs@cpan.org>"
+  ],
+  "dynamic_config": 1,
+  "generated_by": "ExtUtils::MakeMaker version 7.34, CPAN::Meta::Converter version 2.150010",
+  "license": [
+    "perl_5"
+  ],
+  "meta-spec": {
+    "url": "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+    "version": 2
+  },
+  "name": "Bundle-IO-Compress-Bzip2",
+  "no_index": {
+    "directory": [
+      "t",
+      "inc"
+    ]
+  },
+  "prereqs": {
+    "build": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    },
+    "configure": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    }
+  },
+  "release_status": "stable",
+  "version": "2.094",
+  "x_serialization_backend": "JSON::PP version 4.02"
+}
+,
+{
+  "abstract": "IO Interface to compressed data files/buffers",
+  "author": [
+    "Paul Marquess <pmqs@cpan.org>"
+  ],
+  "dynamic_config": 1,
+  "generated_by": "ExtUtils::MakeMaker version 7.34, CPAN::Meta::Converter version 2.150010",
+  "license": [
+    "perl_5"
+  ],
+  "meta-spec": {
+    "url": "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+    "version": 2
+  },
+  "name": "IO-Compress",
+  "no_index": {
+    "directory": [
+      "t",
+      "inc",
+      "t",
+      "private"
+    ]
+  },
+  "prereqs": {
+    "build": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    },
+    "configure": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    },
+    "runtime": {
+      "requires": {
+        "Compress::Raw::Bzip2": "2.094",
+        "Compress::Raw::Zlib": "2.094",
+        "Encode": "0",
+        "Getopt::Long": "2.27",
+        "Scalar::Util": "0",
+        "Term::ReadLine": "0",
+        "charnames": "0"
+      }
+    }
+  },
+  "release_status": "stable",
+  "resources": {
+    "bugtracker": {
+      "web": "https://github.com/pmqs/IO-Compress/issues"
+    },
+    "homepage": "https://github.com/pmqs/IO-Compress",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/pmqs/IO-Compress.git",
+      "web": "https://github.com/pmqs/IO-Compress"
+    }
+  },
+  "version": "2.094",
+  "x_serialization_backend": "JSON::PP version 4.02"
+}
+,
+{
+  "abstract": "Write lzf files/buffers",
+  "author": [
+    "Paul Marquess <pmqs@cpan.org>"
+  ],
+  "dynamic_config": 1,
+  "generated_by": "ExtUtils::MakeMaker version 7.34, CPAN::Meta::Converter version 2.150010",
+  "license": [
+    "perl_5"
+  ],
+  "meta-spec": {
+    "url": "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+    "version": 2
+  },
+  "name": "IO-Compress-Lzf",
+  "no_index": {
+    "directory": [
+      "t",
+      "inc",
+      "t",
+      "private"
+    ]
+  },
+  "prereqs": {
+    "build": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    },
+    "configure": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    },
+    "runtime": {
+      "requires": {
+        "Compress::LZF": "0",
+        "IO::Compress::Base": "2.094",
+        "IO::Uncompress::Base": "2.094"
+      }
+    }
+  },
+  "release_status": "stable",
+  "resources": {
+    "bugtracker": {
+      "web": "https://github.com/pmqs/IO-Compress-Lzf/issues"
+    },
+    "homepage": "https://github.com/pmqs/IO-Compress-Lzf",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/pmqs/IO-Compress-Lzf.git",
+      "web": "https://github.com/pmqs/IO-Compress-Lzf"
+    }
+  },
+  "version": "2.094",
+  "x_serialization_backend": "JSON::PP version 4.02"
+}
+,
+{
+  "abstract": "Write lzma files/buffers",
+  "author": [
+    "Paul Marquess <pmqs@cpan.org>"
+  ],
+  "dynamic_config": 1,
+  "generated_by": "ExtUtils::MakeMaker version 7.34, CPAN::Meta::Converter version 2.150010",
+  "license": [
+    "perl_5"
+  ],
+  "meta-spec": {
+    "url": "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+    "version": 2
+  },
+  "name": "IO-Compress-Lzma",
+  "no_index": {
+    "directory": [
+      "t",
+      "inc",
+      "t",
+      "private"
+    ]
+  },
+  "prereqs": {
+    "build": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    },
+    "configure": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    },
+    "runtime": {
+      "requires": {
+        "Compress::Raw::Lzma": "2.094",
+        "IO::Compress::Base": "2.094",
+        "IO::Uncompress::Base": "2.094"
+      }
+    }
+  },
+  "release_status": "stable",
+  "resources": {
+    "bugtracker": {
+      "web": "https://github.com/pmqs/IO-Compress-Lzma/issues"
+    },
+    "homepage": "https://github.com/pmqs/IO-Compress-Lzma",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/pmqs/IO-Compress-Lzma.git",
+      "web": "https://github.com/pmqs/IO-Compress-Lzma"
+    }
+  },
+  "version": "2.094",
+  "x_serialization_backend": "JSON::PP version 4.02"
+}
+,
+{
+  "abstract": "Write lzop files/buffers",
+  "author": [
+    "Paul Marquess <pmqs@cpan.org>"
+  ],
+  "dynamic_config": 1,
+  "generated_by": "ExtUtils::MakeMaker version 7.34, CPAN::Meta::Converter version 2.150010",
+  "license": [
+    "perl_5"
+  ],
+  "meta-spec": {
+    "url": "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+    "version": 2
+  },
+  "name": "IO-Compress-Lzop",
+  "no_index": {
+    "directory": [
+      "t",
+      "inc",
+      "t",
+      "private"
+    ]
+  },
+  "prereqs": {
+    "build": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    },
+    "configure": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    },
+    "runtime": {
+      "requires": {
+        "Compress::LZO": "0",
+        "IO::Compress::Base": "2.094",
+        "IO::Uncompress::Base": "2.094"
+      }
+    }
+  },
+  "release_status": "stable",
+  "resources": {
+    "bugtracker": {
+      "web": "https://github.com/pmqs/IO-Compress-Lzop/issues"
+    },
+    "homepage": "https://github.com/pmqs/IO-Compress-Lzop",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/pmqs/IO-Compress-Lzop.git",
+      "web": "https://github.com/pmqs/IO-Compress-Lzop"
+    }
+  },
+  "version": "2.094",
+  "x_serialization_backend": "JSON::PP version 4.02"
+}
+,
+{
   "authors": [
     "Paul Marquess <pmqs@cpan.org>"
   ],
@@ -56615,6 +56927,71 @@
     
   ],
   "version": "1.0.2"
+}
+,
+{
+  "authors": [
+    "Paul Marquess <pmqs@cpan.org>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Dummy Module",
+  "license": "Artistic-2.0",
+  "name": "HelloWorld",
+  "perl": "6.*",
+  "provides": {
+    "HelloWorld": "lib/HelloWorld.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/P/PM/PMQS/Perl6/Raku-GitHub-Workflows-1.0.3.tar.gz",
+  "support": {
+    "source": "https://github.com/pmqs/Raku-GitHub-Workflows.git"
+  },
+  "tags": [
+    "github",
+    "workflow",
+    "testing"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.3"
+}
+,
+{
+  "authors": [
+    "Paul Marquess <pmqs@cpan.org>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "A collection of Raku GitHub Workflows for Linux, MacOS & Windows",
+  "license": "Artistic-2.0",
+  "name": "Raku-GitHub-Workflows",
+  "perl": "6.*",
+  "provides": {
+    "HelloWorld": "lib/HelloWorld.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/P/PM/PMQS/Perl6/Raku-GitHub-Workflows-1.0.4.tar.gz",
+  "support": {
+    "source": "https://github.com/pmqs/Raku-GitHub-Workflows.git"
+  },
+  "tags": [
+    "github",
+    "workflow",
+    "testing",
+    "docker"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.4"
 }
 ,
 {
