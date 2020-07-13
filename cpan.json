@@ -3801,6 +3801,50 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ],
+  "depends": [
+    "NativeCall",
+    "NativeLibs:ver<0.0.7>:auth<github:salortiz>",
+    "JSON::Fast"
+  ],
+  "description": "Raku bindings for LibCurl",
+  "license": "NASA-1.3",
+  "meta-version": 0,
+  "name": "LibCurl",
+  "perl": "6.d",
+  "provides": {
+    "LibCurl::Easy": "lib/LibCurl/Easy.rakumod",
+    "LibCurl::EasyHandle": "lib/LibCurl/EasyHandle.rakumod",
+    "LibCurl::HTTP": "lib/LibCurl/HTTP.rakumod",
+    "LibCurl::Multi": "lib/LibCurl/Multi.rakumod",
+    "LibCurl::MultiHandle": "lib/LibCurl/MultiHandle.rakumod",
+    "LibCurl::REST": "lib/LibCurl/REST.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/LibCurl-1.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-libcurl.git",
+    "email": "Curt.Tilmes@nasa.gov",
+    "source": "https://github.com/CurtTilmes/raku-libcurl.git"
+  },
+  "tags": [
+    "LibCurl",
+    "Curl",
+    "HTTP",
+    "FTP",
+    "REST"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When"
+  ],
+  "version": "1.1"
+}
+,
+{
   "authors": [
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
   ],
@@ -6418,6 +6462,59 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "AccountableBagHash:ver<0.0.3>:auth<cpan:ELIZABETH>",
+    "WriteOnceHash:ver<0.0.4>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Emergent Economies for Role Playing Games",
+  "license": "Artistic-2.0",
+  "name": "EERPG",
+  "perl": "6.c",
+  "provides": {
+    "EERPG": "lib/EERPG.pm6",
+    "EERPG::Action": "lib/EERPG/Action.pm6",
+    "EERPG::Agent": "lib/EERPG/Agent.pm6",
+    "EERPG::All": "lib/EERPG/All.pm6",
+    "EERPG::Amount": "lib/EERPG/Amount.pm6",
+    "EERPG::Ask": "lib/EERPG/Ask.pm6",
+    "EERPG::Availability": "lib/EERPG/Availability.pm6",
+    "EERPG::Belief": "lib/EERPG/Belief.pm6",
+    "EERPG::Bid": "lib/EERPG/Bid.pm6",
+    "EERPG::Commodity": "lib/EERPG/Commodity.pm6",
+    "EERPG::Condition": "lib/EERPG/Condition.pm6",
+    "EERPG::Currency": "lib/EERPG/Currency.pm6",
+    "EERPG::Economy": "lib/EERPG/Economy.pm6",
+    "EERPG::Inventory": "lib/EERPG/Inventory.pm6",
+    "EERPG::Market": "lib/EERPG/Market.pm6",
+    "EERPG::Name": "lib/EERPG/Name.pm6",
+    "EERPG::Price": "lib/EERPG/Price.pm6",
+    "EERPG::Producer": "lib/EERPG/Producer.pm6",
+    "EERPG::Resource": "lib/EERPG/Resource.pm6",
+    "EERPG::Rule": "lib/EERPG/Rule.pm6",
+    "EERPG::Ruleset": "lib/EERPG/Ruleset.pm6",
+    "EERPG::Trader": "lib/EERPG/Trader.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/EERPG-0.0.1.tar.gz",
+  "tags": [
+    "MODEL"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
 }
 ,
 {
@@ -14422,6 +14519,37 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "be a Hash in which each key can only be set once",
+  "license": "Artistic-2.0",
+  "name": "WriteOnceHash",
+  "perl": "6.c",
+  "provides": {
+    "WriteOnceHash": "lib/WriteOnceHash.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/WriteOnceHash-0.0.4.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
