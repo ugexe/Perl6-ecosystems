@@ -28354,45 +28354,6 @@
     "examples/concurrent-evolutionary-algorithm.p6",
     "examples/population-mixer.p6"
   ],
-  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.7.tar.gz",
-  "tags": [
-    "evolutionary algorithms",
-    "genetic algorithms",
-    "optimization",
-    "computational inteligence"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.0.7"
-}
-,
-{
-  "auth": "github:JJ",
-  "authors": [
-    "JJ Merelo"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Log::Async"
-  ],
-  "description": "A simple evolutionary algorithm",
-  "license": "Artistic-2.0",
-  "name": "Algorithm::Evolutionary::Simple",
-  "perl": "6.*",
-  "provides": {
-    "Algorithm::Evolutionary::Fitness::P-Peaks": "lib/Algorithm/Evolutionary/Fitness/P-Peaks.pm6",
-    "Algorithm::Evolutionary::Simple": "lib/Algorithm/Evolutionary/Simple.pm6"
-  },
-  "resources": [
-    "examples/max-ones.p6",
-    "examples/concurrent-selecto-recombinative-EA.p6",
-    "examples/concurrent-evolutionary-algorithm.p6",
-    "examples/population-mixer.p6"
-  ],
   "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.8.tar.gz",
   "tags": [
     "evolutionary algorithms",
@@ -63963,6 +63924,48 @@
     "Test::META"
   ],
   "version": "1.1.4"
+}
+,
+{
+  "auth": "github:softmoth",
+  "authors": [
+    "Tim Smith",
+    "Richard Hainsworth"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A logic-free, cross-language templating format",
+  "license": "Artistic-2.0",
+  "name": "Template::Mustache",
+  "perl": "6",
+  "production": 1,
+  "provides": {
+    "Template::Mustache": "lib/Template/Mustache.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SO/SOFTMOTH/Perl6/Template-Mustache-1.2.0.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/softmoth/p6-Template-Mustache/issues",
+    "source": "https://github.com/softmoth/p6-Template-Mustache.git"
+  },
+  "tags": [
+    "mustache",
+    "template",
+    "web",
+    "text"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Test",
+    "Test::META"
+  ],
+  "version": "1.2.0"
 }
 ,
 {
