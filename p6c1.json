@@ -14366,7 +14366,8 @@
 {
   "auth": "github:raku-community-modules",
   "depends": [
-    "NativeHelpers::Blob"
+    "NativeHelpers::Blob",
+    "NativeLibs:auth<github:salortiz>"
   ],
   "description": "Database connectivity for Raku",
   "license": "BSD-2-Clause",
@@ -14400,8 +14401,7 @@
     "DBDish::mysql::StatementHandle": "lib/DBDish/mysql/StatementHandle.pm6",
     "DBIish": "lib/DBIish.pm6",
     "DBIish::Common": "lib/DBIish/Common.pm6",
-    "DBIish::CommonTesting": "lib/DBIish/CommonTesting.pm6",
-    "NativeLibs": "lib/NativeLibs.pm6"
+    "DBIish::CommonTesting": "lib/DBIish/CommonTesting.pm6"
   },
   "support": {
     "bugtracker": "https://github.com/raku-community-modules/DBIish/issues",
