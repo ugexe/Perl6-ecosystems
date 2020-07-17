@@ -23271,6 +23271,22 @@
 ,
 {
   "auth": "github:ugexe",
+  "depends": [
+    
+  ],
+  "description": "Example of testing a Perl6 module on Travis-CI",
+  "license": "Artistic-2.0",
+  "name": "P6TCI",
+  "perl": "6.*",
+  "provides": {
+    "P6TCI": "lib/P6TCI.pm6"
+  },
+  "source-url": "git://github.com/ugexe/P6TCI.git",
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "github:ugexe",
   "authors": [
     "ugexe"
   ],
