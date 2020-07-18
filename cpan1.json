@@ -28351,41 +28351,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/TCP-LowLevel-0.0.4.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
-}
-,
-{
-  "auth": "cpan:JMASLAK",
-  "authors": [
-    "Joelle Maslak"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "if",
-    "NativeHelpers::Blob",
-    "StrictClass"
-  ],
-  "description": "Raku bindings for NativeCall TCP on Linux w/ Non-NativeCall Fallback`",
-  "license": "Artistic-2.0",
-  "name": "TCP::LowLevel",
-  "perl": "6.c",
-  "provides": {
-    "TCP::LowLevel": "lib/TCP/LowLevel.pm6",
-    "TCP::LowLevel::Socket-Connection-Linux": "lib/TCP/LowLevel/Socket-Connection-Linux.pm6",
-    "TCP::LowLevel::Socket-Linux": "lib/TCP/LowLevel/Socket-Linux.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/TCP-LowLevel-0.0.5.tar.gz",
   "tags": [
     
