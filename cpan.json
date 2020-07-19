@@ -28506,6 +28506,45 @@
 }
 ,
 {
+  "auth": "github:JJ",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Log::Async"
+  ],
+  "description": "A simple evolutionary algorithm",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::Evolutionary::Simple",
+  "perl": "6.*",
+  "provides": {
+    "Algorithm::Evolutionary::Fitness::P-Peaks": "lib/Algorithm/Evolutionary/Fitness/P-Peaks.pm6",
+    "Algorithm::Evolutionary::Simple": "lib/Algorithm/Evolutionary/Simple.pm6"
+  },
+  "resources": [
+    "examples/max-ones.p6",
+    "examples/concurrent-selecto-recombinative-EA.p6",
+    "examples/concurrent-evolutionary-algorithm.p6",
+    "examples/population-mixer.p6"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.8.tar.gz",
+  "tags": [
+    "evolutionary algorithms",
+    "genetic algorithms",
+    "optimization",
+    "computational inteligence"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.0.8"
+}
+,
+{
   "authors": [
     "JJ Merelo"
   ],
