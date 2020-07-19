@@ -28590,6 +28590,45 @@
 }
 ,
 {
+  "auth": "github:JJ",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Log::Async"
+  ],
+  "description": "A simple evolutionary algorithm",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::Evolutionary::Simple",
+  "perl": "6.*",
+  "provides": {
+    "Algorithm::Evolutionary::Fitness::P-Peaks": "lib/Algorithm/Evolutionary/Fitness/P-Peaks.pm6",
+    "Algorithm::Evolutionary::Simple": "lib/Algorithm/Evolutionary/Simple.pm6"
+  },
+  "resources": [
+    "examples/max-ones.p6",
+    "examples/concurrent-selecto-recombinative-EA.p6",
+    "examples/concurrent-evolutionary-algorithm.p6",
+    "examples/population-mixer.p6"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.8.tar.gz",
+  "tags": [
+    "evolutionary algorithms",
+    "genetic algorithms",
+    "optimization",
+    "computational inteligence"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.0.8"
+}
+,
+{
   "authors": [
     "JJ Merelo"
   ],
@@ -46477,6 +46516,65 @@
     
   ],
   "version": "0.43.11"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman",
+    "Paweł Pabian"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "BSON",
+    "Semaphore::ReadersWriters",
+    "Config::DataLang::Refine",
+    "Auth::SCRAM",
+    "Base64",
+    "OpenSSL",
+    "URI::Escape",
+    "Unicode::PRECIS",
+    "Terminal::ANSIColor",
+    "Log::Async"
+  ],
+  "description": "MongoDB driver",
+  "license": "Artistic-2.0",
+  "name": "MongoDB",
+  "perl": "6.d",
+  "provides": {
+    "MongoDB": "lib/MongoDB.pm6",
+    "MongoDB::Authenticate::Credential": "lib/MongoDB/Authenticate/Credential.pm6",
+    "MongoDB::Authenticate::Scram": "lib/MongoDB/Authenticate/Scram.pm6",
+    "MongoDB::Client": "lib/MongoDB/Client.pm6",
+    "MongoDB::Collection": "lib/MongoDB/Collection.pm6",
+    "MongoDB::Cursor": "lib/MongoDB/Cursor.pm6",
+    "MongoDB::Database": "lib/MongoDB/Database.pm6",
+    "MongoDB::HL::Collection": "lib/MongoDB/HL/Collection.pm6",
+    "MongoDB::HL::Users": "lib/MongoDB/HL/Users.pm6",
+    "MongoDB::Header": "lib/MongoDB/Header.pm6",
+    "MongoDB::Log": "lib/MongoDB/Log.pm6",
+    "MongoDB::MDBConfig": "lib/MongoDB/MDBConfig.pm6",
+    "MongoDB::ObserverEmitter": "lib/MongoDB/ObserverEmitter.pm6",
+    "MongoDB::Server": "lib/MongoDB/Server.pm6",
+    "MongoDB::Server::Control": "lib/MongoDB/Server/Control.pm6",
+    "MongoDB::Server::Monitor": "lib/MongoDB/Server/Monitor.pm6",
+    "MongoDB::Server::MonitorTimer": "lib/MongoDB/Server/MonitorTimer.pm6",
+    "MongoDB::Server::Socket": "lib/MongoDB/Server/Socket.pm6",
+    "MongoDB::Uri": "lib/MongoDB/Uri.pm6",
+    "MongoDB::Wire": "lib/MongoDB/Wire.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/mongo-perl6-driver-0.43.12.tar.gz",
+  "tags": [
+    "NoSQL",
+    "database",
+    "mongodb",
+    "driver"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.43.12"
 }
 ,
 {
