@@ -4802,6 +4802,35 @@
 }
 ,
 {
+  "auth": "github:alabamenhu",
+  "authors": [
+    "Matthew ‘Matéu’ Stephen STUCKWISCH <mateu@softastur.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A simple module for determining the user's timezone.",
+  "license": "Artistic-2.0",
+  "name": "UserTimezone",
+  "perl": "6.*",
+  "provides": {
+    "Intl::UserTimezone": "lib/Intl/UserTimezone.pm6"
+  },
+  "resources": [
+    "windows-zones.data",
+    "windows-regions.data"
+  ],
+  "source-url": "git://github.com/alabamenhu/UserTimezone.git",
+  "test-depends": [
+    
+  ],
+  "version": "0.1"
+}
+,
+{
   "authors": [
     "Steven Albano"
   ],
