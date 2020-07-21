@@ -9002,7 +9002,8 @@
   "test-depends": [
     "Test",
     "Test::Output",
-    "Test::META"
+    "Test::META",
+    "Test::Deeply::Relaxed"
   ],
   "version": "2.3.1"
 }
@@ -19000,7 +19001,7 @@
     "Jorn van Engelen"
   ],
   "depends": [
-    "Pod::To::HTML"
+    "Pod::To::HTML:auth<github:Raku>"
   ],
   "description": "Render Perl6 Pod as Markdown",
   "license": "Artistic-2.0",
