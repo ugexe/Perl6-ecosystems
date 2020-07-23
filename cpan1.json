@@ -28283,37 +28283,6 @@
     
   ],
   "depends": [
-    
-  ],
-  "description": "Generate random IP Addresses",
-  "license": "Artistic-2.0",
-  "name": "IP::Random",
-  "perl": "6.c",
-  "provides": {
-    "IP::Random": "lib/IP/Random.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/IP-Random-0.0.11.tar.gz",
-  "tags": [
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.11"
-}
-,
-{
-  "auth": "cpan:JMASLAK",
-  "authors": [
-    "Joelle Maslak"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "if",
     "DateTime::Monotonic",
     "NativeHelpers::Blob",
