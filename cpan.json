@@ -12736,6 +12736,38 @@
   "depends": [
     
   ],
+  "description": "Create random names to be used as identifiers",
+  "license": "Artistic-2.0",
+  "name": "Random::Names",
+  "perl": "6.d",
+  "provides": {
+    "Random::Names": "lib/Random/Names.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Random-Names-0.0.3.tar.gz",
+  "tags": [
+    "NAME",
+    "RANDOM"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Port of Perl 5's Scalar::Util 1.49",
   "license": "Artistic-2.0",
   "name": "Scalar::Util",
