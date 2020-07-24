@@ -14507,14 +14507,9 @@
     "File::Find"
   ],
   "depends": [
-    "URI",
     "File::Temp",
-    "JSON::Fast",
     "Pod::To::BigPage:ver<0.5.1+>",
     "Pod::To::HTML:ver<0.6.1+>",
-    "Pod::Utilities",
-    "OO::Monitors",
-    "File::Find",
     "Test::META",
     "Perl6::TypeGraph"
   ],
@@ -14526,7 +14521,6 @@
   "provides": {
     "Pod::Cache": "lib/Pod/Cache.pm6",
     "Pod::Convenience": "lib/Pod/Convenience.pm6",
-    "Pod::To::SectionFilter": "lib/Pod/To/SectionFilter.pm6",
     "Test-Files": "lib/Test-Files.pm6"
   },
   "source-url": "git://github.com/Raku/doc.git",
