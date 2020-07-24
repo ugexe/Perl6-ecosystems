@@ -28645,50 +28645,6 @@
     
   ],
   "depends": [
-    "Digest::SHA1::Native",
-    "File::Temp",
-    "NativeCall",
-    "P5getpriority",
-    "P5localtime",
-    "Term::termios",
-    "Term::ReadKey",
-    "Terminal::ANSIColor",
-    "YAMLish"
-  ],
-  "description": "Task Management CLI Appliication",
-  "license": "Artistic-2.0",
-  "name": "App::Tasks",
-  "perl": "6.c",
-  "provides": {
-    "App::Tasks": "lib/App/Tasks.pm6",
-    "App::Tasks::Config": "lib/App/Tasks/Config.pm6",
-    "App::Tasks::Lock": "lib/App/Tasks/Lock.pm6",
-    "App::Tasks::Task": "lib/App/Tasks/Task.pm6",
-    "App::Tasks::TaskBody": "lib/App/Tasks/TaskBody.pm6",
-    "App::Tasks::TaskList": "lib/App/Tasks/TaskList.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/App-Tasks-0.0.17.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.17"
-}
-,
-{
-  "auth": "cpan:JMASLAK",
-  "authors": [
-    "Joelle Maslak"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     
   ],
   "description": "is a Never-Decreasing Time-Elapsed Counter",
