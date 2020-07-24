@@ -180,7 +180,7 @@
     "ETHEREUM",
     "NET"
   ],
-  "version": "0.0.103"
+  "version": "0.0.104"
 }
 ,
 {
@@ -21889,7 +21889,7 @@
     
   ],
   "depends": [
-    "Cro::HTTP",
+    "Cro::HTTP:ver<0.8.3+>",
     "Terminal::Getpass"
   ],
   "description": "A Raku implementation of the unofficial code submitter for Aizu Online Judge( http://judge.u-aizu.ac.jp/onlinejudge/index.jsp ).",
