@@ -28375,6 +28375,41 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "cpan:JJATRIA",
+  "authors": [
+    "José Joaquín Atria"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "NativeCall",
+    "LibraryMake"
+  ],
+  "description": "Raku bindings to the Termbox library",
+  "license": "Artistic-2.0",
+  "name": "Termbox",
+  "perl": "6.d",
+  "provides": {
+    "Termbox": "lib/Termbox.pm6"
+  },
+  "resources": [
+    "libraries/termbox"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/Termbox-0.0.1.tar.gz",
+  "tags": [
+    "Termbox",
+    "CLI",
+    "TUI"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "api": "2",
   "auth": "cpan:JJATRIA",
   "authors": [
@@ -65879,6 +65914,49 @@
     "Test::META"
   ],
   "version": "1.2.1"
+}
+,
+{
+  "auth": "github:softmoth",
+  "authors": [
+    "Tim Smith",
+    "Richard Hainsworth"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A logic-free, cross-language templating format",
+  "license": "Artistic-2.0",
+  "name": "Template::Mustache",
+  "perl": "6.d",
+  "production": 1,
+  "provides": {
+    "Template::Mustache": "lib/Template/Mustache.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SO/SOFTMOTH/Perl6/Template-Mustache-1.2.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/softmoth/raku-Template-Mustache/issues",
+    "source": "https://github.com/softmoth/raku-Template-Mustache.git"
+  },
+  "tags": [
+    "mustache",
+    "template",
+    "web",
+    "text"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Test",
+    "Test::META"
+  ],
+  "version": "1.2.2"
 }
 ,
 {
