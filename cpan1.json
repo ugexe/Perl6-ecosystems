@@ -28648,36 +28648,6 @@
     
   ],
   "depends": [
-    
-  ],
-  "description": "Start a text editor",
-  "license": "Artistic-2.0",
-  "name": "Proc::Editor",
-  "perl": "6.c",
-  "provides": {
-    "Proc::Editor": "lib/Proc/Editor.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JK/JKRAMER/Perl6/Proc-Editor-0.0.2.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "authors": [
-    "Jonas Kramer"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "Term::termios"
   ],
   "description": "Read single unbuffered keys from keyboard.",
