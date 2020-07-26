@@ -48636,6 +48636,50 @@
     
   ],
   "depends": [
+    "YAMLish",
+    "DBIish",
+    "Sparrowdo",
+    "Time::Crontab",
+    "Bailador",
+    "Text::Markdown",
+    "Data::Dump",
+    "Number::Denominate",
+    "HTML::Escape",
+    "Hash::Merge"
+  ],
+  "description": "Sparky is a flexible and minimalist continuous integration server written in Raku",
+  "license": "Artistic-2.0",
+  "name": "Sparky",
+  "perl": "6.*",
+  "provides": {
+    "Sparky": "lib/Sparky.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparky-0.0.26.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/melezhik/sparky/issues",
+    "source": "https://github.com/melezhik/sparky.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.26"
+}
+,
+{
+  "authors": [
+    "Alexey Melezhik"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Sparky"
   ],
   "description": "Sparky Hello Plugin",
