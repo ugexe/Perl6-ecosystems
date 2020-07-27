@@ -28710,6 +28710,36 @@
 }
 ,
 {
+  "authors": [
+    "Jonas Kramer"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Term::termios"
+  ],
+  "description": "Read single unbuffered keys from keyboard.",
+  "license": "Artistic-2.0",
+  "name": "Term::ReadKey",
+  "perl": "6.c",
+  "provides": {
+    "Term::ReadKey": "lib/Term/ReadKey.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JK/JKRAMER/Perl6/Term-ReadKey-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "auth": "cpan:JMASLAK",
   "authors": [
     "Joelle Maslak"
