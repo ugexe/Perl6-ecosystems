@@ -28462,42 +28462,6 @@
 }
 ,
 {
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "build-depends": [
-    "LibraryCheck"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Perl 6 interface to GNU Readline, the CLI-based line reading library",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "Readline",
-  "perl": "6.c",
-  "provides": {
-    "Readline": "lib/Readline.pm"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/perl6-readline-0.1.1.tgz",
-  "support": {
-    "source": "https://github.com/drforr/perl6-readline"
-  },
-  "tags": [
-    "terminal",
-    "CLI"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.1.0"
-}
-,
-{
   "api": "1",
   "auth": "cpan:JJATRIA",
   "authors": [
@@ -28647,6 +28611,36 @@
     "TUI"
   ],
   "version": "0.0.4"
+}
+,
+{
+  "authors": [
+    "Jonas Kramer"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Start a text editor",
+  "license": "Artistic-2.0",
+  "name": "Proc::Editor",
+  "perl": "6.c",
+  "provides": {
+    "Proc::Editor": "lib/Proc/Editor.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JK/JKRAMER/Perl6/Proc-Editor-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
 }
 ,
 {
