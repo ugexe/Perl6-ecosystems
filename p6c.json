@@ -14447,7 +14447,10 @@
     "JJ Merelo"
   ],
   "depends": [
-    "JSON::Fast:ver<0.9.18+>"
+    "JSON::Fast:ver<0.9.18+>",
+    "File::Directory::Tree",
+    "Test::Output",
+    "File::Temp:ver<0.0.6+>"
   ],
   "description": "Precompile a collection of pod files into a cache.",
   "license": "Artistic-2.0",
@@ -14462,11 +14465,6 @@
   "support": {
     "source": "https://github.com/perl6/Pod-To-Cached/issues"
   },
-  "test-depends": [
-    "File::Directory::Tree",
-    "Test::Output",
-    "File::Temp:ver<0.0.6+>"
-  ],
   "version": "0.4.0"
 }
 ,
