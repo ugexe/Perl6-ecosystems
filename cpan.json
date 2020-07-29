@@ -20547,6 +20547,59 @@
 }
 ,
 {
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Statistics",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Statistics",
+  "perl": "6.d",
+  "provides": {
+    "Math::Libgsl::Raw::Statistics": "lib/Math/Libgsl/Raw/Statistics.rakumod",
+    "Math::Libgsl::Raw::Statistics::Int16": "lib/Math/Libgsl/Raw/Statistics/Int16.rakumod",
+    "Math::Libgsl::Raw::Statistics::Int32": "lib/Math/Libgsl/Raw/Statistics/Int32.rakumod",
+    "Math::Libgsl::Raw::Statistics::Int64": "lib/Math/Libgsl/Raw/Statistics/Int64.rakumod",
+    "Math::Libgsl::Raw::Statistics::Int8": "lib/Math/Libgsl/Raw/Statistics/Int8.rakumod",
+    "Math::Libgsl::Raw::Statistics::Num32": "lib/Math/Libgsl/Raw/Statistics/Num32.rakumod",
+    "Math::Libgsl::Raw::Statistics::UInt16": "lib/Math/Libgsl/Raw/Statistics/UInt16.rakumod",
+    "Math::Libgsl::Raw::Statistics::UInt32": "lib/Math/Libgsl/Raw/Statistics/UInt32.rakumod",
+    "Math::Libgsl::Raw::Statistics::UInt64": "lib/Math/Libgsl/Raw/Statistics/UInt64.rakumod",
+    "Math::Libgsl::Raw::Statistics::UInt8": "lib/Math/Libgsl/Raw/Statistics/UInt8.rakumod",
+    "Math::Libgsl::Statistics": "lib/Math/Libgsl/Statistics.rakumod",
+    "Math::Libgsl::Statistics::Int16": "lib/Math/Libgsl/Statistics/Int16.rakumod",
+    "Math::Libgsl::Statistics::Int32": "lib/Math/Libgsl/Statistics/Int32.rakumod",
+    "Math::Libgsl::Statistics::Int64": "lib/Math/Libgsl/Statistics/Int64.rakumod",
+    "Math::Libgsl::Statistics::Int8": "lib/Math/Libgsl/Statistics/Int8.rakumod",
+    "Math::Libgsl::Statistics::Num32": "lib/Math/Libgsl/Statistics/Num32.rakumod",
+    "Math::Libgsl::Statistics::UInt16": "lib/Math/Libgsl/Statistics/UInt16.rakumod",
+    "Math::Libgsl::Statistics::UInt32": "lib/Math/Libgsl/Statistics/UInt32.rakumod",
+    "Math::Libgsl::Statistics::UInt64": "lib/Math/Libgsl/Statistics/UInt64.rakumod",
+    "Math::Libgsl::Statistics::UInt8": "lib/Math/Libgsl/Statistics/UInt8.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Statistics-0.0.1.tar.gz",
+  "tags": [
+    "math",
+    "nativecall",
+    "statistics",
+    "stats"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "build-depends": [
     
   ],
@@ -28047,42 +28100,6 @@
     
   ],
   "version": "0.0.6"
-}
-,
-{
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Perl6::Parser",
-    "Test::META"
-  ],
-  "description": "Perl 6 tidier",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "Perl6::Tidy",
-  "perl": "6.c",
-  "provides": {
-    "Perl6::Tidy": "lib/Perl6/Tidy.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Perl6-Tidy-0.0.7.tar.gz",
-  "support": {
-    "source": "https://github.com/drforr/perl6-Perl6-Tidy.git"
-  },
-  "tags": [
-    "Tidying"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.7"
 }
 ,
 {
