@@ -26870,6 +26870,50 @@
     
   ],
   "depends": [
+    "Date::Calendar::Strftime"
+  ],
+  "description": "conversions from/to the Maya calendar and from/to the Aztec calendar",
+  "license": "Artistic-2.0",
+  "name": "Date::Calendar::MayaAztec",
+  "perl": "6.c",
+  "provides": {
+    "Date::Calendar::Aztec": "lib/Date/Calendar/Aztec.pm6",
+    "Date::Calendar::Aztec::Common": "lib/Date/Calendar/Aztec/Common.pm6",
+    "Date::Calendar::Aztec::Cortes": "lib/Date/Calendar/Aztec/Cortes.pm6",
+    "Date::Calendar::Aztec::Names": "lib/Date/Calendar/Aztec/Names.pm6",
+    "Date::Calendar::Maya": "lib/Date/Calendar/Maya.pm6",
+    "Date::Calendar::Maya::Astronomical": "lib/Date/Calendar/Maya/Astronomical.pm6",
+    "Date::Calendar::Maya::Common": "lib/Date/Calendar/Maya/Common.pm6",
+    "Date::Calendar::Maya::Names": "lib/Date/Calendar/Maya/Names.pm6",
+    "Date::Calendar::Maya::Spinden": "lib/Date/Calendar/Maya/Spinden.pm6",
+    "Date::Calendar::MayaAztec": "lib/Date/Calendar/MayaAztec.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-MayaAztec-0.0.2.tar.gz",
+  "support": {
+    "email": "JFORGET@cpan.org"
+  },
+  "tags": [
+    "date",
+    "calendar"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:JFORGET",
+  "authors": [
+    "Jean Forget"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "formatting any Date::Calendar::whatever date with 'strftime'",
@@ -28447,35 +28491,34 @@
     "Jeffrey Goff <drforr@pobox.com>"
   ],
   "build-depends": [
-    
+    "LibraryCheck"
   ],
   "depends": [
-    "Test::META"
+    
   ],
-  "description": "Convert Vroom files to Reveal.js format",
+  "description": "Perl 6 interface to GNU Readline, the CLI-based line reading library",
   "license": "Artistic-2.0",
   "meta6": "0",
-  "name": "Vroom::Reveal",
+  "name": "Readline",
   "perl": "6.c",
   "provides": {
-    "Vroom::Reveal": "lib/Vroom/Reveal.pm"
+    "Readline": "lib/Readline.pm"
   },
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Vroom-Reveal-0.0.2.tar.gz",
+  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Readline-0.1.5.tar.gz",
   "support": {
-    "source": "https://github.com/drforr/perl6-vroom2reveal.git"
+    "source": "https://github.com/drforr/perl6-readline"
   },
   "tags": [
-    "Vroom",
-    "HTML",
-    "Reveal.js"
+    "terminal",
+    "CLI"
   ],
   "test-depends": [
-    
+    "Test"
   ],
-  "version": "0.0.2"
+  "version": "0.1.5"
 }
 ,
 {
