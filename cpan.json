@@ -28443,6 +28443,43 @@
     "Jeffrey Goff <drforr@pobox.com>"
   ],
   "build-depends": [
+    
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Convert Vroom files to Reveal.js format",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Vroom::Reveal",
+  "perl": "6.c",
+  "provides": {
+    "Vroom::Reveal": "lib/Vroom/Reveal.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Vroom-Reveal-0.0.2.tar.gz",
+  "support": {
+    "source": "https://github.com/drforr/perl6-vroom2reveal.git"
+  },
+  "tags": [
+    "Vroom",
+    "HTML",
+    "Reveal.js"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "github:drforr",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "build-depends": [
     "LibraryCheck"
   ],
   "depends": [
