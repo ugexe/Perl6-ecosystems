@@ -6557,6 +6557,40 @@
     
   ],
   "depends": [
+    "Cro::HTTP::Client",
+    "Hash2Class:ver<0.1.2>"
+  ],
+  "description": "Provide basic API to Discogs",
+  "license": "Artistic-2.0",
+  "name": "Discogs::API",
+  "perl": "6.d",
+  "provides": {
+    "Discogs::API": "lib/Discogs/API.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Discogs-API-0.0.1.tar.gz",
+  "tags": [
+    "API",
+    "JSON",
+    "DISCOGS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "AccountableBagHash:ver<0.0.3>:auth<cpan:ELIZABETH>",
     "WriteOnceHash:ver<0.0.4>:auth<cpan:ELIZABETH>"
   ],
