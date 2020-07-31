@@ -7658,6 +7658,38 @@
     "Elizabeth Mattijsen"
   ],
   "build-depends": [
+    "Random::Names"
+  ],
+  "depends": [
+    
+  ],
+  "description": "A role to create class instances out of a Hash",
+  "license": "Artistic-2.0",
+  "name": "Hash2Class",
+  "perl": "6.d",
+  "provides": {
+    "Hash2Class": "lib/Hash2Class.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash2Class-0.1.1.tar.gz",
+  "tags": [
+    "JSON",
+    "CLASS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
     
   ],
   "depends": [
