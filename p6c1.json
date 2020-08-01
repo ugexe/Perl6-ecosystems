@@ -9446,6 +9446,43 @@
 }
 ,
 {
+  "auth": "github:gfldex",
+  "authors": [
+    "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Shell pipes without a shell but Raku.",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Shell::Piping",
+  "perl": "6.c",
+  "production": false,
+  "provides": {
+    "Shell::Piping": "lib/Shell/Piping.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/gfldex/raku-shell-piping.git",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    "shell",
+    "operator"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.0"
+}
+,
+{
   "authors": [
     "Wenzel P. P. Peppmeyer"
   ],
