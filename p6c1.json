@@ -8984,13 +8984,15 @@
     "Template::Mustache",
     "URI",
     "LibCurl",
-    "Pod::Load"
+    "Pod::Load",
+    "GTK::Simple"
   ],
   "description": "A generic Pod Renderer for single or multiple files using templates, provides HTML and MarkDown",
   "license": "Artistic-2.0",
   "name": "Raku::Pod::Render",
   "perl": "6.*",
   "provides": {
+    "Extractor.raku": "bin/Extractor.raku",
     "Pod::To::HTML": "lib/Pod/To/HTML.pm6",
     "Pod::To::HTML2": "lib/Pod/To/HTML2.pm6",
     "Pod::To::MarkDown": "lib/Pod/To/MarkDown.pm6",
@@ -9017,7 +9019,7 @@
     "Test::META",
     "Test::Deeply::Relaxed"
   ],
-  "version": "2.3.2"
+  "version": "2.4.0"
 }
 ,
 {
