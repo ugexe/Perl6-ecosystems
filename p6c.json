@@ -21593,6 +21593,41 @@
   "depends": [
     
   ],
+  "description": "Calculate the Sorensen-Dice or Jaccard similarity coefficient",
+  "license": "Artistic-2.0",
+  "name": "Text::Sorensen",
+  "perl": "6",
+  "provides": {
+    "Text::Sorensen": "lib/Text/Sorensen.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/Text-Sorensen.git",
+  "tags": [
+    "Sorensen",
+    "Dice",
+    "Jaccard",
+    "similarity",
+    "index"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Steve Schulze (thundergnat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Simple timer for callable code blocks",
   "license": "Artistic-2.0",
   "name": "Timer",
