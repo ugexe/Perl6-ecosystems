@@ -28153,42 +28153,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Perl6-Tidy-0.0.4.tar.gz",
-  "support": {
-    "source": "https://github.com/drforr/perl6-Perl6-Tidy.git"
-  },
-  "tags": [
-    "Tidying"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
-}
-,
-{
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Perl6::Parser",
-    "Test::META"
-  ],
-  "description": "Perl 6 tidier",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "Perl6::Tidy",
-  "perl": "6.c",
-  "provides": {
-    "Perl6::Tidy": "lib/Perl6/Tidy.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Perl6-Tidy-0.0.5.tar.gz",
   "support": {
     "source": "https://github.com/drforr/perl6-Perl6-Tidy.git"
@@ -66171,6 +66135,39 @@
     "Test::Meta"
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "provides abbreviations for an input set of one or more words",
+  "license": "Artistic-2.0",
+  "name": "Abbreviations",
+  "perl": "6.d",
+  "provides": {
+    "Abbreviations": "lib/Abbreviations.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Abbreviations-0.1.0.tar.gz",
+  "tags": [
+    "text",
+    "abbreviations",
+    "options"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.1.0"
 }
 ,
 {
