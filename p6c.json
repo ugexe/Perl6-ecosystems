@@ -1475,23 +1475,26 @@
 }
 ,
 {
+  "api": "1",
   "auth": "github:CurtTilmes",
   "authors": [
-    "Curt Tilmes <ctilmes@cpan.org>"
+    "Curt Tilmes <curt@tilmes.org>"
   ],
   "depends": [
-    "NativeCall"
+    "NativeCall",
+    "NativeLibs:ver<0.0.7>:auth<github:salortiz>"
   ],
-  "description": "Perl 6 bindings for primesieve",
+  "description": "Raku bindings for primesieve",
   "license": "BSD-2-Clause",
+  "meta-version": 0,
   "name": "Math::Primesieve",
-  "perl": "6.*",
+  "perl": "6.d",
   "provides": {
-    "Math::Primesieve": "lib/Math/Primesieve.pm6"
+    "Math::Primesieve": "lib/Math/Primesieve.rakumod"
   },
-  "source-url": "https://github.com/CurtTilmes/raku-primesieve.git",
   "support": {
     "bugtracker": "https://github.com/CurtTilmes/raku-primesieve/issues",
+    "email": "curt@tilmes.org",
     "source": "https://github.com/CurtTilmes/raku-primesieve.git"
   },
   "tags": [
@@ -1499,9 +1502,10 @@
     "Primes"
   ],
   "test-depends": [
-    "Test"
+    "Test",
+    "Test::When"
   ],
-  "version": "0.4"
+  "version": "0.5"
 }
 ,
 {
