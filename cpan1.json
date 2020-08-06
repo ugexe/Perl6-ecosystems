@@ -84300,6 +84300,46 @@
 }
 ,
 {
+  "api": "PDF-1.7",
+  "auth": "github:pdf-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "depends": [
+    "PDF::Content:ver<0.4.3+>",
+    "PDF",
+    "PDF::Font::Loader",
+    "PDF::Class:ver<0.4.3+>",
+    "Method::Also"
+  ],
+  "description": "Reader for tagged PDF files",
+  "license": "Artistic-2.0",
+  "name": "PDF::Tags",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Tags": "lib/PDF/Tags.rakumod",
+    "PDF::Tags::Attr": "lib/PDF/Tags/Attr.rakumod",
+    "PDF::Tags::Elem": "lib/PDF/Tags/Elem.rakumod",
+    "PDF::Tags::Mark": "lib/PDF/Tags/Mark.rakumod",
+    "PDF::Tags::Node": "lib/PDF/Tags/Node.rakumod",
+    "PDF::Tags::Node::Parent": "lib/PDF/Tags/Node/Parent.rakumod",
+    "PDF::Tags::Node::Root": "lib/PDF/Tags/Node/Root.rakumod",
+    "PDF::Tags::ObjRef": "lib/PDF/Tags/ObjRef.rakumod",
+    "PDF::Tags::Text": "lib/PDF/Tags/Text.rakumod",
+    "PDF::Tags::XML-Writer": "lib/PDF/Tags/XML-Writer.rakumod",
+    "PDF::Tags::XPath": "lib/PDF/Tags/XPath.rakumod",
+    "PDF::Tags::XPath::Actions": "lib/PDF/Tags/XPath/Actions.rakumod",
+    "PDF::Tags::XPath::Axes": "lib/PDF/Tags/XPath/Axes.rakumod",
+    "PDF::Tags::XPath::Grammar": "lib/PDF/Tags/XPath/Grammar.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Tags-0.0.3.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "authors": [
     "pnu",
     "wbiker"
