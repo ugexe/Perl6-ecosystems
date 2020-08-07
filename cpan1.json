@@ -4175,6 +4175,52 @@
 }
 ,
 {
+  "api": "2",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "NativeCall",
+        "NativeLibs:ver<0.0.7>:auth<github:salortiz>",
+        "primesieve:from<native>:ver<8>"
+      ]
+    },
+    "test": {
+      "requires": [
+        "Test",
+        "Test::When"
+      ]
+    }
+  },
+  "description": "Raku bindings for primesieve",
+  "license": "BSD-2-Clause",
+  "meta-version": "1",
+  "name": "Math::Primesieve",
+  "perl": "6.d",
+  "provides": {
+    "Math::Primesieve": "lib/Math/Primesieve.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/Math-Primesieve-0.6.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-primesieve/issues",
+    "email": "curt@tilmes.org",
+    "source": "https://github.com/CurtTilmes/raku-primesieve.git"
+  },
+  "tags": [
+    "Math",
+    "Primes"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When"
+  ],
+  "version": "0.5"
+}
+,
+{
   "authors": [
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
   ],
@@ -28321,42 +28367,6 @@
     
   ],
   "version": "0.0.5"
-}
-,
-{
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Perl6::Parser",
-    "Test::META"
-  ],
-  "description": "Perl 6 tidier",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "Perl6::Tidy",
-  "perl": "6.c",
-  "provides": {
-    "Perl6::Tidy": "lib/Perl6/Tidy.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Perl6-Tidy-0.0.6.tar.gz",
-  "support": {
-    "source": "https://github.com/drforr/perl6-Perl6-Tidy.git"
-  },
-  "tags": [
-    "Tidying"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.6"
 }
 ,
 {
