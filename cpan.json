@@ -67031,6 +67031,39 @@
 }
 ,
 {
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Abbreviations",
+    "Text::Utils",
+    "Getopt::Long"
+  ],
+  "description": "Provides easy, semi-automated CLI argument handling",
+  "license": "Artistic-2.0",
+  "name": "Opt::Handler",
+  "perl": "6.d",
+  "provides": {
+    "Opt::Handler": "lib/Opt/Handler.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Opt-Handler-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "authors": [
     "github:tbrowder"
   ],
