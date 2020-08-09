@@ -9998,7 +9998,8 @@
   "perl": "6.c",
   "production": false,
   "provides": {
-    "Shell::Piping": "lib/Shell/Piping.rakumod"
+    "Shell::Piping": "lib/Shell/Piping.rakumod",
+    "Shell::Piping::Whereceptions": "lib/Shell/Piping/Whereceptions.rakumod"
   },
   "resources": [
     
@@ -10014,7 +10015,7 @@
   "test-depends": [
     
   ],
-  "version": "0.3.0"
+  "version": "0.4.0"
 }
 ,
 {
