@@ -7999,7 +7999,7 @@
   "test-depends": [
     
   ],
-  "version": "0.5.1"
+  "version": "0.5.2"
 }
 ,
 {
@@ -8037,6 +8037,26 @@
   },
   "source-url": "git://github.com/css-raku/CSS-Writer-p6.git",
   "version": "0.2.5"
+}
+,
+{
+  "auth": "github:cygx",
+  "authors": [
+    "cygx"
+  ],
+  "description": "Manage symlink-based repositories of local Perl6 modules",
+  "license": "BSL-1.0",
+  "name": "App::SixLib",
+  "perl": "6.*",
+  "provides": {
+    
+  },
+  "source-url": "git://github.com/cygx/6lib.git",
+  "support": {
+    "bugtracker": "https://github.com/cygx/6lib/issues",
+    "source": "https://github.com/cygx/6lib"
+  },
+  "version": "0.0.1"
 }
 ,
 {
