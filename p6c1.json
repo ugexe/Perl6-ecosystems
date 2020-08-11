@@ -19525,6 +19525,32 @@
 }
 ,
 {
+  "authors": [
+    "github:carbin",
+    "github:skinkade"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Crypt::Random"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Easy bcrypt password hashing",
+  "license": "ISC",
+  "name": "Crypt::Bcrypt",
+  "perl": "6.*",
+  "provides": {
+    "Crypt::Bcrypt": "lib/Crypt/Bcrypt.pm6"
+  },
+  "resources": [
+    "crypt_blowfish.so"
+  ],
+  "source-url": "git://github.com/skinkade/p6-Crypt-Bcrypt.git",
+  "version": "1.3.2"
+}
+,
+{
   "author": "github:skinkade",
   "build-depends": [
     "Crypt::Random",
