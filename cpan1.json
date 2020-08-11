@@ -62460,6 +62460,80 @@
 }
 ,
 {
+  "auth": "kensanata",
+  "authors": [
+    "Alex Schroeder <alex@gnu.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP",
+    "Text::Markdown",
+    "Template::Mustache",
+    "Algorithm::Diff",
+    "HTML::Escape",
+    "URI::Encode"
+  ],
+  "description": "A wiki for Raku using Cro, Markdown, and Mustache",
+  "license": "AGPL-3.0-or-later",
+  "meta-version": "0",
+  "name": "Oddmuse6",
+  "perl": "6.*",
+  "provides": {
+    "Oddmuse::Change": "lib/Oddmuse/Change.rakumod",
+    "Oddmuse::Changes": "lib/Oddmuse/Changes.rakumod",
+    "Oddmuse::Cookie": "lib/Oddmuse/Cookie.rakumod",
+    "Oddmuse::Diff": "lib/Oddmuse/Diff.rakumod",
+    "Oddmuse::Edit": "lib/Oddmuse/Edit.rakumod",
+    "Oddmuse::Filter": "lib/Oddmuse/Filter.rakumod",
+    "Oddmuse::Layout": "lib/Oddmuse/Layout.rakumod",
+    "Oddmuse::Lock": "lib/Oddmuse/Lock.rakumod",
+    "Oddmuse::Page": "lib/Oddmuse/Page.rakumod",
+    "Oddmuse::Password": "lib/Oddmuse/Password.rakumod",
+    "Oddmuse::Routes": "lib/Oddmuse/Routes.rakumod",
+    "Oddmuse::Save": "lib/Oddmuse/Save.rakumod",
+    "Oddmuse::Secret": "lib/Oddmuse/Secret.rakumod",
+    "Oddmuse::Storage": "lib/Oddmuse/Storage.rakumod",
+    "Oddmuse::Storage::Delegate": "lib/Oddmuse/Storage/Delegate.rakumod",
+    "Oddmuse::Storage::File": "lib/Oddmuse/Storage/File.rakumod",
+    "Oddmuse::Storage::File::Lock": "lib/Oddmuse/Storage/File/Lock.rakumod",
+    "Oddmuse::View": "lib/Oddmuse/View.rakumod"
+  },
+  "resources": [
+    "css/default.css",
+    "images/logo.png",
+    "templates/changes.sp6",
+    "templates/diff.sp6",
+    "templates/edit.sp6",
+    "templates/empty.sp6",
+    "templates/history.sp6",
+    "templates/locked.sp6",
+    "templates/menu.sp6",
+    "templates/no-password.sp6",
+    "templates/password-save.sp6",
+    "templates/password.sp6",
+    "templates/secret.sp6",
+    "templates/view.sp6",
+    "wiki/page/Home.md"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SC/SCHROEDER/Perl6/Oddmuse-0.0.5.tar.gz",
+  "support": {
+    "source": "https://oddmuse.org/wiki/Oddmuse_6"
+  },
+  "tags": [
+    "web",
+    "wiki"
+  ],
+  "test-depends": [
+    "Cro::HTTP::Test",
+    "File::Temp",
+    "DOM::Tiny"
+  ],
+  "version": "0.0.5"
+}
+,
+{
   "authors": [
     "Simon Proctor"
   ],
