@@ -7100,6 +7100,37 @@
   "depends": [
     
   ],
+  "description": "be a hash without knowing how",
+  "license": "Artistic-2.0",
+  "name": "Hash::Agnostic",
+  "perl": "6.c",
+  "provides": {
+    "Hash::Agnostic": "lib/Hash/Agnostic.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Agnostic-0.0.5.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "trait for limiting number of keys in hashes",
   "license": "Artistic-2.0",
   "name": "Hash::LRU",
