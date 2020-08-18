@@ -3979,6 +3979,94 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "NativeCall"
+      ]
+    },
+    "test": {
+      "requires": [
+        "Test",
+        "Test::When",
+        "Test::META",
+        "File::Temp"
+      ]
+    }
+  },
+  "description": "Raku bindings for Libgit2",
+  "license": "NASA-1.3",
+  "meta-version": "1",
+  "name": "LibGit2",
+  "perl": "6.d",
+  "provides": {
+    "Git::Annotated": "lib/Git/Annotated.rakumod",
+    "Git::Blame": "lib/Git/Blame.rakumod",
+    "Git::Blob": "lib/Git/Blob.rakumod",
+    "Git::Branch": "lib/Git/Branch.rakumod",
+    "Git::Buffer": "lib/Git/Buffer.rakumod",
+    "Git::Callback": "lib/Git/Callback.rakumod",
+    "Git::Channel": "lib/Git/Channel.rakumod",
+    "Git::Checkout": "lib/Git/Checkout.rakumod",
+    "Git::Clone": "lib/Git/Clone.rakumod",
+    "Git::Commit": "lib/Git/Commit.rakumod",
+    "Git::Config": "lib/Git/Config.rakumod",
+    "Git::Cred": "lib/Git/Cred.rakumod",
+    "Git::Describe": "lib/Git/Describe.rakumod",
+    "Git::Diff": "lib/Git/Diff.rakumod",
+    "Git::Error": "lib/Git/Error.rakumod",
+    "Git::FileMode": "lib/Git/FileMode.rakumod",
+    "Git::Index": "lib/Git/Index.rakumod",
+    "Git::Indexer": "lib/Git/Indexer.rakumod",
+    "Git::Init": "lib/Git/Init.rakumod",
+    "Git::Message": "lib/Git/Message.rakumod",
+    "Git::Note": "lib/Git/Note.rakumod",
+    "Git::Object": "lib/Git/Object.rakumod",
+    "Git::Odb": "lib/Git/Odb.rakumod",
+    "Git::Oid": "lib/Git/Oid.rakumod",
+    "Git::Open": "lib/Git/Open.rakumod",
+    "Git::Patch": "lib/Git/Patch.rakumod",
+    "Git::Proxy": "lib/Git/Proxy.rakumod",
+    "Git::Reference": "lib/Git/Reference.rakumod",
+    "Git::Refspec": "lib/Git/Refspec.rakumod",
+    "Git::Remote": "lib/Git/Remote.rakumod",
+    "Git::Repository": "lib/Git/Repository.rakumod",
+    "Git::Revwalk": "lib/Git/Revwalk.rakumod",
+    "Git::Signature": "lib/Git/Signature.rakumod",
+    "Git::Status": "lib/Git/Status.rakumod",
+    "Git::Strarray": "lib/Git/Strarray.rakumod",
+    "Git::Submodule": "lib/Git/Submodule.rakumod",
+    "Git::Tag": "lib/Git/Tag.rakumod",
+    "Git::Trace": "lib/Git/Trace.rakumod",
+    "Git::Tree": "lib/Git/Tree.rakumod",
+    "Git::TreeBuilder": "lib/Git/TreeBuilder.rakumod",
+    "Git::Worktree": "lib/Git/Worktree.rakumod",
+    "LibGit2": "lib/LibGit2.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/LibGit2-0.4.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-libgit2/issues",
+    "email": "Curt.Tilmes@nasa.gov",
+    "source": "https://github.com/CurtTilmes/raku-libgit2.git"
+  },
+  "tags": [
+    "GIT"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When",
+    "Test::META",
+    "File::Temp"
+  ],
+  "version": "0.4"
+}
+,
+{
   "auth": "github:CurtTilmes",
   "authors": [
     "Curt Tilmes <ctilmes@cpan.org>"
