@@ -23180,28 +23180,6 @@
     "Tony O'Dell"
   ],
   "depends": [
-    "Event::Emitter"
-  ],
-  "description": "Inter-process event emitter for Event::Emitter.",
-  "name": "Event::Emitter::Inter-Process",
-  "perl": "6.*",
-  "provides": {
-    "Event::Emitter::Inter-Process": "lib/Event/Emitter/Inter-Process.pm6"
-  },
-  "source-url": "git://github.com/tony-o/perl6-event-emitter-interprocess.git",
-  "support": {
-    "bugtracker": "https://github.com/tony-o/perl6-event-emitter-interprocess/issues",
-    "source": "git://github.com/tony-o/perl6-event-emitter-interprocess.git"
-  },
-  "version": "1.0.0"
-}
-,
-{
-  "auth": "github:tony-o",
-  "authors": [
-    "Tony O'Dell"
-  ],
-  "depends": [
     
   ],
   "description": "Awesome event emitter.  Threaded, or not.",
