@@ -65201,56 +65201,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/App-Mi6-0.1.1.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "File::Temp"
-  ],
-  "version": "0.1.1"
-}
-,
-{
-  "authors": [
-    "Shoichi Kaji"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "File::Find",
-    "JSON::Pretty",
-    "Pod::To::Markdown",
-    "Shell::Command",
-    "CPAN::Uploader::Tiny"
-  ],
-  "description": "minimal authoring tool for Perl6",
-  "license": "Artistic-2.0",
-  "name": "App::Mi6",
-  "perl": "6.c",
-  "provides": {
-    "App::Mi6": "lib/App/Mi6.pm6",
-    "App::Mi6::INI": "lib/App/Mi6/INI.pm6",
-    "App::Mi6::JSON": "lib/App/Mi6/JSON.pm6",
-    "App::Mi6::Release": "lib/App/Mi6/Release.pm6",
-    "App::Mi6::Release::BumpVersion": "lib/App/Mi6/Release/BumpVersion.pm6",
-    "App::Mi6::Release::CheckChanges": "lib/App/Mi6/Release/CheckChanges.pm6",
-    "App::Mi6::Release::CheckOrigin": "lib/App/Mi6/Release/CheckOrigin.pm6",
-    "App::Mi6::Release::CheckUntrackedFiles": "lib/App/Mi6/Release/CheckUntrackedFiles.pm6",
-    "App::Mi6::Release::CreateGitTag": "lib/App/Mi6/Release/CreateGitTag.pm6",
-    "App::Mi6::Release::DistTest": "lib/App/Mi6/Release/DistTest.pm6",
-    "App::Mi6::Release::GitCommit": "lib/App/Mi6/Release/GitCommit.pm6",
-    "App::Mi6::Release::MakeDist": "lib/App/Mi6/Release/MakeDist.pm6",
-    "App::Mi6::Release::RegenerateFiles": "lib/App/Mi6/Release/RegenerateFiles.pm6",
-    "App::Mi6::Release::RewriteChanges": "lib/App/Mi6/Release/RewriteChanges.pm6",
-    "App::Mi6::Release::UploadToCPAN": "lib/App/Mi6/Release/UploadToCPAN.pm6",
-    "App::Mi6::Template": "lib/App/Mi6/Template.pm6",
-    "App::Mi6::Util": "lib/App/Mi6/Util.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/App-Mi6-0.1.2.tar.gz",
   "tags": [
     
@@ -82698,6 +82648,33 @@
     "pdf"
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "github:pdf-raku",
+  "depends": [
+    "HTML::Canvas:ver<0.0.11+>",
+    "JSON::Fast",
+    "PDF::Lite",
+    "PDF::Content",
+    "Color",
+    "PDF::Font::Loader:ver<0.3.0+>",
+    "CSS::Properties"
+  ],
+  "description": "PDF Rendering backend for the HTML Canvas (2D) API",
+  "license": "Artistic-2.0",
+  "name": "HTML::Canvas::To::PDF",
+  "perl": "6.c",
+  "provides": {
+    "HTML::Canvas::To::PDF": "lib/HTML/Canvas/To/PDF.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-To-PDF-0.0.4.tar.gz",
+  "tags": [
+    "html",
+    "javascript",
+    "pdf"
+  ],
+  "version": "0.0.4"
 }
 ,
 {
