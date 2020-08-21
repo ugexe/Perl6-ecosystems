@@ -41545,6 +41545,54 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:Kaiepi",
+  "authors": [
+    "Ben Davies"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Kind"
+  ],
+  "description": "Automagic tracing",
+  "license": "Artistic-2.0",
+  "name": "Trait::Traced",
+  "perl": "6.d",
+  "provides": {
+    "MetamodelX::Traced::AdHocMethod": "lib/MetamodelX/Traced/AdHocMethod.pm6",
+    "MetamodelX::Traced::AttributeContainer": "lib/MetamodelX/Traced/AttributeContainer.pm6",
+    "MetamodelX::Traced::MetaMethodContainer": "lib/MetamodelX/Traced/MetaMethodContainer.pm6",
+    "MetamodelX::Traced::MethodContainer": "lib/MetamodelX/Traced/MethodContainer.pm6",
+    "MetamodelX::Traced::MultiMethodContainer": "lib/MetamodelX/Traced/MultiMethodContainer.pm6",
+    "MetamodelX::Traced::PrivateMethodContainer": "lib/MetamodelX/Traced/PrivateMethodContainer.pm6",
+    "Traced": "lib/Traced.pm6",
+    "Traced::Attribute": "lib/Traced/Attribute.pm6",
+    "Traced::Routine": "lib/Traced/Routine.pm6",
+    "Traced::Stash": "lib/Traced/Stash.pm6",
+    "Traced::Variable": "lib/Traced/Variable.pm6",
+    "Tracer": "lib/Tracer.pm6",
+    "Tracer::Default": "lib/Tracer/Default.pm6",
+    "Trait::Traced": "lib/Trait/Traced.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Trait-Traced-0.4.3.tar.gz",
+  "tags": [
+    "trace",
+    "traced",
+    "tracer",
+    "metamodel"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.4.3"
+}
+,
+{
   "authors": [
     "Ben Davies"
   ],
