@@ -25236,4 +25236,30 @@
   ],
   "version": "1.0.0"
 }
+,
+{
+  "authors": [
+    "Ramiro Encinas Alarza"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides Memory Usage statistics",
+  "license": "Artistic-2.0",
+  "name": "System::Stats::MEMUsage",
+  "perl": "6.*",
+  "provides": {
+    "System::Stats::MEMUsage": "lib/System/Stats/MEMUsage.rakumod"
+  },
+  "raku: ": "6.*",
+  "source-url": "https://github.com/ramiroencinas/System-Stats-MEMUsage.git",
+  "tags": [
+    "system",
+    "utils",
+    "Memory",
+    "Stats",
+    "Statistics"
+  ],
+  "version": "1.0.0"
+}
 ]
