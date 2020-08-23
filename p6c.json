@@ -9967,7 +9967,8 @@
     
   ],
   "depends": [
-    "Test::META"
+    "Test::META",
+    "Proc::Async::Timeout"
   ],
   "description": "Shell pipes without a shell but Raku.",
   "license": "Artistic-2.0",
@@ -9994,7 +9995,7 @@
   "test-depends": [
     
   ],
-  "version": "0.5.0"
+  "version": "0.6.0"
 }
 ,
 {
