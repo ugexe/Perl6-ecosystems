@@ -28351,6 +28351,44 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Perl6-Parser-0.2.1.tar.gz",
+  "support": {
+    "source": "https://github.com/drforr/perl6-Perl6-Parser"
+  },
+  "tags": [
+    "parse",
+    "parser",
+    "parsing"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.2.1"
+}
+,
+{
+  "auth": "github:drforr",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Parse Perl 6 from within Perl 6",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Perl6::Parser",
+  "perl": "6.c",
+  "provides": {
+    "Perl6::Parser": "lib/Perl6/Parser.pm6",
+    "Perl6::Parser::Factory": "lib/Perl6/Parser/Factory.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/Perl6-Parser-0.3.0.tar.gz",
   "support": {
     "source": "https://github.com/drforr/perl6-Perl6-Parser"
@@ -41457,53 +41495,6 @@
     
   ],
   "version": "0.0.2"
-}
-,
-{
-  "api": "1",
-  "auth": "github:Kaiepi",
-  "authors": [
-    "Ben Davies"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Kind"
-  ],
-  "description": "Automagic tracing",
-  "license": "Artistic-2.0",
-  "name": "Trait::Traced",
-  "perl": "6.d",
-  "provides": {
-    "MetamodelX::Traced::AdHocMethod": "lib/MetamodelX/Traced/AdHocMethod.pm6",
-    "MetamodelX::Traced::AttributeContainer": "lib/MetamodelX/Traced/AttributeContainer.pm6",
-    "MetamodelX::Traced::MetaMethodContainer": "lib/MetamodelX/Traced/MetaMethodContainer.pm6",
-    "MetamodelX::Traced::MethodContainer": "lib/MetamodelX/Traced/MethodContainer.pm6",
-    "MetamodelX::Traced::MultiMethodContainer": "lib/MetamodelX/Traced/MultiMethodContainer.pm6",
-    "MetamodelX::Traced::PrivateMethodContainer": "lib/MetamodelX/Traced/PrivateMethodContainer.pm6",
-    "Traced": "lib/Traced.pm6",
-    "Traced::Attribute": "lib/Traced/Attribute.pm6",
-    "Traced::Routine": "lib/Traced/Routine.pm6",
-    "Traced::Stash": "lib/Traced/Stash.pm6",
-    "Traced::Variable": "lib/Traced/Variable.pm6",
-    "Tracer": "lib/Tracer.pm6",
-    "Tracer::Default": "lib/Tracer/Default.pm6",
-    "Trait::Traced": "lib/Trait/Traced.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Trait-Traced-0.4.2.tar.gz",
-  "tags": [
-    "trace",
-    "traced",
-    "metamodel"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.4.2"
 }
 ,
 {
