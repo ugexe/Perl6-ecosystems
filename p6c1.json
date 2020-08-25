@@ -8421,22 +8421,6 @@
 }
 ,
 {
-  "author": "Dagur Valberg Johannsson",
-  "depends": [
-    
-  ],
-  "description": "Low level language bindings to GD Graphics Library",
-  "license": "Artistic-2.0",
-  "name": "GD::Raw",
-  "perl": "6.*",
-  "provides": {
-    "GD::Raw": "lib/GD/Raw.pm"
-  },
-  "source-url": "git://github.com/dagurval/perl6-gd-raw.git",
-  "version": "0.2"
-}
-,
-{
   "authors": [
     "Dagur Valberg Johannsson"
   ],
@@ -10436,26 +10420,6 @@
     "FUN"
   ],
   "version": "0.2"
-}
-,
-{
-  "author": "Henrique Dias",
-  "depends": [
-    "LibraryMake"
-  ],
-  "description": "Perl 6 interface to the IUP toolkit for building GUI's",
-  "license": "Artistic-2.0",
-  "name": "IUP",
-  "perl": "6.*",
-  "provides": {
-    "IUP": "lib/IUP.pm6"
-  },
-  "resources": [
-    "lib/IUP.so"
-  ],
-  "source-type": "git",
-  "source-url": "git://github.com/hankache/perl6-IUP.git",
-  "version": "0.0.2"
 }
 ,
 {
