@@ -45187,6 +45187,39 @@
     
   ],
   "depends": [
+    "XML",
+    "HTML::Parser::XML"
+  ],
+  "description": "Perform actions on all XML nodes",
+  "license": "Artistic-2.0",
+  "name": "XML::Actions",
+  "perl": "6",
+  "provides": {
+    "XML::Actions": "lib/XML/Actions.pm6",
+    "XML::Actions::Stream": "lib/XML/Actions/Stream.pm6",
+    "XML::Actions::Stream::XmlNode": "lib/XML/Actions/Stream/XmlNode.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/XmlActions-0.4.6.2.tar.gz",
+  "tags": [
+    "XML",
+    "actions",
+    "streaming",
+    "stream"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.4.6.2"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "XML"
   ],
   "description": "Perform actions on all XML nodes",
