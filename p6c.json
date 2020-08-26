@@ -9521,16 +9521,19 @@
     "ExtractPod": "lib/ExtractPod.pm6",
     "Extractor.raku": "bin/Extractor.raku",
     "Pod::To::HTML": "lib/Pod/To/HTML.pm6",
-    "Pod::To::HTML2": "lib/Pod/To/HTML2.pm6",
+    "Pod::To::HTML::Mustache": "lib/Pod/To/HTML.pm6",
     "Pod::To::MarkDown": "lib/Pod/To/MarkDown.pm6",
-    "Pod::To::MarkDown2": "lib/Pod/To/MarkDown2.pm6",
-    "ProcessedPod": "lib/ProcessedPod.pm6"
+    "ProcessedPod": "lib/ProcessedPod.pm6",
+    "ProcessedPod::Mustache": "lib/ProcessedPod.pm6",
+    "test-templates": "bin/test-templates.raku"
   },
   "resources": [
     "pod.css",
     "Camelia.svg",
     "favicon.ico",
-    "camelia-ico.bin"
+    "camelia-ico.bin",
+    "closure-temp.raku",
+    "extra-test.raku"
   ],
   "source-type": "git",
   "source-url": "git://github.com/finanalyst/raku-pod-render.git",
@@ -9545,7 +9548,7 @@
     "Test::META",
     "Test::Deeply::Relaxed"
   ],
-  "version": "2.5.0"
+  "version": "3.1.0"
 }
 ,
 {
