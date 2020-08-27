@@ -27104,6 +27104,43 @@
     
   ],
   "depends": [
+    "List::MoreUtils",
+    "Date::Calendar::Strftime"
+  ],
+  "description": "Conversions from / to the Hebrew calendar",
+  "license": "Artistic-2.0",
+  "name": "Date::Calendar::Hebrew",
+  "perl": "6.c",
+  "provides": {
+    "Date::Calendar::Hebrew": "lib/Date/Calendar/Hebrew.pm6",
+    "Date::Calendar::Hebrew::Names": "lib/Date/Calendar/Hebrew/Names.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-Hebrew-0.0.3.tar.gz",
+  "support": {
+    "email": "JFORGET@cpan.org"
+  },
+  "tags": [
+    "date",
+    "calendar"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:JFORGET",
+  "authors": [
+    "Jean Forget"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Date::Names",
     "Date::Calendar::Strftime",
     "List::MoreUtils"
