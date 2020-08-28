@@ -48687,6 +48687,29 @@
   "authors": [
     "Marcel Timmerman"
   ],
+  "depends": [
+    "Pod::To::HTML",
+    "Pod::To::Markdown"
+  ],
+  "description": "Render pod docs to html, pdf or md",
+  "license": "Artistic-2.0",
+  "name": "Pod::Render",
+  "perl": "6",
+  "provides": {
+    "Pod::Render": "lib/Pod/Render.pm6"
+  },
+  "resources": [
+    "Camelia.svg",
+    "pod6.css"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/pod-render-0.8.1.tar.gz",
+  "version": "0.8.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
   "build-depends": [
     
   ],
