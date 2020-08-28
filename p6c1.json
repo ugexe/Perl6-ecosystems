@@ -13077,6 +13077,24 @@
   "depends": [
     
   ],
+  "description": "Glacial Grammar Engine -- a Perl 6 grammar engine written in Perl 6",
+  "name": "GGE",
+  "provides": {
+    "GGE": "lib/GGE.pm",
+    "GGE::Exp": "lib/GGE/Exp.pm",
+    "GGE::Grammar": "lib/GGE/Grammar.pm",
+    "GGE::Match": "lib/GGE/Match.pm",
+    "GGE::OPTable": "lib/GGE/OPTable.pm",
+    "GGE::Perl6Regex": "lib/GGE/Perl6Regex.pm"
+  },
+  "source-url": "git://github.com/masak/gge.git",
+  "version": "*"
+}
+,
+{
+  "depends": [
+    
+  ],
   "description": "A simple almost-port of CPAN's HTML::Template to Perl 6",
   "name": "HTML::Template",
   "perl": "6.*",
@@ -25296,6 +25314,31 @@
     "Memory",
     "Stats",
     "Statistics"
+  ],
+  "version": "1.0.0"
+}
+,
+{
+  "authors": [
+    "Ramiro Encinas Alarza"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides a list of Win32 drives and drive types.",
+  "license": "Artistic-2.0",
+  "name": "Win32::DrivesAndTypes",
+  "perl": "6.*",
+  "provides": {
+    "Win32::DrivesAndTypes": "lib/Win32/DrivesAndTypes.rakumod"
+  },
+  "raku: ": "6.*",
+  "source-url": "https://github.com/ramiroencinas/Win32-DrivesAndTypes.git",
+  "tags": [
+    "system",
+    "utils",
+    "Win32",
+    "filesystem"
   ],
   "version": "1.0.0"
 }
