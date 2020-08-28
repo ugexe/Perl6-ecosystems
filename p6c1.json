@@ -13077,24 +13077,6 @@
   "depends": [
     
   ],
-  "description": "Glacial Grammar Engine -- a Perl 6 grammar engine written in Perl 6",
-  "name": "GGE",
-  "provides": {
-    "GGE": "lib/GGE.pm",
-    "GGE::Exp": "lib/GGE/Exp.pm",
-    "GGE::Grammar": "lib/GGE/Grammar.pm",
-    "GGE::Match": "lib/GGE/Match.pm",
-    "GGE::OPTable": "lib/GGE/OPTable.pm",
-    "GGE::Perl6Regex": "lib/GGE/Perl6Regex.pm"
-  },
-  "source-url": "git://github.com/masak/gge.git",
-  "version": "*"
-}
-,
-{
-  "depends": [
-    
-  ],
   "description": "A simple almost-port of CPAN's HTML::Template to Perl 6",
   "name": "HTML::Template",
   "perl": "6.*",
@@ -14762,7 +14744,7 @@
     "pack",
     "unpack"
   ],
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
 ,
 {
