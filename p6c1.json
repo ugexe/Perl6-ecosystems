@@ -4792,6 +4792,39 @@
 }
 ,
 {
+  "auth": "github:alabamenhu",
+  "authors": [
+    "Matthew Stephen STUCKWISCH <mateu@softastur.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "description": "A module enabling inline tests for Raku modules",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Test::Inline",
+  "perl": "6.*",
+  "provides": {
+    "Test::Inline": "lib/Test/Inline.pm6"
+  },
+  "source-url": "git://github.com/alabamenhu/TestInline.git",
+  "support": {
+    "source": "git://github.com/alabamenhu/TestInline.git"
+  },
+  "tags": [
+    "timezones",
+    "olson",
+    "datetime",
+    "time",
+    "date"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1"
+}
+,
+{
   "api": 1,
   "auth": "github:alabamenhu",
   "authors": [
