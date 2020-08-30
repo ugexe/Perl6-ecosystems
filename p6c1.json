@@ -15363,7 +15363,8 @@
 {
   "author": "Perl 6",
   "depends": [
-    "LWP::Simple"
+    "HTTP::UserAgent",
+    "URI"
   ],
   "description": "Render many pod6-files into one (big) html-file.",
   "license": "Artistic-2.0",
@@ -15382,7 +15383,7 @@
     "Test::When",
     "IO::Socket::SSL"
   ],
-  "version": "0.5.1"
+  "version": "0.5.2"
 }
 ,
 {
