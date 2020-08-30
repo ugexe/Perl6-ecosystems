@@ -20345,6 +20345,38 @@
   "depends": [
     
   ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - constants and exceptions.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Constants",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Constants": "lib/Math/Libgsl/Constants.rakumod",
+    "Math::Libgsl::Exception": "lib/Math/Libgsl/Exception.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Constants-0.0.7.tar.gz",
+  "tags": [
+    "math"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "An interface to libgsl, the Gnu Scientific Library - elementary functions.",
   "license": "Artistic-2.0",
   "name": "Math::Libgsl::Elementary",
@@ -28232,42 +28264,6 @@
     "JSON::Tiny"
   ],
   "version": "0.2.0"
-}
-,
-{
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Simple Class for OLE document interface.",
-  "license": "NOASSERTION",
-  "name": "OLE::Storage_Lite",
-  "perl": "6.c",
-  "provides": {
-    "OLE::Storage_Lite": "lib/OLE/Storage_Lite.pm6",
-    "OLE::Storage_Lite::PPS": "lib/OLE/Storage_Lite/PPS.pm6",
-    "OLE::Storage_Lite::PPS::Dir": "lib/OLE/Storage_Lite/PPS/Dir.pm6",
-    "OLE::Storage_Lite::PPS::File": "lib/OLE/Storage_Lite/PPS/File.pm6",
-    "OLE::Storage_Lite::PPS::Root": "lib/OLE/Storage_Lite/PPS/Root.pm6",
-    "OLE::Storage_Lite::Utils": "lib/OLE/Storage_Lite/Utils.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/OLE-Storage_Lite-0.0.1.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
 }
 ,
 {
