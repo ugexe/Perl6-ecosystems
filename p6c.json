@@ -8985,9 +8985,10 @@
 }
 ,
 {
-  "auth": "github:drforr",
+  "auth": "cpan:fooist",
   "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
+    "Jeffrey Goff <drforr@pobox.com>",
+    "Daniel Lathrop <dwl@foo.ist>"
   ],
   "build-depends": [
     "LibraryCheck"
@@ -9006,18 +9007,19 @@
   "resources": [
     
   ],
-  "source-url": "https://github.com/drforr/perl6-readline.git",
+  "source-url": "https://github.com/fooist/perl6-readline.git",
   "support": {
-    "source": "https://github.com/drforr/perl6-readline"
+    "source": "https://github.com/fooist/perl6-readline"
   },
   "tags": [
     "terminal",
+    "readline",
     "CLI"
   ],
   "test-depends": [
     "Test"
   ],
-  "version": "0.1.5"
+  "version": "0.1.6"
 }
 ,
 {
