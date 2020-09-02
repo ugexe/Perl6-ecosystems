@@ -82752,6 +82752,53 @@
 }
 ,
 {
+  "auth": "github:pdf-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Pod::To::Markdown"
+  ],
+  "depends": [
+    "Method::Also"
+  ],
+  "description": "read font files and render glyphs from Raku using FreeType2",
+  "license": "Artistic-2.0",
+  "name": "Font::FreeType",
+  "perl": "6",
+  "provides": {
+    "Font::FreeType": "lib/Font/FreeType.rakumod",
+    "Font::FreeType::BBox": "lib/Font/FreeType/BBox.rakumod",
+    "Font::FreeType::BitMap": "lib/Font/FreeType/BitMap.rakumod",
+    "Font::FreeType::CharMap": "lib/Font/FreeType/CharMap.rakumod",
+    "Font::FreeType::Error": "lib/Font/FreeType/Error.rakumod",
+    "Font::FreeType::Face": "lib/Font/FreeType/Face.rakumod",
+    "Font::FreeType::Glyph": "lib/Font/FreeType/Glyph.rakumod",
+    "Font::FreeType::GlyphImage": "lib/Font/FreeType/GlyphImage.rakumod",
+    "Font::FreeType::NamedInfo": "lib/Font/FreeType/NamedInfo.rakumod",
+    "Font::FreeType::Native": "lib/Font/FreeType/Native.rakumod",
+    "Font::FreeType::Native::Defs": "lib/Font/FreeType/Native/Defs.rakumod",
+    "Font::FreeType::Outline": "lib/Font/FreeType/Outline.rakumod",
+    "Font::FreeType::Raw": "lib/Font/FreeType/Raw.rakumod",
+    "Font::FreeType::Raw::Defs": "lib/Font/FreeType/Raw/Defs.rakumod",
+    "Font::FreeType::Raw::TT_Sfnt": "lib/Font/FreeType/Raw/TT_Sfnt.rakumod"
+  },
+  "resources": [
+    "libraries/ft6"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.3.3.tar.gz",
+  "tags": [
+    "font",
+    "freetype"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.3"
+}
+,
+{
   "auth": "github:css-raku",
   "authors": [
     "David Warring"
