@@ -17656,6 +17656,109 @@
 }
 ,
 {
+  "authors": [
+    "Ramiro Encinas Alarza"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides Statistics CPU Usage in percentage",
+  "license": "Artistic-2.0",
+  "name": "System::Stats::CPUsage",
+  "perl": "6.*",
+  "provides": {
+    "System::Stats::CPUsage": "lib/System/Stats/CPUsage.rakumod"
+  },
+  "raku: ": "6.*",
+  "source-url": "https://github.com/ramiroencinas/System-Stats-CPUsage.git",
+  "tags": [
+    "system",
+    "utils",
+    "cpu",
+    "Stats",
+    "Statistics"
+  ],
+  "version": "1.0.0"
+}
+,
+{
+  "authors": [
+    "Ramiro Encinas Alarza"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides Memory Usage statistics",
+  "license": "Artistic-2.0",
+  "name": "System::Stats::MEMUsage",
+  "perl": "6.*",
+  "provides": {
+    "System::Stats::MEMUsage": "lib/System/Stats/MEMUsage.rakumod"
+  },
+  "raku: ": "6.*",
+  "source-url": "https://github.com/ramiroencinas/System-Stats-MEMUsage.git",
+  "tags": [
+    "system",
+    "utils",
+    "Memory",
+    "Stats",
+    "Statistics"
+  ],
+  "version": "1.0.0"
+}
+,
+{
+  "authors": [
+    "Ramiro Encinas Alarza"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides a list of Win32 drives and drive types.",
+  "license": "Artistic-2.0",
+  "name": "Win32::DrivesAndTypes",
+  "perl": "6.*",
+  "provides": {
+    "Win32::DrivesAndTypes": "lib/Win32/DrivesAndTypes.rakumod"
+  },
+  "raku: ": "6.*",
+  "source-url": "https://github.com/ramiroencinas/Win32-DrivesAndTypes.git",
+  "tags": [
+    "system",
+    "utils",
+    "Win32",
+    "filesystem"
+  ],
+  "version": "1.0.0"
+}
+,
+{
+  "authors": [
+    "Ramiro Encinas Alarza"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides Network Usage Stats",
+  "license": "Artistic-2.0",
+  "name": "System::Stats::NETUsage",
+  "perl": "6.*",
+  "provides": {
+    "System::Stats::NETUsage": "lib/System/Stats/NETUsage.rakumod"
+  },
+  "raku: ": "6.*",
+  "source-url": "https://github.com/ramiroencinas/System-Stats-NETUsage.git",
+  "tags": [
+    "system",
+    "utils",
+    "network",
+    "Stats",
+    "Statistics"
+  ],
+  "version": "1.0.0"
+}
+,
+{
   "author": "raydiak",
   "depends": [
     "Compress::Zlib",
@@ -25272,82 +25375,5 @@
     
   ],
   "version": "0.5.1"
-}
-,
-{
-  "authors": [
-    "Ramiro Encinas Alarza"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Provides Statistics CPU Usage in percentage",
-  "license": "Artistic-2.0",
-  "name": "System::Stats::CPUsage",
-  "perl": "6.*",
-  "provides": {
-    "System::Stats::CPUsage": "lib/System/Stats/CPUsage.rakumod"
-  },
-  "raku: ": "6.*",
-  "source-url": "https://github.com/ramiroencinas/System-Stats-CPUsage.git",
-  "tags": [
-    "system",
-    "utils",
-    "cpu",
-    "Stats",
-    "Statistics"
-  ],
-  "version": "1.0.0"
-}
-,
-{
-  "authors": [
-    "Ramiro Encinas Alarza"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Provides Memory Usage statistics",
-  "license": "Artistic-2.0",
-  "name": "System::Stats::MEMUsage",
-  "perl": "6.*",
-  "provides": {
-    "System::Stats::MEMUsage": "lib/System/Stats/MEMUsage.rakumod"
-  },
-  "raku: ": "6.*",
-  "source-url": "https://github.com/ramiroencinas/System-Stats-MEMUsage.git",
-  "tags": [
-    "system",
-    "utils",
-    "Memory",
-    "Stats",
-    "Statistics"
-  ],
-  "version": "1.0.0"
-}
-,
-{
-  "authors": [
-    "Ramiro Encinas Alarza"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Provides a list of Win32 drives and drive types.",
-  "license": "Artistic-2.0",
-  "name": "Win32::DrivesAndTypes",
-  "perl": "6.*",
-  "provides": {
-    "Win32::DrivesAndTypes": "lib/Win32/DrivesAndTypes.rakumod"
-  },
-  "raku: ": "6.*",
-  "source-url": "https://github.com/ramiroencinas/Win32-DrivesAndTypes.git",
-  "tags": [
-    "system",
-    "utils",
-    "Win32",
-    "filesystem"
-  ],
-  "version": "1.0.0"
 }
 ]
