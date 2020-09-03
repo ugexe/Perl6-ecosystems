@@ -45085,6 +45085,34 @@
     "Auth::SCRAM::Client": "lib/Auth/SCRAM/Client.pm6",
     "Auth::SCRAM::Server": "lib/Auth/SCRAM/Server.pm6"
   },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Auth-SCRAM-0.4.8.1.tar.gz",
+  "tags": [
+    "authentication",
+    "scram"
+  ],
+  "version": "0.4.8.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "depends": [
+    "Digest::HMAC",
+    "OpenSSL",
+    "Base64",
+    "PKCS5",
+    "Unicode::PRECIS"
+  ],
+  "description": "Salted Challenge Response Authentication Mechanism (SCRAM)",
+  "license": "Artistic-2.0",
+  "name": "Auth::SCRAM",
+  "perl": "6.d",
+  "provides": {
+    "Auth::SCRAM": "lib/Auth/SCRAM.pm6",
+    "Auth::SCRAM::Client": "lib/Auth/SCRAM/Client.pm6",
+    "Auth::SCRAM::Server": "lib/Auth/SCRAM/Server.pm6"
+  },
   "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/Auth-SCRAM-0.4.8.tar.gz",
   "version": "0.4.8"
 }
