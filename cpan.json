@@ -20414,6 +20414,39 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - elementary functions.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Elementary",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Elementary": "lib/Math/Libgsl/Elementary.rakumod",
+    "Math::Libgsl::Raw::Elementary": "lib/Math/Libgsl/Raw/Elementary.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Elementary-0.0.3.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Math::Libgsl::Constants"
   ],
   "description": "An interface to libgsl, the Gnu Scientific Library - Special functions.",
@@ -59733,6 +59766,69 @@
     "File::Which"
   ],
   "version": "0.4.0"
+}
+,
+{
+  "abstract": "Read and Write Zip Archives",
+  "author": [
+    "Paul Marquess <pmqs@cpan.org>"
+  ],
+  "dynamic_config": 1,
+  "generated_by": "ExtUtils::MakeMaker version 7.34, CPAN::Meta::Converter version 2.150010",
+  "license": [
+    "perl_5"
+  ],
+  "meta-spec": {
+    "url": "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+    "version": 2
+  },
+  "name": "Archive-Zip-SimpleZip",
+  "no_index": {
+    "directory": [
+      "t",
+      "inc",
+      "t",
+      "private"
+    ]
+  },
+  "prereqs": {
+    "build": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    },
+    "configure": {
+      "requires": {
+        "ExtUtils::MakeMaker": "0"
+      }
+    },
+    "runtime": {
+      "recommends": {
+        "IO::Compress::Lzma": "2.096",
+        "IO::Uncompress::UnLzma": "2.096"
+      },
+      "requires": {
+        "IO::Compress::Base": "2.096",
+        "IO::Compress::Lzma": "2.096",
+        "IO::Uncompress::Base": "2.096",
+        "Perl::OSType": "0"
+      }
+    }
+  },
+  "release_status": "stable",
+  "resources": {
+    "bugtracker": {
+      "web": "https://github.com/pmqs/Archive-Zip-SimpleZip/issues"
+    },
+    "homepage": "https://github.com/pmqs/Archive-Zip-SimpleZip",
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/pmqs/Archive-Zip-SimpleZip.git",
+      "web": "https://github.com/pmqs/Archive-Zip-SimpleZip"
+    }
+  },
+  "version": "0.037",
+  "x_serialization_backend": "JSON::PP version 4.02"
 }
 ,
 {
