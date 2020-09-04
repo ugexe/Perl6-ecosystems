@@ -1287,6 +1287,51 @@
     
   ],
   "depends": [
+    "Pod::Literate",
+    "Pod::Load",
+    "Pod::To::HTML",
+    "Pod::To::Markdown",
+    "Pod::To::Text"
+  ],
+  "description": "Weave documentation from Raku source",
+  "license": "Artistic-2.0",
+  "name": "Pod::Weave",
+  "perl": "6.d",
+  "provides": {
+    "Pod::Weave": "lib/Pod/Weave.rakumod",
+    "Pod::Weave::To::HTML": "lib/Pod/Weave/To/HTML.rakumod",
+    "Pod::Weave::To::Markdown": "lib/Pod/Weave/To/Markdown.rakumod",
+    "Pod::Weave::To::Text": "lib/Pod/Weave/To/Text.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/codesections/pod-weave.git",
+  "support": {
+    "email": "daniel@codesections.com"
+  },
+  "tags": [
+    "literate programming",
+    "pod",
+    "weave",
+    "tangle",
+    "documentation"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:codesections",
+  "authors": [
+    "Daniel Sockwell"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "A library for parsing Raku files into Pod and Code",
