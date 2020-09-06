@@ -15283,12 +15283,6 @@
   "build-depends": [
     "File::Find"
   ],
-  "depends": [
-    "File::Temp",
-    "Pod::To::HTML:ver<0.6.1+>",
-    "Test::META",
-    "Perl6::TypeGraph"
-  ],
   "description": "Raku documentation (tools and docs)",
   "license": "Artistic-2.0",
   "meta6": "0",
@@ -15305,9 +15299,15 @@
   },
   "tags": [
     "perl6",
+    "raku",
     "pod6",
     "documentation",
     "reference"
+  ],
+  "test-depends": [
+    "File::Temp",
+    "Test::META",
+    "Perl6::TypeGraph"
   ],
   "version": "1.006d"
 }
