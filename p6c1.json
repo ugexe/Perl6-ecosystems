@@ -196,7 +196,7 @@
     "Router::Right::Submapper": "lib/Router/Right/Submapper.rakumod"
   },
   "source-url": "git://gitlab.com/pheix/router-right-perl6.git",
-  "version": "0.0.49"
+  "version": "0.0.50"
 }
 ,
 {
@@ -1363,10 +1363,10 @@
     
   ],
   "depends": [
-    "Pod::Literate",
-    "Pod::Load",
-    "Pod::To::HTML",
-    "Pod::To::Markdown",
+    "Pod::Literate:auth<github:codesections>",
+    "Pod::Load:ver<0.5.2>",
+    "Pod::To::HTML:auth<github:Raku>",
+    "Pod::To::Markdown:ver<v0.1.4>",
     "Pod::To::Text"
   ],
   "description": "Weave documentation from Raku source",
@@ -1396,7 +1396,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
 ,
 {
