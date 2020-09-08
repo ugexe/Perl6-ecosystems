@@ -1317,7 +1317,7 @@
 }
 ,
 {
-  "auth": "cpan:CODESECTS",
+  "auth": "github:codesections",
   "authors": [
     "Daniel Sockwell"
   ],
@@ -1325,7 +1325,7 @@
     
   ],
   "depends": [
-    "Pod::Literate"
+    "Pod::Literate:auth<github:codesections>"
   ],
   "description": "Tangle code from Raku source",
   "license": "Artistic-2.0",
