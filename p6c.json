@@ -17863,6 +17863,32 @@
 }
 ,
 {
+  "authors": [
+    "Ramiro Encinas Alarza"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides Disk Usage Stats",
+  "license": "Artistic-2.0",
+  "name": "System::Stats::DISKUsage",
+  "perl": "6.*",
+  "provides": {
+    "System::Stats::NETUsage": "lib/System/Stats/DISKUsage.rakumod"
+  },
+  "raku: ": "6.*",
+  "source-url": "https://github.com/ramiroencinas/System-Stats-DISKUsage.git",
+  "tags": [
+    "system",
+    "utils",
+    "filesystem",
+    "Stats",
+    "Statistics"
+  ],
+  "version": "1.0.0"
+}
+,
+{
   "author": "raydiak",
   "depends": [
     "Compress::Zlib",
