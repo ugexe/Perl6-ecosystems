@@ -27094,46 +27094,6 @@
     
   ],
   "depends": [
-    "Date::Calendar::Strftime"
-  ],
-  "description": "Conversions from / to the French Revolutionary calendar",
-  "license": "Artistic-2.0",
-  "name": "Date::Calendar::FrenchRevolutionary",
-  "perl": "6.c",
-  "provides": {
-    "Date::Calendar::FrenchRevolutionary": "lib/Date/Calendar/FrenchRevolutionary.pm6",
-    "Date::Calendar::FrenchRevolutionary::Arithmetic": "lib/Date/Calendar/FrenchRevolutionary/Arithmetic.pm6",
-    "Date::Calendar::FrenchRevolutionary::Astronomical": "lib/Date/Calendar/FrenchRevolutionary/Astronomical.pm6",
-    "Date::Calendar::FrenchRevolutionary::Common": "lib/Date/Calendar/FrenchRevolutionary/Common.pm6",
-    "Date::Calendar::FrenchRevolutionary::Names": "lib/Date/Calendar/FrenchRevolutionary/Names.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-FrenchRevolutionary-0.0.5.tar.gz",
-  "support": {
-    "email": "JFORGET@cpan.org"
-  },
-  "tags": [
-    "date",
-    "calendar",
-    "fun"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.0.5"
-}
-,
-{
-  "auth": "cpan:JFORGET",
-  "authors": [
-    "Jean Forget"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "Date::Names",
     "Date::Calendar::Strftime"
   ],
@@ -27614,6 +27574,50 @@
     "JSON::Tiny"
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "github:drforr",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Turn ANTLR4 Grammars into Perl 6 Grammars",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "ANTLR4::Grammar",
+  "perl": "6.c",
+  "provides": {
+    "ANTLR4::Actions::Perl6": "lib/ANTLR4/Actions/Perl6.pm6",
+    "ANTLR4::Grammar": "lib/ANTLR4/Grammar.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/ANTLR4-Grammar-0.0.3.tar.gz",
+  "support": {
+    "source": "https://github.com/drforr/perl6-ANTLR4.git"
+  },
+  "tags": [
+    "ANTLR",
+    "ANTLR4",
+    "Grammar",
+    "Transform",
+    "Languages",
+    "parse",
+    "parser",
+    "parsing"
+  ],
+  "test-depends": [
+    "Test",
+    "JSON::Tiny"
+  ],
+  "version": "0.0.3"
 }
 ,
 {
