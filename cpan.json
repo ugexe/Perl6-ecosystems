@@ -26987,6 +26987,46 @@
     
   ],
   "depends": [
+    "Date::Calendar::Strftime"
+  ],
+  "description": "Conversions from / to the French Revolutionary calendar",
+  "license": "Artistic-2.0",
+  "name": "Date::Calendar::FrenchRevolutionary",
+  "perl": "6.c",
+  "provides": {
+    "Date::Calendar::FrenchRevolutionary": "lib/Date/Calendar/FrenchRevolutionary.pm6",
+    "Date::Calendar::FrenchRevolutionary::Arithmetic": "lib/Date/Calendar/FrenchRevolutionary/Arithmetic.pm6",
+    "Date::Calendar::FrenchRevolutionary::Astronomical": "lib/Date/Calendar/FrenchRevolutionary/Astronomical.pm6",
+    "Date::Calendar::FrenchRevolutionary::Common": "lib/Date/Calendar/FrenchRevolutionary/Common.pm6",
+    "Date::Calendar::FrenchRevolutionary::Names": "lib/Date/Calendar/FrenchRevolutionary/Names.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-FrenchRevolutionary-0.0.5.tar.gz",
+  "support": {
+    "email": "JFORGET@cpan.org"
+  },
+  "tags": [
+    "date",
+    "calendar",
+    "fun"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:JFORGET",
+  "authors": [
+    "Jean Forget"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Date::Names",
     "Date::Calendar::Strftime"
   ],
