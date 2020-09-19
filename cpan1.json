@@ -27817,6 +27817,51 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/ANTLR4-Grammar-0.2.1.tar.gz",
+  "support": {
+    "source": "https://github.com/drforr/perl6-ANTLR4.git"
+  },
+  "tags": [
+    "ANTLR",
+    "ANTLR4",
+    "Grammar",
+    "Transform",
+    "Languages",
+    "parse",
+    "parser",
+    "parsing"
+  ],
+  "test-depends": [
+    "Test",
+    "JSON::Tiny"
+  ],
+  "version": "0.2.1"
+}
+,
+{
+  "auth": "github:drforr",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Turn ANTLR4 Grammars into Perl 6 Grammars",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "ANTLR4::Grammar",
+  "perl": "6.c",
+  "provides": {
+    "ANTLR4::Actions::Perl6": "lib/ANTLR4/Actions/Perl6.pm6",
+    "ANTLR4::Grammar": "lib/ANTLR4/Grammar.pm6",
+    "ANTLR4::Grammar::Parser": "lib/ANTLR4/Grammar/Parser.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/ANTLR4-Grammar-0.2.2.tar.gz",
   "support": {
     "source": "https://github.com/drforr/perl6-ANTLR4.git"
@@ -59982,6 +60027,70 @@
     "irc": "irc://irc.freenode.org/#raku"
   },
   "version": "0.50"
+}
+,
+{
+  "auth": "cpan:NINE",
+  "authors": [
+    "Stefan Seifert"
+  ],
+  "build": {
+    "makefile-variables": {
+      "cflags": {
+        "run": [
+          "python3-config",
+          "--cflags",
+          "--embed"
+        ]
+      },
+      "ldflags": {
+        "run": [
+          "python3-config",
+          "--ldflags",
+          "--embed"
+        ]
+      },
+      "pyhelper": {
+        "resource": "libraries/pyhelper"
+      }
+    }
+  },
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": {
+    "build": {
+      "requires": [
+        "Distribution::Builder::MakeFromJSON",
+        {
+          "from": "bin",
+          "name": {
+            "by-distro.name": {
+              "": "python3-config",
+              "debian": "python3-config",
+              "macosx": "python3-config"
+            }
+          }
+        }
+      ]
+    },
+    "runtime": {
+      "requires": [
+        "python3:from<native>"
+      ]
+    }
+  },
+  "description": "Use Python code and libraries in a Perl 6 program",
+  "license": "Artistic-2.0",
+  "meta-version": 1,
+  "name": "Inline::Python",
+  "perl": "6.c",
+  "provides": {
+    "Inline::Python": "lib/Inline/Python.pm6"
+  },
+  "resources": [
+    "libraries/pyhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/N/NI/NINE/Perl6/Inline-Python-0.5.tar.gz",
+  "version": "0.5"
 }
 ,
 {
