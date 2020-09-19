@@ -14333,26 +14333,16 @@
     "makefile-variables": {
       "cflags": {
         "run": [
-          {
-            "by-distro.name": {
-              "": "python2-config",
-              "debian": "python2.7-config",
-              "macosx": "python2.7-config"
-            }
-          },
-          "--cflags"
+          "python3-config",
+          "--cflags",
+          "--embed"
         ]
       },
       "ldflags": {
         "run": [
-          {
-            "by-distro.name": {
-              "": "python2-config",
-              "debian": "python2.7-config",
-              "macosx": "python2.7-config"
-            }
-          },
-          "--ldflags"
+          "python3-config",
+          "--ldflags",
+          "--embed"
         ]
       },
       "pyhelper": {
@@ -14369,9 +14359,9 @@
           "from": "bin",
           "name": {
             "by-distro.name": {
-              "": "python2-config",
-              "debian": "python2.7-config",
-              "macosx": "python2.7-config"
+              "": "python3-config",
+              "debian": "python3-config",
+              "macosx": "python3-config"
             }
           }
         }
@@ -14379,7 +14369,7 @@
     },
     "runtime": {
       "requires": [
-        "python2.7:from<native>"
+        "python3:from<native>"
       ]
     }
   },
@@ -14395,7 +14385,7 @@
     "libraries/pyhelper"
   ],
   "source-url": "git://github.com/niner/Inline-Python.git",
-  "version": "0.3"
+  "version": "0.5"
 }
 ,
 {
