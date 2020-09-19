@@ -28109,48 +28109,34 @@
 }
 ,
 {
-  "auth": "github:drforr",
   "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
+    "Jeffrey Goff"
   ],
   "build-depends": [
     
   ],
   "depends": [
-    "Test::META"
+    
   ],
-  "description": "Turn ANTLR4 Grammars into Perl 6 Grammars",
+  "description": "Translate library symbols to valid Perl 6",
   "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "ANTLR4::Grammar",
+  "name": "App::nm2perl6",
   "perl": "6.c",
   "provides": {
-    "ANTLR4::Actions::Perl6": "lib/ANTLR4/Actions/Perl6.pm6",
-    "ANTLR4::Grammar": "lib/ANTLR4/Grammar.pm6",
-    "ANTLR4::Grammar::Parser": "lib/ANTLR4/Grammar/Parser.pm6"
+    "App::nm2perl6": "lib/App/nm2perl6.pm6",
+    "App::nm2perl6::gnu": "lib/App/nm2perl6/gnu.pm6"
   },
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/ANTLR4-Grammar-0.6.2.tar.gz",
-  "support": {
-    "source": "https://github.com/drforr/perl6-ANTLR4.git"
-  },
+  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/App-nm2perl6-0.0.1.tar.gz",
   "tags": [
-    "ANTLR",
-    "ANTLR4",
-    "Grammar",
-    "Transform",
-    "Languages",
-    "parse",
-    "parser",
-    "parsing"
+    
   ],
   "test-depends": [
-    "Test",
-    "JSON::Tiny"
+    
   ],
-  "version": "0.6.2"
+  "version": "0.0.1"
 }
 ,
 {
