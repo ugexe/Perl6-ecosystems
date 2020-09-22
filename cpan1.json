@@ -67796,6 +67796,41 @@
 }
 ,
 {
+  "auth": "cpan:SKAJI",
+  "authors": [
+    "Shoichi Kaji"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Temp",
+    "curl:from<bin>"
+  ],
+  "description": "Raku port of HTTP::Tinyish",
+  "license": "Artistic-2.0",
+  "name": "HTTP::Tinyish",
+  "perl": "6.d",
+  "provides": {
+    "HTTP::Tinyish": "lib/HTTP/Tinyish.rakumod",
+    "HTTP::Tinyish::Base": "lib/HTTP/Tinyish/Base.rakumod",
+    "HTTP::Tinyish::Curl": "lib/HTTP/Tinyish/Curl.rakumod",
+    "HTTP::Tinyish::FileTempFactory": "lib/HTTP/Tinyish/FileTempFactory.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/HTTP-Tinyish-0.2.0.tar.gz",
+  "tags": [
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.0"
+}
+,
+{
   "auth": "github:softmoth",
   "authors": [
     "Tim Smith",
