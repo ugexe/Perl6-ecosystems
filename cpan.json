@@ -29200,6 +29200,39 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "cpan:JJATRIA",
+  "authors": [
+    "José Joaquín Atria"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "OO::Monitors",
+    "Timer::Breakable"
+  ],
+  "description": "Schedule and reset repeated time measurements",
+  "license": "Artistic-2.0",
+  "name": "Timer::Stopwatch",
+  "perl": "6.d",
+  "provides": {
+    "Timer::Stopwatch": "lib/Timer/Stopwatch.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/Timer-Stopwatch-0.0.2.tar.gz",
+  "tags": [
+    "Timer"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "authors": [
     "Jonas Kramer"
   ],
