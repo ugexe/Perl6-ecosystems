@@ -20352,6 +20352,24 @@
 }
 ,
 {
+  "auth": "github:raku-community-modules",
+  "authors": [
+    "Timothy Totten"
+  ],
+  "depends": [
+    
+  ],
+  "description": "A library for working with netstrings.",
+  "name": "Netstring",
+  "perl": "6.*",
+  "provides": {
+    "Netstring": "lib/Netstring.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/raku-netstring.git",
+  "version": "0.0.1"
+}
+,
+{
   "depends": [
     "HTTP::Status"
   ],
