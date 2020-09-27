@@ -10869,6 +10869,82 @@
 }
 ,
 {
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Terminal::ANSIColor",
+    "Pakku::Spec:ver<pupa>:auth<github:hythm7>"
+  ],
+  "description": "Pakku Meta",
+  "license": "Artistic-2.0",
+  "name": "Pakku::Meta",
+  "perl": "6.d",
+  "provides": {
+    "Pakku::Meta": "lib/Pakku/Meta.rakumod",
+    "X::Pakku::Meta": "lib/X/Pakku/Meta.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/hythm7/Pakku-Meta.git",
+  "tags": [
+    "meta",
+    "meta6",
+    "module",
+    "package",
+    "distribution"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "pupa"
+}
+,
+{
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibCurl",
+    "Pakku::Spec:ver<pupa>:auth<github:hythm7>"
+  ],
+  "description": "Pakku RecMan Client",
+  "license": "Artistic-2.0",
+  "name": "Pakku::RecMan::Client",
+  "perl": "6.d",
+  "provides": {
+    "Pakku::RecMan::Client": "lib/Pakku/RecMan/Client.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/hythm7/Pakku-RecMan-Client.git",
+  "tags": [
+    "meta",
+    "pakku",
+    "recman",
+    "manager",
+    "package",
+    "module",
+    "distribution",
+    "recommendation"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "pupa"
+}
+,
+{
   "api": "*",
   "auth": "github:hythm7",
   "authors": [
