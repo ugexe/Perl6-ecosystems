@@ -29437,6 +29437,41 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Raku OS Keyring Support Library",
+  "license": "Artistic-2.0",
+  "name": "Keyring",
+  "perl": "6.d",
+  "provides": {
+    "Keyring": "lib/Keyring.rakumod",
+    "Keyring::Backend": "lib/Keyring/Backend.rakumod",
+    "Keyring::Backend::MacOSX": "lib/Keyring/Backend/MacOSX.rakumod",
+    "Keyring::Backend::Memory": "lib/Keyring/Backend/Memory.rakumod",
+    "Keyring::Backend::Secret-Tool": "lib/Keyring/Backend/Secret-Tool.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/Keyring-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "if",
     "DateTime::Monotonic",
     "NativeHelpers::Blob",
