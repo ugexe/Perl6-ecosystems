@@ -27772,51 +27772,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/ANTLR4-Grammar-0.2.0.tar.gz",
-  "support": {
-    "source": "https://github.com/drforr/perl6-ANTLR4.git"
-  },
-  "tags": [
-    "ANTLR",
-    "ANTLR4",
-    "Grammar",
-    "Transform",
-    "Languages",
-    "parse",
-    "parser",
-    "parsing"
-  ],
-  "test-depends": [
-    "Test",
-    "JSON::Tiny"
-  ],
-  "version": "0.2.0"
-}
-,
-{
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Test::META"
-  ],
-  "description": "Turn ANTLR4 Grammars into Perl 6 Grammars",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "ANTLR4::Grammar",
-  "perl": "6.c",
-  "provides": {
-    "ANTLR4::Actions::Perl6": "lib/ANTLR4/Actions/Perl6.pm6",
-    "ANTLR4::Grammar": "lib/ANTLR4/Grammar.pm6",
-    "ANTLR4::Grammar::Parser": "lib/ANTLR4/Grammar/Parser.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/ANTLR4-Grammar-0.2.1.tar.gz",
   "support": {
     "source": "https://github.com/drforr/perl6-ANTLR4.git"
@@ -37769,6 +37724,49 @@
     
   ],
   "depends": [
+    "JSON::Marshal:ver<0.0.19+>",
+    "JSON::Unmarshal:ver<0.08+>"
+  ],
+  "description": "role to provide simple serialisation/deserialisation of objects to/from JSON",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "JSON::Class",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Class": "lib/JSON/Class.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Class-0.0.15.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/JSON-Class/issues",
+    "source": "https://github.com/jonathanstowe/JSON-Class.git"
+  },
+  "tags": [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Test"
+  ],
+  "version": "0.0.15"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "JSON::Fast",
     "HTTP::UserAgent",
     "JSON::Class",
@@ -38024,6 +38022,50 @@
     "JSON::Fast"
   ],
   "version": "0.0.18"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast",
+    "JSON::Name"
+  ],
+  "description": "Simple serialisation of objects to JSON",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "JSON::Marshal",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Marshal": "lib/JSON/Marshal.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Marshal-0.0.19.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/JSON-Marshal/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/JSON-Marshal.git"
+  },
+  "tags": [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "test-depends": [
+    "Test",
+    "JSON::Fast"
+  ],
+  "version": "0.0.19"
 }
 ,
 {
