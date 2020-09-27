@@ -27665,6 +27665,51 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/ANTLR4-Grammar-0.2.0.tar.gz",
+  "support": {
+    "source": "https://github.com/drforr/perl6-ANTLR4.git"
+  },
+  "tags": [
+    "ANTLR",
+    "ANTLR4",
+    "Grammar",
+    "Transform",
+    "Languages",
+    "parse",
+    "parser",
+    "parsing"
+  ],
+  "test-depends": [
+    "Test",
+    "JSON::Tiny"
+  ],
+  "version": "0.2.0"
+}
+,
+{
+  "auth": "github:drforr",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Turn ANTLR4 Grammars into Perl 6 Grammars",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "ANTLR4::Grammar",
+  "perl": "6.c",
+  "provides": {
+    "ANTLR4::Actions::Perl6": "lib/ANTLR4/Actions/Perl6.pm6",
+    "ANTLR4::Grammar": "lib/ANTLR4/Grammar.pm6",
+    "ANTLR4::Grammar::Parser": "lib/ANTLR4/Grammar/Parser.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/ANTLR4-Grammar-0.2.1.tar.gz",
   "support": {
     "source": "https://github.com/drforr/perl6-ANTLR4.git"
@@ -39224,6 +39269,50 @@
     "Test"
   ],
   "version": "0.0.23"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Class:ver<0.0.15+>",
+    "JSON::Name"
+  ],
+  "description": "Work with Raku META files",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "META6",
+  "perl": "6.*",
+  "production": true,
+  "provides": {
+    "META6": "lib/META6.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/META6-0.0.24.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/META6/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/META6.git"
+  },
+  "tags": [
+    "devel",
+    "meta",
+    "utils"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Test"
+  ],
+  "version": "0.0.24"
 }
 ,
 {
