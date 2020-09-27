@@ -10833,6 +10833,42 @@
 }
 ,
 {
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Pakku dependency specification",
+  "license": "Artistic-2.0",
+  "name": "Pakku::Spec",
+  "perl": "6.d",
+  "provides": {
+    "Pakku::Spec": "lib/Pakku/Spec.rakumod",
+    "X::Pakku::Spec": "lib/X/Pakku/Spec.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/hythm7/Pakku-Spec.git",
+  "tags": [
+    "Pakku",
+    "spec",
+    "meta",
+    "dependency",
+    "specification"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "pupa"
+}
+,
+{
   "api": "*",
   "auth": "github:hythm7",
   "authors": [
