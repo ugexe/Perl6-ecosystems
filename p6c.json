@@ -10945,6 +10945,55 @@
 }
 ,
 {
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast",
+    "File::Find",
+    "DB::SQLite",
+    "Badger",
+    "LibCurl",
+    "Archive::Libarchive",
+    "Cro::HTTP",
+    "Pakku::Spec:ver<pupa>:auth<github:hythm7>",
+    "Pakku::Meta:ver<pupa>:auth<github:hythm7>",
+    "Pakku::RecMan::Client:ver<pupa>:auth<github:hythm7>"
+  ],
+  "description": "Pakku Recommendation Manager",
+  "license": "Artistic-2.0",
+  "name": "Pakku::RecMan",
+  "perl": "6.d",
+  "provides": {
+    "Pakku::RecMan": "lib/Pakku/RecMan.rakumod",
+    "Pakku::RecMan::Database": "lib/Pakku/RecMan/Database.rakumod"
+  },
+  "resources": [
+    "sql/recman.sql"
+  ],
+  "source-url": "https://github.com/hythm7/Pakku-RecMan.git",
+  "tags": [
+    "pakku",
+    "recman",
+    "package",
+    "manager",
+    "recommendation",
+    "module",
+    "distribution",
+    "spec",
+    "meta"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "pupa"
+}
+,
+{
   "api": "*",
   "auth": "github:hythm7",
   "authors": [
