@@ -10118,29 +10118,18 @@
     "MIME::Base64"
   ],
   "description": "Provide a binary to work with META6.json-files.",
-  "emulates": {
-    
-  },
-  "excludes": {
-    
-  },
   "license": "Artistic-2.0",
-  "meta6": "0",
+  "meta-version": "0",
   "name": "META6::bin",
   "perl": "6.c",
+  "production": true,
   "provides": {
     "META6::bin": "lib/META6/bin.rakumod"
   },
   "resources": [
     
   ],
-  "source-url": "https://github.com/gfldex/raku-meta6-bin.git",
-  "superseded-by": {
-    
-  },
-  "supersedes": {
-    
-  },
+  "source-url": "https://github.com/gfldex/raku-meta6-bin/archive/raku-meta6-bin-0.17.9.tar.gz",
   "support": {
     "source": null
   },
@@ -10150,7 +10139,7 @@
   "test-depends": [
     
   ],
-  "version": "0.16.7"
+  "version": "0.17.9"
 }
 ,
 {
