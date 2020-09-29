@@ -20656,6 +20656,40 @@
     
   ],
   "depends": [
+    "Math::Libgsl::Constants",
+    "Math::Libgsl::Matrix"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Moving Window Statistics",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::MovingWindow",
+  "perl": "6.d",
+  "provides": {
+    "Math::Libgsl::MovingWindow": "lib/Math/Libgsl/MovingWindow.rakumod",
+    "Math::Libgsl::Raw::MovingWindow": "lib/Math/Libgsl/Raw/MovingWindow.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-MovingWindow-0.0.3.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "LibraryMake",
     "Math::Libgsl::Constants"
   ],
@@ -27279,50 +27313,6 @@
     "Test::META"
   ],
   "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:JFORGET",
-  "authors": [
-    "Jean Forget"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Date::Calendar::Strftime"
-  ],
-  "description": "conversions from/to the Maya calendar and from/to the Aztec calendar",
-  "license": "Artistic-2.0",
-  "name": "Date::Calendar::MayaAztec",
-  "perl": "6.c",
-  "provides": {
-    "Date::Calendar::Aztec": "lib/Date/Calendar/Aztec.pm6",
-    "Date::Calendar::Aztec::Common": "lib/Date/Calendar/Aztec/Common.pm6",
-    "Date::Calendar::Aztec::Cortes": "lib/Date/Calendar/Aztec/Cortes.pm6",
-    "Date::Calendar::Aztec::Names": "lib/Date/Calendar/Aztec/Names.pm6",
-    "Date::Calendar::Maya": "lib/Date/Calendar/Maya.pm6",
-    "Date::Calendar::Maya::Astronomical": "lib/Date/Calendar/Maya/Astronomical.pm6",
-    "Date::Calendar::Maya::Common": "lib/Date/Calendar/Maya/Common.pm6",
-    "Date::Calendar::Maya::Names": "lib/Date/Calendar/Maya/Names.pm6",
-    "Date::Calendar::Maya::Spinden": "lib/Date/Calendar/Maya/Spinden.pm6",
-    "Date::Calendar::MayaAztec": "lib/Date/Calendar/MayaAztec.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-MayaAztec-0.0.2.tar.gz",
-  "support": {
-    "email": "JFORGET@cpan.org"
-  },
-  "tags": [
-    "date",
-    "calendar"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.0.2"
 }
 ,
 {
@@ -36325,6 +36315,49 @@
     "Test"
   ],
   "version": "0.0.7"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Low-level Scheduling thingy for Raku",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Chronic",
+  "perl": "6.*",
+  "provides": {
+    "Chronic": "lib/Chronic.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Chronic-0.0.8.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Chronic/issues",
+    "irc": "irc:// irc.freenode.net/#raku",
+    "source": "https://github.com/jonathanstowe/Chronic.git"
+  },
+  "tags": [
+    "util",
+    "schedule",
+    "cron",
+    "event"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.8"
 }
 ,
 {
