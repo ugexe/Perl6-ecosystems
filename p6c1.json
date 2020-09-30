@@ -15419,8 +15419,7 @@
   "depends": [
     "URI",
     "Template::Mustache",
-    "Pod::Load:ver<0.4.0+>",
-    "Test::Output"
+    "Pod::Load:ver<0.4.0+>"
   ],
   "description": "Convert Raku Pod to HTML",
   "license": "Artistic-2.0",
@@ -15434,6 +15433,9 @@
     "css/github.css"
   ],
   "source-url": "git://github.com/Raku/Pod-To-HTML.git",
+  "test-depends": [
+    "Test::Output"
+  ],
   "version": "0.7.1"
 }
 ,
