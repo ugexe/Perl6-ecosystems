@@ -7596,10 +7596,10 @@
   "name": "Lingua::EN::Syllable",
   "perl": "6.*",
   "provides": {
-    "Lingua::EN::Syllable": "lib/Lingua/EN/Syllable.pm"
+    "Lingua::EN::Syllable": "lib/Lingua/EN/Syllable.rakumod"
   },
-  "source-url": "git://github.com/coke/p6-lingua-en-syllable.git",
-  "version": "*"
+  "source-url": "git://github.com/coke/raku-lingua-en-syllable.git",
+  "version": "1.0.1"
 }
 ,
 {
@@ -7617,7 +7617,7 @@
   "name": "App::Uni",
   "perl": "6",
   "provides": {
-    "App::Uni": "lib/App/Uni.pm"
+    "App::Uni": "lib/App/Uni.rakumod"
   },
   "resources": [
     
@@ -7629,7 +7629,7 @@
   "test-depends": [
     
   ],
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
 ,
 {
