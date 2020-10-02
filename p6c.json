@@ -2949,6 +2949,36 @@
 }
 ,
 {
+  "auth": "github:JJ",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "depends": [
+    "YAMLish"
+  ],
+  "description": "",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Toi",
+  "perl": "6.d",
+  "provides": {
+    "Toi": "lib/Toi.pm6",
+    "Toi::Data": "lib/Toi/Data.pm6",
+    "Toi::Data::YAML": "lib/Toi/Data/YAML.pm6",
+    "Toi::Role": "lib/Toi/Role.pm6",
+    "X::Toi": "lib/X/Toi.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/JJ/raku-toi.git",
+  "tags": [
+    "modules"
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "author": "Juerd Waalboer",
   "depends": [
     
