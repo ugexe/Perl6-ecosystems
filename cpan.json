@@ -71377,6 +71377,38 @@
   "depends": [
     
   ],
+  "description": "A Raku Aho-Corasick dictionary matching algorithm implementation",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::AhoCorasick",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::AhoCorasick": "lib/Algorithm/AhoCorasick.pm6",
+    "Algorithm::AhoCorasick::Node": "lib/Algorithm/AhoCorasick/Node.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-AhoCorasick-0.0.13.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.13"
+}
+,
+{
+  "author": "cpan:TITSUKI",
+  "authors": [
+    "Itsuki Toyota"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "efficient search for multiple strings",
   "license": "Artistic-2.0",
   "name": "Algorithm::AhoCorasick",
