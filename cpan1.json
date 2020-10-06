@@ -4309,6 +4309,51 @@
 }
 ,
 {
+  "api": "2",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "NativeCall",
+        "NativeLibs:ver<0.0.7>:auth<github:salortiz>"
+      ]
+    },
+    "test": {
+      "requires": [
+        "Test",
+        "Test::When"
+      ]
+    }
+  },
+  "description": "Raku bindings for primesieve",
+  "license": "BSD-2-Clause",
+  "meta-version": "1",
+  "name": "Math::Primesieve",
+  "perl": "6.d",
+  "provides": {
+    "Math::Primesieve": "lib/Math/Primesieve.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/Math-Primesieve-0.7.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-primesieve/issues",
+    "email": "curt@tilmes.org",
+    "source": "https://github.com/CurtTilmes/raku-primesieve.git"
+  },
+  "tags": [
+    "Math",
+    "Primes"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When"
+  ],
+  "version": "0.7"
+}
+,
+{
   "authors": [
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
   ],
@@ -26805,28 +26850,6 @@
     "source": "https://github.com/jdv/p6-data-selector.git"
   },
   "version": "v1.01"
-}
-,
-{
-  "authors": [
-    "Justin DeVuyst"
-  ],
-  "description": "data selection dsl parser and applicator",
-  "license": "artistic_2",
-  "name": "Data::Selector",
-  "perl": "v6",
-  "provides": {
-    "Data::Selector": "lib/Data/Selector.pm",
-    "Data::Selector::SelectorString::Actions": "lib/Data/Selector.pm",
-    "Data::Selector::SelectorString::Grammar": "lib/Data/Selector.pm"
-  },
-  "support": {
-    "bugtracker": "https://github.com/jdv/p6-data-selector/issues",
-    "email": "justin@devuyst.com",
-    "irc": "irc://irc.freenode.net/perl6",
-    "source": "https://github.com/jdv/p6-data-selector.git"
-  },
-  "version": "v1.02"
 }
 ,
 {
