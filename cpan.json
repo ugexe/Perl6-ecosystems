@@ -15316,6 +15316,37 @@
   "depends": [
     
   ],
+  "description": "expose the eigenstates of an object",
+  "license": "Artistic-2.0",
+  "name": "eigenstates",
+  "perl": "6.d",
+  "provides": {
+    "eigenstates": "lib/eigenstates.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/eigenstates-0.0.1.tar.gz",
+  "tags": [
+    "JUNCTION"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "prevent any output from a block",
   "license": "Artistic-2.0",
   "name": "silently",
