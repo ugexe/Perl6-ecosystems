@@ -69516,6 +69516,55 @@
   "name": "Date::Names",
   "perl": "6.c",
   "provides": {
+    "Date::Names": "lib/Date/Names.rakumod",
+    "Date::Names::de": "lib/Date/Names/de.rakumod",
+    "Date::Names::en": "lib/Date/Names/en.rakumod",
+    "Date::Names::es": "lib/Date/Names/es.rakumod",
+    "Date::Names::fr": "lib/Date/Names/fr.rakumod",
+    "Date::Names::id": "lib/Date/Names/id.rakumod",
+    "Date::Names::it": "lib/Date/Names/it.rakumod",
+    "Date::Names::nb": "lib/Date/Names/nb.rakumod",
+    "Date::Names::nl": "lib/Date/Names/nl.rakumod",
+    "Date::Names::nn": "lib/Date/Names/nn.rakumod",
+    "Date::Names::pl": "lib/Date/Names/pl.rakumod",
+    "Date::Names::ru": "lib/Date/Names/ru.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Date-Names-2.1.0.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/tbrowder/Date-Names/issues"
+  },
+  "tags": [
+    "date",
+    "names",
+    "dow"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "2.1.0"
+}
+,
+{
+  "auth": "github:tbrowder",
+  "author": "github:tbrowder",
+  "authors": [
+    "Tom Browder <tom.browder@gmail.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides names for month and weekday numbers (multilingual).",
+  "license": "Artistic-2.0",
+  "name": "Date::Names",
+  "perl": "6.c",
+  "provides": {
     "Date::Names": "lib/Date/Names.pm6",
     "Date::Names::de": "lib/Date/Names/de.pm6",
     "Date::Names::en": "lib/Date/Names/en.pm6",
