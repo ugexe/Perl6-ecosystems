@@ -84725,6 +84725,39 @@
 }
 ,
 {
+  "build-depends": [
+    "Pod::To::Markdown"
+  ],
+  "depends": [
+    "PDF::Class:ver<0.4.4+>",
+    "PDF"
+  ],
+  "description": "Classes for FDF (Forms Data Definition)",
+  "license": "Artistic-2.0",
+  "name": "FDF",
+  "perl": "6",
+  "provides": {
+    "FDF": "lib/FDF.rakumod",
+    "FDF::Annot": "lib/FDF/Annot.rakumod",
+    "FDF::Catalog": "lib/FDF/Catalog.rakumod",
+    "FDF::Dict": "lib/FDF/Dict.rakumod",
+    "FDF::Field": "lib/FDF/Field.rakumod",
+    "FDF::Field::AdditionalActions": "lib/FDF/Field/AdditionalActions.rakumod",
+    "FDF::IconFit": "lib/FDF/IconFit.rakumod",
+    "FDF::JavaScript": "lib/FDF/JavaScript.rakumod",
+    "FDF::NamedPageRef": "lib/FDF/NamedPageRef.rakumod",
+    "FDF::Page": "lib/FDF/Page.rakumod",
+    "FDF::Template": "lib/FDF/Template.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/FDF-0.0.2.tar.gz",
+  "tags": [
+    "pdf",
+    "fdf"
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "auth": "github:p6-pdf",
   "authors": [
     "David Warring"
