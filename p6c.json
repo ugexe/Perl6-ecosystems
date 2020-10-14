@@ -18263,24 +18263,6 @@
 {
   "author": "github:retupmoca",
   "depends": [
-    
-  ],
-  "description": "Low-level bindings to zlib",
-  "name": "Compress::Zlib::Raw",
-  "perl": "6.c",
-  "provides": {
-    "Compress::Zlib::Raw": "lib/Compress/Zlib/Raw.pm6"
-  },
-  "resources": [
-    "zlib1.dll"
-  ],
-  "source-url": "git://github.com/retupmoca/P6-Compress-Zlib-Raw.git",
-  "version": "1.0.1"
-}
-,
-{
-  "author": "github:retupmoca",
-  "depends": [
     "Compress::Zlib::Raw"
   ],
   "description": "Nicer zlib interface",
