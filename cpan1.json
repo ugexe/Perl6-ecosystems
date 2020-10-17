@@ -20976,41 +20976,6 @@
   "authors": [
     "Fernando Santagata"
   ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "LibraryMake",
-    "Math::Libgsl::Constants",
-    "Math::Libgsl::Matrix"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - Permutations.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::Permutation",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::Permutation": "lib/Math/Libgsl/Permutation.rakumod",
-    "Math::Libgsl::Raw::Permutation": "lib/Math/Libgsl/Raw/Permutation.rakumod"
-  },
-  "resources": [
-    "libraries/gslhelper"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Permutation-0.0.5.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.5"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
   "build": {
     "makefile-variables": {
       "gslhelper": {
