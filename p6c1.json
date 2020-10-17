@@ -5083,7 +5083,9 @@
   "build-depends": [
     
   ],
-  "depends": null,
+  "depends": [
+    
+  ],
   "description": "A module enabling experimental timezone support to DateTime",
   "license": "Artistic-2.0",
   "meta-version": "0",
@@ -5095,7 +5097,6 @@
     "DateTime::Timezones::Routines": "lib/DateTime/Timezones/Routines.pm6",
     "DateTime::Timezones::State": "lib/DateTime/Timezones/State.pm6"
   },
-  "raku": "6.*",
   "resources": [
     "TZif/Indian/Mauritius",
     "TZif/Indian/Chagos",
@@ -5587,7 +5588,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "0.3.1"
+  "version": "0.3.2"
 }
 ,
 {
