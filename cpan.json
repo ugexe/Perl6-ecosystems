@@ -27390,43 +27390,6 @@
     
   ],
   "depends": [
-    "Date::Names",
-    "Date::Calendar::Strftime",
-    "List::MoreUtils"
-  ],
-  "description": "Conversions from / to the Julian calendar",
-  "license": "Artistic-2.0",
-  "name": "Date::Calendar::Julian",
-  "perl": "6.c",
-  "provides": {
-    "Date::Calendar::Julian": "lib/Date/Calendar/Julian.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-Julian-0.0.2.tar.gz",
-  "support": {
-    "email": "JFORGET@cpan.org"
-  },
-  "tags": [
-    "date",
-    "calendar"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "auth": "cpan:JFORGET",
-  "authors": [
-    "Jean Forget"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "Date::Calendar::Strftime"
   ],
   "description": "conversions from/to the Maya calendar and conversions to the Aztec calendar",
