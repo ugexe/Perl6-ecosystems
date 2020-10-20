@@ -11084,6 +11084,68 @@
 }
 ,
 {
+  "api": "",
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Temp",
+    "File::Find",
+    "Terminal::ANSIColor",
+    "Log::Async",
+    "URL",
+    "LibCurl",
+    "Libarchive",
+    "Pakku::Spec:ver<pupa>:auth<github:hythm7>",
+    "Pakku::Meta:ver<pupa>:auth<github:hythm7>",
+    "Pakku::RecMan::Client:ver<pupa>:auth<github:hythm7>"
+  ],
+  "description": "A Package Manager for Raku",
+  "license": "Artistic-2.0",
+  "name": "Pakku",
+  "perl": "6.d",
+  "provides": {
+    "Grammar::Pakku::Cmd": "lib/Grammar/Pakku/Cmd.rakumod",
+    "Grammar::Pakku::Cnf": "lib/Grammar/Pakku/Cnf.rakumod",
+    "Grammar::Pakku::Common": "lib/Grammar/Pakku/Common.rakumod",
+    "Pakku": "lib/Pakku.rakumod",
+    "Pakku::Builder": "lib/Pakku/Builder.rakumod",
+    "Pakku::Fetcher": "lib/Pakku/Fetcher.rakumod",
+    "Pakku::Guts": "lib/Pakku/Guts.rakumod",
+    "Pakku::Help": "lib/Pakku/Help.rakumod",
+    "Pakku::Log": "lib/Pakku/Log.rakumod",
+    "Pakku::Repo": "lib/Pakku/Repo.rakumod",
+    "Pakku::Tester": "lib/Pakku/Tester.rakumod",
+    "X::Pakku": "lib/X/Pakku.rakumod",
+    "X::Pakku::Build": "lib/X/Pakku/Build.rakumod",
+    "X::Pakku::Test": "lib/X/Pakku/Test.rakumod"
+  },
+  "resources": [
+    "pakku.cnf"
+  ],
+  "source-url": "https://github.com/hythm7/Pakku.git",
+  "tags": [
+    "spec",
+    "meta",
+    "module",
+    "install",
+    "package",
+    "distribution",
+    "raku"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Pakku::Spec:ver<pupa>:auth<github:hythm7>",
+    "Pakku::Meta:ver<pupa>:auth<github:hythm7>"
+  ],
+  "version": "pupa"
+}
+,
+{
   "api": "*",
   "auth": "github:hythm7",
   "authors": [
