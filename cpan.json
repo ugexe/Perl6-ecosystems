@@ -70673,6 +70673,43 @@
 {
   "auth": "cpan:TITSUKI",
   "authors": [
+    "Itsuki Toyota"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
+    "Algorithm::LDA::CustomBuilder"
+  ],
+  "builder": "Algorithm::LBFGS::CustomBuilder",
+  "depends": [
+    "NativeHelpers::Array"
+  ],
+  "description": "A Raku bindings for libLBFGS",
+  "license": "MIT",
+  "name": "Algorithm::LBFGS",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::LBFGS": "lib/Algorithm/LBFGS.pm6",
+    "Algorithm::LBFGS::CustomBuilder": "lib/Algorithm/LBFGS/CustomBuilder.pm6",
+    "Algorithm::LBFGS::Parameter": "lib/Algorithm/LBFGS/Parameter.pm6",
+    "Algorithm::LBFGS::Status": "lib/Algorithm/LBFGS/Status.pm6"
+  },
+  "resources": [
+    "libraries/lbfgs"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LBFGS-0.0.5.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:TITSUKI",
+  "authors": [
     "titsuki"
   ],
   "build-depends": [
