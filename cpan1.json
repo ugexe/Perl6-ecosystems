@@ -2971,6 +2971,56 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "DB",
+        "NativeLibs:ver<0.0.7+>:auth<github:salortiz>",
+        "sqlite:from<native>"
+      ]
+    },
+    "test": {
+      "requires": [
+        "Test",
+        "Test::When"
+      ]
+    }
+  },
+  "description": "SQLite access for Raku",
+  "license": "BSD-2-Clause",
+  "meta-version": "1",
+  "name": "DB::SQLite",
+  "perl": "6.c",
+  "provides": {
+    "DB::SQLite": "lib/DB/SQLite.rakumod",
+    "DB::SQLite::Connection": "lib/DB/SQLite/Connection.rakumod",
+    "DB::SQLite::Native": "lib/DB/SQLite/Native.rakumod",
+    "DB::SQLite::Result": "lib/DB/SQLite/Result.rakumod",
+    "DB::SQLite::Statement": "lib/DB/SQLite/Statement.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/DB-SQLite-0.5.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-dbsqlite/issues",
+    "email": "curt@tilmes.org",
+    "source": "https://github.com/CurtTilmes/raku-dbsqlite.git"
+  },
+  "tags": [
+    "DATABASE",
+    "SQLITE"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When"
+  ],
+  "version": "0.5"
+}
+,
+{
   "authors": [
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
   ],
@@ -3898,6 +3948,61 @@
     "Test::When"
   ],
   "version": "1.1"
+}
+,
+{
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "NativeCall",
+        "NativeLibs:ver<0.0.7+>:auth<github:salortiz>",
+        "JSON::Fast",
+        "curl:from<native>:ver<4>"
+      ]
+    },
+    "test": {
+      "requires": [
+        "Test",
+        "Test::When"
+      ]
+    }
+  },
+  "description": "Raku bindings for LibCurl",
+  "license": "NASA-1.3",
+  "meta-version": "1",
+  "name": "LibCurl",
+  "perl": "6.d",
+  "provides": {
+    "LibCurl::Easy": "lib/LibCurl/Easy.rakumod",
+    "LibCurl::EasyHandle": "lib/LibCurl/EasyHandle.rakumod",
+    "LibCurl::HTTP": "lib/LibCurl/HTTP.rakumod",
+    "LibCurl::Multi": "lib/LibCurl/Multi.rakumod",
+    "LibCurl::MultiHandle": "lib/LibCurl/MultiHandle.rakumod",
+    "LibCurl::REST": "lib/LibCurl/REST.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/LibCurl-1.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-libcurl.git",
+    "email": "Curt.Tilmes@nasa.gov",
+    "source": "https://github.com/CurtTilmes/raku-libcurl.git"
+  },
+  "tags": [
+    "LibCurl",
+    "Curl",
+    "HTTP",
+    "FTP",
+    "REST"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When"
+  ],
+  "version": "1.2"
 }
 ,
 {
