@@ -27401,6 +27401,42 @@
     
   ],
   "depends": [
+    "Date::Names",
+    "Date::Calendar::Strftime"
+  ],
+  "description": "Extending the core class 'Date' with strftime and conversions with other calendars",
+  "license": "Artistic-2.0",
+  "name": "Date::Calendar::Gregorian",
+  "perl": "6.c",
+  "provides": {
+    "Date::Calendar::Gregorian": "lib/Date/Calendar/Gregorian.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-Gregorian-0.0.1.tar.gz",
+  "support": {
+    "email": "JFORGET@cpan.org"
+  },
+  "tags": [
+    "date",
+    "calendar"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:JFORGET",
+  "authors": [
+    "Jean Forget"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Conversions from / to the Hebrew calendar",
