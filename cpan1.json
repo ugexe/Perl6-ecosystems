@@ -21062,54 +21062,6 @@
   "resources": [
     "libraries/gslhelper"
   ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-LinearAlgebra-0.0.1.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    "Math::Libgsl::BLAS",
-    "Math::Libgsl::Random"
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build": {
-    "makefile-variables": {
-      "gslhelper": {
-        "resource": "libraries/gslhelper"
-      }
-    }
-  },
-  "build-depends": [
-    "Distribution::Builder::MakeFromJSON"
-  ],
-  "builder": "Distribution::Builder::MakeFromJSON",
-  "depends": [
-    "Distribution::Builder::MakeFromJSON",
-    "Math::Libgsl::Constants",
-    "Math::Libgsl::Matrix",
-    "Math::Libgsl::Permutation",
-    "Math::Libgsl::BLAS",
-    "Math::Libgsl::Random"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - Linear Algebra.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::LinearAlgebra",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::LinearAlgebra": "lib/Math/Libgsl/LinearAlgebra.rakumod",
-    "Math::Libgsl::LinearAlgebra::Complex64": "lib/Math/Libgsl/LinearAlgebra/Complex64.rakumod",
-    "Math::Libgsl::Raw::LinearAlgebra": "lib/Math/Libgsl/Raw/LinearAlgebra.rakumod"
-  },
-  "resources": [
-    "libraries/gslhelper"
-  ],
   "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-LinearAlgebra-0.0.2.tar.gz",
   "tags": [
     "math",
@@ -27086,6 +27038,29 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Markus 'Holli' Holzer",
+    ""
+  ],
+  "description": "The grandpa operator",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Operator::grandpa",
+  "perl": "6.c",
+  "provides": {
+    "Operator::grandpa": "lib/Operator/grandpa.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/H/HO/HOLLI/Perl6/Operator-grandpa-1.001001.tar.gz",
+  "support": {
+    "source": "https://github.com/holli-holzer/Operator-grandpa.git"
+  },
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "1.001001"
 }
 ,
 {
