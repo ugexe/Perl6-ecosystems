@@ -15827,15 +15827,18 @@
     "File::Temp",
     "JSON::Fast",
     "Whateverable",
-    "Zef"
+    "Zef",
+    "Pakku"
   ],
   "description": "Project Blin – Toasting Reinvented",
   "license": "AGPL-3.0-or-later",
   "name": "Blin",
   "perl": "6.c",
   "provides": {
-    "Blin::Module": "lib/Blin/Module.pm6",
-    "Blin::Processing": "lib/Blin/Processing.pm6"
+    "Blin::Module": "lib/Blin/Module.rakumod",
+    "Blin::Processing": "lib/Blin/Processing.rakumod",
+    "Blin::Tester::Pakku": "lib/Blin/Tester/Pakku.rakumod",
+    "Blin::Tester::Zef": "lib/Blin/Tester/Zef.rakumod"
   },
   "resources": [
     
