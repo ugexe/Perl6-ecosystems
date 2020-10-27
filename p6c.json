@@ -10956,7 +10956,7 @@
   "test-depends": [
     
   ],
-  "version": "pupa"
+  "version": "0.0.1"
 }
 ,
 {
@@ -10993,7 +10993,7 @@
   "test-depends": [
     
   ],
-  "version": "pupa"
+  "version": "0.0.1"
 }
 ,
 {
@@ -11006,7 +11006,8 @@
   ],
   "depends": [
     "LibCurl",
-    "Pakku::Spec:ver<pupa>:auth<github:hythm7>"
+    "Retry",
+    "Pakku::Spec"
   ],
   "description": "Pakku RecMan Client",
   "license": "Artistic-2.0",
@@ -11032,7 +11033,7 @@
   "test-depends": [
     
   ],
-  "version": "pupa"
+  "version": "0.0.1"
 }
 ,
 {
@@ -11051,9 +11052,9 @@
     "LibCurl",
     "Archive::Libarchive",
     "Cro::HTTP",
-    "Pakku::Spec:ver<pupa>:auth<github:hythm7>",
-    "Pakku::Meta:ver<pupa>:auth<github:hythm7>",
-    "Pakku::RecMan::Client:ver<pupa>:auth<github:hythm7>"
+    "Pakku::Spec",
+    "Pakku::Meta",
+    "Pakku::RecMan::Client"
   ],
   "description": "Pakku Recommendation Manager",
   "license": "Artistic-2.0",
@@ -11080,7 +11081,7 @@
   "test-depends": [
     
   ],
-  "version": "pupa"
+  "version": "0.0.1"
 }
 ,
 {
@@ -11100,9 +11101,10 @@
     "URL",
     "LibCurl",
     "Libarchive",
-    "Pakku::Spec:ver<pupa>:auth<github:hythm7>",
-    "Pakku::Meta:ver<pupa>:auth<github:hythm7>",
-    "Pakku::RecMan::Client:ver<pupa>:auth<github:hythm7>"
+    "Retry",
+    "Pakku::Spec",
+    "Pakku::Meta",
+    "Pakku::RecMan::Client"
   ],
   "description": "A Package Manager for Raku",
   "license": "Artistic-2.0",
@@ -11138,9 +11140,7 @@
     "raku"
   ],
   "test-depends": [
-    "JSON::Fast",
-    "Pakku::Spec:ver<pupa>:auth<github:hythm7>",
-    "Pakku::Meta:ver<pupa>:auth<github:hythm7>"
+    
   ],
   "version": "pupa"
 }
