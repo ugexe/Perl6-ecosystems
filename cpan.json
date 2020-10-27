@@ -43542,6 +43542,44 @@
     
   ],
   "depends": [
+    "Term::termios"
+  ],
+  "description": "Choose items from a list interactively.",
+  "license": "Artistic-2.0",
+  "name": "Term::Choose",
+  "perl": "6.d",
+  "provides": {
+    "Term::Choose": "lib/Term/Choose.pm6",
+    "Term::Choose::LineFold": "lib/Term/Choose/LineFold.pm6",
+    "Term::Choose::LineFold::CharWidthAmbiguousWide": "lib/Term/Choose/LineFold/CharWidthAmbiguousWide.pm6",
+    "Term::Choose::LineFold::CharWidthDefault": "lib/Term/Choose/LineFold/CharWidthDefault.pm6",
+    "Term::Choose::ReadKey": "lib/Term/Choose/ReadKey.pm6",
+    "Term::Choose::Screen": "lib/Term/Choose/Screen.pm6",
+    "Term::Choose::SetTerm": "lib/Term/Choose/SetTerm.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-p6-1.6.8.tar.gz",
+  "tags": [
+    "cli",
+    "terminal",
+    "text"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.6.8"
+}
+,
+{
+  "authors": [
+    "kuerbis"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Term::termios",
     "Term::Choose:ver<1.5.7+>"
   ],
@@ -43662,6 +43700,40 @@
     "Test"
   ],
   "version": "1.5.1"
+}
+,
+{
+  "authors": [
+    "kuerbis"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Term::Choose:ver<1.6.8+>",
+    "Term::Choose::Util:ver<1.3.4+>"
+  ],
+  "description": "Print a table to the terminal and browse it interactively.",
+  "license": "Artistic-2.0",
+  "name": "Term::TablePrint",
+  "perl": "6.d",
+  "provides": {
+    "Term::TablePrint": "lib/Term/TablePrint.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-TablePrint-p6-1.5.2.tar.gz",
+  "tags": [
+    "cli",
+    "table",
+    "terminal",
+    "text"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.5.2"
 }
 ,
 {
