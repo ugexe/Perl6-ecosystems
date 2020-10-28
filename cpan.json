@@ -24585,52 +24585,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/IO-Glob-0.8.0.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/zostay/perl6-IO-Glob/issues",
-    "source": "git://github.com/zostay/perl6-IO-Glob.git"
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.8.0"
-}
-,
-{
-  "auth": "github:zostay",
-  "authors": [
-    "Andrew Sterling Hanenkamp <hanenkamp@cpan.org>",
-    "Peter Pentchev <roam@ringlet.net>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Test",
-    "Test::META"
-  ],
-  "description": "Glob matching for paths & strings and listing files",
-  "license": "Artistic-2.0",
-  "meta-version": "0",
-  "name": "IO::Glob",
-  "perl": "6",
-  "provides": {
-    "IO::Glob": "lib/IO/Glob.pm6",
-    "IO::Glob::BSD": "lib/IO/Glob.pm6",
-    "IO::Glob::Base": "lib/IO/Glob.pm6",
-    "IO::Glob::Globber": "lib/IO/Glob.pm6",
-    "IO::Glob::Globber::Expansion": "lib/IO/Glob.pm6",
-    "IO::Glob::Globber::Match": "lib/IO/Glob.pm6",
-    "IO::Glob::Globber::Term": "lib/IO/Glob.pm6",
-    "IO::Glob::SQL": "lib/IO/Glob.pm6",
-    "IO::Glob::Simple": "lib/IO/Glob.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/IO-Glob-0.8.1.tar.gz",
   "support": {
     "bugtracker": "https://github.com/zostay/perl6-IO-Glob/issues",
