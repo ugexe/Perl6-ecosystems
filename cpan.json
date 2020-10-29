@@ -3128,6 +3128,70 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "depends": [
+    "BitEnum",
+    "NativeCall",
+    "NativeHelpers::Callback",
+    "NativeLibs:ver<0.0.7+>:auth<github:salortiz>"
+  ],
+  "description": "Raku Bindings for Gnu Privacy Guard (GPG) Made Easy",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "GPGME",
+  "perl": "6.d",
+  "provides": {
+    "GPGME": "lib/GPGME.rakumod",
+    "GPGME::Check": "lib/GPGME/Check.rakumod",
+    "GPGME::Constants": "lib/GPGME/Constants.rakumod",
+    "GPGME::Context": "lib/GPGME/Context.rakumod",
+    "GPGME::Data": "lib/GPGME/Data.rakumod",
+    "GPGME::DataHandle": "lib/GPGME/DataHandle.rakumod",
+    "GPGME::DecryptResult": "lib/GPGME/DecryptResult.rakumod",
+    "GPGME::EncryptResult": "lib/GPGME/EncryptResult.rakumod",
+    "GPGME::EngineInfo": "lib/GPGME/EngineInfo.rakumod",
+    "GPGME::GenKeyResult": "lib/GPGME/GenKeyResult.rakumod",
+    "GPGME::ImportResult": "lib/GPGME/ImportResult.rakumod",
+    "GPGME::ImportStatus": "lib/GPGME/ImportStatus.rakumod",
+    "GPGME::InvalidKey": "lib/GPGME/InvalidKey.rakumod",
+    "GPGME::Key": "lib/GPGME/Key.rakumod",
+    "GPGME::KeySig": "lib/GPGME/KeySig.rakumod",
+    "GPGME::LinkedList": "lib/GPGME/LinkedList.rakumod",
+    "GPGME::NewSignature": "lib/GPGME/NewSignature.rakumod",
+    "GPGME::Recipient": "lib/GPGME/Recipient.rakumod",
+    "GPGME::SigNotation": "lib/GPGME/SigNotation.rakumod",
+    "GPGME::SignResult": "lib/GPGME/SignResult.rakumod",
+    "GPGME::Signature": "lib/GPGME/Signature.rakumod",
+    "GPGME::SubKey": "lib/GPGME/SubKey.rakumod",
+    "GPGME::TOFU": "lib/GPGME/TOFU.rakumod",
+    "GPGME::UserID": "lib/GPGME/UserID.rakumod",
+    "GPGME::VerifyResult": "lib/GPGME/VerifyResult.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/GPGME-0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-gpgme/issues",
+    "email": "curt@tilmes.org",
+    "source": "https://github.com/CurtTilmes/raku-gpgme.git"
+  },
+  "tags": [
+    "GPGME",
+    "GPG",
+    "CRYPT",
+    "SIGNATURE"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When",
+    "Temp::Path"
+  ],
+  "version": "0.2"
+}
+,
+{
   "api": "0",
   "auth": "github:CurtTilmes",
   "authors": [
@@ -3530,6 +3594,88 @@
     "Test::When"
   ],
   "version": "0.6"
+}
+,
+{
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <curt@tilmes.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "NativeCall",
+    "NativeLibs:ver<0.0.7+>:auth<github:salortiz>",
+    "gcrypt:from<native>"
+  ],
+  "description": "Raku Bindings for GNU libgcrypt",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Gcrypt",
+  "perl": "6.*",
+  "provides": {
+    "Gcrypt": "lib/Gcrypt.rakumod",
+    "Gcrypt::Cipher": "lib/Gcrypt/Cipher.rakumod",
+    "Gcrypt::CipherHandle": "lib/Gcrypt/CipherHandle.rakumod",
+    "Gcrypt::Constants": "lib/Gcrypt/Constants.rakumod",
+    "Gcrypt::Hash": "lib/Gcrypt/Hash.rakumod",
+    "Gcrypt::HashHandle": "lib/Gcrypt/HashHandle.rakumod",
+    "Gcrypt::MAC": "lib/Gcrypt/MAC.rakumod",
+    "Gcrypt::MACHandle": "lib/Gcrypt/MACHandle.rakumod",
+    "Gcrypt::Passphrase": "lib/Gcrypt/Passphrase.rakumod",
+    "Gcrypt::Random": "lib/Gcrypt/Random.rakumod",
+    "Gcrypt::Simple": "lib/Gcrypt/Simple.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/Gcrypt-0.7.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-libgcrypt/issues",
+    "source": "https://github.com/CurtTilmes/raku-libgcrypt.git"
+  },
+  "tags": [
+    "AES",
+    "BLAKE",
+    "Blowfish",
+    "CASE5",
+    "CMAC",
+    "CRC",
+    "Camellia",
+    "ChaCha20",
+    "Cipher",
+    "DES",
+    "DES3",
+    "Digest",
+    "GMAC",
+    "GOST28147",
+    "HMAC",
+    "IDEA",
+    "MAC",
+    "MD4",
+    "MD5",
+    "RC4",
+    "RIPEMD160",
+    "SEED",
+    "SHA",
+    "SHA1",
+    "SHA3",
+    "SHAKE",
+    "Salsa20",
+    "Serpent",
+    "TIGER",
+    "Twofish",
+    "crypt",
+    "gcrypt",
+    "libgcrypt",
+    "nonce",
+    "passphrase",
+    "random"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When"
+  ],
+  "version": "0.7"
 }
 ,
 {
