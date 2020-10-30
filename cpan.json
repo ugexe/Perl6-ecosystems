@@ -27128,29 +27128,6 @@
 }
 ,
 {
-  "authors": [
-    "Markus 'holli' Holzer",
-    ""
-  ],
-  "description": "Generate color schemes from a base color",
-  "license": "GPL-3.0",
-  "meta-version": "0",
-  "name": "Color::Scheme",
-  "perl": "6.c",
-  "provides": {
-    "Color::Scheme": "lib/Color/Scheme.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/H/HO/HOLLI/Perl6/Color-Scheme-1.001001.tar.gz",
-  "support": {
-    "source": "git://github.com/holli-holzer/perl6-Color-Names.git"
-  },
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "1.001001"
-}
-,
-{
   "api": 1,
   "auth": "github:holli-holzer",
   "authors": [
@@ -43725,43 +43702,6 @@
     "Test"
   ],
   "version": "1.3.4"
-}
-,
-{
-  "authors": [
-    "kuerbis"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Term::termios"
-  ],
-  "description": "Choose items from a list interactively.",
-  "license": "Artistic-2.0",
-  "name": "Term::Choose",
-  "perl": "6.d",
-  "provides": {
-    "Term::Choose": "lib/Term/Choose.pm6",
-    "Term::Choose::LineFold": "lib/Term/Choose/LineFold.pm6",
-    "Term::Choose::LineFold::CharWidthAmbiguousWide": "lib/Term/Choose/LineFold/CharWidthAmbiguousWide.pm6",
-    "Term::Choose::LineFold::CharWidthDefault": "lib/Term/Choose/LineFold/CharWidthDefault.pm6",
-    "Term::Choose::ReadKey": "lib/Term/Choose/ReadKey.pm6",
-    "Term::Choose::Screen": "lib/Term/Choose/Screen.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-p6-1.6.5.tar.gz",
-  "tags": [
-    "cli",
-    "terminal",
-    "text"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.6.5"
 }
 ,
 {
