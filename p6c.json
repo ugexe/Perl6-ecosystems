@@ -11217,7 +11217,8 @@
     
   ],
   "depends": [
-    "Cro::HTTP::Client"
+    "Cro::HTTP::Client",
+    "URI::Encode"
   ],
   "description": "Reactive Telegram bot library",
   "license": "CC0-1.0",
@@ -11233,7 +11234,7 @@
   "resources": [
     
   ],
-  "source-url": "git://github.com/ijneb/telegram-bot.git",
+  "source-url": "git://github.com/benjif/telegram-bot.git",
   "tags": [
     "telegram",
     "bot"
@@ -11241,7 +11242,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
 ,
 {
@@ -15601,7 +15602,8 @@
     "perl6"
   ],
   "build-depends": [
-    "File::Find:ver<0.1.1+>"
+    "File::Find:ver<0.1.1+>",
+    "Documentable"
   ],
   "description": "Raku documentation (tools and docs)",
   "license": "Artistic-2.0",
