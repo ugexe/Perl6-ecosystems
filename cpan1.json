@@ -22519,6 +22519,40 @@
 }
 ,
 {
+  "auth": "cpan:GARLANDG",
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "NativeLibs:ver<0.0.5+>"
+  ],
+  "description": "Wrapper for errno modules for Unix and Windows",
+  "license": "Artistic-2.0",
+  "name": "Universal::errno",
+  "perl": "6.c",
+  "provides": {
+    "Universal::errno": "lib/Universal/errno.rakumod",
+    "Universal::errno::Constants": "lib/Universal/errno/Constants.rakumod",
+    "Universal::errno::Unix": "lib/Universal/errno/Unix.rakumod",
+    "Universal::errno::Windows": "lib/Universal/errno/Windows.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Universal-errno-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "auth": "github:gdonald",
   "authors": [
     "Greg Donald"
@@ -27527,32 +27561,6 @@
     "Test::META"
   ],
   "version": "1.001001"
-}
-,
-{
-  "authors": [
-    "Markus 'Holli' Holzer",
-    ""
-  ],
-  "depends": [
-    "Terminal::ANSIColor"
-  ],
-  "description": "Colored Test - output",
-  "license": "GPL-3.0",
-  "meta-version": "0",
-  "name": "Test::Color",
-  "perl": "6.c",
-  "provides": {
-    "Test::Color": "lib/Test/Color.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/H/HO/HOLLI/Perl6/Test-Color-1.001002.tar.gz",
-  "support": {
-    "source": "https://github.com/holli-holzer/perl6-Test-Color"
-  },
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "1.001002"
 }
 ,
 {
