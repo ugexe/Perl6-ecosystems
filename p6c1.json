@@ -17957,6 +17957,43 @@
 }
 ,
 {
+  "auth": "github:raku-community-modules",
+  "authors": [
+    "Timothy Totten"
+  ],
+  "depends": [
+    
+  ],
+  "description": "A library for working with netstrings.",
+  "name": "Netstring",
+  "perl": "6.*",
+  "provides": {
+    "Netstring": "lib/Netstring.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/raku-netstring.git",
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:raku-community-modules",
+  "authors": [
+    "Timothy Totten, supernovus",
+    "Raku community"
+  ],
+  "depends": [
+    "HTTP::Status"
+  ],
+  "description": "A PSGI helper library.",
+  "name": "PSGI",
+  "perl": "6.*",
+  "provides": {
+    "PSGI": "lib/PSGI.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/raku-psgi.git",
+  "version": "1.2.0"
+}
+,
+{
   "authors": [
     "Ingy döt Net <ingy@cpan.org>"
   ],
@@ -20743,38 +20780,32 @@
 {
   "auth": "github:raku-community-modules",
   "authors": [
-    "Timothy Totten"
-  ],
-  "depends": [
-    
-  ],
-  "description": "A library for working with netstrings.",
-  "name": "Netstring",
-  "perl": "6.*",
-  "provides": {
-    "Netstring": "lib/Netstring.pm6"
-  },
-  "source-url": "https://github.com/raku-community-modules/raku-netstring.git",
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "github:raku-community-modules",
-  "authors": [
-    "Timothy Totten, supernovus",
+    "Timothy Totten",
+    "Sizhe Zhao",
+    "Cam Stuart",
     "Raku community"
   ],
-  "depends": [
-    "HTTP::Status"
-  ],
-  "description": "A PSGI helper library.",
-  "name": "PSGI",
+  "description": "Parse a mime.types file, and query the results",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "MIME::Types",
   "perl": "6.*",
   "provides": {
-    "PSGI": "lib/PSGI.pm6"
+    "MIME::Types": "lib/MIME/Types.rakumod"
   },
-  "source-url": "git://github.com/raku-community-modules/raku-psgi.git",
-  "version": "1.2.0"
+  "resources": [
+    "mime.types"
+  ],
+  "support": {
+    "bugtracker": "https://github.com/raku-community-modules/raku-mime-types/issues",
+    "source": "https://github.com/raku-community-modules/raku-mime-types.git"
+  },
+  "tags": [
+    "MIME",
+    "type",
+    "extension"
+  ],
+  "version": "0.1"
 }
 ,
 {
