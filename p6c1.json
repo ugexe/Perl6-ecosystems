@@ -20759,6 +20759,11 @@
 }
 ,
 {
+  "auth": "github:raku-community-modules",
+  "authors": [
+    "Timothy Totten, supernovus",
+    "Raku community"
+  ],
   "depends": [
     "HTTP::Status"
   ],
@@ -20768,7 +20773,7 @@
   "provides": {
     "PSGI": "lib/PSGI.pm6"
   },
-  "source-url": "git://github.com/supernovus/perl6-psgi.git",
+  "source-url": "git://github.com/raku-community-modules/raku-psgi.git",
   "version": "1.2.0"
 }
 ,
