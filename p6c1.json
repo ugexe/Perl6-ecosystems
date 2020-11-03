@@ -11175,26 +11175,31 @@
     
   ],
   "depends": [
-    
+    "Test::META"
   ],
   "description": "Retry action",
   "license": "Artistic-2.0",
+  "meta-version": "0",
   "name": "Retry",
   "perl": "6.d",
   "provides": {
     "Retry": "lib/Retry.rakumod"
   },
+  "raku": null,
   "resources": [
     
   ],
   "source-url": "https://github.com/hythm7/Retry.git",
+  "support": {
+    "source": null
+  },
   "tags": [
     "retry"
   ],
   "test-depends": [
     
   ],
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
 ,
 {
