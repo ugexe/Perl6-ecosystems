@@ -14993,7 +14993,8 @@
   "provides": {
     "Physics::Measure": "lib/Physics/Measure.rakumod",
     "Physics::Unit": "lib/Physics/Unit.rakumod",
-    "Physics::UnitPostfix": "lib/Physics/UnitPostfix.rakumod"
+    "Physics::UnitAffix": "lib/Physics/UnitAffix.rakumod",
+    "Physics::UnitAffixQ": "lib/Physics/UnitAffixQ.rakumod"
   },
   "resources": [
     
@@ -15007,7 +15008,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
 ,
 {
