@@ -14684,6 +14684,37 @@
   "depends": [
     
   ],
+  "description": "easy interface to Unicode flags",
+  "license": "Artistic-2.0",
+  "name": "Text::Flags",
+  "perl": "6.d",
+  "provides": {
+    "Text::Flags": "lib/Text/Flags.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Text-Flags-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "convert to/from mathematical case",
   "license": "Artistic-2.0",
   "name": "Text::MathematicalCase",
@@ -26038,54 +26069,6 @@
     
   ],
   "version": "0.2"
-}
-,
-{
-  "auth": null,
-  "authors": [
-    "Sterling Hanenkamp (hanenkamp@cpan.org)"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "IO::String",
-    "Linenoise"
-  ],
-  "description": "A tool for routing paths",
-  "license": "Artistic-2.0",
-  "meta-version": "0",
-  "name": "Path::Router",
-  "perl": "6.c",
-  "provides": {
-    "Path::Router": "lib/Path/Router.pm6",
-    "Path::Router::Route": "lib/Path/Router/Route.pm6",
-    "Path::Router::Route::Match": "lib/Path/Router/Route.pm6",
-    "Path::Router::Shell": "lib/Path/Router/Shell.pm6",
-    "Test::Path::Router": "lib/Test/Path/Router.pm6",
-    "X::Path::Router": "lib/X/Path/Router.pm6",
-    "X::Path::Router::AmbiguousMatch": "lib/X/Path/Router.pm6",
-    "X::Path::Router::AmbiguousMatch::PathMatch": "lib/X/Path/Router.pm6",
-    "X::Path::Router::AmbiguousMatch::ReverseMatch": "lib/X/Path/Router.pm6",
-    "X::Path::Router::BadInclusion": "lib/X/Path/Router.pm6",
-    "X::Path::Router::BadRoute": "lib/X/Path/Router.pm6",
-    "X::Path::Router::BadSlurpy": "lib/X/Path/Router.pm6",
-    "X::Path::Router::BadValidation": "lib/X/Path/Router.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Path-Router-0.3.0.tar.gz",
-  "support": {
-    "source": null
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.3.0"
 }
 ,
 {
