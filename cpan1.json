@@ -4864,6 +4864,51 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:CurtTilmes",
+  "authors": [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "NativeCall"
+      ]
+    },
+    "test": {
+      "requires": [
+        "Test",
+        "Test::When",
+        "Test::META"
+      ]
+    }
+  },
+  "description": "NativeCall bindings for Unix exec*() calls",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Native::Exec",
+  "perl": "6.*",
+  "provides": {
+    "Native::Exec": "lib/Native/Exec.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/Native-Exec-0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/raku-native-exec.git",
+    "email": "curt@tilmes.org",
+    "source": "https://github.com/CurtTilmes/raku-native-exec.git"
+  },
+  "tags": [
+    "EXEC"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "version": "0.2"
+}
+,
+{
   "authors": [
     "Curt Tilmes <ctilmes@cpan.org>"
   ],
