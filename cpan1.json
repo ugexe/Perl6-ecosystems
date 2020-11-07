@@ -27545,36 +27545,6 @@
 }
 ,
 {
-  "auth": "github:zostay",
-  "authors": [
-    "Andrew Sterling Hanenkamp <hanenkamp@cpan.org>"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Glob matching for paths & strings and listing files",
-  "license": "Artistic 2.0",
-  "name": "IO::Glob",
-  "perl": "6",
-  "provides": {
-    "IO::Glob": "lib/IO/Glob.pm6",
-    "IO::Glob::BSD": "lib/IO/Glob.pm6",
-    "IO::Glob::Base": "lib/IO/Glob.pm6",
-    "IO::Glob::Globber": "lib/IO/Glob.pm6",
-    "IO::Glob::Globber::Expansion": "lib/IO/Glob.pm6",
-    "IO::Glob::Globber::Match": "lib/IO/Glob.pm6",
-    "IO::Glob::Globber::Term": "lib/IO/Glob.pm6",
-    "IO::Glob::SQL": "lib/IO/Glob.pm6",
-    "IO::Glob::Simple": "lib/IO/Glob.pm6"
-  },
-  "source": {
-    "bugtracker": "https://github.com/zostay/perl6-IO-Glob/issues",
-    "source": "git://github.com/zostay/perl6-IO-Glob.git"
-  },
-  "version": "v0.1"
-}
-,
-{
   "auth": "github:Tux",
   "authors": [
     "H.Merijn Brand (Tux)"
