@@ -1501,6 +1501,30 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "description": "ANSI escape sequences",
+  "license": "MIT",
+  "name": "Terminal::ANSI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::ANSI": "lib/Terminal/ANSI.rakumod",
+    "Terminal::ANSI::OO": "lib/Terminal/ANSI/OO.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-ANSI-0.0.2.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "auth": "github:bduggan",
   "authors": [
     "Brian Duggan <bduggan@matatu.org>"
@@ -27455,6 +27479,43 @@
 {
   "auth": "github:zostay",
   "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Universally Unique Lexicoraphically Sortable Identifiers for Perl 6",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "ULID",
+  "perl": "6.c",
+  "provides": {
+    "ULID": "lib/ULID.pm6",
+    "X::ULID": "lib/ULID.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ULID-0.1.0.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/p6-ULID.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
     "Andrew Sterling Hanenkamp <hanenkamp@cpan.org>"
   ],
   "depends": [
@@ -27480,43 +27541,6 @@
     "source": "git://github.com/zostay/perl6-IO-Glob.git"
   },
   "version": "v0.1"
-}
-,
-{
-  "auth": "github:Tux",
-  "authors": [
-    "H.Merijn Brand (Tux)"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Slang::Tuxic",
-    "File::Temp"
-  ],
-  "description": "Handle CSV data. API based on Text::CSV_XS",
-  "license": "Artistic-2.0",
-  "name": "Text::CSV",
-  "perl": "6.c",
-  "provides": {
-    "Text::CSV": "lib/Text/CSV.pm"
-  },
-  "repo-type": "git",
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/Tux/CSV.git",
-  "support": {
-    "irc": "irc://irc.perl.org/#csv"
-  },
-  "tags": [
-    "CSV"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.007"
 }
 ,
 {
@@ -72532,6 +72556,43 @@
     
   ],
   "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:TITSUKI",
+  "authors": [
+    "Itsuki Toyota"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
+    "Algorithm::LBFGS::CustomBuilder"
+  ],
+  "builder": "Algorithm::LBFGS::CustomBuilder",
+  "depends": [
+    "NativeHelpers::Array"
+  ],
+  "description": "A Raku bindings for libLBFGS",
+  "license": "MIT",
+  "name": "Algorithm::LBFGS",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::LBFGS": "lib/Algorithm/LBFGS.pm6",
+    "Algorithm::LBFGS::CustomBuilder": "lib/Algorithm/LBFGS/CustomBuilder.pm6",
+    "Algorithm::LBFGS::Parameter": "lib/Algorithm/LBFGS/Parameter.pm6",
+    "Algorithm::LBFGS::Status": "lib/Algorithm/LBFGS/Status.pm6"
+  },
+  "resources": [
+    "libraries/lbfgs"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LBFGS-0.0.6.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
 }
 ,
 {
