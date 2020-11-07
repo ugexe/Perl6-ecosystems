@@ -1349,6 +1349,30 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "description": "Raku ANSI escape sequences",
+  "license": "MIT",
+  "name": "Terminal::ANSI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::ANSI": "lib/Terminal/ANSI.rakumod",
+    "Terminal::ANSI::OO": "lib/Terminal/ANSI/OO.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-ANSI-0.0.1.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "auth": "github:bduggan",
   "authors": [
     "Brian Duggan <bduggan@matatu.org>"
