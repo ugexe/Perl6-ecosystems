@@ -81851,6 +81851,98 @@
 {
   "auth": "github:vrurg",
   "authors": [
+    "Vadim Belman <vrurg@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "AttrX::Mooish"
+  ],
+  "description": "Asynchronous threaded workers",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Async::Workers",
+  "perl": "6.d",
+  "production": true,
+  "provides": {
+    "Async::Workers": "lib/Async/Workers.rakumod",
+    "Async::Workers::CX": "lib/Async/Workers/CX.rakumod",
+    "Async::Workers::Job": "lib/Async/Workers/Job.rakumod",
+    "Async::Workers::Msg": "lib/Async/Workers/Msg.rakumod",
+    "Async::Workers::Worker": "lib/Async/Workers/Worker.rakumod",
+    "Async::Workers::X": "lib/Async/Workers/X.rakumod"
+  },
+  "raku": null,
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/Async-Workers-v0.2.1.tar.gz",
+  "support": {
+    "source": "https://github.com/vrurg/raku-Async-Workers.git"
+  },
+  "tags": [
+    "threads",
+    "async"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::Async",
+    "Test::META",
+    "Test::When"
+  ],
+  "version": "0.2.1"
+}
+,
+{
+  "auth": "github:vrurg",
+  "authors": [
+    "Vadim Belman <vrurg@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "AttrX::Mooish"
+  ],
+  "description": "Asynchronous threaded workers",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Async::Workers",
+  "perl": "6.d",
+  "production": true,
+  "provides": {
+    "Async::Workers": "lib/Async/Workers.rakumod",
+    "Async::Workers::CX": "lib/Async/Workers/CX.rakumod",
+    "Async::Workers::Job": "lib/Async/Workers/Job.rakumod",
+    "Async::Workers::Msg": "lib/Async/Workers/Msg.rakumod",
+    "Async::Workers::Worker": "lib/Async/Workers/Worker.rakumod",
+    "Async::Workers::X": "lib/Async/Workers/X.rakumod"
+  },
+  "raku": null,
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/Async-Workers-v0.2.tar.gz",
+  "support": {
+    "source": "https://github.com/vrurg/raku-Async-Workers.git"
+  },
+  "tags": [
+    "threads",
+    "async"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::Async",
+    "Test::META",
+    "Test::When"
+  ],
+  "version": "0.2"
+}
+,
+{
+  "auth": "github:vrurg",
+  "authors": [
     "Vadim Belman"
   ],
   "description": "Extending attribute functionality with ideas from Moo/Moose",
