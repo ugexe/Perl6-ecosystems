@@ -366,6 +366,98 @@
     
   ],
   "depends": [
+    "Terminal::ANSIColor",
+    "Terminal::WCWidth",
+    "Text::Tabs"
+  ],
+  "description": "Advanced table generate module for perl6",
+  "license": "MIT",
+  "name": "Terminal::Table",
+  "perl": "6.c",
+  "provides": {
+    "Terminal::Table": "lib/Terminal/Table.pm6",
+    "Terminal::Table::Exception": "lib/Terminal/Table/Exception.pm6",
+    "Terminal::Table::Frame": "lib/Terminal/Table/Frame.pm6",
+    "Terminal::Table::Generator": "lib/Terminal/Table/Generator.pm6",
+    "Terminal::Table::LightWrap": "lib/Terminal/Table/LightWrap.pm6",
+    "Terminal::Table::Settings": "lib/Terminal/Table/Settings.pm6",
+    "Terminal::Table::Shader": "lib/Terminal/Table/Shader.pm6",
+    "Terminal::Table::String": "lib/Terminal/Table/String.pm6",
+    "Terminal::Table::Style": "lib/Terminal/Table/Style.pm6",
+    "Terminal::Table::VisitorHelper": "lib/Terminal/Table/VisitorHelper.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/Terminal-Table-0.0.8.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com.araraloren/perl6-terminal-table/issues",
+    "source": "https://github.com/araraloren/perl6-terminal-table.git"
+  },
+  "tags": [
+    "terminal",
+    "table",
+    "text"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "auth": "github:araraloren",
+  "authors": "Loren",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Terminal::ANSIColor",
+    "Terminal::WCWidth",
+    "Text::Tabs"
+  ],
+  "description": "Advanced table generate module for perl6",
+  "license": "MIT",
+  "name": "Terminal::Table",
+  "perl": "6.c",
+  "provides": {
+    "Terminal::Table": "lib/Terminal/Table.pm6",
+    "Terminal::Table::Exception": "lib/Terminal/Table/Exception.pm6",
+    "Terminal::Table::Frame": "lib/Terminal/Table/Frame.pm6",
+    "Terminal::Table::Generator": "lib/Terminal/Table/Generator.pm6",
+    "Terminal::Table::LightWrap": "lib/Terminal/Table/LightWrap.pm6",
+    "Terminal::Table::Settings": "lib/Terminal/Table/Settings.pm6",
+    "Terminal::Table::Shader": "lib/Terminal/Table/Shader.pm6",
+    "Terminal::Table::String": "lib/Terminal/Table/String.pm6",
+    "Terminal::Table::Style": "lib/Terminal/Table/Style.pm6",
+    "Terminal::Table::VisitorHelper": "lib/Terminal/Table/VisitorHelper.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/Terminal-Table-0.0.9.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com.araraloren/perl6-terminal-table/issues",
+    "source": "https://github.com/araraloren/perl6-terminal-table.git"
+  },
+  "tags": [
+    "terminal",
+    "table",
+    "text"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "auth": "github:araraloren",
+  "authors": "Loren",
+  "build-depends": [
+    
+  ],
+  "depends": [
     "JSON::Fast",
     "Compress::Zlib",
     "Getopt::Advance",
@@ -429,6 +521,42 @@
     
   ],
   "version": "0.2"
+}
+,
+{
+  "auth": "github:araraloren",
+  "authors": "Loren",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast",
+    "Compress::Zlib",
+    "Getopt::Advance",
+    "File::Directory::Tree",
+    "File::Which"
+  ],
+  "description": "An tools can easily create CPAN tarball for you!",
+  "license": "MIT",
+  "name": "pack6",
+  "perl": "6.*",
+  "provides": {
+    "CPAN::Convert": "lib/CPAN/Convert.pm6",
+    "CPAN::Pack6": "lib/CPAN/Pack6.pm6",
+    "CPAN::Tar": "lib/CPAN/Tar.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/pack6-0.3.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/araraloren/perl6-pack6/issues",
+    "source": "https://github.com/araraloren/perl6-pack6"
+  },
+  "test-depends": [
+    
+  ],
+  "version": "0.3"
 }
 ,
 {
@@ -27505,43 +27633,6 @@
     "Test::META"
   ],
   "version": "0.5.2"
-}
-,
-{
-  "auth": "github:zostay",
-  "authors": [
-    "Sterling Hanenkamp <hanenkamp@cpan.org>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Universally Unique Lexicoraphically Sortable Identifiers for Perl 6",
-  "license": "Artistic-2.0",
-  "meta-version": "0",
-  "name": "ULID",
-  "perl": "6.c",
-  "provides": {
-    "ULID": "lib/ULID.pm6",
-    "X::ULID": "lib/ULID.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ULID-0.1.0.tar.gz",
-  "support": {
-    "source": "git://github.com/zostay/p6-ULID.git"
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.1.0"
 }
 ,
 {
