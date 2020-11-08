@@ -27714,6 +27714,43 @@
     "Test",
     "Test::META"
   ],
+  "version": "0.007"
+}
+,
+{
+  "auth": "github:Tux",
+  "authors": [
+    "H.Merijn Brand (Tux)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Slang::Tuxic",
+    "File::Temp"
+  ],
+  "description": "Handle CSV data. API based on Text::CSV_XS",
+  "license": "Artistic-2.0",
+  "name": "Text::CSV",
+  "perl": "6.c",
+  "provides": {
+    "Text::CSV": "lib/Text/CSV.pm"
+  },
+  "repo-type": "git",
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/Tux/CSV.git",
+  "support": {
+    "irc": "irc://irc.perl.org/#csv"
+  },
+  "tags": [
+    "CSV"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
   "version": "0.008"
 }
 ,
