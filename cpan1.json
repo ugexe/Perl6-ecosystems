@@ -27741,6 +27741,47 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Template-Anti-0.5.1.tar.gz",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.5.1"
+}
+,
+{
+  "auth": null,
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "DOM::Tiny"
+  ],
+  "description": "The anti-template templating tool.",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Template::Anti",
+  "perl": "6.c",
+  "provides": {
+    "Template::Anti": "lib/Template/Anti.pm6",
+    "Template::Anti::Library": "lib/Template/Anti.pm6",
+    "Template::Anti::Library::IO": "lib/Template/Anti.pm6",
+    "Template::Anti::Library::PathSearcher": "lib/Template/Anti.pm6",
+    "Template::Anti::Library::Resources": "lib/Template/Anti.pm6",
+    "Template::Anti::ResourcesPath": "lib/Template/Anti.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Template-Anti-0.5.2.tar.gz",
   "support": {
     "source": null
@@ -27820,43 +27861,6 @@
     "source": "git://github.com/zostay/perl6-IO-Glob.git"
   },
   "version": "v0.1"
-}
-,
-{
-  "auth": "github:Tux",
-  "authors": [
-    "H.Merijn Brand (Tux)"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Slang::Tuxic",
-    "File::Temp"
-  ],
-  "description": "Handle CSV data. API based on Text::CSV_XS",
-  "license": "Artistic-2.0",
-  "name": "Text::CSV",
-  "perl": "6.c",
-  "provides": {
-    "Text::CSV": "lib/Text/CSV.pm"
-  },
-  "repo-type": "git",
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/Tux/CSV.git",
-  "support": {
-    "irc": "irc://irc.perl.org/#csv"
-  },
-  "tags": [
-    "CSV"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.007"
 }
 ,
 {
