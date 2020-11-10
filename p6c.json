@@ -14947,7 +14947,8 @@
   "depends": [
     "SVG",
     "SVG::Plot",
-    "Math::Polygons"
+    "Math::Polygons",
+    "Physics::Unit"
   ],
   "description": "Some support for physical units.",
   "license": "Artistic-2.0",
@@ -14955,8 +14956,6 @@
   "perl": "6.d",
   "provides": {
     "Physics::Measure": "lib/Physics/Measure.rakumod",
-    "Physics::Unit": "lib/Physics/Unit.rakumod",
-    "Physics::UnitAffix": "lib/Physics/UnitAffix.rakumod",
     "Physics::UnitAffixQ": "lib/Physics/UnitAffixQ.rakumod"
   },
   "resources": [
