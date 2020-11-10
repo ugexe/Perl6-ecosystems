@@ -79579,6 +79579,27 @@
     "Patrick Spek <p.spek@tyil.nl>"
   ],
   "depends": [
+    "Log:auth<cpan:TYIL>:ver<0.3.1>",
+    "Terminal::ANSIColor"
+  ],
+  "description": "A Log implementation with colored output",
+  "license": "LGPL-3.0-only",
+  "name": "Log::Colored",
+  "perl": "6.d",
+  "provides": {
+    "Log::Colored": "lib/Log/Colored.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Log-Colored-0.1.2.tar.gz",
+  "version": "0.1.2"
+}
+,
+{
+  "api": "0",
+  "auth": "",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.nl>"
+  ],
+  "depends": [
     "JSON::Fast",
     "Log"
   ],
