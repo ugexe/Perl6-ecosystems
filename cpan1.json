@@ -25918,51 +25918,6 @@
     "ModelDB::Column": "lib/ModelDB/Column.pm6",
     "ModelDB::Model": "lib/ModelDB/Model.pm6",
     "ModelDB::ModelBuilder": "lib/ModelDB/ModelBuilder.pm6",
-    "ModelDB::RelationshipSetup": "lib/ModelDB/RelationshipSetup.pm6",
-    "ModelDB::Schema": "lib/ModelDB/Schema.pm6",
-    "ModelDB::SchemaBuilder": "lib/ModelDB/SchemaBuilder.pm6",
-    "ModelDB::Table": "lib/ModelDB/Table.pm6",
-    "ModelDB::TableBuilder": "lib/ModelDB/TableBuilder.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ModelDB-0.0.3.tar.gz",
-  "support": {
-    "source": null
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "auth": null,
-  "authors": [
-    "Sterling Hanenkamp <hanenkamp@cpan.org>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "DBIish"
-  ],
-  "description": "An ORM built on DBIish",
-  "license": null,
-  "meta-version": "0",
-  "name": "ModelDB",
-  "perl": "6.c",
-  "provides": {
-    "MetamodelX::DBModelHOW": "lib/MetamodelX/DBModelHOW.pm6",
-    "ModelDB": "lib/ModelDB.pm6",
-    "ModelDB::Collection": "lib/ModelDB/Collection.pm6",
-    "ModelDB::Column": "lib/ModelDB/Column.pm6",
-    "ModelDB::Model": "lib/ModelDB/Model.pm6",
-    "ModelDB::ModelBuilder": "lib/ModelDB/ModelBuilder.pm6",
     "ModelDB::Object": "lib/ModelDB/Object.pm6",
     "ModelDB::RelationshipSetup": "lib/ModelDB/RelationshipSetup.pm6",
     "ModelDB::Schema": "lib/ModelDB/Schema.pm6",
