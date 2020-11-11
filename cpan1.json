@@ -27583,6 +27583,95 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Smack-0.5.1.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/Smack.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.5.1"
+}
+,
+{
+  "auth": "github.zostay",
+  "author": "Andrew Sterling Hanenkamp",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Apache::LogFormat::Compiler",
+    "DateTime::Format",
+    "Digest::MD5",
+    "Hash::MultiValue",
+    "HTTP::UserAgent",
+    "HTTP::Easy",
+    "HTTP::Headers",
+    "HTTP::Supply",
+    "HTTP::Status",
+    "IO::Socket::Async::SSL"
+  ],
+  "description": "RakuWAPI Reference Implementation",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Smack",
+  "perl": "6.c",
+  "provides": {
+    "HTTP::Message::WAPI": "lib/HTTP/Message/WAPI.pm6",
+    "HTTP::Server::Smack": "lib/HTTP/Server/Smack.pm6",
+    "Smack": "lib/Smack.pm6",
+    "Smack::App::Cascade": "lib/Smack/App/Cascade.pm6",
+    "Smack::App::Directory": "lib/Smack/App/Directory.pm6",
+    "Smack::App::File": "lib/Smack/App/File.pm6",
+    "Smack::App::URLMap": "lib/Smack/App/URLMap.pm6",
+    "Smack::Builder": "lib/Smack/Builder.pm6",
+    "Smack::Client": "lib/Smack/Client.pm6",
+    "Smack::Client::Message": "lib/Smack/Client/Message.pm6",
+    "Smack::Client::Request": "lib/Smack/Client/Request.pm6",
+    "Smack::Client::Request::Common": "lib/Smack/Client/Request/Common.pm6",
+    "Smack::Client::Response": "lib/Smack/Client/Response.pm6",
+    "Smack::Component": "lib/Smack/Component.pm6",
+    "Smack::Date": "lib/Smack/Date.pm6",
+    "Smack::Exception": "lib/Smack/Exception.pm6",
+    "Smack::Handler": "lib/Smack/Handler.pm6",
+    "Smack::Handler::CGI": "lib/Smack/Handler/CGI.pm6",
+    "Smack::Handler::HTTP::Easy": "lib/Smack/Handler/HTTP/Easy.pm6",
+    "Smack::Handler::Standalone": "lib/Smack/Handler/Standalone.pm6",
+    "Smack::Loader": "lib/Smack/Loader.pm6",
+    "Smack::Loader::Basic": "lib/Smack/Loader/Basic.pm6",
+    "Smack::MIME": "lib/Smack/MIME.pm6",
+    "Smack::Middleware": "lib/Smack/Middleware.pm6",
+    "Smack::Middleware::AccessLog": "lib/Smack/Middleware/AccessLog.pm6",
+    "Smack::Middleware::Conditional": "lib/Smack/Middleware/Conditional.pm6",
+    "Smack::Middleware::ConditionalGET": "lib/Smack/Middleware/ConditionalGET.pm6",
+    "Smack::Middleware::ContentLength": "lib/Smack/Middleware/ContentLength.pm6",
+    "Smack::Middleware::ContentMD5": "lib/Smack/Middleware/ContentMD5.pm6",
+    "Smack::Middleware::ErrorDocument": "lib/Smack/Middleware/ErrorDocument.pm6",
+    "Smack::Middleware::Head": "lib/Smack/Middleware/Head.pm6",
+    "Smack::Middleware::PSGI": "lib/Smack/Middleware/PSGI.pm6",
+    "Smack::Middleware::Runtime": "lib/Smack/Middleware/Runtime.pm6",
+    "Smack::Middleware::Static": "lib/Smack/Middleware/Static.pm6",
+    "Smack::Middleware::XFramework": "lib/Smack/Middleware/XFramework.pm6",
+    "Smack::Request": "lib/Smack/Request.pm6",
+    "Smack::Response": "lib/Smack/Response.pm6",
+    "Smack::Runner": "lib/Smack/Runner.pm6",
+    "Smack::Test": "lib/Smack/Test.pm6",
+    "Smack::Test::MockHTTP": "lib/Smack/Test/MockHTTP.pm6",
+    "Smack::Test::Server": "lib/Smack/Test/Server.pm6",
+    "Smack::Test::Smackup": "lib/Smack/Test/Smackup.pm6",
+    "Smack::URI": "lib/Smack/URI.pm6",
+    "Smack::Util": "lib/Smack/Util.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Smack-0.5.2.tar.gz",
   "support": {
     "source": "git://github.com/zostay/Smack.git"
