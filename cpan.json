@@ -10597,6 +10597,38 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Implement Perl's __FILE__ and associated functionality",
+  "license": "Artistic-2.0",
+  "name": "P5__FILE__",
+  "perl": "6.c",
+  "provides": {
+    "P5__FILE__": "lib/P5__FILE__.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5__FILE__-0.0.4.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "P5__FILE__",
     "P5caller",
     "P5chdir",
@@ -10726,6 +10758,38 @@
     
   ],
   "version": "0.0.22"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Implement Perl's caller() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5caller",
+  "perl": "6.c",
+  "provides": {
+    "P5caller": "lib/P5caller.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5caller-0.0.10.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.10"
 }
 ,
 {
@@ -10950,6 +11014,38 @@
     
   ],
   "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Implement Perl's chdir() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5chdir",
+  "perl": "6.c",
+  "provides": {
+    "P5chdir": "lib/P5chdir.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5chdir-0.0.7.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
 }
 ,
 {
