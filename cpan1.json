@@ -10654,6 +10654,38 @@
   "depends": [
     
   ],
+  "description": "Implement Perl's -X built-ins",
+  "license": "Artistic-2.0",
+  "name": "P5-X",
+  "perl": "6.c",
+  "provides": {
+    "P5-X": "lib/P5-X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5-X-0.0.7.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's __DATA__ and related functionality",
   "license": "Artistic-2.0",
   "name": "P5__DATA__",
