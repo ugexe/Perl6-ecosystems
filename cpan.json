@@ -13970,6 +13970,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's readlink() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5readlink",
+  "perl": "6.c",
+  "provides": {
+    "P5readlink": "lib/P5readlink.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5readlink-0.0.8.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's ref() built-in",
   "license": "Artistic-2.0",
   "name": "P5ref",
@@ -14021,6 +14053,38 @@
     
   ],
   "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's ref() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5ref",
+  "perl": "6.c",
+  "provides": {
+    "P5ref": "lib/P5ref.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5ref-0.0.6.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
 }
 ,
 {
@@ -14098,6 +14162,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's reset() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5reset",
+  "perl": "6.c",
+  "provides": {
+    "P5reset": "lib/P5reset.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5reset-0.0.5.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's reverse() built-in",
   "license": "Artistic-2.0",
   "name": "P5reverse",
@@ -14162,6 +14258,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's reverse() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5reverse",
+  "perl": "6.c",
+  "provides": {
+    "P5reverse": "lib/P5reverse.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5reverse-0.0.7.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's seek() built-in",
   "license": "Artistic-2.0",
   "name": "P5seek",
@@ -14213,6 +14341,38 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's seek() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5seek",
+  "perl": "6.c",
+  "provides": {
+    "P5seek": "lib/P5seek.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5seek-0.0.4.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
@@ -14322,6 +14482,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's shift() / unshift() built-ins",
+  "license": "Artistic-2.0",
+  "name": "P5shift",
+  "perl": "6.c",
+  "provides": {
+    "P5shift": "lib/P5shift.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5shift-0.0.6.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's sleep() built-in",
   "license": "Artistic-2.0",
   "name": "P5sleep",
@@ -14373,6 +14565,38 @@
     
   ],
   "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's sleep() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5sleep",
+  "perl": "6.c",
+  "provides": {
+    "P5sleep": "lib/P5sleep.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5sleep-0.0.9.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
 }
 ,
 {
@@ -14450,6 +14674,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's study() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5study",
+  "perl": "6.c",
+  "provides": {
+    "P5study": "lib/P5study.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5study-0.0.5.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's substr() built-in",
   "license": "Artistic-2.0",
   "name": "P5substr",
@@ -14501,6 +14757,38 @@
     
   ],
   "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's substr() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5substr",
+  "perl": "6.c",
+  "provides": {
+    "P5substr": "lib/P5substr.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5substr-0.0.6.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
 }
 ,
 {
@@ -14610,6 +14898,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's tie() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5tie",
+  "perl": "6.c",
+  "provides": {
+    "P5tie": "lib/P5tie.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5tie-0.0.13.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.13"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's times() built-in",
   "license": "Artistic-2.0",
   "name": "P5times",
@@ -14693,6 +15013,38 @@
     
   ],
   "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's times() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5times",
+  "perl": "6.c",
+  "provides": {
+    "P5times": "lib/P5times.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5times-0.0.8.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
 }
 ,
 {
@@ -26027,6 +26379,49 @@
     "Test::META"
   ],
   "version": "0.3.2"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A modern HTTP pipeline parser",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "HTTP::Supply",
+  "perl": "6.c",
+  "provides": {
+    "HTTP::Request::Supply": "lib/HTTP/Request/Supply.pm6",
+    "HTTP::Supply": "lib/HTTP/Supply.pm6",
+    "HTTP::Supply::Body": "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Body::ChunkEncoding": "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Body::ContentLength": "lib/HTTP/Supply/Body.pm6",
+    "HTTP::Supply::Request": "lib/HTTP/Supply/Request.pm6",
+    "HTTP::Supply::Response": "lib/HTTP/Supply/Response.pm6",
+    "HTTP::Supply::Tools": "lib/HTTP/Supply/Tools.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Supply-0.3.4.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/HTTP-Supply.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.3.4"
 }
 ,
 {
