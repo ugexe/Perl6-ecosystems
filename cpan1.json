@@ -26461,6 +26461,42 @@
   "depends": [
     
   ],
+  "description": "A modern HTTP request parser",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "HTTP::Request::Supply",
+  "perl": "6.c",
+  "provides": {
+    "HTTP::Request::Supply": "lib/HTTP/Request/Supply.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Request-Supply-0.2.0.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/HTTP-Request-Supply.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.2.0"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "A modern HTTP pipeline parser",
   "license": "Artistic-2.0",
   "meta-version": "0",
