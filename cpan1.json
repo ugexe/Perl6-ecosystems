@@ -9368,6 +9368,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's List::Util module 1.49",
+  "license": "Artistic-2.0",
+  "name": "List::Util",
+  "perl": "6.c",
+  "provides": {
+    "List::Util": "lib/List/Util.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-Util-0.0.9.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Port of Perl 5's List::UtilsBy 0.11",
   "license": "Artistic-2.0",
   "name": "List::UtilsBy",
