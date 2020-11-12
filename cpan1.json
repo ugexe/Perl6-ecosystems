@@ -7378,6 +7378,70 @@
     
   ],
   "depends": [
+    "P5opendir:ver<0.0.5>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's DirHandle",
+  "license": "Artistic-2.0",
+  "name": "DirHandle",
+  "perl": "6.c",
+  "provides": {
+    "DirHandle": "lib/DirHandle.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/DirHandle-0.0.5.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5opendir:ver<0.0.6>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's DirHandle",
+  "license": "Artistic-2.0",
+  "name": "DirHandle",
+  "perl": "6.c",
+  "provides": {
+    "DirHandle": "lib/DirHandle.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/DirHandle-0.0.6.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Cro::HTTP::Client",
     "Hash2Class:ver<0.1.2>"
   ],
@@ -7518,6 +7582,38 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's Env module",
+  "license": "Artistic-2.0",
+  "name": "Env",
+  "perl": "6.c",
+  "provides": {
+    "Env": "lib/Env.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Env-0.0.4.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
@@ -8331,6 +8427,38 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's Hash::Util module 0.23",
+  "license": "Artistic-2.0",
+  "name": "Hash::Util",
+  "perl": "6.c",
+  "provides": {
+    "Hash::Util": "lib/Hash/Util.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Util-0.0.3.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
@@ -10686,6 +10814,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's -X built-ins",
+  "license": "Artistic-2.0",
+  "name": "P5-X",
+  "perl": "6.c",
+  "provides": {
+    "P5-X": "lib/P5-X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5-X-0.0.8.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's __DATA__ and related functionality",
   "license": "Artistic-2.0",
   "name": "P5__DATA__",
@@ -10801,6 +10961,38 @@
     
   ],
   "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's __FILE__ and associated functionality",
+  "license": "Artistic-2.0",
+  "name": "P5__FILE__",
+  "perl": "6.c",
+  "provides": {
+    "P5__FILE__": "lib/P5__FILE__.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5__FILE__-0.0.5.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
 }
 ,
 {
@@ -10952,6 +11144,76 @@
     
   ],
   "depends": [
+    "P5-X:ver<0.0.8>:auth<cpan:ELIZABETH>",
+    "P5__FILE__:ver<0.0.5>:auth<cpan:ELIZABETH>",
+    "P5caller:ver<0.0.11>:auth<cpan:ELIZABETH>",
+    "P5chdir:ver<0.0.8>:auth<cpan:ELIZABETH>",
+    "P5chomp:ver<0.0.8>:auth<cpan:ELIZABETH>",
+    "P5chr:ver<0.0.7>:auth<cpan:ELIZABETH>",
+    "P5defined:ver<0.0.4>:auth<cpan:ELIZABETH>",
+    "P5each:ver<0.0.7>:auth<cpan:ELIZABETH>",
+    "P5fc:ver<0.0.7>:auth<cpan:ELIZABETH>",
+    "P5fileno:ver<0.0.5>:auth<cpan:ELIZABETH>",
+    "P5getgrnam:ver<0.0.8>:auth<cpan:ELIZABETH>",
+    "P5getnetbyname:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "P5getpriority:ver<0.0.7>:auth<cpan:ELIZABETH>",
+    "P5getprotobyname:ver<0.0.5>:auth<cpan:ELIZABETH>",
+    "P5getpwnam:ver<0.0.9>:auth<cpan:ELIZABETH>",
+    "P5getservbyname:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "P5hex:ver<0.0.7>:auth<cpan:ELIZABETH>",
+    "P5index:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "P5lc:ver<0.0.8>:auth<cpan:ELIZABETH>",
+    "P5lcfirst:ver<0.0.9>:auth<cpan:ELIZABETH>",
+    "P5length:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "P5localtime:ver<0.0.8>:auth<cpan:ELIZABETH>",
+    "P5math:ver<0.0.4>:auth<cpan:ELIZABETH>",
+    "P5opendir:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "P5pack:ver<0.0.12>:auth<cpan:ELIZABETH>",
+    "P5print:ver<0.0.5>:auth<cpan:ELIZABETH>",
+    "P5push:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "P5quotemeta:ver<0.0.5>:auth<cpan:ELIZABETH>",
+    "P5readlink:ver<0.0.8>:auth<cpan:ELIZABETH>",
+    "P5ref:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "P5reset:ver<0.0.5>:auth<cpan:ELIZABETH>",
+    "P5reverse:ver<0.0.7>:auth<cpan:ELIZABETH>",
+    "P5seek:ver<0.0.4>:auth<cpan:ELIZABETH>",
+    "P5shift:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "P5sleep:ver<0.0.9>:auth<cpan:ELIZABETH>",
+    "P5study:ver<0.0.5>:auth<cpan:ELIZABETH>",
+    "P5substr:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "P5tie:ver<0.0.13>:auth<cpan:ELIZABETH>",
+    "P5times:ver<0.0.8>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's built-ins",
+  "license": "Artistic-2.0",
+  "name": "P5built-ins",
+  "perl": "6.c",
+  "provides": {
+    "P5built-ins": "lib/P5built-ins.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5built-ins-0.0.23.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.23"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Implement Perl's caller() built-in",
@@ -10973,6 +11235,38 @@
     
   ],
   "version": "0.0.10"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's caller() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5caller",
+  "perl": "6.c",
+  "provides": {
+    "P5caller": "lib/P5caller.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5caller-0.0.11.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.11"
 }
 ,
 {
@@ -11242,6 +11536,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's chdir() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5chdir",
+  "perl": "6.c",
+  "provides": {
+    "P5chdir": "lib/P5chdir.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5chdir-0.0.8.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's chomp() / chop() built-ins",
   "license": "Artistic-2.0",
   "name": "P5chomp",
@@ -11325,6 +11651,38 @@
     
   ],
   "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's chomp() / chop() built-ins",
+  "license": "Artistic-2.0",
+  "name": "P5chomp",
+  "perl": "6.c",
+  "provides": {
+    "P5chomp": "lib/P5chomp.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5chomp-0.0.8.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
 }
 ,
 {
@@ -25984,6 +26342,45 @@
     "Test"
   ],
   "version": "0.3"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Low-level access to HID devices",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Device::HIDAPI",
+  "perl": "6.c",
+  "provides": {
+    "Device::HIDAPI": "lib/Device/HIDAPI.pm6",
+    "Device::HIDAPI::Config": "lib/Device/HIDAPI/Config.pm6",
+    "Device::HIDAPI::DeviceInfo": "lib/Device/HIDAPI.pm6",
+    "X::Device::HIDAPI": "lib/Device/HIDAPI.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Device-HIDAPI-0.0.1.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/p6-Device-HIDAPI.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.0.1"
 }
 ,
 {
