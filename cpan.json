@@ -1525,6 +1525,30 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "description": "ANSI escape sequences",
+  "license": "MIT",
+  "name": "Terminal::ANSI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::ANSI": "lib/Terminal/ANSI.rakumod",
+    "Terminal::ANSI::OO": "lib/Terminal/ANSI/OO.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-ANSI-0.0.3.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "auth": "github:bduggan",
   "authors": [
     "Brian Duggan <bduggan@matatu.org>"
@@ -10098,6 +10122,38 @@
     
   ],
   "depends": [
+    "P5getprotobyname:ver<0.0.5>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's Net::protoent module",
+  "license": "Artistic-2.0",
+  "name": "Net::protoent",
+  "perl": "6.c",
+  "provides": {
+    "Net::protoent": "lib/Net/protoent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Net-protoent-0.0.2.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "P5getservbyname"
   ],
   "description": "Port of Perl 5's Net::servent",
@@ -10119,6 +10175,38 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5getservbyname:ver<0.0.6>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's Net::servent module",
+  "license": "Artistic-2.0",
+  "name": "Net::servent",
+  "perl": "6.c",
+  "provides": {
+    "Net::servent": "lib/Net/servent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Net-servent-0.0.2.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
@@ -10559,6 +10647,38 @@
     
   ],
   "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "InterceptAllMethods:ver<0.0.1>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's Object::Trampoline module 1.50.4",
+  "license": "Artistic-2.0",
+  "name": "Object::Trampoline",
+  "perl": "6.c",
+  "provides": {
+    "Object::Trampoline": "lib/Object/Trampoline.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Object-Trampoline-0.0.9.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
 }
 ,
 {
@@ -15989,6 +16109,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's Scalar::Util module 1.55",
+  "license": "Artistic-2.0",
+  "name": "Scalar::Util",
+  "perl": "6.c",
+  "provides": {
+    "Scalar::Util": "lib/Scalar/Util.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Scalar-Util-0.0.9.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement (==) for older Raku versions",
   "license": "Artistic-2.0",
   "name": "Set::Equality",
@@ -16456,6 +16608,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's Sub::Name module",
+  "license": "Artistic-2.0",
+  "name": "Sub::Name",
+  "perl": "6.c",
+  "provides": {
+    "Sub::Name": "lib/Sub/Name.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sub-Name-0.0.8.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Port of Perl 5's Sub::Util 1.49",
   "license": "Artistic-2.0",
   "name": "Sub::Util",
@@ -16520,6 +16704,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's Sub::Util module 1.55",
+  "license": "Artistic-2.0",
+  "name": "Sub::Util",
+  "perl": "6.c",
+  "provides": {
+    "Sub::Util": "lib/Sub/Util.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sub-Util-0.0.5.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's Sys::Hostname core module",
   "license": "Artistic-2.0",
   "name": "Sys::Hostname",
@@ -16571,6 +16787,38 @@
     
   ],
   "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's Sys::Hostname module",
+  "license": "Artistic-2.0",
+  "name": "Sys::Hostname",
+  "perl": "6.c",
+  "provides": {
+    "Sys::Hostname": "lib/Sys/Hostname.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sys-Hostname-0.0.9.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
 }
 ,
 {
@@ -16864,6 +17112,38 @@
     
   ],
   "depends": [
+    "P5tie:ver<0.0.13>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's Tie::Array module",
+  "license": "Artistic-2.0",
+  "name": "Tie::Array",
+  "perl": "6.c",
+  "provides": {
+    "Tie::Array": "lib/Tie/Array.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-Array-0.0.7.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Implement Perl 5's Tie::Hash core module",
@@ -16949,6 +17229,38 @@
     
   ],
   "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5tie:ver<0.0.13>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's Tie::Hash module",
+  "license": "Artistic-2.0",
+  "name": "Tie::Hash",
+  "perl": "6.c",
+  "provides": {
+    "Tie::Hash": "lib/Tie/Hash.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-Hash-0.0.7.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
 }
 ,
 {
