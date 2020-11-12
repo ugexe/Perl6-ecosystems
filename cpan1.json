@@ -9206,6 +9206,38 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Raku port of Perl's List::MoreUtils module 0.430",
+  "license": "Artistic-2.0",
+  "name": "List::MoreUtils",
+  "perl": "6.c",
+  "provides": {
+    "List::MoreUtils": "lib/List/MoreUtils.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-MoreUtils-0.0.8.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "List::MoreUtils"
   ],
   "description": "Port of Perl 5's List::SomeUtils 0.56",
@@ -9558,6 +9590,38 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Raku port of Perl's List::UtilsBy module 0.11",
+  "license": "Artistic-2.0",
+  "name": "List::UtilsBy",
+  "perl": "6.c",
+  "provides": {
+    "List::UtilsBy": "lib/List/UtilsBy.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-UtilsBy-0.0.6.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Hash::Agnostic:ver<0.0.3>:auth<cpan:ELIZABETH>"
   ],
   "description": "be a map without knowing how",
@@ -9842,6 +9906,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's Memoize module 1.03",
+  "license": "Artistic-2.0",
+  "name": "Memoize",
+  "perl": "6.c",
+  "provides": {
+    "Memoize": "lib/Memoize.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Memoize-0.0.6.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "add \"is also\" trait to Methods",
   "license": "Artistic-2.0",
   "name": "Method::Also",
@@ -10078,6 +10174,70 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5getnetbyname:ver<0.0.6>:auth<cpan:ELIZABETH"
+  ],
+  "description": "Raku port of Perl 5's Net::netent module",
+  "license": "Artistic-2.0",
+  "name": "Net::netent",
+  "perl": "6.c",
+  "provides": {
+    "Net::netent": "lib/Net/netent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Net-netent-0.0.3.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5getnetbyname:ver<0.0.6>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl 5's Net::netent module",
+  "license": "Artistic-2.0",
+  "name": "Net::netent",
+  "perl": "6.c",
+  "provides": {
+    "Net::netent": "lib/Net/netent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Net-netent-0.0.4.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
