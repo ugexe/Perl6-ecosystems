@@ -8472,6 +8472,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's Hash::Util module 0.23",
+  "license": "Artistic-2.0",
+  "name": "Hash::Util",
+  "perl": "6.c",
+  "provides": {
+    "Hash::Util": "lib/Hash/Util.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Util-0.0.4.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Roles for automatically mapping keys in hashes",
   "license": "Artistic-2.0",
   "name": "Hash-with",
@@ -79705,6 +79737,46 @@
     "Test"
   ],
   "version": "3.0.0"
+}
+,
+{
+  "api": "3",
+  "auth": "cpan:TYIL",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "Hash::Merge:version<1.0.1>",
+    "IO::Glob",
+    "IO::Path::XDG:version<0.2.0>",
+    "Log:auth<cpan:TYIL>:version<0.3.0>"
+  ],
+  "description": "Extensible library for reading and writing configuration files.",
+  "license": "LGPL-3.0-only",
+  "name": "Config",
+  "perl": "6.d",
+  "provides": {
+    "Config": "lib/Config.rakumod",
+    "Config::Parser": "lib/Config/Parser.rakumod",
+    "Config::Parser::NULL": "lib/Config/Parser/NULL.rakumod",
+    "X::Config::AbstractParser": "lib/X/Config/AbstractParser.rakumod",
+    "X::Config::FileNoExtension": "lib/X/Config/FileNoExtension.rakumod",
+    "X::Config::FileNotFound": "lib/X/Config/FileNotFound.rakumod",
+    "X::Config::MissingParser": "lib/X/Config/MissingParser.rakumod",
+    "X::Config::NotSupported": "lib/X/Config/NotSupported.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Config-3.0.1.tar.gz",
+  "tags": [
+    "config",
+    "configuration"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "3.0.1"
 }
 ,
 {
