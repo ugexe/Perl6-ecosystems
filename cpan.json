@@ -25804,45 +25804,6 @@
 }
 ,
 {
-  "auth": "github:zostay",
-  "authors": [
-    "Sterling Hanenkamp <hanenkamp@cpan.org>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Low-level access to HID devices",
-  "license": "Artistic-2.0",
-  "meta-version": "0",
-  "name": "Device::HIDAPI",
-  "perl": "6.c",
-  "provides": {
-    "Device::HIDAPI": "lib/Device/HIDAPI.pm6",
-    "Device::HIDAPI::Config": "lib/Device/HIDAPI/Config.pm6",
-    "Device::HIDAPI::DeviceInfo": "lib/Device/HIDAPI.pm6",
-    "X::Device::HIDAPI": "lib/Device/HIDAPI.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Device-HIDAPI-0.0.1.tar.gz",
-  "support": {
-    "source": "git://github.com/zostay/p6-Device-HIDAPI.git"
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.0.1"
-}
-,
-{
   "auth": null,
   "authors": [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
