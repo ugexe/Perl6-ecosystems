@@ -9392,6 +9392,38 @@
     
   ],
   "depends": [
+    "List::MoreUtils:ver<0.0.8>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's List::SomeUtils module 0.56",
+  "license": "Artistic-2.0",
+  "name": "List::SomeUtils",
+  "perl": "6.c",
+  "provides": {
+    "List::SomeUtils": "lib/List/SomeUtils.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/List-SomeUtils-0.0.7.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Port of Perl 5's List::Util 1.49",
