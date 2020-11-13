@@ -17368,6 +17368,38 @@
     
   ],
   "depends": [
+    "P5tie:ver<0.0.13>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's Tie::StdArray module",
+  "license": "Artistic-2.0",
+  "name": "Tie::StdArray",
+  "perl": "6.c",
+  "provides": {
+    "Tie::StdArray": "lib/Tie/StdArray.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-StdArray-0.0.6.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Implement Perl 5's Tie::StdHash core module",
@@ -17453,6 +17485,38 @@
     
   ],
   "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5tie:ver<0.0.13>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's Tie::StdHash module",
+  "license": "Artistic-2.0",
+  "name": "Tie::StdHash",
+  "perl": "6.c",
+  "provides": {
+    "Tie::StdHash": "lib/Tie/StdHash.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-StdHash-0.0.7.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
 }
 ,
 {
@@ -17592,6 +17656,70 @@
     
   ],
   "depends": [
+    "P5localtime:ver<0.0.8>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's Time::gmtime module",
+  "license": "Artistic-2.0",
+  "name": "Time::gmtime",
+  "perl": "6.c",
+  "provides": {
+    "Time::gmtime": "lib/Time/gmtime.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Time-gmtime-0.0.6.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5localtime:ver<0.0.8>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's Time::gmtime module",
+  "license": "Artistic-2.0",
+  "name": "Time::gmtime",
+  "perl": "6.c",
+  "provides": {
+    "Time::gmtime": "lib/Time/gmtime.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Time-gmtime-0.0.7.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "P5localtime"
   ],
   "description": "Port of Perl 5's Time::localtime",
@@ -17677,6 +17805,38 @@
     
   ],
   "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5localtime:ver<0.0.8>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's Time::localtime module",
+  "license": "Artistic-2.0",
+  "name": "Time::localtime",
+  "perl": "6.c",
+  "provides": {
+    "Time::localtime": "lib/Time/localtime.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Time-localtime-0.0.5.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
 }
 ,
 {
@@ -18000,6 +18160,38 @@
     
   ],
   "depends": [
+    "P5getgrnam:ver<0.0.8>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's User::grent module",
+  "license": "Artistic-2.0",
+  "name": "User::grent",
+  "perl": "6.c",
+  "provides": {
+    "User::grent": "lib/User/grent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/User-grent-0.0.3.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "P5getpwnam"
   ],
   "description": "Port of Perl 5's User::pwent",
@@ -18053,6 +18245,38 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5getpwnam:ver<0.0.9>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's User::pwent module",
+  "license": "Artistic-2.0",
+  "name": "User::pwent",
+  "perl": "6.c",
+  "provides": {
+    "User::pwent": "lib/User/pwent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/User-pwent-0.0.3.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
@@ -18532,6 +18756,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's 'subs' pragma",
+  "license": "Artistic-2.0",
+  "name": "subs",
+  "perl": "6.c",
+  "provides": {
+    "subs": "lib/subs.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/subs-0.0.3.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "provide fast print / say / put",
   "license": "Artistic-2.0",
   "name": "unprint",
@@ -18645,6 +18901,38 @@
     
   ],
   "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's 'vars' pragma",
+  "license": "Artistic-2.0",
+  "name": "vars",
+  "perl": "6.c",
+  "provides": {
+    "vars": "lib/vars.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/vars-0.0.5.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
 }
 ,
 {
