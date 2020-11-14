@@ -26334,6 +26334,28 @@
 }
 ,
 {
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "An array in a hash in an array... like a turducken",
+  "license": "Artistic-2.0",
+  "name": "ArrayHash",
+  "perl": "6.c",
+  "provides": {
+    "ArrayHash": "lib/ArrayHash.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ArrayHash-0.3.tar.gz",
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.3"
+}
+,
+{
   "auth": "github:zostay",
   "authors": [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
