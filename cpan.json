@@ -81371,6 +81371,35 @@
 }
 ,
 {
+  "api": "2",
+  "auth": "github:scriptkitties",
+  "authors": [
+    "Samantha McVey <samantham@posteo.net>",
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku module to deep merge Hashes",
+  "license": "Artistic-2.0",
+  "name": "Hash::Merge",
+  "perl": "6.d",
+  "provides": {
+    "Hash::Merge": "lib/Hash/Merge.rakumod",
+    "Hash::Merge::Augment": "lib/Hash/Merge/Augment.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Hash-Merge-2.0.0.tar.gz",
+  "tags": [
+    "hash",
+    "utils"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "2.0.0"
+}
+,
+{
   "api": "0",
   "authors": [
     "Patrick Spek <p.spek@tyil.work>"
