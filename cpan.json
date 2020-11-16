@@ -26388,6 +26388,50 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Auth-SASL-0.1.0.tar.gz",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "auth": null,
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Simple Authentication and Security Layer",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Auth::SASL",
+  "perl": "6.c",
+  "provides": {
+    "Auth::SASL": "lib/Auth/SASL.pm6",
+    "Auth::SASL::Factory": "lib/Auth/SASL/Factory.pm6",
+    "Auth::SASL::Mechanism": "lib/Auth/SASL/Mechanism.pm6",
+    "Auth::SASL::Raku": "lib/Auth/SASL/Raku.pm6",
+    "Auth::SASL::Raku::Anonymous": "lib/Auth/SASL/Raku/Anonymous.pm6",
+    "Auth::SASL::Raku::Mechanism": "lib/Auth/SASL/Raku/Mechanism.pm6",
+    "Auth::SASL::Raku::Plain": "lib/Auth/SASL/Raku/Plain.pm6",
+    "Auth::SASL::Session": "lib/Auth/SASL/Session.pm6",
+    "X::Auth::SASL": "lib/X/Auth/SASL.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Auth-SASL-0.1.1.tar.gz",
   "support": {
     "source": null
