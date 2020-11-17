@@ -81072,6 +81072,52 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:scriptkitties",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "File::Temp:ver<0.0.6+>",
+    "Hash::Merge:ver<2.0.0>",
+    "JSON::Fast:ver<0.9.11+>",
+    "Template::Mustache:ver<1.0.1+>"
+  ],
+  "description": "The CPAN distribution helper",
+  "license": "GPL-3.0",
+  "name": "Dist::Helper",
+  "perl": "6.c",
+  "provides": {
+    "Dist::Helper": "lib/Dist/Helper.pm6",
+    "Dist::Helper::Clean": "lib/Dist/Helper/Clean.pm6",
+    "Dist::Helper::Meta": "lib/Dist/Helper/Meta.pm6",
+    "Dist::Helper::Path": "lib/Dist/Helper/Path.pm6",
+    "Dist::Helper::Template": "lib/Dist/Helper/Template.pm6"
+  },
+  "resources": [
+    "templates/changelog.md",
+    "templates/editorconfig",
+    "templates/gitignore",
+    "templates/gitlab-ci.yml",
+    "templates/module/bin",
+    "templates/module/class",
+    "templates/module/lib",
+    "templates/module/module",
+    "templates/module/test",
+    "templates/readme.pod6",
+    "templates/travis.yml",
+    "templates/vim-line/space",
+    "templates/vim-line/tab"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Dist-Helper-1.0.1.tar.gz",
+  "tags": [
+    "devel",
+    "ecosystems"
+  ],
+  "version": "1.0.1"
+}
+,
+{
   "api": "0",
   "authors": [
     "Patrick Spek <p.spek@tyil.work>"
