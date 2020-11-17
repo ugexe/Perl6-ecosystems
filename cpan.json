@@ -15058,6 +15058,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's reverse() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5reverse",
+  "perl": "6.c",
+  "provides": {
+    "P5reverse": "lib/P5reverse.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5reverse-0.0.7.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl 5's seek() built-in",
   "license": "Artistic-2.0",
   "name": "P5seek",
@@ -50501,6 +50533,49 @@
     
   ],
   "version": "0.1.1.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N"
+  ],
+  "description": "Raku Gnome Cairo api, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Cairo",
+  "perl": "6",
+  "provides": {
+    "Gnome::Cairo": "lib/Gnome/Cairo.pm6",
+    "Gnome::Cairo::Enums": "lib/Gnome/Cairo/Enums.pm6",
+    "Gnome::Cairo::FontFace": "lib/Gnome/Cairo/FontFace.pm6",
+    "Gnome::Cairo::FontOptions": "lib/Gnome/Cairo/FontOptions.pm6",
+    "Gnome::Cairo::ImageSurface": "lib/Gnome/Cairo/ImageSurface.pm6",
+    "Gnome::Cairo::Matrix": "lib/Gnome/Cairo/Matrix.pm6",
+    "Gnome::Cairo::Path": "lib/Gnome/Cairo/Path.pm6",
+    "Gnome::Cairo::Pattern": "lib/Gnome/Cairo/Pattern.pm6",
+    "Gnome::Cairo::ScaledFont": "lib/Gnome/Cairo/ScaledFont.pm6",
+    "Gnome::Cairo::Surface": "lib/Gnome/Cairo/Surface.pm6",
+    "Gnome::Cairo::Types": "lib/Gnome/Cairo/Types.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-cairo-0.2.0.tar.gz",
+  "tags": [
+    "drawing",
+    "cairo",
+    "gtk",
+    "gdk"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.0"
 }
 ,
 {
