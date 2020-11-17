@@ -26099,6 +26099,44 @@
   ],
   "depends": [
     "AWS::Session",
+    "HTTP::UserAgent",
+    "JSON::Fast",
+    "WebService::AWS::Auth::V4",
+    "String::CRC32"
+  ],
+  "description": "Low-level access to the DynamoDB API",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Amazon::DynamoDB",
+  "perl": "6.c",
+  "provides": {
+    "Amazon::DynamoDB": "lib/Amazon/DynamoDB.pm6",
+    "Amazon::DynamoDB::UA": "lib/Amazon/DynamoDB/UA.pm6",
+    "Amazon::DynamoDB::UA::AutoUA": "lib/Amazon/DynamoDB/UA.pm6",
+    "Amazon::DynamoDB::UA::Cro": "lib/Amazon/DynamoDB/UA/Cro.pm6",
+    "Amazon::DynamoDB::UA::HTTP::UserAgent": "lib/Amazon/DynamoDB/UA/HTTP/UserAgent.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Amazon-DynamoDB-0.2.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/Amazon-DynamoDB.git"
+  },
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.2"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "AWS::Session",
     "Cro::HTTP",
     "HTTP::UserAgent",
     "JSON::Fast",
