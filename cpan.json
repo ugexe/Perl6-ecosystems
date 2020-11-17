@@ -25051,6 +25051,37 @@
   "depends": [
     
   ],
+  "description": "Constants from netinet/in.h",
+  "license": "Artistic-2.0",
+  "name": "Constants::Netinet::In",
+  "perl": "6.c",
+  "provides": {
+    "Constants::Netinet::In": "lib/Constants/Netinet/In.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Constants-Netinet-In-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:GARLANDG",
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Socket constants defined in sys/socket.h",
   "license": "Artistic-2.0",
   "name": "Constants::Sys::Socket",
