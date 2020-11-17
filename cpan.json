@@ -16930,6 +16930,37 @@
   "depends": [
     
   ],
+  "description": "provide 'is test-assertion' trait for older Rakus",
+  "license": "Artistic-2.0",
+  "name": "Test::Assertion",
+  "perl": "6.d",
+  "provides": {
+    "Test::Assertion": "lib/Test/Assertion.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Test-Assertion-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "easy interface to Unicode flags",
   "license": "Artistic-2.0",
   "name": "Text::Flags",
@@ -24959,30 +24990,6 @@
     
   ],
   "version": "1.2.1"
-}
-,
-{
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "NativeCall"
-  ],
-  "description": "use C-code from within Perl",
-  "name": "Inline",
-  "perl": "v6",
-  "provides": {
-    "Inline": "lib/Inline.pm",
-    "Inline::C": "lib/Inline/C.pm"
-  },
-  "support": {
-    "bugtracker": "https://github.com/FROGGS/p6-Inline-C/issues",
-    "source": "https://github.com/FROGGS/p6-Inline-C.git"
-  },
-  "test-depends": [
-    
-  ],
-  "version": "v1.2"
 }
 ,
 {
@@ -52486,6 +52493,145 @@
     
   ],
   "depends": [
+    "Gnome::N",
+    "Gnome::Glib",
+    "Gnome::Gio",
+    "Gnome::GObject",
+    "Gnome::Gdk3",
+    "Gnome::Cairo"
+  ],
+  "description": "Raku - Gnome GTK+ Interface",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gtk3",
+  "perl": "6.d",
+  "provides": {
+    "Gnome::Gtk3::AboutDialog": "lib/Gnome/Gtk3/AboutDialog.pm6",
+    "Gnome::Gtk3::Adjustment": "lib/Gnome/Gtk3/Adjustment.pm6",
+    "Gnome::Gtk3::Application": "lib/Gnome/Gtk3/Application.pm6",
+    "Gnome::Gtk3::ApplicationWindow": "lib/Gnome/Gtk3/ApplicationWindow.pm6",
+    "Gnome::Gtk3::AspectFrame": "lib/Gnome/Gtk3/AspectFrame.pm6",
+    "Gnome::Gtk3::Assistant": "lib/Gnome/Gtk3/Assistant.pm6",
+    "Gnome::Gtk3::Bin": "lib/Gnome/Gtk3/Bin.pm6",
+    "Gnome::Gtk3::Border": "lib/Gnome/Gtk3/Border.pm6",
+    "Gnome::Gtk3::Box": "lib/Gnome/Gtk3/Box.pm6",
+    "Gnome::Gtk3::Buildable": "lib/Gnome/Gtk3/Buildable.pm6",
+    "Gnome::Gtk3::Builder": "lib/Gnome/Gtk3/Builder.pm6",
+    "Gnome::Gtk3::Button": "lib/Gnome/Gtk3/Button.pm6",
+    "Gnome::Gtk3::CellRenderer": "lib/Gnome/Gtk3/CellRenderer.pm6",
+    "Gnome::Gtk3::CellRendererAccel": "lib/Gnome/Gtk3/CellRendererAccel.pm6",
+    "Gnome::Gtk3::CellRendererCombo": "lib/Gnome/Gtk3/CellRendererCombo.pm6",
+    "Gnome::Gtk3::CellRendererPixbuf": "lib/Gnome/Gtk3/CellRendererPixbuf.pm6",
+    "Gnome::Gtk3::CellRendererProgress": "lib/Gnome/Gtk3/CellRendererProgress.pm6",
+    "Gnome::Gtk3::CellRendererSpin": "lib/Gnome/Gtk3/CellRendererSpin.pm6",
+    "Gnome::Gtk3::CellRendererSpinner": "lib/Gnome/Gtk3/CellRendererSpinner.pm6",
+    "Gnome::Gtk3::CellRendererText": "lib/Gnome/Gtk3/CellRendererText.pm6",
+    "Gnome::Gtk3::CellRendererToggle": "lib/Gnome/Gtk3/CellRendererToggle.pm6",
+    "Gnome::Gtk3::CheckButton": "lib/Gnome/Gtk3/CheckButton.pm6",
+    "Gnome::Gtk3::ColorButton": "lib/Gnome/Gtk3/ColorButton.pm6",
+    "Gnome::Gtk3::ColorChooser": "lib/Gnome/Gtk3/ColorChooser.pm6",
+    "Gnome::Gtk3::ColorChooserDialog": "lib/Gnome/Gtk3/ColorChooserDialog.pm6",
+    "Gnome::Gtk3::ColorChooserWidget": "lib/Gnome/Gtk3/ColorChooserWidget.pm6",
+    "Gnome::Gtk3::ComboBox": "lib/Gnome/Gtk3/ComboBox.pm6",
+    "Gnome::Gtk3::ComboBoxText": "lib/Gnome/Gtk3/ComboBoxText.pm6",
+    "Gnome::Gtk3::Container": "lib/Gnome/Gtk3/Container.pm6",
+    "Gnome::Gtk3::CssProvider": "lib/Gnome/Gtk3/CssProvider.pm6",
+    "Gnome::Gtk3::Dialog": "lib/Gnome/Gtk3/Dialog.pm6",
+    "Gnome::Gtk3::DrawingArea": "lib/Gnome/Gtk3/DrawingArea.pm6",
+    "Gnome::Gtk3::Entry": "lib/Gnome/Gtk3/Entry.pm6",
+    "Gnome::Gtk3::Enums": "lib/Gnome/Gtk3/Enums.pm6",
+    "Gnome::Gtk3::FileChooser": "lib/Gnome/Gtk3/FileChooser.pm6",
+    "Gnome::Gtk3::FileChooserButton": "lib/Gnome/Gtk3/FileChooserButton.pm6",
+    "Gnome::Gtk3::FileChooserDialog": "lib/Gnome/Gtk3/FileChooserDialog.pm6",
+    "Gnome::Gtk3::FileFilter": "lib/Gnome/Gtk3/FileFilter.pm6",
+    "Gnome::Gtk3::Frame": "lib/Gnome/Gtk3/Frame.pm6",
+    "Gnome::Gtk3::Grid": "lib/Gnome/Gtk3/Grid.pm6",
+    "Gnome::Gtk3::IconTheme": "lib/Gnome/Gtk3/IconTheme.pm6",
+    "Gnome::Gtk3::IconView": "lib/Gnome/Gtk3/IconView.pm6",
+    "Gnome::Gtk3::Image": "lib/Gnome/Gtk3/Image.pm6",
+    "Gnome::Gtk3::Label": "lib/Gnome/Gtk3/Label.pm6",
+    "Gnome::Gtk3::LevelBar": "lib/Gnome/Gtk3/LevelBar.pm6",
+    "Gnome::Gtk3::ListBox": "lib/Gnome/Gtk3/ListBox.pm6",
+    "Gnome::Gtk3::ListBoxRow": "lib/Gnome/Gtk3/ListBoxRow.pm6",
+    "Gnome::Gtk3::ListStore": "lib/Gnome/Gtk3/ListStore.pm6",
+    "Gnome::Gtk3::Main": "lib/Gnome/Gtk3/Main.pm6",
+    "Gnome::Gtk3::Menu": "lib/Gnome/Gtk3/Menu.pm6",
+    "Gnome::Gtk3::MenuBar": "lib/Gnome/Gtk3/MenuBar.pm6",
+    "Gnome::Gtk3::MenuButton": "lib/Gnome/Gtk3/MenuButton.pm6",
+    "Gnome::Gtk3::MenuItem": "lib/Gnome/Gtk3/MenuItem.pm6",
+    "Gnome::Gtk3::MenuShell": "lib/Gnome/Gtk3/MenuShell.pm6",
+    "Gnome::Gtk3::MessageDialog": "lib/Gnome/Gtk3/MessageDialog.pm6",
+    "Gnome::Gtk3::Misc": "lib/Gnome/Gtk3/Misc.pm6",
+    "Gnome::Gtk3::Notebook": "lib/Gnome/Gtk3/Notebook.pm6",
+    "Gnome::Gtk3::Orientable": "lib/Gnome/Gtk3/Orientable.pm6",
+    "Gnome::Gtk3::Paned": "lib/Gnome/Gtk3/Paned.pm6",
+    "Gnome::Gtk3::PlacesSidebar": "lib/Gnome/Gtk3/PlacesSidebar.pm6",
+    "Gnome::Gtk3::Popover": "lib/Gnome/Gtk3/Popover.pm6",
+    "Gnome::Gtk3::PopoverMenu": "lib/Gnome/Gtk3/PopoverMenu.pm6",
+    "Gnome::Gtk3::ProgressBar": "lib/Gnome/Gtk3/ProgressBar.pm6",
+    "Gnome::Gtk3::RadioButton": "lib/Gnome/Gtk3/RadioButton.pm6",
+    "Gnome::Gtk3::Range": "lib/Gnome/Gtk3/Range.pm6",
+    "Gnome::Gtk3::RecentChooserMenu": "lib/Gnome/Gtk3/RecentChooserMenu.pm6",
+    "Gnome::Gtk3::Revealer": "lib/Gnome/Gtk3/Revealer.pm6",
+    "Gnome::Gtk3::Scale": "lib/Gnome/Gtk3/Scale.pm6",
+    "Gnome::Gtk3::ScrolledWindow": "lib/Gnome/Gtk3/ScrolledWindow.pm6",
+    "Gnome::Gtk3::SearchEntry": "lib/Gnome/Gtk3/SearchEntry.pm6",
+    "Gnome::Gtk3::Separator": "lib/Gnome/Gtk3/Separator.pm6",
+    "Gnome::Gtk3::SpinButton": "lib/Gnome/Gtk3/SpinButton.pm6",
+    "Gnome::Gtk3::Spinner": "lib/Gnome/Gtk3/Spinner.pm6",
+    "Gnome::Gtk3::Stack": "lib/Gnome/Gtk3/Stack.pm6",
+    "Gnome::Gtk3::StackSidebar": "lib/Gnome/Gtk3/StackSidebar.pm6",
+    "Gnome::Gtk3::StackSwitcher": "lib/Gnome/Gtk3/StackSwitcher.pm6",
+    "Gnome::Gtk3::Statusbar": "lib/Gnome/Gtk3/Statusbar.pm6",
+    "Gnome::Gtk3::StyleContext": "lib/Gnome/Gtk3/StyleContext.pm6",
+    "Gnome::Gtk3::StyleProvider": "lib/Gnome/Gtk3/StyleProvider.pm6",
+    "Gnome::Gtk3::Switch": "lib/Gnome/Gtk3/Switch.pm6",
+    "Gnome::Gtk3::TextBuffer": "lib/Gnome/Gtk3/TextBuffer.pm6",
+    "Gnome::Gtk3::TextIter": "lib/Gnome/Gtk3/TextIter.pm6",
+    "Gnome::Gtk3::TextTag": "lib/Gnome/Gtk3/TextTag.pm6",
+    "Gnome::Gtk3::TextTagTable": "lib/Gnome/Gtk3/TextTagTable.pm6",
+    "Gnome::Gtk3::TextView": "lib/Gnome/Gtk3/TextView.pm6",
+    "Gnome::Gtk3::ToggleButton": "lib/Gnome/Gtk3/ToggleButton.pm6",
+    "Gnome::Gtk3::ToolButton": "lib/Gnome/Gtk3/ToolButton.pm6",
+    "Gnome::Gtk3::ToolItem": "lib/Gnome/Gtk3/ToolItem.pm6",
+    "Gnome::Gtk3::TreeIter": "lib/Gnome/Gtk3/TreeIter.pm6",
+    "Gnome::Gtk3::TreeModel": "lib/Gnome/Gtk3/TreeModel.pm6",
+    "Gnome::Gtk3::TreePath": "lib/Gnome/Gtk3/TreePath.pm6",
+    "Gnome::Gtk3::TreeRowReference": "lib/Gnome/Gtk3/TreeRowReference.pm6",
+    "Gnome::Gtk3::TreeSelection": "lib/Gnome/Gtk3/TreeSelection.pm6",
+    "Gnome::Gtk3::TreeStore": "lib/Gnome/Gtk3/TreeStore.pm6",
+    "Gnome::Gtk3::TreeView": "lib/Gnome/Gtk3/TreeView.pm6",
+    "Gnome::Gtk3::TreeViewColumn": "lib/Gnome/Gtk3/TreeViewColumn.pm6",
+    "Gnome::Gtk3::Widget": "lib/Gnome/Gtk3/Widget.pm6",
+    "Gnome::Gtk3::WidgetPath": "lib/Gnome/Gtk3/WidgetPath.pm6",
+    "Gnome::Gtk3::Window": "lib/Gnome/Gtk3/Window.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gtk3-0.33.0.tar.gz",
+  "tags": [
+    "gnome",
+    "gtk",
+    "gdk",
+    "glib",
+    "gobject",
+    "gio",
+    "cairo"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.33.0"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Raku - Gnome native interface support, Please install Gnome::Gtk3",
@@ -68224,151 +68370,6 @@
     "Test"
   ],
   "version": "0.0.1"
-}
-,
-{
-  "auth": "kensanata",
-  "authors": [
-    "Alex Schroeder <alex@gnu.org>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Cro::HTTP",
-    "Text::Markdown",
-    "Template::Mustache",
-    "Algorithm::Diff",
-    "HTML::Escape"
-  ],
-  "description": "A wiki for Perl 6 using cro, markdown, and templates",
-  "license": "AGPL-3.0-or-later",
-  "meta-version": "0",
-  "name": "Oddmuse6",
-  "perl": "6.*",
-  "provides": {
-    "Oddmuse::Change": "lib/Oddmuse/Change.pm6",
-    "Oddmuse::Changes": "lib/Oddmuse/Changes.pm6",
-    "Oddmuse::Cookie": "lib/Oddmuse/Cookie.pm6",
-    "Oddmuse::Diff": "lib/Oddmuse/Diff.pm6",
-    "Oddmuse::Edit": "lib/Oddmuse/Edit.pm6",
-    "Oddmuse::Filter": "lib/Oddmuse/Filter.pm6",
-    "Oddmuse::Layout": "lib/Oddmuse/Layout.pm6",
-    "Oddmuse::Lock": "lib/Oddmuse/Lock.pm6",
-    "Oddmuse::Page": "lib/Oddmuse/Page.pm6",
-    "Oddmuse::Password": "lib/Oddmuse/Password.pm6",
-    "Oddmuse::Routes": "lib/Oddmuse/Routes.pm6",
-    "Oddmuse::Save": "lib/Oddmuse/Save.pm6",
-    "Oddmuse::Secret": "lib/Oddmuse/Secret.pm6",
-    "Oddmuse::Storage": "lib/Oddmuse/Storage.pm6",
-    "Oddmuse::Storage::File": "lib/Oddmuse/Storage/File.pm6",
-    "Oddmuse::Storage::File::Lock": "lib/Oddmuse/Storage/File/Lock.pm6",
-    "Oddmuse::View": "lib/Oddmuse/View.pm6"
-  },
-  "resources": [
-    "css/default.css",
-    "images/logo.png",
-    "templates/changes.sp6",
-    "templates/diff.sp6",
-    "templates/edit.sp6",
-    "templates/empty.sp6",
-    "templates/history.sp6",
-    "templates/locked.sp6",
-    "templates/menu.sp6",
-    "templates/no-password.sp6",
-    "templates/password-save.sp6",
-    "templates/password.sp6",
-    "templates/secret.sp6",
-    "templates/view.sp6",
-    "wiki/page/Home.md"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/S/SC/SCHROEDER/Perl6/Oddmuse-0.0.3.tar.gz",
-  "support": {
-    "source": "https://oddmuse.org/wiki/Oddmuse_6"
-  },
-  "tags": [
-    "web",
-    "wiki"
-  ],
-  "test-depends": [
-    "Cro::HTTP::Test",
-    "File::Temp",
-    "DOM::Tiny"
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "auth": "kensanata",
-  "authors": [
-    "Alex Schroeder <alex@gnu.org>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Cro::HTTP",
-    "Text::Markdown",
-    "Template::Mustache",
-    "Algorithm::Diff",
-    "HTML::Escape",
-    "URI::Encode"
-  ],
-  "description": "A wiki for Perl 6 using cro, markdown, and templates",
-  "license": "AGPL-3.0-or-later",
-  "meta-version": "0",
-  "name": "Oddmuse6",
-  "perl": "6.*",
-  "provides": {
-    "Oddmuse::Change": "lib/Oddmuse/Change.pm6",
-    "Oddmuse::Changes": "lib/Oddmuse/Changes.pm6",
-    "Oddmuse::Cookie": "lib/Oddmuse/Cookie.pm6",
-    "Oddmuse::Diff": "lib/Oddmuse/Diff.pm6",
-    "Oddmuse::Edit": "lib/Oddmuse/Edit.pm6",
-    "Oddmuse::Filter": "lib/Oddmuse/Filter.pm6",
-    "Oddmuse::Layout": "lib/Oddmuse/Layout.pm6",
-    "Oddmuse::Lock": "lib/Oddmuse/Lock.pm6",
-    "Oddmuse::Page": "lib/Oddmuse/Page.pm6",
-    "Oddmuse::Password": "lib/Oddmuse/Password.pm6",
-    "Oddmuse::Routes": "lib/Oddmuse/Routes.pm6",
-    "Oddmuse::Save": "lib/Oddmuse/Save.pm6",
-    "Oddmuse::Secret": "lib/Oddmuse/Secret.pm6",
-    "Oddmuse::Storage": "lib/Oddmuse/Storage.pm6",
-    "Oddmuse::Storage::File": "lib/Oddmuse/Storage/File.pm6",
-    "Oddmuse::Storage::File::Lock": "lib/Oddmuse/Storage/File/Lock.pm6",
-    "Oddmuse::View": "lib/Oddmuse/View.pm6"
-  },
-  "resources": [
-    "css/default.css",
-    "images/logo.png",
-    "templates/changes.sp6",
-    "templates/diff.sp6",
-    "templates/edit.sp6",
-    "templates/empty.sp6",
-    "templates/history.sp6",
-    "templates/locked.sp6",
-    "templates/menu.sp6",
-    "templates/no-password.sp6",
-    "templates/password-save.sp6",
-    "templates/password.sp6",
-    "templates/secret.sp6",
-    "templates/view.sp6",
-    "wiki/page/Home.md"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/S/SC/SCHROEDER/Perl6/Oddmuse-0.0.4.tar.gz",
-  "support": {
-    "source": "https://oddmuse.org/wiki/Oddmuse_6"
-  },
-  "tags": [
-    "web",
-    "wiki"
-  ],
-  "test-depends": [
-    "Cro::HTTP::Test",
-    "File::Temp",
-    "DOM::Tiny"
-  ],
-  "version": "0.0.4"
 }
 ,
 {
