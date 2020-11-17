@@ -25234,37 +25234,6 @@
   "depends": [
     
   ],
-  "description": "Constants from netinet/in.h",
-  "license": "Artistic-2.0",
-  "name": "Constants::Netinet::In",
-  "perl": "6.c",
-  "provides": {
-    "Constants::Netinet::In": "lib/Constants/Netinet/In.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Constants-Netinet-In-0.0.1.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:GARLANDG",
-  "authors": [
-    "Travis Gibson"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
   "description": "Socket constants defined in sys/socket.h",
   "license": "Artistic-2.0",
   "name": "Constants::Sys::Socket",
@@ -80860,6 +80829,35 @@
     "Test::META"
   ],
   "version": "1.0.2"
+}
+,
+{
+  "api": "1",
+  "auth": "github:scriptkitties",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "Config::TOML:ver<0.1.1>:auth<atweiden>",
+    "Config:ver<3.0.3>:auth<cpan:TYIL>"
+  ],
+  "description": "TOML parser for Config",
+  "license": "GPL-3.0",
+  "name": "Config::Parser::toml",
+  "perl": "6",
+  "provides": {
+    "Config::Parser::toml": "lib/Config/Parser/toml.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Config-Parser-toml-1.0.3.tar.gz",
+  "tags": [
+    "config",
+    "configuration"
+  ],
+  "test-depends": [
+    "File::Temp",
+    "Test::META"
+  ],
+  "version": "1.0.3"
 }
 ,
 {
