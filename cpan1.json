@@ -17144,6 +17144,37 @@
   "depends": [
     
   ],
+  "description": "provide 'is test-assertion' trait for older Rakus",
+  "license": "Artistic-2.0",
+  "name": "Test::Assertion",
+  "perl": "6.d",
+  "provides": {
+    "Test::Assertion": "lib/Test/Assertion.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Test-Assertion-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "easy interface to Unicode flags",
   "license": "Artistic-2.0",
   "name": "Text::Flags",
@@ -25173,6 +25204,30 @@
     
   ],
   "version": "1.2.1"
+}
+,
+{
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "NativeCall"
+  ],
+  "description": "use C-code from within Perl",
+  "name": "Inline",
+  "perl": "v6",
+  "provides": {
+    "Inline": "lib/Inline.pm",
+    "Inline::C": "lib/Inline/C.pm"
+  },
+  "support": {
+    "bugtracker": "https://github.com/FROGGS/p6-Inline-C/issues",
+    "source": "https://github.com/FROGGS/p6-Inline-C.git"
+  },
+  "test-depends": [
+    
+  ],
+  "version": "v1.2"
 }
 ,
 {
