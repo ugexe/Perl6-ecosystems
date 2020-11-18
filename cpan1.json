@@ -17175,6 +17175,37 @@
   "depends": [
     
   ],
+  "description": "provide 'is test-assertion' trait for older Rakus",
+  "license": "Artistic-2.0",
+  "name": "Test::Assertion",
+  "perl": "6.d",
+  "provides": {
+    "Test::Assertion": "lib/Test/Assertion.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Test-Assertion-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "easy interface to Unicode flags",
   "license": "Artistic-2.0",
   "name": "Text::Flags",
