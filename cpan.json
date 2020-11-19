@@ -17559,38 +17559,6 @@
     
   ],
   "depends": [
-    "P5tie"
-  ],
-  "description": "Implement Perl's Tie::StdArray core module",
-  "license": "Artistic-2.0",
-  "name": "Tie::StdArray",
-  "perl": "6.c",
-  "provides": {
-    "Tie::StdArray": "lib/Tie/StdArray.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-StdArray-0.0.5.tar.gz",
-  "tags": [
-    "UTILS",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.5"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "P5tie:ver<0.0.13>:auth<cpan:ELIZABETH>"
   ],
   "description": "Raku port of Perl's Tie::StdArray module",
