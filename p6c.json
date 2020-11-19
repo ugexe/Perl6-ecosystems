@@ -13318,6 +13318,30 @@
 }
 ,
 {
+  "auth": "github:littlebenlittle",
+  "authors": [
+    "Ben Little <ben.little@benlittle.dev>"
+  ],
+  "description": "extensible mustache templating",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Stache",
+  "perl": "6.d",
+  "provides": {
+    "Stache": "lib/Stache.rakumod",
+    "Stache::App": "lib/Stache/App.rakumod",
+    "Stache::Base": "lib/Stache/Base.rakumod",
+    "Stache::Renderer": "lib/Stache/Renderer.rakumod"
+  },
+  "source-url": "https://github.com/littlebenlittle/stache.git",
+  "tags": [
+    "template",
+    "mustache"
+  ],
+  "version": "0.1.0"
+}
+,
+{
   "authors": [
     "Lucas Buchala"
   ],
