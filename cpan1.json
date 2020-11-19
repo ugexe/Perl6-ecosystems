@@ -19344,6 +19344,45 @@
 {
   "auth": "cpan:FCO",
   "authors": [
+    "Fernando Correa"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "UUID"
+  ],
+  "description": "Conflict-free Replicated Data Type",
+  "license": "Artistic-2.0",
+  "name": "CRDT",
+  "perl": "6.d",
+  "provides": {
+    "CRDT": "lib/CRDT.rakumod",
+    "G-Counter": "lib/G-Counter.rakumod",
+    "G-Set": "lib/G-Set.rakumod",
+    "P2-Set": "lib/P2-Set.rakumod",
+    "PN-Counter": "lib/PN-Counter.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FC/FCO/Perl6/CRDT-0.0.1.tar.gz",
+  "tags": [
+    "CRDT",
+    "conflict-free",
+    "data-structure",
+    "replicated",
+    "concurrent"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FCO",
+  "authors": [
     "Fernando Correa de Oliveira"
   ],
   "build-depends": [
@@ -25042,6 +25081,40 @@
     
   ],
   "depends": [
+    "LibraryMake",
+    "Math::Libgsl::Constants"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Random Number Generation.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Random",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Random": "lib/Math/Libgsl/Random.rakumod",
+    "Math::Libgsl::Raw::Random": "lib/Math/Libgsl/Raw/Random.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Random-0.0.2.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "NativeHelpers::Blob",
     "Math::Libgsl::Constants",
     "Math::Libgsl::Matrix",
@@ -25070,39 +25143,6 @@
     "Math::Libgsl::LinearAlgebra"
   ],
   "version": "0.0.2"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Math::Libgsl::Constants"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - Running Statistics",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::RunningStatistics",
-  "perl": "6.d",
-  "provides": {
-    "Math::Libgsl::Raw::RunningStatistics": "lib/Math/Libgsl/Raw/RunningStatistics.rakumod",
-    "Math::Libgsl::RunningStatistics": "lib/Math/Libgsl/RunningStatistics.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-RunningStatistics-0.0.1.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
 }
 ,
 {
