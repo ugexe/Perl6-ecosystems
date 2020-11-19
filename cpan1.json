@@ -17742,6 +17742,38 @@
     
   ],
   "depends": [
+    "P5tie"
+  ],
+  "description": "Implement Perl's Tie::StdArray core module",
+  "license": "Artistic-2.0",
+  "name": "Tie::StdArray",
+  "perl": "6.c",
+  "provides": {
+    "Tie::StdArray": "lib/Tie/StdArray.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-StdArray-0.0.5.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "P5tie:ver<0.0.13>:auth<cpan:ELIZABETH>"
   ],
   "description": "Raku port of Perl's Tie::StdArray module",
@@ -24999,40 +25031,6 @@
     
   ],
   "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "LibraryMake",
-    "Math::Libgsl::Constants"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - Random Number Generation.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::Random",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::Random": "lib/Math/Libgsl/Random.rakumod",
-    "Math::Libgsl::Raw::Random": "lib/Math/Libgsl/Raw/Random.rakumod"
-  },
-  "resources": [
-    "libraries/gslhelper"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Random-0.0.2.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
 }
 ,
 {
