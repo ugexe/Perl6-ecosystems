@@ -15767,7 +15767,7 @@
     "blib/lib/GTK/libxml2-2.dll",
     "blib/lib/GTK/zlib1.dll"
   ],
-  "source-url": "git://github.com/perl6/gtk-simple.git",
+  "source-url": "git://github.com/perl6/GTK-Simple.git",
   "tags": [
     "gui"
   ],
@@ -15778,19 +15778,19 @@
 }
 ,
 {
-  "auth": "github:perl6",
-  "author": "Perl 6 team",
+  "auth": "github:raku-community-modules",
+  "author": "Raku team",
   "depends": [
     "MIME::Base64",
     "URI"
   ],
-  "description": "LWP::Simple quick & dirty implementation for Rakudo Perl 6",
+  "description": "LWP::Simple quick & dirty implementation for Raku",
   "name": "LWP::Simple",
   "perl": "6.*",
   "provides": {
     "LWP::Simple": "lib/LWP/Simple.pm"
   },
-  "source-url": "https://github.com/perl6/perl6-lwp-simple.git",
+  "source-url": "https://github.com/raku-community-modules/LWP-Simple.git",
   "test-depends": [
     "JSON::Tiny"
   ],
@@ -16633,7 +16633,7 @@
     "UUID",
     "WWW"
   ],
-  "description": "Preprocessor for Perl 6 Advent Articles",
+  "description": "Preprocessor for Raku Advent Articles",
   "license": "Artistic-2.0",
   "name": "Acme::Advent::Highlighter",
   "perl": "6.c",
@@ -16643,7 +16643,7 @@
     "Acme::Advent::Highlighter::MultiMarkdown": "lib/Acme/Advent/Highlighter/MultiMarkdown.pm6"
   },
   "support": {
-    "source": "https://github.com/zoffixznet/perl6-Acme-Advent-Highlighter.git"
+    "source": "https://github.com/raku-community-modules/Acme-Advent-Highlighter.git"
   },
   "tags": [
     "utils"
@@ -16774,7 +16774,7 @@
     "Config::JSON": "lib/Config/JSON.pm6"
   },
   "support": {
-    "source": "https://github.com/zoffixznet/perl6-Config-JSON.git"
+    "source": "https://github.com/raku-community-modules/Config-JSON.git"
   },
   "tags": [
     "config",
@@ -17038,7 +17038,7 @@
     "IRC::Client::Server": "lib/IRC/Client/Server.pm6"
   },
   "support": {
-    "source": "https://github.com/zoffixznet/perl6-IRC-Client.git"
+    "source": "https://github.com/raku-community-modules/IRC-Client.git"
   },
   "tags": [
     "Net",
@@ -17446,7 +17446,7 @@
     "Test::Output": "lib/Test/Output.pm6"
   },
   "support": {
-    "source": "git://github.com/perl6-community-modules/perl6-Test-Output.git"
+    "source": "git://github.com/raku-community-modules/Test-Output.git"
   },
   "test-depends": [
     "Test"
@@ -17749,10 +17749,10 @@
     "HTTP::Server::Async::Request": "lib/HTTP/Server/Async/Request.pm6",
     "HTTP::Server::Async::Response": "lib/HTTP/Server/Async/Response.pm6"
   },
-  "source-url": "git://github.com/perl6-community-modules/perl6-http-server-async.git",
+  "source-url": "git://github.com/raku-community-modules/HTTP-Server-Async.git",
   "support": {
-    "bugtracker": "https://github.com/perl6-community-modules/perl6-http-server-async/issues",
-    "source": "git://github.com/perl6-community-modules/perl6-http-server-async.git"
+    "bugtracker": "https://github.com/raku-community-modules/HTTP-Server-Async/issues",
+    "source": "git://github.com/raku-community-modules/HTTP-Server-Async.git"
   },
   "version": "0.1.9"
 }
@@ -18015,7 +18015,7 @@
   "depends": [
     
   ],
-  "description": "A URI implementation using Perl 6 grammars to implement RFC 3986 BNF",
+  "description": "A URI implementation using Raku grammars to implement RFC 3986 BNF",
   "license": "Artistic-2.0",
   "meta-version": 0,
   "name": "URI",
@@ -18031,10 +18031,10 @@
     "URI::Path": "lib/URI.pm",
     "URI::Query": "lib/URI.pm"
   },
-  "source-url": "git://github.com/perl6-community-modules/uri.git",
+  "source-url": "git://github.com/raku-community-modules/URI.git",
   "support": {
-    "bugtracker": "https://github.com/perl6-community-modules/uri/issues",
-    "source": "https://github.com/perl6-community-modules/uri.git"
+    "bugtracker": "https://github.com/raku-community-modules/URI/issues",
+    "source": "https://github.com/raku-community-modules/URI.git"
   },
   "version": "0.3.0"
 }
@@ -18054,7 +18054,7 @@
     "YAML": "lib/YAML.pm",
     "YAML::Dumper": "lib/YAML/Dumper.pm"
   },
-  "source-url": "git://github.com/perl6-community-modules/yaml-pm6.git",
+  "source-url": "git://github.com/raku-community-modules/YAML.git",
   "version": "0.1"
 }
 ,
@@ -21481,7 +21481,7 @@
     "Web::Template::Mojo": "lib/Web/Template/Mojo.pm6",
     "Web::Template::Template6": "lib/Web/Template/Template6.pm6"
   },
-  "source-url": "git://github.com/supernovus/perl6-web-template.git",
+  "source-url": "git://github.com/raku-community-modules/Web-Template.git",
   "version": "*"
 }
 ,
