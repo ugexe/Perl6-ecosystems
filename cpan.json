@@ -8062,6 +8062,37 @@
   "depends": [
     
   ],
+  "description": "trait for limiting number of keys in hashes by usage",
+  "license": "Artistic-2.0",
+  "name": "Hash::LRU",
+  "perl": "6.c",
+  "provides": {
+    "Hash::LRU": "lib/Hash/LRU.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-LRU-0.0.4.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "trait for restricting keys in hashes",
   "license": "Artistic-2.0",
   "name": "Hash::Restricted",
@@ -25871,40 +25902,6 @@
     
   ],
   "version": "0.0.2"
-}
-,
-{
-  "auth": "cpan:GARLANDG",
-  "authors": [
-    "Travis Gibson"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "NativeLibs:ver<0.0.5+>"
-  ],
-  "description": "Wrapper for errno modules for Unix and Windows",
-  "license": "Artistic-2.0",
-  "name": "Universal::errno",
-  "perl": "6.c",
-  "provides": {
-    "Universal::errno": "lib/Universal/errno.rakumod",
-    "Universal::errno::Constants": "lib/Universal/errno/Constants.rakumod",
-    "Universal::errno::Unix": "lib/Universal/errno/Unix.rakumod",
-    "Universal::errno::Windows": "lib/Universal/errno/Windows.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Universal-errno-0.0.3.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
 }
 ,
 {
