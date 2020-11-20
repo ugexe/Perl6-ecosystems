@@ -6253,7 +6253,7 @@
   "provides": {
     "File::LibMagic": "lib/File/LibMagic.pm6"
   },
-  "source-url": "git://github.com/autarch/perl6-File-LibMagic.git",
+  "source-url": "git://github.com/raku-community-modules/File-LibMagic.git",
   "version": "0.0.1"
 }
 ,
@@ -6267,7 +6267,7 @@
     "Pod::TreeWalker": "lib/Pod/TreeWalker.pm6",
     "Pod::TreeWalker::Listener": "lib/Pod/TreeWalker/Listener.pm6"
   },
-  "source-url": "git://github.com/autarch/perl6-Pod-TreeWalker.git",
+  "source-url": "git://github.com/raku-community-modules/Pod-TreeWalker.git",
   "version": "0.0.3"
 }
 ,
@@ -16545,10 +16545,10 @@
     "URI::Encode": "lib/URI/Encode.pm6"
   },
   "source-type": "git",
-  "source-url": "git://github.com/perl6-community-modules/URI-Encode.git",
+  "source-url": "git://github.com/raku-community-modules/URI-Encode.git",
   "support": {
-    "bugtracker": "https://github.com/perl6-community-modules/URI-Encode/issues",
-    "source": "git@github.com:perl6-community-modules/URI-Encode.git"
+    "bugtracker": "https://github.com/raku-community-modules/URI-Encode/issues",
+    "source": "git@github.com:raku-community-modules/URI-Encode.git"
   },
   "test-depends": [
     "Test"
@@ -16618,7 +16618,7 @@
     "Test::Builder::Test": "lib/Test/Builder/Test.pm"
   },
   "source-type": "git",
-  "source-url": "git://github.com/perl6-community-modules/p6-test-builder.git",
+  "source-url": "git://github.com/raku-community-modules/Test-Builder.git",
   "version": "0.0.3"
 }
 ,
@@ -16822,14 +16822,14 @@
   "depends": [
     
   ],
-  "description": "Perl 5 like die routine for note + exit",
+  "description": "Perl like die routine for note + exit",
   "license": "Artistic-2.0",
   "name": "Die",
   "perl": "6.c",
   "provides": {
     "Die": "lib/Die.pm6"
   },
-  "source-url": "git://github.com/zoffixznet/perl6-Die.git",
+  "source-url": "git://github.com/raku-community-modules/Die.git",
   "tags": [
     "PERL5",
     "CPAN5"
@@ -16856,7 +16856,7 @@
     "GCT": "lib/Games/TauStation/DateTime.pm6",
     "Games::TauStation::DateTime": "lib/Games/TauStation/DateTime.pm6"
   },
-  "source-url": "https://github.com/zoffixznet/perl6-Games-TauStation-DateTime.git",
+  "source-url": "https://github.com/raku-community-modules/Games-TauStation-DateTime.git",
   "test-depends": [
     "Test"
   ],
@@ -16879,7 +16879,7 @@
   "provides": {
     "GlotIO": "lib/GlotIO.pm6"
   },
-  "source-url": "git://github.com/zoffixznet/perl6-GlotIO.git",
+  "source-url": "git://github.com/raku-community-modules/GlotIO.git",
   "test-depends": [
     "Test"
   ],
@@ -16959,7 +16959,7 @@
     "IO::MiddleMan": "lib/IO/MiddleMan.pm6"
   },
   "support": {
-    "source": "git://github.com/zoffixznet/perl6-IO-MiddleMan.git"
+    "source": "git://github.com/raku-community-modules/IO-MiddleMan.git"
   },
   "test-depends": [
     "Test"
@@ -16982,7 +16982,7 @@
     "IO::Path::ChildSecure": "lib/IO/Path/ChildSecure.pm6"
   },
   "support": {
-    "source": "git://github.com/zoffixznet/perl6-IO-Path-ChildSecure.git"
+    "source": "git://github.com/raku-community-modules/IO-Path-ChildSecure.git"
   },
   "tags": [
     "file",
@@ -17144,7 +17144,7 @@
     "Number::Denominate": "lib/Number/Denominate.pm6"
   },
   "support": {
-    "source": "git://github.com/zoffixznet/perl6-Number-Denominate.git"
+    "source": "git://github.com/raku-community-modules/Number-Denominate.git"
   },
   "test-depends": [
     "Test"
@@ -17218,7 +17218,7 @@
     "Proc::Q": "lib/Proc/Q.pm6"
   },
   "support": {
-    "source": "https://github.com/zoffixznet/perl6-Proc-Q.git"
+    "source": "https://github.com/raku-community-modules/Proc-Q.git"
   },
   "tags": [
     "proc",
@@ -17248,7 +17248,7 @@
     "Proxee::X::CannotBindStore": "lib/Proxee.pm6"
   },
   "support": {
-    "source": "https://github.com/zoffixznet/perl6-Proxee.git"
+    "source": "https://github.com/raku-community-modules/Proxee.git"
   },
   "tags": [
     "containers"
@@ -17329,7 +17329,7 @@
     "Reminders": "lib/Reminders.pm6"
   },
   "support": {
-    "source": "https://github.com/zoffixznet/perl6-Reminders.git"
+    "source": "https://github.com/raku-community-modules/Reminders.git"
   },
   "test-depends": [
     "Test",
@@ -17375,7 +17375,7 @@
     "Subsets::IO": "lib/Subsets/IO.pm6"
   },
   "support": {
-    "source": "https://github.com/zoffixznet/perl6-Subsets-IO.git"
+    "source": "https://github.com/raku-community-modules/Subsets-IO.git"
   },
   "tags": [
     "IO"
@@ -17482,7 +17482,7 @@
   "depends": [
     
   ],
-  "description": "Perl 6 Testing Done Right",
+  "description": "Raku Testing Done Right",
   "name": "Testo",
   "perl": "6.c",
   "provides": {
@@ -17501,7 +17501,7 @@
     "Testo::Tester": "lib/Testo/Tester.pm6"
   },
   "support": {
-    "source": "git://github.com/zoffixznet/perl6-Testo.git"
+    "source": "git://github.com/raku-community-modules/Testo.git"
   },
   "tags": [
     "Testing"
@@ -17526,7 +17526,7 @@
     "WhereList",
     "WWW"
   ],
-  "description": "Toaster of Perl 6 Ecosystem Modules",
+  "description": "Toaster of Raku Ecosystem Modules",
   "license": "Artistic-2.0",
   "name": "Toaster",
   "perl": "6.c",
@@ -17535,7 +17535,7 @@
     "Toaster::DB": "lib/Toaster/DB.pm6"
   },
   "support": {
-    "source": "https://github.com/perl6-community-modules/perl6-Toaster.git"
+    "source": "https://github.com/raku-community-modules/Toaster.git"
   },
   "tags": [
     "ecosystem",
@@ -17562,7 +17562,7 @@
   "provides": {
     "Trait::IO": "lib/Trait/IO.pm6"
   },
-  "source-url": "git://github.com/zoffixznet/perl6-Trait-IO.git",
+  "source-url": "git://github.com/raku-community-modules/Trait-IO.git",
   "tags": [
     "IO"
   ],
@@ -17636,7 +17636,7 @@
     "WWW::P6lert::X::NotFound": "lib/WWW/P6lert.pm6"
   },
   "support": {
-    "source": "https://github.com/zoffixznet/perl6-WWW-P6lert.git"
+    "source": "https://github.com/raku-community-modules/WWW-P6lert.git"
   },
   "tags": [
     "WWW"
@@ -17667,7 +17667,7 @@
     "WWW::vlc::Remote::X": "lib/WWW/vlc/Remote.pm6",
     "WWW::vlc::Remote::X::Network": "lib/WWW/vlc/Remote.pm6"
   },
-  "source-url": "https://github.com/zoffixznet/perl6-WWW-vlc-Remote.git",
+  "source-url": "https://github.com/raku-community-modules/WWW-vlc-Remote.git",
   "test-depends": [
     "Test"
   ],
@@ -17774,7 +17774,7 @@
     "HTTP::Response::Role": "lib/HTTP/Response/Role.pm6",
     "HTTP::Server::Role": "lib/HTTP/Server/Role.pm6"
   },
-  "source-url": "git://github.com/perl6-community-modules/perl6-http-server.git",
+  "source-url": "git://github.com/raku-community-modules/HTTP-Server.git",
   "version": "0.2.0"
 }
 ,
@@ -17786,7 +17786,7 @@
     "JSON::Fast",
     "WWW::P6lert"
   ],
-  "description": "Command line utility to fetch alerts.perl6.org alerts",
+  "description": "Command line utility to fetch alerts.raku.org alerts",
   "license": "Artistic-2.0",
   "name": "p6lert",
   "perl": "6.*",
@@ -17794,7 +17794,7 @@
     
   },
   "support": {
-    "source": "https://github.com/zoffixznet/perl6-p6lert.git"
+    "source": "https://github.com/raku-community-modules/p6lert.git"
   },
   "tags": [
     "command line"
@@ -17814,7 +17814,7 @@
   "depends": [
     "HTML::Escape"
   ],
-  "description": "Perl 6 QAST Visualizer",
+  "description": "Raku QAST Visualizer",
   "license": "Artistic-2.0",
   "name": "CoreHackers::Q",
   "perl": "6.c",
@@ -17824,7 +17824,7 @@
     "CoreHackers::Q::Parser::Actions": "lib/CoreHackers/Q/Parser/Actions.pm6"
   },
   "support": {
-    "source": "https://github.com/zoffixznet/q.git"
+    "source": "https://github.com/raku-community-modules/CoreHackers-Q.git"
   },
   "tags": [
     "core dev"
@@ -18004,7 +18004,7 @@
     "TestML::Runner::TAP": "lib/TestML/Runner/TAP.pm",
     "TestML::Standard": "lib/TestML/Standard.pm"
   },
-  "source-url": "git://github.com/perl6-community-modules/testml-pm6.git",
+  "source-url": "git://github.com/raku-community-modules/TestML.git",
   "version": "0.1"
 }
 ,
@@ -20678,7 +20678,7 @@
     "DateTime::Format::Lang::PT": "lib/DateTime/Format/Lang/PT.pm6",
     "DateTime::Format::RFC2822": "lib/DateTime/Format/RFC2822.pm6"
   },
-  "source-url": "git://github.com/supernovus/perl6-datetime-format.git",
+  "source-url": "git://github.com/raku-community-modules/DateTime-Format.git",
   "version": "*"
 }
 ,
@@ -20701,7 +20701,7 @@
   "depends": [
     "PSGI"
   ],
-  "description": "A FastCGI library for Perl 6",
+  "description": "A FastCGI library for Raku",
   "name": "FastCGI",
   "perl": "6.*",
   "provides": {
@@ -20714,7 +20714,7 @@
     "FastCGI::Protocol::Constants": "lib/FastCGI/Protocol/Constants.pm6",
     "FastCGI::Request": "lib/FastCGI/Request.pm6"
   },
-  "source-url": "git://github.com/supernovus/perl6-fastcgi.git",
+  "source-url": "git://github.com/raku-community-modules/FastCGI.git",
   "version": "0.9.0"
 }
 ,
@@ -20751,7 +20751,7 @@
     "HTTP::Easy": "lib/HTTP/Easy.pm6",
     "HTTP::Easy::PSGI": "lib/HTTP/Easy/PSGI.pm6"
   },
-  "source-url": "git://github.com/supernovus/perl6-http-easy.git",
+  "source-url": "git://github.com/raku-community-modules/HTTP-Easy.git",
   "version": "1.1.0"
 }
 ,
@@ -21454,7 +21454,7 @@
     "DB::Model::Easy",
     "JSON::Tiny"
   ],
-  "description": "MVC Framework for Web Apps in Perl 6.",
+  "description": "MVC Framework for Web Apps in Raku",
   "name": "Web::App::MVC",
   "perl": "6.*",
   "provides": {
@@ -21462,7 +21462,7 @@
     "Web::App::MVC::Controller": "lib/Web/App/MVC/Controller.pm6",
     "Web::App::MVC::Controller::MethodDispatch": "lib/Web/App/MVC/Controller/MethodDispatch.pm6"
   },
-  "source-url": "git://github.com/supernovus/perl6-web-app-mvc.git",
+  "source-url": "git://github.com/raku-community-modules/Web-App-MVC.git",
   "version": "*"
 }
 ,
@@ -21493,7 +21493,7 @@
     "FastCGI",
     "HTTP::Easy::PSGI"
   ],
-  "description": "A Web Application foundation for Perl 6",
+  "description": "A Web Application foundation for Raku",
   "name": "Web",
   "perl": "6.*",
   "provides": {
@@ -21506,7 +21506,7 @@
     "Web::Request::Multipart": "lib/Web/Request/Multipart.pm6",
     "Web::Response": "lib/Web/Response.pm6"
   },
-  "source-url": "git://github.com/supernovus/perl6-web.git",
+  "source-url": "git://github.com/raku-community-modles/Web-App.git",
   "version": "0.9.2"
 }
 ,
