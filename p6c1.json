@@ -15705,7 +15705,7 @@
   "depends": [
     
   ],
-  "description": "A Perl 6 implementation of Perl 6-style string formatting.",
+  "description": "A Raku implementation of Raku-style string formatting.",
   "name": "Form",
   "perl": "6.*",
   "provides": {
@@ -15717,7 +15717,7 @@
     "Form::TextFormatting": "lib/Form/TextFormatting.pm",
     "Form::Types": "lib/Form/Types.pm"
   },
-  "source-url": "git://github.com/perl6/form.git",
+  "source-url": "git://github.com/raku-community-modules/Form.git",
   "version": "*"
 }
 ,
@@ -16626,7 +16626,7 @@
   "depends": [
     
   ],
-  "description": "A Perl 6 port of the IRC::Utils module",
+  "description": "A Raku port of the IRC::Utils module",
   "license": "Artistic-2.0",
   "name": "IRC::Utils",
   "perl": "6.*",
@@ -16634,7 +16634,7 @@
     "IRC::Utils": "lib/IRC/Utils.pm"
   },
   "source-type": "git",
-  "source-url": "git://github.com/perl6-community-modules/p6-irc-utils.git",
+  "source-url": "git://github.com/raku-community-modules/IRC-Utils.git",
   "version": "0.2.0"
 }
 ,
@@ -16733,7 +16733,7 @@
     "App::Nopaste": "lib/App/Nopaste.pm6"
   },
   "support": {
-    "source": "git://github.com/zoffixznet/perl6-App-Nopaste.git"
+    "source": "git://github.com/raku-community-modules/App-Nopaste.git"
   },
   "test-depends": [
     "Test"
@@ -17047,7 +17047,7 @@
     "IRC::Client::Plugin::Factoid": "lib/IRC/Client/Plugin/Factoid.pm6"
   },
   "support": {
-    "source": "git://github.com/zoffixznet/perl6-IRC-Client-Plugin-Factoid.git"
+    "source": "git://github.com/raku-community-modules/IRC-Client-Plugin-Factoid.git"
   },
   "test-depends": [
     "Test"
@@ -17096,7 +17096,7 @@
   "depends": [
     "Term::termios"
   ],
-  "description": "Use Brainfuck language in your Perl 6 programs",
+  "description": "Use Brainfuck language in your Raku programs",
   "license": "Artistic-2.0",
   "name": "Inline::Brainfuck",
   "perl": "6.c",
@@ -17104,7 +17104,7 @@
     "Inline::Brainfuck": "lib/Inline/Brainfuck.pm6"
   },
   "support": {
-    "source": "git://github.com/zoffixznet/perl6-Inline-Brainfuck.git"
+    "source": "git://github.com/raku-community-modules/Inline-Brainfuck.git"
   },
   "test-depends": [
     "Test",
@@ -17158,7 +17158,7 @@
     "Lingua::Conjunction": "lib/Lingua/Conjunction.pm6"
   },
   "support": {
-    "source": "git://github.com/zoffixznet/perl6-Lingua-Conjunction.git"
+    "source": "git://github.com/raku-community-modules/Lingua-Conjunction.git"
   },
   "test-depends": [
     "Test"
@@ -17389,7 +17389,7 @@
   "provides": {
     "Subset::Helper": "lib/Subset/Helper.pm6"
   },
-  "source-url": "git://github.com/zoffixznet/perl6-Subset-Helper.git",
+  "source-url": "git://github.com/raku-community-modules/Subset-Helper.git",
   "test-depends": [
     "Test",
     "Test::Output"
@@ -17438,7 +17438,7 @@
   "provides": {
     "Terminal::Width": "lib/Terminal/Width.pm6"
   },
-  "source-url": "git://github.com/zoffixznet/perl6-Terminal-Width.git",
+  "source-url": "git://github.com/raku-community-modules/Terminal-Width.git",
   "test-depends": [
     "Test",
     "Test::META"
@@ -20612,7 +20612,7 @@
     "Netstring",
     "PSGI"
   ],
-  "description": "A SCGI library for Perl 6",
+  "description": "A SCGI library for Raku",
   "license": "Artistic-2.0",
   "name": "SCGI",
   "perl": "6.*",
@@ -20624,7 +20624,7 @@
     "SCGI::Request": "lib/SCGI/Request.pm6",
     "SCGI::Response": "lib/SCGI/Response.pm6"
   },
-  "source-url": "git://github.com/supernovus/SCGI.git",
+  "source-url": "git://github.com/raku-community-modules/SCGI.git",
   "version": "2.4"
 }
 ,
@@ -20723,14 +20723,14 @@
   "depends": [
     "DBIish"
   ],
-  "description": "Build database models in Perl 6, easily.",
+  "description": "Build database models in Raku, easily",
   "name": "DB::Model::Easy",
   "perl": "6.*",
   "provides": {
     "DB::Model::Easy": "lib/DB/Model/Easy.pm6",
     "DB::Model::Easy::Row": "lib/DB/Model/Easy/Row.pm6"
   },
-  "source-url": "git://github.com/supernovus/perl6-db-model-easy.git",
+  "source-url": "git://github.com/raku-community-modules/DB-Model-Easy.git",
   "version": "*"
 }
 ,
@@ -21559,7 +21559,7 @@
     "XML::Query::Results": "lib/XML/Query/Results.pm6",
     "XML::Query::Statement": "lib/XML/Query/Statement.pm6"
   },
-  "source-url": "git://github.com/supernovus/perl6-xml-query.git",
+  "source-url": "git://github.com/raku-community-modules/XML-Query.git",
   "version": "*"
 }
 ,
