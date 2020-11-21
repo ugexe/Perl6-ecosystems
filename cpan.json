@@ -25928,6 +25928,40 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Universal-errno-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:GARLANDG",
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "NativeLibs:ver<0.0.5+>"
+  ],
+  "description": "Wrapper for errno modules for Unix and Windows",
+  "license": "Artistic-2.0",
+  "name": "Universal::errno",
+  "perl": "6.c",
+  "provides": {
+    "Universal::errno": "lib/Universal/errno.rakumod",
+    "Universal::errno::Constants": "lib/Universal/errno/Constants.rakumod",
+    "Universal::errno::Unix": "lib/Universal/errno/Unix.rakumod",
+    "Universal::errno::Windows": "lib/Universal/errno/Windows.rakumod"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Universal-errno-0.0.4.tar.gz",
   "tags": [
     
@@ -26026,44 +26060,6 @@
     "Test::Output"
   ],
   "version": "0.0.3"
-}
-,
-{
-  "auth": "github:rakuist",
-  "authors": [
-    "Greg Donald"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Console Blackjack for Raku",
-  "license": "Artistic-2.0",
-  "name": "Console::Blackjack",
-  "perl": "6.d",
-  "provides": {
-    "Console::Blackjack": "lib/Console/Blackjack.rakumod",
-    "Console::Blackjack::Card.rakumod": "lib/Console/Blackjack/Card.rakumod.rakumod",
-    "Console::Blackjack::DealerHand": "lib/Console/Blackjack/DealerHand.rakumod",
-    "Console::Blackjack::Hand": "lib/Console/Blackjack/Hand.rakumod",
-    "Console::Blackjack::PlayerHand": "lib/Console/Blackjack/PlayerHand.rakumod",
-    "Console::Blackjack::Shoe": "lib/Console/Blackjack/Shoe.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/G/GD/GDONALD/Perl6/Console-Blackjack-1.0.5.tar.gz",
-  "tags": [
-    "Console",
-    "Blackjack",
-    "Game"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "1.0.5"
 }
 ,
 {
