@@ -21691,21 +21691,6 @@
 }
 ,
 {
-  "depends": [
-    
-  ],
-  "description": "Naive parser for Perl 6 style POD documents",
-  "name": "Pod::Parser",
-  "perl": "6.*",
-  "provides": {
-    "Pod::Parser": "lib/Pod/Parser.pm",
-    "Pod::Parser::Common6": "lib/Pod/Parser/Common.pm6"
-  },
-  "source-url": "git://github.com/szabgab/perl6-Pod-Parser.git",
-  "version": "*"
-}
-,
-{
   "authors": "Tobias Boege",
   "build-depends": [
     "make:from<bin>",
