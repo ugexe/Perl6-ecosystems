@@ -19408,6 +19408,49 @@
 {
   "auth": "cpan:FCO",
   "authors": [
+    "Fernando Correa"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "UUID"
+  ],
+  "description": "Conflict-free Replicated Data Type",
+  "license": "Artistic-2.0",
+  "name": "CRDT",
+  "perl": "6.d",
+  "provides": {
+    "CRDT": "lib/CRDT.rakumod",
+    "CRDT::Timestamp": "lib/CRDT/Timestamp.rakumod",
+    "G-Counter": "lib/G-Counter.rakumod",
+    "G-Set": "lib/G-Set.rakumod",
+    "LWW-Element-Set": "lib/LWW-Element-Set.rakumod",
+    "LWW-Register": "lib/LWW-Register.rakumod",
+    "OR-Set": "lib/OR-Set.rakumod",
+    "P2-Set": "lib/P2-Set.rakumod",
+    "PN-Counter": "lib/PN-Counter.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FC/FCO/Perl6/CRDT-0.0.7.tar.gz",
+  "tags": [
+    "CRDT",
+    "conflict-free",
+    "data-structure",
+    "replicated",
+    "concurrent"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:FCO",
+  "authors": [
     "Fernando Correa de Oliveira"
   ],
   "build-depends": [
