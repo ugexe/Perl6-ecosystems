@@ -26619,6 +26619,44 @@
     "AWS::Session": "lib/AWS/Session.pm6",
     "AWS::Session::Default": "lib/AWS/Session.pm6"
   },
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/AWS-Session-0.2.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/AWS-Session.git"
+  },
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.2"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Config::INI",
+    "DateTime::Format::W3CDTF"
+  ],
+  "description": "Tools for managing AWS configuration and credentials",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "AWS::Session",
+  "perl": "6.c",
+  "provides": {
+    "AWS::Credentials": "lib/AWS/Credentials.pm6",
+    "AWS::Credentials::Provider": "lib/AWS/Credentials.pm6",
+    "AWS::Credentials::Provider::FromEnv": "lib/AWS/Credentials.pm6",
+    "AWS::Credentials::Provider::Resolver": "lib/AWS/Credentials.pm6",
+    "AWS::Credentials::Provider::SharedCredentials": "lib/AWS/Credentials.pm6",
+    "AWS::Credentials::Refreshable": "lib/AWS/Credentials.pm6",
+    "AWS::Session": "lib/AWS/Session.pm6",
+    "AWS::Session::Default": "lib/AWS/Session.pm6"
+  },
   "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/AWS-Session-0.3.tar.gz",
   "support": {
     "source": "git://github.com/zostay/AWS-Session.git"
