@@ -26164,64 +26164,6 @@
   "resources": [
     "libraries/ui"
   ],
-  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Libui-0.0.1.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Color"
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "Travis Gibson"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Color"
-  ],
-  "description": "NativeCall binding to libui",
-  "license": "Artistic-2.0",
-  "name": "Libui",
-  "perl": "6.c",
-  "provides": {
-    "Libui": "lib/Libui.pm6",
-    "Libui::App": "lib/Libui/App.pm6",
-    "Libui::Box": "lib/Libui/Box.pm6",
-    "Libui::Button": "lib/Libui/Button.pm6",
-    "Libui::Checkbox": "lib/Libui/Checkbox.pm6",
-    "Libui::ColorButton": "lib/Libui/ColorButton.pm6",
-    "Libui::Combobox": "lib/Libui/Combobox.pm6",
-    "Libui::Container": "lib/Libui/Container.pm6",
-    "Libui::Control": "lib/Libui/Control.pm6",
-    "Libui::EditableCombobox": "lib/Libui/EditableCombobox.pm6",
-    "Libui::Entry": "lib/Libui/Entry.pm6",
-    "Libui::FontButton": "lib/Libui/FontButton.pm6",
-    "Libui::Form": "lib/Libui/Form.pm6",
-    "Libui::Grid": "lib/Libui/Grid.pm6",
-    "Libui::Group": "lib/Libui/Group.pm6",
-    "Libui::Label": "lib/Libui/Label.pm6",
-    "Libui::Menu": "lib/Libui/Menu.pm6",
-    "Libui::MenuItem": "lib/Libui/MenuItem.pm6",
-    "Libui::MultilineEntry": "lib/Libui/MultilineEntry.pm6",
-    "Libui::Picker": "lib/Libui/Picker.pm6",
-    "Libui::ProgressBar": "lib/Libui/ProgressBar.pm6",
-    "Libui::RadioButton": "lib/Libui/RadioButton.pm6",
-    "Libui::Raw": "lib/Libui/Raw.pm6",
-    "Libui::Separator": "lib/Libui/Separator.pm6",
-    "Libui::Slider": "lib/Libui/Slider.pm6",
-    "Libui::Spinbox": "lib/Libui/Spinbox.pm6",
-    "Libui::Tab": "lib/Libui/Tab.pm6",
-    "Libui::Types": "lib/Libui/Types.pm6",
-    "Libui::Window": "lib/Libui/Window.pm6"
-  },
-  "resources": [
-    "libraries/ui"
-  ],
   "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Libui-0.0.2.tar.gz",
   "tags": [
     
@@ -34016,6 +33958,47 @@
     
   ],
   "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/App-Lorea-0.0.3.tar.gz",
+  "support": {
+    "bugtracker": "https://gitlab.com/jjatria/lorea/-/issues",
+    "email": "jjatria@cpan.org",
+    "source": "git://gitlab.com/jjatria/lorea.git"
+  },
+  "tags": [
+    "CLI"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:JJATRIA",
+  "authors": [
+    "José Joaquín Atria"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Getopt::Long",
+    "Timer::Stopwatch",
+    "Text::ShellWords"
+  ],
+  "description": "A command line utility to execute commands on filesystem changes",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "App::Lorea",
+  "perl": "6.*",
+  "provides": {
+    "App::Lorea": "lib/App/Lorea.rakumod",
+    "App::Lorea::Command": "lib/App/Lorea/Command.rakumod",
+    "App::Lorea::Watcher": "lib/App/Lorea/Watcher.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/App-Lorea-0.0.4.tar.gz",
   "support": {
     "bugtracker": "https://gitlab.com/jjatria/lorea/-/issues",
     "email": "jjatria@cpan.org",
@@ -54426,6 +54409,50 @@
     "Test::META"
   ],
   "version": "0.6.0"
+}
+,
+{
+  "authors": [
+    "Matias Linares"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast",
+    "HTTP::UserAgent",
+    "URI::Encode",
+    "IO::Socket::SSL"
+  ],
+  "description": "Matrix client for Raku",
+  "license": "Artistic-2.0",
+  "name": "Matrix::Client",
+  "perl": "6.c",
+  "provides": {
+    "Matrix::Client": "lib/Matrix/Client.pm6",
+    "Matrix::Client::Common": "lib/Matrix/Client/Common.pm6",
+    "Matrix::Client::Exception": "lib/Matrix/Client/Exception.pm6",
+    "Matrix::Client::MediaStore": "lib/Matrix/Client/MediaStore.rakumod",
+    "Matrix::Client::Requester": "lib/Matrix/Client/Requester.pm6",
+    "Matrix::Client::Room": "lib/Matrix/Client/Room.pm6",
+    "Matrix::Response": "lib/Matrix/Response.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MATIASL/Perl6/Matrix-Client-0.6.1.tar.gz",
+  "support": {
+    "source": "git://github.com/matiaslina/perl6-matrix-client.git"
+  },
+  "tags": [
+    "Net",
+    "Matrix"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.6.1"
 }
 ,
 {
