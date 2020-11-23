@@ -25733,37 +25733,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Constants-Sys-Socket-0.0.1.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:GARLANDG",
-  "authors": [
-    "Travis Gibson"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Socket constants defined in sys/socket.h",
-  "license": "Artistic-2.0",
-  "name": "Constants::Sys::Socket",
-  "perl": "6.c",
-  "provides": {
-    "Constants::Sys::Socket": "lib/Constants/Sys/Socket.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Constants-Sys-Socket-0.0.2.tar.gz",
   "tags": [
     
@@ -33751,6 +33720,88 @@
     
   ],
   "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/App-Lorea-0.0.1.tar.gz",
+  "support": {
+    "bugtracker": "https://gitlab.com/jjatria/lorea/-/issues",
+    "email": "jjatria@cpan.org",
+    "source": "git://gitlab.com/jjatria/lorea.git"
+  },
+  "tags": [
+    "CLI"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:JJATRIA",
+  "authors": [
+    "José Joaquín Atria"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Getopt::Long",
+    "Timer::Stopwatch",
+    "Text::ShellWords"
+  ],
+  "description": "A command line utility to execute commands on filesystem changes",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "App::Lorea",
+  "perl": "6.*",
+  "provides": {
+    "App::Lorea": "lib/App/Lorea.rakumod",
+    "App::Lorea::Command": "lib/App/Lorea/Command.rakumod",
+    "App::Lorea::Watcher": "lib/App/Lorea/Watcher.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/App-Lorea-0.0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://gitlab.com/jjatria/lorea/-/issues",
+    "email": "jjatria@cpan.org",
+    "source": "git://gitlab.com/jjatria/lorea.git"
+  },
+  "tags": [
+    "CLI"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:JJATRIA",
+  "authors": [
+    "José Joaquín Atria"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Getopt::Long",
+    "Timer::Stopwatch",
+    "Text::ShellWords"
+  ],
+  "description": "A command line utility to execute commands on filesystem changes",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "App::Lorea",
+  "perl": "6.*",
+  "provides": {
+    "App::Lorea": "lib/App/Lorea.rakumod",
+    "App::Lorea::Command": "lib/App/Lorea/Command.rakumod",
+    "App::Lorea::Watcher": "lib/App/Lorea/Watcher.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/App-Lorea-0.0.3.tar.gz",
   "support": {
     "bugtracker": "https://gitlab.com/jjatria/lorea/-/issues",
     "email": "jjatria@cpan.org",
