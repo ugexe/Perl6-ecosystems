@@ -4398,6 +4398,48 @@
 ,
 {
   "authors": [
+    "Ryan S. Northrup"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku wrapper around GLFW3",
+  "license": "Zlib",
+  "name": "GLFW",
+  "perl": "6.c",
+  "provides": {
+    "GLFW": "lib/GLFW.pm6",
+    "GLFW::Cursor": "lib/GLFW/Cursor.pm6",
+    "GLFW::ErrorCode": "lib/GLFW/ErrorCode.pm6",
+    "GLFW::GammaRamp": "lib/GLFW/GammaRamp.pm6",
+    "GLFW::Image": "lib/GLFW/Image.pm6",
+    "GLFW::Joystick": "lib/GLFW/Joystick.pm6",
+    "GLFW::Key": "lib/GLFW/Key.pm6",
+    "GLFW::Monitor": "lib/GLFW/Monitor.pm6",
+    "GLFW::Mouse": "lib/GLFW/Mouse.pm6",
+    "GLFW::Version": "lib/GLFW/Version.pm6",
+    "GLFW::VidMode": "lib/GLFW/VidMode.pm6",
+    "GLFW::Window": "lib/GLFW/Window.pm6",
+    "GLFW::Window::Attribute": "lib/GLFW/Window/Attribute.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/YellowApple/p6-GLFW.git",
+  "tags": [
+    "graphics",
+    "input",
+    "windowing",
+    "media",
+    "interactive",
+    "glfw",
+    "opengl"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "authors": [
     "John Haltiwanger",
     "japhb"
   ],
