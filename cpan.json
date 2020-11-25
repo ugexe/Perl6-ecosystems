@@ -24611,30 +24611,6 @@
 }
 ,
 {
-  "api": "1",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "description": "Interface to libqrencode",
-  "license": "Artistic-2.0",
-  "name": "Image::QRCode",
-  "perl": "6.c",
-  "provides": {
-    "Image::QRCode": "lib/Image/QRCode.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Image-QRCode-0.0.5.tar.gz",
-  "tags": [
-    "image",
-    "qrcode",
-    "nativecall"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.2"
-}
-,
-{
   "api": "2",
   "auth": "github:frithnanth",
   "authors": [
@@ -25307,6 +25283,45 @@
   ],
   "test-depends": [
     
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "NativeHelpers::Blob",
+    "Math::Libgsl::Constants",
+    "Math::Libgsl::Matrix",
+    "Math::Libgsl::Random",
+    "Math::Libgsl::BLAS",
+    "Math::Libgsl::LinearAlgebra"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Random Number Distributions",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::RandomDistribution",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::RandomDistribution": "lib/Math/Libgsl/RandomDistribution.rakumod",
+    "Math::Libgsl::Raw::RandomDistribution": "lib/Math/Libgsl/Raw/RandomDistribution.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-RandomDistribution-0.0.2.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    "Math::Libgsl::BLAS",
+    "Math::Libgsl::LinearAlgebra"
   ],
   "version": "0.0.2"
 }
