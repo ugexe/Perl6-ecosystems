@@ -13475,6 +13475,59 @@
   "authors": [
     "Ben Little <ben.little@benlittle.dev>"
   ],
+  "build-depends": [
+    "FileSystem::Helpers",
+    "Stache::Renderer"
+  ],
+  "description": "query information from a raku module directory",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "META6::Query",
+  "perl": "6.d",
+  "provides": {
+    "META6::Query": "lib/META6/Query.rakumod"
+  },
+  "source-url": "https://github.com/littlebenlittle/meta6-query.git",
+  "tags": [
+    "meta6",
+    "module",
+    "query",
+    "filesystem"
+  ],
+  "version": "0.0.0"
+}
+,
+{
+  "auth": "github:littlebenlittle",
+  "authors": [
+    "Ben Little <ben.little@benlittle.dev>"
+  ],
+  "description": "helper functions for file systems",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "FileSystem::Helpers",
+  "perl": "6.d",
+  "provides": {
+    "FileSystem::Helpers": "lib/FileSystem/Helpers.rakumod"
+  },
+  "source-url": "https://github.com/littlebenlittle/raku-filesystem-helpers.git",
+  "tags": [
+    "helpers",
+    "filesystem",
+    "files",
+    "temp"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "auth": "github:littlebenlittle",
+  "authors": [
+    "Ben Little <ben.little@benlittle.dev>"
+  ],
+  "depends": [
+    "YAMLish"
+  ],
   "description": "extensible mustache templating",
   "license": "Artistic-2.0",
   "meta-version": "0",
@@ -13482,16 +13535,17 @@
   "perl": "6.d",
   "provides": {
     "Stache": "lib/Stache.rakumod",
-    "Stache::App": "lib/Stache/App.rakumod",
-    "Stache::Base": "lib/Stache/Base.rakumod",
-    "Stache::Renderer": "lib/Stache/Renderer.rakumod"
+    "Stache::Base": "lib/Stache/Base.rakumod"
   },
   "source-url": "https://github.com/littlebenlittle/stache.git",
   "tags": [
     "template",
     "mustache"
   ],
-  "version": "0.1.0"
+  "test-depends": [
+    "META6::Query"
+  ],
+  "version": "0.2.0"
 }
 ,
 {
