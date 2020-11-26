@@ -19010,6 +19010,68 @@
   "depends": [
     
   ],
+  "description": "expose the eigenstates of an object",
+  "license": "Artistic-2.0",
+  "name": "eigenstates",
+  "perl": "6.d",
+  "provides": {
+    "eigenstates": "lib/eigenstates.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/eigenstates-0.0.2.tar.gz",
+  "tags": [
+    "JUNCTION"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "expose the eigenstates of an object",
+  "license": "Artistic-2.0",
+  "name": "eigenstates",
+  "perl": "6.d",
+  "provides": {
+    "eigenstates": "lib/eigenstates.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/eigenstates-0.0.3.tar.gz",
+  "tags": [
+    "JUNCTION"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "hide methods of classes during runtime",
   "license": "Artistic-2.0",
   "name": "hide-methods",
@@ -24762,6 +24824,35 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "api": "1",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "depends": [
+    "NativeHelpers::Blob"
+  ],
+  "description": "Manipulate image EXIF data",
+  "license": "Artistic-2.0",
+  "name": "Image::Libexif",
+  "perl": "6.c",
+  "provides": {
+    "Image::Libexif": "lib/Image/Libexif.pm6",
+    "Image::Libexif::Constants": "lib/Image/Libexif/Constants.pm6",
+    "Image::Libexif::Raw": "lib/Image/Libexif/Raw.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Image-Libexif-0.1.0.tar.gz",
+  "tags": [
+    "image",
+    "exif",
+    "nativecall"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.0"
 }
 ,
 {
