@@ -9161,7 +9161,7 @@
   "depends": [
     "Test::META"
   ],
-  "description": "Turn ANTLR4 Grammars into Perl 6 Grammars",
+  "description": "Turn ANTLR4 Grammars into Raku Grammars",
   "license": "Artistic-2.0",
   "meta6": "0",
   "name": "ANTLR4::Grammar",
@@ -9174,9 +9174,9 @@
   "resources": [
     
   ],
-  "source-url": "https://github.com/drforr/perl6-ANTLR4.git",
+  "source-url": "https://github.com/raku-community-modules/ANTLR4-Grammar.git",
   "support": {
-    "source": "https://github.com/drforr/perl6-ANTLR4.git"
+    "source": "https://github.com/raku-community-modules/ANTLR4-Grammar.git"
   },
   "tags": [
     "ANTLR",
@@ -9206,7 +9206,7 @@
   "depends": [
     
   ],
-  "description": "Implement Common Lisp formatter for Perl 6",
+  "description": "Implement Common Lisp formatter for Raku",
   "license": "Artistic-2.0",
   "meta6": "0",
   "name": "Format::Lisp",
@@ -9216,9 +9216,9 @@
     "Format::Lisp::Actions": "lib/Format/Lisp/Actions.pm6",
     "Format::Lisp::Grammar": "lib/Format/Lisp/Grammar.pm6"
   },
-  "source-url": "https://github.com/drforr/perl6-Format-Lisp.git",
+  "source-url": "https://github.com/raku-community-modules/Format-Lisp.git",
   "support": {
-    "source": "https://github.com/drforr/perl6-Format-Lisp"
+    "source": "https://github.com/raku-community-modules/Format-Lisp"
   },
   "tags": [
     "format",
@@ -9243,7 +9243,7 @@
   "depends": [
     "LibraryMake"
   ],
-  "description": "Use Guile Scheme code and libraries in your Perl 6 code",
+  "description": "Use Guile Scheme code and libraries in your Raku code",
   "license": "Artistic",
   "meta6": "0",
   "name": "Inline::Scheme::Guile",
@@ -9254,9 +9254,9 @@
   "resources": [
     "libraries/guile-helper"
   ],
-  "source-url": "https://github.com/drforr/perl6-Inline-Scheme-Guile.git",
+  "source-url": "https://github.com/raku-community-modules/Inline-Scheme-Guile.git",
   "support": {
-    "source": "https://github.com/drforr/perl6-Inline-Scheme-Guile"
+    "source": "https://github.com/raku-community-modules/Inline-Scheme-Guile"
   },
   "tags": [
     "scheme",
@@ -9267,59 +9267,6 @@
     "Test"
   ],
   "version": "0.1"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "A Perl6 binding to libmarpa, the parser module",
-  "license": "Artistic-2.0",
-  "name": "Marpa",
-  "perl": "6.*",
-  "provides": {
-    "Marpa": "lib/Marpa.pm"
-  },
-  "source-url": "git://github.com/drforr/perl6-Marpa.git",
-  "version": "*"
-}
-,
-{
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Parse Perl 6 from within Perl 6",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "Perl6::Parser",
-  "perl": "6.c",
-  "provides": {
-    "Perl6::Parser": "lib/Perl6/Parser.pm6",
-    "Perl6::Parser::Factory": "lib/Perl6/Parser/Factory.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/drforr/perl6-Perl6-Parser.git",
-  "support": {
-    "source": "https://github.com/drforr/perl6-Perl6-Parser"
-  },
-  "tags": [
-    "parse",
-    "parser",
-    "parsing"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.3.0"
 }
 ,
 {
@@ -9358,20 +9305,6 @@
     "Test"
   ],
   "version": "0.1.6"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "A slang to allow Roman numerals",
-  "name": "Slang::Roman",
-  "perl": "6.*",
-  "provides": {
-    "Slang::Roman": "lib/Slang/Roman.pm6"
-  },
-  "source-url": "git://github.com/drforr/perl6-slang-roman.git",
-  "version": "0.1"
 }
 ,
 {
@@ -16126,18 +16059,18 @@
   "depends": [
     
   ],
-  "description": "Simple rule profiling for Perl 6 grammars",
+  "description": "Simple rule profiling for Raku grammars",
   "license": "Artistic-2.0",
   "name": "Grammar::Profiler::Simple",
   "perl": "6.*",
   "provides": {
     "Grammar::Profiler::Simple": "lib/Grammar/Profiler/Simple.pm"
   },
-  "source-url": "git://github.com/perlpilot/Grammar-Profiler-Simple.git",
+  "source-url": "git://github.com/raku-community-modules/Grammar-Profiler-Simple.git",
   "support": {
-    "bugtracker": "https://github.com/perlpilot/Grammar-Profiler-Simple/issues",
+    "bugtracker": "https://github.com/raku-community-modules/Grammar-Profiler-Simple/issues",
     "email": "duff@pobox.com",
-    "source": "https://github.com/perlpilot/Grammar-Profiler-Simple.git"
+    "source": "https://github.com/raku-community-modules/Grammar-Profiler-Simple.git"
   },
   "tags": [
     "Grammar",
@@ -16156,12 +16089,12 @@
   "depends": [
     
   ],
-  "description": "Benchmark running times of Perl 6 code",
+  "description": "Benchmark running times of Raku code",
   "name": "Benchmark",
   "provides": {
     "Benchmark": "lib/Benchmark.pm6"
   },
-  "source-url": "git://github.com/perlpilot/benchmark.git",
+  "source-url": "git://github.com/raku-community-modules/Benchmark.git",
   "test-depends": [
     "Test"
   ],
@@ -16176,7 +16109,7 @@
   "depends": [
     
   ],
-  "description": "Perl 6 binding to the Fast Artificial Neural Network library",
+  "description": "Raku binding to the Fast Artificial Neural Network library",
   "license": "Artistic-2.0",
   "name": "AI::FANN",
   "perl": "6.*",
@@ -16191,10 +16124,10 @@
     "AI::FANN::Raw::Training": "lib/AI/FANN/Raw/Training.pm6"
   },
   "source-type": "git",
-  "source-url": "https://github.com/perlpilot/p6-AI-FANN.git",
+  "source-url": "https://github.com/raku-community-modules/AI-FANN.git",
   "support": {
-    "bugtracker": "https://github.com/perlpilot/p6-AI-FANN/issues",
-    "source": "https://github.com/perlpilot/p6-AI-FANN.git"
+    "bugtracker": "https://github.com/raku-community-modules/AI-FANN/issues",
+    "source": "https://github.com/raku-community-modules/AI-FANN.git"
   },
   "tags": [
     "AI",
@@ -16223,7 +16156,7 @@
     "Astro::Sunrise": "lib/Astro/Sunrise.pm"
   },
   "repo-type": "git",
-  "source-url": "git://github.com/perlpilot/p6-Astro-Sunrise.git",
+  "source-url": "git://github.com/raku-community-modules/Astro-Sunrise.git",
   "test-depends": [
     "Test"
   ],
@@ -16245,7 +16178,7 @@
     "HexDump::Tiny": "lib/HexDump/Tiny.pm"
   },
   "repo-type": "git",
-  "source-url": "git://github.com/perlpilot/p6-HexDump-Tiny.git",
+  "source-url": "git://github.com/raku-community-modules/HexDump-Tiny.git",
   "test-depends": [
     "Test"
   ],
@@ -16267,9 +16200,9 @@
     "IO::Notification::Recursive": "lib/IO/Notification/Recursive.pm"
   },
   "support": {
-    "bugtracker": "https://github.com/perlpilot/p6-IO-Notification-Recursive/issues",
+    "bugtracker": "https://github.com/raku-community-modules/IO-Notification-Recursive/issues",
     "email": "duff@pobox.com",
-    "source": "https://github.com/perlpilot/p6-IO-Notification-Recursive.git"
+    "source": "https://github.com/raku-community-modules/IO-Notification-Recursive.git"
   },
   "version": "0.0.1"
 }
@@ -16286,7 +16219,7 @@
   "provides": {
     "Locale::US": "lib/Locale/US.pm"
   },
-  "source-url": "git://github.com/perlpilot/p6-Locale-US.git",
+  "source-url": "git://github.com/raku-community-modules/Locale-US.git",
   "version": "0.0.1"
 }
 ,
@@ -16306,7 +16239,7 @@
     "Math::Trig": "lib/Math/Trig.pm"
   },
   "repo-type": "git",
-  "source-url": "git://github.com/perlpilot/p6-Math-Trig.git",
+  "source-url": "git://github.com/raku-community-modules/Math-Trig.git",
   "test-depends": [
     "Test"
   ],
@@ -16333,9 +16266,9 @@
     "Questhub::Quest::State": "lib/Questhub/Quest/State.pm6"
   },
   "support": {
-    "bugtracker": "https://github.com/perlpilot/p6-Questhub/issues",
+    "bugtracker": "https://github.com/raku-community-modules/Questhub/issues",
     "email": "duff@pobox.com",
-    "source": "https://github.com/perlpilot/p6-Questhub.git"
+    "source": "https://github.com/raku-community-modules/Questhub.git"
   },
   "version": "0.0.1"
 }
@@ -16344,14 +16277,14 @@
   "depends": [
     
   ],
-  "description": "Simple Test::Class similar to Perl 5's",
+  "description": "Simple Test::Class similar to Perl's",
   "name": "Test::Class",
   "perl": "6.*",
   "provides": {
     "Test::Class": "lib/Test/Class.pm6"
   },
   "repo-type": "git",
-  "source-url": "git://github.com/perlpilot/p6-Test-Class.git",
+  "source-url": "git://github.com/raku-community-modules/Test-Class.git",
   "version": "*"
 }
 ,
@@ -16371,10 +16304,10 @@
     "Time::Duration::Parser": "lib/Time/Duration/Parser.pm6"
   },
   "source-type": "git",
-  "source-url": "https://github.com/perlpilot/p6-Time-Duration-Parser.git",
+  "source-url": "https://github.com/raku-community-modules/Time-Duration-Parser.git",
   "support": {
-    "bugtracker": "https://github.com/perlpilot/p6-Time-Duration-Parser/issues",
-    "source": "https://github.com/perlpilot/p6-Time-Duration-Parser.git"
+    "bugtracker": "https://github.com/raku-community-modules/Time-Duration-Parser/issues",
+    "source": "https://github.com/raku-community-modules/Time-Duration-Parser.git"
   },
   "tags": [
     "Time",
