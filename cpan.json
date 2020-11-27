@@ -36683,6 +36683,34 @@
 }
 ,
 {
+  "auth": "jnthn",
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "OpenSSL"
+  ],
+  "description": "Provides an API like IO::Socket::Async, but with TLS support.",
+  "license": "Artistic-2.0",
+  "name": "IO::Socket::Async::SSL",
+  "perl": "6.*",
+  "provides": {
+    "IO::Socket::Async::SSL": "lib/IO/Socket/Async/SSL.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/IO-Socket-Async-SSL-0.7.6.tar.gz",
+  "support": {
+    "source": "https://github.com/jnthn/p6-io-socket-async-ssl.git"
+  },
+  "tags": [
+    "SSL",
+    "TLS",
+    "Asynchronous",
+    "Socket"
+  ],
+  "version": "0.7.6"
+}
+,
+{
   "auth": "Jonathan Worthington <jonathan@edument.se>",
   "build-depends": [
     
