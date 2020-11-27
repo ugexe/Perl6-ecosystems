@@ -2985,35 +2985,6 @@
 }
 ,
 {
-  "author": "Dave Rolsky <autarch@urth.org>",
-  "depends": [
-    "File::Temp"
-  ],
-  "description": "Use libmagic to determine MIME type and encodings of content",
-  "name": "File::LibMagic",
-  "perl": "6.*",
-  "provides": {
-    "File::LibMagic": "lib/File/LibMagic.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/File-LibMagic.git",
-  "version": "0.0.1"
-}
-,
-{
-  "author": "Dave Rolsky <autarch@urth.org>",
-  "description": "Walk a Pod tree and generate an event for each node",
-  "license": "Artistic-2.0",
-  "name": "Pod::TreeWalker",
-  "perl": "6.*",
-  "provides": {
-    "Pod::TreeWalker": "lib/Pod/TreeWalker.pm6",
-    "Pod::TreeWalker::Listener": "lib/Pod/TreeWalker/Listener.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/Pod-TreeWalker.git",
-  "version": "0.0.3"
-}
-,
-{
   "author": "Adrian Kreher",
   "depends": [
     
@@ -15123,6 +15094,64 @@
 }
 ,
 {
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "Text::Markdown",
+    "DOM::Tiny",
+    "Pastebin::Gist",
+    "UUID",
+    "WWW"
+  ],
+  "description": "Preprocessor for Raku Advent Articles",
+  "license": "Artistic-2.0",
+  "name": "Acme::Advent::Highlighter",
+  "perl": "6.c",
+  "provides": {
+    "Acme::Advent::Highlighter": "lib/Acme/Advent/Highlighter.pm6",
+    "Acme::Advent::Highlighter::HTMLParser": "lib/Acme/Advent/Highlighter/HTMLParser.pm6",
+    "Acme::Advent::Highlighter::MultiMarkdown": "lib/Acme/Advent/Highlighter/MultiMarkdown.pm6"
+  },
+  "support": {
+    "source": "https://github.com/raku-community-modules/Acme-Advent-Highlighter.git"
+  },
+  "tags": [
+    "utils"
+  ],
+  "test-depends": [
+    "Test::When",
+    "Test::Notice"
+  ],
+  "version": "1.002002"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "Term::termios"
+  ],
+  "description": "Use Anguish programming language in your Raku programs",
+  "license": "Artistic-2.0",
+  "name": "Acme::Anguish",
+  "perl": "6.c",
+  "provides": {
+    "Acme::Anguish": "lib/Acme/Anguish.pm6"
+  },
+  "support": {
+    "source": "git://github.com/raku-community-modules/Acme-Anguish.git"
+  },
+  "test-depends": [
+    "Test",
+    "Test::META",
+    "Test::Output"
+  ],
+  "version": "1.001002"
+}
+,
+{
   "auth": "github:perlpilot",
   "authors": [
     "Jonathan Scott Duff <duff@pobox.com>"
@@ -15207,6 +15236,30 @@
 ,
 {
   "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "Pastebin::Gist",
+    "Pastebin::Shadowcat"
+  ],
+  "description": "Access pastebins from command line",
+  "license": "Artistic-2.0",
+  "name": "App::Nopaste",
+  "perl": "6.c",
+  "provides": {
+    "App::Nopaste": "lib/App/Nopaste.pm6"
+  },
+  "support": {
+    "source": "git://github.com/raku-community-modules/App-Nopaste.git"
+  },
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.001001"
+}
+,
+{
+  "authors": [
     "Jonathan Scott Duff <duff@pobox.com>"
   ],
   "build-depends": [
@@ -15246,6 +15299,145 @@
     "Test"
   ],
   "version": "*"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Benchmark some code",
+  "license": "Artistic-2.0",
+  "name": "Benchy",
+  "perl": "6.c",
+  "provides": {
+    "Benchy": "lib/Benchy.pm6"
+  },
+  "support": {
+    "source": "https://github.com/raku-community-modules/Benchy.git"
+  },
+  "tags": [
+    "benchmark",
+    "dev"
+  ],
+  "test-depends": [
+    "Testo",
+    "Test::META"
+  ],
+  "version": "1.001001"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Format conversion, manipulation, and math operations on colours",
+  "license": "Artistic-2.0",
+  "name": "Color",
+  "perl": "6.c",
+  "provides": {
+    "Color": "lib/Color.pm6",
+    "Color::Conversion": "lib/Color/Conversion.pm6",
+    "Color::Manipulation": "lib/Color/Manipulation.pm6",
+    "Color::Operators": "lib/Color/Operators.pm6",
+    "Color::Utilities": "lib/Color/Utilities.pm6"
+  },
+  "support": {
+    "source": "git://github.com/perl6-community-modules/Color.git"
+  },
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.002008"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Flat, JSON-backed read-write configuration",
+  "license": "Artistic-2.0",
+  "name": "Config::JSON",
+  "perl": "6.c",
+  "provides": {
+    "Config::JSON": "lib/Config/JSON.pm6"
+  },
+  "support": {
+    "source": "https://github.com/raku-community-modules/Config-JSON.git"
+  },
+  "tags": [
+    "config",
+    "configuration",
+    "JSON"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Testo",
+    "Test::When",
+    "Temp::Path"
+  ],
+  "version": "1.001003"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "HTML::Escape"
+  ],
+  "description": "Raku QAST Visualizer",
+  "license": "Artistic-2.0",
+  "name": "CoreHackers::Q",
+  "perl": "6.c",
+  "provides": {
+    "CoreHackers::Q": "lib/CoreHackers/Q.pm6",
+    "CoreHackers::Q::Parser": "lib/CoreHackers/Q/Parser.pm6",
+    "CoreHackers::Q::Parser::Actions": "lib/CoreHackers/Q/Parser/Actions.pm6"
+  },
+  "support": {
+    "source": "https://github.com/raku-community-modules/CoreHackers-Q.git"
+  },
+  "tags": [
+    "core dev"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.001005"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Helper for showing actual source code locations of core subs and methods",
+  "license": "Artistic-2.0",
+  "name": "CoreHackers::Sourcery",
+  "perl": "6.c",
+  "provides": {
+    "CoreHackers::Sourcery": "lib/CoreHackers/Sourcery.pm6"
+  },
+  "support": {
+    "source": "git://github.com/raku-community-modules/CoreHackers-Sourcery.git"
+  },
+  "test-depends": [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "version": "2.001006"
 }
 ,
 {
@@ -15293,6 +15485,26 @@
   },
   "source-url": "git://github.com/raku-community-modules/DateTime-Format.git",
   "version": "*"
+}
+,
+{
+  "auth": "github:raku-community-modules",
+  "authors": [
+    "Timothy Totten"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Add common math operations to DateTime objects.",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "DateTime::Math",
+  "perl": "6.c",
+  "provides": {
+    "DateTime::Math": "lib/DateTime/Math.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/Datetime-Math.git",
+  "version": "0.6.0"
 }
 ,
 {
@@ -16015,6 +16227,32 @@
 }
 ,
 {
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Perl like die routine for note + exit",
+  "license": "Artistic-2.0",
+  "name": "Die",
+  "perl": "6.c",
+  "provides": {
+    "Die": "lib/Die.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/Die.git",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "1.001002"
+}
+,
+{
   "depends": [
     "PSGI"
   ],
@@ -16033,6 +16271,21 @@
   },
   "source-url": "git://github.com/raku-community-modules/FastCGI.git",
   "version": "0.9.0"
+}
+,
+{
+  "author": "Dave Rolsky <autarch@urth.org>",
+  "depends": [
+    "File::Temp"
+  ],
+  "description": "Use libmagic to determine MIME type and encodings of content",
+  "name": "File::LibMagic",
+  "perl": "6.*",
+  "provides": {
+    "File::LibMagic": "lib/File/LibMagic.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/File-LibMagic.git",
+  "version": "0.0.1"
 }
 ,
 {
@@ -16091,6 +16344,122 @@
     "Test"
   ],
   "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Convert Coordinated Central Time to Old Earth Time",
+  "license": "Artistic-2.0",
+  "name": "Games::TauStation::DateTime",
+  "perl": "6.c",
+  "provides": {
+    "GCT": "lib/Games/TauStation/DateTime.pm6",
+    "Games::TauStation::DateTime": "lib/Games/TauStation/DateTime.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/Games-TauStation-DateTime.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.001006"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:raku-community-modules",
+  "authors": [
+    "Henrique Dias",
+    "Raku Community Modules Authors"
+  ],
+  "depends": [
+    "LibraryCheck",
+    "NativeHelpers::Array"
+  ],
+  "description": "Raku interface to the Gd graphics library.",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "GD",
+  "perl": "6.*",
+  "provides": {
+    "GD": "lib/GD.pm"
+  },
+  "raku": "6.*",
+  "source-url": "https://github.com/raku-community-modules/GD.git",
+  "support": {
+    "bugtracker": "https://github.com/raku-community-modules/GD/issues",
+    "source": "https://github.com/raku-community-modules/GD.git"
+  },
+  "tags": [
+    "graphics",
+    "gd",
+    "png",
+    "gif"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "HTTP::Tinyish",
+    "JSON::Fast",
+    "URI::Escape"
+  ],
+  "description": "Use glot.io API: pastebin allowing execution of code",
+  "license": "Artistic-2.0",
+  "name": "GlotIO",
+  "perl": "6.c",
+  "provides": {
+    "GlotIO": "lib/GlotIO.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/GlotIO.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.001001"
+}
+,
+{
+  "auth": "github:drforr",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "depends": [
+    "Test::META",
+    "JSON::Tiny"
+  ],
+  "description": "Common grammar patterns codified for ease of use",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Grammar::Common",
+  "perl": "6.c",
+  "provides": {
+    "Grammar::Common": "lib//Grammar/Common.pm6",
+    "Grammar::Common::Expression::Infix": "lib//Grammar/Common/Expression/Infix.pm6",
+    "Grammar::Common::Expression::Infix::Actions": "lib//Grammar/Common/Expression/Infix/Actions.pm6",
+    "Grammar::Common::Expression::Prefix": "lib//Grammar/Common/Expression/Prefix.pm6",
+    "Grammar::Common::Expression::Prefix::Actions": "lib//Grammar/Common/Expression/Prefix/Actions.pm6",
+    "Grammar::Common::Text": "lib/Grammar/Common/Text.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/raku-Grammar-Common.git",
+  "support": {
+    "source": "https://github.com/raku-community-modules/raku-Grammar-Common.git"
+  },
+  "tags": [
+    "Grammar",
+    "Utilities",
+    "Utils"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.3.1"
 }
 ,
 {
@@ -16258,517 +16627,6 @@
 }
 ,
 {
-  "depends": [
-    
-  ],
-  "description": "Get the text message associated with an HTTP status code",
-  "name": "HTTP::Status",
-  "perl": "6.*",
-  "provides": {
-    "HTTP::Status": "lib/HTTP/Status.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/HTTP-Status.git",
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "LibraryMake"
-  ],
-  "description": "Use Guile Scheme code and libraries in your Raku code",
-  "license": "Artistic",
-  "meta6": "0",
-  "name": "Inline::Scheme::Guile",
-  "perl": "6.c",
-  "provides": {
-    "Inline::Scheme::Guile": "lib/Inline/Scheme/Guile.pm6"
-  },
-  "resources": [
-    "libraries/guile-helper"
-  ],
-  "source-url": "https://github.com/raku-community-modules/Inline-Scheme-Guile.git",
-  "support": {
-    "source": "https://github.com/raku-community-modules/Inline-Scheme-Guile"
-  },
-  "tags": [
-    "scheme",
-    "guile",
-    "guile scheme"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.1"
-}
-,
-{
-  "authors": [
-    "Jonathan Scott Duff <duff@pobox.com>"
-  ],
-  "depends": [
-    "File::Find"
-  ],
-  "description": "Recursively watch a directory and any subdirectories",
-  "license": "Artistic-2.0",
-  "name": "IO::Notification::Recursive",
-  "perl": "6.*",
-  "provides": {
-    "IO::Notification::Recursive": "lib/IO/Notification/Recursive.pm"
-  },
-  "support": {
-    "bugtracker": "https://github.com/raku-community-modules/IO-Notification-Recursive/issues",
-    "email": "duff@pobox.com",
-    "source": "https://github.com/raku-community-modules/IO-Notification-Recursive.git"
-  },
-  "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "John Spurr"
-  ],
-  "depends": [
-    "Test::META"
-  ],
-  "description": "Implementation of the Porter stemming algorithm",
-  "license": "MIT",
-  "name": "Lingua::EN::Stem::Porter",
-  "perl": "6.c",
-  "provides": {
-    "Lingua::EN::Stem::Porter": "lib/Lingua/EN/Stem/Porter.pm6"
-  },
-  "source-url": "https://github.com/raku-community-modules/Lingua-EN-Stem-Porter.git",
-  "support": {
-    "source": "https://github.com/raku-community-modules/Lingua-EN-Stem-Porter.git"
-  },
-  "tags": [
-    "NLP",
-    "raku",
-    "stem",
-    "porter"
-  ],
-  "version": "v1.0"
-}
-,
-{
-  "author": "Jonathan Scott Duff",
-  "depends": [
-    
-  ],
-  "description": "Two letter codes for identifying United States territories and vice versa",
-  "license": "Artistic-2.0",
-  "name": "Locale::US",
-  "perl": "6.*",
-  "provides": {
-    "Locale::US": "lib/Locale/US.pm"
-  },
-  "source-url": "git://github.com/raku-community-modules/Locale-US.git",
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "github:raku-community-modules",
-  "author": "Raku team",
-  "depends": [
-    "MIME::Base64",
-    "URI"
-  ],
-  "description": "LWP::Simple quick & dirty implementation for Raku",
-  "name": "LWP::Simple",
-  "perl": "6.*",
-  "provides": {
-    "LWP::Simple": "lib/LWP/Simple.pm"
-  },
-  "source-url": "https://github.com/raku-community-modules/LWP-Simple.git",
-  "test-depends": [
-    "JSON::Tiny"
-  ],
-  "version": "0.106"
-}
-,
-{
-  "author": "Jonathan Scott Duff <duff@pobox.com>",
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Useful trigonometric routines",
-  "license": "Artistic-2.0",
-  "name": "Math::Trig",
-  "perl": "6.*",
-  "provides": {
-    "Math::Trig": "lib/Math/Trig.pm"
-  },
-  "repo-type": "git",
-  "source-url": "git://github.com/raku-community-modules/Math-Trig.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "author": "github:retupmoca",
-  "depends": [
-    
-  ],
-  "description": "Encoding and decoding Base64 ASCII strings",
-  "license": "Artistic-2.0",
-  "name": "MIME::Base64",
-  "perl": "6.*",
-  "provides": {
-    "MIME::Base64": "lib/MIME/Base64.pm6",
-    "MIME::Base64::Perl": "lib/MIME/Base64/Perl.pm6"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/raku-community-modules/MIME-Base64.git",
-  "version": "1.2.1"
-}
-,
-{
-  "auth": "github:raku-community-modules",
-  "authors": [
-    "Timothy Totten",
-    "Sizhe Zhao",
-    "Cam Stuart",
-    "Raku community"
-  ],
-  "description": "Parse a mime.types file, and query the results",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "MIME::Types",
-  "perl": "6.*",
-  "provides": {
-    "MIME::Types": "lib/MIME/Types.rakumod"
-  },
-  "resources": [
-    "mime.types"
-  ],
-  "support": {
-    "bugtracker": "https://github.com/raku-community-modules/MIME-Types/issues",
-    "source": "https://github.com/raku-community-modules/MIME-Types.git"
-  },
-  "tags": [
-    "MIME",
-    "type",
-    "extension"
-  ],
-  "version": "0.1"
-}
-,
-{
-  "author": "Kevin Polulak",
-  "authority": "soh-cah-toa",
-  "depends": [
-    
-  ],
-  "description": "A Raku port of the IRC::Utils module",
-  "license": "Artistic-2.0",
-  "name": "IRC::Utils",
-  "perl": "6.*",
-  "provides": {
-    "IRC::Utils": "lib/IRC/Utils.pm"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/raku-community-modules/IRC-Utils.git",
-  "version": "0.2.0"
-}
-,
-{
-  "author": "Kevin Polulak",
-  "authority": "soh-cah-toa",
-  "depends": [
-    
-  ],
-  "description": "Flexible framework for building TAP test libraries",
-  "license": "Artistic-2.0",
-  "name": "Test::Builder",
-  "perl": "6.*",
-  "provides": {
-    "Test::Builder": "lib/Test/Builder.pm",
-    "Test::Builder::Output": "lib/Test/Builder/Output.pm",
-    "Test::Builder::Plan": "lib/Test/Builder/Plan.pm",
-    "Test::Builder::Test": "lib/Test/Builder/Test.pm"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/raku-community-modules/Test-Builder.git",
-  "version": "0.0.3"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "Text::Markdown",
-    "DOM::Tiny",
-    "Pastebin::Gist",
-    "UUID",
-    "WWW"
-  ],
-  "description": "Preprocessor for Raku Advent Articles",
-  "license": "Artistic-2.0",
-  "name": "Acme::Advent::Highlighter",
-  "perl": "6.c",
-  "provides": {
-    "Acme::Advent::Highlighter": "lib/Acme/Advent/Highlighter.pm6",
-    "Acme::Advent::Highlighter::HTMLParser": "lib/Acme/Advent/Highlighter/HTMLParser.pm6",
-    "Acme::Advent::Highlighter::MultiMarkdown": "lib/Acme/Advent/Highlighter/MultiMarkdown.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/Acme-Advent-Highlighter.git"
-  },
-  "tags": [
-    "utils"
-  ],
-  "test-depends": [
-    "Test::When",
-    "Test::Notice"
-  ],
-  "version": "1.002002"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "Term::termios"
-  ],
-  "description": "Use Anguish programming language in your Raku programs",
-  "license": "Artistic-2.0",
-  "name": "Acme::Anguish",
-  "perl": "6.c",
-  "provides": {
-    "Acme::Anguish": "lib/Acme/Anguish.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/Acme-Anguish.git"
-  },
-  "test-depends": [
-    "Test",
-    "Test::META",
-    "Test::Output"
-  ],
-  "version": "1.001002"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "Pastebin::Gist",
-    "Pastebin::Shadowcat"
-  ],
-  "description": "Access pastebins from command line",
-  "license": "Artistic-2.0",
-  "name": "App::Nopaste",
-  "perl": "6.c",
-  "provides": {
-    "App::Nopaste": "lib/App/Nopaste.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/App-Nopaste.git"
-  },
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001001"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Benchmark some code",
-  "license": "Artistic-2.0",
-  "name": "Benchy",
-  "perl": "6.c",
-  "provides": {
-    "Benchy": "lib/Benchy.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/Benchy.git"
-  },
-  "tags": [
-    "benchmark",
-    "dev"
-  ],
-  "test-depends": [
-    "Testo",
-    "Test::META"
-  ],
-  "version": "1.001001"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Format conversion, manipulation, and math operations on colours",
-  "license": "Artistic-2.0",
-  "name": "Color",
-  "perl": "6.c",
-  "provides": {
-    "Color": "lib/Color.pm6",
-    "Color::Conversion": "lib/Color/Conversion.pm6",
-    "Color::Manipulation": "lib/Color/Manipulation.pm6",
-    "Color::Operators": "lib/Color/Operators.pm6",
-    "Color::Utilities": "lib/Color/Utilities.pm6"
-  },
-  "support": {
-    "source": "git://github.com/perl6-community-modules/Color.git"
-  },
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.002008"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "JSON::Fast"
-  ],
-  "description": "Flat, JSON-backed read-write configuration",
-  "license": "Artistic-2.0",
-  "name": "Config::JSON",
-  "perl": "6.c",
-  "provides": {
-    "Config::JSON": "lib/Config/JSON.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/Config-JSON.git"
-  },
-  "tags": [
-    "config",
-    "configuration",
-    "JSON"
-  ],
-  "test-depends": [
-    "JSON::Fast",
-    "Testo",
-    "Test::When",
-    "Temp::Path"
-  ],
-  "version": "1.001003"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Helper for showing actual source code locations of core subs and methods",
-  "license": "Artistic-2.0",
-  "name": "CoreHackers::Sourcery",
-  "perl": "6.c",
-  "provides": {
-    "CoreHackers::Sourcery": "lib/CoreHackers/Sourcery.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/CoreHackers-Sourcery.git"
-  },
-  "test-depends": [
-    "Test",
-    "Test::When",
-    "Test::META"
-  ],
-  "version": "2.001006"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Perl like die routine for note + exit",
-  "license": "Artistic-2.0",
-  "name": "Die",
-  "perl": "6.c",
-  "provides": {
-    "Die": "lib/Die.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/Die.git",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "1.001002"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Convert Coordinated Central Time to Old Earth Time",
-  "license": "Artistic-2.0",
-  "name": "Games::TauStation::DateTime",
-  "perl": "6.c",
-  "provides": {
-    "GCT": "lib/Games/TauStation/DateTime.pm6",
-    "Games::TauStation::DateTime": "lib/Games/TauStation/DateTime.pm6"
-  },
-  "source-url": "https://github.com/raku-community-modules/Games-TauStation-DateTime.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001006"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "HTTP::Tinyish",
-    "JSON::Fast",
-    "URI::Escape"
-  ],
-  "description": "Use glot.io API: pastebin allowing execution of code",
-  "license": "Artistic-2.0",
-  "name": "GlotIO",
-  "perl": "6.c",
-  "provides": {
-    "GlotIO": "lib/GlotIO.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/GlotIO.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001001"
-}
-,
-{
   "auth": "github:tony-o",
   "authors": [
     "tony-o"
@@ -16815,6 +16673,20 @@
 }
 ,
 {
+  "depends": [
+    
+  ],
+  "description": "Get the text message associated with an HTTP status code",
+  "name": "HTTP::Status",
+  "perl": "6.*",
+  "provides": {
+    "HTTP::Status": "lib/HTTP/Status.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/HTTP-Status.git",
+  "version": "0.0.1"
+}
+,
+{
   "authors": [
     "Zoffix Znet"
   ],
@@ -16836,6 +16708,43 @@
     "Test::Output"
   ],
   "version": "1.001001"
+}
+,
+{
+  "auth": "github:drforr",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibraryMake"
+  ],
+  "description": "Use Guile Scheme code and libraries in your Raku code",
+  "license": "Artistic",
+  "meta6": "0",
+  "name": "Inline::Scheme::Guile",
+  "perl": "6.c",
+  "provides": {
+    "Inline::Scheme::Guile": "lib/Inline/Scheme/Guile.pm6"
+  },
+  "resources": [
+    "libraries/guile-helper"
+  ],
+  "source-url": "https://github.com/raku-community-modules/Inline-Scheme-Guile.git",
+  "support": {
+    "source": "https://github.com/raku-community-modules/Inline-Scheme-Guile"
+  },
+  "tags": [
+    "scheme",
+    "guile",
+    "guile scheme"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1"
 }
 ,
 {
@@ -16917,6 +16826,28 @@
     "Test"
   ],
   "version": "1.001003"
+}
+,
+{
+  "authors": [
+    "Jonathan Scott Duff <duff@pobox.com>"
+  ],
+  "depends": [
+    "File::Find"
+  ],
+  "description": "Recursively watch a directory and any subdirectories",
+  "license": "Artistic-2.0",
+  "name": "IO::Notification::Recursive",
+  "perl": "6.*",
+  "provides": {
+    "IO::Notification::Recursive": "lib/IO/Notification/Recursive.pm"
+  },
+  "support": {
+    "bugtracker": "https://github.com/raku-community-modules/IO-Notification-Recursive/issues",
+    "email": "duff@pobox.com",
+    "source": "https://github.com/raku-community-modules/IO-Notification-Recursive.git"
+  },
+  "version": "0.0.1"
 }
 ,
 {
@@ -17005,6 +16936,46 @@
 }
 ,
 {
+  "author": "Kevin Polulak",
+  "authority": "soh-cah-toa",
+  "depends": [
+    
+  ],
+  "description": "A Raku port of the IRC::Utils module",
+  "license": "Artistic-2.0",
+  "name": "IRC::Utils",
+  "perl": "6.*",
+  "provides": {
+    "IRC::Utils": "lib/IRC/Utils.pm"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/raku-community-modules/IRC-Utils.git",
+  "version": "0.2.0"
+}
+,
+{
+  "author": "Rob Hoelz",
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Bindings to linenoise",
+  "license": "MIT",
+  "name": "Linenoise",
+  "perl": "6.*",
+  "provides": {
+    "Linenoise": "lib/Linenoise.pm6"
+  },
+  "resources": [
+    "libraries/linenoise"
+  ],
+  "source-url": "https://github.com/raku-community-modules/Linenoise.git",
+  "version": "0.1.1"
+}
+,
+{
   "authors": [
     "Zoffix Znet"
   ],
@@ -17025,6 +16996,33 @@
     "Test"
   ],
   "version": "1.001001"
+}
+,
+{
+  "authors": [
+    "John Spurr"
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Implementation of the Porter stemming algorithm",
+  "license": "MIT",
+  "name": "Lingua::EN::Stem::Porter",
+  "perl": "6.c",
+  "provides": {
+    "Lingua::EN::Stem::Porter": "lib/Lingua/EN/Stem/Porter.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/Lingua-EN-Stem-Porter.git",
+  "support": {
+    "source": "https://github.com/raku-community-modules/Lingua-EN-Stem-Porter.git"
+  },
+  "tags": [
+    "NLP",
+    "raku",
+    "stem",
+    "porter"
+  ],
+  "version": "v1.0"
 }
 ,
 {
@@ -17055,6 +17053,147 @@
     "Test::META"
   ],
   "version": "1.001002"
+}
+,
+{
+  "author": "Jonathan Scott Duff",
+  "depends": [
+    
+  ],
+  "description": "Two letter codes for identifying United States territories and vice versa",
+  "license": "Artistic-2.0",
+  "name": "Locale::US",
+  "perl": "6.*",
+  "provides": {
+    "Locale::US": "lib/Locale/US.pm"
+  },
+  "source-url": "git://github.com/raku-community-modules/Locale-US.git",
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:raku-community-modules",
+  "author": "Raku team",
+  "depends": [
+    "MIME::Base64",
+    "URI"
+  ],
+  "description": "LWP::Simple quick & dirty implementation for Raku",
+  "name": "LWP::Simple",
+  "perl": "6.*",
+  "provides": {
+    "LWP::Simple": "lib/LWP/Simple.pm"
+  },
+  "source-url": "https://github.com/raku-community-modules/LWP-Simple.git",
+  "test-depends": [
+    "JSON::Tiny"
+  ],
+  "version": "0.106"
+}
+,
+{
+  "depends": [
+    
+  ],
+  "description": "A Raku binding to libmarpa, the parser module",
+  "license": "Artistic-2.0",
+  "name": "Marpa",
+  "perl": "6.*",
+  "provides": {
+    "Marpa": "lib/Marpa.pm"
+  },
+  "source-url": "git://github.com/raku/community-modukes/Marpa.git",
+  "version": "*"
+}
+,
+{
+  "author": "Jonathan Scott Duff <duff@pobox.com>",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Useful trigonometric routines",
+  "license": "Artistic-2.0",
+  "name": "Math::Trig",
+  "perl": "6.*",
+  "provides": {
+    "Math::Trig": "lib/Math/Trig.pm"
+  },
+  "repo-type": "git",
+  "source-url": "git://github.com/raku-community-modules/Math-Trig.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "author": "github:retupmoca",
+  "depends": [
+    
+  ],
+  "description": "Encoding and decoding Base64 ASCII strings",
+  "license": "Artistic-2.0",
+  "name": "MIME::Base64",
+  "perl": "6.*",
+  "provides": {
+    "MIME::Base64": "lib/MIME/Base64.pm6",
+    "MIME::Base64::Perl": "lib/MIME/Base64/Perl.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/raku-community-modules/MIME-Base64.git",
+  "version": "1.2.1"
+}
+,
+{
+  "auth": "github:raku-community-modules",
+  "authors": [
+    "Timothy Totten",
+    "Sizhe Zhao",
+    "Cam Stuart",
+    "Raku community"
+  ],
+  "description": "Parse a mime.types file, and query the results",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "MIME::Types",
+  "perl": "6.*",
+  "provides": {
+    "MIME::Types": "lib/MIME/Types.rakumod"
+  },
+  "resources": [
+    "mime.types"
+  ],
+  "support": {
+    "bugtracker": "https://github.com/raku-community-modules/MIME-Types/issues",
+    "source": "https://github.com/raku-community-modules/MIME-Types.git"
+  },
+  "tags": [
+    "MIME",
+    "type",
+    "extension"
+  ],
+  "version": "0.1"
+}
+,
+{
+  "auth": "github:raku-community-modules",
+  "authors": [
+    "Timothy Totten"
+  ],
+  "depends": [
+    
+  ],
+  "description": "A library for working with netstrings.",
+  "name": "Netstring",
+  "perl": "6.*",
+  "provides": {
+    "Netstring": "lib/Netstring.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/Netstring.git",
+  "version": "0.0.1"
 }
 ,
 {
@@ -17161,6 +17300,20 @@
 }
 ,
 {
+  "author": "Dave Rolsky <autarch@urth.org>",
+  "description": "Walk a Pod tree and generate an event for each node",
+  "license": "Artistic-2.0",
+  "name": "Pod::TreeWalker",
+  "perl": "6.*",
+  "provides": {
+    "Pod::TreeWalker": "lib/Pod/TreeWalker.pm6",
+    "Pod::TreeWalker::Listener": "lib/Pod/TreeWalker/Listener.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/Pod-TreeWalker.git",
+  "version": "0.0.3"
+}
+,
+{
   "authors": [
     "Zoffix Znet"
   ],
@@ -17217,6 +17370,25 @@
 }
 ,
 {
+  "auth": "github:raku-community-modules",
+  "authors": [
+    "Timothy Totten, supernovus",
+    "Raku community"
+  ],
+  "depends": [
+    "HTTP::Status"
+  ],
+  "description": "A PSGI helper library.",
+  "name": "PSGI",
+  "perl": "6.*",
+  "provides": {
+    "PSGI": "lib/PSGI.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/PSGI.git",
+  "version": "1.2.0"
+}
+,
+{
   "authors": [
     "Zoffix Znet"
   ],
@@ -17241,6 +17413,71 @@
     "Test::META"
   ],
   "version": "1.001001"
+}
+,
+{
+  "authors": [
+    "Jonathan Scott Duff <duff@pobox.com>"
+  ],
+  "depends": [
+    "JSON::Tiny",
+    "HTTP::UserAgent",
+    "Terminal::ANSIColor",
+    "IO::Socket::SSL"
+  ],
+  "description": "Implementation of http://questhub.io API + CLI",
+  "license": "Artistic-2.0",
+  "name": "Questhub",
+  "perl": "6.*",
+  "provides": {
+    "Questhub": "lib/Questhub.pm6",
+    "Questhub::Quest": "lib/Questhub/Quest.pm6",
+    "Questhub::Quest::State": "lib/Questhub/Quest/State.pm6"
+  },
+  "support": {
+    "bugtracker": "https://github.com/raku-community-modules/Questhub/issues",
+    "email": "duff@pobox.com",
+    "source": "https://github.com/raku-community-modules/Questhub.git"
+  },
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:drforr",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Parse Raku from within Raku",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Perl6::Parser",
+  "perl": "6.c",
+  "provides": {
+    "Perl6::Parser": "lib/Perl6/Parser.pm6",
+    "Perl6::Parser::Factory": "lib/Perl6/Parser/Factory.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/raku/community-modukes/Raku-Parser.git",
+  "support": {
+    "source": "https://github.com/raku/community-modukes/Raku-Parser"
+  },
+  "tags": [
+    "parse",
+    "parser",
+    "parsing"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.3.0"
 }
 ,
 {
@@ -17296,6 +17533,42 @@
 }
 ,
 {
+  "depends": [
+    "HTTP::Status",
+    "Netstring",
+    "PSGI"
+  ],
+  "description": "A SCGI library for Raku",
+  "license": "Artistic-2.0",
+  "name": "SCGI",
+  "perl": "6.*",
+  "provides": {
+    "SCGI": "lib/SCGI.pm6",
+    "SCGI::Connection": "lib/SCGI/Connection.pm6",
+    "SCGI::Constants": "lib/SCGI/Constants.pm6",
+    "SCGI::Errors": "lib/SCGI/Errors.pm6",
+    "SCGI::Request": "lib/SCGI/Request.pm6",
+    "SCGI::Response": "lib/SCGI/Response.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/SCGI.git",
+  "version": "2.4"
+}
+,
+{
+  "depends": [
+    
+  ],
+  "description": "A slang to allow Roman numerals",
+  "name": "Slang::Roman",
+  "perl": "6.*",
+  "provides": {
+    "Slang::Roman": "lib/Slang/Roman.pm6"
+  },
+  "source-url": "git://github.com/raku/community-modukes/Slang-Roman.git",
+  "version": "0.1"
+}
+,
+{
   "authors": [
     "Zoffix Znet"
   ],
@@ -17346,6 +17619,48 @@
 ,
 {
   "authors": [
+    "David Farrell",
+    "Raku community"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Easily search for system users in Unix-based systems",
+  "meta-version": 0,
+  "name": "System::Passwd",
+  "perl": "6.*",
+  "provides": {
+    "System::Passwd": "lib/System/Passwd.pm6",
+    "System::Passwd::User": "lib/System/Passwd/User.pm6"
+  },
+  "raku": "6.*",
+  "source-url": "git://github.com/raku-community-modules/System-Passwd.git",
+  "version": "0.05"
+}
+,
+{
+  "depends": [
+    
+  ],
+  "description": "A template engine inspired by TT.",
+  "name": "Template6",
+  "perl": "6.*",
+  "provides": {
+    "Template6": "lib/Template6.pm6",
+    "Template6::Context": "lib/Template6/Context.pm6",
+    "Template6::Parser": "lib/Template6/Parser.pm6",
+    "Template6::Provider": "lib/Template6/Provider.pm6",
+    "Template6::Provider::File": "lib/Template6/Provider/File.pm6",
+    "Template6::Provider::String": "lib/Template6/Provider/String.pm6",
+    "Template6::Service": "lib/Template6/Service.pm6",
+    "Template6::Stash": "lib/Template6/Stash.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/Template6.git",
+  "version": "0.10.0"
+}
+,
+{
+  "authors": [
     "Zoffix Znet"
   ],
   "depends": [
@@ -17364,6 +17679,42 @@
     "Test::META"
   ],
   "version": "1.001001"
+}
+,
+{
+  "author": "Kevin Polulak",
+  "authority": "soh-cah-toa",
+  "depends": [
+    
+  ],
+  "description": "Flexible framework for building TAP test libraries",
+  "license": "Artistic-2.0",
+  "name": "Test::Builder",
+  "perl": "6.*",
+  "provides": {
+    "Test::Builder": "lib/Test/Builder.pm",
+    "Test::Builder::Output": "lib/Test/Builder/Output.pm",
+    "Test::Builder::Plan": "lib/Test/Builder/Plan.pm",
+    "Test::Builder::Test": "lib/Test/Builder/Test.pm"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/raku-community-modules/Test-Builder.git",
+  "version": "0.0.3"
+}
+,
+{
+  "depends": [
+    
+  ],
+  "description": "Simple Test::Class similar to Perl's",
+  "name": "Test::Class",
+  "perl": "6.*",
+  "provides": {
+    "Test::Class": "lib/Test/Class.pm6"
+  },
+  "repo-type": "git",
+  "source-url": "git://github.com/raku-community-modules/Test-Class.git",
+  "version": "*"
 }
 ,
 {
@@ -17434,6 +17785,29 @@
 ,
 {
   "authors": [
+    "Ingy döt Net <ingy@cpan.org>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "A Generic Software Testing Meta Language",
+  "name": "TestML",
+  "perl": "6.*",
+  "provides": {
+    "TestML": "lib/TestML.pm",
+    "TestML::Document": "lib/TestML/Document.pm",
+    "TestML::Parser": "lib/TestML/Parser.pm",
+    "TestML::Parser::Grammar": "lib/TestML/Parser/Grammar.pm",
+    "TestML::Runner": "lib/TestML/Runner.pm",
+    "TestML::Runner::TAP": "lib/TestML/Runner/TAP.pm",
+    "TestML::Standard": "lib/TestML/Standard.pm"
+  },
+  "source-url": "git://github.com/raku-community-modules/TestML.git",
+  "version": "0.1"
+}
+,
+{
+  "authors": [
     "Zoffix Znet"
   ],
   "depends": [
@@ -17467,6 +17841,37 @@
     
   ],
   "version": "1.003006"
+}
+,
+{
+  "auth": "github:perlpilot",
+  "authors": [
+    "Jonathan Scott Duff <duff@pobox.com>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Parse duration strings into seconds",
+  "license": "Artistic-2.0",
+  "name": "Time::Duration::Parser",
+  "perl": "6.*",
+  "provides": {
+    "Time::Duration::Parser": "lib/Time/Duration/Parser.pm6"
+  },
+  "source-type": "git",
+  "source-url": "https://github.com/raku-community-modules/Time-Duration-Parser.git",
+  "support": {
+    "bugtracker": "https://github.com/raku-community-modules/Time-Duration-Parser/issues",
+    "source": "https://github.com/raku-community-modules/Time-Duration-Parser.git"
+  },
+  "tags": [
+    "Time",
+    "Parser"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
@@ -17572,459 +17977,6 @@
     "Test"
   ],
   "version": "0.004003"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Simpler `where` constraints for items of lists",
-  "license": "Artistic-2.0",
-  "name": "WhereList",
-  "perl": "6.c",
-  "provides": {
-    "WhereList": "lib/WhereList.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/WhereList.git"
-  },
-  "tags": [
-    "lists"
-  ],
-  "test-depends": [
-    "Testo",
-    "Test::META"
-  ],
-  "version": "1.001002"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "WWW"
-  ],
-  "description": "Implementation of alerts.perl6.org API",
-  "license": "Artistic-2.0",
-  "name": "WWW::P6lert",
-  "perl": "6.c",
-  "provides": {
-    "WWW::P6lert": "lib/WWW/P6lert.pm6",
-    "WWW::P6lert::Alert": "lib/WWW/P6lert.pm6",
-    "WWW::P6lert::X": "lib/WWW/P6lert.pm6",
-    "WWW::P6lert::X::Network": "lib/WWW/P6lert.pm6",
-    "WWW::P6lert::X::NotFound": "lib/WWW/P6lert.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/WWW-P6lert.git"
-  },
-  "tags": [
-    "WWW"
-  ],
-  "test-depends": [
-    "Testo",
-    "Test::When"
-  ],
-  "version": "1.001004"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "DOM::Tiny",
-    "HTTP::UserAgent",
-    "URI::Encode"
-  ],
-  "description": "Control vlc media player via its Web interface",
-  "license": "Artistic-2.0",
-  "name": "WWW::vlc::Remote",
-  "perl": "6.c",
-  "provides": {
-    "WWW::vlc::Remote": "lib/WWW/vlc/Remote.pm6",
-    "WWW::vlc::Remote::Track": "lib/WWW/vlc/Remote.pm6",
-    "WWW::vlc::Remote::X": "lib/WWW/vlc/Remote.pm6",
-    "WWW::vlc::Remote::X::Network": "lib/WWW/vlc/Remote.pm6"
-  },
-  "source-url": "https://github.com/raku-community-modules/WWW-vlc-Remote.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001008"
-}
-,
-{
-  "auth": "github:perl6-community-modules",
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "HTTP::UserAgent",
-    "JSON::Fast",
-    "IO::Socket::SSL"
-  ],
-  "description": "No-nonsense, simple HTTPS client with JSON decoder",
-  "license": "Artistic-2.0",
-  "name": "WWW",
-  "perl": "6.*",
-  "provides": {
-    "WWW": "lib/WWW.pm6"
-  },
-  "support": {
-    "source": "https://github.com/perl6-community-modules/WWW.git"
-  },
-  "tags": [
-    "HTTP"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::When",
-    "Test::META"
-  ],
-  "version": "1.005004"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "HTML::Escape"
-  ],
-  "description": "Raku QAST Visualizer",
-  "license": "Artistic-2.0",
-  "name": "CoreHackers::Q",
-  "perl": "6.c",
-  "provides": {
-    "CoreHackers::Q": "lib/CoreHackers/Q.pm6",
-    "CoreHackers::Q::Parser": "lib/CoreHackers/Q/Parser.pm6",
-    "CoreHackers::Q::Parser::Actions": "lib/CoreHackers/Q/Parser/Actions.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/CoreHackers-Q.git"
-  },
-  "tags": [
-    "core dev"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "1.001005"
-}
-,
-{
-  "authors": [
-    "Jonathan Scott Duff <duff@pobox.com>"
-  ],
-  "depends": [
-    "JSON::Tiny",
-    "HTTP::UserAgent",
-    "Terminal::ANSIColor",
-    "IO::Socket::SSL"
-  ],
-  "description": "Implementation of http://questhub.io API + CLI",
-  "license": "Artistic-2.0",
-  "name": "Questhub",
-  "perl": "6.*",
-  "provides": {
-    "Questhub": "lib/Questhub.pm6",
-    "Questhub::Quest": "lib/Questhub/Quest.pm6",
-    "Questhub::Quest::State": "lib/Questhub/Quest/State.pm6"
-  },
-  "support": {
-    "bugtracker": "https://github.com/raku-community-modules/Questhub/issues",
-    "email": "duff@pobox.com",
-    "source": "https://github.com/raku-community-modules/Questhub.git"
-  },
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "github:raku-community-modules",
-  "authors": [
-    "Timothy Totten"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Add common math operations to DateTime objects.",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "DateTime::Math",
-  "perl": "6.c",
-  "provides": {
-    "DateTime::Math": "lib/DateTime/Math.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/Datetime-Math.git",
-  "version": "0.6.0"
-}
-,
-{
-  "api": "1.0",
-  "auth": "github:raku-community-modules",
-  "authors": [
-    "Henrique Dias",
-    "Raku Community Modules Authors"
-  ],
-  "depends": [
-    "LibraryCheck",
-    "NativeHelpers::Array"
-  ],
-  "description": "Raku interface to the Gd graphics library.",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "GD",
-  "perl": "6.*",
-  "provides": {
-    "GD": "lib/GD.pm"
-  },
-  "raku": "6.*",
-  "source-url": "https://github.com/raku-community-modules/GD.git",
-  "support": {
-    "bugtracker": "https://github.com/raku-community-modules/GD/issues",
-    "source": "https://github.com/raku-community-modules/GD.git"
-  },
-  "tags": [
-    "graphics",
-    "gd",
-    "png",
-    "gif"
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "depends": [
-    "Test::META",
-    "JSON::Tiny"
-  ],
-  "description": "Common grammar patterns codified for ease of use",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "Grammar::Common",
-  "perl": "6.c",
-  "provides": {
-    "Grammar::Common": "lib//Grammar/Common.pm6",
-    "Grammar::Common::Expression::Infix": "lib//Grammar/Common/Expression/Infix.pm6",
-    "Grammar::Common::Expression::Infix::Actions": "lib//Grammar/Common/Expression/Infix/Actions.pm6",
-    "Grammar::Common::Expression::Prefix": "lib//Grammar/Common/Expression/Prefix.pm6",
-    "Grammar::Common::Expression::Prefix::Actions": "lib//Grammar/Common/Expression/Prefix/Actions.pm6",
-    "Grammar::Common::Text": "lib/Grammar/Common/Text.pm6"
-  },
-  "source-url": "https://github.com/raku-community-modules/raku-Grammar-Common.git",
-  "support": {
-    "source": "https://github.com/raku-community-modules/raku-Grammar-Common.git"
-  },
-  "tags": [
-    "Grammar",
-    "Utilities",
-    "Utils"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.3.1"
-}
-,
-{
-  "author": "Rob Hoelz",
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Bindings to linenoise",
-  "license": "MIT",
-  "name": "Linenoise",
-  "perl": "6.*",
-  "provides": {
-    "Linenoise": "lib/Linenoise.pm6"
-  },
-  "resources": [
-    "libraries/linenoise"
-  ],
-  "source-url": "https://github.com/raku-community-modules/Linenoise.git",
-  "version": "0.1.1"
-}
-,
-{
-  "auth": "github:raku-community-modules",
-  "authors": [
-    "Timothy Totten"
-  ],
-  "depends": [
-    
-  ],
-  "description": "A library for working with netstrings.",
-  "name": "Netstring",
-  "perl": "6.*",
-  "provides": {
-    "Netstring": "lib/Netstring.pm6"
-  },
-  "source-url": "https://github.com/raku-community-modules/Netstring.git",
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "github:raku-community-modules",
-  "authors": [
-    "Timothy Totten, supernovus",
-    "Raku community"
-  ],
-  "depends": [
-    "HTTP::Status"
-  ],
-  "description": "A PSGI helper library.",
-  "name": "PSGI",
-  "perl": "6.*",
-  "provides": {
-    "PSGI": "lib/PSGI.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/PSGI.git",
-  "version": "1.2.0"
-}
-,
-{
-  "depends": [
-    "HTTP::Status",
-    "Netstring",
-    "PSGI"
-  ],
-  "description": "A SCGI library for Raku",
-  "license": "Artistic-2.0",
-  "name": "SCGI",
-  "perl": "6.*",
-  "provides": {
-    "SCGI": "lib/SCGI.pm6",
-    "SCGI::Connection": "lib/SCGI/Connection.pm6",
-    "SCGI::Constants": "lib/SCGI/Constants.pm6",
-    "SCGI::Errors": "lib/SCGI/Errors.pm6",
-    "SCGI::Request": "lib/SCGI/Request.pm6",
-    "SCGI::Response": "lib/SCGI/Response.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/SCGI.git",
-  "version": "2.4"
-}
-,
-{
-  "authors": [
-    "David Farrell",
-    "Raku community"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Easily search for system users in Unix-based systems",
-  "meta-version": 0,
-  "name": "System::Passwd",
-  "perl": "6.*",
-  "provides": {
-    "System::Passwd": "lib/System/Passwd.pm6",
-    "System::Passwd::User": "lib/System/Passwd/User.pm6"
-  },
-  "raku": "6.*",
-  "source-url": "git://github.com/raku-community-modules/System-Passwd.git",
-  "version": "0.05"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "A template engine inspired by TT.",
-  "name": "Template6",
-  "perl": "6.*",
-  "provides": {
-    "Template6": "lib/Template6.pm6",
-    "Template6::Context": "lib/Template6/Context.pm6",
-    "Template6::Parser": "lib/Template6/Parser.pm6",
-    "Template6::Provider": "lib/Template6/Provider.pm6",
-    "Template6::Provider::File": "lib/Template6/Provider/File.pm6",
-    "Template6::Provider::String": "lib/Template6/Provider/String.pm6",
-    "Template6::Service": "lib/Template6/Service.pm6",
-    "Template6::Stash": "lib/Template6/Stash.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/Template6.git",
-  "version": "0.10.0"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "Simple Test::Class similar to Perl's",
-  "name": "Test::Class",
-  "perl": "6.*",
-  "provides": {
-    "Test::Class": "lib/Test/Class.pm6"
-  },
-  "repo-type": "git",
-  "source-url": "git://github.com/raku-community-modules/Test-Class.git",
-  "version": "*"
-}
-,
-{
-  "authors": [
-    "Ingy döt Net <ingy@cpan.org>"
-  ],
-  "depends": [
-    
-  ],
-  "description": "A Generic Software Testing Meta Language",
-  "name": "TestML",
-  "perl": "6.*",
-  "provides": {
-    "TestML": "lib/TestML.pm",
-    "TestML::Document": "lib/TestML/Document.pm",
-    "TestML::Parser": "lib/TestML/Parser.pm",
-    "TestML::Parser::Grammar": "lib/TestML/Parser/Grammar.pm",
-    "TestML::Runner": "lib/TestML/Runner.pm",
-    "TestML::Runner::TAP": "lib/TestML/Runner/TAP.pm",
-    "TestML::Standard": "lib/TestML/Standard.pm"
-  },
-  "source-url": "git://github.com/raku-community-modules/TestML.git",
-  "version": "0.1"
-}
-,
-{
-  "auth": "github:perlpilot",
-  "authors": [
-    "Jonathan Scott Duff <duff@pobox.com>"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Parse duration strings into seconds",
-  "license": "Artistic-2.0",
-  "name": "Time::Duration::Parser",
-  "perl": "6.*",
-  "provides": {
-    "Time::Duration::Parser": "lib/Time/Duration/Parser.pm6"
-  },
-  "source-type": "git",
-  "source-url": "https://github.com/raku-community-modules/Time-Duration-Parser.git",
-  "support": {
-    "bugtracker": "https://github.com/raku-community-modules/Time-Duration-Parser/issues",
-    "source": "https://github.com/raku-community-modules/Time-Duration-Parser.git"
-  },
-  "tags": [
-    "Time",
-    "Parser"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
 }
 ,
 {
@@ -18149,6 +18101,121 @@
   },
   "source-url": "git://github.com/raku-community-modules/Web-Template.git",
   "version": "*"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Simpler `where` constraints for items of lists",
+  "license": "Artistic-2.0",
+  "name": "WhereList",
+  "perl": "6.c",
+  "provides": {
+    "WhereList": "lib/WhereList.pm6"
+  },
+  "support": {
+    "source": "https://github.com/raku-community-modules/WhereList.git"
+  },
+  "tags": [
+    "lists"
+  ],
+  "test-depends": [
+    "Testo",
+    "Test::META"
+  ],
+  "version": "1.001002"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "WWW"
+  ],
+  "description": "Implementation of alerts.perl6.org API",
+  "license": "Artistic-2.0",
+  "name": "WWW::P6lert",
+  "perl": "6.c",
+  "provides": {
+    "WWW::P6lert": "lib/WWW/P6lert.pm6",
+    "WWW::P6lert::Alert": "lib/WWW/P6lert.pm6",
+    "WWW::P6lert::X": "lib/WWW/P6lert.pm6",
+    "WWW::P6lert::X::Network": "lib/WWW/P6lert.pm6",
+    "WWW::P6lert::X::NotFound": "lib/WWW/P6lert.pm6"
+  },
+  "support": {
+    "source": "https://github.com/raku-community-modules/WWW-P6lert.git"
+  },
+  "tags": [
+    "WWW"
+  ],
+  "test-depends": [
+    "Testo",
+    "Test::When"
+  ],
+  "version": "1.001004"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "DOM::Tiny",
+    "HTTP::UserAgent",
+    "URI::Encode"
+  ],
+  "description": "Control vlc media player via its Web interface",
+  "license": "Artistic-2.0",
+  "name": "WWW::vlc::Remote",
+  "perl": "6.c",
+  "provides": {
+    "WWW::vlc::Remote": "lib/WWW/vlc/Remote.pm6",
+    "WWW::vlc::Remote::Track": "lib/WWW/vlc/Remote.pm6",
+    "WWW::vlc::Remote::X": "lib/WWW/vlc/Remote.pm6",
+    "WWW::vlc::Remote::X::Network": "lib/WWW/vlc/Remote.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/WWW-vlc-Remote.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.001008"
+}
+,
+{
+  "auth": "github:perl6-community-modules",
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "HTTP::UserAgent",
+    "JSON::Fast",
+    "IO::Socket::SSL"
+  ],
+  "description": "No-nonsense, simple HTTPS client with JSON decoder",
+  "license": "Artistic-2.0",
+  "name": "WWW",
+  "perl": "6.*",
+  "provides": {
+    "WWW": "lib/WWW.pm6"
+  },
+  "support": {
+    "source": "https://github.com/perl6-community-modules/WWW.git"
+  },
+  "tags": [
+    "HTTP"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "version": "1.005004"
 }
 ,
 {
@@ -24637,6 +24704,42 @@
     
   ],
   "version": "0.9.3"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet",
+    "Martin Barth (ufobat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Digest::SHA",
+    "File::Directory::Tree"
+  ],
+  "description": "Make a temporary path, file, or directory",
+  "license": "Artistic-2.0",
+  "name": "Temp::Path",
+  "perl": "6.c",
+  "provides": {
+    "Temp::Path": "lib/Temp/Path.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/ufobat/perl6-Temp-Path.git",
+  "support": {
+    "source": "https://github.com/ufobat/perl6-Temp-Path.git"
+  },
+  "tags": [
+    "filesystem"
+  ],
+  "test-depends": [
+    "Testo",
+    "Test::META"
+  ],
+  "version": "1.001007"
 }
 ,
 {
