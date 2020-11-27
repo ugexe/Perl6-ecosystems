@@ -21725,6 +21725,22 @@
 }
 ,
 {
+  "depends": [
+    "DateTime::Format",
+    "DateTime::Math",
+    "DateTime::TimeZone"
+  ],
+  "description": "A meta project for DateTime related libraries.",
+  "name": "DateTime::Utils",
+  "perl": "6.*",
+  "provides": {
+    
+  },
+  "source-url": "git://github.com/raku-community-modules/DateTime-Utils.git",
+  "version": "*"
+}
+,
+{
   "author": "Timothy Totten",
   "depends": [
     "XML"
