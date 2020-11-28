@@ -26481,44 +26481,6 @@
     
   ],
   "depends": [
-    
-  ],
-  "description": "Console Blackjack for Raku",
-  "license": "Artistic-2.0",
-  "name": "Console::Blackjack",
-  "perl": "6.d",
-  "provides": {
-    "Console::Blackjack": "lib/Console/Blackjack.rakumod",
-    "Console::Blackjack::Card.rakumod": "lib/Console/Blackjack/Card.rakumod.rakumod",
-    "Console::Blackjack::DealerHand": "lib/Console/Blackjack/DealerHand.rakumod",
-    "Console::Blackjack::Hand": "lib/Console/Blackjack/Hand.rakumod",
-    "Console::Blackjack::PlayerHand": "lib/Console/Blackjack/PlayerHand.rakumod",
-    "Console::Blackjack::Shoe": "lib/Console/Blackjack/Shoe.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/G/GD/GDONALD/Perl6/Console-Blackjack-1.0.5.tar.gz",
-  "tags": [
-    "Console",
-    "Blackjack",
-    "Game"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "1.0.5"
-}
-,
-{
-  "auth": "github:rakuist",
-  "authors": [
-    "Greg Donald"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "DBIish",
     "JSON::Tiny",
     "Log::Async"
@@ -34243,6 +34205,38 @@
     
   ],
   "version": "0.1.3"
+}
+,
+{
+  "auth": "cpan:JJATRIA",
+  "authors": [
+    "José Joaquín Atria"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A small, simple, correct HTTP/1.1 client",
+  "license": "Artistic-2.0",
+  "name": "HTTP::Tiny",
+  "perl": "6.d",
+  "provides": {
+    "HTTP::Tiny": "lib/HTTP/Tiny.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/HTTP-Tiny-0.1.4.tar.gz",
+  "tags": [
+    "Client",
+    "HTTP"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.4"
 }
 ,
 {
