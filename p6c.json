@@ -9046,8 +9046,9 @@
     
   ],
   "depends": [
-    "File::Temp",
     "File::Find",
+    "File::Temp",
+    "File::Which",
     "Terminal::ANSIColor",
     "Log::Async",
     "URL",
