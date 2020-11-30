@@ -3854,52 +3854,6 @@
     
   ],
   "depends": [
-    "UUID",
-    "Log::Async",
-    "Net::ZMQ:ver<0.8>",
-    "JSON::Tiny",
-    "Digest::HMAC",
-    "Digest::SHA256::Native"
-  ],
-  "description": "Raku Kernel for Jupyter Notebooks",
-  "license": "Artistic-2.0",
-  "name": "Jupyter::Kernel",
-  "perl": "6.*",
-  "provides": {
-    "Jupyter::Kernel": "lib/Jupyter/Kernel.rakumod",
-    "Jupyter::Kernel::Comm": "lib/Jupyter/Kernel/Comm.rakumod",
-    "Jupyter::Kernel::Comms": "lib/Jupyter/Kernel/Comms.rakumod",
-    "Jupyter::Kernel::Handler": "lib/Jupyter/Kernel/Handler.rakumod",
-    "Jupyter::Kernel::History": "lib/Jupyter/Kernel/History.rakumod",
-    "Jupyter::Kernel::Magics": "lib/Jupyter/Kernel/Magics.rakumod",
-    "Jupyter::Kernel::Paths": "lib/Jupyter/Kernel/Paths.rakumod",
-    "Jupyter::Kernel::Response": "lib/Jupyter/Kernel/Response.rakumod",
-    "Jupyter::Kernel::Sandbox": "lib/Jupyter/Kernel/Sandbox.rakumod",
-    "Jupyter::Kernel::Sandbox::Autocomplete": "lib/Jupyter/Kernel/Sandbox/Autocomplete.rakumod",
-    "Jupyter::Kernel::Service": "lib/Jupyter/Kernel/Service.rakumod"
-  },
-  "resources": [
-    "logo-32x32.png",
-    "logo-64x64.png"
-  ],
-  "source-url": "git://github.com/bduggan/p6-jupyter-kernel.git",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.16"
-}
-,
-{
-  "authors": [
-    "Brian Duggan"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     
   ],
   "description": "Asynchronous logging with supplies and taps",
