@@ -1871,17 +1871,17 @@
   "depends": [
     
   ],
-  "description": "A module that works on older Rakudo versions but segfaults on newer ones.",
+  "description": "A module that works on older Rakudo versions but not newer ones.",
   "license": "GPL-3.0-or-later",
-  "name": "Foo::Regressed::Very",
+  "name": "Foo::Regressed",
   "perl": "6.c",
   "provides": {
-    "Foo::Regressed::Very": "lib/Foo/Regressed/Very.pm6"
+    "Foo::Regressed": "lib/Foo/Regressed.pm6"
   },
   "resources": [
     
   ],
-  "source-url": "git://github.com/AlexDaniel/foo-regressed-very.git",
+  "source-url": "git://github.com/AlexDaniel/foo-regressed.git",
   "tags": [
     
   ],
@@ -1903,17 +1903,17 @@
   "depends": [
     
   ],
-  "description": "A module that works on older Rakudo versions but not newer ones.",
+  "description": "A module that works on older Rakudo versions but segfaults on newer ones.",
   "license": "GPL-3.0-or-later",
-  "name": "Foo::Regressed",
+  "name": "Foo::Regressed::Very",
   "perl": "6.c",
   "provides": {
-    "Foo::Regressed": "lib/Foo/Regressed.pm6"
+    "Foo::Regressed::Very": "lib/Foo/Regressed/Very.pm6"
   },
   "resources": [
     
   ],
-  "source-url": "git://github.com/AlexDaniel/foo-regressed.git",
+  "source-url": "git://github.com/AlexDaniel/foo-regressed-very.git",
   "tags": [
     
   ],
@@ -2121,6 +2121,28 @@
 }
 ,
 {
+  "author": "github:Altai-man",
+  "depends": [
+    "Compress::Bzip2::Raw"
+  ],
+  "description": "High-level bindings to libbzip2",
+  "license": "Artistic-2.0",
+  "name": "Compress::Bzip2",
+  "perl": "6.*",
+  "provides": {
+    "Compress::Bzip2": "lib/Compress/Bzip2.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/Altai-man/perl6-Compress-Bzip2.git",
+  "tags": [
+    "Compression"
+  ],
+  "version": "0.4.1"
+}
+,
+{
   "auth": "github:Altai-man",
   "depends": [
     
@@ -2141,28 +2163,6 @@
     "NativeCall"
   ],
   "version": "0.2.2"
-}
-,
-{
-  "author": "github:Altai-man",
-  "depends": [
-    "Compress::Bzip2::Raw"
-  ],
-  "description": "High-level bindings to libbzip2",
-  "license": "Artistic-2.0",
-  "name": "Compress::Bzip2",
-  "perl": "6.*",
-  "provides": {
-    "Compress::Bzip2": "lib/Compress/Bzip2.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/Altai-man/perl6-Compress-Bzip2.git",
-  "tags": [
-    "Compression"
-  ],
-  "version": "0.4.1"
 }
 ,
 {
@@ -3844,6 +3844,52 @@
     
   ],
   "version": "0.0.4"
+}
+,
+{
+  "authors": [
+    "Brian Duggan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "UUID",
+    "Log::Async",
+    "Net::ZMQ:ver<0.8>",
+    "JSON::Tiny",
+    "Digest::HMAC",
+    "Digest::SHA256::Native"
+  ],
+  "description": "Raku Kernel for Jupyter Notebooks",
+  "license": "Artistic-2.0",
+  "name": "Jupyter::Kernel",
+  "perl": "6.*",
+  "provides": {
+    "Jupyter::Kernel": "lib/Jupyter/Kernel.rakumod",
+    "Jupyter::Kernel::Comm": "lib/Jupyter/Kernel/Comm.rakumod",
+    "Jupyter::Kernel::Comms": "lib/Jupyter/Kernel/Comms.rakumod",
+    "Jupyter::Kernel::Handler": "lib/Jupyter/Kernel/Handler.rakumod",
+    "Jupyter::Kernel::History": "lib/Jupyter/Kernel/History.rakumod",
+    "Jupyter::Kernel::Magics": "lib/Jupyter/Kernel/Magics.rakumod",
+    "Jupyter::Kernel::Paths": "lib/Jupyter/Kernel/Paths.rakumod",
+    "Jupyter::Kernel::Response": "lib/Jupyter/Kernel/Response.rakumod",
+    "Jupyter::Kernel::Sandbox": "lib/Jupyter/Kernel/Sandbox.rakumod",
+    "Jupyter::Kernel::Sandbox::Autocomplete": "lib/Jupyter/Kernel/Sandbox/Autocomplete.rakumod",
+    "Jupyter::Kernel::Service": "lib/Jupyter/Kernel/Service.rakumod"
+  },
+  "resources": [
+    "logo-32x32.png",
+    "logo-64x64.png"
+  ],
+  "source-url": "git://github.com/bduggan/p6-jupyter-kernel.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.16"
 }
 ,
 {
@@ -5595,26 +5641,6 @@
 }
 ,
 {
-  "author": "cygx <cygx@cpan.org>",
-  "depends": [
-    
-  ],
-  "description": "Reads RGBA image data from text files",
-  "license": "BSL-1.0",
-  "name": "Image::RGBA::Text",
-  "perl": "6.*",
-  "provides": {
-    "Image::RGBA::Text": "lib/Image/RGBA/Text.pm6"
-  },
-  "source-url": "git://github.com/cygx/p6-image-rgba-text.git",
-  "support": {
-    "bugtracker": "https://github.com/cygx/p6-image-rgba-text/issues",
-    "source": "https://github.com/cygx/p6-image-rgba-text"
-  },
-  "version": "*"
-}
-,
-{
   "auth": "github:cygx",
   "author": "cygx",
   "description": "Create and manipulate 32-bit RGBA images",
@@ -5639,6 +5665,26 @@
   "depends": [
     
   ],
+  "description": "Reads RGBA image data from text files",
+  "license": "BSL-1.0",
+  "name": "Image::RGBA::Text",
+  "perl": "6.*",
+  "provides": {
+    "Image::RGBA::Text": "lib/Image/RGBA/Text.pm6"
+  },
+  "source-url": "git://github.com/cygx/p6-image-rgba-text.git",
+  "support": {
+    "bugtracker": "https://github.com/cygx/p6-image-rgba-text/issues",
+    "source": "https://github.com/cygx/p6-image-rgba-text"
+  },
+  "version": "*"
+}
+,
+{
+  "author": "cygx <cygx@cpan.org>",
+  "depends": [
+    
+  ],
   "description": "Enables EVAL :lang<nqp>",
   "license": "BSL-1.0",
   "name": "NQP::Eval",
@@ -5652,6 +5698,44 @@
     "source": "https://github.com/cygx/p6-nqp-eval"
   },
   "version": "*"
+}
+,
+{
+  "auth": "github:cygx",
+  "authors": [
+    "cygx"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Bindings for the Tiny C Compiler",
+  "license": "BSL-1.0",
+  "name": "TinyCC",
+  "perl": "6.c",
+  "provides": {
+    "TinyCC": "lib/TinyCC.pm",
+    "TinyCC::Binary": "lib/TinyCC/Binary.pm",
+    "TinyCC::Bundled": "lib/TinyCC/Bundled.pm",
+    "TinyCC::CSub": "lib/TinyCC/CSub.pm",
+    "TinyCC::Compiler": "lib/TinyCC/Compiler.pm",
+    "TinyCC::Eval": "lib/TinyCC/Eval.pm",
+    "TinyCC::State": "lib/TinyCC/State.pm",
+    "TinyCC::Typeof": "lib/TinyCC/Typeof.pm"
+  },
+  "repo-type": "git",
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/cygx/p6-tinycc.git",
+  "support": {
+    "bugtracker": "https://github.com/cygx/p6-tinycc/issues",
+    "source": "https://github.com/cygx/p6-tinycc"
+  },
+  "tags": [
+    "C",
+    "compiler"
+  ],
+  "version": "0.2.3"
 }
 ,
 {
@@ -5772,44 +5856,6 @@
     "source": "https://github.com/cygx/p6-tinycc-resources-win64"
   },
   "version": "0.2"
-}
-,
-{
-  "auth": "github:cygx",
-  "authors": [
-    "cygx"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Bindings for the Tiny C Compiler",
-  "license": "BSL-1.0",
-  "name": "TinyCC",
-  "perl": "6.c",
-  "provides": {
-    "TinyCC": "lib/TinyCC.pm",
-    "TinyCC::Binary": "lib/TinyCC/Binary.pm",
-    "TinyCC::Bundled": "lib/TinyCC/Bundled.pm",
-    "TinyCC::CSub": "lib/TinyCC/CSub.pm",
-    "TinyCC::Compiler": "lib/TinyCC/Compiler.pm",
-    "TinyCC::Eval": "lib/TinyCC/Eval.pm",
-    "TinyCC::State": "lib/TinyCC/State.pm",
-    "TinyCC::Typeof": "lib/TinyCC/Typeof.pm"
-  },
-  "repo-type": "git",
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/cygx/p6-tinycc.git",
-  "support": {
-    "bugtracker": "https://github.com/cygx/p6-tinycc/issues",
-    "source": "https://github.com/cygx/p6-tinycc"
-  },
-  "tags": [
-    "C",
-    "compiler"
-  ],
-  "version": "0.2.3"
 }
 ,
 {
@@ -8851,167 +8897,6 @@
 }
 ,
 {
-  "auth": "github:hythm7",
-  "authors": [
-    "Haytham Elganiny"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Terminal::ANSIColor",
-    "Pakku::Spec"
-  ],
-  "description": "Pakku Meta",
-  "license": "Artistic-2.0",
-  "name": "Pakku::Meta",
-  "perl": "6.d",
-  "provides": {
-    "Pakku::Meta": "lib/Pakku/Meta.rakumod",
-    "X::Pakku::Meta": "lib/X/Pakku/Meta.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/hythm7/Pakku-Meta.git",
-  "tags": [
-    "meta",
-    "meta6",
-    "module",
-    "package",
-    "distribution"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "auth": "github:hythm7",
-  "authors": [
-    "Haytham Elganiny"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "LibCurl",
-    "Retry",
-    "Pakku::Spec"
-  ],
-  "description": "Pakku RecMan Client",
-  "license": "Artistic-2.0",
-  "name": "Pakku::RecMan::Client",
-  "perl": "6.d",
-  "provides": {
-    "Pakku::RecMan::Client": "lib/Pakku/RecMan/Client.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/hythm7/Pakku-RecMan-Client.git",
-  "tags": [
-    "meta",
-    "pakku",
-    "recman",
-    "manager",
-    "package",
-    "module",
-    "distribution",
-    "recommendation"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "auth": "github:hythm7",
-  "authors": [
-    "Haytham Elganiny"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "JSON::Fast",
-    "File::Find",
-    "DB::SQLite",
-    "Badger",
-    "LibCurl",
-    "Archive::Libarchive",
-    "Cro::HTTP",
-    "Pakku::Spec",
-    "Pakku::Meta",
-    "Pakku::RecMan::Client"
-  ],
-  "description": "Pakku Recommendation Manager",
-  "license": "Artistic-2.0",
-  "name": "Pakku::RecMan",
-  "perl": "6.d",
-  "provides": {
-    "Pakku::RecMan": "lib/Pakku/RecMan.rakumod"
-  },
-  "resources": [
-    "sql/recman.sql"
-  ],
-  "source-url": "https://github.com/hythm7/Pakku-RecMan.git",
-  "tags": [
-    "pakku",
-    "recman",
-    "package",
-    "manager",
-    "recommendation",
-    "module",
-    "distribution",
-    "spec",
-    "meta"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
-}
-,
-{
-  "auth": "github:hythm7",
-  "authors": [
-    "Haytham Elganiny"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Pakku dependency specification",
-  "license": "Artistic-2.0",
-  "name": "Pakku::Spec",
-  "perl": "6.d",
-  "provides": {
-    "Pakku::Spec": "lib/Pakku/Spec.rakumod",
-    "X::Pakku::Spec": "lib/X/Pakku/Spec.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/hythm7/Pakku-Spec.git",
-  "tags": [
-    "Pakku",
-    "spec",
-    "meta",
-    "dependency",
-    "specification"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
   "api": "",
   "auth": "github:hythm7",
   "authors": [
@@ -9071,6 +8956,167 @@
     
   ],
   "version": "pupa"
+}
+,
+{
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Terminal::ANSIColor",
+    "Pakku::Spec"
+  ],
+  "description": "Pakku Meta",
+  "license": "Artistic-2.0",
+  "name": "Pakku::Meta",
+  "perl": "6.d",
+  "provides": {
+    "Pakku::Meta": "lib/Pakku/Meta.rakumod",
+    "X::Pakku::Meta": "lib/X/Pakku/Meta.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/hythm7/Pakku-Meta.git",
+  "tags": [
+    "meta",
+    "meta6",
+    "module",
+    "package",
+    "distribution"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast",
+    "File::Find",
+    "DB::SQLite",
+    "Badger",
+    "LibCurl",
+    "Archive::Libarchive",
+    "Cro::HTTP",
+    "Pakku::Spec",
+    "Pakku::Meta",
+    "Pakku::RecMan::Client"
+  ],
+  "description": "Pakku Recommendation Manager",
+  "license": "Artistic-2.0",
+  "name": "Pakku::RecMan",
+  "perl": "6.d",
+  "provides": {
+    "Pakku::RecMan": "lib/Pakku/RecMan.rakumod"
+  },
+  "resources": [
+    "sql/recman.sql"
+  ],
+  "source-url": "https://github.com/hythm7/Pakku-RecMan.git",
+  "tags": [
+    "pakku",
+    "recman",
+    "package",
+    "manager",
+    "recommendation",
+    "module",
+    "distribution",
+    "spec",
+    "meta"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibCurl",
+    "Retry",
+    "Pakku::Spec"
+  ],
+  "description": "Pakku RecMan Client",
+  "license": "Artistic-2.0",
+  "name": "Pakku::RecMan::Client",
+  "perl": "6.d",
+  "provides": {
+    "Pakku::RecMan::Client": "lib/Pakku/RecMan/Client.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/hythm7/Pakku-RecMan-Client.git",
+  "tags": [
+    "meta",
+    "pakku",
+    "recman",
+    "manager",
+    "package",
+    "module",
+    "distribution",
+    "recommendation"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Pakku dependency specification",
+  "license": "Artistic-2.0",
+  "name": "Pakku::Spec",
+  "perl": "6.d",
+  "provides": {
+    "Pakku::Spec": "lib/Pakku/Spec.rakumod",
+    "X::Pakku::Spec": "lib/X/Pakku/Spec.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/hythm7/Pakku-Spec.git",
+  "tags": [
+    "Pakku",
+    "spec",
+    "meta",
+    "dependency",
+    "specification"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
 }
 ,
 {
@@ -12986,6 +13032,20 @@
 ,
 {
   "depends": [
+    "XML::Writer"
+  ],
+  "description": "A Perl 6 module to generate SVG (Scalable Vector Graphics)",
+  "name": "SVG",
+  "perl": "6.*",
+  "provides": {
+    "SVG": "lib/SVG.pm"
+  },
+  "source-url": "git://github.com/moritz/svg.git",
+  "version": "*"
+}
+,
+{
+  "depends": [
     "SVG"
   ],
   "description": "A Perl 6 charting and plotting library that produces SVG output",
@@ -12998,20 +13058,6 @@
     "SVG::Plot::Pie": "lib/SVG/Plot/Pie.pm"
   },
   "source-url": "git://github.com/moritz/svg-plot.git",
-  "version": "*"
-}
-,
-{
-  "depends": [
-    "XML::Writer"
-  ],
-  "description": "A Perl 6 module to generate SVG (Scalable Vector Graphics)",
-  "name": "SVG",
-  "perl": "6.*",
-  "provides": {
-    "SVG": "lib/SVG.pm"
-  },
-  "source-url": "git://github.com/moritz/svg.git",
   "version": "*"
 }
 ,
@@ -16624,6 +16670,27 @@
     "tony-o"
   ],
   "depends": [
+    
+  ],
+  "description": "role for HTTP::Server so we can have start building out some servers with interchangeable backends",
+  "meta-version": "0",
+  "name": "HTTP::Roles",
+  "perl": "6.*",
+  "provides": {
+    "HTTP::Request::Role": "lib/HTTP/Request/Role.pm6",
+    "HTTP::Response::Role": "lib/HTTP/Response/Role.pm6",
+    "HTTP::Server::Role": "lib/HTTP/Server/Role.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/HTTP-Server.git",
+  "version": "0.2.0"
+}
+,
+{
+  "auth": "github:tony-o",
+  "authors": [
+    "tony-o"
+  ],
+  "depends": [
     "HTTP::Roles"
   ],
   "description": "Asynchronous Base HTTP Server",
@@ -16641,27 +16708,6 @@
     "source": "git://github.com/raku-community-modules/HTTP-Server-Async.git"
   },
   "version": "0.1.9"
-}
-,
-{
-  "auth": "github:tony-o",
-  "authors": [
-    "tony-o"
-  ],
-  "depends": [
-    
-  ],
-  "description": "role for HTTP::Server so we can have start building out some servers with interchangeable backends",
-  "meta-version": "0",
-  "name": "HTTP::Roles",
-  "perl": "6.*",
-  "provides": {
-    "HTTP::Request::Role": "lib/HTTP/Request/Role.pm6",
-    "HTTP::Response::Role": "lib/HTTP/Response/Role.pm6",
-    "HTTP::Server::Role": "lib/HTTP/Server/Role.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/HTTP-Server.git",
-  "version": "0.2.0"
 }
 ,
 {
@@ -16874,30 +16920,6 @@
     "Zoffix Znet"
   ],
   "depends": [
-    "IRC::Client",
-    "DBIish"
-  ],
-  "description": "IRC factoid bot",
-  "license": "Artistic-2.0",
-  "name": "IRC::Client::Plugin::Factoid",
-  "perl": "6.c",
-  "provides": {
-    "IRC::Client::Plugin::Factoid": "lib/IRC/Client/Plugin/Factoid.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/IRC-Client-Plugin-Factoid.git"
-  },
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001001"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
     "IO::Socket::Async::SSL"
   ],
   "description": "Extendable Internet Relay Chat client",
@@ -16925,6 +16947,30 @@
     "Test::Notice"
   ],
   "version": "3.007011"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "IRC::Client",
+    "DBIish"
+  ],
+  "description": "IRC factoid bot",
+  "license": "Artistic-2.0",
+  "name": "IRC::Client::Plugin::Factoid",
+  "perl": "6.c",
+  "provides": {
+    "IRC::Client::Plugin::Factoid": "lib/IRC/Client/Plugin/Factoid.pm6"
+  },
+  "support": {
+    "source": "git://github.com/raku-community-modules/IRC-Client-Plugin-Factoid.git"
+  },
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.001001"
 }
 ,
 {
@@ -17378,6 +17424,20 @@
   },
   "source-url": "git://github.com/raku-community-modules/PSGI.git",
   "version": "1.2.0"
+}
+,
+{
+  "depends": [
+    
+  ],
+  "description": "An RSpec-like testing framework for Raku",
+  "name": "PSpec",
+  "perl": "6.*",
+  "provides": {
+    "PSpec": "lib/PSpec.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/PSpec.git",
+  "version": "*"
 }
 ,
 {
@@ -17973,34 +18033,6 @@
 ,
 {
   "authors": [
-    "David Farrell"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Encode and decode URIs according to RFC 3986",
-  "name": "URI::Encode",
-  "perl": "6.*",
-  "provides": {
-    "URI::Encode": "lib/URI/Encode.pm6"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/raku-community-modules/URI-Encode.git",
-  "support": {
-    "bugtracker": "https://github.com/raku-community-modules/URI-Encode/issues",
-    "source": "git@github.com:raku-community-modules/URI-Encode.git"
-  },
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.08"
-}
-,
-{
-  "authors": [
     "Perl 6 community"
   ],
   "depends": [
@@ -18031,24 +18063,31 @@
 }
 ,
 {
-  "depends": [
-    "Web",
-    "SCGI",
-    "HTTP::Easy",
-    "Web::Template",
-    "DB::Model::Easy",
-    "JSON::Tiny"
+  "authors": [
+    "David Farrell"
   ],
-  "description": "MVC Framework for Web Apps in Raku",
-  "name": "Web::App::MVC",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Encode and decode URIs according to RFC 3986",
+  "name": "URI::Encode",
   "perl": "6.*",
   "provides": {
-    "Web::App::MVC": "lib/Web/App/MVC.pm6",
-    "Web::App::MVC::Controller": "lib/Web/App/MVC/Controller.pm6",
-    "Web::App::MVC::Controller::MethodDispatch": "lib/Web/App/MVC/Controller/MethodDispatch.pm6"
+    "URI::Encode": "lib/URI/Encode.pm6"
   },
-  "source-url": "git://github.com/raku-community-modules/Web-App-MVC.git",
-  "version": "*"
+  "source-type": "git",
+  "source-url": "git://github.com/raku-community-modules/URI-Encode.git",
+  "support": {
+    "bugtracker": "https://github.com/raku-community-modules/URI-Encode/issues",
+    "source": "git@github.com:raku-community-modules/URI-Encode.git"
+  },
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.08"
 }
 ,
 {
@@ -18074,6 +18113,27 @@
   },
   "source-url": "git://github.com/raku-community-modles/Web-App.git",
   "version": "0.9.2"
+}
+,
+{
+  "depends": [
+    "Web",
+    "SCGI",
+    "HTTP::Easy",
+    "Web::Template",
+    "DB::Model::Easy",
+    "JSON::Tiny"
+  ],
+  "description": "MVC Framework for Web Apps in Raku",
+  "name": "Web::App::MVC",
+  "perl": "6.*",
+  "provides": {
+    "Web::App::MVC": "lib/Web/App/MVC.pm6",
+    "Web::App::MVC::Controller": "lib/Web/App/MVC/Controller.pm6",
+    "Web::App::MVC::Controller::MethodDispatch": "lib/Web/App/MVC/Controller/MethodDispatch.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/Web-App-MVC.git",
+  "version": "*"
 }
 ,
 {
@@ -18120,6 +18180,37 @@
     "Test::META"
   ],
   "version": "1.001002"
+}
+,
+{
+  "auth": "github:perl6-community-modules",
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "HTTP::UserAgent",
+    "JSON::Fast",
+    "IO::Socket::SSL"
+  ],
+  "description": "No-nonsense, simple HTTPS client with JSON decoder",
+  "license": "Artistic-2.0",
+  "name": "WWW",
+  "perl": "6.*",
+  "provides": {
+    "WWW": "lib/WWW.pm6"
+  },
+  "support": {
+    "source": "https://github.com/perl6-community-modules/WWW.git"
+  },
+  "tags": [
+    "HTTP"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::When",
+    "Test::META"
+  ],
+  "version": "1.005004"
 }
 ,
 {
@@ -18180,34 +18271,25 @@
 }
 ,
 {
-  "auth": "github:perl6-community-modules",
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "HTTP::UserAgent",
-    "JSON::Fast",
-    "IO::Socket::SSL"
-  ],
-  "description": "No-nonsense, simple HTTPS client with JSON decoder",
+  "author": "Timothy Totten",
+  "description": "A full-featured, pure-perl XML library (parsing, manipulation, emitting, queries, etc.)",
   "license": "Artistic-2.0",
-  "name": "WWW",
+  "name": "XML",
   "perl": "6.*",
   "provides": {
-    "WWW": "lib/WWW.pm6"
+    "XML": "lib/XML.pm6",
+    "XML::CDATA": "lib/XML/CDATA.pm6",
+    "XML::Comment": "lib/XML/Comment.pm6",
+    "XML::Document": "lib/XML/Document.pm6",
+    "XML::Element": "lib/XML/Element.pm6",
+    "XML::Entity": "lib/XML/Entity.pm6",
+    "XML::Grammar": "lib/XML/Grammar.pm6",
+    "XML::Node": "lib/XML/Node.pm6",
+    "XML::PI": "lib/XML/PI.pm6",
+    "XML::Text": "lib/XML/Text.pm6"
   },
-  "support": {
-    "source": "https://github.com/perl6-community-modules/WWW.git"
-  },
-  "tags": [
-    "HTTP"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::When",
-    "Test::META"
-  ],
-  "version": "1.005004"
+  "source-url": "git://github.com/raku-community-modules/XML.git",
+  "version": "0.3.0"
 }
 ,
 {
@@ -18240,28 +18322,6 @@
   },
   "source-url": "git://github.com/raku-community-modules/XML-Query.git",
   "version": "*"
-}
-,
-{
-  "author": "Timothy Totten",
-  "description": "A full-featured, pure-perl XML library (parsing, manipulation, emitting, queries, etc.)",
-  "license": "Artistic-2.0",
-  "name": "XML",
-  "perl": "6.*",
-  "provides": {
-    "XML": "lib/XML.pm6",
-    "XML::CDATA": "lib/XML/CDATA.pm6",
-    "XML::Comment": "lib/XML/Comment.pm6",
-    "XML::Document": "lib/XML/Document.pm6",
-    "XML::Element": "lib/XML/Element.pm6",
-    "XML::Entity": "lib/XML/Entity.pm6",
-    "XML::Grammar": "lib/XML/Grammar.pm6",
-    "XML::Node": "lib/XML/Node.pm6",
-    "XML::PI": "lib/XML/PI.pm6",
-    "XML::Text": "lib/XML/Text.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/XML.git",
-  "version": "0.3.0"
 }
 ,
 {
@@ -19025,6 +19085,21 @@
 {
   "author": "github:retupmoca",
   "depends": [
+    "Compress::Zlib::Raw"
+  ],
+  "description": "Nicer zlib interface",
+  "name": "Compress::Zlib",
+  "perl": "6.*",
+  "provides": {
+    "Compress::Zlib": "lib/Compress/Zlib.pm6"
+  },
+  "source-url": "git://github.com/retupmoca/P6-Compress-Zlib.git",
+  "version": "1.1.0"
+}
+,
+{
+  "author": "github:retupmoca",
+  "depends": [
     
   ],
   "description": "Low-level bindings to zlib",
@@ -19038,21 +19113,6 @@
   ],
   "source-url": "git://github.com/retupmoca/P6-Compress-Zlib-Raw.git",
   "version": "1.0.1"
-}
-,
-{
-  "author": "github:retupmoca",
-  "depends": [
-    "Compress::Zlib::Raw"
-  ],
-  "description": "Nicer zlib interface",
-  "name": "Compress::Zlib",
-  "perl": "6.*",
-  "provides": {
-    "Compress::Zlib": "lib/Compress/Zlib.pm6"
-  },
-  "source-url": "git://github.com/retupmoca/P6-Compress-Zlib.git",
-  "version": "1.1.0"
 }
 ,
 {
@@ -21622,35 +21682,6 @@
 {
   "authors": "Tobias Boege",
   "build-depends": [
-    "make:from<bin>",
-    "g++:from<bin>"
-  ],
-  "depends": [
-    "SAT"
-  ],
-  "description": "SAT solver MiniSAT",
-  "license": "Artistic-2.0",
-  "name": "SAT::Solver::MiniSAT",
-  "perl": "6.c",
-  "provides": {
-    "SAT::Solver::MiniSAT": "lib/SAT/Solver/MiniSAT.pm6"
-  },
-  "resources": [
-    "minisat"
-  ],
-  "source-url": "git://github.com/taboege/raku-SAT-Solver-MiniSAT.git",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "authors": "Tobias Boege",
-  "build-depends": [
     
   ],
   "depends": [
@@ -21668,6 +21699,35 @@
     
   ],
   "source-url": "git://github.com/taboege/raku-SAT.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "authors": "Tobias Boege",
+  "build-depends": [
+    "make:from<bin>",
+    "g++:from<bin>"
+  ],
+  "depends": [
+    "SAT"
+  ],
+  "description": "SAT solver MiniSAT",
+  "license": "Artistic-2.0",
+  "name": "SAT::Solver::MiniSAT",
+  "perl": "6.c",
+  "provides": {
+    "SAT::Solver::MiniSAT": "lib/SAT/Solver/MiniSAT.pm6"
+  },
+  "resources": [
+    "minisat"
+  ],
+  "source-url": "git://github.com/taboege/raku-SAT-Solver-MiniSAT.git",
   "tags": [
     
   ],
@@ -23880,28 +23940,6 @@
     "Tony O'Dell"
   ],
   "depends": [
-    "Event::Emitter"
-  ],
-  "description": "Inter-process event emitter for Event::Emitter.",
-  "name": "Event::Emitter::Inter-Process",
-  "perl": "6.*",
-  "provides": {
-    "Event::Emitter::Inter-Process": "lib/Event/Emitter/Inter-Process.pm6"
-  },
-  "source-url": "git://github.com/tony-o/perl6-event-emitter-interprocess.git",
-  "support": {
-    "bugtracker": "https://github.com/tony-o/perl6-event-emitter-interprocess/issues",
-    "source": "git://github.com/tony-o/perl6-event-emitter-interprocess.git"
-  },
-  "version": "1.0.0"
-}
-,
-{
-  "auth": "github:tony-o",
-  "authors": [
-    "Tony O'Dell"
-  ],
-  "depends": [
     
   ],
   "description": "Awesome event emitter.  Threaded, or not.",
@@ -23921,6 +23959,28 @@
     "source": "git://github.com/tony-o/perl6-event-emitter.git"
   },
   "version": "1.0.2"
+}
+,
+{
+  "auth": "github:tony-o",
+  "authors": [
+    "Tony O'Dell"
+  ],
+  "depends": [
+    "Event::Emitter"
+  ],
+  "description": "Inter-process event emitter for Event::Emitter.",
+  "name": "Event::Emitter::Inter-Process",
+  "perl": "6.*",
+  "provides": {
+    "Event::Emitter::Inter-Process": "lib/Event/Emitter/Inter-Process.pm6"
+  },
+  "source-url": "git://github.com/tony-o/perl6-event-emitter-interprocess.git",
+  "support": {
+    "bugtracker": "https://github.com/tony-o/perl6-event-emitter-interprocess/issues",
+    "source": "git://github.com/tony-o/perl6-event-emitter-interprocess.git"
+  },
+  "version": "1.0.0"
 }
 ,
 {
@@ -24000,21 +24060,6 @@
   "depends": [
     "XML"
   ],
-  "description": "Parses HTML to produce an XML::Document",
-  "name": "HTML::Parser::XML",
-  "perl": "6.*",
-  "provides": {
-    "HTML::Parser::XML": "lib/HTML/Parser/XML.pm6"
-  },
-  "source-url": "git://github.com/tony-o/perl6-html-parser-xml.git",
-  "version": "0.1.2"
-}
-,
-{
-  "auth": "github:tony-o",
-  "depends": [
-    "XML"
-  ],
   "description": "role for HTML parsing",
   "name": "HTML::Parser",
   "perl": "6.*",
@@ -24023,6 +24068,21 @@
   },
   "source-url": "git://github.com/tony-o/perl6-html-parser.git",
   "version": "0.1.1"
+}
+,
+{
+  "auth": "github:tony-o",
+  "depends": [
+    "XML"
+  ],
+  "description": "Parses HTML to produce an XML::Document",
+  "name": "HTML::Parser::XML",
+  "perl": "6.*",
+  "provides": {
+    "HTML::Parser::XML": "lib/HTML/Parser/XML.pm6"
+  },
+  "source-url": "git://github.com/tony-o/perl6-html-parser-xml.git",
+  "version": "0.1.2"
 }
 ,
 {
@@ -24076,6 +24136,24 @@
 ,
 {
   "auth": "github:tony-o",
+  "depends": [
+    "HTTP::Server"
+  ],
+  "description": "Router for HTTP::Server based servers",
+  "name": "HTTP::Server::Router",
+  "perl": "6.*",
+  "provides": {
+    "HTTP::Server::Router": "lib/HTTP/Server/Router.pm6"
+  },
+  "source-url": "git://github.com/tony-o/perl6-http-server-router.git",
+  "test-depends": [
+    "HTTP::Server::Async"
+  ],
+  "version": "0.1.7"
+}
+,
+{
+  "auth": "github:tony-o",
   "authors": [
     "tony-o"
   ],
@@ -24106,24 +24184,6 @@
     "HTTP::Server::Async"
   ],
   "version": "0.0.1"
-}
-,
-{
-  "auth": "github:tony-o",
-  "depends": [
-    "HTTP::Server"
-  ],
-  "description": "Router for HTTP::Server based servers",
-  "name": "HTTP::Server::Router",
-  "perl": "6.*",
-  "provides": {
-    "HTTP::Server::Router": "lib/HTTP/Server/Router.pm6"
-  },
-  "source-url": "git://github.com/tony-o/perl6-http-server-router.git",
-  "test-depends": [
-    "HTTP::Server::Async"
-  ],
-  "version": "0.1.7"
 }
 ,
 {
@@ -24879,35 +24939,6 @@
     "ugexe"
   ],
   "depends": [
-    "Distribution::Common"
-  ],
-  "description": "Create an installable Distribution from common remote sources",
-  "license": "Artistic-2.0",
-  "name": "Distribution::Common::Remote",
-  "perl": "6.c",
-  "provides": {
-    "Distribution::Common::Remote::Github": "lib/Distribution/Common/Remote/Github.pm6",
-    "Distribution::IO::Remote::Github": "lib/Distribution/IO/Remote/Github.pm6"
-  },
-  "support": {
-    "bugtracker": "https://github.com/ugexe/Perl6-Distribution--Common--Remote/issues",
-    "source": "https://github.com/ugexe/Perl6-Distribution--Common--Remote.git"
-  },
-  "tags": [
-    "Distribution",
-    "Remote",
-    "Github"
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "api": "0",
-  "auth": "github:ugexe",
-  "authors": [
-    "ugexe"
-  ],
-  "depends": [
     
   ],
   "description": "Create an installable Distribution from common sources",
@@ -24928,6 +24959,35 @@
     "bugtracker": "https://github.com/ugexe/Perl6-Distribution--Common/issues",
     "source": "https://github.com/ugexe/Perl6-Distribution--Common.git"
   },
+  "version": "0.0.2"
+}
+,
+{
+  "api": "0",
+  "auth": "github:ugexe",
+  "authors": [
+    "ugexe"
+  ],
+  "depends": [
+    "Distribution::Common"
+  ],
+  "description": "Create an installable Distribution from common remote sources",
+  "license": "Artistic-2.0",
+  "name": "Distribution::Common::Remote",
+  "perl": "6.c",
+  "provides": {
+    "Distribution::Common::Remote::Github": "lib/Distribution/Common/Remote/Github.pm6",
+    "Distribution::IO::Remote::Github": "lib/Distribution/IO/Remote/Github.pm6"
+  },
+  "support": {
+    "bugtracker": "https://github.com/ugexe/Perl6-Distribution--Common--Remote/issues",
+    "source": "https://github.com/ugexe/Perl6-Distribution--Common--Remote.git"
+  },
+  "tags": [
+    "Distribution",
+    "Remote",
+    "Github"
+  ],
   "version": "0.0.2"
 }
 ,
