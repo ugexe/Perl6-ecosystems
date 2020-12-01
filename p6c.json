@@ -8267,16 +8267,17 @@
   "meta-version": "0",
   "name": "Shell::Piping",
   "perl": "6.c",
-  "production": false,
+  "production": true,
   "provides": {
     "Shell::Piping": "lib/Shell/Piping.rakumod",
     "Shell::Piping::Switch": "lib/Shell/Piping/Switch.rakumod",
     "Shell::Piping::Whereceptions": "lib/Shell/Piping/Whereceptions.rakumod"
   },
+  "raku": null,
   "resources": [
     
   ],
-  "source-url": "https://github.com/gfldex/raku-shell-piping.git",
+  "source-url": "https://github.com/gfldex/raku-shell-piping/archive/raku-shell-piping-0.7.0.tar.gz",
   "support": {
     "source": null
   },
@@ -8287,7 +8288,7 @@
   "test-depends": [
     
   ],
-  "version": "0.6.0"
+  "version": "0.7.0"
 }
 ,
 {
