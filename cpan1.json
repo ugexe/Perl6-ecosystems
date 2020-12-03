@@ -26214,64 +26214,6 @@
   ],
   "description": "NativeCall binding to libui",
   "license": "Artistic-2.0",
-  "name": "Libui",
-  "perl": "6.c",
-  "provides": {
-    "Libui": "lib/Libui.pm6",
-    "Libui::App": "lib/Libui/App.pm6",
-    "Libui::Box": "lib/Libui/Box.pm6",
-    "Libui::Button": "lib/Libui/Button.pm6",
-    "Libui::Checkbox": "lib/Libui/Checkbox.pm6",
-    "Libui::ColorButton": "lib/Libui/ColorButton.pm6",
-    "Libui::Combobox": "lib/Libui/Combobox.pm6",
-    "Libui::Container": "lib/Libui/Container.pm6",
-    "Libui::Control": "lib/Libui/Control.pm6",
-    "Libui::EditableCombobox": "lib/Libui/EditableCombobox.pm6",
-    "Libui::Entry": "lib/Libui/Entry.pm6",
-    "Libui::FontButton": "lib/Libui/FontButton.pm6",
-    "Libui::Form": "lib/Libui/Form.pm6",
-    "Libui::Grid": "lib/Libui/Grid.pm6",
-    "Libui::Group": "lib/Libui/Group.pm6",
-    "Libui::Label": "lib/Libui/Label.pm6",
-    "Libui::Menu": "lib/Libui/Menu.pm6",
-    "Libui::MenuItem": "lib/Libui/MenuItem.pm6",
-    "Libui::MultilineEntry": "lib/Libui/MultilineEntry.pm6",
-    "Libui::Picker": "lib/Libui/Picker.pm6",
-    "Libui::ProgressBar": "lib/Libui/ProgressBar.pm6",
-    "Libui::RadioButton": "lib/Libui/RadioButton.pm6",
-    "Libui::Raw": "lib/Libui/Raw.pm6",
-    "Libui::Separator": "lib/Libui/Separator.pm6",
-    "Libui::Slider": "lib/Libui/Slider.pm6",
-    "Libui::Spinbox": "lib/Libui/Spinbox.pm6",
-    "Libui::Tab": "lib/Libui/Tab.pm6",
-    "Libui::Types": "lib/Libui/Types.pm6",
-    "Libui::Window": "lib/Libui/Window.pm6"
-  },
-  "resources": [
-    "libraries/ui"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Libui-0.0.2.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Color"
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "authors": [
-    "Travis Gibson"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Color"
-  ],
-  "description": "NativeCall binding to libui",
-  "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "Libui",
   "perl": "6.c",
@@ -48473,6 +48415,44 @@
     
   ],
   "version": "0.1.10"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:KOBOLDWIZ",
+  "authors": [
+    "Kobold Wizard Johan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Minimal Statistics package.",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Game::Stats",
+  "perl": "6.c",
+  "provides": {
+    "Game::Stats::Correlation": "lib/Game/Stats/Correlation.pm6",
+    "Game::Stats::Covariance": "lib/Game/Stats/Covariance.pm6",
+    "Game::Stats::DistributionPopulation": "lib/Game/Stats/DistributionPopulation.pm6",
+    "Game::Stats::MarginalDistributionFunction": "lib/Game/Stats/MarginalDistributionFunction.pm6",
+    "Game::Stats::Population": "lib/Game/Stats/Population.pm6",
+    "Game::Stats::Probability": "lib/Game/Stats/Probability.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/p6-Game-Stats-0.2.10.tar.gz",
+  "tags": [
+    "Game",
+    "Stats"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.10"
 }
 ,
 {
