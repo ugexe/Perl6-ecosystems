@@ -25772,37 +25772,6 @@
 }
 ,
 {
-  "auth": "cpan:GARLANDG",
-  "authors": [
-    "Travis Gibson"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Socket constants defined in sys/socket.h",
-  "license": "Artistic-2.0",
-  "name": "Constants::Sys::Socket",
-  "perl": "6.c",
-  "provides": {
-    "Constants::Sys::Socket": "lib/Constants/Sys/Socket.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Constants-Sys-Socket-0.0.2.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
-}
-,
-{
   "authors": [
     "Travis Gibson"
   ],
@@ -26252,6 +26221,41 @@
     
   ],
   "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:GARLANDG",
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "if",
+    "NativeLibs:ver<0.0.5+>"
+  ],
+  "description": "Wrapper for errno modules for Unix and Windows",
+  "license": "Artistic-2.0",
+  "name": "Universal::errno",
+  "perl": "6.c",
+  "provides": {
+    "Universal::errno": "lib/Universal/errno.rakumod",
+    "Universal::errno::Constants": "lib/Universal/errno/Constants.rakumod",
+    "Universal::errno::Unix": "lib/Universal/errno/Unix.rakumod",
+    "Universal::errno::Windows": "lib/Universal/errno/Windows.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Universal-errno-0.1.0.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.0"
 }
 ,
 {
