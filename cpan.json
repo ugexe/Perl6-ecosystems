@@ -25885,6 +25885,39 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/LibUSB-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:GARLANDG",
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "OO binding to libusb",
+  "license": "Artistic-2.0",
+  "name": "LibUSB",
+  "perl": "6.c",
+  "provides": {
+    "LibUSB": "lib/LibUSB.rakumod",
+    "LibUSB::Raw": "lib/LibUSB/Raw.rakumod",
+    "X::LibUSB": "lib/X/LibUSB.rakumod"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/LibUSB-0.0.2.tar.gz",
   "tags": [
     
@@ -25984,64 +26017,6 @@
     "Color"
   ],
   "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "Travis Gibson"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Color"
-  ],
-  "description": "NativeCall binding to libui",
-  "license": "Artistic-2.0",
-  "name": "Libui",
-  "perl": "6.c",
-  "provides": {
-    "Libui": "lib/Libui.pm6",
-    "Libui::App": "lib/Libui/App.pm6",
-    "Libui::Box": "lib/Libui/Box.pm6",
-    "Libui::Button": "lib/Libui/Button.pm6",
-    "Libui::Checkbox": "lib/Libui/Checkbox.pm6",
-    "Libui::ColorButton": "lib/Libui/ColorButton.pm6",
-    "Libui::Combobox": "lib/Libui/Combobox.pm6",
-    "Libui::Container": "lib/Libui/Container.pm6",
-    "Libui::Control": "lib/Libui/Control.pm6",
-    "Libui::EditableCombobox": "lib/Libui/EditableCombobox.pm6",
-    "Libui::Entry": "lib/Libui/Entry.pm6",
-    "Libui::FontButton": "lib/Libui/FontButton.pm6",
-    "Libui::Form": "lib/Libui/Form.pm6",
-    "Libui::Grid": "lib/Libui/Grid.pm6",
-    "Libui::Group": "lib/Libui/Group.pm6",
-    "Libui::Label": "lib/Libui/Label.pm6",
-    "Libui::Menu": "lib/Libui/Menu.pm6",
-    "Libui::MenuItem": "lib/Libui/MenuItem.pm6",
-    "Libui::MultilineEntry": "lib/Libui/MultilineEntry.pm6",
-    "Libui::Picker": "lib/Libui/Picker.pm6",
-    "Libui::ProgressBar": "lib/Libui/ProgressBar.pm6",
-    "Libui::RadioButton": "lib/Libui/RadioButton.pm6",
-    "Libui::Raw": "lib/Libui/Raw.pm6",
-    "Libui::Separator": "lib/Libui/Separator.pm6",
-    "Libui::Slider": "lib/Libui/Slider.pm6",
-    "Libui::Spinbox": "lib/Libui/Spinbox.pm6",
-    "Libui::Tab": "lib/Libui/Tab.pm6",
-    "Libui::Types": "lib/Libui/Types.pm6",
-    "Libui::Window": "lib/Libui/Window.pm6"
-  },
-  "resources": [
-    "libraries/ui"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Libui-0.0.2.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Color"
-  ],
-  "version": "0.0.2"
 }
 ,
 {
