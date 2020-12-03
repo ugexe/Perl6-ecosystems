@@ -25772,6 +25772,37 @@
 }
 ,
 {
+  "auth": "cpan:GARLANDG",
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Socket constants defined in sys/socket.h",
+  "license": "Artistic-2.0",
+  "name": "Constants::Sys::Socket",
+  "perl": "6.c",
+  "provides": {
+    "Constants::Sys::Socket": "lib/Constants/Sys/Socket.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Constants-Sys-Socket-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "authors": [
     "Travis Gibson"
   ],
@@ -48218,6 +48249,47 @@
     "COMPRESSION"
   ],
   "version": "0.0.11"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:KOBOLDWIZ",
+  "authors": [
+    "Koboldwiz"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Curses"
+  ],
+  "description": "small Rogue game library using Curses.",
+  "license": "BSD",
+  "name": "RogueCurses",
+  "perl": "5.c",
+  "provides": {
+    "RogueCurses::NPCs::trenchgnome": "lib/RogueCurses/NPCs::trenchgnome.pm",
+    "RogueCurses::NPCs::trenchgnomeinterface": "lib/RogueCurses/NPCs::trenchgnomeinterface.pm",
+    "RogueCurses::RNG": "lib/RogueCurses/RNG.pm",
+    "RogueCurses::entity": "lib/RogueCurses/entity.pm",
+    "RogueCurses::entitystate": "lib/RogueCurses/entitystate.pm",
+    "RogueCurses::interface": "lib/RogueCurses/interface.pm",
+    "RogueCurses::messageparser": "lib/RogueCurses/messageparser.pm",
+    "RogueCurses::rogueinterface": "lib/RogueCurses/rogueinterface.pm",
+    "RogueCurses::room": "lib/RogueCurses/room.pm",
+    "RogueCurses::screen": "lib/RogueCurses/screen.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/p5-RogueCurses-0.1.10.tar.gz",
+  "tags": [
+    "RogueCurses"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.10"
 }
 ,
 {
