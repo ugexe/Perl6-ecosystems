@@ -26031,6 +26031,64 @@
   ],
   "description": "NativeCall binding to libui",
   "license": "Artistic-2.0",
+  "name": "Libui",
+  "perl": "6.c",
+  "provides": {
+    "Libui": "lib/Libui.pm6",
+    "Libui::App": "lib/Libui/App.pm6",
+    "Libui::Box": "lib/Libui/Box.pm6",
+    "Libui::Button": "lib/Libui/Button.pm6",
+    "Libui::Checkbox": "lib/Libui/Checkbox.pm6",
+    "Libui::ColorButton": "lib/Libui/ColorButton.pm6",
+    "Libui::Combobox": "lib/Libui/Combobox.pm6",
+    "Libui::Container": "lib/Libui/Container.pm6",
+    "Libui::Control": "lib/Libui/Control.pm6",
+    "Libui::EditableCombobox": "lib/Libui/EditableCombobox.pm6",
+    "Libui::Entry": "lib/Libui/Entry.pm6",
+    "Libui::FontButton": "lib/Libui/FontButton.pm6",
+    "Libui::Form": "lib/Libui/Form.pm6",
+    "Libui::Grid": "lib/Libui/Grid.pm6",
+    "Libui::Group": "lib/Libui/Group.pm6",
+    "Libui::Label": "lib/Libui/Label.pm6",
+    "Libui::Menu": "lib/Libui/Menu.pm6",
+    "Libui::MenuItem": "lib/Libui/MenuItem.pm6",
+    "Libui::MultilineEntry": "lib/Libui/MultilineEntry.pm6",
+    "Libui::Picker": "lib/Libui/Picker.pm6",
+    "Libui::ProgressBar": "lib/Libui/ProgressBar.pm6",
+    "Libui::RadioButton": "lib/Libui/RadioButton.pm6",
+    "Libui::Raw": "lib/Libui/Raw.pm6",
+    "Libui::Separator": "lib/Libui/Separator.pm6",
+    "Libui::Slider": "lib/Libui/Slider.pm6",
+    "Libui::Spinbox": "lib/Libui/Spinbox.pm6",
+    "Libui::Tab": "lib/Libui/Tab.pm6",
+    "Libui::Types": "lib/Libui/Types.pm6",
+    "Libui::Window": "lib/Libui/Window.pm6"
+  },
+  "resources": [
+    "libraries/ui"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Libui-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Color"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Color"
+  ],
+  "description": "NativeCall binding to libui",
+  "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "Libui",
   "perl": "6.c",
@@ -48244,6 +48302,47 @@
     
   ],
   "depends": [
+    "Game::Stats"
+  ],
+  "description": "Bayesian Inference based upon ditributions. Minimax, decision theory mostly.",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Game::Bayes",
+  "perl": "6.c",
+  "provides": {
+    "Game::Bayes::Action": "lib/Game/Bayes/Action.pm6",
+    "Game::Bayes::DecisionRule": "lib/Game/Bayes/DecisionRule.pm6",
+    "Game::Bayes::Hypothesis": "lib/Game/Bayes/Hypothesis.pm6",
+    "Game::Bayes::IntegralExp": "lib/Game/Bayes/IntegralExp.pm6",
+    "Game::Bayes::Interval": "lib/Game/Bayes/Interval.pm6",
+    "Game::Bayes::LossFunction": "lib/Game/Bayes/LossFunction.pm6",
+    "Game::Bayes::PosteriorApproximation": "lib/Game/Bayes/PosteriorApproximation.pm6",
+    "Game::Bayes::RiskFunction": "lib/Game/Bayes/RiskFunction.pm6",
+    "Game::Bayes::Strategy": "lib/Game/Bayes/Strategy.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/p6-Game-Bayes-0.2.6.tar.gz",
+  "tags": [
+    "Game",
+    "Bayes"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.6"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:KOBOLDWIZ",
+  "authors": [
+    "Kobold Wizard Johan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Minimal Statistics package.",
@@ -48270,6 +48369,75 @@
     
   ],
   "version": "0.2.10"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:KOBOLDWIZ",
+  "authors": [
+    "Kobold Wizard Johan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Random Number Function based on a Boltzmann Function",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Random::Hawking::Boltzmann",
+  "perl": "6.c",
+  "provides": {
+    "Random::Hawking::Boltzmann::HawkingTemperature": "lib/Random/Hawking/Boltzmann/BoltzmannFunction.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/p6-Random-Hawking-Boltzmann-0.1.3.tar.gz",
+  "tags": [
+    "Random",
+    "Hawking",
+    "Boltzmann"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.3"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:KOBOLDWIZ",
+  "authors": [
+    "Kobold Wizard Johan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Random Number Function based on a Boltzmann Function",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Random::Hawking::Boltzmann",
+  "perl": "6.c",
+  "provides": {
+    "Random::Hawking::Boltzmann::BoltzmannFunction": "lib/Random/Hawking/Boltzmann/BoltzmannFunction.pm6",
+    "Random::Hawking::Boltzmann::HawkingTemperature": "lib/Random/Hawking/Boltzmann/HawkingTemperature.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/p6-Random-Hawking-Boltzmann-0.1.4.tar.gz",
+  "tags": [
+    "Random",
+    "Hawking",
+    "Boltzmann"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.4"
 }
 ,
 {
@@ -89363,99 +89531,6 @@
     
   ],
   "version": "1.24.2"
-}
-,
-{
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake",
-    "Pod::To::Markdown"
-  ],
-  "depends": [
-    "Method::Also"
-  ],
-  "description": "read font files and render glyphs from Raku using FreeType2",
-  "license": "Artistic-2.0",
-  "name": "Font::FreeType",
-  "perl": "6",
-  "provides": {
-    "Font::FreeType": "lib/Font/FreeType.rakumod",
-    "Font::FreeType::BBox": "lib/Font/FreeType/BBox.rakumod",
-    "Font::FreeType::BitMap": "lib/Font/FreeType/BitMap.rakumod",
-    "Font::FreeType::CharMap": "lib/Font/FreeType/CharMap.rakumod",
-    "Font::FreeType::Error": "lib/Font/FreeType/Error.rakumod",
-    "Font::FreeType::Face": "lib/Font/FreeType/Face.rakumod",
-    "Font::FreeType::Glyph": "lib/Font/FreeType/Glyph.rakumod",
-    "Font::FreeType::GlyphImage": "lib/Font/FreeType/GlyphImage.rakumod",
-    "Font::FreeType::NamedInfo": "lib/Font/FreeType/NamedInfo.rakumod",
-    "Font::FreeType::Native": "lib/Font/FreeType/Native.rakumod",
-    "Font::FreeType::Native::Defs": "lib/Font/FreeType/Native/Defs.rakumod",
-    "Font::FreeType::Outline": "lib/Font/FreeType/Outline.rakumod",
-    "Font::FreeType::Raw": "lib/Font/FreeType/Raw.rakumod",
-    "Font::FreeType::Raw::Defs": "lib/Font/FreeType/Raw/Defs.rakumod"
-  },
-  "resources": [
-    "libraries/ft6"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.3.1.tar.gz",
-  "tags": [
-    "font",
-    "freetype"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.3.1"
-}
-,
-{
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake",
-    "Pod::To::Markdown"
-  ],
-  "depends": [
-    "Method::Also"
-  ],
-  "description": "read font files and render glyphs from Raku using FreeType2",
-  "license": "Artistic-2.0",
-  "name": "Font::FreeType",
-  "perl": "6",
-  "provides": {
-    "Font::FreeType": "lib/Font/FreeType.rakumod",
-    "Font::FreeType::BBox": "lib/Font/FreeType/BBox.rakumod",
-    "Font::FreeType::BitMap": "lib/Font/FreeType/BitMap.rakumod",
-    "Font::FreeType::CharMap": "lib/Font/FreeType/CharMap.rakumod",
-    "Font::FreeType::Error": "lib/Font/FreeType/Error.rakumod",
-    "Font::FreeType::Face": "lib/Font/FreeType/Face.rakumod",
-    "Font::FreeType::Glyph": "lib/Font/FreeType/Glyph.rakumod",
-    "Font::FreeType::GlyphImage": "lib/Font/FreeType/GlyphImage.rakumod",
-    "Font::FreeType::NamedInfo": "lib/Font/FreeType/NamedInfo.rakumod",
-    "Font::FreeType::Native": "lib/Font/FreeType/Native.rakumod",
-    "Font::FreeType::Native::Defs": "lib/Font/FreeType/Native/Defs.rakumod",
-    "Font::FreeType::Outline": "lib/Font/FreeType/Outline.rakumod",
-    "Font::FreeType::Raw": "lib/Font/FreeType/Raw.rakumod",
-    "Font::FreeType::Raw::Defs": "lib/Font/FreeType/Raw/Defs.rakumod",
-    "Font::FreeType::Raw::TT_Sfnt": "lib/Font/FreeType/Raw/TT_Sfnt.rakumod"
-  },
-  "resources": [
-    "libraries/ft6"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.3.4.tar.gz",
-  "tags": [
-    "font",
-    "freetype"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.3.4"
 }
 ,
 {
