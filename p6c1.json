@@ -12231,6 +12231,37 @@
 }
 ,
 {
+  "authors": [
+    "Mike Stemle, Jr."
+  ],
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Fcntl - load the C Fcntl.h defines",
+  "license": "Artistic-2.0",
+  "name": "Fcntl",
+  "perl": "6.*",
+  "provides": {
+    "Fcntl": "lib/Fcntl.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/manchicken/perl6-Fcntl.git",
+  "tags": [
+    "Fcntl",
+    "CPAN5"
+  ],
+  "test-depends": [
+    "NativeCall"
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "auth": "github:manwar",
   "authors": [
     "Mohammad S Anwar"
