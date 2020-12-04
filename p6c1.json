@@ -3203,6 +3203,47 @@
 ,
 {
   "depends": [
+    "File::Which",
+    "JSON::RPC"
+  ],
+  "description": "Cross-platform Perl 6 desktop web-based applications using the Electron platform",
+  "license": "MIT",
+  "name": "Electron",
+  "perl": "6.c",
+  "provides": {
+    "Electron": "lib/Electron.pm6",
+    "Electron::App": "lib/Electron/App.pm6",
+    "Electron::BrowserWindow": "lib/Electron/BrowserWindow.pm6",
+    "Electron::Clipboard": "lib/Electron/Clipboard.pm6",
+    "Electron::Dialog": "lib/Electron/Dialog.pm6",
+    "Electron::Menu": "lib/Electron/Menu.pm6",
+    "Electron::MenuItem": "lib/Electron/MenuItem.pm6",
+    "Electron::PowerMonitor": "lib/Electron/PowerMonitor.pm6",
+    "Electron::Process": "lib/Electron/Process.pm6",
+    "Electron::Screen": "lib/Electron/Screen.pm6",
+    "Electron::Shell": "lib/Electron/Shell.pm6",
+    "Electron::Tray": "lib/Electron/Tray.pm6"
+  },
+  "resources": [
+    "main_app/package.json",
+    "main_app/main.js",
+    "main_app/node_modules/node-json-rpc/LICENSE",
+    "main_app/node_modules/node-json-rpc/README.md",
+    "main_app/node_modules/node-json-rpc/package.json",
+    "main_app/node_modules/node-json-rpc/test/rpc.js",
+    "main_app/node_modules/node-json-rpc/test/etc/optsserver.js",
+    "main_app/node_modules/node-json-rpc/test/etc/optsclient.js",
+    "main_app/node_modules/node-json-rpc/lib/index.js",
+    "main_app/node_modules/node-json-rpc/lib/rpcclient.js",
+    "main_app/node_modules/node-json-rpc/lib/rpcserver.js",
+    "main_app/node_modules/node-json-rpc/lib/rpcauth.js"
+  ],
+  "source-url": "git://github.com/azawawi/perl6-electron.git",
+  "version": "0.0.1"
+}
+,
+{
+  "depends": [
     
   ],
   "description": "Find your home and other directories on any platform",
@@ -7562,6 +7603,52 @@
 {
   "author": "github:FROGGS",
   "depends": [
+    
+  ],
+  "description": "Punycode implementation according to RFC3492",
+  "name": "IDNA::Punycode",
+  "perl": "6.*",
+  "provides": {
+    "IDNA::Punycode": "lib/IDNA/Punycode.pm"
+  },
+  "source-url": "git://github.com/FROGGS/p6-IDNA-Punycode.git",
+  "version": "1.0.0"
+}
+,
+{
+  "author": "github:FROGGS",
+  "depends": [
+    
+  ],
+  "description": "conditionally use packages",
+  "name": "if",
+  "perl": "6.*",
+  "provides": {
+    "if": "lib/if.pm"
+  },
+  "source-url": "git://github.com/FROGGS/p6-if.git",
+  "version": "0.1.1"
+}
+,
+{
+  "author": "github:FROGGS",
+  "depends": [
+    
+  ],
+  "description": "use C-code from within Perl",
+  "name": "Inline",
+  "perl": "6.*",
+  "provides": {
+    "Inline": "lib/Inline.pm",
+    "Inline::C": "lib/Inline/C.pm"
+  },
+  "source-url": "git://github.com/FROGGS/p6-Inline-C.git",
+  "version": "1.0.1"
+}
+,
+{
+  "author": "github:FROGGS",
+  "depends": [
     "JSON::Tiny"
   ],
   "description": "A minimal JSON (de)serializer that produces easily readable JSON",
@@ -10220,6 +10307,28 @@
 }
 ,
 {
+  "authors": [
+    "Jonathan Worthington"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Implementation of RFC 7541 HPACK: Header Compression for HTTP/2",
+  "name": "HTTP::HPACK",
+  "perl": "6.c",
+  "provides": {
+    "HTTP::HPACK": "lib/HTTP/HPACK.pm6"
+  },
+  "support": {
+    "source": "git://github.com/jnthn/p6-http-hpack.git"
+  },
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.9.2"
+}
+,
+{
   "author": "Jonathan Worthington <jnthn@jnthn.net>",
   "build-depends": [
     "LWP::Simple"
@@ -12263,6 +12372,45 @@
 }
 ,
 {
+  "author": "Carl Mäsak",
+  "depends": [
+    
+  ],
+  "description": "Helps build and run adventure games.",
+  "name": "Adventure::Engine",
+  "provides": {
+    "Adventure::Engine": "lib/Adventure/Engine.pm"
+  },
+  "source-url": "git://github.com/masak/Adventure-Engine.git",
+  "version": "0.4.0"
+}
+,
+{
+  "author": "Carl Mäsak",
+  "depends": [
+    "Adventure::Engine"
+  ],
+  "description": "An adventure game.",
+  "name": "Game::Crypt",
+  "source-url": "git://github.com/masak/crypt.git",
+  "version": "0.2.3"
+}
+,
+{
+  "author": "github:masak",
+  "depends": [
+    
+  ],
+  "description": "Righting the last few wrongs in Perl 6 gist output",
+  "name": "Data::Pretty",
+  "provides": {
+    "Data::Pretty": "lib/Data/Pretty.pm"
+  },
+  "source-url": "git://github.com/masak/data-pretty.git",
+  "version": "0.0.2"
+}
+,
+{
   "depends": [
     
   ],
@@ -12707,6 +12855,28 @@
   "support": {
     "bugtracker": "https://github.com/melezhik/sparrowdo-chef-manager/issues",
     "source": "https://github.com/melezhik/sparrowdo-chef-manager.git"
+  },
+  "version": "*"
+}
+,
+{
+  "authors": [
+    "Alexey Melezhik"
+  ],
+  "depends": [
+    "Sparrowdo"
+  ],
+  "description": "Sparrowdo module to install CPAN modules using App::cpm - a fast CPAN module installer",
+  "name": "Sparrowdo::Cpm",
+  "perl": "6.*",
+  "provides": {
+    "Sparrowdo::Cpm": "lib/Sparrowdo/Cpm.pm6"
+  },
+  "source-type": "git",
+  "source-url": "https://github.com/melezhik/sparrowdo-cpm.git",
+  "support": {
+    "bugtracker": "https://github.com/melezhik/sparrowdo-cpm/issues",
+    "source": "https://github.com/melezhik/sparrowdo-cpm.git"
   },
   "version": "*"
 }
@@ -17036,6 +17206,29 @@
 }
 ,
 {
+  "author": "Jonathan Scott Duff <duff@pobox.com>",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Useful trigonometric routines",
+  "license": "Artistic-2.0",
+  "name": "Math::Trig",
+  "perl": "6.*",
+  "provides": {
+    "Math::Trig": "lib/Math/Trig.pm"
+  },
+  "repo-type": "git",
+  "source-url": "git://github.com/raku-community-modules/Math-Trig.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "author": "github:retupmoca",
   "depends": [
     
@@ -17051,6 +17244,37 @@
   "source-type": "git",
   "source-url": "git://github.com/raku-community-modules/MIME-Base64.git",
   "version": "1.2.1"
+}
+,
+{
+  "auth": "github:raku-community-modules",
+  "authors": [
+    "Timothy Totten",
+    "Sizhe Zhao",
+    "Cam Stuart",
+    "Raku community"
+  ],
+  "description": "Parse a mime.types file, and query the results",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "MIME::Types",
+  "perl": "6.*",
+  "provides": {
+    "MIME::Types": "lib/MIME/Types.rakumod"
+  },
+  "resources": [
+    "mime.types"
+  ],
+  "support": {
+    "bugtracker": "https://github.com/raku-community-modules/MIME-Types/issues",
+    "source": "https://github.com/raku-community-modules/MIME-Types.git"
+  },
+  "tags": [
+    "MIME",
+    "type",
+    "extension"
+  ],
+  "version": "0.1"
 }
 ,
 {
@@ -21720,6 +21944,22 @@
     "Test"
   ],
   "version": "v0.1.0"
+}
+,
+{
+  "depends": [
+    "JSON::Fast",
+    "JSON::Name"
+  ],
+  "description": "Turn JSON into objects",
+  "license": "MIT",
+  "name": "JSON::Unmarshal",
+  "perl": "6.c",
+  "provides": {
+    "JSON::Unmarshal": "lib/JSON/Unmarshal.pm"
+  },
+  "source-url": "git://github.com/tadzik/JSON-Unmarshal.git",
+  "version": "0.08"
 }
 ,
 {
