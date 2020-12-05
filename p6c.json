@@ -15321,8 +15321,10 @@
 }
 ,
 {
+  "auth": "github:perlpilot",
   "authors": [
-    "Jonathan Scott Duff <duff@pobox.com>"
+    "Jonathan Scott Duff <duff@pobox.com>",
+    "Tom Browder <tbrowder@cpan.org>"
   ],
   "build-depends": [
     
@@ -15331,13 +15333,22 @@
     
   ],
   "description": "Find the time of sunrise/sunset on a particular day",
+  "license": "Artistic License 2.0",
   "name": "Astro::Sunrise",
-  "perl": "v6",
+  "perl": "6.d",
   "provides": {
+    "Astro::Location": "lib/Astro/Location.pm6",
     "Astro::Sunrise": "lib/Astro/Sunrise.pm6"
   },
   "repo-type": "git",
+  "resources": [
+    
+  ],
   "source-url": "git://github.com/raku-community-modules/Astro-Sunrise.git",
+  "tags": [
+    "Astro",
+    "Sunset"
+  ],
   "test-depends": [
     "Test"
   ],
