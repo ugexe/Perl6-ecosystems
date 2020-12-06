@@ -26383,67 +26383,6 @@
 }
 ,
 {
-  "auth": "github:rakuist",
-  "authors": [
-    "Greg Donald"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "DBIish",
-    "JSON::Tiny",
-    "Log::Async"
-  ],
-  "description": "Object-relational mapping module for Raku",
-  "license": "Artistic-2.0",
-  "name": "ORM::ActiveRecord",
-  "perl": "6.d",
-  "provides": {
-    "ORM::ActiveRecord::Colors": "lib/ORM/ActiveRecord/Colors.pm6",
-    "ORM::ActiveRecord::DB": "lib/ORM/ActiveRecord/DB.pm6",
-    "ORM::ActiveRecord::Error": "lib/ORM/ActiveRecord/Error.pm6",
-    "ORM::ActiveRecord::Errors": "lib/ORM/ActiveRecord/Errors.pm6",
-    "ORM::ActiveRecord::Field": "lib/ORM/ActiveRecord/Field.pm6",
-    "ORM::ActiveRecord::Log": "lib/ORM/ActiveRecord/Log.pm6",
-    "ORM::ActiveRecord::Migrate": "lib/ORM/ActiveRecord/Migrate.pm6",
-    "ORM::ActiveRecord::Migration": "lib/ORM/ActiveRecord/Migration.pm6",
-    "ORM::ActiveRecord::Model": "lib/ORM/ActiveRecord/Model.pm6",
-    "ORM::ActiveRecord::Query": "lib/ORM/ActiveRecord/Query.pm6",
-    "ORM::ActiveRecord::Scope": "lib/ORM/ActiveRecord/Scope.pm6",
-    "ORM::ActiveRecord::Scopes": "lib/ORM/ActiveRecord/Scopes.pm6",
-    "ORM::ActiveRecord::Spell": "lib/ORM/ActiveRecord/Spell.pm6",
-    "ORM::ActiveRecord::Utils": "lib/ORM/ActiveRecord/Utils.pm6",
-    "ORM::ActiveRecord::Validator": "lib/ORM/ActiveRecord/Validator.pm6",
-    "ORM::ActiveRecord::Validators": "lib/ORM/ActiveRecord/Validators.pm6",
-    "ORM::ActiveRecord::X": "lib/ORM/ActiveRecord/X.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/G/GD/GDONALD/Perl6/ORM-ActiveRecord-0.0.9.tar.gz",
-  "support": {
-    "source": "https://github.com/rakuist/ORM-ActiveRecord/issues"
-  },
-  "tags": [
-    "ORM",
-    "ActiveRecord",
-    "Database",
-    "Relational",
-    "Model",
-    "Object",
-    "Migration",
-    "Validation",
-    "Postgres"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.0.9"
-}
-,
-{
   "auth": "github:zostay",
   "authors": [
     "Sterling Hanenkamp <hanenkamp@cpan.org>"
