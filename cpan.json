@@ -6965,6 +6965,37 @@
     
   ],
   "depends": [
+    "Array::Agnostic:ver<0.0.8>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "role for sparsely populated Arrays",
+  "license": "Artistic-2.0",
+  "name": "Array::Sparse",
+  "perl": "6.d",
+  "provides": {
+    "Array::Sparse": "lib/Array/Sparse.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Array-Sparse-0.0.5.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "add \"is predicate\" trait to Attributes",
