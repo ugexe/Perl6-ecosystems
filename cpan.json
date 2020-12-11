@@ -25073,39 +25073,6 @@
     
   ],
   "depends": [
-    
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - elementary functions.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::Elementary",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::Elementary": "lib/Math/Libgsl/Elementary.rakumod",
-    "Math::Libgsl::Raw::Elementary": "lib/Math/Libgsl/Raw/Elementary.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Elementary-0.0.3.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "Math::Libgsl::Constants"
   ],
   "description": "An interface to libgsl, the Gnu Scientific Library - Special functions.",
