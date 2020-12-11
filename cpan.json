@@ -44426,6 +44426,47 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provide logging to POSIX native syslog facility",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Log::Syslog::Native",
+  "perl": "6.*",
+  "provides": {
+    "Log::Syslog::Native": "lib/Log/Syslog/Native.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Log-Syslog-Native-0.0.9.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Log-Syslog-Native/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Log-Syslog-Native.git"
+  },
+  "tags": [
+    "syslog",
+    "log",
+    "unix"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
@@ -46524,6 +46565,50 @@
     "Test"
   ],
   "version": "0.0.3"
+}
+,
+{
+  "aoi": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "URI Templates as per https://tools.ietf.org/html/rfc6570",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "URI::Template",
+  "perl": "6.*",
+  "provides": {
+    "URI::Template": "lib/URI/Template.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/URI-Template-0.0.7.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/URI-Template/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "irc": "irc:// irc.freenode.net/#perl6",
+    "source": "git://github.com/jonathanstowe/URI-Template.git"
+  },
+  "tags": [
+    "URI",
+    "URL",
+    "Template",
+    "RFC"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Test"
+  ],
+  "version": "0.0.7"
 }
 ,
 {
@@ -67615,6 +67700,36 @@
 ,
 {
   "authors": [
+    "Robert Lemmen"
+  ],
+  "depends": [
+    "Terminal::ANSIColor"
+  ],
+  "description": "Cucumber-like Behavior-Driven Development (BDD) Test Framework",
+  "license": "Artistic-2.0",
+  "name": "CucumisSextus",
+  "perl": "6.*",
+  "provides": {
+    "CucumisSextus::Core": "lib/CucumisSextus/Core.pm6",
+    "CucumisSextus::Gherkin": "lib/CucumisSextus/Gherkin.pm6",
+    "CucumisSextus::Glue": "lib/CucumisSextus/Glue.pm6",
+    "CucumisSextus::I18n": "lib/CucumisSextus/I18n.pm6",
+    "CucumisSextus::Reporter": "lib/CucumisSextus/Reporter.pm6",
+    "CucumisSextus::Reporter::Null": "lib/CucumisSextus/Reporter/Null.pm6",
+    "CucumisSextus::Reporter::Simple": "lib/CucumisSextus/Reporter/Simple.pm6",
+    "CucumisSextus::Tags": "lib/CucumisSextus/Tags.pm6",
+    "X::CucumisSextus::FeatureExecFailure": "lib/X/CucumisSextus/FeatureExecFailure.pm6",
+    "X::CucumisSextus::FeatureParseFailure": "lib/X/CucumisSextus/FeatureParseFailure.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/R/RO/ROBERTLE/Perl6/perl6-cucumis-sextus-0.1.2.tar.gz",
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "authors": [
     "Robert Lemmen <robertle@semistable.com>"
   ],
   "description": "Concurrent and async cache implementation",
@@ -75684,6 +75799,43 @@
     "Test"
   ],
   "version": "0.15"
+}
+,
+{
+  "auth": null,
+  "authors": [
+    "Timo Paulssen",
+    "Tony O'Dell",
+    "Wenzel P. P. Peppmeyer"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A naive, fast json parser and serializer; drop-in replacement for JSON::Tiny",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "JSON::Fast",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Fast": "lib/JSON/Fast.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TIMOTIMO/Perl6/JSON-Fast-0.9.10.tar.gz",
+  "support": {
+    "source": "git://github.com/timo/json_fast.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.9.10"
 }
 ,
 {
