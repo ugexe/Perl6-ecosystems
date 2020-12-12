@@ -26555,6 +26555,41 @@
 }
 ,
 {
+  "auth": "cpan:GARLANDG",
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "if",
+    "NativeLibs:ver<0.0.5+>"
+  ],
+  "description": "Wrapper for errno modules for Unix and Windows",
+  "license": "Artistic-2.0",
+  "name": "Universal::errno",
+  "perl": "6.c",
+  "provides": {
+    "Universal::errno": "lib/Universal/errno.rakumod",
+    "Universal::errno::Constants": "lib/Universal/errno/Constants.rakumod",
+    "Universal::errno::Unix": "lib/Universal/errno/Unix.rakumod",
+    "Universal::errno::Windows": "lib/Universal/errno/Windows.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Universal-errno-0.1.0.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.0"
+}
+,
+{
   "auth": "github:gdonald",
   "authors": [
     "Greg Donald"
@@ -51244,6 +51279,38 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:LEONT",
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Getopt::Long:ver<0.3.0+>",
+    "Text::Levenshtein::Damerau"
+  ],
+  "description": "A Getopt::Long extension for subcommands",
+  "license": "Artistic-2.0",
+  "name": "Getopt::Subcommands",
+  "perl": "6.c",
+  "provides": {
+    "Getopt::Subcommands": "lib/Getopt/Subcommands.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Getopt-Subcommands-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
