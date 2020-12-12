@@ -26555,41 +26555,6 @@
 }
 ,
 {
-  "auth": "cpan:GARLANDG",
-  "authors": [
-    "Travis Gibson"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "if",
-    "NativeLibs:ver<0.0.5+>"
-  ],
-  "description": "Wrapper for errno modules for Unix and Windows",
-  "license": "Artistic-2.0",
-  "name": "Universal::errno",
-  "perl": "6.c",
-  "provides": {
-    "Universal::errno": "lib/Universal/errno.rakumod",
-    "Universal::errno::Constants": "lib/Universal/errno/Constants.rakumod",
-    "Universal::errno::Unix": "lib/Universal/errno/Unix.rakumod",
-    "Universal::errno::Windows": "lib/Universal/errno/Windows.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Universal-errno-0.1.0.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.0"
-}
-,
-{
   "auth": "github:gdonald",
   "authors": [
     "Greg Donald"
@@ -51215,6 +51180,38 @@
     
   ],
   "version": "0.2.0"
+}
+,
+{
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A powerful getopt implementation",
+  "license": "Artistic-2.0",
+  "name": "Getopt::Long",
+  "perl": "6.*",
+  "provides": {
+    "Getopt::Long": "lib/Getopt/Long.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Getopt-Long-0.3.0.tar.gz",
+  "tags": [
+    "command",
+    "getopt",
+    "main"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.0"
 }
 ,
 {
