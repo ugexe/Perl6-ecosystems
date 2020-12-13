@@ -7223,6 +7223,37 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "provide bit related functions for arbitrarily large integers",
+  "license": "Artistic-2.0",
+  "name": "Bits",
+  "perl": "6.*",
+  "provides": {
+    "Bits": "lib/Bits.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Bits-0.0.4.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "P5opendir"
   ],
   "description": "Port of Perl 5's DirHandle",
