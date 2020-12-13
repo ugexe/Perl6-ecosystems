@@ -26557,6 +26557,40 @@
     
   ],
   "depends": [
+    "NativeLibs:ver<0.0.5+>"
+  ],
+  "description": "Wrapper for errno modules for Unix and Windows",
+  "license": "Artistic-2.0",
+  "name": "Universal::errno",
+  "perl": "6.c",
+  "provides": {
+    "Universal::errno": "lib/Universal/errno.rakumod",
+    "Universal::errno::Constants": "lib/Universal/errno/Constants.rakumod",
+    "Universal::errno::Unix": "lib/Universal/errno/Unix.rakumod",
+    "Universal::errno::Windows": "lib/Universal/errno/Windows.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Universal-errno-0.0.4.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:GARLANDG",
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "if",
     "NativeLibs:ver<0.0.5+>"
   ],
@@ -54116,6 +54150,44 @@
     
   ],
   "version": "0.18.3"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku - Gnome native interface support, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::N",
+  "perl": "6",
+  "provides": {
+    "Gnome::N::GlibToRakuTypes": "lib/Gnome/N/GlibToRakuTypes.pm6",
+    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
+    "Gnome::N::N-GVariant": "lib/Gnome/N/N-GVariant.pm6",
+    "Gnome::N::N-GVariantBuilder": "lib/Gnome/N/N-GVariantBuilder.pm6",
+    "Gnome::N::N-GVariantIter": "lib/Gnome/N/N-GVariantIter.pm6",
+    "Gnome::N::N-GVariantType": "lib/Gnome/N/N-GVariantType.pm6",
+    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
+    "Gnome::N::TopLevelClassSupport": "lib/Gnome/N/TopLevelClassSupport.pm6",
+    "Gnome::N::X": "lib/Gnome/N/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-native-0.18.4.tar.gz",
+  "tags": [
+    "gnome"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.18.4"
 }
 ,
 {
