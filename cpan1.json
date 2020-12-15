@@ -26201,6 +26201,36 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Interconnect two pipelines",
+  "license": "Artistic-2.0",
+  "name": "Cro::H",
+  "perl": "6.c",
+  "provides": {
+    "Cro::H": "lib/Cro/H.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Cro-H-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Cro::Core"
   ],
   "description": "A low-level component to interconnect two Cro pipelines",
@@ -51185,6 +51215,38 @@
     
   ],
   "version": "0.3.0"
+}
+,
+{
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A powerful getopt implementation",
+  "license": "Artistic-2.0",
+  "name": "Getopt::Long",
+  "perl": "6.*",
+  "provides": {
+    "Getopt::Long": "lib/Getopt/Long.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Getopt-Long-0.3.1.tar.gz",
+  "tags": [
+    "command",
+    "getopt",
+    "main"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.1"
 }
 ,
 {
