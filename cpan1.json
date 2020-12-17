@@ -16305,6 +16305,38 @@
   "depends": [
     
   ],
+  "description": "Raku port of Perl's times() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5times",
+  "perl": "6.c",
+  "provides": {
+    "P5times": "lib/P5times.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5times-0.0.9.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "raking typed values together in a list",
   "license": "Artistic-2.0",
   "name": "Rake",
@@ -25917,59 +25949,6 @@
     
   ],
   "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Math::Libgsl::Constants",
-    "Math::Libgsl::Matrix",
-    "Math::Libgsl::Permutation"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - Sort.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::Sort",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::Raw::Sort": "lib/Math/Libgsl/Raw/Sort.rakumod",
-    "Math::Libgsl::Raw::Sort::Int16": "lib/Math/Libgsl/Raw/Sort/Int16.rakumod",
-    "Math::Libgsl::Raw::Sort::Int32": "lib/Math/Libgsl/Raw/Sort/Int32.rakumod",
-    "Math::Libgsl::Raw::Sort::Int64": "lib/Math/Libgsl/Raw/Sort/Int64.rakumod",
-    "Math::Libgsl::Raw::Sort::Int8": "lib/Math/Libgsl/Raw/Sort/Int8.rakumod",
-    "Math::Libgsl::Raw::Sort::Num32": "lib/Math/Libgsl/Raw/Sort/Num32.rakumod",
-    "Math::Libgsl::Raw::Sort::UInt16": "lib/Math/Libgsl/Raw/Sort/UInt16.rakumod",
-    "Math::Libgsl::Raw::Sort::UInt32": "lib/Math/Libgsl/Raw/Sort/UInt32.rakumod",
-    "Math::Libgsl::Raw::Sort::UInt64": "lib/Math/Libgsl/Raw/Sort/UInt64.rakumod",
-    "Math::Libgsl::Raw::Sort::UInt8": "lib/Math/Libgsl/Raw/Sort/UInt8.rakumod",
-    "Math::Libgsl::Sort": "lib/Math/Libgsl/Sort.rakumod",
-    "Math::Libgsl::Sort::Int16": "lib/Math/Libgsl/Sort/Int16.rakumod",
-    "Math::Libgsl::Sort::Int32": "lib/Math/Libgsl/Sort/Int32.rakumod",
-    "Math::Libgsl::Sort::Int64": "lib/Math/Libgsl/Sort/Int64.rakumod",
-    "Math::Libgsl::Sort::Int8": "lib/Math/Libgsl/Sort/Int8.rakumod",
-    "Math::Libgsl::Sort::Num32": "lib/Math/Libgsl/Sort/Num32.rakumod",
-    "Math::Libgsl::Sort::UInt16": "lib/Math/Libgsl/Sort/UInt16.rakumod",
-    "Math::Libgsl::Sort::UInt32": "lib/Math/Libgsl/Sort/UInt32.rakumod",
-    "Math::Libgsl::Sort::UInt64": "lib/Math/Libgsl/Sort/UInt64.rakumod",
-    "Math::Libgsl::Sort::UInt8": "lib/Math/Libgsl/Sort/UInt8.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Sort-0.0.2.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
 }
 ,
 {
@@ -53077,6 +53056,44 @@
     
   ],
   "version": "0.16.15"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib"
+  ],
+  "description": "Raku - Gnome GObject Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::GObject",
+  "perl": "6",
+  "provides": {
+    "Gnome::GObject::Boxed": "lib/Gnome/GObject/Boxed.pm6",
+    "Gnome::GObject::InitiallyUnowned": "lib/Gnome/GObject/InitiallyUnowned.pm6",
+    "Gnome::GObject::Object": "lib/Gnome/GObject/Object.pm6",
+    "Gnome::GObject::Signal": "lib/Gnome/GObject/Signal.pm6",
+    "Gnome::GObject::Type": "lib/Gnome/GObject/Type.pm6",
+    "Gnome::GObject::Value": "lib/Gnome/GObject/Value.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gobject-0.16.16.2.tar.gz",
+  "tags": [
+    "gnome",
+    "glib",
+    "gobject"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.16.16.2"
 }
 ,
 {
