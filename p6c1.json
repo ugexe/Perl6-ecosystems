@@ -139,6 +139,51 @@
 ,
 {
   "authors": [
+    "John Haltiwanger",
+    "japhb"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "OO::Monitors",
+    "Terminal::ANSIColor",
+    "Term::termios",
+    "File::Which"
+  ],
+  "description": "Asynchronous printing to your terminal -- as a simple grid",
+  "license": "Artistic-2.0",
+  "name": "Terminal::Print",
+  "perl": "6.d.PREVIEW",
+  "provides": {
+    "Terminal::Print": "lib/Terminal/Print.pm6",
+    "Terminal::Print::Animated": "lib/Terminal/Print/Animated.pm6",
+    "Terminal::Print::BoxDrawing": "lib/Terminal/Print/BoxDrawing.pm6",
+    "Terminal::Print::Commands": "lib/Terminal/Print/Commands.pm6",
+    "Terminal::Print::DecodedInput": "lib/Terminal/Print/DecodedInput.pm6",
+    "Terminal::Print::Grid": "lib/Terminal/Print/Grid.pm6",
+    "Terminal::Print::ParticleEffect": "lib/Terminal/Print/ParticleEffect.pm6",
+    "Terminal::Print::Pixelated": "lib/Terminal/Print/Pixelated.pm6",
+    "Terminal::Print::RawInput": "lib/Terminal/Print/RawInput.pm6",
+    "Terminal::Print::Util::Text": "lib/Terminal/Print/Util/Text.pm6",
+    "Terminal::Print::Util::Timing": "lib/Terminal/Print/Util/Timing.pm6",
+    "Terminal::Print::Widget": "lib/Terminal/Print/Widget.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/ab5tract/Terminal-Print.git",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.972"
+}
+,
+{
+  "authors": [
     "Mark Rushing"
   ],
   "depends": [
@@ -183,6 +228,53 @@
   ],
   "source-url": "git://github.com/adaptiveoptics/HTML-Tag.git",
   "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Mark Rushing"
+  ],
+  "depends": [
+    "JSON::Fast",
+    "LibCurl",
+    "Digest::HMAC",
+    "Digest::SHA",
+    "MIME::Base64"
+  ],
+  "description": "GDAX Crypto-currency Exchange low-level API implementation",
+  "license": "Artistic-2.0",
+  "name": "Finance::GDAX::API",
+  "perl": "6.c",
+  "provides": {
+    "Finance::GDAX::API": "lib/Finance/GDAX/API.pm6",
+    "Finance::GDAX::API::Account": "lib/Finance/GDAX/API/Account.pm6",
+    "Finance::GDAX::API::CoinbaseAccount": "lib/Finance/GDAX/API/CoinbaseAccount.pm6",
+    "Finance::GDAX::API::Currency": "lib/Finance/GDAX/API/Currency.pm6",
+    "Finance::GDAX::API::Deposit": "lib/Finance/GDAX/API/Deposit.pm6",
+    "Finance::GDAX::API::Fill": "lib/Finance/GDAX/API/Fill.pm6",
+    "Finance::GDAX::API::Funding": "lib/Finance/GDAX/API/Funding.pm6",
+    "Finance::GDAX::API::MarginTransfer": "lib/Finance/GDAX/API/MarginTransfer.pm6",
+    "Finance::GDAX::API::Order": "lib/Finance/GDAX/API/Order.pm6",
+    "Finance::GDAX::API::PaymentMethod": "lib/Finance/GDAX/API/PaymentMethod.pm6",
+    "Finance::GDAX::API::Position": "lib/Finance/GDAX/API/Position.pm6",
+    "Finance::GDAX::API::Product": "lib/Finance/GDAX/API/Product.pm6",
+    "Finance::GDAX::API::Quote": "lib/Finance/GDAX/API/Quote.pm6",
+    "Finance::GDAX::API::Report": "lib/Finance/GDAX/API/Report.pm6",
+    "Finance::GDAX::API::Time": "lib/Finance/GDAX/API/Time.pm6",
+    "Finance::GDAX::API::TypeConstraints": "lib/Finance/GDAX/API/TypeConstraints.pm6",
+    "Finance::GDAX::API::URL": "lib/Finance/GDAX/API/URL.pm6",
+    "Finance::GDAX::API::UserAccount": "lib/Finance/GDAX/API/UserAccount.pm6",
+    "Finance::GDAX::API::Withdrawl": "lib/Finance/GDAX/API/Withdrawl.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/adaptiveoptics/P6-Finance-GDAX-API.git",
+  "test-depends": [
+    "Test",
+    "File::Temp"
+  ],
+  "version": "0.0.5"
 }
 ,
 {
@@ -1797,6 +1889,38 @@
   "depends": [
     
   ],
+  "description": "A module with `../` in its name.",
+  "license": "GPL-3.0-or-later",
+  "name": "../Foo",
+  "perl": "6.c",
+  "provides": {
+    "../Foo": "lib/DotDotSlashFoo.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/AlexDaniel/dotdotslashfoo.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "api": "1",
+  "auth": "github:AlexDaniel",
+  "authors": [
+    "Aleks-Daniel Jakimenko-Aleksejev"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "A module to end the naming debate.",
   "license": "GPL-3.0-or-later",
   "name": "",
@@ -2534,6 +2658,80 @@
 {
   "auth": "github:araraloren",
   "authors": "Loren",
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
+    "Getopt::Advance",
+    "JSON::Fast"
+  ],
+  "description": "Find your source file easily.",
+  "license": "GPL",
+  "name": "App::FindSource",
+  "perl": "6.c",
+  "provides": {
+    "Config::Searcher": "lib/Config/Searcher.pm6"
+  },
+  "source-url": "https://github.com/araraloren/perl6-app-findsource.git",
+  "support": {
+    "bugtracker": "https://github.com.araraloren/perl6-app-findsource/issues",
+    "source": "https://github.com/araraloren/perl6-app-findsource.git"
+  },
+  "tags": [
+    "find",
+    "c",
+    "cpp",
+    "make",
+    "config",
+    "searcher"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "github:araraloren",
+  "authors": "Loren",
+  "depends": [
+    "Readline",
+    "PathTools",
+    "Getopt::Advance",
+    "File::Which",
+    "Pluggable"
+  ],
+  "description": "run c/cpp or other language code snippet",
+  "license": "MIT",
+  "name": "App::snippet",
+  "perl": "6.*",
+  "provides": {
+    "App::snippet": "lib/App/snippet.pm6",
+    "App::snippet::Common": "lib/App/snippet/Common.pm6",
+    "App::snippet::Compiler::Clang": "lib/App/snippet/Compiler/Clang.pm6",
+    "App::snippet::Compiler::GCC": "lib/App/snippet/Compiler/GCC.pm6",
+    "App::snippet::Interface::C": "lib/App/snippet/Interface/C.pm6",
+    "App::snippet::Interface::Cpp": "lib/App/snippet/Interface/Cpp.pm6"
+  },
+  "source-url": "https://github.com/araraloren/perl6-app-snippet.git",
+  "support": {
+    "bugtracker": "https://github.com.araraloren/perl6-app-snippet/issues",
+    "source": "https://github.com/araraloren/perl6-app-snippet.git"
+  },
+  "tags": [
+    "c",
+    "cpp",
+    "snippet"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.2.1"
+}
+,
+{
+  "auth": "github:araraloren",
+  "authors": "Loren",
   "depends": [
     "Terminal::Table"
   ],
@@ -2572,6 +2770,52 @@
     "Test::META"
   ],
   "version": "1.1.4"
+}
+,
+{
+  "auth": "github:araraloren",
+  "authors": "Loren",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Terminal::ANSIColor",
+    "Terminal::WCWidth",
+    "Text::Tabs"
+  ],
+  "description": "Advanced table generate module for perl6",
+  "license": "MIT",
+  "name": "Terminal::Table",
+  "perl": "6.c",
+  "provides": {
+    "Terminal::Table": "lib/Terminal/Table.pm6",
+    "Terminal::Table::Exception": "lib/Terminal/Table/Exception.pm6",
+    "Terminal::Table::Frame": "lib/Terminal/Table/Frame.pm6",
+    "Terminal::Table::Generator": "lib/Terminal/Table/Generator.pm6",
+    "Terminal::Table::LightWrap": "lib/Terminal/Table/LightWrap.pm6",
+    "Terminal::Table::Settings": "lib/Terminal/Table/Settings.pm6",
+    "Terminal::Table::Shader": "lib/Terminal/Table/Shader.pm6",
+    "Terminal::Table::String": "lib/Terminal/Table/String.pm6",
+    "Terminal::Table::Style": "lib/Terminal/Table/Style.pm6",
+    "Terminal::Table::VisitorHelper": "lib/Terminal/Table/VisitorHelper.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/araraloren/perl6-terminal-table.git",
+  "support": {
+    "bugtracker": "https://github.com.araraloren/perl6-terminal-table/issues",
+    "source": "https://github.com/araraloren/perl6-terminal-table.git"
+  },
+  "tags": [
+    "terminal",
+    "table",
+    "text"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
 }
 ,
 {
@@ -3153,6 +3397,24 @@
     "Test"
   ],
   "version": "1.0.1"
+}
+,
+{
+  "depends": [
+    "Compress::Zlib"
+  ],
+  "description": "Perl 6 API to the ZIP file format",
+  "license": "MIT",
+  "name": "File::Zip",
+  "perl": "6.c",
+  "provides": {
+    "File::Zip": "lib/File/Zip.pm6",
+    "File::Zip::CentralDirectoryHeader": "lib/File/Zip/CentralDirectoryHeader.pm6",
+    "File::Zip::EndOfCentralDirectoryHeader": "lib/File/Zip/EndOfCentralDirectoryHeader.pm6",
+    "File::Zip::LocalFileHeader": "lib/File/Zip/LocalFileHeader.pm6"
+  },
+  "source-url": "git://github.com/azawawi/perl6-file-zip.git",
+  "version": "*"
 }
 ,
 {
@@ -3774,6 +4036,39 @@
     
   ],
   "version": "0.0.16"
+}
+,
+{
+  "authors": [
+    "Brian Duggan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Asynchronous logging with supplies and taps",
+  "license": "Perl",
+  "name": "Log::Async",
+  "perl": "6.*",
+  "provides": {
+    "Log::Async": "lib/Log/Async.pm6",
+    "Log::Async::CommandLine": "lib/Log/Async/CommandLine.pm6",
+    "Log::Async::Context": "lib/Log/Async/Context.pm6"
+  },
+  "source-url": "git://github.com/bduggan/p6-log-async.git",
+  "tags": [
+    "log",
+    "logging",
+    "logger",
+    "async",
+    "asynchronous"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
 }
 ,
 {
