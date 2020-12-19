@@ -26114,7 +26114,6 @@
 }
 ,
 {
-  "auth": "cpan:GARLANDG",
   "authors": [
     "Travis Gibson"
   ],
@@ -26122,28 +26121,26 @@
     
   ],
   "depends": [
-    
+    "Cro::Core"
   ],
-  "description": "OO binding to libusb",
+  "description": "A low-level component to interconnect two Cro pipelines",
   "license": "Artistic-2.0",
-  "name": "LibUSB",
+  "name": "Cro::H",
   "perl": "6.c",
   "provides": {
-    "LibUSB": "lib/LibUSB.rakumod",
-    "LibUSB::Raw": "lib/LibUSB/Raw.rakumod",
-    "X::LibUSB": "lib/X/LibUSB.rakumod"
+    "Cro::H": "lib/Cro/H.pm6"
   },
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/LibUSB-0.0.1.tar.gz",
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Cro-H-0.0.2.tar.gz",
   "tags": [
-    
+    "Cro"
   ],
   "test-depends": [
     
   ],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
 ,
 {
