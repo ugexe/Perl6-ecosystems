@@ -26344,4 +26344,20 @@
   "source-url": "git://github.com/zostay/RakuWAPI.git",
   "version": "0.7.Draft"
 }
+,
+{
+  "auth": "github:schmidt73",
+  "authors": [
+    "Henri Schmidt"
+  ],
+  "description": "Tools for bioinformaticians.",
+  "license": "Artistic-2.0",
+  "name": "Bio",
+  "provides": {
+    "Bio::IO::CSV": "lib/Bio/IO/CSV.rakumod",
+    "Bio::Seq": "lib/Bio/Seq.rakumod"
+  },
+  "source-url": "git://github.com/schmidt73/Bio.git",
+  "version": "v0.1"
+}
 ]
