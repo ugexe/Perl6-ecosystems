@@ -26467,6 +26467,39 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/LibUSB-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:GARLANDG",
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "OO binding to libusb",
+  "license": "Artistic-2.0",
+  "name": "LibUSB",
+  "perl": "6.c",
+  "provides": {
+    "LibUSB": "lib/LibUSB.rakumod",
+    "LibUSB::Raw": "lib/LibUSB/Raw.rakumod",
+    "X::LibUSB": "lib/X/LibUSB.rakumod"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/LibUSB-0.0.3.tar.gz",
   "tags": [
     
@@ -50146,6 +50179,38 @@
     
   ],
   "version": "0.3.1"
+}
+,
+{
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A powerful getopt implementation",
+  "license": "Artistic-2.0",
+  "name": "Getopt::Long",
+  "perl": "6.*",
+  "provides": {
+    "Getopt::Long": "lib/Getopt/Long.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Getopt-Long-0.3.2.tar.gz",
+  "tags": [
+    "command",
+    "getopt",
+    "main"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.2"
 }
 ,
 {
