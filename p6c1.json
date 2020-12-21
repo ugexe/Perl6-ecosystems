@@ -3850,9 +3850,8 @@
 }
 ,
 {
-  "authority": "bbkr",
   "authors": [
-    "Pawel (bbkr) Pabian",
+    "Paweł bbkr Pabian",
     "Ahmad M. Zawawi (azawawi)"
   ],
   "depends": [
@@ -3866,16 +3865,12 @@
   "name": "JSON::RPC",
   "perl": "6.c",
   "provides": {
-    "JSON::RPC::Client": "lib/JSON/RPC/Client.pm6",
-    "JSON::RPC::Server": "lib/JSON/RPC/Server.pm6",
-    "X::JSON::RPC": "lib/X/JSON/RPC.pm6"
+    "JSON::RPC::Client": "lib/JSON/RPC/Client.rakumod",
+    "JSON::RPC::Server": "lib/JSON/RPC/Server.rakumod",
+    "X::JSON::RPC": "lib/X/JSON/RPC.rakumod"
   },
-  "repo-type": "git",
-  "source-url": "git://github.com/bbkr/jsonrpc.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.0.0"
+  "source-url": "git://github.com/bbkr/JSON-RPC.git",
+  "version": "1.0.1"
 }
 ,
 {
