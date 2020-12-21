@@ -20608,6 +20608,26 @@
 {
   "auth": "github:shuppet",
   "authors": [
+    "Kane 'kawaii' Valentine <kane@cute.im>"
+  ],
+  "depends": [
+    "Cro::HTTP::Client"
+  ],
+  "description": "Perl 6 module for interacting with the Google Perspective API.",
+  "license": "BSD-3-Clause",
+  "name": "API::Perspective",
+  "perl": "6.d",
+  "provides": {
+    "API::Perspective": "lib/API/Perspective.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "git://github.com/shuppet/p6-api-perspective.git",
+  "version": "0.3"
+}
+,
+{
+  "auth": "github:shuppet",
+  "authors": [
     "Alastair 'altreus' Douglas <altreus@altre.us>",
     "Kane 'kawaii' Valentine <kane@cute.im>"
   ],
@@ -22824,7 +22844,7 @@
     "Prime",
     "Factor"
   ],
-  "version": "0.3.0"
+  "version": "0.3.1"
 }
 ,
 {
@@ -23745,6 +23765,39 @@
     
   ],
   "version": "*"
+}
+,
+{
+  "authors": [
+    "Tokuhiro Matsuno"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "HTTP::Parser",
+    "HTTP::Status",
+    "IO::Blob"
+  ],
+  "description": "a simple HTTP server for Perl6",
+  "license": "Artistic-2.0",
+  "name": "HTTP::Server::Tiny",
+  "perl": "6.c",
+  "provides": {
+    "HTTP::Server::Tiny": "lib/HTTP/Server/Tiny.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/tokuhirom/p6-HTTP-Server-Tiny.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "HTTP::Tinyish"
+  ],
+  "version": "0.0.2"
 }
 ,
 {
