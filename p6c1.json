@@ -7337,6 +7337,13 @@
 }
 ,
 {
+  "authors": [
+    "Moritz Lenz",
+    "Timmo Paulssen",
+    "Ahmad M. Zawawi",
+    "Jonathan Worthington",
+    "Richard Hainsworth"
+  ],
   "build-depends": [
     "LWP::Simple",
     "Shell::Command"
@@ -7344,7 +7351,7 @@
   "description": "Simple GTK 3 binding using NativeCall",
   "license": "Artistic-2.0",
   "name": "GTK::Simple",
-  "perl": "6.c",
+  "perl": "6.d",
   "provides": {
     "GTK::Simple": "lib/GTK/Simple.pm6",
     "GTK::Simple::ActionBar": "lib/GTK/Simple/ActionBar.pm6",
@@ -7424,9 +7431,10 @@
     "gui"
   ],
   "test-depends": [
-    "Test"
+    "Test",
+    "Test::META"
   ],
-  "version": "0.1.13"
+  "version": "0.1.14"
 }
 ,
 {
