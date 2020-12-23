@@ -19788,7 +19788,9 @@
 ,
 {
   "auth": "github:salortiz",
-  "authors": "Salvador Ortiz <sortiz@cpan.com>",
+  "authors": [
+    "Salvador Ortiz <sortiz@cpan.com>"
+  ],
   "build-depends": [
     
   ],
@@ -24664,6 +24666,41 @@
     "DB::SQLite"
   ],
   "version": "0.1.1"
+}
+,
+{
+  "api": "0",
+  "auth": "zef:tony-o",
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
+    "NativeCall"
+  ],
+  "description": "one way to upload your dists to the masses.",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "fez",
+  "perl": "6.c",
+  "provides": {
+    "Fez": "lib/Fez.rakumod",
+    "Fez::Bundle": "lib/Fez/Bundle.rakumod",
+    "Fez::CLI": "lib/Fez/CLI.rakumod",
+    "Fez::Util::Config": "lib/Fez/Util/Config.rakumod",
+    "Fez::Util::Curl": "lib/Fez/Util/Curl.rakumod",
+    "Fez::Util::Git": "lib/Fez/Util/Git.rakumod",
+    "Fez::Util::Json": "lib/Fez/Util/Json.rakumod",
+    "Fez::Util::PW": "lib/Fez/Util/PW.rakumod",
+    "Fez::Util::Tar": "lib/Fez/Util/Tar.rakumod",
+    "Fez::Util::Wget": "lib/Fez/Util/Wget.rakumod",
+    "Fez::Web": "lib/Fez/Web.rakumod"
+  },
+  "resources": [
+    "lib/libgetpw.so",
+    "lib/libgetpw.dylib",
+    "config.json"
+  ],
+  "version": "0"
 }
 ,
 {
