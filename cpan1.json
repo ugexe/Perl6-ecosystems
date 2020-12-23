@@ -50548,6 +50548,36 @@
   "depends": [
     
   ],
+  "description": "Iterative, recursive file finder for Perl 6",
+  "license": "Artistic-2.0",
+  "name": "Path::Finder",
+  "perl": "6.*",
+  "provides": {
+    "Path::Finder": "lib/Path/Finder.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Path-Finder-0.3.0.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "File::Temp"
+  ],
+  "version": "0.3.0"
+}
+,
+{
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "TAP harness for perl6",
   "license": "Artistic-2.0",
   "name": "TAP",
