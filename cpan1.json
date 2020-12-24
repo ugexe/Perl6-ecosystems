@@ -90171,6 +90171,85 @@
 }
 ,
 {
+  "auth": "github:pdf-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
+    "Cairo:ver<0.2.7+>",
+    "Font::FreeType:ver<0.3.7+>",
+    "Method::Also"
+  ],
+  "description": "binds to the HarfBuzz font shaping library",
+  "license": "Artistic-2.0",
+  "name": "HarfBuzz",
+  "provides": {
+    "HarfBuzz": "lib/HarfBuzz.rakumod",
+    "HarfBuzz::Blob": "lib/HarfBuzz/Blob.rakumod",
+    "HarfBuzz::Buffer": "lib/HarfBuzz/Buffer.rakumod",
+    "HarfBuzz::Face": "lib/HarfBuzz/Face.rakumod",
+    "HarfBuzz::Feature": "lib/HarfBuzz/Feature.rakumod",
+    "HarfBuzz::Font": "lib/HarfBuzz/Font.rakumod",
+    "HarfBuzz::Font::FreeType": "lib/HarfBuzz/Font/FreeType.rakumod",
+    "HarfBuzz::Glyph": "lib/HarfBuzz/Glyph.rakumod",
+    "HarfBuzz::Raw": "lib/HarfBuzz/Raw.rakumod",
+    "HarfBuzz::Raw::Defs": "lib/HarfBuzz/Raw/Defs.rakumod",
+    "HarfBuzz::Shaper": "lib/HarfBuzz/Shaper.rakumod"
+  },
+  "raku": "6",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-0.0.1.tar.gz",
+  "tags": [
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:pdf-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "HarfBuzz",
+    "Method::Also"
+  ],
+  "description": "binds to the HarfBuzz font shaping library",
+  "license": "Artistic-2.0",
+  "name": "HarfBuzz::Subset",
+  "provides": {
+    "HarfBuzz::Subset": "lib/HarfBuzz/Subset.rakumod",
+    "HarfBuzz::Subset::Input": "lib/HarfBuzz/Subset/Input.rakumod",
+    "HarfBuzz::Subset::Raw": "lib/HarfBuzz/Subset/Raw.rakumod",
+    "HarfBuzz::Subset::Raw::Defs": "lib/HarfBuzz/Subset/Raw/Defs.rakumod",
+    "HarfBuzz::Subset::Tables": "lib/HarfBuzz/Subset/Tables.rakumod"
+  },
+  "raku": "6",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-Subset-0.0.1.tar.gz",
+  "tags": [
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "auth": "cpan:WARRINGD",
   "authors": [
     "David Warring"
@@ -91829,6 +91908,53 @@
     
   ],
   "version": "0.3.1"
+}
+,
+{
+  "api": "PDF-1.7",
+  "auth": "github:pdf-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF::Lite",
+    "PDF::Content",
+    "Font::FreeType:ver<0.3.6+>",
+    "PDF",
+    "Native::Packing"
+  ],
+  "description": "Font loading and embedding for the PDF tool-chain",
+  "license": "Artistic-2.0",
+  "name": "PDF::Font::Loader",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Font::Loader": "lib/PDF/Font/Loader.rakumod",
+    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.rakumod",
+    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.rakumod",
+    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.rakumod",
+    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.rakumod",
+    "PDF::Font::Loader::Enc::Identity16": "lib/PDF/Font/Loader/Enc/Identity16.rakumod",
+    "PDF::Font::Loader::Enc::Identity8": "lib/PDF/Font/Loader/Enc/Identity8.rakumod",
+    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.rakumod",
+    "PDF::Font::Loader::FreeType": "lib/PDF/Font/Loader/FreeType.rakumod",
+    "PDF::Font::Loader::Type1": "lib/PDF/Font/Loader/Type1.rakumod",
+    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.4.1.tar.gz",
+  "tags": [
+    "pdf",
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.4.1"
 }
 ,
 {
