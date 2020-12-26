@@ -20087,8 +20087,13 @@
   "name": "Bio",
   "provides": {
     "Bio::IO::CSV": "lib/Bio/IO/CSV.rakumod",
+    "Bio::IO::FASTA": "lib/Bio/IO/FASTA.rakumod",
+    "Bio::IO::Sam": "lib/Bio/IO/Sam.rakumod",
     "Bio::Seq": "lib/Bio/Seq.rakumod"
   },
+  "resources": [
+    "libraries/hts"
+  ],
   "source-url": "git://github.com/schmidt73/Bio.git",
   "version": "v0.1"
 }
