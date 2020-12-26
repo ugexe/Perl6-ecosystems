@@ -26110,6 +26110,30 @@
 }
 ,
 {
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "NativeCall"
+  ],
+  "description": "use C-code from within Perl",
+  "name": "Inline",
+  "perl": "v6",
+  "provides": {
+    "Inline": "lib/Inline.pm",
+    "Inline::C": "lib/Inline/C.pm"
+  },
+  "support": {
+    "bugtracker": "https://github.com/FROGGS/p6-Inline-C/issues",
+    "source": "https://github.com/FROGGS/p6-Inline-C.git"
+  },
+  "test-depends": [
+    
+  ],
+  "version": "v1"
+}
+,
+{
   "auth": "cpan:GARLANDG",
   "authors": [
     "Travis Gibson"
@@ -26162,37 +26186,6 @@
     
   ],
   "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Constants-Netinet-In-0.0.1.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:GARLANDG",
-  "authors": [
-    "Travis Gibson"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Socket constants defined in sys/socket.h",
-  "license": "Artistic-2.0",
-  "name": "Constants::Sys::Socket",
-  "perl": "6.c",
-  "provides": {
-    "Constants::Sys::Socket": "lib/Constants/Sys/Socket.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Constants-Sys-Socket-0.0.1.tar.gz",
   "tags": [
     
   ],
