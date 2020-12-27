@@ -26216,6 +26216,37 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Constants-Sys-Socket-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:GARLANDG",
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Socket constants defined in sys/socket.h",
+  "license": "Artistic-2.0",
+  "name": "Constants::Sys::Socket",
+  "perl": "6.c",
+  "provides": {
+    "Constants::Sys::Socket": "lib/Constants/Sys/Socket.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/Constants-Sys-Socket-0.0.2.tar.gz",
   "tags": [
     
@@ -37536,6 +37567,34 @@
     "source": "git://github.com/croservices/json-schema.git"
   },
   "version": "0.9"
+}
+,
+{
+  "auth": "jnthn",
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Encoding and decoding of integers in the LEB128 encoding.",
+  "license": "Artistic-2.0",
+  "name": "LEB128",
+  "perl": "6.*",
+  "provides": {
+    "LEB128": "lib/LEB128.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/LEB128-0.1.tar.gz",
+  "test-depends": [
+    
+  ],
+  "version": "0.1"
 }
 ,
 {
