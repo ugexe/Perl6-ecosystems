@@ -7367,7 +7367,6 @@
   "auth": "github:finanalyst",
   "authors": "Richard Hainsworth, aka finanalyst",
   "build-depends": [
-    "LWP::Simple",
     "Shell::Command"
   ],
   "depends": [
@@ -7382,33 +7381,10 @@
   },
   "repo-type": "git",
   "resources": [
-    "blib/lib/GTK/libatk-1.0-0.dll",
-    "blib/lib/GTK/libcairo-2.dll",
-    "blib/lib/GTK/libcairo-gobject-2.dll",
-    "blib/lib/GTK/libffi-6.dll",
-    "blib/lib/GTK/libfontconfig-1.dll",
-    "blib/lib/GTK/libfreetype-6.dll",
-    "blib/lib/GTK/libgdk-3-0.dll",
-    "blib/lib/GTK/libgdk_pixbuf-2.0-0.dll",
-    "blib/lib/GTK/libgio-2.0-0.dll",
-    "blib/lib/GTK/libglib-2.0-0.dll",
-    "blib/lib/GTK/libgmodule-2.0-0.dll",
-    "blib/lib/GTK/libgobject-2.0-0.dll",
-    "blib/lib/GTK/libgtk-3-0.dll",
-    "blib/lib/GTK/libiconv-2.dll",
-    "blib/lib/GTK/libintl-8.dll",
-    "blib/lib/GTK/liblzma-5.dll",
-    "blib/lib/GTK/libpango-1.0-0.dll",
-    "blib/lib/GTK/libpangocairo-1.0-0.dll",
-    "blib/lib/GTK/libpangoft2-1.0-0.dll",
-    "blib/lib/GTK/libpangowin32-1.0-0.dll",
-    "blib/lib/GTK/libpixman-1-0.dll",
-    "blib/lib/GTK/libpng15-15.dll",
-    "blib/lib/GTK/libxml2-2.dll",
-    "blib/lib/GTK/zlib1.dll"
+    
   ],
   "source-url": "git://github.com/finanalyst/p6-inform.git",
-  "version": "1.3.3"
+  "version": "1.4"
 }
 ,
 {
@@ -24683,7 +24659,7 @@
   "api": "0",
   "auth": "zef:tony-o",
   "build-depends": [
-    "LibraryMake"
+    
   ],
   "depends": [
     "NativeCall"
@@ -24701,18 +24677,16 @@
     "Fez::Util::Curl": "lib/Fez/Util/Curl.rakumod",
     "Fez::Util::Git": "lib/Fez/Util/Git.rakumod",
     "Fez::Util::Json": "lib/Fez/Util/Json.rakumod",
-    "Fez::Util::PW": "lib/Fez/Util/PW.rakumod",
+    "Fez::Util::Pass": "lib/Fez/Util/Pass.rakumod",
     "Fez::Util::Tar": "lib/Fez/Util/Tar.rakumod",
     "Fez::Util::Wget": "lib/Fez/Util/Wget.rakumod",
     "Fez::Web": "lib/Fez/Web.rakumod"
   },
   "resources": [
-    "lib/libgetpw.so",
-    "lib/libgetpw.dylib",
     "config.json"
   ],
-  "source-url": "https://github.com/tony-o/raku-fez.git",
-  "version": "0"
+  "source-url": "https://github.com/tony-o/raku-fez",
+  "version": "2"
 }
 ,
 {
