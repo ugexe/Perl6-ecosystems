@@ -678,6 +678,35 @@
     "Mikhail Khorkov"
   ],
   "depends": [
+    
+  ],
+  "description": "`IO::Handle` for rollover files (logs, for example) based on its size or creation time.",
+  "license": "Artistic-2.0",
+  "name": "IO::Handle::Rollover",
+  "perl": "6.d",
+  "provides": {
+    "IO::Handle::Rollover": "lib/IO/Handle/Rollover.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/Handle-Rollover-1.3.1.tar.gz",
+  "tags": [
+    "LOG",
+    "HANDLE"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.3.1"
+}
+,
+{
+  "auth": "github:atroxaper",
+  "authors": [
+    "Mikhail Khorkov"
+  ],
+  "depends": [
     "UUID",
     "JSON::Fast"
   ],
@@ -778,6 +807,60 @@
     "Test"
   ],
   "version": "1.6.2"
+}
+,
+{
+  "auth": "github:atroxaper",
+  "authors": [
+    "Mikhail Khorkov"
+  ],
+  "depends": [
+    "UUID",
+    "JSON::Fast"
+  ],
+  "description": "Full customisable logging library inspired by idea of separate logging and its configuration.",
+  "license": "Artistic-2.0",
+  "name": "LogP6",
+  "perl": "6.d",
+  "provides": {
+    "LogP6": "lib/LogP6.rakumod",
+    "LogP6::Cliche": "lib/LogP6/Cliche.rakumod",
+    "LogP6::ConfigFile": "lib/LogP6/ConfigFile.rakumod",
+    "LogP6::Context": "lib/LogP6/Context.rakumod",
+    "LogP6::Exceptions": "lib/LogP6/Exceptions.rakumod",
+    "LogP6::Filter": "lib/LogP6/Filter.rakumod",
+    "LogP6::Filter::Std": "lib/LogP6/Filter/Std.rakumod",
+    "LogP6::FilterConf": "lib/LogP6/FilterConf.rakumod",
+    "LogP6::FilterConf::Std": "lib/LogP6/FilterConf/Std.rakumod",
+    "LogP6::Level": "lib/LogP6/Level.rakumod",
+    "LogP6::LogGetter": "lib/LogP6/LogGetter.rakumod",
+    "LogP6::Logger": "lib/LogP6/Logger.rakumod",
+    "LogP6::LoggerPure": "lib/LogP6/LoggerPure.rakumod",
+    "LogP6::ThreadLocal": "lib/LogP6/ThreadLocal.rakumod",
+    "LogP6::Wrapper": "lib/LogP6/Wrapper.rakumod",
+    "LogP6::Wrapper::SyncAbstract": "lib/LogP6/Wrapper/SyncAbstract.rakumod",
+    "LogP6::Wrapper::SyncEach": "lib/LogP6/Wrapper/SyncEach.rakumod",
+    "LogP6::Wrapper::SyncTime": "lib/LogP6/Wrapper/SyncTime.rakumod",
+    "LogP6::Wrapper::Transparent": "lib/LogP6/Wrapper/Transparent.rakumod",
+    "LogP6::Writer": "lib/LogP6/Writer.rakumod",
+    "LogP6::Writer::Std": "lib/LogP6/Writer/Std.rakumod",
+    "LogP6::WriterConf": "lib/LogP6/WriterConf.rakumod",
+    "LogP6::WriterConf::Pattern": "lib/LogP6/WriterConf/Pattern.rakumod",
+    "LogP6::WriterConf::Std": "lib/LogP6/WriterConf/Std.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/LogP6-1.6.3.tar.gz",
+  "tags": [
+    "LOG",
+    "LOGGING",
+    "LOGGER"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.6.3"
 }
 ,
 {
