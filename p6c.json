@@ -1231,19 +1231,11 @@
   "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "Intl::CLDR",
-  "perl": null,
+  "perl": "6.*",
   "provides": {
     "Intl::CLDR": "lib/Intl/CLDR.pm6",
     "Intl::CLDR::Enums": "lib/Intl/CLDR/Enums.pm6",
-    "Intl::CLDR::Genders": "lib/Intl/CLDR/Genders.pm6",
     "Intl::CLDR::Immutability": "lib/Intl/CLDR/Immutability.pm6",
-    "Intl::CLDR::Lists": "lib/Intl/CLDR/Lists.pm6",
-    "Intl::CLDR::NumberSystems::Digits": "lib/Intl/CLDR/NumberSystems/Digits.pm6",
-    "Intl::CLDR::NumberSystems::Ge'ez": "lib/Intl/CLDR/NumberSystems/Ge'ez.pm6",
-    "Intl::CLDR::NumberSystems::Mayan": "lib/Intl/CLDR/NumberSystems/Mayan.pm6",
-    "Intl::CLDR::NumberSystems::Roman": "lib/Intl/CLDR/NumberSystems/Roman.pm6",
-    "Intl::CLDR::Plurals": "lib/Intl/CLDR/Plurals.pm6",
-    "Intl::CLDR::Plurals::Classes": "lib/Intl/CLDR/Plurals/Classes.pm6",
     "Intl::CLDR::Types::AppendItems": "lib/Intl/CLDR/Types/AppendItems.pm6",
     "Intl::CLDR::Types::AvailableFormats": "lib/Intl/CLDR/Types/AvailableFormats.pm6",
     "Intl::CLDR::Types::Calendar": "lib/Intl/CLDR/Types/Calendar.pm6",
@@ -1346,11 +1338,9 @@
     "Intl::CLDR::Types::Zones": "lib/Intl/CLDR/Types/Zones.pm6",
     "Intl::CLDR::Util::StrDecode": "lib/Intl/CLDR/Util/StrDecode.pm6",
     "Intl::CLDR::Util::StrEncode": "lib/Intl/CLDR/Util/StrEncode.pm6",
-    "Intl::CLDR::Util::XML-Helper": "lib/Intl/CLDR/Util/XML-Helper.pm6",
-    "Intl::Numbers": "lib/Intl/Numbers.pm6",
-    "Intl::Numbers::Enums": "lib/Intl/Numbers/Enums.pm6"
+    "Intl::CLDR::Util::XML-Helper": "lib/Intl/CLDR/Util/XML-Helper.pm6"
   },
-  "raku": null,
+  "raku": "6.*",
   "resources": [
     "languages-binary/ky.data",
     "languages-binary/en-DM.data",
@@ -2357,6 +2347,36 @@
     "localization",
     "language"
   ],
+  "test-depends": [
+    
+  ],
+  "version": "0.5.0"
+}
+,
+{
+  "auth": "github:alabamenhu",
+  "authors": [
+    "Matthew Stephen Stuckwisch"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Intl::CLDR:ver<0.5+>",
+    "Intl::UserLanguage"
+  ],
+  "description": "A module for formatting lists in a localized manner",
+  "license": "Artistic-2.0",
+  "name": "Intl::Format::List",
+  "perl": "6.*",
+  "provides": {
+    "Intl::Format::List": "lib/Intl/Format/List.pm6"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/alabamenhu/IntlFormatList.git",
   "test-depends": [
     
   ],
