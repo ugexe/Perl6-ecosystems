@@ -6270,10 +6270,10 @@
   "api": "css-snapshot-2010",
   "auth": "github:css-raku",
   "depends": [
-    "CSS::Grammar:ver(0.3.3+)",
-    "CSS::Module::CSS3::Selectors",
-    "CSS::Specification",
-    "CSS::Writer",
+    "CSS::Grammar:ver<0.3.5+>",
+    "CSS::Module::CSS3::Selectors:ver<0.0.4>",
+    "CSS::Specification:ver<0.4.6+>",
+    "CSS::Writer:ver<0.2.6+>",
     "JSON::Fast"
   ],
   "description": "Perl 6 CSS extended and property-specific grammars",
@@ -6326,7 +6326,7 @@
     "CSS::Module::Property": "lib/CSS/Module/Property.rakumod"
   },
   "source-url": "git://github.com/css-raku/CSS-Module-raku.git",
-  "version": "0.5.2"
+  "version": "0.5.3"
 }
 ,
 {
