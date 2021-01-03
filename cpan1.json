@@ -26455,30 +26455,6 @@
   "test-depends": [
     
   ],
-  "version": "v1.2"
-}
-,
-{
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "NativeCall"
-  ],
-  "description": "use C-code from within Perl",
-  "name": "Inline",
-  "perl": "v6",
-  "provides": {
-    "Inline": "lib/Inline.pm",
-    "Inline::C": "lib/Inline/C.pm"
-  },
-  "support": {
-    "bugtracker": "https://github.com/FROGGS/p6-Inline-C/issues",
-    "source": "https://github.com/FROGGS/p6-Inline-C.git"
-  },
-  "test-depends": [
-    
-  ],
   "version": "v1"
 }
 ,
@@ -75464,6 +75440,47 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF",
+    "PDF::API6",
+    "PDF::Page",
+    "PDF::Content",
+    "Pod::To::Anything",
+    "Config::TOML",
+    "Text::Utils"
+  ],
+  "description": "A tool to convert documents written in Raku POD to beautiful PDF format",
+  "license": "Artistic-2.0",
+  "name": "PDF::Writer",
+  "perl": "6.d",
+  "provides": {
+    "PDF::Writer": "lib/PDF/Writer.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/PDF-Writer-0.0.4.tar.gz",
+  "tags": [
+    "pdf",
+    "document",
+    "letter",
+    "text",
+    "Raku pod"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
