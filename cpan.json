@@ -26254,30 +26254,6 @@
 }
 ,
 {
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "NativeCall"
-  ],
-  "description": "use C-code from within Perl",
-  "name": "Inline",
-  "perl": "v6",
-  "provides": {
-    "Inline": "lib/Inline.pm",
-    "Inline::C": "lib/Inline/C.pm"
-  },
-  "support": {
-    "bugtracker": "https://github.com/FROGGS/p6-Inline-C/issues",
-    "source": "https://github.com/FROGGS/p6-Inline-C.git"
-  },
-  "test-depends": [
-    
-  ],
-  "version": "v1"
-}
-,
-{
   "auth": "cpan:GARLANDG",
   "authors": [
     "Travis Gibson"
