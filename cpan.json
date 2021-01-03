@@ -32033,6 +32033,33 @@
   "name": "Hyperscript",
   "perl": "6.d",
   "provides": {
+    "Hyperscript": "lib/Hyperscript.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JA/JACKMILES/Perl6/Hyperscript-0.10.0.tar.gz",
+  "tags": [
+    "HTML",
+    "web"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.10.0"
+}
+,
+{
+  "auth": "github:caseyjackmiles",
+  "authors": [
+    "Jack Miles"
+  ],
+  "description": "Create hypertext with Raku",
+  "license": "MIT",
+  "meta-version": 0,
+  "name": "Hyperscript",
+  "perl": "6.d",
+  "provides": {
     "Hyperscript": "lib/Hyperscript.rakumod",
     "Hyperscript::Helpers": "lib/Hyperscript/Helpers.rakumod"
   },
@@ -75146,6 +75173,43 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Pod::To::Anything",
+    "Config::TOML",
+    "Text::Utils"
+  ],
+  "description": "A tool to convert documents written in Raku POD to beautiful PDF format",
+  "license": "Artistic-2.0",
+  "name": "PDF::Writer",
+  "perl": "6.d",
+  "provides": {
+    "PDF::Writer": "lib/PDF/Writer.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/PDF-Writer-0.0.3.tar.gz",
+  "tags": [
+    "pdf",
+    "document",
+    "letter",
+    "text",
+    "Raku pod"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
