@@ -6251,7 +6251,7 @@
   "api": "css3-selectors-20110929",
   "auth": "github:p6-css",
   "depends": [
-    "CSS::Grammar:ver<0.3.4+>",
+    "CSS::Grammar:ver<0.3.5+>",
     "JSON::Fast"
   ],
   "description": "CSS3 Module Level 3 Selectors",
@@ -6263,7 +6263,7 @@
     "CSS::Module::CSS3::Selectors::Actions": "lib/CSS/Module/CSS3/Selectors/Actions.rakumod"
   },
   "source-url": "git://github.com/css-raku/CSS-Module-CSS3-Selectors-raku.git",
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
 ,
 {
@@ -6390,12 +6390,12 @@
     "CSS::Specification::Terms::Actions": "lib/CSS/Specification/Terms/Actions.rakumod"
   },
   "source-url": "git://github.com/css-raku/CSS-Specification-raku.git",
-  "version": "0.4.7"
+  "version": "0.4.8"
 }
 ,
 {
   "depends": [
-    "CSS::Grammar",
+    "CSS::Grammar:ver<0.3.5+>",
     "Color::Names",
     "JSON::Fast"
   ],
@@ -6406,8 +6406,8 @@
   "provides": {
     "CSS::Writer": "lib/CSS/Writer.rakumod"
   },
-  "source-url": "git://github.com/css-raku/CSS-Writer-p6.git",
-  "version": "0.2.5"
+  "source-url": "git://github.com/css-raku/CSS-Writer-raku.git",
+  "version": "0.2.6"
 }
 ,
 {
