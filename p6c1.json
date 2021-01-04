@@ -6338,9 +6338,8 @@
     
   ],
   "depends": [
-    "CSS::Module",
-    "CSS::Writer",
-    "CSS::Box",
+    "CSS::Module:ver<0.5.3+>",
+    "CSS::Writer:ver<0.2.6+",
     "Color",
     "Method::Also"
   ],
