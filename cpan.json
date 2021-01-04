@@ -26036,6 +26036,45 @@
     
   ],
   "depends": [
+    "NativeHelpers::Blob",
+    "Math::Libgsl::Constants",
+    "Math::Libgsl::Matrix",
+    "Math::Libgsl::Random",
+    "Math::Libgsl::BLAS",
+    "Math::Libgsl::LinearAlgebra"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Random Number Distributions",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::RandomDistribution",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::RandomDistribution": "lib/Math/Libgsl/RandomDistribution.rakumod",
+    "Math::Libgsl::Raw::RandomDistribution": "lib/Math/Libgsl/Raw/RandomDistribution.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-RandomDistribution-0.0.2.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    "Math::Libgsl::BLAS",
+    "Math::Libgsl::LinearAlgebra"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Math::Libgsl::Constants"
   ],
   "description": "An interface to libgsl, the Gnu Scientific Library - Running Statistics",
