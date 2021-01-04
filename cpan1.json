@@ -26019,6 +26019,40 @@
     
   ],
   "depends": [
+    "Math::Libgsl::Constants",
+    "Math::Libgsl::Matrix"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Moving Window Statistics",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::MovingWindow",
+  "perl": "6.d",
+  "provides": {
+    "Math::Libgsl::MovingWindow": "lib/Math/Libgsl/MovingWindow.rakumod",
+    "Math::Libgsl::Raw::MovingWindow": "lib/Math/Libgsl/Raw/MovingWindow.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-MovingWindow-0.0.3.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "LibraryMake",
     "Math::Libgsl::Constants"
   ],
@@ -26194,45 +26228,6 @@
   ],
   "test-depends": [
     
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "NativeHelpers::Blob",
-    "Math::Libgsl::Constants",
-    "Math::Libgsl::Matrix",
-    "Math::Libgsl::Random",
-    "Math::Libgsl::BLAS",
-    "Math::Libgsl::LinearAlgebra"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - Random Number Distributions",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::RandomDistribution",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::RandomDistribution": "lib/Math/Libgsl/RandomDistribution.rakumod",
-    "Math::Libgsl::Raw::RandomDistribution": "lib/Math/Libgsl/Raw/RandomDistribution.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-RandomDistribution-0.0.2.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    "Math::Libgsl::BLAS",
-    "Math::Libgsl::LinearAlgebra"
   ],
   "version": "0.0.2"
 }
@@ -75689,6 +75684,44 @@
     
   ],
   "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF::Lite",
+    "Pod::To::Anything",
+    "Config::TOML",
+    "Text::Utils"
+  ],
+  "description": "A tool to convert documents written in Raku POD to beautiful PDF format",
+  "license": "Artistic-2.0",
+  "name": "PDF::Writer",
+  "perl": "6.d",
+  "provides": {
+    "PDF::Writer": "lib/PDF/Writer.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/PDF-Writer-0.0.5.tar.gz",
+  "tags": [
+    "pdf",
+    "document",
+    "letter",
+    "text",
+    "Raku pod"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
 }
 ,
 {
