@@ -35224,6 +35224,50 @@
     
   ],
   "depends": [
+    "Digest::SHA1::Native",
+    "File::Temp",
+    "NativeCall",
+    "P5getpriority",
+    "P5localtime",
+    "Term::termios",
+    "Term::ReadKey",
+    "Terminal::ANSIColor",
+    "YAMLish"
+  ],
+  "description": "Task Management CLI Appliication",
+  "license": "Artistic-2.0",
+  "name": "App::Tasks",
+  "perl": "6.c",
+  "provides": {
+    "App::Tasks": "lib/App/Tasks.pm6",
+    "App::Tasks::Config": "lib/App/Tasks/Config.pm6",
+    "App::Tasks::Lock": "lib/App/Tasks/Lock.pm6",
+    "App::Tasks::Task": "lib/App/Tasks/Task.pm6",
+    "App::Tasks::TaskBody": "lib/App/Tasks/TaskBody.pm6",
+    "App::Tasks::TaskList": "lib/App/Tasks/TaskList.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/App-Tasks-0.0.18.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.18"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "is a Never-Decreasing Time-Elapsed Counter",
@@ -92569,6 +92613,53 @@
     
   ],
   "version": "0.4.1"
+}
+,
+{
+  "api": "PDF-1.7",
+  "auth": "github:pdf-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF::Lite",
+    "PDF::Content:ver<0.4.8+>",
+    "Font::FreeType:ver<0.3.6+>",
+    "PDF:ver<0.4.5+>",
+    "Native::Packing"
+  ],
+  "description": "Font loading and embedding for the PDF tool-chain",
+  "license": "Artistic-2.0",
+  "name": "PDF::Font::Loader",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Font::Loader": "lib/PDF/Font/Loader.rakumod",
+    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.rakumod",
+    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.rakumod",
+    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.rakumod",
+    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.rakumod",
+    "PDF::Font::Loader::Enc::Identity16": "lib/PDF/Font/Loader/Enc/Identity16.rakumod",
+    "PDF::Font::Loader::Enc::Identity8": "lib/PDF/Font/Loader/Enc/Identity8.rakumod",
+    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.rakumod",
+    "PDF::Font::Loader::FreeType": "lib/PDF/Font/Loader/FreeType.rakumod",
+    "PDF::Font::Loader::Type1": "lib/PDF/Font/Loader/Type1.rakumod",
+    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.4.2.tar.gz",
+  "tags": [
+    "pdf",
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.4.2"
 }
 ,
 {
