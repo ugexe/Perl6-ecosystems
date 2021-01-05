@@ -26031,6 +26031,40 @@
     
   ],
   "depends": [
+    "LibraryMake",
+    "Math::Libgsl::Constants"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Random Number Generation.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Random",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Random": "lib/Math/Libgsl/Random.rakumod",
+    "Math::Libgsl::Raw::Random": "lib/Math/Libgsl/Raw/Random.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Random-0.0.2.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "NativeHelpers::Blob",
     "Math::Libgsl::Constants",
     "Math::Libgsl::Matrix",
@@ -75312,6 +75346,37 @@
     "Test::META"
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "blah blah blah",
+  "license": "Artistic-2.0",
+  "name": "PDF::Labelmaker",
+  "perl": "6.d",
+  "provides": {
+    "PDF::Labelmaker": "lib/PDF/Labelmaker.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/PDF-Labelmaker-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
 }
 ,
 {
