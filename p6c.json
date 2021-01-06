@@ -18165,14 +18165,18 @@
 ,
 {
   "auth": "github:raku-community-modules",
-  "author": "Raku team",
+  "authors": [
+    "niner",
+    "Raku community modules team"
+  ],
   "depends": [
     "MIME::Base64",
     "URI"
   ],
   "description": "LWP::Simple quick & dirty implementation for Raku",
+  "license": "Artistic-2.0",
   "name": "LWP::Simple",
-  "perl": "6.*",
+  "perl": "6.c",
   "provides": {
     "LWP::Simple": "lib/LWP/Simple.pm"
   },
