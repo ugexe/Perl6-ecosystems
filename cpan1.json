@@ -1360,6 +1360,52 @@
     
   ],
   "depends": [
+    "UUID",
+    "Log::Async",
+    "Net::ZMQ:ver<0.8>",
+    "JSON::Tiny",
+    "Digest::HMAC",
+    "Digest::SHA256::Native"
+  ],
+  "description": "Raku Kernel for Jupyter Notebooks",
+  "license": "Artistic-2.0",
+  "name": "Jupyter::Kernel",
+  "perl": "6.*",
+  "provides": {
+    "Jupyter::Kernel": "lib/Jupyter/Kernel.rakumod",
+    "Jupyter::Kernel::Comm": "lib/Jupyter/Kernel/Comm.rakumod",
+    "Jupyter::Kernel::Comms": "lib/Jupyter/Kernel/Comms.rakumod",
+    "Jupyter::Kernel::Handler": "lib/Jupyter/Kernel/Handler.rakumod",
+    "Jupyter::Kernel::History": "lib/Jupyter/Kernel/History.rakumod",
+    "Jupyter::Kernel::Magics": "lib/Jupyter/Kernel/Magics.rakumod",
+    "Jupyter::Kernel::Paths": "lib/Jupyter/Kernel/Paths.rakumod",
+    "Jupyter::Kernel::Response": "lib/Jupyter/Kernel/Response.rakumod",
+    "Jupyter::Kernel::Sandbox": "lib/Jupyter/Kernel/Sandbox.rakumod",
+    "Jupyter::Kernel::Sandbox::Autocomplete": "lib/Jupyter/Kernel/Sandbox/Autocomplete.rakumod",
+    "Jupyter::Kernel::Service": "lib/Jupyter/Kernel/Service.rakumod"
+  },
+  "resources": [
+    "logo-32x32.png",
+    "logo-64x64.png"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Jupyter-Kernel-0.0.17.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.17"
+}
+,
+{
+  "authors": [
+    "Brian Duggan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "HTTP::UserAgent",
     "IO::Socket::SSL",
     "JSON::Fast"
@@ -25948,95 +25994,6 @@
     
   ],
   "version": "0.3.1"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build": {
-    "makefile-variables": {
-      "gslhelper": {
-        "resource": "libraries/gslhelper"
-      }
-    }
-  },
-  "build-depends": [
-    "Distribution::Builder::MakeFromJSON"
-  ],
-  "builder": "Distribution::Builder::MakeFromJSON",
-  "depends": [
-    "Distribution::Builder::MakeFromJSON",
-    "Math::Libgsl::Complex",
-    "Math::Libgsl::Constants"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - Vectors and Matrices.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::Matrix",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::Block": "lib/Math/Libgsl/Block.rakumod",
-    "Math::Libgsl::Block::Complex32": "lib/Math/Libgsl/Block/Complex32.rakumod",
-    "Math::Libgsl::Block::Complex64": "lib/Math/Libgsl/Block/Complex64.rakumod",
-    "Math::Libgsl::Block::Int16": "lib/Math/Libgsl/Block/Int16.rakumod",
-    "Math::Libgsl::Block::Int32": "lib/Math/Libgsl/Block/Int32.rakumod",
-    "Math::Libgsl::Block::Int64": "lib/Math/Libgsl/Block/Int64.rakumod",
-    "Math::Libgsl::Block::Int8": "lib/Math/Libgsl/Block/Int8.rakumod",
-    "Math::Libgsl::Block::Num32": "lib/Math/Libgsl/Block/Num32.rakumod",
-    "Math::Libgsl::Block::UInt16": "lib/Math/Libgsl/Block/UInt16.rakumod",
-    "Math::Libgsl::Block::UInt32": "lib/Math/Libgsl/Block/UInt32.rakumod",
-    "Math::Libgsl::Block::UInt64": "lib/Math/Libgsl/Block/UInt64.rakumod",
-    "Math::Libgsl::Block::UInt8": "lib/Math/Libgsl/Block/UInt8.rakumod",
-    "Math::Libgsl::Matrix": "lib/Math/Libgsl/Matrix.rakumod",
-    "Math::Libgsl::Matrix::Complex32": "lib/Math/Libgsl/Matrix/Complex32.rakumod",
-    "Math::Libgsl::Matrix::Complex64": "lib/Math/Libgsl/Matrix/Complex64.rakumod",
-    "Math::Libgsl::Matrix::Int16": "lib/Math/Libgsl/Matrix/Int16.rakumod",
-    "Math::Libgsl::Matrix::Int32": "lib/Math/Libgsl/Matrix/Int32.rakumod",
-    "Math::Libgsl::Matrix::Int64": "lib/Math/Libgsl/Matrix/Int64.rakumod",
-    "Math::Libgsl::Matrix::Int8": "lib/Math/Libgsl/Matrix/Int8.rakumod",
-    "Math::Libgsl::Matrix::Num32": "lib/Math/Libgsl/Matrix/Num32.rakumod",
-    "Math::Libgsl::Matrix::UInt16": "lib/Math/Libgsl/Matrix/UInt16.rakumod",
-    "Math::Libgsl::Matrix::UInt32": "lib/Math/Libgsl/Matrix/UInt32.rakumod",
-    "Math::Libgsl::Matrix::UInt64": "lib/Math/Libgsl/Matrix/UInt64.rakumod",
-    "Math::Libgsl::Matrix::UInt8": "lib/Math/Libgsl/Matrix/UInt8.rakumod",
-    "Math::Libgsl::Raw::Matrix": "lib/Math/Libgsl/Raw/Matrix.rakumod",
-    "Math::Libgsl::Raw::Matrix::Complex32": "lib/Math/Libgsl/Raw/Matrix/Complex32.rakumod",
-    "Math::Libgsl::Raw::Matrix::Complex64": "lib/Math/Libgsl/Raw/Matrix/Complex64.rakumod",
-    "Math::Libgsl::Raw::Matrix::Int16": "lib/Math/Libgsl/Raw/Matrix/Int16.rakumod",
-    "Math::Libgsl::Raw::Matrix::Int32": "lib/Math/Libgsl/Raw/Matrix/Int32.rakumod",
-    "Math::Libgsl::Raw::Matrix::Int64": "lib/Math/Libgsl/Raw/Matrix/Int64.rakumod",
-    "Math::Libgsl::Raw::Matrix::Int8": "lib/Math/Libgsl/Raw/Matrix/Int8.rakumod",
-    "Math::Libgsl::Raw::Matrix::Num32": "lib/Math/Libgsl/Raw/Matrix/Num32.rakumod",
-    "Math::Libgsl::Raw::Matrix::UInt16": "lib/Math/Libgsl/Raw/Matrix/UInt16.rakumod",
-    "Math::Libgsl::Raw::Matrix::UInt32": "lib/Math/Libgsl/Raw/Matrix/UInt32.rakumod",
-    "Math::Libgsl::Raw::Matrix::UInt64": "lib/Math/Libgsl/Raw/Matrix/UInt64.rakumod",
-    "Math::Libgsl::Raw::Matrix::UInt8": "lib/Math/Libgsl/Raw/Matrix/UInt8.rakumod",
-    "Math::Libgsl::Vector": "lib/Math/Libgsl/Vector.rakumod",
-    "Math::Libgsl::Vector::Complex32": "lib/Math/Libgsl/Vector/Complex32.rakumod",
-    "Math::Libgsl::Vector::Complex64": "lib/Math/Libgsl/Vector/Complex64.rakumod",
-    "Math::Libgsl::Vector::Int16": "lib/Math/Libgsl/Vector/Int16.rakumod",
-    "Math::Libgsl::Vector::Int32": "lib/Math/Libgsl/Vector/Int32.rakumod",
-    "Math::Libgsl::Vector::Int64": "lib/Math/Libgsl/Vector/Int64.rakumod",
-    "Math::Libgsl::Vector::Int8": "lib/Math/Libgsl/Vector/Int8.rakumod",
-    "Math::Libgsl::Vector::Num32": "lib/Math/Libgsl/Vector/Num32.rakumod",
-    "Math::Libgsl::Vector::UInt16": "lib/Math/Libgsl/Vector/UInt16.rakumod",
-    "Math::Libgsl::Vector::UInt32": "lib/Math/Libgsl/Vector/UInt32.rakumod",
-    "Math::Libgsl::Vector::UInt64": "lib/Math/Libgsl/Vector/UInt64.rakumod",
-    "Math::Libgsl::Vector::UInt8": "lib/Math/Libgsl/Vector/UInt8.rakumod"
-  },
-  "resources": [
-    "libraries/gslhelper"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Matrix-0.3.2.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.3.2"
 }
 ,
 {
