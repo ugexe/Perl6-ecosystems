@@ -25672,54 +25672,6 @@
   "builder": "Distribution::Builder::MakeFromJSON",
   "depends": [
     "Distribution::Builder::MakeFromJSON",
-    "Math::Libgsl::Constants",
-    "Math::Libgsl::Matrix",
-    "Math::Libgsl::Permutation",
-    "Math::Libgsl::BLAS",
-    "Math::Libgsl::Random"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - Linear Algebra.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::LinearAlgebra",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::LinearAlgebra": "lib/Math/Libgsl/LinearAlgebra.rakumod",
-    "Math::Libgsl::LinearAlgebra::Complex64": "lib/Math/Libgsl/LinearAlgebra/Complex64.rakumod",
-    "Math::Libgsl::Raw::LinearAlgebra": "lib/Math/Libgsl/Raw/LinearAlgebra.rakumod"
-  },
-  "resources": [
-    "libraries/gslhelper"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-LinearAlgebra-0.0.2.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    "Math::Libgsl::BLAS",
-    "Math::Libgsl::Random"
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build": {
-    "makefile-variables": {
-      "gslhelper": {
-        "resource": "libraries/gslhelper"
-      }
-    }
-  },
-  "build-depends": [
-    "Distribution::Builder::MakeFromJSON"
-  ],
-  "builder": "Distribution::Builder::MakeFromJSON",
-  "depends": [
-    "Distribution::Builder::MakeFromJSON",
     "Math::Libgsl::Complex",
     "Math::Libgsl::Constants"
   ],
@@ -80428,40 +80380,6 @@
     
   ],
   "version": "0.0.6"
-}
-,
-{
-  "authors": [
-    "titsuki"
-  ],
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    
-  ],
-  "description": "A Perl 6 bindings for libmecab ( http://taku910.github.io/mecab/ )",
-  "license": "Artistic-2.0",
-  "name": "MeCab",
-  "perl": "6.c",
-  "provides": {
-    "MeCab": "lib/MeCab.pm6",
-    "MeCab::DictionaryInfo": "lib/MeCab/DictionaryInfo.pm6",
-    "MeCab::Lattice": "lib/MeCab/Lattice.pm6",
-    "MeCab::Model": "lib/MeCab/Model.pm6",
-    "MeCab::Tagger": "lib/MeCab/Tagger.pm6"
-  },
-  "resources": [
-    "libraries/mecab"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/MeCab-0.0.8.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.7"
 }
 ,
 {
