@@ -25996,41 +25996,6 @@
   "authors": [
     "Fernando Santagata"
   ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "LibraryMake",
-    "Math::Libgsl::Complex",
-    "Math::Libgsl::Constants"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - Polynomials.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::Polynomial",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::Polynomial": "lib/Math/Libgsl/Polynomial.rakumod",
-    "Math::Libgsl::Raw::Polynomial": "lib/Math/Libgsl/Raw/Polynomial.rakumod"
-  },
-  "resources": [
-    "libraries/gslhelper"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Polynomial-0.0.1.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
   "build": {
     "makefile-variables": {
       "gslhelper": {
@@ -93781,6 +93746,46 @@
     "pdf"
   ],
   "version": "0.0.3"
+}
+,
+{
+  "api": "PDF-1.7",
+  "auth": "github:pdf-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "depends": [
+    "PDF::Content:ver<0.4.3+>",
+    "PDF",
+    "PDF::Font::Loader:ver<0.4.2+>",
+    "PDF::Class:ver<0.4.10+>",
+    "Method::Also"
+  ],
+  "description": "Reader for tagged PDF files",
+  "license": "Artistic-2.0",
+  "name": "PDF::Tags",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Tags": "lib/PDF/Tags.rakumod",
+    "PDF::Tags::Attr": "lib/PDF/Tags/Attr.rakumod",
+    "PDF::Tags::Elem": "lib/PDF/Tags/Elem.rakumod",
+    "PDF::Tags::Mark": "lib/PDF/Tags/Mark.rakumod",
+    "PDF::Tags::Node": "lib/PDF/Tags/Node.rakumod",
+    "PDF::Tags::Node::Parent": "lib/PDF/Tags/Node/Parent.rakumod",
+    "PDF::Tags::Node::Root": "lib/PDF/Tags/Node/Root.rakumod",
+    "PDF::Tags::ObjRef": "lib/PDF/Tags/ObjRef.rakumod",
+    "PDF::Tags::Text": "lib/PDF/Tags/Text.rakumod",
+    "PDF::Tags::XML-Writer": "lib/PDF/Tags/XML-Writer.rakumod",
+    "PDF::Tags::XPath": "lib/PDF/Tags/XPath.rakumod",
+    "PDF::Tags::XPath::Actions": "lib/PDF/Tags/XPath/Actions.rakumod",
+    "PDF::Tags::XPath::Axes": "lib/PDF/Tags/XPath/Axes.rakumod",
+    "PDF::Tags::XPath::Grammar": "lib/PDF/Tags/XPath/Grammar.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Tags-0.0.4.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "version": "0.0.4"
 }
 ,
 {
