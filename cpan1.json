@@ -26201,6 +26201,41 @@
   "authors": [
     "Fernando Santagata"
   ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibraryMake",
+    "Math::Libgsl::Complex",
+    "Math::Libgsl::Constants"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Polynomials.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Polynomial",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Polynomial": "lib/Math/Libgsl/Polynomial.rakumod",
+    "Math::Libgsl::Raw::Polynomial": "lib/Math/Libgsl/Raw/Polynomial.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Polynomial-0.0.1.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
   "build": {
     "makefile-variables": {
       "gslhelper": {
