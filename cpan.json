@@ -75581,6 +75581,43 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF::Document",
+    "Config::TOML",
+    "Text::Utils",
+    "Font::AFM",
+    "PDF:ver<0.4.5+>",
+    "PDF::Lite"
+  ],
+  "description": "Provides higher level classes and routines to create PDF documents",
+  "license": "Artistic-2.0",
+  "name": "PDF::Document",
+  "perl": "6.d",
+  "provides": {
+    "PDF::Document": "lib/PDF/Document.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/PDF-Document-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "auth": "cpan:TBROWDER",
   "authors": [
     "Tom Browder"
