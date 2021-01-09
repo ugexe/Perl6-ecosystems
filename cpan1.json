@@ -534,6 +534,35 @@
 }
 ,
 {
+  "auth": "cpan:ARNE",
+  "authors": [
+    "Arne Sommer"
+  ],
+  "depends": [
+    "Gnome::Gdk3",
+    "Termbox",
+    "Pod::To::Text",
+    "File::Temp"
+  ],
+  "description": "Maze construction and traversability game",
+  "license": "Artistic-2.0",
+  "name": "Game::Amazing",
+  "perl": "6.d",
+  "provides": {
+    "Game::Amazing": "lib/Game/Amazing.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AR/ARNE/Perl6/Game-Amazing-0.9.03.tar.gz",
+  "tags": [
+    "game",
+    "maze"
+  ],
+  "version": "0.9.03"
+}
+,
+{
   "authors": [
     "Arne Sommer"
   ],
