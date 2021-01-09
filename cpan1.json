@@ -67347,6 +67347,43 @@
   ],
   "depends": [
     "SVG",
+    "SVG::Plot",
+    "Math::Polygons",
+    "Physics::Unit"
+  ],
+  "description": "Some support for physical units.",
+  "license": "Artistic-2.0",
+  "name": "Physics::Measure",
+  "perl": "6.d",
+  "provides": {
+    "Physics::Measure": "lib/Physics/Measure.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/P/PS/PSIXSTEVE/Perl6/raku-Physics-Measure-1.0.0.tar.gz",
+  "tags": [
+    "Physics",
+    "Measure",
+    "Units"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.0"
+}
+,
+{
+  "api": "1",
+  "auth": "github:p6steve",
+  "authors": [
+    "p6steve"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "SVG",
     "SVG::Plot"
   ],
   "description": "Some support for physical units.",
