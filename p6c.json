@@ -7392,7 +7392,7 @@
     "GTK::Simple",
     "File::Temp"
   ],
-  "description": "A generic Pod Renderer for single or multiple files using templates, provides HTML and MarkDown",
+  "description": "A generic Pod6 Renderer with custom Pod::Blocks, FormatCodes for one or more files using templates, provides HTML and MarkDown.",
   "license": "Artistic-2.0",
   "name": "Raku::Pod::Render",
   "perl": "6.*",
@@ -7426,9 +7426,10 @@
     "Test",
     "Test::Output",
     "Test::META",
-    "Test::Deeply::Relaxed"
+    "Test::Deeply::Relaxed",
+    "File::Directory::Tree"
   ],
-  "version": "3.4.2"
+  "version": "3.5.0"
 }
 ,
 {
