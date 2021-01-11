@@ -26153,40 +26153,6 @@
   "authors": [
     "Fernando Santagata"
   ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "LibraryMake",
-    "Math::Libgsl::Constants"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - Multisets.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::Multiset",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::Multiset": "lib/Math/Libgsl/Multiset.rakumod",
-    "Math::Libgsl::Raw::Multiset": "lib/Math/Libgsl/Raw/Multiset.rakumod"
-  },
-  "resources": [
-    "libraries/gslhelper"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Multiset-0.0.2.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
   "build": {
     "makefile-variables": {
       "gslhelper": {
@@ -55438,6 +55404,49 @@
     
   ],
   "version": "0.0.26"
+}
+,
+{
+  "authors": [
+    "Alexey Melezhik"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "YAMLish",
+    "DBIish",
+    "Sparrowdo",
+    "Time::Crontab",
+    "Bailador",
+    "Data::Dump:ver<0.0.12+>",
+    "Number::Denominate",
+    "HTML::Escape",
+    "Hash::Merge:ver<2.0.0+>"
+  ],
+  "description": "Sparky is a flexible and minimalist continuous integration server written in Raku",
+  "license": "Artistic-2.0",
+  "name": "Sparky",
+  "perl": "6.*",
+  "provides": {
+    "Sparky": "lib/Sparky.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparky-0.0.30.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/melezhik/sparky/issues",
+    "source": "https://github.com/melezhik/sparky.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.30"
 }
 ,
 {
