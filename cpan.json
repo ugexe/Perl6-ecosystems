@@ -92108,6 +92108,84 @@
 }
 ,
 {
+  "api": "PDF-1.7",
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Compress::Zlib",
+    "PDF::Grammar:ver<0.2.1+>",
+    "JSON::Fast",
+    "OpenSSL"
+  ],
+  "description": "Base classes for reading, manipulation and writing of PDF data",
+  "license": "Artistic-2.0",
+  "name": "PDF",
+  "perl": "6.*",
+  "provides": {
+    "PDF": "lib/PDF.rakumod",
+    "PDF::COS": "lib/PDF/COS.rakumod",
+    "PDF::COS::Array": "lib/PDF/COS/Array.rakumod",
+    "PDF::COS::Bool": "lib/PDF/COS/Bool.rakumod",
+    "PDF::COS::ByteString": "lib/PDF/COS/ByteString.rakumod",
+    "PDF::COS::Coercer": "lib/PDF/COS/Coercer.rakumod",
+    "PDF::COS::DateString": "lib/PDF/COS/DateString.rakumod",
+    "PDF::COS::Dict": "lib/PDF/COS/Dict.rakumod",
+    "PDF::COS::Int": "lib/PDF/COS/Int.rakumod",
+    "PDF::COS::Loader": "lib/PDF/COS/Loader.rakumod",
+    "PDF::COS::Name": "lib/PDF/COS/Name.rakumod",
+    "PDF::COS::Null": "lib/PDF/COS/Null.rakumod",
+    "PDF::COS::Real": "lib/PDF/COS/Real.rakumod",
+    "PDF::COS::Stream": "lib/PDF/COS/Stream.rakumod",
+    "PDF::COS::TextString": "lib/PDF/COS/TextString.rakumod",
+    "PDF::COS::Tie": "lib/PDF/COS/Tie.rakumod",
+    "PDF::COS::Tie::Array": "lib/PDF/COS/Tie/Array.rakumod",
+    "PDF::COS::Tie::Hash": "lib/PDF/COS/Tie/Hash.rakumod",
+    "PDF::COS::Type::Encrypt": "lib/PDF/COS/Type/Encrypt.rakumod",
+    "PDF::COS::Type::Info": "lib/PDF/COS/Type/Info.rakumod",
+    "PDF::COS::Type::ObjStm": "lib/PDF/COS/Type/ObjStm.rakumod",
+    "PDF::COS::Type::XRef": "lib/PDF/COS/Type/XRef.rakumod",
+    "PDF::COS::Util": "lib/PDF/COS/Util.rakumod",
+    "PDF::IO": "lib/PDF/IO.rakumod",
+    "PDF::IO::Blob": "lib/PDF/IO/Blob.rakumod",
+    "PDF::IO::Crypt": "lib/PDF/IO/Crypt.rakumod",
+    "PDF::IO::Crypt::AESV2": "lib/PDF/IO/Crypt/AESV2.rakumod",
+    "PDF::IO::Crypt::AST": "lib/PDF/IO/Crypt/AST.rakumod",
+    "PDF::IO::Crypt::PDF": "lib/PDF/IO/Crypt/PDF.rakumod",
+    "PDF::IO::Crypt::RC4": "lib/PDF/IO/Crypt/RC4.rakumod",
+    "PDF::IO::Filter": "lib/PDF/IO/Filter.rakumod",
+    "PDF::IO::Filter::ASCII85": "lib/PDF/IO/Filter/ASCII85.rakumod",
+    "PDF::IO::Filter::ASCIIHex": "lib/PDF/IO/Filter/ASCIIHex.rakumod",
+    "PDF::IO::Filter::Flate": "lib/PDF/IO/Filter/Flate.rakumod",
+    "PDF::IO::Filter::LZW": "lib/PDF/IO/Filter/LZW.rakumod",
+    "PDF::IO::Filter::Predictors": "lib/PDF/IO/Filter/Predictors.rakumod",
+    "PDF::IO::Filter::RunLength": "lib/PDF/IO/Filter/RunLength.rakumod",
+    "PDF::IO::Handle": "lib/PDF/IO/Handle.rakumod",
+    "PDF::IO::IndObj": "lib/PDF/IO/IndObj.rakumod",
+    "PDF::IO::Reader": "lib/PDF/IO/Reader.rakumod",
+    "PDF::IO::Serializer": "lib/PDF/IO/Serializer.rakumod",
+    "PDF::IO::Str": "lib/PDF/IO/Str.rakumod",
+    "PDF::IO::Util": "lib/PDF/IO/Util.rakumod",
+    "PDF::IO::Writer": "lib/PDF/IO/Writer.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-0.4.5.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.4.5"
+}
+,
+{
   "auth": "github:pdf-raku",
   "authors": [
     "David Warring"
@@ -92856,6 +92934,52 @@
     
   ],
   "version": "0.4.2"
+}
+,
+{
+  "api": "PDF-1.7",
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Raku grammars for parsing PDF Content Streams and File Structure",
+  "license": "Artistic-2.0",
+  "name": "PDF::Grammar",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Grammar": "lib/PDF/Grammar.rakumod",
+    "PDF::Grammar::Actions": "lib/PDF/Grammar/Actions.rakumod",
+    "PDF::Grammar::COS": "lib/PDF/Grammar/COS.rakumod",
+    "PDF::Grammar::COS::Actions": "lib/PDF/Grammar/COS/Actions.rakumod",
+    "PDF::Grammar::Content": "lib/PDF/Grammar/Content.rakumod",
+    "PDF::Grammar::Content::Actions": "lib/PDF/Grammar/Content/Actions.rakumod",
+    "PDF::Grammar::Content::Fast": "lib/PDF/Grammar/Content/Fast.rakumod",
+    "PDF::Grammar::Doc": "lib/PDF/Grammar/Doc.rakumod",
+    "PDF::Grammar::FDF": "lib/PDF/Grammar/FDF.rakumod",
+    "PDF::Grammar::FDF::Actions": "lib/PDF/Grammar/FDF/Actions.rakumod",
+    "PDF::Grammar::Function": "lib/PDF/Grammar/Function.rakumod",
+    "PDF::Grammar::Function::Actions": "lib/PDF/Grammar/Function/Actions.rakumod",
+    "PDF::Grammar::PDF": "lib/PDF/Grammar/PDF.rakumod",
+    "PDF::Grammar::PDF::Actions": "lib/PDF/Grammar/PDF/Actions.rakumod",
+    "PDF::Grammar::Test": "lib/PDF/Grammar/Test.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Grammar-0.2.5.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.5"
 }
 ,
 {
