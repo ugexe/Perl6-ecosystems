@@ -91082,6 +91082,38 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibraryMake"
+  ],
+  "description": "Fast Base 64 encoding and decoding (eager)",
+  "license": "Artistic-2.0",
+  "name": "Base64::Native",
+  "perl": "6.c",
+  "provides": {
+    "Base64::Native": "lib/Base64/Native.rakumod"
+  },
+  "resources": [
+    "libraries/base64"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Base64-Native-0.0.4.tar.gz",
+  "tags": [
+    "base64",
+    "encode"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "depends": [
     "LibXML",
     "CSS::Module",
@@ -91247,6 +91279,37 @@
     "css"
   ],
   "version": "0.0.6"
+}
+,
+{
+  "auth": "github:pdf-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Perl implementation of the RC4 encryption algorithm",
+  "license": "Artistic-2.0",
+  "name": "Crypt::RC4",
+  "perl": "6",
+  "provides": {
+    "Crypt::RC4": "lib/Crypt/RC4.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Crypt-RC4-0.0.4.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
@@ -91862,6 +91925,43 @@
     "David Warring"
   ],
   "build-depends": [
+    
+  ],
+  "depends": [
+    "HarfBuzz",
+    "Method::Also"
+  ],
+  "description": "HarfBuzz font subsetting compactor",
+  "license": "Artistic-2.0",
+  "name": "HarfBuzz::Subset",
+  "perl": "6.d",
+  "provides": {
+    "HarfBuzz::Subset": "lib/HarfBuzz/Subset.rakumod",
+    "HarfBuzz::Subset::Input": "lib/HarfBuzz/Subset/Input.rakumod",
+    "HarfBuzz::Subset::Raw": "lib/HarfBuzz/Subset/Raw.rakumod",
+    "HarfBuzz::Subset::Raw::Defs": "lib/HarfBuzz/Subset/Raw/Defs.rakumod",
+    "HarfBuzz::Subset::Tables": "lib/HarfBuzz/Subset/Tables.rakumod"
+  },
+  "raku": "6",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-Subset-0.0.2.tar.gz",
+  "tags": [
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
     "LibraryMake"
   ],
   "depends": [
@@ -92460,6 +92560,42 @@
     
   ],
   "version": "0.1.0"
+}
+,
+{
+  "auth": "github:pdf-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Endian safe Binary Struct packing and unpacking",
+  "license": "Artistic-2.0",
+  "name": "Native::Packing",
+  "perl": "6.c",
+  "provides": {
+    "Native::Packing": "lib/Native/Packing.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Native-Packing-0.0.4.tar.gz",
+  "tags": [
+    "binary",
+    "endian",
+    "native",
+    "struct",
+    "pack",
+    "unpack"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
