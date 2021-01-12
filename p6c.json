@@ -14337,7 +14337,7 @@
 }
 ,
 {
-  "auth": "github:p6-pdf",
+  "auth": "cpan:WARRINGD",
   "authors": [
     "David Warring"
   ],
@@ -14370,17 +14370,32 @@
 ,
 {
   "auth": "github:pdf-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
   "depends": [
     
   ],
-  "description": "Raku implementation of the RC4 encryption algorithm",
+  "description": "Perl implementation of the RC4 encryption algorithm",
   "license": "Artistic-2.0",
   "name": "Crypt::RC4",
   "perl": "6",
   "provides": {
     "Crypt::RC4": "lib/Crypt/RC4.rakumod"
   },
+  "resources": [
+    
+  ],
   "source-url": "git://github.com/pdf-raku/Crypt-RC4-raku.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
   "version": "0.0.4"
 }
 ,
@@ -24288,7 +24303,7 @@
     "config.json"
   ],
   "source-url": "https://github.com/tony-o/raku-fez.git",
-  "version": "6"
+  "version": "7"
 }
 ,
 {
