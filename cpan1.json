@@ -26297,6 +26297,48 @@
   "authors": [
     "Fernando Santagata"
   ],
+  "build": {
+    "makefile-variables": {
+      "gslhelper": {
+        "resource": "libraries/gslhelper"
+      }
+    }
+  },
+  "build-depends": [
+    "Distribution::Builder::MakeFromJSON"
+  ],
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": [
+    "Distribution::Builder::MakeFromJSON",
+    "Math::Libgsl::Constants"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Quasi-Random Sequences.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::QuasiRandom",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::QuasiRandom": "lib/Math/Libgsl/QuasiRandom.rakumod",
+    "Math::Libgsl::Raw::QuasiRandom": "lib/Math/Libgsl/Raw/QuasiRandom.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-QuasiRandom-0.0.1.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
   "build-depends": [
     
   ],
