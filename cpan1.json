@@ -91464,51 +91464,6 @@
 }
 ,
 {
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Interface to Adobe Font Metrics files",
-  "license": "Artistic-2.0",
-  "name": "Font::AFM",
-  "perl": "6",
-  "provides": {
-    "Font::AFM": "lib/Font/AFM.rakumod",
-    "Font::Metrics::courier": "lib/Font/Metrics/courier.rakumod",
-    "Font::Metrics::courier-bold": "lib/Font/Metrics/courier-bold.rakumod",
-    "Font::Metrics::courier-boldoblique": "lib/Font/Metrics/courier-boldoblique.rakumod",
-    "Font::Metrics::courier-oblique": "lib/Font/Metrics/courier-oblique.rakumod",
-    "Font::Metrics::helvetica": "lib/Font/Metrics/helvetica.rakumod",
-    "Font::Metrics::helvetica-bold": "lib/Font/Metrics/helvetica-bold.rakumod",
-    "Font::Metrics::helvetica-boldoblique": "lib/Font/Metrics/helvetica-boldoblique.rakumod",
-    "Font::Metrics::helvetica-oblique": "lib/Font/Metrics/helvetica-oblique.rakumod",
-    "Font::Metrics::symbol": "lib/Font/Metrics/symbol.rakumod",
-    "Font::Metrics::times-bold": "lib/Font/Metrics/times-bold.rakumod",
-    "Font::Metrics::times-bolditalic": "lib/Font/Metrics/times-bolditalic.rakumod",
-    "Font::Metrics::times-italic": "lib/Font/Metrics/times-italic.rakumod",
-    "Font::Metrics::times-roman": "lib/Font/Metrics/times-roman.rakumod",
-    "Font::Metrics::zapfdingbats": "lib/Font/Metrics/zapfdingbats.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-AFM-1.23.7.tar.gz",
-  "tags": [
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "1.23.7"
-}
-,
-{
   "auth": "github:p6-pdf",
   "authors": [
     "David Warring"
