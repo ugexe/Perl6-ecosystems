@@ -25254,6 +25254,41 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Use libextractor to read file metadata",
+  "license": "Artistic-2.0",
+  "name": "File::Metadata::Libextractor",
+  "perl": "6.c",
+  "provides": {
+    "File::Metadata::Libextractor": "lib/File/Metadata/Libextractor.pm6",
+    "File::Metadata::Libextractor::Constants": "lib/File/Metadata/Libextractor/Constants.pm6",
+    "File::Metadata::Libextractor::Raw": "lib/File/Metadata/Libextractor/Raw.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/File-Metadata-Libextractor-0.0.2.tar.gz",
+  "tags": [
+    "filesystem",
+    "metadata",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Hash::Agnostic"
   ],
   "description": "Role for hashes whose elements timeout and disappear",
@@ -35434,6 +35469,39 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibUSB"
+  ],
+  "description": "Luxafor Indicators based on Google Calendar and Webcam Status",
+  "license": "Artistic-2.0",
+  "name": "BusyIndicator",
+  "perl": "6.d",
+  "provides": {
+    "BusyIndicator": "lib/BusyIndicator.rakumod",
+    "BusyIndicator::LibUSB": "lib/BusyIndicator/LibUSB.rakumod",
+    "BusyIndicator::Luxafor": "lib/BusyIndicator/Luxafor.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/BusyIndicator-0.0.4.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
