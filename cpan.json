@@ -35416,6 +35416,39 @@
   "depends": [
     
   ],
+  "description": "Luxafor Indicators based on Google Calendar and Webcam Status",
+  "license": "Artistic-2.0",
+  "name": "BusyIndicator",
+  "perl": "6.d",
+  "provides": {
+    "BusyIndicator": "lib/BusyIndicator.rakumod",
+    "BusyIndicator::LibUSB": "lib/BusyIndicator/LibUSB.rakumod",
+    "BusyIndicator::Luxafor": "lib/BusyIndicator/Luxafor.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/BusyIndicator-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "is a Never-Decreasing Time-Elapsed Counter",
   "license": "Artistic-2.0",
   "name": "DateTime::Monotonic",
