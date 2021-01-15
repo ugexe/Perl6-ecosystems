@@ -25543,6 +25543,38 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - constants and exceptions.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Constants",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Constants": "lib/Math/Libgsl/Constants.rakumod",
+    "Math::Libgsl::Exception": "lib/Math/Libgsl/Exception.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Constants-0.0.8.tar.gz",
+  "tags": [
+    "math"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Math::Libgsl::Constants",
     "Math::Libgsl::Matrix",
     "Math::Libgsl::Random",
@@ -73795,6 +73827,56 @@
     "Test::META"
   ],
   "version": "2.1.1"
+}
+,
+{
+  "auth": "github:tbrowder",
+  "author": "github:tbrowder",
+  "authors": [
+    "Tom Browder <tom.browder@gmail.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides names for month and weekday numbers (multilingual).",
+  "license": "Artistic-2.0",
+  "name": "Date::Names",
+  "perl": "6.c",
+  "provides": {
+    "Date::Names": "lib/Date/Names.rakumod",
+    "Date::Names::de": "lib/Date/Names/de.rakumod",
+    "Date::Names::en": "lib/Date/Names/en.rakumod",
+    "Date::Names::es": "lib/Date/Names/es.rakumod",
+    "Date::Names::fr": "lib/Date/Names/fr.rakumod",
+    "Date::Names::id": "lib/Date/Names/id.rakumod",
+    "Date::Names::it": "lib/Date/Names/it.rakumod",
+    "Date::Names::nb": "lib/Date/Names/nb.rakumod",
+    "Date::Names::nl": "lib/Date/Names/nl.rakumod",
+    "Date::Names::nn": "lib/Date/Names/nn.rakumod",
+    "Date::Names::pl": "lib/Date/Names/pl.rakumod",
+    "Date::Names::ro": "lib/Date/Names/ro.rakumod",
+    "Date::Names::ru": "lib/Date/Names/ru.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Date-Names-2.1.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/tbrowder/Date-Names/issues"
+  },
+  "tags": [
+    "date",
+    "names",
+    "dow"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "2.1.2"
 }
 ,
 {
