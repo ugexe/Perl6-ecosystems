@@ -7399,6 +7399,7 @@
   "provides": {
     "ExtractPod": "lib/ExtractPod.pm6",
     "Extractor.raku": "bin/Extractor.raku",
+    "Pod::Render::Exceptions": "lib/Pod/Render/Exceptions.pm6",
     "Pod::To::HTML": "lib/Pod/To/HTML.pm6",
     "Pod::To::HTML::Mustache": "lib/Pod/To/HTML.pm6",
     "Pod::To::MarkDown": "lib/Pod/To/MarkDown.pm6",
@@ -7429,7 +7430,7 @@
     "Test::Deeply::Relaxed",
     "File::Directory::Tree"
   ],
-  "version": "3.5.1"
+  "version": "3.5.2"
 }
 ,
 {
