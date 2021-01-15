@@ -25444,40 +25444,6 @@
     
   ],
   "depends": [
-    "LibraryMake",
-    "Math::Libgsl::Constants"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - Combinations.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::Combination",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::Combination": "lib/Math/Libgsl/Combination.rakumod",
-    "Math::Libgsl::Raw::Combination": "lib/Math/Libgsl/Raw/Combination.rakumod"
-  },
-  "resources": [
-    "libraries/gslhelper"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Combination-0.0.2.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "LibraryMake"
   ],
   "description": "An interface to libgsl, the Gnu Scientific Library - complex numbers.",
