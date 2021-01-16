@@ -7343,6 +7343,43 @@
 {
   "auth": "github:finanalyst",
   "authors": [
+    "Richard Hainsworth"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PrettyDump"
+  ],
+  "description": "Get and write config files that are Raku structures",
+  "license": "Artistic-2.0",
+  "name": "RakuConfig",
+  "perl": "6.*",
+  "provides": {
+    "RakuConfig": "lib/RakuConfig.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "git://github.com/finanalyst/raku-config.git",
+  "support": {
+    "bugtracker": "https://github.com/finanalyst/raku-config/issues",
+    "email": "richard@hainsworth.wales",
+    "source": "https://github.com/finanalyst/raku-config.git"
+  },
+  "test-depends": [
+    "Test",
+    "Test::META",
+    "Test::Deeply::Relaxed",
+    "File::Directory::Tree"
+  ],
+  "version": "0.2"
+}
+,
+{
+  "auth": "github:finanalyst",
+  "authors": [
     "Richard Hainsworth, aka finanalyst"
   ],
   "build-depends": [
@@ -14183,7 +14220,7 @@
     "Math::Polygons",
     "Physics::Unit"
   ],
-  "description": "Some support for physical units.",
+  "description": "Some support for physical measurements.",
   "license": "Artistic-2.0",
   "name": "Physics::Measure",
   "perl": "6.d",
