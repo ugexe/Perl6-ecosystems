@@ -7437,8 +7437,8 @@
     "ExtractPod": "lib/ExtractPod.pm6",
     "Extractor.raku": "bin/Extractor.raku",
     "Pod::Render::Exceptions": "lib/Pod/Render/Exceptions.pm6",
-    "Pod::To::HTML": "lib/Pod/To/HTML.pm6",
-    "Pod::To::HTML::Mustache": "lib/Pod/To/HTML.pm6",
+    "Pod::To::HTML2": "lib/Pod/To/HTML.pm6",
+    "Pod::To::HTML2::Mustache": "lib/Pod/To/HTML.pm6",
     "Pod::To::MarkDown": "lib/Pod/To/MarkDown.pm6",
     "ProcessedPod": "lib/ProcessedPod.pm6",
     "test-templates": "bin/test-templates.raku"
@@ -7467,7 +7467,7 @@
     "Test::Deeply::Relaxed",
     "File::Directory::Tree"
   ],
-  "version": "3.5.2"
+  "version": "3.6.0"
 }
 ,
 {
