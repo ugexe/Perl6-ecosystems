@@ -93160,6 +93160,55 @@
 }
 ,
 {
+  "auth": "wbiker",
+  "authors": [
+    "wolf"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Temp",
+    "JSON::Fast",
+    "Cro::HTTP",
+    "XML",
+    "Config::Clever"
+  ],
+  "description": "Create RPM's from raku modules.",
+  "license": "Apache License 2.0",
+  "name": "Module2Rpm::Spec",
+  "perl": "6.*",
+  "provides": {
+    "Module2Rpm::Archive::Gzip": "lib/Module2Rpm/Archive/Gzip.pm6",
+    "Module2Rpm::Archive::Tar": "lib/Module2Rpm/Archive/Tar.rakumod",
+    "Module2Rpm::Cro::Client": "lib/Module2Rpm/Cro/Client.rakumod",
+    "Module2Rpm::Download::Git": "lib/Module2Rpm/Download/Git.rakumod",
+    "Module2Rpm::FindLibraryNameForOpenSuse": "lib/Module2Rpm/FindLibraryNameForOpenSuse.rakumod",
+    "Module2Rpm::FindLibraryNameWithFindProvides": "lib/Module2Rpm/FindLibraryNameWithFindProvides.rakumod",
+    "Module2Rpm::Helper": "lib/Module2Rpm/Helper.rakumod",
+    "Module2Rpm::Internet::LWP": "lib/Module2Rpm/Internet/LWP.pm6",
+    "Module2Rpm::Package": "lib/Module2Rpm/Package.rakumod",
+    "Module2Rpm::Role::Archive": "lib/Module2Rpm/Role/Archive.rakumod",
+    "Module2Rpm::Role::Download": "lib/Module2Rpm/Role/Download.rakumod",
+    "Module2Rpm::Role::FindLibraryName": "lib/Module2Rpm/Role/FindLibraryName.pm6",
+    "Module2Rpm::Role::Internet": "lib/Module2Rpm/Role/Internet.rakumod",
+    "Module2Rpm::Spec": "lib/Module2Rpm/Spec.rakumod",
+    "Module2Rpm::Upload::OBS": "lib/Module2Rpm/Upload/OBS.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WB/WBIKER/Perl6/Module2Rpm-Spec-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "auth": "github:tony-o",
   "authors": [
     "Tony O'Dell"
