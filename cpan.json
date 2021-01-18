@@ -43429,6 +43429,57 @@
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
+  "build": {
+    "makefile-variables": {
+      "libdouble_metaphone": {
+        "resource": "libraries/double_metaphone"
+      }
+    },
+    "src-dir": "src"
+  },
+  "build-depends": [
+    "Distribution::Builder::MakeFromJSON:ver<0.6+>"
+  ],
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": [
+    
+  ],
+  "description": "Implementation of the Double Metaphone phonetic encoding algorithm",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Doublephone",
+  "perl": "6.*",
+  "provides": {
+    "Doublephone": "lib/Doublephone.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/double_metaphone"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Doublephone-0.1.0.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Doublephone/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Doublephone.git"
+  },
+  "tags": [
+    "search",
+    "phonetic",
+    "soundex",
+    "metaphone"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
   "build-depends": [
     
   ],
@@ -91523,6 +91574,40 @@
     
   ],
   "version": "0.2.1"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF:ver<0.4.2+>",
+    "PDF::Class:ver<0.4.3+>",
+    "PDF::Content:ver<0.4.3+>"
+  ],
+  "description": "Facilitates the creation and modification of PDF files",
+  "license": "Artistic-2.0",
+  "name": "PDF::API6",
+  "perl": "6.*",
+  "provides": {
+    "PDF::API6": "lib/PDF/API6.rakumod",
+    "PDF::API6::Preferences": "lib/PDF/API6/Preferences.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-API6-0.2.2.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.2"
 }
 ,
 {
