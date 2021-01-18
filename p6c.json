@@ -7426,8 +7426,11 @@
     "URI",
     "LibCurl",
     "Pod::Load",
-    "GTK::Simple",
-    "File::Temp"
+    "File::Temp",
+    "Test::META",
+    "Test::Deeply::Relaxed",
+    "File::Directory::Tree",
+    "Test::Output"
   ],
   "description": "A generic Pod6 Renderer with custom Pod::Blocks, FormatCodes for one or more files using templates, provides HTML and MarkDown.",
   "license": "Artistic-2.0",
@@ -7435,7 +7438,6 @@
   "perl": "6.*",
   "provides": {
     "ExtractPod": "lib/ExtractPod.pm6",
-    "Extractor.raku": "bin/Extractor.raku",
     "Pod::Render::Exceptions": "lib/Pod/Render/Exceptions.pm6",
     "Pod::To::HTML2": "lib/Pod/To/HTML2.pm6",
     "Pod::To::HTML2::Mustache": "lib/Pod/To/HTML2.pm6",
@@ -7461,13 +7463,9 @@
     "source": "https://github.com/finanalyst/raku-pod-render.git"
   },
   "test-depends": [
-    "Test",
-    "Test::Output",
-    "Test::META",
-    "Test::Deeply::Relaxed",
-    "File::Directory::Tree"
+    "Test"
   ],
-  "version": "3.6.0"
+  "version": "3.6.1"
 }
 ,
 {
