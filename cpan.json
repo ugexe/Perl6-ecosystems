@@ -43976,6 +43976,53 @@
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build": {
+    "makefile-variables": {
+      "gdbmhelper": {
+        "resource": "libraries/gdbmhelper"
+      }
+    },
+    "src-dir": "src"
+  },
+  "build-depends": [
+    "Distribution::Builder::MakeFromJSON:ver<0.6+>"
+  ],
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": [
+    
+  ],
+  "description": "GNU dbm binding for Raku",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "GDBM",
+  "perl": "6.*",
+  "provides": {
+    "GDBM": "lib/GDBM.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/gdbmhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/GDBM-0.1.0.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Raku-GDBM/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Raku-GDBM.git"
+  },
+  "tags": [
+    "gdbm",
+    "dbm",
+    "hash"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
   "build-depends": [
@@ -47301,6 +47348,54 @@
     "Test"
   ],
   "version": "0.0.13"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build": {
+    "makefile-variables": {
+      "utmphelper": {
+        "resource": "libraries/utmphelper"
+      }
+    },
+    "src-dir": "src"
+  },
+  "build-depends": [
+    "Distribution::Builder::MakeFromJSON:ver<0.6+>"
+  ],
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": [
+    
+  ],
+  "description": "Raku access to Utmp entries on Unix-like systems",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Sys::Utmp",
+  "perl": "6.*",
+  "provides": {
+    "Sys::Utmp": "lib/Sys/Utmp.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/utmphelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Sys-Utmp-0.1.0.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Raku-Sys-Utmp/issues",
+    "irc": "irc:// irc.freenode.net/#perl6",
+    "source": "git://github.com/jonathanstowe/Raku-Sys-Utmp.git"
+  },
+  "tags": [
+    "unix",
+    "users",
+    "utility"
+  ],
+  "version": "0.1.0"
 }
 ,
 {
