@@ -45534,6 +45534,48 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provide logging to POSIX native syslog facility",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Log::Syslog::Native",
+  "perl": "6.*",
+  "provides": {
+    "Log::Syslog::Native": "lib/Log/Syslog/Native.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Log-Syslog-Native-0.1.0.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Log-Syslog-Native/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Log-Syslog-Native.git"
+  },
+  "tags": [
+    "syslog",
+    "log",
+    "unix"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
