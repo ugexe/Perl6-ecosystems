@@ -25582,35 +25582,6 @@
   "authors": [
     "Fernando Santagata"
   ],
-  "depends": [
-    "NativeHelpers::Blob"
-  ],
-  "description": "Manipulate image EXIF data",
-  "license": "Artistic-2.0",
-  "name": "Image::Libexif",
-  "perl": "6.c",
-  "provides": {
-    "Image::Libexif": "lib/Image/Libexif.pm6",
-    "Image::Libexif::Constants": "lib/Image/Libexif/Constants.pm6",
-    "Image::Libexif::Raw": "lib/Image/Libexif/Raw.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Image-Libexif-0.1.0.tar.gz",
-  "tags": [
-    "image",
-    "exif",
-    "nativecall"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.1.0"
-}
-,
-{
-  "api": "1",
-  "authors": [
-    "Fernando Santagata"
-  ],
   "description": "Interface to libqrencode",
   "license": "Artistic-2.0",
   "name": "Image::QRCode",
@@ -47713,6 +47684,47 @@
     "Test"
   ],
   "version": "0.0.8"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "An Experimental Workflow / State Management toolit",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Tinky",
+  "perl": "6.*",
+  "provides": {
+    "Tinky": "lib/Tinky.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Tinky-0.1.0.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Tinky/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Tinky.git"
+  },
+  "tags": [
+    "Workflow",
+    "toolkit",
+    "state machine"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.0"
 }
 ,
 {
