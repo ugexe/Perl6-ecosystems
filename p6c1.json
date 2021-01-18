@@ -7449,7 +7449,9 @@
     "Pod::Load",
     "Test::Deeply::Relaxed",
     "File::Directory::Tree",
-    "Test::Output"
+    "Test::Output",
+    "File::Temp",
+    "Test::META"
   ],
   "description": "A generic Pod6 Renderer with custom Pod::Blocks, FormatCodes for one or more files using templates, provides HTML and MarkDown.",
   "license": "Artistic-2.0",
@@ -7482,9 +7484,7 @@
     "source": "https://github.com/finanalyst/raku-pod-render.git"
   },
   "test-depends": [
-    "Test",
-    "File::Temp",
-    "Test::META"
+    "Test"
   ],
   "version": "3.6.1"
 }
