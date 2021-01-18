@@ -7447,8 +7447,6 @@
     "URI",
     "LibCurl",
     "Pod::Load",
-    "File::Temp",
-    "Test::META",
     "Test::Deeply::Relaxed",
     "File::Directory::Tree",
     "Test::Output"
@@ -7460,9 +7458,9 @@
   "provides": {
     "ExtractPod": "lib/ExtractPod.pm6",
     "Pod::Render::Exceptions": "lib/Pod/Render/Exceptions.pm6",
-    "Pod::To::HTML2": "lib/Pod/To/HTML2.pm6",
-    "Pod::To::HTML2::Mustache": "lib/Pod/To/HTML2.pm6",
-    "Pod::To::MarkDown": "lib/Pod/To/MarkDown.pm6",
+    "Pod::To::HTML2::Mustache:auth<github:finanalyst>": "lib/Pod/To/HTML2.pm6",
+    "Pod::To::HTML2:auth<github:finanalyst>": "lib/Pod/To/HTML2.pm6",
+    "Pod::To::MarkDown:auth<github:finanalyst>": "lib/Pod/To/MarkDown.pm6",
     "ProcessedPod": "lib/ProcessedPod.pm6",
     "test-templates": "bin/test-templates.raku"
   },
@@ -7484,7 +7482,9 @@
     "source": "https://github.com/finanalyst/raku-pod-render.git"
   },
   "test-depends": [
-    "Test"
+    "Test",
+    "File::Temp",
+    "Test::META"
   ],
   "version": "3.6.1"
 }
@@ -11727,6 +11727,7 @@
 }
 ,
 {
+  "auth": "zef:lancew",
   "authors": [
     "Lance Wicks"
   ],
