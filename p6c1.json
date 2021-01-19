@@ -7459,12 +7459,14 @@
   "perl": "6.*",
   "provides": {
     "ExtractPod": "lib/ExtractPod.pm6",
+    "InstallAtomHighlighter": "lib/InstallAtomHighlighter.pm6",
     "Pod::Render::Exceptions": "lib/Pod/Render/Exceptions.pm6",
     "Pod::To::HTML2::Mustache:auth<github:finanalyst>": "lib/Pod/To/HTML2.pm6",
     "Pod::To::HTML2:auth<github:finanalyst>": "lib/Pod/To/HTML2.pm6",
     "Pod::To::MarkDown:auth<github:finanalyst>": "lib/Pod/To/MarkDown.pm6",
     "ProcessedPod": "lib/ProcessedPod.pm6",
-    "test-templates": "bin/test-templates.raku"
+    "raku-pod-render-install-highlighter": "bin/raku-pod-render-install-highlighter",
+    "test-templates": "bin/test-templates"
   },
   "resources": [
     "pod.css",
@@ -7486,7 +7488,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "3.6.1"
+  "version": "3.6.2"
 }
 ,
 {
@@ -23481,7 +23483,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Tony O'Dell"
   ],
@@ -23517,7 +23519,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Tony O'Dell"
   ],
@@ -23553,7 +23555,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Tony O'Dell"
   ],
@@ -23588,7 +23590,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     
   ],
@@ -23606,7 +23608,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     
   ],
@@ -23621,7 +23623,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     
   ],
@@ -23657,7 +23659,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     "DBIish"
   ],
@@ -23690,7 +23692,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     
   ],
@@ -23705,7 +23707,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Tony O'Dell"
   ],
@@ -23732,7 +23734,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Tony O'Dell"
   ],
@@ -23754,7 +23756,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Tony O'Dell"
   ],
@@ -23785,7 +23787,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Tony O"
   ],
@@ -23803,7 +23805,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "tony-o"
   ],
@@ -23826,7 +23828,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     "XML"
   ],
@@ -23841,7 +23843,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     "XML"
   ],
@@ -23856,7 +23858,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     "HTTP::Server::Async"
   ],
@@ -23871,7 +23873,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     "DateTime::Format"
   ],
@@ -23886,7 +23888,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     "HTTP::Server",
     "JSON::Fast"
@@ -23905,7 +23907,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     "HTTP::Server"
   ],
@@ -23923,7 +23925,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "tony-o"
   ],
@@ -23957,7 +23959,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Tony O'Dell"
   ],
@@ -23995,7 +23997,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "tony-o"
   ],
@@ -24030,7 +24032,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "tony-o"
   ],
@@ -24064,7 +24066,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     
   ],
@@ -24079,7 +24081,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Tony O'Dell"
   ],
@@ -24110,7 +24112,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "depends": [
     "Text::Levenshtein::Damerau"
   ],
@@ -24126,7 +24128,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Tony O'Dell"
   ],
@@ -24144,7 +24146,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Robert Lemmen",
     "Tony ODell"
@@ -24182,7 +24184,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Tony O'Dell"
   ],
@@ -24204,7 +24206,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "author": "Tony ODell",
   "depends": [
     "LWP::Simple",
@@ -24222,7 +24224,7 @@
 }
 ,
 {
-  "auth": "github:tony-o",
+  "auth": "zef:tony-o",
   "authors": [
     "Tony O'Dell"
   ],
