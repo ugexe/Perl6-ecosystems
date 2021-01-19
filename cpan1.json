@@ -48029,6 +48029,60 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "author": "github:carbin",
+  "authors": [
+    "carbin",
+    "jonathanstowe"
+  ],
+  "build": {
+    "makefile-variables": {
+      "unix_privileges": {
+        "resource": "libraries/unix_privileges"
+      }
+    },
+    "src-dir": "src"
+  },
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": {
+    "build": {
+      "requires": [
+        "Distribution::Builder::MakeFromJSON:ver<0.6+>"
+      ]
+    },
+    "runtime": {
+      "requires": [
+        
+      ]
+    }
+  },
+  "description": "A module for handling UNIX Privileges",
+  "license": "ISC",
+  "meta-version": "1",
+  "name": "UNIX::Privileges",
+  "perl": "6.*",
+  "provides": {
+    "UNIX::Privileges": "lib/UNIX/Privileges.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/unix_privileges"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/UNIX-Privileges-0.1.4.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/p6-unix-privileges/issues",
+    "source": "https://github.com/jonathanstowe/raku-unix-privileges.git"
+  },
+  "tags": [
+    "unix",
+    "privileges",
+    "daemon"
+  ],
+  "version": "0.1.4"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
