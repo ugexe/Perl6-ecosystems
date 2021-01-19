@@ -25603,6 +25603,38 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - constants and exceptions.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Constants",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Constants": "lib/Math/Libgsl/Constants.rakumod",
+    "Math::Libgsl::Exception": "lib/Math/Libgsl/Exception.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Constants-0.0.8.tar.gz",
+  "tags": [
+    "math"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Math::Libgsl::Constants",
     "Math::Libgsl::Matrix",
     "Math::Libgsl::Random",
@@ -43440,6 +43472,57 @@
     
   ],
   "version": "0.1.0"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build": {
+    "makefile-variables": {
+      "libdouble_metaphone": {
+        "resource": "libraries/double_metaphone"
+      }
+    },
+    "src-dir": "src"
+  },
+  "build-depends": [
+    "Distribution::Builder::MakeFromJSON:ver<0.6+>"
+  ],
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": [
+    
+  ],
+  "description": "Implementation of the Double Metaphone phonetic encoding algorithm",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Doublephone",
+  "perl": "6.*",
+  "provides": {
+    "Doublephone": "lib/Doublephone.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/double_metaphone"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Doublephone-0.1.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Doublephone/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Doublephone.git"
+  },
+  "tags": [
+    "search",
+    "phonetic",
+    "soundex",
+    "metaphone"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
 }
 ,
 {
