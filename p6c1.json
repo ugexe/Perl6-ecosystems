@@ -7407,6 +7407,38 @@
     
   ],
   "depends": [
+    "GTK::Simple",
+    "Raku::Pod::Render"
+  ],
+  "description": "GUI to generate md and html from POD6 in a pm6 file",
+  "license": "Artistic-2.0",
+  "name": "raku-pod-extraction",
+  "perl": "6.*",
+  "provides": {
+    "Extractor": "bin/Extractor",
+    "PodExtraction": "lib/PodExtraction.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "git://github.com/finanalyst/raku-pod-extraction.git",
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.1"
+}
+,
+{
+  "auth": "github:finanalyst",
+  "authors": [
+    "Richard Hainsworth, aka finanalyst"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Looks for POD6 files recursively under a root directory, returns POD for recompiled or specified file.",
