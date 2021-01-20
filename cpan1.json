@@ -44030,6 +44030,61 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "author": "github:carbin",
+  "authors": [
+    "carbin",
+    "Jonathan Stowe"
+  ],
+  "build": {
+    "configure-bin": "./configure",
+    "makefile-variables": {
+      "fcgi": {
+        "resource": "libraries/fcgi"
+      }
+    },
+    "src-dir": "ext"
+  },
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": {
+    "build": {
+      "requires": [
+        "Distribution::Builder::MakeFromJSON:ver<0.6+>"
+      ]
+    },
+    "runtime": {
+      "requires": [
+        
+      ]
+    }
+  },
+  "description": "An implementation of FastCGI using NativeCall",
+  "license": "ISC",
+  "meta-version": "1",
+  "name": "FastCGI::NativeCall",
+  "perl": "6.*",
+  "provides": {
+    "FastCGI::NativeCall": "lib/FastCGI/NativeCall.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/fcgi"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/FastCGI-NativeCall-0.0.8.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/raku-fastcgi-nativecall/issues",
+    "source": "https://github.com/jonathanstowe/raku-fastcgi-nativecall.git"
+  },
+  "tags": [
+    "fcgi",
+    "fastcgi",
+    "http"
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk"
   ],
