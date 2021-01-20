@@ -1715,6 +1715,35 @@
   "authors": [
     "Brian Duggan"
   ],
+  "depends": [
+    "OO::Monitors"
+  ],
+  "description": "ANSI escape sequences",
+  "license": "MIT",
+  "name": "Terminal::ANSI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::ANSI": "lib/Terminal/ANSI.rakumod",
+    "Terminal::ANSI::OO": "lib/Terminal/ANSI/OO.rakumod",
+    "Terminal::ANSI::State": "lib/Terminal/ANSI/State.rakumod",
+    "Terminal::ANSI::Virtual": "lib/Terminal/ANSI/Virtual.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-ANSI-0.0.12.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.12"
+}
+,
+{
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
   "description": "ANSI escape sequences",
   "license": "MIT",
   "name": "Terminal::ANSI",
@@ -1938,6 +1967,38 @@
     "Test"
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
+    "Terminal::ANSI:ver<0.0.22>",
+    "Log::Async"
+  ],
+  "description": "A framework for building terminal interfaces",
+  "license": "MIT",
+  "name": "Terminal::UI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::UI": "lib/Terminal/UI.rakumod",
+    "Terminal::UI::Frame": "lib/Terminal/UI/Frame.rakumod",
+    "Terminal::UI::Input": "lib/Terminal/UI/Input.rakumod",
+    "Terminal::UI::Pane": "lib/Terminal/UI/Pane.rakumod",
+    "Terminal::UI::Screen": "lib/Terminal/UI/Screen.rakumod",
+    "Terminal::UI::Style": "lib/Terminal/UI/Style.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-UI-0.0.2.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.2"
 }
 ,
 {
@@ -6303,6 +6364,57 @@
     "Test::META"
   ],
   "version": "0.5.1"
+}
+,
+{
+  "authors": [
+    "Joshua Yeshouroun"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Grep nested iterabless",
+  "license": "Artistic-2.0",
+  "name": "Deepgrep",
+  "provides": {
+    "Deepgrep": "lib/Deepgrep.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELCARO/Perl6/Deepgrep-0.0.1.tar.gz",
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Joshua Yeshouroun"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Grep elements inside nested iterables",
+  "license": "Artistic-2.0",
+  "name": "Deepgrep",
+  "provides": {
+    "Deepgrep": "lib/Deepgrep.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELCARO/Perl6/Deepgrep-0.0.2.tar.gz",
+  "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "Joshua Yeshouroun"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Grep elements inside nested iterables",
+  "license": "Artistic-2.0",
+  "name": "Deepgrep",
+  "provides": {
+    "Deepgrep": "lib/Deepgrep.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELCARO/Perl6/Deepgrep-0.0.3.tar.gz",
+  "version": "0.0.3"
 }
 ,
 {
