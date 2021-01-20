@@ -20208,18 +20208,22 @@
     "Alastair 'altreus' Douglas <altreus@altre.us>",
     "Kane 'kawaii' Valentine <kane@cute.im>"
   ],
-  "description": "Perl 6 module for parsing generic commands and arguments from a hash table.",
+  "description": "Raku module for parsing generic commands and arguments from a hash table.",
   "license": "BSD-3-Clause",
   "name": "Command::Despatch",
   "perl": "6.d",
   "provides": {
-    "Command::Despatch": "lib/Command/Despatch.pm6",
-    "Command::Despatch::Command": "lib/Command/Despatch/Command.pm6",
-    "X::Command::Despatch::InvalidCommand": "lib/Command/Despatch/Command.pm6"
+    "Command::Despatch": "lib/Command/Despatch.rakumod",
+    "Command::Despatch::Command": "lib/Command/Despatch.rakumod",
+    "X::Command::Despatch::InvalidCommand": "lib/Command/Despatch.rakumod"
   },
   "repo-type": "git",
-  "source-url": "git://github.com/shuppet/p6-command-despatch.git",
-  "version": "0.0.1"
+  "source-url": "git://git@github.com/shuppet/raku-command-despatch.git",
+  "support": {
+    "bugtracker": "https://github.com/shuppet/raku-command-despatch/issues",
+    "source": "https://github.com/shuppet/raku-command-despatch.git"
+  },
+  "version": "0.2"
 }
 ,
 {
@@ -23956,7 +23960,7 @@
   "test-depends": [
     "JSON::Fast"
   ],
-  "version": "0.1"
+  "version": "0.2"
 }
 ,
 {
@@ -23991,7 +23995,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
 ,
 {
@@ -24040,7 +24044,7 @@
     "Module::Does": "lib/Module/Does.pm6"
   },
   "source-url": "git://github.com/tony-o/perl6-module-does.git",
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
 ,
 {
@@ -24071,7 +24075,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
 ,
 {
@@ -24087,7 +24091,7 @@
     "Operator::feq::Levenshtein": "lib/Operator/feq/Levenshtein.pm6"
   },
   "source-url": "git://github.com/tony-o/perl6-operator-feq.git",
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
 ,
 {
@@ -24105,7 +24109,7 @@
     "overwatch": "lib/overwatch.pm6"
   },
   "source-url": "git://github.com/tony-o/perl6-overwatch.git",
-  "version": "0.1.6"
+  "version": "0.1.7"
 }
 ,
 {
@@ -24128,7 +24132,7 @@
   "test-depends": [
     "File::Find"
   ],
-  "version": "0.5"
+  "version": "0.6"
 }
 ,
 {
@@ -24143,7 +24147,7 @@
     "Slang::SQL": "lib/Slang/SQL.pm6"
   },
   "source-url": "git://github.com/tony-o/perl6-slang-sql.git",
-  "version": "0.1.2"
+  "version": "0.1.4"
 }
 ,
 {
@@ -24165,7 +24169,7 @@
   "support": {
     "bugtracker": "https://github.com/tony-o/perl6-template-protone/issues"
   },
-  "version": "0.1.3"
+  "version": "0.1.4"
 }
 ,
 {
@@ -24174,7 +24178,8 @@
   "depends": [
     "LWP::Simple",
     "HTML::Parser::XML",
-    "XML::Query"
+    "XML::Query",
+    "IO::Socket::SSL"
   ],
   "description": "Similar to Web::Scraper for Perl5 with some other cool stuff, duh",
   "name": "Web::Scraper",
@@ -24183,7 +24188,7 @@
     "Web::Scraper": "lib/Web/Scraper.pm6"
   },
   "source-url": "git://github.com/tony-o/perl6-web-scraper.git",
-  "version": "0.1.3"
+  "version": "0.1.4"
 }
 ,
 {
