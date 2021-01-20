@@ -515,6 +515,43 @@
 }
 ,
 {
+  "auth": "github:andinus",
+  "authors": [
+    "Andinus <andinus@nand.sh>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "WWW:ver<1.005006+>:auth<github:raku-community-modules>"
+  ],
+  "description": "Octans is a program to solve Algot's Wordplay (Wordsearch) puzzles",
+  "license": "ISC",
+  "name": "octans",
+  "perl": "6.d",
+  "provides": {
+    "Octans::CLI": "lib/Octans/CLI.rakumod",
+    "Octans::Neighbors": "lib/Octans/Neighbors.rakumod",
+    "Octans::Puzzle": "lib/Octans/Puzzle.rakumod",
+    "Octans::RangeSearch": "lib/Octans/RangeSearch.rakumod",
+    "Octans::WordSearch": "lib/Octans/WordSearch.rakumod"
+  },
+  "resources": [
+    "mwords/354984si.ngl",
+    "mwords/readme.txt"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANDINUS/Perl6/octans-0.1.1.tar.gz",
+  "tags": [
+    "Octans",
+    "WordPlay"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
   "auth": "cpan:ARNE",
   "authors": [
     "Arne Sommer"
