@@ -47666,6 +47666,59 @@
 }
 ,
 {
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build": {
+    "makefile-variables": {
+      "i2chelper": {
+        "resource": "libraries/i2chelper"
+      }
+    },
+    "src-dir": "src"
+  },
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": {
+    "build": {
+      "requires": [
+        "Distribution::Builder::MakeFromJSON:ver<0.6+>"
+      ]
+    },
+    "runtime": {
+      "requires": [
+        "NativeHelpers::Array"
+      ]
+    }
+  },
+  "description": "SMBus/i2c interface on the Raspberry Pi",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "RPi::Device::SMBus",
+  "perl": "6.*",
+  "provides": {
+    "RPi::Device::SMBus": "lib/RPi/Device/SMBus.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/i2chelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/RPi-Device-SMBus-0.0.5.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/RPi-Device-SMBus/issues",
+    "source": "git://github.com/jonathanstowe/RPi-Device-SMBus.git"
+  },
+  "tags": [
+    "RPi",
+    "Raspberry Pi",
+    "i2c",
+    "SMBus"
+  ],
+  "version": "0.0.5"
+}
+,
+{
   "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
