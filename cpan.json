@@ -2039,6 +2039,38 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
+    "Terminal::ANSI:ver<0.0.12>",
+    "Log::Async"
+  ],
+  "description": "A framework for building terminal interfaces",
+  "license": "MIT",
+  "name": "Terminal::UI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::UI": "lib/Terminal/UI.rakumod",
+    "Terminal::UI::Frame": "lib/Terminal/UI/Frame.rakumod",
+    "Terminal::UI::Input": "lib/Terminal/UI/Input.rakumod",
+    "Terminal::UI::Pane": "lib/Terminal/UI/Pane.rakumod",
+    "Terminal::UI::Screen": "lib/Terminal/UI/Screen.rakumod",
+    "Terminal::UI::Style": "lib/Terminal/UI/Style.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-UI-0.0.3.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "auth": "github:bduggan",
   "authors": [
     "Brian Duggan <bduggan@matatu.org>"
@@ -25663,6 +25695,37 @@
     "Test"
   ],
   "version": "0.0.2"
+}
+,
+{
+  "api": "2",
+  "auth": "github:frithnanth",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "description": "Interface to libfftw3",
+  "license": "Artistic-2.0",
+  "name": "Math::FFT::Libfftw3",
+  "perl": "6",
+  "provides": {
+    "Math::FFT::Libfftw3::C2C": "lib/Math/FFT/Libfftw3/C2C.pm6",
+    "Math::FFT::Libfftw3::Common": "lib/Math/FFT/Libfftw3/Common.pm6",
+    "Math::FFT::Libfftw3::Constants": "lib/Math/FFT/Libfftw3/Constants.pm6",
+    "Math::FFT::Libfftw3::Exception": "lib/Math/FFT/Libfftw3/Exception.pm6",
+    "Math::FFT::Libfftw3::R2C": "lib/Math/FFT/Libfftw3/R2C.pm6",
+    "Math::FFT::Libfftw3::R2R": "lib/Math/FFT/Libfftw3/R2R.pm6",
+    "Math::FFT::Libfftw3::Raw": "lib/Math/FFT/Libfftw3/Raw.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-FFT-Libfftw3-0.3.4.tar.gz",
+  "tags": [
+    "math",
+    "fft",
+    "nativecall"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.3.3"
 }
 ,
 {
