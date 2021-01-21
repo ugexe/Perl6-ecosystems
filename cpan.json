@@ -25666,37 +25666,6 @@
 }
 ,
 {
-  "api": "2",
-  "auth": "github:frithnanth",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "description": "Interface to libfftw3",
-  "license": "Artistic-2.0",
-  "name": "Math::FFT::Libfftw3",
-  "perl": "6",
-  "provides": {
-    "Math::FFT::Libfftw3::C2C": "lib/Math/FFT/Libfftw3/C2C.pm6",
-    "Math::FFT::Libfftw3::Common": "lib/Math/FFT/Libfftw3/Common.pm6",
-    "Math::FFT::Libfftw3::Constants": "lib/Math/FFT/Libfftw3/Constants.pm6",
-    "Math::FFT::Libfftw3::Exception": "lib/Math/FFT/Libfftw3/Exception.pm6",
-    "Math::FFT::Libfftw3::R2C": "lib/Math/FFT/Libfftw3/R2C.pm6",
-    "Math::FFT::Libfftw3::R2R": "lib/Math/FFT/Libfftw3/R2R.pm6",
-    "Math::FFT::Libfftw3::Raw": "lib/Math/FFT/Libfftw3/Raw.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-FFT-Libfftw3-0.3.4.tar.gz",
-  "tags": [
-    "math",
-    "fft",
-    "nativecall"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.3.3"
-}
-,
-{
   "auth": "cpan:FRITH",
   "authors": [
     "Fernando Santagata"
@@ -43705,6 +43674,51 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build": {
+    "makefile-variables": {
+      "libk8055": {
+        "resource": "libraries/k8055"
+      }
+    },
+    "src-dir": "src"
+  },
+  "build-depends": [
+    "Distribution::Builder::MakeFromJSON:ver<0.6+>"
+  ],
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": [
+    
+  ],
+  "description": "A Raku interface to the Velleman USB Experiment Kit",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Device::Velleman::K8055",
+  "perl": "6.*",
+  "provides": {
+    "Device::Velleman::K8055": "lib/Device/Velleman/K8055.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/k8055"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Device-Velleman-K8055-0.0.4.tar.gz",
+  "support": {
+    "source": "git://github.com/jonathanstowe/Device-Velleman-K8055.git"
+  },
+  "tags": [
+    "USB",
+    "device",
+    "experimental"
+  ],
+  "version": "0.0.4"
 }
 ,
 {
