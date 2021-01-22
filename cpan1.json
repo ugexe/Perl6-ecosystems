@@ -43475,6 +43475,47 @@
   "depends": [
     
   ],
+  "description": "very simple Raku function to test if a TCP socket is listening on a given address",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "CheckSocket",
+  "perl": "6.*",
+  "provides": {
+    "CheckSocket": "lib/CheckSocket.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/CheckSocket-0.0.7.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/CheckSocket/issues",
+    "source": "git://github.com/jonathanstowe/CheckSocket.git"
+  },
+  "tags": [
+    "network",
+    "utils",
+    "test"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Low-level Scheduling thingy for Perl6",
   "license": "Artistic-2.0",
   "meta-version": "0",
