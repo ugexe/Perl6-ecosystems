@@ -1043,6 +1043,37 @@
 }
 ,
 {
+  "auth": "github:atroxaper",
+  "authors": [
+    "Mikhail Khorkov"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Standard Scheduler's `cue` sub with the possibility to set a delay between each code execution",
+  "license": "Artistic-2.0",
+  "name": "Scheduler::DelayBetween",
+  "perl": "6.d",
+  "provides": {
+    "Scheduler::DelayBetween": "lib/Scheduler/DelayBetween.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/Scheduler-DelayBetween-1.3.2.tar.gz",
+  "tags": [
+    "SCHEDULER"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.3.2"
+}
+,
+{
   "author": [
     "Mikhail Khorkov"
   ],
@@ -25586,41 +25617,6 @@
     
   ],
   "depends": [
-    
-  ],
-  "description": "Use libextractor to read file metadata",
-  "license": "Artistic-2.0",
-  "name": "File::Metadata::Libextractor",
-  "perl": "6.c",
-  "provides": {
-    "File::Metadata::Libextractor": "lib/File/Metadata/Libextractor.pm6",
-    "File::Metadata::Libextractor::Constants": "lib/File/Metadata/Libextractor/Constants.pm6",
-    "File::Metadata::Libextractor::Raw": "lib/File/Metadata/Libextractor/Raw.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/File-Metadata-Libextractor-0.0.2.tar.gz",
-  "tags": [
-    "filesystem",
-    "metadata",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "Hash::Agnostic"
   ],
   "description": "Role for hashes whose elements timeout and disappear",
@@ -42913,6 +42909,47 @@
     "CheckSocket"
   ],
   "version": "0.0.12"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "AccessorFacade"
+  ],
+  "description": "Binding for libshout - source streaming client library for icecast",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Audio::Libshout",
+  "perl": "6.*",
+  "provides": {
+    "Audio::Libshout": "lib/Audio/Libshout.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Libshout-0.0.13.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Audio-Libshout/issues",
+    "source": "https://github.com/jonathanstowe/Audio-Libshout.git"
+  },
+  "tags": [
+    "audio",
+    "streaming",
+    "utils"
+  ],
+  "test-depends": [
+    "CheckSocket"
+  ],
+  "version": "0.0.13"
 }
 ,
 {
@@ -89278,6 +89315,76 @@
     "Cro::HTTP::Test"
   ],
   "version": "0.1.0"
+}
+,
+{
+  "api": 2,
+  "auth": "github:vrurg",
+  "authors": [
+    "Vadim Belman <vrurg@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP",
+    "JSON::Fast",
+    "Cro::HTTP::Router",
+    "Cro::HTTP::Router::WebSocket"
+  ],
+  "description": "JSON-RPC 2.0 framework built on top of Cro",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Cro::RPC::JSON",
+  "perl": null,
+  "production": true,
+  "provides": {
+    "Cro::RPC::JSON": "lib/Cro/RPC/JSON.rakumod",
+    "Cro::RPC::JSON::BatchRequest": "lib/Cro/RPC/JSON/BatchRequest.rakumod",
+    "Cro::RPC::JSON::BatchResponse": "lib/Cro/RPC/JSON/BatchResponse.rakumod",
+    "Cro::RPC::JSON::Exception": "lib/Cro/RPC/JSON/Exception.rakumod",
+    "Cro::RPC::JSON::Handler": "lib/Cro/RPC/JSON/Handler.rakumod",
+    "Cro::RPC::JSON::Message": "lib/Cro/RPC/JSON/Message.rakumod",
+    "Cro::RPC::JSON::Metamodel::ClassHOW": "lib/Cro/RPC/JSON/Metamodel/ClassHOW.rakumod",
+    "Cro::RPC::JSON::Metamodel::ConcreteRoleHOW": "lib/Cro/RPC/JSON/Metamodel/ConcreteRoleHOW.rakumod",
+    "Cro::RPC::JSON::Metamodel::MethodContainer": "lib/Cro/RPC/JSON/Metamodel/MethodContainer.rakumod",
+    "Cro::RPC::JSON::Metamodel::ParametricRoleHOW": "lib/Cro/RPC/JSON/Metamodel/ParametricRoleHOW.rakumod",
+    "Cro::RPC::JSON::Method": "lib/Cro/RPC/JSON/Method.rakumod",
+    "Cro::RPC::JSON::MethodResponse": "lib/Cro/RPC/JSON/MethodResponse.rakumod",
+    "Cro::RPC::JSON::Notification": "lib/Cro/RPC/JSON/Notification.rakumod",
+    "Cro::RPC::JSON::Request": "lib/Cro/RPC/JSON/Request.rakumod",
+    "Cro::RPC::JSON::RequestParser::BodyStr": "lib/Cro/RPC/JSON/RequestParser/BodyStr.rakumod",
+    "Cro::RPC::JSON::RequestParser::HTTP": "lib/Cro/RPC/JSON/RequestParser/HTTP.rakumod",
+    "Cro::RPC::JSON::RequestParser::WebSocket": "lib/Cro/RPC/JSON/RequestParser/WebSocket.rakumod",
+    "Cro::RPC::JSON::Response": "lib/Cro/RPC/JSON/Response.rakumod",
+    "Cro::RPC::JSON::ResponseSerializer::HTTP": "lib/Cro/RPC/JSON/ResponseSerializer/HTTP.rakumod",
+    "Cro::RPC::JSON::ResponseSerializer::WebSocket": "lib/Cro/RPC/JSON/ResponseSerializer/WebSocket.rakumod",
+    "Cro::RPC::JSON::Transform": "lib/Cro/RPC/JSON/Transform.rakumod",
+    "Cro::RPC::JSON::Utils": "lib/Cro/RPC/JSON/Utils.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/Cro-RPC-JSON-v0.1.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/vrurg/raku-Cro-RPC-JSON/issues",
+    "source": "https://github.com/vrurg/raku-Cro-RPC-JSON.git"
+  },
+  "tags": [
+    "Cro",
+    "JSON-RPC",
+    "HTTP",
+    "WEB",
+    "JSON"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META",
+    "Test::When",
+    "Cro::HTTP::Test"
+  ],
+  "version": "0.1.1"
 }
 ,
 {
