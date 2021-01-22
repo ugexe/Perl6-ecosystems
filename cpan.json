@@ -25705,6 +25705,30 @@
 }
 ,
 {
+  "api": "1",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "description": "Interface to libqrencode",
+  "license": "Artistic-2.0",
+  "name": "Image::QRCode",
+  "perl": "6.c",
+  "provides": {
+    "Image::QRCode": "lib/Image/QRCode.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Image-QRCode-0.0.5.tar.gz",
+  "tags": [
+    "image",
+    "qrcode",
+    "nativecall"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "api": "2",
   "auth": "github:frithnanth",
   "authors": [
@@ -43742,6 +43766,45 @@
     "Test"
   ],
   "version": "0.1.0"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Simple binding to crypt(3) from unix-like systems",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Crypt::Libcrypt",
+  "perl": "6.*",
+  "provides": {
+    "Crypt::Libcrypt": "lib/Crypt/Libcrypt.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Crypt-Libcrypt-0.1.1.tar.gz",
+  "support": {
+    "source": "git://github.com/jonathanstowe/Crypt-Libcrypt.git"
+  },
+  "tags": [
+    "crypt",
+    "password"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.1"
 }
 ,
 {
