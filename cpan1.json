@@ -25910,30 +25910,6 @@
 }
 ,
 {
-  "api": "1",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "description": "Interface to libqrencode",
-  "license": "Artistic-2.0",
-  "name": "Image::QRCode",
-  "perl": "6.c",
-  "provides": {
-    "Image::QRCode": "lib/Image/QRCode.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Image-QRCode-0.0.5.tar.gz",
-  "tags": [
-    "image",
-    "qrcode",
-    "nativecall"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.2"
-}
-,
-{
   "api": "2",
   "auth": "github:frithnanth",
   "authors": [
@@ -42941,6 +42917,64 @@
     "Audio::Sndfile"
   ],
   "version": "0.0.11"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "depends": {
+    "build": {
+      "requires": [
+        
+      ]
+    },
+    "runtime": {
+      "requires": [
+        "AccessorFacade",
+        "NativeHelpers::Array"
+      ]
+    },
+    "test": {
+      "requires": [
+        "LibraryCheck",
+        "Test::META",
+        "Audio::Taglib::Simple",
+        "Audio::Sndfile"
+      ]
+    }
+  },
+  "description": "Encode PCM Audio data to MP3 in Raku using a binding to liblame",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Audio::Encode::LameMP3",
+  "perl": "6.*",
+  "provides": {
+    "Audio::Encode::LameMP3": "lib/Audio/Encode/LameMP3.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Encode-LameMP3-0.0.12.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Audio-Encode-LameMP3/issues",
+    "source": "git://github.com/jonathanstowe/Audio-Encode-LameMP3.git"
+  },
+  "tags": [
+    "audio",
+    "codec",
+    "encode",
+    "mpeg",
+    "mp3"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.12"
 }
 ,
 {
