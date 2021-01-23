@@ -25887,38 +25887,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Constants-0.0.7.tar.gz",
-  "tags": [
-    "math"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.7"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - constants and exceptions.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::Constants",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::Constants": "lib/Math/Libgsl/Constants.rakumod",
-    "Math::Libgsl::Exception": "lib/Math/Libgsl/Exception.rakumod"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Constants-0.0.8.tar.gz",
   "tags": [
     "math"
@@ -26111,6 +26079,54 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build": {
+    "makefile-variables": {
+      "gslhelper": {
+        "resource": "libraries/gslhelper"
+      }
+    }
+  },
+  "build-depends": [
+    "Distribution::Builder::MakeFromJSON"
+  ],
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": [
+    "Distribution::Builder::MakeFromJSON",
+    "Math::Libgsl::Constants",
+    "Math::Libgsl::Matrix",
+    "Math::Libgsl::Permutation",
+    "Math::Libgsl::BLAS",
+    "Math::Libgsl::Random"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Linear Algebra.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::LinearAlgebra",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::LinearAlgebra": "lib/Math/Libgsl/LinearAlgebra.rakumod",
+    "Math::Libgsl::LinearAlgebra::Complex64": "lib/Math/Libgsl/LinearAlgebra/Complex64.rakumod",
+    "Math::Libgsl::Raw::LinearAlgebra": "lib/Math/Libgsl/Raw/LinearAlgebra.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-LinearAlgebra-0.0.2.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    "Math::Libgsl::BLAS",
+    "Math::Libgsl::Random"
+  ],
+  "version": "0.0.2"
 }
 ,
 {
