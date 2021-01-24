@@ -589,6 +589,43 @@
 }
 ,
 {
+  "auth": "github:andinus",
+  "authors": [
+    "Andinus <andinus@nand.sh>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "WWW:ver<1.005006+>:auth<github:raku-community-modules>"
+  ],
+  "description": "Octans is a program to solve Algot's Wordplay (Wordsearch) puzzles",
+  "license": "ISC",
+  "name": "octans",
+  "perl": "6.d",
+  "provides": {
+    "Octans::CLI": "lib/Octans/CLI.rakumod",
+    "Octans::Neighbors": "lib/Octans/Neighbors.rakumod",
+    "Octans::Puzzle": "lib/Octans/Puzzle.rakumod",
+    "Octans::RangeSearch": "lib/Octans/RangeSearch.rakumod",
+    "Octans::WordSearch": "lib/Octans/WordSearch.rakumod"
+  },
+  "resources": [
+    "mwords/354984si.ngl",
+    "mwords/readme.txt"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANDINUS/Perl6/octans-0.1.3.tar.gz",
+  "tags": [
+    "Octans",
+    "WordPlay"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.3"
+}
+,
+{
   "auth": "cpan:ARNE",
   "authors": [
     "Arne Sommer"
@@ -26205,39 +26242,6 @@
     
   ],
   "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - elementary functions.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::Elementary",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::Elementary": "lib/Math/Libgsl/Elementary.rakumod",
-    "Math::Libgsl::Raw::Elementary": "lib/Math/Libgsl/Raw/Elementary.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Elementary-0.0.3.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
 }
 ,
 {
