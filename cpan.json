@@ -921,60 +921,6 @@
   "name": "LogP6",
   "perl": "6.d",
   "provides": {
-    "LogP6": "lib/LogP6.pm6",
-    "LogP6::Cliche": "lib/LogP6/Cliche.pm6",
-    "LogP6::ConfigFile": "lib/LogP6/ConfigFile.pm6",
-    "LogP6::Context": "lib/LogP6/Context.pm6",
-    "LogP6::Exceptions": "lib/LogP6/Exceptions.pm6",
-    "LogP6::Filter": "lib/LogP6/Filter.pm6",
-    "LogP6::Filter::Std": "lib/LogP6/Filter/Std.pm6",
-    "LogP6::FilterConf": "lib/LogP6/FilterConf.pm6",
-    "LogP6::FilterConf::Std": "lib/LogP6/FilterConf/Std.pm6",
-    "LogP6::Level": "lib/LogP6/Level.pm6",
-    "LogP6::LogGetter": "lib/LogP6/LogGetter.pm6",
-    "LogP6::Logger": "lib/LogP6/Logger.pm6",
-    "LogP6::LoggerPure": "lib/LogP6/LoggerPure.pm6",
-    "LogP6::ThreadLocal": "lib/LogP6/ThreadLocal.pm6",
-    "LogP6::Wrapper": "lib/LogP6/Wrapper.pm6",
-    "LogP6::Wrapper::SyncAbstract": "lib/LogP6/Wrapper/SyncAbstract.pm6",
-    "LogP6::Wrapper::SyncEach": "lib/LogP6/Wrapper/SyncEach.pm6",
-    "LogP6::Wrapper::SyncTime": "lib/LogP6/Wrapper/SyncTime.pm6",
-    "LogP6::Wrapper::Transparent": "lib/LogP6/Wrapper/Transparent.pm6",
-    "LogP6::Writer": "lib/LogP6/Writer.pm6",
-    "LogP6::Writer::Std": "lib/LogP6/Writer/Std.pm6",
-    "LogP6::WriterConf": "lib/LogP6/WriterConf.pm6",
-    "LogP6::WriterConf::Pattern": "lib/LogP6/WriterConf/Pattern.pm6",
-    "LogP6::WriterConf::Std": "lib/LogP6/WriterConf/Std.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/LogP6-1.6.2.tar.gz",
-  "tags": [
-    "LOG",
-    "LOGGING",
-    "LOGGER"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.6.2"
-}
-,
-{
-  "auth": "github:atroxaper",
-  "authors": [
-    "Mikhail Khorkov"
-  ],
-  "depends": [
-    "UUID",
-    "JSON::Fast"
-  ],
-  "description": "Full customisable logging library inspired by idea of separate logging and its configuration.",
-  "license": "Artistic-2.0",
-  "name": "LogP6",
-  "perl": "6.d",
-  "provides": {
     "LogP6": "lib/LogP6.rakumod",
     "LogP6::Cliche": "lib/LogP6/Cliche.rakumod",
     "LogP6::ConfigFile": "lib/LogP6/ConfigFile.rakumod",
