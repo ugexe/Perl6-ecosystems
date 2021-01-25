@@ -48629,6 +48629,51 @@
 ,
 {
   "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Tinky",
+    "JSON::Name",
+    "JSON::Unmarshal",
+    "JSON::Class"
+  ],
+  "description": "Describe Tinky Workflows in JSON",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Tinky::JSON",
+  "perl": "6.*",
+  "provides": {
+    "Tinky::JSON": "lib/Tinky/JSON.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Tinky-JSON-0.0.6.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Tinky-JSON/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Tinky-JSON.git"
+  },
+  "tags": [
+    "Workflow",
+    "toolkit",
+    "state machine",
+    "JSON"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "api": "1.0",
   "auth": "github:carbin",
   "author": "github:carbin",
   "authors": [
