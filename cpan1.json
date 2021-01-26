@@ -25861,38 +25861,6 @@
 }
 ,
 {
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Hash::Agnostic"
-  ],
-  "description": "Role for hashes whose elements timeout and disappear",
-  "license": "Artistic-2.0",
-  "name": "Hash::Timeout",
-  "perl": "6.c",
-  "provides": {
-    "Hash::Timeout": "lib/Hash/Timeout.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Hash-Timeout-0.0.1.tar.gz",
-  "tags": [
-    "hash",
-    "timeout"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
   "api": "1",
   "authors": [
     "Fernando Santagata"
@@ -45318,6 +45286,54 @@
     
   ],
   "version": "0.0.5"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "depends": {
+    "build": {
+      "requires": [
+        
+      ]
+    },
+    "runtime": {
+      "requires": [
+        "Archive::Libarchive",
+        "CPAN::Uploader::Tiny",
+        "META6",
+        "Oyatul",
+        "XDG::BaseDirectory"
+      ]
+    }
+  },
+  "description": "Expedient CPAN6 distribution packager and uploader",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Igo",
+  "perl": "6.*",
+  "provides": {
+    "Igo": "lib/Igo.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Igo-0.0.6.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Igo/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Igo.git"
+  },
+  "tags": [
+    "cpan6",
+    "packager",
+    "uploader"
+  ],
+  "version": "0.0.6"
 }
 ,
 {
