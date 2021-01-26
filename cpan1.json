@@ -26303,6 +26303,51 @@
   "builder": "Distribution::Builder::MakeFromJSON",
   "depends": [
     "Distribution::Builder::MakeFromJSON",
+    "Math::Libgsl::Constants"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Histograms",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Histogram",
+  "perl": "6.d",
+  "provides": {
+    "Math::Libgsl::Histogram": "lib/Math/Libgsl/Histogram.rakumod",
+    "Math::Libgsl::Histogram2D": "lib/Math/Libgsl/Histogram2D.rakumod",
+    "Math::Libgsl::Histogram2D::PDF": "lib/Math/Libgsl/Histogram2D/PDF.rakumod",
+    "Math::Libgsl::Histogram::PDF": "lib/Math/Libgsl/Histogram/PDF.rakumod",
+    "Math::Libgsl::Raw::Histogram": "lib/Math/Libgsl/Raw/Histogram.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Histogram-0.0.1.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build": {
+    "makefile-variables": {
+      "gslhelper": {
+        "resource": "libraries/gslhelper"
+      }
+    }
+  },
+  "build-depends": [
+    "Distribution::Builder::MakeFromJSON"
+  ],
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": [
+    "Distribution::Builder::MakeFromJSON",
     "Math::Libgsl::Constants",
     "Math::Libgsl::Matrix",
     "Math::Libgsl::Permutation",
