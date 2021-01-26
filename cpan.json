@@ -25494,33 +25494,6 @@
   "authors": [
     "Fernando Santagata"
   ],
-  "depends": [
-    "Archive::Libarchive::Raw",
-    "NativeHelpers::Blob"
-  ],
-  "description": "High-level bindings to libarchive",
-  "license": "Artistic-2.0",
-  "name": "Archive::Libarchive",
-  "perl": "6.c",
-  "provides": {
-    "Archive::Libarchive": "lib/Archive/Libarchive.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-0.0.15.tar.gz",
-  "tags": [
-    "archive",
-    "libarchive",
-    "compression"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.14"
-}
-,
-{
-  "authors": [
-    "Fernando Santagata"
-  ],
   "build-depends": [
     "HTTP::UserAgent"
   ],
@@ -25653,6 +25626,38 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Hash::Agnostic"
+  ],
+  "description": "Role for hashes whose elements timeout and disappear",
+  "license": "Artistic-2.0",
+  "name": "Hash::Timeout",
+  "perl": "6.c",
+  "provides": {
+    "Hash::Timeout": "lib/Hash/Timeout.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Hash-Timeout-0.0.1.tar.gz",
+  "tags": [
+    "hash",
+    "timeout"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
 }
 ,
 {
@@ -54650,6 +54655,44 @@
     
   ],
   "version": "0.18.5"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku - Gnome native interface support",
+  "license": "Artistic-2.0",
+  "name": "Gnome::N",
+  "perl": "6",
+  "provides": {
+    "Gnome::N::GlibToRakuTypes": "lib/Gnome/N/GlibToRakuTypes.pm6",
+    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
+    "Gnome::N::N-GVariant": "lib/Gnome/N/N-GVariant.pm6",
+    "Gnome::N::N-GVariantBuilder": "lib/Gnome/N/N-GVariantBuilder.pm6",
+    "Gnome::N::N-GVariantIter": "lib/Gnome/N/N-GVariantIter.pm6",
+    "Gnome::N::N-GVariantType": "lib/Gnome/N/N-GVariantType.pm6",
+    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
+    "Gnome::N::TopLevelClassSupport": "lib/Gnome/N/TopLevelClassSupport.pm6",
+    "Gnome::N::X": "lib/Gnome/N/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-native-0.18.6.tar.gz",
+  "tags": [
+    "gnome"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.18.6"
 }
 ,
 {
