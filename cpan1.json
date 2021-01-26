@@ -6551,6 +6551,40 @@
     "Joshua Yeshouroun"
   ],
   "depends": [
+    
+  ],
+  "description": "Grep elements inside nested iterables",
+  "license": "Artistic-2.0",
+  "name": "Deepgrep",
+  "provides": {
+    "Deepgrep": "lib/Deepgrep.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELCARO/Perl6/Deepgrep-0.1.1.tar.gz",
+  "version": "0.1.1"
+}
+,
+{
+  "authors": [
+    "Joshua Yeshouroun"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Grep elements inside nested iterables",
+  "license": "Artistic-2.0",
+  "name": "Deepgrep",
+  "provides": {
+    "Deepgrep": "lib/Deepgrep.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELCARO/Perl6/Deepgrep-0.1.2.tar.gz",
+  "version": "0.1.2"
+}
+,
+{
+  "authors": [
+    "Joshua Yeshouroun"
+  ],
+  "depends": [
     "Exportable"
   ],
   "description": "Get file status",
@@ -25693,6 +25727,33 @@
     "Test"
   ],
   "version": "0.1.6"
+}
+,
+{
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "depends": [
+    "Archive::Libarchive::Raw",
+    "NativeHelpers::Blob"
+  ],
+  "description": "High-level bindings to libarchive",
+  "license": "Artistic-2.0",
+  "name": "Archive::Libarchive",
+  "perl": "6.c",
+  "provides": {
+    "Archive::Libarchive": "lib/Archive/Libarchive.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-0.0.15.tar.gz",
+  "tags": [
+    "archive",
+    "libarchive",
+    "compression"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.14"
 }
 ,
 {
