@@ -1280,6 +1280,36 @@
 }
 ,
 {
+  "auth": "git:alabamenhu",
+  "authors": [
+    "Matthew Stephen Stuckwisch"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Intl::CLDR:ver<0.5+>",
+    "Intl::UserLanguage",
+    "DateTime::Timezones:ver<0.3.5+>"
+  ],
+  "description": "A module to format time in a localized manner",
+  "license": "Artistic-2.0",
+  "name": "Intl::Format::DateTime",
+  "perl": "6.*",
+  "provides": {
+    "Intl::Format::DateTime": "lib/Intl/Format/DateTime.pm6"
+  },
+  "resources": [
+    "metazones.data"
+  ],
+  "source-url": "git://github.com/alabamenhu/IntlFormatDateTime.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1"
+}
+,
+{
   "auth": "github:alabamenhu",
   "authors": [
     "Matthew Stephen Stuckwisch"
@@ -24278,7 +24308,7 @@
   "perl": "6.c",
   "provides": {
     "Fez": "lib/Fez.rakumod",
-    "Fez::Bundle": "lib/Fez/Bundle.rakumod",
+    "Fez::Bundle": "lib/Fez/Bundle.rakumo",
     "Fez::CLI": "lib/Fez/CLI.rakumod",
     "Fez::Util::Config": "lib/Fez/Util/Config.rakumod",
     "Fez::Util::Curl": "lib/Fez/Util/Curl.rakumod",
@@ -24293,7 +24323,7 @@
     "config.json"
   ],
   "source-url": "https://github.com/tony-o/raku-fez.git",
-  "version": "11"
+  "version": "13"
 }
 ,
 {
