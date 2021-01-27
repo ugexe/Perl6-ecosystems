@@ -25980,37 +25980,6 @@
 }
 ,
 {
-  "api": "2",
-  "auth": "github:frithnanth",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "description": "Interface to libfftw3",
-  "license": "Artistic-2.0",
-  "name": "Math::FFT::Libfftw3",
-  "perl": "6",
-  "provides": {
-    "Math::FFT::Libfftw3::C2C": "lib/Math/FFT/Libfftw3/C2C.pm6",
-    "Math::FFT::Libfftw3::Common": "lib/Math/FFT/Libfftw3/Common.pm6",
-    "Math::FFT::Libfftw3::Constants": "lib/Math/FFT/Libfftw3/Constants.pm6",
-    "Math::FFT::Libfftw3::Exception": "lib/Math/FFT/Libfftw3/Exception.pm6",
-    "Math::FFT::Libfftw3::R2C": "lib/Math/FFT/Libfftw3/R2C.pm6",
-    "Math::FFT::Libfftw3::R2R": "lib/Math/FFT/Libfftw3/R2R.pm6",
-    "Math::FFT::Libfftw3::Raw": "lib/Math/FFT/Libfftw3/Raw.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-FFT-Libfftw3-0.3.4.tar.gz",
-  "tags": [
-    "math",
-    "fft",
-    "nativecall"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.3.3"
-}
-,
-{
   "auth": "cpan:FRITH",
   "authors": [
     "Fernando Santagata"
@@ -36139,6 +36108,39 @@
     
   ],
   "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibUSB"
+  ],
+  "description": "Luxafor Indicators based on Google Calendar and Webcam Status",
+  "license": "Artistic-2.0",
+  "name": "BusyIndicator",
+  "perl": "6.d",
+  "provides": {
+    "BusyIndicator": "lib/BusyIndicator.rakumod",
+    "BusyIndicator::LibUSB": "lib/BusyIndicator/LibUSB.rakumod",
+    "BusyIndicator::Luxafor": "lib/BusyIndicator/Luxafor.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/BusyIndicator-0.0.6.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
 }
 ,
 {
