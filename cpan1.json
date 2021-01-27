@@ -26138,6 +26138,38 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Constants-0.0.7.tar.gz",
+  "tags": [
+    "math"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - constants and exceptions.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Constants",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Constants": "lib/Math/Libgsl/Constants.rakumod",
+    "Math::Libgsl::Exception": "lib/Math/Libgsl/Exception.rakumod"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Constants-0.0.8.tar.gz",
   "tags": [
     "math"
