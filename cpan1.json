@@ -77256,6 +77256,47 @@
 }
 ,
 {
+  "api": "3",
+  "auth": "cpan:TBROWDER",
+  "author": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder <tom.browder@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Font::AFM"
+  ],
+  "description": "Miscellaneous text utilities",
+  "license": "Artistic-2.0",
+  "name": "Text::Utils",
+  "perl": "6.*",
+  "provides": {
+    "Text::Utils": "lib/Text/Utils.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Text-Utils-3.0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/tbrowder/Text-Utils-Raku/issues"
+  },
+  "tags": [
+    "string functions",
+    "auto-code generation",
+    "text wrap",
+    "normalize string",
+    "text",
+    "CPAN5"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "3.0.2"
+}
+,
+{
   "api": "2",
   "auth": "github:tbrowder",
   "author": "github:tbrowder",
