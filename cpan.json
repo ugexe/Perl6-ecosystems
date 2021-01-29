@@ -25775,6 +25775,37 @@
 }
 ,
 {
+  "api": "2",
+  "auth": "github:frithnanth",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "description": "Interface to libfftw3",
+  "license": "Artistic-2.0",
+  "name": "Math::FFT::Libfftw3",
+  "perl": "6",
+  "provides": {
+    "Math::FFT::Libfftw3::C2C": "lib/Math/FFT/Libfftw3/C2C.pm6",
+    "Math::FFT::Libfftw3::Common": "lib/Math/FFT/Libfftw3/Common.pm6",
+    "Math::FFT::Libfftw3::Constants": "lib/Math/FFT/Libfftw3/Constants.pm6",
+    "Math::FFT::Libfftw3::Exception": "lib/Math/FFT/Libfftw3/Exception.pm6",
+    "Math::FFT::Libfftw3::R2C": "lib/Math/FFT/Libfftw3/R2C.pm6",
+    "Math::FFT::Libfftw3::R2R": "lib/Math/FFT/Libfftw3/R2R.pm6",
+    "Math::FFT::Libfftw3::Raw": "lib/Math/FFT/Libfftw3/Raw.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-FFT-Libfftw3-0.3.4.tar.gz",
+  "tags": [
+    "math",
+    "fft",
+    "nativecall"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.3.3"
+}
+,
+{
   "auth": "cpan:FRITH",
   "authors": [
     "Fernando Santagata"
@@ -25845,39 +25876,6 @@
     
   ],
   "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "LibraryMake"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - complex numbers.",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::Complex",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::Complex": "lib/Math/Libgsl/Complex.rakumod",
-    "Math::Libgsl::Raw::Complex": "lib/Math/Libgsl/Raw/Complex.rakumod"
-  },
-  "resources": [
-    "libraries/gslhelper"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Complex-0.0.4.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
 }
 ,
 {
