@@ -19267,6 +19267,37 @@
   "depends": [
     
   ],
+  "description": "provide an immutable List value type",
+  "license": "Artistic-2.0",
+  "name": "Tuple",
+  "perl": "6.c",
+  "provides": {
+    "Tuple": "lib/Tuple.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tuple-0.0.8.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Provide transparent access to errno",
   "license": "Artistic-2.0",
   "name": "Unix::errno",
