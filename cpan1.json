@@ -7779,6 +7779,37 @@
   "depends": [
     
   ],
+  "description": "be an array without knowing how",
+  "license": "Artistic-2.0",
+  "name": "Array::Agnostic",
+  "perl": "6.d",
+  "provides": {
+    "Array::Agnostic": "lib/Array/Agnostic.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Array-Agnostic-0.0.9.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "add \"is circular\" trait to Arrays",
   "license": "Artistic-2.0",
   "name": "Array::Circular",
@@ -7828,6 +7859,37 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "add \"is circular\" trait to Arrays",
+  "license": "Artistic-2.0",
+  "name": "Array::Circular",
+  "perl": "6.c",
+  "provides": {
+    "Array::Circular": "lib/Array/Circular.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Array-Circular-0.0.3.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
@@ -7983,6 +8045,37 @@
     
   ],
   "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Array::Agnostic:ver<0.0.9>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "role for sparsely populated Arrays",
+  "license": "Artistic-2.0",
+  "name": "Array::Sparse",
+  "perl": "6.d",
+  "provides": {
+    "Array::Sparse": "lib/Array/Sparse.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Array-Sparse-0.0.6.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
 }
 ,
 {
@@ -9026,6 +9119,37 @@
   "depends": [
     
   ],
+  "description": "be a hash without knowing how",
+  "license": "Artistic-2.0",
+  "name": "Hash::Agnostic",
+  "perl": "6.c",
+  "provides": {
+    "Hash::Agnostic": "lib/Hash/Agnostic.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Agnostic-0.0.7.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "trait for limiting number of keys in hashes",
   "license": "Artistic-2.0",
   "name": "Hash::LRU",
@@ -9495,6 +9619,37 @@
   "depends": [
     
   ],
+  "description": "provide a hash with native integer keys",
+  "license": "Artistic-2.0",
+  "name": "Hash::int",
+  "perl": "6.d",
+  "provides": {
+    "Hash::int": "lib/Hash/int.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-int-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Roles for automatically mapping keys in hashes",
   "license": "Artistic-2.0",
   "name": "Hash-with",
@@ -9544,6 +9699,37 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Roles for automatically mapping keys in hashes",
+  "license": "Artistic-2.0",
+  "name": "Hash-with",
+  "perl": "6.c",
+  "provides": {
+    "Hash-with": "lib/Hash-with.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-with-0.0.3.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
@@ -9936,6 +10122,38 @@
     "Elizabeth Mattijsen"
   ],
   "build-depends": [
+    "Random::Names"
+  ],
+  "depends": [
+    
+  ],
+  "description": "A role to create class instances out of a Hash",
+  "license": "Artistic-2.0",
+  "name": "Hash2Class",
+  "perl": "6.d",
+  "provides": {
+    "Hash2Class": "lib/Hash2Class.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash2Class-0.1.3.tar.gz",
+  "tags": [
+    "JSON",
+    "CLASS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
     
   ],
   "depends": [
@@ -9990,6 +10208,37 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "a DateTime that has intervals",
+  "license": "Artistic-2.0",
+  "name": "Interval",
+  "perl": "6.c",
+  "provides": {
+    "Interval": "lib/Interval.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Interval-0.0.2.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
@@ -10761,6 +11010,37 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Hash::Agnostic:ver<0.0.7>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "be a map without knowing how",
+  "license": "Artistic-2.0",
+  "name": "Map::Agnostic",
+  "perl": "6.c",
+  "provides": {
+    "Map::Agnostic": "lib/Map/Agnostic.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Map-Agnostic-0.0.4.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
