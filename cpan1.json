@@ -20471,6 +20471,37 @@
   "depends": [
     
   ],
+  "description": "be a Hash in which each key can only be set once",
+  "license": "Artistic-2.0",
+  "name": "WriteOnceHash",
+  "perl": "6.d",
+  "provides": {
+    "WriteOnceHash": "lib/WriteOnceHash.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/WriteOnceHash-0.0.5.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "expose the eigenstates of an object",
   "license": "Artistic-2.0",
   "name": "eigenstates",
