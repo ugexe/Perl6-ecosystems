@@ -26031,45 +26031,6 @@
   "depends": [
     "Pod::To::Text"
   ],
-  "description": "Check whether a string is a lipogram",
-  "license": "MIT",
-  "name": "Lingua::Lipogram",
-  "perl": "6.c",
-  "production": true,
-  "provides": {
-    "Lingua::Lipogram": "lib/Lingua/Lipogram.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FI/FISCHER/Perl6/Lingua-Lipogram-0.1.0.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/sfischer13/perl6-Lingua-Lipogram/issues",
-    "email": "sfischer13@ymail.com",
-    "source": "git://github.com/sfischer13/perl6-Lingua-Lipogram.git"
-  },
-  "tags": [
-    "alphabet",
-    "letters",
-    "lipogram",
-    "perl6"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.1.0"
-}
-,
-{
-  "api": 1,
-  "auth": "github:sfischer13",
-  "authors": [
-    "Stefan Fischer <sfischer13@ymail.com>"
-  ],
-  "depends": [
-    "Pod::To::Text"
-  ],
   "description": "Check whether a string is a palindrome",
   "license": "MIT",
   "name": "Lingua::Palindrome",
