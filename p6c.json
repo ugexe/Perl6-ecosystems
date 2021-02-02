@@ -1297,7 +1297,11 @@
   "name": "Intl::Format::DateTime",
   "perl": "6.*",
   "provides": {
-    "Intl::Format::DateTime": "lib/Intl/Format/DateTime.pm6"
+    "Formatters": "lib/Formatters.pm6",
+    "Intl::Format::DateTime": "lib/Intl/Format/DateTime.pm6",
+    "Intl::Format::DateTime::Constants": "lib/Intl/Format/DateTime::Constants.rakumod",
+    "Intl::Format::DateTime::FieldMeta": "lib/Intl/Format/DateTime::FieldMeta.rakumod",
+    "Intl::Format::DateTime::Formatters": "lib/Intl/Format/DateTime::Formatters.pm6"
   },
   "resources": [
     "metazones.data"
@@ -1306,7 +1310,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "0.1"
+  "version": "0.2.0"
 }
 ,
 {
@@ -8376,7 +8380,7 @@
   "resources": [
     
   ],
-  "source-url": "https://github.com/gfldex/raku-shell-piping/archive/raku-shell-piping-0.9.1.tar.gz",
+  "source-url": "https://github.com/gfldex/raku-shell-piping/archive/raku-shell-piping-0.9.2.tar.gz",
   "support": {
     "source": null
   },
@@ -8387,7 +8391,7 @@
   "test-depends": [
     
   ],
-  "version": "0.9.1"
+  "version": "0.9.2"
 }
 ,
 {
