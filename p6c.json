@@ -16507,10 +16507,13 @@
 }
 ,
 {
+  "api": "1.0",
+  "auth": "github:raku-community-modules",
   "depends": [
     
   ],
   "description": "strftime and other DateTime formatting libraries",
+  "meta-version": 0,
   "name": "DateTime::Format",
   "perl": "6.*",
   "provides": {
@@ -16522,8 +16525,9 @@
     "DateTime::Format::Lang::PT": "lib/DateTime/Format/Lang/PT.pm6",
     "DateTime::Format::RFC2822": "lib/DateTime/Format/RFC2822.pm6"
   },
+  "raku": "6.*",
   "source-url": "git://github.com/raku-community-modules/DateTime-Format.git",
-  "version": "*"
+  "version": "0.1.0"
 }
 ,
 {
