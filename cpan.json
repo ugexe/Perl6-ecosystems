@@ -26080,37 +26080,39 @@
 }
 ,
 {
+  "auth": "cpan:FRITH",
   "authors": [
     "Fernando Santagata"
   ],
   "build-depends": [
-    "HTTP::UserAgent"
+    
   ],
   "depends": [
-    "NativeCall"
+    
   ],
-  "description": "Raw interface to libarchive",
+  "description": "A simple interface to libnotify",
   "license": "Artistic-2.0",
-  "name": "Archive::Libarchive::Raw",
+  "name": "Desktop::Notify",
   "perl": "6.c",
   "provides": {
-    "Archive::Libarchive::Constants": "lib/Archive/Libarchive/Constants.rakumod",
-    "Archive::Libarchive::Raw": "lib/Archive/Libarchive/Raw.rakumod"
+    "Desktop::Notify": "lib/Desktop/Notify.rakumod",
+    "Desktop::Notify::Raw": "lib/Desktop/Notify/Raw.rakumod",
+    "Desktop::Notify::Simple": "lib/Desktop/Notify/Simple.rakumod"
   },
   "resources": [
-    "libarchive.dll"
+    
   ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-Raw-0.1.0.tar.gz",
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-1.0.0.tar.gz",
   "tags": [
-    "archive",
-    "libarchive",
-    "compression",
+    "desktop",
+    "notification",
+    "libnotify",
     "nativecall"
   ],
   "test-depends": [
-    "Test"
+    
   ],
-  "version": "0.1.0"
+  "version": "1.0.0"
 }
 ,
 {
