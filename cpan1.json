@@ -26261,33 +26261,6 @@
   "authors": [
     "Fernando Santagata"
   ],
-  "depends": [
-    "Archive::Libarchive::Raw",
-    "NativeHelpers::Blob"
-  ],
-  "description": "High-level bindings to libarchive",
-  "license": "Artistic-2.0",
-  "name": "Archive::Libarchive",
-  "perl": "6.c",
-  "provides": {
-    "Archive::Libarchive": "lib/Archive/Libarchive.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-0.0.15.tar.gz",
-  "tags": [
-    "archive",
-    "libarchive",
-    "compression"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.14"
-}
-,
-{
-  "authors": [
-    "Fernando Santagata"
-  ],
   "build-depends": [
     "HTTP::UserAgent"
   ],
