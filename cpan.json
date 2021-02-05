@@ -26122,42 +26122,6 @@
     
   ],
   "depends": [
-    
-  ],
-  "description": "A simple interface to libnotify",
-  "license": "Artistic-2.0",
-  "name": "Desktop::Notify",
-  "perl": "6.c",
-  "provides": {
-    "Desktop::Notify": "lib/Desktop/Notify.rakumod",
-    "Desktop::Notify::Raw": "lib/Desktop/Notify/Raw.rakumod",
-    "Desktop::Notify::Simple": "lib/Desktop/Notify/Simple.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-1.0.0.tar.gz",
-  "tags": [
-    "desktop",
-    "notification",
-    "libnotify",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "1.0.0"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "Desktop::Notify"
   ],
   "description": "Show the progress of processing in a notification popup",
@@ -46224,6 +46188,53 @@
     "Test"
   ],
   "version": "0.0.18"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast",
+    "HTTP::UserAgent",
+    "JSON::Class",
+    "JSON::Name"
+  ],
+  "description": "Infer Raku Classes from JSON input",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "JSON::Infer",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Infer": "lib/JSON/Infer.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Infer-0.1.0.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/JSON-Infer/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "irc": "irc:// irc.freenode.net/#raku",
+    "source": "https://github.com/jonathanstowe/JSON-Infer.git"
+  },
+  "tags": [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Test"
+  ],
+  "version": "0.1.0"
 }
 ,
 {
@@ -92777,6 +92788,51 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Interface to Adobe Font Metrics files",
+  "license": "Artistic-2.0",
+  "name": "Font::AFM",
+  "perl": "6",
+  "provides": {
+    "Font::AFM": "lib/Font/AFM.rakumod",
+    "Font::Metrics::courier": "lib/Font/Metrics/courier.rakumod",
+    "Font::Metrics::courier-bold": "lib/Font/Metrics/courier-bold.rakumod",
+    "Font::Metrics::courier-boldoblique": "lib/Font/Metrics/courier-boldoblique.rakumod",
+    "Font::Metrics::courier-oblique": "lib/Font/Metrics/courier-oblique.rakumod",
+    "Font::Metrics::helvetica": "lib/Font/Metrics/helvetica.rakumod",
+    "Font::Metrics::helvetica-bold": "lib/Font/Metrics/helvetica-bold.rakumod",
+    "Font::Metrics::helvetica-boldoblique": "lib/Font/Metrics/helvetica-boldoblique.rakumod",
+    "Font::Metrics::helvetica-oblique": "lib/Font/Metrics/helvetica-oblique.rakumod",
+    "Font::Metrics::symbol": "lib/Font/Metrics/symbol.rakumod",
+    "Font::Metrics::times-bold": "lib/Font/Metrics/times-bold.rakumod",
+    "Font::Metrics::times-bolditalic": "lib/Font/Metrics/times-bolditalic.rakumod",
+    "Font::Metrics::times-italic": "lib/Font/Metrics/times-italic.rakumod",
+    "Font::Metrics::times-roman": "lib/Font/Metrics/times-roman.rakumod",
+    "Font::Metrics::zapfdingbats": "lib/Font/Metrics/zapfdingbats.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-AFM-1.24.4.tar.gz",
+  "tags": [
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.24.4"
+}
+,
+{
   "auth": "github:pdf-raku",
   "authors": [
     "David Warring"
@@ -93194,6 +93250,50 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "github:pdf-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
+    "Cairo:ver<0.2.7+>",
+    "Font::FreeType:ver<0.3.7+>",
+    "Method::Also"
+  ],
+  "description": "binds to the HarfBuzz font shaping library",
+  "license": "Artistic-2.0",
+  "name": "HarfBuzz",
+  "perl": "6.d",
+  "provides": {
+    "HarfBuzz": "lib/HarfBuzz.rakumod",
+    "HarfBuzz::Blob": "lib/HarfBuzz/Blob.rakumod",
+    "HarfBuzz::Buffer": "lib/HarfBuzz/Buffer.rakumod",
+    "HarfBuzz::Face": "lib/HarfBuzz/Face.rakumod",
+    "HarfBuzz::Feature": "lib/HarfBuzz/Feature.rakumod",
+    "HarfBuzz::Font": "lib/HarfBuzz/Font.rakumod",
+    "HarfBuzz::Font::FreeType": "lib/HarfBuzz/Font/FreeType.rakumod",
+    "HarfBuzz::Glyph": "lib/HarfBuzz/Glyph.rakumod",
+    "HarfBuzz::Raw": "lib/HarfBuzz/Raw.rakumod",
+    "HarfBuzz::Raw::Defs": "lib/HarfBuzz/Raw/Defs.rakumod",
+    "HarfBuzz::Shaper": "lib/HarfBuzz/Shaper.rakumod"
+  },
+  "raku": "6",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-0.0.3.tar.gz",
+  "tags": [
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
