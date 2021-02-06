@@ -26508,6 +26508,37 @@
 }
 ,
 {
+  "api": "2",
+  "auth": "github:frithnanth",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "description": "Interface to libfftw3",
+  "license": "Artistic-2.0",
+  "name": "Math::FFT::Libfftw3",
+  "perl": "6",
+  "provides": {
+    "Math::FFT::Libfftw3::C2C": "lib/Math/FFT/Libfftw3/C2C.pm6",
+    "Math::FFT::Libfftw3::Common": "lib/Math/FFT/Libfftw3/Common.pm6",
+    "Math::FFT::Libfftw3::Constants": "lib/Math/FFT/Libfftw3/Constants.pm6",
+    "Math::FFT::Libfftw3::Exception": "lib/Math/FFT/Libfftw3/Exception.pm6",
+    "Math::FFT::Libfftw3::R2C": "lib/Math/FFT/Libfftw3/R2C.pm6",
+    "Math::FFT::Libfftw3::R2R": "lib/Math/FFT/Libfftw3/R2R.pm6",
+    "Math::FFT::Libfftw3::Raw": "lib/Math/FFT/Libfftw3/Raw.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-FFT-Libfftw3-0.3.4.tar.gz",
+  "tags": [
+    "math",
+    "fft",
+    "nativecall"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.3.3"
+}
+,
+{
   "auth": "cpan:FRITH",
   "authors": [
     "Fernando Santagata"
@@ -47947,6 +47978,44 @@
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "JSON::Class:ver<0.0.16+>",
+        "Lumberjack:ver<0.1.1+>"
+      ]
+    }
+  },
+  "description": "Simple Lumberjack configuration through JSON",
+  "license": "Artistic-2.0",
+  "meta-version": "2",
+  "name": "Lumberjack::Config::JSON",
+  "provides": {
+    "Lumberjack::Config::JSON": "lib/Lumberjack/Config/JSON.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-Config-JSON-0.0.1.tar.gz",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Lumberjack-Config-JSON.git"
+  },
+  "tags": [
+    "logging",
+    "configuration",
+    "JSON"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
   "build-depends": [
     
   ],
@@ -54996,6 +55065,52 @@
     
   ],
   "depends": [
+    "Gnome::N"
+  ],
+  "description": "Raku - Gnome Glib Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Glib",
+  "perl": "6.d",
+  "provides": {
+    "Gnome::Glib::Error": "lib/Gnome/Glib/Error.pm6",
+    "Gnome::Glib::List": "lib/Gnome/Glib/List.pm6",
+    "Gnome::Glib::Main": "lib/Gnome/Glib/Main.pm6",
+    "Gnome::Glib::N-GVariant": "lib/Gnome/Glib/N-GVariant.pm6",
+    "Gnome::Glib::N-GVariantType": "lib/Gnome/Glib/N-GVariantType.pm6",
+    "Gnome::Glib::Quark": "lib/Gnome/Glib/Quark.pm6",
+    "Gnome::Glib::SList": "lib/Gnome/Glib/SList.pm6",
+    "Gnome::Glib::Variant": "lib/Gnome/Glib/Variant.pm6",
+    "Gnome::Glib::VariantType": "lib/Gnome/Glib/VariantType.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-glib-0.18.0.tar.gz",
+  "tags": [
+    "gnome",
+    "glib"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.18.0",
+  "x": {
+    "Gnome::Glib::N-GVariantBuilder": "lib/Gnome/Glib/N-GVariantBuilder.pm6",
+    "Gnome::Glib::N-GVariantIter": "lib/Gnome/Glib/N-GVariantIter.pm6",
+    "Gnome::Glib::OptionContext": "lib/Gnome/Glib/OptionContext.pm6",
+    "Gnome::Glib::VariantBuilder": "lib/Gnome/Glib/VariantBuilder.pm6",
+    "Gnome::Glib::VariantIter": "lib/Gnome/Glib/VariantIter.pm6"
+  }
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Gnome::N",
     "Gnome::Glib"
   ],
@@ -56107,6 +56222,40 @@
     
   ],
   "version": "0.18.6"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku - Gnome native interface support",
+  "license": "Artistic-2.0",
+  "name": "Gnome::N",
+  "perl": "6",
+  "provides": {
+    "Gnome::N::GlibToRakuTypes": "lib/Gnome/N/GlibToRakuTypes.pm6",
+    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
+    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
+    "Gnome::N::TopLevelClassSupport": "lib/Gnome/N/TopLevelClassSupport.pm6",
+    "Gnome::N::X": "lib/Gnome/N/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-native-0.18.7.tar.gz",
+  "tags": [
+    "gnome"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.18.7"
 }
 ,
 {
