@@ -47922,6 +47922,40 @@
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "depends": [
+    "JSON::Class:ver<0.0.16+>",
+    "Lumberjack:ver<0.1.1+>"
+  ],
+  "description": "Lumberjack::Message represented as JSON",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Lumberjack::Message::JSON",
+  "perl": "6.d",
+  "provides": {
+    "Lumberjack::Message::JSON": "lib/Lumberjack/Message/JSON.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-Message-JSON-0.0.2.tar.gz",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Lumberjack-Message-JSON.git"
+  },
+  "tags": [
+    "logger",
+    "JSON"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
   "build-depends": [
