@@ -47839,6 +47839,43 @@
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
+  "depends": [
+    "JSON::Class:ver<0.0.16+>",
+    "Lumberjack::Message::JSON:ver<0.0.2+>",
+    "EventSource::Server",
+    "Lumberjack:ver<0.1.1+>"
+  ],
+  "description": "A Lumberjack dispatcher that dispatches to server sent events for a web application",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Lumberjack::Dispatcher::EventSource",
+  "perl": "6.d",
+  "provides": {
+    "Lumberjack::Dispatcher::EventSource": "lib/Lumberjack/Dispatcher/EventSource.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-Dispatcher-EventSource-0.0.1.tar.gz",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Lumberjack-Dispatcher-EventSource.git"
+  },
+  "tags": [
+    "logger",
+    "dispatcher",
+    "eventsource"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
   "build-depends": [
     
   ],
