@@ -26415,6 +26415,39 @@
     
   ],
   "depends": [
+    "LibraryMake"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - complex numbers.",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Complex",
+  "perl": "6.c",
+  "provides": {
+    "Math::Libgsl::Complex": "lib/Math/Libgsl/Complex.rakumod",
+    "Math::Libgsl::Raw::Complex": "lib/Math/Libgsl/Raw/Complex.rakumod"
+  },
+  "resources": [
+    "libraries/gslhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Complex-0.0.4.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "An interface to libgsl, the Gnu Scientific Library - constants and exceptions.",
