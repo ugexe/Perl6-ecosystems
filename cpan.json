@@ -26550,6 +26550,41 @@
     
   ],
   "depends": [
+    "Math::Libgsl::Constants",
+    "Math::Libgsl::Complex",
+    "Math::Libgsl::Matrix"
+  ],
+  "description": "An interface to libgsl, the Gnu Scientific Library - Eigensystems",
+  "license": "Artistic-2.0",
+  "name": "Math::Libgsl::Eigensystem",
+  "perl": "6.d",
+  "provides": {
+    "Math::Libgsl::Eigensystem": "lib/Math/Libgsl/Eigensystem.rakumod",
+    "Math::Libgsl::Raw::Eigensystem": "lib/Math/Libgsl/Raw/Eigensystem.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Eigensystem-0.0.1.tar.gz",
+  "tags": [
+    "math",
+    "nativecall"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "An interface to libgsl, the Gnu Scientific Library - elementary functions.",
@@ -54663,6 +54698,46 @@
     
   ],
   "depends": [
+    "Gnome::N",
+    "Gnome::Glib",
+    "Gnome::GObject"
+  ],
+  "description": "Raku Gnome GIO api, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gio",
+  "perl": "6",
+  "provides": {
+    "Gnome::Gio::Action": "lib/Gnome/Gio/Action.pm6",
+    "Gnome::Gio::ActionMap": "lib/Gnome/Gio/ActionMap.pm6",
+    "Gnome::Gio::Application": "lib/Gnome/Gio/Application.pm6",
+    "Gnome::Gio::Enums": "lib/Gnome/Gio/Enums.pm6",
+    "Gnome::Gio::File": "lib/Gnome/Gio/File.pm6",
+    "Gnome::Gio::MenuModel": "lib/Gnome/Gio/MenuModel.pm6",
+    "Gnome::Gio::Resource": "lib/Gnome/Gio/Resource.pm6",
+    "Gnome::Gio::SimpleAction": "lib/Gnome/Gio/SimpleAction.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gio-0.5.3.tar.gz",
+  "tags": [
+    "gnome",
+    "gio"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.5.3"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "XML::Actions",
     "Gnome::Gtk3"
   ],
@@ -54930,6 +55005,52 @@
     "Gnome::Glib::N-GVariantBuilder": "lib/Gnome/Glib/N-GVariantBuilder.pm6",
     "Gnome::Glib::N-GVariantIter": "lib/Gnome/Glib/N-GVariantIter.pm6",
     "Gnome::Glib::OptionContext": "lib/Gnome/Glib/OptionContext.pm6",
+    "Gnome::Glib::VariantBuilder": "lib/Gnome/Glib/VariantBuilder.pm6",
+    "Gnome::Glib::VariantIter": "lib/Gnome/Glib/VariantIter.pm6"
+  }
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N"
+  ],
+  "description": "Raku - Gnome Glib Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Glib",
+  "perl": "6.d",
+  "provides": {
+    "Gnome::Glib::Error": "lib/Gnome/Glib/Error.pm6",
+    "Gnome::Glib::List": "lib/Gnome/Glib/List.pm6",
+    "Gnome::Glib::Main": "lib/Gnome/Glib/Main.pm6",
+    "Gnome::Glib::N-GVariant": "lib/Gnome/Glib/N-GVariant.pm6",
+    "Gnome::Glib::N-GVariantType": "lib/Gnome/Glib/N-GVariantType.pm6",
+    "Gnome::Glib::OptionContext": "lib/Gnome/Glib/OptionContext.pm6",
+    "Gnome::Glib::Quark": "lib/Gnome/Glib/Quark.pm6",
+    "Gnome::Glib::SList": "lib/Gnome/Glib/SList.pm6",
+    "Gnome::Glib::Variant": "lib/Gnome/Glib/Variant.pm6",
+    "Gnome::Glib::VariantType": "lib/Gnome/Glib/VariantType.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-glib-0.18.1.tar.gz",
+  "tags": [
+    "gnome",
+    "glib"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.18.1",
+  "x": {
+    "Gnome::Glib::N-GVariantBuilder": "lib/Gnome/Glib/N-GVariantBuilder.pm6",
+    "Gnome::Glib::N-GVariantIter": "lib/Gnome/Glib/N-GVariantIter.pm6",
     "Gnome::Glib::VariantBuilder": "lib/Gnome/Glib/VariantBuilder.pm6",
     "Gnome::Glib::VariantIter": "lib/Gnome/Glib/VariantIter.pm6"
   }
