@@ -2114,6 +2114,38 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
+    "Terminal::ANSI:ver<0.0.12>",
+    "Log::Async"
+  ],
+  "description": "A framework for building terminal interfaces",
+  "license": "MIT",
+  "name": "Terminal::UI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::UI": "lib/Terminal/UI.rakumod",
+    "Terminal::UI::Frame": "lib/Terminal/UI/Frame.rakumod",
+    "Terminal::UI::Input": "lib/Terminal/UI/Input.rakumod",
+    "Terminal::UI::Pane": "lib/Terminal/UI/Pane.rakumod",
+    "Terminal::UI::Screen": "lib/Terminal/UI/Screen.rakumod",
+    "Terminal::UI::Style": "lib/Terminal/UI/Style.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-UI-0.0.4.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "auth": "github:bduggan",
   "authors": [
     "Brian Duggan <bduggan@matatu.org>"
