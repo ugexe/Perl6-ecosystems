@@ -26755,41 +26755,6 @@
     
   ],
   "depends": [
-    "Math::Libgsl::Constants",
-    "Math::Libgsl::Complex",
-    "Math::Libgsl::Matrix"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - Eigensystems",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::Eigensystem",
-  "perl": "6.d",
-  "provides": {
-    "Math::Libgsl::Eigensystem": "lib/Math/Libgsl/Eigensystem.rakumod",
-    "Math::Libgsl::Raw::Eigensystem": "lib/Math/Libgsl/Raw/Eigensystem.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-Eigensystem-0.0.1.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     
   ],
   "description": "An interface to libgsl, the Gnu Scientific Library - elementary functions.",
