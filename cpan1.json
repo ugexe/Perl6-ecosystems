@@ -26293,6 +26293,33 @@
   "authors": [
     "Fernando Santagata"
   ],
+  "depends": [
+    "Archive::Libarchive::Raw",
+    "NativeHelpers::Blob"
+  ],
+  "description": "High-level bindings to libarchive",
+  "license": "Artistic-2.0",
+  "name": "Archive::Libarchive",
+  "perl": "6.c",
+  "provides": {
+    "Archive::Libarchive": "lib/Archive/Libarchive.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-0.0.15.tar.gz",
+  "tags": [
+    "archive",
+    "libarchive",
+    "compression"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.14"
+}
+,
+{
+  "authors": [
+    "Fernando Santagata"
+  ],
   "build-depends": [
     "HTTP::UserAgent"
   ],
@@ -95443,147 +95470,6 @@
     
   ],
   "version": "0.4.9"
-}
-,
-{
-  "api": "PDF-1.7",
-  "auth": "github:p6-pdf",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "PDF::Lite",
-    "PDF::Content",
-    "Font::FreeType:ver<0.2.1>",
-    "PDF",
-    "Native::Packing"
-  ],
-  "description": "Font loading and embedding for the PDF tool-chain",
-  "license": "Artistic-2.0",
-  "name": "PDF::Font::Loader",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Font::Loader": "lib/PDF/Font/Loader.pm",
-    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.pm",
-    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.pm",
-    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.pm",
-    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.pm",
-    "PDF::Font::Loader::Enc::Identity": "lib/PDF/Font/Loader/Enc/Identity.pm",
-    "PDF::Font::Loader::Enc::Identity-H": "lib/PDF/Font/Loader/Enc/Identity-H.pm",
-    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.pm",
-    "PDF::Font::Loader::FreeType": "lib/PDF/Font/Loader/FreeType.pm",
-    "PDF::Font::Loader::Type1": "lib/PDF/Font/Loader/Type1.pm",
-    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.pm"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.2.8.tar.gz",
-  "tags": [
-    "pdf",
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.2.8"
-}
-,
-{
-  "api": "PDF-1.7",
-  "auth": "github:p6-pdf",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "PDF::Lite",
-    "PDF::Content",
-    "Font::FreeType:ver<0.2.1>",
-    "PDF",
-    "Native::Packing"
-  ],
-  "description": "Font loading and embedding for the PDF tool-chain",
-  "license": "Artistic-2.0",
-  "name": "PDF::Font::Loader",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Font::Loader": "lib/PDF/Font/Loader.rakumod",
-    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.rakumod",
-    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.rakumod",
-    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.rakumod",
-    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.rakumod",
-    "PDF::Font::Loader::Enc::Identity": "lib/PDF/Font/Loader/Enc/Identity.rakumod",
-    "PDF::Font::Loader::Enc::Identity-H": "lib/PDF/Font/Loader/Enc/Identity-H.rakumod",
-    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.rakumod",
-    "PDF::Font::Loader::FreeType": "lib/PDF/Font/Loader/FreeType.rakumod",
-    "PDF::Font::Loader::Type1": "lib/PDF/Font/Loader/Type1.rakumod",
-    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.2.9.tar.gz",
-  "tags": [
-    "pdf",
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.2.9"
-}
-,
-{
-  "api": "PDF-1.7",
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "PDF::Lite",
-    "PDF::Content",
-    "Font::FreeType:ver<0.3.0+>",
-    "PDF",
-    "Native::Packing"
-  ],
-  "description": "Font loading and embedding for the PDF tool-chain",
-  "license": "Artistic-2.0",
-  "name": "PDF::Font::Loader",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Font::Loader": "lib/PDF/Font/Loader.rakumod",
-    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.rakumod",
-    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.rakumod",
-    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.rakumod",
-    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.rakumod",
-    "PDF::Font::Loader::Enc::Identity": "lib/PDF/Font/Loader/Enc/Identity.rakumod",
-    "PDF::Font::Loader::Enc::Identity-H": "lib/PDF/Font/Loader/Enc/Identity-H.rakumod",
-    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.rakumod",
-    "PDF::Font::Loader::FreeType": "lib/PDF/Font/Loader/FreeType.rakumod",
-    "PDF::Font::Loader::Type1": "lib/PDF/Font/Loader/Type1.rakumod",
-    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.3.0.tar.gz",
-  "tags": [
-    "pdf",
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.3.0"
 }
 ,
 {
