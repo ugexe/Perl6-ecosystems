@@ -25964,6 +25964,55 @@
   "authors": [
     "Stefan Fischer <sfischer13@ymail.com>"
   ],
+  "depends": {
+    "build": {
+      "requires": [
+        
+      ]
+    },
+    "runtime": {
+      "requires": [
+        "Pod::To::Text"
+      ]
+    },
+    "test": {
+      "recommends": [
+        "Test::META"
+      ],
+      "requires": [
+        "Test"
+      ]
+    }
+  },
+  "description": "Check whether a string is a pangram",
+  "license": "MIT",
+  "name": "Lingua::Pangram",
+  "perl": "6.c",
+  "production": true,
+  "provides": {
+    "Lingua::Pangram": "lib/Lingua/Pangram.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FI/FISCHER/Perl6/Lingua-Pangram-0.1.0.tar.gz",
+  "support": {
+    "email": "sfischer13@ymail.com",
+    "source": "git://github.com/sfischer13/perl6-Lingua-Pangram.git"
+  },
+  "tags": [
+    "pangram",
+    "perl6"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "api": 1,
+  "auth": "github:sfischer13",
+  "authors": [
+    "Stefan Fischer <sfischer13@ymail.com>"
+  ],
   "depends": [
     "Pod::To::Text"
   ],
