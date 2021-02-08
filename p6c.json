@@ -8523,9 +8523,9 @@
     
   ],
   "depends": [
-    "PrettyDump"
+    
   ],
-  "description": "Get and write config files that are Raku structures",
+  "description": "Get config files that are Raku structures",
   "license": "Artistic-2.0",
   "name": "RakuConfig",
   "perl": "6.*",
@@ -8543,12 +8543,9 @@
     "source": "https://github.com/finanalyst/raku-config.git"
   },
   "test-depends": [
-    "Test",
-    "Test::META",
-    "Test::Deeply::Relaxed",
-    "File::Directory::Tree"
+    
   ],
-  "version": "0.2"
+  "version": "0.3"
 }
 ,
 {
