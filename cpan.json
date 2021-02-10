@@ -55101,6 +55101,52 @@
     
   ],
   "depends": [
+    "Gnome::N"
+  ],
+  "description": "Raku - Gnome Glib Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Glib",
+  "perl": "6.d",
+  "provides": {
+    "Gnome::Glib::Error": "lib/Gnome/Glib/Error.pm6",
+    "Gnome::Glib::List": "lib/Gnome/Glib/List.pm6",
+    "Gnome::Glib::Main": "lib/Gnome/Glib/Main.pm6",
+    "Gnome::Glib::N-GVariant": "lib/Gnome/Glib/N-GVariant.pm6",
+    "Gnome::Glib::N-GVariantType": "lib/Gnome/Glib/N-GVariantType.pm6",
+    "Gnome::Glib::OptionContext": "lib/Gnome/Glib/OptionContext.pm6",
+    "Gnome::Glib::Quark": "lib/Gnome/Glib/Quark.pm6",
+    "Gnome::Glib::SList": "lib/Gnome/Glib/SList.pm6",
+    "Gnome::Glib::Variant": "lib/Gnome/Glib/Variant.pm6",
+    "Gnome::Glib::VariantType": "lib/Gnome/Glib/VariantType.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-glib-0.18.2.tar.gz",
+  "tags": [
+    "gnome",
+    "glib"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.18.2",
+  "x": {
+    "Gnome::Glib::N-GVariantBuilder": "lib/Gnome/Glib/N-GVariantBuilder.pm6",
+    "Gnome::Glib::N-GVariantIter": "lib/Gnome/Glib/N-GVariantIter.pm6",
+    "Gnome::Glib::VariantBuilder": "lib/Gnome/Glib/VariantBuilder.pm6",
+    "Gnome::Glib::VariantIter": "lib/Gnome/Glib/VariantIter.pm6"
+  }
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Gnome::N",
     "Gnome::Glib"
   ],
