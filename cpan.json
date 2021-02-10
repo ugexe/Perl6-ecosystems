@@ -94354,6 +94354,49 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Pod::To::Markdown"
+  ],
+  "depends": [
+    "LibXML:ver<0.5.0+>",
+    "Method::Also"
+  ],
+  "description": "Interface to the GNOME libxslt library",
+  "license": "Artistic-2.0",
+  "name": "LibXSLT",
+  "perl": "6",
+  "provides": {
+    "LibXSLT": "lib/LibXSLT.rakumod",
+    "LibXSLT::Config": "lib/LibXSLT/Config.rakumod",
+    "LibXSLT::Document": "lib/LibXSLT/Document.rakumod",
+    "LibXSLT::Enums": "lib/LibXSLT/Enums.rakumod",
+    "LibXSLT::ExtensionContext": "lib/LibXSLT/ExtensionContext.rakumod",
+    "LibXSLT::Raw": "lib/LibXSLT/Raw.rakumod",
+    "LibXSLT::Raw::Defs": "lib/LibXSLT/Raw/Defs.rakumod",
+    "LibXSLT::Security": "lib/LibXSLT/Security.rakumod",
+    "LibXSLT::Stylesheet": "lib/LibXSLT/Stylesheet.rakumod",
+    "LibXSLT::TransformContext": "lib/LibXSLT/TransformContext.rakumod"
+  },
+  "resources": [
+    "libraries/xslt6"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/LibXSLT-0.1.1.tar.gz",
+  "tags": [
+    "xml",
+    "xslt"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
   "auth": "github:pdf-raku",
   "authors": [
     "David Warring"
