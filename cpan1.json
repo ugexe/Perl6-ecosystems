@@ -26252,6 +26252,44 @@
 }
 ,
 {
+  "auth": "cpan:fooist",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>",
+    "Daniel Lathrop <dwl@foo.ist>"
+  ],
+  "build-depends": [
+    "LibraryCheck"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Perl 6 interface to GNU Readline, the CLI-based line reading library",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Readline",
+  "perl": "6.c",
+  "provides": {
+    "Readline": "lib/Readline.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FO/FOOIST/Perl6/perl6-readline.0.1.6.tar.gz",
+  "support": {
+    "source": "https://github.com/fooist/perl6-readline"
+  },
+  "tags": [
+    "terminal",
+    "readline",
+    "CLI"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.6"
+}
+,
+{
   "authors": [
     "Fernando Santagata"
   ],
