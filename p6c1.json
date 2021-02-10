@@ -2353,6 +2353,40 @@
 }
 ,
 {
+  "auth": "git:alabamenhu",
+  "authors": [
+    "Matthew Stephen Stuckwisch"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Intl::CLDR:ver<0.5+>",
+    "Intl::UserLanguage",
+    "DateTime::Timezones:ver<0.3.5+>"
+  ],
+  "description": "A module to format time in a localized manner",
+  "license": "Artistic-2.0",
+  "name": "Intl::Format::DateTime",
+  "perl": "6.*",
+  "provides": {
+    "Formatters": "lib/Formatters.pm6",
+    "Intl::Format::DateTime": "lib/Intl/Format/DateTime.pm6",
+    "Intl::Format::DateTime::Constants": "lib/Intl/Format/DateTime::Constants.rakumod",
+    "Intl::Format::DateTime::FieldMeta": "lib/Intl/Format/DateTime::FieldMeta.rakumod",
+    "Intl::Format::DateTime::Formatters": "lib/Intl/Format/DateTime::Formatters.pm6"
+  },
+  "resources": [
+    "metazones.data"
+  ],
+  "source-url": "git://github.com/alabamenhu/IntlFormatDateTime.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.2.0"
+}
+,
+{
   "auth": "github:alabamenhu",
   "authors": [
     "Matthew Stephen Stuckwisch"
@@ -2417,40 +2451,6 @@
     "Test"
   ],
   "version": "0.1.1"
-}
-,
-{
-  "auth": "git:alabamenhu",
-  "authors": [
-    "Matthew Stephen Stuckwisch"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Intl::CLDR:ver<0.5+>",
-    "Intl::UserLanguage",
-    "DateTime::Timezones:ver<0.3.5+>"
-  ],
-  "description": "A module to format time in a localized manner",
-  "license": "Artistic-2.0",
-  "name": "Intl::Format::DateTime",
-  "perl": "6.*",
-  "provides": {
-    "Formatters": "lib/Formatters.pm6",
-    "Intl::Format::DateTime": "lib/Intl/Format/DateTime.pm6",
-    "Intl::Format::DateTime::Constants": "lib/Intl/Format/DateTime::Constants.rakumod",
-    "Intl::Format::DateTime::FieldMeta": "lib/Intl/Format/DateTime::FieldMeta.rakumod",
-    "Intl::Format::DateTime::Formatters": "lib/Intl/Format/DateTime::Formatters.pm6"
-  },
-  "resources": [
-    "metazones.data"
-  ],
-  "source-url": "git://github.com/alabamenhu/IntlFormatDateTime.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.2.0"
 }
 ,
 {
@@ -8387,6 +8387,44 @@
 }
 ,
 {
+  "auth": "github:finanalyst",
+  "authors": [
+    "Richard Hainsworth, aka finanalyst"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Raku::Pod::Render",
+    "Pod::From::Cache",
+    "Terminal::Spinners",
+    "RakuConfig"
+  ],
+  "description": "Collects a content in Pod6 (aka Rakudoc) files and creates output based on configuration",
+  "license": "Artistic-2.0",
+  "name": "Collection",
+  "perl": "6.*",
+  "provides": {
+    "Collection": "lib/Collection.pm6",
+    "X::Collection": "lib/Collection/Exceptions.pm6"
+  },
+  "resources": [
+    "min-templates.raku"
+  ],
+  "source-type": "git",
+  "source-url": "git://github.com/finanalyst/content-collection.git",
+  "support": {
+    "bugtracker": "https://github.com/finanalyst/content-collection/issues",
+    "email": "richard@hainsworth.wales",
+    "source": "https://github.com/finanalyst/content-collection.git"
+  },
+  "test-depends": [
+    
+  ],
+  "version": "0.1.7"
+}
+,
+{
   "authors": [
     "Richard Hainsworth aka finanalyst"
   ],
@@ -8494,45 +8532,6 @@
     
   ],
   "version": "1.0"
-}
-,
-{
-  "author": "Richard Hainsworth",
-  "depends": [
-    "File::Directory::Tree",
-    "JSON::Fast",
-    "Pod::To::Cached",
-    "LibCurl::Easy",
-    "URI",
-    "Template::Mustache"
-  ],
-  "description": "Render pod files from a cache.",
-  "license": "Artistic-2.0",
-  "name": "PodCache::Module",
-  "perl": "6.*",
-  "provides": {
-    "Pod::To::HTML2": "lib/PodCache/HTML2.pm6",
-    "PodCache::Engine": "lib/PodCache/Engine.pm6",
-    "PodCache::Processed": "lib/PodCache/Processed.pm6",
-    "PodCache::Render": "lib/PodCache/Render.pm6"
-  },
-  "resources": [
-    "assets/pod.css"
-  ],
-  "source-type": "git",
-  "source-url": "git://github.com/finanalyst/pod-render.git",
-  "support": {
-    "source": "https://github.com/finanalyst/pod-render"
-  },
-  "test-depends": [
-    "Test",
-    "Test::Output",
-    "Pod::To::Cached",
-    "File::Directory::Tree",
-    "YAMLish",
-    "Data::Dump"
-  ],
-  "version": "0.3.1"
 }
 ,
 {
@@ -8692,7 +8691,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "3.6.9"
+  "version": "3.6.10"
 }
 ,
 {
@@ -21450,30 +21449,6 @@
 {
   "auth": "github:shuppet",
   "authors": [
-    "Alastair 'altreus' Douglas <altreus@altre.us>",
-    "Kane 'kawaii' Valentine <kane@cute.im>"
-  ],
-  "description": "Raku module for parsing generic commands and arguments from a hash table.",
-  "license": "BSD-3-Clause",
-  "name": "Command::Despatch",
-  "perl": "6.d",
-  "provides": {
-    "Command::Despatch": "lib/Command/Despatch.rakumod",
-    "Command::Despatch::Command": "lib/Command/Despatch.rakumod",
-    "X::Command::Despatch::InvalidCommand": "lib/Command/Despatch.rakumod"
-  },
-  "repo-type": "git",
-  "source-url": "git://git@github.com/shuppet/raku-command-despatch.git",
-  "support": {
-    "bugtracker": "https://github.com/shuppet/raku-command-despatch/issues",
-    "source": "https://github.com/shuppet/raku-command-despatch.git"
-  },
-  "version": "0.2"
-}
-,
-{
-  "auth": "github:shuppet",
-  "authors": [
     "Kane 'kawaii' Valentine <kane@cute.im>"
   ],
   "description": "Perl 6 module for interacting with the Source RCON (remote console) protocol.",
@@ -21542,6 +21517,30 @@
     "Test::META"
   ],
   "version": "0.6"
+}
+,
+{
+  "auth": "github:shuppet",
+  "authors": [
+    "Alastair 'altreus' Douglas <altreus@altre.us>",
+    "Kane 'kawaii' Valentine <kane@cute.im>"
+  ],
+  "description": "Raku module for parsing generic commands and arguments from a hash table.",
+  "license": "BSD-3-Clause",
+  "name": "Command::Despatch",
+  "perl": "6.d",
+  "provides": {
+    "Command::Despatch": "lib/Command/Despatch.rakumod",
+    "Command::Despatch::Command": "lib/Command/Despatch.rakumod",
+    "X::Command::Despatch::InvalidCommand": "lib/Command/Despatch.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "git://git@github.com/shuppet/raku-command-despatch.git",
+  "support": {
+    "bugtracker": "https://github.com/shuppet/raku-command-despatch/issues",
+    "source": "https://github.com/shuppet/raku-command-despatch.git"
+  },
+  "version": "0.2"
 }
 ,
 {
