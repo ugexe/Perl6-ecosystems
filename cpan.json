@@ -2192,6 +2192,39 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
+    "Terminal::ANSI:ver<0.0.12>",
+    "Log::Async"
+  ],
+  "description": "A framework for building terminal interfaces",
+  "license": "MIT",
+  "name": "Terminal::UI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::UI": "lib/Terminal/UI.rakumod",
+    "Terminal::UI::Frame": "lib/Terminal/UI/Frame.rakumod",
+    "Terminal::UI::Input": "lib/Terminal/UI/Input.rakumod",
+    "Terminal::UI::Pane": "lib/Terminal/UI/Pane.rakumod",
+    "Terminal::UI::Screen": "lib/Terminal/UI/Screen.rakumod",
+    "Terminal::UI::Style": "lib/Terminal/UI/Style.rakumod",
+    "Terminal::UI::Utils": "lib/Terminal/UI/Utils.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-UI-0.0.5.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.5"
+}
+,
+{
   "auth": "github:bduggan",
   "authors": [
     "Brian Duggan <bduggan@matatu.org>"
@@ -51356,6 +51389,62 @@
     
   ],
   "version": "1.0.0"
+}
+,
+{
+  "api": "2",
+  "auth": "github:Kaiepi",
+  "authors": [
+    "Ben Davies"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Kind"
+  ],
+  "description": "Automagic tracing",
+  "license": "Artistic-2.0",
+  "name": "Trait::Traced",
+  "perl": "6",
+  "provides": {
+    "MetamodelX::Traced::AdHocMethod": "lib/MetamodelX/Traced/AdHocMethod.pm6",
+    "MetamodelX::Traced::AttributeContainer": "lib/MetamodelX/Traced/AttributeContainer.pm6",
+    "MetamodelX::Traced::MetaMethodContainer": "lib/MetamodelX/Traced/MetaMethodContainer.pm6",
+    "MetamodelX::Traced::MethodContainer": "lib/MetamodelX/Traced/MethodContainer.pm6",
+    "MetamodelX::Traced::MultiMethodContainer": "lib/MetamodelX/Traced/MultiMethodContainer.pm6",
+    "MetamodelX::Traced::PrivateMethodContainer": "lib/MetamodelX/Traced/PrivateMethodContainer.pm6",
+    "Traced": "lib/Traced.pm6",
+    "Traced::Attribute": "lib/Traced/Attribute.pm6",
+    "Traced::Routine": "lib/Traced/Routine.pm6",
+    "Traced::Stash": "lib/Traced/Stash.pm6",
+    "Traced::Variable": "lib/Traced/Variable.pm6",
+    "Tracee": "lib/Tracee.pm6",
+    "Tracee::Bitty": "lib/Tracee/Bitty.pm6",
+    "Tracee::Pretty": "lib/Tracee/Pretty.pm6",
+    "Tracee::Standard": "lib/Tracee/Standard.pm6",
+    "Tracer": "lib/Tracer.pm6",
+    "Tracer::Default": "lib/Tracer/Default.pm6",
+    "Tracer::File": "lib/Tracer/File.pm6",
+    "Tracer::Stream": "lib/Tracer/Stream.pm6",
+    "Trait::Traced": "lib/Trait/Traced.pm6",
+    "Trait::Traced::Utils": "lib/Trait/Traced/Utils.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Trait-Traced-1.0.1.tar.gz",
+  "tags": [
+    "trace",
+    "traced",
+    "tracee",
+    "tracer",
+    "metamodel"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.1"
 }
 ,
 {
