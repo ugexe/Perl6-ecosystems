@@ -26395,6 +26395,39 @@
     
   ],
   "depends": [
+    "Desktop::Notify"
+  ],
+  "description": "Show the progress of processing in a notification popup",
+  "license": "Artistic-2.0",
+  "name": "Desktop::Notify::Progress",
+  "perl": "6.c",
+  "provides": {
+    "Desktop::Notify::Progress": "lib/Desktop/Notify/Progress.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-Progress-0.0.2.tar.gz",
+  "tags": [
+    "desktop",
+    "notification",
+    "logger"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Use libextractor to read file metadata",
