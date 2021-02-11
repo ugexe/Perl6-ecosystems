@@ -1589,6 +1589,52 @@
     
   ],
   "depends": [
+    "UUID",
+    "Log::Async",
+    "Net::ZMQ:ver<0.8>",
+    "JSON::Tiny",
+    "Digest::HMAC",
+    "Digest::SHA256::Native"
+  ],
+  "description": "Raku Kernel for Jupyter Notebooks",
+  "license": "Artistic-2.0",
+  "name": "Jupyter::Kernel",
+  "perl": "6.*",
+  "provides": {
+    "Jupyter::Kernel": "lib/Jupyter/Kernel.rakumod",
+    "Jupyter::Kernel::Comm": "lib/Jupyter/Kernel/Comm.rakumod",
+    "Jupyter::Kernel::Comms": "lib/Jupyter/Kernel/Comms.rakumod",
+    "Jupyter::Kernel::Handler": "lib/Jupyter/Kernel/Handler.rakumod",
+    "Jupyter::Kernel::History": "lib/Jupyter/Kernel/History.rakumod",
+    "Jupyter::Kernel::Magics": "lib/Jupyter/Kernel/Magics.rakumod",
+    "Jupyter::Kernel::Paths": "lib/Jupyter/Kernel/Paths.rakumod",
+    "Jupyter::Kernel::Response": "lib/Jupyter/Kernel/Response.rakumod",
+    "Jupyter::Kernel::Sandbox": "lib/Jupyter/Kernel/Sandbox.rakumod",
+    "Jupyter::Kernel::Sandbox::Autocomplete": "lib/Jupyter/Kernel/Sandbox/Autocomplete.rakumod",
+    "Jupyter::Kernel::Service": "lib/Jupyter/Kernel/Service.rakumod"
+  },
+  "resources": [
+    "logo-32x32.png",
+    "logo-64x64.png"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Jupyter-Kernel-0.0.18.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.18"
+}
+,
+{
+  "authors": [
+    "Brian Duggan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "HTTP::UserAgent",
     "IO::Socket::SSL",
     "JSON::Fast"
@@ -56614,6 +56660,40 @@
     
   ],
   "version": "0.18.6"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku - Gnome native interface support",
+  "license": "Artistic-2.0",
+  "name": "Gnome::N",
+  "perl": "6",
+  "provides": {
+    "Gnome::N::GlibToRakuTypes": "lib/Gnome/N/GlibToRakuTypes.pm6",
+    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
+    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
+    "Gnome::N::TopLevelClassSupport": "lib/Gnome/N/TopLevelClassSupport.pm6",
+    "Gnome::N::X": "lib/Gnome/N/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-native-0.18.7.1.tar.gz",
+  "tags": [
+    "gnome"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.18.7.1"
 }
 ,
 {
