@@ -56861,6 +56861,40 @@
 ,
 {
   "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku - Gnome native interface support",
+  "license": "Artistic-2.0",
+  "name": "Gnome::N",
+  "perl": "6",
+  "provides": {
+    "Gnome::N::GlibToRakuTypes": "lib/Gnome/N/GlibToRakuTypes.pm6",
+    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
+    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
+    "Gnome::N::TopLevelClassSupport": "lib/Gnome/N/TopLevelClassSupport.pm6",
+    "Gnome::N::X": "lib/Gnome/N/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-native-0.18.8.tar.gz",
+  "tags": [
+    "gnome"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.18.8"
+}
+,
+{
+  "authors": [
     "Marcel Timmerman",
     "Paweł Pabian"
   ],
