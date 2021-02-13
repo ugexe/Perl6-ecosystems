@@ -740,6 +740,35 @@
 }
 ,
 {
+  "auth": "cpan:ARNE",
+  "authors": [
+    "Arne Sommer"
+  ],
+  "depends": [
+    "Gnome::Gdk3",
+    "Termbox",
+    "Pod::To::Text",
+    "File::Temp"
+  ],
+  "description": "Maze construction and traversability game",
+  "license": "Artistic-2.0",
+  "name": "Game::Amazing",
+  "perl": "6.d",
+  "provides": {
+    "Game::Amazing": "lib/Game/Amazing.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AR/ARNE/Perl6/Game-Amazing-0.9.05.tar.gz",
+  "tags": [
+    "game",
+    "maze"
+  ],
+  "version": "0.9.05"
+}
+,
+{
   "authors": [
     "Arne Sommer"
   ],
@@ -28094,6 +28123,37 @@
     "Test::META"
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:GARLANDG",
+  "authors": [
+    "Travis Gibson"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "An implementation of the iovec struct",
+  "license": "Artistic-2.0",
+  "name": "NativeHelpers::iovec",
+  "perl": "6.c",
+  "provides": {
+    "NativeHelpers::iovec": "lib/NativeHelpers/iovec.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/NativeHelpers-iovec-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
 }
 ,
 {
