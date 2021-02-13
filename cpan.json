@@ -48397,6 +48397,46 @@
     
   ],
   "depends": [
+    "NativeHelpers::Array"
+  ],
+  "description": "binding for POSIX message queues",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "MQ::Posix",
+  "perl": "6.*",
+  "provides": {
+    "MQ::Posix": "lib/MQ/Posix.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/MQ-Posix-0.0.3.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/MQ-Posix/issues",
+    "source": "https://github.com/jonathanstowe/MQ-Posix.git"
+  },
+  "tags": [
+    "posix",
+    "IPC",
+    "MQ"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Make a supply of the results of Promises",
