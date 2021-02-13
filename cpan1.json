@@ -44683,6 +44683,49 @@
 }
 ,
 {
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Low-level Scheduling thingy for Raku",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Chronic",
+  "perl": "6.*",
+  "provides": {
+    "Chronic": "lib/Chronic.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Chronic-0.0.9.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Chronic/issues",
+    "irc": "irc:// irc.freenode.net/#raku",
+    "source": "https://github.com/jonathanstowe/Chronic.git"
+  },
+  "tags": [
+    "util",
+    "schedule",
+    "cron",
+    "event"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.9"
+}
+,
+{
   "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
@@ -48741,6 +48784,47 @@
     "Test"
   ],
   "version": "0.0.4"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Make a supply of the results of Promises",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Manifesto",
+  "perl": "6.*",
+  "provides": {
+    "Manifesto": "lib/Manifesto.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Manifesto-0.0.5.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Manifesto/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Manifesto.git"
+  },
+  "tags": [
+    "async",
+    "util",
+    "promise"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.5"
 }
 ,
 {
