@@ -84066,6 +84066,36 @@
 }
 ,
 {
+  "authors": [
+    "titsuki"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Term::termios"
+  ],
+  "description": "A getpass implementation for Raku",
+  "license": "Artistic-2.0",
+  "name": "Terminal::Getpass",
+  "perl": "6.c",
+  "provides": {
+    "Terminal::Getpass": "lib/Terminal/Getpass.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Terminal-Getpass-0.0.9.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
+}
+,
+{
   "auth": [
     "github:titsuki"
   ],
