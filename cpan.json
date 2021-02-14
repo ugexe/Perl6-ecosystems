@@ -26483,45 +26483,6 @@
   ],
   "depends": [
     "LibraryMake",
-    "Math::Libgsl::Constants",
-    "Math::Libgsl::Complex",
-    "Math::Libgsl::Matrix"
-  ],
-  "description": "An interface to libgsl, the Gnu Scientific Library - BLAS (Basic Linear Algebra Subprograms).",
-  "license": "Artistic-2.0",
-  "name": "Math::Libgsl::BLAS",
-  "perl": "6.c",
-  "provides": {
-    "Math::Libgsl::BLAS": "lib/Math/Libgsl/BLAS.rakumod",
-    "Math::Libgsl::BLAS::Complex32": "lib/Math/Libgsl/BLAS/Complex32.rakumod",
-    "Math::Libgsl::BLAS::Complex64": "lib/Math/Libgsl/BLAS/Complex64.rakumod",
-    "Math::Libgsl::BLAS::Num32": "lib/Math/Libgsl/BLAS/Num32.rakumod",
-    "Math::Libgsl::Raw::BLAS": "lib/Math/Libgsl/Raw/BLAS.rakumod"
-  },
-  "resources": [
-    "libraries/gslhelper"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Math-Libgsl-BLAS-0.0.3.tar.gz",
-  "tags": [
-    "math",
-    "nativecall"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "LibraryMake",
     "Math::Libgsl::Constants"
   ],
   "description": "An interface to libgsl, the Gnu Scientific Library - Combinations.",
@@ -76904,6 +76865,41 @@
     
   ],
   "version": "0.2.0"
+}
+,
+{
+  "auth": "cpan:SKAJI",
+  "authors": [
+    "Shoichi Kaji"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Temp",
+    "curl:from<bin>"
+  ],
+  "description": "Raku port of HTTP::Tinyish",
+  "license": "Artistic-2.0",
+  "name": "HTTP::Tinyish",
+  "perl": "6.d",
+  "provides": {
+    "HTTP::Tinyish": "lib/HTTP/Tinyish.rakumod",
+    "HTTP::Tinyish::Base": "lib/HTTP/Tinyish/Base.rakumod",
+    "HTTP::Tinyish::Curl": "lib/HTTP/Tinyish/Curl.rakumod",
+    "HTTP::Tinyish::FileTempFactory": "lib/HTTP/Tinyish/FileTempFactory.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SK/SKAJI/Perl6/HTTP-Tinyish-0.3.0.tar.gz",
+  "tags": [
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.0"
 }
 ,
 {
