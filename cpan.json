@@ -26634,6 +26634,44 @@
 }
 ,
 {
+  "auth": "cpan:fooist",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>",
+    "Daniel Lathrop <dwl@foo.ist>"
+  ],
+  "build-depends": [
+    "LibraryCheck"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Perl 6 interface to GNU Readline, the CLI-based line reading library",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Readline",
+  "perl": "6.c",
+  "provides": {
+    "Readline": "lib/Readline.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FO/FOOIST/Perl6/perl6-readline.0.1.6.tar.gz",
+  "support": {
+    "source": "https://github.com/fooist/perl6-readline"
+  },
+  "tags": [
+    "terminal",
+    "readline",
+    "CLI"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.6"
+}
+,
+{
   "authors": [
     "Fernando Santagata"
   ],
@@ -26728,39 +26766,6 @@
     
   ],
   "version": "1.0.0"
-}
-,
-{
-  "auth": "cpan:FRITH",
-  "authors": [
-    "Fernando Santagata"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Desktop::Notify"
-  ],
-  "description": "Show the progress of processing in a notification popup",
-  "license": "Artistic-2.0",
-  "name": "Desktop::Notify::Progress",
-  "perl": "6.c",
-  "provides": {
-    "Desktop::Notify::Progress": "lib/Desktop/Notify/Progress.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-Progress-0.0.2.tar.gz",
-  "tags": [
-    "desktop",
-    "notification",
-    "logger"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
 }
 ,
 {
