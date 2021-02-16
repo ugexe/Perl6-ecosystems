@@ -26741,31 +26741,28 @@
     
   ],
   "depends": [
-    
+    "Desktop::Notify"
   ],
-  "description": "A simple interface to libnotify",
+  "description": "Show the progress of processing in a notification popup",
   "license": "Artistic-2.0",
-  "name": "Desktop::Notify",
+  "name": "Desktop::Notify::Progress",
   "perl": "6.c",
   "provides": {
-    "Desktop::Notify": "lib/Desktop/Notify.rakumod",
-    "Desktop::Notify::Raw": "lib/Desktop/Notify/Raw.rakumod",
-    "Desktop::Notify::Simple": "lib/Desktop/Notify/Simple.rakumod"
+    "Desktop::Notify::Progress": "lib/Desktop/Notify/Progress.rakumod"
   },
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-1.0.0.tar.gz",
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Desktop-Notify-Progress-0.0.2.tar.gz",
   "tags": [
     "desktop",
     "notification",
-    "libnotify",
-    "nativecall"
+    "logger"
   ],
   "test-depends": [
     
   ],
-  "version": "1.0.0"
+  "version": "0.0.2"
 }
 ,
 {
