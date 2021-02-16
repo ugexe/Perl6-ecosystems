@@ -44902,6 +44902,49 @@
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Which"
+  ],
+  "description": "Interact with the Liquidsoap command server",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Audio::Liquidsoap",
+  "perl": "6.*",
+  "provides": {
+    "Audio::Liquidsoap": "lib/Audio/Liquidsoap.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Liquidsoap-0.1.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Audio-Liquidsoap/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Audio-Liquidsoap.git"
+  },
+  "tags": [
+    "audio",
+    "integration",
+    "streaming"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::Util::ServerPort",
+    "CheckSocket:ver<0.0.8+>"
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
   "build-depends": [
