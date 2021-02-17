@@ -1928,6 +1928,35 @@
   "authors": [
     "Brian Duggan"
   ],
+  "depends": [
+    "OO::Monitors"
+  ],
+  "description": "ANSI escape sequences",
+  "license": "MIT",
+  "name": "Terminal::ANSI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::ANSI": "lib/Terminal/ANSI.rakumod",
+    "Terminal::ANSI::OO": "lib/Terminal/ANSI/OO.rakumod",
+    "Terminal::ANSI::State": "lib/Terminal/ANSI/State.rakumod",
+    "Terminal::ANSI::Virtual": "lib/Terminal/ANSI/Virtual.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-ANSI-0.0.14.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.14"
+}
+,
+{
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
   "description": "ANSI escape sequences",
   "license": "MIT",
   "name": "Terminal::ANSI",
@@ -46573,6 +46602,49 @@
     "Test::Util::ServerPort"
   ],
   "version": "0.0.2"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP"
+  ],
+  "description": "A client for server sent events",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "EventSource::Client",
+  "perl": "6.*",
+  "provides": {
+    "EventSource::Client": "lib/EventSource/Client.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/EventSource-Client-0.0.3.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/EventSource-Client/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/EventSource-Client.git"
+  },
+  "tags": [
+    "async",
+    "event",
+    "web",
+    "server-sent event"
+  ],
+  "test-depends": [
+    "EventSource::Server",
+    "Test::Util::ServerPort"
+  ],
+  "version": "0.0.3"
 }
 ,
 {
