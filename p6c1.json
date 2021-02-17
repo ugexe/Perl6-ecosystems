@@ -2468,6 +2468,67 @@
 }
 ,
 {
+  "auth": "git:alabamenhu",
+  "authors": [
+    "Matthew Stephen Stuckwisch"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Intl::CLDR:ver<0.5.2+>",
+    "Intl::UserLanguage",
+    "Intl::Format::Number",
+    "Intl::Number::Plural:ver<0.2.0+>"
+  ],
+  "description": "Write me!",
+  "license": "Artist-2.0",
+  "name": "Intl::Format::Unit",
+  "perl": "6.*",
+  "provides": {
+    "Intl::Format::Unit": "lib/Intl/Format/Unit.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/alabamenhu/IntlFormatUnit.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.2.0"
+}
+,
+{
+  "auth": "git:alabamenhu",
+  "authors": [
+    "Matthew Stephen Stuckwisch"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Intl::CLDR:ver<0.5.1+>",
+    "Intl::UserLanguage"
+  ],
+  "description": "A module to determine the grammatical count of a number",
+  "license": "Artistic-2.0",
+  "name": "Intl::Number::Plural",
+  "perl": "6.*",
+  "provides": {
+    "Intl::Number::Plural": "lib/Intl/Number/Plural.pm6"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/alabamenhu/IntlNumberPlural.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.5.4"
+}
+,
+{
   "auth": "github:alabamenhu",
   "authors": [
     "Matthew Stephen Stuckwisch"
