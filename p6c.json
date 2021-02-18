@@ -20297,7 +20297,7 @@
   "license": "MIT",
   "meta-version": 0,
   "name": "Net::AMQP",
-  "perl": "6.c",
+  "perl": "6.*",
   "provides": {
     "Net::AMQP": "lib/Net/AMQP.pm6",
     "Net::AMQP::Channel": "lib/Net/AMQP/Channel.pm6",
@@ -20311,6 +20311,7 @@
     "Net::AMQP::Payload::Method": "lib/Net/AMQP/Payload/Method.pm6",
     "Net::AMQP::Queue": "lib/Net/AMQP/Queue.pm6"
   },
+  "raku": "6.*",
   "source-url": "git://github.com/retupmoca/P6-Net-AMQP.git",
   "support": {
     "bugtracker": "https://github.com/retupmoca/P6-Net-AMQP/issues",
@@ -20322,7 +20323,7 @@
     "mq",
     "amqp"
   ],
-  "version": "0.1.13"
+  "version": "0.1.14"
 }
 ,
 {
