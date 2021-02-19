@@ -46350,6 +46350,47 @@
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Crypt::Libcrypt:ver<0.1.0+>"
+  ],
+  "description": "Hash and verify a password using the best available means",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Crypt::AnyPasswordHash",
+  "perl": "6.*",
+  "provides": {
+    "Crypt::AnyPasswordHash": "lib/Crypt/AnyPasswordHash.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Crypt-AnyPasswordHash-0.1.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Crypt-AnyPasswordHash/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Crypt-AnyPasswordHash.git"
+  },
+  "tags": [
+    "password",
+    "hash",
+    "crypt"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk"
   ],
   "build-depends": [
