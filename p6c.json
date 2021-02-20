@@ -10349,6 +10349,7 @@
   ],
   "depends": [
     "LibCurl",
+    "URI::Encode",
     "Retry",
     "Pakku::Spec"
   ],
@@ -10376,7 +10377,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
 ,
 {
@@ -10412,7 +10413,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.1"
+  "version": "0.0.3"
 }
 ,
 {
@@ -25545,7 +25546,7 @@
     "config.json"
   ],
   "source-url": "https://github.com/tony-o/raku-fez.git",
-  "version": "20"
+  "version": "21"
 }
 ,
 {
