@@ -96589,6 +96589,49 @@
     "LibraryMake"
   ],
   "depends": [
+    "Method::Also"
+  ],
+  "description": "bindings to the HarfBuzz font shaping library (experimental)",
+  "license": "Artistic-2.0",
+  "name": "HarfBuzz",
+  "perl": "6.d",
+  "provides": {
+    "HarfBuzz": "lib/HarfBuzz.rakumod",
+    "HarfBuzz::Blob": "lib/HarfBuzz/Blob.rakumod",
+    "HarfBuzz::Buffer": "lib/HarfBuzz/Buffer.rakumod",
+    "HarfBuzz::Face": "lib/HarfBuzz/Face.rakumod",
+    "HarfBuzz::Feature": "lib/HarfBuzz/Feature.rakumod",
+    "HarfBuzz::Font": "lib/HarfBuzz/Font.rakumod",
+    "HarfBuzz::Glyph": "lib/HarfBuzz/Glyph.rakumod",
+    "HarfBuzz::Raw": "lib/HarfBuzz/Raw.rakumod",
+    "HarfBuzz::Raw::Defs": "lib/HarfBuzz/Raw/Defs.rakumod",
+    "HarfBuzz::Shaper": "lib/HarfBuzz/Shaper.rakumod"
+  },
+  "raku": "6",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-0.0.6.tar.gz",
+  "tags": [
+    "font",
+    "harfbuzz",
+    "freetype"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
     "HarfBuzz:ver<0.0.4+>",
     "Font::FreeType"
   ],
