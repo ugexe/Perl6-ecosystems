@@ -1233,6 +1233,7 @@
   "perl": null,
   "provides": {
     "Intl::CLDR": "lib/Intl/CLDR.pm6",
+    "Intl::CLDR::Core": "lib/Intl/CLDR/Core.pm6",
     "Intl::CLDR::Enums": "lib/Intl/CLDR/Enums.pm6",
     "Intl::CLDR::Genders": "lib/Intl/CLDR/Genders.pm6",
     "Intl::CLDR::Immutability": "lib/Intl/CLDR/Immutability.pm6",
@@ -1295,6 +1296,7 @@
     "Intl::CLDR::Types::IntervalFormat": "lib/Intl/CLDR/Types/IntervalFormat.pm6",
     "Intl::CLDR::Types::IntervalFormats": "lib/Intl/CLDR/Types/IntervalFormats.pm6",
     "Intl::CLDR::Types::Language": "lib/Intl/CLDR/Types/Language.pm6",
+    "Intl::CLDR::Types::LanguageGroups": "lib/Intl/CLDR/Types/LanguageGroups.pm6",
     "Intl::CLDR::Types::LanguageNames": "lib/Intl/CLDR/Types/LanguageNames.pm6",
     "Intl::CLDR::Types::Languages": "lib/Intl/CLDR/Types/Languages.pm6",
     "Intl::CLDR::Types::Layout": "lib/Intl/CLDR/Types/Layout.pm6",
@@ -1337,6 +1339,8 @@
     "Intl::CLDR::Types::ScriptNames": "lib/Intl/CLDR/Types/ScriptNames.pm6",
     "Intl::CLDR::Types::SimpleUnitSet": "lib/Intl/CLDR/Types/SimpleUnitSet.pm6",
     "Intl::CLDR::Types::SimpleUnits": "lib/Intl/CLDR/Types/SimpleUnits.pm6",
+    "Intl::CLDR::Types::Subdivision": "lib/Intl/CLDR/Types/Subdivision.pm6",
+    "Intl::CLDR::Types::Subdivisions": "lib/Intl/CLDR/Types/Subdivisions.pm6",
     "Intl::CLDR::Types::Supplement": "lib/Intl/CLDR/Types/Supplement.pm6",
     "Intl::CLDR::Types::SymbolSet": "lib/Intl/CLDR/Types/SymbolSet.pm6",
     "Intl::CLDR::Types::Symbols": "lib/Intl/CLDR/Types/Symbols.pm6",
@@ -1344,6 +1348,7 @@
     "Intl::CLDR::Types::TimeFormat": "lib/Intl/CLDR/Types/TimeFormat.pm6",
     "Intl::CLDR::Types::TimeFormats": "lib/Intl/CLDR/Types/TimeFormats.pm6",
     "Intl::CLDR::Types::TimezoneNames": "lib/Intl/CLDR/Types/TimezoneNames.pm6",
+    "Intl::CLDR::Types::Timezones": "lib/Intl/CLDR/Types/Timezones.pm6",
     "Intl::CLDR::Types::Units": "lib/Intl/CLDR/Types/Units.pm6",
     "Intl::CLDR::Types::VariantNames": "lib/Intl/CLDR/Types/VariantNames.pm6",
     "Intl::CLDR::Types::Zone": "lib/Intl/CLDR/Types/Zone.pm6",
@@ -1514,6 +1519,7 @@
     "languages-binary/en-IE.data",
     "languages-binary/chr.strings",
     "languages-binary/nn.strings",
+    "languages-binary/.DS_Store",
     "languages-binary/yi.strings",
     "languages-binary/en-BM.data",
     "languages-binary/my.data",
@@ -2363,7 +2369,7 @@
   "test-depends": [
     
   ],
-  "version": "0.5.2"
+  "version": "0.6.0"
 }
 ,
 {
