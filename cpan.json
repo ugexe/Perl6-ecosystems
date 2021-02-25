@@ -55905,6 +55905,38 @@
 }
 ,
 {
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A powerful getopt implementation",
+  "license": "Artistic-2.0",
+  "name": "Getopt::Long",
+  "perl": "6.*",
+  "provides": {
+    "Getopt::Long": "lib/Getopt/Long.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Getopt-Long-0.3.3.tar.gz",
+  "tags": [
+    "command",
+    "getopt",
+    "main"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.3"
+}
+,
+{
   "auth": "cpan:LEONT",
   "authors": [
     "Leon Timmermans"
@@ -96480,50 +96512,6 @@
     "LibraryMake"
   ],
   "depends": [
-    "Cairo:ver<0.2.7+>",
-    "Font::FreeType:ver<0.3.7+>",
-    "Method::Also"
-  ],
-  "description": "binds to the HarfBuzz font shaping library",
-  "license": "Artistic-2.0",
-  "name": "HarfBuzz",
-  "perl": "6.d",
-  "provides": {
-    "HarfBuzz": "lib/HarfBuzz.rakumod",
-    "HarfBuzz::Blob": "lib/HarfBuzz/Blob.rakumod",
-    "HarfBuzz::Buffer": "lib/HarfBuzz/Buffer.rakumod",
-    "HarfBuzz::Face": "lib/HarfBuzz/Face.rakumod",
-    "HarfBuzz::Feature": "lib/HarfBuzz/Feature.rakumod",
-    "HarfBuzz::Font": "lib/HarfBuzz/Font.rakumod",
-    "HarfBuzz::Font::FreeType": "lib/HarfBuzz/Font/FreeType.rakumod",
-    "HarfBuzz::Glyph": "lib/HarfBuzz/Glyph.rakumod",
-    "HarfBuzz::Raw": "lib/HarfBuzz/Raw.rakumod",
-    "HarfBuzz::Raw::Defs": "lib/HarfBuzz/Raw/Defs.rakumod",
-    "HarfBuzz::Shaper": "lib/HarfBuzz/Shaper.rakumod"
-  },
-  "raku": "6",
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-0.0.2.tar.gz",
-  "tags": [
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
     "Method::Also"
   ],
   "description": "bindings to the HarfBuzz font shaping library (experimental)",
@@ -96638,40 +96626,6 @@
     
   ],
   "version": "0.0.6"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    "HarfBuzz:ver<0.0.4+>",
-    "Font::FreeType"
-  ],
-  "description": "binds to the HarfBuzz font shaping library",
-  "license": "Artistic-2.0",
-  "name": "HarfBuzz::Font::FreeType",
-  "perl": "6.d",
-  "provides": {
-    "HarfBuzz::Font::FreeType": "lib/HarfBuzz/Font/FreeType.rakumod",
-    "HarfBuzz::Font::FreeType::Raw": "lib/HarfBuzz/Font/FreeType/Raw.rakumod"
-  },
-  "raku": "6",
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-Font-FreeType-0.0.1.tar.gz",
-  "tags": [
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
 }
 ,
 {
@@ -98013,162 +97967,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Class-0.4.6.tar.gz",
-  "tags": [
-    "pdf"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.4.6"
-}
-,
-{
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "PDF",
-    "PDF::Grammar",
-    "PDF::Content"
-  ],
-  "description": "PDF Document Object Model",
-  "license": "Artistic-2.0",
-  "name": "PDF::Class",
-  "perl": "6.*",
-  "provides": {
-    "PDF::AcroForm": "lib/PDF/AcroForm.rakumod",
-    "PDF::Action": "lib/PDF/Action.rakumod",
-    "PDF::Action::GoTo": "lib/PDF/Action/GoTo.rakumod",
-    "PDF::Action::GoToR": "lib/PDF/Action/GoToR.rakumod",
-    "PDF::Action::JavaScript": "lib/PDF/Action/JavaScript.rakumod",
-    "PDF::Action::Launch": "lib/PDF/Action/Launch.rakumod",
-    "PDF::Action::Named": "lib/PDF/Action/Named.rakumod",
-    "PDF::Action::Sound": "lib/PDF/Action/Sound.rakumod",
-    "PDF::Action::SubmitForm": "lib/PDF/Action/SubmitForm.rakumod",
-    "PDF::Action::Thread": "lib/PDF/Action/Thread.rakumod",
-    "PDF::Action::URI": "lib/PDF/Action/URI.rakumod",
-    "PDF::Annot": "lib/PDF/Annot.rakumod",
-    "PDF::Annot::AdditionalActions": "lib/PDF/Annot/AdditionalActions.rakumod",
-    "PDF::Annot::Caret": "lib/PDF/Annot/Caret.rakumod",
-    "PDF::Annot::Circle": "lib/PDF/Annot/Circle.rakumod",
-    "PDF::Annot::FileAttachment": "lib/PDF/Annot/FileAttachment.rakumod",
-    "PDF::Annot::Highlight": "lib/PDF/Annot/Highlight.rakumod",
-    "PDF::Annot::Link": "lib/PDF/Annot/Link.rakumod",
-    "PDF::Annot::Popup": "lib/PDF/Annot/Popup.rakumod",
-    "PDF::Annot::Square": "lib/PDF/Annot/Square.rakumod",
-    "PDF::Annot::Squiggly": "lib/PDF/Annot/Squiggly.rakumod",
-    "PDF::Annot::StrikeOut": "lib/PDF/Annot/StrikeOut.rakumod",
-    "PDF::Annot::Text": "lib/PDF/Annot/Text.rakumod",
-    "PDF::Annot::ThreeD": "lib/PDF/Annot/ThreeD.rakumod",
-    "PDF::Annot::Underline": "lib/PDF/Annot/Underline.rakumod",
-    "PDF::Annot::Widget": "lib/PDF/Annot/Widget.rakumod",
-    "PDF::Annot::_Markup": "lib/PDF/Annot/_Markup.rakumod",
-    "PDF::Annot::_TextMarkup": "lib/PDF/Annot/_TextMarkup.rakumod",
-    "PDF::Appearance": "lib/PDF/Appearance.rakumod",
-    "PDF::Bead-Thread": "lib/PDF/Bead-Thread.rakumod",
-    "PDF::Border": "lib/PDF/Border.rakumod",
-    "PDF::CIDSystemInfo": "lib/PDF/CIDSystemInfo.rakumod",
-    "PDF::CMap": "lib/PDF/CMap.rakumod",
-    "PDF::Catalog": "lib/PDF/Catalog.rakumod",
-    "PDF::Catalog::AdditionalActions": "lib/PDF/Catalog/AdditionalActions.rakumod",
-    "PDF::Class": "lib/PDF/Class.rakumod",
-    "PDF::Class::Defs": "lib/PDF/Class/Defs.rakumod",
-    "PDF::Class::Loader": "lib/PDF/Class/Loader.rakumod",
-    "PDF::Class::OutlineNode": "lib/PDF/Class/OutlineNode.rakumod",
-    "PDF::Class::StructItem": "lib/PDF/Class/StructItem.rakumod",
-    "PDF::Class::ThreeD": "lib/PDF/Class/ThreeD.rakumod",
-    "PDF::Class::Type": "lib/PDF/Class/Type.rakumod",
-    "PDF::Class::Util": "lib/PDF/Class/Util.rakumod",
-    "PDF::ColorSpace": "lib/PDF/ColorSpace.rakumod",
-    "PDF::ColorSpace::CalGray": "lib/PDF/ColorSpace/CalGray.rakumod",
-    "PDF::ColorSpace::CalRGB": "lib/PDF/ColorSpace/CalRGB.rakumod",
-    "PDF::ColorSpace::DeviceN": "lib/PDF/ColorSpace/DeviceN.rakumod",
-    "PDF::ColorSpace::ICCBased": "lib/PDF/ColorSpace/ICCBased.rakumod",
-    "PDF::ColorSpace::Indexed": "lib/PDF/ColorSpace/Indexed.rakumod",
-    "PDF::ColorSpace::Lab": "lib/PDF/ColorSpace/Lab.rakumod",
-    "PDF::ColorSpace::Pattern": "lib/PDF/ColorSpace/Pattern.rakumod",
-    "PDF::ColorSpace::Separation": "lib/PDF/ColorSpace/Separation.rakumod",
-    "PDF::Destination": "lib/PDF/Destination.rakumod",
-    "PDF::Encoding": "lib/PDF/Encoding.rakumod",
-    "PDF::ExData::Markup3D": "lib/PDF/ExData/Markup3D.rakumod",
-    "PDF::ExtGState": "lib/PDF/ExtGState.rakumod",
-    "PDF::Field": "lib/PDF/Field.rakumod",
-    "PDF::Field::AdditionalActions": "lib/PDF/Field/AdditionalActions.rakumod",
-    "PDF::Field::Button": "lib/PDF/Field/Button.rakumod",
-    "PDF::Field::Choice": "lib/PDF/Field/Choice.rakumod",
-    "PDF::Field::Signature": "lib/PDF/Field/Signature.rakumod",
-    "PDF::Field::Text": "lib/PDF/Field/Text.rakumod",
-    "PDF::Filespec": "lib/PDF/Filespec.rakumod",
-    "PDF::Font": "lib/PDF/Font.rakumod",
-    "PDF::Font::CIDFont": "lib/PDF/Font/CIDFont.rakumod",
-    "PDF::Font::CIDFontType0": "lib/PDF/Font/CIDFontType0.rakumod",
-    "PDF::Font::CIDFontType2": "lib/PDF/Font/CIDFontType2.rakumod",
-    "PDF::Font::MMType1": "lib/PDF/Font/MMType1.rakumod",
-    "PDF::Font::TrueType": "lib/PDF/Font/TrueType.rakumod",
-    "PDF::Font::Type0": "lib/PDF/Font/Type0.rakumod",
-    "PDF::Font::Type1": "lib/PDF/Font/Type1.rakumod",
-    "PDF::Font::Type3": "lib/PDF/Font/Type3.rakumod",
-    "PDF::FontDescriptor": "lib/PDF/FontDescriptor.rakumod",
-    "PDF::FontDescriptor::CID": "lib/PDF/FontDescriptor/CID.rakumod",
-    "PDF::FontFile": "lib/PDF/FontFile.rakumod",
-    "PDF::FontStream": "lib/PDF/FontStream.rakumod",
-    "PDF::Function": "lib/PDF/Function.rakumod",
-    "PDF::Function::Exponential": "lib/PDF/Function/Exponential.rakumod",
-    "PDF::Function::PostScript": "lib/PDF/Function/PostScript.rakumod",
-    "PDF::Function::Sampled": "lib/PDF/Function/Sampled.rakumod",
-    "PDF::Function::Stitching": "lib/PDF/Function/Stitching.rakumod",
-    "PDF::Group": "lib/PDF/Group.rakumod",
-    "PDF::Group::Transparency": "lib/PDF/Group/Transparency.rakumod",
-    "PDF::ICCProfile": "lib/PDF/ICCProfile.rakumod",
-    "PDF::Image": "lib/PDF/Image.rakumod",
-    "PDF::Info": "lib/PDF/Info.rakumod",
-    "PDF::MCR": "lib/PDF/MCR.rakumod",
-    "PDF::Mask": "lib/PDF/Mask.rakumod",
-    "PDF::Mask::Alpha": "lib/PDF/Mask/Alpha.rakumod",
-    "PDF::Mask::Luminosity": "lib/PDF/Mask/Luminosity.rakumod",
-    "PDF::Metadata::XML": "lib/PDF/Metadata/XML.rakumod",
-    "PDF::NameTree": "lib/PDF/NameTree.rakumod",
-    "PDF::Names": "lib/PDF/Names.rakumod",
-    "PDF::NumberTree": "lib/PDF/NumberTree.rakumod",
-    "PDF::OBJR": "lib/PDF/OBJR.rakumod",
-    "PDF::OCG": "lib/PDF/OCG.rakumod",
-    "PDF::OCMD": "lib/PDF/OCMD.rakumod",
-    "PDF::Outline": "lib/PDF/Outline.rakumod",
-    "PDF::Outlines": "lib/PDF/Outlines.rakumod",
-    "PDF::OutputIntent": "lib/PDF/OutputIntent.rakumod",
-    "PDF::Page": "lib/PDF/Page.rakumod",
-    "PDF::Page::AdditionalActions": "lib/PDF/Page/AdditionalActions.rakumod",
-    "PDF::Pages": "lib/PDF/Pages.rakumod",
-    "PDF::Pattern": "lib/PDF/Pattern.rakumod",
-    "PDF::Pattern::Shading": "lib/PDF/Pattern/Shading.rakumod",
-    "PDF::Pattern::Tiling": "lib/PDF/Pattern/Tiling.rakumod",
-    "PDF::Resources": "lib/PDF/Resources.rakumod",
-    "PDF::Shading": "lib/PDF/Shading.rakumod",
-    "PDF::Shading::Axial": "lib/PDF/Shading/Axial.rakumod",
-    "PDF::Shading::Coons": "lib/PDF/Shading/Coons.rakumod",
-    "PDF::Shading::FreeForm": "lib/PDF/Shading/FreeForm.rakumod",
-    "PDF::Shading::Function": "lib/PDF/Shading/Function.rakumod",
-    "PDF::Shading::Lattice": "lib/PDF/Shading/Lattice.rakumod",
-    "PDF::Shading::Radial": "lib/PDF/Shading/Radial.rakumod",
-    "PDF::Shading::Tensor": "lib/PDF/Shading/Tensor.rakumod",
-    "PDF::Signature": "lib/PDF/Signature.rakumod",
-    "PDF::Sound": "lib/PDF/Sound.rakumod",
-    "PDF::StructElem": "lib/PDF/StructElem.rakumod",
-    "PDF::StructTreeRoot": "lib/PDF/StructTreeRoot.rakumod",
-    "PDF::ViewerPreferences": "lib/PDF/ViewerPreferences.rakumod",
-    "PDF::XObject": "lib/PDF/XObject.rakumod",
-    "PDF::XObject::Form": "lib/PDF/XObject/Form.rakumod",
-    "PDF::XObject::Image": "lib/PDF/XObject/Image.rakumod",
-    "PDF::XObject::PS": "lib/PDF/XObject/PS.rakumod"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Class-0.4.7.tar.gz",
   "tags": [
     "pdf"
@@ -99335,46 +99133,6 @@
     
   ],
   "version": "0.0.6"
-}
-,
-{
-  "api": "PDF-1.7",
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "depends": [
-    "PDF::Content:ver<0.4.3+>",
-    "PDF",
-    "PDF::Font::Loader",
-    "PDF::Class:ver<0.4.3+>",
-    "Method::Also"
-  ],
-  "description": "Reader for tagged PDF files",
-  "license": "Artistic-2.0",
-  "name": "PDF::Tags",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Tags": "lib/PDF/Tags.rakumod",
-    "PDF::Tags::Attr": "lib/PDF/Tags/Attr.rakumod",
-    "PDF::Tags::Elem": "lib/PDF/Tags/Elem.rakumod",
-    "PDF::Tags::Mark": "lib/PDF/Tags/Mark.rakumod",
-    "PDF::Tags::Node": "lib/PDF/Tags/Node.rakumod",
-    "PDF::Tags::Node::Parent": "lib/PDF/Tags/Node/Parent.rakumod",
-    "PDF::Tags::Node::Root": "lib/PDF/Tags/Node/Root.rakumod",
-    "PDF::Tags::ObjRef": "lib/PDF/Tags/ObjRef.rakumod",
-    "PDF::Tags::Text": "lib/PDF/Tags/Text.rakumod",
-    "PDF::Tags::XML-Writer": "lib/PDF/Tags/XML-Writer.rakumod",
-    "PDF::Tags::XPath": "lib/PDF/Tags/XPath.rakumod",
-    "PDF::Tags::XPath::Actions": "lib/PDF/Tags/XPath/Actions.rakumod",
-    "PDF::Tags::XPath::Axes": "lib/PDF/Tags/XPath/Axes.rakumod",
-    "PDF::Tags::XPath::Grammar": "lib/PDF/Tags/XPath/Grammar.rakumod"
-  },
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Tags-0.0.2.tar.gz",
-  "tags": [
-    "pdf"
-  ],
-  "version": "0.0.2"
 }
 ,
 {
