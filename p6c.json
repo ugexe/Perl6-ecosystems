@@ -26521,20 +26521,20 @@
   "description": "A simple logging class",
   "license": "Artistic-2.0",
   "name": "Log",
-  "perl": "6.c",
+  "perl": "6.d",
   "provides": {
-    "Log": "lib/Log.pm6",
-    "Log::Exceptions": "lib/Log/Exceptions.pm6",
-    "Log::MDC": "lib/Log/MDC.pm6",
-    "Log::NDC": "lib/Log/NDC.pm6"
+    "Log": "lib/Log.raku",
+    "Log::Exceptions": "lib/Log/Exceptions.raku",
+    "Log::MDC": "lib/Log/MDC.raku",
+    "Log::NDC": "lib/Log/NDC.raku"
   },
   "support": {
-    "source": "https://github.com/whity/perl6-log.git"
+    "source": "https://github.com/whity/raku-log.git"
   },
   "test-depends": [
     
   ],
-  "version": "0.2.0"
+  "version": "0.3.0"
 }
 ,
 {
