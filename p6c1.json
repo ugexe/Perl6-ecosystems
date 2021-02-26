@@ -26560,10 +26560,10 @@
   "name": "Log",
   "perl": "6.d",
   "provides": {
-    "Log": "lib/Log.raku",
-    "Log::Exceptions": "lib/Log/Exceptions.raku",
-    "Log::MDC": "lib/Log/MDC.raku",
-    "Log::NDC": "lib/Log/NDC.raku"
+    "Log": "lib/Log.rakumod",
+    "Log::Exceptions": "lib/Log/Exceptions.rakumod",
+    "Log::MDC": "lib/Log/MDC.rakumod",
+    "Log::NDC": "lib/Log/NDC.rakumod"
   },
   "support": {
     "source": "https://github.com/whity/raku-log.git"
@@ -26571,7 +26571,7 @@
   "test-depends": [
     
   ],
-  "version": "0.3.0"
+  "version": "0.3.1"
 }
 ,
 {
