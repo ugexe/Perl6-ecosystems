@@ -26520,13 +26520,13 @@
   ],
   "description": "A simple logging class",
   "license": "Artistic-2.0",
-  "name": "Log",
+  "name": "Logger",
   "perl": "6.d",
   "provides": {
-    "Log": "lib/Log.rakumod",
-    "Log::Exceptions": "lib/Log/Exceptions.rakumod",
-    "Log::MDC": "lib/Log/MDC.rakumod",
-    "Log::NDC": "lib/Log/NDC.rakumod"
+    "Log": "lib/Logger.rakumod",
+    "Log::Exceptions": "lib/Logger/Exceptions.rakumod",
+    "Log::MDC": "lib/Logger/MDC.rakumod",
+    "Log::NDC": "lib/Logger/NDC.rakumod"
   },
   "support": {
     "source": "https://github.com/whity/raku-log.git"
@@ -26534,7 +26534,7 @@
   "test-depends": [
     
   ],
-  "version": "0.3.2"
+  "version": "0.4.0"
 }
 ,
 {
