@@ -10341,7 +10341,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.5"
+  "version": "0.0.6"
 }
 ,
 {
@@ -26523,10 +26523,10 @@
   "name": "Logger",
   "perl": "6.d",
   "provides": {
-    "Log": "lib/Logger.rakumod",
-    "Log::Exceptions": "lib/Logger/Exceptions.rakumod",
-    "Log::MDC": "lib/Logger/MDC.rakumod",
-    "Log::NDC": "lib/Logger/NDC.rakumod"
+    "Logger": "lib/Logger.rakumod",
+    "Logger::Exceptions": "lib/Logger/Exceptions.rakumod",
+    "Logger::MDC": "lib/Logger/MDC.rakumod",
+    "Logger::NDC": "lib/Logger/NDC.rakumod"
   },
   "support": {
     "source": "https://github.com/whity/raku-log.git"
@@ -26534,7 +26534,7 @@
   "test-depends": [
     
   ],
-  "version": "0.4.0"
+  "version": "0.4.2"
 }
 ,
 {
