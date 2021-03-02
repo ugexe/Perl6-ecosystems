@@ -8493,16 +8493,16 @@
     "min-templates.raku"
   ],
   "source-type": "git",
-  "source-url": "git://github.com/finanalyst/content-collection.git",
+  "source-url": "git://github.com/finanalyst/collection.git",
   "support": {
-    "bugtracker": "https://github.com/finanalyst/content-collection/issues",
+    "bugtracker": "https://github.com/finanalyst/collection/issues",
     "email": "richard@hainsworth.wales",
-    "source": "https://github.com/finanalyst/content-collection.git"
+    "source": "https://github.com/finanalyst/collection.git"
   },
   "test-depends": [
     
   ],
-  "version": "0.3.2"
+  "version": "0.3.3"
 }
 ,
 {
@@ -8749,6 +8749,7 @@
     "Pod::To::HTML2::Mustache": "lib/Pod/To/HTML2.pm6",
     "Pod::To::MarkDown": "lib/Pod/To/MarkDown.pm6",
     "ProcessedPod": "lib/ProcessedPod.pm6",
+    "Test-Templates": "lib/Test-Templates.pm6",
     "raku-pod-render-install-highlighter": "bin/raku-pod-render-install-highlighter",
     "test-templates": "bin/test-templates"
   },
@@ -8772,7 +8773,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "3.6.15"
+  "version": "3.6.16"
 }
 ,
 {
