@@ -8506,6 +8506,44 @@
 }
 ,
 {
+  "auth": "github:finanalyst",
+  "authors": [
+    "Richard Hainsworth"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "RakuConfig",
+    "Collection",
+    "Cro::HTTP"
+  ],
+  "description": "Use Cro and Collection to supply Raku documentation. Different search system. Global and local TOCs and Glossaries. Documents local installation.",
+  "license": "Artistic-2.0",
+  "name": "Collection-Raku-Documentation",
+  "perl": "6.d",
+  "provides": {
+    "Collection::RakuDocumentation": "lib/RakuDoc.pm6",
+    "Raku-Doc": "bin/Raku-Doc"
+  },
+  "resources": [
+    "config.raku",
+    "website.rar"
+  ],
+  "source-type": "git",
+  "source-url": "git://github.com/finanalyst/collection-raku-documentation.git",
+  "support": {
+    "bugtracker": "https://github.com/finanalyst/collection-raku-documentation/issues",
+    "email": "richard@hainsworth.wales",
+    "source": "https://github.com/finanalyst/collection-raku-documentation.git"
+  },
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.8.1"
+}
+,
+{
   "authors": [
     "Richard Hainsworth aka finanalyst"
   ],
