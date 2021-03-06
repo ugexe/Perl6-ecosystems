@@ -8481,7 +8481,7 @@
   "test-depends": [
     
   ],
-  "version": "0.3.5"
+  "version": "0.3.6"
 }
 ,
 {
@@ -13125,7 +13125,7 @@
   "depends": [
     "MIME::Base64"
   ],
-  "description": "a YAML parser/emitter written in pure perl6",
+  "description": "a YAML parser/emitter written in pure raku",
   "license": "NOASSERTION",
   "name": "YAMLish",
   "perl": "6.*",
@@ -25581,6 +25581,7 @@
     "Fez::CLI": "lib/Fez/CLI.rakumod",
     "Fez::Util::Config": "lib/Fez/Util/Config.rakumod",
     "Fez::Util::Curl": "lib/Fez/Util/Curl.rakumod",
+    "Fez::Util::Date": "lib/Fez/Util/Date.rakumod",
     "Fez::Util::Git": "lib/Fez/Util/Git.rakumod",
     "Fez::Util::Json": "lib/Fez/Util/Json.rakumod",
     "Fez::Util::Pass": "lib/Fez/Util/Pass.rakumod",
@@ -25592,7 +25593,7 @@
     "config.json"
   ],
   "source-url": "https://github.com/tony-o/raku-fez.git",
-  "version": "24"
+  "version": "25"
 }
 ,
 {
