@@ -20025,6 +20025,23 @@
   "depends": [
     
   ],
+  "description": "A simple 3D library for Perl 6.",
+  "license": "Artistic-2.0",
+  "name": "Math::ThreeD",
+  "perl": "6.*",
+  "provides": {
+    "Math::ThreeD::Mat44": "lib/Math/ThreeD/Mat44.pm",
+    "Math::ThreeD::Vec3": "lib/Math/ThreeD/Vec3.pm"
+  },
+  "source-url": "git://github.com/raydiak/Math--ThreeD.git",
+  "version": "*"
+}
+,
+{
+  "author": "raydiak",
+  "depends": [
+    
+  ],
   "description": "Symbolic math for Perl 6",
   "license": "Artistic-2.0",
   "name": "Math::Symbolic",
