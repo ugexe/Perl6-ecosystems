@@ -49838,6 +49838,50 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "System::Passwd"
+  ],
+  "description": "Discover which process has a file open, in pure Raku",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Linux::Fuser",
+  "perl": "6.*",
+  "provides": {
+    "Linux::Fuser": "lib/Linux/Fuser.pm",
+    "Linux::Fuser::FileDescriptor": "lib/Linux/Fuser/FileDescriptor.pm",
+    "Linux::Fuser::Procinfo": "lib/Linux/Fuser/Procinfo.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Linux-Fuser-0.0.14.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Raku-Linux-Fuser/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Raku-Linux-Fuser.git"
+  },
+  "tags": [
+    "linux",
+    "system",
+    "utils",
+    "file"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.14"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
