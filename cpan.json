@@ -100020,6 +100020,42 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Bindings to the FriBidi bidirectional Unicode implmentation",
+  "license": "Artistic-2.0",
+  "name": "Text::FriBidi",
+  "perl": "6.d",
+  "provides": {
+    "Text::FriBidi": "lib/Text/FriBidi.rakumod",
+    "Text::FriBidi::Defs": "lib/Text/FriBidi/Defs.rakumod",
+    "Text::FriBidi::Line": "lib/Text/FriBidi/Line.rakumod",
+    "Text::FriBidi::Raw": "lib/Text/FriBidi/Raw.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Text-FriBidi-0.0.1.tar.gz",
+  "tags": [
+    "bidi",
+    "unicode",
+    "bidirectional"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "authors": [
     "pnu",
     "wbiker"
