@@ -15533,6 +15533,40 @@
 }
 ,
 {
+  "authors": [
+    "PerlPilot",
+    "nicqrocks"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "simple, hacky way to use git from Perl 6",
+  "name": "Git::Wrapper",
+  "perl": "6.c",
+  "provides": {
+    "Git::Log::Actions": "lib/Git/Log/Parser.pm6",
+    "Git::Log::Parser": "lib/Git/Log/Parser.pm6",
+    "Git::Wrapper": "lib/Git/Wrapper.pm6",
+    "Git::Wrapper::Log": "lib/Git/Log/Parser.pm6"
+  },
+  "source-url": "https://gitlab.com/orangebot/p6-Git-Wrapper.git",
+  "support": {
+    "source": "https://gitlab.com/orangebot/p6-Git-Wrapper.git"
+  },
+  "tags": [
+    "git",
+    "wrapper"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
   "api": "1",
   "auth": "github:p6steve",
   "authors": [
@@ -15885,6 +15919,27 @@
     "Konstantin Narkhov"
   ],
   "depends": [
+    
+  ],
+  "description": "Lempel–Ziv–Welch (LZW) algorithm implementation in Perl 6",
+  "license": "Artistic-2.0",
+  "name": "LZW::Revolunet",
+  "perl": "6.c",
+  "provides": {
+    "LZW::Revolunet": "lib/LZW/Revolunet.pm6"
+  },
+  "source-url": "https://gitlab.com/pheix/lzw-revolunet-perl6.git",
+  "tags": [
+    "COMPRESSION"
+  ],
+  "version": "0.1.2"
+}
+,
+{
+  "authors": [
+    "Konstantin Narkhov"
+  ],
+  "depends": [
     "JSON::Fast",
     "HTTP::UserAgent"
   ],
@@ -15902,6 +15957,22 @@
     "NET"
   ],
   "version": "0.0.114"
+}
+,
+{
+  "depends": [
+    "P5quotemeta"
+  ],
+  "description": "Framework-agnostic URL routing engine for web applications in Raku",
+  "license": "Artistic-2.0",
+  "name": "Router::Right",
+  "perl": "6.d",
+  "provides": {
+    "Router::Right": "lib/Router/Right.rakumod",
+    "Router::Right::Submapper": "lib/Router/Right/Submapper.rakumod"
+  },
+  "source-url": "git://gitlab.com/pheix/router-right-perl6.git",
+  "version": "0.0.55"
 }
 ,
 {
