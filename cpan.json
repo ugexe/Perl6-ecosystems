@@ -97167,6 +97167,58 @@
     
   ],
   "depends": [
+    "Base64::Native",
+    "Cairo",
+    "Color",
+    "CSS::Properties",
+    "Font::FreeType:ver<0.3.7+>",
+    "HarfBuzz::Font::FreeType:ver<0.0.5+>",
+    "HarfBuzz::Shaper::Cairo",
+    "Text::FriBidi",
+    "Hash::Agnostic",
+    "JSON::Fast",
+    "Method::Also"
+  ],
+  "description": "Construction and rendering of HTML-5 Canvases",
+  "license": "Artistic-2.0",
+  "name": "HTML::Canvas",
+  "perl": "6.c",
+  "provides": {
+    "HTML::Canvas": "lib/HTML/Canvas.rakumod",
+    "HTML::Canvas::Gradient": "lib/HTML/Canvas/Gradient.rakumod",
+    "HTML::Canvas::Image": "lib/HTML/Canvas/Image.rakumod",
+    "HTML::Canvas::ImageData": "lib/HTML/Canvas/ImageData.rakumod",
+    "HTML::Canvas::Path2D": "lib/HTML/Canvas/Path2D.rakumod",
+    "HTML::Canvas::Pattern": "lib/HTML/Canvas/Pattern.rakumod",
+    "HTML::Canvas::To::Cairo": "lib/HTML/Canvas/To/Cairo.rakumod",
+    "HTML::Canvas::Tracer": "lib/HTML/Canvas/Tracer.rakumod"
+  },
+  "resources": [
+    "font/FreeMono.ttf"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-0.0.12.tar.gz",
+  "tags": [
+    "html",
+    "javascript",
+    "png",
+    "svg",
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.12"
+}
+,
+{
+  "auth": "github:css-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Cairo",
     "Color",
     "CSS::Properties",
