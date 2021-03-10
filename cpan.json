@@ -51562,6 +51562,47 @@
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Abstract representation of a filesystem layout",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Oyatul",
+  "perl": "6.*",
+  "provides": {
+    "Oyatul": "lib/Oyatul.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Oyatul-0.0.7.tar.gz",
+  "support": {
+    "bugtracker": "http://github.com/jonathanstowe/Oyatul/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Oyatul.git"
+  },
+  "tags": [
+    "filesystem",
+    "layout",
+    "util"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
   "build-depends": [
