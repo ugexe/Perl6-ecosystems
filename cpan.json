@@ -53758,6 +53758,48 @@
 }
 ,
 {
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.com.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "XML"
+  ],
+  "description": "Role to Serialize/De-Serialize a Raku class to/from XML",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "XML::Class",
+  "perl": "6.*",
+  "provides": {
+    "XML::Class": "lib/XML/Class.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/XML-Class-0.0.9.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/XML-Class/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/XML-Class.git"
+  },
+  "tags": [
+    "XML",
+    "object",
+    "role",
+    "framework"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.9"
+}
+,
+{
   "auth": "github:juliodcs",
   "authors": [
     "Julio"
