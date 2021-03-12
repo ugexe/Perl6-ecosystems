@@ -47853,6 +47853,47 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "create rhythmic patterns based on the Euclidean algorithm",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "EuclideanRhythm",
+  "perl": "6.*",
+  "provides": {
+    "EuclideanRhythm": "lib/EuclideanRhythm.pm"
+  },
+  "rakudo": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/EuclideanRhythm-0.0.4.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/EuclideanRhythm/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/EuclideanRhythm.git"
+  },
+  "tags": [
+    "rhythm",
+    "algorithm",
+    "euclid"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Cro::HTTP"
   ],
   "description": "A client for server sent events",
