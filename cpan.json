@@ -53247,6 +53247,48 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Access to the Unix group file in Raku",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Unix::Groups",
+  "perl": "6.*",
+  "provides": {
+    "Unix::Groups": "lib/Unix/Groups.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Unix-Groups-0.0.5.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Unix-Groups/issues",
+    "source": "git://github.com/jonathanstowe/Unix-Groups.git"
+  },
+  "tags": [
+    "devel",
+    "authorisation",
+    "system",
+    "user"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
