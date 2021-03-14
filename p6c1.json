@@ -16114,34 +16114,6 @@
     "eater <perl6@eaterofco.de>"
   ],
   "depends": [
-    "LibraryCheck"
-  ],
-  "description": "TagLib C bindings in Perl6",
-  "license": "Artistic-2.0",
-  "name": "TagLibC",
-  "perl": "6",
-  "provides": {
-    "TagLibC": "lib/TagLibC.pm6",
-    "TagLibC::Wrapper": "lib/TagLibC/Wrapper.pm6"
-  },
-  "source-url": "https://github.com/PostCocoon/P6-TagLibC.git",
-  "tags": [
-    "taglib",
-    "music",
-    "tagging"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "1.0"
-}
-,
-{
-  "auth": "github:PostCocoon",
-  "authors": [
-    "eater <perl6@eaterofco.de>"
-  ],
-  "depends": [
     
   ],
   "description": "Some simple but useful URL utils",
