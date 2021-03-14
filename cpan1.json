@@ -46620,6 +46620,50 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Binding for libsndfile - read/write multiple audio formats",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Audio::Sndfile",
+  "perl": "6.*",
+  "provides": {
+    "Audio::Sndfile": "lib/Audio/Sndfile.pm",
+    "Audio::Sndfile::Info": "lib/Audio/Sndfile/Info.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Sndfile-0.0.14.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Audio-Sndfile/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Audio-Sndfile.git"
+  },
+  "tags": [
+    "audio",
+    "utils",
+    "convert"
+  ],
+  "test-depends": [
+    "Test",
+    "LibraryCheck",
+    "File::Directory::Tree"
+  ],
+  "version": "0.0.14"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
