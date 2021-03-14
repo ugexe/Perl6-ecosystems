@@ -839,6 +839,55 @@
   "authors": [
     "Mikhail Khorkov"
   ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku Code Coverage tool and library.",
+  "license": "Artistic-2.0",
+  "name": "App::RaCoCo",
+  "perl": "6.*",
+  "provides": {
+    "App::Racoco::Cli": "lib/App/Racoco/Cli.rakumod",
+    "App::Racoco::Coverable::Coverable": "lib/App/Racoco/Coverable/Coverable.rakumod",
+    "App::Racoco::Coverable::CoverableIndex": "lib/App/Racoco/Coverable/CoverableIndex.rakumod",
+    "App::Racoco::Coverable::CoverableLinesSupplier": "lib/App/Racoco/Coverable/CoverableLinesSupplier.rakumod",
+    "App::Racoco::Coverable::CoverableOutliner": "lib/App/Racoco/Coverable/CoverableOutliner.rakumod",
+    "App::Racoco::CoverableLinesCollector": "lib/App/Racoco/CoverableLinesCollector.rakumod",
+    "App::Racoco::CoveredLinesCollector": "lib/App/Racoco/CoveredLinesCollector.rakumod",
+    "App::Racoco::ModuleNames": "lib/App/Racoco/ModuleNames.rakumod",
+    "App::Racoco::Paths": "lib/App/Racoco/Paths.rakumod",
+    "App::Racoco::Precomp::PrecompHashcodeReader": "lib/App/Racoco/Precomp/PrecompHashcodeReader.rakumod",
+    "App::Racoco::Precomp::PrecompLookup": "lib/App/Racoco/Precomp/PrecompLookup.rakumod",
+    "App::Racoco::Precomp::PrecompSupplier": "lib/App/Racoco/Precomp/PrecompSupplier.rakumod",
+    "App::Racoco::Precomp::Precompiler": "lib/App/Racoco/Precomp/Precompiler.rakumod",
+    "App::Racoco::ProjectName": "lib/App/Racoco/ProjectName.rakumod",
+    "App::Racoco::Report::Report": "lib/App/Racoco/Report/Report.rakumod",
+    "App::Racoco::Report::Reporter": "lib/App/Racoco/Report/Reporter.rakumod",
+    "App::Racoco::Report::ReporterBasic": "lib/App/Racoco/Report/ReporterBasic.rakumod",
+    "App::Racoco::Report::ReporterHtml": "lib/App/Racoco/Report/ReporterHtml.rakumod",
+    "App::Racoco::RunProc": "lib/App/Racoco/RunProc.rakumod",
+    "App::Racoco::Sha": "lib/App/Racoco/Sha.rakumod",
+    "App::Racoco::X": "lib/App/Racoco/X.rakumod"
+  },
+  "resources": [
+    "report.html",
+    "report-file.html"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/App-RaCoCo-1.3.1.tar.gz",
+  "test-depends": [
+    
+  ],
+  "version": "1.3.1"
+}
+,
+{
+  "auth": "github:atroxaper",
+  "authors": [
+    "Mikhail Khorkov"
+  ],
   "depends": [
     
   ],
