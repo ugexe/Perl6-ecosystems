@@ -55248,47 +55248,6 @@
     
   ],
   "depends": [
-    "Game::Stats"
-  ],
-  "description": "Bayesian Inference based upon ditributions. Minimax, decision theory mostly.",
-  "license": "General Public License 3, Artistic-2.0",
-  "name": "Game::Bayes",
-  "perl": "6.c",
-  "provides": {
-    "Game::Bayes::Action": "lib/Game/Bayes/Action.pm6",
-    "Game::Bayes::DecisionRule": "lib/Game/Bayes/DecisionRule.pm6",
-    "Game::Bayes::Hypothesis": "lib/Game/Bayes/Hypothesis.pm6",
-    "Game::Bayes::IntegralExp": "lib/Game/Bayes/IntegralExp.pm6",
-    "Game::Bayes::Interval": "lib/Game/Bayes/Interval.pm6",
-    "Game::Bayes::LossFunction": "lib/Game/Bayes/LossFunction.pm6",
-    "Game::Bayes::PosteriorApproximation": "lib/Game/Bayes/PosteriorApproximation.pm6",
-    "Game::Bayes::RiskFunction": "lib/Game/Bayes/RiskFunction.pm6",
-    "Game::Bayes::Strategy": "lib/Game/Bayes/Strategy.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/p6-Game-Bayes-0.2.6.tar.gz",
-  "tags": [
-    "Game",
-    "Bayes"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.2.6"
-}
-,
-{
-  "api": "1",
-  "auth": "CPAN:KOBOLDWIZ",
-  "authors": [
-    "Kobold Wizard Johan"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     
   ],
   "description": "Minimal Statistics package.",
