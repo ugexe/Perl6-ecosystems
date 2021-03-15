@@ -9888,6 +9888,28 @@
 }
 ,
 {
+  "author": "Lucien Grondin",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "accurate computation of sin(π*$x) and cos(π*$x)",
+  "license": "MIT",
+  "name": "TrigPi",
+  "perl": "6.*",
+  "provides": {
+    "TrigPi": "lib/TrigPi.pm6"
+  },
+  "source-url": "git://github.com/grondilu/trigpi.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.5.0"
+}
+,
+{
   "authors": [
     "Naoum Hankache"
   ],
