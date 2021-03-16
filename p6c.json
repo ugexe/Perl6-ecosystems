@@ -6469,207 +6469,6 @@
 }
 ,
 {
-  "auth": "github:css-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "JSON::Fast"
-  ],
-  "description": "Raku core CSS grammars",
-  "license": "Artistic-2.0",
-  "name": "CSS::Grammar",
-  "perl": "6.c",
-  "provides": {
-    "CSS::Grammar": "lib/CSS/Grammar.rakumod",
-    "CSS::Grammar::AST": "lib/CSS/Grammar/AST.rakumod",
-    "CSS::Grammar::Actions": "lib/CSS/Grammar/Actions.rakumod",
-    "CSS::Grammar::CSS1": "lib/CSS/Grammar/CSS1.rakumod",
-    "CSS::Grammar::CSS21": "lib/CSS/Grammar/CSS21.rakumod",
-    "CSS::Grammar::CSS3": "lib/CSS/Grammar/CSS3.rakumod",
-    "CSS::Grammar::Defs": "lib/CSS/Grammar/Defs.rakumod",
-    "CSS::Grammar::Test": "lib/CSS/Grammar/Test.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/css-raku/CSS-Grammar-raku.git",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.3.6"
-}
-,
-{
-  "api": "css3-selectors-20110929",
-  "auth": "github:p6-css",
-  "depends": [
-    "CSS::Grammar:ver<0.3.5+>",
-    "JSON::Fast"
-  ],
-  "description": "CSS3 Module Level 3 Selectors",
-  "license": "Artistic-2.0",
-  "name": "CSS::Module::CSS3::Selectors",
-  "perl": "6.*",
-  "provides": {
-    "CSS::Module::CSS3::Selectors": "lib/CSS/Module/CSS3/Selectors.rakumod",
-    "CSS::Module::CSS3::Selectors::Actions": "lib/CSS/Module/CSS3/Selectors/Actions.rakumod"
-  },
-  "source-url": "git://github.com/css-raku/CSS-Module-CSS3-Selectors-raku.git",
-  "version": "0.0.4"
-}
-,
-{
-  "api": "css-snapshot-2010",
-  "auth": "github:css-raku",
-  "depends": [
-    "CSS::Grammar:ver<0.3.5+>",
-    "CSS::Module::CSS3::Selectors:ver<0.0.4>",
-    "CSS::Specification:ver<0.4.6+>",
-    "CSS::Writer:ver<0.2.6+>",
-    "JSON::Fast"
-  ],
-  "description": "Perl 6 CSS extended and property-specific grammars",
-  "license": "Artistic-2.0",
-  "name": "CSS::Module",
-  "perl": "6.c",
-  "provides": {
-    "CSS::Module": "lib/CSS/Module.rakumod",
-    "CSS::Module::CSS1": "lib/CSS/Module/CSS1.rakumod",
-    "CSS::Module::CSS1::Actions": "lib/CSS/Module/CSS1/Actions.rakumod",
-    "CSS::Module::CSS1::Gen::Actions": "lib/CSS/Module/CSS1/Gen/Actions.rakumod",
-    "CSS::Module::CSS1::Gen::Grammar": "lib/CSS/Module/CSS1/Gen/Grammar.rakumod",
-    "CSS::Module::CSS1::Gen::Interface": "lib/CSS/Module/CSS1/Gen/Interface.rakumod",
-    "CSS::Module::CSS1::Metadata": "lib/CSS/Module/CSS1/Metadata.rakumod",
-    "CSS::Module::CSS21": "lib/CSS/Module/CSS21.rakumod",
-    "CSS::Module::CSS21::Actions": "lib/CSS/Module/CSS21/Actions.rakumod",
-    "CSS::Module::CSS21::Gen::Actions": "lib/CSS/Module/CSS21/Gen/Actions.rakumod",
-    "CSS::Module::CSS21::Gen::Grammar": "lib/CSS/Module/CSS21/Gen/Grammar.rakumod",
-    "CSS::Module::CSS21::Gen::Interface": "lib/CSS/Module/CSS21/Gen/Interface.rakumod",
-    "CSS::Module::CSS21::Metadata": "lib/CSS/Module/CSS21/Metadata.rakumod",
-    "CSS::Module::CSS3": "lib/CSS/Module/CSS3.rakumod",
-    "CSS::Module::CSS3::Actions": "lib/CSS/Module/CSS3/Actions.rakumod",
-    "CSS::Module::CSS3::Colors": "lib/CSS/Module/CSS3/Colors.rakumod",
-    "CSS::Module::CSS3::Colors::Actions": "lib/CSS/Module/CSS3/Colors.rakumod",
-    "CSS::Module::CSS3::Fonts": "lib/CSS/Module/CSS3/Fonts.rakumod",
-    "CSS::Module::CSS3::Fonts::Actions": "lib/CSS/Module/CSS3/Fonts/Actions.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace": "lib/CSS/Module/CSS3/Fonts/AtFontFace.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Actions": "lib/CSS/Module/CSS3/Fonts/AtFontFace.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Actions": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Actions.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Grammar": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Grammar.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Interface": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Interface.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Metadata": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Metadata.rakumod",
-    "CSS::Module::CSS3::Fonts::Gen::Actions": "lib/CSS/Module/CSS3/Fonts/Gen/Actions.rakumod",
-    "CSS::Module::CSS3::Fonts::Gen::Grammar": "lib/CSS/Module/CSS3/Fonts/Gen/Grammar.rakumod",
-    "CSS::Module::CSS3::Fonts::Gen::Interface": "lib/CSS/Module/CSS3/Fonts/Gen/Interface.rakumod",
-    "CSS::Module::CSS3::Fonts::Variants": "lib/CSS/Module/CSS3/Fonts/Variants.rakumod",
-    "CSS::Module::CSS3::Fonts::Variants::Actions": "lib/CSS/Module/CSS3/Fonts/Variants.rakumod",
-    "CSS::Module::CSS3::MediaQueries": "lib/CSS/Module/CSS3/MediaQueries.rakumod",
-    "CSS::Module::CSS3::MediaQueries::Actions": "lib/CSS/Module/CSS3/MediaQueries.rakumod",
-    "CSS::Module::CSS3::Metadata": "lib/CSS/Module/CSS3/Metadata.rakumod",
-    "CSS::Module::CSS3::Namespaces": "lib/CSS/Module/CSS3/Namespaces.rakumod",
-    "CSS::Module::CSS3::Namespaces::Actions": "lib/CSS/Module/CSS3/Namespaces.rakumod",
-    "CSS::Module::CSS3::PagedMedia": "lib/CSS/Module/CSS3/PagedMedia.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Actions": "lib/CSS/Module/CSS3/PagedMedia.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Gen::Actions": "lib/CSS/Module/CSS3/PagedMedia/Gen/Actions.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Gen::Grammar": "lib/CSS/Module/CSS3/PagedMedia/Gen/Grammar.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Gen::Interface": "lib/CSS/Module/CSS3/PagedMedia/Gen/Interface.rakumod",
-    "CSS::Module::CSS3::_Base": "lib/CSS/Module/CSS3/_Base.rakumod",
-    "CSS::Module::CSS3::_Base::Actions": "lib/CSS/Module/CSS3/_Base/Actions.rakumod",
-    "CSS::Module::Property": "lib/CSS/Module/Property.rakumod"
-  },
-  "source-url": "git://github.com/css-raku/CSS-Module-raku.git",
-  "version": "0.5.3"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Module:ver<0.5.3+>",
-    "CSS::Writer:ver<0.2.6+>",
-    "Color",
-    "Method::Also"
-  ],
-  "description": "CSS property manipulation library",
-  "license": "Artistic-2.0",
-  "name": "CSS::Properties",
-  "perl": "6.*",
-  "provides": {
-    "CSS::Box": "lib/CSS/Box.rakumod",
-    "CSS::PageBox": "lib/CSS/PageBox.rakumod",
-    "CSS::Properties": "lib/CSS/Properties.rakumod",
-    "CSS::Properties::Box": "lib/CSS/Properties/Box.rakumod",
-    "CSS::Properties::Calculator": "lib/CSS/Properties/Calculator.rakumod",
-    "CSS::Properties::Edges": "lib/CSS/Properties/Edges.rakumod",
-    "CSS::Properties::Font": "lib/CSS/Properties/Font.rakumod",
-    "CSS::Properties::PageBox": "lib/CSS/Properties/PageBox.rakumod",
-    "CSS::Properties::Property": "lib/CSS/Properties/Property.rakumod",
-    "CSS::Properties::Units": "lib/CSS/Properties/Units.rakumod",
-    "CSS::Units": "lib/CSS/Units.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/p6-css/CSS-Properties-p6.git",
-  "tags": [
-    "css"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.6.1"
-}
-,
-{
-  "depends": [
-    "CSS::Grammar:ver<0.3.5+>",
-    "Color::Names"
-  ],
-  "description": "CSS Property definition grammar and generation tools",
-  "license": "Artistic-2.0",
-  "name": "CSS::Specification",
-  "perl": "6.c",
-  "provides": {
-    "CSS::Specification": "lib/CSS/Specification.rakumod",
-    "CSS::Specification::Actions": "lib/CSS/Specification/Actions.rakumod",
-    "CSS::Specification::Build": "lib/CSS/Specification/Build.rakumod",
-    "CSS::Specification::Terms": "lib/CSS/Specification/Terms.rakumod",
-    "CSS::Specification::Terms::Actions": "lib/CSS/Specification/Terms/Actions.rakumod"
-  },
-  "source-url": "git://github.com/css-raku/CSS-Specification-raku.git",
-  "version": "0.4.8"
-}
-,
-{
-  "depends": [
-    "CSS::Grammar:ver<0.3.5+>",
-    "Color::Names",
-    "JSON::Fast"
-  ],
-  "description": "AST Serializer; compatible with CSS::Grammar and CSS::Module",
-  "license": "Artistic-2.0",
-  "name": "CSS::Writer",
-  "perl": "6.*",
-  "provides": {
-    "CSS::Writer": "lib/CSS/Writer.rakumod"
-  },
-  "source-url": "git://github.com/css-raku/CSS-Writer-raku.git",
-  "version": "0.2.6"
-}
-,
-{
   "auth": "github:CurtTilmes",
   "authors": [
     "Curt Tilmes <Curt.Tilmes@nasa.gov>"
@@ -26588,38 +26387,39 @@
     "Crust",
     "Template::Mustache",
     "MIME::Types",
-    "Log"
+    "Logger",
+    "HTTP::Status",
+    "Cookie::Baker",
+    "JSON::Fast"
   ],
-  "description": "A simple web framework for perl6",
+  "description": "A simple web framework for raku",
   "license": "Artistic-2.0",
   "name": "Hematite",
-  "perl": "6.c",
+  "perl": "6.d",
   "provides": {
-    "Hematite": "lib/Hematite.pm6",
-    "Hematite::App": "lib/Hematite/App.pm6",
-    "Hematite::Context": "lib/Hematite/Context.pm6",
-    "Hematite::Handler": "lib/Hematite/Handler.pm6",
-    "Hematite::Middleware::Static": "lib/Hematite/Middleware/Static.pm6",
-    "Hematite::Request": "lib/Hematite/Request.pm6",
-    "Hematite::Response": "lib/Hematite/Response.pm6",
-    "Hematite::Route": "lib/Hematite/Route.pm6",
-    "Hematite::Router": "lib/Hematite/Router.pm6",
-    "Hematite::Templates": "lib/Hematite/Templates.pm6",
-    "X::Hematite": "lib/X/Hematite.pm6",
-    "X::Hematite::DetachException": "lib/X/Hematite/DetachException.pm6",
-    "X::Hematite::ErrorHandlerNotFoundException": "lib/X/Hematite/ErrorHandlerNotFoundException.pm6",
-    "X::Hematite::Exception": "lib/X/Hematite/Exception.pm6",
-    "X::Hematite::HTTPException": "lib/X/Hematite/HTTPException.pm6",
-    "X::Hematite::HaltException": "lib/X/Hematite/HaltException.pm6",
-    "X::Hematite::TemplateNotFoundException": "lib/X/Hematite/TemplateNotFoundException.pm6"
+    "Hematite": "lib/Hematite.rakumod",
+    "Hematite::App": "lib/Hematite/App.rakumod",
+    "Hematite::Context": "lib/Hematite/Context.rakumod",
+    "Hematite::Handler": "lib/Hematite/Handler.rakumod",
+    "Hematite::Middleware::Static": "lib/Hematite/Middleware/Static.rakumod",
+    "Hematite::Request": "lib/Hematite/Request.rakumod",
+    "Hematite::Response": "lib/Hematite/Response.rakumod",
+    "Hematite::Route": "lib/Hematite/Route.rakumod",
+    "Hematite::Router": "lib/Hematite/Router.rakumod",
+    "Hematite::Templates": "lib/Hematite/Templates.rakumod",
+    "X::Hematite": "lib/X/Hematite.rakumod",
+    "X::Hematite::DetachException": "lib/X/Hematite/DetachException.rakumod",
+    "X::Hematite::Exception": "lib/X/Hematite/Exception.rakumod",
+    "X::Hematite::HaltException": "lib/X/Hematite/HaltException.rakumod",
+    "X::Hematite::TemplateNotFoundException": "lib/X/Hematite/TemplateNotFoundException.rakumod"
   },
   "support": {
-    "source": "https://github.com/whity/perl6-hematite.git"
+    "source": "https://github.com/whity/raku-hematite.git"
   },
   "test-depends": [
-    
+    "HTTP::UserAgent"
   ],
-  "version": "0.6.0"
+  "version": "0.7.0"
 }
 ,
 {
