@@ -97249,6 +97249,44 @@
     
   ],
   "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Raku core CSS grammars",
+  "license": "Artistic-2.0",
+  "name": "CSS::Grammar",
+  "perl": "6.c",
+  "provides": {
+    "CSS::Grammar": "lib/CSS/Grammar.rakumod",
+    "CSS::Grammar::AST": "lib/CSS/Grammar/AST.rakumod",
+    "CSS::Grammar::Actions": "lib/CSS/Grammar/Actions.rakumod",
+    "CSS::Grammar::CSS1": "lib/CSS/Grammar/CSS1.rakumod",
+    "CSS::Grammar::CSS21": "lib/CSS/Grammar/CSS21.rakumod",
+    "CSS::Grammar::CSS3": "lib/CSS/Grammar/CSS3.rakumod",
+    "CSS::Grammar::Defs": "lib/CSS/Grammar/Defs.rakumod",
+    "CSS::Grammar::Test": "lib/CSS/Grammar/Test.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Grammar-0.3.6.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.6"
+}
+,
+{
+  "auth": "github:css-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "CSS::Module:ver<0.5.3+>",
     "CSS::Writer:ver<0.2.6+>",
     "Color",
