@@ -6470,6 +6470,12 @@
 ,
 {
   "auth": "github:css-raku",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
   "depends": [
     "JSON::Fast"
   ],
@@ -6484,12 +6490,20 @@
     "CSS::Grammar::CSS1": "lib/CSS/Grammar/CSS1.rakumod",
     "CSS::Grammar::CSS21": "lib/CSS/Grammar/CSS21.rakumod",
     "CSS::Grammar::CSS3": "lib/CSS/Grammar/CSS3.rakumod",
-    "CSS::Grammar::Core": "lib/CSS/Grammar.rakumod",
     "CSS::Grammar::Defs": "lib/CSS/Grammar/Defs.rakumod",
     "CSS::Grammar::Test": "lib/CSS/Grammar/Test.rakumod"
   },
+  "resources": [
+    
+  ],
   "source-url": "git://github.com/css-raku/CSS-Grammar-raku.git",
-  "version": "0.3.5"
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.6"
 }
 ,
 {
@@ -6575,7 +6589,7 @@
 }
 ,
 {
-  "auth": "github:css-raku",
+  "auth": "cpan:WARRINGD",
   "authors": [
     "David Warring"
   ],
