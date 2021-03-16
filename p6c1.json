@@ -2513,6 +2513,68 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "A role modeling behaviors of a Language Tag!",
+  "license": "Artist-2.0",
+  "name": "Intl::LanguageTaggish",
+  "perl": "6.*",
+  "provides": {
+    "Intl::LanguageTaggish": "lib/Intl/LanguageTaggish.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/alabamenhu/IntlLanguageTaggish.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1"
+}
+,
+{
+  "auth": "git:alabamenhu",
+  "authors": [
+    "Matthew Stephen Stuckwisch"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Intl::LanguageTaggish"
+  ],
+  "description": "A simple and lightweight class implementing the LanguageTaggish role",
+  "documentation": {
+    "base-language": "en",
+    "root": "Intl::LanguageTag::Simple"
+  },
+  "license": "Artistic-2.0",
+  "name": "Intl::LanguageTag::Simple",
+  "perl": "6.*",
+  "provides": {
+    "Intl::LanguageTag::Simple": "lib/Intl/LanguageTag/Simple.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/alabamenhu/IntlLanguageTagSimple.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1"
+}
+,
+{
+  "auth": "git:alabamenhu",
+  "authors": [
+    "Matthew Stephen Stuckwisch"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Intl::CLDR:ver<0.5.1+>",
     "Intl::UserLanguage"
   ],
