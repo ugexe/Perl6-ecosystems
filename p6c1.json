@@ -222,6 +222,28 @@
     "Mark Rushing"
   ],
   "depends": [
+    "Cookie::Baker",
+    "Crust",
+    "Digest::SHA",
+    "Crust::Middleware::Session",
+    "JSON::Fast"
+  ],
+  "description": "Implements database storage role for Crust::Middleware::Session",
+  "license": "Artistic-2.0",
+  "name": "Crust::Middleware::Session::Store::DBIish",
+  "perl": "6.c",
+  "provides": {
+    "Crust::Middleware::Session::Store::DBIish": "lib/Crust/Middleware/Session/Store/DBIish.pm6"
+  },
+  "source-url": "git://github.com/adaptiveoptics/Crust-Middleware-Session-Store-DBIish.git",
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Mark Rushing"
+  ],
+  "depends": [
     "HTML::Entity"
   ],
   "description": "Generate simple, interleafable, HTML tags.",
@@ -288,6 +310,46 @@
     "File::Temp"
   ],
   "version": "0.0.5"
+}
+,
+{
+  "authors": [
+    "Mark Rushing"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Uncomplicated yet functional and terse user input",
+  "license": "Artistic-2.0",
+  "name": "Prompt::Gruff",
+  "perl": "6.c",
+  "provides": {
+    "Prompt::Gruff": "lib/Prompt/Gruff.pm6",
+    "Prompt::Gruff::Export": "lib/Prompt/Gruff/Export.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/adaptiveoptics/P6-Prompt-Gruff.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "depends": [
+    
+  ],
+  "description": "A Perl 6 module to deal with W3CDTF dates",
+  "name": "DateTime::Format::W3CDTF",
+  "perl": "6.*",
+  "provides": {
+    "DateTime::Format::W3CDTF": "lib/DateTime/Format/W3CDTF.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/afiskon/p6-datetime-format-w3cdtf.git",
+  "version": "*"
 }
 ,
 {
@@ -2410,6 +2472,43 @@
 }
 ,
 {
+  "auth": "github:alabamenhu",
+  "authors": [
+    "Matthew Stephen Stuckwisch"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Intl::CLDR",
+    "Intl::UserLanguage"
+  ],
+  "description": "A module for formatting numbers in a localized manner",
+  "license": "Artistic-2.0",
+  "name": "Intl::Format::Number",
+  "perl": "6.*",
+  "provides": {
+    "Intl::Format::Number": "lib/Intl/Format/Number.pm6",
+    "Intl::Format::Util::Digits": "lib/Intl/Format/Util/Digits.pm6"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/alabamenhu/IntlFormatNumber.git",
+  "tags": [
+    "formatting",
+    "international",
+    "localization",
+    "numbers"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.1"
+}
+,
+{
   "auth": "git:alabamenhu",
   "authors": [
     "Matthew Stephen Stuckwisch"
@@ -3166,6 +3265,38 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:AlexDaniel",
+  "authors": [
+    "Aleks-Daniel Jakimenko-Aleksejev"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A module that works on older Rakudo versions but segfaults on newer ones.",
+  "license": "GPL-3.0-or-later",
+  "name": "Foo::Regressed::Very",
+  "perl": "6.c",
+  "provides": {
+    "Foo::Regressed::Very": "lib/Foo/Regressed/Very.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/AlexDaniel/foo-regressed-very.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "authors": [
     "Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>"
   ],
@@ -3510,6 +3641,28 @@
     "Test"
   ],
   "version": "1.0.5"
+}
+,
+{
+  "authors": [
+    "github:softmoth",
+    "github:Altai-man"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku port of Perl's Text::Tabs",
+  "license": "Artistic-2.0",
+  "name": "Text::Tabs",
+  "perl": "6.c",
+  "provides": {
+    "Text::Tabs": "lib/Text/Tabs.pm6"
+  },
+  "source-url": "git://github.com/Altai-man/perl6-Text-Tabs.git",
+  "tags": [
+    "CPAN5"
+  ],
+  "version": "1.0"
 }
 ,
 {
@@ -5407,6 +5560,22 @@
     "api"
   ],
   "version": "1.1.0"
+}
+,
+{
+  "author": "Michael",
+  "depends": [
+    "WebService::HazIP",
+    "HTTP::UserAgent"
+  ],
+  "description": "Simple web service used to update an IP address on domains.google.com if the current one has changed. ",
+  "license": "Artistic-2.0",
+  "name": "WebService::GoogleDyDNS",
+  "provides": {
+    "WebService::GoogleDyDNS": "lib/WebService/GoogleDyDNS.pm6"
+  },
+  "source-url": "git://github.com/cbk/WebService-GoogleDyDNS.git",
+  "version": "1.0.0"
 }
 ,
 {
@@ -9775,6 +9944,20 @@
 }
 ,
 {
+  "depends": [
+    "File::Find"
+  ],
+  "description": "cli util that adds stuff to VCS ignore files",
+  "name": "ignore",
+  "perl": "6.*",
+  "provides": {
+    
+  },
+  "source-url": "git://github.com/Heather/ignore.git",
+  "version": "*"
+}
+,
+{
   "authors": [
     "Paweł Szulc"
   ],
@@ -9865,6 +10048,22 @@
   },
   "source-url": "git://github.com/hoelzro/p6-algorithm-lcs.git",
   "version": "0.1.0"
+}
+,
+{
+  "author": "Rob Hoelz",
+  "depends": [
+    
+  ],
+  "description": "Emulate file interface for strings",
+  "license": "MIT",
+  "name": "IO::String",
+  "perl": "6.*",
+  "provides": {
+    "IO::String": "lib/IO/String.pm"
+  },
+  "source-url": "https://github.com/hoelzro/p6-io-string.git",
+  "version": "0.1.1"
 }
 ,
 {
@@ -9968,6 +10167,61 @@
     
   ],
   "version": "0.0.4"
+}
+,
+{
+  "api": "",
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Terminal::ANSIColor",
+    "Log::Async",
+    "Libarchive",
+    "URI::Encode",
+    "LibCurl"
+  ],
+  "description": "A Package Manager for Raku",
+  "license": "Artistic-2.0",
+  "name": "Pakku",
+  "perl": "6.d",
+  "provides": {
+    "Grammar::Pakku::Cmd": "lib/Grammar/Pakku/Cmd.rakumod",
+    "Grammar::Pakku::Cnf": "lib/Grammar/Pakku/Cnf.rakumod",
+    "Grammar::Pakku::Common": "lib/Grammar/Pakku/Common.rakumod",
+    "Pakku": "lib/Pakku.rakumod",
+    "Pakku::Cache": "lib/Pakku/Cache.rakumod",
+    "Pakku::Guts": "lib/Pakku/Guts.rakumod",
+    "Pakku::Help": "lib/Pakku/Help.rakumod",
+    "Pakku::Log": "lib/Pakku/Log.rakumod",
+    "Pakku::Meta": "lib/Pakku/Meta.rakumod",
+    "Pakku::Recman": "lib/Pakku/Recman.rakumod",
+    "Pakku::Repo": "lib/Pakku/Repo.rakumod",
+    "Pakku::Spec": "lib/Pakku/Spec.rakumod",
+    "Pakku::Util": "lib/Pakku/Util.rakumod",
+    "X::Pakku": "lib/X/Pakku.rakumod"
+  },
+  "resources": [
+    "pakku.cnf"
+  ],
+  "source-url": "https://github.com/hythm7/Pakku.git",
+  "tags": [
+    "spec",
+    "meta",
+    "module",
+    "install",
+    "package",
+    "distribution",
+    "raku"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "pupa"
 }
 ,
 {
@@ -10455,6 +10709,52 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Common base components for RPGs",
+  "license": "Artistic-2.0",
+  "name": "RPG::Base",
+  "perl": "6.c",
+  "provides": {
+    "RPG::Base": "lib/RPG/Base.pm6",
+    "RPG::Base::Adventure": "lib/RPG/Base/Adventure.pm6",
+    "RPG::Base::AreaMap": "lib/RPG/Base/AreaMap.pm6",
+    "RPG::Base::Container": "lib/RPG/Base/Container.pm6",
+    "RPG::Base::Creature": "lib/RPG/Base/Creature.pm6",
+    "RPG::Base::Grouping": "lib/RPG/Base/Grouping.pm6",
+    "RPG::Base::Location": "lib/RPG/Base/Location.pm6",
+    "RPG::Base::Named": "lib/RPG/Base/Named.pm6",
+    "RPG::Base::Party": "lib/RPG/Base/Party.pm6",
+    "RPG::Base::SlottedContainer": "lib/RPG/Base/SlottedContainer.pm6",
+    "RPG::Base::StatModifier": "lib/RPG/Base/StatModifier.pm6",
+    "RPG::Base::StatsBearer": "lib/RPG/Base/StatsBearer.pm6",
+    "RPG::Base::Thing": "lib/RPG/Base/Thing.pm6",
+    "RPG::Base::ThingContainer": "lib/RPG/Base/ThingContainer.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/japhb/RPG-Base.git",
+  "tags": [
+    "RPG",
+    "Base",
+    "Adventure",
+    "Creature"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "authors": [
+    "Geoffrey Broadwell"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Terminal::ANSIColor"
   ],
   "description": "A bag of small text processing tricks",
@@ -10906,6 +11206,34 @@
   },
   "source-url": "git://github.com/JJ/raku-io-capture-simple.git",
   "version": "v0.0.1"
+}
+,
+{
+  "auth": "github:JJ",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku bindings for the kazmath library",
+  "license": "Artistic-2.0",
+  "meta-version": 1,
+  "name": "kazmath",
+  "perl": "6.d",
+  "provides": {
+    "kazmath": "lib/kazmath.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/JJ/raku-kazmath.git",
+  "tags": [
+    "modules",
+    "math",
+    "graphics"
+  ],
+  "version": "0.0.1"
 }
 ,
 {
@@ -11449,6 +11777,28 @@
   },
   "source-url": "https://github.com/jsimonet/dns-zone.git",
   "version": "0.1.2"
+}
+,
+{
+  "authors": [
+    "Julien Simonet"
+  ],
+  "depends": [
+    "PerlStore::FileStore",
+    "IRC::Client"
+  ],
+  "description": "Plugin for counting user points.",
+  "license": "Artistic-2.0",
+  "name": "IRC::Client::Plugin::UserPoints",
+  "perl": "6.c",
+  "provides": {
+    "IRC::Client::Plugin::UserPoints": "lib/IRC/Client/Plugin/UserPoints.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/jsimonet/IRC-Client-Plugin-UserPoints.git",
+  "version": "0.1.3"
 }
 ,
 {
@@ -13110,6 +13460,25 @@
 ,
 {
   "authors": [
+    "Jake Russo <madcap.russo@gmail.com>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Mangle text via libtranslate.",
+  "license": "Artistic-2.0",
+  "name": "Acme::Mangle",
+  "perl": "6",
+  "provides": {
+    "Acme::Mangle": "lib/Acme/Mangle.pm6",
+    "mangle": "bin/mangle"
+  },
+  "source-url": "git://github.com/madcapjake/Acme-Mangle",
+  "version": "v0.1.0"
+}
+,
+{
+  "authors": [
     "Jake Russo"
   ],
   "build-depends": [
@@ -13623,6 +13992,38 @@
   "source-type": "git",
   "source-url": "git://github.com/MattOates/Math--FourierTransform.git",
   "version": "0.0.1"
+}
+,
+{
+  "auth": "github:MattOates",
+  "authors": [
+    "Matt Oates <mattoates@gmail.com>",
+    "Paweł Szulc",
+    "Graham Todd"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Basic statistics modules for Perl6.",
+  "license": "Artistic-2.0",
+  "name": "Stats",
+  "perl": "6.*",
+  "provides": {
+    "Stats": "lib/Stats.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/MattOates/Stats.git",
+  "support": {
+    "bugtracker": "https://github.com/MattOates/Stats/issues",
+    "source": "git://github.com/MattOates/Stats.git"
+  },
+  "tags": [
+    "Stats",
+    "Statistics",
+    "Maths",
+    "Math"
+  ],
+  "version": "0.0.6"
 }
 ,
 {
@@ -14381,6 +14782,30 @@
     "Test"
   ],
   "version": "0.0.3"
+}
+,
+{
+  "authors": [
+    "Michael T. Wolfinger"
+  ],
+  "depends": [
+    
+  ],
+  "description": "A port of Bio::ViennaNGS to Perl6",
+  "name": "Bio::ViennaNGS",
+  "perl": "6.c",
+  "provides": {
+    "Bio::ViennaNGS::GenomicIntervals": "lib/Bio/ViennaNGS/GenomicIntervals.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/mtw/Perl6-Bio-ViennaNGS.git",
+  "support": {
+    "source": "git://github.com/mtw/Perl6-Bio-ViennaNGS.git"
+  },
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.1"
 }
 ,
 {
@@ -18322,6 +18747,28 @@
 ,
 {
   "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "Test"
+  ],
+  "description": "Display noticable messages to users during tests",
+  "license": "Artistic-2.0",
+  "name": "Test::Notice",
+  "perl": "6.c",
+  "provides": {
+    "Test::Notice": "lib/Test/Notice.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/Test-Notice.git",
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "1.001003"
+}
+,
+{
+  "authors": [
     "Zoffix Znet + JJ Merelo"
   ],
   "depends": [
@@ -20604,6 +21051,47 @@
 }
 ,
 {
+  "authors": [
+    "Vittore F. Scolari"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Temp",
+    "NativeHelpers::CBuffer"
+  ],
+  "description": "Bindings for the DRMAA cluster library",
+  "license": "GPL-3.0",
+  "name": "Scheduler::DRMAA",
+  "perl": "6.c",
+  "provides": {
+    "DRMAA": "lib/DRMAA.pm6",
+    "DRMAA::Job-template": "lib/DRMAA/Job-template.pm6",
+    "DRMAA::Native-specification": "lib/DRMAA/Native-specification.pm6",
+    "DRMAA::Native-specification::Default": "lib/DRMAA/Native-specification/Default.pm6",
+    "DRMAA::Native-specification::SLURM": "lib/DRMAA/Native-specification/SLURM.pm6",
+    "DRMAA::NativeCall": "lib/DRMAA/NativeCall.pm6",
+    "DRMAA::Session": "lib/DRMAA/Session.pm6",
+    "DRMAA::Submission": "lib/DRMAA/Submission.pm6",
+    "DRMAA::Submission::Status": "lib/DRMAA/Submission/Status.pm6",
+    "Scheduler::DRMAA": "lib/Scheduler/DRMAA.pm6",
+    "X::DRMAA": "lib/X/DRMAA.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/scovit/Scheduler-DRMAA.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "author": "github:sergot",
   "depends": [
     "Panda"
@@ -21161,6 +21649,32 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Shoichi Kaji"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Read data from =finish",
+  "name": "Data::Section::Simple",
+  "perl": "6.c",
+  "provides": {
+    "Data::Section::Simple": "lib/Data/Section/Simple.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/skaji/Data-Section-Simple.git",
+  "test-depends": [
+    
+  ],
+  "version": "*"
 }
 ,
 {
@@ -23890,6 +24404,42 @@
   "depends": [
     
   ],
+  "description": "Neural Network in Perl 6.",
+  "license": "Artistic-2.0",
+  "name": "Neural::Net",
+  "perl": "6.d",
+  "provides": {
+    "Neural::Net": "lib/Neural/Net.pm6",
+    "Neural::Net::Function": "lib/Neural/Net/Function.pm6",
+    "Neural::Net::Layer": "lib/Neural/Net/Layer.pm6",
+    "Neural::Net::Neuron": "lib/Neural/Net/Neuron.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/tmtvl/Neural-Net.git",
+  "tags": [
+    "Machine Learning",
+    "Neural Networks",
+    "Artificial Intelligence"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.0"
+}
+,
+{
+  "auth": "cpan:tmtvl",
+  "authors": [
+    "Tim Van den Langenbergh"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Generate Chinese Zodiac",
   "license": "Artistic-2.0",
   "name": "Zodiac::Chinese",
@@ -25941,7 +26491,7 @@
   "test-depends": [
     "HTTP::UserAgent"
   ],
-  "version": "0.7.0"
+  "version": "0.7.1"
 }
 ,
 {
