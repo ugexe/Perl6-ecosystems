@@ -26419,13 +26419,13 @@
     "André Brás"
   ],
   "depends": [
-    "Crust",
-    "Template::Mustache",
-    "MIME::Types",
-    "Logger",
-    "HTTP::Status",
     "Cookie::Baker",
-    "JSON::Fast"
+    "Crust",
+    "HTTP::Status",
+    "JSON::Fast",
+    "Logger",
+    "MIME::Types",
+    "Template::Mustache"
   ],
   "description": "A simple web framework for raku",
   "license": "Artistic-2.0",
@@ -26433,9 +26433,11 @@
   "perl": "6.d",
   "provides": {
     "Hematite": "lib/Hematite.rakumod",
+    "Hematite::Action": "lib/Hematite/Action.rakumod",
     "Hematite::App": "lib/Hematite/App.rakumod",
     "Hematite::Context": "lib/Hematite/Context.rakumod",
     "Hematite::Handler": "lib/Hematite/Handler.rakumod",
+    "Hematite::Middleware": "lib/Hematite/Middleware.rakumod",
     "Hematite::Middleware::Static": "lib/Hematite/Middleware/Static.rakumod",
     "Hematite::Request": "lib/Hematite/Request.rakumod",
     "Hematite::Response": "lib/Hematite/Response.rakumod",
@@ -26454,7 +26456,7 @@
   "test-depends": [
     "HTTP::UserAgent"
   ],
-  "version": "0.7.1"
+  "version": "0.7.2"
 }
 ,
 {
