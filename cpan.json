@@ -1947,35 +1947,6 @@
     "Terminal::ANSI::Virtual": "lib/Terminal/ANSI/Virtual.rakumod"
   },
   "repo-type": "git",
-  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-ANSI-0.0.14.tar.gz",
-  "tags": [
-    "Terminal"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.14"
-}
-,
-{
-  "auth": "cpan:bduggan",
-  "authors": [
-    "Brian Duggan"
-  ],
-  "depends": [
-    "OO::Monitors"
-  ],
-  "description": "ANSI escape sequences",
-  "license": "MIT",
-  "name": "Terminal::ANSI",
-  "perl": "6.d",
-  "provides": {
-    "Terminal::ANSI": "lib/Terminal/ANSI.rakumod",
-    "Terminal::ANSI::OO": "lib/Terminal/ANSI/OO.rakumod",
-    "Terminal::ANSI::State": "lib/Terminal/ANSI/State.rakumod",
-    "Terminal::ANSI::Virtual": "lib/Terminal/ANSI/Virtual.rakumod"
-  },
-  "repo-type": "git",
   "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-ANSI-0.0.15.tar.gz",
   "tags": [
     "Terminal"
@@ -7939,37 +7910,6 @@
     
   ],
   "version": "0.0.3"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "be an array without knowing how",
-  "license": "Artistic-2.0",
-  "name": "Array::Agnostic",
-  "perl": "6.c",
-  "provides": {
-    "Array::Agnostic": "lib/Array/Agnostic.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Array-Agnostic-0.0.4.tar.gz",
-  "tags": [
-    "UTILS"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
 }
 ,
 {
@@ -36200,50 +36140,6 @@
   "perl": "6.c",
   "provides": {
     "ANTLR4::Actions::Perl6": "lib/ANTLR4/Actions/Perl6.pm6",
-    "ANTLR4::Grammar": "lib/ANTLR4/Grammar.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/ANTLR4-Grammar-0.1.1.tar.gz",
-  "support": {
-    "source": "https://github.com/drforr/perl6-ANTLR4.git"
-  },
-  "tags": [
-    "ANTLR",
-    "ANTLR4",
-    "Grammar",
-    "Transform",
-    "Languages",
-    "parse",
-    "parser",
-    "parsing"
-  ],
-  "test-depends": [
-    "Test",
-    "JSON::Tiny"
-  ],
-  "version": "0.1.1"
-}
-,
-{
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Test::META"
-  ],
-  "description": "Turn ANTLR4 Grammars into Perl 6 Grammars",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "ANTLR4::Grammar",
-  "perl": "6.c",
-  "provides": {
-    "ANTLR4::Actions::Perl6": "lib/ANTLR4/Actions/Perl6.pm6",
     "ANTLR4::Grammar": "lib/ANTLR4/Grammar.pm6",
     "ANTLR4::Grammar::Parser": "lib/ANTLR4/Grammar/Parser.pm6"
   },
@@ -40650,34 +40546,6 @@
     "Test::Mock"
   ],
   "version": "0.1"
-}
-,
-{
-  "authors": [
-    "Jonathan Worthington <jnthn@jnthn.net>"
-  ],
-  "depends": [
-    "Cro::HTTP"
-  ],
-  "description": "Write tests for HTTP services (whether or not they are built with Cro).",
-  "license": "Artistic-2.0",
-  "name": "Cro::HTTP::Test",
-  "perl": "6.*",
-  "provides": {
-    "Cro::HTTP::Test": "lib/Cro/HTTP/Test.pm6",
-    "Cro::HTTP::Test::ChannelServer": "lib/Cro/HTTP/Test/ChannelServer.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-HTTP-Test-0.7.5.tar.gz",
-  "tags": [
-    "HTTP",
-    "Test",
-    "Testing",
-    "Web"
-  ],
-  "version": "0.7.5"
 }
 ,
 {
@@ -47313,48 +47181,6 @@
 }
 ,
 {
-  "auth": "github:jonathanstowe",
-  "authors": [
-    "Jonathan Stpwe <jns+gh@gellyfish.co.uk"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "LibraryCheck",
-    "NativeHelpers::Array"
-  ],
-  "description": "Binding for libsodium password hashing",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "Crypt::SodiumScrypt",
-  "perl": "6.*",
-  "provides": {
-    "Crypt::SodiumScrypt": "lib/Crypt/SodiumScrypt.pm"
-  },
-  "raku": "6.*",
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Crypt-SodiumScrypt-0.0.2.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/jonathanstowe/Crypt-SodiumScrypt/issues",
-    "email": "jns+gh@gellyfish.co.uk",
-    "source": "https://github.com/jonathanstowe/Crypt-SodiumScrypt.git"
-  },
-  "tags": [
-    "crypto",
-    "libsodium",
-    "password",
-    "scrypt"
-  ],
-  "test-depends": [
-    "LibraryCheck"
-  ],
-  "version": "0.0.2"
-}
-,
-{
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
@@ -48948,53 +48774,6 @@
     "Test"
   ],
   "version": "0.0.17"
-}
-,
-{
-  "api": "1.0",
-  "auth": "github:jonathanstowe",
-  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "authors": [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "JSON::Fast",
-    "HTTP::UserAgent",
-    "JSON::Class",
-    "JSON::Name"
-  ],
-  "description": "Infer Raku Classes from JSON input",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "JSON::Infer",
-  "perl": "6.*",
-  "provides": {
-    "JSON::Infer": "lib/JSON/Infer.pm"
-  },
-  "raku": "6.*",
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Infer-0.0.18.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/jonathanstowe/JSON-Infer/issues",
-    "email": "jns+git@gellyfish.co.uk",
-    "irc": "irc:// irc.freenode.net/#perl6",
-    "source": "https://github.com/jonathanstowe/JSON-Infer.git"
-  },
-  "tags": [
-    "object",
-    "serialisation",
-    "JSON"
-  ],
-  "test-depends": [
-    "JSON::Fast",
-    "Test"
-  ],
-  "version": "0.0.18"
 }
 ,
 {
@@ -50966,48 +50745,6 @@
     "Test"
   ],
   "version": "0.0.21"
-}
-,
-{
-  "api": "1.0",
-  "auth": "github:jonathanstowe",
-  "authors": [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "JSON::Class:ver<0.0.5+>"
-  ],
-  "description": "Work with Perl 6 META files",
-  "license": "Artistic-2.0",
-  "meta-version": "0",
-  "name": "META6",
-  "perl": "6.*",
-  "production": true,
-  "provides": {
-    "META6": "lib/META6.pm"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/META6-0.0.22.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/jonathanstowe/META6/issues",
-    "email": "jns+git@gellyfish.co.uk",
-    "source": "https://github.com/jonathanstowe/META6.git"
-  },
-  "tags": [
-    "devel",
-    "meta",
-    "utils"
-  ],
-  "test-depends": [
-    "JSON::Fast",
-    "Test"
-  ],
-  "version": "0.0.22"
 }
 ,
 {
@@ -67390,40 +67127,6 @@
     "build.yaml"
   ],
   "source-type": "git",
-  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-MsBuild-0.0.1.tar.gz",
-  "support": {
-    
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "Alexey Melezhik"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Sparrowdo"
-  ],
-  "description": "Sparrowdo module to generate VSTS yaml steps for msbuild tool",
-  "license": "NOASSERTION",
-  "name": "Sparrowdo::VSTS::YAML::MsBuild",
-  "perl": "6.*",
-  "provides": {
-    "Sparrowdo::VSTS::YAML::MsBuild": "lib/Sparrowdo/VSTS/YAML/MsBuild.pm6"
-  },
-  "resources": [
-    "build.yaml"
-  ],
-  "source-type": "git",
   "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-MsBuild-0.0.2.tar.gz",
   "support": {
     
@@ -67673,40 +67376,6 @@
     
   ],
   "version": "0.0.2"
-}
-,
-{
-  "authors": [
-    "Alexey Melezhik"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Sparrowdo"
-  ],
-  "description": "Sparrowdo module to generate VSTS yaml steps to build solution files",
-  "license": "NOASSERTION",
-  "name": "Sparrowdo::VSTS::YAML::Solution",
-  "perl": "6.*",
-  "provides": {
-    "Sparrowdo::VSTS::YAML::Solution": "lib/Sparrowdo/VSTS/YAML/Solution.pm6"
-  },
-  "resources": [
-    "build.yaml"
-  ],
-  "source-type": "git",
-  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Solution-0.0.3.tar.gz",
-  "support": {
-    
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
 }
 ,
 {
@@ -68045,42 +67714,6 @@
     
   ],
   "version": "0.0.15"
-}
-,
-{
-  "authors": [
-    "Alexey Melezhik"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Sparrowdo",
-    "Data::Dump"
-  ],
-  "description": "Sparrowdo provision for Terraform backed instances",
-  "license": "Artistic-2.0",
-  "name": "Sparrowform",
-  "perl": "6.*",
-  "provides": {
-    "Sparrowform": "lib/Sparrowform.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-type": "git",
-  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowform-0.0.2.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/melezhik/sparrowform/issues",
-    "source": "https://github.com/melezhik/sparrowform.git"
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
 }
 ,
 {
@@ -71254,36 +70887,6 @@
 ,
 {
   "authors": [
-    "Moritz Lenz"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Numeric integrator for ordinary coupled, linear differential equations",
-  "license": "Artistic-2.0",
-  "name": "Math::RungeKutta",
-  "perl": "6.*",
-  "provides": {
-    "Math::RungeKutta": "lib/Math/RungeKutta.pm"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/M/MO/MORITZ/Perl6/Math-RungeKutta-0.1.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1"
-}
-,
-{
-  "authors": [
     "moznion",
     "Wenzel P. P. Peppmeyer"
   ],
@@ -71304,36 +70907,6 @@
     
   ],
   "source-url": "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/Backtrace-AsHTML-0.0.1.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "moznion"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Utility of HTML escaping",
-  "license": "Artistic-2.0",
-  "name": "HTML::Escape",
-  "perl": "6.c",
-  "provides": {
-    "HTML::Escape": "lib/HTML/Escape.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/M/MO/MOZNION/Perl6/HTML-Escape-0.0.1.tar.gz",
   "tags": [
     
   ],
@@ -74311,24 +73884,6 @@
   "provides": {
     "Cache::Async": "lib/Cache/Async.pm6"
   },
-  "source-url": "http://www.cpan.org/authors/id/R/RO/ROBERTLE/Perl6/perl6-cache-async-0.1.3.tar.gz",
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.1.3"
-}
-,
-{
-  "authors": [
-    "Robert Lemmen"
-  ],
-  "description": "Concurrent and async cache implementation",
-  "license": "Artistic-2.0",
-  "name": "Cache::Async",
-  "perl": "6.*",
-  "provides": {
-    "Cache::Async": "lib/Cache/Async.pm6"
-  },
   "source-url": "http://www.cpan.org/authors/id/R/RO/ROBERTLE/Perl6/perl6-cache-async-0.1.5.tar.gz",
   "test-depends": [
     "Test::META"
@@ -76845,37 +76400,6 @@
     
   ],
   "version": "0.0.4"
-}
-,
-{
-  "auth": "Simon Proctor \"simon.proctor@gmail.com\"",
-  "authors": [
-    "Simon Proctor"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "File::Temp"
-  ],
-  "description": "Edit strings in an external editor. ",
-  "license": "Artistic-2.0",
-  "name": "Proc::InvokeEditor",
-  "perl": "6.c",
-  "provides": {
-    "Proc::InvokeEditor": "lib/Proc/InvokeEditor.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/S/SC/SCIMON/Perl6/Proc-InvokeEditor-0.0.5.tar.gz",
-  "tags": [
-    "cpan5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.5"
 }
 ,
 {
@@ -83303,44 +82827,6 @@
     "Test"
   ],
   "version": "0.14"
-}
-,
-{
-  "auth": null,
-  "authors": [
-    "Timo Paulssen",
-    "Tony O'Dell",
-    "Wenzel P. P. Peppmeyer",
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "A naive, fast json parser and serializer; drop-in replacement for JSON::Tiny",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "JSON::Fast",
-  "perl": "6.*",
-  "provides": {
-    "JSON::Fast": "lib/JSON/Fast.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/T/TI/TIMOTIMO/Perl6/JSON-Fast-0.15.tar.gz",
-  "support": {
-    "source": "git://github.com/timo/json_fast.git"
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.15"
 }
 ,
 {
@@ -90615,28 +90101,6 @@
   ],
   "depends": [
     "Config",
-    "Grammar::DiceRolls",
-    "IRC::Client"
-  ],
-  "description": "A plugin for IRC::Client to do D&D-style dice rolls",
-  "license": "AGPL-3.0-or-later",
-  "name": "IRC::Client::Plugin::DiceRolls",
-  "perl": "6.d",
-  "provides": {
-    "IRC::Client::Plugin::DiceRolls": "lib/IRC/Client/Plugin/DiceRolls.rakumod"
-  },
-  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/IRC-Client-Plugin-DiceRolls-0.1.0.tar.gz",
-  "version": "0.1.0"
-}
-,
-{
-  "api": "0",
-  "auth": "",
-  "authors": [
-    "Patrick Spek <p.spek@tyil.nl>"
-  ],
-  "depends": [
-    "Config",
     "Grammar::DiceRolls:ver<0.3.0>",
     "IRC::Client"
   ],
@@ -93943,34 +93407,6 @@
     "Test::When"
   ],
   "version": "0.2"
-}
-,
-{
-  "auth": "github:vrurg",
-  "authors": [
-    "Vadim Belman"
-  ],
-  "description": "Extending attribute functionality with ideas from Moo/Moose",
-  "license": "Artistic-2.0",
-  "name": "AttrX::Mooish",
-  "perl": "6.c",
-  "provides": {
-    "AttrX::Mooish": "lib/AttrX/Mooish.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/V/VR/VRURG/Perl6/AttrX-Mooish-v0.0.2.tar.gz",
-  "tags": [
-    "AttrX",
-    "Moo",
-    "Mooish",
-    "attribute",
-    "mooish",
-    "trait"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.0.2"
 }
 ,
 {
