@@ -89330,6 +89330,46 @@
 }
 ,
 {
+  "api": "3",
+  "auth": "cpan:TYIL",
+  "authors": [
+    "Patrick Spek <p.spek@tyil.work>"
+  ],
+  "depends": [
+    "Hash::Merge:version<2.0.0>",
+    "IO::Glob",
+    "IO::Path::XDG:version<0.2.0>",
+    "Log:auth<cpan:TYIL>:version<0.3.0>"
+  ],
+  "description": "Extensible library for reading and writing configuration files.",
+  "license": "LGPL-3.0-only",
+  "name": "Config",
+  "perl": "6.d",
+  "provides": {
+    "Config": "lib/Config.rakumod",
+    "Config::Parser": "lib/Config/Parser.rakumod",
+    "Config::Parser::NULL": "lib/Config/Parser/NULL.rakumod",
+    "X::Config::AbstractParser": "lib/X/Config/AbstractParser.rakumod",
+    "X::Config::FileNoExtension": "lib/X/Config/FileNoExtension.rakumod",
+    "X::Config::FileNotFound": "lib/X/Config/FileNotFound.rakumod",
+    "X::Config::MissingParser": "lib/X/Config/MissingParser.rakumod",
+    "X::Config::NotSupported": "lib/X/Config/NotSupported.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TY/TYIL/Perl6/Config-3.0.4.tar.gz",
+  "tags": [
+    "config",
+    "configuration"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "3.0.4"
+}
+,
+{
   "auth": "github:scriptkitties",
   "authors": [
     "Patrick Spek <p.spek@tyil.work>"
@@ -97119,39 +97159,6 @@
   "name": "CSS",
   "perl": "6.c",
   "provides": {
-    "CSS": "lib/CSS.pm6",
-    "CSS::Media": "lib/CSS/Media.pm6",
-    "CSS::Ruleset": "lib/CSS/Ruleset.pm6",
-    "CSS::Selectors": "lib/CSS/Selectors.pm6",
-    "CSS::Stylesheet": "lib/CSS/Stylesheet.pm6",
-    "CSS::TagSet": "lib/CSS/TagSet.pm6",
-    "CSS::TagSet::XHTML": "lib/CSS/TagSet/XHTML.pm6"
-  },
-  "resources": [
-    "xhtml.css"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.3.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath",
-    "css"
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "depends": [
-    "LibXML",
-    "CSS::Module",
-    "CSS::Properties:ver<0.5.0+>",
-    "CSS::Selector::To::XPath"
-  ],
-  "description": "CSS Stylesheet processing",
-  "license": "Artistic-2.0",
-  "name": "CSS",
-  "perl": "6.c",
-  "provides": {
     "CSS": "lib/CSS.rakumod",
     "CSS::Media": "lib/CSS/Media.rakumod",
     "CSS::Ruleset": "lib/CSS/Ruleset.rakumod",
@@ -98946,49 +98953,6 @@
   "resources": [
     "libraries/xslt6"
   ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/LibXSLT-0.0.4.tar.gz",
-  "tags": [
-    "xml",
-    "xslt"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
-}
-,
-{
-  "auth": "github:p6-xml",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake",
-    "Pod::To::Markdown"
-  ],
-  "depends": [
-    "LibXML:ver<0.1.7+>",
-    "Method::Also"
-  ],
-  "description": "LibXSLT - Interface to the GNOME libxslt library",
-  "license": "Artistic-2.0",
-  "name": "LibXSLT",
-  "perl": "6",
-  "provides": {
-    "LibXSLT": "lib/LibXSLT.pm6",
-    "LibXSLT::Config": "lib/LibXSLT/Config.pm6",
-    "LibXSLT::Document": "lib/LibXSLT/Document.pm6",
-    "LibXSLT::Enums": "lib/LibXSLT/Enums.pm6",
-    "LibXSLT::ExtensionContext": "lib/LibXSLT/ExtensionContext.pm6",
-    "LibXSLT::Native": "lib/LibXSLT/Native.pm6",
-    "LibXSLT::Native::Defs": "lib/LibXSLT/Native/Defs.pm6",
-    "LibXSLT::Security": "lib/LibXSLT/Security.pm6",
-    "LibXSLT::Stylesheet": "lib/LibXSLT/Stylesheet.pm6",
-    "LibXSLT::TransformContext": "lib/LibXSLT/TransformContext.pm6"
-  },
-  "resources": [
-    "libraries/xslt6"
-  ],
   "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/LibXSLT-0.0.5.tar.gz",
   "tags": [
     "xml",
@@ -99717,72 +99681,6 @@
     "Base64::Native",
     "Color",
     "Compress::Zlib::Raw",
-    "Font::AFM",
-    "Native::Packing",
-    "Method::Also",
-    "JSON::Fast",
-    "PDF:ver<0.4.5+>",
-    "PDF::Grammar"
-  ],
-  "description": "PDF content related classes; including text, images, fonts and graphics",
-  "license": "Artistic-2.0",
-  "name": "PDF::Content",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Content": "lib/PDF/Content.rakumod",
-    "PDF::Content::Color": "lib/PDF/Content/Color.rakumod",
-    "PDF::Content::Font": "lib/PDF/Content/Font.rakumod",
-    "PDF::Content::Font::CoreFont": "lib/PDF/Content/Font/CoreFont.rakumod",
-    "PDF::Content::Font::Enc::Glyphic": "lib/PDF/Content/Font/Enc/Glyphic.rakumod",
-    "PDF::Content::Font::Enc::Type1": "lib/PDF/Content/Font/Enc/Type1.rakumod",
-    "PDF::Content::Font::Encodings": "lib/PDF/Content/Font/Encodings.rakumod",
-    "PDF::Content::Fontish": "lib/PDF/Content/Fontish.rakumod",
-    "PDF::Content::Graphics": "lib/PDF/Content/Graphics.rakumod",
-    "PDF::Content::Image": "lib/PDF/Content/Image.rakumod",
-    "PDF::Content::Image::GIF": "lib/PDF/Content/Image/GIF.rakumod",
-    "PDF::Content::Image::JPEG": "lib/PDF/Content/Image/JPEG.rakumod",
-    "PDF::Content::Image::PDF": "lib/PDF/Content/Image/PDF.rakumod",
-    "PDF::Content::Image::PNG": "lib/PDF/Content/Image/PNG.rakumod",
-    "PDF::Content::Interface": "lib/PDF/Content/Interface.rakumod",
-    "PDF::Content::Matrix": "lib/PDF/Content/Matrix.rakumod",
-    "PDF::Content::Ops": "lib/PDF/Content/Ops.rakumod",
-    "PDF::Content::Page": "lib/PDF/Content/Page.rakumod",
-    "PDF::Content::PageNode": "lib/PDF/Content/PageNode.rakumod",
-    "PDF::Content::PageTree": "lib/PDF/Content/PageTree.rakumod",
-    "PDF::Content::ResourceDict": "lib/PDF/Content/ResourceDict.rakumod",
-    "PDF::Content::Resourced": "lib/PDF/Content/Resourced.rakumod",
-    "PDF::Content::Tag": "lib/PDF/Content/Tag.rakumod",
-    "PDF::Content::Text::Block": "lib/PDF/Content/Text/Block.rakumod",
-    "PDF::Content::Text::Line": "lib/PDF/Content/Text/Line.rakumod",
-    "PDF::Content::Text::Style": "lib/PDF/Content/Text/Style.rakumod",
-    "PDF::Content::XObject": "lib/PDF/Content/XObject.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Content-0.4.10.tar.gz",
-  "tags": [
-    "pdf"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.4.10"
-}
-,
-{
-  "api": "PDF-1.7",
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Base64::Native",
-    "Color",
-    "Compress::Zlib::Raw",
     "Font::AFM:ver<1.24.4+>",
     "Native::Packing",
     "Method::Also",
@@ -99969,53 +99867,6 @@
     
   ],
   "version": "0.4.13"
-}
-,
-{
-  "api": "PDF-1.7",
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "PDF::Lite",
-    "PDF::Content",
-    "Font::FreeType:ver<0.3.5+>",
-    "PDF",
-    "Native::Packing"
-  ],
-  "description": "Font loading and embedding for the PDF tool-chain",
-  "license": "Artistic-2.0",
-  "name": "PDF::Font::Loader",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Font::Loader": "lib/PDF/Font/Loader.rakumod",
-    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.rakumod",
-    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.rakumod",
-    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.rakumod",
-    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.rakumod",
-    "PDF::Font::Loader::Enc::Identity": "lib/PDF/Font/Loader/Enc/Identity.rakumod",
-    "PDF::Font::Loader::Enc::Identity-H": "lib/PDF/Font/Loader/Enc/Identity-H.rakumod",
-    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.rakumod",
-    "PDF::Font::Loader::FreeType": "lib/PDF/Font/Loader/FreeType.rakumod",
-    "PDF::Font::Loader::Type1": "lib/PDF/Font/Loader/Type1.rakumod",
-    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.3.1.tar.gz",
-  "tags": [
-    "pdf",
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.3.1"
 }
 ,
 {
