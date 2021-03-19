@@ -2408,40 +2408,6 @@
 }
 ,
 {
-  "auth": "git:alabamenhu",
-  "authors": [
-    "Matthew Stephen Stuckwisch"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Intl::CLDR:ver<0.5+>",
-    "Intl::UserLanguage",
-    "DateTime::Timezones:ver<0.3.5+>"
-  ],
-  "description": "A module to format time in a localized manner",
-  "license": "Artistic-2.0",
-  "name": "Intl::Format::DateTime",
-  "perl": "6.*",
-  "provides": {
-    "Formatters": "lib/Formatters.pm6",
-    "Intl::Format::DateTime": "lib/Intl/Format/DateTime.pm6",
-    "Intl::Format::DateTime::Constants": "lib/Intl/Format/DateTime::Constants.rakumod",
-    "Intl::Format::DateTime::FieldMeta": "lib/Intl/Format/DateTime::FieldMeta.rakumod",
-    "Intl::Format::DateTime::Formatters": "lib/Intl/Format/DateTime::Formatters.pm6"
-  },
-  "resources": [
-    "metazones.data"
-  ],
-  "source-url": "git://github.com/alabamenhu/IntlFormatDateTime.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.2.0"
-}
-,
-{
   "auth": "github:alabamenhu",
   "authors": [
     "Matthew Stephen Stuckwisch"
@@ -10518,20 +10484,6 @@
 ,
 {
   "depends": [
-    "Path::Util"
-  ],
-  "description": "store data in ini files",
-  "name": "Ini::Storage",
-  "perl": "6.*",
-  "provides": {
-    "Ini::Storage": "lib/Ini/Storage.pm"
-  },
-  "source-url": "git://github.com/jaffa4/inistorage.git",
-  "version": "0.8"
-}
-,
-{
-  "depends": [
     
   ],
   "description": "Support for logging",
@@ -11430,24 +11382,6 @@
 }
 ,
 {
-  "author": "Jonathan Worthington <jnthn@jnthn.net>",
-  "depends": [
-    
-  ],
-  "description": "MoarVM heap snapshot analysis tool",
-  "license": "Artistic-2.0",
-  "name": "App::MoarVM::HeapAnalyzer",
-  "perl": "6.*",
-  "provides": {
-    "App::MoarVM::HeapAnalyzer::Model": "lib/App/MoarVM/HeapAnalyzer/Model.pm6",
-    "App::MoarVM::HeapAnalyzer::Shell": "lib/App/MoarVM/HeapAnalyzer/Shell.pm6",
-    "moar-ha": "bin/moar-ha"
-  },
-  "source-url": "git://github.com/jnthn/p6-app-moarvm-heapanalyzer.git",
-  "version": "0.1"
-}
-,
-{
   "author": "Jonathan Worthington",
   "depends": [
     
@@ -11604,21 +11538,6 @@
   "repo-type": "git",
   "source-url": "git://github.com/jnthn/p6-test-io-socket-async.git",
   "version": "0.1"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "An implementation of the Perl 6 Scheduler role with virtualized time.",
-  "license": "Artistic-2.0",
-  "name": "Test::Scheduler",
-  "perl": "6.c",
-  "provides": {
-    "Test::Scheduler": "lib/Test/Scheduler.pm6"
-  },
-  "source-url": "git://github.com/jnthn/p6-test-scheduler.git",
-  "version": "1.1"
 }
 ,
 {
@@ -17986,29 +17905,6 @@
 ,
 {
   "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Convert lists into linguistic conjunctions and fill them into a template",
-  "license": "Artistic-2.0",
-  "name": "Lingua::Conjunction",
-  "perl": "6.c",
-  "provides": {
-    "Lingua::Conjunction": "lib/Lingua/Conjunction.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/Lingua-Conjunction.git"
-  },
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001001"
-}
-,
-{
-  "authors": [
     "John Spurr"
   ],
   "depends": [
@@ -22749,31 +22645,6 @@
 }
 ,
 {
-  "authors": [
-    "Tadeusz “tadzik” Sośnierz"
-  ],
-  "depends": [
-    "Module::Toolkit",
-    "Shell::Command",
-    "File::Temp",
-    "JSON::Fast",
-    "Getopt::Type"
-  ],
-  "description": "A tiny module installer",
-  "name": "App::redpanda",
-  "perl": "6.c",
-  "provides": {
-    
-  },
-  "source-url": "git://github.com/tadzik/App-redpanda.git",
-  "support": {
-    "bugtracker": "https://github.com/tadzik/App-redpanda/issues",
-    "source": "git://github.com/tadzik/App-redpanda.git"
-  },
-  "version": "0.1"
-}
-,
-{
   "depends": [
     
   ],
@@ -24583,24 +24454,6 @@
   "authors": [
     "Tokuhiro Matsuno"
   ],
-  "depends": [
-    "JSON::Fast"
-  ],
-  "description": "low level multipart/form-data parser",
-  "license": "Artistic-2.0",
-  "name": "HTTP::MultiPartParser",
-  "perl": "6",
-  "provides": {
-    "HTTP::MultiPartParser": "lib/HTTP/MultiPartParser.pm6"
-  },
-  "source-url": "git://github.com/tokuhirom/p6-HTTP-MultiPartParser.git",
-  "version": "*"
-}
-,
-{
-  "authors": [
-    "Tokuhiro Matsuno"
-  ],
   "build-depends": [
     
   ],
@@ -24970,28 +24823,6 @@
     "source": "git://github.com/tony-o/perl6-event-emitter.git"
   },
   "version": "1.0.3"
-}
-,
-{
-  "auth": "zef:tony-o",
-  "authors": [
-    "Tony O'Dell"
-  ],
-  "depends": [
-    "Event::Emitter"
-  ],
-  "description": "Inter-process event emitter for Event::Emitter.",
-  "name": "Event::Emitter::Inter-Process",
-  "perl": "6.*",
-  "provides": {
-    "Event::Emitter::Inter-Process": "lib/Event/Emitter/Inter-Process.pm6"
-  },
-  "source-url": "git://github.com/tony-o/perl6-event-emitter-interprocess.git",
-  "support": {
-    "bugtracker": "https://github.com/tony-o/perl6-event-emitter-interprocess/issues",
-    "source": "git://github.com/tony-o/perl6-event-emitter-interprocess.git"
-  },
-  "version": "1.0.1"
 }
 ,
 {
