@@ -967,6 +967,36 @@
 }
 ,
 {
+  "auth": "github:atroxaper",
+  "authors": [
+    "Mikhail Khorkov"
+  ],
+  "depends": [
+    "LogP6"
+  ],
+  "description": "LogP6 writer for systemd's journald service.",
+  "license": "Artistic-2.0",
+  "name": "LogP6-Writer-Journald",
+  "perl": "6.d",
+  "provides": {
+    "LogP6::Writer::Journald": "lib/LogP6/Writer/Journald.pm6",
+    "LogP6::WriterConf::Journald": "lib/LogP6/WriterConf/Journald.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/A/AT/ATROXAPER/Perl6/LogP6-Writer-Journald-1.3.3.tar.gz",
+  "tags": [
+    "LOG",
+    "LOGGING",
+    "LOGGER",
+    "SYSTEMD",
+    "JOURNALD"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.3.3"
+}
+,
+{
   "api": "1",
   "auth": "github:atroxaper",
   "authors": [
@@ -1210,6 +1240,30 @@
   "authors": [
     "Ahmad M. Zawawi"
   ],
+  "description": "SDL2 with some OO-sugar.",
+  "license": "MIT",
+  "name": "SDL2",
+  "perl": "6.c",
+  "provides": {
+    "SDL2::Renderer": "lib/SDL2/Renderer.pm6",
+    "SDL2::Window": "lib/SDL2/Window.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/SDL2-0.0.1.tar.gz",
+  "test-depends": [
+    "Test",
+    "SDL2::Raw"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:azawawi",
+  "authors": [
+    "Ahmad M. Zawawi"
+  ],
   "depends": [
     "HTTP::UserAgent"
   ],
@@ -1228,6 +1282,50 @@
     "apache",
     "java",
     "tika"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "auth": "github:azawawi",
+  "authors": [
+    "Ahmad M. Zawawi"
+  ],
+  "description": "Use Discourse REST API in Perl 6",
+  "license": "MIT",
+  "name": "WebService::Discourse",
+  "perl": "6.c",
+  "provides": {
+    "WebService::Discourse": "lib/WebService/Discourse.pm6",
+    "WebService::Discourse::ApiKey": "lib/WebService/Discourse/ApiKey.pm6",
+    "WebService::Discourse::Backups": "lib/WebService/Discourse/Backups.pm6",
+    "WebService::Discourse::Badges": "lib/WebService/Discourse/Badges.pm6",
+    "WebService::Discourse::Categories": "lib/WebService/Discourse/Categories.pm6",
+    "WebService::Discourse::Dashboard": "lib/WebService/Discourse/Dashboard.pm6",
+    "WebService::Discourse::Email": "lib/WebService/Discourse/Email.pm6",
+    "WebService::Discourse::Groups": "lib/WebService/Discourse/Groups.pm6",
+    "WebService::Discourse::Invite": "lib/WebService/Discourse/Invite.pm6",
+    "WebService::Discourse::Notifications": "lib/WebService/Discourse/Notifications.pm6",
+    "WebService::Discourse::Posts": "lib/WebService/Discourse/Posts.pm6",
+    "WebService::Discourse::PrivateMessages": "lib/WebService/Discourse/PrivateMessages.pm6",
+    "WebService::Discourse::SSO": "lib/WebService/Discourse/SSO.pm6",
+    "WebService::Discourse::Search": "lib/WebService/Discourse/Search.pm6",
+    "WebService::Discourse::SiteSettings": "lib/WebService/Discourse/SiteSettings.pm6",
+    "WebService::Discourse::Tags": "lib/WebService/Discourse/Tags.pm6",
+    "WebService::Discourse::Topics": "lib/WebService/Discourse/Topics.pm6",
+    "WebService::Discourse::Uploads": "lib/WebService/Discourse/Uploads.pm6",
+    "WebService::Discourse::UserActions": "lib/WebService/Discourse/UserActions.pm6",
+    "WebService::Discourse::Users": "lib/WebService/Discourse/Users.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/A/AZ/AZAWAWI/Perl6/WebService-Discourse-0.1.0.tar.gz",
+  "tags": [
+    "WebService",
+    "Discourse",
+    "REST",
+    "API"
   ],
   "test-depends": [
     "Test"
@@ -3414,6 +3512,39 @@
   "test-depends": [
     "Test::When",
     "Test::META"
+  ],
+  "version": "0.1"
+}
+,
+{
+  "authors": [
+    "Curt Tilmes <Curt.Tilmes@nasa.gov>"
+  ],
+  "depends": [
+    "GraphQL",
+    "Cro::HTTP::Router",
+    "Cro::Transform",
+    "Cro::HTTP::Request",
+    "Cro::HTTP::Response"
+  ],
+  "description": "Perl6 GraphQL Cro helpers",
+  "license": "NASA-1.3",
+  "name": "CroX::HTTP::Transform::GraphQL",
+  "perl": "6.*",
+  "provides": {
+    "CroX::HTTP::Transform::GraphQL": "lib/CroX/HTTP/Transform/GraphQL.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTILMES/Perl6/CroX-HTTP-Transform-GraphQL-0.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/CurtTilmes/perl6-graphql-cro/issues",
+    "source": "https://github.com/CurtTilmes/perl6-graphql-cro.git"
+  },
+  "tags": [
+    "GraphQL"
+  ],
+  "test-depends": [
+    "Test::META",
+    "Test::When"
   ],
   "version": "0.1"
 }
@@ -7913,6 +8044,37 @@
   "depends": [
     
   ],
+  "description": "adverb for ejecting elements",
+  "license": "Artistic-2.0",
+  "name": "Adverb::Eject",
+  "perl": "6.c",
+  "provides": {
+    "Adverb::Eject": "lib/Adverb/Eject.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Adverb-Eject-0.0.1.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "be an array without knowing how",
   "license": "Artistic-2.0",
   "name": "Array::Agnostic",
@@ -7962,6 +8124,37 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "be an array without knowing how",
+  "license": "Artistic-2.0",
+  "name": "Array::Agnostic",
+  "perl": "6.c",
+  "provides": {
+    "Array::Agnostic": "lib/Array/Agnostic.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Array-Agnostic-0.0.3.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
@@ -9970,6 +10163,37 @@
   "depends": [
     
   ],
+  "description": "provide a hash with native integer keys",
+  "license": "Artistic-2.0",
+  "name": "Hash::int",
+  "perl": "6.d",
+  "provides": {
+    "Hash::int": "lib/Hash/int.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-int-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Roles for automatically mapping keys in hashes",
   "license": "Artistic-2.0",
   "name": "Hash-with",
@@ -11291,6 +11515,37 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Map-Agnostic-0.0.2.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Hash::Agnostic:ver<0.0.4>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "be a map without knowing how",
+  "license": "Artistic-2.0",
+  "name": "Map::Agnostic",
+  "perl": "6.c",
+  "provides": {
+    "Map::Agnostic": "lib/Map/Agnostic.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Map-Agnostic-0.0.3.tar.gz",
   "tags": [
     "UTILS"
@@ -11646,6 +11901,37 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "add \"is also\" trait to Methods",
+  "license": "Artistic-2.0",
+  "name": "Method::Also",
+  "perl": "6.c",
+  "provides": {
+    "Method::Also": "lib/Method/Also.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Method-Also-0.0.2.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
@@ -17319,6 +17605,38 @@
   "depends": [
     
   ],
+  "description": "Implement Perl 5's substr() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5substr",
+  "perl": "6.c",
+  "provides": {
+    "P5substr": "lib/P5substr.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5substr-0.0.4.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl's substr() built-in",
   "license": "Artistic-2.0",
   "name": "P5substr",
@@ -18411,6 +18729,37 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "trait for memoizing calls to subroutines",
+  "license": "Artistic-2.0",
+  "name": "Sub::Memoized",
+  "perl": "6.c",
+  "provides": {
+    "Sub::Memoized": "lib/Sub/Memoized.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sub-Memoized-0.0.3.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
@@ -19544,6 +19893,38 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Time-gmtime-0.0.2.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5localtime"
+  ],
+  "description": "Port of Perl 5's Time::gmtime",
+  "license": "Artistic-2.0",
+  "name": "Time::gmtime",
+  "perl": "6.c",
+  "provides": {
+    "Time::gmtime": "lib/Time/gmtime.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Time-gmtime-0.0.3.tar.gz",
   "tags": [
     "UTILS",
@@ -19617,6 +19998,38 @@
     
   ],
   "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5localtime:ver<0.0.8>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "Raku port of Perl's Time::gmtime module",
+  "license": "Artistic-2.0",
+  "name": "Time::gmtime",
+  "perl": "6.c",
+  "provides": {
+    "Time::gmtime": "lib/Time/gmtime.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Time-gmtime-0.0.6.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
 }
 ,
 {
@@ -27667,6 +28080,40 @@
 }
 ,
 {
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    "HTTP::UserAgent"
+  ],
+  "depends": [
+    "NativeCall"
+  ],
+  "description": "Raw interface to libarchive",
+  "license": "Artistic-2.0",
+  "name": "Archive::Libarchive::Raw",
+  "perl": "6.c",
+  "provides": {
+    "Archive::Libarchive::Constants": "lib/Archive/Libarchive/Constants.rakumod",
+    "Archive::Libarchive::Raw": "lib/Archive/Libarchive/Raw.rakumod"
+  },
+  "resources": [
+    "libarchive.dll"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Archive-Libarchive-Raw-0.1.0.tar.gz",
+  "tags": [
+    "archive",
+    "libarchive",
+    "compression",
+    "nativecall"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.0"
+}
+,
+{
   "auth": "cpan:FRITH",
   "authors": [
     "Fernando Santagata"
@@ -30287,6 +30734,73 @@
     
   ],
   "depends": [
+    "AWS::Session",
+    "Cro::HTTP",
+    "HTTP::UserAgent",
+    "JSON::Fast",
+    "WebService::AWS::Auth::V4",
+    "String::CRC32"
+  ],
+  "description": "Low-level access to the DynamoDB API",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Amazon::DynamoDB",
+  "perl": "6.c",
+  "provides": {
+    "Amazon::DynamoDB": "lib/Amazon/DynamoDB.pm6",
+    "Amazon::DynamoDB::UA": "lib/Amazon/DynamoDB/UA.pm6",
+    "Amazon::DynamoDB::UA::AutoUA": "lib/Amazon/DynamoDB/UA.pm6",
+    "Amazon::DynamoDB::UA::Cro": "lib/Amazon/DynamoDB/UA/Cro.pm6",
+    "Amazon::DynamoDB::UA::HTTP::UserAgent": "lib/Amazon/DynamoDB/UA/HTTP/UserAgent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Amazon-DynamoDB-0.4.0.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/Amazon-DynamoDB.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.4.0"
+}
+,
+{
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "An array in a hash in an array... like a turducken",
+  "license": "Artistic-2.0",
+  "name": "ArrayHash",
+  "perl": "6.c",
+  "provides": {
+    "ArrayHash": "lib/ArrayHash.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ArrayHash-0.3.tar.gz",
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.3"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "An array in a hash in an array... like a turducken",
@@ -30312,6 +30826,78 @@
     "Test::META"
   ],
   "version": "0.4.1"
+}
+,
+{
+  "auth": null,
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "An array in a hash in an array... like a turducken",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "ArrayHash",
+  "perl": "6.c",
+  "provides": {
+    "ArrayHash": "lib/ArrayHash.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ArrayHash-0.4.tar.gz",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.4"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "An array in a hash in an array... like a turducken",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "ArrayHash",
+  "perl": "6.c",
+  "provides": {
+    "ArrayHash": "lib/ArrayHash.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ArrayHash-1.0.0.tar.gz",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "1.0.0"
 }
 ,
 {
@@ -30355,6 +30941,94 @@
     "Test::META"
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": null,
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Simple Authentication and Security Layer",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Auth::SASL",
+  "perl": "6.c",
+  "provides": {
+    "Auth::SASL": "lib/Auth/SASL.pm6",
+    "Auth::SASL::Factory": "lib/Auth/SASL/Factory.pm6",
+    "Auth::SASL::Mechanism": "lib/Auth/SASL/Mechanism.pm6",
+    "Auth::SASL::Raku": "lib/Auth/SASL/Raku.pm6",
+    "Auth::SASL::Raku::Anonymous": "lib/Auth/SASL/Raku/Anonymous.pm6",
+    "Auth::SASL::Raku::Mechanism": "lib/Auth/SASL/Raku/Mechanism.pm6",
+    "Auth::SASL::Raku::Plain": "lib/Auth/SASL/Raku/Plain.pm6",
+    "Auth::SASL::Session": "lib/Auth/SASL/Session.pm6",
+    "X::Auth::SASL": "lib/X/Auth/SASL.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Auth-SASL-0.1.0.tar.gz",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "auth": null,
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Simple Authentication and Security Layer",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Auth::SASL",
+  "perl": "6.c",
+  "provides": {
+    "Auth::SASL": "lib/Auth/SASL.pm6",
+    "Auth::SASL::Factory": "lib/Auth/SASL/Factory.pm6",
+    "Auth::SASL::Mechanism": "lib/Auth/SASL/Mechanism.pm6",
+    "Auth::SASL::Raku": "lib/Auth/SASL/Raku.pm6",
+    "Auth::SASL::Raku::Anonymous": "lib/Auth/SASL/Raku/Anonymous.pm6",
+    "Auth::SASL::Raku::Mechanism": "lib/Auth/SASL/Raku/Mechanism.pm6",
+    "Auth::SASL::Raku::Plain": "lib/Auth/SASL/Raku/Plain.pm6",
+    "Auth::SASL::Session": "lib/Auth/SASL/Session.pm6",
+    "X::Auth::SASL": "lib/X/Auth/SASL.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Auth-SASL-0.1.1.tar.gz",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.1.1"
 }
 ,
 {
@@ -31305,6 +31979,45 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Headers-0.4.0.tar.gz",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.4.0"
+}
+,
+{
+  "auth": null,
+  "authors": [
+    "Andrew Sterling Hanenkamp"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Tools for working with HTTP message headers",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "HTTP::Headers",
+  "perl": "6.c",
+  "provides": {
+    "HTTP::Header": "lib/HTTP/Headers.pm6",
+    "HTTP::Header::Custom": "lib/HTTP/Headers.pm6",
+    "HTTP::Header::Standard": "lib/HTTP/Headers.pm6",
+    "HTTP::Header::Standard::Content-Type": "lib/HTTP/Headers.pm6",
+    "HTTP::Headers": "lib/HTTP/Headers.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Headers-0.5.0.tar.gz",
   "support": {
     "source": null
@@ -31316,6 +32029,37 @@
     
   ],
   "version": "0.5.0"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Tiny helper for making multipart/form-data documents",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "HTTP::Request::FormData",
+  "perl": "6.c",
+  "provides": {
+    "HTTP::Request::FormData": "lib/HTTP/Request/FormData.pm6",
+    "HTTP::Request::FormData::Part": "lib/HTTP/Request/FormData.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/HTTP-Request-FormData-0.1.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/HTTP-Request-FormData.git"
+  },
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.1"
 }
 ,
 {
@@ -32557,6 +33301,53 @@
     
   ],
   "depends": [
+    "DBIish"
+  ],
+  "description": "An ORM built on DBIish",
+  "license": null,
+  "meta-version": "0",
+  "name": "ModelDB",
+  "perl": "6.d",
+  "provides": {
+    "MetamodelX::DBModelHOW": "lib/MetamodelX/DBModelHOW.pm6",
+    "ModelDB": "lib/ModelDB.pm6",
+    "ModelDB::Collection": "lib/ModelDB/Collection.pm6",
+    "ModelDB::Column": "lib/ModelDB/Column.pm6",
+    "ModelDB::Connector": "lib/ModelDB/Connector.pm6",
+    "ModelDB::Model": "lib/ModelDB/Model.pm6",
+    "ModelDB::ModelBuilder": "lib/ModelDB/ModelBuilder.pm6",
+    "ModelDB::Object": "lib/ModelDB/Object.pm6",
+    "ModelDB::RelationshipSetup": "lib/ModelDB/RelationshipSetup.pm6",
+    "ModelDB::Schema": "lib/ModelDB/Schema.pm6",
+    "ModelDB::SchemaBuilder": "lib/ModelDB/SchemaBuilder.pm6",
+    "ModelDB::Table": "lib/ModelDB/Table.pm6",
+    "ModelDB::TableBuilder": "lib/ModelDB/TableBuilder.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ModelDB-0.6.0.tar.gz",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.6.0"
+}
+,
+{
+  "auth": null,
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Auth::SASL",
     "Base64",
     "IO::Socket::Async::SSL"
@@ -32815,6 +33606,62 @@
     
   ],
   "version": "0.5.1"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Prometheus instrumentation client for Perl 6",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Prometheus::Client",
+  "perl": "6.c",
+  "provides": {
+    "Prometheus::Client": "lib/Prometheus/Client.pm6",
+    "Prometheus::Client::CollectorRegistry": "lib/Prometheus/Client.pm6",
+    "Prometheus::Client::Exporter": "lib/Prometheus/Client/Exporter.pm6",
+    "Prometheus::Client::Exposition": "lib/Prometheus/Client/Exposition.pm6",
+    "Prometheus::Client::Instrument": "lib/Prometheus/Client.pm6",
+    "Prometheus::Client::Instrument::Timed": "lib/Prometheus/Client.pm6",
+    "Prometheus::Client::Instrument::TrackInProgress": "lib/Prometheus/Client.pm6",
+    "Prometheus::Client::Metrics": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Base": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Collector": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Counter": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Descriptor": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Factory": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Gauge": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Group": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Histogram": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Info": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Metric": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Sample": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::StateSet": "lib/Prometheus/Client/Metrics.pm6",
+    "Prometheus::Client::Metrics::Summary": "lib/Prometheus/Client/Metrics.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/Prometheus-Client-0.0.1.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/p6-Prometheus-Client.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.0.1"
 }
 ,
 {
@@ -33956,6 +34803,43 @@
 {
   "auth": "github:zostay",
   "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Universally Unique Lexicoraphically Sortable Identifiers for Perl 6",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "ULID",
+  "perl": "6.c",
+  "provides": {
+    "ULID": "lib/ULID.pm6",
+    "X::ULID": "lib/ULID.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HA/HANENKAMP/Perl6/ULID-0.1.0.tar.gz",
+  "support": {
+    "source": "git://github.com/zostay/p6-ULID.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
     "Andrew Sterling Hanenkamp <hanenkamp@cpan.org>"
   ],
   "depends": [
@@ -34280,6 +35164,37 @@
     "Test::META"
   ],
   "version": "1.001001"
+}
+,
+{
+  "auth": "github:",
+  "authors": [
+    "Markus 'Holli' Holzer"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A personal history for any scalar",
+  "license": "BSD-3",
+  "name": "Scalar::History",
+  "perl": "6.c",
+  "provides": {
+    "Scalar::History": "lib/Scalar/History.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/H/HO/HOLLI/Perl6/Scalar-History-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
 }
 ,
 {
@@ -34897,6 +35812,43 @@
     "Test::META"
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:JFORGET",
+  "authors": [
+    "Jean Forget"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "List::MoreUtils",
+    "Date::Calendar::Strftime"
+  ],
+  "description": "Conversions from / to the Hebrew calendar",
+  "license": "Artistic-2.0",
+  "name": "Date::Calendar::Hebrew",
+  "perl": "6.c",
+  "provides": {
+    "Date::Calendar::Hebrew": "lib/Date/Calendar/Hebrew.pm6",
+    "Date::Calendar::Hebrew::Names": "lib/Date/Calendar/Hebrew/Names.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-Hebrew-0.0.3.tar.gz",
+  "support": {
+    "email": "JFORGET@cpan.org"
+  },
+  "tags": [
+    "date",
+    "calendar"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.3"
 }
 ,
 {
@@ -36007,6 +36959,39 @@
   "provides": {
     "CommonMark": "lib/CommonMark.pm6"
   },
+  "source-url": "http://www.cpan.org/authors/id/J/JG/JGOFF/Perl6/CommonMark-0.0.3.tgz",
+  "support": {
+    "source": "https://github.com/drforr/perl6-CommonMark.git"
+  },
+  "tags": [
+    "CommonMark",
+    "Markdown"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:drforr",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Interface to the CommonMark library",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "CommonMark",
+  "perl": "6.c",
+  "provides": {
+    "CommonMark": "lib/CommonMark.pm6"
+  },
   "resources": [
     
   ],
@@ -36922,6 +37907,47 @@
   ],
   "depends": [
     "Getopt::Long",
+    "Timer::Stopwatch",
+    "Text::ShellWords"
+  ],
+  "description": "A command line utility to execute commands on filesystem changes",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "App::Lorea",
+  "perl": "6.*",
+  "provides": {
+    "App::Lorea": "lib/App/Lorea.rakumod",
+    "App::Lorea::Command": "lib/App/Lorea/Command.rakumod",
+    "App::Lorea::Watcher": "lib/App/Lorea/Watcher.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/App-Lorea-0.1.0.tar.gz",
+  "support": {
+    "bugtracker": "https://gitlab.com/jjatria/lorea/-/issues",
+    "email": "jjatria@cpan.org",
+    "source": "git://gitlab.com/jjatria/lorea.git"
+  },
+  "tags": [
+    "CLI"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "auth": "cpan:JJATRIA",
+  "authors": [
+    "José Joaquín Atria"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Getopt::Long",
     "Terminal::ANSIColor",
     "Text::ShellWords",
     "Timer::Stopwatch"
@@ -37080,6 +38106,134 @@
     
   ],
   "version": "0.1.2"
+}
+,
+{
+  "auth": "cpan:JJATRIA",
+  "authors": [
+    "José Joaquín Atria"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A small, simple, correct HTTP/1.1 client",
+  "license": "Artistic-2.0",
+  "name": "HTTP::Tiny",
+  "perl": "6.d",
+  "provides": {
+    "HTTP::Tiny": "lib/HTTP/Tiny.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/HTTP-Tiny-0.1.3.tar.gz",
+  "tags": [
+    "Client",
+    "HTTP"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.3"
+}
+,
+{
+  "auth": "cpan:JJATRIA",
+  "authors": [
+    "José Joaquín Atria"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A small, simple, correct HTTP/1.1 client",
+  "license": "Artistic-2.0",
+  "name": "HTTP::Tiny",
+  "perl": "6.d",
+  "provides": {
+    "HTTP::Tiny": "lib/HTTP/Tiny.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/HTTP-Tiny-0.1.4.tar.gz",
+  "tags": [
+    "Client",
+    "HTTP"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.4"
+}
+,
+{
+  "auth": "cpan:JJATRIA",
+  "authors": [
+    "José Joaquín Atria"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A small, simple, correct HTTP/1.1 client",
+  "license": "Artistic-2.0",
+  "name": "HTTP::Tiny",
+  "perl": "6.d",
+  "provides": {
+    "HTTP::Tiny": "lib/HTTP/Tiny.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/HTTP-Tiny-0.1.5.tar.gz",
+  "tags": [
+    "Client",
+    "HTTP"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.5"
+}
+,
+{
+  "auth": "cpan:JJATRIA",
+  "authors": [
+    "José Joaquín Atria"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A small, simple, correct HTTP/1.1 client",
+  "license": "Artistic-2.0",
+  "name": "HTTP::Tiny",
+  "perl": "6.d",
+  "provides": {
+    "HTTP::Tiny": "lib/HTTP/Tiny.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/HTTP-Tiny-0.1.6.tar.gz",
+  "tags": [
+    "Client",
+    "HTTP"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.6"
 }
 ,
 {
@@ -37257,6 +38411,39 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/Timer-Stopwatch-0.0.1.tar.gz",
+  "tags": [
+    "Timer"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "api": "1",
+  "auth": "cpan:JJATRIA",
+  "authors": [
+    "José Joaquín Atria"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "OO::Monitors",
+    "Timer::Breakable"
+  ],
+  "description": "Schedule and reset repeated time measurements",
+  "license": "Artistic-2.0",
+  "name": "Timer::Stopwatch",
+  "perl": "6.d",
+  "provides": {
+    "Timer::Stopwatch": "lib/Timer/Stopwatch.rakumod"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/J/JJ/JJATRIA/Perl6/Timer-Stopwatch-0.0.2.tar.gz",
   "tags": [
     "Timer"
@@ -37295,6 +38482,36 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Jonas Kramer"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Start a text editor",
+  "license": "Artistic-2.0",
+  "name": "Proc::Editor",
+  "perl": "6.c",
+  "provides": {
+    "Proc::Editor": "lib/Proc/Editor.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JK/JKRAMER/Perl6/Proc-Editor-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
@@ -37348,6 +38565,37 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/App-Heater-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5getpriority"
+  ],
+  "description": "Raku-based Foot Warmer",
+  "license": "Artistic-2.0",
+  "name": "App::Heater",
+  "perl": "6.c",
+  "provides": {
+    "App::Heater": "lib/App/Heater.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/App-Heater-0.0.2.tar.gz",
   "tags": [
     
@@ -37356,6 +38604,94 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Digest::SHA1::Native",
+    "File::Temp",
+    "NativeCall",
+    "P5getpriority",
+    "P5localtime",
+    "Term::termios",
+    "Term::ReadKey",
+    "Terminal::ANSIColor",
+    "YAMLish"
+  ],
+  "description": "Task Management CLI Appliication",
+  "license": "Artistic-2.0",
+  "name": "App::Tasks",
+  "perl": "6.c",
+  "provides": {
+    "App::Tasks": "lib/App/Tasks.pm6",
+    "App::Tasks::Config": "lib/App/Tasks/Config.pm6",
+    "App::Tasks::Lock": "lib/App/Tasks/Lock.pm6",
+    "App::Tasks::Task": "lib/App/Tasks/Task.pm6",
+    "App::Tasks::TaskBody": "lib/App/Tasks/TaskBody.pm6",
+    "App::Tasks::TaskList": "lib/App/Tasks/TaskList.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/App-Tasks-0.0.17.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.17"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Digest::SHA1::Native",
+    "File::Temp",
+    "NativeCall",
+    "P5getpriority",
+    "P5localtime",
+    "Term::termios",
+    "Term::ReadKey",
+    "Terminal::ANSIColor",
+    "YAMLish"
+  ],
+  "description": "Task Management CLI Appliication",
+  "license": "Artistic-2.0",
+  "name": "App::Tasks",
+  "perl": "6.c",
+  "provides": {
+    "App::Tasks": "lib/App/Tasks.pm6",
+    "App::Tasks::Config": "lib/App/Tasks/Config.pm6",
+    "App::Tasks::Lock": "lib/App/Tasks/Lock.pm6",
+    "App::Tasks::Task": "lib/App/Tasks/Task.pm6",
+    "App::Tasks::TaskBody": "lib/App/Tasks/TaskBody.pm6",
+    "App::Tasks::TaskList": "lib/App/Tasks/TaskList.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/App-Tasks-0.0.18.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.18"
 }
 ,
 {
@@ -37433,6 +38769,39 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Luxafor Indicators based on Google Calendar and Webcam Status",
+  "license": "Artistic-2.0",
+  "name": "BusyIndicator",
+  "perl": "6.d",
+  "provides": {
+    "BusyIndicator": "lib/BusyIndicator.rakumod",
+    "BusyIndicator::LibUSB": "lib/BusyIndicator/LibUSB.rakumod",
+    "BusyIndicator::Luxafor": "lib/BusyIndicator/Luxafor.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/BusyIndicator-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
@@ -37697,6 +39066,134 @@
     
   ],
   "version": "0.1.0"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "if",
+    "DateTime::Monotonic",
+    "NativeHelpers::Blob",
+    "OO::Monitors",
+    "StrictClass",
+    "Sys::Domainname",
+    "Sys::HostAddr",
+    "TCP::LowLevel",
+    "Terminal::ANSIColor"
+  ],
+  "description": "BGP Server Support",
+  "license": "Artistic-2.0",
+  "name": "Net::BGP",
+  "perl": "6.d",
+  "provides": {
+    "Net::BGP": "lib/Net/BGP.pm6",
+    "Net::BGP::AFI": "lib/Net/BGP/AFI.pm6",
+    "Net::BGP::AFI-SAFI": "lib/Net/BGP/AFI-SAFI.pm6",
+    "Net::BGP::AS-List": "lib/Net/BGP/AS-List.pm6",
+    "Net::BGP::CIDR": "lib/Net/BGP/CIDR.pm6",
+    "Net::BGP::Capability": "lib/Net/BGP/Capability.pm6",
+    "Net::BGP::Capability::ASN32": "lib/Net/BGP/Capability/ASN32.pm6",
+    "Net::BGP::Capability::Deprecated-Dynamic-Capability": "lib/Net/BGP/Capability/Deprecated-Dynamic-Capability.pm6",
+    "Net::BGP::Capability::FQDN": "lib/Net/BGP/Capability/FQDN.pm6",
+    "Net::BGP::Capability::Generic": "lib/Net/BGP/Capability/Generic.pm6",
+    "Net::BGP::Capability::Graceful-Restart": "lib/Net/BGP/Capability/Graceful-Restart.pm6",
+    "Net::BGP::Capability::Graceful-Restart::Per-AF": "lib/Net/BGP/Capability/Graceful-Restart/Per-AF.pm6",
+    "Net::BGP::Capability::MPBGP": "lib/Net/BGP/Capability/MPBGP.pm6",
+    "Net::BGP::Capability::Route-Refresh": "lib/Net/BGP/Capability/Route-Refresh.pm6",
+    "Net::BGP::Capability::Route-Refresh-Cisco": "lib/Net/BGP/Capability/Route-Refresh-Cisco.pm6",
+    "Net::BGP::Command": "lib/Net/BGP/Command.pm6",
+    "Net::BGP::Command::BGP-Message": "lib/Net/BGP/Command/BGP-Message.pm6",
+    "Net::BGP::Command::Dead-Child": "lib/Net/BGP/Command/Dead-Child.pm6",
+    "Net::BGP::Command::Stop": "lib/Net/BGP/Command/Stop.pm6",
+    "Net::BGP::Connection": "lib/Net/BGP/Connection.pm6",
+    "Net::BGP::Connection-List": "lib/Net/BGP/Connection-List.pm6",
+    "Net::BGP::Connection-Role": "lib/Net/BGP/Connection-Role.pm6",
+    "Net::BGP::Controller": "lib/Net/BGP/Controller.pm6",
+    "Net::BGP::Controller-Handle-BGP": "lib/Net/BGP/Controller-Handle-BGP.pm6",
+    "Net::BGP::Conversions": "lib/Net/BGP/Conversions.pm6",
+    "Net::BGP::Conversions-Post201812": "lib/Net/BGP/Conversions-Post201812.pm6",
+    "Net::BGP::Conversions-Pre201812": "lib/Net/BGP/Conversions-Pre201812.pm6",
+    "Net::BGP::Error": "lib/Net/BGP/Error.pm6",
+    "Net::BGP::Error::Bad-Option-Length": "lib/Net/BGP/Error/Bad-Option-Length.pm6",
+    "Net::BGP::Error::Bad-Parameter-Length": "lib/Net/BGP/Error/Bad-Parameter-Length.pm6",
+    "Net::BGP::Error::Hold-Time-Too-Short": "lib/Net/BGP/Error/Hold-Time-Too-Short.pm6",
+    "Net::BGP::Error::Length-Too-Long": "lib/Net/BGP/Error/Length-Too-Long.pm6",
+    "Net::BGP::Error::Length-Too-Short": "lib/Net/BGP/Error/Length-Too-Short.pm6",
+    "Net::BGP::Error::Marker-Format": "lib/Net/BGP/Error/Marker-Format.pm6",
+    "Net::BGP::Error::Unknown-Version": "lib/Net/BGP/Error/Unknown-Version.pm6",
+    "Net::BGP::Event": "lib/Net/BGP/Event.pm6",
+    "Net::BGP::Event::BGP-Message": "lib/Net/BGP/Event/BGP-Message.pm6",
+    "Net::BGP::Event::Closed-Connection": "lib/Net/BGP/Event/Closed-Connection.pm6",
+    "Net::BGP::Event::New-Connection": "lib/Net/BGP/Event/New-Connection.pm6",
+    "Net::BGP::IP": "lib/Net/BGP/IP.pm6",
+    "Net::BGP::Message": "lib/Net/BGP/Message.pm6",
+    "Net::BGP::Message::Generic": "lib/Net/BGP/Message/Generic.pm6",
+    "Net::BGP::Message::Keep-Alive": "lib/Net/BGP/Message/Keep-Alive.pm6",
+    "Net::BGP::Message::Notify": "lib/Net/BGP/Message/Notify.pm6",
+    "Net::BGP::Message::Notify::Cease": "lib/Net/BGP/Message/Notify/Cease.pm6",
+    "Net::BGP::Message::Notify::Cease::Administrative-Reset": "lib/Net/BGP/Message/Notify/Cease/Administrative-Reset.pm6",
+    "Net::BGP::Message::Notify::Cease::Administrative-Shutdown": "lib/Net/BGP/Message/Notify/Cease/Administrative-Shutdown.pm6",
+    "Net::BGP::Message::Notify::Cease::Connection-Rejected": "lib/Net/BGP/Message/Notify/Cease/Connection-Rejected.pm6",
+    "Net::BGP::Message::Notify::Cease::Generic": "lib/Net/BGP/Message/Notify/Cease/Generic.pm6",
+    "Net::BGP::Message::Notify::Cease::Peer-Deconfigured": "lib/Net/BGP/Message/Notify/Cease/Peer-Deconfigured.pm6",
+    "Net::BGP::Message::Notify::Generic": "lib/Net/BGP/Message/Notify/Generic.pm6",
+    "Net::BGP::Message::Notify::Header": "lib/Net/BGP/Message/Notify/Header.pm6",
+    "Net::BGP::Message::Notify::Header::Connection-Not-Syncronized": "lib/Net/BGP/Message/Notify/Header/Connection-Not-Syncronized.pm6",
+    "Net::BGP::Message::Notify::Header::Generic": "lib/Net/BGP/Message/Notify/Header/Generic.pm6",
+    "Net::BGP::Message::Notify::Hold-Timer-Expired": "lib/Net/BGP/Message/Notify/Hold-Timer-Expired.pm6",
+    "Net::BGP::Message::Notify::Open": "lib/Net/BGP/Message/Notify/Open.pm6",
+    "Net::BGP::Message::Notify::Open::Bad-Peer-AS": "lib/Net/BGP/Message/Notify/Open/Bad-Peer-AS.pm6",
+    "Net::BGP::Message::Notify::Open::Generic": "lib/Net/BGP/Message/Notify/Open/Generic.pm6",
+    "Net::BGP::Message::Notify::Open::Unsupported-Optional-Parameter": "lib/Net/BGP/Message/Notify/Open/Unsupported-Optional-Parameter.pm6",
+    "Net::BGP::Message::Notify::Open::Unsupported-Version": "lib/Net/BGP/Message/Notify/Open/Unsupported-Version.pm6",
+    "Net::BGP::Message::Open": "lib/Net/BGP/Message/Open.pm6",
+    "Net::BGP::Message::Update": "lib/Net/BGP/Message/Update.pm6",
+    "Net::BGP::Parameter": "lib/Net/BGP/Parameter.pm6",
+    "Net::BGP::Parameter::Capabilities": "lib/Net/BGP/Parameter/Capabilities.pm6",
+    "Net::BGP::Parameter::Generic": "lib/Net/BGP/Parameter/Generic.pm6",
+    "Net::BGP::Path-Attribute": "lib/Net/BGP/Path-Attribute.pm6",
+    "Net::BGP::Path-Attribute::AS-Path": "lib/Net/BGP/Path-Attribute/AS-Path.pm6",
+    "Net::BGP::Path-Attribute::AS4-Aggregator": "lib/Net/BGP/Path-Attribute/AS4-Aggregator.pm6",
+    "Net::BGP::Path-Attribute::AS4-Path": "lib/Net/BGP/Path-Attribute/AS4-Path.pm6",
+    "Net::BGP::Path-Attribute::Aggregator": "lib/Net/BGP/Path-Attribute/Aggregator.pm6",
+    "Net::BGP::Path-Attribute::Atomic-Aggregate": "lib/Net/BGP/Path-Attribute/Atomic-Aggregate.pm6",
+    "Net::BGP::Path-Attribute::Cluster-List": "lib/Net/BGP/Path-Attribute/Cluster-List.pm6",
+    "Net::BGP::Path-Attribute::Community": "lib/Net/BGP/Path-Attribute/Community.pm6",
+    "Net::BGP::Path-Attribute::Extended-Community": "lib/Net/BGP/Path-Attribute/Extended-Community.pm6",
+    "Net::BGP::Path-Attribute::Generic": "lib/Net/BGP/Path-Attribute/Generic.pm6",
+    "Net::BGP::Path-Attribute::Local-Pref": "lib/Net/BGP/Path-Attribute/Local-Pref.pm6",
+    "Net::BGP::Path-Attribute::Long-Community": "lib/Net/BGP/Path-Attribute/Long-Community.pm6",
+    "Net::BGP::Path-Attribute::MED": "lib/Net/BGP/Path-Attribute/MED.pm6",
+    "Net::BGP::Path-Attribute::MP-NLRI": "lib/Net/BGP/Path-Attribute/MP-NLRI.pm6",
+    "Net::BGP::Path-Attribute::MP-Unreachable": "lib/Net/BGP/Path-Attribute/MP-Unreachable.pm6",
+    "Net::BGP::Path-Attribute::Next-Hop": "lib/Net/BGP/Path-Attribute/Next-Hop.pm6",
+    "Net::BGP::Path-Attribute::Origin": "lib/Net/BGP/Path-Attribute/Origin.pm6",
+    "Net::BGP::Path-Attribute::Originator-ID": "lib/Net/BGP/Path-Attribute/Originator-ID.pm6",
+    "Net::BGP::Peer": "lib/Net/BGP/Peer.pm6",
+    "Net::BGP::Peer-List": "lib/Net/BGP/Peer-List.pm6",
+    "Net::BGP::SAFI": "lib/Net/BGP/SAFI.pm6",
+    "Net::BGP::Speaker": "lib/Net/BGP/Speaker.pm6",
+    "Net::BGP::Speaker::Display": "lib/Net/BGP/Speaker/Display.pm6",
+    "Net::BGP::Time": "lib/Net/BGP/Time.pm6",
+    "Net::BGP::Validation": "lib/Net/BGP/Validation.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/Net-BGP-0.7.0.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.7.0"
 }
 ,
 {
@@ -38092,6 +39589,37 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Determine System Domain Name",
+  "license": "Artistic-2.0",
+  "name": "Sys::Domainname",
+  "perl": "6.c",
+  "provides": {
+    "Sys::Domainname": "lib/Sys/Domainname.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMASLAK/Perl6/Sys-Domainname-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:JMASLAK",
+  "authors": [
+    "Joelle Maslak"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Cro::HTTP::Client",
     "Net::Netmask"
   ],
@@ -38291,6 +39819,84 @@
     "examples/concurrent-evolutionary-algorithm.p6",
     "examples/population-mixer.p6"
   ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.6.tar.gz",
+  "tags": [
+    "evolutionary algorithms",
+    "genetic algorithms",
+    "optimization",
+    "computational inteligence"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "github:JJ",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Log::Async"
+  ],
+  "description": "A simple evolutionary algorithm",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::Evolutionary::Simple",
+  "perl": "6.*",
+  "provides": {
+    "Algorithm::Evolutionary::Fitness::P-Peaks": "lib/Algorithm/Evolutionary/Fitness/P-Peaks.pm6",
+    "Algorithm::Evolutionary::Simple": "lib/Algorithm/Evolutionary/Simple.pm6"
+  },
+  "resources": [
+    "examples/max-ones.p6",
+    "examples/concurrent-selecto-recombinative-EA.p6",
+    "examples/concurrent-evolutionary-algorithm.p6",
+    "examples/population-mixer.p6"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.7.tar.gz",
+  "tags": [
+    "evolutionary algorithms",
+    "genetic algorithms",
+    "optimization",
+    "computational inteligence"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "github:JJ",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Log::Async"
+  ],
+  "description": "A simple evolutionary algorithm",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::Evolutionary::Simple",
+  "perl": "6.*",
+  "provides": {
+    "Algorithm::Evolutionary::Fitness::P-Peaks": "lib/Algorithm/Evolutionary/Fitness/P-Peaks.pm6",
+    "Algorithm::Evolutionary::Simple": "lib/Algorithm/Evolutionary/Simple.pm6"
+  },
+  "resources": [
+    "examples/max-ones.p6",
+    "examples/concurrent-selecto-recombinative-EA.p6",
+    "examples/concurrent-evolutionary-algorithm.p6",
+    "examples/population-mixer.p6"
+  ],
   "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Algorithm-Evolutionary-Simple-0.0.8.tar.gz",
   "tags": [
     "evolutionary algorithms",
@@ -38367,6 +39973,73 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Examine who's worked on a file",
+  "license": "Artistic-2.0",
+  "name": "Git::Blame",
+  "perl": "6.c",
+  "provides": {
+    "Git::Blame": "lib/Git/Blame.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Git-Blame-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "github:JJ",
+  "authors": [
+    "Alex Daniel",
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Obtains information from Perl6 modules in the ecosystem",
+  "license": "gpl-3.0",
+  "name": "Perl6::Ecosystem",
+  "perl": "6.*",
+  "provides": {
+    "Perl6::Ecosystem": "lib/Perl6/Ecosystem.pm6"
+  },
+  "resources": [
+    "resources/scripts/count-dependencies.p6",
+    "resources/scripts/dep-to-dot.p6",
+    "resources/scripts/draw.R",
+    "resources/scripts/find-dependencies.p6"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Perl6-Ecosystem-0.0.1.tar.gz",
+  "tags": [
+    "API",
+    "modules"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.0.1"
 }
 ,
 {
@@ -38464,6 +40137,66 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Pod-Load-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Loads and compiles the Pod documentation of an external file",
+  "license": "Artistic-2.0",
+  "name": "Pod::Load",
+  "perl": "6.c",
+  "provides": {
+    "Pod::Load": "lib/Pod/Load.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Pod-Load-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Loads and compiles the Pod documentation of an external file",
+  "license": "Artistic-2.0",
+  "name": "Pod::Load",
+  "perl": "6.c",
+  "provides": {
+    "Pod::Load": "lib/Pod/Load.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Pod-Load-0.1.0.tar.gz",
   "tags": [
     
@@ -38472,6 +40205,36 @@
     
   ],
   "version": "0.1.0"
+}
+,
+{
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Temp::Path"
+  ],
+  "description": "Loads and compiles the Pod documentation of an external file",
+  "license": "Artistic-2.0",
+  "name": "Pod::Load",
+  "perl": "6.c",
+  "provides": {
+    "Pod::Load": "lib/Pod/Load.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Pod-Load-0.2.0.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.0"
 }
 ,
 {
@@ -38640,6 +40403,75 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "github:JJ",
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Pod::Load",
+    "IO::Capture::Simple"
+  ],
+  "description": "Tests the output of scripts using special comments",
+  "license": "Artistic-2.0",
+  "name": "Test::Script::Output",
+  "perl": "6.c",
+  "provides": {
+    "Test::Script::Output": "lib/Test/Script/Output.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Test-Script-Output-0.0.4.tar.gz",
+  "tags": [
+    "Test",
+    "App",
+    "Script"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "authors": [
+    "JJ Merelo"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "URI::Encode",
+    "HTTP::Client",
+    "JSON::Tiny"
+  ],
+  "description": "A thin wrapper for querying Wikidata using SPARQL",
+  "license": "GPL-3.0",
+  "name": "Wikidata::API",
+  "perl": "6.*",
+  "provides": {
+    "Wikidata::API": "lib/Wikidata/API.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JM/JMERELO/Perl6/Wikidata-API-0.0.3.tar.gz",
+  "tags": [
+    "wrapper",
+    "SPARQL",
+    "wikidata"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.0.3"
 }
 ,
 {
@@ -38902,6 +40734,32 @@
     "Jonathan Worthington <jnthn@jnthn.net>"
   ],
   "depends": [
+    
+  ],
+  "description": "A lock-free concurrent trie (Text Retrieval) data structure.",
+  "license": "Artistic-2.0",
+  "name": "Concurrent::Trie",
+  "perl": "6.*",
+  "provides": {
+    "Concurrent::Trie": "lib/Concurrent/Trie.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Concurrent-Trie-1.1.tar.gz",
+  "tags": [
+    "trie",
+    "text",
+    "concurrent"
+  ],
+  "version": "1.1"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
     "IO::Socket::Async::SSL",
     "OO::Monitors",
     "IO::Path::ChildSecure",
@@ -39028,6 +40886,34 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-HTTP-Test-0.7.5.tar.gz",
+  "tags": [
+    "HTTP",
+    "Test",
+    "Testing",
+    "Web"
+  ],
+  "version": "0.7.5"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "Cro::HTTP"
+  ],
+  "description": "Write tests for HTTP services (whether or not they are built with Cro).",
+  "license": "Artistic-2.0",
+  "name": "Cro::HTTP::Test",
+  "perl": "6.*",
+  "provides": {
+    "Cro::HTTP::Test": "lib/Cro/HTTP/Test.pm6",
+    "Cro::HTTP::Test::ChannelServer": "lib/Cro/HTTP/Test/ChannelServer.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-HTTP-Test-0.8.0.tar.gz",
   "tags": [
     "HTTP",
@@ -39078,6 +40964,48 @@
     
   ],
   "version": "1.0.1"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jonathan@edument.se>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP",
+    "JSON::Fast",
+    "OpenAPI::Model",
+    "OpenAPI::Schema::Validate",
+    "YAMLish"
+  ],
+  "description": "Easily implement an existing OpenAPI definition, server side, using Cro.",
+  "license": "Artistic-2.0",
+  "name": "Cro::OpenAPI::RoutesFromDefinition",
+  "perl": "6.c",
+  "provides": {
+    "Cro::OpenAPI::RoutesFromDefinition": "lib/Cro/OpenAPI/RoutesFromDefinition.pm6",
+    "Cro::OpenAPI::RoutesFromDefinition::AdaptHandler": "lib/Cro/OpenAPI/RoutesFromDefinition/AdaptHandler.pm6",
+    "Cro::OpenAPI::RoutesFromDefinition::Checkers": "lib/Cro/OpenAPI/RoutesFromDefinition/Checkers.pm6",
+    "Cro::OpenAPI::RoutesFromDefinition::SecurityChecker": "lib/Cro/OpenAPI/RoutesFromDefinition/SecurityChecker.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-OpenAPI-RoutesFromDefinition-1.0.tar.gz",
+  "tags": [
+    "openapi",
+    "oas",
+    "swagger",
+    "api",
+    "server",
+    "generation"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.0"
 }
 ,
 {
@@ -39193,6 +41121,52 @@
 }
 ,
 {
+  "auth": "Jonathan Worthington <jonathan@edument.cz>",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP"
+  ],
+  "description": "Basic email sending via the SendGrid API.",
+  "license": "Artistic-2.0",
+  "name": "Email::SendGrid",
+  "perl": "6.*",
+  "provides": {
+    "Email::SendGrid": "lib/Email/SendGrid.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Email-SendGrid-0.1.tar.gz",
+  "test-depends": [
+    "Test::Mock"
+  ],
+  "version": "0.1"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "OpenSSL"
+  ],
+  "description": "Provides an API like IO::Socket::Async, but with SSL support.",
+  "license": "Artistic-2.0",
+  "name": "IO::Socket::Async::SSL",
+  "perl": "6.*",
+  "provides": {
+    "IO::Socket::Async::SSL": "lib/IO/Socket/Async/SSL.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/IO-Socket-Async-SSL-0.5.0.tar.gz",
+  "support": {
+    "source": "https://github.com/jnthn/p6-io-socket-async-ssl.git"
+  },
+  "version": "0.5"
+}
+,
+{
   "authors": [
     "Jonathan Worthington <jnthn@jnthn.net>"
   ],
@@ -39211,6 +41185,27 @@
     "source": "https://github.com/jnthn/p6-io-socket-async-ssl.git"
   },
   "version": "0.6.1"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "OpenSSL"
+  ],
+  "description": "Provides an API like IO::Socket::Async, but with SSL support.",
+  "license": "Artistic-2.0",
+  "name": "IO::Socket::Async::SSL",
+  "perl": "6.*",
+  "provides": {
+    "IO::Socket::Async::SSL": "lib/IO/Socket/Async/SSL.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/IO-Socket-Async-SSL-0.6.tar.gz",
+  "support": {
+    "source": "https://github.com/jnthn/p6-io-socket-async-ssl.git"
+  },
+  "version": "0.6"
 }
 ,
 {
@@ -39263,6 +41258,84 @@
     "Asynchronous"
   ],
   "version": "0.7.1"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "OpenSSL"
+  ],
+  "description": "Provides an API like IO::Socket::Async, but with SSL support.",
+  "license": "Artistic-2.0",
+  "name": "IO::Socket::Async::SSL",
+  "perl": "6.*",
+  "provides": {
+    "IO::Socket::Async::SSL": "lib/IO/Socket/Async/SSL.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/IO-Socket-Async-SSL-0.7.2.tar.gz",
+  "support": {
+    "source": "https://github.com/jnthn/p6-io-socket-async-ssl.git"
+  },
+  "tags": [
+    "SSL",
+    "TLS",
+    "Asynchronous"
+  ],
+  "version": "0.7.1"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "OpenSSL"
+  ],
+  "description": "Provides an API like IO::Socket::Async, but with SSL support.",
+  "license": "Artistic-2.0",
+  "name": "IO::Socket::Async::SSL",
+  "perl": "6.*",
+  "provides": {
+    "IO::Socket::Async::SSL": "lib/IO/Socket/Async/SSL.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/IO-Socket-Async-SSL-0.7.3.tar.gz",
+  "support": {
+    "source": "https://github.com/jnthn/p6-io-socket-async-ssl.git"
+  },
+  "tags": [
+    "SSL",
+    "TLS",
+    "Asynchronous"
+  ],
+  "version": "0.7.3"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "OpenSSL"
+  ],
+  "description": "Provides an API like IO::Socket::Async, but with SSL support.",
+  "license": "Artistic-2.0",
+  "name": "IO::Socket::Async::SSL",
+  "perl": "6.*",
+  "provides": {
+    "IO::Socket::Async::SSL": "lib/IO/Socket/Async/SSL.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/IO-Socket-Async-SSL-0.7.4.tar.gz",
+  "support": {
+    "source": "https://github.com/jnthn/p6-io-socket-async-ssl.git"
+  },
+  "tags": [
+    "SSL",
+    "TLS",
+    "Asynchronous"
+  ],
+  "version": "0.7.4"
 }
 ,
 {
@@ -39339,6 +41412,28 @@
     
   ],
   "version": "1.0"
+}
+,
+{
+  "auth": "Jonathan Worthington <jonathan@edument.se>",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Implementation of the JSONPath data structure query language.",
+  "license": "MIT",
+  "name": "JSON::Path",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Path": "lib/JSON/Path.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/JSON-Path-1.1.tar.gz",
+  "test-depends": [
+    
+  ],
+  "version": "1.1"
 }
 ,
 {
@@ -39584,6 +41679,65 @@
 }
 ,
 {
+  "auth": "Jonathan Worthington <jnthn@jnthn.net>",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Log tasks with start/end periods and phases, as well as individual events.",
+  "license": "Artistic-2.0",
+  "name": "Log::Timeline",
+  "perl": "6.d",
+  "provides": {
+    "Log::Timeline": "lib/Log/Timeline.pm6",
+    "Log::Timeline::Output": "lib/Log/Timeline/Output.pm6",
+    "Log::Timeline::Output::JSONLines": "lib/Log/Timeline/Output/JSONLines.pm6",
+    "Log::Timeline::Output::Socket": "lib/Log/Timeline/Output/Socket.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Log-Timeline-0.1.tar.gz",
+  "test-depends": [
+    
+  ],
+  "version": "0.1"
+}
+,
+{
+  "auth": "Jonathan Worthington <jnthn@jnthn.net>",
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Log tasks with start/end periods and phases, as well as individual events.",
+  "license": "Artistic-2.0",
+  "name": "Log::Timeline",
+  "perl": "6.d",
+  "provides": {
+    "Log::Timeline": "lib/Log/Timeline.pm6",
+    "Log::Timeline::Output": "lib/Log/Timeline/Output.pm6",
+    "Log::Timeline::Output::JSONLines": "lib/Log/Timeline/Output/JSONLines.pm6",
+    "Log::Timeline::Output::Socket": "lib/Log/Timeline/Output/Socket.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Log-Timeline-0.2.tar.gz",
+  "test-depends": [
+    
+  ],
+  "version": "0.2"
+}
+,
+{
   "authors": [
     "Jonathan Worthington <jnthn@jnthn.net>"
   ],
@@ -39801,6 +41955,66 @@
 ,
 {
   "authors": [
+    "Jonathan Worthington <jonathan@edument.se>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::Core",
+    "JSON::Pointer",
+    "DateTime::Parse"
+  ],
+  "description": "Validate a value or data structure against an OpenAPI schema.",
+  "license": "Artistic-2.0",
+  "name": "OpenAPI::Schema::Validate",
+  "perl": "6.c",
+  "provides": {
+    "OpenAPI::Schema::Validate": "lib/OpenAPI/Schema/Validate.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/OpenAPI-Schema-Validate-1.0.tar.gz",
+  "tags": [
+    "openapi",
+    "oas",
+    "swagger",
+    "schema",
+    "validation"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0"
+}
+,
+{
+  "authors": [
+    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>",
+    "Jonathan Worthington <jonathan@edument.se>"
+  ],
+  "description": "Module for interacting with gettext PO files",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "POFile",
+  "perl": "6.c",
+  "provides": {
+    "POFile": "lib/POFile.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/POFile-0.7.1.tar.gz",
+  "support": {
+    "source": "https://github.com/edumentab/p6-pofile.git"
+  },
+  "tags": [
+    "gettext",
+    "i18n"
+  ],
+  "version": "0.7.1"
+}
+,
+{
+  "authors": [
     "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>",
     "Jonathan Worthington <jonathan@edument.se>"
   ],
@@ -39841,6 +42055,117 @@
     "source": "https://github.com/edumentab/p6-pofile.git"
   },
   "version": "0.7"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "IO::Socket::Async::SSL",
+    "JSON::Fast",
+    "META6",
+    "Shell::Command",
+    "File::Find",
+    "Terminal::ANSIColor",
+    "OO::Monitors",
+    "YAMLish",
+    "Cro::WebSocket"
+  ],
+  "description": "Libraries for building reactive services in Perl 6.",
+  "license": "Artistic-2.0",
+  "name": "cro",
+  "perl": "6.*",
+  "provides": {
+    "Cro::Tools::CLI": "lib/Cro/Tools/CLI.pm6",
+    "Cro::Tools::CroFile": "lib/Cro/Tools/CroFile.pm6",
+    "Cro::Tools::Link::Editor": "lib/Cro/Tools/Link/Editor.pm6",
+    "Cro::Tools::LinkTemplate": "lib/Cro/Tools/LinkTemplate.pm6",
+    "Cro::Tools::LinkTemplate::HTTP": "lib/Cro/Tools/LinkTemplate/HTTP.pm6",
+    "Cro::Tools::LinkTemplate::HTTPS": "lib/Cro/Tools/LinkTemplate/HTTPS.pm6",
+    "Cro::Tools::LinkTemplate::WS": "lib/Cro/Tools/LinkTemplate/WS.pm6",
+    "Cro::Tools::LinkTemplate::WSS": "lib/Cro/Tools/LinkTemplate/WSS.pm6",
+    "Cro::Tools::Runner": "lib/Cro/Tools/Runner.pm6",
+    "Cro::Tools::Serve": "lib/Cro/Tools/Serve.pm6",
+    "Cro::Tools::Services": "lib/Cro/Tools/Services.pm6",
+    "Cro::Tools::Template": "lib/Cro/Tools/Template.pm6",
+    "Cro::Tools::Template::HTTPService": "lib/Cro/Tools/Template/HTTPService.pm6",
+    "Cro::Tools::Template::ZeroMQWorkSinkService": "lib/Cro/Tools/Template/ZeroMQWorkSinkService.pm6",
+    "Cro::Tools::Template::ZeroMQWorkerService": "lib/Cro/Tools/Template/ZeroMQWorkerService.pm6",
+    "Cro::Tools::TemplateLocator": "lib/Cro/Tools/TemplateLocator.pm6",
+    "Cro::Tools::Web": "lib/Cro/Tools/Web.pm6",
+    "cro": "bin/cro"
+  },
+  "resources": [
+    "web/index.html",
+    "web/css/bootstrap.min.css",
+    "web/css/cro.css",
+    "web/js/app.js",
+    "web/fonts/glyphicons-halflings-regular.woff2",
+    "fake-tls/ca-crt.pem",
+    "fake-tls/server-crt.pem",
+    "fake-tls/server-key.pem"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-0.7.1.tar.gz",
+  "version": "0.7.1"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "IO::Socket::Async::SSL",
+    "JSON::Fast",
+    "META6",
+    "Shell::Command",
+    "File::Find",
+    "Terminal::ANSIColor",
+    "OO::Monitors",
+    "YAMLish",
+    "Cro::WebSocket"
+  ],
+  "description": "Libraries and tools for building reactive services in Perl 6. This installs the cro command line and web tool, along with HTTP (including HTTPS and HTTP/2.0) and WebSocket support.",
+  "license": "Artistic-2.0",
+  "name": "cro",
+  "perl": "6.*",
+  "provides": {
+    "Cro::Tools::CLI": "lib/Cro/Tools/CLI.pm6",
+    "Cro::Tools::CroFile": "lib/Cro/Tools/CroFile.pm6",
+    "Cro::Tools::Link::Editor": "lib/Cro/Tools/Link/Editor.pm6",
+    "Cro::Tools::LinkTemplate": "lib/Cro/Tools/LinkTemplate.pm6",
+    "Cro::Tools::LinkTemplate::HTTP": "lib/Cro/Tools/LinkTemplate/HTTP.pm6",
+    "Cro::Tools::LinkTemplate::HTTPS": "lib/Cro/Tools/LinkTemplate/HTTPS.pm6",
+    "Cro::Tools::LinkTemplate::WS": "lib/Cro/Tools/LinkTemplate/WS.pm6",
+    "Cro::Tools::LinkTemplate::WSS": "lib/Cro/Tools/LinkTemplate/WSS.pm6",
+    "Cro::Tools::Runner": "lib/Cro/Tools/Runner.pm6",
+    "Cro::Tools::Serve": "lib/Cro/Tools/Serve.pm6",
+    "Cro::Tools::Services": "lib/Cro/Tools/Services.pm6",
+    "Cro::Tools::Template": "lib/Cro/Tools/Template.pm6",
+    "Cro::Tools::Template::Common": "lib/Cro/Tools/Template/Common.pm6",
+    "Cro::Tools::Template::HTTPService": "lib/Cro/Tools/Template/HTTPService.pm6",
+    "Cro::Tools::Template::ZeroMQWorkSinkService": "lib/Cro/Tools/Template/ZeroMQWorkSinkService.pm6",
+    "Cro::Tools::Template::ZeroMQWorkerService": "lib/Cro/Tools/Template/ZeroMQWorkerService.pm6",
+    "Cro::Tools::TemplateLocator": "lib/Cro/Tools/TemplateLocator.pm6",
+    "Cro::Tools::Web": "lib/Cro/Tools/Web.pm6",
+    "cro": "bin/cro"
+  },
+  "resources": [
+    "web/index.html",
+    "web/css/bootstrap.min.css",
+    "web/css/cro.css",
+    "web/js/app.js",
+    "web/fonts/glyphicons-halflings-regular.woff2",
+    "fake-tls/ca-crt.pem",
+    "fake-tls/server-crt.pem",
+    "fake-tls/server-key.pem"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/cro-0.7.2.tar.gz",
+  "tags": [
+    "HTTP",
+    "WebSocket"
+  ],
+  "version": "0.7.2"
 }
 ,
 {
@@ -70710,6 +73035,46 @@
     "File::Which"
   ],
   "version": "0.4.0"
+}
+,
+{
+  "authors": [
+    "Paul Marquess <pmqs@cpan.org>"
+  ],
+  "depends": [
+    "Compress::Zlib::Raw",
+    "Compress::Zlib",
+    "CompUnit::Util",
+    "IO::Blob",
+    "IO::Glob"
+  ],
+  "description": "Write Zip Files.",
+  "license": "Artistic-2.0",
+  "name": "Archive::SimpleZip",
+  "perl": "6.*",
+  "provides": {
+    "Archive::SimpleZip": "lib/Archive/SimpleZip.pm6",
+    "Archive::SimpleZip::Headers": "lib/Archive/SimpleZip/Headers.pm6",
+    "Archive::SimpleZip::Utils": "lib/Archive/SimpleZip/Utils.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/P/PM/PMQS/Perl6/Archive-SimpleZip-0.5.0.tar.gz",
+  "support": {
+    "source": "git://github.com/pmqs/Archive-SimpleZip.git"
+  },
+  "tags": [
+    "archive",
+    "compression"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META",
+    "File::Temp",
+    "File::Which"
+  ],
+  "version": "0.5.0"
 }
 ,
 {
