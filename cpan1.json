@@ -82272,6 +82272,41 @@
 }
 ,
 {
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides routines for operating on fractional parts of numbers",
+  "license": "Artistic-2.0",
+  "name": "Math::FractionalPart",
+  "perl": "6.d",
+  "provides": {
+    "Math::FractionalPart": "lib/Math/FractionalPart.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Math-FractionalPart-0.0.4.tar.gz",
+  "tags": [
+    "math",
+    "frac",
+    "fraction",
+    "decimal",
+    "places"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "api": "1",
   "auth": "github:tbrowder",
   "authors": [
