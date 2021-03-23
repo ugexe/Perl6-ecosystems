@@ -1435,6 +1435,36 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
+    "LibCurl::Easy:ver<1.4>",
+    "Log::Async"
+  ],
+  "description": "A Simple HTTP Client built on top of libcurl",
+  "license": "MIT",
+  "name": "Curlie",
+  "perl": "6.d",
+  "provides": {
+    "Curlie": "lib/Curlie.rakumod",
+    "Curlie::Response": "lib/Curlie/Response.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Curlie-0.0.3.tar.gz",
+  "tags": [
+    "HTTP",
+    "Web",
+    "WWW"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "authors": [
     "Brian Duggan"
   ],
@@ -2339,6 +2369,40 @@
     "Test"
   ],
   "version": "0.0.11"
+}
+,
+{
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
+    "Terminal::ANSI:ver<0.0.17>",
+    "Log::Async"
+  ],
+  "description": "A framework for building terminal interfaces",
+  "license": "MIT",
+  "name": "Terminal::UI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::UI": "lib/Terminal/UI.rakumod",
+    "Terminal::UI::Alerts": "lib/Terminal/UI/Alerts.rakumod",
+    "Terminal::UI::Frame": "lib/Terminal/UI/Frame.rakumod",
+    "Terminal::UI::Input": "lib/Terminal/UI/Input.rakumod",
+    "Terminal::UI::Pane": "lib/Terminal/UI/Pane.rakumod",
+    "Terminal::UI::Screen": "lib/Terminal/UI/Screen.rakumod",
+    "Terminal::UI::Style": "lib/Terminal/UI/Style.rakumod",
+    "Terminal::UI::Utils": "lib/Terminal/UI/Utils.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-UI-0.0.12.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.12"
 }
 ,
 {
@@ -97993,6 +98057,50 @@
     
   ],
   "version": "0.6.1"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Module:ver<0.5.3+>",
+    "CSS::Writer:ver<0.2.6+>",
+    "Color",
+    "Method::Also"
+  ],
+  "description": "CSS property manipulation library",
+  "license": "Artistic-2.0",
+  "name": "CSS::Properties",
+  "perl": "6.*",
+  "provides": {
+    "CSS::Box": "lib/CSS/Box.rakumod",
+    "CSS::PageBox": "lib/CSS/PageBox.rakumod",
+    "CSS::Properties": "lib/CSS/Properties.rakumod",
+    "CSS::Properties::Box": "lib/CSS/Properties/Box.rakumod",
+    "CSS::Properties::Calculator": "lib/CSS/Properties/Calculator.rakumod",
+    "CSS::Properties::Edges": "lib/CSS/Properties/Edges.rakumod",
+    "CSS::Properties::Font": "lib/CSS/Properties/Font.rakumod",
+    "CSS::Properties::PageBox": "lib/CSS/Properties/PageBox.rakumod",
+    "CSS::Properties::Property": "lib/CSS/Properties/Property.rakumod",
+    "CSS::Properties::Units": "lib/CSS/Properties/Units.rakumod",
+    "CSS::Units": "lib/CSS/Units.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Properties-0.6.2.tar.gz",
+  "tags": [
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.6.2"
 }
 ,
 {
