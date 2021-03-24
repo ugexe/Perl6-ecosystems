@@ -59310,6 +59310,44 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gobject-0.16.19.1.tar.gz",
+  "tags": [
+    "gnome",
+    "glib",
+    "gobject"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.16.19.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib"
+  ],
+  "description": "Raku - Gnome GObject Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::GObject",
+  "perl": "6",
+  "provides": {
+    "Gnome::GObject::Boxed": "lib/Gnome/GObject/Boxed.pm6",
+    "Gnome::GObject::InitiallyUnowned": "lib/Gnome/GObject/InitiallyUnowned.pm6",
+    "Gnome::GObject::Object": "lib/Gnome/GObject/Object.pm6",
+    "Gnome::GObject::Signal": "lib/Gnome/GObject/Signal.pm6",
+    "Gnome::GObject::Type": "lib/Gnome/GObject/Type.pm6",
+    "Gnome::GObject::Value": "lib/Gnome/GObject/Value.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gobject-0.16.19.tar.gz",
   "tags": [
     "gnome",
