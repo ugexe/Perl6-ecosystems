@@ -98093,39 +98093,6 @@
   "resources": [
     "xhtml.css"
   ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.4.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath",
-    "css"
-  ],
-  "version": "0.0.4"
-}
-,
-{
-  "depends": [
-    "LibXML",
-    "CSS::Module",
-    "CSS::Properties:ver<0.5.0+>",
-    "CSS::Selector::To::XPath"
-  ],
-  "description": "CSS Stylesheet processing",
-  "license": "Artistic-2.0",
-  "name": "CSS",
-  "perl": "6.c",
-  "provides": {
-    "CSS": "lib/CSS.rakumod",
-    "CSS::Media": "lib/CSS/Media.rakumod",
-    "CSS::Ruleset": "lib/CSS/Ruleset.rakumod",
-    "CSS::Selectors": "lib/CSS/Selectors.rakumod",
-    "CSS::Stylesheet": "lib/CSS/Stylesheet.rakumod",
-    "CSS::TagSet": "lib/CSS/TagSet.rakumod",
-    "CSS::TagSet::XHTML": "lib/CSS/TagSet/XHTML.rakumod"
-  },
-  "resources": [
-    "xhtml.css"
-  ],
   "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.5.tar.gz",
   "tags": [
     "xml",
