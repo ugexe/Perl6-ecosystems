@@ -47490,6 +47490,49 @@
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
+    "Jonathan Stpwe <jns+gh@gellyfish.co.uk"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibraryCheck",
+    "NativeHelpers::Array"
+  ],
+  "description": "Binding for libsodium password hashing",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Crypt::SodiumScrypt",
+  "perl": "6.*",
+  "provides": {
+    "Crypt::SodiumScrypt": "lib/Crypt/SodiumScrypt.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Crypt-SodiumScrypt-0.0.3.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Crypt-SodiumScrypt/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Crypt-SodiumScrypt.git"
+  },
+  "tags": [
+    "crypto",
+    "libsodium",
+    "password",
+    "scrypt"
+  ],
+  "test-depends": [
+    "LibraryCheck"
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
   "build-depends": [
