@@ -52768,6 +52768,49 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Red",
+    "Crypt::AnyPasswordHash:ver<0.0.3+>"
+  ],
+  "description": "A facility to allow the Red ORM to store and use hashed passwords in the database",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "RedX::HashedPassword",
+  "perl": "6.^",
+  "provides": {
+    "RedX::HashedPassword": "lib/RedX/HashedPassword.pm"
+  },
+  "raku": "6.^",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/RedX-HashedPassword-0.0.5.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/RedX-HashedPassword/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/RedX-HashedPassword.git"
+  },
+  "tags": [
+    "password",
+    "hash",
+    "red",
+    "database"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
