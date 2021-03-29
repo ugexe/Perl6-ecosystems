@@ -46981,6 +46981,48 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Which",
+    "JSON::Fast"
+  ],
+  "description": "Detect audio cue-in, cue-out using silan https://github.com/x42/silan",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Audio::Silan",
+  "perl": "6.*",
+  "provides": {
+    "Audio::Silan": "lib/Audio/Silan.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Silan-0.0.8.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Audio-Silan/issues",
+    "source": "git://github.com/jonathanstowe/Audio-Silan.git"
+  },
+  "tags": [
+    "audio",
+    "util",
+    "silence"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
