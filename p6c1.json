@@ -13880,6 +13880,7 @@
 }
 ,
 {
+  "auth": "github:masterduke17",
   "authors": [
     "Daniel Green"
   ],
@@ -13891,16 +13892,17 @@
   "name": "Text::Diff::Sift4",
   "perl": "6.c",
   "provides": {
-    "Text::Diff::Sift4": "lib/Text/Diff/Sift4.pm6"
+    "Text::Diff::Sift4": "lib/Text/Diff/Sift4.rakumod"
   },
   "source-url": "https://github.com/masterduke17/text-diff-sift4.git",
   "tags": [
     "Text",
     "Difference",
     "Diff",
-    "Typos"
+    "Typos",
+    "Levenshtein"
   ],
-  "version": "1.4.1"
+  "version": "1.4.2"
 }
 ,
 {
