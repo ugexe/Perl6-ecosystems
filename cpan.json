@@ -50402,6 +50402,50 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Get the kernel CPU information on Linux",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Linux::Cpuinfo",
+  "perl": "6.*",
+  "provides": {
+    "Linux::Cpuinfo": "lib/Linux/Cpuinfo.pm",
+    "Linux::Cpuinfo::Cpu": "lib/Linux/Cpuinfo/Cpu.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Linux-Cpuinfo-0.1.0.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Raku-Linux-Cpuinfo/issues/",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Raku-Linux-Cpuinfo.git"
+  },
+  "tags": [
+    "linux",
+    "system",
+    "utils",
+    "cpu"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk"
   ],
