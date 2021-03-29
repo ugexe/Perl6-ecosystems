@@ -49851,6 +49851,46 @@
   ],
   "description": "Quick hack to determine whether a shared libray is present",
   "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "LibraryCheck",
+  "perl": "6.*",
+  "provides": {
+    "LibraryCheck": "lib/LibraryCheck.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/LibraryCheck-0.0.10.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/LibraryCheck/issues",
+    "source": "git://github.com/jonathanstowe/LibraryCheck.git"
+  },
+  "tags": [
+    "build",
+    "utils"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.10"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Quick hack to determine whether a shared libray is present",
+  "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "LibraryCheck",
   "perl": "6.*",
