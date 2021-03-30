@@ -8427,7 +8427,8 @@
   "depends": [
     "RakuConfig",
     "Collection",
-    "Cro::HTTP"
+    "Cro::HTTP",
+    "LibCurl::Easy"
   ],
   "description": "Use Cro and Collection to supply Raku documentation. Different search system. Global and local TOCs and Glossaries. Documents local installation.",
   "license": "Artistic-2.0",
