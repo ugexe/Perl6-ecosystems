@@ -53551,6 +53551,46 @@
   "depends": [
     
   ],
+  "description": "Get a free server port for testing with",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Test::Util::ServerPort",
+  "perl": "6.*",
+  "provides": {
+    "Test::Util::ServerPort": "lib/Test/Util/ServerPort.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Test-Util-ServerPort-0.0.3.tar.gz",
+  "support": {
+    "source": "git://github.com/jonathanstowe/Test-Util-ServerPort.git"
+  },
+  "tags": [
+    "network",
+    "server",
+    "test",
+    "util"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "An Experimental Workflow / State Management toolit",
   "license": "Artistic-2.0",
   "meta-version": "0",
@@ -54559,6 +54599,48 @@
     "Shell::Command"
   ],
   "version": "0.0.11"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Implementation of the freedesktop.org XDG BaseDirectory specifications",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "XDG::BaseDirectory",
+  "perl": "6.*",
+  "provides": {
+    "XDG::BaseDirectory": "lib/XDG/BaseDirectory.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/XDG-BaseDirectory-0.0.12.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/XDG-BaseDirectory/issues",
+    "source": "https://github.com/jonathanstowe/XDG-BaseDirectory.git"
+  },
+  "tags": [
+    "xdg",
+    "desktop",
+    "utils"
+  ],
+  "test-depends": [
+    "File::Find",
+    "Shell::Command"
+  ],
+  "version": "0.0.12"
 }
 ,
 {
