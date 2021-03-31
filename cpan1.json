@@ -51468,6 +51468,48 @@
     
   ],
   "depends": [
+    "DateTime::Format"
+  ],
+  "description": "A simple logging framework.",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Lumberjack",
+  "perl": "6.*",
+  "provides": {
+    "Lumberjack": "lib/Lumberjack.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-0.1.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Lumberjack/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Lumberjack.git"
+  },
+  "tags": [
+    "logger",
+    "log",
+    "logging",
+    "framework"
+  ],
+  "test-depends": [
+    "Test",
+    "IO::MiddleMan"
+  ],
+  "version": "0.1.2"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Lumberjack",
     "HTTP::UserAgent",
     "HTTP::Server::Tiny",
