@@ -3496,51 +3496,6 @@
 {
   "author": "github:Altai-man",
   "depends": [
-    "Compress::Bzip2::Raw"
-  ],
-  "description": "High-level bindings to libbzip2",
-  "license": "Artistic-2.0",
-  "name": "Compress::Bzip2",
-  "perl": "6.*",
-  "provides": {
-    "Compress::Bzip2": "lib/Compress/Bzip2.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/Altai-man/perl6-Compress-Bzip2.git",
-  "tags": [
-    "Compression"
-  ],
-  "version": "0.4.1"
-}
-,
-{
-  "auth": "github:Altai-man",
-  "depends": [
-    
-  ],
-  "description": "Low-level bindings to libbzip2",
-  "license": "Artistic-2.0",
-  "name": "Compress::Bzip2::Raw",
-  "perl": "6.*",
-  "provides": {
-    "Compress::Bzip2::Raw": "lib/Compress/Bzip2/Raw.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/Altai-man/perl6-Compress-Bzip2-Raw.git",
-  "tags": [
-    "Compression",
-    "NativeCall"
-  ],
-  "version": "0.2.2"
-}
-,
-{
-  "author": "github:Altai-man",
-  "depends": [
     
   ],
   "description": ".netrc file parser module for Perl 6",
