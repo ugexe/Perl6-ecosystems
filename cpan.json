@@ -54052,6 +54052,50 @@
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "URI Templates as per https://tools.ietf.org/html/rfc6570",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "URI::Template",
+  "perl": "6.*",
+  "provides": {
+    "URI::Template": "lib/URI/Template.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/URI-Template-0.0.9.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/URI-Template/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "irc": "irc:// irc.freenode.net/#perl6",
+    "source": "https://github.com/jonathanstowe/URI-Template.git"
+  },
+  "tags": [
+    "URI",
+    "URL",
+    "Template",
+    "RFC"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Test"
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
   ],
   "build-depends": [
