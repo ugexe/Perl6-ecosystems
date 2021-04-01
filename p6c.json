@@ -3376,7 +3376,7 @@
 }
 ,
 {
-  "auth": "github:Altai-man",
+  "auth": "zef:Altai-man",
   "authors": [
     "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>"
   ],
@@ -8384,7 +8384,7 @@
   "test-depends": [
     "Test::META"
   ],
-  "version": "0.8.4"
+  "version": "0.8.5"
 }
 ,
 {
@@ -14286,10 +14286,12 @@
   "description": "Various Perl 6 Sequences for spirals in matrix (two-dimensional arrays).",
   "license": "Artistic-2.0",
   "name": "Algorithm::SpiralMatrix",
-  "perl": "6.*",
+  "perl": "6.d",
+  "production": 1,
   "provides": {
-    "Algorithm::SpiralMatrix": "lib/Algorithm/SpiralMatrix.pm6"
+    "Algorithm::SpiralMatrix": "lib/Algorithm/SpiralMatrix.rakumod"
   },
+  "raku": "6.d",
   "source-type": "git",
   "source-url": "git://github.com/mj41/Algorithm-SpiralMatrix.git",
   "support": {
@@ -14303,9 +14305,10 @@
     "array"
   ],
   "test-depends": [
-    "Test"
+    "Test",
+    "Test::META"
   ],
-  "version": "0.4"
+  "version": "0.5"
 }
 ,
 {
