@@ -98654,6 +98654,53 @@
 }
 ,
 {
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Module:ver<0.5.3+>",
+    "CSS::Properties:ver<0.6.3+>",
+    "CSS::Selector::To::XPath",
+    "LibXML:ver<0.5.14+>",
+    "Method::Also"
+  ],
+  "description": "CSS Stylesheet processing",
+  "license": "Artistic-2.0",
+  "name": "CSS",
+  "perl": "6.c",
+  "provides": {
+    "CSS": "lib/CSS.rakumod",
+    "CSS::Media": "lib/CSS/Media.rakumod",
+    "CSS::Ruleset": "lib/CSS/Ruleset.rakumod",
+    "CSS::Selectors": "lib/CSS/Selectors.rakumod",
+    "CSS::Stylesheet": "lib/CSS/Stylesheet.rakumod",
+    "CSS::TagSet": "lib/CSS/TagSet.rakumod",
+    "CSS::TagSet::Pango": "lib/CSS/TagSet/Pango.rakumod",
+    "CSS::TagSet::TaggedPDF": "lib/CSS/TagSet/TaggedPDF.rakumod",
+    "CSS::TagSet::XHTML": "lib/CSS/TagSet/XHTML.rakumod"
+  },
+  "resources": [
+    "pango.css",
+    "tagged-pdf.css",
+    "xhtml.css"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.10.tar.gz",
+  "tags": [
+    "xml",
+    "html",
+    "xpath",
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.10"
+}
+,
+{
   "depends": [
     "LibXML",
     "CSS::Module",
