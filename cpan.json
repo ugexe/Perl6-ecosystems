@@ -45354,6 +45354,48 @@
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
   "build-depends": [
+    
+  ],
+  "depends": [
+    "NativeHelpers::Array"
+  ],
+  "description": "Convert the samplerate of PCM audio data using libsamplerate",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Audio::Convert::Samplerate",
+  "perl": "6.*",
+  "provides": {
+    "Audio::Convert::Samplerate": "lib/Audio/Convert/Samplerate.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Convert-Samplerate-0.0.9.tar.gz",
+  "support": {
+    "source": "https://github.com/jonathanstowe/Audio-Convert-Samplerate.git"
+  },
+  "tags": [
+    "audio",
+    "utils",
+    "convert"
+  ],
+  "test-depends": [
+    "LibraryCheck",
+    "Audio::Sndfile",
+    "Test"
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
     "LibraryCheck",
     "AccessorFacade"
   ],
@@ -45603,6 +45645,49 @@
     "Test"
   ],
   "version": "0.0.3"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "XML::Class",
+    "URI::Template",
+    "HTTP::UserAgent"
+  ],
+  "description": "Administrative helpers for an icecast server",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Audio::Icecast",
+  "perl": "6.*",
+  "provides": {
+    "Audio::Icecast": "lib/Audio/Icecast.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Icecast-0.0.4.tar.gz",
+  "support": {
+    "source": "git://github.com/jonathanstowe/Audio-Icecast.git"
+  },
+  "tags": [
+    "audio",
+    "util",
+    "icecast",
+    "admin"
+  ],
+  "test-depends": [
+    "CheckSocket",
+    "Test"
+  ],
+  "version": "0.0.4"
 }
 ,
 {
