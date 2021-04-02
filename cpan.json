@@ -45530,6 +45530,49 @@
     
   ],
   "depends": [
+    "XML::Class"
+  ],
+  "description": "Work with Hydrogen songs and drumkits",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Audio::Hydrogen",
+  "perl": "6.*",
+  "provides": {
+    "Audio::Hydrogen": "lib/Audio/Hydrogen.pm",
+    "Audio::Hydrogen::Drumkit": "lib/Audio/Hydrogen/Drumkit.pm",
+    "Audio::Hydrogen::Instrument": "lib/Audio/Hydrogen/Instrument.pm",
+    "Audio::Hydrogen::Pattern": "lib/Audio/Hydrogen/Pattern.pm",
+    "Audio::Hydrogen::Song": "lib/Audio/Hydrogen/Song.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Hydrogen-0.0.5.tar.gz",
+  "support": {
+    "source": "https://github.com/jonathanstowe/Audio-Hydrogen.git"
+  },
+  "tags": [
+    "audio",
+    "drumkit",
+    "xml"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "XML::Class",
     "URI::Template",
     "HTTP::UserAgent"
@@ -53403,6 +53446,45 @@
     "Test"
   ],
   "version": "0.0.3"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Which"
+  ],
+  "description": "retrieve a file from the internet by the best available method",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "URI::FetchFile",
+  "perl": "6.*",
+  "provides": {
+    "URI::FetchFile": "lib/URI/FetchFile.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/URI-FetchFile-0.0.4.tar.gz",
+  "support": {
+    "source": "https://github.com/jonathanstowe/URI-FetchFile.git"
+  },
+  "tags": [
+    "download",
+    "utility",
+    "http"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.4"
 }
 ,
 {
