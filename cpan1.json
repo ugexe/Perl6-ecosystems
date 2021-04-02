@@ -45757,6 +45757,47 @@
     
   ],
   "depends": [
+    "NativeHelpers::Array"
+  ],
+  "description": "Get audio fingerprint using the chromaprint / AcoustID library",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Audio::Fingerprint::Chromaprint",
+  "perl": "6.*",
+  "provides": {
+    "Audio::Fingerprint::Chromaprint": "lib/Audio/Fingerprint/Chromaprint.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-Fingerprint-Chromaprint-0.0.3.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint/issues",
+    "source": "https://github.com/jonathanstowe/Audio-Fingerprint-Chromaprint.git"
+  },
+  "tags": [
+    "audio",
+    "fingerprint",
+    "acoustid",
+    "noise-gang"
+  ],
+  "test-depends": [
+    "Audio::Sndfile"
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "XML::Class"
   ],
   "description": "Work with Hydrogen songs and drumkits",
@@ -52165,6 +52206,48 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Experimental method (and public attribute accessor,) level authorisation",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Object::Permission",
+  "perl": "6.*",
+  "provides": {
+    "Object::Permission": "lib/Object/Permission.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Object-Permission-0.0.5.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Object-Permission/issues",
+    "source": "https://github.com/jonathanstowe/Object-Permission.git"
+  },
+  "tags": [
+    "devel",
+    "authorisation",
+    "object",
+    "user"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Object::Permission",
     "Unix::Groups"
   ],
@@ -52239,6 +52322,50 @@
     "Test"
   ],
   "version": "0.0.4"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Object::Permission",
+    "Unix::Groups"
+  ],
+  "description": "Object helper for Object::Permission using unix groups.",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Object::Permission::Group",
+  "perl": "6.*",
+  "provides": {
+    "Object::Permission::Group": "lib/Object/Permission/Group.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Object-Permission-Group-0.0.5.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Object-Permission-Group/issues",
+    "source": "https://github.com/jonathanstowe/Object-Permission-Group.git"
+  },
+  "tags": [
+    "devel",
+    "authorisation",
+    "object",
+    "user",
+    "unix"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.5"
 }
 ,
 {
