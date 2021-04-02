@@ -53265,6 +53265,61 @@
   "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.com>"
+  ],
+  "build": {
+    "makefile-variables": {
+      "lastloghelper": {
+        "resource": "libraries/lastloghelper"
+      }
+    },
+    "src-dir": "src"
+  },
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": {
+    "build": {
+      "requires": [
+        "Distribution::Builder::MakeFromJSON:ver<0.6+>"
+      ]
+    },
+    "runtime": {
+      "requires": [
+        "System::Passwd:ver<0.05+>"
+      ]
+    }
+  },
+  "description": "Raku access to Lastlog information on Unix-like systems",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Sys::Lastlog",
+  "perl": "6.*",
+  "provides": {
+    "Sys::Lastlog": "lib/Sys/Lastlog.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    "libraries/lastloghelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Sys-Lastlog-0.1.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Raku-Sys-Lastlog/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "irc": "irc://irc.freenode.net/#perl6",
+    "source": "git://github.com/jonathanstowe/Raku-Sys-Lastlog.git"
+  },
+  "tags": [
+    "unix",
+    "audit",
+    "lastlog"
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
   "build-depends": [
@@ -54201,6 +54256,47 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Read Config::General/Apache style configuration",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Ujumla",
+  "perl": "6.*",
+  "provides": {
+    "Ujumla": "lib/Ujumla.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Ujumla-0.0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Ujumla/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Ujumla.git"
+  },
+  "tags": [
+    "config",
+    "Config::General",
+    "apache"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
