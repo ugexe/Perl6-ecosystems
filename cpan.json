@@ -52522,6 +52522,44 @@
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
+    "carbin",
+    "Jonathan Stowe"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "XML"
+  ],
+  "description": "Parse JDF files",
+  "license": "ISC",
+  "meta-version": 0,
+  "name": "Printing::Jdf",
+  "provides": {
+    "Printing::Jdf": "lib/Printing/Jdf.pm6"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Printing-Jdf-0.1.2.tar.gz",
+  "support": {
+    "source": "https://github.com/jonathanstowe/raku-jdf.git"
+  },
+  "tags": [
+    "printing",
+    "jdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.2"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
   ],
   "build-depends": [
@@ -52594,6 +52632,45 @@
     "Test"
   ],
   "version": "0.0.3"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "RPi::Device::SMBus"
+  ],
+  "description": "Interface for the Pimoroni PiGlow on the Raspberry Pi",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "RPi::Device::PiGlow",
+  "provides": {
+    "RPi::Device::PiGlow": "lib/RPi/Device/PiGlow.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/RPi-Device-PiGlow-0.0.4.tar.gz",
+  "support": {
+    "source": "https://github.com/jonathanstowe/RPi-Device-PiGlow.git"
+  },
+  "tags": [
+    "RPi",
+    "Raspberry Pi",
+    "i2c",
+    "PiGlow"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.4"
 }
 ,
 {
