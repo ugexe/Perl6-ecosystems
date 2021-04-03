@@ -53767,6 +53767,51 @@
     
   ],
   "depends": [
+    "Test",
+    "META6:ver<0.0.24+>",
+    "URI",
+    "License::SPDX"
+  ],
+  "description": "Test a distributions META file",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Test::META",
+  "perl": "6.*",
+  "provides": {
+    "Test::META": "lib/Test/META.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Test-META-0.0.17.tar.gz",
+  "support": {
+    "bugtracker": "http://github.com/jonathanstowe/Test-META/issues",
+    "email": "jns+git@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Test-META.git"
+  },
+  "tags": [
+    "devel",
+    "meta",
+    "utils",
+    "testing"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.17"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Get a free server port for testing with",
@@ -54716,6 +54761,47 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "uuencode and uudecode for raku",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Util::Uuencode",
+  "provides": {
+    "Util::Uuencode": "lib/Util/Uuencode.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Util-Uuencode-0.0.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Util-Uuencode/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Util-Uuencode.git"
+  },
+  "tags": [
+    "util",
+    "uuencode",
+    "unix",
+    "encode"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
