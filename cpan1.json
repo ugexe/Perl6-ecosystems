@@ -53165,6 +53165,48 @@
   "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Make a singleton class that wraps the methods so they appear like class methods",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Staticish",
+  "perl": "6.*",
+  "provides": {
+    "Staticish": "lib/Staticish.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Staticish-0.0.8.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Staticish/issues",
+    "source": "https://github.com/jonathanstowe/Staticish.git"
+  },
+  "tags": [
+    "devel",
+    "utils",
+    "singleton",
+    "object"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
     "Jonathan Stowe <jns+git@gellyfish.com>"
   ],
   "build-depends": [
