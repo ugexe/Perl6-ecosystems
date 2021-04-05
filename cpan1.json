@@ -100250,6 +100250,41 @@
 }
 ,
 {
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Grammar:ver<0.3.5+>",
+    "Color::Names"
+  ],
+  "description": "CSS Property definition grammar and generation tools",
+  "license": "Artistic-2.0",
+  "name": "CSS::Specification",
+  "perl": "6.c",
+  "provides": {
+    "CSS::Specification": "lib/CSS/Specification.rakumod",
+    "CSS::Specification::Actions": "lib/CSS/Specification/Actions.rakumod",
+    "CSS::Specification::Build": "lib/CSS/Specification/Build.rakumod",
+    "CSS::Specification::Terms": "lib/CSS/Specification/Terms.rakumod",
+    "CSS::Specification::Terms::Actions": "lib/CSS/Specification/Terms/Actions.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Specification-0.4.9.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.4.9"
+}
+,
+{
   "auth": "cpan:WARRINGD",
   "authors": [
     "David Warring"
