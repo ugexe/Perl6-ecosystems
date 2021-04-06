@@ -1465,6 +1465,36 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
+    "LibCurl::Easy:ver<1.4>",
+    "Log::Async"
+  ],
+  "description": "A Simple HTTP Client built on top of libcurl",
+  "license": "MIT",
+  "name": "Curlie",
+  "perl": "6.d",
+  "provides": {
+    "Curlie": "lib/Curlie.rakumod",
+    "Curlie::Response": "lib/Curlie/Response.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Curlie-0.0.4.tar.gz",
+  "tags": [
+    "HTTP",
+    "Web",
+    "WWW"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "authors": [
     "Brian Duggan"
   ],
