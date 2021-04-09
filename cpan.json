@@ -35872,46 +35872,6 @@
     
   ],
   "depends": [
-    
-  ],
-  "description": "Conversions from / to the French Revolutionary calendar",
-  "license": "Artistic-2.0",
-  "name": "Date::Calendar::FrenchRevolutionary",
-  "perl": "6.c",
-  "provides": {
-    "Date::Calendar::FrenchRevolutionary": "lib/Date/Calendar/FrenchRevolutionary.pm6",
-    "Date::Calendar::FrenchRevolutionary::Arithmetic": "lib/Date/Calendar/FrenchRevolutionary/Arithmetic.pm6",
-    "Date::Calendar::FrenchRevolutionary::Astronomical": "lib/Date/Calendar/FrenchRevolutionary/Astronomical.pm6",
-    "Date::Calendar::FrenchRevolutionary::Common": "lib/Date/Calendar/FrenchRevolutionary/Common.pm6",
-    "Date::Calendar::FrenchRevolutionary::Names": "lib/Date/Calendar/FrenchRevolutionary/Names.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-FrenchRevolutionary-0.0.2.tar.gz",
-  "support": {
-    "email": "JFORGET@cpan.org"
-  },
-  "tags": [
-    "date",
-    "calendar",
-    "fun"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "auth": "cpan:JFORGET",
-  "authors": [
-    "Jean Forget"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "Date::Calendar::Strftime"
   ],
   "description": "Conversions from / to the French Revolutionary calendar",
@@ -61976,6 +61936,40 @@
     
   ],
   "version": "0.38.0"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku - Gnome native interface support",
+  "license": "Artistic-2.0",
+  "name": "Gnome::N",
+  "perl": "6",
+  "provides": {
+    "Gnome::N::GlibToRakuTypes": "lib/Gnome/N/GlibToRakuTypes.pm6",
+    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
+    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
+    "Gnome::N::TopLevelClassSupport": "lib/Gnome/N/TopLevelClassSupport.pm6",
+    "Gnome::N::X": "lib/Gnome/N/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-native-0.18.10.tar.gz",
+  "tags": [
+    "gnome"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.18.10"
 }
 ,
 {
