@@ -29967,6 +29967,56 @@
   "authors": [
     "Travis Gibson"
   ],
+  "build": {
+    "makefile-variables": {
+      "uringhelper": {
+        "resource": "libraries/uringhelper"
+      }
+    }
+  },
+  "build-depends": [
+    "Distribution::Builder::MakeFromJSON:ver<0.6+>"
+  ],
+  "builder": "Distribution::Builder::MakeFromJSON",
+  "depends": [
+    "Constants::Netinet::In",
+    "Constants::Sys::Socket",
+    "Hash::int",
+    "Log::Timeline",
+    "NativeHelpers::iovec",
+    "Universal::errno"
+  ],
+  "description": "Access the io_uring interface from Raku",
+  "license": "Artistic-2.0",
+  "name": "IO::URing",
+  "perl": "6.d",
+  "provides": {
+    "IO::URing": "lib/IO/URing.pm6",
+    "IO::URing::LogTimelineSchema": "lib/IO/URing/LogTimelineSchema.pm6",
+    "IO::URing::Raw": "lib/IO/URing/Raw.pm6",
+    "IO::URing::Socket": "lib/IO/URing/Socket.pm6",
+    "IO::URing::Socket::INET": "lib/IO/URing/Socket/INET.pm6",
+    "IO::URing::Socket::Raw": "lib/IO/URing/Socket/Raw.pm6",
+    "IO::URing::Socket::UNIX": "lib/IO/URing/Socket/UNIX.pm6"
+  },
+  "resources": [
+    "libraries/uringhelper"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/G/GA/GARLANDG/Perl6/IO-URing-0.2.0.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.0"
+}
+,
+{
+  "auth": "cpan:GARLANDG",
+  "authors": [
+    "Travis Gibson"
+  ],
   "build-depends": [
     
   ],
@@ -103549,6 +103599,55 @@
     
   ],
   "version": "0.0.6"
+}
+,
+{
+  "api": "PDF-1.7",
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF::Content:ver<0.4.9+>",
+    "PDF:ver<0.4.5+>",
+    "PDF::Font::Loader:ver<0.4.2+>",
+    "PDF::Class:ver<0.4.10+>",
+    "Method::Also"
+  ],
+  "description": "Reads and writes tagged PDF files",
+  "license": "Artistic-2.0",
+  "name": "PDF::Tags",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Tags": "lib/PDF/Tags.rakumod",
+    "PDF::Tags::Attr": "lib/PDF/Tags/Attr.rakumod",
+    "PDF::Tags::Elem": "lib/PDF/Tags/Elem.rakumod",
+    "PDF::Tags::Mark": "lib/PDF/Tags/Mark.rakumod",
+    "PDF::Tags::Node": "lib/PDF/Tags/Node.rakumod",
+    "PDF::Tags::Node::Parent": "lib/PDF/Tags/Node/Parent.rakumod",
+    "PDF::Tags::Node::Root": "lib/PDF/Tags/Node/Root.rakumod",
+    "PDF::Tags::ObjRef": "lib/PDF/Tags/ObjRef.rakumod",
+    "PDF::Tags::Text": "lib/PDF/Tags/Text.rakumod",
+    "PDF::Tags::XML-Writer": "lib/PDF/Tags/XML-Writer.rakumod",
+    "PDF::Tags::XPath": "lib/PDF/Tags/XPath.rakumod",
+    "PDF::Tags::XPath::Actions": "lib/PDF/Tags/XPath/Actions.rakumod",
+    "PDF::Tags::XPath::Axes": "lib/PDF/Tags/XPath/Axes.rakumod",
+    "PDF::Tags::XPath::Grammar": "lib/PDF/Tags/XPath/Grammar.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Tags-0.0.7.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
 }
 ,
 {
