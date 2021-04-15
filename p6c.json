@@ -6735,6 +6735,23 @@
 }
 ,
 {
+  "auth": "github:cygx",
+  "description": "Unicode grapheme cluster boundary detection",
+  "license": "BSL-1.0",
+  "name": "Unicode::GCB",
+  "perl": "6.c",
+  "provides": {
+    "Unicode::GCB": "lib/Unicode/GCB.pm6"
+  },
+  "source-url": "git://github.com/cygx/p6-unicode-gcb.git",
+  "support": {
+    "bugtracker": "https://github.com/cygx/p6-unicode-gcb/issues",
+    "source": "https://github.com/cygx/p6-unicode-gcb/tree/v0.3.0"
+  },
+  "version": "0.3.0"
+}
+,
+{
   "author": "Dagur Valberg Johannsson",
   "depends": [
     
