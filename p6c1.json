@@ -15657,27 +15657,6 @@
 }
 ,
 {
-  "author": "github:pierre-vigier",
-  "depends": [
-    "DateTime::Format",
-    "Digest::HMAC",
-    "Digest::SHA",
-    "Digest",
-    "MIME::Base64",
-    "OpenSSL::RSATools",
-    "HTTP::UserAgent"
-  ],
-  "description": "HTTP Signature utility",
-  "name": "HTTP::Signature",
-  "perl": "6.*",
-  "provides": {
-    "HTTP::Signature": "lib/HTTP/Signature.pm6"
-  },
-  "source-url": "git://github.com/pierre-vigier/Perl6-HTTP-Signature.git",
-  "version": "0.1.1"
-}
-,
-{
   "auth": "github:pierre-vigier",
   "authors": [
     "github:pierre-vigier",
