@@ -8894,6 +8894,53 @@
 }
 ,
 {
+  "auth": "github:gfldex",
+  "authors": [
+    "Wenzel P. P. Peppmeyer <wenzel.peppmeyer@gmx.de>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Read and provide interface to git config.",
+  "emulates": {
+    
+  },
+  "excludes": {
+    
+  },
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Git::Config",
+  "perl": "6",
+  "provides": {
+    "Git::Config": "lib/Git/Config.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/gfldex/perl6-git-config.git",
+  "superseded-by": {
+    
+  },
+  "supersedes": {
+    
+  },
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.6"
+}
+,
+{
   "authors": [
     "Wenzel P. P. Peppmeyer"
   ],
@@ -15403,12 +15450,48 @@
 ,
 {
   "authors": [
+    "Petr Kolář"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "a basic parser of vCard",
+  "license": "Artistic-2.0",
+  "name": "vCard::Parser",
+  "perl": "6.d",
+  "provides": {
+    "vCard::Parser": "lib/vCard/Parser.pm6",
+    "vCard::Parser::Actions": "lib/vCard/Parser/Actions.pm6",
+    "vCard::Parser::Grammar": "lib/vCard/Parser/Grammar.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/petrkol72/vCard-Parser.git",
+  "tags": [
+    "Grammar",
+    "Parse",
+    "Parsing",
+    "Parser"
+  ],
+  "test-depends": [
+    "Test::META",
+    "JSON::Tiny"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
     "Konstantin Narkhov"
   ],
   "depends": [
     
   ],
-  "description": "Lempel–Ziv–Welch (LZW) algorithm implementation in Perl 6",
+  "description": "Lempel–Ziv–Welch (LZW) algorithm implementation in Raku",
   "license": "Artistic-2.0",
   "name": "LZW::Revolunet",
   "perl": "6.c",
@@ -15419,7 +15502,7 @@
   "tags": [
     "COMPRESSION"
   ],
-  "version": "0.1.2"
+  "version": "0.2.1"
 }
 ,
 {
