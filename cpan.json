@@ -2278,6 +2278,35 @@
   "authors": [
     "Brian Duggan"
   ],
+  "depends": [
+    "OO::Monitors"
+  ],
+  "description": "ANSI escape sequences",
+  "license": "MIT",
+  "name": "Terminal::ANSI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::ANSI": "lib/Terminal/ANSI.rakumod",
+    "Terminal::ANSI::OO": "lib/Terminal/ANSI/OO.rakumod",
+    "Terminal::ANSI::State": "lib/Terminal/ANSI/State.rakumod",
+    "Terminal::ANSI::Virtual": "lib/Terminal/ANSI/Virtual.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-ANSI-0.0.23.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.23"
+}
+,
+{
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
   "description": "ANSI escape sequences",
   "license": "MIT",
   "name": "Terminal::ANSI",
@@ -22022,6 +22051,46 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:FCO",
+  "authors": [
+    "Fernando Correa"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "UUID"
+  ],
+  "description": "Conflict-free Replicated Data Type",
+  "license": "Artistic-2.0",
+  "name": "CRDT",
+  "perl": "6.d",
+  "provides": {
+    "CRDT": "lib/CRDT.rakumod",
+    "G-Counter": "lib/G-Counter.rakumod",
+    "G-Set": "lib/G-Set.rakumod",
+    "LWW-Element-Set": "lib/LWW-Element-Set.rakumod",
+    "P2-Set": "lib/P2-Set.rakumod",
+    "PN-Counter": "lib/PN-Counter.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FC/FCO/Perl6/CRDT-0.0.3.tar.gz",
+  "tags": [
+    "CRDT",
+    "conflict-free",
+    "data-structure",
+    "replicated",
+    "concurrent"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
