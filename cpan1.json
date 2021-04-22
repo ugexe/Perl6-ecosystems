@@ -11293,6 +11293,37 @@
     
   ],
   "depends": [
+    "IRC::Client"
+  ],
+  "description": "IRC logger for historic purposes",
+  "license": "Artistic-2.0",
+  "name": "IRC::Client::Plugin::Logger",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Client::Plugin::Logger": "lib/IRC/Client/Plugin/Logger.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Client-Plugin-Logger-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "export ClassHOW to intercept all method calls",
