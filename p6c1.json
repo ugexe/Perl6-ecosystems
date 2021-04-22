@@ -24778,7 +24778,7 @@
 {
   "auth": "zef:tony-o",
   "depends": [
-    "HTTP::Server",
+    "HTTP::Roles",
     "JSON::Fast"
   ],
   "description": "Middleware to parse JSON for HTTP::Server-s",
@@ -24797,7 +24797,7 @@
 {
   "auth": "zef:tony-o",
   "depends": [
-    "HTTP::Server"
+    "HTTP::Roles"
   ],
   "description": "Router for HTTP::Server based servers",
   "name": "HTTP::Server::Router",
