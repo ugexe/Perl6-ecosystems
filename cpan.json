@@ -11265,6 +11265,68 @@
   "depends": [
     
   ],
+  "description": "interface to IRC logs from colabti.org",
+  "license": "Artistic-2.0",
+  "name": "IRC::Log::Colabti",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Log::Colabti": "lib/IRC/Log/Colabti.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Log-Colabti-0.0.5.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "interface to IRC logs from colabti.org",
+  "license": "Artistic-2.0",
+  "name": "IRC::Log::Colabti",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Log::Colabti": "lib/IRC/Log/Colabti.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Log-Colabti-0.0.6.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "export ClassHOW to intercept all method calls",
   "license": "Artistic-2.0",
   "name": "InterceptAllMethods",
@@ -100464,6 +100526,54 @@
     
   ],
   "version": "0.0.12"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Module:ver<0.5.3+>",
+    "CSS::Properties:ver<0.6.6+>",
+    "CSS::Selector::To::XPath",
+    "LibXML:ver<0.5.14+>",
+    "Method::Also"
+  ],
+  "description": "CSS Stylesheet processing",
+  "license": "Artistic-2.0",
+  "name": "CSS",
+  "perl": "6.c",
+  "provides": {
+    "CSS": "lib/CSS.rakumod",
+    "CSS::Media": "lib/CSS/Media.rakumod",
+    "CSS::Ruleset": "lib/CSS/Ruleset.rakumod",
+    "CSS::Selectors": "lib/CSS/Selectors.rakumod",
+    "CSS::Stylesheet": "lib/CSS/Stylesheet.rakumod",
+    "CSS::TagSet": "lib/CSS/TagSet.rakumod",
+    "CSS::TagSet::Pango": "lib/CSS/TagSet/Pango.rakumod",
+    "CSS::TagSet::TaggedPDF": "lib/CSS/TagSet/TaggedPDF.rakumod",
+    "CSS::TagSet::XHTML": "lib/CSS/TagSet/XHTML.rakumod"
+  },
+  "resources": [
+    "pango.css",
+    "tagged-pdf.css",
+    "xhtml.css"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.13.tar.gz",
+  "tags": [
+    "xml",
+    "html",
+    "xpath",
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.13"
 }
 ,
 {
