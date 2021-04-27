@@ -482,6 +482,58 @@
   "authors": [
     "Andinus <andinus@nand.sh>"
   ],
+  "depends": [
+    "Terminal::Table:auth<github:araraloren>"
+  ],
+  "description": "Caelum is a text based Cee-lo game",
+  "license": "ISC",
+  "name": "caelum",
+  "perl": "6.d",
+  "provides": {
+    "Caelum::CLI": "lib/Caelum/CLI.rakumod",
+    "Caelum::Player": "lib/Caelum/Player.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANDINUS/Perl6/caelum-0.1.0.tar.gz",
+  "tags": [
+    "Caelum",
+    "Cee-lo",
+    "Chinchirorin",
+    "Chinchiro"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "auth": "github:andinus",
+  "authors": [
+    "Andinus <andinus@nand.sh>"
+  ],
+  "depends": [
+    "Terminal::Table:auth<github:araraloren>"
+  ],
+  "description": "Caelum is a text based Cee-lo game",
+  "license": "ISC",
+  "name": "caelum",
+  "perl": "6.d",
+  "provides": {
+    "Caelum::CLI": "lib/Caelum/CLI.rakumod",
+    "Caelum::Player": "lib/Caelum/Player.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANDINUS/Perl6/caelum-0.1.1.tar.gz",
+  "tags": [
+    "Caelum",
+    "Cee-lo",
+    "Chinchirorin",
+    "Chinchiro"
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "auth": "github:andinus",
+  "authors": [
+    "Andinus <andinus@nand.sh>"
+  ],
   "build-depends": [
     
   ],
