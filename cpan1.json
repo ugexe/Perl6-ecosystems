@@ -553,6 +553,33 @@
 }
 ,
 {
+  "auth": "github:andinus",
+  "authors": [
+    "Andinus <andinus@nand.sh>"
+  ],
+  "depends": [
+    "Digest::SHA",
+    "LWP::Simple::auth<github:raku-community-modules>"
+  ],
+  "description": "Orion checks for compromised passwords using Have I Been Pwned API",
+  "license": "ISC",
+  "name": "orion",
+  "perl": "6.d",
+  "provides": {
+    "Orion::CLI": "lib/Orion/CLI.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANDINUS/Perl6/orion-0.2.2.tar.gz",
+  "tags": [
+    "Orion",
+    "PasswordStore",
+    "pass",
+    "HaveIBeenPwned",
+    "HIBP"
+  ],
+  "version": "0.2.2"
+}
+,
+{
   "auth": "cpan:ARNE",
   "authors": [
     "Arne Sommer"
