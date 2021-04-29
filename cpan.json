@@ -101225,53 +101225,6 @@
   ],
   "depends": [
     "CSS::Module:ver<0.5.3+>",
-    "CSS::Properties:ver<0.6.3+>",
-    "CSS::Selector::To::XPath",
-    "LibXML:ver<0.5.14+>",
-    "Method::Also"
-  ],
-  "description": "CSS Stylesheet processing",
-  "license": "Artistic-2.0",
-  "name": "CSS",
-  "perl": "6.c",
-  "provides": {
-    "CSS": "lib/CSS.rakumod",
-    "CSS::Media": "lib/CSS/Media.rakumod",
-    "CSS::Ruleset": "lib/CSS/Ruleset.rakumod",
-    "CSS::Selectors": "lib/CSS/Selectors.rakumod",
-    "CSS::Stylesheet": "lib/CSS/Stylesheet.rakumod",
-    "CSS::TagSet": "lib/CSS/TagSet.rakumod",
-    "CSS::TagSet::Pango": "lib/CSS/TagSet/Pango.rakumod",
-    "CSS::TagSet::TaggedPDF": "lib/CSS/TagSet/TaggedPDF.rakumod",
-    "CSS::TagSet::XHTML": "lib/CSS/TagSet/XHTML.rakumod"
-  },
-  "resources": [
-    "pango.css",
-    "tagged-pdf.css",
-    "xhtml.css"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.10.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath",
-    "css"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.10"
-}
-,
-{
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Module:ver<0.5.3+>",
     "CSS::Properties:ver<0.6.5+>",
     "CSS::Selector::To::XPath",
     "LibXML:ver<0.5.14+>",
@@ -101504,53 +101457,6 @@
 }
 ,
 {
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Module:ver<0.5.3+>",
-    "CSS::Properties:ver<0.6.3+>",
-    "CSS::Selector::To::XPath",
-    "LibXML:ver<0.5.14+>",
-    "Method::Also"
-  ],
-  "description": "CSS Stylesheet processing",
-  "license": "Artistic-2.0",
-  "name": "CSS",
-  "perl": "6.c",
-  "provides": {
-    "CSS": "lib/CSS.rakumod",
-    "CSS::Media": "lib/CSS/Media.rakumod",
-    "CSS::Ruleset": "lib/CSS/Ruleset.rakumod",
-    "CSS::Selectors": "lib/CSS/Selectors.rakumod",
-    "CSS::Stylesheet": "lib/CSS/Stylesheet.rakumod",
-    "CSS::TagSet": "lib/CSS/TagSet.rakumod",
-    "CSS::TagSet::Pango": "lib/CSS/TagSet/Pango.rakumod",
-    "CSS::TagSet::TaggedPDF": "lib/CSS/TagSet/TaggedPDF.rakumod",
-    "CSS::TagSet::XHTML": "lib/CSS/TagSet/XHTML.rakumod"
-  },
-  "resources": [
-    "pango.css",
-    "tagged-pdf.css",
-    "xhtml.css"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.9.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath",
-    "css"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.9"
-}
-,
-{
   "auth": "github:css-raku",
   "authors": [
     "David Warring"
@@ -101624,219 +101530,6 @@
     
   ],
   "version": "0.3.7"
-}
-,
-{
-  "auth": "github:css-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Grammar:ver<0.3.5+>",
-    "CSS::Module::CSS3::Selectors:ver<0.0.4>",
-    "CSS::Specification:ver<0.4.6+>",
-    "CSS::Writer:ver<0.2.6+>",
-    "JSON::Fast"
-  ],
-  "description": "Perl 6 CSS extended and property-specific grammars",
-  "license": "Artistic-2.0",
-  "name": "CSS::Module",
-  "perl": "6.c",
-  "provides": {
-    "CSS::Module": "lib/CSS/Module.rakumod",
-    "CSS::Module::CSS1": "lib/CSS/Module/CSS1.rakumod",
-    "CSS::Module::CSS1::Actions": "lib/CSS/Module/CSS1/Actions.rakumod",
-    "CSS::Module::CSS1::Gen::Actions": "lib/CSS/Module/CSS1/Gen/Actions.rakumod",
-    "CSS::Module::CSS1::Gen::Grammar": "lib/CSS/Module/CSS1/Gen/Grammar.rakumod",
-    "CSS::Module::CSS1::Gen::Interface": "lib/CSS/Module/CSS1/Gen/Interface.rakumod",
-    "CSS::Module::CSS1::Metadata": "lib/CSS/Module/CSS1/Metadata.rakumod",
-    "CSS::Module::CSS21": "lib/CSS/Module/CSS21.rakumod",
-    "CSS::Module::CSS21::Actions": "lib/CSS/Module/CSS21/Actions.rakumod",
-    "CSS::Module::CSS21::Gen::Actions": "lib/CSS/Module/CSS21/Gen/Actions.rakumod",
-    "CSS::Module::CSS21::Gen::Grammar": "lib/CSS/Module/CSS21/Gen/Grammar.rakumod",
-    "CSS::Module::CSS21::Gen::Interface": "lib/CSS/Module/CSS21/Gen/Interface.rakumod",
-    "CSS::Module::CSS21::Metadata": "lib/CSS/Module/CSS21/Metadata.rakumod",
-    "CSS::Module::CSS3": "lib/CSS/Module/CSS3.rakumod",
-    "CSS::Module::CSS3::Actions": "lib/CSS/Module/CSS3/Actions.rakumod",
-    "CSS::Module::CSS3::Colors": "lib/CSS/Module/CSS3/Colors.rakumod",
-    "CSS::Module::CSS3::Fonts": "lib/CSS/Module/CSS3/Fonts.rakumod",
-    "CSS::Module::CSS3::Fonts::Actions": "lib/CSS/Module/CSS3/Fonts/Actions.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace": "lib/CSS/Module/CSS3/Fonts/AtFontFace.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Actions": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Actions.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Grammar": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Grammar.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Interface": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Interface.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Metadata": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Metadata.rakumod",
-    "CSS::Module::CSS3::Fonts::Gen::Actions": "lib/CSS/Module/CSS3/Fonts/Gen/Actions.rakumod",
-    "CSS::Module::CSS3::Fonts::Gen::Grammar": "lib/CSS/Module/CSS3/Fonts/Gen/Grammar.rakumod",
-    "CSS::Module::CSS3::Fonts::Gen::Interface": "lib/CSS/Module/CSS3/Fonts/Gen/Interface.rakumod",
-    "CSS::Module::CSS3::Fonts::Variants": "lib/CSS/Module/CSS3/Fonts/Variants.rakumod",
-    "CSS::Module::CSS3::MediaQueries": "lib/CSS/Module/CSS3/MediaQueries.rakumod",
-    "CSS::Module::CSS3::Metadata": "lib/CSS/Module/CSS3/Metadata.rakumod",
-    "CSS::Module::CSS3::Namespaces": "lib/CSS/Module/CSS3/Namespaces.rakumod",
-    "CSS::Module::CSS3::PagedMedia": "lib/CSS/Module/CSS3/PagedMedia.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Gen::Actions": "lib/CSS/Module/CSS3/PagedMedia/Gen/Actions.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Gen::Grammar": "lib/CSS/Module/CSS3/PagedMedia/Gen/Grammar.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Gen::Interface": "lib/CSS/Module/CSS3/PagedMedia/Gen/Interface.rakumod",
-    "CSS::Module::CSS3::_Base": "lib/CSS/Module/CSS3/_Base.rakumod",
-    "CSS::Module::CSS3::_Base::Actions": "lib/CSS/Module/CSS3/_Base/Actions.rakumod",
-    "CSS::Module::Property": "lib/CSS/Module/Property.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Module-0.5.5.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.5.5"
-}
-,
-{
-  "auth": "github:css-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Grammar:ver<0.3.5+>",
-    "CSS::Module::CSS3::Selectors:ver<0.0.4>",
-    "CSS::Specification:ver<0.4.6+>",
-    "CSS::Writer:ver<0.2.6+>",
-    "JSON::Fast"
-  ],
-  "description": "Perl 6 CSS extended and property-specific grammars",
-  "license": "Artistic-2.0",
-  "name": "CSS::Module",
-  "perl": "6.c",
-  "provides": {
-    "CSS::Module": "lib/CSS/Module.rakumod",
-    "CSS::Module::CSS1": "lib/CSS/Module/CSS1.rakumod",
-    "CSS::Module::CSS1::Actions": "lib/CSS/Module/CSS1/Actions.rakumod",
-    "CSS::Module::CSS1::Gen::Actions": "lib/CSS/Module/CSS1/Gen/Actions.rakumod",
-    "CSS::Module::CSS1::Gen::Grammar": "lib/CSS/Module/CSS1/Gen/Grammar.rakumod",
-    "CSS::Module::CSS1::Gen::Interface": "lib/CSS/Module/CSS1/Gen/Interface.rakumod",
-    "CSS::Module::CSS1::Metadata": "lib/CSS/Module/CSS1/Metadata.rakumod",
-    "CSS::Module::CSS21": "lib/CSS/Module/CSS21.rakumod",
-    "CSS::Module::CSS21::Actions": "lib/CSS/Module/CSS21/Actions.rakumod",
-    "CSS::Module::CSS21::Gen::Actions": "lib/CSS/Module/CSS21/Gen/Actions.rakumod",
-    "CSS::Module::CSS21::Gen::Grammar": "lib/CSS/Module/CSS21/Gen/Grammar.rakumod",
-    "CSS::Module::CSS21::Gen::Interface": "lib/CSS/Module/CSS21/Gen/Interface.rakumod",
-    "CSS::Module::CSS21::Metadata": "lib/CSS/Module/CSS21/Metadata.rakumod",
-    "CSS::Module::CSS3": "lib/CSS/Module/CSS3.rakumod",
-    "CSS::Module::CSS3::Actions": "lib/CSS/Module/CSS3/Actions.rakumod",
-    "CSS::Module::CSS3::Colors": "lib/CSS/Module/CSS3/Colors.rakumod",
-    "CSS::Module::CSS3::Fonts": "lib/CSS/Module/CSS3/Fonts.rakumod",
-    "CSS::Module::CSS3::Fonts::Actions": "lib/CSS/Module/CSS3/Fonts/Actions.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace": "lib/CSS/Module/CSS3/Fonts/AtFontFace.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Actions": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Actions.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Grammar": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Grammar.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Interface": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Interface.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Metadata": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Metadata.rakumod",
-    "CSS::Module::CSS3::Fonts::Gen::Actions": "lib/CSS/Module/CSS3/Fonts/Gen/Actions.rakumod",
-    "CSS::Module::CSS3::Fonts::Gen::Grammar": "lib/CSS/Module/CSS3/Fonts/Gen/Grammar.rakumod",
-    "CSS::Module::CSS3::Fonts::Gen::Interface": "lib/CSS/Module/CSS3/Fonts/Gen/Interface.rakumod",
-    "CSS::Module::CSS3::Fonts::Variants": "lib/CSS/Module/CSS3/Fonts/Variants.rakumod",
-    "CSS::Module::CSS3::MediaQueries": "lib/CSS/Module/CSS3/MediaQueries.rakumod",
-    "CSS::Module::CSS3::Metadata": "lib/CSS/Module/CSS3/Metadata.rakumod",
-    "CSS::Module::CSS3::Namespaces": "lib/CSS/Module/CSS3/Namespaces.rakumod",
-    "CSS::Module::CSS3::PagedMedia": "lib/CSS/Module/CSS3/PagedMedia.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Gen::Actions": "lib/CSS/Module/CSS3/PagedMedia/Gen/Actions.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Gen::Grammar": "lib/CSS/Module/CSS3/PagedMedia/Gen/Grammar.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Gen::Interface": "lib/CSS/Module/CSS3/PagedMedia/Gen/Interface.rakumod",
-    "CSS::Module::CSS3::_Base": "lib/CSS/Module/CSS3/_Base.rakumod",
-    "CSS::Module::CSS3::_Base::Actions": "lib/CSS/Module/CSS3/_Base/Actions.rakumod",
-    "CSS::Module::Property": "lib/CSS/Module/Property.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Module-0.5.6.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.5.6"
-}
-,
-{
-  "auth": "github:css-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Grammar:ver<0.3.5+>",
-    "CSS::Module::CSS3::Selectors:ver<0.0.4>",
-    "CSS::Specification:ver<0.4.9+>",
-    "CSS::Writer:ver<0.2.6+>",
-    "JSON::Fast"
-  ],
-  "description": "Perl 6 CSS extended and property-specific grammars",
-  "license": "Artistic-2.0",
-  "name": "CSS::Module",
-  "perl": "6.c",
-  "provides": {
-    "CSS::Module": "lib/CSS/Module.rakumod",
-    "CSS::Module::CSS1": "lib/CSS/Module/CSS1.rakumod",
-    "CSS::Module::CSS1::Actions": "lib/CSS/Module/CSS1/Actions.rakumod",
-    "CSS::Module::CSS1::Gen::Actions": "lib/CSS/Module/CSS1/Gen/Actions.rakumod",
-    "CSS::Module::CSS1::Gen::Grammar": "lib/CSS/Module/CSS1/Gen/Grammar.rakumod",
-    "CSS::Module::CSS1::Gen::Interface": "lib/CSS/Module/CSS1/Gen/Interface.rakumod",
-    "CSS::Module::CSS1::Metadata": "lib/CSS/Module/CSS1/Metadata.rakumod",
-    "CSS::Module::CSS21": "lib/CSS/Module/CSS21.rakumod",
-    "CSS::Module::CSS21::Actions": "lib/CSS/Module/CSS21/Actions.rakumod",
-    "CSS::Module::CSS21::Gen::Actions": "lib/CSS/Module/CSS21/Gen/Actions.rakumod",
-    "CSS::Module::CSS21::Gen::Grammar": "lib/CSS/Module/CSS21/Gen/Grammar.rakumod",
-    "CSS::Module::CSS21::Gen::Interface": "lib/CSS/Module/CSS21/Gen/Interface.rakumod",
-    "CSS::Module::CSS21::Metadata": "lib/CSS/Module/CSS21/Metadata.rakumod",
-    "CSS::Module::CSS3": "lib/CSS/Module/CSS3.rakumod",
-    "CSS::Module::CSS3::Actions": "lib/CSS/Module/CSS3/Actions.rakumod",
-    "CSS::Module::CSS3::Colors": "lib/CSS/Module/CSS3/Colors.rakumod",
-    "CSS::Module::CSS3::Fonts": "lib/CSS/Module/CSS3/Fonts.rakumod",
-    "CSS::Module::CSS3::Fonts::Actions": "lib/CSS/Module/CSS3/Fonts/Actions.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace": "lib/CSS/Module/CSS3/Fonts/AtFontFace.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Actions": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Actions.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Grammar": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Grammar.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Gen::Interface": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Gen/Interface.rakumod",
-    "CSS::Module::CSS3::Fonts::AtFontFace::Metadata": "lib/CSS/Module/CSS3/Fonts/AtFontFace/Metadata.rakumod",
-    "CSS::Module::CSS3::Fonts::Gen::Actions": "lib/CSS/Module/CSS3/Fonts/Gen/Actions.rakumod",
-    "CSS::Module::CSS3::Fonts::Gen::Grammar": "lib/CSS/Module/CSS3/Fonts/Gen/Grammar.rakumod",
-    "CSS::Module::CSS3::Fonts::Gen::Interface": "lib/CSS/Module/CSS3/Fonts/Gen/Interface.rakumod",
-    "CSS::Module::CSS3::Fonts::Variants": "lib/CSS/Module/CSS3/Fonts/Variants.rakumod",
-    "CSS::Module::CSS3::MediaQueries": "lib/CSS/Module/CSS3/MediaQueries.rakumod",
-    "CSS::Module::CSS3::Metadata": "lib/CSS/Module/CSS3/Metadata.rakumod",
-    "CSS::Module::CSS3::Namespaces": "lib/CSS/Module/CSS3/Namespaces.rakumod",
-    "CSS::Module::CSS3::PagedMedia": "lib/CSS/Module/CSS3/PagedMedia.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Gen::Actions": "lib/CSS/Module/CSS3/PagedMedia/Gen/Actions.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Gen::Grammar": "lib/CSS/Module/CSS3/PagedMedia/Gen/Grammar.rakumod",
-    "CSS::Module::CSS3::PagedMedia::Gen::Interface": "lib/CSS/Module/CSS3/PagedMedia/Gen/Interface.rakumod",
-    "CSS::Module::CSS3::_Base": "lib/CSS/Module/CSS3/_Base.rakumod",
-    "CSS::Module::CSS3::_Base::Actions": "lib/CSS/Module/CSS3/_Base/Actions.rakumod",
-    "CSS::Module::Property": "lib/CSS/Module/Property.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Module-0.5.7.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.5.7"
 }
 ,
 {
@@ -101941,50 +101634,6 @@
     
   ],
   "version": "0.0.4"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Module:ver<0.5.5+>",
-    "CSS::Writer:ver<0.2.6+>",
-    "Color",
-    "Method::Also"
-  ],
-  "description": "CSS property manipulation library",
-  "license": "Artistic-2.0",
-  "name": "CSS::Properties",
-  "perl": "6.*",
-  "provides": {
-    "CSS::Box": "lib/CSS/Box.rakumod",
-    "CSS::PageBox": "lib/CSS/PageBox.rakumod",
-    "CSS::Properties": "lib/CSS/Properties.rakumod",
-    "CSS::Properties::Box": "lib/CSS/Properties/Box.rakumod",
-    "CSS::Properties::Calculator": "lib/CSS/Properties/Calculator.rakumod",
-    "CSS::Properties::Edges": "lib/CSS/Properties/Edges.rakumod",
-    "CSS::Properties::Font": "lib/CSS/Properties/Font.rakumod",
-    "CSS::Properties::PageBox": "lib/CSS/Properties/PageBox.rakumod",
-    "CSS::Properties::Property": "lib/CSS/Properties/Property.rakumod",
-    "CSS::Properties::Units": "lib/CSS/Properties/Units.rakumod",
-    "CSS::Units": "lib/CSS/Units.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Properties-0.6.3.tar.gz",
-  "tags": [
-    "css"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.6.3"
 }
 ,
 {
@@ -104905,6 +104554,72 @@
     
   ],
   "version": "0.5.0"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Base64::Native",
+    "Color",
+    "Compress::Zlib::Raw",
+    "Font::AFM:ver<1.24.4+>",
+    "Native::Packing",
+    "Method::Also",
+    "JSON::Fast",
+    "PDF:ver<0.4.6+>",
+    "PDF::Grammar"
+  ],
+  "description": "PDF content related classes; including text, images, fonts and graphics",
+  "license": "Artistic-2.0",
+  "name": "PDF::Content",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Content": "lib/PDF/Content.rakumod",
+    "PDF::Content::Color": "lib/PDF/Content/Color.rakumod",
+    "PDF::Content::Font": "lib/PDF/Content/Font.rakumod",
+    "PDF::Content::Font::CoreFont": "lib/PDF/Content/Font/CoreFont.rakumod",
+    "PDF::Content::Font::Enc::Glyphic": "lib/PDF/Content/Font/Enc/Glyphic.rakumod",
+    "PDF::Content::Font::Enc::Type1": "lib/PDF/Content/Font/Enc/Type1.rakumod",
+    "PDF::Content::Font::Encodings": "lib/PDF/Content/Font/Encodings.rakumod",
+    "PDF::Content::FontObj": "lib/PDF/Content/FontObj.rakumod",
+    "PDF::Content::Graphics": "lib/PDF/Content/Graphics.rakumod",
+    "PDF::Content::Image": "lib/PDF/Content/Image.rakumod",
+    "PDF::Content::Image::GIF": "lib/PDF/Content/Image/GIF.rakumod",
+    "PDF::Content::Image::JPEG": "lib/PDF/Content/Image/JPEG.rakumod",
+    "PDF::Content::Image::PDF": "lib/PDF/Content/Image/PDF.rakumod",
+    "PDF::Content::Image::PNG": "lib/PDF/Content/Image/PNG.rakumod",
+    "PDF::Content::Interface": "lib/PDF/Content/Interface.rakumod",
+    "PDF::Content::Matrix": "lib/PDF/Content/Matrix.rakumod",
+    "PDF::Content::Ops": "lib/PDF/Content/Ops.rakumod",
+    "PDF::Content::Page": "lib/PDF/Content/Page.rakumod",
+    "PDF::Content::PageNode": "lib/PDF/Content/PageNode.rakumod",
+    "PDF::Content::PageTree": "lib/PDF/Content/PageTree.rakumod",
+    "PDF::Content::ResourceDict": "lib/PDF/Content/ResourceDict.rakumod",
+    "PDF::Content::Resourced": "lib/PDF/Content/Resourced.rakumod",
+    "PDF::Content::Tag": "lib/PDF/Content/Tag.rakumod",
+    "PDF::Content::Text::Block": "lib/PDF/Content/Text/Block.rakumod",
+    "PDF::Content::Text::Box": "lib/PDF/Content/Text/Box.rakumod",
+    "PDF::Content::Text::Line": "lib/PDF/Content/Text/Line.rakumod",
+    "PDF::Content::Text::Style": "lib/PDF/Content/Text/Style.rakumod",
+    "PDF::Content::XObject": "lib/PDF/Content/XObject.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Content-0.5.1.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.5.1"
 }
 ,
 {
