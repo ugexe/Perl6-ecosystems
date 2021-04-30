@@ -8872,6 +8872,37 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Raku utilities for (native) sorted arrays",
+  "license": "Artistic-2.0",
+  "name": "Array::Sorted::Util",
+  "perl": "6.d",
+  "provides": {
+    "Array::Sorted::Util": "lib/Array/Sorted/Util.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Array-Sorted-Util-0.0.5.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Array::Agnostic"
   ],
   "description": "class for sparsely populated Arrays",
@@ -60866,6 +60897,49 @@
   "resources": [
     "gtk-brokenimage.png"
   ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gdk3-0.18.1.1.tar.gz",
+  "tags": [
+    "gnome",
+    "gdk"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.18.1.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib",
+    "Gnome::GObject",
+    "Gnome::Cairo"
+  ],
+  "description": "Raku - Gnome Gdk Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gdk3",
+  "perl": "6",
+  "provides": {
+    "Gnome::Gdk3::Device": "lib/Gnome/Gdk3/Device.pm6",
+    "Gnome::Gdk3::Display": "lib/Gnome/Gdk3/Display.pm6",
+    "Gnome::Gdk3::Events": "lib/Gnome/Gdk3/Events.pm6",
+    "Gnome::Gdk3::Keysyms": "lib/Gnome/Gdk3/Keysyms.pm6",
+    "Gnome::Gdk3::Pixbuf": "lib/Gnome/Gdk3/Pixbuf.pm6",
+    "Gnome::Gdk3::RGBA": "lib/Gnome/Gdk3/RGBA.pm6",
+    "Gnome::Gdk3::Screen": "lib/Gnome/Gdk3/Screen.pm6",
+    "Gnome::Gdk3::Types": "lib/Gnome/Gdk3/Types.pm6",
+    "Gnome::Gdk3::Visual": "lib/Gnome/Gdk3/Visual.pm6",
+    "Gnome::Gdk3::Window": "lib/Gnome/Gdk3/Window.pm6"
+  },
+  "resources": [
+    "gtk-brokenimage.png"
+  ],
   "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gdk3-0.18.1.tar.gz",
   "tags": [
     "gnome",
@@ -61023,6 +61097,60 @@
     
   ],
   "version": "0.8.0.1"
+}
+,
+{
+  "X-provides": {
+    "Gnome::Gio::Emblem": "lib/Gnome/Gio/Emblem.pm6",
+    "Gnome::Gio::EmblemedIcon": "lib/Gnome/Gio/EmblemedIcon.pm6",
+    "Gnome::Gio::Icon": "lib/Gnome/Gio/Icon.pm6",
+    "X": "x"
+  },
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib",
+    "Gnome::GObject"
+  ],
+  "description": "Raku Gnome GIO api, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gio",
+  "perl": "6",
+  "provides": {
+    "Gnome::Gio::Action": "lib/Gnome/Gio/Action.pm6",
+    "Gnome::Gio::ActionGroup": "lib/Gnome/Gio/ActionGroup.pm6",
+    "Gnome::Gio::ActionMap": "lib/Gnome/Gio/ActionMap.pm6",
+    "Gnome::Gio::Application": "lib/Gnome/Gio/Application.pm6",
+    "Gnome::Gio::ApplicationCommandLine": "lib/Gnome/Gio/ApplicationCommandLine.pm6",
+    "Gnome::Gio::Enums": "lib/Gnome/Gio/Enums.pm6",
+    "Gnome::Gio::File": "lib/Gnome/Gio/File.pm6",
+    "Gnome::Gio::Menu": "lib/Gnome/Gio/Menu.pm6",
+    "Gnome::Gio::MenuAttributeIter": "lib/Gnome/Gio/MenuAttributeIter.pm6",
+    "Gnome::Gio::MenuItem": "lib/Gnome/Gio/MenuItem.pm6",
+    "Gnome::Gio::MenuLinkIter": "lib/Gnome/Gio/MenuLinkIter.pm6",
+    "Gnome::Gio::MenuModel": "lib/Gnome/Gio/MenuModel.pm6",
+    "Gnome::Gio::Notification": "lib/Gnome/Gio/Notification.pm6",
+    "Gnome::Gio::Resource": "lib/Gnome/Gio/Resource.pm6",
+    "Gnome::Gio::SimpleAction": "lib/Gnome/Gio/SimpleAction.pm6",
+    "Gnome::Gio::SimpleActionGroup": "lib/Gnome/Gio/SimpleActionGroup.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gio-0.8.0.2.tar.gz",
+  "tags": [
+    "gnome",
+    "gio"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.8.0.2"
 }
 ,
 {
@@ -61454,6 +61582,44 @@
     
   ],
   "version": "0.16.19"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib"
+  ],
+  "description": "Raku - Gnome GObject Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::GObject",
+  "perl": "6",
+  "provides": {
+    "Gnome::GObject::Boxed": "lib/Gnome/GObject/Boxed.pm6",
+    "Gnome::GObject::InitiallyUnowned": "lib/Gnome/GObject/InitiallyUnowned.pm6",
+    "Gnome::GObject::Object": "lib/Gnome/GObject/Object.pm6",
+    "Gnome::GObject::Signal": "lib/Gnome/GObject/Signal.pm6",
+    "Gnome::GObject::Type": "lib/Gnome/GObject/Type.pm6",
+    "Gnome::GObject::Value": "lib/Gnome/GObject/Value.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gobject-0.16.20.tar.gz",
+  "tags": [
+    "gnome",
+    "glib",
+    "gobject"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.16.20"
 }
 ,
 {
@@ -62293,6 +62459,40 @@
     
   ],
   "version": "0.18.11"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku - Gnome native interface support",
+  "license": "Artistic-2.0",
+  "name": "Gnome::N",
+  "perl": "6",
+  "provides": {
+    "Gnome::N::GlibToRakuTypes": "lib/Gnome/N/GlibToRakuTypes.pm6",
+    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
+    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
+    "Gnome::N::TopLevelClassSupport": "lib/Gnome/N/TopLevelClassSupport.pm6",
+    "Gnome::N::X": "lib/Gnome/N/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-native-0.18.12.tar.gz",
+  "tags": [
+    "gnome"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.18.12"
 }
 ,
 {
