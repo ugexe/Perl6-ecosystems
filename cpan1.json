@@ -511,6 +511,40 @@
 }
 ,
 {
+  "auth": "zef:andinus",
+  "authors": [
+    "Andinus <andinus@nand.sh>"
+  ],
+  "depends": [
+    "Terminal::Table:auth<github:araraloren>",
+    "Terminal::ANSIColor"
+  ],
+  "description": "Antlia is a text based Rock paper scissors game",
+  "license": "ISC",
+  "name": "antlia",
+  "perl": "6.d",
+  "provides": {
+    "Antlia::CLI": "lib/Antlia/CLI.rakumod"
+  },
+  "resources": [
+    "rock/1",
+    "rock/2",
+    "paper/1",
+    "paper/2",
+    "scissor/1",
+    "scissor/2"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANDINUS/Perl6/antlia-0.1.1.tar.gz",
+  "tags": [
+    "Antlia",
+    "roshambo",
+    "ro-sham-bo",
+    "Rock paper scissors"
+  ],
+  "version": "0.1.1"
+}
+,
+{
   "auth": "github:andinus",
   "authors": [
     "Andinus <andinus@nand.sh>"
@@ -12028,6 +12062,37 @@
     
   ],
   "version": "0.0.20"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "interface to IRC logs from colabti.org",
+  "license": "Artistic-2.0",
+  "name": "IRC::Log::Colabti",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Log::Colabti": "lib/IRC/Log/Colabti.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Log-Colabti-0.0.21.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.21"
 }
 ,
 {
