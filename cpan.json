@@ -83672,6 +83672,47 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:Raku",
+  "authors": [
+    "Joel D. S. <@noisegul>",
+    "Tim Siegel <github:softmoth>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Documentable:ver<2.0.1+>"
+  ],
+  "description": "A tool for reading Raku documentation",
+  "license": "Artistic-2.0",
+  "name": "rakudoc",
+  "perl": "6.d",
+  "provides": {
+    "Rakudoc": "lib/Rakudoc.rakumod",
+    "Rakudoc::CMD": "lib/Rakudoc/CMD.rakumod",
+    "Rakudoc::Pod::Cache": "lib/Rakudoc/Pod/Cache.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    "doc/bin/rakudoc.rakudoc"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SO/SOFTMOTH/Perl6/rakudoc-0.2.2.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/Raku/rakudoc/issues"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "IO::MiddleMan:ver<1.001003+>",
+    "File::Directory::Tree",
+    "File::Temp:ver<0.0.8+>"
+  ],
+  "version": "0.2.2"
+}
+,
+{
   "authors": [
     "Spigell"
   ],
@@ -100584,6 +100625,44 @@
     
   ],
   "version": "0.3.7"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Raku core CSS grammars",
+  "license": "Artistic-2.0",
+  "name": "CSS::Grammar",
+  "perl": "6.c",
+  "provides": {
+    "CSS::Grammar": "lib/CSS/Grammar.rakumod",
+    "CSS::Grammar::AST": "lib/CSS/Grammar/AST.rakumod",
+    "CSS::Grammar::Actions": "lib/CSS/Grammar/Actions.rakumod",
+    "CSS::Grammar::CSS1": "lib/CSS/Grammar/CSS1.rakumod",
+    "CSS::Grammar::CSS21": "lib/CSS/Grammar/CSS21.rakumod",
+    "CSS::Grammar::CSS3": "lib/CSS/Grammar/CSS3.rakumod",
+    "CSS::Grammar::Defs": "lib/CSS/Grammar/Defs.rakumod",
+    "CSS::Grammar::Test": "lib/CSS/Grammar/Test.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Grammar-0.3.8.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.8"
 }
 ,
 {
