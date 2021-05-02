@@ -83631,6 +83631,47 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:Raku",
+  "authors": [
+    "Joel D. S. <@noisegul>",
+    "Tim Siegel <github:softmoth>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Documentable:ver<2.0.1+>"
+  ],
+  "description": "A tool for reading Raku documentation",
+  "license": "Artistic-2.0",
+  "name": "rakudoc",
+  "perl": "6.d",
+  "provides": {
+    "Rakudoc": "lib/Rakudoc.rakumod",
+    "Rakudoc::CMD": "lib/Rakudoc/CMD.rakumod",
+    "Rakudoc::Pod::Cache": "lib/Rakudoc/Pod/Cache.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    "doc/bin/rakudoc.rakudoc"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SO/SOFTMOTH/Perl6/rakudoc-0.2.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/Raku/rakudoc/issues"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "IO::MiddleMan:ver<1.001003+>",
+    "File::Directory::Tree",
+    "File::Temp:ver<0.0.8+>"
+  ],
+  "version": "0.2.1"
+}
+,
+{
   "authors": [
     "Spigell"
   ],
@@ -101684,88 +101725,6 @@
 }
 ,
 {
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    "Method::Also"
-  ],
-  "description": "bindings to the HarfBuzz font shaping library (experimental)",
-  "license": "Artistic-2.0",
-  "name": "HarfBuzz",
-  "perl": "6.d",
-  "provides": {
-    "HarfBuzz": "lib/HarfBuzz.rakumod",
-    "HarfBuzz::Blob": "lib/HarfBuzz/Blob.rakumod",
-    "HarfBuzz::Buffer": "lib/HarfBuzz/Buffer.rakumod",
-    "HarfBuzz::Face": "lib/HarfBuzz/Face.rakumod",
-    "HarfBuzz::Feature": "lib/HarfBuzz/Feature.rakumod",
-    "HarfBuzz::Font": "lib/HarfBuzz/Font.rakumod",
-    "HarfBuzz::Glyph": "lib/HarfBuzz/Glyph.rakumod",
-    "HarfBuzz::Raw": "lib/HarfBuzz/Raw.rakumod",
-    "HarfBuzz::Raw::Defs": "lib/HarfBuzz/Raw/Defs.rakumod",
-    "HarfBuzz::Shaper": "lib/HarfBuzz/Shaper.rakumod"
-  },
-  "raku": "6",
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-0.0.4.tar.gz",
-  "tags": [
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
-}
-,
-{
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    "Method::Also"
-  ],
-  "description": "bindings to the HarfBuzz font shaping library (experimental)",
-  "license": "Artistic-2.0",
-  "name": "HarfBuzz",
-  "perl": "6.d",
-  "provides": {
-    "HarfBuzz": "lib/HarfBuzz.rakumod",
-    "HarfBuzz::Blob": "lib/HarfBuzz/Blob.rakumod",
-    "HarfBuzz::Buffer": "lib/HarfBuzz/Buffer.rakumod",
-    "HarfBuzz::Face": "lib/HarfBuzz/Face.rakumod",
-    "HarfBuzz::Feature": "lib/HarfBuzz/Feature.rakumod",
-    "HarfBuzz::Font": "lib/HarfBuzz/Font.rakumod",
-    "HarfBuzz::Glyph": "lib/HarfBuzz/Glyph.rakumod",
-    "HarfBuzz::Raw": "lib/HarfBuzz/Raw.rakumod",
-    "HarfBuzz::Raw::Defs": "lib/HarfBuzz/Raw/Defs.rakumod",
-    "HarfBuzz::Shaper": "lib/HarfBuzz/Shaper.rakumod"
-  },
-  "raku": "6",
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-0.0.5.tar.gz",
-  "tags": [
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.5"
-}
-,
-{
   "auth": "cpan:WARRINGD",
   "authors": [
     "David Warring"
@@ -101848,40 +101807,6 @@
     
   ],
   "version": "0.0.7"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    "HarfBuzz:ver<0.0.4+>",
-    "Font::FreeType"
-  ],
-  "description": "binds to the HarfBuzz font shaping library",
-  "license": "Artistic-2.0",
-  "name": "HarfBuzz::Font::FreeType",
-  "perl": "6.d",
-  "provides": {
-    "HarfBuzz::Font::FreeType": "lib/HarfBuzz/Font/FreeType.rakumod",
-    "HarfBuzz::Font::FreeType::Raw": "lib/HarfBuzz/Font/FreeType/Raw.rakumod"
-  },
-  "raku": "6",
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-Font-FreeType-0.0.5.tar.gz",
-  "tags": [
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.5"
 }
 ,
 {
