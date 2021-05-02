@@ -15567,6 +15567,22 @@
 }
 ,
 {
+  "depends": [
+    "P5quotemeta"
+  ],
+  "description": "Framework-agnostic URL routing engine for web applications in Raku",
+  "license": "Artistic-2.0",
+  "name": "Router::Right",
+  "perl": "6.d",
+  "provides": {
+    "Router::Right": "lib/Router/Right.rakumod",
+    "Router::Right::Submapper": "lib/Router/Right/Submapper.rakumod"
+  },
+  "source-url": "git://gitlab.com/pheix/router-right-perl6.git",
+  "version": "0.0.55"
+}
+,
+{
   "authors": [
     "github:pierre-vigier"
   ],
