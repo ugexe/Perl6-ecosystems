@@ -19616,15 +19616,15 @@
   "depends": [
     
   ],
-  "description": "Embedded Lua for Perl 6",
+  "description": "Embedded Lua for Raku",
   "license": "Artistic-2.0",
   "name": "Inline::Lua",
-  "perl": "6.*",
   "provides": {
-    "Inline::Lua": "lib/Inline/Lua.pm6",
-    "Inline::Lua::Object": "lib/Inline/Lua/Object.pm6",
-    "Lua::Raw": "lib/Lua/Raw.pm6"
+    "Inline::Lua": "lib/Inline/Lua.rakumod",
+    "Inline::Lua::Object": "lib/Inline/Lua/Object.rakumod",
+    "Lua::Raw": "lib/Lua/Raw.rakumod"
   },
+  "raku": "6.*",
   "source-url": "git://github.com/raydiak/Inline-Lua.git",
   "version": "*"
 }
