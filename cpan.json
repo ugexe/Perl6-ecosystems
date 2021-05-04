@@ -11414,6 +11414,70 @@
     
   ],
   "depends": [
+    "Array::Sorted::Util:ver<0.0.5>:auth<cpan:ELIZABETH>",
+    "Object::Delayed:ver<0.0.10>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "access to all logs of an IRC channel",
+  "license": "Artistic-2.0",
+  "name": "IRC::Channel::Log",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Channel::Log": "lib/IRC/Channel/Log.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Channel-Log-0.0.5.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "IRC::Log::Colabti:ver<0.0.23>:auth<cpan:ELIZABETH>"
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Array::Sorted::Util:ver<0.0.5>:auth<cpan:ELIZABETH>",
+    "Object::Delayed:ver<0.0.10>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "access to all logs of an IRC channel",
+  "license": "Artistic-2.0",
+  "name": "IRC::Channel::Log",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Channel::Log": "lib/IRC/Channel/Log.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Channel-Log-0.0.6.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "IRC::Log::Colabti:ver<0.0.23>:auth<cpan:ELIZABETH>"
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "IRC::Client"
   ],
   "description": "IRC logger for historic purposes",
@@ -22082,38 +22146,6 @@
     
   ],
   "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "P5getgrnam:ver<0.0.7>"
-  ],
-  "description": "Port of Perl's User::grent",
-  "license": "Artistic-2.0",
-  "name": "User::grent",
-  "perl": "6.c",
-  "provides": {
-    "User::grent": "lib/User/grent.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/User-grent-0.0.2.tar.gz",
-  "tags": [
-    "UTILS",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
 }
 ,
 {
@@ -83792,47 +83824,6 @@
     
   ],
   "version": "0.2.1"
-}
-,
-{
-  "api": "1",
-  "auth": "github:Raku",
-  "authors": [
-    "Joel D. S. <@noisegul>",
-    "Tim Siegel <github:softmoth>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Documentable:ver<2.0.1+>"
-  ],
-  "description": "A tool for reading Raku documentation",
-  "license": "Artistic-2.0",
-  "name": "Rakudoc",
-  "perl": "6.d",
-  "provides": {
-    "Rakudoc": "lib/Rakudoc.rakumod",
-    "Rakudoc::CMD": "lib/Rakudoc/CMD.rakumod",
-    "Rakudoc::Pod::Cache": "lib/Rakudoc/Pod/Cache.rakumod"
-  },
-  "raku": "6.d",
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/S/SO/SOFTMOTH/Perl6/Rakudoc-0.2.0.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/Raku/rakudoc/issues"
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "IO::MiddleMan:ver<1.001003+>",
-    "File::Directory::Tree",
-    "File::Temp:ver<0.0.8+>"
-  ],
-  "version": "0.2.0"
 }
 ,
 {
