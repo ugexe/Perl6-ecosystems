@@ -102327,6 +102327,44 @@
     
   ],
   "depends": [
+    "CSS::Module:ver<0.5.8+>",
+    "CSS::Properties:ver<0.6.6+>",
+    "CSS::Selector::To::XPath",
+    "CSS::Writer:ver<0.2.7>",
+    "Method::Also"
+  ],
+  "description": "CSS Stylesheet representation",
+  "license": "Artistic-2.0",
+  "name": "CSS::Stylesheet",
+  "perl": "6.c",
+  "provides": {
+    "CSS::Media": "lib/CSS/Media.rakumod",
+    "CSS::Ruleset": "lib/CSS/Ruleset.rakumod",
+    "CSS::Selectors": "lib/CSS/Selectors.rakumod",
+    "CSS::Stylesheet": "lib/CSS/Stylesheet.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Stylesheet-0.0.17.tar.gz",
+  "tags": [
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.17"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "CSS::Grammar:ver<0.3.5+>",
     "Color::Names",
     "JSON::Fast"
