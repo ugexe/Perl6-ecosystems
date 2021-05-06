@@ -8937,6 +8937,37 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Raku utilities for (native) sorted arrays",
+  "license": "Artistic-2.0",
+  "name": "Array::Sorted::Util",
+  "perl": "6.d",
+  "provides": {
+    "Array::Sorted::Util": "lib/Array/Sorted/Util.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Array-Sorted-Util-0.0.6.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Array::Agnostic"
   ],
   "description": "class for sparsely populated Arrays",
@@ -11540,6 +11571,37 @@
     
   ],
   "depends": [
+    "Array::Sorted::Util:ver<0.0.6>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "access to all logs of an IRC channel",
+  "license": "Artistic-2.0",
+  "name": "IRC::Channel::Log",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Channel::Log": "lib/IRC/Channel/Log.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Channel-Log-0.0.9.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "IRC::Log::Colabti:ver<0.0.24>:auth<cpan:ELIZABETH>"
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "IRC::Client"
   ],
   "description": "IRC logger for historic purposes",
@@ -12118,6 +12180,37 @@
     
   ],
   "version": "0.0.23"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "interface to IRC logs from colabti.org",
+  "license": "Artistic-2.0",
+  "name": "IRC::Log::Colabti",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Log::Colabti": "lib/IRC/Log/Colabti.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Log-Colabti-0.0.24.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.24"
 }
 ,
 {
