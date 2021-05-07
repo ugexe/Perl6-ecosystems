@@ -20323,6 +20323,37 @@
     
   ],
   "depends": [
+    "Array::Sorted::Util:ver<0.0.6>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "map strings to a color code",
+  "license": "Artistic-2.0",
+  "name": "String::Color",
+  "perl": "6.d",
+  "provides": {
+    "String::Color": "lib/String/Color.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/String-Color-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "String::Fields:ver<0.0.1>:auth<cpan:ELIZABETH>"
   ],
   "description": "class for setting fixed size fields in a Str",
@@ -22300,6 +22331,38 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5getgrnam"
+  ],
+  "description": "Port of Perl 5's User::grent",
+  "license": "Artistic-2.0",
+  "name": "User::grent",
+  "perl": "6.c",
+  "provides": {
+    "User::grent": "lib/User/grent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/User-grent-0.0.1.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
 }
 ,
 {
