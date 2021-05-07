@@ -22311,38 +22311,6 @@
     
   ],
   "depends": [
-    "P5getgrnam"
-  ],
-  "description": "Port of Perl 5's User::grent",
-  "license": "Artistic-2.0",
-  "name": "User::grent",
-  "perl": "6.c",
-  "provides": {
-    "User::grent": "lib/User/grent.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/User-grent-0.0.1.tar.gz",
-  "tags": [
-    "UTILS",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "P5getgrnam:ver<0.0.7>"
   ],
   "description": "Port of Perl's User::grent",
