@@ -22311,6 +22311,38 @@
     
   ],
   "depends": [
+    "P5getgrnam"
+  ],
+  "description": "Port of Perl 5's User::grent",
+  "license": "Artistic-2.0",
+  "name": "User::grent",
+  "perl": "6.c",
+  "provides": {
+    "User::grent": "lib/User/grent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/User-grent-0.0.1.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "P5getgrnam:ver<0.0.7>"
   ],
   "description": "Port of Perl's User::grent",
@@ -102800,6 +102832,58 @@
     
   ],
   "version": "0.0.14"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Base64::Native",
+    "Cairo",
+    "Color",
+    "CSS::Properties:ver<0.6.6+>",
+    "Font::FreeType:ver<0.3.7+>",
+    "HarfBuzz::Font::FreeType:ver<0.0.5+>",
+    "HarfBuzz::Shaper::Cairo",
+    "Text::FriBidi",
+    "Hash::Agnostic",
+    "JSON::Fast",
+    "Method::Also"
+  ],
+  "description": "Construction and rendering of HTML-5 Canvases",
+  "license": "Artistic-2.0",
+  "name": "HTML::Canvas",
+  "perl": "6.c",
+  "provides": {
+    "HTML::Canvas": "lib/HTML/Canvas.rakumod",
+    "HTML::Canvas::Gradient": "lib/HTML/Canvas/Gradient.rakumod",
+    "HTML::Canvas::Image": "lib/HTML/Canvas/Image.rakumod",
+    "HTML::Canvas::ImageData": "lib/HTML/Canvas/ImageData.rakumod",
+    "HTML::Canvas::Path2D": "lib/HTML/Canvas/Path2D.rakumod",
+    "HTML::Canvas::Pattern": "lib/HTML/Canvas/Pattern.rakumod",
+    "HTML::Canvas::To::Cairo": "lib/HTML/Canvas/To/Cairo.rakumod",
+    "HTML::Canvas::Tracer": "lib/HTML/Canvas/Tracer.rakumod"
+  },
+  "resources": [
+    "font/FreeMono.ttf"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-0.0.15.tar.gz",
+  "tags": [
+    "html",
+    "javascript",
+    "png",
+    "svg",
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.15"
 }
 ,
 {
