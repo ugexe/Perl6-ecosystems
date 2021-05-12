@@ -1604,6 +1604,36 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
+    "LibCurl::Easy:ver<1.4>",
+    "Log::Async"
+  ],
+  "description": "A Simple HTTP Client built on top of libcurl",
+  "license": "MIT",
+  "name": "Curlie",
+  "perl": "6.d",
+  "provides": {
+    "Curlie": "lib/Curlie.rakumod",
+    "Curlie::Response": "lib/Curlie/Response.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Curlie-0.0.5.tar.gz",
+  "tags": [
+    "HTTP",
+    "Web",
+    "WWW"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.5"
+}
+,
+{
   "authors": [
     "Brian Duggan"
   ],
@@ -2852,6 +2882,40 @@
     "Test"
   ],
   "version": "0.0.16"
+}
+,
+{
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
+    "Terminal::ANSI:ver<0.0.19>",
+    "Log::Async"
+  ],
+  "description": "A framework for building terminal interfaces",
+  "license": "MIT",
+  "name": "Terminal::UI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::UI": "lib/Terminal/UI.rakumod",
+    "Terminal::UI::Alerts": "lib/Terminal/UI/Alerts.rakumod",
+    "Terminal::UI::Frame": "lib/Terminal/UI/Frame.rakumod",
+    "Terminal::UI::Input": "lib/Terminal/UI/Input.rakumod",
+    "Terminal::UI::Pane": "lib/Terminal/UI/Pane.rakumod",
+    "Terminal::UI::Screen": "lib/Terminal/UI/Screen.rakumod",
+    "Terminal::UI::Style": "lib/Terminal/UI/Style.rakumod",
+    "Terminal::UI::Utils": "lib/Terminal/UI/Utils.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-UI-0.0.17.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.17"
 }
 ,
 {
@@ -22153,38 +22217,6 @@
     
   ],
   "version": "0.0.7"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "P5localtime"
-  ],
-  "description": "Port of Perl 5's Time::localtime",
-  "license": "Artistic-2.0",
-  "name": "Time::localtime",
-  "perl": "6.c",
-  "provides": {
-    "Time::localtime": "lib/Time/localtime.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Time-localtime-0.0.2.tar.gz",
-  "tags": [
-    "UTILS",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
 }
 ,
 {
@@ -48839,6 +48871,42 @@
   ],
   "test-depends": [
     "Test"
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "auth": "github:Raku-Noise-Gang",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Access to audio input and output devices",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Audio::PortAudio",
+  "perl": "6.*",
+  "provides": {
+    "Audio::PortAudio": "lib/Audio/PortAudio.pm"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-PortAudio-0.0.4.tar.gz",
+  "support": {
+    "source": "https://github.com/Raku-Noise-Gang/Audio-PortAudio.git"
+  },
+  "tags": [
+    "audio",
+    "portaudio",
+    "input",
+    "output"
+  ],
+  "test-depends": [
+    "LibraryCheck"
   ],
   "version": "0.0.4"
 }
@@ -102349,6 +102417,49 @@
     
   ],
   "version": "0.6.6"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Module:ver<0.5.7+>",
+    "CSS::Writer:ver<0.2.6+>",
+    "Color",
+    "Method::Also"
+  ],
+  "description": "CSS property manipulation library",
+  "license": "Artistic-2.0",
+  "name": "CSS::Properties",
+  "perl": "6.*",
+  "provides": {
+    "CSS::Box": "lib/CSS/Box.rakumod",
+    "CSS::Font": "lib/CSS/Font.rakumod",
+    "CSS::PageBox": "lib/CSS/PageBox.rakumod",
+    "CSS::Properties": "lib/CSS/Properties.rakumod",
+    "CSS::Properties::Calculator": "lib/CSS/Properties/Calculator.rakumod",
+    "CSS::Properties::Font": "lib/CSS/Properties/Font.rakumod",
+    "CSS::Properties::Optimizer": "lib/CSS/Properties/Optimizer.rakumod",
+    "CSS::Properties::Property": "lib/CSS/Properties/Property.rakumod",
+    "CSS::Properties::Units": "lib/CSS/Properties/Units.rakumod",
+    "CSS::Units": "lib/CSS/Units.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Properties-0.7.0.tar.gz",
+  "tags": [
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.7.0"
 }
 ,
 {
