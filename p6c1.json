@@ -19027,30 +19027,28 @@
 }
 ,
 {
-  "auth": "github:Perl6-Noise-Gang",
+  "auth": "github:Raku-Noise-Gang",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
-  ],
-  "build-depends": [
-    
   ],
   "depends": [
     
   ],
   "description": "Access to audio input and output devices",
   "license": "Artistic-2.0",
-  "meta-version": "0",
+  "meta-version": "1",
   "name": "Audio::PortAudio",
-  "perl": "6.c",
+  "perl": "6.*",
   "provides": {
     "Audio::PortAudio": "lib/Audio/PortAudio.pm"
   },
+  "raku": "6.*",
   "resources": [
     
   ],
-  "source-url": "git://github.com/Perl6-Noise-Gang/Audio-PortAudio.git",
+  "source-url": "https://github.com/Raku-Noise-Gang/Audio-PortAudio.git",
   "support": {
-    "source": "git://github.com/Perl6-Noise-Gang/Audio-PortAudio.git"
+    "source": "https://github.com/Raku-Noise-Gang/Audio-PortAudio.git"
   },
   "tags": [
     "audio",
@@ -19061,7 +19059,7 @@
   "test-depends": [
     "LibraryCheck"
   ],
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
 ,
 {
