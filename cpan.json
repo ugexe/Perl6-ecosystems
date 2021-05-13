@@ -43032,6 +43032,70 @@
 }
 ,
 {
+  "auth": "cpan:JNTHN",
+  "authors": [
+    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>",
+    "Jonathan Worthington <jonathan@edument.cz>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP",
+    "String::CRC32"
+  ],
+  "description": "Eases the implementation of APIs that do auth with API tokens using Cro",
+  "license": "Artistic-2.0",
+  "name": "Cro::APIToken",
+  "perl": "6.*",
+  "provides": {
+    "Cro::APIToken::Manager": "lib/Cro/APIToken/Manager.pm6",
+    "Cro::APIToken::Middleware": "lib/Cro/APIToken/Middleware.pm6",
+    "Cro::APIToken::Store": "lib/Cro/APIToken/Store.pm6",
+    "Cro::APIToken::Token": "lib/Cro/APIToken/Token.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-APIToken-0.1.tar.gz",
+  "test-depends": [
+    
+  ],
+  "version": "0.1"
+}
+,
+{
+  "auth": "cpan:JNTHN",
+  "authors": [
+    "Alexander Kiryuhin <alexander.kiryuhin@gmail.com>",
+    "Jonathan Worthington <jonathan@edument.cz>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::APIToken",
+    "DB::Pg",
+    "JSON::Fast"
+  ],
+  "description": "A Postgres storage backend for Cro::APIToken",
+  "license": "Artistic-2.0",
+  "name": "Cro::APIToken::Store::Pg",
+  "perl": "6.c",
+  "provides": {
+    "Cro::APIToken::Store::Pg": "lib/Cro/APIToken/Store/Pg.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-APIToken-Store-Pg-0.1.tar.gz",
+  "test-depends": [
+    
+  ],
+  "version": "0.1"
+}
+,
+{
   "authors": [
     "Jonathan Worthington <jnthn@jnthn.net>"
   ],
