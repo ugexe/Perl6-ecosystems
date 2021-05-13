@@ -43396,6 +43396,35 @@
 ,
 {
   "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "Cro::HTTP",
+    "Test::Assertion"
+  ],
+  "description": "Write tests for HTTP services (whether or not they are built with Cro).",
+  "license": "Artistic-2.0",
+  "name": "Cro::HTTP::Test",
+  "perl": "6.*",
+  "provides": {
+    "Cro::HTTP::Test": "lib/Cro/HTTP/Test.pm6",
+    "Cro::HTTP::Test::ChannelServer": "lib/Cro/HTTP/Test/ChannelServer.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-HTTP-Test-0.8.1.tar.gz",
+  "tags": [
+    "HTTP",
+    "Test",
+    "Testing",
+    "Web"
+  ],
+  "version": "0.8.1"
+}
+,
+{
+  "authors": [
     "Jonathan Worthington <jonathan@edument.se>"
   ],
   "build-depends": [
