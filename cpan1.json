@@ -103541,6 +103541,42 @@
   ],
   "depends": [
     "CSS::Grammar:ver<0.3.5+>",
+    "CSS::Module::CSS3::Selectors",
+    "XML"
+  ],
+  "description": "Raku CSS Selector to XPath compiler",
+  "license": "Artistic-2.0",
+  "name": "CSS::Selector::To::XPath",
+  "perl": "6.c",
+  "provides": {
+    "CSS::Selector::To::XPath": "lib/CSS/Selector/To/XPath.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Selector-To-XPath-0.0.7.tar.gz",
+  "tags": [
+    "xml",
+    "html",
+    "xpath",
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Grammar:ver<0.3.5+>",
     "Color::Names"
   ],
   "description": "CSS Property definition grammar and generation tools",
