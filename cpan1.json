@@ -93599,6 +93599,36 @@
 }
 ,
 {
+  "authors": [
+    "Tom Gracey"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Data::Dump"
+  ],
+  "description": "manipulate a generic template structure via a Raku hash",
+  "license": "Artistic-2.0",
+  "name": "Template::Nest",
+  "perl": "6.d",
+  "provides": {
+    "Template::Nest": "lib/Template/Nest.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TO/TOMGRACEY/Perl6/Template-Nest-0.1.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Data::Dump"
+  ],
+  "version": "0.1.1"
+}
+,
+{
   "authors": "Patrick Spek <p.spek@tyil.work>",
   "depends": [
     "Config:ver<1.3.2>",
