@@ -86148,6 +86148,40 @@
 }
 ,
 {
+  "api": 2,
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "provides abbreviations for an input set of one or more words",
+  "license": "Artistic-2.0",
+  "name": "Abbreviations",
+  "perl": "6.d",
+  "provides": {
+    "Abbreviations": "lib/Abbreviations.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Abbreviations-1.0.0.tar.gz",
+  "tags": [
+    "text",
+    "abbreviations",
+    "options"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "1.0.0"
+}
+,
+{
   "auth": "cpan:TBROWDER",
   "authors": [
     "Tom Browder"
@@ -102672,55 +102706,6 @@
     
   ],
   "depends": [
-    "CSS::Module:ver<0.5.3+>",
-    "CSS::Properties:ver<0.6.6+>",
-    "CSS::Selector::To::XPath",
-    "CSS::Writer:ver<0.2.7>",
-    "LibXML:ver<0.5.14+>",
-    "Method::Also"
-  ],
-  "description": "CSS Stylesheet processing",
-  "license": "Artistic-2.0",
-  "name": "CSS",
-  "perl": "6.c",
-  "provides": {
-    "CSS": "lib/CSS.rakumod",
-    "CSS::Media": "lib/CSS/Media.rakumod",
-    "CSS::Ruleset": "lib/CSS/Ruleset.rakumod",
-    "CSS::Selectors": "lib/CSS/Selectors.rakumod",
-    "CSS::Stylesheet": "lib/CSS/Stylesheet.rakumod",
-    "CSS::TagSet": "lib/CSS/TagSet.rakumod",
-    "CSS::TagSet::Pango": "lib/CSS/TagSet/Pango.rakumod",
-    "CSS::TagSet::TaggedPDF": "lib/CSS/TagSet/TaggedPDF.rakumod",
-    "CSS::TagSet::XHTML": "lib/CSS/TagSet/XHTML.rakumod"
-  },
-  "resources": [
-    "pango.css",
-    "tagged-pdf.css",
-    "xhtml.css"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.14.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath",
-    "css"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.14"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "CSS::Module:ver<0.5.8+>",
     "CSS::Properties:ver<0.6.6+>",
     "CSS::Selector::To::XPath",
@@ -103118,51 +103103,6 @@
     
   ],
   "version": "0.0.4"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Module:ver<0.5.7+>",
-    "CSS::Writer:ver<0.2.6+>",
-    "Color",
-    "Method::Also"
-  ],
-  "description": "CSS property manipulation library",
-  "license": "Artistic-2.0",
-  "name": "CSS::Properties",
-  "perl": "6.*",
-  "provides": {
-    "CSS::Box": "lib/CSS/Box.rakumod",
-    "CSS::PageBox": "lib/CSS/PageBox.rakumod",
-    "CSS::Properties": "lib/CSS/Properties.rakumod",
-    "CSS::Properties::Box": "lib/CSS/Properties/Box.rakumod",
-    "CSS::Properties::Calculator": "lib/CSS/Properties/Calculator.rakumod",
-    "CSS::Properties::Edges": "lib/CSS/Properties/Edges.rakumod",
-    "CSS::Properties::Font": "lib/CSS/Properties/Font.rakumod",
-    "CSS::Properties::Optimizer": "lib/CSS/Properties/Optimizer.rakumod",
-    "CSS::Properties::PageBox": "lib/CSS/Properties/PageBox.rakumod",
-    "CSS::Properties::Property": "lib/CSS/Properties/Property.rakumod",
-    "CSS::Properties::Units": "lib/CSS/Properties/Units.rakumod",
-    "CSS::Units": "lib/CSS/Units.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Properties-0.6.4.tar.gz",
-  "tags": [
-    "css"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.6.4"
 }
 ,
 {
@@ -104014,54 +103954,6 @@
     
   ],
   "version": "0.3.7"
-}
-,
-{
-  "auth": "github:css-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Cairo",
-    "Color",
-    "CSS::Properties",
-    "Hash::Agnostic",
-    "JSON::Fast",
-    "Base64::Native",
-    "Font::FreeType:ver<0.3.0+>"
-  ],
-  "description": "Construction and rendering of HTML-5 Canvases",
-  "license": "Artistic-2.0",
-  "name": "HTML::Canvas",
-  "perl": "6.c",
-  "provides": {
-    "HTML::Canvas": "lib/HTML/Canvas.rakumod",
-    "HTML::Canvas::Gradient": "lib/HTML/Canvas/Gradient.rakumod",
-    "HTML::Canvas::Image": "lib/HTML/Canvas/Image.rakumod",
-    "HTML::Canvas::ImageData": "lib/HTML/Canvas/ImageData.rakumod",
-    "HTML::Canvas::Path2D": "lib/HTML/Canvas/Path2D.rakumod",
-    "HTML::Canvas::Pattern": "lib/HTML/Canvas/Pattern.rakumod",
-    "HTML::Canvas::To::Cairo": "lib/HTML/Canvas/To/Cairo.rakumod",
-    "HTML::Canvas::Tracer": "lib/HTML/Canvas/Tracer.rakumod"
-  },
-  "resources": [
-    "font/FreeMono.ttf"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-0.0.11.tar.gz",
-  "tags": [
-    "html",
-    "javascript",
-    "png",
-    "svg",
-    "pdf"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.11"
 }
 ,
 {
