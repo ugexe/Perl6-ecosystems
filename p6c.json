@@ -7493,21 +7493,6 @@
 {
   "author": "github:fayland",
   "depends": [
-    "DBIish",
-    "Encode"
-  ],
-  "description": "Perl6 reader (SQLite) for unihan database",
-  "name": "Lingua::Unihan",
-  "provides": {
-    "Lingua::Unihan": "lib/Lingua/Unihan.pm6"
-  },
-  "source-url": "git://github.com/fayland/perl6-Lingua-Unihan.git",
-  "version": "0.1.0"
-}
-,
-{
-  "author": "github:fayland",
-  "depends": [
     
   ],
   "description": "Locale codes - Country, Currency, Langauge",
@@ -7654,6 +7639,35 @@
     "Test::META"
   ],
   "version": "0.1.0"
+}
+,
+{
+  "authors": [
+    "Fernando Correa de Oliveira"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Simple Heap implementation",
+  "name": "Heap",
+  "perl": "6.*",
+  "provides": {
+    "Heap": "lib/Heap.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/FCO/Heap.git",
+  "tags": [
+    "heap",
+    "struct",
+    "data"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.0.1"
 }
 ,
 {
@@ -9995,42 +10009,6 @@
     
   ],
   "version": "0.0.7"
-}
-,
-{
-  "auth": "github:hythm7",
-  "authors": [
-    "Haytham Elganiny"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Pakku dependency specification",
-  "license": "Artistic-2.0",
-  "name": "Pakku::Spec",
-  "perl": "6.d",
-  "provides": {
-    "Pakku::Spec": "lib/Pakku/Spec.rakumod",
-    "X::Pakku::Spec": "lib/X/Pakku/Spec.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/hythm7/Pakku-Spec.git",
-  "tags": [
-    "Pakku",
-    "spec",
-    "meta",
-    "dependency",
-    "specification"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.6"
 }
 ,
 {
@@ -13859,28 +13837,6 @@
   "depends": [
     "Sparrowdo"
   ],
-  "description": "Sparrowdo module to install CPAN modules using App::cpm - a fast CPAN module installer",
-  "name": "Sparrowdo::Cpm",
-  "perl": "6.*",
-  "provides": {
-    "Sparrowdo::Cpm": "lib/Sparrowdo/Cpm.pm6"
-  },
-  "source-type": "git",
-  "source-url": "https://github.com/melezhik/sparrowdo-cpm.git",
-  "support": {
-    "bugtracker": "https://github.com/melezhik/sparrowdo-cpm/issues",
-    "source": "https://github.com/melezhik/sparrowdo-cpm.git"
-  },
-  "version": "*"
-}
-,
-{
-  "authors": [
-    "Alexey Melezhik"
-  ],
-  "depends": [
-    "Sparrowdo"
-  ],
   "description": "Sparrowdo module to install Nginx web server",
   "name": "Sparrowdo::Nginx",
   "perl": "6.*",
@@ -14458,54 +14414,6 @@
     "Test"
   ],
   "version": "0.0.1"
-}
-,
-{
-  "auth": "github:nicqrocks",
-  "authors": [
-    "Nic Quoziente"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Net::HTTP::POST",
-    "JSON::Fast"
-  ],
-  "description": "Easy way to send a message to Slack",
-  "emulates": {
-    
-  },
-  "excludes": {
-    
-  },
-  "license": "Artistic-2.0",
-  "name": "WebService::Slack::Webhook",
-  "perl": "6.c",
-  "provides": {
-    "WebService::Slack::Webhook": "lib/WebService/Slack/Webhook.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/nicqrocks/perl6-slack-webhook.git",
-  "superseded-by": {
-    
-  },
-  "supersedes": {
-    
-  },
-  "support": {
-    "source": null
-  },
-  "tags": [
-    "web",
-    "slack"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.2"
 }
 ,
 {
@@ -23041,34 +22949,6 @@
     "Silly"
   ],
   "version": "0.2.0"
-}
-,
-{
-  "authors": [
-    "Steve Schulze (thundergnat)"
-  ],
-  "build-depends": [
-    
-  ],
-  "description": "Convert numbers to and from nearly any base",
-  "license": "Artistic-2.0",
-  "name": "Base::Any",
-  "perl": "6",
-  "provides": {
-    "Base::Any": "lib/Base/Any.pm6",
-    "Base::Any::Digits": "lib/Base/Any/Digits.pm6"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/thundergnat/base-any.git",
-  "tags": [
-    "Base",
-    "Convert",
-    "Radix"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.1.2"
 }
 ,
 {
