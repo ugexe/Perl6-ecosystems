@@ -2458,43 +2458,6 @@
 }
 ,
 {
-  "auth": "github:alabamenhu",
-  "authors": [
-    "Matthew Stephen Stuckwisch"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Intl::CLDR",
-    "Intl::UserLanguage"
-  ],
-  "description": "A module for formatting numbers in a localized manner",
-  "license": "Artistic-2.0",
-  "name": "Intl::Format::Number",
-  "perl": "6.*",
-  "provides": {
-    "Intl::Format::Number": "lib/Intl/Format/Number.pm6",
-    "Intl::Format::Util::Digits": "lib/Intl/Format/Util/Digits.pm6"
-  },
-  "raku": "6.*",
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/alabamenhu/IntlFormatNumber.git",
-  "tags": [
-    "formatting",
-    "international",
-    "localization",
-    "numbers"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.1.1"
-}
-,
-{
   "auth": "git:alabamenhu",
   "authors": [
     "Matthew Stephen Stuckwisch"
@@ -7514,6 +7477,21 @@
 {
   "author": "github:fayland",
   "depends": [
+    "DBIish",
+    "Encode"
+  ],
+  "description": "Perl6 reader (SQLite) for unihan database",
+  "name": "Lingua::Unihan",
+  "provides": {
+    "Lingua::Unihan": "lib/Lingua/Unihan.pm6"
+  },
+  "source-url": "git://github.com/fayland/perl6-Lingua-Unihan.git",
+  "version": "0.1.0"
+}
+,
+{
+  "author": "github:fayland",
+  "depends": [
     
   ],
   "description": "Locale codes - Country, Currency, Langauge",
@@ -10030,6 +10008,42 @@
     
   ],
   "version": "0.0.7"
+}
+,
+{
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Pakku dependency specification",
+  "license": "Artistic-2.0",
+  "name": "Pakku::Spec",
+  "perl": "6.d",
+  "provides": {
+    "Pakku::Spec": "lib/Pakku/Spec.rakumod",
+    "X::Pakku::Spec": "lib/X/Pakku/Spec.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/hythm7/Pakku-Spec.git",
+  "tags": [
+    "Pakku",
+    "spec",
+    "meta",
+    "dependency",
+    "specification"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
 }
 ,
 {
@@ -13679,28 +13693,6 @@
   "depends": [
     
   ],
-  "description": "Get an emotional score for a passage of text based on its word use.",
-  "license": "Artistic-2.0",
-  "name": "Text::Emotion",
-  "perl": "6.*",
-  "provides": {
-    "Text::Emotion::Scorer": "lib/Text/Emotion/Scorer.pm"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/MattOates/Text--Emotion.git",
-  "tags": [
-    "Text",
-    "Sentiment",
-    "NLP"
-  ],
-  "version": "0.0.5"
-}
-,
-{
-  "author": "Matt Oates",
-  "depends": [
-    
-  ],
   "description": "Map ASCII to unicode homoglyphs.",
   "license": "Artistic-2.0",
   "name": "Text::Homoglyph",
@@ -13847,6 +13839,28 @@
   "support": {
     "bugtracker": "https://github.com/melezhik/sparrowdo-chef-manager/issues",
     "source": "https://github.com/melezhik/sparrowdo-chef-manager.git"
+  },
+  "version": "*"
+}
+,
+{
+  "authors": [
+    "Alexey Melezhik"
+  ],
+  "depends": [
+    "Sparrowdo"
+  ],
+  "description": "Sparrowdo module to install CPAN modules using App::cpm - a fast CPAN module installer",
+  "name": "Sparrowdo::Cpm",
+  "perl": "6.*",
+  "provides": {
+    "Sparrowdo::Cpm": "lib/Sparrowdo/Cpm.pm6"
+  },
+  "source-type": "git",
+  "source-url": "https://github.com/melezhik/sparrowdo-cpm.git",
+  "support": {
+    "bugtracker": "https://github.com/melezhik/sparrowdo-cpm/issues",
+    "source": "https://github.com/melezhik/sparrowdo-cpm.git"
   },
   "version": "*"
 }
@@ -14107,21 +14121,6 @@
     "HTML::Entity": "lib/HTML/Entity.pm6"
   },
   "source-url": "git://github.com/Mouq/HTML-Entity.git",
-  "version": "*"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "A JSON::Tiny fork for JSON5",
-  "name": "JSON5::Tiny",
-  "provides": {
-    "JSON5::Tiny": "lib/JSON5/Tiny.pm6",
-    "JSON5::Tiny::Actions": "lib/JSON5/Tiny/Actions.pm6",
-    "JSON5::Tiny::Grammar": "lib/JSON5/Tiny/Grammar.pm6"
-  },
-  "source-url": "git://github.com/Mouq/json5.git",
   "version": "*"
 }
 ,
@@ -14435,6 +14434,54 @@
     "Test"
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "github:nicqrocks",
+  "authors": [
+    "Nic Quoziente"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Net::HTTP::POST",
+    "JSON::Fast"
+  ],
+  "description": "Easy way to send a message to Slack",
+  "emulates": {
+    
+  },
+  "excludes": {
+    
+  },
+  "license": "Artistic-2.0",
+  "name": "WebService::Slack::Webhook",
+  "perl": "6.c",
+  "provides": {
+    "WebService::Slack::Webhook": "lib/WebService/Slack/Webhook.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/nicqrocks/perl6-slack-webhook.git",
+  "superseded-by": {
+    
+  },
+  "supersedes": {
+    
+  },
+  "support": {
+    "source": null
+  },
+  "tags": [
+    "web",
+    "slack"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.2"
 }
 ,
 {
@@ -15725,27 +15772,6 @@
     "Test::META"
   ],
   "version": "0.1.3"
-}
-,
-{
-  "authors": [
-    "Peter Pentchev"
-  ],
-  "depends": [
-    
-  ],
-  "description": "A somewhat naive (de-)serialization implementation",
-  "license": "Artistic-2.0",
-  "name": "Serialize::Naive",
-  "perl": "6.c",
-  "provides": {
-    "Serialize::Naive": "lib/Serialize/Naive.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/ppentchev/Serialize-Naive.git",
-  "version": "0.2.5"
 }
 ,
 {
@@ -17702,29 +17728,6 @@
 }
 ,
 {
-  "author": "Jonathan Scott Duff <duff@pobox.com>",
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Useful trigonometric routines",
-  "license": "Artistic-2.0",
-  "name": "Math::Trig",
-  "perl": "6.*",
-  "provides": {
-    "Math::Trig": "lib/Math/Trig.pm"
-  },
-  "repo-type": "git",
-  "source-url": "git://github.com/raku-community-modules/Math-Trig.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.2"
-}
-,
-{
   "author": "github:retupmoca",
   "depends": [
     
@@ -19282,30 +19285,6 @@
   "depends": [
     
   ],
-  "description": "Provides filesystem capacity information.",
-  "license": "Artistic-2.0",
-  "name": "FileSystem::Capacity",
-  "perl": "6.c",
-  "provides": {
-    "FileSystem::Capacity::DirSize": "lib/FileSystem/Capacity/DirSize.pm6",
-    "FileSystem::Capacity::VolumesInfo": "lib/FileSystem/Capacity/VolumesInfo.pm6"
-  },
-  "source-url": "https://github.com/ramiroencinas/perl6-FileSystem-Capacity.git",
-  "tags": [
-    "filesystem",
-    "utils",
-    "capacity"
-  ],
-  "version": "1.0.1"
-}
-,
-{
-  "authors": [
-    "Ramiro Encinas Alarza"
-  ],
-  "depends": [
-    
-  ],
   "description": "Provides package updates information.",
   "license": "Artistic-2.0",
   "name": "Package::Updates",
@@ -19706,23 +19685,6 @@
   },
   "source-url": "git://github.com/retupmoca/P6-Crust-Middleware-Syslog.git",
   "version": "1.0.0"
-}
-,
-{
-  "author": "github:retupmoca",
-  "depends": [
-    "DateTime::Format"
-  ],
-  "description": "Simple email parsing module",
-  "license": "CC0-1.0",
-  "name": "Email::Simple",
-  "perl": "6.*",
-  "provides": {
-    "Email::Simple": "lib/Email/Simple.pm6",
-    "Email::Simple::Header": "lib/Email/Simple/Header.pm6"
-  },
-  "source-url": "git://github.com/retupmoca/p6-Email-Simple.git",
-  "version": "2.1.0"
 }
 ,
 {
@@ -22986,6 +22948,34 @@
     "Silly"
   ],
   "version": "0.2.0"
+}
+,
+{
+  "authors": [
+    "Steve Schulze (thundergnat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "description": "Convert numbers to and from nearly any base",
+  "license": "Artistic-2.0",
+  "name": "Base::Any",
+  "perl": "6",
+  "provides": {
+    "Base::Any": "lib/Base/Any.pm6",
+    "Base::Any::Digits": "lib/Base/Any/Digits.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/base-any.git",
+  "tags": [
+    "Base",
+    "Convert",
+    "Radix"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.2"
 }
 ,
 {
