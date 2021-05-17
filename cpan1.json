@@ -16724,37 +16724,6 @@
 }
 ,
 {
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Implement Perl 5's each() built-in",
-  "license": "Artistic-2.0",
-  "name": "P5each",
-  "perl": "6.c",
-  "provides": {
-    "P5each": "lib/P5each.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5each-0.0.3.tar.gz",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
-}
-,
-{
   "auth": "cpan:ELIZABETH",
   "authors": [
     "Elizabeth Mattijsen"
@@ -60705,6 +60674,44 @@
     "Test"
   ],
   "version": "1.7.0"
+}
+,
+{
+  "authors": [
+    "kuerbis"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Term::termios"
+  ],
+  "description": "Choose items from a list interactively.",
+  "license": "Artistic-2.0",
+  "name": "Term::Choose",
+  "perl": "6.d",
+  "provides": {
+    "Term::Choose": "lib/Term/Choose.pm6",
+    "Term::Choose::LineFold": "lib/Term/Choose/LineFold.pm6",
+    "Term::Choose::LineFold::CharWidthAmbiguousWide": "lib/Term/Choose/LineFold/CharWidthAmbiguousWide.pm6",
+    "Term::Choose::LineFold::CharWidthDefault": "lib/Term/Choose/LineFold/CharWidthDefault.pm6",
+    "Term::Choose::ReadKey": "lib/Term/Choose/ReadKey.pm6",
+    "Term::Choose::Screen": "lib/Term/Choose/Screen.pm6",
+    "Term::Choose::SetTerm": "lib/Term/Choose/SetTerm.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KU/KUERBIS/Perl6/Term-Choose-p6-1.7.1.tar.gz",
+  "tags": [
+    "cli",
+    "terminal",
+    "text"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.7.1"
 }
 ,
 {
