@@ -2458,6 +2458,43 @@
 }
 ,
 {
+  "auth": "github:alabamenhu",
+  "authors": [
+    "Matthew Stephen Stuckwisch"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Intl::CLDR",
+    "Intl::UserLanguage"
+  ],
+  "description": "A module for formatting numbers in a localized manner",
+  "license": "Artistic-2.0",
+  "name": "Intl::Format::Number",
+  "perl": "6.*",
+  "provides": {
+    "Intl::Format::Number": "lib/Intl/Format/Number.pm6",
+    "Intl::Format::Util::Digits": "lib/Intl/Format/Util/Digits.pm6"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/alabamenhu/IntlFormatNumber.git",
+  "tags": [
+    "formatting",
+    "international",
+    "localization",
+    "numbers"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.1"
+}
+,
+{
   "auth": "git:alabamenhu",
   "authors": [
     "Matthew Stephen Stuckwisch"
@@ -7443,23 +7480,6 @@
 }
 ,
 {
-  "authors": [
-    "github:fayland"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Simple, fast implementation of LRU cache in pure perl",
-  "name": "Cache::LRU",
-  "perl": "6.*",
-  "provides": {
-    "Cache::LRU": "lib/Cache/LRU.pm"
-  },
-  "source-url": "git://github.com/fayland/perl6-Cache-LRU.git",
-  "version": "0.1.0"
-}
-,
-{
   "author": "github:fayland",
   "depends": [
     "URI::Escape",
@@ -10797,37 +10817,6 @@
 {
   "auth": "github:JJ",
   "authors": [
-    "JJ Merelo"
-  ],
-  "depends": [
-    "META6:ver<0.0.24+>"
-  ],
-  "description": "Creates a single method for accessing META6 values that might be in two places",
-  "license": "Artistic-2.0",
-  "meta-version": 1,
-  "name": "Dist::META",
-  "perl": "6.d",
-  "provides": {
-    "Dist::META": "lib/Dist/META.pm6"
-  },
-  "source-url": "https://github.com/JJ/raku-dist-meta.git",
-  "tags": [
-    "modules",
-    "ecosystem",
-    "devel",
-    "meta",
-    "utils",
-    "META6"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "auth": "github:JJ",
-  "authors": [
     "J. J. Merelo "
   ],
   "depends": [
@@ -13693,6 +13682,28 @@
   "depends": [
     
   ],
+  "description": "Get an emotional score for a passage of text based on its word use.",
+  "license": "Artistic-2.0",
+  "name": "Text::Emotion",
+  "perl": "6.*",
+  "provides": {
+    "Text::Emotion::Scorer": "lib/Text/Emotion/Scorer.pm"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/MattOates/Text--Emotion.git",
+  "tags": [
+    "Text",
+    "Sentiment",
+    "NLP"
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "author": "Matt Oates",
+  "depends": [
+    
+  ],
   "description": "Map ASCII to unicode homoglyphs.",
   "license": "Artistic-2.0",
   "name": "Text::Homoglyph",
@@ -14121,6 +14132,21 @@
     "HTML::Entity": "lib/HTML/Entity.pm6"
   },
   "source-url": "git://github.com/Mouq/HTML-Entity.git",
+  "version": "*"
+}
+,
+{
+  "depends": [
+    
+  ],
+  "description": "A JSON::Tiny fork for JSON5",
+  "name": "JSON5::Tiny",
+  "provides": {
+    "JSON5::Tiny": "lib/JSON5/Tiny.pm6",
+    "JSON5::Tiny::Actions": "lib/JSON5/Tiny/Actions.pm6",
+    "JSON5::Tiny::Grammar": "lib/JSON5/Tiny/Grammar.pm6"
+  },
+  "source-url": "git://github.com/Mouq/json5.git",
   "version": "*"
 }
 ,
@@ -15772,6 +15798,27 @@
     "Test::META"
   ],
   "version": "0.1.3"
+}
+,
+{
+  "authors": [
+    "Peter Pentchev"
+  ],
+  "depends": [
+    
+  ],
+  "description": "A somewhat naive (de-)serialization implementation",
+  "license": "Artistic-2.0",
+  "name": "Serialize::Naive",
+  "perl": "6.c",
+  "provides": {
+    "Serialize::Naive": "lib/Serialize/Naive.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/ppentchev/Serialize-Naive.git",
+  "version": "0.2.5"
 }
 ,
 {
@@ -17728,6 +17775,29 @@
 }
 ,
 {
+  "author": "Jonathan Scott Duff <duff@pobox.com>",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Useful trigonometric routines",
+  "license": "Artistic-2.0",
+  "name": "Math::Trig",
+  "perl": "6.*",
+  "provides": {
+    "Math::Trig": "lib/Math/Trig.pm"
+  },
+  "repo-type": "git",
+  "source-url": "git://github.com/raku-community-modules/Math-Trig.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "author": "github:retupmoca",
   "depends": [
     
@@ -19285,6 +19355,30 @@
   "depends": [
     
   ],
+  "description": "Provides filesystem capacity information.",
+  "license": "Artistic-2.0",
+  "name": "FileSystem::Capacity",
+  "perl": "6.c",
+  "provides": {
+    "FileSystem::Capacity::DirSize": "lib/FileSystem/Capacity/DirSize.pm6",
+    "FileSystem::Capacity::VolumesInfo": "lib/FileSystem/Capacity/VolumesInfo.pm6"
+  },
+  "source-url": "https://github.com/ramiroencinas/perl6-FileSystem-Capacity.git",
+  "tags": [
+    "filesystem",
+    "utils",
+    "capacity"
+  ],
+  "version": "1.0.1"
+}
+,
+{
+  "authors": [
+    "Ramiro Encinas Alarza"
+  ],
+  "depends": [
+    
+  ],
   "description": "Provides package updates information.",
   "license": "Artistic-2.0",
   "name": "Package::Updates",
@@ -19685,6 +19779,23 @@
   },
   "source-url": "git://github.com/retupmoca/P6-Crust-Middleware-Syslog.git",
   "version": "1.0.0"
+}
+,
+{
+  "author": "github:retupmoca",
+  "depends": [
+    "DateTime::Format"
+  ],
+  "description": "Simple email parsing module",
+  "license": "CC0-1.0",
+  "name": "Email::Simple",
+  "perl": "6.*",
+  "provides": {
+    "Email::Simple": "lib/Email/Simple.pm6",
+    "Email::Simple::Header": "lib/Email/Simple/Header.pm6"
+  },
+  "source-url": "git://github.com/retupmoca/p6-Email-Simple.git",
+  "version": "2.1.0"
 }
 ,
 {
@@ -24405,21 +24516,6 @@
 }
 ,
 {
-  "auth": "github:tony-o",
-  "depends": [
-    
-  ],
-  "description": "FNV[1|0|1a] for the masses",
-  "name": "Digest::FNV",
-  "perl": "6.*",
-  "provides": {
-    "Digest::FNV": "lib/Digest/FNV.pm6"
-  },
-  "source-url": "git://github.com/tony-o/perl6-digest-fnv.git",
-  "version": "0.1.0"
-}
-,
-{
   "auth": "zef:tony-o",
   "depends": [
     
@@ -26129,37 +26225,6 @@
 ,
 {
   "authors": [
-    "XiKuuKy/choiboi"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Allows simplified usage of emoji in code",
-  "license": "MIT",
-  "name": "Avolution::Emoji",
-  "provides": {
-    "Avolution::Emoji": "lib/Avolution/Emoji.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/XiKuuKy/Avolution-Emoji.git",
-  "tags": [
-    "emoji",
-    "fun",
-    "avolution"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.1"
-}
-,
-{
-  "authors": [
     "github:Xliff",
     "Clifton Wood"
   ],
@@ -26744,23 +26809,5 @@
     
   ],
   "version": "0.5.1"
-}
-,
-{
-  "authors": [
-    "Sterling Hanenkamp <hanenkamp@cpan.org>"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Web API for Perl 6",
-  "license": "Artistic-2.0",
-  "name": "P6W",
-  "perl": "6.c",
-  "provides": {
-    "P6W": "RakuWAPI.pod"
-  },
-  "source-url": "git://github.com/zostay/RakuWAPI.git",
-  "version": "0.7.Draft"
 }
 ]
