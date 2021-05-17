@@ -174,6 +174,51 @@
 ,
 {
   "authors": [
+    "John Haltiwanger",
+    "japhb"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "OO::Monitors",
+    "Terminal::ANSIColor",
+    "Term::termios",
+    "File::Which"
+  ],
+  "description": "Asynchronous printing to your terminal -- as a simple grid",
+  "license": "Artistic-2.0",
+  "name": "Terminal::Print",
+  "perl": "6.d.PREVIEW",
+  "provides": {
+    "Terminal::Print": "lib/Terminal/Print.pm6",
+    "Terminal::Print::Animated": "lib/Terminal/Print/Animated.pm6",
+    "Terminal::Print::BoxDrawing": "lib/Terminal/Print/BoxDrawing.pm6",
+    "Terminal::Print::Commands": "lib/Terminal/Print/Commands.pm6",
+    "Terminal::Print::DecodedInput": "lib/Terminal/Print/DecodedInput.pm6",
+    "Terminal::Print::Grid": "lib/Terminal/Print/Grid.pm6",
+    "Terminal::Print::ParticleEffect": "lib/Terminal/Print/ParticleEffect.pm6",
+    "Terminal::Print::Pixelated": "lib/Terminal/Print/Pixelated.pm6",
+    "Terminal::Print::RawInput": "lib/Terminal/Print/RawInput.pm6",
+    "Terminal::Print::Util::Text": "lib/Terminal/Print/Util/Text.pm6",
+    "Terminal::Print::Util::Timing": "lib/Terminal/Print/Util/Timing.pm6",
+    "Terminal::Print::Widget": "lib/Terminal/Print/Widget.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/ab5tract/Terminal-Print.git",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.972"
+}
+,
+{
+  "authors": [
     "Mark Rushing"
   ],
   "depends": [
@@ -3238,6 +3283,37 @@
 }
 ,
 {
+  "authors": [
+    "Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>"
+  ],
+  "depends": [
+    "Inline::Perl5",
+    "JSON::Fast"
+  ],
+  "description": "Use Emacs Org-mode to graph your sleep pattern",
+  "license": "GPL-3.0-or-later",
+  "name": "App::OrgSleep",
+  "perl": "6.c",
+  "provides": {
+    "bdf2json": "bin/bdf2json",
+    "orgsleep": "bin/orgsleep"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/AlexDaniel/orgsleep.git",
+  "tags": [
+    "emacs",
+    "org-mode",
+    "sleep",
+    "sleep-analysis",
+    "sleep-tracker",
+    "sleep-research"
+  ],
+  "version": "0.0.8"
+}
+,
+{
   "author": "github:Altai-man",
   "depends": [
     
@@ -3381,6 +3457,45 @@
     "Test::META"
   ],
   "version": "2.2"
+}
+,
+{
+  "authors": [
+    "@Mouq",
+    "@coke",
+    "@hoelzro",
+    "@timo",
+    "@moritz",
+    "@JJ",
+    "@MasterDuke17",
+    "@zoffixznet",
+    "@antoniogamiz"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Set of helper functions to ease working with Pods!",
+  "license": "Artistic-2.0",
+  "name": "Pod::Utilities",
+  "perl": "6.c",
+  "provides": {
+    "Pod::Utilities": "lib/Pod/Utilities.pm6",
+    "Pod::Utilities::Build": "lib/Pod/Utilities/Build.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/antoniogamiz/Pod-Utilities.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.1"
 }
 ,
 {
@@ -6363,6 +6478,26 @@
     "source": "https://github.com/cygx/6lib"
   },
   "version": "0.0.1"
+}
+,
+{
+  "author": "cygx <cygx@cpan.org>",
+  "depends": [
+    
+  ],
+  "description": "Experimental debugging macros",
+  "license": "BSL-1.0",
+  "name": "DEBUG",
+  "perl": "6.*",
+  "provides": {
+    "DEBUG": "DEBUG.pm6",
+    "NDEBUG": "NDEBUG.pm6",
+    "assert": "assert.pm6",
+    "dbg": "dbg.pm6",
+    "logger": "logger.pm6"
+  },
+  "source-url": "git://github.com/cygx/p6-debug.git",
+  "version": "*"
 }
 ,
 {
@@ -19697,6 +19832,23 @@
 {
   "author": "github:retupmoca",
   "depends": [
+    "DateTime::Format"
+  ],
+  "description": "Simple email parsing module",
+  "license": "CC0-1.0",
+  "name": "Email::Simple",
+  "perl": "6.*",
+  "provides": {
+    "Email::Simple": "lib/Email/Simple.pm6",
+    "Email::Simple::Header": "lib/Email/Simple/Header.pm6"
+  },
+  "source-url": "git://github.com/retupmoca/p6-Email-Simple.git",
+  "version": "2.1.0"
+}
+,
+{
+  "author": "github:retupmoca",
+  "depends": [
     
   ],
   "description": "A replacement for %?RESOURCE",
@@ -21849,6 +22001,25 @@
   },
   "source-url": "git://github.com/stmuk/p6-app-p6tags.git",
   "version": "0.6"
+}
+,
+{
+  "author": "Steve Mynott <steve.mynott@gmail.com>",
+  "depends": [
+    "LWP::Simple",
+    "IO::Socket::SSL",
+    "Panda",
+    "IO::Capture::Simple"
+  ],
+  "description": "Display and cache ecosystem README files for perl6",
+  "license": "Artistic-2.0",
+  "name": "App::ecoreadme",
+  "perl": "6.c",
+  "provides": {
+    "App::ecoreadme": "bin/ecoreadme"
+  },
+  "source-url": "git://github.com/stmuk/p6-eco-readme.git",
+  "version": "0.2"
 }
 ,
 {
@@ -24506,6 +24677,24 @@
 {
   "auth": "zef:tony-o",
   "authors": [
+    "Tony O"
+  ],
+  "depends": [
+    "Terminal::ANSIColor"
+  ],
+  "description": "Parallel testing utility, it's really great",
+  "name": "Green",
+  "perl": "6.*",
+  "provides": {
+    "Green": "lib/Green.pm6"
+  },
+  "source-url": "git://github.com/tony-o/perl6-green.git",
+  "version": "0.1.4"
+}
+,
+{
+  "auth": "zef:tony-o",
+  "authors": [
     "tony-o"
   ],
   "depends": [
@@ -25201,6 +25390,107 @@
 }
 ,
 {
+  "authors": [
+    "Martin Barth (ufobat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "XML:ver<0.1.0+>",
+    "Test::META"
+  ],
+  "description": "XPath perl6 library",
+  "license": "Artistic-2.0",
+  "name": "XML::XPath",
+  "perl": "6.c",
+  "provides": {
+    "XML::XPath": "lib/XML/XPath.pm6",
+    "XML::XPath::Actions": "lib/XML/XPath/Actions.pm6",
+    "XML::XPath::Evaluable": "lib/XML/XPath/Evaluable.pm6",
+    "XML::XPath::Expr": "lib/XML/XPath/Expr.pm6",
+    "XML::XPath::ExprOperator::And": "lib/XML/XPath/ExprOperator/And.pm6",
+    "XML::XPath::ExprOperator::Div": "lib/XML/XPath/ExprOperator/Div.pm6",
+    "XML::XPath::ExprOperator::Equal": "lib/XML/XPath/ExprOperator/Equal.pm6",
+    "XML::XPath::ExprOperator::GreaterEqual": "lib/XML/XPath/ExprOperator/GreaterEqual.pm6",
+    "XML::XPath::ExprOperator::GreaterThan": "lib/XML/XPath/ExprOperator/GreaterThan.pm6",
+    "XML::XPath::ExprOperator::Minus": "lib/XML/XPath/ExprOperator/Minus.pm6",
+    "XML::XPath::ExprOperator::Mod": "lib/XML/XPath/ExprOperator/Mod.pm6",
+    "XML::XPath::ExprOperator::Multiply": "lib/XML/XPath/ExprOperator/Multiply.pm6",
+    "XML::XPath::ExprOperator::NotEqual": "lib/XML/XPath/ExprOperator/NotEqual.pm6",
+    "XML::XPath::ExprOperator::Or": "lib/XML/XPath/ExprOperator/Or.pm6",
+    "XML::XPath::ExprOperator::Pipe": "lib/XML/XPath/ExprOperator/Pipe.pm6",
+    "XML::XPath::ExprOperator::Plus": "lib/XML/XPath/ExprOperator/Plus.pm6",
+    "XML::XPath::ExprOperator::SmallerEqual": "lib/XML/XPath/ExprOperator/SmallerEqual.pm6",
+    "XML::XPath::ExprOperator::SmallerThan": "lib/XML/XPath/ExprOperator/SmallerThan.pm6",
+    "XML::XPath::ExprOperator::UnaryMinus": "lib/XML/XPath/ExprOperator/UnaryMinus.pm6",
+    "XML::XPath::FunctionCall": "lib/XML/XPath/FunctionCall.pm6",
+    "XML::XPath::FunctionCall::Boolean": "lib/XML/XPath/FunctionCall/Boolean.pm6",
+    "XML::XPath::FunctionCall::Node": "lib/XML/XPath/FunctionCall/Node.pm6",
+    "XML::XPath::FunctionCall::Number": "lib/XML/XPath/FunctionCall/Number.pm6",
+    "XML::XPath::FunctionCall::String": "lib/XML/XPath/FunctionCall/String.pm6",
+    "XML::XPath::Grammar": "lib/XML/XPath/Grammar.pm6",
+    "XML::XPath::InfixExprOperatorPerElement": "lib/XML/XPath/InfixExprOperatorPerElement.pm6",
+    "XML::XPath::NodeTest": "lib/XML/XPath/NodeTest.pm6",
+    "XML::XPath::Predicates": "lib/XML/XPath/Predicates.pm6",
+    "XML::XPath::Step": "lib/XML/XPath/Step.pm6",
+    "XML::XPath::Types": "lib/XML/XPath/Types.pm6",
+    "XML::XPath::Utils": "lib/XML/XPath/Utils.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/ufobat/p6-XML-XPath.git",
+  "tags": [
+    "XML",
+    "XPath",
+    "Parsing",
+    "W3C",
+    "Query Language"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.9.3"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet",
+    "Martin Barth (ufobat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Digest::SHA",
+    "File::Directory::Tree"
+  ],
+  "description": "Make a temporary path, file, or directory",
+  "license": "Artistic-2.0",
+  "name": "Temp::Path",
+  "perl": "6.c",
+  "provides": {
+    "Temp::Path": "lib/Temp/Path.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/ufobat/perl6-Temp-Path.git",
+  "support": {
+    "source": "https://github.com/ufobat/perl6-Temp-Path.git"
+  },
+  "tags": [
+    "filesystem"
+  ],
+  "test-depends": [
+    "Testo",
+    "Test::META"
+  ],
+  "version": "1.001007"
+}
+,
+{
   "auth": "github:ugexe",
   "depends": [
     
@@ -25536,6 +25826,30 @@
     "Test"
   ],
   "version": "0.2.0"
+}
+,
+{
+  "auth": "github:ugexe",
+  "authors": [
+    "Nick Logan"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Create basic tables from a two dimensional array",
+  "license": "Artistic-2.0",
+  "name": "Text::Table::Simple",
+  "perl": "6",
+  "provides": {
+    "Text::Table::Simple": "lib/Text/Table/Simple.pm6"
+  },
+  "source-url": "git://github.com/ugexe/Perl6-Text--Table--Simple.git",
+  "tags": [
+    "text",
+    "terminal",
+    "utils"
+  ],
+  "version": "0.0.7"
 }
 ,
 {
