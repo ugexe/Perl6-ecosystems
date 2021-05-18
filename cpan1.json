@@ -22399,38 +22399,6 @@
     
   ],
   "depends": [
-    
-  ],
-  "description": "Implement Perl's Tie::StdArray core module",
-  "license": "Artistic-2.0",
-  "name": "Tie::StdArray",
-  "perl": "6.c",
-  "provides": {
-    "Tie::StdArray": "lib/Tie/StdArray.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-StdArray-0.0.4.tar.gz",
-  "tags": [
-    "UTILS",
-    "CPAN5"
-  ],
-  "test-depends": [
-    "P5tie"
-  ],
-  "version": "0.0.4"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "P5tie"
   ],
   "description": "Implement Perl's Tie::StdArray core module",
@@ -43817,6 +43785,48 @@
     
   ],
   "version": "1.0.1"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jonathan@edument.se>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP",
+    "JSON::Fast",
+    "OpenAPI::Model",
+    "OpenAPI::Schema::Validate",
+    "YAMLish"
+  ],
+  "description": "Easily implement an existing OpenAPI definition, server side, using Cro.",
+  "license": "Artistic-2.0",
+  "name": "Cro::OpenAPI::RoutesFromDefinition",
+  "perl": "6.d",
+  "provides": {
+    "Cro::OpenAPI::RoutesFromDefinition": "lib/Cro/OpenAPI/RoutesFromDefinition.pm6",
+    "Cro::OpenAPI::RoutesFromDefinition::AdaptHandler": "lib/Cro/OpenAPI/RoutesFromDefinition/AdaptHandler.pm6",
+    "Cro::OpenAPI::RoutesFromDefinition::Checkers": "lib/Cro/OpenAPI/RoutesFromDefinition/Checkers.pm6",
+    "Cro::OpenAPI::RoutesFromDefinition::SecurityChecker": "lib/Cro/OpenAPI/RoutesFromDefinition/SecurityChecker.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-OpenAPI-RoutesFromDefinition-1.0.2.tar.gz",
+  "tags": [
+    "openapi",
+    "oas",
+    "swagger",
+    "api",
+    "server",
+    "generation"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.2"
 }
 ,
 {
