@@ -26073,7 +26073,8 @@
     "JSON::Fast",
     "Logger",
     "MIME::Types",
-    "Template::Mustache"
+    "Template::Mustache",
+    "WebSocket"
   ],
   "description": "A simple web framework for raku",
   "license": "Artistic-2.0",
@@ -26104,7 +26105,7 @@
   "test-depends": [
     "HTTP::UserAgent"
   ],
-  "version": "0.8.1"
+  "version": "0.9.0"
 }
 ,
 {
