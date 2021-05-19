@@ -12937,6 +12937,37 @@
     
   ],
   "depends": [
+    "IRC::Log:ver<0.0.3>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "interface to IRC logs from colabti.org",
+  "license": "Artistic-2.0",
+  "name": "IRC::Log::Colabti",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Log::Colabti": "lib/IRC/Log/Colabti.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Log-Colabti-0.0.27.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.27"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "interface to IRC logs from colabti.org",
