@@ -5105,6 +5105,7 @@
 }
 ,
 {
+  "auth": "zef:b7j0c",
   "author": "Brad Clawsie",
   "build-depends": [
     "Subsets::Common"
@@ -5113,16 +5114,17 @@
     "Subsets::Common"
   ],
   "description": "Types for IP addresses and manipulation methods.",
+  "license": "BSD-2-Clause",
   "name": "Net::IP::Parse",
   "perl": "6.*",
   "provides": {
-    "Net::IP::Parse": "lib/Net/IP/Parse.pm6"
+    "Net::IP::Parse": "lib/Net/IP/Parse.rakumod"
   },
   "source-url": "git://github.com/bradclawsie/Net-IP-Parse.git",
   "test-depends": [
     "Subsets::Common"
   ],
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
 ,
 {
@@ -5131,6 +5133,7 @@
     
   ],
   "description": "Some common subsets to built-in types.",
+  "license": "BSD-2-Clause",
   "name": "Subsets::Common",
   "perl": "6.*",
   "provides": {
