@@ -104419,6 +104419,48 @@
     
   ],
   "depends": [
+    "CSS::Module:ver<0.5.8+>",
+    "CSS::Properties:ver<0.6.6+>",
+    "CSS::Stylesheet:ver<0.0.19+>",
+    "Method::Also"
+  ],
+  "description": "CSS Markup Tag-Sets",
+  "license": "Artistic-2.0",
+  "name": "CSS::TagSet",
+  "perl": "6.c",
+  "provides": {
+    "CSS::TagSet": "lib/CSS/TagSet.rakumod",
+    "CSS::TagSet::Pango": "lib/CSS/TagSet/Pango.rakumod",
+    "CSS::TagSet::TaggedPDF": "lib/CSS/TagSet/TaggedPDF.rakumod",
+    "CSS::TagSet::XHTML": "lib/CSS/TagSet/XHTML.rakumod"
+  },
+  "resources": [
+    "pango.css",
+    "tagged-pdf.css",
+    "xhtml.css"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-TagSet-0.0.20.tar.gz",
+  "tags": [
+    "xml",
+    "html",
+    "xpath",
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.20"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "CSS::Grammar:ver<0.3.5+>",
     "Color::Names",
     "JSON::Fast"
