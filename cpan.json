@@ -22873,6 +22873,38 @@
     
   ],
   "depends": [
+    "P5localtime:ver<0.0.7>"
+  ],
+  "description": "Port of Perl's Time::localtime",
+  "license": "Artistic-2.0",
+  "name": "Time::localtime",
+  "perl": "6.c",
+  "provides": {
+    "Time::localtime": "lib/Time/localtime.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Time-localtime-0.0.4.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "P5localtime:ver<0.0.8>:auth<cpan:ELIZABETH>"
   ],
   "description": "Raku port of Perl's Time::localtime module",
@@ -90580,6 +90612,46 @@
     
   ],
   "version": "0.0.11"
+}
+,
+{
+  "authors": [
+    "titsuki"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
+    "Algorithm::LibSVM::CustomBuilder"
+  ],
+  "builder": "Algorithm::LibSVM::CustomBuilder",
+  "depends": [
+    
+  ],
+  "description": "A Raku bindings for libsvm",
+  "license": "MIT",
+  "name": "Algorithm::LibSVM",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::LibSVM": "lib/Algorithm/LibSVM.pm6",
+    "Algorithm::LibSVM::Actions": "lib/Algorithm/LibSVM/Actions.pm6",
+    "Algorithm::LibSVM::CustomBuilder": "lib/Algorithm/LibSVM/CustomBuilder.pm6",
+    "Algorithm::LibSVM::Grammar": "lib/Algorithm/LibSVM/Grammar.pm6",
+    "Algorithm::LibSVM::Model": "lib/Algorithm/LibSVM/Model.pm6",
+    "Algorithm::LibSVM::Node": "lib/Algorithm/LibSVM/Node.pm6",
+    "Algorithm::LibSVM::Parameter": "lib/Algorithm/LibSVM/Parameter.pm6",
+    "Algorithm::LibSVM::Problem": "lib/Algorithm/LibSVM/Problem.pm6"
+  },
+  "resources": [
+    "libraries/svm"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LibSVM-0.0.12.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.12"
 }
 ,
 {
