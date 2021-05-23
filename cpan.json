@@ -12350,6 +12350,68 @@
   "depends": [
     
   ],
+  "description": "role providing interface to IRC logs",
+  "license": "Artistic-2.0",
+  "name": "IRC::Log",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Log": "lib/IRC/Log.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Log-0.0.4.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "role providing interface to IRC logs",
+  "license": "Artistic-2.0",
+  "name": "IRC::Log",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Log": "lib/IRC/Log.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Log-0.0.5.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "interface to IRC logs from colabti.org",
   "license": "Artistic-2.0",
   "name": "IRC::Log::Colabti",
@@ -22798,6 +22860,38 @@
     
   ],
   "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "P5localtime"
+  ],
+  "description": "Port of Perl 5's Time::localtime",
+  "license": "Artistic-2.0",
+  "name": "Time::localtime",
+  "perl": "6.c",
+  "provides": {
+    "Time::localtime": "lib/Time/localtime.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Time-localtime-0.0.2.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
