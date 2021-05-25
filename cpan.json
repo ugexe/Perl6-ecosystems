@@ -12040,6 +12040,39 @@
     
   ],
   "depends": [
+    "Array::Sorted::Util:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "JSON::Fast:ver<0.15>",
+    "String::Color:ver<0.0.7>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "access to all logs of an IRC channel",
+  "license": "Artistic-2.0",
+  "name": "IRC::Channel::Log",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Channel::Log": "lib/IRC/Channel/Log.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Channel-Log-0.0.28.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "IRC::Log::Colabti:ver<0.0.29>:auth<cpan:ELIZABETH>"
+  ],
+  "version": "0.0.28"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Array::Sorted::Util:ver<0.0.5>:auth<cpan:ELIZABETH>",
     "Object::Delayed:ver<0.0.10>:auth<cpan:ELIZABETH>"
   ],
@@ -12498,6 +12531,37 @@
     
   ],
   "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "role providing interface to IRC logs",
+  "license": "Artistic-2.0",
+  "name": "IRC::Log",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Log": "lib/IRC/Log.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Log-0.0.6.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
 }
 ,
 {
@@ -13149,6 +13213,37 @@
     
   ],
   "version": "0.0.28"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "IRC::Log:ver<0.0.6>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "interface to IRC logs from colabti.org",
+  "license": "Artistic-2.0",
+  "name": "IRC::Log::Colabti",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Log::Colabti": "lib/IRC/Log/Colabti.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Log-Colabti-0.0.29.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.29"
 }
 ,
 {
@@ -63328,6 +63423,51 @@
     
   ],
   "version": "0.18.1"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib",
+    "Gnome::GObject",
+    "Gnome::Cairo"
+  ],
+  "description": "Raku - Gnome Gdk Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gdk3",
+  "perl": "6",
+  "provides": {
+    "Gnome::Gdk3::Atom": "lib/Gnome/Gdk3/Atom.pm6",
+    "Gnome::Gdk3::Device": "lib/Gnome/Gdk3/Device.pm6",
+    "Gnome::Gdk3::Display": "lib/Gnome/Gdk3/Display.pm6",
+    "Gnome::Gdk3::DragContext": "lib/Gnome/Gdk3/DragContext.pm6",
+    "Gnome::Gdk3::Events": "lib/Gnome/Gdk3/Events.pm6",
+    "Gnome::Gdk3::Keysyms": "lib/Gnome/Gdk3/Keysyms.pm6",
+    "Gnome::Gdk3::Pixbuf": "lib/Gnome/Gdk3/Pixbuf.pm6",
+    "Gnome::Gdk3::RGBA": "lib/Gnome/Gdk3/RGBA.pm6",
+    "Gnome::Gdk3::Screen": "lib/Gnome/Gdk3/Screen.pm6",
+    "Gnome::Gdk3::Types": "lib/Gnome/Gdk3/Types.pm6",
+    "Gnome::Gdk3::Visual": "lib/Gnome/Gdk3/Visual.pm6",
+    "Gnome::Gdk3::Window": "lib/Gnome/Gdk3/Window.pm6"
+  },
+  "resources": [
+    "gtk-brokenimage.png"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gdk3-0.19.0.tar.gz",
+  "tags": [
+    "gnome",
+    "gdk"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.19.0"
 }
 ,
 {
