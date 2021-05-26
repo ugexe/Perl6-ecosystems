@@ -483,39 +483,6 @@
     "Andinus <andinus@nand.sh>"
   ],
   "depends": [
-    "Terminal::Table:auth<github:araraloren>"
-  ],
-  "description": "Antlia is a text based Rock paper scissors game",
-  "license": "ISC",
-  "name": "antlia",
-  "perl": "6.d",
-  "provides": {
-    "Antlia::CLI": "lib/Antlia/CLI.rakumod"
-  },
-  "resources": [
-    "rock/1",
-    "rock/2",
-    "paper/1",
-    "paper/2",
-    "scissor/1",
-    "scissor/2"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/A/AN/ANDINUS/Perl6/antlia-0.1.0.tar.gz",
-  "tags": [
-    "Antlia",
-    "roshambo",
-    "ro-sham-bo",
-    "Rock paper scissors"
-  ],
-  "version": "0.1.0"
-}
-,
-{
-  "auth": "zef:andinus",
-  "authors": [
-    "Andinus <andinus@nand.sh>"
-  ],
-  "depends": [
     "Terminal::Table:auth<github:araraloren>",
     "Terminal::ANSIColor"
   ],
@@ -560,32 +527,6 @@
     "Caelum::CLI": "lib/Caelum/CLI.rakumod",
     "Caelum::Player": "lib/Caelum/Player.rakumod"
   },
-  "source-url": "http://www.cpan.org/authors/id/A/AN/ANDINUS/Perl6/caelum-0.1.0.tar.gz",
-  "tags": [
-    "Caelum",
-    "Cee-lo",
-    "Chinchirorin",
-    "Chinchiro"
-  ],
-  "version": "0.1.0"
-}
-,
-{
-  "auth": "github:andinus",
-  "authors": [
-    "Andinus <andinus@nand.sh>"
-  ],
-  "depends": [
-    "Terminal::Table:auth<github:araraloren>"
-  ],
-  "description": "Caelum is a text based Cee-lo game",
-  "license": "ISC",
-  "name": "caelum",
-  "perl": "6.d",
-  "provides": {
-    "Caelum::CLI": "lib/Caelum/CLI.rakumod",
-    "Caelum::Player": "lib/Caelum/Player.rakumod"
-  },
   "source-url": "http://www.cpan.org/authors/id/A/AN/ANDINUS/Perl6/caelum-0.1.1.tar.gz",
   "tags": [
     "Caelum",
@@ -594,44 +535,6 @@
     "Chinchiro"
   ],
   "version": "0.1.1"
-}
-,
-{
-  "auth": "github:andinus",
-  "authors": [
-    "Andinus <andinus@nand.sh>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "WWW:ver<1.005006+>:auth<github:raku-community-modules>"
-  ],
-  "description": "Octans is a program to solve Algot's Wordplay (Wordsearch) puzzles",
-  "license": "ISC",
-  "name": "octans",
-  "perl": "6.d",
-  "provides": {
-    "Octans::CLI": "lib/Octans/CLI.rakumod",
-    "Octans::Neighbors": "lib/Octans/Neighbors.rakumod",
-    "Octans::Puzzle": "lib/Octans/Puzzle.rakumod",
-    "Octans::Puzzle::Get": "lib/Octans/Puzzle/Get.rakumod",
-    "Octans::RangeSearch": "lib/Octans/RangeSearch.rakumod",
-    "Octans::WordSearch": "lib/Octans/WordSearch.rakumod"
-  },
-  "resources": [
-    "mwords/354984si.ngl",
-    "mwords/readme.txt"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/A/AN/ANDINUS/Perl6/octans-0.2.0.tar.gz",
-  "tags": [
-    "Octans",
-    "WordPlay"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.2.0"
 }
 ,
 {
