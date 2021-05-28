@@ -108531,6 +108531,40 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Abstract W3C DOM Level 2 interface roles",
+  "license": "Artistic-2.0",
+  "name": "W3C::DOM",
+  "perl": "6.c",
+  "provides": {
+    "W3C::DOM": "lib/W3C/DOM.rakumod",
+    "W3C::DOM::Test": "lib/W3C/DOM/Test.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/W3C-DOM-0.0.2.tar.gz",
+  "tags": [
+    "xml",
+    "html",
+    "dom"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "authors": [
     "pnu",
     "wbiker"
