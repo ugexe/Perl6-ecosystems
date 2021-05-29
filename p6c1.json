@@ -18954,9 +18954,13 @@
 }
 ,
 {
-  "author": "Timothy Totten",
-  "description": "A full-featured, pure-perl XML library (parsing, manipulation, emitting, queries, etc.)",
+  "auth": "github:raku-community-modules",
+  "authors": [
+    "Timothy Totten"
+  ],
+  "description": "A full-featured, pure-Raku XML library (parsing, manipulation, emitting, queries, etc.)",
   "license": "Artistic-2.0",
+  "meta-version": 0,
   "name": "XML",
   "perl": "6.*",
   "provides": {
@@ -18971,11 +18975,12 @@
     "XML::PI": "lib/XML/PI.pm6",
     "XML::Text": "lib/XML/Text.pm6"
   },
+  "raku": "6.*",
   "source-url": "git://github.com/raku-community-modules/XML.git",
   "tags": [
     "xml"
   ],
-  "version": "0.3.0"
+  "version": "0.3.1"
 }
 ,
 {
