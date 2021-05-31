@@ -39511,6 +39511,44 @@
   "depends": [
     "Date::Calendar::Strftime"
   ],
+  "description": "Conversions from / to the Baháʼí calendar",
+  "license": "Artistic-2.0",
+  "name": "Date::Calendar::Bahai",
+  "perl": "6.d",
+  "provides": {
+    "Date::Calendar::Bahai": "lib/Date/Calendar/Bahai.rakumod",
+    "Date::Calendar::Bahai::Astronomical": "lib/Date/Calendar/Bahai/Astronomical.rakumod",
+    "Date::Calendar::Bahai::Common": "lib/Date/Calendar/Bahai/Common.rakumod",
+    "Date::Calendar::Bahai::Names": "lib/Date/Calendar/Bahai/Names.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JF/JFORGET/Perl6/Date-Calendar-Bahai-0.0.1.tar.gz",
+  "support": {
+    "email": "JFORGET@cpan.org"
+  },
+  "tags": [
+    "date",
+    "calendar"
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:JFORGET",
+  "authors": [
+    "Jean Forget"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Date::Calendar::Strftime"
+  ],
   "description": "conversions from / to the Coptic calendar and from / to the Ethiopic calendar",
   "license": "Artistic-2.0",
   "name": "Date::Calendar::CopticEthiopic",
