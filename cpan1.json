@@ -45301,6 +45301,34 @@
 }
 ,
 {
+  "auth": "jnthn",
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "OpenSSL"
+  ],
+  "description": "Provides an API like IO::Socket::Async, but with TLS support.",
+  "license": "Artistic-2.0",
+  "name": "IO::Socket::Async::SSL",
+  "perl": "6.*",
+  "provides": {
+    "IO::Socket::Async::SSL": "lib/IO/Socket/Async/SSL.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/IO-Socket-Async-SSL-0.7.8.tar.gz",
+  "support": {
+    "source": "https://github.com/jnthn/p6-io-socket-async-ssl.git"
+  },
+  "tags": [
+    "SSL",
+    "TLS",
+    "Asynchronous",
+    "Socket"
+  ],
+  "version": "0.7.8"
+}
+,
+{
   "auth": "Jonathan Worthington <jonathan@edument.se>",
   "build-depends": [
     
@@ -61348,6 +61376,69 @@
     
   ],
   "version": "0.1.1"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "SDL2::Raw"
+  ],
+  "description": "A Solstice game written in Raku.",
+  "license": "General Public License 2, Artistic-2.0",
+  "name": "Solstice",
+  "perl": "6.c",
+  "provides": {
+    "Solstice::AdventureRoom": "lib/Solstice/AdventureRoom.pm6",
+    "Solstice::Controller": "lib/Solstice/Controller.pm6",
+    "Solstice::Diamond": "lib/Solstice/Diamond.pm6",
+    "Solstice::DownMove": "lib/Solstice/DownMove.pm6",
+    "Solstice::Entity": "lib/Solstice/Entity.pm6",
+    "Solstice::FloorDiamond": "lib/Solstice/FloorDiamond.pm6",
+    "Solstice::Goon1": "lib/Solstice/Goon1.pm6",
+    "Solstice::ImageLoopLibrary": "lib/Solstice/ImageLoopLibrary.pm6",
+    "Solstice::JumpingShadax": "lib/Solstice/JumpingShadax.pm6",
+    "Solstice::LeftMove": "lib/Solstice/LeftMove.pm6",
+    "Solstice::LoopObject": "lib/Solstice/LoopObject.pm6",
+    "Solstice::MainLoop": "lib/Solstice/MainLoop.pm6",
+    "Solstice::MainScreen": "lib/Solstice/MainScreen.pm6",
+    "Solstice::Model": "lib/Solstice/Model.pm6",
+    "Solstice::Move": "lib/Solstice/Move.pm6",
+    "Solstice::OchreFloorDiamond": "lib/Solstice/OchreFloorDiamond.pm6",
+    "Solstice::OchreSlabDiamond": "lib/Solstice/OchreSlabDiamond.pm6",
+    "Solstice::RightMove": "lib/Solstice/RightMove.pm6",
+    "Solstice::Room": "lib/Solstice/Room.pm6",
+    "Solstice::Room1": "lib/Solstice/Room1.pm6",
+    "Solstice::Room2": "lib/Solstice/Room2.pm6",
+    "Solstice::SDL2MainLoop": "lib/Solstice/SDL2MainLoop.pm6",
+    "Solstice::Shadax": "lib/Solstice/Shadax.pm6",
+    "Solstice::SlabDiamond": "lib/Solstice/SlabDiamond.pm6",
+    "Solstice::Solstice": "lib/Solstice/Solstice.pl6",
+    "Solstice::SolsticeModel": "lib/Solstice/SolsticeModel.pm6",
+    "Solstice::SolsticeView": "lib/Solstice/SolsticeView.pm6",
+    "Solstice::Tilemap": "lib/Solstice/Tilemap.pm6",
+    "Solstice::Tilemap1": "lib/Solstice/Tilemap1.pm6",
+    "Solstice::Tilemap2": "lib/Solstice/Tilemap2.pm6",
+    "Solstice::UpMove": "lib/Solstice/UpMove.pm6",
+    "Solstice::View": "lib/Solstice/View.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/Solstice-0.1.2.tar.gz",
+  "tags": [
+    "Solstice"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.2"
 }
 ,
 {
