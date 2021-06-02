@@ -7018,9 +7018,10 @@
   "name": "Sys::IP",
   "perl": "6.*",
   "provides": {
-    "Sys::IP": "lib/Sys/IP.pm6",
-    "Sys::IP::RAW": "lib/Sys/IP/RAW.pm6",
-    "Sys::IP::Routes": "lib/Sys/IP/Routes.pm6"
+    "Sys::IP": "lib/Sys/IP.rakumod",
+    "Sys::IP::DNS": "lib/Sys/IP/DNS.rakumod",
+    "Sys::IP::RAW": "lib/Sys/IP/RAW.rakumod",
+    "Sys::IP::Routes": "lib/Sys/IP/Routes.rakumod"
   },
   "source-url": "git://github.com/Demayl/raku-Sys-IP.git",
   "support": {
@@ -7033,9 +7034,10 @@
     "IP",
     "Host",
     "Interface",
-    "Iface"
+    "Iface",
+    "DNS"
   ],
-  "version": "0.0.1"
+  "version": "0.1.0"
 }
 ,
 {
