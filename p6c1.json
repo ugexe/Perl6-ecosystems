@@ -1201,7 +1201,8 @@
   "depends": [
     "Intl::LanguageTag",
     "Intl::UserLanguage",
-    "Intl::CLDR::Plurals"
+    "Intl::Number::Plural",
+    "Intl::Format::Number"
   ],
   "description": "A localization framework implementing Mozilla’s project Fluent",
   "license": "Artistic-2.0",
@@ -1230,7 +1231,7 @@
   "test-depends": [
     
   ],
-  "version": "0.8"
+  "version": "0.8.1"
 }
 ,
 {
