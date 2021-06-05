@@ -3435,14 +3435,14 @@
   ],
   "description": "Parse a type graph description file",
   "license": "Artistic-2.0",
-  "name": "Perl6::TypeGraph",
+  "name": "Doc::TypeGraph",
   "perl": "6.d",
   "provides": {
-    "Perl6::Type": "lib/Perl6/Type.pm6",
-    "Perl6::TypeGraph": "lib/Perl6/TypeGraph.pm6",
-    "Perl6::TypeGraph::Decl": "lib/Perl6/TypeGraph/Decl.pm6",
-    "Perl6::TypeGraph::DeclActions": "lib/Perl6/TypeGraph/DeclActions.pm6",
-    "Perl6::TypeGraph::Viz": "lib/Perl6/TypeGraph/Viz.pm6"
+    "Doc::Type": "lib/Doc/Type.pm6",
+    "Doc::TypeGraph": "lib/Doc/TypeGraph.pm6",
+    "Doc::TypeGraph::Decl": "lib/Doc/TypeGraph/Decl.pm6",
+    "Doc::TypeGraph::DeclActions": "lib/Doc/TypeGraph/DeclActions.pm6",
+    "Doc::TypeGraph::Viz": "lib/Doc/TypeGraph/Viz.pm6"
   },
   "resources": [
     "data/type-graph.txt"
