@@ -3425,18 +3425,18 @@
   "authors": [
     "AntonioGamiz",
     "moritz",
-    "Perl6"
+    "JJ Merelo",
+    "Raku team"
   ],
   "build-depends": [
     
   ],
   "depends": [
-    
+    "dot:from<bin>"
   ],
   "description": "Parse a type graph description file",
   "license": "Artistic-2.0",
   "name": "Doc::TypeGraph",
-  "perl": "6.d",
   "provides": {
     "Doc::Type": "lib/Doc/Type.pm6",
     "Doc::TypeGraph": "lib/Doc/TypeGraph.pm6",
@@ -3444,6 +3444,7 @@
     "Doc::TypeGraph::DeclActions": "lib/Doc/TypeGraph/DeclActions.pm6",
     "Doc::TypeGraph::Viz": "lib/Doc/TypeGraph/Viz.pm6"
   },
+  "raku": "6.d",
   "resources": [
     "data/type-graph.txt"
   ],
@@ -3456,7 +3457,7 @@
   "test-depends": [
     "Test::META"
   ],
-  "version": "2.2"
+  "version": "2.2.1"
 }
 ,
 {
