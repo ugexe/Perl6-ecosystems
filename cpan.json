@@ -12322,6 +12322,39 @@
     
   ],
   "depends": [
+    "Array::Sorted::Util:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "JSON::Fast:ver<0.16>",
+    "String::Color:ver<0.0.7>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "access to all logs of an IRC channel",
+  "license": "Artistic-2.0",
+  "name": "IRC::Channel::Log",
+  "perl": "6.d",
+  "provides": {
+    "IRC::Channel::Log": "lib/IRC/Channel/Log.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/IRC-Channel-Log-0.0.32.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "IRC::Log::Colabti:ver<0.0.30>:auth<cpan:ELIZABETH>"
+  ],
+  "version": "0.0.32"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Array::Sorted::Util:ver<0.0.5>:auth<cpan:ELIZABETH>",
     "Object::Delayed:ver<0.0.10>:auth<cpan:ELIZABETH>"
   ],
@@ -33425,6 +33458,44 @@
     "nativecall",
     "statistics",
     "stats"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:FRITH",
+  "authors": [
+    "Fernando Santagata"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "An interface to libxlsxio, a C library to read and write XLSX files",
+  "license": "Artistic-2.0",
+  "name": "Spreadsheet::Libxlsxio",
+  "perl": "6.d",
+  "provides": {
+    "Spreadsheet::Libxlsxio": "lib/Spreadsheet/Libxlsxio.rakumod",
+    "Spreadsheet::Libxlsxio::Constants": "lib/Spreadsheet/Libxlsxio/Constants.rakumod",
+    "Spreadsheet::Libxlsxio::Exception": "lib/Spreadsheet/Libxlsxio/Exception.rakumod",
+    "Spreadsheet::Raw::Libxlsxioread": "lib/Spreadsheet/Raw/Libxlsxioread.rakumod",
+    "Spreadsheet::Raw::Libxlsxiowrite": "lib/Spreadsheet/Raw/Libxlsxiowrite.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FR/FRITH/Perl6/Spreadsheet-Libxlsxio-0.0.1.tar.gz",
+  "tags": [
+    "libxlsxio",
+    "spreadsheet",
+    "data",
+    "excel"
   ],
   "test-depends": [
     
