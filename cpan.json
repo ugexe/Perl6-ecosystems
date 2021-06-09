@@ -61237,6 +61237,86 @@
     
   ],
   "depends": [
+    "Game::Stats"
+  ],
+  "description": "Bayesian Inference based upon ditributions. Minimax, decision theory etc.",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Game::Bayes",
+  "perl": "6.c",
+  "provides": {
+    "Game::Bayes::Action": "lib/Game/Bayes/Action.pm6",
+    "Game::Bayes::DecisionRule": "lib/Game/Bayes/DecisionRule.pm6",
+    "Game::Bayes::Hypothesis": "lib/Game/Bayes/Hypothesis.pm6",
+    "Game::Bayes::IntegralExp": "lib/Game/Bayes/IntegralExp.pm6",
+    "Game::Bayes::Interval": "lib/Game/Bayes/Interval.pm6",
+    "Game::Bayes::LossFunction": "lib/Game/Bayes/LossFunction.pm6",
+    "Game::Bayes::PosteriorGridApproximation": "lib/Game/Bayes/PosteriorGridApproximation.pm6",
+    "Game::Bayes::RiskFunction": "lib/Game/Bayes/RiskFunction.pm6",
+    "Game::Bayes::Strategy": "lib/Game/Bayes/Strategy.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/Game-Bayes-0.2.7.tar.gz",
+  "tags": [
+    "Game",
+    "Bayes"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.7"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Game::Stats",
+    "Game::Bayes"
+  ],
+  "description": "Decision Theory package.",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Game::Decision",
+  "perl": "6.c",
+  "provides": {
+    "Game::Decision::Action": "lib/Game/Decision/Action.pm6",
+    "Game::Decision::DecisionRule": "lib/Game/Decision/DecisionRule.pm6",
+    "Game::Decision::LossFunction": "lib/Game/Decision/LossFunction.pm6",
+    "Game::Decision::RiskFunction": "lib/Game/Decision/RiskFunction.pm6",
+    "Game::Decision::StandardLossFunction": "lib/Game/Decision/StandardLossFunction.pm6",
+    "Game::Decision::Strategy": "lib/Game/Decision/Strategy.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/Game-Decision-0.1.1.tar.gz",
+  "tags": [
+    "Game",
+    "Decision"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "SDL2::Raw"
   ],
   "description": "A Solstice game written in Raku.",
