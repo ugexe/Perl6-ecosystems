@@ -61628,6 +61628,88 @@
     
   ],
   "depends": [
+    "Game::Stats"
+  ],
+  "description": "Bayesian Inference based upon ditributions. Minimax, decision theory etc.",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Game::Bayes",
+  "perl": "6.c",
+  "provides": {
+    "Game::Bayes::Action": "lib/Game/Bayes/Action.pm6",
+    "Game::Bayes::DecisionRule": "lib/Game/Bayes/DecisionRule.pm6",
+    "Game::Bayes::Hypothesis": "lib/Game/Bayes/Hypothesis.pm6",
+    "Game::Bayes::IntegralExp": "lib/Game/Bayes/IntegralExp.pm6",
+    "Game::Bayes::Interval": "lib/Game/Bayes/Interval.pm6",
+    "Game::Bayes::LossFunction": "lib/Game/Bayes/LossFunction.pm6",
+    "Game::Bayes::PosteriorGridApproximation": "lib/Game/Bayes/PosteriorGridApproximation.pm6",
+    "Game::Bayes::RiskFunction": "lib/Game/Bayes/RiskFunction.pm6",
+    "Game::Bayes::Strategy": "lib/Game/Bayes/Strategy.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/Game-Bayes-0.2.8.tar.gz",
+  "tags": [
+    "Game",
+    "Bayes"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.8"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Game::Stats"
+  ],
+  "description": "Bayesian Inference based upon ditributions. Minimax, decision theory etc.",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Game::Bayes",
+  "perl": "6.c",
+  "provides": {
+    "Game::Bayes::Action": "lib/Game/Bayes/Action.pm6",
+    "Game::Bayes::DecisionRule": "lib/Game/Bayes/DecisionRule.pm6",
+    "Game::Bayes::Hypothesis": "lib/Game/Bayes/Hypothesis.pm6",
+    "Game::Bayes::IntegralExp": "lib/Game/Bayes/IntegralExp.pm6",
+    "Game::Bayes::Interval": "lib/Game/Bayes/Interval.pm6",
+    "Game::Bayes::LossFunction": "lib/Game/Bayes/LossFunction.pm6",
+    "Game::Bayes::PosteriorGridApproximation": "lib/Game/Bayes/PosteriorGridApproximation.pm6",
+    "Game::Bayes::RiskFunction": "lib/Game/Bayes/RiskFunction.pm6",
+    "Game::Bayes::Strategy": "lib/Game/Bayes/Strategy.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/Game-Bayes-0.2.9.tar.gz",
+  "tags": [
+    "Game",
+    "Bayes"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.9"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Game::Stats",
     "Game::Bayes"
   ],
