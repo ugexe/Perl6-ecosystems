@@ -1,5 +1,29 @@
 [
 {
+  "auth": "zef:stuart-little",
+  "authors": [
+    "stuart-little"
+  ],
+  "depends": [
+    
+  ],
+  "description": "rename files based on regular expressions",
+  "license": "Artistic-2.0",
+  "name": "RakuRename",
+  "perl": "6.d",
+  "provides": {
+    "rrnm": "bin/rrnm"
+  },
+  "source-type": "git",
+  "source-url": "https://github.com/stuart-little/RakuRename",
+  "tags": [
+    "filesystem",
+    "utils"
+  ],
+  "version": "0.1"
+}
+,
+{
   "auth": "github:khalidelboray",
   "authors": [
     "Khalid Elboray"
