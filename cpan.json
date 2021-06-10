@@ -63154,6 +63154,41 @@
 }
 ,
 {
+  "auth": "cpan:LEONT",
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Crypt::SodiumPasswordHash"
+  ],
+  "description": "managing passwords in a cryptographically agile manner",
+  "license": "Artistic-2.0",
+  "name": "Crypt::Passphrase",
+  "perl": "6.d",
+  "provides": {
+    "Crypt::Passphrase": "lib/Crypt/Passphrase.rakumod",
+    "Crypt::Passphrase::Argon2": "lib/Crypt/Passphrase/Argon2.rakumod",
+    "Crypt::Passphrase::Encoder": "lib/Crypt/Passphrase/Encoder.rakumod",
+    "Crypt::Passphrase::Fallback": "lib/Crypt/Passphrase/Fallback.rakumod",
+    "Crypt::Passphrase::Validator": "lib/Crypt/Passphrase/Validator.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Crypt-Passphrase-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "authors": [
     "Leon Timmermans"
   ],
