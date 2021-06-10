@@ -61720,6 +61720,46 @@
     
   ],
   "depends": [
+    "Game::Stats",
+    "Game::Bayes"
+  ],
+  "description": "Decision Theory package.",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Game::Decision",
+  "perl": "6.c",
+  "provides": {
+    "Game::Decision::Action": "lib/Game/Decision/Action.pm6",
+    "Game::Decision::DecisionRule": "lib/Game/Decision/DecisionRule.pm6",
+    "Game::Decision::LossFunction": "lib/Game/Decision/LossFunction.pm6",
+    "Game::Decision::RiskFunction": "lib/Game/Decision/RiskFunction.pm6",
+    "Game::Decision::StandardLossFunction": "lib/Game/Decision/StandardLossFunction.pm6",
+    "Game::Decision::Strategy": "lib/Game/Decision/Strategy.pm6",
+    "Game::Decision::UtilityFunction": "lib/Game/Decision/UtilityFunction.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/Game-Decision-0.1.4.tar.gz",
+  "tags": [
+    "Game",
+    "Decision"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.4"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Numerical Analysis functionality.",
