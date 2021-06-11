@@ -19669,13 +19669,13 @@
     "String::CRC32",
     "Compress::Zlib"
   ],
-  "description": "Portable PNG output for Perl 6",
+  "description": "Portable PNG output for Raku",
   "license": "Artistic-2.0",
   "name": "Image::PNG::Portable",
-  "perl": "6.*",
   "provides": {
-    "Image::PNG::Portable": "lib/Image/PNG/Portable.pm6"
+    "Image::PNG::Portable": "lib/Image/PNG/Portable.rakumod"
   },
+  "raku": "6.*",
   "source-url": "git://github.com/raydiak/Image-PNG-Portable.git",
   "version": "*"
 }
