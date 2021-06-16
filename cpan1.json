@@ -61808,6 +61808,40 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Wave (WAV) Sound system with pattern recognition",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "AI::NLP",
+  "perl": "6.c",
+  "provides": {
+    "AI::NLP::Matrix": "lib/AI/NLP/Matrix.pm6",
+    "AI::NLP::Vector": "lib/AI/NLP/Vector.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/AI-NLP-0.1.1.tar.gz",
+  "tags": [
+    "AI",
+    "NLP"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "SDL2::Raw"
   ],
   "description": "A Adventure Game Kit written in Raku",
