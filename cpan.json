@@ -62167,6 +62167,49 @@
 ,
 {
   "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Wave (WAV) Sound system with pattern recognition",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "Soundn::Tina",
+  "perl": "6.c",
+  "provides": {
+    "Soundn::Tina::DataChunk": "lib/Soundn/Tina/DataChunk.pm6",
+    "Soundn::Tina::File32Parser": "lib/Soundn/Tina/File32Parser.pm6",
+    "Soundn::Tina::FileXYParser": "lib/Soundn/Tina/FileXYParser.pm6",
+    "Soundn::Tina::Matrix32bit": "lib/Soundn/Tina/Matrix32bit.pm6",
+    "Soundn::Tina::Parser": "lib/Soundn/Tina/Parser.pm6",
+    "Soundn::Tina::PatternChannelLib": "lib/Soundn/Tina/PatternChannelLib.pm6",
+    "Soundn::Tina::PatternLib": "lib/Soundn/Tina/PatternLib.pm6",
+    "Soundn::Tina::Vector32bit": "lib/Soundn/Tina/Vector32bit.pm6",
+    "Soundn::Tina::Vector8bit": "lib/Soundn/Tina/Vector8bit.pm6",
+    "Soundn::Tina::WAVParser": "lib/Soundn/Tina/WAVParser.pm6",
+    "Soundn::Tina::WaveFile": "lib/Soundn/Tina/WaveFile.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/Soundn-Tina-0.1.6.tar.gz",
+  "tags": [
+    "Soundn",
+    "Tina"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.6"
+}
+,
+{
+  "api": "1",
   "auth": "CPAN:KOBOLDWIZ",
   "authors": [
     "Kobold Wizard Johan"
