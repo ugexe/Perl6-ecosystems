@@ -7,6 +7,29 @@
   "depends": [
     
   ],
+  "description": "rooted-tree data structure and utils for Raku",
+  "license": "Artistic-2.0",
+  "name": "Data::Tree",
+  "perl": "6.d",
+  "provides": {
+    "Data::Tree": "lib/Data/Tree.rakumod"
+  },
+  "source-type": "git",
+  "source-url": "https://github.com/stuart-little/raku-data-tree.git",
+  "tags": [
+    
+  ],
+  "version": "0.1"
+}
+,
+{
+  "auth": "zef:stuart-little",
+  "authors": [
+    "stuart-little"
+  ],
+  "depends": [
+    
+  ],
   "description": "rename files based on regular expressions",
   "license": "Artistic-2.0",
   "name": "RakuRename",
