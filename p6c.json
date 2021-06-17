@@ -7780,6 +7780,9 @@
   "authors": [
     "Fernando Correa de Oliveira"
   ],
+  "build-depends": [
+    
+  ],
   "depends": [
     "JSON::Fast"
   ],
@@ -7794,14 +7797,20 @@
     "JSON::Stream::Parse": "lib/JSON/Stream/Parse.pm6",
     "JSON::Stream::Type": "lib/JSON/Stream/Type.pm6"
   },
+  "resources": [
+    
+  ],
   "source-url": "git://github.com/FCO/json-stream.git",
   "support": {
     "source": null
   },
+  "tags": [
+    
+  ],
   "test-depends": [
     "Test::META"
   ],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
 ,
 {
