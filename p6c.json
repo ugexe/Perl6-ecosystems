@@ -19263,7 +19263,8 @@
     "perl6"
   ],
   "build-depends": [
-    "File::Find:ver<0.1.1+>"
+    "File::Find:ver<0.1.1+>",
+    "Pod::To::BigPage"
   ],
   "description": "Raku documentation (tools and docs)",
   "license": "Artistic-2.0",
@@ -19271,9 +19272,7 @@
   "name": "p6doc",
   "perl": "6.*",
   "provides": {
-    "Pod::Cache": "lib/Pod/Cache.pm6",
-    "Pod::Convenience": "lib/Pod/Convenience.pm6",
-    "Test-Files": "lib/Test-Files.pm6"
+    
   },
   "source-url": "git://github.com/Raku/doc.git",
   "support": {
