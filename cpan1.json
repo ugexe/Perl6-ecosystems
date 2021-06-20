@@ -25897,6 +25897,44 @@
 }
 ,
 {
+  "authors": [
+    "Fernando Correa de Oliveira"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "JSON::Stream",
+  "perl": "6.*",
+  "production": false,
+  "provides": {
+    "JSON::Stream": "lib/JSON/Stream.pm6",
+    "JSON::Stream::Parse": "lib/JSON/Stream/Parse.pm6",
+    "JSON::Stream::Type": "lib/JSON/Stream/Type.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/F/FC/FCO/Perl6/JSON-Stream-0.0.4.tar.gz",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test::META",
+    "Pod::Test::Code"
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "auth": "cpan:FCO",
   "authors": [
     "Fernando Correa de Oliveira"
@@ -108557,202 +108595,6 @@
   "resources": [
     "libraries/xml6"
   ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/LibXML-0.6.1.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath",
-    "dom"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.6.1"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    "File::Temp",
-    "Method::Also",
-    "W3C::DOM:ver<0.0.2+>",
-    "XML"
-  ],
-  "description": "Raku bindings to the libxml2 native library",
-  "license": "Artistic-2.0",
-  "name": "LibXML",
-  "perl": "6",
-  "provides": {
-    "LibXML": "lib/LibXML.rakumod",
-    "LibXML::Attr": "lib/LibXML/Attr.rakumod",
-    "LibXML::Attr::Map": "lib/LibXML/Attr/Map.rakumod",
-    "LibXML::CDATA": "lib/LibXML/CDATA.rakumod",
-    "LibXML::Comment": "lib/LibXML/Comment.rakumod",
-    "LibXML::Config": "lib/LibXML/Config.rakumod",
-    "LibXML::Dict": "lib/LibXML/Dict.rakumod",
-    "LibXML::Document": "lib/LibXML/Document.rakumod",
-    "LibXML::DocumentFragment": "lib/LibXML/DocumentFragment.rakumod",
-    "LibXML::Dtd": "lib/LibXML/Dtd.rakumod",
-    "LibXML::Dtd::AttrDecl": "lib/LibXML/Dtd/AttrDecl.rakumod",
-    "LibXML::Dtd::ElementContent": "lib/LibXML/Dtd/ElementContent.rakumod",
-    "LibXML::Dtd::ElementDecl": "lib/LibXML/Dtd/ElementDecl.rakumod",
-    "LibXML::Dtd::Entity": "lib/LibXML/Dtd/Entity.rakumod",
-    "LibXML::Dtd::Notation": "lib/LibXML/Dtd/Notation.rakumod",
-    "LibXML::Element": "lib/LibXML/Element.rakumod",
-    "LibXML::EntityRef": "lib/LibXML/EntityRef.rakumod",
-    "LibXML::Enums": "lib/LibXML/Enums.rakumod",
-    "LibXML::ErrorHandling": "lib/LibXML/ErrorHandling.rakumod",
-    "LibXML::HashMap": "lib/LibXML/HashMap.rakumod",
-    "LibXML::HashMap::Maker": "lib/LibXML/HashMap/Maker.rakumod",
-    "LibXML::InputCallback": "lib/LibXML/InputCallback.rakumod",
-    "LibXML::Item": "lib/LibXML/Item.rakumod",
-    "LibXML::Namespace": "lib/LibXML/Namespace.rakumod",
-    "LibXML::Node": "lib/LibXML/Node.rakumod",
-    "LibXML::Node::List": "lib/LibXML/Node/List.rakumod",
-    "LibXML::Node::Set": "lib/LibXML/Node/Set.rakumod",
-    "LibXML::PI": "lib/LibXML/PI.rakumod",
-    "LibXML::Parser": "lib/LibXML/Parser.rakumod",
-    "LibXML::Parser::Context": "lib/LibXML/Parser/Context.rakumod",
-    "LibXML::Pattern": "lib/LibXML/Pattern.rakumod",
-    "LibXML::PushParser": "lib/LibXML/PushParser.rakumod",
-    "LibXML::Raw": "lib/LibXML/Raw.rakumod",
-    "LibXML::Raw::DOM::Attr": "lib/LibXML/Raw/DOM/Attr.rakumod",
-    "LibXML::Raw::DOM::Document": "lib/LibXML/Raw/DOM/Document.rakumod",
-    "LibXML::Raw::DOM::Element": "lib/LibXML/Raw/DOM/Element.rakumod",
-    "LibXML::Raw::DOM::Node": "lib/LibXML/Raw/DOM/Node.rakumod",
-    "LibXML::Raw::Defs": "lib/LibXML/Raw/Defs.rakumod",
-    "LibXML::Raw::Dict": "lib/LibXML/Raw/Dict.rakumod",
-    "LibXML::Raw::HashTable": "lib/LibXML/Raw/HashTable.rakumod",
-    "LibXML::Raw::RelaxNG": "lib/LibXML/Raw/RelaxNG.rakumod",
-    "LibXML::Raw::Schema": "lib/LibXML/Raw/Schema.rakumod",
-    "LibXML::Raw::TextReader": "lib/LibXML/Raw/TextReader.rakumod",
-    "LibXML::Reader": "lib/LibXML/Reader.rakumod",
-    "LibXML::RegExp": "lib/LibXML/RegExp.rakumod",
-    "LibXML::RelaxNG": "lib/LibXML/RelaxNG.rakumod",
-    "LibXML::SAX": "lib/LibXML/SAX.rakumod",
-    "LibXML::SAX::Builder": "lib/LibXML/SAX/Builder.rakumod",
-    "LibXML::SAX::Handler": "lib/LibXML/SAX/Handler.rakumod",
-    "LibXML::SAX::Handler::SAX2": "lib/LibXML/SAX/Handler/SAX2.rakumod",
-    "LibXML::SAX::Handler::SAX2::Locator": "lib/LibXML/SAX/Handler/SAX2/Locator.rakumod",
-    "LibXML::SAX::Handler::XML": "lib/LibXML/SAX/Handler/XML.rakumod",
-    "LibXML::Schema": "lib/LibXML/Schema.rakumod",
-    "LibXML::Text": "lib/LibXML/Text.rakumod",
-    "LibXML::Types": "lib/LibXML/Types.rakumod",
-    "LibXML::XPath::Context": "lib/LibXML/XPath/Context.rakumod",
-    "LibXML::XPath::Expression": "lib/LibXML/XPath/Expression.rakumod",
-    "LibXML::XPath::Object": "lib/LibXML/XPath/Object.rakumod",
-    "LibXML::_DomNode": "lib/LibXML/_DomNode.rakumod",
-    "LibXML::_Options": "lib/LibXML/_Options.rakumod",
-    "LibXML::_ParentNode": "lib/LibXML/_ParentNode.rakumod",
-    "LibXML::_StringyNode": "lib/LibXML/_StringyNode.rakumod"
-  },
-  "resources": [
-    "libraries/xml6"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/LibXML-0.6.2.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath",
-    "dom"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.6.2"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    "File::Temp",
-    "Method::Also",
-    "W3C::DOM:ver<0.0.2+>",
-    "XML"
-  ],
-  "description": "Raku bindings to the libxml2 native library",
-  "license": "Artistic-2.0",
-  "name": "LibXML",
-  "perl": "6",
-  "provides": {
-    "LibXML": "lib/LibXML.rakumod",
-    "LibXML::Attr": "lib/LibXML/Attr.rakumod",
-    "LibXML::Attr::Map": "lib/LibXML/Attr/Map.rakumod",
-    "LibXML::CDATA": "lib/LibXML/CDATA.rakumod",
-    "LibXML::Comment": "lib/LibXML/Comment.rakumod",
-    "LibXML::Config": "lib/LibXML/Config.rakumod",
-    "LibXML::Dict": "lib/LibXML/Dict.rakumod",
-    "LibXML::Document": "lib/LibXML/Document.rakumod",
-    "LibXML::DocumentFragment": "lib/LibXML/DocumentFragment.rakumod",
-    "LibXML::Dtd": "lib/LibXML/Dtd.rakumod",
-    "LibXML::Dtd::AttrDecl": "lib/LibXML/Dtd/AttrDecl.rakumod",
-    "LibXML::Dtd::ElementContent": "lib/LibXML/Dtd/ElementContent.rakumod",
-    "LibXML::Dtd::ElementDecl": "lib/LibXML/Dtd/ElementDecl.rakumod",
-    "LibXML::Dtd::Entity": "lib/LibXML/Dtd/Entity.rakumod",
-    "LibXML::Dtd::Notation": "lib/LibXML/Dtd/Notation.rakumod",
-    "LibXML::Element": "lib/LibXML/Element.rakumod",
-    "LibXML::EntityRef": "lib/LibXML/EntityRef.rakumod",
-    "LibXML::Enums": "lib/LibXML/Enums.rakumod",
-    "LibXML::ErrorHandling": "lib/LibXML/ErrorHandling.rakumod",
-    "LibXML::HashMap": "lib/LibXML/HashMap.rakumod",
-    "LibXML::HashMap::Maker": "lib/LibXML/HashMap/Maker.rakumod",
-    "LibXML::InputCallback": "lib/LibXML/InputCallback.rakumod",
-    "LibXML::Item": "lib/LibXML/Item.rakumod",
-    "LibXML::Namespace": "lib/LibXML/Namespace.rakumod",
-    "LibXML::Node": "lib/LibXML/Node.rakumod",
-    "LibXML::Node::List": "lib/LibXML/Node/List.rakumod",
-    "LibXML::Node::Set": "lib/LibXML/Node/Set.rakumod",
-    "LibXML::PI": "lib/LibXML/PI.rakumod",
-    "LibXML::Parser": "lib/LibXML/Parser.rakumod",
-    "LibXML::Parser::Context": "lib/LibXML/Parser/Context.rakumod",
-    "LibXML::Pattern": "lib/LibXML/Pattern.rakumod",
-    "LibXML::PushParser": "lib/LibXML/PushParser.rakumod",
-    "LibXML::Raw": "lib/LibXML/Raw.rakumod",
-    "LibXML::Raw::DOM::Attr": "lib/LibXML/Raw/DOM/Attr.rakumod",
-    "LibXML::Raw::DOM::Document": "lib/LibXML/Raw/DOM/Document.rakumod",
-    "LibXML::Raw::DOM::Element": "lib/LibXML/Raw/DOM/Element.rakumod",
-    "LibXML::Raw::DOM::Node": "lib/LibXML/Raw/DOM/Node.rakumod",
-    "LibXML::Raw::Defs": "lib/LibXML/Raw/Defs.rakumod",
-    "LibXML::Raw::Dict": "lib/LibXML/Raw/Dict.rakumod",
-    "LibXML::Raw::HashTable": "lib/LibXML/Raw/HashTable.rakumod",
-    "LibXML::Raw::RelaxNG": "lib/LibXML/Raw/RelaxNG.rakumod",
-    "LibXML::Raw::Schema": "lib/LibXML/Raw/Schema.rakumod",
-    "LibXML::Raw::TextReader": "lib/LibXML/Raw/TextReader.rakumod",
-    "LibXML::Reader": "lib/LibXML/Reader.rakumod",
-    "LibXML::RegExp": "lib/LibXML/RegExp.rakumod",
-    "LibXML::RelaxNG": "lib/LibXML/RelaxNG.rakumod",
-    "LibXML::SAX": "lib/LibXML/SAX.rakumod",
-    "LibXML::SAX::Builder": "lib/LibXML/SAX/Builder.rakumod",
-    "LibXML::SAX::Handler": "lib/LibXML/SAX/Handler.rakumod",
-    "LibXML::SAX::Handler::SAX2": "lib/LibXML/SAX/Handler/SAX2.rakumod",
-    "LibXML::SAX::Handler::SAX2::Locator": "lib/LibXML/SAX/Handler/SAX2/Locator.rakumod",
-    "LibXML::SAX::Handler::XML": "lib/LibXML/SAX/Handler/XML.rakumod",
-    "LibXML::Schema": "lib/LibXML/Schema.rakumod",
-    "LibXML::Text": "lib/LibXML/Text.rakumod",
-    "LibXML::Types": "lib/LibXML/Types.rakumod",
-    "LibXML::XPath::Context": "lib/LibXML/XPath/Context.rakumod",
-    "LibXML::XPath::Expression": "lib/LibXML/XPath/Expression.rakumod",
-    "LibXML::XPath::Object": "lib/LibXML/XPath/Object.rakumod",
-    "LibXML::_DomNode": "lib/LibXML/_DomNode.rakumod",
-    "LibXML::_Options": "lib/LibXML/_Options.rakumod",
-    "LibXML::_ParentNode": "lib/LibXML/_ParentNode.rakumod",
-    "LibXML::_StringyNode": "lib/LibXML/_StringyNode.rakumod"
-  },
-  "resources": [
-    "libraries/xml6"
-  ],
   "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/LibXML-0.6.3.tar.gz",
   "tags": [
     "xml",
@@ -109973,6 +109815,51 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Raku grammars for parsing PDF Content Streams and File Structure",
+  "license": "Artistic-2.0",
+  "name": "PDF::Grammar",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Grammar": "lib/PDF/Grammar.rakumod",
+    "PDF::Grammar::Actions": "lib/PDF/Grammar/Actions.rakumod",
+    "PDF::Grammar::COS": "lib/PDF/Grammar/COS.rakumod",
+    "PDF::Grammar::COS::Actions": "lib/PDF/Grammar/COS/Actions.rakumod",
+    "PDF::Grammar::Content": "lib/PDF/Grammar/Content.rakumod",
+    "PDF::Grammar::Content::Actions": "lib/PDF/Grammar/Content/Actions.rakumod",
+    "PDF::Grammar::Content::Fast": "lib/PDF/Grammar/Content/Fast.rakumod",
+    "PDF::Grammar::Doc": "lib/PDF/Grammar/Doc.rakumod",
+    "PDF::Grammar::FDF": "lib/PDF/Grammar/FDF.rakumod",
+    "PDF::Grammar::FDF::Actions": "lib/PDF/Grammar/FDF/Actions.rakumod",
+    "PDF::Grammar::Function": "lib/PDF/Grammar/Function.rakumod",
+    "PDF::Grammar::Function::Actions": "lib/PDF/Grammar/Function/Actions.rakumod",
+    "PDF::Grammar::PDF": "lib/PDF/Grammar/PDF.rakumod",
+    "PDF::Grammar::PDF::Actions": "lib/PDF/Grammar/PDF/Actions.rakumod",
+    "PDF::Grammar::Test": "lib/PDF/Grammar/Test.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Grammar-0.2.6.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.6"
+}
+,
+{
   "api": "PDF-1.7",
   "auth": "github:p6-pdf",
   "authors": [
@@ -110698,6 +110585,38 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF::Content:ver<0.4.1+>",
+    "PDF:ver<0.4.6+>"
+  ],
+  "description": "Minimal class for the creation and editing of PDF documents",
+  "license": "Artistic-2.0",
+  "name": "PDF::Lite",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Lite": "lib/PDF/Lite.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Lite-0.0.7.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
   "api": "PDF-1.7",
   "auth": "cpan:WARRINGD",
   "authors": [
@@ -110842,6 +110761,54 @@
     
   ],
   "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF::Content:ver<0.4.9+>",
+    "PDF:ver<0.4.11+>",
+    "PDF::Font::Loader:ver<0.4.2+>",
+    "PDF::Class:ver<0.4.10+>",
+    "Method::Also"
+  ],
+  "description": "Reads and writes tagged PDF files",
+  "license": "Artistic-2.0",
+  "name": "PDF::Tags",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Tags": "lib/PDF/Tags.rakumod",
+    "PDF::Tags::Attr": "lib/PDF/Tags/Attr.rakumod",
+    "PDF::Tags::Elem": "lib/PDF/Tags/Elem.rakumod",
+    "PDF::Tags::Mark": "lib/PDF/Tags/Mark.rakumod",
+    "PDF::Tags::Node": "lib/PDF/Tags/Node.rakumod",
+    "PDF::Tags::Node::Parent": "lib/PDF/Tags/Node/Parent.rakumod",
+    "PDF::Tags::Node::Root": "lib/PDF/Tags/Node/Root.rakumod",
+    "PDF::Tags::ObjRef": "lib/PDF/Tags/ObjRef.rakumod",
+    "PDF::Tags::Text": "lib/PDF/Tags/Text.rakumod",
+    "PDF::Tags::XML-Writer": "lib/PDF/Tags/XML-Writer.rakumod",
+    "PDF::Tags::XPath": "lib/PDF/Tags/XPath.rakumod",
+    "PDF::Tags::XPath::Actions": "lib/PDF/Tags/XPath/Actions.rakumod",
+    "PDF::Tags::XPath::Axes": "lib/PDF/Tags/XPath/Axes.rakumod",
+    "PDF::Tags::XPath::Grammar": "lib/PDF/Tags/XPath/Grammar.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Tags-0.0.8.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
 }
 ,
 {
