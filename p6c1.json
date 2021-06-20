@@ -11919,6 +11919,67 @@
 {
   "auth": "kalkin",
   "authors": [
+    "Bahtiar `kalkin-` Gadimov",
+    "Shoichi Kaji"
+  ],
+  "depends": [
+    "File::Find",
+    "File::Ignore",
+    "File::Temp",
+    "JSON::Fast",
+    "License::Software:ver<0.3.*>",
+    "META6",
+    "Pod::To::Markdown",
+    "Test::META",
+    "Zef",
+    "Zef::Client",
+    "Zef::Config",
+    "Zef::Distribution",
+    "Zef::Identity"
+  ],
+  "description": "Distribution Development Tool",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Ddt",
+  "perl": "6.c",
+  "provides": {
+    "Ddt": "lib/Ddt.pm6",
+    "Ddt::Distribution": "lib/Ddt/Distribution.pm6",
+    "Ddt::JSON": "lib/Ddt/JSON.pm6",
+    "Ddt::Plugins::Build": "lib/Ddt/Plugins/Build.pm6",
+    "Ddt::Plugins::Deps": "lib/Ddt/Plugins/Deps.pm6",
+    "Ddt::Plugins::Hack": "lib/Ddt/Plugins/Hack.pm6",
+    "Ddt::Plugins::New": "lib/Ddt/Plugins/New.pm6",
+    "Ddt::Plugins::Release": "lib/Ddt/Plugins/Release.pm6",
+    "Ddt::Plugins::Test": "lib/Ddt/Plugins/Test.pm6",
+    "Ddt::Plugins::Unit-Generator": "lib/Ddt/Plugins/Unit-Generator.pm6",
+    "Ddt::Plugins::Watch": "lib/Ddt/Plugins/Watch.pm6",
+    "Ddt::Template": "lib/Ddt/Template.pm6"
+  },
+  "source-url": "https://github.com/kalkin/Ddt.git",
+  "support": {
+    "source": null
+  },
+  "tags": [
+    "authoring",
+    "command line",
+    "devel",
+    "development",
+    "generator",
+    "module",
+    "testing",
+    "utility"
+  ],
+  "test-depends": [
+    "File::Temp",
+    "Test::META"
+  ],
+  "version": "0.5.10"
+}
+,
+{
+  "auth": "kalkin",
+  "authors": [
     "Bahtiar `kalkin-` Gadimov"
   ],
   "depends": [
