@@ -61787,6 +61787,41 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Wave (WAV) Sound system with pattern recognition",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "AI::NLP",
+  "perl": "6.c",
+  "provides": {
+    "AI::NLP::BPPNet": "lib/AI/NLP/BPPNet.pm6",
+    "AI::NLP::Matrix": "lib/AI/NLP/Matrix.pm6",
+    "AI::NLP::Vector": "lib/AI/NLP/Vector.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/AI-NLP-0.1.3.tar.gz",
+  "tags": [
+    "AI",
+    "NLP"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.3"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "SDL2::Raw"
   ],
   "description": "A Adventure Game Kit written in Raku",
@@ -67796,6 +67831,40 @@
     
   ],
   "version": "0.18.12"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku - Gnome native interface support",
+  "license": "Artistic-2.0",
+  "name": "Gnome::N",
+  "perl": "6",
+  "provides": {
+    "Gnome::N::GlibToRakuTypes": "lib/Gnome/N/GlibToRakuTypes.pm6",
+    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
+    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
+    "Gnome::N::TopLevelClassSupport": "lib/Gnome/N/TopLevelClassSupport.pm6",
+    "Gnome::N::X": "lib/Gnome/N/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-native-0.18.13.1.tar.gz",
+  "tags": [
+    "gnome"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.18.13.1"
 }
 ,
 {
