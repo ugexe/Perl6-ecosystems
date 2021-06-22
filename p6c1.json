@@ -21053,6 +21053,10 @@
 ,
 {
   "author": "github:sergot",
+  "build-depends": [
+    "PathTools",
+    "JSON::Fast"
+  ],
   "depends": [
     
   ],
@@ -21086,7 +21090,7 @@
     "libraries.json"
   ],
   "source-url": "git://github.com/sergot/openssl.git",
-  "version": "0.1.24"
+  "version": "0.1.25"
 }
 ,
 {
