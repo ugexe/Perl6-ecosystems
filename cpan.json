@@ -21631,6 +21631,38 @@
   "resources": [
     
   ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Scalar-Util-0.0.6.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Port of Perl's Scalar::Util 1.49",
+  "license": "Artistic-2.0",
+  "name": "Scalar::Util",
+  "perl": "6.c",
+  "provides": {
+    "Scalar::Util": "lib/Scalar/Util.pm6"
+  },
+  "resources": [
+    
+  ],
   "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Scalar-Util-0.0.7.tar.gz",
   "tags": [
     "UTILS",
@@ -45397,6 +45429,48 @@
     
   ],
   "version": "1.0.3"
+}
+,
+{
+  "authors": [
+    "Jonathan Worthington <jonathan@edument.se>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP",
+    "JSON::Fast",
+    "OpenAPI::Model",
+    "OpenAPI::Schema::Validate",
+    "YAMLish"
+  ],
+  "description": "Easily implement an existing OpenAPI definition, server side, using Cro.",
+  "license": "Artistic-2.0",
+  "name": "Cro::OpenAPI::RoutesFromDefinition",
+  "perl": "6.d",
+  "provides": {
+    "Cro::OpenAPI::RoutesFromDefinition": "lib/Cro/OpenAPI/RoutesFromDefinition.pm6",
+    "Cro::OpenAPI::RoutesFromDefinition::AdaptHandler": "lib/Cro/OpenAPI/RoutesFromDefinition/AdaptHandler.pm6",
+    "Cro::OpenAPI::RoutesFromDefinition::Checkers": "lib/Cro/OpenAPI/RoutesFromDefinition/Checkers.pm6",
+    "Cro::OpenAPI::RoutesFromDefinition::SecurityChecker": "lib/Cro/OpenAPI/RoutesFromDefinition/SecurityChecker.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Cro-OpenAPI-RoutesFromDefinition-1.0.4.tar.gz",
+  "tags": [
+    "openapi",
+    "oas",
+    "swagger",
+    "api",
+    "server",
+    "generation"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.4"
 }
 ,
 {
