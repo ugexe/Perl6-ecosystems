@@ -21944,38 +21944,6 @@
   "depends": [
     
   ],
-  "description": "Raku port of Perl's Scalar::Util module 1.55",
-  "license": "Artistic-2.0",
-  "name": "Scalar::Util",
-  "perl": "6.c",
-  "provides": {
-    "Scalar::Util": "lib/Scalar/Util.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Scalar-Util-0.0.9.tar.gz",
-  "tags": [
-    "UTILS",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.9"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
   "description": "Implement (==) for older Raku versions",
   "license": "Artistic-2.0",
   "name": "Set::Equality",
@@ -110205,6 +110173,72 @@
     
   ],
   "depends": [
+    "Base64::Native",
+    "Color",
+    "Compress::Zlib::Raw",
+    "Font::AFM:ver<1.24.4+>",
+    "Native::Packing",
+    "Method::Also",
+    "JSON::Fast",
+    "PDF:ver<0.4.6+>",
+    "PDF::Grammar"
+  ],
+  "description": "PDF content related classes; including text, images, fonts and graphics",
+  "license": "Artistic-2.0",
+  "name": "PDF::Content",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Content": "lib/PDF/Content.rakumod",
+    "PDF::Content::Color": "lib/PDF/Content/Color.rakumod",
+    "PDF::Content::Font": "lib/PDF/Content/Font.rakumod",
+    "PDF::Content::Font::CoreFont": "lib/PDF/Content/Font/CoreFont.rakumod",
+    "PDF::Content::Font::Enc::Glyphic": "lib/PDF/Content/Font/Enc/Glyphic.rakumod",
+    "PDF::Content::Font::Enc::Type1": "lib/PDF/Content/Font/Enc/Type1.rakumod",
+    "PDF::Content::Font::Encodings": "lib/PDF/Content/Font/Encodings.rakumod",
+    "PDF::Content::FontObj": "lib/PDF/Content/FontObj.rakumod",
+    "PDF::Content::Graphics": "lib/PDF/Content/Graphics.rakumod",
+    "PDF::Content::Image": "lib/PDF/Content/Image.rakumod",
+    "PDF::Content::Image::GIF": "lib/PDF/Content/Image/GIF.rakumod",
+    "PDF::Content::Image::JPEG": "lib/PDF/Content/Image/JPEG.rakumod",
+    "PDF::Content::Image::PDF": "lib/PDF/Content/Image/PDF.rakumod",
+    "PDF::Content::Image::PNG": "lib/PDF/Content/Image/PNG.rakumod",
+    "PDF::Content::Interface": "lib/PDF/Content/Interface.rakumod",
+    "PDF::Content::Matrix": "lib/PDF/Content/Matrix.rakumod",
+    "PDF::Content::Ops": "lib/PDF/Content/Ops.rakumod",
+    "PDF::Content::Page": "lib/PDF/Content/Page.rakumod",
+    "PDF::Content::PageNode": "lib/PDF/Content/PageNode.rakumod",
+    "PDF::Content::PageTree": "lib/PDF/Content/PageTree.rakumod",
+    "PDF::Content::ResourceDict": "lib/PDF/Content/ResourceDict.rakumod",
+    "PDF::Content::Resourced": "lib/PDF/Content/Resourced.rakumod",
+    "PDF::Content::Tag": "lib/PDF/Content/Tag.rakumod",
+    "PDF::Content::Text::Block": "lib/PDF/Content/Text/Block.rakumod",
+    "PDF::Content::Text::Box": "lib/PDF/Content/Text/Box.rakumod",
+    "PDF::Content::Text::Line": "lib/PDF/Content/Text/Line.rakumod",
+    "PDF::Content::Text::Style": "lib/PDF/Content/Text/Style.rakumod",
+    "PDF::Content::XObject": "lib/PDF/Content/XObject.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Content-0.5.2.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.5.2"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "PDF::Lite",
     "PDF::Content:ver<0.5.0+>",
     "Font::FreeType:ver<0.3.6+>",
@@ -110240,52 +110274,6 @@
     
   ],
   "version": "0.5.0"
-}
-,
-{
-  "api": "PDF-1.7",
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "JSON::Fast"
-  ],
-  "description": "Raku grammars for parsing PDF Content Streams and File Structure",
-  "license": "Artistic-2.0",
-  "name": "PDF::Grammar",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Grammar": "lib/PDF/Grammar.rakumod",
-    "PDF::Grammar::Actions": "lib/PDF/Grammar/Actions.rakumod",
-    "PDF::Grammar::COS": "lib/PDF/Grammar/COS.rakumod",
-    "PDF::Grammar::COS::Actions": "lib/PDF/Grammar/COS/Actions.rakumod",
-    "PDF::Grammar::Content": "lib/PDF/Grammar/Content.rakumod",
-    "PDF::Grammar::Content::Actions": "lib/PDF/Grammar/Content/Actions.rakumod",
-    "PDF::Grammar::Content::Fast": "lib/PDF/Grammar/Content/Fast.rakumod",
-    "PDF::Grammar::Doc": "lib/PDF/Grammar/Doc.rakumod",
-    "PDF::Grammar::FDF": "lib/PDF/Grammar/FDF.rakumod",
-    "PDF::Grammar::FDF::Actions": "lib/PDF/Grammar/FDF/Actions.rakumod",
-    "PDF::Grammar::Function": "lib/PDF/Grammar/Function.rakumod",
-    "PDF::Grammar::Function::Actions": "lib/PDF/Grammar/Function/Actions.rakumod",
-    "PDF::Grammar::PDF": "lib/PDF/Grammar/PDF.rakumod",
-    "PDF::Grammar::PDF::Actions": "lib/PDF/Grammar/PDF/Actions.rakumod",
-    "PDF::Grammar::Test": "lib/PDF/Grammar/Test.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Grammar-0.2.5.tar.gz",
-  "tags": [
-    "pdf"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.2.5"
 }
 ,
 {
@@ -111026,39 +111014,6 @@
 }
 ,
 {
-  "api": "PDF-1.7",
-  "auth": "cpan:DWARRING",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "PDF::Content:ver<0.4.1+>",
-    "PDF:ver<0.4.2+>"
-  ],
-  "description": "Minimal class for the creation and editing of PDF documents",
-  "license": "Artistic-2.0",
-  "name": "PDF::Lite",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Lite": "lib/PDF/Lite.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Lite-0.0.6.tar.gz",
-  "tags": [
-    "pdf"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.6"
-}
-,
-{
   "auth": "cpan:WARRINGD",
   "authors": [
     "David Warring"
@@ -111081,153 +111036,6 @@
     
   ],
   "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Lite-0.0.7.tar.gz",
-  "tags": [
-    "pdf"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.7"
-}
-,
-{
-  "api": "PDF-1.7",
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "PDF::Content:ver<0.4.3+>",
-    "PDF:ver<0.4.10+>",
-    "PDF::Font::Loader:ver<0.4.2+>",
-    "PDF::Class:ver<0.4.10+>",
-    "Method::Also"
-  ],
-  "description": "Reads and writes tagged PDF files",
-  "license": "Artistic-2.0",
-  "name": "PDF::Tags",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Tags": "lib/PDF/Tags.rakumod",
-    "PDF::Tags::Attr": "lib/PDF/Tags/Attr.rakumod",
-    "PDF::Tags::Elem": "lib/PDF/Tags/Elem.rakumod",
-    "PDF::Tags::Mark": "lib/PDF/Tags/Mark.rakumod",
-    "PDF::Tags::Node": "lib/PDF/Tags/Node.rakumod",
-    "PDF::Tags::Node::Parent": "lib/PDF/Tags/Node/Parent.rakumod",
-    "PDF::Tags::Node::Root": "lib/PDF/Tags/Node/Root.rakumod",
-    "PDF::Tags::ObjRef": "lib/PDF/Tags/ObjRef.rakumod",
-    "PDF::Tags::Text": "lib/PDF/Tags/Text.rakumod",
-    "PDF::Tags::XML-Writer": "lib/PDF/Tags/XML-Writer.rakumod",
-    "PDF::Tags::XPath": "lib/PDF/Tags/XPath.rakumod",
-    "PDF::Tags::XPath::Actions": "lib/PDF/Tags/XPath/Actions.rakumod",
-    "PDF::Tags::XPath::Axes": "lib/PDF/Tags/XPath/Axes.rakumod",
-    "PDF::Tags::XPath::Grammar": "lib/PDF/Tags/XPath/Grammar.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Tags-0.0.5.tar.gz",
-  "tags": [
-    "pdf"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.5"
-}
-,
-{
-  "api": "PDF-1.7",
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "PDF::Content:ver<0.4.9+>",
-    "PDF:ver<0.4.5+>",
-    "PDF::Font::Loader:ver<0.4.2+>",
-    "PDF::Class:ver<0.4.10+>",
-    "Method::Also"
-  ],
-  "description": "Reads and writes tagged PDF files",
-  "license": "Artistic-2.0",
-  "name": "PDF::Tags",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Tags": "lib/PDF/Tags.rakumod",
-    "PDF::Tags::Attr": "lib/PDF/Tags/Attr.rakumod",
-    "PDF::Tags::Elem": "lib/PDF/Tags/Elem.rakumod",
-    "PDF::Tags::Mark": "lib/PDF/Tags/Mark.rakumod",
-    "PDF::Tags::Node": "lib/PDF/Tags/Node.rakumod",
-    "PDF::Tags::Node::Parent": "lib/PDF/Tags/Node/Parent.rakumod",
-    "PDF::Tags::Node::Root": "lib/PDF/Tags/Node/Root.rakumod",
-    "PDF::Tags::ObjRef": "lib/PDF/Tags/ObjRef.rakumod",
-    "PDF::Tags::Text": "lib/PDF/Tags/Text.rakumod",
-    "PDF::Tags::XML-Writer": "lib/PDF/Tags/XML-Writer.rakumod",
-    "PDF::Tags::XPath": "lib/PDF/Tags/XPath.rakumod",
-    "PDF::Tags::XPath::Actions": "lib/PDF/Tags/XPath/Actions.rakumod",
-    "PDF::Tags::XPath::Axes": "lib/PDF/Tags/XPath/Axes.rakumod",
-    "PDF::Tags::XPath::Grammar": "lib/PDF/Tags/XPath/Grammar.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Tags-0.0.6.tar.gz",
-  "tags": [
-    "pdf"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.6"
-}
-,
-{
-  "api": "PDF-1.7",
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "PDF::Content:ver<0.4.9+>",
-    "PDF:ver<0.4.5+>",
-    "PDF::Font::Loader:ver<0.4.2+>",
-    "PDF::Class:ver<0.4.10+>",
-    "Method::Also"
-  ],
-  "description": "Reads and writes tagged PDF files",
-  "license": "Artistic-2.0",
-  "name": "PDF::Tags",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Tags": "lib/PDF/Tags.rakumod",
-    "PDF::Tags::Attr": "lib/PDF/Tags/Attr.rakumod",
-    "PDF::Tags::Elem": "lib/PDF/Tags/Elem.rakumod",
-    "PDF::Tags::Mark": "lib/PDF/Tags/Mark.rakumod",
-    "PDF::Tags::Node": "lib/PDF/Tags/Node.rakumod",
-    "PDF::Tags::Node::Parent": "lib/PDF/Tags/Node/Parent.rakumod",
-    "PDF::Tags::Node::Root": "lib/PDF/Tags/Node/Root.rakumod",
-    "PDF::Tags::ObjRef": "lib/PDF/Tags/ObjRef.rakumod",
-    "PDF::Tags::Text": "lib/PDF/Tags/Text.rakumod",
-    "PDF::Tags::XML-Writer": "lib/PDF/Tags/XML-Writer.rakumod",
-    "PDF::Tags::XPath": "lib/PDF/Tags/XPath.rakumod",
-    "PDF::Tags::XPath::Actions": "lib/PDF/Tags/XPath/Actions.rakumod",
-    "PDF::Tags::XPath::Axes": "lib/PDF/Tags/XPath/Axes.rakumod",
-    "PDF::Tags::XPath::Grammar": "lib/PDF/Tags/XPath/Grammar.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Tags-0.0.7.tar.gz",
   "tags": [
     "pdf"
   ],
