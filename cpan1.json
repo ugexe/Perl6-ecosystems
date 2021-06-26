@@ -1093,6 +1093,42 @@
 }
 ,
 {
+  "authors": [
+    "Adrian Kreher"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Read ID3 and other audio metadata with TagLib",
+  "license": "Artistic-2.0",
+  "name": "Audio::TagLib",
+  "perl": "6.d",
+  "provides": {
+    "Audio::TagLib": "lib/Audio/TagLib.rakumod"
+  },
+  "resources": [
+    "libtaglib_raku.dll",
+    "libtaglib_raku.dylib",
+    "libtaglib_raku.so"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AV/AVUSEROW/Perl6/Audio-TagLib-0.0.1.tar.gz",
+  "tags": [
+    "audio",
+    "music",
+    "mp3",
+    "tagging",
+    "taglib"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "auth": "github:azawawi",
   "authors": [
     "Ahmad M. Zawawi"
