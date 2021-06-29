@@ -7,6 +7,30 @@
   "depends": [
     
   ],
+  "description": "remove files recursively, up or down the directory tree",
+  "license": "Artistic-2.0",
+  "name": "File::Directory::Bubble",
+  "perl": "6.d",
+  "provides": {
+    "File::Directory::Bubble": "lib/File/Directory/Bubble.rakumod"
+  },
+  "source-type": "git",
+  "source-url": "https://github.com/stuart-little/raku-file-directory-bubble.git",
+  "tags": [
+    "filesystem",
+    "utils"
+  ],
+  "version": "0.1"
+}
+,
+{
+  "auth": "zef:stuart-little",
+  "authors": [
+    "stuart-little"
+  ],
+  "depends": [
+    
+  ],
   "description": "rooted-tree data structure and utils for Raku",
   "license": "Artistic-2.0",
   "name": "Data::Tree",
