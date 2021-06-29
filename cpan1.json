@@ -574,6 +574,65 @@
     
   ],
   "depends": [
+    "Text::CSV",
+    "Math::Matrix"
+  ],
+  "description": "Package for Stoichiometry procedures: chemical formula parsing, chemical equations balancing. Contains relevant chemical element data. Multi-language support.",
+  "license": "Artistic-2.0",
+  "name": "Chemistry::Stoichiometry",
+  "perl": "6.d",
+  "provides": {
+    "Chemistry::Stoichiometry": "lib/Chemistry/Stoichiometry.rakumod",
+    "Chemistry::Stoichiometry::Actions::EquationBalance": "lib/Chemistry/Stoichiometry/Actions/EquationBalance.rakumod",
+    "Chemistry::Stoichiometry::Actions::EquationMatrix": "lib/Chemistry/Stoichiometry/Actions/EquationMatrix.rakumod",
+    "Chemistry::Stoichiometry::Actions::MolecularMass": "lib/Chemistry/Stoichiometry/Actions/MolecularMass.rakumod",
+    "Chemistry::Stoichiometry::Actions::WL::System": "lib/Chemistry/Stoichiometry/Actions/WL/System.rakumod",
+    "Chemistry::Stoichiometry::Grammar": "lib/Chemistry/Stoichiometry/Grammar.rakumod",
+    "Chemistry::Stoichiometry::Grammar::ChemicalElement": "lib/Chemistry/Stoichiometry/Grammar/ChemicalElement.rakumod",
+    "Chemistry::Stoichiometry::Grammar::ChemicalEquation": "lib/Chemistry/Stoichiometry/Grammar/ChemicalEquation.rakumod",
+    "Chemistry::Stoichiometry::ResourceAccess": "lib/Chemistry/Stoichiometry/ResourceAccess.rakumod"
+  },
+  "resources": [
+    "ElementData.csv",
+    "ElementNames_Arabic.csv",
+    "ElementNames_Bulgarian.csv",
+    "ElementNames_German.csv",
+    "ElementNames_Greek.csv",
+    "ElementNames_Japanese.csv",
+    "ElementNames_Persian.csv",
+    "ElementNames_Polish.csv",
+    "ElementNames_Russian.csv",
+    "ElementNames_Spanish.csv"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Chemistry-Stoichiometry-0.1.1.tar.gz",
+  "tags": [
+    "chemistry",
+    "stoichiometry",
+    "chemical",
+    "balance",
+    "element",
+    "reaction",
+    "mechanism",
+    "entity",
+    "parser",
+    "interpreter"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "api": "1",
+  "auth": "github:antononcube",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Lingua::NumericWordForms has generators, parsers, and interpreters of numeric word forms in different languages.",
@@ -109633,98 +109692,6 @@
     
   ],
   "version": "0.5.2"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "PDF::Lite",
-    "PDF::Content:ver<0.5.0+>",
-    "Font::FreeType:ver<0.3.6+>",
-    "PDF:ver<0.4.6+>",
-    "Native::Packing"
-  ],
-  "description": "Font loading and embedding for the PDF tool-chain",
-  "license": "Artistic-2.0",
-  "name": "PDF::Font::Loader",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Font::Loader": "lib/PDF/Font/Loader.rakumod",
-    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.rakumod",
-    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.rakumod",
-    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.rakumod",
-    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.rakumod",
-    "PDF::Font::Loader::Enc::Identity16": "lib/PDF/Font/Loader/Enc/Identity16.rakumod",
-    "PDF::Font::Loader::Enc::Identity8": "lib/PDF/Font/Loader/Enc/Identity8.rakumod",
-    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.rakumod",
-    "PDF::Font::Loader::FreeType": "lib/PDF/Font/Loader/FreeType.rakumod",
-    "PDF::Font::Loader::Type1": "lib/PDF/Font/Loader/Type1.rakumod",
-    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.5.0.tar.gz",
-  "tags": [
-    "pdf",
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.5.0"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "PDF:ver<0.4.12+>",
-    "PDF::Lite:ver<0.0.8+>",
-    "PDF::Content:ver<0.5.2+>",
-    "Font::FreeType:ver<0.3.7+>",
-    "PDF:ver<0.4.6+>",
-    "Native::Packing"
-  ],
-  "description": "Font loading and embedding for the PDF tool-chain",
-  "license": "Artistic-2.0",
-  "name": "PDF::Font::Loader",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Font::Loader": "lib/PDF/Font/Loader.rakumod",
-    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.rakumod",
-    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.rakumod",
-    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.rakumod",
-    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.rakumod",
-    "PDF::Font::Loader::Enc::Identity16": "lib/PDF/Font/Loader/Enc/Identity16.rakumod",
-    "PDF::Font::Loader::Enc::Identity8": "lib/PDF/Font/Loader/Enc/Identity8.rakumod",
-    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.rakumod",
-    "PDF::Font::Loader::FontObj": "lib/PDF/Font/Loader/FontObj.rakumod",
-    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.5.1.tar.gz",
-  "tags": [
-    "pdf",
-    "font"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.5.1"
 }
 ,
 {
