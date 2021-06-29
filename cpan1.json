@@ -22408,37 +22408,6 @@
     
   ],
   "depends": [
-    "OO::Monitors"
-  ],
-  "description": "map strings to a color code",
-  "license": "Artistic-2.0",
-  "name": "String::Color",
-  "perl": "6.d",
-  "provides": {
-    "String::Color": "lib/String/Color.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/String-Color-0.0.6.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.6"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "Array::Sorted::Util:ver<0.0.6>:auth<cpan:ELIZABETH>",
     "OO::Monitors"
   ],
