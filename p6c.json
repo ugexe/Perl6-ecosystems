@@ -21318,15 +21318,20 @@
     "Jonathan 'jnthn' Worthington <jnthn@jnthn.net>",
     "Kane 'kawaii' Valentine <kane@cute.im>"
   ],
+  "build-depends": [
+    
+  ],
   "depends": [
     "Cro::WebSocket",
     "Data::Dump",
     "Object::Delayed",
     "URI::Encode",
-    "Subset::Helper"
+    "Subset::Helper",
+    "Test::META"
   ],
   "description": "Raku module for interacting with the Discord API.",
   "license": "BSD-3-Clause",
+  "meta-version": "0",
   "name": "API::Discord",
   "perl": "6.d",
   "provides": {
@@ -21335,6 +21340,7 @@
     "API::Discord::Channel::ButReal": "lib/API/Discord/Channel.rakumod",
     "API::Discord::Connection": "lib/API/Discord/Connection.rakumod",
     "API::Discord::DataObject": "lib/API/Discord/Object.rakumod",
+    "API::Discord::Debug": "lib/API/Discord/Debug.rakumod",
     "API::Discord::Endpoints": "lib/API/Discord/Endpoints.rakumod",
     "API::Discord::Exceptions": "lib/API/Discord/Exceptions.rakumod",
     "API::Discord::Guild": "lib/API/Discord/Guild.rakumod",
@@ -21354,13 +21360,18 @@
     "X::API::Discord::Connection::Flatline": "lib/API/Discord/Exceptions.rakumod",
     "X::API::Discord::Endpoint::NotEnoughArguments": "lib/API/Discord/Endpoints.rakumod"
   },
-  "repo-type": "git",
-  "source-type": "git",
+  "raku": null,
+  "resources": [
+    
+  ],
   "source-url": "git://git@github.com/shuppet/raku-api-discord.git",
   "support": {
     "bugtracker": "https://github.com/shuppet/raku-api-discord/issues",
     "source": "https://github.com/shuppet/raku-api-discord.git"
   },
+  "tags": [
+    
+  ],
   "test-depends": [
     "Test::META"
   ],
