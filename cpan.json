@@ -22494,37 +22494,6 @@
   "depends": [
     
   ],
-  "description": "trait for memoizing calls to subroutines",
-  "license": "Artistic-2.0",
-  "name": "Sub::Memoized",
-  "perl": "6.c",
-  "provides": {
-    "Sub::Memoized": "lib/Sub/Memoized.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sub-Memoized-0.0.4.tar.gz",
-  "tags": [
-    "UTILS"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
   "description": "Port of Perl 5's Sub::Name",
   "license": "Artistic-2.0",
   "name": "Sub::Name",
@@ -109327,6 +109296,53 @@
     
   ],
   "version": "0.5.2"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF:ver<0.4.12+>",
+    "PDF::Lite:ver<0.0.8+>",
+    "PDF::Content:ver<0.5.2+>",
+    "Font::FreeType:ver<0.3.7+>",
+    "PDF:ver<0.4.6+>",
+    "Native::Packing"
+  ],
+  "description": "Font loading and embedding for the PDF tool-chain",
+  "license": "Artistic-2.0",
+  "name": "PDF::Font::Loader",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Font::Loader": "lib/PDF/Font/Loader.rakumod",
+    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.rakumod",
+    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.rakumod",
+    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.rakumod",
+    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.rakumod",
+    "PDF::Font::Loader::Enc::Identity16": "lib/PDF/Font/Loader/Enc/Identity16.rakumod",
+    "PDF::Font::Loader::Enc::Identity8": "lib/PDF/Font/Loader/Enc/Identity8.rakumod",
+    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.rakumod",
+    "PDF::Font::Loader::FontObj": "lib/PDF/Font/Loader/FontObj.rakumod",
+    "PDF::Font::Loader::Glyph": "lib/PDF/Font/Loader/Glyph.rakumod",
+    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.5.3.tar.gz",
+  "tags": [
+    "pdf",
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.5.3"
 }
 ,
 {
