@@ -107722,6 +107722,52 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
+    "Method::Also"
+  ],
+  "description": "read font files and render glyphs from Raku using FreeType2",
+  "license": "Artistic-2.0",
+  "name": "Font::FreeType",
+  "perl": "6",
+  "provides": {
+    "Font::FreeType": "lib/Font/FreeType.rakumod",
+    "Font::FreeType::BBox": "lib/Font/FreeType/BBox.rakumod",
+    "Font::FreeType::BitMap": "lib/Font/FreeType/BitMap.rakumod",
+    "Font::FreeType::CharMap": "lib/Font/FreeType/CharMap.rakumod",
+    "Font::FreeType::Error": "lib/Font/FreeType/Error.rakumod",
+    "Font::FreeType::Face": "lib/Font/FreeType/Face.rakumod",
+    "Font::FreeType::Glyph": "lib/Font/FreeType/Glyph.rakumod",
+    "Font::FreeType::GlyphImage": "lib/Font/FreeType/GlyphImage.rakumod",
+    "Font::FreeType::NamedInfo": "lib/Font/FreeType/NamedInfo.rakumod",
+    "Font::FreeType::Native": "lib/Font/FreeType/Native.rakumod",
+    "Font::FreeType::Native::Defs": "lib/Font/FreeType/Native/Defs.rakumod",
+    "Font::FreeType::Outline": "lib/Font/FreeType/Outline.rakumod",
+    "Font::FreeType::Raw": "lib/Font/FreeType/Raw.rakumod",
+    "Font::FreeType::Raw::Defs": "lib/Font/FreeType/Raw/Defs.rakumod",
+    "Font::FreeType::Raw::TT_Sfnt": "lib/Font/FreeType/Raw/TT_Sfnt.rakumod"
+  },
+  "resources": [
+    "libraries/ft6"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.3.8.tar.gz",
+  "tags": [
+    "font",
+    "freetype"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.8"
+}
+,
+{
   "auth": "github:css-raku",
   "authors": [
     "David Warring"
@@ -109023,6 +109069,84 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Compress::Zlib",
+    "PDF::Grammar:ver<0.2.1+>",
+    "Hash::int",
+    "JSON::Fast",
+    "OpenSSL"
+  ],
+  "description": "Base classes for reading, manipulation and writing of PDF data",
+  "license": "Artistic-2.0",
+  "name": "PDF",
+  "perl": "6.*",
+  "provides": {
+    "PDF": "lib/PDF.rakumod",
+    "PDF::COS": "lib/PDF/COS.rakumod",
+    "PDF::COS::Array": "lib/PDF/COS/Array.rakumod",
+    "PDF::COS::Bool": "lib/PDF/COS/Bool.rakumod",
+    "PDF::COS::ByteString": "lib/PDF/COS/ByteString.rakumod",
+    "PDF::COS::Coercer": "lib/PDF/COS/Coercer.rakumod",
+    "PDF::COS::DateString": "lib/PDF/COS/DateString.rakumod",
+    "PDF::COS::Dict": "lib/PDF/COS/Dict.rakumod",
+    "PDF::COS::Int": "lib/PDF/COS/Int.rakumod",
+    "PDF::COS::Loader": "lib/PDF/COS/Loader.rakumod",
+    "PDF::COS::Name": "lib/PDF/COS/Name.rakumod",
+    "PDF::COS::Null": "lib/PDF/COS/Null.rakumod",
+    "PDF::COS::Real": "lib/PDF/COS/Real.rakumod",
+    "PDF::COS::Stream": "lib/PDF/COS/Stream.rakumod",
+    "PDF::COS::TextString": "lib/PDF/COS/TextString.rakumod",
+    "PDF::COS::Tie": "lib/PDF/COS/Tie.rakumod",
+    "PDF::COS::Tie::Array": "lib/PDF/COS/Tie/Array.rakumod",
+    "PDF::COS::Tie::Hash": "lib/PDF/COS/Tie/Hash.rakumod",
+    "PDF::COS::Type::Encrypt": "lib/PDF/COS/Type/Encrypt.rakumod",
+    "PDF::COS::Type::Info": "lib/PDF/COS/Type/Info.rakumod",
+    "PDF::COS::Type::ObjStm": "lib/PDF/COS/Type/ObjStm.rakumod",
+    "PDF::COS::Type::XRef": "lib/PDF/COS/Type/XRef.rakumod",
+    "PDF::COS::Util": "lib/PDF/COS/Util.rakumod",
+    "PDF::IO": "lib/PDF/IO.rakumod",
+    "PDF::IO::Blob": "lib/PDF/IO/Blob.rakumod",
+    "PDF::IO::Crypt": "lib/PDF/IO/Crypt.rakumod",
+    "PDF::IO::Crypt::AESV2": "lib/PDF/IO/Crypt/AESV2.rakumod",
+    "PDF::IO::Crypt::AST": "lib/PDF/IO/Crypt/AST.rakumod",
+    "PDF::IO::Crypt::PDF": "lib/PDF/IO/Crypt/PDF.rakumod",
+    "PDF::IO::Crypt::RC4": "lib/PDF/IO/Crypt/RC4.rakumod",
+    "PDF::IO::Filter": "lib/PDF/IO/Filter.rakumod",
+    "PDF::IO::Filter::ASCII85": "lib/PDF/IO/Filter/ASCII85.rakumod",
+    "PDF::IO::Filter::ASCIIHex": "lib/PDF/IO/Filter/ASCIIHex.rakumod",
+    "PDF::IO::Filter::Flate": "lib/PDF/IO/Filter/Flate.rakumod",
+    "PDF::IO::Filter::LZW": "lib/PDF/IO/Filter/LZW.rakumod",
+    "PDF::IO::Filter::Predictors": "lib/PDF/IO/Filter/Predictors.rakumod",
+    "PDF::IO::Filter::RunLength": "lib/PDF/IO/Filter/RunLength.rakumod",
+    "PDF::IO::Handle": "lib/PDF/IO/Handle.rakumod",
+    "PDF::IO::IndObj": "lib/PDF/IO/IndObj.rakumod",
+    "PDF::IO::Reader": "lib/PDF/IO/Reader.rakumod",
+    "PDF::IO::Serializer": "lib/PDF/IO/Serializer.rakumod",
+    "PDF::IO::Str": "lib/PDF/IO/Str.rakumod",
+    "PDF::IO::Util": "lib/PDF/IO/Util.rakumod",
+    "PDF::IO::Writer": "lib/PDF/IO/Writer.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-0.4.14.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.4.14"
+}
+,
+{
   "api": "PDF-1.7",
   "auth": "cpan:WARRINGD",
   "authors": [
@@ -109770,6 +109894,72 @@
     
   ],
   "version": "0.5.2"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Base64::Native",
+    "Color",
+    "Compress::Zlib::Raw",
+    "Font::AFM:ver<1.24.4+>",
+    "Native::Packing",
+    "Method::Also",
+    "JSON::Fast",
+    "PDF:ver<0.4.6+>",
+    "PDF::Grammar"
+  ],
+  "description": "PDF content related classes; including text, images, fonts and graphics",
+  "license": "Artistic-2.0",
+  "name": "PDF::Content",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Content": "lib/PDF/Content.rakumod",
+    "PDF::Content::Color": "lib/PDF/Content/Color.rakumod",
+    "PDF::Content::Font": "lib/PDF/Content/Font.rakumod",
+    "PDF::Content::Font::CoreFont": "lib/PDF/Content/Font/CoreFont.rakumod",
+    "PDF::Content::Font::Enc::Glyphic": "lib/PDF/Content/Font/Enc/Glyphic.rakumod",
+    "PDF::Content::Font::Enc::Type1": "lib/PDF/Content/Font/Enc/Type1.rakumod",
+    "PDF::Content::Font::Encodings": "lib/PDF/Content/Font/Encodings.rakumod",
+    "PDF::Content::FontObj": "lib/PDF/Content/FontObj.rakumod",
+    "PDF::Content::Graphics": "lib/PDF/Content/Graphics.rakumod",
+    "PDF::Content::Image": "lib/PDF/Content/Image.rakumod",
+    "PDF::Content::Image::GIF": "lib/PDF/Content/Image/GIF.rakumod",
+    "PDF::Content::Image::JPEG": "lib/PDF/Content/Image/JPEG.rakumod",
+    "PDF::Content::Image::PDF": "lib/PDF/Content/Image/PDF.rakumod",
+    "PDF::Content::Image::PNG": "lib/PDF/Content/Image/PNG.rakumod",
+    "PDF::Content::Interface": "lib/PDF/Content/Interface.rakumod",
+    "PDF::Content::Matrix": "lib/PDF/Content/Matrix.rakumod",
+    "PDF::Content::Ops": "lib/PDF/Content/Ops.rakumod",
+    "PDF::Content::Page": "lib/PDF/Content/Page.rakumod",
+    "PDF::Content::PageNode": "lib/PDF/Content/PageNode.rakumod",
+    "PDF::Content::PageTree": "lib/PDF/Content/PageTree.rakumod",
+    "PDF::Content::ResourceDict": "lib/PDF/Content/ResourceDict.rakumod",
+    "PDF::Content::Resourced": "lib/PDF/Content/Resourced.rakumod",
+    "PDF::Content::Tag": "lib/PDF/Content/Tag.rakumod",
+    "PDF::Content::Text::Block": "lib/PDF/Content/Text/Block.rakumod",
+    "PDF::Content::Text::Box": "lib/PDF/Content/Text/Box.rakumod",
+    "PDF::Content::Text::Line": "lib/PDF/Content/Text/Line.rakumod",
+    "PDF::Content::Text::Style": "lib/PDF/Content/Text/Style.rakumod",
+    "PDF::Content::XObject": "lib/PDF/Content/XObject.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Content-0.5.3.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.5.3"
 }
 ,
 {
