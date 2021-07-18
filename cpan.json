@@ -10884,6 +10884,37 @@
   "depends": [
     
   ],
+  "description": "be a hash without knowing how",
+  "license": "Artistic-2.0",
+  "name": "Hash::Agnostic",
+  "perl": "6.c",
+  "provides": {
+    "Hash::Agnostic": "lib/Hash/Agnostic.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Agnostic-0.0.9.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "trait for limiting number of keys in hashes",
   "license": "Artistic-2.0",
   "name": "Hash::LRU",
@@ -15290,6 +15321,37 @@
     
   ],
   "depends": [
+    "Hash::Agnostic:ver<0.0.9>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "be a map without knowing how",
+  "license": "Artistic-2.0",
+  "name": "Map::Agnostic",
+  "perl": "6.c",
+  "provides": {
+    "Map::Agnostic": "lib/Map/Agnostic.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Map-Agnostic-0.0.5.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Map::Agnostic:ver<0.0.1>:auth<cpan:ELIZABETH>"
   ],
   "description": "role for ordered Maps",
@@ -15372,6 +15434,37 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Map::Agnostic:ver<0.0.5>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "role for ordered Maps",
+  "license": "Artistic-2.0",
+  "name": "Map::Ordered",
+  "perl": "6.c",
+  "provides": {
+    "Map::Ordered": "lib/Map/Ordered.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Map-Ordered-0.0.5.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
 }
 ,
 {
