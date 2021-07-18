@@ -20036,7 +20036,7 @@
 {
   "author": "github:retupmoca",
   "depends": [
-    
+    "Shell::Command"
   ],
   "description": "An attempt to simplify native compilation",
   "name": "LibraryMake",
@@ -20045,9 +20045,6 @@
     "LibraryMake": "lib/LibraryMake.pm6"
   },
   "source-url": "git://github.com/retupmoca/P6-LibraryMake.git",
-  "test-depends": [
-    "Shell::Command"
-  ],
   "version": "1.0.0"
 }
 ,
