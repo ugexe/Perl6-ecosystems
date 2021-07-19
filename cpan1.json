@@ -11275,6 +11275,37 @@
     
   ],
   "depends": [
+    "Hash::Agnostic:ver<0.0.9>:auth<cpan:ELIZABETH>"
+  ],
+  "description": "role for ordered Hashes",
+  "license": "Artistic-2.0",
+  "name": "Hash::Ordered",
+  "perl": "6.c",
+  "provides": {
+    "Hash::Ordered": "lib/Hash/Ordered.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Ordered-0.0.1.tar.gz",
+  "tags": [
+    "UTILS"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "trait for restricting keys in hashes",
