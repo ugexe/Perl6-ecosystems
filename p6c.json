@@ -531,49 +531,6 @@
 }
 ,
 {
-  "auth": "github:alabamenhu",
-  "authors": [
-    "Matthew Stephen Stuckwisch"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Intl::LanguageTaggish"
-  ],
-  "description": "A module for working with BCP 47 language tags",
-  "license": "Artistic-2.0",
-  "name": "Intl::LanguageTag",
-  "perl": "6.*",
-  "provides": {
-    "Intl::LanguageTag": "lib/Intl/LanguageTag.rakumod",
-    "Intl::LanguageTag::BCP47": "lib/Intl/LanguageTag/BCP47.rakumod"
-  },
-  "raku": "6.*",
-  "resources": [
-    "languages-deprecated",
-    "languages-extended",
-    "languages-macro",
-    "languages-preferred",
-    "languages-script",
-    "languages-valid",
-    "regions-deprecated",
-    "regions-preferred",
-    "regions-valid",
-    "scripts-deprecated",
-    "scripts-valid",
-    "variants-deprecated",
-    "variants-prefixes",
-    "variants-valid"
-  ],
-  "source-url": "git://github.com/alabamenhu/LanguageTag.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.12"
-}
-,
-{
   "auth": "Matthew ‘Matéu’ Stephen Stuckwisch",
   "build-depends": [
     
@@ -2719,37 +2676,6 @@
 }
 ,
 {
-  "auth": "github:alabamenhu",
-  "authors": [
-    "Matthew Stephen Stuckwisch"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Intl::UserLanguage",
-    "Intl::CLDR:ver<0.5.0+>"
-  ],
-  "description": "A module for detecting numbers in localized format",
-  "license": "Artistic-2.0",
-  "name": "Intl::Token::Number",
-  "perl": "6.*",
-  "provides": {
-    "Intl::Token::Number": "lib/Intl/Token/Number.pm6",
-    "Intl::Token::Util::Digits": "lib/Intl/Token/Util/Digits.pm6"
-  },
-  "raku": "6.*",
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/alabamenhu/IntlTokenNumber.git",
-  "test-depends": [
-    
-  ],
-  "version": "0.1"
-}
-,
-{
   "auth": "Matthew ‘Matéu’ Stephen Stuckwisch",
   "build-depends": [
     
@@ -3037,38 +2963,6 @@
   "api": "1",
   "auth": "github:AlexDaniel",
   "authors": [
-    "Aleks-Daniel <b>Jakimenko-Aleksejev"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "A module with `<b>` in its name.",
-  "license": "GPL-3.0-or-later",
-  "name": "Foo::<b>Foo",
-  "perl": "6.c",
-  "provides": {
-    "Foo::<b>Foo": "lib/Foo/<b>Foo.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/AlexDaniel/foo-b-foo.git",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "api": "1",
-  "auth": "github:AlexDaniel",
-  "authors": [
     "Aleks-Daniel Jakimenko-Aleksejev"
   ],
   "build-depends": [
@@ -3136,38 +3030,6 @@
     "Aleks-Daniel Jakimenko-Aleksejev"
   ],
   "build-depends": [
-    "Foo::Dependencies::Self"
-  ],
-  "depends": [
-    "Foo::Dependencies::Self"
-  ],
-  "description": "A module that depends on itself.",
-  "license": "GPL-3.0-or-later",
-  "name": "Foo::Dependencies::Self",
-  "perl": "6.c",
-  "provides": {
-    "Foo::Dependencies::Self": "lib/Foo/Dependencies/Self.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/AlexDaniel/foo-dependencies-self.git",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Foo::Dependencies::Self"
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "api": "1",
-  "auth": "github:AlexDaniel",
-  "authors": [
-    "Aleks-Daniel Jakimenko-Aleksejev"
-  ],
-  "build-depends": [
     
   ],
   "depends": [
@@ -3184,38 +3046,6 @@
     
   ],
   "source-url": "git://github.com/AlexDaniel/dotdotslashfoo.git",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "api": "1",
-  "auth": "github:AlexDaniel",
-  "authors": [
-    "Aleks-Daniel Jakimenko-Aleksejev"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "A module to end the naming debate.",
-  "license": "GPL-3.0-or-later",
-  "name": "",
-  "perl": "6.d",
-  "provides": {
-    "": "lib/EmptyString.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/AlexDaniel/foo-emptystring.git",
   "tags": [
     
   ],
@@ -4234,23 +4064,6 @@
 }
 ,
 {
-  "author": "Brock Wilcox",
-  "depends": [
-    "Linenoise",
-    "IO::String"
-  ],
-  "description": "A fun little REPL inspired by Pry, nREPL, and others.",
-  "license": "Artistic-2.0",
-  "name": "LREP",
-  "perl": "6.*",
-  "provides": {
-    "LREP": "lib/LREP.pm6"
-  },
-  "source-url": "git://github.com/awwaiid/p6-lrep.git",
-  "version": "0.2.1"
-}
-,
-{
   "depends": [
     "File::Temp",
     "HTTP::Easy",
@@ -4514,33 +4327,6 @@
   "authors": [
     "Ahmad M. Zawawi"
   ],
-  "description": "Perl 6 interface to NCurses, the text-based interface library",
-  "license": "MIT",
-  "name": "NCurses",
-  "perl": "6.c",
-  "provides": {
-    "NCurses": "lib/NCurses.pm6",
-    "NCurses::Lift": "lib/NCurses/Lift.pm6"
-  },
-  "repo-type": "git",
-  "source-url": "git://github.com/azawawi/perl6-ncurses.git",
-  "tags": [
-    "CLI",
-    "Terminal",
-    "NativeCall"
-  ],
-  "test-depends": [
-    "LibraryCheck",
-    "Test"
-  ],
-  "version": "0.6.3"
-}
-,
-{
-  "auth": "github:azawawi",
-  "authors": [
-    "Ahmad M. Zawawi"
-  ],
   "depends": [
     
   ],
@@ -4609,27 +4395,6 @@
     "Test"
   ],
   "version": "0.0.5"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "A Parser for Selenium Test Cases and Suites",
-  "license": "Artistic-2.0",
-  "name": "Parse::Selenese",
-  "perl": "6.*",
-  "provides": {
-    "Parse::Selenese": "lib/Parse/Selenese.pm6",
-    "Parse::Selenese::Actions": "lib/Parse/Selenese/Actions.pm6",
-    "Parse::Selenese::Command": "lib/Parse/Selenese/Command.pm6",
-    "Parse::Selenese::Grammar": "lib/Parse/Selenese/Grammar.pm6",
-    "Parse::Selenese::TestCase": "lib/Parse/Selenese/TestCase.pm6",
-    "Parse::Selenese::TestCaseDef": "lib/Parse/Selenese/TestCaseDef.pm6",
-    "Parse::Selenese::TestSuite": "lib/Parse/Selenese/TestSuite.pm6"
-  },
-  "source-url": "git://github.com/azawawi/perl6-parse-selenese.git",
-  "version": "*"
 }
 ,
 {
@@ -8571,21 +8336,6 @@
   "provides": {
     "Foo": "lib/Foo.pm"
   },
-  "source-url": "git://github.com/FROGGS/p6-Foo-v1.0.0.git",
-  "version": "1.0.0"
-}
-,
-{
-  "author": "github:FROGGS",
-  "depends": [
-    
-  ],
-  "description": "Test for installation of same named dists",
-  "name": "Foo",
-  "perl": "6.*",
-  "provides": {
-    "Foo": "lib/Foo.pm"
-  },
   "source-url": "git://github.com/FROGGS/p6-Foo-v1.2.0.git",
   "version": "1.2.0"
 }
@@ -8617,21 +8367,6 @@
   },
   "source-url": "git://github.com/FROGGS/p6-IDNA-Punycode.git",
   "version": "1.0.0"
-}
-,
-{
-  "author": "github:FROGGS",
-  "depends": [
-    
-  ],
-  "description": "conditionally use packages",
-  "name": "if",
-  "perl": "6.*",
-  "provides": {
-    "if": "lib/if.pm"
-  },
-  "source-url": "git://github.com/FROGGS/p6-if.git",
-  "version": "0.1.1"
 }
 ,
 {
@@ -9415,28 +9150,6 @@
     "Test"
   ],
   "version": "v0.0.3"
-}
-,
-{
-  "authors": [
-    "Gonéri Le Bouder"
-  ],
-  "depends": [
-    
-  ],
-  "description": "lib NotmuchMail binding",
-  "license": "GPL-3.0",
-  "name": "Email::Notmuch",
-  "perl": "6.c",
-  "provides": {
-    "Email::Notmuch": "lib/Email/Notmuch.pm6"
-  },
-  "source-url": "git://github.com/goneri/p6-Email-Notmuch.git",
-  "test-depends": [
-    "File::Temp",
-    "Test"
-  ],
-  "version": "0.6"
 }
 ,
 {
@@ -10281,20 +9994,6 @@
 ,
 {
   "depends": [
-    "Path::Util"
-  ],
-  "description": "store data in ini files",
-  "name": "Ini::Storage",
-  "perl": "6.*",
-  "provides": {
-    "Ini::Storage": "lib/Ini/Storage.pm"
-  },
-  "source-url": "git://github.com/jaffa4/inistorage.git",
-  "version": "0.8"
-}
-,
-{
-  "depends": [
     
   ],
   "description": "Support for logging",
@@ -10376,39 +10075,6 @@
   },
   "source-url": "git://github.com/jaffa4/string-stream.git",
   "version": "0.8"
-}
-,
-{
-  "authors": [
-    "Jaldhar H. Vyas"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "An Illustration of Cumulative Selection",
-  "license": [
-    "Artistic-2.0",
-    "GPL-2.0+"
-  ],
-  "name": "Algorithm::DawkinsWeasel",
-  "perl": "6.c",
-  "provides": {
-    "Algorithm::DawkinsWeasel": "lib/Algorithm/DawkinsWeasel.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/jaldhar/Algorithm-DawkinsWeasel.git",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.1"
 }
 ,
 {
@@ -12510,27 +12176,6 @@
 }
 ,
 {
-  "author": "labster",
-  "depends": [
-    "File::Find",
-    "Shell::Command"
-  ],
-  "description": "Extends IO::Path to make it more like p5's Path::Class",
-  "license": "Artistic-2.0",
-  "name": "IO::Path::More",
-  "perl": "6.*",
-  "provides": {
-    "IO::Path::More": "lib/IO/Path/More.pm"
-  },
-  "source-url": "git://github.com/labster/p6-IO-Path-More.git",
-  "support": {
-    "irc": "labster",
-    "source": "https://github.com/labster/p6-IO-Path-More/"
-  },
-  "version": "*"
-}
-,
-{
   "author": "github:labster",
   "depends": [
     "XML",
@@ -14275,23 +13920,6 @@
     "SVG": "lib/SVG.pm"
   },
   "source-url": "git://github.com/moritz/svg.git",
-  "version": "*"
-}
-,
-{
-  "depends": [
-    "SVG"
-  ],
-  "description": "A Perl 6 charting and plotting library that produces SVG output",
-  "name": "SVG::Plot",
-  "perl": "6.*",
-  "provides": {
-    "SVG::Box": "lib/SVG/Box.pm",
-    "SVG::Plot": "lib/SVG/Plot.pm",
-    "SVG::Plot::AxisPosition": "lib/SVG/Plot.pm",
-    "SVG::Plot::Pie": "lib/SVG/Plot/Pie.pm"
-  },
-  "source-url": "git://github.com/moritz/svg-plot.git",
   "version": "*"
 }
 ,
