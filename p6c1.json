@@ -8674,6 +8674,21 @@
 {
   "author": "github:FROGGS",
   "depends": [
+    "JSON::Tiny"
+  ],
+  "description": "A minimal JSON (de)serializer that produces easily readable JSON",
+  "name": "JSON::Pretty",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Pretty": "lib/JSON/Pretty.pm"
+  },
+  "source-url": "git://github.com/FROGGS/p6-JSON-Pretty.git",
+  "version": "0.1.0"
+}
+,
+{
+  "author": "github:FROGGS",
+  "depends": [
     
   ],
   "description": "allows to intercept parsing of num/str literals",
