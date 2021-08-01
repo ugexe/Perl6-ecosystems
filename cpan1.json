@@ -92668,6 +92668,41 @@
 }
 ,
 {
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "github:tbrowder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides functions for using class Proc.",
+  "license": "Artistic-2.0",
+  "name": "Proc::More",
+  "perl": "6",
+  "provides": {
+    "Proc::More": "lib/Proc/More.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Proc-More-0.4.0.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/tbrowder/Proc-More-Perl6/issues"
+  },
+  "tags": [
+    "POSIX time function",
+    "proc run"
+  ],
+  "test-depends": [
+    "File::Temp"
+  ],
+  "version": "0.4.0"
+}
+,
+{
   "authors": [
     "github:tbrowder"
   ],
