@@ -7605,6 +7605,29 @@
 ,
 {
   "author": "github:fayland",
+  "depends": [
+    
+  ],
+  "description": "Locale codes - Country, Currency, Langauge",
+  "name": "Locale::Codes",
+  "perl": "6.*",
+  "provides": {
+    "Locale::Codes": "lib/Locale/Codes.pm",
+    "Locale::Codes::Country_Codes": "lib/Locale/Codes/Country_Codes.pm",
+    "Locale::Codes::Currency_Codes": "lib/Locale/Codes/Currency_Codes.pm",
+    "Locale::Codes::Language_Codes": "lib/Locale/Codes/Language_Codes.pm",
+    "Locale::Codes::Script_Codes": "lib/Locale/Codes/Script_Codes.pm",
+    "Locale::Country": "lib/Locale/Country.pm",
+    "Locale::Currency": "lib/Locale/Currency.pm",
+    "Locale::Language": "lib/Locale/Language.pm",
+    "Locale::Script": "lib/Locale/Script.pm"
+  },
+  "source-url": "git://github.com/fayland/perl6-Locale-Codes.git",
+  "version": "0.1.0"
+}
+,
+{
+  "author": "github:fayland",
   "authors": [
     "github:fayland"
   ],
@@ -9893,39 +9916,6 @@
     
   ],
   "version": "1.001002"
-}
-,
-{
-  "api": "*",
-  "auth": "github:hythm7",
-  "authors": [
-    "Haytham Elganiny"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Grid Role for Arrays.",
-  "license": "Artistic-2.0",
-  "name": "Grid",
-  "perl": "6.*",
-  "provides": {
-    "Grid": "lib/Grid.pm"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/hythm7/Grid.git",
-  "tags": [
-    "Grid",
-    "Array"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
 }
 ,
 {
