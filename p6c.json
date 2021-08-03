@@ -8243,6 +8243,33 @@
 }
 ,
 {
+  "auth": "github:finanalyst",
+  "authors": [
+    "Richard Hainsworth, aka finanalyst",
+    "ToddAndMargo"
+  ],
+  "build-depends": [
+    "Shell::Command"
+  ],
+  "depends": [
+    "NativeCall"
+  ],
+  "description": "Easy to use GUI Dialog box using GTK3 label, button, entry widgets",
+  "license": "MIT",
+  "name": "Inform",
+  "perl": "6.d",
+  "provides": {
+    "Informative": "lib/Informative.pm6"
+  },
+  "repo-type": "git",
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/finanalyst/p6-inform.git",
+  "version": "1.4.1"
+}
+,
+{
   "authors": [
     "Richard Hainsworth aka finanalyst"
   ],
