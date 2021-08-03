@@ -9287,6 +9287,43 @@
     
   ],
   "depends": [
+    "Array::Sorted::Util:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "Cro::HTTP::Router:ver<0.8.5>",
+    "Cro::WebApp::Template:ver<0.8.5>",
+    "IRC::Channel::Log:ver<0.0.33>:auth<cpan:ELIZABETH>",
+    "JSON::Fast:ver<0.16>",
+    "RandomColor"
+  ],
+  "description": "Cro application for presentating IRC logs",
+  "license": "Artistic-2.0",
+  "name": "App::IRC::Log",
+  "perl": "6.d",
+  "provides": {
+    "App::IRC::Log": "lib/App/IRC/Log.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/App-IRC-Log-0.0.8.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Cro::HTTP::Server:ver<0.8.5>",
+    "IRC::Log::Colabti:ver<0.0.30>:auth<cpan:ELIZABETH>"
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "be an array without knowing how",
@@ -54559,6 +54596,47 @@
     "Test"
   ],
   "version": "0.0.7"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A simple handler to provide Server Sent Events from a Raku application",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "EventSource::Server",
+  "perl": "6.*",
+  "provides": {
+    "EventSource::Server": "lib/EventSource/Server.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/EventSource-Server-0.0.8.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/EventSource-Server/issues",
+    "email": "jns+eventsourceserver@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/EventSource-Server.git"
+  },
+  "tags": [
+    "async",
+    "event",
+    "web"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.8"
 }
 ,
 {
