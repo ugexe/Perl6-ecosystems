@@ -22829,37 +22829,6 @@
 {
   "authors": [
     "Tadeusz “tadzik” Sośnierz",
-    "Paul Cochrane",
-    "GlithMr",
-    "Ethan House",
-    "Tobias Leich"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "The kitty you always wanted, now in Perl 6",
-  "name": "Acme::Meow",
-  "perl": "6.*",
-  "provides": {
-    "Acme::Meow": "lib/Acme/Meow.pm"
-  },
-  "source-url": "git://github.com/tadzik/perl6-Acme-Meow.git",
-  "support": {
-    "bugtracker": "https://github.com/tadzik/perl6-Acme-Meow/issues",
-    "source": "git://github.com/tadzik/perl6-Acme-Meow.git"
-  },
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.1"
-}
-,
-{
-  "authors": [
-    "Tadeusz “tadzik” Sośnierz",
     "Nobuo Danjou"
   ],
   "depends": [
@@ -25667,28 +25636,6 @@
 }
 ,
 {
-  "auth": "github:ugexe",
-  "authors": [
-    "ugexe"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Lazy base64 encoding and decoding routines",
-  "license": "Artistic-2.0",
-  "name": "Base64",
-  "perl": "6.c",
-  "provides": {
-    "Base64": "lib/Base64.pm6"
-  },
-  "support": {
-    "bugtracker": "https://github.com/ugexe/Perl6-Base64/issues",
-    "source": "https://github.com/ugexe/Perl6-Base64.git"
-  },
-  "version": "0.0.2"
-}
-,
-{
   "api": "0",
   "auth": "github:ugexe",
   "authors": [
@@ -26138,21 +26085,6 @@
   },
   "source-url": "git://github.com/vendethiel/hydrate6.git",
   "version": "*"
-}
-,
-{
-  "author": "vendethiel",
-  "depends": [
-    
-  ],
-  "description": "A very simple `serialize` sub to get public attribute values",
-  "name": "Serialize::Tiny",
-  "perl": "6.*",
-  "provides": {
-    "Serialize::Tiny": "lib/Serialize/Tiny.pm"
-  },
-  "source-url": "git://github.com/vendethiel/Serialize-Tiny.pm6.git",
-  "version": "1"
 }
 ,
 {
@@ -26731,21 +26663,6 @@
   "source-type": "git",
   "source-url": "https://github.com/yuvipanda/perl6-Ident-Client.git",
   "version": "v0.1.0"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "Perl 6 implementation of Closure Templates",
-  "license": "Artistic-2.0",
-  "name": "Plosurin",
-  "perl": "6.*",
-  "provides": {
-    "Plosurin": "lib/Plosurin.pm"
-  },
-  "source-url": "git://github.com/zag/plosurin.git",
-  "version": "0.02"
 }
 ,
 {
