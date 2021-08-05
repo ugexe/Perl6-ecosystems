@@ -96334,6 +96334,40 @@
   "depends": [
     
   ],
+  "description": "A Raku bindings for XGBoost ( https://github.com/dmlc/xgboost ).",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::XGBoost",
+  "perl": "6.d",
+  "provides": {
+    "Algorithm::XGBoost": "lib/Algorithm/XGBoost.rakumod",
+    "Algorithm::XGBoost::Booster": "lib/Algorithm/XGBoost/Booster.rakumod",
+    "Algorithm::XGBoost::DMatrix": "lib/Algorithm/XGBoost/DMatrix.rakumod",
+    "Algorithm::XGBoost::Model": "lib/Algorithm/XGBoost/Model.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-XGBoost-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:TITSUKI",
+  "authors": [
+    "Itsuki Toyota"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Tree edit distance between trees",
   "license": "Artistic-2.0",
   "name": "Algorithm::ZhangShasha",
