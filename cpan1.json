@@ -22378,6 +22378,38 @@
   "depends": [
     
   ],
+  "description": "Create random names to be used as identifiers",
+  "license": "Artistic-2.0",
+  "name": "Random::Names",
+  "perl": "6.d",
+  "provides": {
+    "Random::Names": "lib/Random/Names.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Random-Names-0.0.3.tar.gz",
+  "tags": [
+    "NAME",
+    "RANDOM"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Port of Perl 5's Scalar::Util 1.49",
   "license": "Artistic-2.0",
   "name": "Scalar::Util",
@@ -92857,6 +92889,38 @@
     
   ],
   "version": "0.0.6"
+}
+,
+{
+  "api": 2,
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides an easier interface to the 'Proc' class and the 'run' routine",
+  "license": "Artistic-2.0",
+  "name": "Proc::Easy",
+  "perl": "6.d",
+  "provides": {
+    "Proc::Easy": "lib/Proc/Easy.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Proc-Easy-0.0.1.tar.gz",
+  "tags": [
+    "proc run"
+  ],
+  "test-depends": [
+    "File::Temp"
+  ],
+  "version": "0.0.1"
 }
 ,
 {
