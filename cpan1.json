@@ -23257,6 +23257,38 @@
   "depends": [
     
   ],
+  "description": "Port of Perl 5's Sub::Name",
+  "license": "Artistic-2.0",
+  "name": "Sub::Name",
+  "perl": "6.c",
+  "provides": {
+    "Sub::Name": "lib/Sub/Name.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Sub-Name-0.0.6.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.6"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Port of Perl's Sub::Name",
   "license": "Artistic-2.0",
   "name": "Sub::Name",
