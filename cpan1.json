@@ -96697,6 +96697,82 @@
     "Itsuki Toyota"
   ],
   "build-depends": [
+    "Algorithm::XGBoost::CustomBuilder",
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON"
+  ],
+  "builder": "Algorithm::XGBoost::CustomBuilder",
+  "depends": [
+    
+  ],
+  "description": "A Raku bindings for XGBoost ( https://github.com/dmlc/xgboost ).",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::XGBoost",
+  "perl": "6.d",
+  "provides": {
+    "Algorithm::XGBoost": "lib/Algorithm/XGBoost.rakumod",
+    "Algorithm::XGBoost::Booster": "lib/Algorithm/XGBoost/Booster.rakumod",
+    "Algorithm::XGBoost::CustomBuilder": "lib/Algorithm/XGBoost/CustomBuilder.rakumod",
+    "Algorithm::XGBoost::DMatrix": "lib/Algorithm/XGBoost/DMatrix.rakumod",
+    "Algorithm::XGBoost::Model": "lib/Algorithm/XGBoost/Model.rakumod"
+  },
+  "resources": [
+    "libraries/xgboost"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-XGBoost-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:TITSUKI",
+  "authors": [
+    "Itsuki Toyota"
+  ],
+  "build-depends": [
+    "Algorithm::XGBoost::CustomBuilder",
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON"
+  ],
+  "builder": "Algorithm::XGBoost::CustomBuilder",
+  "depends": [
+    
+  ],
+  "description": "A Raku bindings for XGBoost ( https://github.com/dmlc/xgboost ).",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::XGBoost",
+  "perl": "6.d",
+  "provides": {
+    "Algorithm::XGBoost": "lib/Algorithm/XGBoost.rakumod",
+    "Algorithm::XGBoost::Booster": "lib/Algorithm/XGBoost/Booster.rakumod",
+    "Algorithm::XGBoost::CustomBuilder": "lib/Algorithm/XGBoost/CustomBuilder.rakumod",
+    "Algorithm::XGBoost::DMatrix": "lib/Algorithm/XGBoost/DMatrix.rakumod",
+    "Algorithm::XGBoost::Model": "lib/Algorithm/XGBoost/Model.rakumod"
+  },
+  "resources": [
+    "libraries/xgboost"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-XGBoost-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:TITSUKI",
+  "authors": [
+    "Itsuki Toyota"
+  ],
+  "build-depends": [
     
   ],
   "depends": [
