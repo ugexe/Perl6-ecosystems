@@ -92608,41 +92608,6 @@
 }
 ,
 {
-  "auth": "cpan:TBROWDER",
-  "authors": [
-    "Tom Browder"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "App::Mi6",
-    "Config::INI",
-    "File::Find",
-    "JSON::Fast",
-    "Text::Utils"
-  ],
-  "description": "An aid for converting Raku modules to use App::Mi6",
-  "license": "Artistic-2.0",
-  "name": "Mi6::Helper",
-  "perl": "6.d",
-  "provides": {
-    "Mi6::Helper": "lib/Mi6/Helper.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Mi6-Helper-0.0.1.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.0.1"
-}
-,
-{
   "api": "2",
   "auth": "github:tbrowder",
   "author": "github:tbrowder",
@@ -93397,38 +93362,6 @@
     "Test::META"
   ],
   "version": "0.0.2"
-}
-,
-{
-  "auth": "github:tbrowder",
-  "author": "github:tbrowder",
-  "authors": [
-    "Tom Browder <tom.browder@gmail.com>"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Provides some additional text functions and a utility program to create a markdown file of subroutine descriptions",
-  "license": "Artistic-2.0",
-  "name": "Text::More",
-  "perl": "6.c",
-  "provides": {
-    "Text::More": "lib/Text/More.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Text-More-Perl6-0.1.8.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/tbrowder/Text-More-Perl6/issues"
-  },
-  "tags": [
-    "string functions"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.1.8"
 }
 ,
 {
