@@ -5852,6 +5852,36 @@
 }
 ,
 {
+  "authors": [
+    "Will 'Coke' Coleda"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "command-line utility to find or display Unicode characters",
+  "license": "Artistic-2.0",
+  "name": "App::Uni",
+  "perl": "6",
+  "provides": {
+    "App::Uni": "lib/App/Uni.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/coke/p6-uni.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.2"
+}
+,
+{
   "auth": "zef:colomon",
   "depends": [
     "File::Temp"
