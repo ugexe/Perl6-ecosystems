@@ -441,21 +441,6 @@
 }
 ,
 {
-  "auth": "github:ahalbert",
-  "depends": [
-    
-  ],
-  "description": "Port of python itertools",
-  "name": "python::itertools",
-  "perl": "6.*",
-  "provides": {
-    "python::itertools": "lib/python/itertools.pm"
-  },
-  "source-url": "git://github.com/ahalbert/perl6-itertools.git",
-  "version": "0.9"
-}
-,
-{
   "depends": [
     
   ],
@@ -4076,32 +4061,6 @@
 {
   "author": "atweiden",
   "depends": [
-    "Digest::xxHash"
-  ],
-  "description": "Double-entry accounting ledger parser",
-  "license": "Unlicense",
-  "name": "TXN::Parser",
-  "perl": "6.*",
-  "provides": {
-    "TXN::Parser": "lib/TXN/Parser.pm6",
-    "TXN::Parser::Actions": "lib/TXN/Parser/Actions.pm6",
-    "TXN::Parser::Grammar": "lib/TXN/Parser/Grammar.pm6",
-    "TXN::Parser::ParseTree": "lib/TXN/Parser/ParseTree.pm6",
-    "TXN::Parser::Types": "lib/TXN/Parser/Types.pm6",
-    "X::TXN::Parser": "lib/X/TXN/Parser.pm6"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/atweiden/txn-parser.git",
-  "support": {
-    "bugtracker": "https://github.com/atweiden/txn-parser/issues",
-    "source": "https://github.com/atweiden/txn-parser"
-  },
-  "version": "0.1.0"
-}
-,
-{
-  "author": "atweiden",
-  "depends": [
     "File::Path::Resolve",
     "File::Presence",
     "TXN::Parser"
@@ -5771,6 +5730,51 @@
 }
 ,
 {
+  "auth": "github:codesections",
+  "authors": [
+    "Daniel Sockwell"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Pod::Literate:auth<github:codesections>",
+    "Pod::Load:ver<0.5.2>",
+    "Pod::To::HTML:auth<github:Raku>",
+    "Pod::To::Markdown:ver<v0.1.4>",
+    "Pod::To::Text"
+  ],
+  "description": "Weave documentation from Raku source",
+  "license": "Artistic-2.0",
+  "name": "Pod::Weave",
+  "perl": "6.d",
+  "provides": {
+    "Pod::Weave": "lib/Pod/Weave.rakumod",
+    "Pod::Weave::To::HTML": "lib/Pod/Weave/To/HTML.rakumod",
+    "Pod::Weave::To::Markdown": "lib/Pod/Weave/To/Markdown.rakumod",
+    "Pod::Weave::To::Text": "lib/Pod/Weave/To/Text.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/codesections/pod-weave.git",
+  "support": {
+    "email": "daniel@codesections.com"
+  },
+  "tags": [
+    "literate programming",
+    "pod",
+    "weave",
+    "tangle",
+    "documentation"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "author": "Yecheng Fu",
   "depends": [
     
@@ -5788,22 +5792,6 @@
     "File::Which"
   ],
   "version": "0.1.1"
-}
-,
-{
-  "authors": "Will “Coke” Coleda",
-  "depends": [
-    
-  ],
-  "description": "Guess the number of syllables in an English word",
-  "license": "Artistic-2.0",
-  "name": "Lingua::EN::Syllable",
-  "perl": "6.*",
-  "provides": {
-    "Lingua::EN::Syllable": "lib/Lingua/EN/Syllable.rakumod"
-  },
-  "source-url": "git://github.com/coke/raku-lingua-en-syllable.git",
-  "version": "1.0.2"
 }
 ,
 {
@@ -5871,6 +5859,22 @@
   "source-type": "git",
   "source-url": "git://github.com/colomon/ABC.git",
   "version": "0.6.13"
+}
+,
+{
+  "depends": [
+    "SVG",
+    "SVG::Plot"
+  ],
+  "description": "Simple benchmark graphing script",
+  "name": "Benchmark::Plot",
+  "perl": "6.*",
+  "provides": {
+    
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/colomon/Benchmark-Plot.git",
+  "version": "*"
 }
 ,
 {
@@ -9752,22 +9756,6 @@
     "Algorithm::Elo": "lib/Algorithm/Elo.pm"
   },
   "source-url": "https://github.com/hoelzro/p6-algorithm-elo.git",
-  "version": "0.1.0"
-}
-,
-{
-  "author": "Rob Hoelz",
-  "depends": [
-    
-  ],
-  "description": "Implementation of the longest common subsequence algorithm",
-  "license": "MIT",
-  "name": "Algorithm::LCS",
-  "perl": "6.*",
-  "provides": {
-    "Algorithm::LCS": "lib/Algorithm/LCS.pm"
-  },
-  "source-url": "git://github.com/hoelzro/p6-algorithm-lcs.git",
   "version": "0.1.0"
 }
 ,
@@ -15301,19 +15289,6 @@
   "authors": [
     "Rajkumar Reddy"
   ],
-  "description": "using Aria",
-  "name": "Aria",
-  "provides": {
-    "Aria": "lib/Aria.pm6"
-  },
-  "source-url": "git://github.com/palapitta/Aria",
-  "version": "0.1.4"
-}
-,
-{
-  "authors": [
-    "Rajkumar Reddy"
-  ],
   "description": "Encode and Decode Bencoding strings",
   "name": "Bencode",
   "provides": {
@@ -17198,43 +17173,6 @@
   },
   "source-url": "git://github.com/raku-community-modules/Form.git",
   "version": "*"
-}
-,
-{
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Implement Common Lisp formatter for Raku",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "Format::Lisp",
-  "perl": "6.c",
-  "provides": {
-    "Format::Lisp": "lib/Format/Lisp.pm6",
-    "Format::Lisp::Actions": "lib/Format/Lisp/Actions.pm6",
-    "Format::Lisp::Grammar": "lib/Format/Lisp/Grammar.pm6"
-  },
-  "source-url": "https://github.com/raku-community-modules/Format-Lisp.git",
-  "support": {
-    "source": "https://github.com/raku-community-modules/Format-Lisp"
-  },
-  "tags": [
-    "format",
-    "formatter",
-    "formatiing",
-    "Lisp"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.1"
 }
 ,
 {
@@ -21270,23 +21208,6 @@
 {
   "auth": "github:shuppet",
   "authors": [
-    "Kane 'kawaii' Valentine <kane@cute.im>"
-  ],
-  "description": "Perl 6 module for interacting with the Source RCON (remote console) protocol.",
-  "license": "BSD-3-Clause",
-  "name": "Net::RCON",
-  "perl": "6.c",
-  "provides": {
-    "Net::RCON": "lib/Net/RCON.pm6"
-  },
-  "repo-type": "git",
-  "source-url": "git://github.com/shuppet/p6-net-rcon.git",
-  "version": "0.0.1"
-}
-,
-{
-  "auth": "github:shuppet",
-  "authors": [
     "Alastair 'altreus' Douglas <altreus@altre.us>",
     "Jonathan 'jnthn' Worthington <jnthn@jnthn.net>",
     "Kane 'kawaii' Valentine <kane@cute.im>"
@@ -22426,22 +22347,6 @@
   },
   "source-url": "git://github.com/sylvarant/Avro.git",
   "version": "0.1.1"
-}
-,
-{
-  "author": "sylvarant",
-  "depends": [
-    "NativeCall",
-    "LibraryMake"
-  ],
-  "description": "Brotli compression using NativeCall",
-  "name": "Compress::Brotli",
-  "perl": "6.*",
-  "provides": {
-    "Compress::Brotli": "lib/Compress/Brotli.pm"
-  },
-  "source-url": "git://github.com/sylvarant/Compress-Brotli.git",
-  "version": "0.1.0"
 }
 ,
 {
@@ -24984,41 +24889,6 @@
     "JSON::Fast"
   ],
   "version": "0.2"
-}
-,
-{
-  "auth": "zef:tony-o",
-  "authors": [
-    "tony-o"
-  ],
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    
-  ],
-  "description": "libcsv wrapper + Parser",
-  "name": "Text::CSV::LibCSV",
-  "perl": "6.*",
-  "provides": {
-    "Text::CSV::LibCSV": "lib/Text/CSV/LibCSV.pm6",
-    "Text::CSV::LibCSV::Native": "lib/Text/CSV/LibCSV/Native.pm6"
-  },
-  "resources": [
-    "lib/libcsvwrap.so",
-    "lib/libcsvwrap.dll",
-    "lib/libcsvwrap.dylib"
-  ],
-  "source-url": "git://github.com/tony-o/perl6-libcsv.git",
-  "tags": [
-    "csv",
-    "parser",
-    "native"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
 }
 ,
 {
