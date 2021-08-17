@@ -58365,6 +58365,44 @@
     "runtime": {
       "requires": [
         "JSON::Class:ver<0.0.16+>",
+        "Lumberjack:ver<0.1.1+>"
+      ]
+    }
+  },
+  "description": "Simple Lumberjack configuration through JSON",
+  "license": "Artistic-2.0",
+  "meta-version": "2",
+  "name": "Lumberjack::Config::JSON",
+  "provides": {
+    "Lumberjack::Config::JSON": "lib/Lumberjack/Config/JSON.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Lumberjack-Config-JSON-0.0.2.tar.gz",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Lumberjack-Config-JSON.git"
+  },
+  "tags": [
+    "logging",
+    "configuration",
+    "JSON"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "JSON::Class:ver<0.0.16+>",
         "Lumberjack::Message::JSON:ver<0.0.2+>",
         "EventSource::Server",
         "Lumberjack:ver<0.1.1+>"
