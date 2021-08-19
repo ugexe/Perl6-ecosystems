@@ -92044,6 +92044,37 @@
 }
 ,
 {
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Proc::Easy"
+  ],
+  "description": "Provides an easy interface to the GNU 'time' command",
+  "license": "Artistic-2.0",
+  "name": "GNU::Time",
+  "perl": "6.d",
+  "provides": {
+    "GNU::Time": "lib/GNU/Time.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/GNU-Time-0.0.1.tar.gz",
+  "tags": [
+    "POSIX time function"
+  ],
+  "test-depends": [
+    "File::Temp"
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "auth": "github:tbrowder",
   "author": "github:tbrowder",
   "authors": [
