@@ -108795,6 +108795,39 @@
     
   ],
   "depends": [
+    "CSS::Grammar:ver<0.3.9+>",
+    "JSON::Fast"
+  ],
+  "description": "CSS3 Module Level 3 Selectors",
+  "license": "Artistic-2.0",
+  "name": "CSS::Module::CSS3::Selectors",
+  "perl": "6.*",
+  "provides": {
+    "CSS::Module::CSS3::Selectors": "lib/CSS/Module/CSS3/Selectors.rakumod",
+    "CSS::Module::CSS3::Selectors::Actions": "lib/CSS/Module/CSS3/Selectors/Actions.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Module-CSS3-Selectors-0.0.5.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "CSS::Module:ver<0.5.7+>",
     "CSS::Writer:ver<0.2.6+>",
     "Color",
@@ -109113,6 +109146,43 @@
     
   ],
   "version": "0.4.10"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Grammar:ver<0.3.9+>",
+    "Color::Names"
+  ],
+  "description": "CSS Property definition grammar and generation tools",
+  "license": "Artistic-2.0",
+  "name": "CSS::Specification",
+  "perl": "6.c",
+  "provides": {
+    "CSS::Specification": "lib/CSS/Specification.rakumod",
+    "CSS::Specification::AST": "lib/CSS/Specification/AST.rakumod",
+    "CSS::Specification::Actions": "lib/CSS/Specification/Actions.rakumod",
+    "CSS::Specification::Build": "lib/CSS/Specification/Build.rakumod",
+    "CSS::Specification::Defs": "lib/CSS/Specification/Defs.rakumod",
+    "CSS::Specification::Defs::Actions": "lib/CSS/Specification/Defs/Actions.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Specification-0.4.11.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.4.11"
 }
 ,
 {
