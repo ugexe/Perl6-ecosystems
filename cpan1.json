@@ -53445,6 +53445,44 @@
 }
 ,
 {
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP"
+  ],
+  "description": "A Cro::HTTP::BodySerializer that knows about JSON::Class objects",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Cro::HTTP::BodySerializerJSONClass",
+  "provides": {
+    "Cro::HTTP::BodySerializerJSONClass": "lib/Cro/HTTP/BodySerializerJSONClass.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Cro-HTTP-BodySerializerJSONClass-0.0.1.tar.gz",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/cro-http-bodyserializerjsonclass.git"
+  },
+  "tags": [
+    "cro",
+    "json",
+    "serializer"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
