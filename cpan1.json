@@ -23084,37 +23084,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Slang-Subscripts-0.0.2.tar.gz",
-  "tags": [
-    "UTILS"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Allow subscripts in identifiers, just as digits",
-  "license": "Artistic-2.0",
-  "name": "Slang::Subscripts",
-  "perl": "6.c",
-  "provides": {
-    "Slang::Subscripts": "lib/Slang/Subscripts.pm6"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Slang-Subscripts-0.0.3.tar.gz",
   "tags": [
     "UTILS"
@@ -109155,49 +109124,6 @@
     "CSS::Properties::Font": "lib/CSS/Properties/Font.rakumod",
     "CSS::Properties::Optimizer": "lib/CSS/Properties/Optimizer.rakumod",
     "CSS::Properties::Property": "lib/CSS/Properties/Property.rakumod",
-    "CSS::Properties::Units": "lib/CSS/Properties/Units.rakumod",
-    "CSS::Units": "lib/CSS/Units.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Properties-0.7.0.tar.gz",
-  "tags": [
-    "css"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.7.0"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Module:ver<0.5.7+>",
-    "CSS::Writer:ver<0.2.6+>",
-    "Color",
-    "Method::Also"
-  ],
-  "description": "CSS property manipulation library",
-  "license": "Artistic-2.0",
-  "name": "CSS::Properties",
-  "perl": "6.*",
-  "provides": {
-    "CSS::Box": "lib/CSS/Box.rakumod",
-    "CSS::Font": "lib/CSS/Font.rakumod",
-    "CSS::PageBox": "lib/CSS/PageBox.rakumod",
-    "CSS::Properties": "lib/CSS/Properties.rakumod",
-    "CSS::Properties::Calculator": "lib/CSS/Properties/Calculator.rakumod",
-    "CSS::Properties::Font": "lib/CSS/Properties/Font.rakumod",
-    "CSS::Properties::Optimizer": "lib/CSS/Properties/Optimizer.rakumod",
-    "CSS::Properties::Property": "lib/CSS/Properties/Property.rakumod",
     "CSS::Units": "lib/CSS/Units.rakumod"
   },
   "resources": [
@@ -109253,48 +109179,6 @@
     
   ],
   "version": "0.7.2"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Module:ver<0.5.7+>",
-    "CSS::Writer:ver<0.2.6+>",
-    "Color",
-    "Method::Also"
-  ],
-  "description": "CSS property manipulation library",
-  "license": "Artistic-2.0",
-  "name": "CSS::Properties",
-  "perl": "6.*",
-  "provides": {
-    "CSS::Box": "lib/CSS/Box.rakumod",
-    "CSS::Font": "lib/CSS/Font.rakumod",
-    "CSS::PageBox": "lib/CSS/PageBox.rakumod",
-    "CSS::Properties": "lib/CSS/Properties.rakumod",
-    "CSS::Properties::Calculator": "lib/CSS/Properties/Calculator.rakumod",
-    "CSS::Properties::Font": "lib/CSS/Properties/Font.rakumod",
-    "CSS::Properties::Optimizer": "lib/CSS/Properties/Optimizer.rakumod",
-    "CSS::Properties::Property": "lib/CSS/Properties/Property.rakumod",
-    "CSS::Units": "lib/CSS/Units.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Properties-0.7.3.tar.gz",
-  "tags": [
-    "css"
-  ],
-  "test-depends": [
-    "JSON::Fast"
-  ],
-  "version": "0.7.3"
 }
 ,
 {
