@@ -47771,6 +47771,39 @@
 ,
 {
   "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CBOR::Simple",
+    "JSON::Fast"
+  ],
+  "description": "Log tasks with start/end periods and phases, as well as individual events.",
+  "license": "Artistic-2.0",
+  "name": "Log::Timeline",
+  "perl": "6.d",
+  "provides": {
+    "Log::Timeline": "lib/Log/Timeline.pm6",
+    "Log::Timeline::Model": "lib/Log/Timeline/Model.pm6",
+    "Log::Timeline::Output": "lib/Log/Timeline/Output.pm6",
+    "Log::Timeline::Output::CBORSequence": "lib/Log/Timeline/Output/CBORSequence.pm6",
+    "Log::Timeline::Output::JSONLines": "lib/Log/Timeline/Output/JSONLines.pm6",
+    "Log::Timeline::Output::Socket": "lib/Log/Timeline/Output/Socket.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/Log-Timeline-0.4.tar.gz",
+  "test-depends": [
+    
+  ],
+  "version": "0.4"
+}
+,
+{
+  "authors": [
     "Jonathan Worthington"
   ],
   "depends": [
