@@ -64024,6 +64024,54 @@
     
   ],
   "depends": [
+    "SDL"
+  ],
+  "description": "A Sierra Quest Game Kit written in Raku",
+  "license": "General Public License 2, Artistic-2.0",
+  "name": "Game::Quest",
+  "perl": "6.c",
+  "provides": {
+    "Game::Quest::BAM": "lib/Game/Quest/BAM.pm6",
+    "Game::Quest::BAMAction": "lib/Game/Quest/BAMAction.pm6",
+    "Game::Quest::BAMatrix": "lib/Game/Quest/BAMatrix.pm6",
+    "Game::Quest::Entity": "lib/Game/Quest/Entity.pm6",
+    "Game::Quest::EntityDownUpdate": "lib/Game/Quest/EntityDownUpdate.pm6",
+    "Game::Quest::EntityLeftUpdate": "lib/Game/Quest/EntityLeftUpdate.pm6",
+    "Game::Quest::EntityNoUpdate": "lib/Game/Quest/EntityNoUpdate.pm6",
+    "Game::Quest::EntityRightUpdate": "lib/Game/Quest/EntityRightUpdate.pm6",
+    "Game::Quest::EntityUpUpdate": "lib/Game/Quest/EntityUpUpdate.pm6",
+    "Game::Quest::EntityUpdate": "lib/Game/Quest/EntityUpdate.pm6",
+    "Game::Quest::ImageLibrary": "lib/Game/Quest/ImageLibrary.pm6",
+    "Game::Quest::LoopObject": "lib/Game/Quest/LoopObject.pm6",
+    "Game::Quest::Player": "lib/Game/Quest/Player.pm6",
+    "Game::Quest::Quest": "lib/Game/Quest/Quest.pm6",
+    "Game::Quest::Quest-Demo": "lib/Game/Quest/Quest-Demo.pl6",
+    "Game::Quest::Room": "lib/Game/Quest/Room.pm6",
+    "Game::Quest::Screen": "lib/Game/Quest/Screen.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/Game-Quest-0.1.5.tar.gz",
+  "tags": [
+    "Game::Quest"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.5"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Minimal Statistics package.",
