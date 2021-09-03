@@ -9473,6 +9473,43 @@
   ],
   "depends": [
     "Array::Sorted::Util:ver<0.0.6>:auth<cpan:ELIZABETH>",
+    "Cro::HTTP::Router:ver<0.8.6>",
+    "Cro::WebApp::Template:ver<0.8.6>",
+    "IRC::Channel::Log:ver<0.0.34>:auth<cpan:ELIZABETH>",
+    "JSON::Fast:ver<0.16>",
+    "RandomColor"
+  ],
+  "description": "Cro application for presentating IRC logs",
+  "license": "Artistic-2.0",
+  "name": "App::IRC::Log",
+  "perl": "6.d",
+  "provides": {
+    "App::IRC::Log": "lib/App/IRC/Log.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/App-IRC-Log-0.0.20.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Cro::HTTP::Server:ver<0.8.6>",
+    "IRC::Log::Colabti:ver<0.0.30>:auth<cpan:ELIZABETH>"
+  ],
+  "version": "0.0.20"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Array::Sorted::Util:ver<0.0.6>:auth<cpan:ELIZABETH>",
     "Cro::HTTP::Router:ver<0.8.5>",
     "Cro::WebApp::Template:ver<0.8.5>",
     "IRC::Channel::Log:ver<0.0.30>:auth<cpan:ELIZABETH>",
@@ -64259,6 +64296,50 @@
     
   ],
   "version": "0.1.3"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "SDL"
+  ],
+  "description": "A Sierra Quest Game Kit written in Raku",
+  "license": "General Public License 2, Artistic-2.0",
+  "name": "Game::Quest",
+  "perl": "6.c",
+  "provides": {
+    "Game::Quest::Entity": "lib/Game/Quest/Entity.pm6",
+    "Game::Quest::EntityDownUpdate": "lib/Game/Quest/EntityDownUpdate.pm6",
+    "Game::Quest::EntityLeftUpdate": "lib/Game/Quest/EntityLeftUpdate.pm6",
+    "Game::Quest::EntityNoUpdate": "lib/Game/Quest/EntityNoUpdate.pm6",
+    "Game::Quest::EntityRightUpdate": "lib/Game/Quest/EntityRightUpdate.pm6",
+    "Game::Quest::EntityUpUpdate": "lib/Game/Quest/EntityUpUpdate.pm6",
+    "Game::Quest::EntityUpdate": "lib/Game/Quest/EntityUpdate.pm6",
+    "Game::Quest::ImageLibrary": "lib/Game/Quest/ImageLibrary.pm6",
+    "Game::Quest::Player": "lib/Game/Quest/Player.pm6",
+    "Game::Quest::Quest": "lib/Game/Quest/Quest.pm6",
+    "Game::Quest::Quest-Demo": "lib/Game/Quest/Quest-Demo.pl6",
+    "Game::Quest::Room": "lib/Game/Quest/Room.pm6",
+    "Game::Quest::Screen": "lib/Game/Quest/Screen.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/Game-Quest-0.1.4.tar.gz",
+  "tags": [
+    "Game::Quest"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.4"
 }
 ,
 {
