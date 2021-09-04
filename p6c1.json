@@ -14195,8 +14195,8 @@
   "depends": [
     
   ],
-  "description": "Various Perl 6 Sequences for spirals in matrix (two-dimensional arrays).",
-  "license": "Artistic-2.0",
+  "description": "Various Raku Sequences for spirals in matrix (two-dimensional arrays).",
+  "license": "Apache-2.0",
   "name": "Algorithm::SpiralMatrix",
   "perl": "6.d",
   "production": 1,
@@ -14220,7 +14220,7 @@
     "Test",
     "Test::META"
   ],
-  "version": "0.5"
+  "version": "0.6.0"
 }
 ,
 {
@@ -14228,17 +14228,22 @@
   "authors": [
     "Michal Jurosz"
   ],
+  "build-depends": [
+    
+  ],
   "depends": [
     
   ],
-  "description": "Simple templates for Perl 6",
-  "license": "Artistic-2.0",
+  "description": "Simple templates for Raku",
+  "license": "Apache-2.0",
   "name": "SP6",
-  "perl": "6",
+  "perl": "6.d",
+  "production": 1,
   "provides": {
-    "SP6": "lib/SP6.pm6",
-    "SP6::ProcessMethods": "lib/SP6/ProcessMethods.pm6"
+    "SP6": "lib/SP6.rakumod",
+    "SP6::ProcessMethods": "lib/SP6/ProcessMethods.rakumod"
   },
+  "raku": "6.d",
   "source-type": "git",
   "source-url": "git://github.com/mj41/SP6.git",
   "support": {
@@ -14246,12 +14251,14 @@
     "license": "http://www.perlfoundation.org/artistic_license_2_0"
   },
   "tags": [
-    "template"
+    "template",
+    "slang"
   ],
   "test-depends": [
-    "Test"
+    "Test",
+    "Test::META"
   ],
-  "version": "0.1.1"
+  "version": "0.2.1"
 }
 ,
 {
