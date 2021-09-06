@@ -66886,6 +66886,53 @@
 ,
 {
   "authors": [
+    "Marcel Timmerman",
+    "Paweł Pabian"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "OpenSSL",
+    "UUID",
+    "Method::Also"
+  ],
+  "description": "BSON encoding/decoding, used in MongoDB drivers",
+  "history": [
+    "Paweł Pabian worked on it from 2011 until January 2015",
+    "Marcel Timmerman took over in Januari 2015 and is working on it until the present day"
+  ],
+  "license": "Artistic-2.0",
+  "name": "BSON",
+  "perl": "6.d",
+  "provides": {
+    "BSON": "lib/BSON.pm6",
+    "BSON::Binary": "lib/BSON/Binary.pm6",
+    "BSON::Decimal128": "lib/BSON/Decimal128.pm6",
+    "BSON::Decimal128::Actions": "lib/BSON/Decimal128/Actions.pm6",
+    "BSON::Decimal128::Grammar": "lib/BSON/Decimal128/Grammar.pm6",
+    "BSON::Decode": "lib/BSON/Decode.pm6",
+    "BSON::Document": "lib/BSON/Document.pm6",
+    "BSON::Encode": "lib/BSON/Encode.pm6",
+    "BSON::Javascript": "lib/BSON/Javascript.pm6",
+    "BSON::ObjectId": "lib/BSON/ObjectId.pm6",
+    "BSON::Ordered": "lib/BSON/Ordered.pm6",
+    "BSON::Regex": "lib/BSON/Regex.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/BSON-0.13.2.tar.gz",
+  "tags": [
+    "bson",
+    "binary json",
+    "serialize"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.13.2"
+}
+,
+{
+  "authors": [
     "Marcel Timmerman"
   ],
   "depends": [
