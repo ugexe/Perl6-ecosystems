@@ -56708,6 +56708,48 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP::Client",
+    "JSON::Class",
+    "Test::Mock"
+  ],
+  "description": "Access AWS IAM role credentials within EC2",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Kivuli",
+  "provides": {
+    "Kivuli": "lib/Kivuli.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Kivuli-0.0.1.tar.gz",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Kivuli.git"
+  },
+  "tags": [
+    "AWS",
+    "IAM",
+    "EC2",
+    "credentials"
+  ],
+  "test-depends": [
+    "Test::Mock"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
@@ -109589,6 +109631,44 @@
     
   ],
   "depends": [
+    "CSS::Properties:ver<0.7.5+>",
+    "Temp::Path",
+    "LWP::Simple",
+    "URI:ver<0.3.2+>"
+  ],
+  "description": "CSS Font Resource selection and loading",
+  "license": "Artistic-2.0",
+  "name": "CSS::Font::Resources",
+  "perl": "6.*",
+  "provides": {
+    "CSS::Font::Resources": "lib/CSS/Font/Resources.rakumod",
+    "CSS::Font::Resources::Source": "lib/CSS/Font/Resources/Source.rakumod",
+    "CSS::Font::Resources::Source::Local": "lib/CSS/Font/Resources/Source/Local.rakumod",
+    "CSS::Font::Resources::Source::Url": "lib/CSS/Font/Resources/Source/Url.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Font-Resources-0.0.2.tar.gz",
+  "tags": [
+    "css",
+    "font"
+  ],
+  "test-depends": [
+    "JSON::Fast"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "JSON::Fast"
   ],
   "description": "Raku core CSS grammars",
@@ -110407,6 +110487,47 @@
     
   ],
   "version": "0.0.22"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Font::Resources",
+    "CSS::Module:ver<0.5.8+>",
+    "CSS::Properties:ver<0.7.5+>",
+    "CSS::Selector::To::XPath",
+    "CSS::Writer:ver<0.2.7>",
+    "Method::Also"
+  ],
+  "description": "CSS Stylesheet representation",
+  "license": "Artistic-2.0",
+  "name": "CSS::Stylesheet",
+  "perl": "6.c",
+  "provides": {
+    "CSS::AtPageRule": "lib/CSS/AtPageRule.rakumod",
+    "CSS::Media": "lib/CSS/Media.rakumod",
+    "CSS::MediaQuery": "lib/CSS/MediaQuery.rakumod",
+    "CSS::Ruleset": "lib/CSS/Ruleset.rakumod",
+    "CSS::Selectors": "lib/CSS/Selectors.rakumod",
+    "CSS::Stylesheet": "lib/CSS/Stylesheet.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Stylesheet-0.0.23.tar.gz",
+  "tags": [
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.23"
 }
 ,
 {
