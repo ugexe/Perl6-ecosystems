@@ -21738,6 +21738,38 @@
   "depends": [
     
   ],
+  "description": "Implement Perl's readlink() built-in",
+  "license": "Artistic-2.0",
+  "name": "P5readlink",
+  "perl": "6.c",
+  "provides": {
+    "P5readlink": "lib/P5readlink.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5readlink-0.0.7.tar.gz",
+  "tags": [
+    "PERL5",
+    "CPAN5"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Raku port of Perl's readlink() built-in",
   "license": "Artistic-2.0",
   "name": "P5readlink",
