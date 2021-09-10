@@ -12174,6 +12174,38 @@
 }
 ,
 {
+  "auth": "zef:lizmat",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Hash::Agnostic:ver<0.0.10>:auth<zef:lizmat>",
+    "Array::Sorted::Util:ver<0.0.7>:auth<zef:lizmat>"
+  ],
+  "description": "customizable role for sorted Hashes",
+  "license": "Artistic-2.0",
+  "name": "Hash::Sorted",
+  "perl": "6.d",
+  "provides": {
+    "Hash::Sorted": "lib/Hash/Sorted.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Hash-Sorted-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "auth": "cpan:ELIZABETH",
   "authors": [
     "Elizabeth Mattijsen"
