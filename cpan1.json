@@ -54939,6 +54939,47 @@
   "depends": [
     
   ],
+  "description": "A simple handler to provide Server Sent Events from a Raku application",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "EventSource::Server",
+  "perl": "6.*",
+  "provides": {
+    "EventSource::Server": "lib/EventSource/Server.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/EventSource-Server-0.0.10.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/EventSource-Server/issues",
+    "email": "jns+eventsourceserver@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/EventSource-Server.git"
+  },
+  "tags": [
+    "async",
+    "event",
+    "web"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.10"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "A simple handler to provide Server Sent Events from a PSGI app",
   "license": "Artistic-2.0",
   "meta-version": "0",
