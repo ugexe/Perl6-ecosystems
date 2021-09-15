@@ -111638,6 +111638,48 @@
     "David Warring"
   ],
   "build-depends": [
+    
+  ],
+  "depends": [
+    "HTML::Canvas:ver<0.0.19+>",
+    "JSON::Fast",
+    "PDF:ver<0.4.4+>",
+    "PDF::Lite",
+    "PDF::Content:ver<0.5.6+>",
+    "PDF::Font::Loader:ver<0.3.0+>",
+    "Color",
+    "CSS::Properties:ver<0.7.5+>",
+    "CSS::Font::Resources:ver<0.0.3+>",
+    "Text::FriBidi"
+  ],
+  "description": "PDF Rendering backend for the HTML Canvas (2D) API",
+  "license": "Artistic-2.0",
+  "name": "HTML::Canvas::To::PDF",
+  "perl": "6.c",
+  "provides": {
+    "HTML::Canvas::To::PDF": "lib/HTML/Canvas/To/PDF.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-To-PDF-0.0.7.tar.gz",
+  "tags": [
+    "html",
+    "javascript",
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
     "LibraryMake"
   ],
   "depends": [
