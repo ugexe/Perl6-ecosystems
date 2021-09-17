@@ -9540,12 +9540,12 @@
   "name": "Digest",
   "perl": "6.*",
   "provides": {
-    "Digest": "lib/Digest.pm",
-    "Digest::RIPEMD": "lib/Digest/RIPEMD.pm",
-    "Digest::SHA": "lib/Digest/SHA.pm"
+    "Digest": "lib/Digest.rakumod",
+    "Digest::RIPEMD": "lib/Digest/RIPEMD.rakumod",
+    "Digest::SHA": "lib/Digest/SHA.rakumod"
   },
-  "source-url": "git://github.com/grondilu/libdigest-perl6.git",
-  "version": "0.3.4"
+  "source-url": "git://github.com/grondilu/libdigest-raku.git",
+  "version": "0.4.0"
 }
 ,
 {
