@@ -3317,6 +3317,40 @@
     "Brian Duggan"
   ],
   "depends": [
+    "Terminal::ANSI:ver<0.0.20>",
+    "Log::Async"
+  ],
+  "description": "A framework for building terminal interfaces",
+  "license": "MIT",
+  "name": "Terminal::UI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::UI": "lib/Terminal/UI.rakumod",
+    "Terminal::UI::Alerts": "lib/Terminal/UI/Alerts.rakumod",
+    "Terminal::UI::Frame": "lib/Terminal/UI/Frame.rakumod",
+    "Terminal::UI::Input": "lib/Terminal/UI/Input.rakumod",
+    "Terminal::UI::Pane": "lib/Terminal/UI/Pane.rakumod",
+    "Terminal::UI::Screen": "lib/Terminal/UI/Screen.rakumod",
+    "Terminal::UI::Style": "lib/Terminal/UI/Style.rakumod",
+    "Terminal::UI::Utils": "lib/Terminal/UI/Utils.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-UI-0.0.20.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.20"
+}
+,
+{
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
     "Terminal::ANSI:ver<0.0.12>",
     "Log::Async"
   ],
@@ -110876,6 +110910,47 @@
     
   ],
   "version": "0.0.24"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Font::Resources:ver<0.0.4+>",
+    "CSS::Module:ver<0.5.8+>",
+    "CSS::Properties:ver<0.7.5+>",
+    "CSS::Selector::To::XPath",
+    "CSS::Writer:ver<0.2.8+>",
+    "Method::Also"
+  ],
+  "description": "CSS Stylesheet representation",
+  "license": "Artistic-2.0",
+  "name": "CSS::Stylesheet",
+  "perl": "6.c",
+  "provides": {
+    "CSS::AtPageRule": "lib/CSS/AtPageRule.rakumod",
+    "CSS::Media": "lib/CSS/Media.rakumod",
+    "CSS::MediaQuery": "lib/CSS/MediaQuery.rakumod",
+    "CSS::Ruleset": "lib/CSS/Ruleset.rakumod",
+    "CSS::Selectors": "lib/CSS/Selectors.rakumod",
+    "CSS::Stylesheet": "lib/CSS/Stylesheet.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Stylesheet-0.0.25.tar.gz",
+  "tags": [
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.25"
 }
 ,
 {
