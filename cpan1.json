@@ -23479,6 +23479,38 @@
 }
 ,
 {
+  "auth": "zef:lizmat",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Implement (==) for older Raku versions",
+  "license": "Artistic-2.0",
+  "name": "Set::Equality",
+  "perl": "6.c",
+  "provides": {
+    "Implementation": "lib/Implementation.pm6",
+    "Set::Equality": "lib/Set/Equality.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Set-Equality-0.0.4.tar.gz",
+  "tags": [
+    "CORE"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "auth": "cpan:ELIZABETH",
   "authors": [
     "Elizabeth Mattijsen"
@@ -55568,6 +55600,48 @@
     "Test"
   ],
   "version": "0.0.4"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "FastCGI::NativeCall"
+  ],
+  "description": "A reactive wrapper for FastCGI::NatveCalll",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "FastCGI::NativeCall::Async",
+  "perl": "6.*",
+  "provides": {
+    "FastCGI::NativeCall::Async": "lib/FastCGI/NativeCall/Async.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/FastCGI-NativeCall-Async-0.0.5.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/FastCGI-NativeCall-Async/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/FastCGI-NativeCall-Async.git"
+  },
+  "tags": [
+    "http",
+    "fastcgi",
+    "fcgi",
+    "async"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.5"
 }
 ,
 {
