@@ -797,49 +797,6 @@
     "BookIntroduction.md",
     "BookIntroduction.org"
   ],
-  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Text-CodeProcessing-0.4.0.tar.gz",
-  "tags": [
-    "parser",
-    "evaluation",
-    "extraction",
-    "code processing",
-    "literate programming",
-    "markdown",
-    "org-mode",
-    "pod6",
-    "weaving",
-    "tangling"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.4.0"
-}
-,
-{
-  "api": "1",
-  "auth": "github:antononcube",
-  "authors": [
-    "Anton Antonov"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "A package with functions for processing of code chunks in documents of different types (like Markdown, Org-mode, Pod6.)",
-  "license": "Artistic-2.0",
-  "name": "Text::CodeProcessing",
-  "perl": "6.d",
-  "provides": {
-    "Text::CodeProcessing": "lib/Text/CodeProcessing.rakumod",
-    "Text::CodeProcessing::REPLSandbox": "lib/Text/CodeProcessing/REPLSandbox.rakumod"
-  },
-  "resources": [
-    "BookIntroduction.md",
-    "BookIntroduction.org"
-  ],
   "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Text-CodeProcessing-0.4.1.tar.gz",
   "tags": [
     "parser",
@@ -110781,46 +110738,6 @@
   "resources": [
     
   ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Stylesheet-0.0.21.tar.gz",
-  "tags": [
-    "css"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.21"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Module:ver<0.5.8+>",
-    "CSS::Properties:ver<0.6.6+>",
-    "CSS::Selector::To::XPath",
-    "CSS::Writer:ver<0.2.7>",
-    "Method::Also"
-  ],
-  "description": "CSS Stylesheet representation",
-  "license": "Artistic-2.0",
-  "name": "CSS::Stylesheet",
-  "perl": "6.c",
-  "provides": {
-    "CSS::AtPageRule": "lib/CSS/AtPageRule.rakumod",
-    "CSS::Media": "lib/CSS/Media.rakumod",
-    "CSS::MediaQuery": "lib/CSS/MediaQuery.rakumod",
-    "CSS::Ruleset": "lib/CSS/Ruleset.rakumod",
-    "CSS::Selectors": "lib/CSS/Selectors.rakumod",
-    "CSS::Stylesheet": "lib/CSS/Stylesheet.rakumod"
-  },
-  "resources": [
-    
-  ],
   "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Stylesheet-0.0.22.tar.gz",
   "tags": [
     "css"
@@ -111598,58 +111515,6 @@
     "Cairo",
     "Color",
     "CSS::Properties:ver<0.7.0+>",
-    "Font::FreeType:ver<0.3.7+>",
-    "HarfBuzz::Font::FreeType:ver<0.0.5+>",
-    "HarfBuzz::Shaper::Cairo",
-    "Text::FriBidi",
-    "Hash::Agnostic",
-    "JSON::Fast",
-    "Method::Also"
-  ],
-  "description": "Construction and rendering of HTML-5 Canvases",
-  "license": "Artistic-2.0",
-  "name": "HTML::Canvas",
-  "perl": "6.c",
-  "provides": {
-    "HTML::Canvas": "lib/HTML/Canvas.rakumod",
-    "HTML::Canvas::Gradient": "lib/HTML/Canvas/Gradient.rakumod",
-    "HTML::Canvas::Image": "lib/HTML/Canvas/Image.rakumod",
-    "HTML::Canvas::ImageData": "lib/HTML/Canvas/ImageData.rakumod",
-    "HTML::Canvas::Path2D": "lib/HTML/Canvas/Path2D.rakumod",
-    "HTML::Canvas::Pattern": "lib/HTML/Canvas/Pattern.rakumod",
-    "HTML::Canvas::To::Cairo": "lib/HTML/Canvas/To/Cairo.rakumod",
-    "HTML::Canvas::Tracer": "lib/HTML/Canvas/Tracer.rakumod"
-  },
-  "resources": [
-    "font/FreeMono.ttf"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-0.0.16.tar.gz",
-  "tags": [
-    "html",
-    "javascript",
-    "png",
-    "svg",
-    "pdf"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.16"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Base64::Native",
-    "Cairo",
-    "Color",
-    "CSS::Properties:ver<0.7.0+>",
     "CSS::Font::Resources:ver<0.0.2+>",
     "Font::FreeType:ver<0.3.7+>",
     "HarfBuzz::Font::FreeType:ver<0.0.5+>",
@@ -111791,33 +111656,6 @@
     
   ],
   "version": "0.0.19"
-}
-,
-{
-  "auth": "github:pdf-raku",
-  "depends": [
-    "HTML::Canvas:ver<0.0.11+>",
-    "JSON::Fast",
-    "PDF::Lite",
-    "PDF::Content",
-    "Color",
-    "PDF::Font::Loader:ver<0.3.0+>",
-    "CSS::Properties"
-  ],
-  "description": "PDF Rendering backend for the HTML Canvas (2D) API",
-  "license": "Artistic-2.0",
-  "name": "HTML::Canvas::To::PDF",
-  "perl": "6.c",
-  "provides": {
-    "HTML::Canvas::To::PDF": "lib/HTML/Canvas/To/PDF.rakumod"
-  },
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HTML-Canvas-To-PDF-0.0.4.tar.gz",
-  "tags": [
-    "html",
-    "javascript",
-    "pdf"
-  ],
-  "version": "0.0.4"
 }
 ,
 {
@@ -113425,72 +113263,6 @@
     
   ],
   "version": "0.4.15"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Base64::Native",
-    "Color",
-    "Compress::Zlib::Raw",
-    "Font::AFM:ver<1.24.4+>",
-    "Native::Packing",
-    "Method::Also",
-    "JSON::Fast",
-    "PDF:ver<0.4.6+>",
-    "PDF::Grammar"
-  ],
-  "description": "PDF content related classes; including text, images, fonts and graphics",
-  "license": "Artistic-2.0",
-  "name": "PDF::Content",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Content": "lib/PDF/Content.rakumod",
-    "PDF::Content::Color": "lib/PDF/Content/Color.rakumod",
-    "PDF::Content::Font": "lib/PDF/Content/Font.rakumod",
-    "PDF::Content::Font::CoreFont": "lib/PDF/Content/Font/CoreFont.rakumod",
-    "PDF::Content::Font::Enc::Glyphic": "lib/PDF/Content/Font/Enc/Glyphic.rakumod",
-    "PDF::Content::Font::Enc::Type1": "lib/PDF/Content/Font/Enc/Type1.rakumod",
-    "PDF::Content::Font::Encodings": "lib/PDF/Content/Font/Encodings.rakumod",
-    "PDF::Content::FontObj": "lib/PDF/Content/FontObj.rakumod",
-    "PDF::Content::Graphics": "lib/PDF/Content/Graphics.rakumod",
-    "PDF::Content::Image": "lib/PDF/Content/Image.rakumod",
-    "PDF::Content::Image::GIF": "lib/PDF/Content/Image/GIF.rakumod",
-    "PDF::Content::Image::JPEG": "lib/PDF/Content/Image/JPEG.rakumod",
-    "PDF::Content::Image::PDF": "lib/PDF/Content/Image/PDF.rakumod",
-    "PDF::Content::Image::PNG": "lib/PDF/Content/Image/PNG.rakumod",
-    "PDF::Content::Interface": "lib/PDF/Content/Interface.rakumod",
-    "PDF::Content::Matrix": "lib/PDF/Content/Matrix.rakumod",
-    "PDF::Content::Ops": "lib/PDF/Content/Ops.rakumod",
-    "PDF::Content::Page": "lib/PDF/Content/Page.rakumod",
-    "PDF::Content::PageNode": "lib/PDF/Content/PageNode.rakumod",
-    "PDF::Content::PageTree": "lib/PDF/Content/PageTree.rakumod",
-    "PDF::Content::ResourceDict": "lib/PDF/Content/ResourceDict.rakumod",
-    "PDF::Content::Resourced": "lib/PDF/Content/Resourced.rakumod",
-    "PDF::Content::Tag": "lib/PDF/Content/Tag.rakumod",
-    "PDF::Content::Text::Block": "lib/PDF/Content/Text/Block.rakumod",
-    "PDF::Content::Text::Box": "lib/PDF/Content/Text/Box.rakumod",
-    "PDF::Content::Text::Line": "lib/PDF/Content/Text/Line.rakumod",
-    "PDF::Content::Text::Style": "lib/PDF/Content/Text/Style.rakumod",
-    "PDF::Content::XObject": "lib/PDF/Content/XObject.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Content-0.5.3.tar.gz",
-  "tags": [
-    "pdf"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.5.3"
 }
 ,
 {
