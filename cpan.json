@@ -22448,38 +22448,6 @@
   "depends": [
     
   ],
-  "description": "Raku port of Perl's substr() built-in",
-  "license": "Artistic-2.0",
-  "name": "P5substr",
-  "perl": "6.c",
-  "provides": {
-    "P5substr": "lib/P5substr.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/P5substr-0.0.6.tar.gz",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.6"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
   "description": "Implement Perl 5's tie() built-in",
   "license": "Artistic-2.0",
   "name": "P5tie",
@@ -56816,6 +56784,47 @@
     "Test"
   ],
   "version": "0.0.5"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::OptIn"
+  ],
+  "description": "Provides a trait to store an alternative JSON Name",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "JSON::Name",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Name": "lib/JSON/Name.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Name-0.0.6.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/JSON-Name/issues",
+    "source": "git://github.com/jonathanstowe/JSON-Name.git"
+  },
+  "tags": [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.6"
 }
 ,
 {
