@@ -57118,6 +57118,45 @@
 }
 ,
 {
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provide a trait and role to identify opt-in JSON serialization",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "JSON::OptIn",
+  "provides": {
+    "JSON::OptIn": "lib/JSON/OptIn.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-OptIn-0.0.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/JSON-OptIn/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/JSON-OptIn.git"
+  },
+  "tags": [
+    "json",
+    "serialization",
+    "opt-in"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "authors": [
