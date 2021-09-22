@@ -56210,6 +56210,54 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "depends": {
+    "build": {
+      "requires": [
+        
+      ]
+    },
+    "runtime": {
+      "requires": [
+        "Archive::Libarchive",
+        "CPAN::Uploader::Tiny",
+        "META6",
+        "Oyatul",
+        "XDG::BaseDirectory"
+      ]
+    }
+  },
+  "description": "Expedient CPAN distribution packager and uploader",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Igo",
+  "perl": "6.*",
+  "provides": {
+    "Igo": "lib/Igo.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Igo-0.0.7.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/Igo/issues",
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Igo.git"
+  },
+  "tags": [
+    "cpan6",
+    "packager",
+    "uploader"
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
