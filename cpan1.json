@@ -24928,6 +24928,38 @@
   "depends": [
     
   ],
+  "description": "Implement Perl 5's Tie::StdArray core module",
+  "license": "Artistic-2.0",
+  "name": "Tie::StdArray",
+  "perl": "6.c",
+  "provides": {
+    "Tie::StdArray": "lib/Tie/StdArray.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Tie-StdArray-0.0.3.tar.gz",
+  "tags": [
+    "UTILS",
+    "CPAN5"
+  ],
+  "test-depends": [
+    "P5tie"
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:ELIZABETH",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Implement Perl's Tie::StdArray core module",
   "license": "Artistic-2.0",
   "name": "Tie::StdArray",
@@ -63672,6 +63704,63 @@
     
   ],
   "version": "1.1.0"
+}
+,
+{
+  "api": "2",
+  "auth": "github:Kaiepi",
+  "authors": [
+    "Ben Davies"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Concurrent::Queue",
+    "Kind"
+  ],
+  "description": "Automagic tracing",
+  "license": "Artistic-2.0",
+  "name": "Trait::Traced",
+  "perl": "6",
+  "provides": {
+    "MetamodelX::Traced::AdHocMethod": "lib/MetamodelX/Traced/AdHocMethod.pm6",
+    "MetamodelX::Traced::AttributeContainer": "lib/MetamodelX/Traced/AttributeContainer.pm6",
+    "MetamodelX::Traced::MetaMethodContainer": "lib/MetamodelX/Traced/MetaMethodContainer.pm6",
+    "MetamodelX::Traced::MethodContainer": "lib/MetamodelX/Traced/MethodContainer.pm6",
+    "MetamodelX::Traced::MultiMethodContainer": "lib/MetamodelX/Traced/MultiMethodContainer.pm6",
+    "MetamodelX::Traced::PrivateMethodContainer": "lib/MetamodelX/Traced/PrivateMethodContainer.pm6",
+    "Traced": "lib/Traced.pm6",
+    "Traced::Attribute": "lib/Traced/Attribute.pm6",
+    "Traced::Routine": "lib/Traced/Routine.pm6",
+    "Traced::Stash": "lib/Traced/Stash.pm6",
+    "Traced::Variable": "lib/Traced/Variable.pm6",
+    "Tracee": "lib/Tracee.pm6",
+    "Tracee::Bitty": "lib/Tracee/Bitty.pm6",
+    "Tracee::Pretty": "lib/Tracee/Pretty.pm6",
+    "Tracee::Standard": "lib/Tracee/Standard.pm6",
+    "Tracer": "lib/Tracer.pm6",
+    "Tracer::Default": "lib/Tracer/Default.pm6",
+    "Tracer::File": "lib/Tracer/File.pm6",
+    "Tracer::Memory": "lib/Tracer/Memory.pm6",
+    "Tracer::Stream": "lib/Tracer/Stream.pm6",
+    "Trait::Traced": "lib/Trait/Traced.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KA/KAIEPI/Perl6/Trait-Traced-1.1.1.tar.gz",
+  "tags": [
+    "trace",
+    "traced",
+    "tracee",
+    "tracer",
+    "metamodel"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.1.1"
 }
 ,
 {
