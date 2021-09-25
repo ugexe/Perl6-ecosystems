@@ -64071,6 +64071,42 @@
   "depends": [
     
   ],
+  "description": "Actor-based AI Agent system",
+  "license": "General Public License 3, Artistic-2.0",
+  "name": "AI::Agent",
+  "perl": "6.c",
+  "provides": {
+    "AI::Agent::Actor": "lib/AI/Agent/Actor.pm6",
+    "AI::Agent::Agent": "lib/AI/Agent/Agent.pm6",
+    "AI::Agent::DB": "lib/AI/Agent/DB.pm6",
+    "AI::Agent::HashedAgent": "lib/AI/Agent/HashedAgent.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KO/KOBOLDWIZ/Perl6/AI-Agent-0.2.10.tar.gz",
+  "tags": [
+    "AI",
+    "Agent"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.10"
+}
+,
+{
+  "api": "1",
+  "auth": "CPAN:HOLYGHOST",
+  "authors": [
+    "The Holy Ghost"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Wave (WAV) Sound system with pattern recognition",
   "license": "General Public License 3, Artistic-2.0",
   "name": "AI::NLP",
@@ -111158,6 +111194,49 @@
     
   ],
   "version": "0.0.22"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Module:ver<0.5.8+>",
+    "CSS::Properties:ver<0.6.6+>",
+    "CSS::Stylesheet:ver<0.0.27+>",
+    "Method::Also",
+    "URI:ver<0.3.3+>"
+  ],
+  "description": "CSS Markup Tag-Sets",
+  "license": "Artistic-2.0",
+  "name": "CSS::TagSet",
+  "perl": "6.c",
+  "provides": {
+    "CSS::TagSet": "lib/CSS/TagSet.rakumod",
+    "CSS::TagSet::Pango": "lib/CSS/TagSet/Pango.rakumod",
+    "CSS::TagSet::TaggedPDF": "lib/CSS/TagSet/TaggedPDF.rakumod",
+    "CSS::TagSet::XHTML": "lib/CSS/TagSet/XHTML.rakumod"
+  },
+  "resources": [
+    "pango.css",
+    "tagged-pdf.css",
+    "xhtml.css"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-TagSet-0.0.23.tar.gz",
+  "tags": [
+    "xml",
+    "html",
+    "xpath",
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.23"
 }
 ,
 {
