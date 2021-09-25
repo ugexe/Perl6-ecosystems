@@ -506,7 +506,6 @@
   "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "DateTime::Timezones",
-  "perl": "6.*",
   "provides": {
     "DateTime::Timezones": "lib/DateTime/Timezones.pm6",
     "DateTime::Timezones::Classes": "lib/DateTime/Timezones/Classes.pm6",
@@ -595,6 +594,7 @@
     "TZif/Pacific/Truk",
     "TZif/Pacific/Pitcairn",
     "TZif/Pacific/Marquesas",
+    "TZif/Pacific/Kanton",
     "TZif/Pacific/Bougainville",
     "TZif/Pacific/Tarawa",
     "TZif/Pacific/Rarotonga",
@@ -1123,7 +1123,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "0.3.5"
+  "version": "0.3.6"
 }
 ,
 {
