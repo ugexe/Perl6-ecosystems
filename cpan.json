@@ -110008,6 +110008,46 @@
     
   ],
   "depends": [
+    "CSS::Module:ver<0.5.8+>",
+    "CSS::Properties:ver<0.7.5+>",
+    "CSS::Stylesheet:ver<0.0.26+>",
+    "CSS::TagSet:ver<0.0.23+>",
+    "LibXML:ver<0.6.9+>",
+    "Method::Also",
+    "URI"
+  ],
+  "description": "CSS Stylesheet processing",
+  "license": "Artistic-2.0",
+  "name": "CSS",
+  "perl": "6.c",
+  "provides": {
+    "CSS": "lib/CSS.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.25.tar.gz",
+  "tags": [
+    "xml",
+    "html",
+    "xpath",
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.25"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "CSS::Properties:ver<0.7.5+>",
     "Temp::Path",
     "LWP::Simple",
