@@ -110048,6 +110048,46 @@
     
   ],
   "depends": [
+    "CSS::Module:ver<0.5.8+>",
+    "CSS::Properties:ver<0.7.5+>",
+    "CSS::Stylesheet:ver<0.0.28+>",
+    "CSS::TagSet:ver<0.0.23+>",
+    "LibXML:ver<0.6.9+>",
+    "Method::Also",
+    "URI"
+  ],
+  "description": "CSS Stylesheet processing",
+  "license": "Artistic-2.0",
+  "name": "CSS",
+  "perl": "6.c",
+  "provides": {
+    "CSS": "lib/CSS.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.26.tar.gz",
+  "tags": [
+    "xml",
+    "html",
+    "xpath",
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.26"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "CSS::Properties:ver<0.7.5+>",
     "Temp::Path",
     "LWP::Simple",
@@ -111108,6 +111148,48 @@
     
   ],
   "version": "0.0.27"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Font::Resources:ver<0.0.5+>",
+    "CSS::Module:ver<0.5.8+>",
+    "CSS::Properties:ver<0.7.5+>",
+    "CSS::Selector::To::XPath",
+    "CSS::Writer:ver<0.2.8+>",
+    "Method::Also",
+    "URI:ver<0.3.3+>"
+  ],
+  "description": "CSS Stylesheet representation",
+  "license": "Artistic-2.0",
+  "name": "CSS::Stylesheet",
+  "perl": "6.c",
+  "provides": {
+    "CSS::AtPageRule": "lib/CSS/AtPageRule.rakumod",
+    "CSS::Media": "lib/CSS/Media.rakumod",
+    "CSS::MediaQuery": "lib/CSS/MediaQuery.rakumod",
+    "CSS::Ruleset": "lib/CSS/Ruleset.rakumod",
+    "CSS::Selectors": "lib/CSS/Selectors.rakumod",
+    "CSS::Stylesheet": "lib/CSS/Stylesheet.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Stylesheet-0.0.28.tar.gz",
+  "tags": [
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.28"
 }
 ,
 {
