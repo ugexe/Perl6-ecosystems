@@ -19006,7 +19006,7 @@
 ,
 {
   "api": "1.0",
-  "auth": "github:Perl6-Noise-Gang",
+  "auth": "github:Raku-Noise-Gang",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>",
     "Pepe Schwarz <peschwa@gmail.com>"
@@ -19017,21 +19017,22 @@
   "depends": [
     "Util::Bitfield"
   ],
-  "description": "Perl6 MIDI access using the portmidi library",
+  "description": "Raku MIDI access using the portmidi library",
   "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "Audio::PortMIDI",
   "perl": "6.*",
   "provides": {
-    "Audio::PortMIDI": "lib/Audio/PortMIDI.pm"
+    "Audio::PortMIDI": "lib/Audio/PortMIDI.rakumod"
   },
+  "raku": "6.*",
   "resources": [
     
   ],
-  "source-url": "git://github.com/Perl6-Noise-Gang/Audio-PortMIDI.git",
+  "source-url": "git://github.com/Raku-Noise-Gang/Audio-PortMIDI.git",
   "support": {
-    "irc": "irc://irc.freenode.net/perl6-noise-gang",
-    "source": "git://github.com/Perl6-Noise-Gang/Audio-PortMIDI.git"
+    "irc": "irc://irc.freenode.net/raku-noise-gang",
+    "source": "git://github.com/Raku-Noise-Gang/Audio-PortMIDI.git"
   },
   "tags": [
     "MIDI",
@@ -19043,7 +19044,7 @@
   "test-depends": [
     "LibraryCheck"
   ],
-  "version": "0.0.10"
+  "version": "0.0.11"
 }
 ,
 {
