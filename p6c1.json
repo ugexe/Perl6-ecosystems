@@ -18982,7 +18982,7 @@
   "name": "Audio::PortAudio",
   "perl": "6.*",
   "provides": {
-    "Audio::PortAudio": "lib/Audio/PortAudio.pm"
+    "Audio::PortAudio": "lib/Audio/PortAudio.rakumod"
   },
   "raku": "6.*",
   "resources": [
@@ -19001,7 +19001,7 @@
   "test-depends": [
     "LibraryCheck"
   ],
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
 ,
 {
