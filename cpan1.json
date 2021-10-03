@@ -53600,6 +53600,42 @@
 }
 ,
 {
+  "auth": "github:Raku-Noise-Gang",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Access to audio input and output devices",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Audio::PortAudio",
+  "perl": "6.*",
+  "provides": {
+    "Audio::PortAudio": "lib/Audio/PortAudio.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Audio-PortAudio-0.0.5.tar.gz",
+  "support": {
+    "source": "https://github.com/Raku-Noise-Gang/Audio-PortAudio.git"
+  },
+  "tags": [
+    "audio",
+    "portaudio",
+    "input",
+    "output"
+  ],
+  "test-depends": [
+    "LibraryCheck"
+  ],
+  "version": "0.0.5"
+}
+,
+{
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
