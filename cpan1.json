@@ -57596,6 +57596,48 @@
 {
   "api": "1.0",
   "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP::Client",
+    "JSON::Class",
+    "Test::Mock"
+  ],
+  "description": "Access AWS IAM role credentials within EC2",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Kivuli",
+  "provides": {
+    "Kivuli": "lib/Kivuli.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Kivuli-0.0.2.tar.gz",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Kivuli.git"
+  },
+  "tags": [
+    "AWS",
+    "IAM",
+    "EC2",
+    "credentials"
+  ],
+  "test-depends": [
+    "Test::Mock"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
   "authors": [
     "Jonathan Stowe <jns+git@gellyfish.co.uk>"
