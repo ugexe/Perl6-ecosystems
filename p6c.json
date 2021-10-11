@@ -15472,7 +15472,8 @@
   ],
   "depends": [
     "JSON::Fast",
-    "HTTP::UserAgent"
+    "HTTP::UserAgent",
+    "Test::Mock"
   ],
   "description": "A Raku interface for interacting with the Ethereum blockchain and ecosystem via JSON RPC API",
   "license": "Artistic-2.0",
@@ -15487,7 +15488,7 @@
     "ETHEREUM",
     "NET"
   ],
-  "version": "0.0.134"
+  "version": "0.0.135"
 }
 ,
 {
