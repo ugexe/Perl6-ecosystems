@@ -1659,6 +1659,48 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan <bduggan@matatu.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test",
+    "XML::Class",
+    "URI::Encode",
+    "IO::Socket::SSL",
+    "HTTP::UserAgent",
+    "Digest",
+    "Digest::HMAC",
+    "JSON::Fast",
+    "URI"
+  ],
+  "description": "AWS S3 Client",
+  "license": "MIT",
+  "name": "WebService::AWS::S3",
+  "perl": "6.*",
+  "provides": {
+    "WebService::AWS::S3": "lib/WebService/AWS/S3.rakumod",
+    "WebService::AWS::S3::Request": "lib/WebService/AWS/S3/Request.rakumod",
+    "WebService::AWS::S3::Resources": "lib/WebService/AWS/S3/Resources.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/AWS-S3-0.0.6.tar.gz",
+  "support": {
+    "source": "git://github.com/bduggan/aws-s3-raku.git"
+  },
+  "tags": [
+    "aws"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::Mock"
+  ],
+  "version": "0.0.6"
+}
+,
+{
   "authors": [
     "Brian Duggan"
   ],
@@ -57633,6 +57675,48 @@
     "Test::Mock"
   ],
   "version": "0.0.2"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::HTTP::Client",
+    "JSON::Class",
+    "Test::Mock"
+  ],
+  "description": "Access AWS IAM role credentials within EC2",
+  "license": "Artistic-2.0",
+  "meta-version": "1",
+  "name": "Kivuli",
+  "provides": {
+    "Kivuli": "lib/Kivuli.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Kivuli-0.0.3.tar.gz",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Kivuli.git"
+  },
+  "tags": [
+    "AWS",
+    "IAM",
+    "EC2",
+    "credentials"
+  ],
+  "test-depends": [
+    "Test::Mock"
+  ],
+  "version": "0.0.3"
 }
 ,
 {
