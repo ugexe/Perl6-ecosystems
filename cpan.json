@@ -2247,6 +2247,34 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
+    "Grammar::PrettyErrors"
+  ],
+  "description": "Utilities for managing protobufs",
+  "license": "MIT",
+  "name": "Protobuf",
+  "perl": "6.*",
+  "provides": {
+    "Protobuf": "lib/Protobuf.rakumod",
+    "Protobuf::Actions": "lib/Protobuf/Actions.rakumod",
+    "Protobuf::Grammar": "lib/Protobuf/Grammar.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Protobuf-0.0.2.tar.gz",
+  "tags": [
+    "protobuf"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "authors": [
     "Brian Duggan"
   ],
