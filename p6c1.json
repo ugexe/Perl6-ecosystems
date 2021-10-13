@@ -16116,6 +16116,37 @@
     "Zoffix Znet"
   ],
   "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Flat, JSON-backed read-write configuration",
+  "license": "Artistic-2.0",
+  "name": "Config::JSON",
+  "perl": "6.c",
+  "provides": {
+    "Config::JSON": "lib/Config/JSON.pm6"
+  },
+  "support": {
+    "source": "https://github.com/raku-community-modules/Config-JSON.git"
+  },
+  "tags": [
+    "config",
+    "configuration",
+    "JSON"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Testo",
+    "Test::When",
+    "Temp::Path"
+  ],
+  "version": "1.001003"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
     "HTML::Escape"
   ],
   "description": "Raku QAST Visualizer",
@@ -16981,6 +17012,122 @@
 }
 ,
 {
+  "depends": [
+    "PSGI"
+  ],
+  "description": "A FastCGI library for Raku",
+  "name": "FastCGI",
+  "perl": "6.*",
+  "provides": {
+    "FastCGI": "lib/FastCGI.pm6",
+    "FastCGI::Connection": "lib/FastCGI/Connection.pm6",
+    "FastCGI::Constants": "lib/FastCGI/Constants.pm6",
+    "FastCGI::Errors": "lib/FastCGI/Errors.pm6",
+    "FastCGI::Logger": "lib/FastCGI/Logger.pm6",
+    "FastCGI::Protocol": "lib/FastCGI/Protocol.pm6",
+    "FastCGI::Protocol::Constants": "lib/FastCGI/Protocol/Constants.pm6",
+    "FastCGI::Request": "lib/FastCGI/Request.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/FastCGI.git",
+  "version": "0.9.0"
+}
+,
+{
+  "author": "Dave Rolsky <autarch@urth.org>",
+  "depends": [
+    "File::Temp"
+  ],
+  "description": "Use libmagic to determine MIME type and encodings of content",
+  "name": "File::LibMagic",
+  "perl": "6.*",
+  "provides": {
+    "File::LibMagic": "lib/File/LibMagic.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/File-LibMagic.git",
+  "version": "0.0.1"
+}
+,
+{
+  "author": "Matthew Walton",
+  "depends": [
+    
+  ],
+  "description": "A Raku implementation of Raku-style string formatting.",
+  "name": "Form",
+  "perl": "6.*",
+  "provides": {
+    "Form": "lib/Form.pm",
+    "Form::Actions": "lib/Form/Actions.pm",
+    "Form::Field": "lib/Form/Field.pm",
+    "Form::Grammar": "lib/Form/Grammar.pm",
+    "Form::NumberFormatting": "lib/Form/NumberFormatting.pm",
+    "Form::TextFormatting": "lib/Form/TextFormatting.pm",
+    "Form::Types": "lib/Form/Types.pm"
+  },
+  "source-url": "git://github.com/raku-community-modules/Form.git",
+  "version": "*"
+}
+,
+{
+  "auth": "github:drforr",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Implement Common Lisp formatter for Raku",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Format::Lisp",
+  "perl": "6.c",
+  "provides": {
+    "Format::Lisp": "lib/Format/Lisp.pm6",
+    "Format::Lisp::Actions": "lib/Format/Lisp/Actions.pm6",
+    "Format::Lisp::Grammar": "lib/Format/Lisp/Grammar.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/Format-Lisp.git",
+  "support": {
+    "source": "https://github.com/raku-community-modules/Format-Lisp"
+  },
+  "tags": [
+    "format",
+    "formatter",
+    "formatiing",
+    "Lisp"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Convert Coordinated Central Time to Old Earth Time",
+  "license": "Artistic-2.0",
+  "name": "Games::TauStation::DateTime",
+  "perl": "6.c",
+  "provides": {
+    "GCT": "lib/Games/TauStation/DateTime.pm6",
+    "Games::TauStation::DateTime": "lib/Games/TauStation/DateTime.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/Games-TauStation-DateTime.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.001006"
+}
+,
+{
   "api": "1.0",
   "auth": "github:raku-community-modules",
   "authors": [
@@ -17012,6 +17159,66 @@
     "gif"
   ],
   "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "HTTP::Tinyish",
+    "JSON::Fast",
+    "URI::Escape"
+  ],
+  "description": "Use glot.io API: pastebin allowing execution of code",
+  "license": "Artistic-2.0",
+  "name": "GlotIO",
+  "perl": "6.c",
+  "provides": {
+    "GlotIO": "lib/GlotIO.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/GlotIO.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.001001"
+}
+,
+{
+  "auth": "github:drforr",
+  "authors": [
+    "Jeffrey Goff <drforr@pobox.com>"
+  ],
+  "depends": [
+    "Test::META",
+    "JSON::Tiny"
+  ],
+  "description": "Common grammar patterns codified for ease of use",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "Grammar::Common",
+  "perl": "6.c",
+  "provides": {
+    "Grammar::Common": "lib//Grammar/Common.pm6",
+    "Grammar::Common::Expression::Infix": "lib//Grammar/Common/Expression/Infix.pm6",
+    "Grammar::Common::Expression::Infix::Actions": "lib//Grammar/Common/Expression/Infix/Actions.pm6",
+    "Grammar::Common::Expression::Prefix": "lib//Grammar/Common/Expression/Prefix.pm6",
+    "Grammar::Common::Expression::Prefix::Actions": "lib//Grammar/Common/Expression/Prefix/Actions.pm6",
+    "Grammar::Common::Text": "lib/Grammar/Common/Text.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/raku-Grammar-Common.git",
+  "support": {
+    "source": "https://github.com/raku-community-modules/raku-Grammar-Common.git"
+  },
+  "tags": [
+    "Grammar",
+    "Utilities",
+    "Utils"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.3.1"
 }
 ,
 {
@@ -17425,6 +17632,33 @@
 ,
 {
   "authors": [
+    "John Spurr"
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Implementation of the Porter stemming algorithm",
+  "license": "MIT",
+  "name": "Lingua::EN::Stem::Porter",
+  "perl": "6.c",
+  "provides": {
+    "Lingua::EN::Stem::Porter": "lib/Lingua/EN/Stem/Porter.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/Lingua-EN-Stem-Porter.git",
+  "support": {
+    "source": "https://github.com/raku-community-modules/Lingua-EN-Stem-Porter.git"
+  },
+  "tags": [
+    "NLP",
+    "raku",
+    "stem",
+    "porter"
+  ],
+  "version": "v1.0"
+}
+,
+{
+  "authors": [
     "Zoffix Znet",
     "Elizabeth Mattijsen",
     "JJ Merelo"
@@ -17454,6 +17688,22 @@
 }
 ,
 {
+  "author": "Jonathan Scott Duff",
+  "depends": [
+    
+  ],
+  "description": "Two letter codes for identifying United States territories and vice versa",
+  "license": "Artistic-2.0",
+  "name": "Locale::US",
+  "perl": "6.*",
+  "provides": {
+    "Locale::US": "lib/Locale/US.pm"
+  },
+  "source-url": "git://github.com/raku-community-modules/Locale-US.git",
+  "version": "0.0.1"
+}
+,
+{
   "auth": "github:raku-community-modules",
   "authors": [
     "cosimo",
@@ -17479,6 +17729,21 @@
 }
 ,
 {
+  "depends": [
+    
+  ],
+  "description": "A Raku binding to libmarpa, the parser module",
+  "license": "Artistic-2.0",
+  "name": "Marpa",
+  "perl": "6.*",
+  "provides": {
+    "Marpa": "lib/Marpa.pm"
+  },
+  "source-url": "git://github.com/raku-community-modules/Marpa.git",
+  "version": "*"
+}
+,
+{
   "author": "Jonathan Scott Duff <duff@pobox.com>",
   "build-depends": [
     
@@ -17499,6 +17764,24 @@
     "Test"
   ],
   "version": "0.0.2"
+}
+,
+{
+  "author": "github:retupmoca",
+  "depends": [
+    
+  ],
+  "description": "Encoding and decoding Base64 ASCII strings",
+  "license": "Artistic-2.0",
+  "name": "MIME::Base64",
+  "perl": "6.*",
+  "provides": {
+    "MIME::Base64": "lib/MIME/Base64.pm6",
+    "MIME::Base64::Perl": "lib/MIME/Base64/Perl.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/raku-community-modules/MIME-Base64.git",
+  "version": "1.2.1"
 }
 ,
 {
@@ -17555,6 +17838,29 @@
     "Zoffix Znet"
   ],
   "depends": [
+    "Lingua::Conjunction"
+  ],
+  "description": "Break up numbers into preset or arbitrary denominations",
+  "license": "Artistic-2.0",
+  "name": "Number::Denominate",
+  "perl": "6.c",
+  "provides": {
+    "Number::Denominate": "lib/Number/Denominate.pm6"
+  },
+  "support": {
+    "source": "git://github.com/raku-community-modules/Number-Denominate.git"
+  },
+  "test-depends": [
+    "Test"
+  ],
+  "version": "2.002001"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
     "JSON::Fast",
     "WWW::P6lert"
   ],
@@ -17600,6 +17906,48 @@
     "Test"
   ],
   "version": "1.004002"
+}
+,
+{
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "HTTP::UserAgent",
+    "URI::Encode",
+    "HTML::Entity"
+  ],
+  "description": "Use http://fpaste.scsys.co.uk/ pastebin from Raku",
+  "license": "Artistic-2.0",
+  "name": "Pastebin::Shadowcat",
+  "perl": "6.c",
+  "provides": {
+    "Pastebin::Shadowcat": "lib/Pastebin/Shadowcat.pm6"
+  },
+  "support": {
+    "source": "git://github.com/raku-community-modules/Pastebin-Shadowcat.git"
+  },
+  "tags": [
+    "pastebin"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "2.001003"
+}
+,
+{
+  "author": "Dave Rolsky <autarch@urth.org>",
+  "description": "Walk a Pod tree and generate an event for each node",
+  "license": "Artistic-2.0",
+  "name": "Pod::TreeWalker",
+  "perl": "6.*",
+  "provides": {
+    "Pod::TreeWalker": "lib/Pod/TreeWalker.pm6",
+    "Pod::TreeWalker::Listener": "lib/Pod/TreeWalker/Listener.pm6"
+  },
+  "source-url": "git://github.com/raku-community-modules/Pod-TreeWalker.git",
+  "version": "0.0.3"
 }
 ,
 {
