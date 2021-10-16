@@ -54346,6 +54346,47 @@
 }
 ,
 {
+  "api": "0.1",
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::BodyParser",
+    "Cro::HTTP"
+  ],
+  "description": "Parse and deserialise application/json HTTP body to a specified JSON::Class",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Cro::HTTP::BodyParser::JSONClass",
+  "provides": {
+    "Cro::HTTP::BodyParser::JSONClass": "lib/Cro/HTTP/BodyParser/JSONClass.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Cro-HTTP-BodyParser-JSONClass-0.0.1.tar.gz",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "git://github.com/jonathanstowe/Cro-HTTP-BodyParser-JSONClass.git"
+  },
+  "tags": [
+    "json",
+    "class",
+    "http",
+    "parser"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "auth": "github:jonathanstowe",
   "authors": [
     "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
