@@ -56984,6 +56984,51 @@
     
   ],
   "depends": [
+    "JSON::Marshal:ver<0.0.23+>",
+    "JSON::Unmarshal:ver<0.08+>",
+    "JSON::OptIn",
+    "JSON::Name:ver<0.0.6+>"
+  ],
+  "description": "role to provide simple serialisation/deserialisation of objects to/from JSON",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "JSON::Class",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Class": "lib/JSON/Class.rakumod"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/JSON-Class-0.0.18.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/jonathanstowe/JSON-Class/issues",
+    "source": "https://github.com/jonathanstowe/JSON-Class.git"
+  },
+  "tags": [
+    "object",
+    "serialisation",
+    "JSON"
+  ],
+  "test-depends": [
+    "JSON::Fast",
+    "Test"
+  ],
+  "version": "0.0.18"
+}
+,
+{
+  "api": "1.0",
+  "auth": "github:jonathanstowe",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "JSON::Fast",
     "HTTP::UserAgent",
     "JSON::Class",
