@@ -94543,6 +94543,37 @@
 }
 ,
 {
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides timezone and DST infomation for US states and territories",
+  "license": "Artistic-2.0",
+  "name": "DateTime::US",
+  "perl": "6.d",
+  "provides": {
+    "DateTime::US": "lib/DateTime/US.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/DateTime-US-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "IO::Capture::Simple"
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "auth": "github:tbrowder",
   "author": "github:tbrowder",
   "authors": [
