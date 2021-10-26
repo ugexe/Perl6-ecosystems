@@ -95273,6 +95273,37 @@
 }
 ,
 {
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Provides location data for astronomical and other programs",
+  "license": "Artistic-2.0",
+  "name": "Geo::Location",
+  "perl": "6.d",
+  "provides": {
+    "Geo::Location": "lib/Geo/Location.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Geo-Location-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "auth": "github:tbrowder",
   "author": "github:tbrowder",
   "authors": [
@@ -110288,6 +110319,46 @@
     
   ],
   "version": "0.0.26"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Module:ver<0.5.8+>",
+    "CSS::Properties:ver<0.7.5+>",
+    "CSS::Stylesheet:ver<0.0.28+>",
+    "CSS::TagSet:ver<0.0.23+>",
+    "LibXML:ver<0.6.9+>",
+    "Method::Also",
+    "URI"
+  ],
+  "description": "CSS Stylesheet processing",
+  "license": "Artistic-2.0",
+  "name": "CSS",
+  "perl": "6.c",
+  "provides": {
+    "CSS": "lib/CSS.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.27.tar.gz",
+  "tags": [
+    "xml",
+    "html",
+    "xpath",
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.27"
 }
 ,
 {
