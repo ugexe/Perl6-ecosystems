@@ -672,6 +672,57 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Random data generation functions: strings, words, numbers, vectors, pet names, job titles, and tabular datasets.",
+  "license": "Artistic-2.0",
+  "name": "Data::Generators",
+  "perl": "6.d",
+  "provides": {
+    "Data::Generators": "lib/Data/Generators.rakumod",
+    "Data::Generators::RandomFunctions": "lib/Data/Generators/RandomFunctions.rakumod",
+    "Data::Generators::RandomTabularDataset": "lib/Data/Generators/RandomTabularDataset.rakumod",
+    "Data::Generators::RandomVariate": "lib/Data/Generators/RandomVariate.rakumod",
+    "Data::Generators::ResourceAccess": "lib/Data/Generators/ResourceAccess.rakumod"
+  },
+  "resources": [
+    "dfEnglishWords.csv",
+    "dfPetNameCounts.csv"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-Generators-0.1.1.tar.gz",
+  "tags": [
+    "data generators",
+    "data",
+    "dataset",
+    "generation",
+    "job titles",
+    "pet names",
+    "random data",
+    "random tables",
+    "random tabular data",
+    "random variate",
+    "random variates",
+    "random",
+    "statistical distributions",
+    "strings",
+    "words"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "api": "1",
+  "auth": "github:antononcube",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Text::CSV",
     "Pretty::Table"
   ],
