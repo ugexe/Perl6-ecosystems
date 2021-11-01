@@ -735,51 +735,6 @@
     "Data::Reshapers::CrossTabulate": "lib/Data/Reshapers/CrossTabulate.rakumod",
     "Data::Reshapers::ToLongFormat": "lib/Data/Reshapers/ToLongFormat.rakumod",
     "Data::Reshapers::ToPrettyTable": "lib/Data/Reshapers/ToPrettyTable.rakumod",
-    "Data::Reshapers::ToWideFormat": "lib/Data/Reshapers/ToWideFormat.rakumod"
-  },
-  "resources": [
-    "dfTitanic.csv"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-Reshapers-0.1.0.tar.gz",
-  "tags": [
-    "contingency table",
-    "data",
-    "dataset",
-    "long form",
-    "long format",
-    "narrow format",
-    "schema",
-    "wide form",
-    "wide format"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.0"
-}
-,
-{
-  "api": "1",
-  "auth": "github:antononcube",
-  "authors": [
-    "Anton Antonov"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Text::CSV",
-    "Pretty::Table"
-  ],
-  "description": "Data reshaping functions for different data structures (arrays, lists of hashes, Text::CSV tables.)",
-  "license": "Artistic-2.0",
-  "name": "Data::Reshapers",
-  "perl": "6.d",
-  "provides": {
-    "Data::Reshapers": "lib/Data/Reshapers.rakumod",
-    "Data::Reshapers::CrossTabulate": "lib/Data/Reshapers/CrossTabulate.rakumod",
-    "Data::Reshapers::ToLongFormat": "lib/Data/Reshapers/ToLongFormat.rakumod",
-    "Data::Reshapers::ToPrettyTable": "lib/Data/Reshapers/ToPrettyTable.rakumod",
     "Data::Reshapers::ToWideFormat": "lib/Data/Reshapers/ToWideFormat.rakumod",
     "Data::Reshapers::Transpose": "lib/Data/Reshapers/Transpose.rakumod"
   },
