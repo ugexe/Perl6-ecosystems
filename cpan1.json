@@ -633,45 +633,6 @@
     
   ],
   "depends": [
-    "Data::Reshapers"
-  ],
-  "description": "Random data generation functions: strings, words, numbers, vectors, and datasets.",
-  "license": "Artistic-2.0",
-  "name": "Data::Generators",
-  "perl": "6.d",
-  "provides": {
-    "Data::Generators": "lib/Data/Generators.rakumod",
-    "Data::Generators::RandomFunctions": "lib/Data/Generators/RandomFunctions.rakumod",
-    "Data::Generators::RandomTabularDataset": "lib/Data/Generators/RandomTabularDataset.rakumod",
-    "Data::Generators::RandomVariate": "lib/Data/Generators/RandomVariate.rakumod",
-    "Data::Generators::ResourceAccess": "lib/Data/Generators/ResourceAccess.rakumod"
-  },
-  "resources": [
-    "dfEnglishWords.csv",
-    "dfPetNameCounts.csv"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-Generators-0.1.0.tar.gz",
-  "tags": [
-    "data",
-    "dataset",
-    "random"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.0"
-}
-,
-{
-  "api": "1",
-  "auth": "github:antononcube",
-  "authors": [
-    "Anton Antonov"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     
   ],
   "description": "Random data generation functions: strings, words, numbers, vectors, pet names, job titles, and tabular datasets.",
@@ -26072,37 +26033,6 @@
     
   ],
   "version": "0.0.2"
-}
-,
-{
-  "auth": "cpan:ELIZABETH",
-  "authors": [
-    "Elizabeth Mattijsen"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Provide transparent access to errno",
-  "license": "Artistic-2.0",
-  "name": "Unix::errno",
-  "perl": "6.c",
-  "provides": {
-    "Unix::errno": "lib/Unix/errno.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/E/EL/ELIZABETH/Perl6/Unix-errno-0.0.3.tar.gz",
-  "tags": [
-    "UNIX"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
 }
 ,
 {
