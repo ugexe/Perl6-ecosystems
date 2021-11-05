@@ -110583,6 +110583,45 @@
     
   ],
   "depends": [
+    "CSS::Properties:ver<0.7.5+>",
+    "Temp::Path",
+    "LWP::Simple",
+    "URI:ver<0.3.3+>"
+  ],
+  "description": "CSS Font Resource selection and loading",
+  "license": "Artistic-2.0",
+  "name": "CSS::Font::Resources",
+  "perl": "6.*",
+  "provides": {
+    "CSS::Font::Resources": "lib/CSS/Font/Resources.rakumod",
+    "CSS::Font::Resources::Source": "lib/CSS/Font/Resources/Source.rakumod",
+    "CSS::Font::Resources::Source::Local": "lib/CSS/Font/Resources/Source/Local.rakumod",
+    "CSS::Font::Resources::Source::Url": "lib/CSS/Font/Resources/Source/Url.rakumod",
+    "CSS::URI": "lib/CSS/URI.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Font-Resources-0.0.7.tar.gz",
+  "tags": [
+    "css",
+    "font"
+  ],
+  "test-depends": [
+    "JSON::Fast"
+  ],
+  "version": "0.0.7"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "JSON::Fast"
   ],
   "description": "Raku core CSS grammars",
