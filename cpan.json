@@ -109986,44 +109986,6 @@
     "CSS::Font::Resources": "lib/CSS/Font/Resources.rakumod",
     "CSS::Font::Resources::Source": "lib/CSS/Font/Resources/Source.rakumod",
     "CSS::Font::Resources::Source::Local": "lib/CSS/Font/Resources/Source/Local.rakumod",
-    "CSS::Font::Resources::Source::Url": "lib/CSS/Font/Resources/Source/Url.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Font-Resources-0.0.3.tar.gz",
-  "tags": [
-    "css",
-    "font"
-  ],
-  "test-depends": [
-    "JSON::Fast"
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Properties:ver<0.7.5+>",
-    "Temp::Path",
-    "LWP::Simple",
-    "URI:ver<0.3.2+>"
-  ],
-  "description": "CSS Font Resource selection and loading",
-  "license": "Artistic-2.0",
-  "name": "CSS::Font::Resources",
-  "perl": "6.*",
-  "provides": {
-    "CSS::Font::Resources": "lib/CSS/Font/Resources.rakumod",
-    "CSS::Font::Resources::Source": "lib/CSS/Font/Resources/Source.rakumod",
-    "CSS::Font::Resources::Source::Local": "lib/CSS/Font/Resources/Source/Local.rakumod",
     "CSS::Font::Resources::Source::Url": "lib/CSS/Font/Resources/Source/Url.rakumod",
     "CSS::URI": "lib/CSS/URI.rakumod"
   },
@@ -110719,6 +110681,49 @@
     
   ],
   "version": "0.7.6"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "CSS::Module:ver<0.5.9+>",
+    "CSS::Writer:ver<0.2.6+>",
+    "Color",
+    "Method::Also"
+  ],
+  "description": "CSS property manipulation library",
+  "license": "Artistic-2.0",
+  "name": "CSS::Properties",
+  "perl": "6.*",
+  "provides": {
+    "CSS::Box": "lib/CSS/Box.rakumod",
+    "CSS::Font": "lib/CSS/Font.rakumod",
+    "CSS::Font::Descriptor": "lib/CSS/Font/Descriptor.rakumod",
+    "CSS::PageBox": "lib/CSS/PageBox.rakumod",
+    "CSS::Properties": "lib/CSS/Properties.rakumod",
+    "CSS::Properties::Calculator": "lib/CSS/Properties/Calculator.rakumod",
+    "CSS::Properties::Font": "lib/CSS/Properties/Font.rakumod",
+    "CSS::Properties::Optimizer": "lib/CSS/Properties/Optimizer.rakumod",
+    "CSS::Properties::Property": "lib/CSS/Properties/Property.rakumod",
+    "CSS::Units": "lib/CSS/Units.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Properties-0.7.7.tar.gz",
+  "tags": [
+    "css"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.7.7"
 }
 ,
 {
