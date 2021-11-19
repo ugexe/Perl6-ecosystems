@@ -93038,6 +93038,40 @@
   "depends": [
     
   ],
+  "description": "Provides creation of a Raku Date object by year and day-of-year",
+  "license": "Artistic-2.0",
+  "name": "Date::YearDay",
+  "perl": "6.d",
+  "provides": {
+    "Date::YearDay": "lib/Date/YearDay.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Date-YearDay-0.0.1.tar.gz",
+  "tags": [
+    "Date",
+    "day-of-year",
+    "cardinal day",
+    "DOY"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:TBROWDER",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "blah blah blah",
   "license": "Artistic-2.0",
   "name": "DateTime::Julian",
