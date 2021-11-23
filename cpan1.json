@@ -57843,6 +57843,47 @@
 }
 ,
 {
+  "auth": "github:jonathanstowe",
+  "authors": [
+    "Jonathan Stowe <jns+gh@gellyfish.co.uk>"
+  ],
+  "depends": {
+    "runtime": {
+      "requires": [
+        "Cro::HTTP::Client",
+        "WebService::AWS::Auth::V4",
+        "JSON::Class",
+        "Cro::HTTP::BodySerializers",
+        "Cro::BodyParser",
+        "JSON::Name"
+      ]
+    }
+  },
+  "description": "Simple interface to AWS Secrets Manager",
+  "license": "Artistic-2.0",
+  "meta-version": "2",
+  "name": "Ikoko",
+  "provides": {
+    "Ikoko": "lib/Ikoko.rakumod"
+  },
+  "raku": "6.d",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/J/JS/JSTOWE/Perl6/Ikoko-0.0.1.tar.gz",
+  "support": {
+    "email": "jns+gh@gellyfish.co.uk",
+    "source": "https://github.com/jonathanstowe/Ikoko.git"
+  },
+  "tags": [
+    "AWS",
+    "secretsmanager",
+    "credentials"
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "api": "1.0",
   "auth": "github:jonathanstowe",
   "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
@@ -66098,6 +66139,38 @@
     "COMPRESSION"
   ],
   "version": "0.3.1"
+}
+,
+{
+  "auth": "zef:knarkhov",
+  "authors": [
+    "Konstantin Narkhov"
+  ],
+  "build-depends": [
+    "Shell::Command"
+  ],
+  "depends": [
+    "LibraryMake"
+  ],
+  "description": "Raku binding to original Keccak256-2011",
+  "license": "Artistic-2.0",
+  "name": "Node::Ethereum::Keccak256::Native",
+  "perl": "6.d",
+  "provides": {
+    "Node::Ethereum::Keccak256::Native": "lib/Node/Ethereum/Keccak256/Native.rakumod"
+  },
+  "resources": [
+    "libraries/keccak256"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/K/KN/KNARKHOV/Perl6/Node-Ethereum-Keccak256-Native-0.0.4.tar.gz",
+  "tags": [
+    "HASH",
+    "KECCAK256"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
 }
 ,
 {
