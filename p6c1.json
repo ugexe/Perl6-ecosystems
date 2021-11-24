@@ -15933,20 +15933,29 @@
 }
 ,
 {
-  "auth": "github:perlpilot",
+  "auth": "zef:jjatria",
   "authors": [
-    "Jonathan Scott Duff <duff@pobox.com>"
+    "Jonathan Scott Duff <duff@pobox.com>",
+    "José Joaquín Atria <jjatria@cpan.org>"
   ],
-  "depends": [
-    
-  ],
+  "depends": {
+    "build": {
+      "requires": [
+        "fann:from<native>"
+      ]
+    },
+    "test": {
+      "requires": [
+        "Test"
+      ]
+    }
+  },
   "description": "Raku binding to the Fast Artificial Neural Network library",
   "license": "Artistic-2.0",
   "name": "AI::FANN",
-  "perl": "6.*",
+  "perl": "6.d",
   "provides": {
     "AI::FANN": "lib/AI/FANN.rakumod",
-    "AI::FANN::Connection": "lib/AI/FANN/Connection.rakumod",
     "AI::FANN::Constants": "lib/AI/FANN/Constants.rakumod",
     "AI::FANN::Raw": "lib/AI/FANN/Raw.rakumod",
     "AI::FANN::Raw::Base": "lib/AI/FANN/Raw/Base.rakumod",
@@ -15957,19 +15966,16 @@
     "AI::FANN::Raw::Training": "lib/AI/FANN/Raw/Training.rakumod"
   },
   "source-type": "git",
-  "source-url": "https://github.com/raku-community-modules/AI-FANN.git",
+  "source-url": "https://github.com/jjatria/AI-FANN.git",
   "support": {
-    "bugtracker": "https://github.com/raku-community-modules/AI-FANN/issues",
-    "source": "https://github.com/raku-community-modules/AI-FANN.git"
+    "bugtracker": "https://github.com/jjatria/AI-FANN/issues",
+    "source": "https://github.com/jjatria/AI-FANN.git"
   },
   "tags": [
     "AI",
     "Neural Network"
   ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
+  "version": "0.1.0"
 }
 ,
 {
