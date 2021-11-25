@@ -17349,17 +17349,34 @@
 }
 ,
 {
+  "auth": "zef:lizmat",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
   "depends": [
     
   ],
-  "description": "Get the text message associated with an HTTP status code",
+  "description": "Information about HTTP Status Codes",
+  "license": "NOASSERTION",
   "name": "HTTP::Status",
   "perl": "6.*",
   "provides": {
-    "HTTP::Status": "lib/HTTP/Status.pm6"
+    "HTTP::Status": "lib/HTTP/Status.rakumod"
   },
-  "source-url": "git://github.com/raku-community-modules/HTTP-Status.git",
-  "version": "0.0.1"
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/lizmat/HTTP-Status.git",
+  "tags": [
+    "HTTP"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
 }
 ,
 {
