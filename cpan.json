@@ -65734,59 +65734,6 @@
 }
 ,
 {
-  "authors": [
-    "Konstantin Narkhov"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Lempel–Ziv–Welch (LZW) algorithm implementation in Raku",
-  "license": "Artistic-2.0",
-  "name": "LZW::Revolunet",
-  "perl": "6.d",
-  "provides": {
-    "LZW::Revolunet": "lib/LZW/Revolunet.rakumod"
-  },
-  "source-url": "http://www.cpan.org/authors/id/K/KN/KNARKHOV/Perl6/LZW-Revolunet-0.3.1.tar.gz",
-  "tags": [
-    "COMPRESSION"
-  ],
-  "version": "0.3.1"
-}
-,
-{
-  "auth": "zef:knarkhov",
-  "authors": [
-    "Konstantin Narkhov"
-  ],
-  "build-depends": [
-    "Shell::Command"
-  ],
-  "depends": [
-    "LibraryMake"
-  ],
-  "description": "Raku binding to original Keccak256-2011",
-  "license": "Artistic-2.0",
-  "name": "Node::Ethereum::Keccak256::Native",
-  "perl": "6.d",
-  "provides": {
-    "Node::Ethereum::Keccak256::Native": "lib/Node/Ethereum/Keccak256/Native.rakumod"
-  },
-  "resources": [
-    "libraries/keccak256"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/K/KN/KNARKHOV/Perl6/Node-Ethereum-Keccak256-Native-0.0.4.tar.gz",
-  "tags": [
-    "HASH",
-    "KECCAK256"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
-}
-,
-{
   "api": "1",
   "auth": "CPAN:HOLYGHOST",
   "authors": [
