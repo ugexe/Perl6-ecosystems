@@ -94662,6 +94662,68 @@
 }
 ,
 {
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides Raku software tools for Santa Claus and his Elves",
+  "license": "Artistic-2.0",
+  "name": "SantaClaus::Utils",
+  "perl": "6.d",
+  "provides": {
+    "SantaClaus::Utils": "lib/SantaClaus/Utils.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/SantaClaus-Utils-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Pod::Load",
+    "Text::Utils",
+    "Data::Dump"
+  ],
+  "description": "Provides Raku software tools for Santa Claus and his Elves",
+  "license": "Artistic-2.0",
+  "name": "SantaClaus::Utils",
+  "perl": "6.d",
+  "provides": {
+    "SantaClaus::Utils": "lib/SantaClaus/Utils.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/SantaClaus-Utils-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "api": "2",
   "auth": "github:tbrowder",
   "author": "github:tbrowder",
