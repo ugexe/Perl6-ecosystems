@@ -9993,6 +9993,34 @@
 }
 ,
 {
+  "auth": "",
+  "authors": [
+    "jaffa4"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Calculate various hashes fast for files",
+  "license": "",
+  "name": "Hash::File",
+  "perl": "6.*",
+  "provides": {
+    "HashFile": "lib/Hash/File.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/jaffa4/hashfile.git",
+  "test-depends": [
+    
+  ],
+  "version": "1.0"
+}
+,
+{
   "depends": [
     "Path::Util"
   ],
