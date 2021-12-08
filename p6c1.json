@@ -17827,14 +17827,14 @@
   "name": "Pastebin::Gist",
   "perl": "6.c",
   "provides": {
-    "Pastebin::Gist": "lib/Pastebin/Gist.pm6",
-    "Pastebin::Gist::X": "lib/Pastebin/Gist.pm6"
+    "Pastebin::Gist": "lib/Pastebin/Gist.rakumod",
+    "Pastebin::Gist::X": "lib/Pastebin/Gist.rakumod"
   },
   "source-url": "https://github.com/raku-community-modules/Pastebin-Gist.git",
   "test-depends": [
     "Test"
   ],
-  "version": "1.004002"
+  "version": "1.005"
 }
 ,
 {
