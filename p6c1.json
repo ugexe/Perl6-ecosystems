@@ -19727,28 +19727,6 @@
 }
 ,
 {
-  "auth": "zef:JJMERELO",
-  "authors": [
-    "Andrew Egeler",
-    "JJ Merelo"
-  ],
-  "depends": [
-    "HTML::Escape"
-  ],
-  "description": "Markdown parser / HTML generator",
-  "license": "MIT",
-  "name": "Text::Markdown",
-  "perl": "6.*",
-  "provides": {
-    "Text::Markdown": "lib/Text/Markdown.pm6",
-    "Text::Markdown::Document": "lib/Text/Markdown/Document.pm6",
-    "Text::Markdown::to::HTML": "lib/Text/Markdown/to/HTML.pm6"
-  },
-  "source-url": "git://github.com/retupmoca/p6-markdown.git",
-  "version": "1.1.1"
-}
-,
-{
   "author": "github:retupmoca",
   "depends": [
     
