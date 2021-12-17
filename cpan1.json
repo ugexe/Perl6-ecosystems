@@ -113523,6 +113523,40 @@
     
   ],
   "depends": [
+    "PDF:ver<0.4.4+>",
+    "PDF::Class:ver<0.4.18+>",
+    "PDF::Content:ver<0.5.5+>"
+  ],
+  "description": "Facilitates the creation and modification of PDF files",
+  "license": "Artistic-2.0",
+  "name": "PDF::API6",
+  "perl": "6.*",
+  "provides": {
+    "PDF::API6": "lib/PDF/API6.rakumod",
+    "PDF::API6::Preferences": "lib/PDF/API6/Preferences.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-API6-0.2.4.tar.gz",
+  "tags": [
+    "pdf"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.4"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "PDF:ver<0.4.6+>",
     "PDF::Grammar:ver<0.2.4+>",
     "PDF::Content:ver<0.5.4+>"
