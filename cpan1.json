@@ -112055,6 +112055,51 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Interface to Adobe Font Metrics files",
+  "license": "Artistic-2.0",
+  "name": "Font::AFM",
+  "perl": "6",
+  "provides": {
+    "Font::AFM": "lib/Font/AFM.rakumod",
+    "Font::Metrics::courier": "lib/Font/Metrics/courier.rakumod",
+    "Font::Metrics::courier-bold": "lib/Font/Metrics/courier-bold.rakumod",
+    "Font::Metrics::courier-boldoblique": "lib/Font/Metrics/courier-boldoblique.rakumod",
+    "Font::Metrics::courier-oblique": "lib/Font/Metrics/courier-oblique.rakumod",
+    "Font::Metrics::helvetica": "lib/Font/Metrics/helvetica.rakumod",
+    "Font::Metrics::helvetica-bold": "lib/Font/Metrics/helvetica-bold.rakumod",
+    "Font::Metrics::helvetica-boldoblique": "lib/Font/Metrics/helvetica-boldoblique.rakumod",
+    "Font::Metrics::helvetica-oblique": "lib/Font/Metrics/helvetica-oblique.rakumod",
+    "Font::Metrics::symbol": "lib/Font/Metrics/symbol.rakumod",
+    "Font::Metrics::times-bold": "lib/Font/Metrics/times-bold.rakumod",
+    "Font::Metrics::times-bolditalic": "lib/Font/Metrics/times-bolditalic.rakumod",
+    "Font::Metrics::times-italic": "lib/Font/Metrics/times-italic.rakumod",
+    "Font::Metrics::times-roman": "lib/Font/Metrics/times-roman.rakumod",
+    "Font::Metrics::zapfdingbats": "lib/Font/Metrics/zapfdingbats.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-AFM-1.24.5.tar.gz",
+  "tags": [
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.24.5"
+}
+,
+{
   "auth": "github:pdf-raku",
   "authors": [
     "David Warring"
@@ -114905,6 +114950,55 @@
     
   ],
   "version": "0.5.15"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Font::AFM",
+    "Font::FreeType:ver<0.3.8+>",
+    "Hash::int",
+    "Native::Packing",
+    "PDF::Lite:ver<0.0.8+>",
+    "PDF::Content:ver<0.5.4+>",
+    "PDF:ver<0.4.15+>"
+  ],
+  "description": "Font loading and embedding for the PDF tool-chain",
+  "license": "Artistic-2.0",
+  "name": "PDF::Font::Loader",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Font::Loader": "lib/PDF/Font/Loader.rakumod",
+    "PDF::Font::Loader::Dict": "lib/PDF/Font/Loader/Dict.rakumod",
+    "PDF::Font::Loader::Enc": "lib/PDF/Font/Loader/Enc.rakumod",
+    "PDF::Font::Loader::Enc::CMap": "lib/PDF/Font/Loader/Enc/CMap.rakumod",
+    "PDF::Font::Loader::Enc::Glyphic": "lib/PDF/Font/Loader/Enc/Glyphic.rakumod",
+    "PDF::Font::Loader::Enc::Identity16": "lib/PDF/Font/Loader/Enc/Identity16.rakumod",
+    "PDF::Font::Loader::Enc::Type1": "lib/PDF/Font/Loader/Enc/Type1.rakumod",
+    "PDF::Font::Loader::Enc::Unicode": "lib/PDF/Font/Loader/Enc/Unicode.rakumod",
+    "PDF::Font::Loader::FontObj": "lib/PDF/Font/Loader/FontObj.rakumod",
+    "PDF::Font::Loader::FontObj::CID": "lib/PDF/Font/Loader/FontObj/CID.rakumod",
+    "PDF::Font::Loader::Glyph": "lib/PDF/Font/Loader/Glyph.rakumod",
+    "PDF::Font::Loader::Type1::Stream": "lib/PDF/Font/Loader/Type1/Stream.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Font-Loader-0.5.16.tar.gz",
+  "tags": [
+    "pdf",
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.5.16"
 }
 ,
 {
