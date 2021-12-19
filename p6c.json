@@ -15068,66 +15068,6 @@
 }
 ,
 {
-  "authors": [
-    "Rajkumar Reddy"
-  ],
-  "description": "using Aria",
-  "name": "Aria",
-  "provides": {
-    "Aria": "lib/Aria.pm6"
-  },
-  "source-url": "git://github.com/palapitta/Aria",
-  "version": "0.1.4"
-}
-,
-{
-  "authors": [
-    "Rajkumar Reddy"
-  ],
-  "description": "Encode and Decode Bencoding strings",
-  "name": "Bencode",
-  "provides": {
-    "Bencode": "lib/Bencode.pm6"
-  },
-  "source-url": "git://github.com/palapitta/Bencode",
-  "version": "0.1.1"
-}
-,
-{
-  "authors": [
-    "Rajkumar Reddy"
-  ],
-  "depends": [
-    "JSON::Fast",
-    "Net::HTTP::GET"
-  ],
-  "description": "Get Movie Info",
-  "name": "Movieinfo",
-  "provides": {
-    "Movieinfo": "lib/Movieinfo.pm6"
-  },
-  "source-url": "git://github.com/palapitta/Movieinfo",
-  "version": "0.1.2"
-}
-,
-{
-  "authors": [
-    "Rajkumar Reddy"
-  ],
-  "depends": [
-    "JSON::Fast",
-    "Net::HTTP::GET"
-  ],
-  "description": "Get Weather info",
-  "name": "Weather",
-  "provides": {
-    "Weather": "lib/Weather.pm6"
-  },
-  "source-url": "git://github.com/palapitta/Weather",
-  "version": "0.2.1"
-}
-,
-{
   "author": "Nova Patch",
   "depends": [
     
