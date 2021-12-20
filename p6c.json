@@ -16793,8 +16793,13 @@
 }
 ,
 {
+  "auth": "zef:raku-community-modules",
   "authors": [
-    "Zoffix Znet"
+    "Zoffix Znet",
+    "Raku Community"
+  ],
+  "build-depends": [
+    
   ],
   "depends": [
     
@@ -16804,9 +16809,12 @@
   "name": "Die",
   "perl": "6.c",
   "provides": {
-    "Die": "lib/Die.pm6"
+    "Die": "lib/Die.rakumod"
   },
-  "source-url": "git://github.com/raku-community-modules/Die.git",
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/raku-community-modules/Die.git",
   "tags": [
     "PERL5",
     "CPAN5"
@@ -16815,7 +16823,7 @@
     "Test",
     "Test::META"
   ],
-  "version": "1.001002"
+  "version": "1.1"
 }
 ,
 {
