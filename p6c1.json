@@ -16823,40 +16823,6 @@
 }
 ,
 {
-  "auth": "zef:raku-community-modules",
-  "authors": [
-    "Zoffix Znet",
-    "Raku Community"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Perl like die routine for note + exit",
-  "license": "Artistic-2.0",
-  "name": "Die",
-  "perl": "6.c",
-  "provides": {
-    "Die": "lib/Die.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/raku-community-modules/Die.git",
-  "tags": [
-    "PERL5",
-    "CPAN5"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "1.1"
-}
-,
-{
   "depends": [
     "PSGI"
   ],
