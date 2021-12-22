@@ -115114,6 +115114,40 @@
     
   ],
   "depends": [
+    "PDF::Tags:ver<0.0.12+>",
+    "PDF::Font::Loader:ver<0.5.12+>",
+    "Method::Also"
+  ],
+  "description": "Tagged PDF reader",
+  "license": "Artistic-2.0",
+  "name": "PDF::Tags::Reader",
+  "perl": "6.*",
+  "provides": {
+    "PDF::Tags::Reader": "lib/PDF/Tags/Reader.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Tags-Reader-0.0.1.tar.gz",
+  "tags": [
+    "pdf",
+    "accessibility"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Bindings to the FriBidi bidirectional Unicode implmentation",
