@@ -14084,6 +14084,37 @@
 }
 ,
 {
+  "authors": [
+    "Moritz Lenz"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Math::RungeKutta",
+    "SVG",
+    "SVG::Plot"
+  ],
+  "description": "Automagic integrator for models (first order ODEs)",
+  "license": "Artistic-2.0",
+  "name": "Math::Model",
+  "provides": {
+    "Math::Model": "lib/Math/Model.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/moritz/Math-Model.git",
+  "tags": [
+    "math"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3"
+}
+,
+{
   "depends": [
     "XML::Writer"
   ],
@@ -20340,6 +20371,47 @@
     "Test"
   ],
   "version": "0.9"
+}
+,
+{
+  "authors": [
+    "Vittore F. Scolari"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "File::Temp",
+    "NativeHelpers::CBuffer"
+  ],
+  "description": "Bindings for the DRMAA cluster library",
+  "license": "GPL-3.0",
+  "name": "Scheduler::DRMAA",
+  "perl": "6.c",
+  "provides": {
+    "DRMAA": "lib/DRMAA.pm6",
+    "DRMAA::Job-template": "lib/DRMAA/Job-template.pm6",
+    "DRMAA::Native-specification": "lib/DRMAA/Native-specification.pm6",
+    "DRMAA::Native-specification::Default": "lib/DRMAA/Native-specification/Default.pm6",
+    "DRMAA::Native-specification::SLURM": "lib/DRMAA/Native-specification/SLURM.pm6",
+    "DRMAA::NativeCall": "lib/DRMAA/NativeCall.pm6",
+    "DRMAA::Session": "lib/DRMAA/Session.pm6",
+    "DRMAA::Submission": "lib/DRMAA/Submission.pm6",
+    "DRMAA::Submission::Status": "lib/DRMAA/Submission/Status.pm6",
+    "Scheduler::DRMAA": "lib/Scheduler/DRMAA.pm6",
+    "X::DRMAA": "lib/X/DRMAA.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/scovit/Scheduler-DRMAA.git",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
 }
 ,
 {
