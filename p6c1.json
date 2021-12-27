@@ -12671,6 +12671,43 @@
 }
 ,
 {
+  "author": "Leon Timmermans",
+  "depends": [
+    
+  ],
+  "description": "A flexible and serializable dependency graph",
+  "name": "Build::Graph",
+  "perl": "6.*",
+  "provides": {
+    "Build::Graph": "lib/Build/Graph.pm"
+  },
+  "source-url": "https://github.com/Leont/build-graph6.git",
+  "test-depends": [
+    "Shell::Command",
+    "File::Temp"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "author": "Leon Timmermans",
+  "depends": [
+    
+  ],
+  "description": "A minimalistic dependency system",
+  "name": "Build::Simple",
+  "perl": "6.*",
+  "provides": {
+    "Build::Simple": "lib/Build/Simple.pm"
+  },
+  "source-url": "https://github.com/Leont/build-simple6.git",
+  "test-depends": [
+    "Shell::Command"
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "authors": [
     "Leon Timmermans"
   ],
@@ -12727,6 +12764,103 @@
     
   ],
   "version": "*"
+}
+,
+{
+  "authors": [
+    "Daisuke Maki"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cookie::Baker",
+    "Crust",
+    "Digest::SHA"
+  ],
+  "description": "Session Middleware for Crust Framework",
+  "license": "Artistic-2.0",
+  "name": "Crust::Middleware::Session",
+  "perl": "v6",
+  "provides": {
+    "Crust::Middleware::Session": "lib/Crust/Middleware/Session.pm6"
+  },
+  "source-url": "git://github.com/lestrrat/p6-Crust-Middleware-Session.git",
+  "test-depends": [
+    
+  ],
+  "version": "*"
+}
+,
+{
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Soundex Algorithm in Perl 6",
+  "license": "Artistic-2.0",
+  "name": "Algorithm::Soundex",
+  "perl": "6.*",
+  "provides": {
+    "Algorithm::Soundex": "lib/Algorithm/Soundex.pm"
+  },
+  "source-url": "git://github.com/leto/perl6-Algorithm-Soundex.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "*"
+}
+,
+{
+  "auth": "github:littlebenlittle",
+  "authors": [
+    "Ben Little <ben.little@benlittle.dev>"
+  ],
+  "build-depends": [
+    "FileSystem::Helpers",
+    "Stache::Renderer"
+  ],
+  "description": "query information from a raku module directory",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "META6::Query",
+  "perl": "6.d",
+  "provides": {
+    "META6::Query": "lib/META6/Query.rakumod"
+  },
+  "source-url": "https://github.com/littlebenlittle/meta6-query.git",
+  "tags": [
+    "meta6",
+    "module",
+    "query",
+    "filesystem"
+  ],
+  "version": "0.0.0"
+}
+,
+{
+  "auth": "github:littlebenlittle",
+  "authors": [
+    "Ben Little <ben.little@benlittle.dev>"
+  ],
+  "description": "helper functions for file systems",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "FileSystem::Helpers",
+  "perl": "6.d",
+  "provides": {
+    "FileSystem::Helpers": "lib/FileSystem/Helpers.rakumod"
+  },
+  "source-url": "https://github.com/littlebenlittle/raku-filesystem-helpers.git",
+  "tags": [
+    "helpers",
+    "filesystem",
+    "files",
+    "temp"
+  ],
+  "version": "0.1.2"
 }
 ,
 {
@@ -12861,6 +12995,47 @@
     "Test::META"
   ],
   "version": "0.1.14"
+}
+,
+{
+  "authors": [
+    "Lloyd Fournier"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Moose-like init-arg attribute trait for Perl 6",
+  "name": "AttrX::InitArg",
+  "perl": "6.*",
+  "provides": {
+    "AttrX::InitArg": "lib/AttrX/InitArg.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/LLFourn/p6-AttrX-InitArg.git",
+  "version": "0.1.1"
+}
+,
+{
+  "authors": [
+    "Lloyd Fournier"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Utilities for introspecting compunits and re-exporting",
+  "license": "MIT",
+  "name": "CompUnit::Util",
+  "perl": "6.*",
+  "provides": {
+    "CompUnit::Util": "lib/CompUnit/Util.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/LLFourn/p6-CompUnit-Util.git",
+  "version": "0.6.0"
 }
 ,
 {
@@ -15234,6 +15409,23 @@
   },
   "source-url": "git://gitlab.com/pheix/router-right-perl6.git",
   "version": "0.0.55"
+}
+,
+{
+  "authors": [
+    "github:pierre-vigier"
+  ],
+  "depends": [
+    "Terminal::ANSIColor"
+  ],
+  "description": "Simple Sudoku solver",
+  "name": "Acme::Sudoku",
+  "perl": "6.c",
+  "provides": {
+    "Acme::Sudoku": "lib/Acme/Sudoku.pm6"
+  },
+  "source-url": "git://github.com/pierre-vigier/Perl6-Acme-Sudoku.git",
+  "version": "0.0.2"
 }
 ,
 {
@@ -25464,6 +25656,36 @@
     "Test::META"
   ],
   "version": "0.5.0"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Load modules from temporarily included locations",
+  "license": "Artistic",
+  "meta6": "0",
+  "name": "CompUnit::DynamicLib",
+  "perl": "6.c",
+  "provides": {
+    "CompUnit::DynamicLib": "lib/CompUnit/DynamicLib.pm6"
+  },
+  "source-url": "git://github.com/zostay/p6-CompUnit-DynamicLib.git",
+  "support": {
+    "source": "git://github.com/zostay/p6-CompUnit-DynamicLib.git"
+  },
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.2.1"
 }
 ,
 {
