@@ -69344,6 +69344,47 @@
 }
 ,
 {
+  "auth": "cpan:LEONT",
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "blah blah blah",
+  "license": "Artistic-2.0",
+  "name": "Protocol::MQTT",
+  "perl": "6.d",
+  "provides": {
+    "Net::MQTT": "lib/Net/MQTT.rakumod",
+    "Protocol::MQTT": "lib/Protocol/MQTT.rakumod",
+    "Protocol::MQTT::Client": "lib/Protocol/MQTT/Client.rakumod",
+    "Protocol::MQTT::Dispatcher": "lib/Protocol/MQTT/Dispatcher.rakumod",
+    "Protocol::MQTT::Error": "lib/Protocol/MQTT/Error.rakumod",
+    "Protocol::MQTT::Filter": "lib/Protocol/MQTT/Filter.rakumod",
+    "Protocol::MQTT::Message": "lib/Protocol/MQTT/Message.rakumod",
+    "Protocol::MQTT::Packet": "lib/Protocol/MQTT/Packet.rakumod",
+    "Protocol::MQTT::PacketBuffer": "lib/Protocol/MQTT/PacketBuffer.rakumod",
+    "Protocol::MQTT::Qos": "lib/Protocol/MQTT/Qos.rakumod",
+    "Protocol::MQTT::Subsets": "lib/Protocol/MQTT/Subsets.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Protocol-MQTT-0.0.2.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "authors": [
     "Leon Timmermans"
   ],
