@@ -10093,20 +10093,6 @@
 ,
 {
   "depends": [
-    
-  ],
-  "description": "parse Perl6",
-  "name": "Rakudo::Perl6::Parsing",
-  "perl": "6.*",
-  "provides": {
-    "Rakudo::Perl6::Parsing": "lib/Rakudo/Perl6/Parsing.rakumod"
-  },
-  "source-url": "git://github.com/jaffa4/perl6parsing.git",
-  "version": "1.0.1"
-}
-,
-{
-  "depends": [
     "Rakudo::Perl6::Parsing"
   ],
   "description": "trace Perl6",
@@ -10193,30 +10179,6 @@
   ],
   "source-url": "git://github.com/jamesalbert/JSON-WebToken.git",
   "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "James Clark"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Roll RPG-style polyhedral dice",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "Dice::Roller",
-  "perl": "6.c",
-  "provides": {
-    "Dice::Roller": "lib/Dice/Roller.pm6",
-    "Dice::Roller::Rollable": "lib/Dice/Roller/Rollable.pm6",
-    "Dice::Roller::Selector": "lib/Dice/Roller/Selector.pm6"
-  },
-  "source-url": "https://github.com/jamesneko/dice-roller.git",
-  "support": {
-    "email": "perl@lazycat.com.au"
-  },
-  "version": "0.1.1"
 }
 ,
 {
