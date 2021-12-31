@@ -8168,6 +8168,7 @@
     "ExtractPod": "lib/ExtractPod.pm6",
     "InstallAtomHighlighter": "lib/InstallAtomHighlighter.pm6",
     "Pod::Render::Exceptions": "lib/Pod/Render/Exceptions.pm6",
+    "Pod::Render::Templating": "lib/Pod/Render/Templating.rakumod",
     "Pod::To::HTML2": "lib/Pod/To/HTML2.pm6",
     "Pod::To::HTML2::Mustache": "lib/Pod/To/HTML2.pm6",
     "Pod::To::MarkDown": "lib/Pod/To/MarkDown.pm6",
@@ -8196,7 +8197,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "3.6.22"
+  "version": "3.7.0"
 }
 ,
 {
