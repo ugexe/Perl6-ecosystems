@@ -115121,6 +115121,40 @@
 }
 ,
 {
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "PDF::Lite",
+    "PDF::Content:ver<0.5.16+>",
+    "File::Temp"
+  ],
+  "description": "Minimal Pod to PDF draft rendering",
+  "license": "Artistic-2.0",
+  "name": "Pod::To::PDF::Lite",
+  "perl": "6.d",
+  "provides": {
+    "Pod::To::PDF::Lite": "lib/Pod/To/PDF/Lite.rakumod",
+    "Pod::To::PDF::Lite::Style": "lib/Pod/To/PDF/Lite/Style.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Pod-To-PDF-Lite-0.0.4.tar.gz",
+  "tags": [
+    "pdf",
+    "pod"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "auth": "cpan:WARRINGD",
   "authors": [
     "David Warring"
