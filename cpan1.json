@@ -633,6 +633,46 @@
     
   ],
   "depends": [
+    "HTTP::UserAgent",
+    "Text::CSV",
+    "URL::Find",
+    "XDG::BaseDirectory"
+  ],
+  "description": "Obtaining example datasets.",
+  "license": "Artistic-2.0",
+  "name": "Data::ExampleDatasets",
+  "perl": "6.d",
+  "provides": {
+    "Data::ExampleDatasets": "lib/Data/ExampleDatasets.rakumod",
+    "Data::ExampleDatasets::AccessData": "lib/Data/ExampleDatasets/AccessData.rakumod"
+  },
+  "resources": [
+    "dfRdatasets.csv"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-ExampleDatasets-0.2.0.tar.gz",
+  "tags": [
+    "data",
+    "dataset",
+    "example",
+    "metadata",
+    "Rdatasets"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.0"
+}
+,
+{
+  "api": "1",
+  "auth": "github:antononcube",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Random data generation functions: strings, words, numbers, vectors, pet names, job titles, and tabular datasets.",
@@ -821,6 +861,149 @@
     
   ],
   "version": "0.1.6"
+}
+,
+{
+  "api": "1",
+  "auth": "github:antononcube",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Hash::Merge",
+    "Text::CSV",
+    "Pretty::Table"
+  ],
+  "description": "Data reshaping functions for different data structures (arrays, lists of hashes, Text::CSV tables.)",
+  "license": "Artistic-2.0",
+  "name": "Data::Reshapers",
+  "perl": "6.d",
+  "provides": {
+    "Data::Reshapers": "lib/Data/Reshapers.rakumod",
+    "Data::Reshapers::Adapters": "lib/Data/Reshapers/Adapters.rakumod",
+    "Data::Reshapers::CrossTabulate": "lib/Data/Reshapers/CrossTabulate.rakumod",
+    "Data::Reshapers::JoinAcross": "lib/Data/Reshapers/JoinAcross.rakumod",
+    "Data::Reshapers::Predicates": "lib/Data/Reshapers/Predicates.rakumod",
+    "Data::Reshapers::ToLongFormat": "lib/Data/Reshapers/ToLongFormat.rakumod",
+    "Data::Reshapers::ToPrettyTable": "lib/Data/Reshapers/ToPrettyTable.rakumod",
+    "Data::Reshapers::ToWideFormat": "lib/Data/Reshapers/ToWideFormat.rakumod",
+    "Data::Reshapers::Transpose": "lib/Data/Reshapers/Transpose.rakumod"
+  },
+  "resources": [
+    "dfTitanic.csv"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-Reshapers-0.1.7.tar.gz",
+  "tags": [
+    "contingency table",
+    "data",
+    "dataset",
+    "long form",
+    "long format",
+    "narrow format",
+    "reshape",
+    "schema",
+    "transpose",
+    "wide form",
+    "wide format"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.7"
+}
+,
+{
+  "api": "1",
+  "auth": "github:antononcube",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Hash::Merge",
+    "Text::CSV",
+    "Pretty::Table"
+  ],
+  "description": "Data reshaping functions for different data structures (arrays, lists of hashes, Text::CSV tables.)",
+  "license": "Artistic-2.0",
+  "name": "Data::Reshapers",
+  "perl": "6.d",
+  "provides": {
+    "Data::Reshapers": "lib/Data/Reshapers.rakumod",
+    "Data::Reshapers::Adapters": "lib/Data/Reshapers/Adapters.rakumod",
+    "Data::Reshapers::CrossTabulate": "lib/Data/Reshapers/CrossTabulate.rakumod",
+    "Data::Reshapers::JoinAcross": "lib/Data/Reshapers/JoinAcross.rakumod",
+    "Data::Reshapers::Predicates": "lib/Data/Reshapers/Predicates.rakumod",
+    "Data::Reshapers::ToLongFormat": "lib/Data/Reshapers/ToLongFormat.rakumod",
+    "Data::Reshapers::ToPrettyTable": "lib/Data/Reshapers/ToPrettyTable.rakumod",
+    "Data::Reshapers::ToWideFormat": "lib/Data/Reshapers/ToWideFormat.rakumod",
+    "Data::Reshapers::Transpose": "lib/Data/Reshapers/Transpose.rakumod"
+  },
+  "resources": [
+    "dfTitanic.csv"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-Reshpers-0.1.7.tar.gz",
+  "tags": [
+    "contingency table",
+    "data",
+    "dataset",
+    "long form",
+    "long format",
+    "narrow format",
+    "reshape",
+    "schema",
+    "transpose",
+    "wide form",
+    "wide format"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.7"
+}
+,
+{
+  "api": "1",
+  "auth": "github:antononcube",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Stats",
+    "Data::Reshapers"
+  ],
+  "description": "Data summarizing functions for different data structures (arrays, lists of hashes, Text::CSV tables.)",
+  "license": "Artistic-2.0",
+  "name": "Data::Summarizers",
+  "perl": "6.d",
+  "provides": {
+    "Data::Summarizers": "lib/Data/Summarizers.rakumod",
+    "Data::Summarizers::Predicates": "lib/Data/Summarizers/Predicates.rakumod",
+    "Data::Summarizers::RecordsSummary": "lib/Data/Summarizers/RecordsSummary.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-Summarizers-0.1.0.tar.gz",
+  "tags": [
+    "summarize",
+    "summary",
+    "records summary",
+    "data",
+    "dataset"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.0"
 }
 ,
 {
