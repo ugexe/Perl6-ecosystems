@@ -1410,6 +1410,39 @@
   "authors": [
     "Arne Sommer"
   ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Linenoise",
+    "Text::ShellWords"
+  ],
+  "description": "Plan and set up public transportation routes or network",
+  "license": "Artistic-2.0",
+  "name": "Transit::Network",
+  "perl": "6.d",
+  "provides": {
+    "Transit::Network": "lib/Transit/Network.rakumod",
+    "Transit::Network::Helpers": "lib/Transit/Network/Helpers.rakumod",
+    "Transit::Network::i8n": "lib/Transit/Network/i8n.rakumod"
+  },
+  "resources": [
+    "examples-0.0.4.zip"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AR/ARNE/Perl6/Transit-Network-0.0.4.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "authors": [
+    "Arne Sommer"
+  ],
   "depends": [
     
   ],
