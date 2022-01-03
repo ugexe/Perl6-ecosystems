@@ -20413,6 +20413,43 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:sdondley",
+  "authors": [
+    "Steve Dondley"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "List installed apps found in standard and other directories",
+  "license": "Artistic-2.0",
+  "name": "Mac::Applications::List",
+  "perl": "6.d",
+  "provides": {
+    "Mac::Applications::List": "lib/Mac/Appllications/List.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/sdondley/Mac-Applications-List",
+  "tags": [
+    "macos",
+    "mac",
+    "utilities",
+    "Mac",
+    "Applications",
+    "List"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "author": "github:sergot",
   "depends": [
     "Panda"
