@@ -10656,37 +10656,6 @@
 }
 ,
 {
-  "auth": "github:JJ",
-  "authors": [
-    "JJ Merelo"
-  ],
-  "depends": [
-    "META6:ver<0.0.24+>"
-  ],
-  "description": "Creates a single method for accessing META6 values that might be in two places",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "Dist::META",
-  "perl": "6.d",
-  "provides": {
-    "Dist::META": "lib/Dist/META.pm6"
-  },
-  "source-url": "https://github.com/JJ/raku-dist-meta.git",
-  "tags": [
-    "modules",
-    "ecosystem",
-    "devel",
-    "meta",
-    "utils",
-    "META6"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.0.3"
-}
-,
-{
   "api": "2",
   "auth": "github:JJ",
   "authors": [
@@ -19062,30 +19031,6 @@
     "Ramiro Encinas Alarza"
   ],
   "depends": [
-    "FileSystem::Capacity",
-    "Package::Updates"
-  ],
-  "description": "Send email alerts about disk capacity and pending updates.",
-  "license": "Artistic-2.0",
-  "name": "System::DiskAndUpdatesAlerts",
-  "perl": "6.c",
-  "provides": {
-    "System::DiskAndUpdatesAlerts": "lib/System/DiskAndUpdatesAlerts.pm6"
-  },
-  "source-url": "git@github.com:ramiroencinas/perl6-System-DiskAndUpdatesAlerts.git",
-  "tags": [
-    "filesystem",
-    "utils",
-    "capacity"
-  ],
-  "version": "1.0.0"
-}
-,
-{
-  "authors": [
-    "Ramiro Encinas Alarza"
-  ],
-  "depends": [
     
   ],
   "description": "Provides Statistics CPU Usage in percentage",
@@ -19531,21 +19476,6 @@
   "source-type": "git",
   "source-url": "git://github.com/retupmoca/P6-JSON-JWT.git",
   "version": "1.0"
-}
-,
-{
-  "author": "github:retupmoca",
-  "depends": [
-    "Shell::Command"
-  ],
-  "description": "An attempt to simplify native compilation",
-  "name": "LibraryMake",
-  "perl": "6.*",
-  "provides": {
-    "LibraryMake": "lib/LibraryMake.pm6"
-  },
-  "source-url": "git://github.com/retupmoca/P6-LibraryMake.git",
-  "version": "1.0.0"
 }
 ,
 {
