@@ -10269,40 +10269,6 @@
 }
 ,
 {
-  "auth": "zef:japhb",
-  "authors": [
-    "Geoffrey Broadwell"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Terminal::ANSIColor"
-  ],
-  "description": "A bag of small text processing tricks",
-  "license": "Artistic-2.0",
-  "name": "Text::MiscUtils",
-  "perl": "6.d",
-  "provides": {
-    "Text::MiscUtils": "lib/Text/MiscUtils.rakumod",
-    "Text::MiscUtils::English": "lib/Text/MiscUtils/English.rakumod",
-    "Text::MiscUtils::Layout": "lib/Text/MiscUtils/Layout.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/japhb/Text-MiscUtils.git",
-  "tags": [
-    "Text",
-    "MiscUtils"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.6"
-}
-,
-{
   "auth": "github:jasonmay",
   "authors": [
     "Jason May",
