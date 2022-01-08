@@ -10290,6 +10290,7 @@
 }
 ,
 {
+  "auth": "zef:japhb",
   "authors": [
     "Geoffrey Broadwell"
   ],
@@ -10302,11 +10303,11 @@
   "description": "A bag of small text processing tricks",
   "license": "Artistic-2.0",
   "name": "Text::MiscUtils",
-  "perl": "6.c",
+  "perl": "6.d",
   "provides": {
-    "Text::MiscUtils": "lib/Text/MiscUtils.pm6",
-    "Text::MiscUtils::English": "lib/Text/MiscUtils/English.pm6",
-    "Text::MiscUtils::Layout": "lib/Text/MiscUtils/Layout.pm6"
+    "Text::MiscUtils": "lib/Text/MiscUtils.rakumod",
+    "Text::MiscUtils::English": "lib/Text/MiscUtils/English.rakumod",
+    "Text::MiscUtils::Layout": "lib/Text/MiscUtils/Layout.rakumod"
   },
   "resources": [
     
@@ -10319,7 +10320,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.5"
+  "version": "0.0.6"
 }
 ,
 {
