@@ -17088,30 +17088,6 @@
 }
 ,
 {
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "Term::termios"
-  ],
-  "description": "Use Brainfuck language in your Raku programs",
-  "license": "Artistic-2.0",
-  "name": "Inline::Brainfuck",
-  "perl": "6.c",
-  "provides": {
-    "Inline::Brainfuck": "lib/Inline/Brainfuck.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/Inline-Brainfuck.git"
-  },
-  "test-depends": [
-    "Test",
-    "Test::Output"
-  ],
-  "version": "1.001001"
-}
-,
-{
   "auth": "github:drforr",
   "authors": [
     "Jeffrey Goff <drforr@pobox.com>"
