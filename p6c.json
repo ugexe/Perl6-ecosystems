@@ -17941,6 +17941,7 @@
 }
 ,
 {
+  "auth": "zef:raku-community-modules",
   "authors": [
     "Zoffix Znet"
   ],
@@ -17954,12 +17955,15 @@
   "provides": {
     "Subset::Helper": "lib/Subset/Helper.pm6"
   },
+  "resources": [
+    "examples/subset.p6"
+  ],
   "source-url": "git://github.com/raku-community-modules/Subset-Helper.git",
   "test-depends": [
     "Test",
     "Test::Output"
   ],
-  "version": "1.001001"
+  "version": "1.001002"
 }
 ,
 {
