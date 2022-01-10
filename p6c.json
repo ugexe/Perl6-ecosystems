@@ -20444,6 +20444,25 @@
 }
 ,
 {
+  "auth": "github:sergot",
+  "depends": [
+    "OpenSSL"
+  ],
+  "description": "IO::Socket::SSL for Perl 6 using OpenSSL",
+  "name": "IO::Socket::SSL",
+  "perl": "6.*",
+  "provides": {
+    "IO::Socket::SSL": "lib/IO/Socket/SSL.pm6"
+  },
+  "source-url": "git://github.com/sergot/io-socket-ssl.git",
+  "tags": [
+    "SSL",
+    "Sockets"
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "author": "github:sergot",
   "build-depends": [
     "PathTools"
@@ -21831,27 +21850,6 @@
   },
   "source-url": "git://github.com/supernovus/perl6-text-table-list.git",
   "version": "*"
-}
-,
-{
-  "authors": [
-    "Sverre Furberg"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Transforms a date or a day of week to the text equivalent in Swedish.",
-  "license": "Artistic-2.0",
-  "name": "Swedish::TextDates_sv",
-  "perl": "6.c",
-  "provides": {
-    "Swedish::TextDates_sv": "lib/Swedish/TextDates_sv.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/svekenfur/Swedish-TextDates_sv.git",
-  "version": "0.1.2"
 }
 ,
 {
