@@ -9768,6 +9768,54 @@
     
   ],
   "depends": [
+    "JSON::Fast",
+    "File::Find",
+    "DB::SQLite",
+    "Badger",
+    "LibCurl",
+    "Archive::Libarchive",
+    "Cro::HTTP",
+    "Pakku::Spec",
+    "Pakku::Meta",
+    "Pakku::RecMan::Client"
+  ],
+  "description": "Pakku Recommendation Manager",
+  "license": "Artistic-2.0",
+  "name": "Pakku::RecMan",
+  "perl": "6.d",
+  "provides": {
+    "Pakku::RecMan": "lib/Pakku/RecMan.rakumod"
+  },
+  "resources": [
+    "sql/recman.sql"
+  ],
+  "source-url": "https://github.com/hythm7/Pakku-RecMan.git",
+  "tags": [
+    "pakku",
+    "recman",
+    "package",
+    "manager",
+    "recommendation",
+    "module",
+    "distribution",
+    "spec",
+    "meta"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "LibCurl",
     "URI::Encode",
     "Retry",
@@ -20423,25 +20471,6 @@
     "Test::Util::ServerPort"
   ],
   "version": "1.1.51"
-}
-,
-{
-  "auth": "github:sergot",
-  "depends": [
-    "OpenSSL"
-  ],
-  "description": "IO::Socket::SSL for Perl 6 using OpenSSL",
-  "name": "IO::Socket::SSL",
-  "perl": "6.*",
-  "provides": {
-    "IO::Socket::SSL": "lib/IO/Socket/SSL.pm6"
-  },
-  "source-url": "git://github.com/sergot/io-socket-ssl.git",
-  "tags": [
-    "SSL",
-    "Sockets"
-  ],
-  "version": "0.0.2"
 }
 ,
 {
