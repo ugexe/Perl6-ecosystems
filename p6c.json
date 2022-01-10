@@ -7556,6 +7556,34 @@
   "authors": [
     "Fernando Correa de Oliveira"
   ],
+  "depends": [
+    
+  ],
+  "description": "Simple Pascal's Triangle",
+  "name": "Math::PascalTriangle",
+  "perl": "6.*",
+  "provides": {
+    "Math::PascalTriangle": "lib/Math/PascalTriangle.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/FCO/Math-PascalTriangle.git",
+  "tags": [
+    "math",
+    "pascal"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "authors": [
+    "Fernando Correa de Oliveira"
+  ],
   "build-depends": [
     
   ],
@@ -9617,6 +9645,63 @@
 }
 ,
 {
+  "api": "",
+  "auth": "github:hythm7",
+  "authors": [
+    "Haytham Elganiny"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Terminal::ANSIColor",
+    "Log::Async",
+    "Libarchive",
+    "URI::Encode",
+    "LibCurl"
+  ],
+  "description": "A Package Manager for Raku",
+  "license": "Artistic-2.0",
+  "name": "Pakku",
+  "perl": "6.d",
+  "provides": {
+    "Grammar::Pakku::Cmd": "lib/Grammar/Pakku/Cmd.rakumod",
+    "Grammar::Pakku::Cnf": "lib/Grammar/Pakku/Cnf.rakumod",
+    "Grammar::Pakku::Common": "lib/Grammar/Pakku/Common.rakumod",
+    "Pakku": "lib/Pakku.rakumod",
+    "Pakku::Cache": "lib/Pakku/Cache.rakumod",
+    "Pakku::Guts": "lib/Pakku/Guts.rakumod",
+    "Pakku::Help": "lib/Pakku/Help.rakumod",
+    "Pakku::Log": "lib/Pakku/Log.rakumod",
+    "Pakku::Meta": "lib/Pakku/Meta.rakumod",
+    "Pakku::Recman": "lib/Pakku/Recman.rakumod",
+    "Pakku::Repo": "lib/Pakku/Repo.rakumod",
+    "Pakku::Spec": "lib/Pakku/Spec.rakumod",
+    "Pakku::Util": "lib/Pakku/Util.rakumod",
+    "X::Pakku": "lib/X/Pakku.rakumod"
+  },
+  "resources": [
+    "pakku.cnf"
+  ],
+  "source-url": "https://github.com/hythm7/Pakku.git",
+  "tags": [
+    "spec",
+    "meta",
+    "repo",
+    "module",
+    "install",
+    "package",
+    "manager",
+    "distribution",
+    "raku"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "pupa"
+}
+,
+{
   "auth": "github:hythm7",
   "authors": [
     "Haytham Elganiny"
@@ -9651,54 +9736,6 @@
     
   ],
   "version": "0.0.4"
-}
-,
-{
-  "auth": "github:hythm7",
-  "authors": [
-    "Haytham Elganiny"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "JSON::Fast",
-    "File::Find",
-    "DB::SQLite",
-    "Badger",
-    "LibCurl",
-    "Archive::Libarchive",
-    "Cro::HTTP",
-    "Pakku::Spec",
-    "Pakku::Meta",
-    "Pakku::RecMan::Client"
-  ],
-  "description": "Pakku Recommendation Manager",
-  "license": "Artistic-2.0",
-  "name": "Pakku::RecMan",
-  "perl": "6.d",
-  "provides": {
-    "Pakku::RecMan": "lib/Pakku/RecMan.rakumod"
-  },
-  "resources": [
-    "sql/recman.sql"
-  ],
-  "source-url": "https://github.com/hythm7/Pakku-RecMan.git",
-  "tags": [
-    "pakku",
-    "recman",
-    "package",
-    "manager",
-    "recommendation",
-    "module",
-    "distribution",
-    "spec",
-    "meta"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.0"
 }
 ,
 {
