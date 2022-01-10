@@ -8748,6 +8748,28 @@
   "depends": [
     "Test::META"
   ],
+  "description": "Provides a ?? !! equivalent that tests for definedness instread of trueness.",
+  "license": "Artistic-2.0",
+  "name": "Operator::defined-alternation",
+  "perl": "6.*",
+  "provides": {
+    "Operator::defined-alternation": "lib/Operator/defined-alternation.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/gfldex/perl6-operator-defined-alternation.git",
+  "support": {
+    "source": "https://github.com/gfldex/perl6-operator-defined-alternation"
+  },
+  "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Wenzel P. P. Peppmeyer"
+  ],
+  "depends": [
+    "Test::META"
+  ],
   "description": "Implement postcircumfix:<{|| }> to allow coercion of Array to semilist.",
   "license": "Artistic-2.0",
   "name": "Rakudo::Slippy::Semilist",
