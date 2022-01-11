@@ -6593,6 +6593,22 @@
 }
 ,
 {
+  "author": "Dagur Valberg Johannsson",
+  "depends": [
+    
+  ],
+  "description": "Low level language bindings to GD Graphics Library",
+  "license": "Artistic-2.0",
+  "name": "GD::Raw",
+  "perl": "6.*",
+  "provides": {
+    "GD::Raw": "lib/GD/Raw.pm"
+  },
+  "source-url": "git://github.com/dagurval/perl6-gd-raw.git",
+  "version": "0.2"
+}
+,
+{
   "authors": [
     "Dagur Valberg Johannsson"
   ],
@@ -20853,6 +20869,25 @@
   },
   "source-url": "git://github.com/sirrobert/Class-Utils.git",
   "version": "0.1.0"
+}
+,
+{
+  "author": "Sir Robert Burbridge",
+  "depends": [
+    "JSON::Tiny"
+  ],
+  "description": "Let Perl 6 constructs masquerade as other things.",
+  "license": "Artistic-2.0",
+  "name": "Masquerade",
+  "perl": "6.*",
+  "provides": {
+    "Masquerade": "lib/Masquerade.pm6",
+    "Masquerade::AsIf::JSON": "lib/Masquerade/AsIf/JSON.pm6",
+    "Masquerade::AsIf::Perl": "lib/Masquerade/AsIf/Perl.pm6",
+    "Masquerade::AsIf::YAML": "lib/Masquerade/AsIf/YAML.pm"
+  },
+  "source-url": "git://github.com/sirrobert/Masquerade.git",
+  "version": "*"
 }
 ,
 {
