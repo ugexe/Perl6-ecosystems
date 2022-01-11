@@ -69978,6 +69978,36 @@
 }
 ,
 {
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "TAP harness for perl6",
+  "license": "Artistic-2.0",
+  "name": "TAP",
+  "perl": "6.*",
+  "provides": {
+    "TAP": "lib/TAP.pm"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/TAP-0.3.0.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.0"
+}
+,
+{
   "api": "0",
   "authors": [
     "Mose Schmiedel <mose.schmiedel@web.de>"
@@ -110103,6 +110133,38 @@
     
   ],
   "version": "0.0.4"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "LibraryMake"
+  ],
+  "description": "Fast Base 64 encoding and decoding (eager)",
+  "license": "Artistic-2.0",
+  "name": "Base64::Native",
+  "perl": "6.c",
+  "provides": {
+    "Base64::Native": "lib/Base64/Native.rakumod"
+  },
+  "resources": [
+    "libraries/base64"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Base64-Native-0.0.5.tar.gz",
+  "tags": [
+    "base64",
+    "encode"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
 }
 ,
 {
