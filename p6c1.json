@@ -3933,33 +3933,6 @@
 {
   "author": "atweiden",
   "depends": [
-    "Config::TOML"
-  ],
-  "description": "Calorie tracker and diet planner",
-  "license": "Unlicense",
-  "name": "Sustenance",
-  "perl": "6.*",
-  "provides": {
-    "Sustenance": "lib/Sustenance.pm6",
-    "Sustenance::DietPlan": "lib/Sustenance/DietPlan.pm6",
-    "Sustenance::Parser": "lib/Sustenance/Parser.pm6",
-    "Sustenance::Parser::ParseTree": "lib/Sustenance/Parser/ParseTree.pm6",
-    "Sustenance::Types": "lib/Sustenance/Types.pm6",
-    "Sustenance::Utils": "lib/Sustenance/Utils.pm6",
-    "X::Sustenance": "lib/X/Sustenance.pm6"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/atweiden/sustenance.git",
-  "support": {
-    "bugtracker": "https://github.com/atweiden/sustenance/issues",
-    "source": "https://github.com/atweiden/sustenance"
-  },
-  "version": "0.0.1"
-}
-,
-{
-  "author": "atweiden",
-  "depends": [
     "Digest::xxHash"
   ],
   "description": "Double-entry accounting ledger parser",
@@ -7746,28 +7719,6 @@
   ],
   "test-depends": [
     
-  ],
-  "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "fernando"
-  ],
-  "description": "",
-  "license": "Artistic-2.0",
-  "name": "SupplyTimeWindow",
-  "perl": "v6.*",
-  "production": false,
-  "provides": {
-    "SupplyTimeWindow": "lib/SupplyTimeWindow.pm6"
-  },
-  "scripts": {
-    "test": "zef test ."
-  },
-  "source-url": "git://github.com/FCO/SupplyTimeWindow.git",
-  "test-depends": [
-    "Testo"
   ],
   "version": "0.0.1"
 }
@@ -12615,27 +12566,6 @@
   },
   "source-url": "git://github.com/labster/perl6-File-Find-Duplicates.git",
   "version": "*"
-}
-,
-{
-  "authors": [
-    "github:leejo"
-  ],
-  "depends": [
-    "NativeCall"
-  ],
-  "description": "Lightweight lookup of IPv4 address details using BIN files from http://www.ip2location.com",
-  "license": "Artistic-2.0",
-  "name": "Geo::IP2Location::Lite",
-  "perl": "6.c",
-  "provides": {
-    "Geo::IP2Location::Lite": "lib/Geo/IP2Location/Lite.pm"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/leejo/geo-ip2location-lite-p6",
-  "version": "0.10.0"
 }
 ,
 {
@@ -21880,6 +21810,27 @@
   },
   "source-url": "git://github.com/supernovus/perl6-text-table-list.git",
   "version": "*"
+}
+,
+{
+  "authors": [
+    "Sverre Furberg"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Transforms a date or a day of week to the text equivalent in Swedish.",
+  "license": "Artistic-2.0",
+  "name": "Swedish::TextDates_sv",
+  "perl": "6.c",
+  "provides": {
+    "Swedish::TextDates_sv": "lib/Swedish/TextDates_sv.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/svekenfur/Swedish-TextDates_sv.git",
+  "version": "0.1.2"
 }
 ,
 {
