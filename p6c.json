@@ -24070,45 +24070,6 @@
 ,
 {
   "authors": [
-    "Martin Barth <martin@senfdax.de>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Test::META"
-  ],
-  "description": "Time::Crontab for Raku - Parses Crontab Specifications",
-  "license": "Artistic-2.0",
-  "name": "Time::Crontab",
-  "perl": "6.c",
-  "provides": {
-    "Time::Crontab": "lib/Time/Crontab.pm6",
-    "Time::Crontab::Actions": "lib/Time/Crontab/Actions.pm6",
-    "Time::Crontab::Grammar": "lib/Time/Crontab/Grammar.pm6",
-    "Time::Crontab::Set": "lib/Time/Crontab/Set.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/ufobat/p6-time-crontab.git",
-  "tags": [
-    "Cron",
-    "Crontab",
-    "Time",
-    "Parsing",
-    "Linux",
-    "Unix",
-    "Date"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "1.0.0"
-}
-,
-{
-  "authors": [
     "Martin Barth"
   ],
   "build-depends": [
