@@ -4617,30 +4617,6 @@
 ,
 {
   "authors": [
-    "Paweł bbkr Pabian",
-    "Ahmad M. Zawawi (azawawi)"
-  ],
-  "depends": [
-    "JSON::Tiny",
-    "URI",
-    "HTTP::Easy",
-    "HTTP::UserAgent"
-  ],
-  "description": "JSON-RPC 2.0 client and server.",
-  "license": "Artistic-2.0",
-  "name": "JSON::RPC",
-  "perl": "6.c",
-  "provides": {
-    "JSON::RPC::Client": "lib/JSON/RPC/Client.rakumod",
-    "JSON::RPC::Server": "lib/JSON/RPC/Server.rakumod",
-    "X::JSON::RPC": "lib/X/JSON/RPC.rakumod"
-  },
-  "source-url": "git://github.com/bbkr/JSON-RPC.git",
-  "version": "1.0.1"
-}
-,
-{
-  "authors": [
     "Paweł bbkr Pabian"
   ],
   "description": "Generate sequence of random samples from probability distribution function.",
@@ -4981,36 +4957,6 @@
   },
   "source-url": "git://github.com/bradclawsie/WebService-AWS-V4.git",
   "version": "0.0.3"
-}
-,
-{
-  "authors": [
-    "brian d foy"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Perl 6 extension for working with the Periodic Table of Elements",
-  "license": "Artistic-2.0",
-  "name": "Chemistry::Elements",
-  "perl": "6.c",
-  "provides": {
-    "Chemistry::Elements": "lib/Chemistry/Elements.pm6"
-  },
-  "source-url": "https://github.com/briandfoy/perl6-chemistry-elements.git",
-  "support": {
-    "source": "https://github.com/briandfoy/perl6-chemistry-elements.git"
-  },
-  "tags": [
-    "chemistry",
-    "Z",
-    "atomic number"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.001003"
 }
 ,
 {
@@ -7423,27 +7369,6 @@
     "Test::META"
   ],
   "version": "0.0.11"
-}
-,
-{
-  "authors": [
-    "Fernando Correa de Oliveira"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Extends Date/DateTime features",
-  "name": "DateTime::Extended",
-  "perl": "6.*",
-  "provides": {
-    "DateTime::Extended": "lib/DateTime/Extended.pm6"
-  },
-  "source-url": "https://github.com/FCO/DateTime-Extended.git",
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.1.0"
 }
 ,
 {
@@ -9963,20 +9888,6 @@
     
   ],
   "version": "0.0.3"
-}
-,
-{
-  "author": "Ingy döt Net <ingy@cpan.org>",
-  "depends": [
-    "YAML"
-  ],
-  "description": "See Your Data in the Nude",
-  "name": "XXX",
-  "provides": {
-    "XXX": "lib/XXX.pm"
-  },
-  "source-url": "git://github.com/ingydotnet/xxx-pm6.git",
-  "version": "*"
 }
 ,
 {
@@ -24066,6 +23977,45 @@
     
   ],
   "version": "0.0.3"
+}
+,
+{
+  "authors": [
+    "Martin Barth <martin@senfdax.de>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Time::Crontab for Raku - Parses Crontab Specifications",
+  "license": "Artistic-2.0",
+  "name": "Time::Crontab",
+  "perl": "6.c",
+  "provides": {
+    "Time::Crontab": "lib/Time/Crontab.pm6",
+    "Time::Crontab::Actions": "lib/Time/Crontab/Actions.pm6",
+    "Time::Crontab::Grammar": "lib/Time/Crontab/Grammar.pm6",
+    "Time::Crontab::Set": "lib/Time/Crontab/Set.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/ufobat/p6-time-crontab.git",
+  "tags": [
+    "Cron",
+    "Crontab",
+    "Time",
+    "Parsing",
+    "Linux",
+    "Unix",
+    "Date"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.0"
 }
 ,
 {
