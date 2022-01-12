@@ -4734,6 +4734,33 @@
     
   ],
   "depends": [
+    "Terminal::ANSIColor"
+  ],
+  "description": "Make grammars fail parsing with a pretty error instead of returning nil",
+  "license": "Artistic-2.0",
+  "name": "Grammar::PrettyErrors",
+  "perl": "6.*",
+  "provides": {
+    "Grammar::PrettyErrors": "lib/Grammar/PrettyErrors.pm6"
+  },
+  "source-url": "git://github.com/bduggan/p6-grammar-prettyerrors.git",
+  "tags": [
+    "parsing"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "authors": [
+    "Brian Duggan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "UUID",
     "Log::Async",
     "Net::ZMQ:ver<0.8>",
