@@ -20126,6 +20126,43 @@
 }
 ,
 {
+  "authors": [
+    "Sam Gillespie"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "NativeCall"
+  ],
+  "description": "Convert Raku Numerics to Bufs and back again!",
+  "license": "Artistic-2.0",
+  "name": "Numeric::Pack",
+  "perl": "6.c",
+  "provides": {
+    "Numeric::Pack": "lib/Numeric/Pack.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/samgwise/p6-Numeric-Pack.git",
+  "tags": [
+    "Binary",
+    "Buf",
+    "Native",
+    "Pack",
+    "Endian",
+    "Byte-Order",
+    "Float",
+    "Double"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.4.1"
+}
+,
+{
   "auth": "github:schmidt73",
   "authors": [
     "Henri Schmidt"
@@ -20321,6 +20358,21 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "author": "github:sergot",
+  "depends": [
+    "Panda"
+  ],
+  "description": "Perl 6 dependency manager",
+  "name": "bamboo",
+  "perl": "6.*",
+  "provides": {
+    "Bamboo": "lib/Bamboo.pm6"
+  },
+  "source-url": "git://github.com/sergot/bamboo.git",
+  "version": "0.0.3"
 }
 ,
 {
