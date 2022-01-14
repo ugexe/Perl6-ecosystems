@@ -9194,30 +9194,6 @@
 }
 ,
 {
-  "author": "L. Grondin",
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Chess-related stuff in Perl 6.",
-  "license": "Artistic-2.0",
-  "name": "Chess",
-  "perl": "6.*",
-  "provides": {
-    "Chess": "lib/Chess.pm6",
-    "Chess::FEN": "lib/Chess/FEN.pm6",
-    "Chess::PGN": "lib/Chess/PGN.pm6"
-  },
-  "source-url": "git://github.com/grondilu/chess.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.2.1"
-}
-,
-{
   "auth": "github:grondilu",
   "authors": [
     "Lucien Grondin"
@@ -25018,23 +24994,6 @@
   },
   "source-url": "git://github.com/wollmers/P6-LCS-BV.git",
   "version": "0.4.0"
-}
-,
-{
-  "author": "Konrad Borowski <x.fix@o2.pl>",
-  "depends": [
-    "JSON::Tiny"
-  ],
-  "description": "such \"foo\" is \"bar\" wow",
-  "name": "Acme::DSON",
-  "perl": "6.*",
-  "provides": {
-    "Acme::DSON": "lib/Acme/DSON.pm",
-    "Acme::DSON::Actions": "lib/Acme/DSON/Actions.pm",
-    "Acme::DSON::Grammar": "lib/Acme/DSON/Grammar.pm"
-  },
-  "source-url": "git://github.com/xfix/Acme-DSON.git",
-  "version": "0.2.1"
 }
 ,
 {
