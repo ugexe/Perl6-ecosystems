@@ -12319,22 +12319,6 @@
   "depends": [
     
   ],
-  "description": "Port of File::Path::Tiny - create and delete directory trees",
-  "license": "Artistic-2.0",
-  "name": "File::Directory::Tree",
-  "perl": "6.*",
-  "provides": {
-    "File::Directory::Tree": "lib/File/Directory/Tree.pm"
-  },
-  "source-url": "git://github.com/labster/p6-file-directory-tree.git",
-  "version": "*"
-}
-,
-{
-  "author": "labster",
-  "depends": [
-    
-  ],
   "description": "Check if your filesystem is case sensitive or case tolerant (insensitive)",
   "license": "Artistic-2.0",
   "name": "File::Spec::Case",
