@@ -13376,6 +13376,20 @@
 }
 ,
 {
+  "author": "github:masak",
+  "depends": [
+    
+  ],
+  "description": "Righting the last few wrongs in Perl 6 gist output",
+  "name": "Data::Pretty",
+  "provides": {
+    "Data::Pretty": "lib/Data/Pretty.pm"
+  },
+  "source-url": "git://github.com/masak/data-pretty.git",
+  "version": "0.0.2"
+}
+,
+{
   "depends": [
     
   ],
@@ -13598,6 +13612,23 @@
     "Parser"
   ],
   "version": "0.4.3"
+}
+,
+{
+  "author": "Matt Oates",
+  "depends": [
+    
+  ],
+  "description": "Discrete Fourier Transform implementation.",
+  "license": "Artistic-2.0",
+  "name": "Math::FourierTransform",
+  "perl": "6.*",
+  "provides": {
+    "Math::FourierTransform": "lib/Math/FourierTransform.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/MattOates/Math--FourierTransform.git",
+  "version": "0.0.1"
 }
 ,
 {
@@ -13853,6 +13884,28 @@
   "support": {
     "bugtracker": "https://github.com/melezhik/sparrowdo-nginx/issues",
     "source": "https://github.com/melezhik/sparrowdo-nginx.git"
+  },
+  "version": "*"
+}
+,
+{
+  "authors": [
+    "Alexey Melezhik"
+  ],
+  "depends": [
+    "Sparrowdo"
+  ],
+  "description": "Sparrowdo module to manage Ruby gems via Ruby bundler.",
+  "name": "Sparrowdo::Ruby::Bundler",
+  "perl": "6.*",
+  "provides": {
+    "Sparrowdo::Ruby::Bundler": "lib/Sparrowdo/Ruby/Bundler.pm6"
+  },
+  "source-type": "git",
+  "source-url": "https://github.com/melezhik/sparrowdo-ruby-bundler.git",
+  "support": {
+    "bugtracker": "https://github.com/melezhik/sparrowdo-ruby-bundler/issues",
+    "source": "https://github.com/melezhik/sparrowdo-ruby-bundler.git"
   },
   "version": "*"
 }
@@ -14486,6 +14539,52 @@
     "timeline"
   ],
   "version": "0.4"
+}
+,
+{
+  "auth": "github:nige123",
+  "authors": [
+    "Nigel Hamilton"
+  ],
+  "depends": [
+    "Terminal::Print",
+    "Test::META",
+    "JSON::Tiny"
+  ],
+  "description": "search files and jump to matching lines in your favourite text editor",
+  "license": "Artistic-2.0",
+  "name": "jmp",
+  "perl": "6",
+  "provides": {
+    "JMP": "lib/JMP.rakumod",
+    "JMP::CLI": "lib/JMP/CLI.rakumod",
+    "JMP::Config": "lib/JMP/Config.rakumod",
+    "JMP::Editor": "lib/JMP/Editor.rakumod",
+    "JMP::File::Hit": "lib/JMP/File/Hit.rakumod",
+    "JMP::File::HitLater": "lib/JMP/File/HitLater.rakumod",
+    "JMP::Finder": "lib/JMP/Finder.rakumod",
+    "JMP::Memory": "lib/JMP/Memory.rakumod",
+    "JMP::Memory::Command": "lib/JMP/Memory/Command.rakumod",
+    "JMP::Memory::Hit": "lib/JMP/Memory/Hit.rakumod",
+    "JMP::Template": "lib/JMP/Template.rakumod",
+    "JMP::UI": "lib/JMP/UI.rakumod",
+    "JMP::UI::Cursor": "lib/JMP/UI/Cursor.rakumod",
+    "JMP::UI::Page": "lib/JMP/UI/Page.rakumod",
+    "JMP::UI::Pager": "lib/JMP/UI/Pager.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/nige123/jmp.nigelhamilton.com.git",
+  "support": {
+    "bugtracker": "https://github.com/nige123/jmp.nigelhamilton.com/issues"
+  },
+  "tags": [
+    "invoke-editor",
+    "code-search",
+    "file-search"
+  ],
+  "version": "10"
 }
 ,
 {
