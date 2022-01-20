@@ -20717,6 +20717,73 @@
 {
   "auth": "github:shuppet",
   "authors": [
+    "Alastair 'altreus' Douglas <altreus@altre.us>",
+    "Jonathan 'jnthn' Worthington <jnthn@jnthn.net>",
+    "Kane 'kawaii' Valentine <kane@cute.im>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Cro::WebSocket",
+    "Data::Dump",
+    "Object::Delayed",
+    "URI::Encode",
+    "Subset::Helper",
+    "Test::META"
+  ],
+  "description": "Raku module for interacting with the Discord API.",
+  "license": "BSD-3-Clause",
+  "meta-version": "0",
+  "name": "API::Discord",
+  "perl": "6.d",
+  "provides": {
+    "API::Discord": "lib/API/Discord.rakumod",
+    "API::Discord::Channel": "lib/API/Discord/Channel.rakumod",
+    "API::Discord::Channel::ButReal": "lib/API/Discord/Channel.rakumod",
+    "API::Discord::Connection": "lib/API/Discord/Connection.rakumod",
+    "API::Discord::DataObject": "lib/API/Discord/Object.rakumod",
+    "API::Discord::Debug": "lib/API/Discord/Debug.rakumod",
+    "API::Discord::Endpoints": "lib/API/Discord/Endpoints.rakumod",
+    "API::Discord::Exceptions": "lib/API/Discord/Exceptions.rakumod",
+    "API::Discord::Guild": "lib/API/Discord/Guild.rakumod",
+    "API::Discord::Guild::ButReal": "lib/API/Discord/Guild.rakumod",
+    "API::Discord::HTTPResource": "lib/API/Discord/HTTPResource.rakumod",
+    "API::Discord::JSONy": "lib/API/Discord/HTTPResource.rakumod",
+    "API::Discord::Message": "lib/API/Discord/Message.rakumod",
+    "API::Discord::Message::ButReal": "lib/API/Discord/Message.rakumod",
+    "API::Discord::Object": "lib/API/Discord/Object.rakumod",
+    "API::Discord::Permissions": "lib/API/Discord/Permissions.rakumod",
+    "API::Discord::RESTy": "lib/API/Discord/HTTPResource.rakumod",
+    "API::Discord::Types": "lib/API/Discord/Types.rakumod",
+    "API::Discord::User": "lib/API/Discord/User.rakumod",
+    "API::Discord::User::ButReal": "lib/API/Discord/User.rakumod",
+    "API::Discord::WebSocket": "lib/API/Discord/WebSocket.rakumod",
+    "API::Discord::WebSocket::Messages": "lib/API/Discord/WebSocket/Messages.rakumod",
+    "X::API::Discord::Connection::Flatline": "lib/API/Discord/Exceptions.rakumod",
+    "X::API::Discord::Endpoint::NotEnoughArguments": "lib/API/Discord/Endpoints.rakumod"
+  },
+  "raku": null,
+  "resources": [
+    
+  ],
+  "source-url": "git://git@github.com/shuppet/raku-api-discord.git",
+  "support": {
+    "bugtracker": "https://github.com/shuppet/raku-api-discord/issues",
+    "source": "https://github.com/shuppet/raku-api-discord.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test::META"
+  ],
+  "version": "0.6"
+}
+,
+{
+  "auth": "github:shuppet",
+  "authors": [
     "Kane 'kawaii' Valentine <kane@cute.im>"
   ],
   "depends": [
@@ -20772,6 +20839,25 @@
   },
   "source-url": "git://github.com/sirrobert/Class-Utils.git",
   "version": "0.1.0"
+}
+,
+{
+  "author": "Sir Robert Burbridge",
+  "depends": [
+    "JSON::Tiny"
+  ],
+  "description": "Let Perl 6 constructs masquerade as other things.",
+  "license": "Artistic-2.0",
+  "name": "Masquerade",
+  "perl": "6.*",
+  "provides": {
+    "Masquerade": "lib/Masquerade.pm6",
+    "Masquerade::AsIf::JSON": "lib/Masquerade/AsIf/JSON.pm6",
+    "Masquerade::AsIf::Perl": "lib/Masquerade/AsIf/Perl.pm6",
+    "Masquerade::AsIf::YAML": "lib/Masquerade/AsIf/YAML.pm"
+  },
+  "source-url": "git://github.com/sirrobert/Masquerade.git",
+  "version": "*"
 }
 ,
 {
@@ -21245,6 +21331,32 @@
   ],
   "source-url": "git://github.com/skinkade/p6-crypt-argon2.git",
   "version": "0.2.1"
+}
+,
+{
+  "authors": [
+    "github:carbin",
+    "github:skinkade"
+  ],
+  "build-depends": [
+    "LibraryMake",
+    "Crypt::Random"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Easy bcrypt password hashing",
+  "license": "ISC",
+  "name": "Crypt::Bcrypt",
+  "perl": "6.*",
+  "provides": {
+    "Crypt::Bcrypt": "lib/Crypt/Bcrypt.pm6"
+  },
+  "resources": [
+    "crypt_blowfish.so"
+  ],
+  "source-url": "git://github.com/skinkade/p6-Crypt-Bcrypt.git",
+  "version": "1.3.2"
 }
 ,
 {
