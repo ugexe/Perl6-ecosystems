@@ -23140,6 +23140,39 @@
 }
 ,
 {
+  "authors": [
+    "Steve Schulze (thundergnat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Splice, but on strings rather than arrays",
+  "license": "Artistic-2.0",
+  "name": "String::Splice",
+  "perl": "6.c",
+  "provides": {
+    "String::Splice": "lib/String/Splice.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/String-Splice.git",
+  "tags": [
+    "String",
+    "Strings",
+    "Text wrangling"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "auth": "github:thundergnat",
   "authors": [
     "Steve Schulze"
@@ -23352,6 +23385,43 @@
   },
   "source-url": "git://github.com/TiMBuS/Net--IRC.git",
   "version": "0.9"
+}
+,
+{
+  "author": "Timo Paulssen",
+  "depends": [
+    
+  ],
+  "description": "Algebraic Data Types inspired by Haskell.",
+  "name": "ADT",
+  "perl": "6.*",
+  "provides": {
+    "ADT": "lib/ADT.pm6"
+  },
+  "source-url": "git://github.com/timo/ADT.git",
+  "version": "0.5"
+}
+,
+{
+  "depends": [
+    
+  ],
+  "description": "Cairo 2D graphics library",
+  "name": "Cairo",
+  "perl": "v6",
+  "provides": {
+    "Cairo": "lib/Cairo.pm6"
+  },
+  "source-url": "https://github.com/timo/cairo-p6.git",
+  "support": {
+    "source": "https://github.com/timo/cairo-p6.git"
+  },
+  "tags": [
+    "png",
+    "pdf",
+    "svg"
+  ],
+  "version": "0.2.7"
 }
 ,
 {
