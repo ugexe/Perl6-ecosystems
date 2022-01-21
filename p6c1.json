@@ -18188,15 +18188,17 @@
 }
 ,
 {
+  "auth": "zef:raku-community-modules",
   "authors": [
-    "Zoffix Znet"
+    "Zoffix Znet",
+    "Raku community"
   ],
   "depends": [
     
   ],
   "description": "Raku Testing Done Right",
   "name": "Testo",
-  "perl": "6.c",
+  "perl": "6.d",
   "provides": {
     "Testo": "lib/Testo.pm6",
     "Testo::Out": "lib/Testo/Out.pm6",
@@ -18221,7 +18223,7 @@
   "test-depends": [
     
   ],
-  "version": "1.003006"
+  "version": "1.003007"
 }
 ,
 {
