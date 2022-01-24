@@ -367,32 +367,6 @@
 ,
 {
   "authors": [
-    "Aaron Sherman",
-    "JJ Merelo"
-  ],
-  "depends": [
-    "Test::META",
-    "Lingua::EN::Numbers"
-  ],
-  "description": "Various mathematical sequences of moderate use",
-  "name": "Math::Sequences",
-  "perl": "6.c",
-  "provides": {
-    "Math::Sequences::Integer": "lib/Math/Sequences/Integer.pm6",
-    "Math::Sequences::Numberphile": "lib/Math/Sequences/Numberphile.pm6",
-    "Math::Sequences::Real": "lib/Math/Sequences/Real.pm6",
-    "Math::Util::Roman": "lib/Math/Util/Roman.pm6",
-    "Math::Util::SpellNumbers": "lib/Math/Util/SpellNumbers.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/ajs/perl6-Math-Sequences.git",
-  "version": "0.0.6"
-}
-,
-{
-  "authors": [
     "Takumi Akiyama"
   ],
   "build-depends": [
@@ -14467,82 +14441,6 @@
 }
 ,
 {
-  "auth": "github:nige123",
-  "authors": [
-    "Nigel Hamilton"
-  ],
-  "depends": [
-    "Terminal::Print",
-    "Test::META",
-    "JSON::Tiny"
-  ],
-  "description": "search files and jump to matching lines in your favourite text editor",
-  "license": "Artistic-2.0",
-  "name": "jmp",
-  "perl": "6",
-  "provides": {
-    "JMP": "lib/JMP.rakumod",
-    "JMP::CLI": "lib/JMP/CLI.rakumod",
-    "JMP::Config": "lib/JMP/Config.rakumod",
-    "JMP::Editor": "lib/JMP/Editor.rakumod",
-    "JMP::File::Hit": "lib/JMP/File/Hit.rakumod",
-    "JMP::File::HitLater": "lib/JMP/File/HitLater.rakumod",
-    "JMP::Finder": "lib/JMP/Finder.rakumod",
-    "JMP::Memory": "lib/JMP/Memory.rakumod",
-    "JMP::Memory::Command": "lib/JMP/Memory/Command.rakumod",
-    "JMP::Memory::Hit": "lib/JMP/Memory/Hit.rakumod",
-    "JMP::Template": "lib/JMP/Template.rakumod",
-    "JMP::UI": "lib/JMP/UI.rakumod",
-    "JMP::UI::Cursor": "lib/JMP/UI/Cursor.rakumod",
-    "JMP::UI::Page": "lib/JMP/UI/Page.rakumod",
-    "JMP::UI::Pager": "lib/JMP/UI/Pager.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/nige123/jmp.nigelhamilton.com.git",
-  "support": {
-    "bugtracker": "https://github.com/nige123/jmp.nigelhamilton.com/issues"
-  },
-  "tags": [
-    "invoke-editor",
-    "code-search",
-    "file-search"
-  ],
-  "version": "10"
-}
-,
-{
-  "authors": [
-    "Stefan Seifert"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "hide installed modules for testing.",
-  "license": "Artistic-2.0",
-  "name": "CompUnit::Repository::Mask",
-  "perl": "6.c",
-  "provides": {
-    "CompUnit::Repository::Mask": "lib/CompUnit/Repository/Mask.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/niner/CompUnit-Repository-Mask.git",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
-}
-,
-{
   "auth": "github:niner",
   "authors": [
     "Stefan Seifert"
@@ -14707,66 +14605,6 @@
     "IO::Capture::Simple"
   ],
   "version": "1.0.8"
-}
-,
-{
-  "authors": [
-    "Yann Büchau"
-  ],
-  "depends": [
-    
-  ],
-  "description": "grammar to parse FORTRAN source code",
-  "license": "GPL-3.0",
-  "name": "Fortran::Grammar",
-  "perl": "6",
-  "provides": {
-    "Fortran::Grammar": "lib/Fortran/Grammar.pm6",
-    "Fortran::Grammar::Test": "lib/Fortran/Grammar/Test.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/nobodyinperson/perl6-fortran-grammar.git",
-  "test-depends": [
-    "Test",
-    "Test::META",
-    "JSON::Fast",
-    "IO::Glob"
-  ],
-  "version": "0.0.6"
-}
-,
-{
-  "authors": [
-    "Ned Rihine"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "File::Find",
-    "JSON::Fast"
-  ],
-  "description": "Yet another minimal authoring tool for Perl6",
-  "license": "Artistic-2.0",
-  "name": "App::Miroku",
-  "perl": "6.c",
-  "provides": {
-    "App::Miroku": "lib/App/Miroku.pm6",
-    "App::Miroku::Template": "lib/App/Miroku/Template.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/noqisofon/p6-miroku.git",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "File::Temp"
-  ],
-  "version": "0.0.2"
 }
 ,
 {
