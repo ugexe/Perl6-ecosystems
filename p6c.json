@@ -5491,6 +5491,26 @@
 }
 ,
 {
+  "author": "Yecheng Fu",
+  "depends": [
+    
+  ],
+  "description": "A Perl6 binding for Redis",
+  "license": "Artistic-2.0",
+  "name": "Redis",
+  "perl": "6.*",
+  "provides": {
+    "Redis": "lib/Redis.pm"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/Cofyc/perl6-redis.git",
+  "test-depends": [
+    "File::Which"
+  ],
+  "version": "0.1.1"
+}
+,
+{
   "authors": "Will “Coke” Coleda",
   "depends": [
     
