@@ -68027,39 +68027,6 @@
 }
 ,
 {
-  "auth": "CPAN:lembark",
-  "authors": [
-    "Steven Lembark"
-  ],
-  "build-depends": [
-    "FileSystem::Parent"
-  ],
-  "depends": [
-    "FileSystem::Parent"
-  ],
-  "description": "Programatic -I: find non-root ./lib dirs above a path and add them to lib search path.",
-  "license": "Artistic-2.0",
-  "name": "FindBin::libs",
-  "perl": "6.d",
-  "provides": {
-    "FindBin::Frobnicate": "lib/FindBin/Frobnicate.rakumod",
-    "FindBin::libs": "lib/FindBin/libs.rakumod"
-  },
-  "resources": [
-    "pod/FindBin/libs.rakudoc"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/L/LE/LEMBARK/Perl6/FindBin-libs-0.3.0.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Test",
-    "FileSystem::Parent"
-  ],
-  "version": "0.3.0"
-}
-,
-{
   "abstract": "unknown",
   "author": [
     "Steven Lembark <lembark@wrkhors.com>"
