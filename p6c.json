@@ -18490,6 +18490,62 @@
 }
 ,
 {
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    "DOM::Tiny",
+    "HTTP::UserAgent",
+    "URI::Encode"
+  ],
+  "description": "Control vlc media player via its Web interface",
+  "license": "Artistic-2.0",
+  "name": "WWW::vlc::Remote",
+  "perl": "6.c",
+  "provides": {
+    "WWW::vlc::Remote": "lib/WWW/vlc/Remote.pm6",
+    "WWW::vlc::Remote::Track": "lib/WWW/vlc/Remote.pm6",
+    "WWW::vlc::Remote::X": "lib/WWW/vlc/Remote.pm6",
+    "WWW::vlc::Remote::X::Network": "lib/WWW/vlc/Remote.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/WWW-vlc-Remote.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.001008"
+}
+,
+{
+  "auth": "github:raku-community-modules",
+  "authors": [
+    "Timothy Totten"
+  ],
+  "description": "A full-featured, pure-Raku XML library (parsing, manipulation, emitting, queries, etc.)",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "XML",
+  "perl": "6.*",
+  "provides": {
+    "XML": "lib/XML.pm6",
+    "XML::CDATA": "lib/XML/CDATA.pm6",
+    "XML::Comment": "lib/XML/Comment.pm6",
+    "XML::Document": "lib/XML/Document.pm6",
+    "XML::Element": "lib/XML/Element.pm6",
+    "XML::Entity": "lib/XML/Entity.pm6",
+    "XML::Grammar": "lib/XML/Grammar.pm6",
+    "XML::Node": "lib/XML/Node.pm6",
+    "XML::PI": "lib/XML/PI.pm6",
+    "XML::Text": "lib/XML/Text.pm6"
+  },
+  "raku": "6.*",
+  "source-url": "git://github.com/raku-community-modules/XML.git",
+  "tags": [
+    "xml"
+  ],
+  "version": "0.3.1"
+}
+,
+{
   "author": "Timothy Totten",
   "depends": [
     "XML"
