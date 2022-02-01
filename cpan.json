@@ -112547,6 +112547,43 @@
     "David Warring"
   ],
   "build-depends": [
+    
+  ],
+  "depends": [
+    "HarfBuzz:ver<0.0.6+>",
+    "Method::Also"
+  ],
+  "description": "HarfBuzz font subsetting compactor",
+  "license": "Artistic-2.0",
+  "name": "HarfBuzz::Subset",
+  "perl": "6.d",
+  "provides": {
+    "HarfBuzz::Subset": "lib/HarfBuzz/Subset.rakumod",
+    "HarfBuzz::Subset::Input": "lib/HarfBuzz/Subset/Input.rakumod",
+    "HarfBuzz::Subset::Raw": "lib/HarfBuzz/Subset/Raw.rakumod",
+    "HarfBuzz::Subset::Raw::Defs": "lib/HarfBuzz/Subset/Raw/Defs.rakumod",
+    "HarfBuzz::Subset::Tables": "lib/HarfBuzz/Subset/Tables.rakumod"
+  },
+  "raku": "6",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-Subset-0.0.3.tar.gz",
+  "tags": [
+    "font"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
     "LibraryMake"
   ],
   "depends": [
