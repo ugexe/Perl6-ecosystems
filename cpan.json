@@ -111866,6 +111866,52 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
+    "Method::Also"
+  ],
+  "description": "read font files and render glyphs from Raku using FreeType2",
+  "license": "Artistic-2.0",
+  "name": "Font::FreeType",
+  "perl": "6",
+  "provides": {
+    "Font::FreeType": "lib/Font/FreeType.rakumod",
+    "Font::FreeType::BBox": "lib/Font/FreeType/BBox.rakumod",
+    "Font::FreeType::BitMap": "lib/Font/FreeType/BitMap.rakumod",
+    "Font::FreeType::CharMap": "lib/Font/FreeType/CharMap.rakumod",
+    "Font::FreeType::Error": "lib/Font/FreeType/Error.rakumod",
+    "Font::FreeType::Face": "lib/Font/FreeType/Face.rakumod",
+    "Font::FreeType::Glyph": "lib/Font/FreeType/Glyph.rakumod",
+    "Font::FreeType::GlyphImage": "lib/Font/FreeType/GlyphImage.rakumod",
+    "Font::FreeType::NamedInfo": "lib/Font/FreeType/NamedInfo.rakumod",
+    "Font::FreeType::Native": "lib/Font/FreeType/Native.rakumod",
+    "Font::FreeType::Native::Defs": "lib/Font/FreeType/Native/Defs.rakumod",
+    "Font::FreeType::Outline": "lib/Font/FreeType/Outline.rakumod",
+    "Font::FreeType::Raw": "lib/Font/FreeType/Raw.rakumod",
+    "Font::FreeType::Raw::Defs": "lib/Font/FreeType/Raw/Defs.rakumod",
+    "Font::FreeType::Raw::TT_Sfnt": "lib/Font/FreeType/Raw/TT_Sfnt.rakumod"
+  },
+  "resources": [
+    "libraries/ft6"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.3.10.tar.gz",
+  "tags": [
+    "font",
+    "freetype"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.3.10"
+}
+,
+{
   "auth": "github:pdf-raku",
   "authors": [
     "David Warring"
@@ -112412,6 +112458,85 @@
     "David Warring"
   ],
   "build-depends": [
+    
+  ],
+  "depends": [
+    "Method::Also"
+  ],
+  "description": "bindings to the HarfBuzz font shaping library (experimental)",
+  "license": "Artistic-2.0",
+  "name": "HarfBuzz",
+  "perl": "6.d",
+  "provides": {
+    "HarfBuzz": "lib/HarfBuzz.rakumod",
+    "HarfBuzz::Blob": "lib/HarfBuzz/Blob.rakumod",
+    "HarfBuzz::Buffer": "lib/HarfBuzz/Buffer.rakumod",
+    "HarfBuzz::Face": "lib/HarfBuzz/Face.rakumod",
+    "HarfBuzz::Feature": "lib/HarfBuzz/Feature.rakumod",
+    "HarfBuzz::Font": "lib/HarfBuzz/Font.rakumod",
+    "HarfBuzz::Glyph": "lib/HarfBuzz/Glyph.rakumod",
+    "HarfBuzz::Raw": "lib/HarfBuzz/Raw.rakumod",
+    "HarfBuzz::Raw::Defs": "lib/HarfBuzz/Raw/Defs.rakumod",
+    "HarfBuzz::Shaper": "lib/HarfBuzz/Shaper.rakumod"
+  },
+  "raku": "6",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-0.0.9.tar.gz",
+  "tags": [
+    "font",
+    "harfbuzz"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.9"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
+    "HarfBuzz:ver<0.0.5+>",
+    "HarfBuzz::Font::FreeType:ver<0.0.5+>",
+    "Cairo:ver<0.2.7+>"
+  ],
+  "description": "Cairo integeration for the HarfBuzz font shaping library",
+  "license": "Artistic-2.0",
+  "name": "HarfBuzz::Font::Cairo",
+  "perl": "6.d",
+  "provides": {
+    "HarfBuzz::Font::Cairo": "lib/HarfBuzz/Font/Cairo.rakumod",
+    "HarfBuzz::Shaper::Cairo": "lib/HarfBuzz/Shaper/Cairo.rakumod"
+  },
+  "raku": "6",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-Font-Cairo-0.0.2.tar.gz",
+  "tags": [
+    "font",
+    "harfbuzz",
+    "cairo"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
     "LibraryMake"
   ],
   "depends": [
@@ -112512,6 +112637,43 @@
     
   ],
   "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
+    "HarfBuzz:ver<0.0.5+>",
+    "HarfBuzz::Font::FreeType:ver<0.0.5+>",
+    "Cairo:ver<0.2.7+>"
+  ],
+  "description": "Cairo integeration for the HarfBuzz font shaping library",
+  "license": "Artistic-2.0",
+  "name": "HarfBuzz::Shaper::Cairo",
+  "perl": "6.d",
+  "provides": {
+    "HarfBuzz::Font::Cairo": "lib/HarfBuzz/Font/Cairo.rakumod",
+    "HarfBuzz::Shaper::Cairo": "lib/HarfBuzz/Shaper/Cairo.rakumod"
+  },
+  "raku": "6",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-Shaper-Cairo-0.0.3.tar.gz",
+  "tags": [
+    "font",
+    "harfbuzz",
+    "cairo"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
