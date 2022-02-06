@@ -110793,38 +110793,6 @@
   "resources": [
     "libraries/base64"
   ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Base64-Native-0.0.4.tar.gz",
-  "tags": [
-    "base64",
-    "encode"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "LibraryMake"
-  ],
-  "description": "Fast Base 64 encoding and decoding (eager)",
-  "license": "Artistic-2.0",
-  "name": "Base64::Native",
-  "perl": "6.c",
-  "provides": {
-    "Base64::Native": "lib/Base64/Native.rakumod"
-  },
-  "resources": [
-    "libraries/base64"
-  ],
   "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Base64-Native-0.0.5.tar.gz",
   "tags": [
     "base64",
@@ -110898,46 +110866,6 @@
     
   ],
   "version": "0.0.7"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Module:ver<0.5.8+>",
-    "CSS::Properties:ver<0.7.5+>",
-    "CSS::Stylesheet:ver<0.0.26+>",
-    "CSS::TagSet:ver<0.0.23+>",
-    "LibXML:ver<0.6.9+>",
-    "Method::Also",
-    "URI"
-  ],
-  "description": "CSS Stylesheet processing",
-  "license": "Artistic-2.0",
-  "name": "CSS",
-  "perl": "6.c",
-  "provides": {
-    "CSS": "lib/CSS.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-0.0.25.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath",
-    "css"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.25"
 }
 ,
 {
@@ -112514,98 +112442,6 @@
 }
 ,
 {
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    "Method::Also"
-  ],
-  "description": "read font files and render glyphs from Raku using FreeType2",
-  "license": "Artistic-2.0",
-  "name": "Font::FreeType",
-  "perl": "6",
-  "provides": {
-    "Font::FreeType": "lib/Font/FreeType.rakumod",
-    "Font::FreeType::BBox": "lib/Font/FreeType/BBox.rakumod",
-    "Font::FreeType::BitMap": "lib/Font/FreeType/BitMap.rakumod",
-    "Font::FreeType::CharMap": "lib/Font/FreeType/CharMap.rakumod",
-    "Font::FreeType::Error": "lib/Font/FreeType/Error.rakumod",
-    "Font::FreeType::Face": "lib/Font/FreeType/Face.rakumod",
-    "Font::FreeType::Glyph": "lib/Font/FreeType/Glyph.rakumod",
-    "Font::FreeType::GlyphImage": "lib/Font/FreeType/GlyphImage.rakumod",
-    "Font::FreeType::NamedInfo": "lib/Font/FreeType/NamedInfo.rakumod",
-    "Font::FreeType::Native": "lib/Font/FreeType/Native.rakumod",
-    "Font::FreeType::Native::Defs": "lib/Font/FreeType/Native/Defs.rakumod",
-    "Font::FreeType::Outline": "lib/Font/FreeType/Outline.rakumod",
-    "Font::FreeType::Raw": "lib/Font/FreeType/Raw.rakumod",
-    "Font::FreeType::Raw::Defs": "lib/Font/FreeType/Raw/Defs.rakumod",
-    "Font::FreeType::Raw::TT_Sfnt": "lib/Font/FreeType/Raw/TT_Sfnt.rakumod"
-  },
-  "resources": [
-    "libraries/ft6"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.3.6.tar.gz",
-  "tags": [
-    "font",
-    "freetype"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.3.6"
-}
-,
-{
-  "auth": "github:pdf-raku",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    "Method::Also"
-  ],
-  "description": "read font files and render glyphs from Raku using FreeType2",
-  "license": "Artistic-2.0",
-  "name": "Font::FreeType",
-  "perl": "6",
-  "provides": {
-    "Font::FreeType": "lib/Font/FreeType.rakumod",
-    "Font::FreeType::BBox": "lib/Font/FreeType/BBox.rakumod",
-    "Font::FreeType::BitMap": "lib/Font/FreeType/BitMap.rakumod",
-    "Font::FreeType::CharMap": "lib/Font/FreeType/CharMap.rakumod",
-    "Font::FreeType::Error": "lib/Font/FreeType/Error.rakumod",
-    "Font::FreeType::Face": "lib/Font/FreeType/Face.rakumod",
-    "Font::FreeType::Glyph": "lib/Font/FreeType/Glyph.rakumod",
-    "Font::FreeType::GlyphImage": "lib/Font/FreeType/GlyphImage.rakumod",
-    "Font::FreeType::NamedInfo": "lib/Font/FreeType/NamedInfo.rakumod",
-    "Font::FreeType::Native": "lib/Font/FreeType/Native.rakumod",
-    "Font::FreeType::Native::Defs": "lib/Font/FreeType/Native/Defs.rakumod",
-    "Font::FreeType::Outline": "lib/Font/FreeType/Outline.rakumod",
-    "Font::FreeType::Raw": "lib/Font/FreeType/Raw.rakumod",
-    "Font::FreeType::Raw::Defs": "lib/Font/FreeType/Raw/Defs.rakumod",
-    "Font::FreeType::Raw::TT_Sfnt": "lib/Font/FreeType/Raw/TT_Sfnt.rakumod"
-  },
-  "resources": [
-    "libraries/ft6"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/Font-FreeType-0.3.7.tar.gz",
-  "tags": [
-    "font",
-    "freetype"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.3.7"
-}
-,
-{
   "auth": "cpan:WARRINGD",
   "authors": [
     "David Warring"
@@ -113114,49 +112950,6 @@
     
   ],
   "version": "0.0.10"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    "Method::Also"
-  ],
-  "description": "bindings to the HarfBuzz font shaping library (experimental)",
-  "license": "Artistic-2.0",
-  "name": "HarfBuzz",
-  "perl": "6.d",
-  "provides": {
-    "HarfBuzz": "lib/HarfBuzz.rakumod",
-    "HarfBuzz::Blob": "lib/HarfBuzz/Blob.rakumod",
-    "HarfBuzz::Buffer": "lib/HarfBuzz/Buffer.rakumod",
-    "HarfBuzz::Face": "lib/HarfBuzz/Face.rakumod",
-    "HarfBuzz::Feature": "lib/HarfBuzz/Feature.rakumod",
-    "HarfBuzz::Font": "lib/HarfBuzz/Font.rakumod",
-    "HarfBuzz::Glyph": "lib/HarfBuzz/Glyph.rakumod",
-    "HarfBuzz::Raw": "lib/HarfBuzz/Raw.rakumod",
-    "HarfBuzz::Raw::Defs": "lib/HarfBuzz/Raw/Defs.rakumod",
-    "HarfBuzz::Shaper": "lib/HarfBuzz/Shaper.rakumod"
-  },
-  "raku": "6",
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-0.0.6.tar.gz",
-  "tags": [
-    "font",
-    "harfbuzz",
-    "freetype"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.6"
 }
 ,
 {
@@ -115027,73 +114820,6 @@
     
   ],
   "version": "0.4.18"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Base64::Native",
-    "Color",
-    "Compress::Zlib::Raw",
-    "Font::AFM:ver<1.24.4+>",
-    "Native::Packing",
-    "Method::Also",
-    "JSON::Fast",
-    "PDF:ver<0.4.6+>",
-    "PDF::Grammar"
-  ],
-  "description": "PDF content related classes; including text, images, fonts and graphics",
-  "license": "Artistic-2.0",
-  "name": "PDF::Content",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Content": "lib/PDF/Content.rakumod",
-    "PDF::Content::Canvas": "lib/PDF/Content/Canvas.rakumod",
-    "PDF::Content::Color": "lib/PDF/Content/Color.rakumod",
-    "PDF::Content::Font": "lib/PDF/Content/Font.rakumod",
-    "PDF::Content::Font::CoreFont": "lib/PDF/Content/Font/CoreFont.rakumod",
-    "PDF::Content::Font::Enc::Glyphic": "lib/PDF/Content/Font/Enc/Glyphic.rakumod",
-    "PDF::Content::Font::Enc::Type1": "lib/PDF/Content/Font/Enc/Type1.rakumod",
-    "PDF::Content::Font::Encodings": "lib/PDF/Content/Font/Encodings.rakumod",
-    "PDF::Content::FontObj": "lib/PDF/Content/FontObj.rakumod",
-    "PDF::Content::Graphics": "lib/PDF/Content/Graphics.rakumod",
-    "PDF::Content::Image": "lib/PDF/Content/Image.rakumod",
-    "PDF::Content::Image::GIF": "lib/PDF/Content/Image/GIF.rakumod",
-    "PDF::Content::Image::JPEG": "lib/PDF/Content/Image/JPEG.rakumod",
-    "PDF::Content::Image::PDF": "lib/PDF/Content/Image/PDF.rakumod",
-    "PDF::Content::Image::PNG": "lib/PDF/Content/Image/PNG.rakumod",
-    "PDF::Content::Interface": "lib/PDF/Content/Interface.rakumod",
-    "PDF::Content::Matrix": "lib/PDF/Content/Matrix.rakumod",
-    "PDF::Content::Ops": "lib/PDF/Content/Ops.rakumod",
-    "PDF::Content::Page": "lib/PDF/Content/Page.rakumod",
-    "PDF::Content::PageNode": "lib/PDF/Content/PageNode.rakumod",
-    "PDF::Content::PageTree": "lib/PDF/Content/PageTree.rakumod",
-    "PDF::Content::ResourceDict": "lib/PDF/Content/ResourceDict.rakumod",
-    "PDF::Content::Resourced": "lib/PDF/Content/Resourced.rakumod",
-    "PDF::Content::Tag": "lib/PDF/Content/Tag.rakumod",
-    "PDF::Content::Text::Block": "lib/PDF/Content/Text/Block.rakumod",
-    "PDF::Content::Text::Box": "lib/PDF/Content/Text/Box.rakumod",
-    "PDF::Content::Text::Line": "lib/PDF/Content/Text/Line.rakumod",
-    "PDF::Content::Text::Style": "lib/PDF/Content/Text/Style.rakumod",
-    "PDF::Content::XObject": "lib/PDF/Content/XObject.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Content-0.5.11.tar.gz",
-  "tags": [
-    "pdf"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.5.11"
 }
 ,
 {
