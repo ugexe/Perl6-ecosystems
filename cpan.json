@@ -4136,6 +4136,40 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
+    "Terminal::ANSI:ver<0.0.24>",
+    "Log::Async"
+  ],
+  "description": "A framework for building terminal interfaces",
+  "license": "MIT",
+  "name": "Terminal::UI",
+  "perl": "6.d",
+  "provides": {
+    "Terminal::UI": "lib/Terminal/UI.rakumod",
+    "Terminal::UI::Alerts": "lib/Terminal/UI/Alerts.rakumod",
+    "Terminal::UI::Frame": "lib/Terminal/UI/Frame.rakumod",
+    "Terminal::UI::Input": "lib/Terminal/UI/Input.rakumod",
+    "Terminal::UI::Pane": "lib/Terminal/UI/Pane.rakumod",
+    "Terminal::UI::Screen": "lib/Terminal/UI/Screen.rakumod",
+    "Terminal::UI::Style": "lib/Terminal/UI/Style.rakumod",
+    "Terminal::UI::Utils": "lib/Terminal/UI/Utils.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Terminal-UI-0.1.3.tar.gz",
+  "tags": [
+    "Terminal"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.3"
+}
+,
+{
   "auth": "github:bduggan",
   "authors": [
     "Brian Duggan <bduggan@matatu.org>"
@@ -97501,6 +97535,44 @@
     "Test"
   ],
   "version": "0.16"
+}
+,
+{
+  "auth": "cpan:TIMOTIMO",
+  "authors": [
+    "Timo Paulssen",
+    "Tony O'Dell",
+    "Wenzel P. P. Peppmeyer",
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A naive, fast json parser and serializer; drop-in replacement for JSON::Tiny",
+  "license": "Artistic-2.0",
+  "meta6": "0",
+  "name": "JSON::Fast",
+  "perl": "6.*",
+  "provides": {
+    "JSON::Fast": "lib/JSON/Fast.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TIMOTIMO/Perl6/JSON-Fast-0.17.tar.gz",
+  "support": {
+    "source": "git://github.com/timo/json_fast.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.17"
 }
 ,
 {
