@@ -49365,6 +49365,34 @@
 }
 ,
 {
+  "auth": "jnthn",
+  "authors": [
+    "Jonathan Worthington <jnthn@jnthn.net>"
+  ],
+  "depends": [
+    "OpenSSL"
+  ],
+  "description": "Provides an API like IO::Socket::Async, but with TLS support.",
+  "license": "Artistic-2.0",
+  "name": "IO::Socket::Async::SSL",
+  "perl": "6.*",
+  "provides": {
+    "IO::Socket::Async::SSL": "lib/IO/Socket/Async/SSL.pm6"
+  },
+  "source-url": "http://www.cpan.org/authors/id/J/JN/JNTHN/Perl6/IO-Socket-Async-SSL-0.7.10.tar.gz",
+  "support": {
+    "source": "https://github.com/jnthn/p6-io-socket-async-ssl.git"
+  },
+  "tags": [
+    "SSL",
+    "TLS",
+    "Asynchronous",
+    "Socket"
+  ],
+  "version": "0.7.10"
+}
+,
+{
   "authors": [
     "Jonathan Worthington <jnthn@jnthn.net>"
   ],
@@ -74429,6 +74457,40 @@
     
   ],
   "version": "0.19.5"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku - Gnome native interface support",
+  "license": "Artistic-2.0",
+  "name": "Gnome::N",
+  "perl": "6",
+  "provides": {
+    "Gnome::N::GlibToRakuTypes": "lib/Gnome/N/GlibToRakuTypes.pm6",
+    "Gnome::N::N-GObject": "lib/Gnome/N/N-GObject.pm6",
+    "Gnome::N::NativeLib": "lib/Gnome/N/NativeLib.pm6",
+    "Gnome::N::TopLevelClassSupport": "lib/Gnome/N/TopLevelClassSupport.pm6",
+    "Gnome::N::X": "lib/Gnome/N/X.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-native-0.19.7.tar.gz",
+  "tags": [
+    "gnome"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.19.7"
 }
 ,
 {
