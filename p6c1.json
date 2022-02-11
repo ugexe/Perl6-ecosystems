@@ -10425,12 +10425,9 @@
 }
 ,
 {
-  "auth": "github:JJ",
+  "auth": "zef:jjmerelo",
   "authors": [
     "JJ Merelo"
-  ],
-  "build-depends": [
-    
   ],
   "depends": [
     "Pod::Load",
@@ -10443,19 +10440,13 @@
   "provides": {
     "Test::Script::Output": "lib/Test/Script/Output.pm6"
   },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/JJ/perl6-test-script-output.git",
+  "source-url": "https://github.com/JJ/raku-test-script-output.git",
   "tags": [
     "Test",
     "App",
     "Script"
   ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
 ,
 {
@@ -15766,25 +15757,6 @@
     "Test"
   ],
   "version": "1.001001"
-}
-,
-{
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Benchmark running times of Raku code",
-  "name": "Benchmark",
-  "provides": {
-    "Benchmark": "lib/Benchmark.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/Benchmark.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "*"
 }
 ,
 {
