@@ -98848,6 +98848,43 @@
 }
 ,
 {
+  "auth": "cpan:WARRINGD",
+  "authors": [
+    "David Warring"
+  ],
+  "build-depends": [
+    "LibraryMake"
+  ],
+  "depends": [
+    "HarfBuzz:ver<0.0.11+>",
+    "HarfBuzz::Font::FreeType:ver<0.0.5+>",
+    "Cairo:ver<0.2.7+>"
+  ],
+  "description": "Cairo integeration for the HarfBuzz font shaping library",
+  "license": "Artistic-2.0",
+  "name": "HarfBuzz::Shaper::Cairo",
+  "perl": "6.d",
+  "provides": {
+    "HarfBuzz::Font::Cairo": "lib/HarfBuzz/Font/Cairo.rakumod",
+    "HarfBuzz::Shaper::Cairo": "lib/HarfBuzz/Shaper/Cairo.rakumod"
+  },
+  "raku": "6",
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/HarfBuzz-Shaper-Cairo-0.0.4.tar.gz",
+  "tags": [
+    "font",
+    "harfbuzz",
+    "cairo"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "auth": "github:pdf-raku",
   "authors": [
     "David Warring"
