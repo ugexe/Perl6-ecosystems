@@ -2629,6 +2629,42 @@
 }
 ,
 {
+  "auth": "git:alabamenhu",
+  "authors": [
+    "Matthew “Matéu” Stephen Stuckwisch"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "A token to simplify the process of calling one grammar from within another",
+  "license": "Artistic-2.0",
+  "name": "Token::Foreign",
+  "perl": "6.*",
+  "provides": {
+    "Token::Foreign": "lib/Token/Foreign.pm6"
+  },
+  "raku": "6.*",
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/alabamenhu/TokenForeign.git",
+  "tags": [
+    "grammar",
+    "regex",
+    "combination",
+    "token",
+    "language"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.2.0"
+}
+,
+{
   "api": 1,
   "auth": "github:alabamenhu",
   "authors": [
@@ -17662,33 +17698,6 @@
 ,
 {
   "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Index into strings like Pythonistas do!",
-  "license": "Artistic-2.0",
-  "name": "Pythonic::Str",
-  "perl": "6.c",
-  "provides": {
-    "Pythonic::Str": "lib/Pythonic/Str.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/Pythonic-Str.git"
-  },
-  "tags": [
-    "Python"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "1.001001"
-}
-,
-{
-  "authors": [
     "Jonathan Scott Duff <duff@pobox.com>"
   ],
   "depends": [
@@ -17936,21 +17945,6 @@
   "source-type": "git",
   "source-url": "git://github.com/raku-community-modules/Test-Builder.git",
   "version": "0.0.3"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "Simple Test::Class similar to Perl's",
-  "name": "Test::Class",
-  "perl": "6.*",
-  "provides": {
-    "Test::Class": "lib/Test/Class.pm6"
-  },
-  "repo-type": "git",
-  "source-url": "git://github.com/raku-community-modules/Test-Class.git",
-  "version": "*"
 }
 ,
 {
