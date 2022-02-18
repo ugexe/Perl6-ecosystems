@@ -16707,27 +16707,6 @@
 }
 ,
 {
-  "author": "Matthew Walton",
-  "depends": [
-    
-  ],
-  "description": "A Raku implementation of Raku-style string formatting.",
-  "name": "Form",
-  "perl": "6.*",
-  "provides": {
-    "Form": "lib/Form.pm",
-    "Form::Actions": "lib/Form/Actions.pm",
-    "Form::Field": "lib/Form/Field.pm",
-    "Form::Grammar": "lib/Form/Grammar.pm",
-    "Form::NumberFormatting": "lib/Form/NumberFormatting.pm",
-    "Form::TextFormatting": "lib/Form/TextFormatting.pm",
-    "Form::Types": "lib/Form/Types.pm"
-  },
-  "source-url": "git://github.com/raku-community-modules/Form.git",
-  "version": "*"
-}
-,
-{
   "auth": "github:drforr",
   "authors": [
     "Jeffrey Goff <drforr@pobox.com>"
