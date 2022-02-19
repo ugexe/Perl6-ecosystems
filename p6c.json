@@ -17120,28 +17120,6 @@
 ,
 {
   "authors": [
-    "Jonathan Scott Duff <duff@pobox.com>"
-  ],
-  "depends": [
-    "File::Find"
-  ],
-  "description": "Recursively watch a directory and any subdirectories",
-  "license": "Artistic-2.0",
-  "name": "IO::Notification::Recursive",
-  "perl": "6.*",
-  "provides": {
-    "IO::Notification::Recursive": "lib/IO/Notification/Recursive.pm"
-  },
-  "support": {
-    "bugtracker": "https://github.com/raku-community-modules/IO-Notification-Recursive/issues",
-    "email": "duff@pobox.com",
-    "source": "https://github.com/raku-community-modules/IO-Notification-Recursive.git"
-  },
-  "version": "0.0.1"
-}
-,
-{
-  "authors": [
     "Zoffix Znet"
   ],
   "depends": [
@@ -17350,21 +17328,6 @@
     "JSON::Tiny"
   ],
   "version": "0.107"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "A Raku binding to libmarpa, the parser module",
-  "license": "Artistic-2.0",
-  "name": "Marpa",
-  "perl": "6.*",
-  "provides": {
-    "Marpa": "lib/Marpa.pm"
-  },
-  "source-url": "git://github.com/raku-community-modules/Marpa.git",
-  "version": "*"
 }
 ,
 {
@@ -18466,22 +18429,6 @@
 }
 ,
 {
-  "depends": [
-    "XML"
-  ],
-  "description": "jQuery-like node selecting and traversing for XML.",
-  "name": "XML::Query",
-  "perl": "6.*",
-  "provides": {
-    "XML::Query": "lib/XML/Query.pm6",
-    "XML::Query::Results": "lib/XML/Query/Results.pm6",
-    "XML::Query::Statement": "lib/XML/Query/Statement.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/XML-Query.git",
-  "version": "*"
-}
-,
-{
   "authors": [
     "Ingy döt Net <ingy@cpan.org>"
   ],
@@ -19539,21 +19486,6 @@
     "Web::RF": "lib/Web/RF.pm6"
   },
   "source-url": "git://github.com/retupmoca/P6-Web-RF.git",
-  "version": "1.0.0"
-}
-,
-{
-  "author": "github:retupmoca",
-  "depends": [
-    "XML"
-  ],
-  "description": "XML Canonicalization",
-  "name": "XML::Canonical",
-  "perl": "6.*",
-  "provides": {
-    "XML::Canonical": "lib/XML/Canonical.pm6"
-  },
-  "source-url": "git://github.com/retupmoca/P6-XML-Canonical.git",
   "version": "1.0.0"
 }
 ,
