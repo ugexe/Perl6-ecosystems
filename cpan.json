@@ -50747,6 +50747,37 @@
 }
 ,
 {
+  "auth": "cpan:LEONT",
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Protocol::Postgres:ver<0.0.3+>"
+  ],
+  "description": "An asynchronous postgresql client",
+  "license": "Artistic-2.0",
+  "name": "Net::Postgres",
+  "perl": "6.d",
+  "provides": {
+    "Net::Postgres": "lib/Net/Postgres.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Net-Postgres-0.0.1.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "authors": [
     "Leon Timmermans"
   ],
@@ -51231,6 +51262,38 @@
     
   ],
   "version": "0.0.2"
+}
+,
+{
+  "auth": "cpan:LEONT",
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Auth::SCRAM::Async",
+    "OpenSSL"
+  ],
+  "description": "A sans-io postgresql client",
+  "license": "Artistic-2.0",
+  "name": "Protocol::Postgres",
+  "perl": "6.d",
+  "provides": {
+    "Protocol::Postgres": "lib/Protocol/Postgres.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Protocol-Postgres-0.0.3.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
 }
 ,
 {
