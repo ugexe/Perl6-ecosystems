@@ -53130,6 +53130,49 @@
     
   ],
   "depends": [
+    "Gnome::N"
+  ],
+  "description": "Raku Gnome Cairo api, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Cairo",
+  "perl": "6",
+  "provides": {
+    "Gnome::Cairo": "lib/Gnome/Cairo.rakumod",
+    "Gnome::Cairo::Enums": "lib/Gnome/Cairo/Enums.rakumod",
+    "Gnome::Cairo::FontFace": "lib/Gnome/Cairo/FontFace.rakumod",
+    "Gnome::Cairo::FontOptions": "lib/Gnome/Cairo/FontOptions.rakumod",
+    "Gnome::Cairo::ImageSurface": "lib/Gnome/Cairo/ImageSurface.rakumod",
+    "Gnome::Cairo::Matrix": "lib/Gnome/Cairo/Matrix.pm6",
+    "Gnome::Cairo::Path": "lib/Gnome/Cairo/Path.rakumod",
+    "Gnome::Cairo::Pattern": "lib/Gnome/Cairo/Pattern.rakumod",
+    "Gnome::Cairo::ScaledFont": "lib/Gnome/Cairo/ScaledFont.pm6",
+    "Gnome::Cairo::Surface": "lib/Gnome/Cairo/Surface.rakumod",
+    "Gnome::Cairo::Types": "lib/Gnome/Cairo/Types.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-cairo-0.2.6.tar.gz",
+  "tags": [
+    "drawing",
+    "cairo",
+    "gtk",
+    "gdk"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.6"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Gnome::N",
     "Gnome::Glib",
     "Gnome::GObject",
@@ -53302,6 +53345,52 @@
 }
 ,
 {
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib",
+    "Gnome::GObject",
+    "Gnome::Cairo",
+    "Gnome::Gio"
+  ],
+  "description": "Raku - Gnome Gdk Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gdk3",
+  "perl": "6",
+  "provides": {
+    "Gnome::Gdk3::Atom": "lib/Gnome/Gdk3/Atom.pm6",
+    "Gnome::Gdk3::Device": "lib/Gnome/Gdk3/Device.pm6",
+    "Gnome::Gdk3::Display": "lib/Gnome/Gdk3/Display.pm6",
+    "Gnome::Gdk3::DragContext": "lib/Gnome/Gdk3/DragContext.pm6",
+    "Gnome::Gdk3::Events": "lib/Gnome/Gdk3/Events.pm6",
+    "Gnome::Gdk3::Keysyms": "lib/Gnome/Gdk3/Keysyms.pm6",
+    "Gnome::Gdk3::Pixbuf": "lib/Gnome/Gdk3/Pixbuf.pm6",
+    "Gnome::Gdk3::RGBA": "lib/Gnome/Gdk3/RGBA.pm6",
+    "Gnome::Gdk3::Screen": "lib/Gnome/Gdk3/Screen.pm6",
+    "Gnome::Gdk3::Types": "lib/Gnome/Gdk3/Types.pm6",
+    "Gnome::Gdk3::Visual": "lib/Gnome/Gdk3/Visual.pm6",
+    "Gnome::Gdk3::Window": "lib/Gnome/Gdk3/Window.pm6"
+  },
+  "resources": [
+    "gtk-brokenimage.png"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gdk3-0.19.3.tar.gz",
+  "tags": [
+    "gnome",
+    "gdk"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.19.3"
+}
+,
+{
   "P": {
     "Gnome::Gio::LoadableIcon": "lib/Gnome/Gio/LoadableIcon.pm6"
   },
@@ -53358,6 +53447,65 @@
     
   ],
   "version": "0.10.1"
+}
+,
+{
+  "P": {
+    "Gnome::Gio::LoadableIcon": "lib/Gnome/Gio/LoadableIcon.pm6"
+  },
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib",
+    "Gnome::GObject"
+  ],
+  "description": "Raku Gnome GIO api, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gio",
+  "perl": "6",
+  "provides": {
+    "Gnome::Gio::Action": "lib/Gnome/Gio/Action.pm6",
+    "Gnome::Gio::ActionGroup": "lib/Gnome/Gio/ActionGroup.pm6",
+    "Gnome::Gio::ActionMap": "lib/Gnome/Gio/ActionMap.pm6",
+    "Gnome::Gio::AppInfo": "lib/Gnome/Gio/AppInfo.pm6",
+    "Gnome::Gio::AppInfoMonitor": "lib/Gnome/Gio/AppInfoMonitor.pm6",
+    "Gnome::Gio::AppLaunchContext": "lib/Gnome/Gio/AppLaunchContext.pm6",
+    "Gnome::Gio::Application": "lib/Gnome/Gio/Application.pm6",
+    "Gnome::Gio::ApplicationCommandLine": "lib/Gnome/Gio/ApplicationCommandLine.pm6",
+    "Gnome::Gio::Emblem": "lib/Gnome/Gio/Emblem.pm6",
+    "Gnome::Gio::EmblemedIcon": "lib/Gnome/Gio/EmblemedIcon.pm6",
+    "Gnome::Gio::Enums": "lib/Gnome/Gio/Enums.pm6",
+    "Gnome::Gio::File": "lib/Gnome/Gio/File.pm6",
+    "Gnome::Gio::FileIcon": "lib/Gnome/Gio/FileIcon.pm6",
+    "Gnome::Gio::Icon": "lib/Gnome/Gio/Icon.pm6",
+    "Gnome::Gio::Menu": "lib/Gnome/Gio/Menu.pm6",
+    "Gnome::Gio::MenuAttributeIter": "lib/Gnome/Gio/MenuAttributeIter.pm6",
+    "Gnome::Gio::MenuItem": "lib/Gnome/Gio/MenuItem.pm6",
+    "Gnome::Gio::MenuLinkIter": "lib/Gnome/Gio/MenuLinkIter.pm6",
+    "Gnome::Gio::MenuModel": "lib/Gnome/Gio/MenuModel.pm6",
+    "Gnome::Gio::Notification": "lib/Gnome/Gio/Notification.pm6",
+    "Gnome::Gio::Resource": "lib/Gnome/Gio/Resource.pm6",
+    "Gnome::Gio::SimpleAction": "lib/Gnome/Gio/SimpleAction.pm6",
+    "Gnome::Gio::SimpleActionGroup": "lib/Gnome/Gio/SimpleActionGroup.pm6",
+    "Gnome::Gio::ThemedIcon": "lib/Gnome/Gio/ThemedIcon.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gio-0.10.2.tar.gz",
+  "tags": [
+    "gnome",
+    "gio"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.10.2"
 }
 ,
 {
