@@ -16923,28 +16923,6 @@
 }
 ,
 {
-  "author": "Jonathan Scott Duff",
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Generate hexadecimal dump of scalar values",
-  "name": "HexDump::Tiny",
-  "perl": "6.*",
-  "provides": {
-    "HexDump::Tiny": "lib/HexDump/Tiny.pm"
-  },
-  "repo-type": "git",
-  "source-url": "git://github.com/raku-community-modules/HexDump-Tiny.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.01"
-}
-,
-{
   "depends": [
     "HTTP::Status",
     "PSGI"
@@ -17358,29 +17336,6 @@
     "JSON::Tiny"
   ],
   "version": "0.107"
-}
-,
-{
-  "author": "Jonathan Scott Duff <duff@pobox.com>",
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Useful trigonometric routines",
-  "license": "Artistic-2.0",
-  "name": "Math::Trig",
-  "perl": "6.*",
-  "provides": {
-    "Math::Trig": "lib/Math/Trig.pm"
-  },
-  "repo-type": "git",
-  "source-url": "git://github.com/raku-community-modules/Math-Trig.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.2"
 }
 ,
 {
