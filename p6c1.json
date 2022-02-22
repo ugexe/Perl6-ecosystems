@@ -16651,23 +16651,6 @@
 }
 ,
 {
-  "author": "github:retupmoca",
-  "depends": [
-    "DateTime::Format"
-  ],
-  "description": "Simple email parsing module",
-  "license": "CC0-1.0",
-  "name": "Email::Simple",
-  "perl": "6.*",
-  "provides": {
-    "Email::Simple": "lib/Email/Simple.pm6",
-    "Email::Simple::Header": "lib/Email/Simple/Header.pm6"
-  },
-  "source-url": "git://github.com/retupmoca/p6-Email-Simple.git",
-  "version": "2.1.0"
-}
-,
-{
   "depends": [
     "PSGI"
   ],
@@ -17372,46 +17355,6 @@
 }
 ,
 {
-  "author": "github:retupmoca",
-  "depends": [
-    "Email::MIME",
-    "IO::Socket::SSL"
-  ],
-  "description": "Simple IMAP Client",
-  "name": "Net::IMAP",
-  "perl": "6.*",
-  "provides": {
-    "Net::IMAP": "lib/Net/IMAP.pm6",
-    "Net::IMAP::Message": "lib/Net/IMAP/Message.pm6",
-    "Net::IMAP::Raw": "lib/Net/IMAP/Raw.pm6",
-    "Net::IMAP::Simple": "lib/Net/IMAP/Simple.pm6"
-  },
-  "source-url": "git://github.com/retupmoca/P6-Net-IMAP.git",
-  "version": "1.0.1"
-}
-,
-{
-  "author": "github:retupmoca",
-  "depends": [
-    "Email::Simple",
-    "MIME::Base64",
-    "Digest::HMAC",
-    "Digest",
-    "IO::Socket::SSL"
-  ],
-  "description": "Simple SMTP Client",
-  "name": "Net::SMTP",
-  "perl": "6.*",
-  "provides": {
-    "Net::SMTP": "lib/Net/SMTP.pm6",
-    "Net::SMTP::Raw": "lib/Net/SMTP/Raw.pm6",
-    "Net::SMTP::Simple": "lib/Net/SMTP/Simple.pm6"
-  },
-  "source-url": "git://github.com/retupmoca/P6-Net-SMTP.git",
-  "version": "1.2.0"
-}
-,
-{
   "auth": "github:raku-community-modules",
   "authors": [
     "Timothy Totten"
@@ -17619,20 +17562,6 @@
   },
   "source-url": "git://github.com/raku-community-modules/PSGI.git",
   "version": "1.2.0"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "An RSpec-like testing framework for Raku",
-  "name": "PSpec",
-  "perl": "6.*",
-  "provides": {
-    "PSpec": "lib/PSpec.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/PSpec.git",
-  "version": "*"
 }
 ,
 {
@@ -18033,37 +17962,6 @@
 }
 ,
 {
-  "auth": "github:perlpilot",
-  "authors": [
-    "Jonathan Scott Duff <duff@pobox.com>"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Parse duration strings into seconds",
-  "license": "Artistic-2.0",
-  "name": "Time::Duration::Parser",
-  "perl": "6.*",
-  "provides": {
-    "Time::Duration::Parser": "lib/Time/Duration/Parser.pm6"
-  },
-  "source-type": "git",
-  "source-url": "https://github.com/raku-community-modules/Time-Duration-Parser.git",
-  "support": {
-    "bugtracker": "https://github.com/raku-community-modules/Time-Duration-Parser/issues",
-    "source": "https://github.com/raku-community-modules/Time-Duration-Parser.git"
-  },
-  "tags": [
-    "Time",
-    "Parser"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
-}
-,
-{
   "authors": [
     "Zoffix Znet"
   ],
@@ -18243,25 +18141,6 @@
   },
   "source-url": "git://github.com/raku-community-modules/Web-App-Ballet.git",
   "version": "0.1.0"
-}
-,
-{
-  "depends": [
-    "Template6",
-    "Template::Mojo",
-    "HTML::Template"
-  ],
-  "description": "A template engine abstraction layer for web frameworks.",
-  "name": "Web::Template",
-  "perl": "6.*",
-  "provides": {
-    "Web::Template": "lib/Web/Template.pm6",
-    "Web::Template::HTML": "lib/Web/Template/HTML.pm6",
-    "Web::Template::Mojo": "lib/Web/Template/Mojo.pm6",
-    "Web::Template::Template6": "lib/Web/Template/Template6.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/Web-Template.git",
-  "version": "*"
 }
 ,
 {
