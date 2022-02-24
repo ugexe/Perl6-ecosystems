@@ -2418,6 +2418,33 @@
     "Brian Duggan"
   ],
   "build-depends": [
+    "Shell::Command"
+  ],
+  "depends": [
+    "LibraryMake"
+  ],
+  "description": "Raku bindings to C implementation of SHA256",
+  "license": "Artistic-2.0",
+  "name": "Digest::SHA256::Native",
+  "perl": "6.*",
+  "provides": {
+    "Digest::SHA256::Native": "lib/Digest/SHA256/Native.pm6"
+  },
+  "resources": [
+    "libraries/sha256"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Digest-SHA256-Native-0.04.tar.gz",
+  "test-depends": [
+    
+  ],
+  "version": "0.04"
+}
+,
+{
+  "authors": [
+    "Brian Duggan"
+  ],
+  "build-depends": [
     
   ],
   "depends": [
