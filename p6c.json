@@ -4670,10 +4670,10 @@
   "depends": [
     "LibraryMake"
   ],
-  "description": "p6 bindings to C implementation of SHA1",
+  "description": "Raku bindings to C implementation of SHA1",
   "license": "Artistic-2.0",
   "name": "Digest::SHA1::Native",
-  "perl": "6.c",
+  "perl": "6.*",
   "provides": {
     "Digest::SHA1::Native": "lib/Digest/SHA1/Native.pm6"
   },
@@ -4684,7 +4684,7 @@
   "test-depends": [
     
   ],
-  "version": "0.04"
+  "version": "0.05"
 }
 ,
 {
