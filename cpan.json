@@ -2387,6 +2387,35 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
+  "depends": [
+    "Terminal::ANSI",
+    "Readline"
+  ],
+  "description": "A runtime debugger for Raku programs",
+  "license": "MIT",
+  "name": "Dawa",
+  "perl": "6.*",
+  "provides": {
+    "Dawa": "lib/Dawa.rakumod",
+    "Dawa::Debugger": "lib/Dawa/Debugger.rakumod",
+    "Dawa::Debugger::Commands": "lib/Dawa/Debugger/Commands.rakumod"
+  },
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Dawa-0.0.4.tar.gz",
+  "tags": [
+    "Debug"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "authors": [
     "Brian Duggan"
   ],
