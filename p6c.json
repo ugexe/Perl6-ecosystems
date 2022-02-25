@@ -17365,26 +17365,35 @@
 }
 ,
 {
+  "auth": "zef:raku-community-modules",
   "authors": [
     "Zoffix Znet"
+  ],
+  "build-depends": [
+    
   ],
   "depends": [
     "WWW",
     "JSON::Fast"
   ],
-  "description": "Use https://gist.github.com/ as a pastebin",
+  "description": "Raku interface to https://gist.github.com/",
   "license": "Artistic-2.0",
   "name": "Pastebin::Gist",
   "perl": "6.c",
   "provides": {
-    "Pastebin::Gist": "lib/Pastebin/Gist.rakumod",
-    "Pastebin::Gist::X": "lib/Pastebin/Gist.rakumod"
+    "Pastebin::Gist": "lib/Pastebin/Gist.rakumod"
   },
+  "resources": [
+    
+  ],
   "source-url": "https://github.com/raku-community-modules/Pastebin-Gist.git",
+  "tags": [
+    
+  ],
   "test-depends": [
     "Test"
   ],
-  "version": "1.005"
+  "version": "1.006"
 }
 ,
 {
