@@ -15703,30 +15703,6 @@
     "Zoffix Znet"
   ],
   "depends": [
-    "Pastebin::Gist",
-    "Pastebin::Shadowcat"
-  ],
-  "description": "Access pastebins from command line",
-  "license": "Artistic-2.0",
-  "name": "App::Nopaste",
-  "perl": "6.c",
-  "provides": {
-    "App::Nopaste": "lib/App/Nopaste.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/App-Nopaste.git"
-  },
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001001"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
     
   ],
   "description": "Benchmark some code",
@@ -15858,30 +15834,6 @@
     "workday",
     "calendar"
   ],
-  "version": "0.1.1"
-}
-,
-{
-  "api": "1.0",
-  "auth": "github:raku-community-modules",
-  "depends": [
-    
-  ],
-  "description": "strftime and other DateTime formatting libraries",
-  "meta-version": 0,
-  "name": "DateTime::Format",
-  "perl": "6.*",
-  "provides": {
-    "DateTime::Format": "lib/DateTime/Format.pm6",
-    "DateTime::Format::Factory": "lib/DateTime/Format/Factory.pm6",
-    "DateTime::Format::Lang::BG": "lib/DateTime/Format/Lang/BG.pm6",
-    "DateTime::Format::Lang::DE": "lib/DateTime/Format/Lang/DE.pm6",
-    "DateTime::Format::Lang::FR": "lib/DateTime/Format/Lang/FR.pm6",
-    "DateTime::Format::Lang::PT": "lib/DateTime/Format/Lang/PT.pm6",
-    "DateTime::Format::RFC2822": "lib/DateTime/Format/RFC2822.pm6"
-  },
-  "raku": "6.*",
-  "source-url": "git://github.com/raku-community-modules/DateTime-Format.git",
   "version": "0.1.1"
 }
 ,
@@ -17362,57 +17314,6 @@
     "Test::When"
   ],
   "version": "1.002001"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "WWW",
-    "JSON::Fast"
-  ],
-  "description": "Use https://gist.github.com/ as a pastebin",
-  "license": "Artistic-2.0",
-  "name": "Pastebin::Gist",
-  "perl": "6.c",
-  "provides": {
-    "Pastebin::Gist": "lib/Pastebin/Gist.rakumod",
-    "Pastebin::Gist::X": "lib/Pastebin/Gist.rakumod"
-  },
-  "source-url": "https://github.com/raku-community-modules/Pastebin-Gist.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.005"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "HTTP::UserAgent",
-    "URI::Encode",
-    "HTML::Entity"
-  ],
-  "description": "Use http://fpaste.scsys.co.uk/ pastebin from Raku",
-  "license": "Artistic-2.0",
-  "name": "Pastebin::Shadowcat",
-  "perl": "6.c",
-  "provides": {
-    "Pastebin::Shadowcat": "lib/Pastebin/Shadowcat.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/Pastebin-Shadowcat.git"
-  },
-  "tags": [
-    "pastebin"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "2.001003"
 }
 ,
 {
