@@ -18131,9 +18131,15 @@
 }
 ,
 {
-  "auth": "github:raku-community-modules",
+  "auth": "zef:raku-community-modules",
   "authors": [
     "Timothy Totten"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
   ],
   "description": "A full-featured, pure-Raku XML library (parsing, manipulation, emitting, queries, etc.)",
   "license": "Artistic-2.0",
@@ -18153,11 +18159,17 @@
     "XML::Text": "lib/XML/Text.pm6"
   },
   "raku": "6.*",
-  "source-url": "git://github.com/raku-community-modules/XML.git",
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/raku-community-modules/XML.git",
   "tags": [
     "xml"
   ],
-  "version": "0.3.1"
+  "test-depends": [
+    
+  ],
+  "version": "0.3.2"
 }
 ,
 {
