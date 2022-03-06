@@ -15762,34 +15762,6 @@
     "Zoffix Znet"
   ],
   "depends": [
-    "HTML::Escape"
-  ],
-  "description": "Raku QAST Visualizer",
-  "license": "Artistic-2.0",
-  "name": "CoreHackers::Q",
-  "perl": "6.c",
-  "provides": {
-    "CoreHackers::Q": "lib/CoreHackers/Q.pm6",
-    "CoreHackers::Q::Parser": "lib/CoreHackers/Q/Parser.pm6",
-    "CoreHackers::Q::Parser::Actions": "lib/CoreHackers/Q/Parser/Actions.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/CoreHackers-Q.git"
-  },
-  "tags": [
-    "core dev"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "1.001005"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
     
   ],
   "description": "Helper for showing actual source code locations of core subs and methods",
@@ -16854,23 +16826,6 @@
 }
 ,
 {
-  "author": "github:retupmoca",
-  "depends": [
-    "XML",
-    "LWP::Simple"
-  ],
-  "description": "Quick and dirty SOAP client",
-  "name": "SOAP::Client",
-  "perl": "6.*",
-  "provides": {
-    "SOAP::Client": "lib/SOAP/Client.pm6",
-    "SOAP::Client::WSDL": "lib/SOAP/Client/WSDL.pm6"
-  },
-  "source-url": "git://github.com/retupmoca/P6-SOAP.git",
-  "version": "1.0.0"
-}
-,
-{
   "authors": [
     "Zoffix Znet"
   ],
@@ -17246,34 +17201,6 @@
     "source": "https://github.com/raku-community-modules/URI.git"
   },
   "version": "0.3.5"
-}
-,
-{
-  "authors": [
-    "David Farrell"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Encode and decode URIs according to RFC 3986",
-  "name": "URI::Encode",
-  "perl": "6.*",
-  "provides": {
-    "URI::Encode": "lib/URI/Encode.pm6"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/raku-community-modules/URI-Encode.git",
-  "support": {
-    "bugtracker": "https://github.com/raku-community-modules/URI-Encode/issues",
-    "source": "git@github.com:raku-community-modules/URI-Encode.git"
-  },
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.08"
 }
 ,
 {
