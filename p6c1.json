@@ -15950,43 +15950,6 @@
 }
 ,
 {
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Implement Common Lisp formatter for Raku",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "Format::Lisp",
-  "perl": "6.c",
-  "provides": {
-    "Format::Lisp": "lib/Format/Lisp.pm6",
-    "Format::Lisp::Actions": "lib/Format/Lisp/Actions.pm6",
-    "Format::Lisp::Grammar": "lib/Format/Lisp/Grammar.pm6"
-  },
-  "source-url": "https://github.com/raku-community-modules/Format-Lisp.git",
-  "support": {
-    "source": "https://github.com/raku-community-modules/Format-Lisp"
-  },
-  "tags": [
-    "format",
-    "formatter",
-    "formatiing",
-    "Lisp"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.0.1"
-}
-,
-{
   "authors": [
     "Zoffix Znet"
   ],
@@ -23202,17 +23165,21 @@
   "description": "Create basic tables from a two dimensional array",
   "license": "Artistic-2.0",
   "name": "Text::Table::Simple",
-  "perl": "6",
+  "perl": "6.c",
   "provides": {
     "Text::Table::Simple": "lib/Text/Table/Simple.pm6"
   },
-  "source-url": "git://github.com/ugexe/Perl6-Text--Table--Simple.git",
+  "support": {
+    "bugtracker": "https://github.com/ugexe/Perl6-Text--Table--Simple/issues",
+    "source": "https://github.com/ugexe/Perl6-Text--Table--Simple.git"
+  },
   "tags": [
     "text",
     "terminal",
-    "utils"
+    "utils",
+    "table"
   ],
-  "version": "0.0.7"
+  "version": "0.0.8"
 }
 ,
 {
