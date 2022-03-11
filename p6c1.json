@@ -16998,6 +16998,28 @@
 }
 ,
 {
+  "auth": "zef:raku-community-modules",
+  "authors": [
+    "Zoffix Znet"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Selectively run tests based on the environment and installed modules and libs",
+  "license": "Artistic-2.0",
+  "name": "Test::When",
+  "perl": "6.c",
+  "provides": {
+    "Test::When": "lib/Test/When.pm6"
+  },
+  "source-url": "https://github.com/raku-community-modules/Test-When",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.001009"
+}
+,
+{
   "authors": [
     "Ingy döt Net <ingy@cpan.org>"
   ],
