@@ -2756,6 +2756,39 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Asynchronous logging with supplies and taps",
+  "license": "Artistic-1.0-Perl",
+  "name": "Log::Async",
+  "perl": "6.*",
+  "provides": {
+    "Log::Async": "lib/Log/Async.rakumod",
+    "Log::Async::CommandLine": "lib/Log/Async/CommandLine.rakumod",
+    "Log::Async::Context": "lib/Log/Async/Context.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Log-Async-0.0.8.tar.gz",
+  "tags": [
+    "log",
+    "logging",
+    "logger",
+    "async",
+    "asynchronous"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
+  "authors": [
+    "Brian Duggan"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "HTTP::UserAgent",
     "IO::Socket::SSL",
     "JSON::Fast"
