@@ -4775,11 +4775,11 @@
   "name": "Log::Async",
   "perl": "6.*",
   "provides": {
-    "Log::Async": "lib/Log/Async.pm6",
-    "Log::Async::CommandLine": "lib/Log/Async/CommandLine.pm6",
-    "Log::Async::Context": "lib/Log/Async/Context.pm6"
+    "Log::Async": "lib/Log/Async.rakumod",
+    "Log::Async::CommandLine": "lib/Log/Async/CommandLine.rakumod",
+    "Log::Async::Context": "lib/Log/Async/Context.rakumod"
   },
-  "source-url": "git://github.com/bduggan/p6-log-async.git",
+  "source-url": "git://github.com/bduggan/raku-log-async.git",
   "tags": [
     "log",
     "logging",
@@ -4790,7 +4790,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.7"
+  "version": "0.0.8"
 }
 ,
 {
