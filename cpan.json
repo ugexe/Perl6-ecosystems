@@ -78732,6 +78732,46 @@
 }
 ,
 {
+  "auth": "zef:sumankhanal",
+  "authors": [
+    "Suman Khanal"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Raku module for doing statistics",
+  "license": "Artistic-2.0",
+  "name": "Statistics",
+  "perl": "6.d",
+  "provides": {
+    "Correlation::BiweightMid": "lib/Correlation/BiweightMid.rakumod",
+    "Correlation::Kendall": "lib/Correlation/Kendall.rakumod",
+    "Correlation::PearsonSpearman": "lib/Correlation/PearsonSpearman.rakumod",
+    "Descriptive::CentralTendency": "lib/Descriptive/CentralTendency.rakumod",
+    "Descriptive::Dispersion": "lib/Descriptive/Dispersion.rakumod",
+    "Descriptive::FiveNum": "lib/Descriptive/FiveNum.rakumod",
+    "Descriptive::Kurtosis": "lib/Descriptive/Kurtosis.rakumod",
+    "Descriptive::Skewness": "lib/Descriptive/Skewness.rakumod",
+    "Statistics": "lib/Statistics.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/S/SU/SUMAN/Perl6/Statistics-0.0.3.tar.gz",
+  "tags": [
+    "statistics",
+    "maths"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.3"
+}
+,
+{
   "authors": [
     "Tadeusz “tadzik” Sośnierz",
     "Paul Cochrane",
