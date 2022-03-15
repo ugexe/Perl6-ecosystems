@@ -15822,7 +15822,11 @@
 }
 ,
 {
-  "auth": "github:raku-community-modules",
+  "api": 1,
+  "auth": "zef:raku-community-modules",
+  "build-depends": [
+    
+  ],
   "depends": [
     "NativeHelpers::Blob",
     "NativeLibs"
@@ -15861,6 +15865,11 @@
     "DBIish::Common": "lib/DBIish/Common.pm6",
     "DBIish::CommonTesting": "lib/DBIish/CommonTesting.pm6"
   },
+  "raku": "6.c",
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/raku-community-modules/DBIish.git",
   "support": {
     "bugtracker": "https://github.com/raku-community-modules/DBIish/issues",
     "source": "https://github.com/raku-community-modules/DBIish.git"
