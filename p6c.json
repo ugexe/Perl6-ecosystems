@@ -16204,57 +16204,6 @@
   "depends": [
     
   ],
-  "description": "IO::Path.dir you can close",
-  "license": "Artistic-2.0",
-  "name": "IO::Dir",
-  "perl": "6.c",
-  "provides": {
-    "IO::Dir": "lib/IO/Dir.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/IO-Dir.git"
-  },
-  "tags": [
-    "IO",
-    "filesystem"
-  ],
-  "test-depends": [
-    "Testo",
-    "Test::META"
-  ],
-  "version": "1.001003"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "hijack, capture, or mute writes to an IO::Handle",
-  "license": "Artistic-2.0",
-  "name": "IO::MiddleMan",
-  "perl": "6.c",
-  "provides": {
-    "IO::MiddleMan": "lib/IO/MiddleMan.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/IO-MiddleMan.git"
-  },
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001003"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
   "description": "Secure version of IO::Path.child",
   "license": "Artistic-2.0",
   "name": "IO::Path::ChildSecure",
@@ -16482,29 +16431,6 @@
   },
   "source-url": "https://github.com/raku-community-modules/Netstring.git",
   "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "Lingua::Conjunction"
-  ],
-  "description": "Break up numbers into preset or arbitrary denominations",
-  "license": "Artistic-2.0",
-  "name": "Number::Denominate",
-  "perl": "6.c",
-  "provides": {
-    "Number::Denominate": "lib/Number/Denominate.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/Number-Denominate.git"
-  },
-  "test-depends": [
-    "Test"
-  ],
-  "version": "2.002001"
 }
 ,
 {
@@ -16834,28 +16760,6 @@
 }
 ,
 {
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Get the current width of the terminal",
-  "license": "Artistic-2.0",
-  "name": "Terminal::Width",
-  "perl": "6.c",
-  "provides": {
-    "Terminal::Width": "lib/Terminal/Width.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/Terminal-Width.git",
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "1.001001"
-}
-,
-{
   "author": "Kevin Polulak",
   "authority": "soh-cah-toa",
   "depends": [
@@ -16874,28 +16778,6 @@
   "source-type": "git",
   "source-url": "git://github.com/raku-community-modules/Test-Builder.git",
   "version": "0.0.3"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "Test"
-  ],
-  "description": "Display noticable messages to users during tests",
-  "license": "Artistic-2.0",
-  "name": "Test::Notice",
-  "perl": "6.c",
-  "provides": {
-    "Test::Notice": "lib/Test/Notice.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/Test-Notice.git",
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "1.001003"
 }
 ,
 {
@@ -16920,49 +16802,6 @@
     "source": "git://github.com/raku-community-modules/Test-Output.git"
   },
   "version": "1.001003"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Selectively run tests based on the environment and installed modules and libs",
-  "license": "Artistic-2.0",
-  "name": "Test::When",
-  "perl": "6.c",
-  "provides": {
-    "Test::When": "lib/Test/When.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/Test-When.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001008"
-}
-,
-{
-  "auth": "zef:raku-community-modules",
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Selectively run tests based on the environment and installed modules and libs",
-  "license": "Artistic-2.0",
-  "name": "Test::When",
-  "perl": "6.c",
-  "provides": {
-    "Test::When": "lib/Test/When.pm6"
-  },
-  "source-url": "https://github.com/raku-community-modules/Test-When",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001009"
 }
 ,
 {
