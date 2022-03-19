@@ -58533,6 +58533,37 @@
 ,
 {
   "authors": [
+    "Daniel Mita"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Wordle in Raku",
+  "license": "Artistic-2.0",
+  "name": "Games::Wordle",
+  "perl": "6.d",
+  "provides": {
+    "Games::Wordle": "lib/Games/Wordle.rakumod"
+  },
+  "resources": [
+    "answers.txt",
+    "words.txt"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MD/MDANGO/Perl6/Games-Wordle-0.0.4.tar.gz",
+  "tags": [
+    "game"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
+  "authors": [
     "Alexey Melezhik"
   ],
   "build-depends": [
