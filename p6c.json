@@ -8111,6 +8111,8 @@
   ],
   "depends": [
     "Template::Mustache",
+    "Cro::WebApp::Template::Repository::Build",
+    "Cro::WebApp",
     "URI",
     "LibCurl",
     "Pod::Load",
@@ -8125,7 +8127,7 @@
   "description": "A generic Pod6 Renderer with custom Pod::Blocks, FormatCodes for one or more files using templates, provides HTML and MarkDown.",
   "license": "Artistic-2.0",
   "name": "Raku::Pod::Render",
-  "perl": "6.*",
+  "perl": "6.d",
   "provides": {
     "ExtractPod": "lib/ExtractPod.rakumod",
     "InstallAtomHighlighter": "lib/InstallAtomHighlighter.rakumod",
@@ -8160,7 +8162,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "3.7.2"
+  "version": "3.7.3"
 }
 ,
 {
