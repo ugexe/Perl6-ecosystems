@@ -795,6 +795,57 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Random data generation functions: strings, words, numbers, vectors, pet names, job titles, and tabular datasets.",
+  "license": "Artistic-2.0",
+  "name": "Data::Generators",
+  "perl": "6.d",
+  "provides": {
+    "Data::Generators": "lib/Data/Generators.rakumod",
+    "Data::Generators::RandomFunctions": "lib/Data/Generators/RandomFunctions.rakumod",
+    "Data::Generators::RandomTabularDataset": "lib/Data/Generators/RandomTabularDataset.rakumod",
+    "Data::Generators::RandomVariate": "lib/Data/Generators/RandomVariate.rakumod",
+    "Data::Generators::ResourceAccess": "lib/Data/Generators/ResourceAccess.rakumod"
+  },
+  "resources": [
+    "dfEnglishWords.csv",
+    "dfPetNameCounts.csv"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-Generators-0.1.3.tar.gz",
+  "tags": [
+    "data generators",
+    "data",
+    "dataset",
+    "generation",
+    "job titles",
+    "pet names",
+    "random data",
+    "random tables",
+    "random tabular data",
+    "random variate",
+    "random variates",
+    "random",
+    "statistical distributions",
+    "strings",
+    "words"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.3"
+}
+,
+{
+  "api": "1",
+  "auth": "github:antononcube",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Text::CSV",
     "Pretty::Table"
   ],
@@ -1040,6 +1091,50 @@
     
   ],
   "version": "0.4.2"
+}
+,
+{
+  "api": "1",
+  "auth": "github:antononcube",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Package with functions for creation and manipulation of tries (prefix trees) with frequencies.",
+  "license": "Artistic-2.0",
+  "name": "ML::TriesWithFrequencies",
+  "perl": "6.d",
+  "provides": {
+    "ML::TriesWithFrequencies": "lib/ML/TriesWithFrequencies.rakumod",
+    "ML::TriesWithFrequencies::ParetoBasedRemover": "lib/ML/TriesWithFrequencies/ParetoBasedRemover.rakumod",
+    "ML::TriesWithFrequencies::PathsGatherer": "lib/ML/TriesWithFrequencies/PathsGatherer.rakumod",
+    "ML::TriesWithFrequencies::RegexBasedRemover": "lib/ML/TriesWithFrequencies/RegexBasedRemover.rakumod",
+    "ML::TriesWithFrequencies::ThresholdBasedRemover": "lib/ML/TriesWithFrequencies/ThresholdBasedRemover.rakumod",
+    "ML::TriesWithFrequencies::Trie": "lib/ML/TriesWithFrequencies/Trie.rakumod",
+    "ML::TriesWithFrequencies::TrieTraverse": "lib/ML/TriesWithFrequencies/TrieTraverse.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/ML-TriesWithFrequencies-0.5.0.tar.gz",
+  "tags": [
+    "data mining",
+    "prefix tree",
+    "prefix trees",
+    "sequence mining",
+    "trie",
+    "tries",
+    "tries with frequencies"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.5.0"
 }
 ,
 {
