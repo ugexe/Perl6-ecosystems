@@ -710,57 +710,6 @@
     "dfEnglishWords.csv",
     "dfPetNameCounts.csv"
   ],
-  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-Generators-0.1.1.tar.gz",
-  "tags": [
-    "data generators",
-    "data",
-    "dataset",
-    "generation",
-    "job titles",
-    "pet names",
-    "random data",
-    "random tables",
-    "random tabular data",
-    "random variate",
-    "random variates",
-    "random",
-    "statistical distributions",
-    "strings",
-    "words"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.1"
-}
-,
-{
-  "api": "1",
-  "auth": "github:antononcube",
-  "authors": [
-    "Anton Antonov"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Random data generation functions: strings, words, numbers, vectors, pet names, job titles, and tabular datasets.",
-  "license": "Artistic-2.0",
-  "name": "Data::Generators",
-  "perl": "6.d",
-  "provides": {
-    "Data::Generators": "lib/Data/Generators.rakumod",
-    "Data::Generators::RandomFunctions": "lib/Data/Generators/RandomFunctions.rakumod",
-    "Data::Generators::RandomTabularDataset": "lib/Data/Generators/RandomTabularDataset.rakumod",
-    "Data::Generators::RandomVariate": "lib/Data/Generators/RandomVariate.rakumod",
-    "Data::Generators::ResourceAccess": "lib/Data/Generators/ResourceAccess.rakumod"
-  },
-  "resources": [
-    "dfEnglishWords.csv",
-    "dfPetNameCounts.csv"
-  ],
   "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-Generators-0.1.2.tar.gz",
   "tags": [
     "data generators",
@@ -975,63 +924,6 @@
     
   ],
   "version": "0.1.0"
-}
-,
-{
-  "api": "1",
-  "auth": "github:antononcube",
-  "authors": [
-    "Anton Antonov"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Lingua::NumericWordForms has generators, parsers, and interpreters of numeric word forms in different languages.",
-  "license": "Artistic-2.0",
-  "name": "Lingua::NumericWordForms",
-  "perl": "6.d",
-  "provides": {
-    "Lingua::NumericWordForms": "lib/Lingua/NumericWordForms/NumericWordForms.rakumod",
-    "Lingua::NumericWordForms::Actions::Bulgarian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Bulgarian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::English::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/English/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Greek::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Greek/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Japanese::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Japanese/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Persian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Persian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Polish::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Polish/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Russian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Russian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Spanish::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Spanish/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Ukrainian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Ukrainian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Bulgarian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Bulgarian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::English::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/English/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Greek::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Greek/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Japanese::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Japanese/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Persian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Persian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Polish::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Polish/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Russian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Russian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Spanish::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Spanish/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Ukrainian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Ukrainian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/WordedNumberSpec.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Lingua-NumericWordForms-0.4.1.tar.gz",
-  "tags": [
-    "parser",
-    "interpreter",
-    "word form",
-    "worded number",
-    "number",
-    "numeric"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.4.1"
 }
 ,
 {
