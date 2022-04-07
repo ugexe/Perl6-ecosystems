@@ -9346,26 +9346,6 @@
 }
 ,
 {
-  "author": "Henrique Dias",
-  "depends": [
-    "LibraryMake"
-  ],
-  "description": "Perl 6 interface to the IUP toolkit for building GUI's",
-  "license": "Artistic-2.0",
-  "name": "IUP",
-  "perl": "6.*",
-  "provides": {
-    "IUP": "lib/IUP.pm6"
-  },
-  "resources": [
-    "lib/IUP.so"
-  ],
-  "source-type": "git",
-  "source-url": "git://github.com/hankache/perl6-IUP.git",
-  "version": "0.0.2"
-}
-,
-{
   "author": "Carsten Hartenfels",
   "depends": [
     
@@ -12863,27 +12843,6 @@
   ],
   "source-url": "git://github.com/LLFourn/p6-AttrX-InitArg.git",
   "version": "0.1.1"
-}
-,
-{
-  "authors": [
-    "Lloyd Fournier"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Utilities for introspecting compunits and re-exporting",
-  "license": "MIT",
-  "name": "CompUnit::Util",
-  "perl": "6.*",
-  "provides": {
-    "CompUnit::Util": "lib/CompUnit/Util.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/LLFourn/p6-CompUnit-Util.git",
-  "version": "0.6.0"
 }
 ,
 {
@@ -23046,88 +23005,6 @@
     "Test"
   ],
   "version": "0.0.1"
-}
-,
-{
-  "api": "0",
-  "auth": "github:ugexe",
-  "authors": [
-    "Nick Logan",
-    "Tony O'Dell"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "NativeCall"
-  ],
-  "description": "A Raku / Perl 6 module manager",
-  "license": "Artistic-2.0",
-  "meta-version": "0",
-  "name": "zef",
-  "perl": "6.c",
-  "provides": {
-    "Zef": "lib/Zef.rakumod",
-    "Zef::Build": "lib/Zef/Build.rakumod",
-    "Zef::CLI": "lib/Zef/CLI.rakumod",
-    "Zef::Client": "lib/Zef/Client.rakumod",
-    "Zef::Config": "lib/Zef/Config.rakumod",
-    "Zef::Distribution": "lib/Zef/Distribution.rakumod",
-    "Zef::Distribution::DependencySpecification": "lib/Zef/Distribution/DependencySpecification.rakumod",
-    "Zef::Distribution::Local": "lib/Zef/Distribution/Local.rakumod",
-    "Zef::Extract": "lib/Zef/Extract.rakumod",
-    "Zef::Fetch": "lib/Zef/Fetch.rakumod",
-    "Zef::Identity": "lib/Zef/Identity.rakumod",
-    "Zef::Install": "lib/Zef/Install.rakumod",
-    "Zef::Report": "lib/Zef/Report.rakumod",
-    "Zef::Repository": "lib/Zef/Repository.rakumod",
-    "Zef::Repository::Ecosystems": "lib/Zef/Repository/Ecosystems.rakumod",
-    "Zef::Repository::LocalCache": "lib/Zef/Repository/LocalCache.rakumod",
-    "Zef::Service::FetchPath": "lib/Zef/Service/FetchPath.rakumod",
-    "Zef::Service::FileReporter": "lib/Zef/Service/FileReporter.rakumod",
-    "Zef::Service::InstallRakuDistribution": "lib/Zef/Service/InstallRakuDistribution.rakumod",
-    "Zef::Service::Shell::DistributionBuilder": "lib/Zef/Service/Shell/DistributionBuilder.rakumod",
-    "Zef::Service::Shell::LegacyBuild": "lib/Zef/Service/Shell/LegacyBuild.rakumod",
-    "Zef::Service::Shell::PowerShell": "lib/Zef/Service/Shell/PowerShell.rakumod",
-    "Zef::Service::Shell::PowerShell::download": "lib/Zef/Service/Shell/PowerShell/download.rakumod",
-    "Zef::Service::Shell::PowerShell::unzip": "lib/Zef/Service/Shell/PowerShell/unzip.rakumod",
-    "Zef::Service::Shell::Test": "lib/Zef/Service/Shell/Test.rakumod",
-    "Zef::Service::Shell::curl": "lib/Zef/Service/Shell/curl.rakumod",
-    "Zef::Service::Shell::git": "lib/Zef/Service/Shell/git.rakumod",
-    "Zef::Service::Shell::p5tar": "lib/Zef/Service/Shell/p5tar.rakumod",
-    "Zef::Service::Shell::prove": "lib/Zef/Service/Shell/prove.rakumod",
-    "Zef::Service::Shell::tar": "lib/Zef/Service/Shell/tar.rakumod",
-    "Zef::Service::Shell::unzip": "lib/Zef/Service/Shell/unzip.rakumod",
-    "Zef::Service::Shell::wget": "lib/Zef/Service/Shell/wget.rakumod",
-    "Zef::Service::TAP": "lib/Zef/Service/TAP.rakumod",
-    "Zef::Test": "lib/Zef/Test.rakumod",
-    "Zef::Utils::FileSystem": "lib/Zef/Utils/FileSystem.rakumod",
-    "Zef::Utils::SystemQuery": "lib/Zef/Utils/SystemQuery.rakumod",
-    "Zef::Utils::URI": "lib/Zef/Utils/URI.rakumod"
-  },
-  "resources": [
-    "config.json",
-    "scripts/perl5tar.pl",
-    "scripts/win32http.ps1",
-    "scripts/win32unzip.ps1"
-  ],
-  "support": {
-    "bugtracker": "https://github.com/ugexe/zef/issues",
-    "source": "https://github.com/ugexe/zef.git"
-  },
-  "tags": [
-    "package-manager",
-    "module-installer",
-    "meta-search",
-    "distribution",
-    "ecosystem",
-    "cpan",
-    "toolchain"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.13.8"
 }
 ,
 {
