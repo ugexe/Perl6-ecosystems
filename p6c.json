@@ -5672,6 +5672,20 @@
   "depends": [
     
   ],
+  "description": "Basic continued fraction arithmetic",
+  "name": "Math::ContinuedFractions",
+  "provides": {
+    "Math::ContinuedFractions": "lib/Math/ContinuedFraction.pm"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/colomon/Math-ContinuedFractions.git",
+  "version": "*"
+}
+,
+{
+  "depends": [
+    
+  ],
   "description": "Standard math function odds and ends",
   "name": "Math::OddFunctions",
   "provides": {
@@ -6638,41 +6652,6 @@
     
   ],
   "version": "0.0.2"
-}
-,
-{
-  "authors": [
-    "github:dboys"
-  ],
-  "depends": [
-    "URI",
-    "HTTP::UserAgent",
-    "JSON::Fast"
-  ],
-  "description": "Perl6 client for the Silver Gold Bull(https://silvergoldbull.com) web service",
-  "license": "Artistic-2.0",
-  "name": "WWW::SilverGoldBull",
-  "perl": "6.*",
-  "provides": {
-    "WWW::SilverGoldBull": "lib/WWW/SilverGoldBull.pm6",
-    "WWW::SilverGoldBull::Address": "lib/WWW/SilverGoldBull/Address.pm6",
-    "WWW::SilverGoldBull::CommonMethodsRole": "lib/WWW/SilverGoldBull/CommonMethodsRole.pm6",
-    "WWW::SilverGoldBull::Item": "lib/WWW/SilverGoldBull/Item.pm6",
-    "WWW::SilverGoldBull::Order": "lib/WWW/SilverGoldBull/Order.pm6",
-    "WWW::SilverGoldBull::OrderQuoteRole": "lib/WWW/SilverGoldBull/OrderQuoteRole.pm6",
-    "WWW::SilverGoldBull::Quote": "lib/WWW/SilverGoldBull/Quote.pm6",
-    "WWW::SilverGoldBull::Response": "lib/WWW/SilverGoldBull/Response.pm6",
-    "WWW::SilverGoldBull::Types": "lib/WWW/SilverGoldBull/Types.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/dboys/p6-WWW-SilverGoldBull.git",
-  "tags": [
-    "Web",
-    "API"
-  ],
-  "version": "0.0.1"
 }
 ,
 {
@@ -12718,34 +12697,6 @@
     "temp"
   ],
   "version": "0.1.2"
-}
-,
-{
-  "auth": "github:littlebenlittle",
-  "authors": [
-    "Ben Little <ben.little@benlittle.dev>"
-  ],
-  "depends": [
-    "YAMLish"
-  ],
-  "description": "extensible mustache templating",
-  "license": "Artistic-2.0",
-  "meta-version": "0",
-  "name": "Stache",
-  "perl": "6.d",
-  "provides": {
-    "Stache": "lib/Stache.rakumod",
-    "Stache::Base": "lib/Stache/Base.rakumod"
-  },
-  "source-url": "https://github.com/littlebenlittle/stache.git",
-  "tags": [
-    "template",
-    "mustache"
-  ],
-  "test-depends": [
-    "META6::Query"
-  ],
-  "version": "0.2.1"
 }
 ,
 {
