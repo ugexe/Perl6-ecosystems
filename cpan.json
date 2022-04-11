@@ -1035,6 +1035,44 @@
   "depends": [
     
   ],
+  "description": "Package for stemming Bulgarian words. (Implements the BulStem algorithm.)",
+  "license": "Artistic-2.0",
+  "name": "Lingua::Stem::Bulgarian",
+  "perl": "6.d",
+  "provides": {
+    "Lingua::Stem::Bulgarian": "lib/Lingua/Stem/Bulgarian/BulStem.rakumod"
+  },
+  "resources": [
+    "stem_rules_context_1_utf8.txt",
+    "stem_rules_context_2_utf8.txt",
+    "stem_rules_context_3_utf8.txt"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Lingua-Stem-Bulgarian-0.1.1.tar.gz",
+  "tags": [
+    "stem",
+    "stemming",
+    "stemmer",
+    "Bulgarian",
+    "inflectional stemmer"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "api": "1",
+  "auth": "github:antononcube",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
   "description": "Package with functions for creation and manipulation of tries (prefix trees) with frequencies.",
   "license": "Artistic-2.0",
   "name": "ML::TriesWithFrequencies",
