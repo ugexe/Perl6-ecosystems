@@ -8327,6 +8327,29 @@
 }
 ,
 {
+  "api": "1",
+  "auth": "github:bmblbe",
+  "authors": [
+    "Oleksii Cherniavskyi"
+  ],
+  "depends": [
+    "POSIX:from<Perl5>"
+  ],
+  "description": "Detect system parameters and features",
+  "license": "Artistic-2.0",
+  "name": "Pofig",
+  "perl": "6.c",
+  "provides": {
+    "Pofig": "lib/Pofig.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/C/CT/CTUSER/Perl6/Pofig-1.0.0.tar.gz",
+  "tags": [
+    "Pofig"
+  ],
+  "version": "1.0.0"
+}
+,
+{
   "auth": "darrenf \"81590+darrenf@users.noreply.github.com\"",
   "authors": [
     "Darren Foreman"
