@@ -9159,6 +9159,38 @@
 }
 ,
 {
+  "authors": [
+    "Lucien Grondin"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Satoshi Nakamoto's binary-to-text encoding",
+  "license": "MIT-License",
+  "name": "Base58",
+  "perl": "6.d",
+  "provides": {
+    "Base58": "lib/Base58.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/grondilu/base58-raku.git",
+  "tags": [
+    "bitcoin",
+    "base58",
+    "binary-to-text"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "author": "L. Grondin",
   "build-depends": [
     
