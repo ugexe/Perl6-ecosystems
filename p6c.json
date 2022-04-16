@@ -9271,6 +9271,7 @@
   "description": "Perl6 interface to a OpenSSL (so far only digests though)",
   "license": "Artistic-2.0",
   "name": "SSL",
+  "perl": "6.*",
   "provides": {
     "SSL::Digest": "lib/SSL/Digest.pm"
   },
