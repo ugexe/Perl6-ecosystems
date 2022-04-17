@@ -53204,6 +53204,65 @@
 }
 ,
 {
+  "P": {
+    "Gnome::Gio::LoadableIcon": "lib/Gnome/Gio/LoadableIcon.pm6"
+  },
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib",
+    "Gnome::GObject"
+  ],
+  "description": "Raku Gnome GIO api, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gio",
+  "perl": "6",
+  "provides": {
+    "Gnome::Gio::Action": "lib/Gnome/Gio/Action.pm6",
+    "Gnome::Gio::ActionGroup": "lib/Gnome/Gio/ActionGroup.pm6",
+    "Gnome::Gio::ActionMap": "lib/Gnome/Gio/ActionMap.pm6",
+    "Gnome::Gio::AppInfo": "lib/Gnome/Gio/AppInfo.pm6",
+    "Gnome::Gio::AppInfoMonitor": "lib/Gnome/Gio/AppInfoMonitor.pm6",
+    "Gnome::Gio::AppLaunchContext": "lib/Gnome/Gio/AppLaunchContext.pm6",
+    "Gnome::Gio::Application": "lib/Gnome/Gio/Application.pm6",
+    "Gnome::Gio::ApplicationCommandLine": "lib/Gnome/Gio/ApplicationCommandLine.pm6",
+    "Gnome::Gio::Emblem": "lib/Gnome/Gio/Emblem.pm6",
+    "Gnome::Gio::EmblemedIcon": "lib/Gnome/Gio/EmblemedIcon.pm6",
+    "Gnome::Gio::Enums": "lib/Gnome/Gio/Enums.pm6",
+    "Gnome::Gio::File": "lib/Gnome/Gio/File.pm6",
+    "Gnome::Gio::FileIcon": "lib/Gnome/Gio/FileIcon.pm6",
+    "Gnome::Gio::Icon": "lib/Gnome/Gio/Icon.pm6",
+    "Gnome::Gio::Menu": "lib/Gnome/Gio/Menu.pm6",
+    "Gnome::Gio::MenuAttributeIter": "lib/Gnome/Gio/MenuAttributeIter.pm6",
+    "Gnome::Gio::MenuItem": "lib/Gnome/Gio/MenuItem.pm6",
+    "Gnome::Gio::MenuLinkIter": "lib/Gnome/Gio/MenuLinkIter.pm6",
+    "Gnome::Gio::MenuModel": "lib/Gnome/Gio/MenuModel.pm6",
+    "Gnome::Gio::Notification": "lib/Gnome/Gio/Notification.pm6",
+    "Gnome::Gio::Resource": "lib/Gnome/Gio/Resource.pm6",
+    "Gnome::Gio::SimpleAction": "lib/Gnome/Gio/SimpleAction.pm6",
+    "Gnome::Gio::SimpleActionGroup": "lib/Gnome/Gio/SimpleActionGroup.pm6",
+    "Gnome::Gio::ThemedIcon": "lib/Gnome/Gio/ThemedIcon.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gio-0.10.3.tar.gz",
+  "tags": [
+    "gnome",
+    "gio"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.10.3"
+}
+,
+{
   "X-provides": {
     "Gnome::Gio::Emblem": "lib/Gnome/Gio/Emblem.pm6",
     "Gnome::Gio::EmblemedIcon": "lib/Gnome/Gio/EmblemedIcon.pm6",
