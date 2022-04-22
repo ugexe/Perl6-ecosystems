@@ -7281,35 +7281,6 @@
 ,
 {
   "author": "github:fayland",
-  "authors": [
-    "github:fayland"
-  ],
-  "depends": [
-    "MIME::Base64",
-    "URI",
-    "IO::Socket::SSL",
-    "HTTP::UserAgent",
-    "JSON::Fast",
-    "Cache::LRU"
-  ],
-  "description": "GitHub API",
-  "name": "WebService::GitHub",
-  "perl": "6.*",
-  "provides": {
-    "WebService::GitHub": "lib/WebService/GitHub.pm",
-    "WebService::GitHub::OAuth": "lib/WebService/GitHub/OAuth.pm",
-    "WebService::GitHub::Response": "lib/WebService/GitHub/Response.pm",
-    "WebService::GitHub::Role": "lib/WebService/GitHub/Role.pm"
-  },
-  "source-url": "git://github.com/fayland/perl6-WebService-GitHub.git",
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.1.0"
-}
-,
-{
-  "author": "github:fayland",
   "depends": [
     "URI::Escape",
     "HTTP::Tinyish"
@@ -16255,33 +16226,6 @@
     "Test::META"
   ],
   "version": "1.001004"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Secure version of IO::Path.child",
-  "license": "Artistic-2.0",
-  "name": "IO::Path::ChildSecure",
-  "perl": "6.c",
-  "provides": {
-    "IO::Path::ChildSecure": "lib/IO/Path/ChildSecure.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/IO-Path-ChildSecure.git"
-  },
-  "tags": [
-    "file",
-    "file system"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001011"
 }
 ,
 {
