@@ -9293,6 +9293,30 @@
 }
 ,
 {
+  "authors": [
+    "Lucien Grondin"
+  ],
+  "depends": [
+    
+  ],
+  "description": "PBKDF2 in pure raku",
+  "license": "MIT-License",
+  "name": "PBKDF2",
+  "perl": "6.d",
+  "provides": {
+    "PBKDF2": "lib/PBKDF2.rakumod"
+  },
+  "tags": [
+    "pbkdf2",
+    "crypto"
+  ],
+  "test-depends": [
+    "Digest"
+  ],
+  "version": "0.1.2"
+}
+,
+{
   "auth": "github:grondilu",
   "depends": [
     "UUID"
