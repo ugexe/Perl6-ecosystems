@@ -2134,6 +2134,50 @@
 }
 ,
 {
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan <bduggan@matatu.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Test",
+    "XML::Class",
+    "URI::Encode",
+    "IO::Socket::SSL",
+    "HTTP::UserAgent",
+    "Digest",
+    "Digest::HMAC",
+    "Digest::SHA256::Native",
+    "JSON::Fast",
+    "URI",
+    "Test::Mock"
+  ],
+  "description": "AWS S3 Client",
+  "license": "MIT",
+  "name": "WebService::AWS::S3",
+  "perl": "6.*",
+  "provides": {
+    "WebService::AWS::S3": "lib/WebService/AWS/S3.rakumod",
+    "WebService::AWS::S3::Request": "lib/WebService/AWS/S3/Request.rakumod",
+    "WebService::AWS::S3::Resources": "lib/WebService/AWS/S3/Resources.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/AWS-S3-0.0.8.tar.gz",
+  "support": {
+    "source": "git://github.com/bduggan/aws-s3-raku.git"
+  },
+  "tags": [
+    "aws"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::Mock"
+  ],
+  "version": "0.0.8"
+}
+,
+{
   "authors": [
     "Brian Duggan"
   ],
