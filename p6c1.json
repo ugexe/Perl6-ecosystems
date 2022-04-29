@@ -15862,21 +15862,6 @@
 }
 ,
 {
-  "depends": [
-    "DBIish"
-  ],
-  "description": "Build database models in Raku, easily",
-  "name": "DB::Model::Easy",
-  "perl": "6.*",
-  "provides": {
-    "DB::Model::Easy": "lib/DB/Model/Easy.pm6",
-    "DB::Model::Easy::Row": "lib/DB/Model/Easy/Row.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/DB-Model-Easy.git",
-  "version": "*"
-}
-,
-{
   "api": 1,
   "auth": "zef:raku-community-modules",
   "build-depends": [
