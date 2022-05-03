@@ -3261,6 +3261,60 @@
 }
 ,
 {
+  "auth": "zef:Altai-man",
+  "depends": [
+    "URI",
+    "HTTP::UserAgent",
+    "JSON::Fast"
+  ],
+  "description": "Bindings to DuckDuckGo search API",
+  "license": "Artistic-2.0",
+  "name": "WWW::DuckDuckGo",
+  "perl": "6.*",
+  "provides": {
+    "WWW::DuckDuckGo": "lib/WWW/DuckDuckGo.pm6",
+    "WWW::DuckDuckGo::Icon": "lib/WWW/DuckDuckGo/Icon.pm6",
+    "WWW::DuckDuckGo::Link": "lib/WWW/DuckDuckGo/Link.pm6",
+    "WWW::DuckDuckGo::ZeroClickInfo": "lib/WWW/DuckDuckGo/ZeroClickInfo.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/Altai-man/p6-WWW-DuckDuckGo.git",
+  "tags": [
+    "Web",
+    "API"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "auth": "github:slunski",
+  "authors": [
+    "Sylwester Lunski",
+    "Alexander Kiryuhin"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Pure Perl6 LDIF file parser",
+  "license": "Artistic-2.0",
+  "name": "Text::LDIF",
+  "perl": "6.c",
+  "provides": {
+    "Text::LDIF": "lib/Text/LDIF.pm6",
+    "Text::LDIF::Actions": "lib/Text/LDIF/Actions.pm6",
+    "Text::LDIF::Grammar": "lib/Text/LDIF/Grammar.pm6"
+  },
+  "repo-type": "git",
+  "source-url": "git://github.com/Altai-man/perl6-text-ldif.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "1.0.5"
+}
+,
+{
   "author": "Andrew Robbins",
   "build-depends": [
     
@@ -4465,6 +4519,33 @@
 }
 ,
 {
+  "auth": "github:azawawi",
+  "authors": [
+    "Ahmad M. Zawawi"
+  ],
+  "description": "Use libcaca (Colour AsCii Art library) API in Perl 6",
+  "license": "MIT",
+  "name": "Terminal::Caca",
+  "perl": "6.*",
+  "provides": {
+    "Terminal::Caca": "lib/Terminal/Caca.pm6",
+    "Terminal::Caca::Raw": "lib/Terminal/Caca/Raw.pm6"
+  },
+  "repo-type": "git",
+  "source-url": "git://github.com/azawawi/perl6-terminal-caca.git",
+  "tags": [
+    "CLI",
+    "Terminal",
+    "NativeCall",
+    "ASCII-Art"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.5.3"
+}
+,
+{
   "authors": [
     "Paweł bbkr Pabian"
   ],
@@ -4493,6 +4574,30 @@
   },
   "source-url": "git://github.com/bbkr/HomoGlypher.git",
   "version": "1.8.2"
+}
+,
+{
+  "authors": [
+    "Paweł bbkr Pabian",
+    "Ahmad M. Zawawi (azawawi)"
+  ],
+  "depends": [
+    "JSON::Tiny",
+    "URI",
+    "HTTP::Easy",
+    "HTTP::UserAgent"
+  ],
+  "description": "JSON-RPC 2.0 client and server.",
+  "license": "Artistic-2.0",
+  "name": "JSON::RPC",
+  "perl": "6.c",
+  "provides": {
+    "JSON::RPC::Client": "lib/JSON/RPC/Client.rakumod",
+    "JSON::RPC::Server": "lib/JSON/RPC/Server.rakumod",
+    "X::JSON::RPC": "lib/X/JSON/RPC.rakumod"
+  },
+  "source-url": "git://github.com/bbkr/JSON-RPC.git",
+  "version": "1.0.3"
 }
 ,
 {
@@ -5023,6 +5128,53 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Simple and flexible color color conversion module for Raku Perl 6 , easy-to-use simple learning.",
+  "license": "GPL-2.0",
+  "name": "CCColor",
+  "perl": "6.*",
+  "provides": {
+    "CCColor": "lib/CCColor.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/ccworld1000/CCColor.git",
+  "tags": [
+    "CCColor",
+    "chart",
+    "color",
+    "draw",
+    "line",
+    "graphics",
+    "hex",
+    "hex2rgba",
+    "rgb",
+    "rgba",
+    "rgb32",
+    "color conversion",
+    "color format",
+    "hex color",
+    "Raku",
+    "Perl 6"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "api": "*",
+  "auth": "github:ccworld1000, ccworld1000@gmail.com, 2291108617@qq.com",
+  "authors": [
+    "youhua deng (deng you hua | CC)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "NativeCall"
   ],
   "description": "CCLog Simple and lightweight cross-platform logs, easy-to-use simple learning, and support for multiple languages, such as C, C++, Perl 6, shell, Objective-C, support ios, osx, watchos, tvos, pod .",
@@ -5084,6 +5236,33 @@
     
   ],
   "version": "0.0.6"
+}
+,
+{
+  "build-depends": [
+    "NativeCall"
+  ],
+  "depends": [
+    "NativeCall"
+  ],
+  "description": "Container tool based on Linux namespaces",
+  "name": "Kains",
+  "perl": "v6",
+  "provides": {
+    "App::Kains": "lib/App/Kains.pm6",
+    "App::Kains::Commandline": "lib/App/Kains/Commandline.pm6",
+    "App::Kains::Config": "lib/App/Kains/Config.pm6",
+    "App::Kains::Core": "lib/App/Kains/Core.pm6",
+    "App::Kains::Core::Chrooted": "lib/App/Kains/Core/Chrooted.pm6",
+    "App::Kains::Native": "lib/App/Kains/Native.pm6",
+    "App::Kains::Parameters": "lib/App/Kains/Parameters.pm6",
+    "App::Kains::X": "lib/App/Kains/X.pm6"
+  },
+  "source-url": "git://github.com/cedric-vincent/kains.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "v0.0.2"
 }
 ,
 {
