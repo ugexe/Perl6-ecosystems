@@ -16884,42 +16884,6 @@
     "Zoffix Znet"
   ],
   "depends": [
-    "File::Find",
-    "JSON::Fast",
-    "Terminal::ANSIColor",
-    "DBIish",
-    "Temp::Path",
-    "Proc::Q",
-    "WhereList",
-    "WWW"
-  ],
-  "description": "Toaster of Raku Ecosystem Modules",
-  "license": "Artistic-2.0",
-  "name": "Toaster",
-  "perl": "6.c",
-  "provides": {
-    "Toaster": "lib/Toaster.pm6",
-    "Toaster::DB": "lib/Toaster/DB.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/Toaster.git"
-  },
-  "tags": [
-    "ecosystem",
-    "testing"
-  ],
-  "test-depends": [
-    "Testo",
-    "Test::META"
-  ],
-  "version": "1.001002"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
     
   ],
   "description": "Helper IO traits",
