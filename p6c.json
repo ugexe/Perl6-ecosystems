@@ -23643,6 +23643,39 @@
     
   ],
   "depends": [
+    
+  ],
+  "description": "Camelizes and decamelizes given string",
+  "license": "Artistic-2.0",
+  "name": "String::CamelCase",
+  "perl": "6.c",
+  "provides": {
+    "String::CamelCase": "lib/String/CamelCase.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "https://github.com/yowcow/p6-String-CamelCase.git",
+  "tags": [
+    "text",
+    "string",
+    "camelcase"
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "1.0.3"
+}
+,
+{
+  "authors": [
+    "yowcow"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Digest::HMAC",
     "HTTP::UserAgent",
     "JSON::Fast",
@@ -23675,6 +23708,18 @@
     "Test::META"
   ],
   "version": "0.0.6"
+}
+,
+{
+  "description": "Simple client implementation for the Ident protocol (RFC 1413)",
+  "name": "Ident::Client",
+  "perl": "v6",
+  "provides": {
+    "Ident::Client": "lib/Ident/Client.pm6"
+  },
+  "source-type": "git",
+  "source-url": "https://github.com/yuvipanda/perl6-Ident-Client.git",
+  "version": "v0.1.0"
 }
 ,
 {
@@ -23888,6 +23933,72 @@
     "Test::META"
   ],
   "version": "0.5.0"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Load modules from temporarily included locations",
+  "license": "Artistic",
+  "meta6": "0",
+  "name": "CompUnit::DynamicLib",
+  "perl": "6.c",
+  "provides": {
+    "CompUnit::DynamicLib": "lib/CompUnit/DynamicLib.pm6"
+  },
+  "source-url": "git://github.com/zostay/p6-CompUnit-DynamicLib.git",
+  "support": {
+    "source": "git://github.com/zostay/p6-CompUnit-DynamicLib.git"
+  },
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.2.1"
+}
+,
+{
+  "auth": "github:zostay",
+  "authors": [
+    "Sterling Hanenkamp <hanenkamp@cpan.org>"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Use MAIN to dispatch to a class.",
+  "license": "Artistic-2.0",
+  "meta-version": "0",
+  "name": "Getopt::ForClass",
+  "perl": "6.c",
+  "provides": {
+    "Getopt::ForClass": "lib/Getopt/ForClass.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/zostay/p6-Getopt-ForClass.git",
+  "support": {
+    "source": "git://github.com/zostay/p6-Getopt-ForClass.git"
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    "Test",
+    "Test::META"
+  ],
+  "version": "0.3"
 }
 ,
 {
