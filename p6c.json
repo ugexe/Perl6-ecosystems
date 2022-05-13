@@ -16429,24 +16429,6 @@
 }
 ,
 {
-  "auth": "github:raku-community-modules",
-  "authors": [
-    "Timothy Totten"
-  ],
-  "depends": [
-    
-  ],
-  "description": "A library for working with netstrings.",
-  "name": "Netstring",
-  "perl": "6.*",
-  "provides": {
-    "Netstring": "lib/Netstring.pm6"
-  },
-  "source-url": "https://github.com/raku-community-modules/Netstring.git",
-  "version": "0.0.1"
-}
-,
-{
   "authors": [
     "Zoffix Znet"
   ],
@@ -16543,25 +16525,6 @@
     "Test"
   ],
   "version": "1.001004"
-}
-,
-{
-  "auth": "github:raku-community-modules",
-  "authors": [
-    "Timothy Totten, supernovus",
-    "Raku community"
-  ],
-  "depends": [
-    "HTTP::Status"
-  ],
-  "description": "A PSGI helper library.",
-  "name": "PSGI",
-  "perl": "6.*",
-  "provides": {
-    "PSGI": "lib/PSGI.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/PSGI.git",
-  "version": "1.2.0"
 }
 ,
 {
