@@ -9148,20 +9148,20 @@
   "depends": [
     
   ],
-  "description": "Chess-related stuff in Perl 6.",
+  "description": "Chess-related stuff in raku.",
   "license": "Artistic-2.0",
   "name": "Chess",
   "perl": "6.*",
   "provides": {
-    "Chess": "lib/Chess.pm6",
-    "Chess::FEN": "lib/Chess/FEN.pm6",
-    "Chess::PGN": "lib/Chess/PGN.pm6"
+    "Chess": "lib/Chess.rakumod",
+    "Chess::FEN": "lib/Chess/FEN.rakumod",
+    "Chess::PGN": "lib/Chess/PGN.rakumod"
   },
   "source-url": "git://github.com/grondilu/chess.git",
   "test-depends": [
     "Test"
   ],
-  "version": "0.2.1"
+  "version": "0.2.2"
 }
 ,
 {
