@@ -16528,33 +16528,6 @@
 }
 ,
 {
-  "authors": [
-    "Jonathan Scott Duff <duff@pobox.com>"
-  ],
-  "depends": [
-    "JSON::Tiny",
-    "HTTP::UserAgent",
-    "Terminal::ANSIColor",
-    "IO::Socket::SSL"
-  ],
-  "description": "Implementation of http://questhub.io API + CLI",
-  "license": "Artistic-2.0",
-  "name": "Questhub",
-  "perl": "6.*",
-  "provides": {
-    "Questhub": "lib/Questhub.pm6",
-    "Questhub::Quest": "lib/Questhub/Quest.pm6",
-    "Questhub::Quest::State": "lib/Questhub/Quest/State.pm6"
-  },
-  "support": {
-    "bugtracker": "https://github.com/raku-community-modules/Questhub/issues",
-    "email": "duff@pobox.com",
-    "source": "https://github.com/raku-community-modules/Questhub.git"
-  },
-  "version": "0.0.1"
-}
-,
-{
   "auth": "github:drforr",
   "authors": [
     "Jeffrey Goff <drforr@pobox.com>"
