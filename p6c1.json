@@ -16648,28 +16648,6 @@
 }
 ,
 {
-  "depends": [
-    "HTTP::Status",
-    "Netstring",
-    "PSGI"
-  ],
-  "description": "A SCGI library for Raku",
-  "license": "Artistic-2.0",
-  "name": "SCGI",
-  "perl": "6.*",
-  "provides": {
-    "SCGI": "lib/SCGI.pm6",
-    "SCGI::Connection": "lib/SCGI/Connection.pm6",
-    "SCGI::Constants": "lib/SCGI/Constants.pm6",
-    "SCGI::Errors": "lib/SCGI/Errors.pm6",
-    "SCGI::Request": "lib/SCGI/Request.pm6",
-    "SCGI::Response": "lib/SCGI/Response.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/SCGI.git",
-  "version": "2.4"
-}
-,
-{
   "authors": [
     "Zoffix Znet"
   ],
