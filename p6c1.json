@@ -9090,6 +9090,28 @@
 ,
 {
   "authors": [
+    "Gonéri Le Bouder"
+  ],
+  "depends": [
+    
+  ],
+  "description": "lib NotmuchMail binding",
+  "license": "GPL-3.0",
+  "name": "Email::Notmuch",
+  "perl": "6.c",
+  "provides": {
+    "Email::Notmuch": "lib/Email/Notmuch.pm6"
+  },
+  "source-url": "git://github.com/goneri/p6-Email-Notmuch.git",
+  "test-depends": [
+    "File::Temp",
+    "Test"
+  ],
+  "version": "0.6"
+}
+,
+{
+  "authors": [
     "github:gotoexit"
   ],
   "depends": [
