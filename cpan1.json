@@ -693,6 +693,45 @@
     
   ],
   "depends": [
+    "HTTP::UserAgent",
+    "Text::CSV",
+    "URL::Find",
+    "XDG::BaseDirectory"
+  ],
+  "description": "Obtaining example datasets.",
+  "license": "Artistic-2.0",
+  "name": "Data::ExampleDatasets",
+  "perl": "6.d",
+  "provides": {
+    "Data::ExampleDatasets": "lib/Data/ExampleDatasets.rakumod"
+  },
+  "resources": [
+    "dfRdatasets.csv"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-ExampleDatasets-0.2.1.tar.gz",
+  "tags": [
+    "data",
+    "dataset",
+    "example",
+    "metadata",
+    "Rdatasets"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.1"
+}
+,
+{
+  "api": "1",
+  "auth": "github:antononcube",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "Random data generation functions: strings, words, numbers, vectors, pet names, job titles, and tabular datasets.",
