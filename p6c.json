@@ -306,6 +306,21 @@
   "depends": [
     
   ],
+  "description": "A Perl 6 module to deal with W3CDTF dates",
+  "name": "DateTime::Format::W3CDTF",
+  "perl": "6.*",
+  "provides": {
+    "DateTime::Format::W3CDTF": "lib/DateTime/Format/W3CDTF.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/afiskon/p6-datetime-format-w3cdtf.git",
+  "version": "*"
+}
+,
+{
+  "depends": [
+    
+  ],
   "description": "A Perl 6 module for parsing XML documents",
   "name": "XML::Parser::Tiny",
   "perl": "6.*",
@@ -8206,6 +8221,21 @@
   "provides": {
     "Foo": "lib/Foo.pm"
   },
+  "source-url": "git://github.com/FROGGS/p6-Foo-v1.0.0.git",
+  "version": "1.0.0"
+}
+,
+{
+  "author": "github:FROGGS",
+  "depends": [
+    
+  ],
+  "description": "Test for installation of same named dists",
+  "name": "Foo",
+  "perl": "6.*",
+  "provides": {
+    "Foo": "lib/Foo.pm"
+  },
   "source-url": "git://github.com/FROGGS/p6-Foo-v1.2.0.git",
   "version": "1.2.0"
 }
@@ -10613,6 +10643,30 @@
     "Test::META:ver<0.0.17+>"
   ],
   "version": "2.2.1"
+}
+,
+{
+  "auth": "github:JJ",
+  "authors": [
+    "J. J. Merelo "
+  ],
+  "depends": [
+    "Terminal::ANSIColor"
+  ],
+  "description": "Nice messages for grammars and regexes",
+  "license": "Artistic-2.0",
+  "meta-version": 0,
+  "name": "Grammar::Message",
+  "perl": "6.d",
+  "provides": {
+    "Grammar::Message": "lib/Grammar/Message.pm6"
+  },
+  "source-url": "https://github.com/JJ/raku-grammar-message.git",
+  "tags": [
+    "grammars",
+    "exceptions"
+  ],
+  "version": "0.0.1"
 }
 ,
 {
@@ -15265,6 +15319,23 @@
 ,
 {
   "authors": [
+    "github:pierre-vigier"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Providing private accessors for private attributes",
+  "name": "AttrX::PrivateAccessor",
+  "perl": "6.c",
+  "provides": {
+    "AttrX::PrivateAccessor": "lib/AttrX/PrivateAccessor.pm6"
+  },
+  "source-url": "git://github.com/pierre-vigier/Perl6-AttrX-PrivateAccessor.git",
+  "version": "0.0.2"
+}
+,
+{
+  "authors": [
     "github:pierre-vigier",
     "github:timo"
   ],
@@ -15528,6 +15599,22 @@
     "Test::META"
   ],
   "version": "0.2.4"
+}
+,
+{
+  "depends": [
+    
+  ],
+  "description": "Dictionaries creating module",
+  "license": "Apache-License-2.0",
+  "name": "Dictionary::Create",
+  "perl": "6.*",
+  "provides": {
+    "Dictionary::Create": "lib/Dictionary/Create.pm",
+    "Dictionary::Create::DSL": "lib/Dictionary/Create/DSL.pm"
+  },
+  "source-url": "git://github.com/prodotiscus/perl6-Dictionary-Create.git",
+  "version": "*"
 }
 ,
 {
@@ -17632,6 +17719,28 @@
     "HTTP::ParseParams": "lib/HTTP/ParseParams.pm6"
   },
   "source-url": "git://github.com/retupmoca/P6-HTTP-ParseParams.git",
+  "version": "1.0.0"
+}
+,
+{
+  "author": "github:retupmoca",
+  "depends": [
+    
+  ],
+  "description": ".ics file handling",
+  "name": "Data::ICal",
+  "perl": "6.*",
+  "provides": {
+    "Data::ICal": "lib/Data/ICal.pm6",
+    "Data::ICal::Alarm": "lib/Data/ICal/Alarm.pm6",
+    "Data::ICal::Event": "lib/Data/ICal/Event.pm6",
+    "Data::ICal::FreeBusy": "lib/Data/ICal/FreeBusy.pm6",
+    "Data::ICal::Grammar": "lib/Data/ICal/Grammar.pm6",
+    "Data::ICal::Journal": "lib/Data/ICal/Journal.pm6",
+    "Data::ICal::TimeZone": "lib/Data/ICal/TimeZone.pm6",
+    "Data::ICal::Todo": "lib/Data/ICal/Todo.pm6"
+  },
+  "source-url": "git://github.com/retupmoca/P6-iCal.git",
   "version": "1.0.0"
 }
 ,
@@ -22985,6 +23094,41 @@
     "HTTP::UserAgent"
   ],
   "version": "0.10.0"
+}
+,
+{
+  "authors": [
+    "André Brás"
+  ],
+  "depends": [
+    "Gcrypt",
+    "Hematite",
+    "JSON::Fast",
+    "Logger",
+    "MIME::Base64",
+    "Redis",
+    "UUID"
+  ],
+  "description": "session middleware for the hematite web framework",
+  "license": "Artistic-2.0",
+  "name": "Hematite::Middleware::Session",
+  "perl": "6.d",
+  "provides": {
+    "Hematite::Middleware::Session": "lib/Hematite/Middleware/Session.rakumod",
+    "Hematite::Middleware::Session::Data": "lib/Hematite/Middleware/Session/Data.rakumod",
+    "Hematite::Middleware::Session::Data::Flash": "lib/Hematite/Middleware/Session/Data/Flash.rakumod",
+    "Hematite::Middleware::Session::Store": "lib/Hematite/Middleware/Session/Store.rakumod",
+    "Hematite::Middleware::Session::Store::Cookie": "lib/Hematite/Middleware/Session/Store/Cookie.rakumod",
+    "Hematite::Middleware::Session::Store::Redis": "lib/Hematite/Middleware/Session/Store/Redis.rakumod",
+    "X::Hematite::Session::NotFoundException": "lib/X/Hematite/Session/NotFoundException.rakumod"
+  },
+  "support": {
+    "source": "https://github.com/whity/raku-hematite-middleware-session.git"
+  },
+  "test-depends": [
+    
+  ],
+  "version": "0.1.0"
 }
 ,
 {
