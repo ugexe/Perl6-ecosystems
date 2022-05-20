@@ -15725,34 +15725,6 @@
     "Zoffix Znet"
   ],
   "depends": [
-    
-  ],
-  "description": "Benchmark some code",
-  "license": "Artistic-2.0",
-  "name": "Benchy",
-  "perl": "6.c",
-  "provides": {
-    "Benchy": "lib/Benchy.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/Benchy.git"
-  },
-  "tags": [
-    "benchmark",
-    "dev"
-  ],
-  "test-depends": [
-    "Testo",
-    "Test::META"
-  ],
-  "version": "1.001001"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
     "JSON::Fast"
   ],
   "description": "Flat, JSON-backed read-write configuration",
@@ -16830,33 +16802,6 @@
   },
   "source-url": "git://github.com/raku-community-modules/Web-App-Ballet.git",
   "version": "0.1.0"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Simpler `where` constraints for items of lists",
-  "license": "Artistic-2.0",
-  "name": "WhereList",
-  "perl": "6.c",
-  "provides": {
-    "WhereList": "lib/WhereList.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/WhereList.git"
-  },
-  "tags": [
-    "lists"
-  ],
-  "test-depends": [
-    "Testo",
-    "Test::META"
-  ],
-  "version": "1.001002"
 }
 ,
 {
