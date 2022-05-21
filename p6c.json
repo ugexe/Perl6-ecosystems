@@ -15651,31 +15651,6 @@
 }
 ,
 {
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "Term::termios"
-  ],
-  "description": "Use Anguish programming language in your Raku programs",
-  "license": "Artistic-2.0",
-  "name": "Acme::Anguish",
-  "perl": "6.c",
-  "provides": {
-    "Acme::Anguish": "lib/Acme/Anguish.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/Acme-Anguish.git"
-  },
-  "test-depends": [
-    "Test",
-    "Test::META",
-    "Test::Output"
-  ],
-  "version": "1.001002"
-}
-,
-{
   "auth": "github:drforr",
   "authors": [
     "Jeffrey Goff <drforr@pobox.com>"
@@ -15905,28 +15880,6 @@
   },
   "source-url": "git://github.com/raku-community-modules/File-LibMagic.git",
   "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Convert Coordinated Central Time to Old Earth Time",
-  "license": "Artistic-2.0",
-  "name": "Games::TauStation::DateTime",
-  "perl": "6.c",
-  "provides": {
-    "GCT": "lib/Games/TauStation/DateTime.pm6",
-    "Games::TauStation::DateTime": "lib/Games/TauStation/DateTime.pm6"
-  },
-  "source-url": "https://github.com/raku-community-modules/Games-TauStation-DateTime.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001006"
 }
 ,
 {
@@ -16365,62 +16318,6 @@
 }
 ,
 {
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "RakudoPrereq"
-  ],
-  "description": "Queue up and run a herd of Procs",
-  "license": "Artistic-2.0",
-  "name": "Proc::Q",
-  "perl": "6.c",
-  "provides": {
-    "Proc::Q": "lib/Proc/Q.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/Proc-Q.git"
-  },
-  "tags": [
-    "proc",
-    "process"
-  ],
-  "test-depends": [
-    "Testo",
-    "Test::Notice",
-    "Test::META"
-  ],
-  "version": "1.001003"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "A more usable Proxy with bells",
-  "license": "Artistic-2.0",
-  "name": "Proxee",
-  "perl": "6.c",
-  "provides": {
-    "Proxee": "lib/Proxee.pm6",
-    "Proxee::X::CannotBindStore": "lib/Proxee.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/Proxee.git"
-  },
-  "tags": [
-    "containers"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "1.001004"
-}
-,
-{
   "auth": "github:drforr",
   "authors": [
     "Jeffrey Goff <drforr@pobox.com>"
@@ -16684,31 +16581,6 @@
     
   ],
   "version": "1.003007"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Helper IO traits",
-  "license": "Artistic-2.0",
-  "name": "Trait::IO",
-  "perl": "6.c",
-  "provides": {
-    "Trait::IO": "lib/Trait/IO.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/Trait-IO.git",
-  "tags": [
-    "IO"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "1.001001"
 }
 ,
 {
