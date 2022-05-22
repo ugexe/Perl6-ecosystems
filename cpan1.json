@@ -805,58 +805,6 @@
   "resources": [
     "dfTitanic.csv"
   ],
-  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-Reshapers-0.1.7.tar.gz",
-  "tags": [
-    "contingency table",
-    "data",
-    "dataset",
-    "long form",
-    "long format",
-    "narrow format",
-    "reshape",
-    "schema",
-    "transpose",
-    "wide form",
-    "wide format"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.7"
-}
-,
-{
-  "api": "1",
-  "auth": "github:antononcube",
-  "authors": [
-    "Anton Antonov"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Hash::Merge",
-    "Text::CSV",
-    "Pretty::Table"
-  ],
-  "description": "Data reshaping functions for different data structures (arrays, lists of hashes, Text::CSV tables.)",
-  "license": "Artistic-2.0",
-  "name": "Data::Reshapers",
-  "perl": "6.d",
-  "provides": {
-    "Data::Reshapers": "lib/Data/Reshapers.rakumod",
-    "Data::Reshapers::Adapters": "lib/Data/Reshapers/Adapters.rakumod",
-    "Data::Reshapers::CrossTabulate": "lib/Data/Reshapers/CrossTabulate.rakumod",
-    "Data::Reshapers::JoinAcross": "lib/Data/Reshapers/JoinAcross.rakumod",
-    "Data::Reshapers::Predicates": "lib/Data/Reshapers/Predicates.rakumod",
-    "Data::Reshapers::ToLongFormat": "lib/Data/Reshapers/ToLongFormat.rakumod",
-    "Data::Reshapers::ToPrettyTable": "lib/Data/Reshapers/ToPrettyTable.rakumod",
-    "Data::Reshapers::ToWideFormat": "lib/Data/Reshapers/ToWideFormat.rakumod",
-    "Data::Reshapers::Transpose": "lib/Data/Reshapers/Transpose.rakumod"
-  },
-  "resources": [
-    "dfTitanic.csv"
-  ],
   "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Data-Reshapers-0.1.8.tar.gz",
   "tags": [
     "contingency table",
@@ -914,65 +862,6 @@
     
   ],
   "version": "0.1.0"
-}
-,
-{
-  "api": "1",
-  "auth": "github:antononcube",
-  "authors": [
-    "Anton Antonov"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Lingua::NumericWordForms has generators, parsers, and interpreters of numeric word forms in different languages.",
-  "license": "Artistic-2.0",
-  "name": "Lingua::NumericWordForms",
-  "perl": "6.d",
-  "provides": {
-    "Lingua::NumericWordForms": "lib/Lingua/NumericWordForms/NumericWordForms.rakumod",
-    "Lingua::NumericWordForms::Actions::Bulgarian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Bulgarian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::English::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/English/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::French::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/French/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Greek::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Greek/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Japanese::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Japanese/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Persian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Persian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Polish::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Polish/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Russian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Russian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Spanish::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Spanish/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::Ukrainian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/Ukrainian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Actions::WordedNumberSpec": "lib/Lingua/NumericWordForms/Actions/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Bulgarian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Bulgarian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::English::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/English/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::French::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/French/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Greek::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Greek/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Japanese::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Japanese/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Persian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Persian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Polish::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Polish/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Russian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Russian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Spanish::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Spanish/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::Ukrainian::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/Ukrainian/WordedNumberSpec.rakumod",
-    "Lingua::NumericWordForms::Roles::WordedNumberSpec": "lib/Lingua/NumericWordForms/Roles/WordedNumberSpec.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Lingua-NumericWordForms-0.4.2.tar.gz",
-  "tags": [
-    "parser",
-    "interpreter",
-    "word form",
-    "worded number",
-    "number",
-    "numeric"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.4.2"
 }
 ,
 {
@@ -1255,49 +1144,6 @@
     
   ],
   "version": "0.5.0"
-}
-,
-{
-  "api": "1",
-  "auth": "github:antononcube",
-  "authors": [
-    "Anton Antonov"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "A package with functions for processing of code chunks in documents of different types (like Markdown, Org-mode, Pod6.)",
-  "license": "Artistic-2.0",
-  "name": "Text::CodeProcessing",
-  "perl": "6.d",
-  "provides": {
-    "Text::CodeProcessing": "lib/Text/CodeProcessing.rakumod",
-    "Text::CodeProcessing::REPLSandbox": "lib/Text/CodeProcessing/REPLSandbox.rakumod"
-  },
-  "resources": [
-    "BookIntroduction.md",
-    "BookIntroduction.org"
-  ],
-  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Text-CodeProcessing-0.4.1.tar.gz",
-  "tags": [
-    "parser",
-    "evaluation",
-    "extraction",
-    "code processing",
-    "literate programming",
-    "markdown",
-    "org-mode",
-    "pod6",
-    "weaving",
-    "tangling"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.4.1"
 }
 ,
 {
