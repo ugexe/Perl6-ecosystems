@@ -16409,33 +16409,6 @@
 ,
 {
   "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "Subset::Helper"
-  ],
-  "description": "Subsets for various types of IO::Path instances",
-  "license": "Artistic-2.0",
-  "name": "Subsets::IO",
-  "perl": "6.c",
-  "provides": {
-    "Subsets::IO": "lib/Subsets/IO.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/Subsets-IO.git"
-  },
-  "tags": [
-    "IO"
-  ],
-  "test-depends": [
-    "Testo",
-    "Temp::Path"
-  ],
-  "version": "1.001003"
-}
-,
-{
-  "authors": [
     "David Farrell",
     "Raku community"
   ],
