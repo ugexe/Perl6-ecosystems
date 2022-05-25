@@ -16248,35 +16248,6 @@
 }
 ,
 {
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "JSON::Fast",
-    "WWW::P6lert"
-  ],
-  "description": "Command line utility to fetch alerts.raku.org alerts",
-  "license": "Artistic-2.0",
-  "name": "p6lert",
-  "perl": "6.*",
-  "provides": {
-    
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/p6lert.git"
-  },
-  "tags": [
-    "command line"
-  ],
-  "test-depends": [
-    "JSON::Fast",
-    "Testo",
-    "Test::When"
-  ],
-  "version": "1.002001"
-}
-,
-{
   "auth": "github:drforr",
   "authors": [
     "Jeffrey Goff <drforr@pobox.com>"
@@ -16617,37 +16588,6 @@
     "Test::META"
   ],
   "version": "1.005006"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "WWW"
-  ],
-  "description": "Implementation of alerts.perl6.org API",
-  "license": "Artistic-2.0",
-  "name": "WWW::P6lert",
-  "perl": "6.c",
-  "provides": {
-    "WWW::P6lert": "lib/WWW/P6lert.pm6",
-    "WWW::P6lert::Alert": "lib/WWW/P6lert.pm6",
-    "WWW::P6lert::X": "lib/WWW/P6lert.pm6",
-    "WWW::P6lert::X::Network": "lib/WWW/P6lert.pm6",
-    "WWW::P6lert::X::NotFound": "lib/WWW/P6lert.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/WWW-P6lert.git"
-  },
-  "tags": [
-    "WWW"
-  ],
-  "test-depends": [
-    "Testo",
-    "Test::When"
-  ],
-  "version": "1.001004"
 }
 ,
 {
