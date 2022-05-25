@@ -16190,30 +16190,39 @@
 }
 ,
 {
+  "auth": "zef:raku-community-modules",
   "authors": [
     "John Spurr"
   ],
+  "build-depends": [
+    
+  ],
   "depends": [
-    "Test::META"
+    
   ],
   "description": "Implementation of the Porter stemming algorithm",
   "license": "MIT",
   "name": "Lingua::EN::Stem::Porter",
   "perl": "6.c",
   "provides": {
-    "Lingua::EN::Stem::Porter": "lib/Lingua/EN/Stem/Porter.pm6"
+    "Lingua::EN::Stem::Porter": "lib/Lingua/EN/Stem/Porter.rakumod"
   },
+  "resources": [
+    
+  ],
   "source-url": "https://github.com/raku-community-modules/Lingua-EN-Stem-Porter.git",
   "support": {
     "source": "https://github.com/raku-community-modules/Lingua-EN-Stem-Porter.git"
   },
   "tags": [
     "NLP",
-    "raku",
     "stem",
     "porter"
   ],
-  "version": "v1.0"
+  "test-depends": [
+    
+  ],
+  "version": "1.2"
 }
 ,
 {
