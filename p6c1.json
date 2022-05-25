@@ -15782,33 +15782,6 @@
 }
 ,
 {
-  "api": "1.0",
-  "auth": "github:shinobi",
-  "authors": [
-    "github:shinobi"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Calendar and Date objects to handle business days, holidays and weekends",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "Date::WorkdayCalendar",
-  "perl": "6.*",
-  "provides": {
-    "Date::Workdate": "lib/Date/WorkdayCalendar.pm",
-    "Date::WorkdayCalendar": "lib/Date/WorkdayCalendar.pm"
-  },
-  "source-url": "git://github.com/perl6-community-modules/Date-WorkdayCalendar.git",
-  "tags": [
-    "date",
-    "workday",
-    "calendar"
-  ],
-  "version": "0.1.1"
-}
-,
-{
   "api": 1,
   "auth": "zef:raku-community-modules",
   "build-depends": [
@@ -16334,20 +16307,6 @@
 }
 ,
 {
-  "author": "Dave Rolsky <autarch@urth.org>",
-  "description": "Walk a Pod tree and generate an event for each node",
-  "license": "Artistic-2.0",
-  "name": "Pod::TreeWalker",
-  "perl": "6.*",
-  "provides": {
-    "Pod::TreeWalker": "lib/Pod/TreeWalker.pm6",
-    "Pod::TreeWalker::Listener": "lib/Pod/TreeWalker/Listener.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/Pod-TreeWalker.git",
-  "version": "0.0.3"
-}
-,
-{
   "auth": "github:drforr",
   "authors": [
     "Jeffrey Goff <drforr@pobox.com>"
@@ -16477,27 +16436,6 @@
   },
   "source-url": "git://github.com/raku-community-modules/Template6.git",
   "version": "0.10.0"
-}
-,
-{
-  "author": "Kevin Polulak",
-  "authority": "soh-cah-toa",
-  "depends": [
-    
-  ],
-  "description": "Flexible framework for building TAP test libraries",
-  "license": "Artistic-2.0",
-  "name": "Test::Builder",
-  "perl": "6.*",
-  "provides": {
-    "Test::Builder": "lib/Test/Builder.pm",
-    "Test::Builder::Output": "lib/Test/Builder/Output.pm",
-    "Test::Builder::Plan": "lib/Test/Builder/Plan.pm",
-    "Test::Builder::Test": "lib/Test/Builder/Test.pm"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/raku-community-modules/Test-Builder.git",
-  "version": "0.0.3"
 }
 ,
 {
