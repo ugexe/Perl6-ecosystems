@@ -16107,36 +16107,6 @@
 ,
 {
   "authors": [
-    "Zoffix Znet",
-    "Elizabeth Mattijsen",
-    "JJ Merelo"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Get IO::CatHandle's current handle's line number",
-  "license": "Artistic-2.0",
-  "name": "IO::CatHandle::AutoLines",
-  "perl": "6.c",
-  "provides": {
-    "IO::CatHandle::AutoLines": "lib/IO/CatHandle/AutoLines.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/IO-CatHandle-AutoLines.git"
-  },
-  "tags": [
-    "IO"
-  ],
-  "test-depends": [
-    "Testo",
-    "Temp::Path",
-    "Test::META"
-  ],
-  "version": "1.001004"
-}
-,
-{
-  "authors": [
     "Zoffix Znet"
   ],
   "depends": [
@@ -16193,36 +16163,6 @@
     
   ],
   "version": "1.2"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet",
-    "Elizabeth Mattijsen",
-    "JJ Merelo"
-  ],
-  "depends": [
-    "IO::CatHandle::AutoLines:ver<1.001004+>"
-  ],
-  "description": "Get $*ARGFILES with line numbers via $*LN",
-  "license": "Artistic-2.0",
-  "name": "LN",
-  "perl": "6.c",
-  "provides": {
-    "LN": "lib/LN.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/LN.git"
-  },
-  "tags": [
-    "IO"
-  ],
-  "test-depends": [
-    "Testo",
-    "Temp::Path",
-    "Test::META"
-  ],
-  "version": "1.001002"
 }
 ,
 {
@@ -16365,27 +16305,6 @@
   "raku": "6.*",
   "source-url": "git://github.com/raku-community-modules/System-Passwd.git",
   "version": "0.05"
-}
-,
-{
-  "depends": [
-    
-  ],
-  "description": "A template engine inspired by TT.",
-  "name": "Template6",
-  "perl": "6.*",
-  "provides": {
-    "Template6": "lib/Template6.pm6",
-    "Template6::Context": "lib/Template6/Context.pm6",
-    "Template6::Parser": "lib/Template6/Parser.pm6",
-    "Template6::Provider": "lib/Template6/Provider.pm6",
-    "Template6::Provider::File": "lib/Template6/Provider/File.pm6",
-    "Template6::Provider::String": "lib/Template6/Provider/String.pm6",
-    "Template6::Service": "lib/Template6/Service.pm6",
-    "Template6::Stash": "lib/Template6/Stash.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/Template6.git",
-  "version": "0.10.0"
 }
 ,
 {
