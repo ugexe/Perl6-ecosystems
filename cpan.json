@@ -53076,6 +53076,52 @@
 }
 ,
 {
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib",
+    "Gnome::GObject",
+    "Gnome::Cairo",
+    "Gnome::Gio"
+  ],
+  "description": "Raku - Gnome Gdk Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Gdk3",
+  "perl": "6",
+  "provides": {
+    "Gnome::Gdk3::Atom": "lib/Gnome/Gdk3/Atom.pm6",
+    "Gnome::Gdk3::Device": "lib/Gnome/Gdk3/Device.pm6",
+    "Gnome::Gdk3::Display": "lib/Gnome/Gdk3/Display.pm6",
+    "Gnome::Gdk3::DragContext": "lib/Gnome/Gdk3/DragContext.pm6",
+    "Gnome::Gdk3::Events": "lib/Gnome/Gdk3/Events.pm6",
+    "Gnome::Gdk3::Keysyms": "lib/Gnome/Gdk3/Keysyms.pm6",
+    "Gnome::Gdk3::Pixbuf": "lib/Gnome/Gdk3/Pixbuf.pm6",
+    "Gnome::Gdk3::RGBA": "lib/Gnome/Gdk3/RGBA.pm6",
+    "Gnome::Gdk3::Screen": "lib/Gnome/Gdk3/Screen.pm6",
+    "Gnome::Gdk3::Types": "lib/Gnome/Gdk3/Types.pm6",
+    "Gnome::Gdk3::Visual": "lib/Gnome/Gdk3/Visual.pm6",
+    "Gnome::Gdk3::Window": "lib/Gnome/Gdk3/Window.pm6"
+  },
+  "resources": [
+    "gtk-brokenimage.png"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gdk3-0.19.7.tar.gz",
+  "tags": [
+    "gnome",
+    "gdk"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.19.7"
+}
+,
+{
   "P": {
     "Gnome::Gio::LoadableIcon": "lib/Gnome/Gio/LoadableIcon.pm6"
   },
@@ -53514,6 +53560,45 @@
     
   ],
   "version": "0.19.6"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib"
+  ],
+  "description": "Raku - Gnome GObject Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::GObject",
+  "perl": "6",
+  "provides": {
+    "Gnome::GObject::Boxed": "lib/Gnome/GObject/Boxed.pm6",
+    "Gnome::GObject::Closure": "lib/Gnome/GObject/Closure.pm6",
+    "Gnome::GObject::InitiallyUnowned": "lib/Gnome/GObject/InitiallyUnowned.pm6",
+    "Gnome::GObject::Object": "lib/Gnome/GObject/Object.pm6",
+    "Gnome::GObject::Signal": "lib/Gnome/GObject/Signal.pm6",
+    "Gnome::GObject::Type": "lib/Gnome/GObject/Type.pm6",
+    "Gnome::GObject::Value": "lib/Gnome/GObject/Value.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gobject-0.19.7.tar.gz",
+  "tags": [
+    "gnome",
+    "glib",
+    "gobject"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.19.7"
 }
 ,
 {
