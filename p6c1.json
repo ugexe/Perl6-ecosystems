@@ -15943,43 +15943,6 @@
 }
 ,
 {
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "depends": [
-    "Test::META",
-    "JSON::Tiny"
-  ],
-  "description": "Common grammar patterns codified for ease of use",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "Grammar::Common",
-  "perl": "6.c",
-  "provides": {
-    "Grammar::Common": "lib//Grammar/Common.pm6",
-    "Grammar::Common::Expression::Infix": "lib//Grammar/Common/Expression/Infix.pm6",
-    "Grammar::Common::Expression::Infix::Actions": "lib//Grammar/Common/Expression/Infix/Actions.pm6",
-    "Grammar::Common::Expression::Prefix": "lib//Grammar/Common/Expression/Prefix.pm6",
-    "Grammar::Common::Expression::Prefix::Actions": "lib//Grammar/Common/Expression/Prefix/Actions.pm6",
-    "Grammar::Common::Text": "lib/Grammar/Common/Text.pm6"
-  },
-  "source-url": "https://github.com/raku-community-modules/raku-Grammar-Common.git",
-  "support": {
-    "source": "https://github.com/raku-community-modules/raku-Grammar-Common.git"
-  },
-  "tags": [
-    "Grammar",
-    "Utilities",
-    "Utils"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.3.1"
-}
-,
-{
   "authors": [
     "Jonathan Scott Duff <duff@pobox.com>"
   ],
@@ -16193,37 +16156,6 @@
     
   ],
   "version": "1.2"
-}
-,
-{
-  "auth": "github:raku-community-modules",
-  "authors": [
-    "Timothy Totten",
-    "Sizhe Zhao",
-    "Cam Stuart",
-    "Raku community"
-  ],
-  "description": "Parse a mime.types file, and query the results",
-  "license": "Artistic-2.0",
-  "meta-version": "1",
-  "name": "MIME::Types",
-  "perl": "6.*",
-  "provides": {
-    "MIME::Types": "lib/MIME/Types.rakumod"
-  },
-  "resources": [
-    "mime.types"
-  ],
-  "support": {
-    "bugtracker": "https://github.com/raku-community-modules/MIME-Types/issues",
-    "source": "https://github.com/raku-community-modules/MIME-Types.git"
-  },
-  "tags": [
-    "MIME",
-    "type",
-    "extension"
-  ],
-  "version": "0.1"
 }
 ,
 {
@@ -16584,7 +16516,7 @@
   "name": "XML::Entity::HTML",
   "perl": "6.*",
   "provides": {
-    "XML::Entity::XML": "lib/XML/Entity/HTML.pm6"
+    "XML::Entity::HTML": "lib/XML/Entity/HTML.pm6"
   },
   "source-url": "git://github.com/raku-community-modules/XML-Entity-HTML.git",
   "version": "0.1.1"
