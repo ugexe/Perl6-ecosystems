@@ -15967,14 +15967,14 @@
 }
 ,
 {
-  "auth": "github:raku-community-modules",
+  "auth": "github:tony-o",
   "authors": [
     "tony-o"
   ],
   "depends": [
     
   ],
-  "description": "Roles for HTTP::Server so we can have start building out some servers with interchangeable backends",
+  "description": "role for HTTP::Server so we can have start building out some servers with interchangeable backends",
   "meta-version": "0",
   "name": "HTTP::Roles",
   "perl": "6.*",
@@ -16479,25 +16479,6 @@
     "Test"
   ],
   "version": "1.001008"
-}
-,
-{
-  "authors": [
-    "Ingy döt Net <ingy@cpan.org>"
-  ],
-  "depends": [
-    "TestML"
-  ],
-  "description": "YAML Ain’t Markup Language",
-  "license": "Artistic-2.0",
-  "name": "YAML",
-  "perl": "6.*",
-  "provides": {
-    "YAML": "lib/YAML.pm",
-    "YAML::Dumper": "lib/YAML/Dumper.pm"
-  },
-  "source-url": "git://github.com/raku-community-modules/YAML.git",
-  "version": "0.1"
 }
 ,
 {
