@@ -15757,31 +15757,6 @@
 }
 ,
 {
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Helper for showing actual source code locations of core subs and methods",
-  "license": "Artistic-2.0",
-  "name": "CoreHackers::Sourcery",
-  "perl": "6.c",
-  "provides": {
-    "CoreHackers::Sourcery": "lib/CoreHackers/Sourcery.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/CoreHackers-Sourcery.git"
-  },
-  "test-depends": [
-    "Test",
-    "Test::When",
-    "Test::META"
-  ],
-  "version": "2.001006"
-}
-,
-{
   "api": 1,
   "auth": "zef:raku-community-modules",
   "build-depends": [
@@ -16504,22 +16479,6 @@
     "Test"
   ],
   "version": "1.001008"
-}
-,
-{
-  "author": "Timothy Totten",
-  "depends": [
-    "XML"
-  ],
-  "description": "XML::Entity extension for HTML 5 entities.",
-  "license": "Artistic-2.0",
-  "name": "XML::Entity::HTML",
-  "perl": "6.*",
-  "provides": {
-    "XML::Entity::XML": "lib/XML/Entity/HTML.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/XML-Entity-HTML.git",
-  "version": "0.1.1"
 }
 ,
 {
