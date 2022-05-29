@@ -1156,6 +1156,41 @@
     
   ],
   "depends": [
+    "Stats"
+  ],
+  "description": "Outlier identifiers for one dimensional data.",
+  "license": "Artistic-2.0",
+  "name": "Statistics::OutlierIdentifiers",
+  "perl": "6.d",
+  "provides": {
+    "Statistics::OutlierIdentifiers": "lib/Statistics/OutlierIdentifiers.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Statistics-OutlierIdentifiers-0.1.0.tar.gz",
+  "tags": [
+    "data",
+    "outlier",
+    "identifier",
+    "outlier identifier"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "api": "1",
+  "auth": "github:antononcube",
+  "authors": [
+    "Anton Antonov"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     
   ],
   "description": "A package with functions for processing of code chunks in documents of different types (like Markdown, Org-mode, Pod6.)",
