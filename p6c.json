@@ -15962,30 +15962,6 @@
 }
 ,
 {
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    "Term::termios"
-  ],
-  "description": "Use Brainfuck language in your Raku programs",
-  "license": "Artistic-2.0",
-  "name": "Inline::Brainfuck",
-  "perl": "6.c",
-  "provides": {
-    "Inline::Brainfuck": "lib/Inline/Brainfuck.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/Inline-Brainfuck.git"
-  },
-  "test-depends": [
-    "Test",
-    "Test::Output"
-  ],
-  "version": "1.001001"
-}
-,
-{
   "auth": "github:drforr",
   "authors": [
     "Jeffrey Goff <drforr@pobox.com>"
@@ -16044,70 +16020,6 @@
     "Test"
   ],
   "version": "1.001001"
-}
-,
-{
-  "auth": "zef:raku-community-modules",
-  "authors": [
-    "John Spurr"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Implementation of the Porter stemming algorithm",
-  "license": "MIT",
-  "name": "Lingua::EN::Stem::Porter",
-  "perl": "6.c",
-  "provides": {
-    "Lingua::EN::Stem::Porter": "lib/Lingua/EN/Stem/Porter.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/raku-community-modules/Lingua-EN-Stem-Porter.git",
-  "support": {
-    "source": "https://github.com/raku-community-modules/Lingua-EN-Stem-Porter.git"
-  },
-  "tags": [
-    "NLP",
-    "stem",
-    "porter"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "1.2"
-}
-,
-{
-  "authors": [
-    "Zoffix Znet"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Require specific versions of Rakudo",
-  "license": "Artistic-2.0",
-  "name": "RakudoPrereq",
-  "perl": "6.c",
-  "provides": {
-    "RakudoPrereq": "lib/RakudoPrereq.pm6"
-  },
-  "support": {
-    "source": "git://github.com/raku-community-modules/RakudoPrereq.git"
-  },
-  "tags": [
-    "rakudo",
-    "versioning"
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "1.001005"
 }
 ,
 {
