@@ -15942,27 +15942,6 @@
     "tony-o"
   ],
   "depends": [
-    
-  ],
-  "description": "role for HTTP::Server so we can have start building out some servers with interchangeable backends",
-  "meta-version": "0",
-  "name": "HTTP::Roles",
-  "perl": "6.*",
-  "provides": {
-    "HTTP::Request::Role": "lib/HTTP/Request/Role.pm6",
-    "HTTP::Response::Role": "lib/HTTP/Response/Role.pm6",
-    "HTTP::Server::Role": "lib/HTTP/Server/Role.pm6"
-  },
-  "source-url": "git://github.com/raku-community-modules/HTTP-Server.git",
-  "version": "0.2.0"
-}
-,
-{
-  "auth": "github:tony-o",
-  "authors": [
-    "tony-o"
-  ],
-  "depends": [
     "HTTP::Roles"
   ],
   "description": "Asynchronous Base HTTP Server",
@@ -16104,44 +16083,6 @@
 }
 ,
 {
-  "auth": "github:drforr",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Parse Raku from within Raku",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "Perl6::Parser",
-  "perl": "6.c",
-  "provides": {
-    "Perl6::Parser": "lib/Perl6/Parser.pm6",
-    "Perl6::Parser::Factory": "lib/Perl6/Parser/Factory.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/raku-community-modules/Raku-Parser.git",
-  "support": {
-    "source": "https://github.com/raku-community-modules/Raku-Parser"
-  },
-  "tags": [
-    "parse",
-    "parser",
-    "parsing"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.3.0"
-}
-,
-{
   "authors": [
     "Zoffix Znet"
   ],
@@ -16191,27 +16132,6 @@
     "Temp::Path"
   ],
   "version": "1.001004"
-}
-,
-{
-  "authors": [
-    "David Farrell",
-    "Raku community"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Easily search for system users in Unix-based systems",
-  "meta-version": 0,
-  "name": "System::Passwd",
-  "perl": "6.*",
-  "provides": {
-    "System::Passwd": "lib/System/Passwd.pm6",
-    "System::Passwd::User": "lib/System/Passwd/User.pm6"
-  },
-  "raku": "6.*",
-  "source-url": "git://github.com/raku-community-modules/System-Passwd.git",
-  "version": "0.05"
 }
 ,
 {
