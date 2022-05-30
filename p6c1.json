@@ -17887,6 +17887,7 @@
 }
 ,
 {
+  "author": "Filip Sergot",
   "build-depends": [
     
   ],
@@ -17897,9 +17898,13 @@
   "name": "DateTime::Parse",
   "perl": "6.*",
   "provides": {
-    "DateTime::Parse": "lib/DateTime/Parse.pm6"
+    "DateTime::Parse": "lib/DateTime/Parse.rakumod"
   },
   "source-url": "git://github.com/sergot/datetime-parse.git",
+  "support": {
+    "bugtracker": "https://github.com/sergot/datetime-parse/issues",
+    "source": "git://github.com/sergot/datetime-parse.git"
+  },
   "test-depends": [
     "Test"
   ],
