@@ -17964,13 +17964,14 @@
   "test-depends": [
     "URI",
     "IO::Capture::Simple",
-    "Test::Util::ServerPort"
+    "Test::Util::ServerPort",
+    "JSON::Fast"
   ],
   "version": "1.1.51"
 }
 ,
 {
-  "auth": "github:sergot",
+  "author": "github:sergot",
   "depends": [
     "OpenSSL"
   ],
@@ -17978,14 +17979,21 @@
   "name": "IO::Socket::SSL",
   "perl": "6.*",
   "provides": {
-    "IO::Socket::SSL": "lib/IO/Socket/SSL.pm6"
+    "IO::Socket::SSL": "lib/IO/Socket/SSL.rakumod"
   },
   "source-url": "git://github.com/sergot/io-socket-ssl.git",
+  "support": {
+    "bugtracker": "https://github.com/sergot/io-socket-ssl/issues",
+    "source": "git://github.com/sergot/io-socket-ssl.git"
+  },
   "tags": [
     "SSL",
     "Sockets"
   ],
-  "version": "0.0.2"
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.3"
 }
 ,
 {
@@ -18032,6 +18040,9 @@
 ,
 {
   "author": "github:sergot",
+  "build-depends": [
+    
+  ],
   "depends": [
     
   ],
@@ -18039,13 +18050,20 @@
   "name": "Encode",
   "perl": "6.*",
   "provides": {
-    "Encode": "lib/Encode.pm6",
-    "Encode::Latin2": "lib/Encode/Latin2.pm6",
-    "Encode::Windows1251": "lib/Encode/Windows1251.pm6",
-    "Encode::Windows1252": "lib/Encode/Windows1252.pm6"
+    "Encode": "lib/Encode.rakumod",
+    "Encode::Latin2": "lib/Encode/Latin2.rakumod",
+    "Encode::Windows1251": "lib/Encode/Windows1251.rakumod",
+    "Encode::Windows1252": "lib/Encode/Windows1252.rakumod"
   },
   "source-url": "git://github.com/sergot/perl6-encode.git",
-  "version": "0.0.3"
+  "support": {
+    "bugtracker": "https://github.com/sergot/perl6-encode/issues",
+    "source": "git://github.com/sergot/perl6-encode.git"
+  },
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.4"
 }
 ,
 {
