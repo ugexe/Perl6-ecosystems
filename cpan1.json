@@ -1222,6 +1222,42 @@
 }
 ,
 {
+  "auth": "gitlab:uzluisf",
+  "authors": [
+    "Luis F. Uceta"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Text::Wrap:ver<0.0.3+>"
+  ],
+  "description": "A simple Raku module to make it quick and easy to represent tabular data in visually appealing ASCII tables.",
+  "license": "MIT",
+  "name": "Pretty::Table",
+  "perl": "6.c",
+  "provides": {
+    "Pretty::Table": "lib/Pretty/Table.rakumod",
+    "Pretty::Table::Constrains": "lib/Pretty/Table/Constrains.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AN/ANTONOV/Perl6/Pretty-Table-0.0.4.tar.gz",
+  "support": {
+    "bugtracker": "https://gitlab.com/uzluisf/raku-pretty-table/issues"
+  },
+  "tags": [
+    "table",
+    "data"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "api": "1",
   "auth": "github:antononcube",
   "authors": [
