@@ -17813,7 +17813,10 @@
 }
 ,
 {
-  "author": "Filip Sergot",
+  "auth": "github:sergot",
+  "authors": [
+    "Filip Sergot"
+  ],
   "build-depends": [
     
   ],
@@ -17826,6 +17829,7 @@
   "provides": {
     "DateTime::Parse": "lib/DateTime/Parse.rakumod"
   },
+  "raku": "6.*",
   "source-url": "git://github.com/sergot/datetime-parse.git",
   "support": {
     "bugtracker": "https://github.com/sergot/datetime-parse/issues",
@@ -17839,7 +17843,9 @@
 ,
 {
   "auth": "github:sergot",
-  "author": "Filip Sergot",
+  "authors": [
+    "Filip Sergot"
+  ],
   "build-depends": [
     
   ],
@@ -17891,7 +17897,10 @@
 }
 ,
 {
-  "author": "github:sergot",
+  "auth": "github:sergot",
+  "authors": [
+    "Filip Sergot"
+  ],
   "depends": [
     "OpenSSL"
   ],
@@ -17901,6 +17910,7 @@
   "provides": {
     "IO::Socket::SSL": "lib/IO/Socket/SSL.rakumod"
   },
+  "raku": "6.*",
   "source-url": "git://github.com/sergot/io-socket-ssl.git",
   "support": {
     "bugtracker": "https://github.com/sergot/io-socket-ssl/issues",
@@ -17917,7 +17927,10 @@
 }
 ,
 {
-  "author": "Filip Sergot",
+  "auth": "github:sergot",
+  "authors": [
+    "Filip Sergot"
+  ],
   "build-depends": [
     "PathTools",
     "JSON::Fast"
@@ -17964,7 +17977,10 @@
 }
 ,
 {
-  "author": "github:sergot",
+  "auth": "github:sergot",
+  "authors": [
+    "Filip Sergot"
+  ],
   "build-depends": [
     
   ],
@@ -17980,6 +17996,7 @@
     "Encode::Windows1251": "lib/Encode/Windows1251.rakumod",
     "Encode::Windows1252": "lib/Encode/Windows1252.rakumod"
   },
+  "raku": "6.*",
   "source-url": "git://github.com/sergot/perl6-encode.git",
   "support": {
     "bugtracker": "https://github.com/sergot/perl6-encode/issues",
