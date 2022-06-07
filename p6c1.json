@@ -22483,43 +22483,6 @@
 }
 ,
 {
-  "author": "Konrad Borowski <x.fix@o2.pl>",
-  "depends": [
-    "JSON::Tiny"
-  ],
-  "description": "such \"foo\" is \"bar\" wow",
-  "name": "Acme::DSON",
-  "perl": "6.*",
-  "provides": {
-    "Acme::DSON": "lib/Acme/DSON.pm",
-    "Acme::DSON::Actions": "lib/Acme/DSON/Actions.pm",
-    "Acme::DSON::Grammar": "lib/Acme/DSON/Grammar.pm"
-  },
-  "source-url": "git://github.com/xfix/Acme-DSON.git",
-  "version": "0.2.1"
-}
-,
-{
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "PHP security. Now in Perl 6.",
-  "name": "Acme::Addslashes",
-  "perl": "6.*",
-  "provides": {
-    "Acme::Addslashes": "lib/Acme/Addslashes.pm"
-  },
-  "source-url": "git://github.com/xfix/perl6-Acme-Addslashes.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.1.2"
-}
-,
-{
   "depends": [
     
   ],
