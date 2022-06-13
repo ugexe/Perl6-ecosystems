@@ -76427,45 +76427,6 @@
 }
 ,
 {
-  "auth": "github:tbrowder",
-  "author": "github:tbrowder",
-  "authors": [
-    "Tom Browder <tom.browder@gmail.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Provides an implementation of an AVL tree.",
-  "license": "Artistic-2.0",
-  "name": "AVL-Tree",
-  "perl": "6.*",
-  "provides": {
-    "AVL-Tree": "lib/AVL-Tree.pm6"
-  },
-  "resources": [
-    "demo-avl-tree.p6"
-  ],
-  "source-type": "git",
-  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/AVL-Tree-0.0.1.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/tbrowder/AVL-Tree/issues"
-  },
-  "tags": [
-    "tree",
-    "BST",
-    "set",
-    "AVL"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.0.1"
-}
-,
-{
   "auth": "github:perlpilot",
   "authors": [
     "Jonathan Scott Duff <duff@pobox.com>",
@@ -76845,47 +76806,6 @@
   "auth": "github:tbrowder",
   "author": "github:tbrowder",
   "authors": [
-    "Tom Browder <tom.browder@gmail.com> (translator Perl 5 to Perl 6, current maintainer)",
-    "Jim Gibson (CPAN Perl 5 author, v1.12)"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Longitude and latitude calculations using an ellipsoid model.",
-  "license": "Artistic-2.0",
-  "name": "Geo::Ellipsoid",
-  "perl": "6.c",
-  "provides": {
-    "Geo::Ellipsoid": "lib/Geo/Ellipsoid.pm6",
-    "Geo::Ellipsoid::GenFuncs": "lib/Geo/Ellipsoid/GenFuncs.pm6",
-    "Geo::Ellipsoid::Utils": "lib/Geo/Ellipsoid/Utils.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-type": "git",
-  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Geo-Ellipsoid-Perl6-1.0.0.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/tbrowder/Geo-Ellipsoid-Perl6/issues"
-  },
-  "tags": [
-    "geo",
-    "position",
-    "CPAN5"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "1.0.0"
-}
-,
-{
-  "auth": "github:tbrowder",
-  "author": "github:tbrowder",
-  "authors": [
     "Tom Browder <tom.browder@gmail.com>"
   ],
   "depends": [
@@ -77083,44 +77003,6 @@
     
   ],
   "version": "0.0.5"
-}
-,
-{
-  "api": "1",
-  "auth": "tbrowder:CPAN",
-  "authors": [
-    "Tom Browder <tom.browder@gmail.com> [since 2020-02-14]",
-    "Jonathan Scott Duff <duff@pobox.com> [deceased]"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Useful trigonometric routines",
-  "license": "Artistic-2.0",
-  "name": "Math::Trig",
-  "perl": "6.*",
-  "provides": {
-    "Math::Trig": "lib/Math/Trig.rakumod"
-  },
-  "repo-type": "git",
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/Math-Trig-0.5.0.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/tbrowder/Math-Trig/issues"
-  },
-  "tags": [
-    
-  ],
-  "test-depends": [
-    "Test",
-    "Test::META"
-  ],
-  "version": "0.5.0"
 }
 ,
 {
