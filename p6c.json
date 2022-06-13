@@ -8082,7 +8082,7 @@
   ],
   "depends": [
     "Template::Mustache",
-    "Cro::WebApp::Template::Repository::Build",
+    "Cro::WebApp::Template::Repository::Hash",
     "Cro::WebApp",
     "URI",
     "LibCurl",
@@ -8118,7 +8118,7 @@
     "Camelia.svg",
     "favicon.ico",
     "camelia-ico.bin",
-    "closure-temp.raku",
+    "html-rakuclosure.raku",
     "extra-test.raku",
     "highlights/highlight-filename-from-stdin.coffee",
     "highlights/package.json"
@@ -8133,7 +8133,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "3.7.3"
+  "version": "3.7.4"
 }
 ,
 {
