@@ -18283,6 +18283,41 @@
 }
 ,
 {
+  "auth": "github:shuppet",
+  "authors": [
+    "Kane 'kawaii' Valentine <kane@cute.im>"
+  ],
+  "depends": [
+    "LibUUID",
+    "Red"
+  ],
+  "description": "Raku implementation of a double-entry accounting system.",
+  "license": "BSD-3-Clause",
+  "name": "Mint",
+  "perl": "6",
+  "provides": {
+    "Mint": "lib/Mint.rakumod",
+    "Mint::Account": "lib/Mint.rakumod",
+    "Mint::Transaction": "lib/Mint.rakumod",
+    "X::Mint::Account::AlreadyExists": "lib/Mint/Exception.rakumod",
+    "X::Mint::Account::InsufficientBalance": "lib/Mint/Exception.rakumod",
+    "X::Mint::Account::IsFrozen": "lib/Mint/Exception.rakumod"
+  },
+  "raku": "*",
+  "source-url": "https://github.com/shuppet/raku-mint.git",
+  "support": {
+    "source": "https://github.com/shuppet/raku-mint/issues"
+  },
+  "tags": [
+    "mint",
+    "finance",
+    "accounting",
+    "simulation"
+  ],
+  "version": "0.1"
+}
+,
+{
   "author": "Sir Robert Burbridge",
   "depends": [
     
