@@ -11153,42 +11153,6 @@
 }
 ,
 {
-  "auth": "zef:jnthn",
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Libarchive",
-    "LibXML:ver<0.6.0+>"
-  ],
-  "description": "Work with Excel (XLSX) spreadsheets.",
-  "license": "Artistic-2.0",
-  "name": "Spreadsheet::XLSX",
-  "perl": "6.*",
-  "provides": {
-    "Spreadsheet::XLSX": "lib/Spreadsheet/XLSX.rakumod",
-    "Spreadsheet::XLSX::Cell": "lib/Spreadsheet/XLSX/Cell.rakumod",
-    "Spreadsheet::XLSX::CellStyle": "lib/Spreadsheet/XLSX/CellStyle.rakumod",
-    "Spreadsheet::XLSX::ContentTypes": "lib/Spreadsheet/XLSX/ContentTypes.rakumod",
-    "Spreadsheet::XLSX::Exceptions": "lib/Spreadsheet/XLSX/Exceptions.rakumod",
-    "Spreadsheet::XLSX::Relationships": "lib/Spreadsheet/XLSX/Relationships.rakumod",
-    "Spreadsheet::XLSX::Root": "lib/Spreadsheet/XLSX/Root.rakumod",
-    "Spreadsheet::XLSX::SharedStrings": "lib/Spreadsheet/XLSX/SharedStrings.rakumod",
-    "Spreadsheet::XLSX::Styles": "lib/Spreadsheet/XLSX/Styles.rakumod",
-    "Spreadsheet::XLSX::Workbook": "lib/Spreadsheet/XLSX/Workbook.rakumod",
-    "Spreadsheet::XLSX::Worksheet": "lib/Spreadsheet/XLSX/Worksheet.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/jnthn/spreadsheet-xlsx.git",
-  "test-depends": [
-    
-  ],
-  "version": "0.2.4"
-}
-,
-{
   "authors": [
     "Jonathan Worthington <jnthn@jnthn.net>"
   ],
