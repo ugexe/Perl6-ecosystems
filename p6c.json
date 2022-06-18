@@ -8562,6 +8562,28 @@
 ,
 {
   "authors": [
+    "Martin Berends",
+    "Wenzel P. P. Peppmeyer"
+  ],
+  "depends": [
+    "Test::META"
+  ],
+  "description": "Simple webserver module, with PSGI support",
+  "name": "HTTP::Server::Simple",
+  "perl": "6.*",
+  "provides": {
+    "HTTP::Server::Simple": "lib/HTTP/Server/Simple.pm6",
+    "HTTP::Server::Simple::PSGI": "lib/HTTP/Server/Simple/PSGI.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/gfldex/http-server-simple.git",
+  "version": "0.1.2"
+}
+,
+{
+  "authors": [
     "Wenzel P. P. Peppmeyer"
   ],
   "build-depends": [
@@ -13515,28 +13537,6 @@
     "Math"
   ],
   "version": "0.0.6"
-}
-,
-{
-  "author": "Matt Oates",
-  "depends": [
-    
-  ],
-  "description": "Get an emotional score for a passage of text based on its word use.",
-  "license": "Artistic-2.0",
-  "name": "Text::Emotion",
-  "perl": "6.*",
-  "provides": {
-    "Text::Emotion::Scorer": "lib/Text/Emotion/Scorer.pm"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/MattOates/Text--Emotion.git",
-  "tags": [
-    "Text",
-    "Sentiment",
-    "NLP"
-  ],
-  "version": "0.0.5"
 }
 ,
 {
@@ -19147,6 +19147,24 @@
 }
 ,
 {
+  "author": "Aurelio Sanabria (Sufrostico) <sufrostico at gmail dot com>",
+  "depends": [
+    
+  ],
+  "description": "Perl 6 binding to the 'Snowball compiler and stemming algorithms' http://snowballstem.org/",
+  "name": "Perl6 Snowball Binding",
+  "perl": "6.*",
+  "provides": {
+    "Lingua::Stem::Snowball": "lib/Lingua/Stem/Snowball.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/sufrostico/perl6-snowball.git",
+  "version": "0.3"
+}
+,
+{
   "authors": [
     "Aurelio Sanabria (Sufrostico) <sufrostico at gmail dot com>"
   ],
@@ -20251,6 +20269,32 @@
 ,
 {
   "authors": [
+    "Steve Schulze (thundergnat)"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Various number-string conversion utilities",
+  "license": "Artistic-2.0",
+  "name": "Lingua::EN::Numbers",
+  "perl": "6.*",
+  "provides": {
+    "Lingua::EN::Numbers": "lib/Lingua/EN/Numbers.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/Lingua-EN-Numbers.git",
+  "tags": [
+    "Number",
+    "Convert",
+    "Cardinal",
+    "Ordinal",
+    "Commas"
+  ],
+  "version": "2.8.2"
+}
+,
+{
+  "authors": [
     "thundergnat"
   ],
   "build-depends": [
@@ -21260,32 +21304,6 @@
     "HTTP::Tinyish"
   ],
   "version": "0.0.2"
-}
-,
-{
-  "authors": [
-    "Tokuhiro Matsuno"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Data driven development for Perl6",
-  "name": "Test::Base",
-  "perl": "v6",
-  "provides": {
-    "Test::Base": "lib/Test/Base.pm6",
-    "Test::Base::Actions": "lib/Test/Base/Actions.pm",
-    "Test::Base::Block": "lib/Test/Base/Block.pm",
-    "Test::Base::Grammar": "lib/Test/Base/Grammar.pm"
-  },
-  "source-url": "git://github.com/tokuhirom/p6-Test-Base.git",
-  "test-depends": [
-    
-  ],
-  "version": "*"
 }
 ,
 {
