@@ -8562,28 +8562,6 @@
 ,
 {
   "authors": [
-    "Martin Berends",
-    "Wenzel P. P. Peppmeyer"
-  ],
-  "depends": [
-    "Test::META"
-  ],
-  "description": "Simple webserver module, with PSGI support",
-  "name": "HTTP::Server::Simple",
-  "perl": "6.*",
-  "provides": {
-    "HTTP::Server::Simple": "lib/HTTP/Server/Simple.pm6",
-    "HTTP::Server::Simple::PSGI": "lib/HTTP/Server/Simple/PSGI.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/gfldex/http-server-simple.git",
-  "version": "0.1.2"
-}
-,
-{
-  "authors": [
     "Wenzel P. P. Peppmeyer"
   ],
   "build-depends": [
@@ -11187,20 +11165,6 @@
     "Net::Pcap::Linktype": "lib/Net/Pcap/Linktype.pm6"
   },
   "source-url": "git://github.com/jpve/perl6-net-pcap.git",
-  "version": "v0.0.1"
-}
-,
-{
-  "author": "Jorn van Engelen",
-  "depends": [
-    
-  ],
-  "description": "Strip Pod annotation from Perl6 code",
-  "name": "Pod::Strip",
-  "provides": {
-    "Pod::Strip": "lib/Pod/Strip.pm6"
-  },
-  "source-url": "git://github.com/jpve/perl6-pod-strip.git",
   "version": "v0.0.1"
 }
 ,
