@@ -11191,20 +11191,6 @@
 }
 ,
 {
-  "author": "Jorn van Engelen",
-  "depends": [
-    
-  ],
-  "description": "Strip Pod annotation from Perl6 code",
-  "name": "Pod::Strip",
-  "provides": {
-    "Pod::Strip": "lib/Pod/Strip.pm6"
-  },
-  "source-url": "git://github.com/jpve/perl6-pod-strip.git",
-  "version": "v0.0.1"
-}
-,
-{
   "authors": [
     "Julien Simonet"
   ],
@@ -13537,6 +13523,28 @@
     "Math"
   ],
   "version": "0.0.6"
+}
+,
+{
+  "author": "Matt Oates",
+  "depends": [
+    
+  ],
+  "description": "Get an emotional score for a passage of text based on its word use.",
+  "license": "Artistic-2.0",
+  "name": "Text::Emotion",
+  "perl": "6.*",
+  "provides": {
+    "Text::Emotion::Scorer": "lib/Text/Emotion/Scorer.pm"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/MattOates/Text--Emotion.git",
+  "tags": [
+    "Text",
+    "Sentiment",
+    "NLP"
+  ],
+  "version": "0.0.5"
 }
 ,
 {
@@ -21304,6 +21312,32 @@
     "HTTP::Tinyish"
   ],
   "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "Tokuhiro Matsuno"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "Data driven development for Perl6",
+  "name": "Test::Base",
+  "perl": "v6",
+  "provides": {
+    "Test::Base": "lib/Test/Base.pm6",
+    "Test::Base::Actions": "lib/Test/Base/Actions.pm",
+    "Test::Base::Block": "lib/Test/Base/Block.pm",
+    "Test::Base::Grammar": "lib/Test/Base/Grammar.pm"
+  },
+  "source-url": "git://github.com/tokuhirom/p6-Test-Base.git",
+  "test-depends": [
+    
+  ],
+  "version": "*"
 }
 ,
 {
