@@ -19147,24 +19147,6 @@
 }
 ,
 {
-  "author": "Aurelio Sanabria (Sufrostico) <sufrostico at gmail dot com>",
-  "depends": [
-    
-  ],
-  "description": "Perl 6 binding to the 'Snowball compiler and stemming algorithms' http://snowballstem.org/",
-  "name": "Perl6 Snowball Binding",
-  "perl": "6.*",
-  "provides": {
-    "Lingua::Stem::Snowball": "lib/Lingua/Stem/Snowball.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/sufrostico/perl6-snowball.git",
-  "version": "0.3"
-}
-,
-{
   "authors": [
     "Aurelio Sanabria (Sufrostico) <sufrostico at gmail dot com>"
   ],
@@ -20265,32 +20247,6 @@
     
   ],
   "version": "0.0.3"
-}
-,
-{
-  "authors": [
-    "Steve Schulze (thundergnat)"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Various number-string conversion utilities",
-  "license": "Artistic-2.0",
-  "name": "Lingua::EN::Numbers",
-  "perl": "6.*",
-  "provides": {
-    "Lingua::EN::Numbers": "lib/Lingua/EN/Numbers.pm6"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/thundergnat/Lingua-EN-Numbers.git",
-  "tags": [
-    "Number",
-    "Convert",
-    "Cardinal",
-    "Ordinal",
-    "Commas"
-  ],
-  "version": "2.8.2"
 }
 ,
 {
