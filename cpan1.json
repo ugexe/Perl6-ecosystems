@@ -92693,42 +92693,6 @@
     
   ],
   "depends": [
-    "CSS::Grammar:ver<0.3.5+>",
-    "Color::Names"
-  ],
-  "description": "CSS Property definition grammar and generation tools",
-  "license": "Artistic-2.0",
-  "name": "CSS::Specification",
-  "perl": "6.c",
-  "provides": {
-    "CSS::Specification": "lib/CSS/Specification.rakumod",
-    "CSS::Specification::Actions": "lib/CSS/Specification/Actions.rakumod",
-    "CSS::Specification::Build": "lib/CSS/Specification/Build.rakumod",
-    "CSS::Specification::Defs": "lib/CSS/Specification/Defs.rakumod",
-    "CSS::Specification::Defs::Actions": "lib/CSS/Specification/Defs/Actions.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Specification-0.4.10.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.4.10"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
     "CSS::Grammar:ver<0.3.9+>",
     "Color::Names"
   ],
@@ -92755,41 +92719,6 @@
     
   ],
   "version": "0.4.11"
-}
-,
-{
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Grammar:ver<0.3.5+>",
-    "Color::Names"
-  ],
-  "description": "CSS Property definition grammar and generation tools",
-  "license": "Artistic-2.0",
-  "name": "CSS::Specification",
-  "perl": "6.c",
-  "provides": {
-    "CSS::Specification": "lib/CSS/Specification.rakumod",
-    "CSS::Specification::Actions": "lib/CSS/Specification/Actions.rakumod",
-    "CSS::Specification::Build": "lib/CSS/Specification/Build.rakumod",
-    "CSS::Specification::Terms": "lib/CSS/Specification/Terms.rakumod",
-    "CSS::Specification::Terms::Actions": "lib/CSS/Specification/Terms/Actions.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Specification-0.4.9.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.4.9"
 }
 ,
 {
@@ -93043,72 +92972,6 @@
     
   ],
   "version": "0.0.23"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Grammar:ver<0.3.5+>",
-    "Color::Names",
-    "JSON::Fast"
-  ],
-  "description": "AST Serializer; compatible with CSS::Grammar and CSS::Module",
-  "license": "Artistic-2.0",
-  "name": "CSS::Writer",
-  "perl": "6.*",
-  "provides": {
-    "CSS::Writer": "lib/CSS/Writer.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Writer-0.2.6.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.2.6"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "CSS::Grammar:ver<0.3.5+>",
-    "Color::Names",
-    "JSON::Fast"
-  ],
-  "description": "AST Serializer; compatible with CSS::Grammar and CSS::Module",
-  "license": "Artistic-2.0",
-  "name": "CSS::Writer",
-  "perl": "6.*",
-  "provides": {
-    "CSS::Writer": "lib/CSS/Writer.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Writer-0.2.7.tar.gz",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.2.7"
 }
 ,
 {
