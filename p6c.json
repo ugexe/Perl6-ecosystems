@@ -11191,6 +11191,20 @@
 }
 ,
 {
+  "author": "Jorn van Engelen",
+  "depends": [
+    
+  ],
+  "description": "Strip Pod annotation from Perl6 code",
+  "name": "Pod::Strip",
+  "provides": {
+    "Pod::Strip": "lib/Pod/Strip.pm6"
+  },
+  "source-url": "git://github.com/jpve/perl6-pod-strip.git",
+  "version": "v0.0.1"
+}
+,
+{
   "authors": [
     "Julien Simonet"
   ],
@@ -13053,22 +13067,43 @@
 }
 ,
 {
+  "auth": "github:MadcapJake",
+  "authors": [
+    "Jake Russo"
+  ],
+  "build-depends": [
+    
+  ],
   "depends": [
     
   ],
   "description": "Test run refactored code against legacy code",
   "license": "Artistic-2.0",
   "name": "Test::Lab",
+  "perl": "6.c",
   "provides": {
-    "Test::Lab": "lib/Test/Lab.pm6",
-    "Test::Lab::Errors": "lib/Test/Lab/Errors.pm6",
-    "Test::Lab::Experiment": "lib/Test/Lab/Experiment.pm6",
-    "Test::Lab::Observation": "lib/Test/Lab/Observation.pm6",
-    "Test::Lab::Result": "lib/Test/Lab/Result.pm6"
+    "Test::Lab": "lib/Test/Lab.rakumod",
+    "Test::Lab::Errors": "lib/Test/Lab/Errors.rakumod",
+    "Test::Lab::Experiment": "lib/Test/Lab/Experiment.rakumod",
+    "Test::Lab::Observation": "lib/Test/Lab/Observation.rakumod",
+    "Test::Lab::Result": "lib/Test/Lab/Result.rakumod"
   },
+  "resources": [
+    
+  ],
   "source-type": "git",
   "source-url": "git://github.com/MadcapJake/Test-Lab.git",
-  "version": "1.0.0"
+  "tags": [
+    "Test",
+    "Performance",
+    "Experiment",
+    "Measurement",
+    "Lab"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "1.0.1"
 }
 ,
 {
