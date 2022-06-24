@@ -92525,52 +92525,6 @@
 }
 ,
 {
-  "depends": [
-    "CSS::Grammar:ver(v0.3.3+)",
-    "CSS::Module::CSS3::Selectors",
-    "XML"
-  ],
-  "description": "CSS Selector to XPath converter",
-  "license": "Artistic-2.0",
-  "name": "CSS::Selector::To::XPath",
-  "perl": "6.c",
-  "provides": {
-    "CSS::Selector::To::XPath": "lib/CSS/Selector/To/XPath.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Selector-To-XPath-0.0.5.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath",
-    "css"
-  ],
-  "version": "0.0.5"
-}
-,
-{
-  "depends": [
-    "CSS::Grammar:ver(v0.3.3+)",
-    "CSS::Module::CSS3::Selectors",
-    "XML"
-  ],
-  "description": "CSS Selector to XPath converter",
-  "license": "Artistic-2.0",
-  "name": "CSS::Selector::To::XPath",
-  "perl": "6.c",
-  "provides": {
-    "CSS::Selector::To::XPath": "lib/CSS/Selector/To/XPath.pm6"
-  },
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/CSS-Selector-To-XPath-0.0.6.tar.gz",
-  "tags": [
-    "xml",
-    "html",
-    "xpath",
-    "css"
-  ],
-  "version": "0.0.6"
-}
-,
-{
   "auth": "cpan:WARRINGD",
   "authors": [
     "David Warring"
