@@ -13101,10 +13101,10 @@
   "description": "Test run refactored code against legacy code",
   "license": "Artistic-2.0",
   "name": "Test::Lab",
-  "perl": "6.c",
+  "perl": "6.d",
   "provides": {
     "Test::Lab": "lib/Test/Lab.rakumod",
-    "Test::Lab::Errors": "lib/Test/Lab/Errors.rakumod",
+    "Test::Lab::Error": "lib/Test/Lab/Error.rakumod",
     "Test::Lab::Experiment": "lib/Test/Lab/Experiment.rakumod",
     "Test::Lab::Observation": "lib/Test/Lab/Observation.rakumod",
     "Test::Lab::Result": "lib/Test/Lab/Result.rakumod"
@@ -13124,7 +13124,7 @@
   "test-depends": [
     "Test::META"
   ],
-  "version": "1.1.1"
+  "version": "1.2.0"
 }
 ,
 {
