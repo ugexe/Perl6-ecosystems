@@ -93889,51 +93889,6 @@
     "David Warring"
   ],
   "build-depends": [
-    
-  ],
-  "depends": [
-    "JSON::Fast"
-  ],
-  "description": "Raku grammars for parsing PDF Content Streams and File Structure",
-  "license": "Artistic-2.0",
-  "name": "PDF::Grammar",
-  "perl": "6.*",
-  "provides": {
-    "PDF::Grammar": "lib/PDF/Grammar.rakumod",
-    "PDF::Grammar::Actions": "lib/PDF/Grammar/Actions.rakumod",
-    "PDF::Grammar::COS": "lib/PDF/Grammar/COS.rakumod",
-    "PDF::Grammar::COS::Actions": "lib/PDF/Grammar/COS/Actions.rakumod",
-    "PDF::Grammar::Content": "lib/PDF/Grammar/Content.rakumod",
-    "PDF::Grammar::Content::Actions": "lib/PDF/Grammar/Content/Actions.rakumod",
-    "PDF::Grammar::Content::Fast": "lib/PDF/Grammar/Content/Fast.rakumod",
-    "PDF::Grammar::Doc": "lib/PDF/Grammar/Doc.rakumod",
-    "PDF::Grammar::FDF": "lib/PDF/Grammar/FDF.rakumod",
-    "PDF::Grammar::FDF::Actions": "lib/PDF/Grammar/FDF/Actions.rakumod",
-    "PDF::Grammar::Function": "lib/PDF/Grammar/Function.rakumod",
-    "PDF::Grammar::Function::Actions": "lib/PDF/Grammar/Function/Actions.rakumod",
-    "PDF::Grammar::PDF": "lib/PDF/Grammar/PDF.rakumod",
-    "PDF::Grammar::PDF::Actions": "lib/PDF/Grammar/PDF/Actions.rakumod",
-    "PDF::Grammar::Test": "lib/PDF/Grammar/Test.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/W/WA/WARRINGD/Perl6/PDF-Grammar-0.2.6.tar.gz",
-  "tags": [
-    "pdf"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.2.6"
-}
-,
-{
-  "auth": "cpan:WARRINGD",
-  "authors": [
-    "David Warring"
-  ],
-  "build-depends": [
     "JSON::Fast",
     "LibXML",
     "Method::Also",
