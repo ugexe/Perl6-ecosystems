@@ -16297,7 +16297,12 @@
 }
 ,
 {
-  "author": "Jonathan Scott Duff <duff@pobox.com>",
+  "auth": "zef:raku-community-modules",
+  "authors": [
+    "Jonathan Scott Duff <duff@pobox.com>",
+    "Alex Daniel",
+    "the Raku Community"
+  ],
   "depends": [
     
   ],
@@ -16316,7 +16321,7 @@
   "test-depends": [
     "File::Temp"
   ],
-  "version": "0.1.0"
+  "version": "0.1.2"
 }
 ,
 {
