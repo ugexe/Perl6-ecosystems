@@ -16267,34 +16267,6 @@
 }
 ,
 {
-  "auth": "zef:raku-community-modules",
-  "authors": [
-    "Jonathan Scott Duff <duff@pobox.com>",
-    "Alex Daniel",
-    "the Raku Community"
-  ],
-  "depends": [
-    
-  ],
-  "description": "A make-a-like implemented in Raku",
-  "license": "Artistic-2.0",
-  "name": "ake",
-  "perl": "6.c",
-  "provides": {
-    "Ake": "lib/Ake.rakumod",
-    "Ake::Task": "lib/Ake/Task.rakumod",
-    "Ake::Task::IO": "lib/Ake/Task/IO.rakumod",
-    "Ake::TaskStore": "lib/Ake/TaskStore.rakumod",
-    "Sake": "lib/Sake.rakumod"
-  },
-  "source-url": "git://github.com/Raku/ake.git",
-  "test-depends": [
-    "File::Temp"
-  ],
-  "version": "0.1.2"
-}
-,
-{
   "authors": [
     "Aleks-Daniel Jakimenko-Aleksejev <alex.jakimenko@gmail.com>"
   ],
