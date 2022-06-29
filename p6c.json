@@ -8019,10 +8019,10 @@
   "description": "GUI to generate md and html from POD6 in a pm6 file",
   "license": "Artistic-2.0",
   "name": "raku-pod-extraction",
-  "perl": "6.*",
+  "perl": "6.d",
   "provides": {
     "Extractor": "bin/Extractor",
-    "PodExtraction": "lib/PodExtraction.pm6"
+    "PodExtraction": "lib/PodExtraction.rakumod"
   },
   "resources": [
     
@@ -8033,7 +8033,7 @@
     "Test",
     "Test::META"
   ],
-  "version": "0.2.2"
+  "version": "0.2.3"
 }
 ,
 {
