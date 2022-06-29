@@ -2012,6 +2012,37 @@
 }
 ,
 {
+  "auth": "cpan:AVUSEROW",
+  "authors": [
+    "Adrian Kreher"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast"
+  ],
+  "description": "Control Snapcast audio players",
+  "license": "Artistic-2.0",
+  "name": "Net::Snapcast",
+  "perl": "6.d",
+  "provides": {
+    "Net::Snapcast": "lib/Net/Snapcast.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AV/AVUSEROW/Perl6/Net-Snapcast-0.0.2.tar.gz",
+  "tags": [
+    "audio"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.2"
+}
+,
+{
   "auth": "github:azawawi",
   "authors": [
     "Ahmad M. Zawawi"
