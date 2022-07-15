@@ -10873,25 +10873,28 @@
 }
 ,
 {
+  "auth": "zef:jnthn",
   "authors": [
     "Jonathan Worthington"
+  ],
+  "build-depends": [
+    
   ],
   "depends": [
     
   ],
   "description": "Implementation of RFC 7541 HPACK: Header Compression for HTTP/2",
+  "license": "Artistic-2.0",
   "name": "HTTP::HPACK",
   "perl": "6.c",
   "provides": {
-    "HTTP::HPACK": "lib/HTTP/HPACK.pm6"
+    "HTTP::HPACK": "lib/HTTP/HPACK.rakumod"
   },
-  "support": {
-    "source": "git://github.com/jnthn/p6-http-hpack.git"
-  },
+  "source-url": "https://github.com/jnthn/raku-http-hpack.git",
   "test-depends": [
-    "Test"
+    
   ],
-  "version": "0.9.3"
+  "version": "1.0.0"
 }
 ,
 {
