@@ -7786,44 +7786,6 @@
 {
   "auth": "github:finanalyst",
   "authors": [
-    "Richard Hainsworth, aka finanalyst"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Raku::Pod::Render",
-    "Pod::From::Cache",
-    "Terminal::Spinners",
-    "RakuConfig"
-  ],
-  "description": "Collects a content in Pod6 (aka Rakudoc) files and creates output based on configuration",
-  "license": "Artistic-2.0",
-  "name": "Collection",
-  "perl": "6.d",
-  "provides": {
-    "Collection": "lib/Collection.pm6",
-    "X::Collection": "lib/Collection/Exceptions.pm6"
-  },
-  "resources": [
-    "min-templates.raku"
-  ],
-  "source-type": "git",
-  "source-url": "git://github.com/finanalyst/collection.git",
-  "support": {
-    "bugtracker": "https://github.com/finanalyst/collection/issues",
-    "email": "richard@hainsworth.wales",
-    "source": "https://github.com/finanalyst/collection.git"
-  },
-  "test-depends": [
-    
-  ],
-  "version": "0.5.0"
-}
-,
-{
-  "auth": "github:finanalyst",
-  "authors": [
     "Richard Hainsworth"
   ],
   "build-depends": [
