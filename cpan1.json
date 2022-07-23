@@ -54095,6 +54095,46 @@
     
   ],
   "depends": [
+    "Gnome::N"
+  ],
+  "description": "Raku - Gnome Glib Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Glib",
+  "perl": "6.d",
+  "provides": {
+    "Gnome::Glib::Error": "lib/Gnome/Glib/Error.pm6",
+    "Gnome::Glib::List": "lib/Gnome/Glib/List.pm6",
+    "Gnome::Glib::MainContext": "lib/Gnome/Glib/MainContext.pm6",
+    "Gnome::Glib::MainLoop": "lib/Gnome/Glib/MainLoop.pm6",
+    "Gnome::Glib::Quark": "lib/Gnome/Glib/Quark.pm6",
+    "Gnome::Glib::SList": "lib/Gnome/Glib/SList.pm6",
+    "Gnome::Glib::Source": "lib/Gnome/Glib/Source.pm6",
+    "Gnome::Glib::Variant": "lib/Gnome/Glib/Variant.pm6",
+    "Gnome::Glib::VariantDict": "lib/Gnome/Glib/VariantDict.pm6",
+    "Gnome::Glib::VariantType": "lib/Gnome/Glib/VariantType.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-glib-0.20.4.tar.gz",
+  "tags": [
+    "gnome",
+    "glib"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.20.4"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Gnome::N",
     "Gnome::Glib"
   ],
@@ -54202,6 +54242,45 @@
     
   ],
   "version": "0.19.7"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Gnome::N",
+    "Gnome::Glib"
+  ],
+  "description": "Raku - Gnome GObject Interface, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::GObject",
+  "perl": "6",
+  "provides": {
+    "Gnome::GObject::Boxed": "lib/Gnome/GObject/Boxed.pm6",
+    "Gnome::GObject::Closure": "lib/Gnome/GObject/Closure.pm6",
+    "Gnome::GObject::InitiallyUnowned": "lib/Gnome/GObject/InitiallyUnowned.pm6",
+    "Gnome::GObject::Object": "lib/Gnome/GObject/Object.pm6",
+    "Gnome::GObject::Signal": "lib/Gnome/GObject/Signal.pm6",
+    "Gnome::GObject::Type": "lib/Gnome/GObject/Type.pm6",
+    "Gnome::GObject::Value": "lib/Gnome/GObject/Value.pm6"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-gobject-0.19.8.tar.gz",
+  "tags": [
+    "gnome",
+    "glib",
+    "gobject"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.19.8"
 }
 ,
 {
