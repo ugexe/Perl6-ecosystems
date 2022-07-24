@@ -81014,6 +81014,46 @@
     "titsuki"
   ],
   "build-depends": [
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
+    "Algorithm::LibSVM::CustomBuilder"
+  ],
+  "builder": "Algorithm::LibSVM::CustomBuilder",
+  "depends": [
+    
+  ],
+  "description": "A Raku bindings for libsvm",
+  "license": "MIT",
+  "name": "Algorithm::LibSVM",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::LibSVM": "lib/Algorithm/LibSVM.pm6",
+    "Algorithm::LibSVM::Actions": "lib/Algorithm/LibSVM/Actions.pm6",
+    "Algorithm::LibSVM::CustomBuilder": "lib/Algorithm/LibSVM/CustomBuilder.pm6",
+    "Algorithm::LibSVM::Grammar": "lib/Algorithm/LibSVM/Grammar.pm6",
+    "Algorithm::LibSVM::Model": "lib/Algorithm/LibSVM/Model.pm6",
+    "Algorithm::LibSVM::Node": "lib/Algorithm/LibSVM/Node.pm6",
+    "Algorithm::LibSVM::Parameter": "lib/Algorithm/LibSVM/Parameter.pm6",
+    "Algorithm::LibSVM::Problem": "lib/Algorithm/LibSVM/Problem.pm6"
+  },
+  "resources": [
+    "libraries/svm"
+  ],
+  "source-url": "http://www.cpan.org/authors/id/T/TI/TITSUKI/Perl6/Algorithm-LibSVM-0.0.16.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.16"
+}
+,
+{
+  "authors": [
+    "titsuki"
+  ],
+  "build-depends": [
     "LibraryMake"
   ],
   "depends": [
