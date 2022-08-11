@@ -2064,7 +2064,7 @@
 }
 ,
 {
-  "auth": "github:alabamenhu",
+  "auth": "git:alabamenhu",
   "authors": [
     "Matthew Stephen STUCKWISCH <mateu@softastur.org>"
   ],
@@ -2078,7 +2078,6 @@
   "license": "CC0-1.0",
   "meta-version": "0",
   "name": "Timezones::ZoneInfo",
-  "perl": "6.*",
   "provides": {
     "CX::Warn::Timezones::UnknownID": "lib/CX/Warn/Timezones/UnknownID.rakumod",
     "Timezones::ZoneInfo": "lib/Timezones/ZoneInfo.rakumod",
@@ -2092,7 +2091,6 @@
   },
   "raku": "6.*",
   "resources": [
-    "links",
     "TZif/Indian/Mauritius",
     "TZif/Indian/Chagos",
     "TZif/Indian/Mayotte",
@@ -2486,6 +2484,7 @@
     "TZif/Europe/Astrakhan",
     "TZif/Europe/Simferopol",
     "TZif/Europe/Volgograd",
+    "TZif/Europe/Kyiv",
     "TZif/Europe/Isle_of_Man",
     "TZif/Europe/London",
     "TZif/Europe/Riga",
@@ -2565,7 +2564,8 @@
     "TZif/Africa/Djibouti",
     "TZif/Africa/Freetown",
     "TZif/Factory",
-    "TZif/HST"
+    "TZif/HST",
+    "links"
   ],
   "source-url": "git://github.com/alabamenhu/TimezonesZoneInfo.git",
   "support": {
@@ -2580,7 +2580,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "0.2.1"
+  "version": "0.2.2"
 }
 ,
 {
