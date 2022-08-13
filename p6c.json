@@ -7776,7 +7776,7 @@
 }
 ,
 {
-  "auth": "github:finanalyst",
+  "auth": "zef:finanalyst",
   "authors": [
     "Richard Hainsworth"
   ],
@@ -7793,8 +7793,7 @@
   "name": "Collection-Raku-Documentation",
   "perl": "6.d",
   "provides": {
-    "Collection::RakuDoc": "lib/RakuDoc.rakumod",
-    "Raku-Doc": "bin/Raku-Doc"
+    "Collection::RakuDoc": "lib/RakuDoc.rakumod"
   },
   "resources": [
     "config.raku",
@@ -7811,7 +7810,7 @@
   "test-depends": [
     
   ],
-  "version": "0.11.2"
+  "version": "0.11.4"
 }
 ,
 {
