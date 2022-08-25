@@ -11795,41 +11795,6 @@
 }
 ,
 {
-  "api": "1",
-  "auth": "github:kjkuan",
-  "authors": [
-    "Jack Kuan"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Convenient Proc::Async wrappers that work with the Perl 6 feed operators.",
-  "license": "Artistic-2.0",
-  "name": "Proc::Feed",
-  "perl": "6.d",
-  "provides": {
-    "Proc::Feed": "lib/Proc/Feed.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/kjkuan/Proc-Feed.git",
-  "tags": [
-    "Unix",
-    "Shell",
-    "Run",
-    "Proc::Async"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "1.0.3"
-}
-,
-{
   "auth": "Jack Kuan (kjkuan@gmail.com)",
   "authors": [
     "Jack Kuan"
@@ -14273,36 +14238,6 @@
     "file-search"
   ],
   "version": "10"
-}
-,
-{
-  "authors": [
-    "Stefan Seifert"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "hide installed modules for testing.",
-  "license": "Artistic-2.0",
-  "name": "CompUnit::Repository::Mask",
-  "perl": "6.c",
-  "provides": {
-    "CompUnit::Repository::Mask": "lib/CompUnit/Repository/Mask.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/niner/CompUnit-Repository-Mask.git",
-  "tags": [
-    
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.1"
 }
 ,
 {
