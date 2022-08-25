@@ -19552,38 +19552,6 @@
 {
   "authors": [
     "Tadeusz “tadzik” Sośnierz",
-    "jnthn",
-    "Steve Mynott",
-    "timo",
-    "Tobias Leich"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Colorize terminal output",
-  "license": "MIT",
-  "name": "Terminal::ANSIColor",
-  "perl": "6.*",
-  "provides": {
-    "Terminal::ANSIColor": "lib/Terminal/ANSIColor.pm"
-  },
-  "source-url": "git://github.com/tadzik/Terminal-ANSIColor.git",
-  "support": {
-    "bugtracker": "https://github.com/tadzik/Terminal-ANSIColor/issues",
-    "source": "git://github.com/tadzik/Terminal-ANSIColor.git"
-  },
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.5"
-}
-,
-{
-  "authors": [
-    "Tadeusz “tadzik” Sośnierz",
     "Dagur Valberg Johansson",
     "Elizabeth Mattijsen",
     "Filip Sergot",
@@ -19652,10 +19620,12 @@
 }
 ,
 {
-  "auth": "zef:lizmat",
   "authors": [
     "Tadeusz “tadzik” Sośnierz",
-    "Elizabeth Mattijsen"
+    "jnthn",
+    "Steve Mynott",
+    "timo",
+    "Tobias Leich"
   ],
   "build-depends": [
     
@@ -19663,31 +19633,22 @@
   "depends": [
     
   ],
-  "description": "Color screen output using ANSI escape sequences",
+  "description": "Colorize terminal output",
   "license": "MIT",
   "name": "Terminal::ANSIColor",
-  "perl": "6.d",
+  "perl": "6.*",
   "provides": {
-    "Terminal::ANSIColor": "lib/Terminal/ANSIColor.rakumod"
+    "Terminal::ANSIColor": "lib/Terminal/ANSIColor.pm"
   },
-  "resources": [
-    
-  ],
   "source-url": "git://github.com/tadzik/Terminal-ANSIColor.git",
   "support": {
-    
+    "bugtracker": "https://github.com/tadzik/Terminal-ANSIColor/issues",
+    "source": "git://github.com/tadzik/Terminal-ANSIColor.git"
   },
-  "tags": [
-    "TERMINAL",
-    "TERM",
-    "COLOR",
-    "ANSI",
-    "ESCAPE"
-  ],
   "test-depends": [
     "Test"
   ],
-  "version": "0.6"
+  "version": "0.5"
 }
 ,
 {
