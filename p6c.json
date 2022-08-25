@@ -13583,6 +13583,28 @@
   "depends": [
     "Sparrowdo"
   ],
+  "description": "Sparrowdo module to manage Ruby gems via Ruby bundler.",
+  "name": "Sparrowdo::Ruby::Bundler",
+  "perl": "6.*",
+  "provides": {
+    "Sparrowdo::Ruby::Bundler": "lib/Sparrowdo/Ruby/Bundler.pm6"
+  },
+  "source-type": "git",
+  "source-url": "https://github.com/melezhik/sparrowdo-ruby-bundler.git",
+  "support": {
+    "bugtracker": "https://github.com/melezhik/sparrowdo-ruby-bundler/issues",
+    "source": "https://github.com/melezhik/sparrowdo-ruby-bundler.git"
+  },
+  "version": "*"
+}
+,
+{
+  "authors": [
+    "Alexey Melezhik"
+  ],
+  "depends": [
+    "Sparrowdo"
+  ],
   "description": "Sparrowdo module to install/update Sparrow toolchain on target host",
   "name": "Sparrowdo::Sparrow::Update",
   "perl": "6.*",
@@ -16286,6 +16308,58 @@
     "system",
     "utils",
     "cpu",
+    "Stats",
+    "Statistics"
+  ],
+  "version": "1.0.0"
+}
+,
+{
+  "authors": [
+    "Ramiro Encinas Alarza"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides Disk Usage Stats",
+  "license": "Artistic-2.0",
+  "name": "System::Stats::DISKUsage",
+  "perl": "6.*",
+  "provides": {
+    "System::Stats::DISKUsage": "lib/System/Stats/DISKUsage.rakumod"
+  },
+  "raku": "6.*",
+  "source-url": "https://github.com/ramiroencinas/System-Stats-DISKUsage.git",
+  "tags": [
+    "system",
+    "utils",
+    "filesystem",
+    "Stats",
+    "Statistics"
+  ],
+  "version": "1.0.1"
+}
+,
+{
+  "authors": [
+    "Ramiro Encinas Alarza"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Provides Memory Usage statistics",
+  "license": "Artistic-2.0",
+  "name": "System::Stats::MEMUsage",
+  "perl": "6.*",
+  "provides": {
+    "System::Stats::MEMUsage": "lib/System/Stats/MEMUsage.rakumod"
+  },
+  "raku": "6.*",
+  "source-url": "https://github.com/ramiroencinas/System-Stats-MEMUsage.git",
+  "tags": [
+    "system",
+    "utils",
+    "Memory",
     "Stats",
     "Statistics"
   ],
@@ -19821,6 +19895,64 @@
   "build-depends": [
     
   ],
+  "description": "Convert numbers to and from nearly any base",
+  "license": "Artistic-2.0",
+  "name": "Base::Any",
+  "perl": "6",
+  "provides": {
+    "Base::Any": "lib/Base/Any.pm6",
+    "Base::Any::Digits": "lib/Base/Any/Digits.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/base-any.git",
+  "tags": [
+    "Base",
+    "Convert",
+    "Radix"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.1.2"
+}
+,
+{
+  "authors": [
+    "Steve Schulze (thundergnat)"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Lingua::EN::Numbers"
+  ],
+  "description": "Convert Gregorian to Discordian dates",
+  "license": "Artistic-2.0",
+  "name": "Date::Discordian",
+  "perl": "6",
+  "provides": {
+    "Date::Discordian": "lib/Date/Discordian.pm6"
+  },
+  "source-type": "git",
+  "source-url": "git://github.com/thundergnat/date-discordian.git",
+  "tags": [
+    "Date",
+    "Discordian",
+    "Silly"
+  ],
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.2"
+}
+,
+{
+  "authors": [
+    "Steve Schulze (thundergnat)"
+  ],
+  "build-depends": [
+    
+  ],
   "depends": [
     
   ],
@@ -20464,6 +20596,21 @@
   },
   "source-url": "git://github.com/TiMBuS/Net--IRC.git",
   "version": "0.9"
+}
+,
+{
+  "author": "Timo Paulssen",
+  "depends": [
+    
+  ],
+  "description": "Algebraic Data Types inspired by Haskell.",
+  "name": "ADT",
+  "perl": "6.*",
+  "provides": {
+    "ADT": "lib/ADT.pm6"
+  },
+  "source-url": "git://github.com/timo/ADT.git",
+  "version": "0.5"
 }
 ,
 {
