@@ -7779,7 +7779,7 @@
   "name": "Collection-Plugins",
   "perl": "6.d",
   "provides": {
-    
+    "Test::Collection": "lib/Test/CollectionPlugin.rakumod"
   },
   "resources": [
     "min-templates.raku"
@@ -7794,7 +7794,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
 ,
 {
