@@ -14597,6 +14597,40 @@
 }
 ,
 {
+  "authors": [
+    "PerlPilot",
+    "nicqrocks"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    
+  ],
+  "description": "simple, hacky way to use git from Perl 6",
+  "name": "Git::Wrapper",
+  "perl": "6.c",
+  "provides": {
+    "Git::Log::Actions": "lib/Git/Log/Parser.pm6",
+    "Git::Log::Parser": "lib/Git/Log/Parser.pm6",
+    "Git::Wrapper": "lib/Git/Wrapper.pm6",
+    "Git::Wrapper::Log": "lib/Git/Log/Parser.pm6"
+  },
+  "source-url": "https://gitlab.com/orangebot/p6-Git-Wrapper.git",
+  "support": {
+    "source": "https://gitlab.com/orangebot/p6-Git-Wrapper.git"
+  },
+  "tags": [
+    "git",
+    "wrapper"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.8"
+}
+,
+{
   "author": "Nova Patch",
   "depends": [
     
@@ -14845,6 +14879,69 @@
     "JSON::Tiny"
   ],
   "version": "0.0.1"
+}
+,
+{
+  "authors": [
+    "Konstantin Narkhov"
+  ],
+  "depends": [
+    
+  ],
+  "description": "Lempel–Ziv–Welch (LZW) algorithm implementation in Raku",
+  "license": "Artistic-2.0",
+  "name": "LZW::Revolunet",
+  "perl": "6.d",
+  "provides": {
+    "LZW::Revolunet": "lib/LZW/Revolunet.rakumod"
+  },
+  "source-url": "https://gitlab.com/pheix/lzw-revolunet-perl6.git",
+  "tags": [
+    "COMPRESSION"
+  ],
+  "version": "0.3.1"
+}
+,
+{
+  "authors": [
+    "Konstantin Narkhov"
+  ],
+  "depends": [
+    "Node::Ethereum::Keccak256::Native",
+    "JSON::Fast",
+    "HTTP::UserAgent",
+    "Test::Mock"
+  ],
+  "description": "A Raku interface for interacting with the Ethereum blockchain and ecosystem via JSON RPC API",
+  "license": "Artistic-2.0",
+  "name": "Net::Ethereum",
+  "perl": "6.d",
+  "provides": {
+    "Net::Ethereum": "lib/Net/Ethereum.rakumod"
+  },
+  "source-url": "git://gitlab.com/pheix/net-ethereum-perl6.git",
+  "tags": [
+    "BLOCKCHAIN",
+    "ETHEREUM",
+    "NET"
+  ],
+  "version": "0.0.145"
+}
+,
+{
+  "depends": [
+    "P5quotemeta"
+  ],
+  "description": "Framework-agnostic URL routing engine for web applications in Raku",
+  "license": "Artistic-2.0",
+  "name": "Router::Right",
+  "perl": "6.d",
+  "provides": {
+    "Router::Right": "lib/Router/Right.rakumod",
+    "Router::Right::Submapper": "lib/Router/Right/Submapper.rakumod"
+  },
+  "source-url": "git://gitlab.com/pheix/router-right-perl6.git",
+  "version": "0.0.55"
 }
 ,
 {
@@ -18656,6 +18753,78 @@
   },
   "source-url": "git://github.com/stmuk/p6-String-Koremutake.git",
   "version": "0.2"
+}
+,
+{
+  "authors": [
+    "Steve Mynott <steve.mynott@gmail.com>"
+  ],
+  "depends": [
+    "007",
+    "Bailador",
+    "Base64",
+    "BioInfo",
+    "BioPerl6",
+    "CSS::Grammar",
+    "CSV::Parser",
+    "CompUnit::Util",
+    "Compress::Zlib",
+    "Crust",
+    "DBIish",
+    "DateTime::Format",
+    "Debugger::UI::CommandLine",
+    "Digest",
+    "Digest::HMAC",
+    "Digest::MD5",
+    "Email::Simple",
+    "File::Find",
+    "File::Temp",
+    "File::Which",
+    "Grammar::BNF",
+    "Grammar::Debugger",
+    "Grammar::Profiler::Simple",
+    "HTTP::Easy",
+    "HTTP::Status",
+    "HTTP::UserAgent",
+    "JSON::RPC",
+    "JSON::Tiny",
+    "LWP::Simple",
+    "LibraryMake",
+    "Linenoise",
+    "MIME::Base64",
+    "OpenSSL",
+    "P6TCI",
+    "PSGI",
+    "Pod::To::HTML",
+    "Pod::To::Markdown",
+    "SCGI",
+    "SVG",
+    "SVG::Plot",
+    "Shell::Command",
+    "Sparrowdo",
+    "Template6",
+    "Template::Mojo",
+    "Terminal::ANSIColor",
+    "Test::META",
+    "Test::Mock",
+    "URI",
+    "URI::Encode",
+    "UUID",
+    "XML",
+    "XML::Writer",
+    "YAMLish",
+    "p6doc",
+    "panda",
+    "Zef"
+  ],
+  "description": "Another meta-package for modules (with tests), fatter than Task::Star and more test orientated.",
+  "name": "Task::Galaxy",
+  "perl": "6.c",
+  "provides": {
+    
+  },
+  "source-url": "https://gitlab.com/stmuk/p6-task-galaxy.git",
+  "version": "0.1"
 }
 ,
 {
