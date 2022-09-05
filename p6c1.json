@@ -7766,9 +7766,10 @@
     "Richard Hainsworth, aka finanalyst"
   ],
   "bin": [
-    "bin/modify-plugin-conf",
-    "bin/test-all-plugins",
-    "bin/add-collection-conf"
+    "bin/modify-collection-plugin-config",
+    "bin/test-all-collection-plugins",
+    "bin/add-collection-plugin",
+    "bin/refresh-collection-plugins"
   ],
   "build-depends": [
     
@@ -7786,6 +7787,7 @@
   "provides": {
     "Collection::AddPlugin": "lib/AddPlugin.rakumod",
     "Collection::ModConfig": "lib/ModConfig.rakumod",
+    "Collection::RefreshPlugins": "lib/RefreshPlugins.rakumod",
     "Collection::TestAllPlugins": "lib/TestAllPlugins.rakumod",
     "Test::CollectionPlugin": "lib/TestOnePlugin.rakumod"
   },
