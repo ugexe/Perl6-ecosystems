@@ -8881,7 +8881,7 @@
     "Digest::SHA": "lib/Digest/SHA.rakumod"
   },
   "source-url": "git://github.com/grondilu/libdigest-raku.git",
-  "version": "0.16.2"
+  "version": "0.16.3"
 }
 ,
 {
@@ -21465,21 +21465,23 @@
   "description": "Create an installable Distribution from common remote sources",
   "license": "Artistic-2.0",
   "name": "Distribution::Common::Remote",
-  "perl": "6.c",
   "provides": {
-    "Distribution::Common::Remote::Github": "lib/Distribution/Common/Remote/Github.pm6",
-    "Distribution::IO::Remote::Github": "lib/Distribution/IO/Remote/Github.pm6"
+    "Distribution::Common::Remote::Github": "lib/Distribution/Common/Remote/Github.rakumod",
+    "Distribution::IO::Remote::Github": "lib/Distribution/IO/Remote/Github.rakumod"
   },
   "support": {
-    "bugtracker": "https://github.com/ugexe/Perl6-Distribution--Common--Remote/issues",
-    "source": "https://github.com/ugexe/Perl6-Distribution--Common--Remote.git"
+    "bugtracker": "https://github.com/ugexe/Raku-Distribution--Common--Remote/issues",
+    "source": "https://github.com/ugexe/Raku-Distribution--Common--Remote.git"
   },
   "tags": [
     "Distribution",
     "Remote",
     "Github"
   ],
-  "version": "0.0.2"
+  "test-depends": [
+    "Test:ver<6.c+>"
+  ],
+  "version": "0.1.0"
 }
 ,
 {
@@ -21585,19 +21587,21 @@
   "description": "General purpose file system utility routines",
   "license": "Artistic-2.0",
   "name": "PathTools",
-  "perl": "6",
   "provides": {
-    "PathTools": "lib/PathTools.pm6"
+    "PathTools": "lib/PathTools.rakumod"
   },
-  "source-url": "git://github.com/ugexe/Perl6-PathTools.git",
   "support": {
-    "bugtracker": "https://github.com/ugexe/Perl6-PathTools/issues"
+    "bugtracker": "https://github.com/ugexe/Raku-PathTools/issues",
+    "source": "https://github.com/ugexe/Raku-PathTools.git"
   },
   "tags": [
     "paths",
     "tempfile"
   ],
-  "version": "0.1.1"
+  "test-depends": [
+    "Test:ver<6.c+>"
+  ],
+  "version": "0.2.0"
 }
 ,
 {
