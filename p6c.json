@@ -6651,8 +6651,7 @@
   "source-url": "git://github.com/kimryan/perl6-Lingua-EN-Sentence.git",
   "tags": [
     "NLP",
-    "SENTENCE SPLITTER",
-    "TEXT PROCESSING"
+    "TEXT"
   ],
   "version": "0.1.3"
 }
@@ -21313,24 +21312,23 @@
   "description": "Generate an ecosystem from a list of META files",
   "license": "Artistic-2.0",
   "name": "App::ecogen",
-  "perl": "6.c",
   "provides": {
-    "App::ecogen": "lib/App/ecogen.pm6",
-    "App::ecogen::cpan": "lib/App/ecogen/cpan.pm6",
-    "App::ecogen::p6c": "lib/App/ecogen/p6c.pm6"
+    "App::ecogen": "lib/App/ecogen.rakumod",
+    "App::ecogen::cpan": "lib/App/ecogen/cpan.rakumod",
+    "App::ecogen::p6c": "lib/App/ecogen/p6c.rakumod"
   },
   "support": {
-    "bugtracker": "https://github.com/ugexe/Perl6-App--ecogen/issues",
-    "source": "https://github.com/ugexe/Perl6-App--ecogen.git"
+    "bugtracker": "https://github.com/ugexe/Raku-App--ecogen/issues",
+    "source": "https://github.com/ugexe/Raku-App--ecogen.git"
   },
   "tags": [
     "ecosystem",
     "meta6"
   ],
   "test-depends": [
-    "Test"
+    "Test:ver<6.c+>"
   ],
-  "version": "0.0.8"
+  "version": "0.1.0"
 }
 ,
 {
