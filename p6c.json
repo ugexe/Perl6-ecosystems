@@ -21690,9 +21690,9 @@
     
   ],
   "depends": [
-    "NativeCall"
+    "NativeCall:ver<6.c+>"
   ],
-  "description": "A Raku / Perl 6 module manager",
+  "description": "Raku Module Management",
   "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "zef",
@@ -21756,9 +21756,9 @@
     "toolchain"
   ],
   "test-depends": [
-    "Test"
+    "Test:ver<6.c+>"
   ],
-  "version": "0.13.8"
+  "version": "0.14.0"
 }
 ,
 {
