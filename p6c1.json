@@ -6665,11 +6665,16 @@
   "description": "Module for splitting text into sentences",
   "license": "Artistic-2.0",
   "name": "Lingua::EN::Sentence",
-  "perl": "6.*",
   "provides": {
     "Lingua::EN::Sentence": "lib/Lingua/EN/Sentence.pm6"
   },
+  "raku": "6.d",
   "source-url": "git://github.com/kimryan/perl6-Lingua-EN-Sentence.git",
+  "tags": [
+    "NLP",
+    "SENTENCE SPLITTER",
+    "TEXT PROCESSING"
+  ],
   "version": "0.1.3"
 }
 ,
