@@ -21342,15 +21342,17 @@
   "description": "Lazy base64 encoding and decoding routines",
   "license": "Artistic-2.0",
   "name": "Base64",
-  "perl": "6.c",
   "provides": {
-    "Base64": "lib/Base64.pm6"
+    "Base64": "lib/Base64.rakumod"
   },
   "support": {
-    "bugtracker": "https://github.com/ugexe/Perl6-Base64/issues",
-    "source": "https://github.com/ugexe/Perl6-Base64.git"
+    "bugtracker": "https://github.com/ugexe/Raku-Base64/issues",
+    "source": "https://github.com/ugexe/Raku-Base64.git"
   },
-  "version": "0.0.2"
+  "test-depends": [
+    "Test:ver<6.c+>"
+  ],
+  "version": "0.1.0"
 }
 ,
 {
@@ -21610,19 +21612,21 @@
   "description": "Calculate Levenshtein or Damerau Levenshtein edit distances for strings",
   "license": "Artistic-2.0",
   "name": "Text::Levenshtein::Damerau",
-  "perl": "6.*",
   "provides": {
-    "Text::Levenshtein::Damerau": "lib/Text/Levenshtein/Damerau.pm6"
+    "Text::Levenshtein::Damerau": "lib/Text/Levenshtein/Damerau.rakumod"
   },
-  "source-url": "git://github.com/ugexe/Perl6-Text--Levenshtein--Damerau.git",
+  "support": {
+    "bugtracker": "https://github.com/ugexe/Raku-Text--Levenshtein--Damerau/issues",
+    "source": "https://github.com/ugexe/Raku-Text--Levenshtein--Damerau.git"
+  },
   "tags": [
     "levenshtein",
     "typos"
   ],
   "test-depends": [
-    "Test"
+    "Test:ver<6.c+>"
   ],
-  "version": "0.2.0"
+  "version": "0.3.0"
 }
 ,
 {
@@ -21636,13 +21640,12 @@
   "description": "Create basic tables from a two dimensional array",
   "license": "Artistic-2.0",
   "name": "Text::Table::Simple",
-  "perl": "6.c",
   "provides": {
-    "Text::Table::Simple": "lib/Text/Table/Simple.pm6"
+    "Text::Table::Simple": "lib/Text/Table/Simple.rakumod"
   },
   "support": {
-    "bugtracker": "https://github.com/ugexe/Perl6-Text--Table--Simple/issues",
-    "source": "https://github.com/ugexe/Perl6-Text--Table--Simple.git"
+    "bugtracker": "https://github.com/ugexe/Raku-Text--Table--Simple/issues",
+    "source": "https://github.com/ugexe/Raku-Text--Table--Simple.git"
   },
   "tags": [
     "text",
@@ -21650,7 +21653,10 @@
     "utils",
     "table"
   ],
-  "version": "0.0.8"
+  "test-depends": [
+    "Test:ver<6.c+>"
+  ],
+  "version": "0.1.0"
 }
 ,
 {
