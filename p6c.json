@@ -21357,13 +21357,12 @@
   "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "CompUnit::Repository::Github",
-  "perl": "6.c",
   "provides": {
-    "CompUnit::Repository::Github": "lib/CompUnit/Repository/Github.pm6"
+    "CompUnit::Repository::Github": "lib/CompUnit/Repository/Github.rakumod"
   },
   "support": {
-    "bugtracker": "https://github.com/ugexe/Perl6-CompUnit--Repository--Github/issues",
-    "source": "https://github.com/ugexe/Perl6-CompUnit--Repository--Github.git"
+    "bugtracker": "https://github.com/ugexe/Raku-CompUnit--Repository--Github/issues",
+    "source": "https://github.com/ugexe/Raku-CompUnit--Repository--Github.git"
   },
   "tags": [
     "CompUnit",
@@ -21371,9 +21370,9 @@
     "Github"
   ],
   "test-depends": [
-    "Test"
+    "Test:ver<6.c+>"
   ],
-  "version": "0.0.2"
+  "version": "0.1.0"
 }
 ,
 {
@@ -21388,23 +21387,26 @@
   "description": "Load modules directory from a .tar.gz archive",
   "license": "Artistic-2.0",
   "name": "CompUnit::Repository::Tar",
-  "perl": "6.c",
   "provides": {
     "CompUnit::Repository::Tar": "lib/CompUnit/Repository/Tar.rakumod"
   },
   "resources": [
-    "test-dists/zef.tar.gz"
+    "test-dists/Distribution--Common-v0.1.0.tar.gz",
+    "test-dists/PathTools-v0.2.0.tar.gz"
   ],
   "support": {
-    "bugtracker": "https://github.com/ugexe/CompUnit--Repository--Tar/issues",
-    "source": "https://github.com/ugexe/CompUnit--Repository--Tar.git"
+    "bugtracker": "https://github.com/ugexe/Raku-CompUnit--Repository--Tar/issues",
+    "source": "https://github.com/ugexe/Raku-CompUnit--Repository--Tar.git"
   },
   "tags": [
     "CompUnit",
     "Repository",
     "Tar"
   ],
-  "version": "0.0.3"
+  "test-depends": [
+    "Test:ver<6.c+>"
+  ],
+  "version": "0.1.0"
 }
 ,
 {
