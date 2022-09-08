@@ -21347,6 +21347,47 @@
   "authors": [
     "ugexe"
   ],
+  "depends": [
+    
+  ],
+  "description": "Like CompUnit::Repository::FileSystem but containing multiple distributions similar to CompUnit::Repository::Installation",
+  "license": "Artistic-2.0",
+  "name": "CompUnit::Repository::Lib",
+  "owner": "ugexe",
+  "provides": {
+    "CompUnit::Repository::Lib": "lib/CompUnit/Repository/Lib.rakumod"
+  },
+  "resources": [
+    "test-dists/CECF2DDE6951E23F6F0E469FC3A3006444B8FFB3/META6.json",
+    "test-dists/CECF2DDE6951E23F6F0E469FC3A3006444B8FFB3/lib/Acme/Foo.rakumod",
+    "test-dists/CECF2DDE6951E23F6F0E469FC3A3006444B8FFB3/lib/Acme/Foo/Resources.rakumod",
+    "test-dists/CECF2DDE6951E23F6F0E469FC3A3006444B8FFB3/lib/resources/config.json",
+    "test-dists/CECF2DDE6951E23F6F0E469FC3A3006444B8FFB3/lib/bin/acme-foo-script",
+    "test-dists/1D0AF1B9D528731ECD09B1AEECA96C0041D7607F/META6.json",
+    "test-dists/1D0AF1B9D528731ECD09B1AEECA96C0041D7607F/lib/Acme/Depends/On/Acme/Foo.rakumod",
+    "test-dists/1D0AF1B9D528731ECD09B1AEECA96C0041D7607F/lib/Acme/Depends/On/Acme/Foo/Resources.rakumod"
+  ],
+  "support": {
+    "bugtracker": "https://github.com/ugexe/Raku-CompUnit--Repository--Lib/issues",
+    "source": "https://github.com/ugexe/Raku-CompUnit--Repository--Lib.git"
+  },
+  "tags": [
+    "CompUnit",
+    "Repository",
+    "Lib"
+  ],
+  "test-depends": [
+    "Test:ver<6.c+>"
+  ],
+  "version": "0.1.0"
+}
+,
+{
+  "api": "0",
+  "auth": "github:ugexe",
+  "authors": [
+    "ugexe"
+  ],
   "build-depends": [
     
   ],
