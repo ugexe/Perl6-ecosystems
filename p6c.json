@@ -21542,28 +21542,30 @@
   "description": "Roll your own http client",
   "license": "Artistic-2.0",
   "name": "Net::HTTP",
-  "perl": "6",
   "provides": {
-    "Net::HTTP::Client": "lib/Net/HTTP/Client.pm6",
-    "Net::HTTP::Dialer": "lib/Net/HTTP/Dialer.pm6",
-    "Net::HTTP::GET": "lib/Net/HTTP/GET.pm6",
-    "Net::HTTP::Interfaces": "lib/Net/HTTP/Interfaces.pm6",
-    "Net::HTTP::POST": "lib/Net/HTTP/POST.pm6",
-    "Net::HTTP::Request": "lib/Net/HTTP/Request.pm6",
-    "Net::HTTP::Response": "lib/Net/HTTP/Response.pm6",
-    "Net::HTTP::Transport": "lib/Net/HTTP/Transport.pm6",
-    "Net::HTTP::URL": "lib/Net/HTTP/URL.pm6",
-    "Net::HTTP::Utils": "lib/Net/HTTP/Utils.pm6"
+    "Net::HTTP::Client": "lib/Net/HTTP/Client.rakumod",
+    "Net::HTTP::Dialer": "lib/Net/HTTP/Dialer.rakumod",
+    "Net::HTTP::GET": "lib/Net/HTTP/GET.rakumod",
+    "Net::HTTP::Interfaces": "lib/Net/HTTP/Interfaces.rakumod",
+    "Net::HTTP::POST": "lib/Net/HTTP/POST.rakumod",
+    "Net::HTTP::Request": "lib/Net/HTTP/Request.rakumod",
+    "Net::HTTP::Response": "lib/Net/HTTP/Response.rakumod",
+    "Net::HTTP::Transport": "lib/Net/HTTP/Transport.rakumod",
+    "Net::HTTP::URL": "lib/Net/HTTP/URL.rakumod",
+    "Net::HTTP::Utils": "lib/Net/HTTP/Utils.rakumod"
   },
-  "source-url": "git://github.com/ugexe/Perl6-Net--HTTP.git",
   "support": {
-    "bugtracker": "https://github.com/ugexe/Perl6-Net--HTTP/issues"
+    "bugtracker": "https://github.com/ugexe/Raku-Net--HTTP/issues",
+    "source": "https://github.com/ugexe/Raku-Net--HTTP.git"
   },
   "tags": [
     "HTTP",
     "Client"
   ],
-  "version": "0.0.9"
+  "test-depends": [
+    "Test:ver<6.c+>"
+  ],
+  "version": "0.1.0"
 }
 ,
 {
