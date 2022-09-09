@@ -3528,28 +3528,28 @@
   "depends": [
     "Terminal::Table"
   ],
-  "description": "Advanced command line parse module for perl6",
+  "description": "Advanced command line parse module for raku lang",
   "license": "MIT",
   "name": "Getopt::Advance",
   "perl": "6.c",
   "provides": {
-    "Getopt::Advance": "lib/Getopt/Advance.pm6",
-    "Getopt::Advance::Argument": "lib/Getopt/Advance/Argument.pm6",
-    "Getopt::Advance::Context": "lib/Getopt/Advance/Context.pm6",
-    "Getopt::Advance::Exception": "lib/Getopt/Advance/Exception.pm6",
-    "Getopt::Advance::Group": "lib/Getopt/Advance/Group.pm6",
-    "Getopt::Advance::Helper": "lib/Getopt/Advance/Helper.pm6",
-    "Getopt::Advance::NonOption": "lib/Getopt/Advance/NonOption.pm6",
-    "Getopt::Advance::Option": "lib/Getopt/Advance/Option.pm6",
-    "Getopt::Advance::Parser": "lib/Getopt/Advance/Parser.pm6",
-    "Getopt::Advance::Subs": "lib/Getopt/Advance/Subs.pm6",
-    "Getopt::Advance::Types": "lib/Getopt/Advance/Types.pm6",
-    "Getopt::Advance::Utils": "lib/Getopt/Advance/Utils.pm6"
+    "Getopt::Advance": "lib/Getopt/Advance.rakumod",
+    "Getopt::Advance::Argument": "lib/Getopt/Advance/Argument.rakumod",
+    "Getopt::Advance::Context": "lib/Getopt/Advance/Context.rakumod",
+    "Getopt::Advance::Exception": "lib/Getopt/Advance/Exception.rakumod",
+    "Getopt::Advance::Group": "lib/Getopt/Advance/Group.rakumod",
+    "Getopt::Advance::Helper": "lib/Getopt/Advance/Helper.rakumod",
+    "Getopt::Advance::NonOption": "lib/Getopt/Advance/NonOption.rakumod",
+    "Getopt::Advance::Option": "lib/Getopt/Advance/Option.rakumod",
+    "Getopt::Advance::Parser": "lib/Getopt/Advance/Parser.rakumod",
+    "Getopt::Advance::Subs": "lib/Getopt/Advance/Subs.rakumod",
+    "Getopt::Advance::Types": "lib/Getopt/Advance/Types.rakumod",
+    "Getopt::Advance::Utils": "lib/Getopt/Advance/Utils.rakumod"
   },
-  "source-url": "https://github.com/araraloren/perl6-getopt-advance.git",
+  "source-url": "https://github.com/araraloren/raku-getopt-advance.git",
   "support": {
-    "bugtracker": "https://github.com.araraloren/perl6-getopt-advance/issues",
-    "source": "https://github.com/araraloren/perl6-getopt-advance.git"
+    "bugtracker": "https://github.com.araraloren/raku-getopt-advance/issues",
+    "source": "https://github.com/araraloren/raku-getopt-advance.git"
   },
   "tags": [
     "getopt",
@@ -3562,7 +3562,7 @@
   "test-depends": [
     "Test::META"
   ],
-  "version": "1.1.4"
+  "version": "1.2.0"
 }
 ,
 {
@@ -3576,29 +3576,29 @@
     "Terminal::WCWidth",
     "Text::Tabs"
   ],
-  "description": "Advanced table generate module for perl6",
+  "description": "Advanced table generate module for raku lang",
   "license": "MIT",
   "name": "Terminal::Table",
   "perl": "6.c",
   "provides": {
-    "Terminal::Table": "lib/Terminal/Table.pm6",
-    "Terminal::Table::Exception": "lib/Terminal/Table/Exception.pm6",
-    "Terminal::Table::Frame": "lib/Terminal/Table/Frame.pm6",
-    "Terminal::Table::Generator": "lib/Terminal/Table/Generator.pm6",
-    "Terminal::Table::LightWrap": "lib/Terminal/Table/LightWrap.pm6",
-    "Terminal::Table::Settings": "lib/Terminal/Table/Settings.pm6",
-    "Terminal::Table::Shader": "lib/Terminal/Table/Shader.pm6",
-    "Terminal::Table::String": "lib/Terminal/Table/String.pm6",
-    "Terminal::Table::Style": "lib/Terminal/Table/Style.pm6",
-    "Terminal::Table::VisitorHelper": "lib/Terminal/Table/VisitorHelper.pm6"
+    "Terminal::Table": "lib/Terminal/Table.rakumod",
+    "Terminal::Table::Exception": "lib/Terminal/Table/Exception.rakumod",
+    "Terminal::Table::Frame": "lib/Terminal/Table/Frame.rakumod",
+    "Terminal::Table::Generator": "lib/Terminal/Table/Generator.rakumod",
+    "Terminal::Table::LightWrap": "lib/Terminal/Table/LightWrap.rakumod",
+    "Terminal::Table::Settings": "lib/Terminal/Table/Settings.rakumod",
+    "Terminal::Table::Shader": "lib/Terminal/Table/Shader.rakumod",
+    "Terminal::Table::String": "lib/Terminal/Table/String.rakumod",
+    "Terminal::Table::Style": "lib/Terminal/Table/Style.rakumod",
+    "Terminal::Table::VisitorHelper": "lib/Terminal/Table/VisitorHelper.rakumod"
   },
   "resources": [
     
   ],
-  "source-url": "https://github.com/araraloren/perl6-terminal-table.git",
+  "source-url": "https://github.com/araraloren/raku-terminal-table.git",
   "support": {
-    "bugtracker": "https://github.com.araraloren/perl6-terminal-table/issues",
-    "source": "https://github.com/araraloren/perl6-terminal-table.git"
+    "bugtracker": "https://github.com.araraloren/raku-terminal-table/issues",
+    "source": "https://github.com/araraloren/raku-terminal-table.git"
   },
   "tags": [
     "terminal",
@@ -3608,7 +3608,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.9"
+  "version": "0.1.0"
 }
 ,
 {
