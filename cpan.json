@@ -498,6 +498,42 @@
 }
 ,
 {
+  "auth": "github:araraloren",
+  "authors": "Loren",
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "JSON::Fast",
+    "Compress::Zlib",
+    "Getopt::Advance",
+    "File::Directory::Tree",
+    "File::Which"
+  ],
+  "description": "An tools can easily create CPAN tarball for you!",
+  "license": "MIT",
+  "name": "pack6",
+  "perl": "6.*",
+  "provides": {
+    "CPAN::Convert": "lib/CPAN/Convert.rakumod",
+    "CPAN::Pack6": "lib/CPAN/Pack6.rakumod",
+    "CPAN::Tar": "lib/CPAN/Tar.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/pack6-0.4.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com/araraloren/raku-pack6/issues",
+    "source": "https://github.com/araraloren/raku-pack6"
+  },
+  "test-depends": [
+    
+  ],
+  "version": "0.4"
+}
+,
+{
   "auth": "zef:andinus",
   "authors": [
     "Andinus <andinus@nand.sh>"
