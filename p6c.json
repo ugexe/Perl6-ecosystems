@@ -21520,11 +21520,16 @@
   ],
   "description": "Test for installation of same named dists",
   "name": "Foo",
-  "perl": "6.*",
   "provides": {
-    "Foo": "lib/Foo.pm6"
+    "Foo": "lib/Foo.rakumod"
   },
-  "source-url": "git://github.com/ugexe/Perl6-Foo.git",
+  "support": {
+    "bugtracker": "https://github.com/ugexe/Raku-Foo/issues",
+    "source": "https://github.com/ugexe/Raku-Foo.git"
+  },
+  "test-depends": [
+    "Test:ver<6.c+>"
+  ],
   "version": "1.2.0"
 }
 ,
