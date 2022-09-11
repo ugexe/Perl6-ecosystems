@@ -8898,10 +8898,11 @@
   "provides": {
     "Digest": "lib/Digest.rakumod",
     "Digest::RIPEMD": "lib/Digest/RIPEMD.rakumod",
-    "Digest::SHA": "lib/Digest/SHA.rakumod"
+    "Digest::SHA": "lib/Digest/SHA.rakumod",
+    "Keccak-p": "lib/Keccak-p.rakumod"
   },
   "source-url": "git://github.com/grondilu/libdigest-raku.git",
-  "version": "0.16.3"
+  "version": "0.17.1"
 }
 ,
 {
@@ -21743,7 +21744,6 @@
   "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "Sanity",
-  "perl": "6.c",
   "provides": {
     "sanity": "lib/sanity.rakumod"
   },
@@ -21757,9 +21757,9 @@
     "sanity"
   ],
   "test-depends": [
-    "Test"
+    "Test:ver<6.c+>"
   ],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
 ,
 {
