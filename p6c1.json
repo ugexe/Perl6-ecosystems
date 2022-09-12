@@ -3451,42 +3451,6 @@
 {
   "auth": "github:araraloren",
   "authors": "Loren",
-  "build-depends": [
-    "LibraryMake"
-  ],
-  "depends": [
-    "Getopt::Advance",
-    "JSON::Fast"
-  ],
-  "description": "Find your source file easily.",
-  "license": "GPL",
-  "name": "App::FindSource",
-  "perl": "6.c",
-  "provides": {
-    "Config::Searcher": "lib/Config/Searcher.pm6"
-  },
-  "source-url": "https://github.com/araraloren/perl6-app-findsource.git",
-  "support": {
-    "bugtracker": "https://github.com.araraloren/perl6-app-findsource/issues",
-    "source": "https://github.com/araraloren/perl6-app-findsource.git"
-  },
-  "tags": [
-    "find",
-    "c",
-    "cpp",
-    "make",
-    "config",
-    "searcher"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.0.6"
-}
-,
-{
-  "auth": "github:araraloren",
-  "authors": "Loren",
   "depends": [
     "Readline",
     "PathTools",
@@ -3520,95 +3484,6 @@
     "Test::META"
   ],
   "version": "0.2.1"
-}
-,
-{
-  "auth": "github:araraloren",
-  "authors": "Loren",
-  "depends": [
-    "Terminal::Table"
-  ],
-  "description": "Advanced command line parse module for raku lang",
-  "license": "MIT",
-  "name": "Getopt::Advance",
-  "perl": "6.c",
-  "provides": {
-    "Getopt::Advance": "lib/Getopt/Advance.rakumod",
-    "Getopt::Advance::Argument": "lib/Getopt/Advance/Argument.rakumod",
-    "Getopt::Advance::Context": "lib/Getopt/Advance/Context.rakumod",
-    "Getopt::Advance::Exception": "lib/Getopt/Advance/Exception.rakumod",
-    "Getopt::Advance::Group": "lib/Getopt/Advance/Group.rakumod",
-    "Getopt::Advance::Helper": "lib/Getopt/Advance/Helper.rakumod",
-    "Getopt::Advance::NonOption": "lib/Getopt/Advance/NonOption.rakumod",
-    "Getopt::Advance::Option": "lib/Getopt/Advance/Option.rakumod",
-    "Getopt::Advance::Parser": "lib/Getopt/Advance/Parser.rakumod",
-    "Getopt::Advance::Subs": "lib/Getopt/Advance/Subs.rakumod",
-    "Getopt::Advance::Types": "lib/Getopt/Advance/Types.rakumod",
-    "Getopt::Advance::Utils": "lib/Getopt/Advance/Utils.rakumod"
-  },
-  "source-url": "https://github.com/araraloren/raku-getopt-advance.git",
-  "support": {
-    "bugtracker": "https://github.com.araraloren/raku-getopt-advance/issues",
-    "source": "https://github.com/araraloren/raku-getopt-advance.git"
-  },
-  "tags": [
-    "getopt",
-    "unix",
-    "gnu",
-    "bsd",
-    "main",
-    "command"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "1.2.0"
-}
-,
-{
-  "auth": "github:araraloren",
-  "authors": "Loren",
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Terminal::ANSIColor",
-    "Terminal::WCWidth",
-    "Text::Tabs"
-  ],
-  "description": "Advanced table generate module for raku lang",
-  "license": "MIT",
-  "name": "Terminal::Table",
-  "perl": "6.c",
-  "provides": {
-    "Terminal::Table": "lib/Terminal/Table.rakumod",
-    "Terminal::Table::Exception": "lib/Terminal/Table/Exception.rakumod",
-    "Terminal::Table::Frame": "lib/Terminal/Table/Frame.rakumod",
-    "Terminal::Table::Generator": "lib/Terminal/Table/Generator.rakumod",
-    "Terminal::Table::LightWrap": "lib/Terminal/Table/LightWrap.rakumod",
-    "Terminal::Table::Settings": "lib/Terminal/Table/Settings.rakumod",
-    "Terminal::Table::Shader": "lib/Terminal/Table/Shader.rakumod",
-    "Terminal::Table::String": "lib/Terminal/Table/String.rakumod",
-    "Terminal::Table::Style": "lib/Terminal/Table/Style.rakumod",
-    "Terminal::Table::VisitorHelper": "lib/Terminal/Table/VisitorHelper.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/araraloren/raku-terminal-table.git",
-  "support": {
-    "bugtracker": "https://github.com.araraloren/raku-terminal-table/issues",
-    "source": "https://github.com/araraloren/raku-terminal-table.git"
-  },
-  "tags": [
-    "terminal",
-    "table",
-    "text"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.1.0"
 }
 ,
 {
