@@ -10069,12 +10069,12 @@
 }
 ,
 {
-  "auth": "github:retupmoca",
+  "auth": "zef:JJ",
   "authors": [
     "Andrew Egeler"
   ],
   "depends": [
-    "Digest"
+    "Digest::ver<0.18.0+>"
   ],
   "description": "Generic HMAC implementation",
   "name": "Digest::HMAC",
@@ -10083,7 +10083,10 @@
     "Digest::HMAC": "lib/Digest/HMAC.pm6"
   },
   "source-url": "git://github.com/JJ/Raku-Digest-HMAC.git",
-  "version": "1.0.2"
+  "test-depends": [
+    "Digest::SHA"
+  ],
+  "version": "1.0.3"
 }
 ,
 {
