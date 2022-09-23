@@ -4037,10 +4037,10 @@
   "name": "File::HomeDir",
   "perl": "6.c",
   "provides": {
-    "File::HomeDir": "lib/File/HomeDir.pm6",
-    "File::HomeDir::MacOSX": "lib/File/HomeDir/MacOSX.pm6",
-    "File::HomeDir::Unix": "lib/File/HomeDir/Unix.pm6",
-    "File::HomeDir::Win32": "lib/File/HomeDir/Win32.pm6"
+    "File::HomeDir": "lib/File/HomeDir.rakumod",
+    "File::HomeDir::Unix": "lib/File/HomeDir/Unix.rakumod",
+    "File::HomeDir::Win32": "lib/File/HomeDir/Win32.rakumod",
+    "File::HomeDir::macOS": "lib/File/HomeDir/macOS.rakumod"
   },
   "source-url": "git://github.com/azawawi/perl6-file-homedir.git",
   "version": "*"
