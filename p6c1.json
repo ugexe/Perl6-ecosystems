@@ -7554,6 +7554,7 @@
   "depends": [
     "RakuConfig",
     "Collection",
+    "Collection::RefreshPlugins",
     "LibCurl::Easy"
   ],
   "description": "Use Cro and Collection to supply Raku documentation. Different search system. Global and local TOCs and Glossaries.",
@@ -7576,7 +7577,7 @@
   "test-depends": [
     
   ],
-  "version": "0.12.0"
+  "version": "0.12.1"
 }
 ,
 {
