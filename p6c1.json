@@ -12309,6 +12309,7 @@
 }
 ,
 {
+  "auth": "zef:finanalyst",
   "authors": [
     "Jonathan Worthington",
     "Moritz Lenz",
@@ -12320,6 +12321,9 @@
     "Zoffix Znet",
     "Nick Logan",
     "finanalyst aka Richard Hainsworth"
+  ],
+  "depends": [
+    
   ],
   "description": "Simple GTK 3 binding using NativeCall",
   "license": "Artistic-2.0",
@@ -12388,7 +12392,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "0.2.0"
+  "version": "0.2.1"
 }
 ,
 {
