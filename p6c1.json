@@ -4196,16 +4196,17 @@
   "authors": [
     "Ahmad M. Zawawi"
   ],
-  "description": "Perl 6 interface to NCurses, the text-based interface library",
+  "description": "Raku interface to NCurses, the text-based interface library",
   "license": "MIT",
   "name": "NCurses",
   "perl": "6.c",
   "provides": {
-    "NCurses": "lib/NCurses.pm6",
-    "NCurses::Lift": "lib/NCurses/Lift.pm6"
+    "NCurses": "lib/NCurses.rakumod",
+    "NCurses::Lift": "lib/NCurses/Lift.rakumod"
   },
+  "raku": "6.c",
   "repo-type": "git",
-  "source-url": "git://github.com/azawawi/perl6-ncurses.git",
+  "source-url": "git://github.com/azawawi/raku-ncurses.git",
   "tags": [
     "CLI",
     "Terminal",
@@ -4215,7 +4216,7 @@
     "LibraryCheck",
     "Test"
   ],
-  "version": "0.6.3"
+  "version": "0.6.4"
 }
 ,
 {
@@ -4253,16 +4254,16 @@
   "name": "Odoo::Client",
   "perl": "6.c",
   "provides": {
-    "Odoo::Client": "lib/Odoo/Client.pm6",
-    "Odoo::Client::Model": "lib/Odoo/Client/Model.pm6"
+    "Odoo::Client": "lib/Odoo/Client.rakumod",
+    "Odoo::Client::Model": "lib/Odoo/Client/Model.rakumod"
   },
   "repo-type": "git",
-  "source-url": "git://github.com/azawawi/perl6-odoo-client.git",
+  "source-url": "git://github.com/azawawi/raku-odoo-client.git",
   "test-depends": [
     "JSON::RPC",
     "Test"
   ],
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
 ,
 {
@@ -4360,16 +4361,16 @@
   "authors": [
     "Ahmad M. Zawawi"
   ],
-  "description": "Use libcaca (Colour AsCii Art library) API in Perl 6",
+  "description": "Use libcaca (Colour AsCii Art library) API in Raku",
   "license": "MIT",
   "name": "Terminal::Caca",
   "perl": "6.*",
   "provides": {
-    "Terminal::Caca": "lib/Terminal/Caca.pm6",
-    "Terminal::Caca::Raw": "lib/Terminal/Caca/Raw.pm6"
+    "Terminal::Caca": "lib/Terminal/Caca.rakumod",
+    "Terminal::Caca::Raw": "lib/Terminal/Caca/Raw.rakumod"
   },
   "repo-type": "git",
-  "source-url": "git://github.com/azawawi/perl6-terminal-caca.git",
+  "source-url": "git://github.com/azawawi/raku-terminal-caca.git",
   "tags": [
     "CLI",
     "Terminal",
@@ -4379,7 +4380,7 @@
   "test-depends": [
     "Test"
   ],
-  "version": "0.5.3"
+  "version": "0.5.5"
 }
 ,
 {
