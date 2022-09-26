@@ -4119,6 +4119,28 @@
 }
 ,
 {
+  "auth": "github:azawawi",
+  "authors": [
+    "Ahmad M. Zawawi"
+  ],
+  "description": "Raku fun with Godot",
+  "license": "MIT",
+  "name": "Godot::Fun",
+  "perl": "6.d",
+  "provides": {
+    "Godot::Fun": "lib/Godot/Fun.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/azawawi/raku-godot-fun.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.0.1"
+}
+,
+{
   "description": "GTK Scintilla widget for source code editing",
   "name": "GTK::Scintilla",
   "perl": "6.c",
