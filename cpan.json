@@ -40361,6 +40361,41 @@
     
   ],
   "depends": [
+    "Getopt::Long:ver<0.3.0+>",
+    "Path::Finder:ver<0.4.4+>",
+    "Pod::Usage",
+    "TAP:ver<0.3.4+>",
+    "sigpipe"
+  ],
+  "description": "Run tests through a TAP harness.",
+  "license": "Artistic-2.0",
+  "name": "App::Prove6",
+  "perl": "6.*",
+  "provides": {
+    "App::Prove6": "lib/App/Prove6.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/App-Prove6-0.0.17.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.17"
+}
+,
+{
+  "auth": "cpan:LEONT",
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "TAP:ver<0.0.8>",
     "Getopt::Long"
   ],
