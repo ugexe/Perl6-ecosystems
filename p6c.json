@@ -9587,27 +9587,6 @@
 }
 ,
 {
-  "auth": "zef:jjmerelo",
-  "authors": [
-    "Andrew Egeler"
-  ],
-  "depends": [
-    "Digest:ver<0.18.0+>"
-  ],
-  "description": "Generic HMAC implementation",
-  "name": "Digest::HMAC",
-  "perl": "6.c",
-  "provides": {
-    "Digest::HMAC": "lib/Digest/HMAC.pm6"
-  },
-  "source-url": "git://github.com/JJ/Raku-Digest-HMAC.git",
-  "test-depends": [
-    "Digest::SHA"
-  ],
-  "version": "1.0.4"
-}
-,
-{
   "auth": "github:JJ",
   "authors": [
     "JJ Merelo"
