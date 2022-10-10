@@ -21181,7 +21181,6 @@
   "license": "Artistic-2.0",
   "meta-version": "0",
   "name": "zef",
-  "perl": "6.c",
   "provides": {
     "Zef": "lib/Zef.rakumod",
     "Zef::Build": "lib/Zef/Build.rakumod",
@@ -21221,6 +21220,7 @@
     "Zef::Utils::SystemQuery": "lib/Zef/Utils/SystemQuery.rakumod",
     "Zef::Utils::URI": "lib/Zef/Utils/URI.rakumod"
   },
+  "raku": "6.c",
   "resources": [
     "config.json",
     "scripts/perl5tar.pl",
@@ -21243,7 +21243,7 @@
   "test-depends": [
     "Test:ver<6.c+>"
   ],
-  "version": "0.14.2"
+  "version": "0.14.3"
 }
 ,
 {
