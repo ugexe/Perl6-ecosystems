@@ -2137,7 +2137,7 @@
 }
 ,
 {
-  "auth": "github:alabamenhu",
+  "auth": "zef:guifa",
   "authors": [
     "Matthew ‘Matéu’ Stephen STUCKWISCH <mateu@softastur.com>"
   ],
@@ -2152,7 +2152,8 @@
   "name": "UserTimezone",
   "perl": "6.*",
   "provides": {
-    "Intl::UserTimezone": "lib/Intl/UserTimezone.pm6"
+    "Intl::UserTimezone": "lib/Intl/UserTimezone.rakumod",
+    "User::Timezone": "lib/User/Timezone.rakumod"
   },
   "resources": [
     "windows-zones.data",
@@ -2162,7 +2163,7 @@
   "test-depends": [
     
   ],
-  "version": "0.2"
+  "version": "0.3.0"
 }
 ,
 {
