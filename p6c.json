@@ -1853,35 +1853,6 @@
 }
 ,
 {
-  "auth": "zef:guifa",
-  "authors": [
-    "Matthew Stephen Stuckwisch"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "A role modeling behaviors of a Language Tag",
-  "license": "Artist-2.0",
-  "name": "Intl::LanguageTaggish",
-  "perl": "6.*",
-  "provides": {
-    "Intl::LanguageTaggish": "lib/Intl/LanguageTaggish.rakumod"
-  },
-  "raku": "6.*",
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/alabamenhu/IntlLanguageTaggish.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.1"
-}
-,
-{
   "auth": "git:alabamenhu",
   "authors": [
     "Matthew Stephen Stuckwisch"
@@ -2134,36 +2105,6 @@
     
   ],
   "version": "0.3.1"
-}
-,
-{
-  "auth": "zef:guifa",
-  "authors": [
-    "Matthew ‘Matéu’ Stephen STUCKWISCH <mateu@softastur.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "A simple module for determining the user's timezone.",
-  "license": "Artistic-2.0",
-  "name": "UserTimezone",
-  "perl": "6.*",
-  "provides": {
-    "Intl::UserTimezone": "lib/Intl/UserTimezone.rakumod",
-    "User::Timezone": "lib/User/Timezone.rakumod"
-  },
-  "resources": [
-    "windows-zones.data",
-    "windows-regions.data"
-  ],
-  "source-url": "git://github.com/alabamenhu/UserTimezone.git",
-  "test-depends": [
-    
-  ],
-  "version": "0.3.0"
 }
 ,
 {
