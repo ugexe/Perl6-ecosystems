@@ -61738,38 +61738,6 @@
   "depends": [
     
   ],
-  "description": "Capture a command's output and exit code",
-  "license": "Artistic-2.0",
-  "name": "Shell::Capture",
-  "perl": "6.c",
-  "production": true,
-  "provides": {
-    "Shell::Capture": "lib/Shell/Capture.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/R/RO/ROAM/Perl6/Shell-Capture-0.2.4.tar.gz",
-  "support": {
-    "bugtracker": "https://github.com/ppentchev/Shell-Capture/issues",
-    "email": "roam@ringlet.net",
-    "source": "https://github.com/ppentchev/Shell-Capture.git"
-  },
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.2.4"
-}
-,
-{
-  "api": "0",
-  "auth": "github:ppentchev",
-  "authors": [
-    "Peter Pentchev"
-  ],
-  "depends": [
-    
-  ],
   "description": "Compare two complex data structures loosely",
   "license": "Artistic-2.0",
   "name": "Test::Deeply::Relaxed",
