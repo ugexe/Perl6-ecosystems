@@ -380,49 +380,6 @@
 }
 ,
 {
-  "auth": "github:alabamenhu",
-  "authors": [
-    "Matthew Stephen Stuckwisch"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Intl::LanguageTaggish"
-  ],
-  "description": "A module for working with BCP 47 language tags",
-  "license": "Artistic-2.0",
-  "name": "Intl::LanguageTag",
-  "perl": "6.*",
-  "provides": {
-    "Intl::LanguageTag": "lib/Intl/LanguageTag.rakumod",
-    "Intl::LanguageTag::BCP47": "lib/Intl/LanguageTag/BCP47.rakumod"
-  },
-  "raku": "6.*",
-  "resources": [
-    "languages-deprecated",
-    "languages-extended",
-    "languages-macro",
-    "languages-preferred",
-    "languages-script",
-    "languages-valid",
-    "regions-deprecated",
-    "regions-preferred",
-    "regions-valid",
-    "scripts-deprecated",
-    "scripts-valid",
-    "variants-deprecated",
-    "variants-prefixes",
-    "variants-valid"
-  ],
-  "source-url": "git://github.com/alabamenhu/LanguageTag.git",
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.12"
-}
-,
-{
   "auth": "Matthew ‘Matéu’ Stephen Stuckwisch",
   "build-depends": [
     
@@ -2068,43 +2025,6 @@
     "Test"
   ],
   "version": "0.3.0"
-}
-,
-{
-  "api": 1,
-  "auth": "github:alabamenhu",
-  "authors": [
-    "Matthew ‘Matéu’ Stephen STUCKWISCH <mateu@softastur.com>"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Intl::LanguageTag"
-  ],
-  "description": "A simple module for obtaining the user’s preferred language(s)",
-  "license": "Artistic-2.0",
-  "name": "Intl::UserLanguage",
-  "perl": "6.*",
-  "provides": {
-    "Intl::UserLanguage": "lib/Intl/UserLanguage.pm6"
-  },
-  "raku": "6.*",
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/alabamenhu/UserLanguage.git",
-  "tags": [
-    "Language",
-    "Tag",
-    "Preferences",
-    "Locale",
-    "International"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.3.1"
 }
 ,
 {
