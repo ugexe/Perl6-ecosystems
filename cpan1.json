@@ -69079,41 +69079,6 @@
   "depends": [
     
   ],
-  "description": "Provides a DateTime::Julian class (a child class of Raku's DateTime)",
-  "license": "Artistic-2.0",
-  "name": "DateTime::Julian",
-  "perl": "6.d",
-  "provides": {
-    "DateTime::Julian": "lib/DateTime/Julian.rakumod"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "http://www.cpan.org/authors/id/T/TB/TBROWDER/Perl6/DateTime-Julian-1.0.0.tar.gz",
-  "tags": [
-    "Julian day number",
-    "astronomy",
-    "time",
-    "solar",
-    "calendar"
-  ],
-  "test-depends": [
-    "Math::FractionalPart"
-  ],
-  "version": "1.0.0"
-}
-,
-{
-  "auth": "cpan:TBROWDER",
-  "authors": [
-    "Tom Browder"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
   "description": "Provides a DateTime object that returns posix values with fractional seconds",
   "license": "Artistic-2.0",
   "name": "DateTime::Posix",
