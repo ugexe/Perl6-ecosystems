@@ -7096,6 +7096,21 @@
   "depends": [
     
   ],
+  "description": "conditionally use packages",
+  "name": "if",
+  "perl": "6.*",
+  "provides": {
+    "if": "lib/if.pm"
+  },
+  "source-url": "git://github.com/FROGGS/p6-if.git",
+  "version": "0.1.1"
+}
+,
+{
+  "author": "github:FROGGS",
+  "depends": [
+    
+  ],
   "description": "use C-code from within Perl",
   "name": "Inline",
   "perl": "6.*",
@@ -17749,6 +17764,24 @@
     "source": "https://github.com/spitsh/spitsh.git"
   },
   "version": "0.0.31"
+}
+,
+{
+  "authors": [
+    "Steve Mynott <steve.mynott@gmail.com>"
+  ],
+  "depends": [
+    "File::Find"
+  ],
+  "description": "Generate editor tags for perl6. ",
+  "license": "Artistic-2.0",
+  "name": "App::p6tags",
+  "perl": "6.c",
+  "provides": {
+    "App::p6tags": "bin/p6tags"
+  },
+  "source-url": "git://github.com/stmuk/p6-app-p6tags.git",
+  "version": "0.6"
 }
 ,
 {
