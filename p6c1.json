@@ -520,7 +520,7 @@
 ,
 {
   "api": "1",
-  "auth": "fez:guifa",
+  "auth": "zef:guifa",
   "authors": [
     "Matthew ‘Matéu’ Stephen STUCKWISCH <mateu@softastur.com>"
   ],
@@ -528,8 +528,8 @@
     
   ],
   "depends": [
-    "Intl::LanguageTag",
-    "Intl::UserLanguage"
+    "Intl::LanguageTag:auth<zef:guifa>:ver<0.12.1+>",
+    "Intl::UserLanguage:auth<zef:guifa>:ver<0.4.0+>"
   ],
   "description": "A module providing access to the Unicode Common Language Data Repository",
   "license": "Artistic-2.0",
@@ -896,7 +896,6 @@
     "languages-binary/ar-EH.data",
     "languages-binary/nyn.data",
     "languages-binary/zh-Hant-MO.data",
-    "languages-binary/.strings",
     "languages-binary/ro-MD.strings",
     "languages-binary/hr.data",
     "languages-binary/sr-Latn-XK.data",
@@ -1406,7 +1405,6 @@
     "languages-binary/pt-TL.strings",
     "languages-binary/jv.data",
     "languages-binary/ms.strings",
-    "languages-binary/.data",
     "languages-binary/ff-Adlm-SN.data",
     "languages-binary/kkj.strings",
     "languages-binary/en-BI.data",
