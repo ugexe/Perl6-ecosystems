@@ -13705,37 +13705,6 @@
 }
 ,
 {
-  "auth": "zef:raku-community-modules",
-  "authors": [
-    "Zoffix Znet",
-    "Raku community modules maintainers"
-  ],
-  "depends": [
-    "HTTP::UserAgent",
-    "JSON::Fast",
-    "IO::Socket::SSL"
-  ],
-  "description": "No-nonsense, simple HTTP/S client with JSON decoder",
-  "license": "Artistic-2.0",
-  "name": "WWW",
-  "perl": "6.*",
-  "provides": {
-    "WWW": "lib/WWW.pm6"
-  },
-  "support": {
-    "source": "https://github.com/raku-community-modules/WWW.git"
-  },
-  "tags": [
-    "HTTP"
-  ],
-  "test-depends": [
-    "Test::When",
-    "Test::META"
-  ],
-  "version": "1.005007"
-}
-,
-{
   "authors": [
     "Zoffix Znet"
   ],
