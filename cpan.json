@@ -485,6 +485,52 @@
     
   ],
   "depends": [
+    "Terminal::ANSIColor",
+    "Terminal::WCWidth",
+    "Text::Tabs"
+  ],
+  "description": "Advanced table generate module for raku lang",
+  "license": "MIT",
+  "name": "Terminal::Table",
+  "perl": "6.c",
+  "provides": {
+    "Terminal::Table": "lib/Terminal/Table.rakumod",
+    "Terminal::Table::Exception": "lib/Terminal/Table/Exception.rakumod",
+    "Terminal::Table::Frame": "lib/Terminal/Table/Frame.rakumod",
+    "Terminal::Table::Generator": "lib/Terminal/Table/Generator.rakumod",
+    "Terminal::Table::LightWrap": "lib/Terminal/Table/LightWrap.rakumod",
+    "Terminal::Table::Settings": "lib/Terminal/Table/Settings.rakumod",
+    "Terminal::Table::Shader": "lib/Terminal/Table/Shader.rakumod",
+    "Terminal::Table::String": "lib/Terminal/Table/String.rakumod",
+    "Terminal::Table::Style": "lib/Terminal/Table/Style.rakumod",
+    "Terminal::Table::VisitorHelper": "lib/Terminal/Table/VisitorHelper.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/A/AL/ALOREN/Perl6/Terminal-Table-0.1.1.tar.gz",
+  "support": {
+    "bugtracker": "https://github.com.araraloren/raku-terminal-table/issues",
+    "source": "https://github.com/araraloren/raku-terminal-table.git"
+  },
+  "tags": [
+    "terminal",
+    "table",
+    "text"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.1.1"
+}
+,
+{
+  "auth": "github:araraloren",
+  "authors": "Loren",
+  "build-depends": [
+    
+  ],
+  "depends": [
     "JSON::Fast",
     "Compress::Zlib",
     "Getopt::Advance",
