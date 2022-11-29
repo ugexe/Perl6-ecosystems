@@ -8054,85 +8054,6 @@
 }
 ,
 {
-  "auth": "github:JJ",
-  "authors": [
-    "Tadeusz “tadzik” Sośnierz"
-  ],
-  "depends": [
-    
-  ],
-  "description": "MAIN? Getopt semantics? Why not both?",
-  "name": "Getopt::Type",
-  "perl": "6.d",
-  "provides": {
-    "Getopt::Type": "lib/Getopt/Type.pm"
-  },
-  "source-url": "https://github.com/JJ/Getopt-Type.git",
-  "support": {
-    "bugtracker": "https://github.com/tadzik/Getopt-Type/issues",
-    "source": "git://github.com/tadzik/Getopt-Type.git"
-  },
-  "version": "0.1.1"
-}
-,
-{
-  "authors": [
-    "JJ Merelo"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "IO::Socket::SSL",
-    "LWP::Simple"
-  ],
-  "description": "blah blah blah",
-  "license": "Artistic-2.0",
-  "name": "App::Squashathons",
-  "perl": "6.c",
-  "provides": {
-    "App::Squashathons": "lib/App/Squashathons.pm6"
-  },
-  "resources": [
-    "script/squashalyzer"
-  ],
-  "source-url": "https://github.com/JJ/p6-app-squashathons.git",
-  "tags": [
-    "squashathons",
-    "utilities"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "auth": "github:JJ",
-  "authors": [
-    "Ahmad M. Zawawi"
-  ],
-  "description": "SDL2 with some OO-sugar.",
-  "license": "MIT",
-  "name": "SDL2",
-  "perl": "6.c",
-  "provides": {
-    "SDL2": "lib/SDL2.pm6",
-    "SDL2::Renderer": "lib/SDL2/Renderer.pm6",
-    "SDL2::Window": "lib/SDL2/Window.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/JJ/perl6-sdl2.git",
-  "test-depends": [
-    "Test",
-    "SDL2::Raw:ver<0.2+>"
-  ],
-  "version": "0.0.3"
-}
-,
-{
   "authors": [
     "JJ Merelo"
   ],
@@ -8161,35 +8082,6 @@
   "tags": [
     "unicode",
     "security"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
-}
-,
-{
-  "authors": [
-    "JJ Merelo"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Renders 2d arrays to a console using block symbols",
-  "license": "Artistic-2.0",
-  "name": "Array::Shaped::Console",
-  "provides": {
-    "Array::Shaped::Console": "lib/Array/Shaped/Console.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/JJ/raku-array-shaped-console.git",
-  "tags": [
-    
   ],
   "test-depends": [
     
