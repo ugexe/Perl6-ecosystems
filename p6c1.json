@@ -6932,7 +6932,7 @@
 }
 ,
 {
-  "author": "Lucien Grondin",
+  "author": "grondilu",
   "depends": [
     
   ],
@@ -6941,7 +6941,8 @@
   "name": "Digest",
   "perl": "6.*",
   "provides": {
-    "Digest": "lib/Digest.rakumod",
+    "Digest::HMAC": "lib/Digest/HMAC.rakumod",
+    "Digest::MD5": "lib/Digest/MD5.rakumod",
     "Digest::RIPEMD": "lib/Digest/RIPEMD.rakumod",
     "Digest::SHA1": "lib/Digest/SHA1.rakumod",
     "Digest::SHA2": "lib/Digest/SHA2.rakumod",
@@ -6949,7 +6950,7 @@
     "Keccak-p": "lib/Keccak-p.rakumod"
   },
   "source-url": "git://github.com/grondilu/libdigest-raku.git",
-  "version": "0.21.1"
+  "version": "0.22.1"
 }
 ,
 {
