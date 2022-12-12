@@ -8034,42 +8034,6 @@
 }
 ,
 {
-  "authors": [
-    "JJ Merelo"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "JSON::Fast"
-  ],
-  "description": "Check scripts for confusables and mixed script",
-  "license": "Artistic-2.0",
-  "name": "Unicode::Security",
-  "perl": "6.d",
-  "provides": {
-    "Unicode::Security": "lib/Unicode/Security.pm6"
-  },
-  "resources": [
-    "data/confusables.json",
-    "data/confusables-ws.json",
-    "data/iso15924-utf8-20180827.txt",
-    "scripts/generate-map-confusables.p6",
-    "scripts/generate-map-ws.p6",
-    "scripts/README.md"
-  ],
-  "source-url": "https://github.com/JJ/perl6-unicode-security.git",
-  "tags": [
-    "unicode",
-    "security"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.2"
-}
-,
-{
   "auth": "github:JJ",
   "authors": [
     "JJ Merelo"
