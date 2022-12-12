@@ -8062,37 +8062,6 @@
 }
 ,
 {
-  "auth": "github:JJ",
-  "authors": [
-    "JJ Merelo"
-  ],
-  "depends": [
-    "META6:ver<0.0.24+>"
-  ],
-  "description": "Creates a single method for accessing META6 values that might be in two places",
-  "license": "Artistic-2.0",
-  "meta-version": 0,
-  "name": "Dist::META",
-  "perl": "6.d",
-  "provides": {
-    "Dist::META": "lib/Dist/META.pm6"
-  },
-  "source-url": "https://github.com/JJ/raku-dist-meta.git",
-  "tags": [
-    "modules",
-    "ecosystem",
-    "devel",
-    "meta",
-    "utils",
-    "META6"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.0.3"
-}
-,
-{
   "api": "2",
   "auth": "github:JJ",
   "authors": [
@@ -8167,7 +8136,6 @@
   "description": "IO can be captured and tested",
   "license": "Artistic-2.0",
   "name": "IO::Capture::Simple",
-  "perl": "6.c",
   "provides": {
     "IO::Capture::Simple": "lib/IO/Capture/Simple.pm6",
     "Test::IO::Capture": "lib/Test/IO/Capture.pm6"
