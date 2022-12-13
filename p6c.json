@@ -6887,20 +6887,22 @@
 ,
 {
   "authors": [
-    "Lucien Grondin"
+    "grondilu"
   ],
   "depends": [
     "Digest"
   ],
-  "description": "Edwards-Curve Digital Signature Algorithm (EdDSA)",
+  "description": "Elliptic curves cryptography in raku",
   "license": "MIT",
-  "name": "Ed25519",
+  "name": "EC",
   "perl": "6.d",
   "provides": {
-    "Ed25519": "lib/Ed25519.rakumod"
+    "ed25519": "lib/ed25519.rakumod",
+    "secp256k1": "lib/secp256k1.rakumod"
   },
   "tags": [
     "EdDSA",
+    "secp256k1",
     "crypto",
     "Edwards"
   ],
@@ -6928,7 +6930,7 @@
     "Digest::SHA3": "lib/Digest/SHA3.rakumod"
   },
   "source-url": "git://github.com/grondilu/libdigest-raku.git",
-  "version": "0.25.7"
+  "version": "0.25.8"
 }
 ,
 {
