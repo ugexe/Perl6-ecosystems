@@ -6946,13 +6946,14 @@
   "provides": {
     "Digest::HMAC": "lib/Digest/HMAC.rakumod",
     "Digest::MD5": "lib/Digest/MD5.rakumod",
+    "Digest::OpenSSL": "lib/Digest/OpenSSL.rakumod",
     "Digest::RIPEMD": "lib/Digest/RIPEMD.rakumod",
     "Digest::SHA1": "lib/Digest/SHA1.rakumod",
     "Digest::SHA2": "lib/Digest/SHA2.rakumod",
     "Digest::SHA3": "lib/Digest/SHA3.rakumod"
   },
   "source-url": "git://github.com/grondilu/libdigest-raku.git",
-  "version": "0.27.0"
+  "version": "0.27.1"
 }
 ,
 {
@@ -7011,10 +7012,9 @@
     "crypto"
   ],
   "test-depends": [
-    "Digest",
-    "Digest::SHA1::Native"
+    "Digest"
   ],
-  "version": "0.3.0"
+  "version": "0.3.2"
 }
 ,
 {
