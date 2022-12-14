@@ -6913,11 +6913,12 @@
   "depends": [
     "Digest"
   ],
-  "description": "Elliptic curves cryptography in raku",
+  "description": "Elliptic curve cryptography in raku",
   "license": "MIT",
   "name": "EC",
   "perl": "6.d",
   "provides": {
+    "FiniteFieldArithmetics": "lib/FiniteFieldArithmetics.rakumod",
     "ed25519": "lib/ed25519.rakumod",
     "secp256k1": "lib/secp256k1.rakumod"
   },
@@ -6930,7 +6931,7 @@
   "test-depends": [
     "JSON::Tiny"
   ],
-  "version": "0.4.11"
+  "version": "0.5.1"
 }
 ,
 {
