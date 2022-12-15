@@ -5850,44 +5850,6 @@
 }
 ,
 {
-  "auth": "cpan:fooist",
-  "authors": [
-    "Jeffrey Goff <drforr@pobox.com>",
-    "Daniel Lathrop <dwl@foo.ist>"
-  ],
-  "build-depends": [
-    "LibraryCheck"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Perl 6 interface to GNU Readline, the CLI-based line reading library",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "Readline",
-  "perl": "6.c",
-  "provides": {
-    "Readline": "lib/Readline.pm"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "https://github.com/fooist/perl6-readline.git",
-  "support": {
-    "source": "https://github.com/fooist/perl6-readline"
-  },
-  "tags": [
-    "terminal",
-    "readline",
-    "CLI"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.1.6"
-}
-,
-{
   "author": "github:FROGGS",
   "depends": [
     "Digest",
@@ -6910,7 +6872,7 @@
   "test-depends": [
     "JSON::Tiny"
   ],
-  "version": "0.5.1"
+  "version": "0.5.3"
 }
 ,
 {
@@ -6932,7 +6894,7 @@
     "Digest::SHA3": "lib/Digest/SHA3.rakumod"
   },
   "source-url": "git://github.com/grondilu/libdigest-raku.git",
-  "version": "0.27.1"
+  "version": "0.27.3"
 }
 ,
 {
