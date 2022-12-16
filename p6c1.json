@@ -6941,18 +6941,18 @@
 }
 ,
 {
-  "author": "Lucien Grondin",
+  "author": "grondilu",
   "depends": [
     
   ],
-  "description": "Modular arithmetics in Perl6",
+  "description": "Finite Fields in raku",
   "license": "Artistic-2.0",
-  "name": "Modular",
+  "name": "FiniteFields",
   "provides": {
-    "Modular": "lib/Modular.pm"
+    "FiniteField": "lib/FiniteField.pm"
   },
-  "source-url": "git://github.com/grondilu/p6-modular.git",
-  "version": "0.1.2"
+  "source-url": "git://github.com/grondilu/finite-field-raku.git",
+  "version": "0.2.0"
 }
 ,
 {
