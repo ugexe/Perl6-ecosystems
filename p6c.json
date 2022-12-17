@@ -6927,10 +6927,11 @@
   "description": "Finite Fields in raku",
   "license": "Artistic-2.0",
   "name": "FiniteFields",
+  "perl": "6.*",
   "provides": {
-    "FiniteField": "lib/FiniteField.pm"
+    "FiniteField": "lib/FiniteField.rakumod"
   },
-  "source-url": "git://github.com/grondilu/finite-field-raku.git",
+  "source-url": "git@github.com:grondilu/finite-fields-raku.git",
   "version": "0.2.0"
 }
 ,
