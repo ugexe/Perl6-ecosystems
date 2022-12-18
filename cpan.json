@@ -48122,6 +48122,70 @@
 }
 ,
 {
+  "NOTE": "The complex tests make use of modules not installed with this package. E.g. YAMLish",
+  "authors": [
+    "Marcel Timmerman",
+    "Paweł Pabian"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "BSON",
+    "Semaphore::ReadersWriters",
+    "Config::DataLang::Refine",
+    "Auth::SCRAM",
+    "Base64",
+    "OpenSSL",
+    "Unicode::PRECIS",
+    "Terminal::ANSIColor",
+    "Log::Async"
+  ],
+  "description": "MongoDB driver",
+  "license": "Artistic-2.0",
+  "name": "MongoDB",
+  "old-provides": {
+    "MongoDB::MDBConfig": "lib/MongoDB/MDBConfig.rakumod",
+    "MongoDB::Server": "lib/MongoDB/Server.rakumod",
+    "MongoDB::Server::Control": "lib/MongoDB/Server/Control.rakumod"
+  },
+  "perl": "6.d",
+  "provides": {
+    "MongoDB": "lib/MongoDB.rakumod",
+    "MongoDB::Authenticate::Credential": "lib/MongoDB/Authenticate/Credential.rakumod",
+    "MongoDB::Authenticate::Scram": "lib/MongoDB/Authenticate/Scram.rakumod",
+    "MongoDB::Client": "lib/MongoDB/Client.rakumod",
+    "MongoDB::Collection": "lib/MongoDB/Collection.rakumod",
+    "MongoDB::Cursor": "lib/MongoDB/Cursor.rakumod",
+    "MongoDB::Database": "lib/MongoDB/Database.rakumod",
+    "MongoDB::HL::Collection": "lib/MongoDB/HL/Collection.rakumod",
+    "MongoDB::HL::Users": "lib/MongoDB/HL/Users.rakumod",
+    "MongoDB::Header": "lib/MongoDB/Header.rakumod",
+    "MongoDB::Log": "lib/MongoDB/Log.rakumod",
+    "MongoDB::ObserverEmitter": "lib/MongoDB/ObserverEmitter.rakumod",
+    "MongoDB::Server::Monitor": "lib/MongoDB/Server/Monitor.rakumod",
+    "MongoDB::ServerPool": "lib/MongoDB/ServerPool.rakumod",
+    "MongoDB::ServerPool::Server": "lib/MongoDB/ServerPool/Server.rakumod",
+    "MongoDB::SocketPool": "lib/MongoDB/SocketPool.rakumod",
+    "MongoDB::SocketPool::Socket": "lib/MongoDB/SocketPool/Socket.rakumod",
+    "MongoDB::Timer": "lib/MongoDB/Timer.rakumod",
+    "MongoDB::Uri": "lib/MongoDB/Uri.rakumod",
+    "MongoDB::Wire": "lib/MongoDB/Wire.rakumod"
+  },
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/raku-mongodb-driver-0.43.21.tar.gz",
+  "tags": [
+    "NoSQL",
+    "database",
+    "mongodb",
+    "driver"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.43.21"
+}
+,
+{
   "authors": [
     "Marcel Timmerman"
   ],
