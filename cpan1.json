@@ -3716,6 +3716,32 @@
   "authors": [
     "Brian Duggan"
   ],
+  "depends": [
+    
+  ],
+  "description": "Tools to accompany repl",
+  "license": "MIT",
+  "name": "Repl::Tools",
+  "provides": {
+    "Repl::Tools": "lib/Repl/Tools.rakumod"
+  },
+  "raku": "6.d",
+  "repo-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/B/BD/BDUGGAN/Perl6/Repl-Tools-0.0.1.tar.gz",
+  "tags": [
+    "Repl"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.1"
+}
+,
+{
+  "auth": "cpan:bduggan",
+  "authors": [
+    "Brian Duggan"
+  ],
   "description": "Raku ANSI escape sequences",
   "license": "MIT",
   "name": "Terminal::ANSI",
