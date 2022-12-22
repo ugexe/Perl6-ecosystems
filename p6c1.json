@@ -17218,8 +17218,12 @@
 }
 ,
 {
+  "auth": "zef:thundergnat",
   "authors": [
     "Steve Schulze (thundergnat)"
+  ],
+  "build-depends": [
+    
   ],
   "depends": [
     
@@ -17227,11 +17231,13 @@
   "description": "For REALLY clean code.",
   "license": "Artistic-2.0",
   "name": "Acme::Scrub",
-  "perl": "6.*",
+  "perl": "6.d",
   "provides": {
     "Acme::Scrub": "lib/Acme/Scrub.pm6"
   },
-  "source-type": "git",
+  "resources": [
+    
+  ],
   "source-url": "git://github.com/thundergnat/Acme-Scrub.git",
   "tags": [
     "Bleach",
@@ -17239,7 +17245,10 @@
     "Obfuscate",
     "Silly"
   ],
-  "version": "0.2.0"
+  "test-depends": [
+    
+  ],
+  "version": "0.2.1"
 }
 ,
 {
