@@ -17188,40 +17188,6 @@
 }
 ,
 {
-  "auth": "zef:thundergnat",
-  "authors": [
-    "Steve Schulze (thundergnat)"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "For REALLY clean code.",
-  "license": "Artistic-2.0",
-  "name": "Acme::Scrub",
-  "perl": "6.d",
-  "provides": {
-    "Acme::Scrub": "lib/Acme/Scrub.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/thundergnat/Acme-Scrub.git",
-  "tags": [
-    "Bleach",
-    "Whitespace",
-    "Obfuscate",
-    "Silly"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.2.1"
-}
-,
-{
   "authors": [
     "Steve Schulze (thundergnat)"
   ],
@@ -17379,32 +17345,6 @@
 ,
 {
   "authors": [
-    "Steve Schulze (thundergnat)"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Various number-string conversion utilities",
-  "license": "Artistic-2.0",
-  "name": "Lingua::EN::Numbers",
-  "perl": "6.*",
-  "provides": {
-    "Lingua::EN::Numbers": "lib/Lingua/EN/Numbers.pm6"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/thundergnat/Lingua-EN-Numbers.git",
-  "tags": [
-    "Number",
-    "Convert",
-    "Cardinal",
-    "Ordinal",
-    "Commas"
-  ],
-  "version": "2.8.2"
-}
-,
-{
-  "authors": [
     "thundergnat"
   ],
   "build-depends": [
@@ -17511,30 +17451,6 @@
   "authors": [
     "Steve Schulze (thundergnat)"
   ],
-  "depends": [
-    
-  ],
-  "description": "Returns all prime factors of an integer.",
-  "license": "Artistic-2.0",
-  "name": "Prime::Factor",
-  "perl": "6.*",
-  "provides": {
-    "Prime::Factor": "lib/Prime/Factor.pm6"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/thundergnat/Prime-Factor.git",
-  "tags": [
-    "Number",
-    "Prime",
-    "Factor"
-  ],
-  "version": "0.4.0"
-}
-,
-{
-  "authors": [
-    "Steve Schulze (thundergnat)"
-  ],
   "build-depends": [
     
   ],
@@ -17622,31 +17538,6 @@
     "Test"
   ],
   "version": "0.0.1"
-}
-,
-{
-  "authors": [
-    "Steve Schulze (thundergnat)"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Provides several routines to ease natural sorting.",
-  "license": "Artistic-2.0",
-  "name": "Sort::Naturally",
-  "perl": "6.*",
-  "provides": {
-    "Sort::Naturally": "lib/Sort/Naturally.pm6"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/thundergnat/Sort-Naturally.git",
-  "tags": [
-    "Sort",
-    "Comparitor",
-    "Number String",
-    "Order"
-  ],
-  "version": "0.2.2"
 }
 ,
 {
