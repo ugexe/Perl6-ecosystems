@@ -12471,6 +12471,9 @@
 }
 ,
 {
+  "authors": [
+    "Konstantin Narkhov"
+  ],
   "depends": [
     "P5quotemeta"
   ],
@@ -12483,7 +12486,7 @@
     "Router::Right::Submapper": "lib/Router/Right/Submapper.rakumod"
   },
   "source-url": "git://gitlab.com/pheix/router-right-perl6.git",
-  "version": "0.0.55"
+  "version": "0.0.57"
 }
 ,
 {
@@ -17221,6 +17224,7 @@
 }
 ,
 {
+  "auth": "zef:thundergnat",
   "authors": [
     "Steve Schulze (thundergnat)"
   ],
@@ -17230,14 +17234,16 @@
   "depends": [
     
   ],
-  "description": "guess file type using the libmagic heuristic library",
+  "description": "Guess file type using the libmagic heuristic library",
   "license": "Artistic-2.0",
   "name": "Filetype::Magic",
-  "perl": "6",
+  "perl": "6.*",
   "provides": {
     "Filetype::Magic": "lib/Filetype/Magic.pm6"
   },
-  "source-type": "git",
+  "resources": [
+    
+  ],
   "source-url": "git://github.com/thundergnat/Filetype-Magic.git",
   "tags": [
     "file",
@@ -17246,12 +17252,13 @@
     "magic"
   ],
   "test-depends": [
-    "Test"
+    
   ],
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
 ,
 {
+  "auth": "zef:thundergnat",
   "authors": [
     "Steve Schulze (thundergnat)"
   ],
@@ -17261,17 +17268,16 @@
   "depends": [
     
   ],
-  "description": "Fixed size unsigned integers",
+  "description": "Unsigned fixed sized Integers",
   "license": "Artistic-2.0",
   "name": "FixedInt",
-  "perl": "6",
+  "perl": "6.*",
   "provides": {
     "FixedInt": "lib/FixedInt.rakumod"
   },
   "resources": [
     
   ],
-  "source-type": "git",
   "source-url": "git://github.com/thundergnat/FixedInt.git",
   "tags": [
     "UInt",
@@ -17283,10 +17289,11 @@
   "test-depends": [
     
   ],
-  "version": "0.0.4"
+  "version": "0.0.5"
 }
 ,
 {
+  "auth": "zef:thundergnat",
   "authors": [
     "Steve Schulze (thundergnat)"
   ],
@@ -17299,14 +17306,13 @@
   "description": "reflected binary Gray Code encoder/decoder",
   "license": "Artistic-2.0",
   "name": "Gray::Code::RBC",
-  "perl": "6",
+  "perl": "6.d",
   "provides": {
     "Gray::Code::RBC": "lib/Gray/Code/RBC.pm6"
   },
   "resources": [
     
   ],
-  "source-type": "git",
   "source-url": "git://github.com/thundergnat/Gray-Code-RBC.git",
   "tags": [
     "Gray",
@@ -17315,7 +17321,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
 ,
 {
