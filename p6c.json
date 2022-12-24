@@ -553,7 +553,7 @@
 }
 ,
 {
-  "auth": "github:alabamenhu",
+  "auth": "zef:guifa",
   "authors": [
     "Matthew Stephen Stuckwisch"
   ],
@@ -561,15 +561,15 @@
     
   ],
   "depends": [
-    "Intl::CLDR:ver<0.5+>",
-    "Intl::UserLanguage"
+    "Intl::CLDR:ver<0.7.3+>:auth<zef:guifa>",
+    "User::Language:ver<0.5.0+>:auth<zef:guifa>"
   ],
   "description": "A module for formatting lists in a localized manner",
   "license": "Artistic-2.0",
   "name": "Intl::Format::List",
   "perl": "6.*",
   "provides": {
-    "Intl::Format::List": "lib/Intl/Format/List.pm6"
+    "Intl::Format::List": "lib/Intl/Format/List.rakumod"
   },
   "raku": "6.*",
   "resources": [
@@ -579,7 +579,7 @@
   "test-depends": [
     
   ],
-  "version": "0.5.0"
+  "version": "0.6.0+"
 }
 ,
 {
