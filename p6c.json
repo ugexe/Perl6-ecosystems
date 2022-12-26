@@ -2595,34 +2595,34 @@
 }
 ,
 {
+  "auth": "zef:bbkr",
   "authors": [
     "Paweł bbkr Pabian"
   ],
   "description": "MaxMind GeoIP v2 databases reader.",
   "license": "Artistic-2.0",
   "name": "GeoIP2",
-  "perl": "6.d",
   "provides": {
     "GeoIP2": "lib/GeoIP2.rakumod"
   },
   "source-url": "git://github.com/bbkr/GeoIP2.git",
-  "version": "1.1.1"
+  "version": "1.1.2"
 }
 ,
 {
+  "auth": "zef:bbkr",
   "authors": [
     "Paweł bbkr Pabian"
   ],
   "description": "Toolset for handling similarly looking characters in strings.",
   "license": "Artistic-2.0",
   "name": "HomoGlypher",
-  "perl": "6.d",
   "provides": {
     "HomoGlypher": "lib/HomoGlypher.rakumod",
     "HomoGlypher::Mappings": "lib/HomoGlypher/Mappings.rakumod"
   },
   "source-url": "git://github.com/bbkr/HomoGlypher.git",
-  "version": "1.8.2"
+  "version": "1.8.3"
 }
 ,
 {
@@ -2650,18 +2650,18 @@
 }
 ,
 {
+  "auth": "zef:bbkr",
   "authors": [
     "Paweł bbkr Pabian"
   ],
   "description": "Generate sequence of random samples from probability distribution function.",
   "license": "Artistic-2.0",
   "name": "Metropolis",
-  "perl": "6.d",
   "provides": {
     "Metropolis": "lib/Metropolis.rakumod"
   },
   "source-url": "git://github.com/bbkr/Metropolis.git",
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
 ,
 {
@@ -2680,18 +2680,18 @@
 }
 ,
 {
+  "auth": "zef:bbkr",
   "authors": [
     "Paweł bbkr Pabian"
   ],
   "description": "Shorten and obfuscate IDs.",
   "license": "Artistic-2.0",
   "name": "TinyID",
-  "perl": "6.d",
   "provides": {
     "TinyID": "lib/TinyID.rakumod"
   },
   "source-url": "git://github.com/bbkr/TinyID.git",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
 ,
 {
@@ -17191,6 +17191,7 @@
 }
 ,
 {
+  "auth": "zef:thundergnat",
   "authors": [
     "thundergnat"
   ],
@@ -17200,17 +17201,16 @@
   "depends": [
     
   ],
-  "description": "Read a stream of joystick events",
+  "description": "Read a stream of joystick events under Linux",
   "license": "Artistic-2.0",
-  "name": "Linux-Joystick",
-  "perl": "6.c",
+  "name": "Linux::Joystick",
+  "perl": "6.*",
   "provides": {
     "Linux::Joystick": "lib/Linux/Joystick.pm6"
   },
   "resources": [
     
   ],
-  "source-type": "git",
   "source-url": "git://github.com/thundergnat/Linux-Joystick.git",
   "tags": [
     "joystick",
@@ -17220,7 +17220,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
 ,
 {
