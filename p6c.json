@@ -16298,6 +16298,31 @@
 ,
 {
   "depends": [
+    "XML"
+  ],
+  "description": "XML Application Languages, including TAL.",
+  "name": "Flower",
+  "perl": "6.*",
+  "provides": {
+    "Flower": "lib/Flower.pm6",
+    "Flower::Lang": "lib/Flower/Lang.pm6",
+    "Flower::Provider::File": "lib/Flower/Provider/File.pm6",
+    "Flower::TAL": "lib/Flower/TAL.pm6",
+    "Flower::TAL::METAL": "lib/Flower/TAL/METAL.pm6",
+    "Flower::TAL::Repeat": "lib/Flower/TAL/Repeat.pm6",
+    "Flower::TAL::TAL": "lib/Flower/TAL/TAL.pm6",
+    "Flower::TAL::TALES": "lib/Flower/TAL/TALES.pm6",
+    "Flower::TAL::TALES::Debug": "lib/Flower/TAL/TALES/Debug.pm6",
+    "Flower::TAL::TALES::Default": "lib/Flower/TAL/TALES/Defaut.pm6",
+    "Flower::TAL::TALES::List": "lib/Flower/TAL/TALES/List.pm6",
+    "Flower::TAL::TALES::Text": "lib/Flower/TAL/TALES/Text.pm6"
+  },
+  "source-url": "git://github.com/supernovus/flower.git",
+  "version": "*"
+}
+,
+{
+  "depends": [
     
   ],
   "description": "A Genshi-like template engine",
