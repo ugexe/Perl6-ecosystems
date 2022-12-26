@@ -2595,106 +2595,6 @@
 }
 ,
 {
-  "auth": "zef:bbkr",
-  "authors": [
-    "Paweł bbkr Pabian"
-  ],
-  "description": "MaxMind GeoIP v2 databases reader.",
-  "license": "Artistic-2.0",
-  "name": "GeoIP2",
-  "provides": {
-    "GeoIP2": "lib/GeoIP2.rakumod"
-  },
-  "source-url": "git://github.com/bbkr/GeoIP2.git",
-  "version": "1.1.2"
-}
-,
-{
-  "auth": "zef:bbkr",
-  "authors": [
-    "Paweł bbkr Pabian"
-  ],
-  "description": "Toolset for handling similarly looking characters in strings.",
-  "license": "Artistic-2.0",
-  "name": "HomoGlypher",
-  "provides": {
-    "HomoGlypher": "lib/HomoGlypher.rakumod",
-    "HomoGlypher::Mappings": "lib/HomoGlypher/Mappings.rakumod"
-  },
-  "source-url": "git://github.com/bbkr/HomoGlypher.git",
-  "version": "1.8.3"
-}
-,
-{
-  "authors": [
-    "Paweł bbkr Pabian",
-    "Ahmad M. Zawawi (azawawi)"
-  ],
-  "depends": [
-    "JSON::Tiny",
-    "URI",
-    "HTTP::Easy",
-    "HTTP::UserAgent"
-  ],
-  "description": "JSON-RPC 2.0 client and server.",
-  "license": "Artistic-2.0",
-  "name": "JSON::RPC",
-  "perl": "6.c",
-  "provides": {
-    "JSON::RPC::Client": "lib/JSON/RPC/Client.rakumod",
-    "JSON::RPC::Server": "lib/JSON/RPC/Server.rakumod",
-    "X::JSON::RPC": "lib/X/JSON/RPC.rakumod"
-  },
-  "source-url": "git://github.com/bbkr/JSON-RPC.git",
-  "version": "1.0.3"
-}
-,
-{
-  "auth": "zef:bbkr",
-  "authors": [
-    "Paweł bbkr Pabian"
-  ],
-  "description": "Generate sequence of random samples from probability distribution function.",
-  "license": "Artistic-2.0",
-  "name": "Metropolis",
-  "provides": {
-    "Metropolis": "lib/Metropolis.rakumod"
-  },
-  "source-url": "git://github.com/bbkr/Metropolis.git",
-  "version": "1.0.2"
-}
-,
-{
-  "authors": [
-    "Paweł bbkr Pabian"
-  ],
-  "description": "Generate superficially real-looking text.",
-  "license": "Artistic-2.0",
-  "name": "Text::Markov",
-  "perl": "6.c",
-  "provides": {
-    "Text::Markov": "lib/Text/Markov.rakumod"
-  },
-  "source-url": "git://github.com/bbkr/Text-Markov.git",
-  "version": "1.0.2"
-}
-,
-{
-  "auth": "zef:bbkr",
-  "authors": [
-    "Paweł bbkr Pabian"
-  ],
-  "description": "Shorten and obfuscate IDs.",
-  "license": "Artistic-2.0",
-  "name": "TinyID",
-  "provides": {
-    "TinyID": "lib/TinyID.rakumod"
-  },
-  "source-url": "git://github.com/bbkr/TinyID.git",
-  "version": "1.0.3"
-}
-,
-{
   "author": "github:bduggan",
   "depends": [
     
@@ -17223,38 +17123,6 @@
 {
   "auth": "zef:thundergnat",
   "authors": [
-    "thundergnat"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    
-  ],
-  "description": "Read a stream of joystick events under Linux",
-  "license": "Artistic-2.0",
-  "name": "Linux::Joystick",
-  "perl": "6.*",
-  "provides": {
-    "Linux::Joystick": "lib/Linux/Joystick.pm6"
-  },
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/thundergnat/Linux-Joystick.git",
-  "tags": [
-    "joystick",
-    "game controller",
-    "event stream"
-  ],
-  "test-depends": [
-    
-  ],
-  "version": "0.0.3"
-}
-,
-{
-  "authors": [
     "Steve Schulze (thundergnat)"
   ],
   "build-depends": [
@@ -17263,17 +17131,16 @@
   "depends": [
     
   ],
-  "description": "Efficient, high accuracy root calculations ",
+  "description": "High precision root and Integer root calculations",
   "license": "Artistic-2.0",
   "name": "Math::Root",
-  "perl": "6",
+  "perl": "6.*",
   "provides": {
     "Math::Root": "lib/Math/Root.rakumod"
   },
   "resources": [
     
   ],
-  "source-type": "git",
   "source-url": "git://github.com/thundergnat/Math-Root.git",
   "tags": [
     "root",
@@ -17285,7 +17152,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
 ,
 {
