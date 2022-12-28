@@ -17127,6 +17127,7 @@
 }
 ,
 {
+  "auth": "zef:thundergnat",
   "authors": [
     "Steve Schulze (thundergnat)"
   ],
@@ -17136,17 +17137,16 @@
   "depends": [
     
   ],
-  "description": "Rotate, but for strings rather than arrays",
+  "description": "Rotate, but for Strings directly instead of through Lists",
   "license": "Artistic-2.0",
   "name": "String::Rotate",
-  "perl": "6.c",
+  "perl": "6.*",
   "provides": {
     "String::Rotate": "lib/String/Rotate.pm6"
   },
   "resources": [
     
   ],
-  "source-type": "git",
   "source-url": "git://github.com/thundergnat/String-Rotate.git",
   "tags": [
     "String",
@@ -17157,10 +17157,11 @@
   "test-depends": [
     
   ],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
 ,
 {
+  "auth": "zef:thundergnat",
   "authors": [
     "Steve Schulze (thundergnat)"
   ],
@@ -17173,14 +17174,13 @@
   "description": "Splice, but on strings rather than arrays",
   "license": "Artistic-2.0",
   "name": "String::Splice",
-  "perl": "6.c",
+  "perl": "6.*",
   "provides": {
     "String::Splice": "lib/String/Splice.pm6"
   },
   "resources": [
     
   ],
-  "source-type": "git",
   "source-url": "git://github.com/thundergnat/String-Splice.git",
   "tags": [
     "String",
@@ -17190,13 +17190,13 @@
   "test-depends": [
     
   ],
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
 ,
 {
-  "auth": "github:thundergnat",
+  "auth": "zef:thundergnat",
   "authors": [
-    "Steve Schulze"
+    "Steve Schulze (thundergnat)"
   ],
   "build-depends": [
     
@@ -17204,14 +17204,16 @@
   "depends": [
     
   ],
-  "description": "Generate 'boxed' tables in a terminal",
+  "description": "Draw boxed tables in a terminal.",
   "license": "Artistic-2.0",
   "name": "Terminal::Boxer",
-  "perl": "6.c",
+  "perl": "6.d",
   "provides": {
     "Terminal::Boxer": "lib/Terminal/Boxer.pm6"
   },
-  "source-type": "git",
+  "resources": [
+    
+  ],
   "source-url": "git://github.com/thundergnat/Terminal-Boxer.git",
   "tags": [
     "terminal",
@@ -17221,12 +17223,13 @@
   "test-depends": [
     
   ],
-  "version": "0.3.0"
+  "version": "0.3.1"
 }
 ,
 {
+  "auth": "zef:thundergnat",
   "authors": [
-    "thundergnat"
+    "Steve Schulze (thundergnat)"
   ],
   "build-depends": [
     
@@ -17234,10 +17237,10 @@
   "depends": [
     
   ],
-  "description": "Easy centering of text in a field",
+  "description": "Easy centering of text fields",
   "license": "Artistic-2.0",
   "name": "Text::Center",
-  "perl": "6.c",
+  "perl": "6.*",
   "provides": {
     "Text::Center": "lib/Text/Center.pm6"
   },
@@ -17252,7 +17255,7 @@
   "test-depends": [
     
   ],
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
 ,
 {
