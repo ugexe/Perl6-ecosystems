@@ -7924,47 +7924,6 @@
 }
 ,
 {
-  "api": "2",
-  "auth": "zef:jjmerelo",
-  "authors": [
-    "AntonioGamiz",
-    "moritz",
-    "JJ Merelo",
-    "Raku team"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "dot:from<bin>"
-  ],
-  "description": "Parse a type graph description file",
-  "license": "Artistic-2.0",
-  "name": "Doc::TypeGraph",
-  "provides": {
-    "Doc::Type": "lib/Doc/Type.pm6",
-    "Doc::TypeGraph": "lib/Doc/TypeGraph.pm6",
-    "Doc::TypeGraph::Decl": "lib/Doc/TypeGraph/Decl.pm6",
-    "Doc::TypeGraph::DeclActions": "lib/Doc/TypeGraph/DeclActions.pm6",
-    "Doc::TypeGraph::Viz": "lib/Doc/TypeGraph/Viz.pm6"
-  },
-  "raku": "6.d",
-  "resources": [
-    "data/type-graph.txt"
-  ],
-  "source-url": "https://github.com/JJ/Raku-Doc-TypeGraph.git",
-  "tags": [
-    "documentation",
-    "configuration",
-    "introspection"
-  ],
-  "test-depends": [
-    "Test::META:ver<0.0.17+>"
-  ],
-  "version": "2.2.1.1"
-}
-,
-{
   "auth": "github:JJ",
   "authors": [
     "JJ Merelo"
