@@ -17116,6 +17116,7 @@
 }
 ,
 {
+  "auth": "zef:thundergnat",
   "authors": [
     "Steve Schulze (thundergnat)"
   ],
@@ -17125,14 +17126,16 @@
   "depends": [
     
   ],
-  "description": "Calculate Levenshtein edit distance for strings. Perl 5 -> 6 port.",
+  "description": "A port of the Perl 5 Text::Levenshtein",
   "license": "Artistic-2.0",
   "name": "Text::Levenshtein",
-  "perl": "6",
+  "perl": "6.*",
   "provides": {
     "Text::Levenshtein": "lib/Text/Levenshtein.pm6"
   },
-  "source-type": "git",
+  "resources": [
+    
+  ],
   "source-url": "git://github.com/thundergnat/Text-Levenshtein.git",
   "tags": [
     "Text",
@@ -17141,9 +17144,9 @@
     "CPAN5"
   ],
   "test-depends": [
-    "Test"
+    
   ],
-  "version": "0.2.3"
+  "version": "0.2.4"
 }
 ,
 {
