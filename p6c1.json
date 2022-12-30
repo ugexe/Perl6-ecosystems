@@ -17044,6 +17044,7 @@
 }
 ,
 {
+  "auth": "zef:thundergnat",
   "authors": [
     "Steve Schulze (thundergnat)"
   ],
@@ -17056,12 +17057,14 @@
   "description": "libxdo automation for X11",
   "license": "Artistic-2.0",
   "name": "X11::libxdo",
-  "perl": "6",
+  "perl": "6.d",
   "provides": {
     "X11::libxdo": "lib/X11/libxdo.pm6"
   },
-  "source-type": "git",
-  "source-url": "git://github.com/thundergnat/X11-Xdo.git",
+  "resources": [
+    
+  ],
+  "source-url": "git://github.com/thundergnat/X11-libxdo.git",
   "tags": [
     "X11",
     "automation",
@@ -17069,9 +17072,9 @@
     "window"
   ],
   "test-depends": [
-    "Test"
+    
   ],
-  "version": "0.1.1"
+  "version": "0.1.2"
 }
 ,
 {
