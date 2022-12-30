@@ -1482,39 +1482,6 @@
 }
 ,
 {
-  "auth": "github:antoniogamiz",
-  "authors": [
-    "Antonio Gamiz Delgado <antoniogamiz10@gmail.com>"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Perl 6 convergence methods to solve lineal and non lineal equations",
-  "license": "GPL-3.0-only",
-  "name": "Math::ConvergenceMethods",
-  "perl": "6.*",
-  "provides": {
-    "Math::ConvergenceMethods": "lib/Math/ConvergenceMethods.pm6",
-    "Math::StoppingConditions": "lib/Math/StoppingConditions.pm6"
-  },
-  "source-type": "git",
-  "source-url": "https://github.com/antoniogamiz/Math-ConvergenceMethods.git",
-  "support": {
-    "bugtracker": "https://github.com/antoniogamiz/Math-ConvergenceMethods/issues",
-    "source": "https://github.com/antoniogamiz/Math-ConvergenceMethods.git"
-  },
-  "tags": [
-    "Math",
-    "Convergence",
-    "Equations"
-  ],
-  "test-depends": [
-    "Test::META"
-  ],
-  "version": "0.5.0"
-}
-,
-{
   "authors": [
     "@Mouq",
     "@coke",
@@ -1532,25 +1499,27 @@
   "depends": [
     
   ],
-  "description": "Set of helper functions to ease working with Pods!",
+  "description": "Toolset of functions to ease working with Pod6s!",
   "license": "Artistic-2.0",
-  "name": "Pod::Utilities",
+  "name": "Pod::Utils",
   "perl": "6.c",
   "provides": {
-    "Pod::Utilities": "lib/Pod/Utilities.pm6",
-    "Pod::Utilities::Build": "lib/Pod/Utilities/Build.pm6"
+    "Pod::Utils": "lib/Pod/Utils.rakumod",
+    "Pod::Utils::Build": "lib/Pod/Utils/Build.rakumod"
   },
   "resources": [
     
   ],
-  "source-url": "https://github.com/antoniogamiz/Pod-Utilities.git",
+  "source-url": "https://github.com/JJ/raku-pod-utils.git",
   "tags": [
-    
+    "Documentation",
+    "Utils",
+    "Devtools"
   ],
   "test-depends": [
     "Test::META"
   ],
-  "version": "0.0.1"
+  "version": "0.0.2"
 }
 ,
 {
