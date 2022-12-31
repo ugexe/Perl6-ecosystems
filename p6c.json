@@ -16990,42 +16990,6 @@
 }
 ,
 {
-  "auth": "github:thundergnat",
-  "authors": [
-    "Steve Schulze"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "X11::libxdo",
-    "Color::Names"
-  ],
-  "description": "Get the color of any screen pixel in an X11 environment",
-  "license": "Artistic-2.0",
-  "name": "App::pixel-pick",
-  "perl": "6.c",
-  "provides": {
-    "pixel-pick": "bin/pixel-pick"
-  },
-  "support": {
-    "bugtracker": "https://github.com/thundergnat/perl6-App-pixel-pick/issues",
-    "source": "https://github.com/thundergnat/perl6-App-pixel-pick.git"
-  },
-  "tags": [
-    "RGB",
-    "color",
-    "color pick",
-    "XKCD",
-    "X11"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.6"
-}
-,
-{
   "depends": [
     
   ],
