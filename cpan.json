@@ -43738,6 +43738,49 @@
     
   ],
   "depends": [
+    "Gnome::N"
+  ],
+  "description": "Raku Gnome Cairo api, Please install Gnome::Gtk3",
+  "license": "Artistic-2.0",
+  "name": "Gnome::Cairo",
+  "perl": "6",
+  "provides": {
+    "Gnome::Cairo": "lib/Gnome/Cairo.rakumod",
+    "Gnome::Cairo::Enums": "lib/Gnome/Cairo/Enums.rakumod",
+    "Gnome::Cairo::FontFace": "lib/Gnome/Cairo/FontFace.rakumod",
+    "Gnome::Cairo::FontOptions": "lib/Gnome/Cairo/FontOptions.rakumod",
+    "Gnome::Cairo::ImageSurface": "lib/Gnome/Cairo/ImageSurface.rakumod",
+    "Gnome::Cairo::Matrix": "lib/Gnome/Cairo/Matrix.rakumod",
+    "Gnome::Cairo::Path": "lib/Gnome/Cairo/Path.rakumod",
+    "Gnome::Cairo::Pattern": "lib/Gnome/Cairo/Pattern.rakumod",
+    "Gnome::Cairo::ScaledFont": "lib/Gnome/Cairo/ScaledFont.rakumod",
+    "Gnome::Cairo::Surface": "lib/Gnome/Cairo/Surface.rakumod",
+    "Gnome::Cairo::Types": "lib/Gnome/Cairo/Types.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/M/MA/MARTIMM/Perl6/gnome-cairo-0.2.8.tar.gz",
+  "tags": [
+    "drawing",
+    "cairo",
+    "gtk",
+    "gdk"
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.2.8"
+}
+,
+{
+  "authors": [
+    "Marcel Timmerman"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
     "Gnome::N",
     "Gnome::Glib",
     "Gnome::GObject",
