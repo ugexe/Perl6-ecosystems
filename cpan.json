@@ -42330,6 +42330,38 @@
 }
 ,
 {
+  "auth": "cpan:LEONT",
+  "authors": [
+    "Leon Timmermans"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Auth::SCRAM::Async",
+    "OpenSSL"
+  ],
+  "description": "A sans-io postgresql client",
+  "license": "Artistic-2.0",
+  "name": "Protocol::Postgres",
+  "perl": "6.d",
+  "provides": {
+    "Protocol::Postgres": "lib/Protocol/Postgres.rakumod"
+  },
+  "resources": [
+    
+  ],
+  "source-url": "http://www.cpan.org/authors/id/L/LE/LEONT/Perl6/Protocol-Postgres-0.0.4.tar.gz",
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.4"
+}
+,
+{
   "authors": [
     "Leon Timmermans"
   ],
