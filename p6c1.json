@@ -6657,18 +6657,14 @@
   "name": "Clifford",
   "perl": "6.c",
   "provides": {
-    "BasisBlade": "lib/BasisBlade.rakumod",
-    "Clifford": "lib/Clifford.rakumod",
-    "MultiVector": "lib/MultiVector.rakumod",
-    "MultiVector::BitEncoded": "lib/MultiVector/BitEncoded.rakumod",
-    "MultiVector::BitEncoded::Default": "lib/MultiVector/BitEncoded/Default.rakumod",
-    "MultiVector::BitEncoded::Optimized": "lib/MultiVector/BitEncoded/Optimized.rakumod"
+    "MultiVector": "lib/MultiVector.rakumod"
   },
   "source-url": "git://github.com/grondilu/clifford.git",
   "tags": [
-    "math"
+    "math",
+    "geometry"
   ],
-  "version": "6.2.1"
+  "version": "7.0.0"
 }
 ,
 {
