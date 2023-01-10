@@ -519,6 +519,40 @@
 }
 ,
 {
+  "auth": "git:alabamenhu",
+  "authors": [
+    "Matthew Stephen Stuckwisch"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Intl::CLDR:ver<0.5+>",
+    "Intl::UserLanguage",
+    "DateTime::Timezones:ver<0.3.5+>"
+  ],
+  "description": "A module to format time in a localized manner",
+  "license": "Artistic-2.0",
+  "name": "Intl::Format::DateTime",
+  "perl": "6.*",
+  "provides": {
+    "Formatters": "lib/Formatters.pm6",
+    "Intl::Format::DateTime": "lib/Intl/Format/DateTime.pm6",
+    "Intl::Format::DateTime::Constants": "lib/Intl/Format/DateTime::Constants.rakumod",
+    "Intl::Format::DateTime::FieldMeta": "lib/Intl/Format/DateTime::FieldMeta.rakumod",
+    "Intl::Format::DateTime::Formatters": "lib/Intl/Format/DateTime::Formatters.pm6"
+  },
+  "resources": [
+    "metazones.data"
+  ],
+  "source-url": "git://github.com/alabamenhu/IntlFormatDateTime.git",
+  "test-depends": [
+    "Test"
+  ],
+  "version": "0.2.0"
+}
+,
+{
   "auth": "zef:guifa",
   "authors": [
     "Matthew Stephen Stuckwisch"
