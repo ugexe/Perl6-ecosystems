@@ -12277,28 +12277,6 @@
 }
 ,
 {
-  "authors": [
-    "github:pierre-vigier",
-    "github:timo"
-  ],
-  "depends": [
-    
-  ],
-  "description": "Data::MessagePack",
-  "license": "Artistic-2.0",
-  "name": "Data::MessagePack",
-  "perl": "6.c",
-  "provides": {
-    "Data::MessagePack": "lib/Data/MessagePack.pm6",
-    "Data::MessagePack::Packer": "lib/Data/MessagePack/Packer.pm6",
-    "Data::MessagePack::StreamingUnpacker": "lib/Data/MessagePack/StreamingUnpacker.pm6",
-    "Data::MessagePack::Unpacker": "lib/Data/MessagePack/Unpacker.pm6"
-  },
-  "source-url": "git@github.com:pierre-vigier/Perl6-Data-MessagePack.git",
-  "version": "0.1.2"
-}
-,
-{
   "author": "github:pierre-vigier",
   "depends": [
     "DateTime::Format",
