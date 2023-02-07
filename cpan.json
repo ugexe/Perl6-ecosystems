@@ -53010,6 +53010,51 @@
     "ios/install-cordova.sh"
   ],
   "source-type": "git",
+  "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Cordova-0.0.5.tar.gz",
+  "support": {
+    
+  },
+  "tags": [
+    
+  ],
+  "test-depends": [
+    
+  ],
+  "version": "0.0.5"
+}
+,
+{
+  "authors": [
+    "Alexey Melezhik"
+  ],
+  "build-depends": [
+    
+  ],
+  "depends": [
+    "Sparrowdo"
+  ],
+  "description": "Sparrowdo module to generate VSTS yaml build definition steps for Cordova build",
+  "license": "NOASSERTION",
+  "name": "Sparrowdo::VSTS::YAML::Cordova",
+  "perl": "6.*",
+  "provides": {
+    "Sparrowdo::VSTS::YAML::Cordova": "lib/Sparrowdo/VSTS/YAML/Cordova.pm6"
+  },
+  "resources": [
+    "windows/npm-install.cmd",
+    "windows/npm-install-cordova.cmd",
+    "windows/prepare.cmd",
+    "windows/platform-add.cmd",
+    "windows/set-version.pl",
+    "windows/build.cmd",
+    "windows/build.yaml",
+    "windows/clean-build-dir.cmd",
+    "ios/build.yaml",
+    "ios/build-cordova.sh",
+    "ios/build.json",
+    "ios/install-cordova.sh"
+  ],
+  "source-type": "git",
   "source-url": "http://www.cpan.org/authors/id/M/ME/MELEZHIK/Perl6/Sparrowdo-VSTS-YAML-Cordova-0.0.6.tar.gz",
   "support": {
     
