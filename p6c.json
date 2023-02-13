@@ -19050,23 +19050,23 @@
 ,
 {
   "authors": [
-    "github:zhouzhen1"
+    "github:iynehz"
   ],
   "depends": [
     "LibraryMake"
   ],
-  "description": "Embedded Gambit-C for Perl 6",
+  "description": "Embedded Gambit-C for Raku",
   "license": "Artistic-2.0",
   "name": "Inline::Scheme::Gambit",
   "perl": "6.*",
   "provides": {
-    "Inline::Scheme::Gambit": "lib/Inline/Scheme/Gambit.pm6"
+    "Inline::Scheme::Gambit": "lib/Inline/Scheme/Gambit.rakumod"
   },
   "resources": [
     "libraries/gambithelper"
   ],
-  "source-url": "git://github.com/zhouzhen1/perl6-Inline-Scheme-Gambit.git",
-  "version": "0.01"
+  "source-url": "git://github.com/iynehz/perl6-Inline-Scheme-Gambit.git",
+  "version": "0.02"
 }
 ,
 {
