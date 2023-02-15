@@ -1838,33 +1838,6 @@
 {
   "author": "atweiden",
   "depends": [
-    "Config::TOML"
-  ],
-  "description": "Calorie tracker and diet planner",
-  "license": "Unlicense",
-  "name": "Sustenance",
-  "perl": "6.*",
-  "provides": {
-    "Sustenance": "lib/Sustenance.pm6",
-    "Sustenance::DietPlan": "lib/Sustenance/DietPlan.pm6",
-    "Sustenance::Parser": "lib/Sustenance/Parser.pm6",
-    "Sustenance::Parser::ParseTree": "lib/Sustenance/Parser/ParseTree.pm6",
-    "Sustenance::Types": "lib/Sustenance/Types.pm6",
-    "Sustenance::Utils": "lib/Sustenance/Utils.pm6",
-    "X::Sustenance": "lib/X/Sustenance.pm6"
-  },
-  "source-type": "git",
-  "source-url": "git://github.com/atweiden/sustenance.git",
-  "support": {
-    "bugtracker": "https://github.com/atweiden/sustenance/issues",
-    "source": "https://github.com/atweiden/sustenance"
-  },
-  "version": "0.0.1"
-}
-,
-{
-  "author": "atweiden",
-  "depends": [
     "Digest::xxHash"
   ],
   "description": "Double-entry accounting ledger parser",
