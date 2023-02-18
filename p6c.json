@@ -18267,7 +18267,6 @@
     "Zef::Service::Shell::DistributionBuilder": "lib/Zef/Service/Shell/DistributionBuilder.rakumod",
     "Zef::Service::Shell::LegacyBuild": "lib/Zef/Service/Shell/LegacyBuild.rakumod",
     "Zef::Service::Shell::PowerShell": "lib/Zef/Service/Shell/PowerShell.rakumod",
-    "Zef::Service::Shell::PowerShell::download": "lib/Zef/Service/Shell/PowerShell/download.rakumod",
     "Zef::Service::Shell::PowerShell::unzip": "lib/Zef/Service/Shell/PowerShell/unzip.rakumod",
     "Zef::Service::Shell::Test": "lib/Zef/Service/Shell/Test.rakumod",
     "Zef::Service::Shell::curl": "lib/Zef/Service/Shell/curl.rakumod",
@@ -18285,7 +18284,6 @@
   "raku": "6.c",
   "resources": [
     "config.json",
-    "scripts/win32http.ps1",
     "scripts/win32unzip.ps1"
   ],
   "support": {
@@ -18304,7 +18302,7 @@
   "test-depends": [
     "Test:ver<6.c+>"
   ],
-  "version": "0.16.2"
+  "version": "0.17.0"
 }
 ,
 {
