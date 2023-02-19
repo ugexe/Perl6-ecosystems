@@ -13076,42 +13076,6 @@
 }
 ,
 {
-  "auth": "perl6",
-  "authors": [
-    "perl6"
-  ],
-  "build-depends": [
-    
-  ],
-  "description": "Raku™ documentation (tools and docs)",
-  "license": "Artistic-2.0",
-  "meta6": "0",
-  "name": "p6doc",
-  "provides": {
-    
-  },
-  "raku": "6.*",
-  "source-url": "git://github.com/Raku/doc.git",
-  "support": {
-    "source": "git://github.com/Raku/doc.git"
-  },
-  "tags": [
-    "perl6",
-    "raku",
-    "pod6",
-    "documentation",
-    "reference"
-  ],
-  "test-depends": [
-    "File::Temp",
-    "Test::META",
-    "Doc::TypeGraph",
-    "Pod::To::HTML"
-  ],
-  "version": "1.006d"
-}
-,
-{
   "api": 1,
   "auth": "github:Raku",
   "authors": [
