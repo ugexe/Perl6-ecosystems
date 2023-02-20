@@ -583,46 +583,6 @@
 }
 ,
 {
-  "auth": "zef:guifa",
-  "authors": [
-    "Matthew Stephen Stuckwisch"
-  ],
-  "build-depends": [
-    
-  ],
-  "depends": [
-    "Intl::CLDR:auth<zef:guifa>:ver<0.7.2+>",
-    "User::Language:auth<zef:guifa>:ver<0.3.1+>"
-  ],
-  "description": "A module for formatting numbers in a localized manner",
-  "license": "Artistic-2.0",
-  "name": "Intl::Format::Number",
-  "perl": "6.*",
-  "provides": {
-    "Intl::Format::Number": "lib/Intl/Format/Number.rakumod",
-    "Intl::Format::Number::Actions": "lib/Intl/Format/Number/Actions.rakumod",
-    "Intl::Format::Number::Grammar": "lib/Intl/Format/Number/Grammar.rakumod",
-    "Intl::Format::NumberOld": "lib/Intl/Format/NumberOld.pm6",
-    "Intl::Format::Util::Digits": "lib/Intl/Format/Util/Digits.pm6"
-  },
-  "raku": "6.*",
-  "resources": [
-    
-  ],
-  "source-url": "git://github.com/alabamenhu/IntlFormatNumber.git",
-  "tags": [
-    "formatting",
-    "international",
-    "localization",
-    "numbers"
-  ],
-  "test-depends": [
-    "Test"
-  ],
-  "version": "0.2.0"
-}
-,
-{
   "auth": "git:alabamenhu",
   "authors": [
     "Matthew Stephen Stuckwisch"
